@@ -283,8 +283,9 @@ labels (e.g. `Params : Mettre le drapeau 1 «tombe» sur ON`).
 - **Every expression tied to an object takes the object's name in quotes as its first parameter**
   (verified), before the ones listed in the bible: `GroupItemValue( "Ini", "Game", "sound" )`.
   Forgetting it in a suggestion gives an expression the editor rejects.
-- A menu option shown as `[menu id 1010]` is not in the project's menu bar (predefined command or
-  deleted item): ask for a screenshot.
+- A menu option shown as `[menu id 1010]` is not in the project's menu bar: an **orphan action**
+  pointing to a deleted menu item (verified). The editor shows the action without any option name
+  (`Disable menu option`). It does nothing: suggest removing it.
 - When in doubt about a line, **ask for a screenshot of the event** rather than guessing.
 - Validated on 162 projects (MFU2 builds 280 to 296, old MMF2 builds 241 to 258, multi-frame projects
   and projects with extensions).
