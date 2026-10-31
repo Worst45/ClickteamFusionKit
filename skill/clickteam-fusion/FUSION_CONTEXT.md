@@ -94,9 +94,11 @@ iterations × the number of `On loop` events; a few hundred iterations remain ne
 
 - **Alterable values**: per object, can be named. The export shows the name when there is one:
   `testPosY("Params")` instead of `Alterable Value F("Params")`. **Recent Fusion 2.5 editors (build 296)
-  number them (value 1, 2, 3…) instead of using letters A, B, C** (verified): in a suggestion, refer to an
-  alterable value by its name and its number, never by a letter. The export does not show the number
-  yet (to verify: 0- or 1-based in the editor).
+  number them from 0 (value 0, 1, 2…), like flags, instead of using letters A, B, C** (verified): in a
+  suggestion, refer to an alterable value by its name and its number, never by a letter. The export
+  does not show the number yet.
+- **An extension without a French language file shows its English text in the French editor**
+  (verified): e.g. String Parser → `Set source string to levelBuffer`. Give the English label then.
 - **Flags**: booleans numbered **from 0** (as in the editor), can be named. The export shows
   `Flag 3 «landed»`.
 - **Global values**: listed at the top of the export.
