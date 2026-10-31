@@ -212,7 +212,7 @@
     "objectType": "-5",
     "num": "-14",
     "when": null,
-    "template": "Number of objects in zone {zone14} <op> {Parameters[next14]}",
+    "template": "Number of objects in zone <valeur> <op> <valeur>",
     "source": "Condition.cs:515"
   },
   {
@@ -948,7 +948,7 @@
     "objectType": ">= 0",
     "num": "-30",
     "when": null,
-    "template": "Number of <objet> in zone {zone30} <op> {Parameters[next30]}",
+    "template": "Number of <objet> in zone <valeur> <op> <valeur>",
     "source": "Condition.cs:744"
   },
   {
@@ -1092,7 +1092,7 @@
     "objectType": ">= 0",
     "num": "-12",
     "when": null,
-    "template": "<objet> leaves the play area{GetPlayAreaString(((ParameterShort)Parameters[0].Data).Value)}",
+    "template": "<objet> leaves the play area<valeur>",
     "source": "Condition.cs:780"
   },
   {
@@ -1100,7 +1100,7 @@
     "objectType": ">= 0",
     "num": "-11",
     "when": null,
-    "template": "<objet> enters the play area{GetPlayAreaString(((ParameterShort)Parameters[0].Data).Value)}",
+    "template": "<objet> enters the play area<valeur>",
     "source": "Condition.cs:782"
   },
   {
@@ -1300,7 +1300,7 @@
     "objectType": "-6",
     "num": "2",
     "when": null,
-    "template": "Reset input between frames: {(int.TryParse(Parameters[0].ToString(), out int param) ? (param == 0 ? \"Disabled\" : \"Enabled\") : Parameters[0])}",
+    "template": "Reset input between frames: <valeur>",
     "source": "Action.cs:481"
   },
   {
@@ -1372,7 +1372,7 @@
     "objectType": "-3",
     "num": "2",
     "when": null,
-    "template": "Jump to frame {((Parameters[0].Data is ParameterExpressions) ? Parameters[0] : GetFrameName(((ParameterShort)Parameters[0].Data).Value))}",
+    "template": "Jump to frame <scène>",
     "source": "Action.cs:521"
   },
   {
@@ -1404,7 +1404,7 @@
     "objectType": "-3",
     "num": "7",
     "when": null,
-    "template": "Center display at {Parameters[0].ToString().ReplaceLast(\" layer 1\", \"\")}",
+    "template": "Center display at <valeur>",
     "source": "Action.cs:529"
   },
   {
@@ -1588,7 +1588,7 @@
     "objectType": "-3",
     "num": "32",
     "when": null,
-    "template": "Set effect to {Parameters[0].ToString().ReplaceLast(\".fx\", \"\")}",
+    "template": "Set effect to <valeur>",
     "source": "Action.cs:575"
   },
   {
@@ -1940,7 +1940,7 @@
     "objectType": "-1",
     "num": "2",
     "when": null,
-    "template": "Execute external program {file2.FileName} {file2.Command}{(file2.FileFlags[\"WaitForEnd\"] && file2.FileFlags[\"HideApplication\"] ? \" (wait,hide)\" : file2.FileFlags[\"WaitForEnd\"] ? \" (wait)\" : file2.FileFlags[\"HideApplication\"] ? \" (hide)\" : \"\")}",
+    "template": "Execute external program <valeur> <valeur><valeur>",
     "source": "Action.cs:678"
   },
   {
@@ -2100,7 +2100,7 @@
     "objectType": "-1",
     "num": "22",
     "when": null,
-    "template": "Execute external program <p0> <p1>{(flags22 == 3 ? \" (wait,hide)\" : flags22 == 1 ? \" (wait)\" : flags22 == 2 ? \" (hide)\" : \"\")}",
+    "template": "Execute external program <p0> <p1><valeur>",
     "source": "Action.cs:719"
   },
   {
@@ -2220,7 +2220,7 @@
     "objectType": ">= 0",
     "num": "80",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 9) && !(ObjectType == 8) && !(ObjectType == 7) && !(ObjectType == 4) && !(ObjectType == 3)",
-    "template": "Paste into background{GetDirectionSettings(((ParameterShort)Parameters[0].Data).Value)}",
+    "template": "Paste into background <obstacle>",
     "source": "Action.cs:759"
   },
   {
@@ -2260,7 +2260,7 @@
     "objectType": ">= 0",
     "num": "81",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 9) && !(ObjectType == 8) && !(ObjectType == 7) && !(ObjectType == 2)",
-    "template": "Display paragraph {((ParameterShort)Parameters[1].Data).Value + 1} at {Parameters[0].ToString().ReplaceLast(\" layer 1\", \"\")}",
+    "template": "Display paragraph <valeur> at <valeur>",
     "source": "Action.cs:769"
   },
   {
@@ -2292,7 +2292,7 @@
     "objectType": ">= 0",
     "num": "82",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 9) && !(ObjectType == 8) && !(ObjectType == 7)",
-    "template": "Flash paragraph {((ParameterShort)Parameters[1].Data).Value + 1} at {Parameters[0].ToString().ReplaceLast(\" layer 1\", \"\")} for <p2>",
+    "template": "Flash paragraph <valeur> at <valeur> for <p2>",
     "source": "Action.cs:777"
   },
   {
@@ -2332,7 +2332,7 @@
     "objectType": ">= 0",
     "num": "83",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 9) && !(ObjectType == 8) && !(ObjectType == 7) && !(ObjectType == 3)",
-    "template": "Add backdrop{GetDirectionSettings(((ParameterShort)Parameters[0].Data).Value)}",
+    "template": "Add backdrop <obstacle>",
     "source": "Action.cs:787"
   },
   {
@@ -2340,7 +2340,7 @@
     "objectType": ">= 0",
     "num": "84",
     "when": "Num = default && ObjectType < 32 && ObjectType == 3 && Parameters.Length > 1 && Parameters[1].Data is ParameterShort",
-    "template": "Display paragraph {((ParameterShort)Parameters[1].Data).Value + 1}",
+    "template": "Display paragraph <valeur>",
     "source": "Action.cs:792"
   },
   {
@@ -2780,7 +2780,7 @@
     "objectType": ">= 0",
     "num": "1",
     "when": null,
-    "template": "Set position at {Parameters[0].ToString().ReplaceLast(\" layer 1\", \"\")}",
+    "template": "Set position at <valeur>",
     "source": "Action.cs:909"
   },
   {
@@ -2884,7 +2884,7 @@
     "objectType": ">= 0",
     "num": "14",
     "when": null,
-    "template": "Look at {Parameters[0].ToString().ReplaceLast(\" layer 1\", \"\")}",
+    "template": "Look at <valeur>",
     "source": "Action.cs:935"
   },
   {
@@ -3020,7 +3020,7 @@
     "objectType": ">= 0",
     "num": "30",
     "when": null,
-    "template": "Launch <p0> toward {Parameters[1].ToString().ReplaceLast(\" layer 1\", \"\")}",
+    "template": "Launch <p0> toward <valeur>",
     "source": "Action.cs:970"
   },
   {
@@ -3084,7 +3084,7 @@
     "objectType": ">= 0",
     "num": "38",
     "when": null,
-    "template": "Set ink effect to {GetInkEffect((ParameterDoubleShort)Parameters[0].Data)}",
+    "template": "Set ink effect to <effet d'encre>",
     "source": "Action.cs:986"
   },
   {
@@ -3284,7 +3284,7 @@
     "objectType": ">= 0",
     "num": "63",
     "when": null,
-    "template": "Set effect to {Parameters[0].ToString().ReplaceLast(\".fx\", \"\")}",
+    "template": "Set effect to <valeur>",
     "source": "Action.cs:1036"
   },
   {
@@ -4020,8 +4020,8 @@
     "objectType": "-1",
     "num": "23",
     "when": null,
-    "template": "((ExpressionDouble)Expression).Value.ToString()",
-    "source": "ParameterExpression.cs:293"
+    "template": "dbl.IndexOfAny(new[] <valeur>) >= 0 ? dbl : dbl + \".0\"",
+    "source": "ParameterExpression.cs:295"
   },
   {
     "kind": "expression",
@@ -4029,7 +4029,7 @@
     "num": "24",
     "when": null,
     "template": "GetGlobalValueName()",
-    "source": "ParameterExpression.cs:295"
+    "source": "ParameterExpression.cs:297"
   },
   {
     "kind": "expression",
@@ -4037,7 +4037,7 @@
     "num": "28",
     "when": null,
     "template": "Int(",
-    "source": "ParameterExpression.cs:297"
+    "source": "ParameterExpression.cs:299"
   },
   {
     "kind": "expression",
@@ -4045,7 +4045,7 @@
     "num": "29",
     "when": null,
     "template": "Abs(",
-    "source": "ParameterExpression.cs:299"
+    "source": "ParameterExpression.cs:301"
   },
   {
     "kind": "expression",
@@ -4053,7 +4053,7 @@
     "num": "30",
     "when": null,
     "template": "Ceil(",
-    "source": "ParameterExpression.cs:301"
+    "source": "ParameterExpression.cs:303"
   },
   {
     "kind": "expression",
@@ -4061,7 +4061,7 @@
     "num": "31",
     "when": null,
     "template": "Floor(",
-    "source": "ParameterExpression.cs:303"
+    "source": "ParameterExpression.cs:305"
   },
   {
     "kind": "expression",
@@ -4069,7 +4069,7 @@
     "num": "32",
     "when": null,
     "template": "ACos(",
-    "source": "ParameterExpression.cs:305"
+    "source": "ParameterExpression.cs:307"
   },
   {
     "kind": "expression",
@@ -4077,7 +4077,7 @@
     "num": "33",
     "when": null,
     "template": "ASin(",
-    "source": "ParameterExpression.cs:307"
+    "source": "ParameterExpression.cs:309"
   },
   {
     "kind": "expression",
@@ -4085,7 +4085,7 @@
     "num": "34",
     "when": null,
     "template": "ATan(",
-    "source": "ParameterExpression.cs:309"
+    "source": "ParameterExpression.cs:311"
   },
   {
     "kind": "expression",
@@ -4093,7 +4093,7 @@
     "num": "35",
     "when": null,
     "template": "NOT(",
-    "source": "ParameterExpression.cs:311"
+    "source": "ParameterExpression.cs:313"
   },
   {
     "kind": "expression",
@@ -4101,7 +4101,7 @@
     "num": "36",
     "when": null,
     "template": "NDropped",
-    "source": "ParameterExpression.cs:313"
+    "source": "ParameterExpression.cs:315"
   },
   {
     "kind": "expression",
@@ -4109,7 +4109,7 @@
     "num": "37",
     "when": null,
     "template": "Dropped$(",
-    "source": "ParameterExpression.cs:315"
+    "source": "ParameterExpression.cs:317"
   },
   {
     "kind": "expression",
@@ -4117,7 +4117,7 @@
     "num": "38",
     "when": null,
     "template": "CommandLine$",
-    "source": "ParameterExpression.cs:317"
+    "source": "ParameterExpression.cs:319"
   },
   {
     "kind": "expression",
@@ -4125,7 +4125,7 @@
     "num": "39",
     "when": null,
     "template": "CommandItem$(",
-    "source": "ParameterExpression.cs:319"
+    "source": "ParameterExpression.cs:321"
   },
   {
     "kind": "expression",
@@ -4133,7 +4133,7 @@
     "num": "40",
     "when": null,
     "template": "Min(",
-    "source": "ParameterExpression.cs:321"
+    "source": "ParameterExpression.cs:323"
   },
   {
     "kind": "expression",
@@ -4141,7 +4141,7 @@
     "num": "41",
     "when": null,
     "template": "Max(",
-    "source": "ParameterExpression.cs:323"
+    "source": "ParameterExpression.cs:325"
   },
   {
     "kind": "expression",
@@ -4149,7 +4149,7 @@
     "num": "42",
     "when": null,
     "template": "GetRGB(",
-    "source": "ParameterExpression.cs:325"
+    "source": "ParameterExpression.cs:327"
   },
   {
     "kind": "expression",
@@ -4157,7 +4157,7 @@
     "num": "43",
     "when": null,
     "template": "GetRed(",
-    "source": "ParameterExpression.cs:327"
+    "source": "ParameterExpression.cs:329"
   },
   {
     "kind": "expression",
@@ -4165,7 +4165,7 @@
     "num": "44",
     "when": null,
     "template": "GetGreen(",
-    "source": "ParameterExpression.cs:329"
+    "source": "ParameterExpression.cs:331"
   },
   {
     "kind": "expression",
@@ -4173,7 +4173,7 @@
     "num": "45",
     "when": null,
     "template": "GetBlue(",
-    "source": "ParameterExpression.cs:331"
+    "source": "ParameterExpression.cs:333"
   },
   {
     "kind": "expression",
@@ -4181,7 +4181,7 @@
     "num": "46",
     "when": null,
     "template": "LoopIndex(",
-    "source": "ParameterExpression.cs:333"
+    "source": "ParameterExpression.cs:335"
   },
   {
     "kind": "expression",
@@ -4189,7 +4189,7 @@
     "num": "47",
     "when": null,
     "template": "NewLine$",
-    "source": "ParameterExpression.cs:335"
+    "source": "ParameterExpression.cs:337"
   },
   {
     "kind": "expression",
@@ -4197,7 +4197,7 @@
     "num": "48",
     "when": null,
     "template": "Round(",
-    "source": "ParameterExpression.cs:337"
+    "source": "ParameterExpression.cs:339"
   },
   {
     "kind": "expression",
@@ -4205,7 +4205,7 @@
     "num": "49",
     "when": null,
     "template": "Global String(",
-    "source": "ParameterExpression.cs:339"
+    "source": "ParameterExpression.cs:341"
   },
   {
     "kind": "expression",
@@ -4213,7 +4213,7 @@
     "num": "50",
     "when": null,
     "template": "GetGlobalStringName()",
-    "source": "ParameterExpression.cs:341"
+    "source": "ParameterExpression.cs:343"
   },
   {
     "kind": "expression",
@@ -4221,7 +4221,7 @@
     "num": "51",
     "when": null,
     "template": "Lower$(",
-    "source": "ParameterExpression.cs:343"
+    "source": "ParameterExpression.cs:345"
   },
   {
     "kind": "expression",
@@ -4229,7 +4229,7 @@
     "num": "52",
     "when": null,
     "template": "Upper$(",
-    "source": "ParameterExpression.cs:345"
+    "source": "ParameterExpression.cs:347"
   },
   {
     "kind": "expression",
@@ -4237,7 +4237,7 @@
     "num": "53",
     "when": null,
     "template": "Find(",
-    "source": "ParameterExpression.cs:347"
+    "source": "ParameterExpression.cs:349"
   },
   {
     "kind": "expression",
@@ -4245,7 +4245,7 @@
     "num": "54",
     "when": null,
     "template": "ReverseFind(",
-    "source": "ParameterExpression.cs:349"
+    "source": "ParameterExpression.cs:351"
   },
   {
     "kind": "expression",
@@ -4253,7 +4253,7 @@
     "num": "55",
     "when": null,
     "template": "ClipText$",
-    "source": "ParameterExpression.cs:351"
+    "source": "ParameterExpression.cs:353"
   },
   {
     "kind": "expression",
@@ -4261,7 +4261,7 @@
     "num": "56",
     "when": null,
     "template": "AppTempPath$",
-    "source": "ParameterExpression.cs:353"
+    "source": "ParameterExpression.cs:355"
   },
   {
     "kind": "expression",
@@ -4269,7 +4269,7 @@
     "num": "57",
     "when": null,
     "template": "BinFileTempName$(",
-    "source": "ParameterExpression.cs:355"
+    "source": "ParameterExpression.cs:357"
   },
   {
     "kind": "expression",
@@ -4277,7 +4277,7 @@
     "num": "58",
     "when": null,
     "template": "FloatToString$(",
-    "source": "ParameterExpression.cs:357"
+    "source": "ParameterExpression.cs:359"
   },
   {
     "kind": "expression",
@@ -4285,7 +4285,7 @@
     "num": "59",
     "when": null,
     "template": "ATan2(",
-    "source": "ParameterExpression.cs:359"
+    "source": "ParameterExpression.cs:361"
   },
   {
     "kind": "expression",
@@ -4293,7 +4293,7 @@
     "num": "60",
     "when": null,
     "template": "0",
-    "source": "ParameterExpression.cs:361"
+    "source": "ParameterExpression.cs:363"
   },
   {
     "kind": "expression",
@@ -4301,7 +4301,7 @@
     "num": "61",
     "when": null,
     "template": "\"\"",
-    "source": "ParameterExpression.cs:363"
+    "source": "ParameterExpression.cs:365"
   },
   {
     "kind": "expression",
@@ -4309,7 +4309,7 @@
     "num": "62",
     "when": null,
     "template": "Distance(",
-    "source": "ParameterExpression.cs:365"
+    "source": "ParameterExpression.cs:367"
   },
   {
     "kind": "expression",
@@ -4317,7 +4317,7 @@
     "num": "63",
     "when": null,
     "template": "VAngle(",
-    "source": "ParameterExpression.cs:367"
+    "source": "ParameterExpression.cs:369"
   },
   {
     "kind": "expression",
@@ -4325,7 +4325,7 @@
     "num": "64",
     "when": null,
     "template": "Range(",
-    "source": "ParameterExpression.cs:369"
+    "source": "ParameterExpression.cs:371"
   },
   {
     "kind": "expression",
@@ -4333,7 +4333,7 @@
     "num": "65",
     "when": null,
     "template": "RRandom(",
-    "source": "ParameterExpression.cs:371"
+    "source": "ParameterExpression.cs:373"
   },
   {
     "kind": "expression",
@@ -4341,7 +4341,7 @@
     "num": "66",
     "when": null,
     "template": "RuntimeName$",
-    "source": "ParameterExpression.cs:373"
+    "source": "ParameterExpression.cs:375"
   },
   {
     "kind": "expression",
@@ -4349,7 +4349,7 @@
     "num": "67",
     "when": null,
     "template": "ReplaceString$(",
-    "source": "ParameterExpression.cs:375"
+    "source": "ParameterExpression.cs:377"
   },
   {
     "kind": "expression",
@@ -4357,7 +4357,7 @@
     "num": "2",
     "when": null,
     "template": " + ",
-    "source": "ParameterExpression.cs:382"
+    "source": "ParameterExpression.cs:384"
   },
   {
     "kind": "expression",
@@ -4365,7 +4365,7 @@
     "num": "4",
     "when": null,
     "template": " - ",
-    "source": "ParameterExpression.cs:384"
+    "source": "ParameterExpression.cs:386"
   },
   {
     "kind": "expression",
@@ -4373,7 +4373,7 @@
     "num": "6",
     "when": null,
     "template": " * ",
-    "source": "ParameterExpression.cs:386"
+    "source": "ParameterExpression.cs:388"
   },
   {
     "kind": "expression",
@@ -4381,7 +4381,7 @@
     "num": "8",
     "when": null,
     "template": " / ",
-    "source": "ParameterExpression.cs:388"
+    "source": "ParameterExpression.cs:390"
   },
   {
     "kind": "expression",
@@ -4389,7 +4389,7 @@
     "num": "10",
     "when": null,
     "template": " mod ",
-    "source": "ParameterExpression.cs:390"
+    "source": "ParameterExpression.cs:392"
   },
   {
     "kind": "expression",
@@ -4397,7 +4397,7 @@
     "num": "12",
     "when": null,
     "template": " pow ",
-    "source": "ParameterExpression.cs:392"
+    "source": "ParameterExpression.cs:394"
   },
   {
     "kind": "expression",
@@ -4405,7 +4405,7 @@
     "num": "14",
     "when": null,
     "template": " and ",
-    "source": "ParameterExpression.cs:394"
+    "source": "ParameterExpression.cs:396"
   },
   {
     "kind": "expression",
@@ -4413,7 +4413,7 @@
     "num": "16",
     "when": null,
     "template": " or ",
-    "source": "ParameterExpression.cs:396"
+    "source": "ParameterExpression.cs:398"
   },
   {
     "kind": "expression",
@@ -4421,7 +4421,7 @@
     "num": "18",
     "when": null,
     "template": " xor ",
-    "source": "ParameterExpression.cs:398"
+    "source": "ParameterExpression.cs:400"
   },
   {
     "kind": "expression",
@@ -4429,7 +4429,7 @@
     "num": "80",
     "when": "Num = default && ObjectType < 32 && ObjectType == 2",
     "template": "RGBAt(\"<objet>\", ",
-    "source": "ParameterExpression.cs:410"
+    "source": "ParameterExpression.cs:412"
   },
   {
     "kind": "expression",
@@ -4437,7 +4437,7 @@
     "num": "80",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && ObjectType == 3",
     "template": "paragraph(\"<objet>\")",
-    "source": "ParameterExpression.cs:412"
+    "source": "ParameterExpression.cs:414"
   },
   {
     "kind": "expression",
@@ -4445,7 +4445,7 @@
     "num": "80",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && !(ObjectType == 3) && ObjectType == 7",
     "template": "value(\"<objet>\")",
-    "source": "ParameterExpression.cs:414"
+    "source": "ParameterExpression.cs:416"
   },
   {
     "kind": "expression",
@@ -4453,7 +4453,7 @@
     "num": "80",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && !(ObjectType == 3) && !(ObjectType == 7) && ObjectType == 9",
     "template": "App Frame Number(\"<objet>\")",
-    "source": "ParameterExpression.cs:416"
+    "source": "ParameterExpression.cs:418"
   },
   {
     "kind": "expression",
@@ -4461,7 +4461,7 @@
     "num": "81",
     "when": "Num = default && ObjectType < 32 && ObjectType == 2",
     "template": "XScale(\"<objet>\")",
-    "source": "ParameterExpression.cs:420"
+    "source": "ParameterExpression.cs:422"
   },
   {
     "kind": "expression",
@@ -4469,7 +4469,7 @@
     "num": "81",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && ObjectType == 3",
     "template": "string$(\"<objet>\")",
-    "source": "ParameterExpression.cs:422"
+    "source": "ParameterExpression.cs:424"
   },
   {
     "kind": "expression",
@@ -4477,7 +4477,7 @@
     "num": "81",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && !(ObjectType == 3) && ObjectType == 7",
     "template": "minvalue(\"<objet>\")",
-    "source": "ParameterExpression.cs:424"
+    "source": "ParameterExpression.cs:426"
   },
   {
     "kind": "expression",
@@ -4485,7 +4485,7 @@
     "num": "81",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && !(ObjectType == 3) && !(ObjectType == 7) && ObjectType == 9",
     "template": "App Global Value(\"<objet>\", ",
-    "source": "ParameterExpression.cs:426"
+    "source": "ParameterExpression.cs:428"
   },
   {
     "kind": "expression",
@@ -4493,7 +4493,7 @@
     "num": "82",
     "when": "Num = default && ObjectType < 32 && ObjectType == 2",
     "template": "YScale(\"<objet>\")",
-    "source": "ParameterExpression.cs:430"
+    "source": "ParameterExpression.cs:432"
   },
   {
     "kind": "expression",
@@ -4501,7 +4501,7 @@
     "num": "82",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && ObjectType == 3",
     "template": "paragraph$(\"<objet>\", ",
-    "source": "ParameterExpression.cs:432"
+    "source": "ParameterExpression.cs:434"
   },
   {
     "kind": "expression",
@@ -4509,7 +4509,7 @@
     "num": "82",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && !(ObjectType == 3) && ObjectType == 7",
     "template": "maxvalue(\"<objet>\")",
-    "source": "ParameterExpression.cs:434"
+    "source": "ParameterExpression.cs:436"
   },
   {
     "kind": "expression",
@@ -4517,7 +4517,7 @@
     "num": "82",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && !(ObjectType == 3) && !(ObjectType == 7) && ObjectType == 9",
     "template": "App Global String(\"<objet>\", ",
-    "source": "ParameterExpression.cs:436"
+    "source": "ParameterExpression.cs:438"
   },
   {
     "kind": "expression",
@@ -4525,7 +4525,7 @@
     "num": "83",
     "when": "Num = default && ObjectType < 32 && ObjectType == 2",
     "template": "Angle(\"<objet>\")",
-    "source": "ParameterExpression.cs:440"
+    "source": "ParameterExpression.cs:442"
   },
   {
     "kind": "expression",
@@ -4533,7 +4533,7 @@
     "num": "83",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && ObjectType == 3",
     "template": "value(\"<objet>\")",
-    "source": "ParameterExpression.cs:442"
+    "source": "ParameterExpression.cs:444"
   },
   {
     "kind": "expression",
@@ -4541,7 +4541,7 @@
     "num": "83",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && !(ObjectType == 3) && ObjectType == 7",
     "template": "cColor(\"<objet>\")",
-    "source": "ParameterExpression.cs:444"
+    "source": "ParameterExpression.cs:446"
   },
   {
     "kind": "expression",
@@ -4549,7 +4549,7 @@
     "num": "84",
     "when": "Num = default && ObjectType < 32 && ObjectType == 3",
     "template": "npara(\"<objet>\")",
-    "source": "ParameterExpression.cs:448"
+    "source": "ParameterExpression.cs:450"
   },
   {
     "kind": "expression",
@@ -4557,15 +4557,15 @@
     "num": "84",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 3) && ObjectType == 7",
     "template": "cColor2(\"<objet>\")",
-    "source": "ParameterExpression.cs:450"
+    "source": "ParameterExpression.cs:452"
   },
   {
     "kind": "expression",
     "objectType": "default",
     "num": "default",
     "when": "ObjectType = > 0",
-    "template": "Expression ID {Num}(\"<objet>\")",
-    "source": "ParameterExpression.cs:456"
+    "template": "Expression ID <valeur>(\"<objet>\")",
+    "source": "ParameterExpression.cs:458"
   },
   {
     "kind": "expression",
@@ -4573,7 +4573,7 @@
     "num": "1",
     "when": null,
     "template": "Y(\"<objet>\")",
-    "source": "ParameterExpression.cs:459"
+    "source": "ParameterExpression.cs:461"
   },
   {
     "kind": "expression",
@@ -4581,7 +4581,7 @@
     "num": "2",
     "when": null,
     "template": "Image(\"<objet>\")",
-    "source": "ParameterExpression.cs:461"
+    "source": "ParameterExpression.cs:463"
   },
   {
     "kind": "expression",
@@ -4589,7 +4589,7 @@
     "num": "3",
     "when": null,
     "template": "Speed(\"<objet>\")",
-    "source": "ParameterExpression.cs:463"
+    "source": "ParameterExpression.cs:465"
   },
   {
     "kind": "expression",
@@ -4597,7 +4597,7 @@
     "num": "4",
     "when": null,
     "template": "Acc(\"<objet>\")",
-    "source": "ParameterExpression.cs:465"
+    "source": "ParameterExpression.cs:467"
   },
   {
     "kind": "expression",
@@ -4605,7 +4605,7 @@
     "num": "5",
     "when": null,
     "template": "Dec(\"<objet>\")",
-    "source": "ParameterExpression.cs:467"
+    "source": "ParameterExpression.cs:469"
   },
   {
     "kind": "expression",
@@ -4613,7 +4613,7 @@
     "num": "6",
     "when": null,
     "template": "Dir(\"<objet>\")",
-    "source": "ParameterExpression.cs:469"
+    "source": "ParameterExpression.cs:471"
   },
   {
     "kind": "expression",
@@ -4621,7 +4621,7 @@
     "num": "7",
     "when": null,
     "template": "X Left(\"<objet>\")",
-    "source": "ParameterExpression.cs:471"
+    "source": "ParameterExpression.cs:473"
   },
   {
     "kind": "expression",
@@ -4629,7 +4629,7 @@
     "num": "8",
     "when": null,
     "template": "X Right(\"<objet>\")",
-    "source": "ParameterExpression.cs:473"
+    "source": "ParameterExpression.cs:475"
   },
   {
     "kind": "expression",
@@ -4637,7 +4637,7 @@
     "num": "9",
     "when": null,
     "template": "Y Top(\"<objet>\")",
-    "source": "ParameterExpression.cs:475"
+    "source": "ParameterExpression.cs:477"
   },
   {
     "kind": "expression",
@@ -4645,7 +4645,7 @@
     "num": "10",
     "when": null,
     "template": "Y Bottom(\"<objet>\")",
-    "source": "ParameterExpression.cs:477"
+    "source": "ParameterExpression.cs:479"
   },
   {
     "kind": "expression",
@@ -4653,7 +4653,7 @@
     "num": "11",
     "when": null,
     "template": "X(\"<objet>\")",
-    "source": "ParameterExpression.cs:479"
+    "source": "ParameterExpression.cs:481"
   },
   {
     "kind": "expression",
@@ -4661,7 +4661,7 @@
     "num": "12",
     "when": null,
     "template": "Fixed(\"<objet>\")",
-    "source": "ParameterExpression.cs:481"
+    "source": "ParameterExpression.cs:483"
   },
   {
     "kind": "expression",
@@ -4669,7 +4669,7 @@
     "num": "13",
     "when": null,
     "template": "Flag(\"<objet>\", ",
-    "source": "ParameterExpression.cs:483"
+    "source": "ParameterExpression.cs:485"
   },
   {
     "kind": "expression",
@@ -4677,7 +4677,7 @@
     "num": "14",
     "when": null,
     "template": "Anim Number(\"<objet>\")",
-    "source": "ParameterExpression.cs:485"
+    "source": "ParameterExpression.cs:487"
   },
   {
     "kind": "expression",
@@ -4685,15 +4685,15 @@
     "num": "15",
     "when": null,
     "template": "NObjects(\"<objet>\")",
-    "source": "ParameterExpression.cs:487"
+    "source": "ParameterExpression.cs:489"
   },
   {
     "kind": "expression",
     "objectType": "> 0",
     "num": "16",
     "when": null,
-    "template": "{GetAlterableValueName()}(\"<objet>\")",
-    "source": "ParameterExpression.cs:489"
+    "template": "<valeur>(\"<objet>\")",
+    "source": "ParameterExpression.cs:491"
   },
   {
     "kind": "expression",
@@ -4701,7 +4701,7 @@
     "num": "17",
     "when": null,
     "template": "SemiTrans(\"<objet>\")",
-    "source": "ParameterExpression.cs:491"
+    "source": "ParameterExpression.cs:493"
   },
   {
     "kind": "expression",
@@ -4709,15 +4709,15 @@
     "num": "18",
     "when": null,
     "template": "NMovement(\"<objet>\")",
-    "source": "ParameterExpression.cs:493"
+    "source": "ParameterExpression.cs:495"
   },
   {
     "kind": "expression",
     "objectType": "> 0",
     "num": "19",
     "when": null,
-    "template": "{GetAlterableStringName()}(\"<objet>\")",
-    "source": "ParameterExpression.cs:495"
+    "template": "<valeur>(\"<objet>\")",
+    "source": "ParameterExpression.cs:497"
   },
   {
     "kind": "expression",
@@ -4725,7 +4725,7 @@
     "num": "20",
     "when": null,
     "template": "FontName$(\"<objet>\")",
-    "source": "ParameterExpression.cs:497"
+    "source": "ParameterExpression.cs:499"
   },
   {
     "kind": "expression",
@@ -4733,7 +4733,7 @@
     "num": "21",
     "when": null,
     "template": "FontSize(\"<objet>\")",
-    "source": "ParameterExpression.cs:499"
+    "source": "ParameterExpression.cs:501"
   },
   {
     "kind": "expression",
@@ -4741,7 +4741,7 @@
     "num": "22",
     "when": null,
     "template": "FontColor(\"<objet>\")",
-    "source": "ParameterExpression.cs:501"
+    "source": "ParameterExpression.cs:503"
   },
   {
     "kind": "expression",
@@ -4749,7 +4749,7 @@
     "num": "23",
     "when": null,
     "template": "Layer(\"<objet>\")",
-    "source": "ParameterExpression.cs:503"
+    "source": "ParameterExpression.cs:505"
   },
   {
     "kind": "expression",
@@ -4757,7 +4757,7 @@
     "num": "24",
     "when": null,
     "template": "Gravity(\"<objet>\")",
-    "source": "ParameterExpression.cs:505"
+    "source": "ParameterExpression.cs:507"
   },
   {
     "kind": "expression",
@@ -4765,7 +4765,7 @@
     "num": "25",
     "when": null,
     "template": "XActionPoint(\"<objet>\")",
-    "source": "ParameterExpression.cs:507"
+    "source": "ParameterExpression.cs:509"
   },
   {
     "kind": "expression",
@@ -4773,7 +4773,7 @@
     "num": "26",
     "when": null,
     "template": "YActionPoint(\"<objet>\")",
-    "source": "ParameterExpression.cs:509"
+    "source": "ParameterExpression.cs:511"
   },
   {
     "kind": "expression",
@@ -4781,7 +4781,7 @@
     "num": "27",
     "when": null,
     "template": "AlphaCoef(\"<objet>\")",
-    "source": "ParameterExpression.cs:511"
+    "source": "ParameterExpression.cs:513"
   },
   {
     "kind": "expression",
@@ -4789,7 +4789,7 @@
     "num": "28",
     "when": null,
     "template": "RGBCoef(\"<objet>\")",
-    "source": "ParameterExpression.cs:513"
+    "source": "ParameterExpression.cs:515"
   },
   {
     "kind": "expression",
@@ -4797,7 +4797,7 @@
     "num": "29",
     "when": null,
     "template": "EffectParam(\"<objet>\", ",
-    "source": "ParameterExpression.cs:515"
+    "source": "ParameterExpression.cs:517"
   },
   {
     "kind": "expression",
@@ -4805,7 +4805,7 @@
     "num": "30",
     "when": null,
     "template": "AltValN(\"<objet>\", ",
-    "source": "ParameterExpression.cs:517"
+    "source": "ParameterExpression.cs:519"
   },
   {
     "kind": "expression",
@@ -4813,7 +4813,7 @@
     "num": "31",
     "when": null,
     "template": "AltStrN$(\"<objet>\", ",
-    "source": "ParameterExpression.cs:519"
+    "source": "ParameterExpression.cs:521"
   },
   {
     "kind": "expression",
@@ -4821,7 +4821,7 @@
     "num": "32",
     "when": null,
     "template": "ODistance(\"<objet>\", ",
-    "source": "ParameterExpression.cs:521"
+    "source": "ParameterExpression.cs:523"
   },
   {
     "kind": "expression",
@@ -4829,7 +4829,7 @@
     "num": "33",
     "when": null,
     "template": "OAngle(\"<objet>\", ",
-    "source": "ParameterExpression.cs:523"
+    "source": "ParameterExpression.cs:525"
   },
   {
     "kind": "expression",
@@ -4837,7 +4837,7 @@
     "num": "34",
     "when": null,
     "template": "ForEachLoopIndex(\"<objet>\")",
-    "source": "ParameterExpression.cs:525"
+    "source": "ParameterExpression.cs:527"
   },
   {
     "kind": "expression",
@@ -4845,7 +4845,7 @@
     "num": "35",
     "when": null,
     "template": "PFriction(\"<objet>\")",
-    "source": "ParameterExpression.cs:527"
+    "source": "ParameterExpression.cs:529"
   },
   {
     "kind": "expression",
@@ -4853,7 +4853,7 @@
     "num": "36",
     "when": null,
     "template": "PElasticity(\"<objet>\")",
-    "source": "ParameterExpression.cs:529"
+    "source": "ParameterExpression.cs:531"
   },
   {
     "kind": "expression",
@@ -4861,7 +4861,7 @@
     "num": "37",
     "when": null,
     "template": "PDensity(\"<objet>\")",
-    "source": "ParameterExpression.cs:531"
+    "source": "ParameterExpression.cs:533"
   },
   {
     "kind": "expression",
@@ -4869,7 +4869,7 @@
     "num": "38",
     "when": null,
     "template": "PVelocity(\"<objet>\")",
-    "source": "ParameterExpression.cs:533"
+    "source": "ParameterExpression.cs:535"
   },
   {
     "kind": "expression",
@@ -4877,7 +4877,7 @@
     "num": "39",
     "when": null,
     "template": "PVelocityAngle(\"<objet>\")",
-    "source": "ParameterExpression.cs:535"
+    "source": "ParameterExpression.cs:537"
   },
   {
     "kind": "expression",
@@ -4885,7 +4885,7 @@
     "num": "40",
     "when": null,
     "template": "OWidth(\"<objet>\")",
-    "source": "ParameterExpression.cs:537"
+    "source": "ParameterExpression.cs:539"
   },
   {
     "kind": "expression",
@@ -4893,7 +4893,7 @@
     "num": "41",
     "when": null,
     "template": "OHeight(\"<objet>\")",
-    "source": "ParameterExpression.cs:539"
+    "source": "ParameterExpression.cs:541"
   },
   {
     "kind": "expression",
@@ -4901,7 +4901,7 @@
     "num": "42",
     "when": null,
     "template": "PMass(\"<objet>\")",
-    "source": "ParameterExpression.cs:541"
+    "source": "ParameterExpression.cs:543"
   },
   {
     "kind": "expression",
@@ -4909,7 +4909,7 @@
     "num": "43",
     "when": null,
     "template": "PAngularVelocity(\"<objet>\")",
-    "source": "ParameterExpression.cs:543"
+    "source": "ParameterExpression.cs:545"
   },
   {
     "kind": "expression",
@@ -4917,7 +4917,7 @@
     "num": "44",
     "when": null,
     "template": "OName$(\"<objet>\")",
-    "source": "ParameterExpression.cs:545"
+    "source": "ParameterExpression.cs:547"
   },
   {
     "kind": "expression",
@@ -4925,7 +4925,7 @@
     "num": "45",
     "when": null,
     "template": "NSelectedObjects(\"<objet>\")",
-    "source": "ParameterExpression.cs:547"
+    "source": "ParameterExpression.cs:549"
   },
   {
     "kind": "expression",
@@ -4933,6 +4933,6 @@
     "num": "46",
     "when": null,
     "template": "InstanceValue(\"<objet>\")",
-    "source": "ParameterExpression.cs:549"
+    "source": "ParameterExpression.cs:551"
   }
 ]

@@ -112,6 +112,11 @@ static string Simplify(string s)
     s = Regex.Replace(s, @"\{GetDirection\([^}]*\}", "<direction>");
     s = Regex.Replace(s, @"\{GetFrameName\([^}]*\}", "<frame>");
     s = Regex.Replace(s, @"\{ObjectInfo \+ 1\}", "<n° joueur>");
+    s = Regex.Replace(s, @"\{GetDirectionSettings\(.*?\)\}", " <obstacle>");
+    s = Regex.Replace(s, @"\{GetInkEffect\(.*?\)\}", "<effet d'encre>");
+    s = Regex.Replace(s, @"\{\(\(Parameters\[0\]\.Data is ParameterExpressions\).*GetFrameName.*\}", "<scène>");
+    // Toute autre interpolation de code restante : valeur calculée par Nebula
+    s = Regex.Replace(s, @"\{[^{}]*(\{[^{}]*\}[^{}]*)*\}", "<valeur>");
     s = s.Replace("\\\"", "\"");
     return s;
 }

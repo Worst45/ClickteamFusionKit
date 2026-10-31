@@ -35,7 +35,7 @@
 | -7 | `Only one action when event loops` | Une seule action lorsque l'événement est en boucle |  | 720 (49 proj.) | `Only one action when event loops` |
 | -8 | `<valeur globale p0> <op> <p1>` |  |  | 837 (49 proj.) | `AngleStop = 30` |
 | -9 | `"[COMMENT] " + Parameters[0]` |  |  | — |  |
-| -10 | `[GROUP] <p0>` |  |  | — |  |
+| -10 | `[GROUP] <nom du groupe>` |  |  | — |  |
 | -11 | `[END GROUP]` |  |  | — |  |
 | -12 | `Group "<p0>" is activated` |  |  | 23 (4 proj.) | `Group "Reset Color of Text to Black" is activated` |
 | -14 | `Menu option "<option de menu>" selected` |  |  | 56 (7 proj.) | `Menu option "New" selected` |
@@ -67,7 +67,7 @@
 | N° | Libellé (Nebula) | Libellé FR (éditeur) | Cas | Usage | Exemple réel |
 |---|---|---|---|---|---|
 | 0 | `Skip` |  |  | — |  |
-| 2 | `Execute external program {file2.FileName} {file2.Command}{(file2.FileFlags["WaitForEnd"] && file2.FileFlags["HideApplication"] ? " (wait,hide)" : file2.FileFlags["WaitForEnd"] ? " (wait)" : file2.FileFlags["HideApplication"] ? " (hide)" : "")}` |  |  | — |  |
+| 2 | `Execute external program <valeur> <valeur><valeur>` |  |  | — |  |
 | 3 | `Set <valeur globale p0> to <p1>` |  |  | 1061 (58 proj.) | `Special : Set AngleStop to Expression ID 89("Active Picture 2")` |
 | 4 | `Subtract <p1> from <valeur globale p0>` |  |  | 34 (10 proj.) | `Special : Subtract 1 from Global Value(1)` |
 | 5 | `Add <p1> to <valeur globale p0>` |  |  | 131 (18 proj.) | `Special : Add 1 to Object Creation` |
@@ -87,7 +87,7 @@
 | 19 | `Set <chaîne globale p0> to <p1>` |  |  | 117 (19 proj.) | `Special : Set Global String A to Expression ID 81("Play List")` |
 | 20 | `Send <p0> to clipboard` | Envoyer <p0> au presse-papier |  | — |  |
 | 21 | `Clear clipboard` | Vider le presse-papier |  | — |  |
-| 22 | `Execute external program <p0> <p1>{(flags22 == 3 ? " (wait,hide)" : flags22 == 1 ? " (wait)" : flags22 == 2 ? " (hide)" : "")}` |  |  | — |  |
+| 22 | `Execute external program <p0> <p1><valeur>` |  |  | — |  |
 | 23 | `Open debugger` | Ouvrir le débuggeur |  | — |  |
 | 24 | `Pause debugger` | Mettre le débuggeur en pause |  | — |  |
 | 25 | `Extract binary file <p0>` | Extraire fichier binaire <p0> |  | — |  |
@@ -102,13 +102,13 @@
 
 | N° | Libellé (Nebula) | Libellé FR (éditeur) | Cas | Usage | Exemple réel |
 |---|---|---|---|---|---|
-| 0 | `((ExpressionInt)Expression).Value.ToString()` |  |  | 43538 (147 proj.) | `1` |
+| 0 | `<entier> (ex. 3)` |  |  | 43538 (147 proj.) | `1` |
 | -1 | `(` |  |  | 1108 (59 proj.) | `(` |
 | 1 | `Random(` |  |  | 577 (49 proj.) | `Random(` |
 | -2 | `)` |  |  | 5905 (116 proj.) | `)` |
 | 2 | `Global Value(` |  |  | 194 (5 proj.) | `Global Value(` |
 | -3 | `, ` |  |  | 2023 (42 proj.) | `, ` |
-| 3 | `'"' + ((ExpressionString)Expression).Value + '"'` |  |  | 5179 (102 proj.) | `"GingerDude.png"` |
+| 3 | `<chaîne> (ex. "texte")` |  |  | 5179 (102 proj.) | `"GingerDude.png"` |
 | 4 | `Str$(` |  |  | 232 (32 proj.) | `Str$(` |
 | 5 | `Val(` |  |  | 70 (16 proj.) | `Val(` |
 | 6 | `Appdrive$` | Appdrive$ |  | 12 (7 proj.) | `Appdrive$` |
@@ -128,8 +128,8 @@
 | 20 | `Right$(` |  |  | 2 (1 proj.) | `Right$(` |
 | 21 | `Mid$(` |  |  | 6 (4 proj.) |  |
 | 22 | `Len(` |  |  | 20 (4 proj.) | `Len(` |
-| 23 | `((ExpressionDouble)Expression).Value.ToString()` |  |  | 1909 (44 proj.) | `20.0` |
-| 24 | `GetGlobalValueName()` |  |  | 1755 (42 proj.) | `Toggle` |
+| 23 | `<décimal> (ex. 1.0, 2.5)` |  |  | 1909 (44 proj.) | `20.0` |
+| 24 | `<nom d'une valeur globale>` |  |  | 1755 (42 proj.) | `Toggle` |
 | 28 | `Int(` |  |  | 25 (2 proj.) |  |
 | 29 | `Abs(` |  |  | 201 (8 proj.) |  |
 | 30 | `Ceil(` |  |  | 1 (1 proj.) |  |
@@ -152,7 +152,7 @@
 | 47 | `NewLine$` |  |  | 4 (1 proj.) | `NewLine$` |
 | 48 | `Round(` |  |  | 10 (1 proj.) |  |
 | 49 | `Global String(` |  |  | — |  |
-| 50 | `GetGlobalStringName()` |  |  | 49 (13 proj.) | `FileToOpen` |
+| 50 | `<nom d'une chaîne globale>` |  |  | 49 (13 proj.) | `FileToOpen` |
 | 51 | `Lower$(` |  |  | — |  |
 | 52 | `Upper$(` |  |  | — |  |
 | 53 | `Find(` |  |  | — |  |
@@ -268,11 +268,11 @@
 |---|---|---|---|---|---|
 | 0 | `Next frame` | Scène suivante |  | 119 (37 proj.) | `storyboard controls : Next frame` |
 | 1 | `Previous frame` | Scène précédente |  | 39 (15 proj.) | `storyboard controls : Previous frame` |
-| 2 | `Jump to frame {((Parameters[0].Data is ParameterExpressions) ? Parameters[0] : GetFrameName(((ParameterShort)Parameters[0].Data).Value))}` |  |  | 357 (37 proj.) | `storyboard controls : Jump to frame "Basic Solar System" (3)` |
+| 2 | `Jump to frame <scène>` |  |  | 357 (37 proj.) | `storyboard controls : Jump to frame "Basic Solar System" (3)` |
 | 4 | `End the application` | Terminer l'application |  | 146 (63 proj.) | `storyboard controls : End the application` |
 | 5 | `Restart the application` | Relancer l'application |  | 41 (13 proj.) | `storyboard controls : Restart the application` |
 | 6 | `Restart current frame` | Relancer la scène courante |  | 40 (20 proj.) | `storyboard controls : Restart current frame` |
-| 7 | `Center display at {Parameters[0].ToString().ReplaceLast(" layer 1", "")}` |  |  | 114 (34 proj.) | `storyboard controls : Center display at (0,-48) from SCROLL DOT` |
+| 7 | `Center display at <valeur>` |  |  | 114 (34 proj.) | `storyboard controls : Center display at (0,-48) from SCROLL DOT` |
 | 8 | `Center display at X=<p0>` | Centrer l'affichage en X=<p0> |  | 24 (9 proj.) | `storyboard controls : Center display at X=X("Screen target for win")` |
 | 9 | `Center display at Y=<p0>` | Centrer l'affichage en Y=<p0> |  | 24 (12 proj.) | `storyboard controls : Center display at Y=Y("Screen target for win")` |
 | 12 | `Clear screen in color <p0>` | Effacer l'écran en couleur <p0> |  | — |  |
@@ -295,7 +295,7 @@
 | 29 | `Load frame position <p0>, version <p1>` | Charger la position de la scène <p0>, version <p1> |  | — |  |
 | 30 | `Load application position <p0>, version <p1>` | Charger la position de l'application <p0>, version <p1> |  | — |  |
 | 31 | `Play demo file <p0>` | Jouer le fichier démo <p0> |  | — |  |
-| 32 | `Set effect to {Parameters[0].ToString().ReplaceLast(".fx", "")}` |  |  | 3 (1 proj.) |  |
+| 32 | `Set effect to <valeur>` |  |  | 3 (1 proj.) |  |
 | 33 | `Set effect parameter <p0> to <p1>` | Fixer paramètre effet <p0> à <p1> |  | 6 (1 proj.) |  |
 | 34 | `Set effect image parameter <p0> to <p1>` | Fixer paramètre image effet <p0> à <p1> |  | — |  |
 | 35 | `Set alpha-blending coefficient to <p0>` | Fixer coefficient semi-transparence à <p0> |  | — |  |
@@ -367,7 +367,7 @@
 | N° | Libellé (Nebula) | Libellé FR (éditeur) | Cas | Usage | Exemple réel |
 |---|---|---|---|---|---|
 | -13 | `No more objects in zone <zone p0>` |  |  | — |  |
-| -14 | `Number of objects in zone {zone14} <op> {Parameters[next14]}` |  |  | — |  |
+| -14 | `Number of objects in zone <valeur> <op> <valeur>` |  |  | — |  |
 | -15 | `Total number of objects <op> <p0>` | Nombre total d'objets <p0> |  | — |  |
 | -16 | `Pick a random object from zone <zone p0>` |  |  | — |  |
 | -17 | `Pick an object at random` | Choisir un objet au hasard |  | — |  |
@@ -418,7 +418,7 @@
 |---|---|---|---|---|---|
 | 0 | `Hide Windows mouse pointer` | Cacher le pointeur de souris |  | 5 (2 proj.) | `The mouse pointer and keyboard : Hide Windows mouse pointer` |
 | 1 | `Show Windows mouse pointer` | Montrer le pointeur de souris |  | 30 (12 proj.) | `The mouse pointer and keyboard : Show Windows mouse pointer` |
-| 2 | `Reset input between frames: {(int.TryParse(Parameters[0].ToString(), out int param) ? (param == 0 ? "Disabled" : "Enabled") : Parameters[0])}` |  |  | — |  |
+| 2 | `Reset input between frames: <valeur>` |  |  | — |  |
 
 ### Expressions
 
@@ -483,8 +483,8 @@
 | -8 | `<objet> is facing a direction <direction>` |  |  | 678 (27 proj.) | `Lobo is facing a direction ...........` |
 | -9 | `<objet> is in the play area` |  |  | 26 (7 proj.) |  |
 | -10 | `<objet> is out of the play area` |  |  | 135 (17 proj.) | `Club is out of the play area` |
-| -11 | `<objet> enters the play area{GetPlayAreaString(((ParameterShort)Parameters[0].Data).Value)}` |  |  | 2 (1 proj.) | `Orange Racer enters the play area on the left` |
-| -12 | `<objet> leaves the play area{GetPlayAreaString(((ParameterShort)Parameters[0].Data).Value)}` |  |  | 226 (29 proj.) | `You leaves the play area on the left, right` |
+| -11 | `<objet> enters the play area<valeur>` |  |  | 2 (1 proj.) | `Orange Racer enters the play area on the left` |
+| -12 | `<objet> leaves the play area<valeur>` |  |  | 226 (29 proj.) | `You leaves the play area on the left, right` |
 | -13 | `<objet> collides with the background` | <objet> est en collision avec le décor |  | 430 (36 proj.) | `Lobo collides with the background` |
 | -14 | `Collision between <objet> and <p0>` | Collision entre <objet> et <p0> |  | 2065 (63 proj.) | `Collision between Top of funnel and Funnel` |
 | -15 | `Speed of <objet> <op> <p0>` | La vitesse de <objet> <p0> |  | 185 (11 proj.) | `Speed of Sheep! <= 10` |
@@ -502,7 +502,7 @@
 | -27 | `<valeur modifiable p0> of <objet> <op> <p1>` |  |  | 12902 (73 proj.) | `Alterable Value A of SEAT-MAKER = 11` |
 | -28 | `<objet> is invisible` | <objet> est invisible |  | 28 (8 proj.) | `GO PROMPT is invisible` |
 | -29 | `<objet> is visible` | <objet> est visible |  | 95 (11 proj.) | `GO PROMPT is visible` |
-| -30 | `Number of <objet> in zone {zone30} <op> {Parameters[next30]}` |  |  | 77 (5 proj.) | `Number of Wallop in zone (-4,-2) to (640,482) < Alterable Value B("Powerup")` |
+| -30 | `Number of <objet> in zone <valeur> <op> <valeur>` |  |  | 77 (5 proj.) | `Number of Wallop in zone (-4,-2) to (640,482) < Alterable Value B("Powerup")` |
 | -31 | `No more <objet> in zone <zone p0>` |  |  | 3 (1 proj.) | `No more Ball in zone (0,0) to (26,326)` |
 | -32 | `Number of <objet> <op> <p0>` | Le nombre de <objet> <p0> |  | 328 (30 proj.) | `Number of bullet = 0` |
 | -33 | `Last <objet> has been destroyed` | Le dernier <objet> a été détruit |  | 59 (10 proj.) | `Last Spinny #1 has been destroyed` |
@@ -532,7 +532,7 @@
 | N° | Libellé (Nebula) | Libellé FR (éditeur) | Cas | Usage | Exemple réel |
 |---|---|---|---|---|---|
 | 0 | `Set Flag <p1> to <p2>` | Mettre drapeau <p1> à <p2> |  | 18 (6 proj.) |  |
-| 1 | `Set position at {Parameters[0].ToString().ReplaceLast(" layer 1", "")}` |  |  | 1245 (61 proj.) | `Ground check : Set position at (0,0) from Lobo` |
+| 1 | `Set position at <valeur>` |  |  | 1245 (61 proj.) | `Ground check : Set position at (0,0) from Lobo` |
 | 2 | `Set X position to <p0>` | Fixer la position en X à <p0> |  | 1643 (81 proj.) | `SEAT-MAKER : Set X position to X("SEAT-MAKER") + 41` |
 | 3 | `Set Y position to <p0>` | Fixer la position en Y à <p0> |  | 1739 (78 proj.) | `SEAT-MAKER : Set Y position to Y("SEAT-MAKER") + 41` |
 | 4 | `Stop` | Stop |  | 561 (56 proj.) | `Active : Stop` |
@@ -545,7 +545,7 @@
 | 11 | `Next movement` | Mouvement suivant |  | — |  |
 | 12 | `Previous movement` | Mouvement précédent |  | — |  |
 | 13 | `Select movement <p0>` | Sélectionner le mouvement <p0> |  | — |  |
-| 14 | `Look at {Parameters[0].ToString().ReplaceLast(" layer 1", "")}` |  |  | 70 (16 proj.) | `Homer #1 : Look at (0,0) from Spinny #1 ()` |
+| 14 | `Look at <valeur>` |  |  | 70 (16 proj.) | `Homer #1 : Look at (0,0) from Spinny #1 ()` |
 | 15 | `Stop animation` | Stopper l'animation |  | 100 (22 proj.) | `Space Crusader Top 6 : Stop animation` |
 | 16 | `Start animation` | Lancer l'animation |  | 122 (12 proj.) | `Space Crusader Top 6 : Start animation` |
 | 17 | `Change animation sequence to <animation>` |  | Parameters[0].Data is ParameterShort animS | 2584 (61 proj.) | `Lobo : Change animation sequence to Crouch down` |
@@ -562,7 +562,7 @@
 | 27 | `Reappear` | Réapparition |  | 936 (40 proj.) | `Play : Reappear` |
 | 28 | `Flash during <p0>` | Clignoter pendant <p0> |  | 62 (10 proj.) | `Ship : Flash during 00''-10` |
 | 29 | `Launch <p0>` | Lancer <p0> |  | 375 (24 proj.) | `You : Launch bullet toward ............. at speed 50` |
-| 30 | `Launch <p0> toward {Parameters[1].ToString().ReplaceLast(" layer 1", "")}` |  |  | 33 (8 proj.) | `Start : Launch Hedgehog 100% at speed 12 toward (0,0) from Sky Rocket` |
+| 30 | `Launch <p0> toward <valeur>` |  |  | 33 (8 proj.) | `Start : Launch Hedgehog 100% at speed 12 toward (0,0) from Sky Rocket` |
 | 31 | `Set <valeur modifiable p0> to <p1>` |  |  | 10502 (77 proj.) | `SEAT : Set Alterable Value A to Alterable Value A("SEAT-MAKER") + (Alterable Value B("SEAT-MAKER") * 11)` |
 | 32 | `Add <p1> to <valeur modifiable p0>` |  |  | 1036 (50 proj.) | `SEAT-MAKER : Add 1 to Alterable Value A` |
 | 33 | `Subtract <p1> from <valeur modifiable p0>` |  |  | 549 (48 proj.) | `Bullet : Subtract 1 from Alterable Value A` |
@@ -570,7 +570,7 @@
 | 35 | `Set Flag <p0> on` |  |  | 614 (37 proj.) | `start-point : Set Flag 0 on` |
 | 36 | `Set Flag <p0> off` |  |  | 463 (29 proj.) | `start-point : Set Flag 0 off` |
 | 37 | `Toggle Flag <p0>` |  |  | 45 (18 proj.) | `SoundMute AO : Toggle Flag 0` |
-| 38 | `Set ink effect to {GetInkEffect((ParameterDoubleShort)Parameters[0].Data)}` |  |  | 4 (1 proj.) |  |
+| 38 | `Set ink effect to <effet d'encre>` |  |  | 4 (1 proj.) |  |
 | 39 | `Set semi-transparency to <p0>` | Fixer la semi-transparence à <p0> |  | 15 (2 proj.) | `Dog : Set semi-transparency to 0` |
 | 40 | `Force animation frame to <p0>` | Force l'image de l'animation à <p0> |  | 287 (20 proj.) | `pipe-top.Active : Force animation frame to sceneryVariant` |
 | 41 | `Restore animation frame` | Restaurer l'image d'animation |  | 58 (1 proj.) |  |
@@ -595,7 +595,7 @@
 | 60 | `Move in front of object <p0>` | Faire passer devant l'objet <p0> |  | 68 (3 proj.) | `Electron 1 : Move in front of object Atom` |
 | 61 | `Move to layer <p0>` | Déplacer vers calque <p0> |  | 237 (1 proj.) |  |
 | 62 | `Add to debugger` | Ajouter au débuggeur |  | 218 (33 proj.) | `Local Variables : Add to debugger` |
-| 63 | `Set effect to {Parameters[0].ToString().ReplaceLast(".fx", "")}` |  |  | 7 (1 proj.) |  |
+| 63 | `Set effect to <valeur>` |  |  | 7 (1 proj.) |  |
 | 64 | `Set effect parameter <p0> to <p1>` | Fixer paramètre effet <p0> à <p1> |  | 89 (11 proj.) |  |
 | 65 | `Set alpha-blending coefficient to <p0>` | Fixer coefficient semi-transparence à <p0> |  | 4 (2 proj.) |  |
 | 66 | `Set RGB coefficient to <p0>` | Fixer coefficient RGB à <p0> |  | — |  |
@@ -612,10 +612,10 @@
 | 77 | `Start loop for each one of <objet> and <p0>, loop name <p1>` | Lancer une boucle pour chacun des <objet> et <p0>, nom de boucle <p1> |  | — |  |
 | 78 | `Stop force` | Arrêter la force |  | — |  |
 | 79 | `Stop torque` | Arrêter le couple |  | — |  |
-| 80 | `Paste into background{GetDirectionSettings(((ParameterShort)Parameters[0].Data).Value)}` |  |  | 47 (5 proj.) | `Blue Star : Paste into background` |
-| 81 | `Display paragraph {((ParameterShort)Parameters[1].Data).Value + 1} at {Parameters[0].ToString().ReplaceLast(" layer 1", "")}` |  |  | 8 (3 proj.) | `A Draw!... : Display paragraph 1 at (212,4)` |
-| 82 | `Flash paragraph {((ParameterShort)Parameters[1].Data).Value + 1} at {Parameters[0].ToString().ReplaceLast(" layer 1", "")} for <p2>` |  |  | 94 (3 proj.) |  |
-| 83 | `Add backdrop{GetDirectionSettings(((ParameterShort)Parameters[0].Data).Value)}` |  |  | — |  |
+| 80 | `Paste into background <obstacle>` |  |  | 47 (5 proj.) | `Blue Star : Paste into background` |
+| 81 | `Display paragraph <valeur> at <valeur>` |  |  | 8 (3 proj.) | `A Draw!... : Display paragraph 1 at (212,4)` |
+| 82 | `Flash paragraph <valeur> at <valeur> for <p2>` |  |  | 94 (3 proj.) |  |
+| 83 | `Add backdrop <obstacle>` |  |  | — |  |
 | 84 | `Replace color <p0> by <p1>` | Remplacer la couleur <p0> par <p1> |  | — |  |
 | 85 | `Set scale to <p0> (Quality = <p1>)` | Fixer l'échelle à <p0> (qualité = <p1>) |  | 169 (15 proj.) | `Earth : Set scale to 0.8 - 0.2 * Sin(Expression ID 111("Clickteam Movement Controller")Fixed("Earth"))) (Quality = 1)` |
 | 86 | `Set X scale to <p0> (Quality = <p1>)` | Fixer l'échelle en X à <p0> (qualité = <p1>) |  | 7 (1 proj.) |  |
@@ -665,10 +665,10 @@
 | 13 | `Flag("<objet>", ` |  |  | 18 (6 proj.) |  |
 | 14 | `Anim Number("<objet>")` |  |  | 134 (1 proj.) |  |
 | 15 | `NObjects("<objet>")` |  |  | 30 (7 proj.) | `NObjects("Ball")` |
-| 16 | `{GetAlterableValueName()}("<objet>")` |  |  | 6607 (73 proj.) | `Alterable Value B("SEAT-MAKER")` |
+| 16 | `<valeur>("<objet>")` |  |  | 6607 (73 proj.) | `Alterable Value B("SEAT-MAKER")` |
 | 17 | `SemiTrans("<objet>")` |  |  | 9 (1 proj.) |  |
 | 18 | `NMovement("<objet>")` |  |  | — |  |
-| 19 | `{GetAlterableStringName()}("<objet>")` |  |  | 301 (2 proj.) |  |
+| 19 | `<valeur>("<objet>")` |  |  | 301 (2 proj.) |  |
 | 20 | `FontName$("<objet>")` |  |  | — |  |
 | 21 | `FontSize("<objet>")` |  |  | — |  |
 | 22 | `FontColor("<objet>")` |  |  | — |  |
@@ -780,7 +780,7 @@
 |---|---|---|---|---|---|
 | 80 | `Erase` | Effacer |  | 9 (1 proj.) | `Yes, that is correct... : Erase` |
 | 83 | `Set color of <p0>` | Fixer la couleur de <p0> |  | 77 (3 proj.) | `Click on a card.... : Set color of RGB(128,128,128)` |
-| 84 | `Display paragraph {((ParameterShort)Parameters[1].Data).Value + 1}` |  | Parameters.Length > 1 et Parameters[1].Data is ParameterShort | 60 (11 proj.) | `ALLOC TEXT : Display paragraph 0` |
+| 84 | `Display paragraph <valeur>` |  | Parameters.Length > 1 et Parameters[1].Data is ParameterShort | 60 (11 proj.) | `ALLOC TEXT : Display paragraph 0` |
 | 84 | `Display paragraph <p0>` | Afficher le paragraphe <p0> | !(Parameters.Length > 1 et Parameters[1].Data is ParameterShort) | 60 (11 proj.) | `ALLOC TEXT : Display paragraph 0` |
 | 85 | `Display previous paragraph` | Afficher le paragraphe précédent |  | — |  |
 | 86 | `Display next paragraph` | Afficher le paragraphe suivant |  | 18 (6 proj.) | `MAIN TEXT : Display next paragraph` |

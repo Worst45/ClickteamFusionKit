@@ -120,6 +120,16 @@ const TYPE_NAME = { "-7": "Joueurs (Player)", "-6": "Clavier et souris", "-5": "
 const OBJ_NAME = { 2: "Active (objet actif)", 3: "String (texte)", 4: "Question", 5: "Score", 6: "Lives (vies)",
   7: "Counter (compteur)", 8: "Formatted Text", 9: "Sub-Application" };
 
+// Entrées dont Nebula renvoie du code (valeur calculée) plutôt qu'un texte : libellé explicite
+const CODE_TEMPLATE = {
+  "condition|-1|-10": "[GROUP] <nom du groupe>",
+  "expression|-1|0": "<entier> (ex. 3)",
+  "expression|-1|3": "<chaîne> (ex. \"texte\")",
+  "expression|-1|23": "<décimal> (ex. 1.0, 2.5)",
+  "expression|-1|24": "<nom d'une valeur globale>",
+  "expression|-1|50": "<nom d'une chaîne globale>",
+};
+
 const claimed = {}; // "kind|num" -> types spécifiques (2, 7...) couverts par une entrée dédiée
 const sections = {};
 for (const e of nebula) {
@@ -135,7 +145,7 @@ for (const e of nebula) {
     types = [+pos[1]];
     (claimed[`${k}|${e.num}`] ??= new Set()).add(+pos[1]);
   } else section = "Objets (commun à tous les objets)";
-  let template = e.template === "Parameters[0].ToString()" ? "[GROUP] <p0>" : e.template;
+  const template = CODE_TEMPLATE[`${e.kind}|${e.objectType}|${e.num}`] ?? e.template;
   const when = (e.when || "").split(" && ").filter(w => w && !/ObjectType/.test(w) && w !== "Num = default").join(" et ");
   (sections[section] ??= { C: [], A: [], E: [] })[k].push({ num: e.num, template, when, types, source: e.source });
 }

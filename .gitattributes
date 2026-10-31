@@ -1,0 +1,5 @@
+# Fins de ligne stables sur tous les PC (les générateurs écrivent en LF)
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.exe binary
