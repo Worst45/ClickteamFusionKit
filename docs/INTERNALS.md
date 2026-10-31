@@ -58,6 +58,8 @@ in the kit.
 | `69a5b8f` | Decimal numbers: `ByteReader.ReadDouble` read the fixed-point format of some non-Windows exports whenever `NebulaCore.Windows` was false, so always for an MFA; rendering in the invariant culture |
 | `4b55799` | A round decimal is shown with `.0` (`1.0`) to tell it apart from an integer |
 | `8ea6657` | `Parameter.Raw`: raw bytes of each parameter (debugging) |
+| `d97ca8c` | Menu options: `ACEventBase.GetMenuItem` searches every sub-menu (it stopped after the first one, so `Options > Display > item` was lost when `Options > Sounds` came first); an unknown id renders as `[menu id N]` |
+| `84056db` | Extension expressions: resolver `ParameterExpression.ExtensionExpressionInfo` (name + parameter count, set by MfaDump from the catalog); `ParameterExpressions.ToString` writes `Name("object", p1, p2)` when the next tokens are parameters (any token but an operator, `,` or `)`; a leading ` - ` counts as a parameter only if the catalog says the expression has some) |
 
 ## 3. MfaDump (`src\MfaDump\Program.cs`)
 
@@ -73,7 +75,17 @@ C# program with top-level statements.
    actions, `[DISABLED]`.
 4. **Readable names** (`CollectNames` + `WithNames`): `Flag N «name»`, names of the alterable values. A
    qualifier takes the names of its first member. Object tables are **per frame** (`frame.MFAItems`).
-5. **French** (`L` for the interface strings, `Tr` for conditions and actions), from the embedded
+5. **Extensions, in both languages**: from the embedded `data\lang\fr.json` (despite its name, it also
+   holds English data):
+   - `extEn` (EN templates of extension conditions/actions) replaces Nebula's raw
+     `Obj : Event ID n, …`. In French, `ext` (FR template) is used first, then `extEn`: the French
+     editor shows the English text of an untranslated extension. For actions, a leading `<object>:`
+     is dropped (the object is already in the `Obj : ` header); a condition template without
+     `<object>` gets `<object>: ` in front.
+   - `extExpr` (`ext|<mfx>|num` → [name, parameter count or -1]) is given to Nebula through
+     `ParameterExpression.ExtensionExpressionInfo`, which writes `GroupItemValue("Ini", "Game", "x")`.
+   - The objects list shows each extension's `.mfx` file (`Ini (Extension kcini)`).
+6. **French** (`L` for the interface strings, `Tr` for conditions and actions), from the embedded
    `data\lang\fr.json`:
    - Built-in objects: `[EN template, FR template]` pairs per `kind|type|num` (or `kind|*|num` for the
      actions and conditions common to all objects). The EN template (from Nebula's catalog) is matched
@@ -86,8 +98,10 @@ C# program with top-level statements.
    - A line that cannot be rendered safely stays in English. On 60 test projects, about 95% of the
      lines are translated; the rest are mostly comparisons that read the same in both
      languages, and generic "Event ID" lines of extensions without a catalog.
-   - The `.jsonl` (statistics) always keeps the English text.
-6. **Writing** in UTF-8 with BOM. An isolated error → `[?? type T, num N : Exception]`, without stopping.
+   - The `.jsonl` (statistics) keeps Nebula's English text: `Event ID n` for extension
+     conditions/actions, but extension expressions inside parameters are named (the resolver is
+     global). `stats.js` only uses this text as examples.
+7. **Writing** in UTF-8 with BOM. An isolated error → `[?? type T, num N : Exception]`, without stopping.
 
 Options (environment variables):
 - `MFADUMP_JSONL=1`: also writes `<output>.jsonl`, one line per condition (`C`), action (`A`) and

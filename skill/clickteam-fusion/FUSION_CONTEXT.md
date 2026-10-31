@@ -269,13 +269,17 @@ labels (e.g. `Params : Mettre le drapeau 1 «tombe» sur ON`).
   (truncated text).
 - `[ERROR] Could not find ObjectType …` or `[?? type …]`: condition/action unknown to Nebula. See the end
   of `bible/built-in-objects.md`, otherwise ask for a screenshot of the editor.
-- **Extensions**: the export shows `<object> : Event ID 89, …` or `Expression ID 88(…)` (in French too,
-  unless the extension has a French label). Find the extension's page in `bible/extensions/`:
+- **Extensions**: conditions, actions and expressions are named from the extension catalog, in the
+  editor's syntax (`GroupItemValue("Ini", "Game", "sound")`). Since 2026-11-01 also in English (before,
+  only the French export used the catalog). An extension missing from the catalog (or whose catalog
+  entry does not match the parameters) still shows `<object> : Event ID 89, …` or
+  `Expression ID 88("<object>")`. Find the extension's page in `bible/extensions/`:
   action / expression = 80 + code (89 → code 9), condition = −(81 + code).
-- **Editor syntax ≠ export syntax** (verified): `Expression ID 83("Ini")"Game", "sound")` is written
-  `GroupItemValue( "Ini", "Game", "sound" )` in the editor. Every expression tied to an object takes
-  the object's name in quotes **as its first parameter**, before the ones listed in the bible. Forgetting
-  it in a suggestion gives an expression the editor rejects.
+- **Every expression tied to an object takes the object's name in quotes as its first parameter**
+  (verified), before the ones listed in the bible: `GroupItemValue( "Ini", "Game", "sound" )`.
+  Forgetting it in a suggestion gives an expression the editor rejects.
+- A menu option shown as `[menu id 1010]` is not in the project's menu bar (predefined command or
+  deleted item): ask for a screenshot.
 - When in doubt about a line, **ask for a screenshot of the event** rather than guessing.
 - Validated on 162 projects (MFU2 builds 280 to 296, old MMF2 builds 241 to 258, multi-frame projects
   and projects with extensions).

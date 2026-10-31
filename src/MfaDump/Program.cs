@@ -109,6 +109,8 @@ static void Run(string input, string output)
 
     MFAPackageData pkg = reader.Package;
     Out.Extensions = pkg.Extensions.Exts.ToDictionary(e => e.Key, e => (e.Value.Name, Path.GetFileNameWithoutExtension(e.Value.FileName)));
+    // Extension expressions written as in the editor (GroupItemValue("Ini", ...)), from the catalog
+    ParameterExpression.ExtensionExpressionInfo = Tr.ExtensionExpression;
     var sb = new StringBuilder();
 
     sb.AppendLine($"{L.T("Application")}: {pkg.AppName}  (Fusion build {pkg.ProductBuild})");
@@ -265,7 +267,7 @@ static void DumpEvents(StringBuilder sb, FrameEvents evts)
         foreach (Condition c in evt.Conditions)
         {
             string en = WithNames(c, Safe(() => c.ToString(), c.ObjectType, c.Num));
-            sb.AppendLine($"{pad()}  {L.T("IF"),-5} {(L.Lang == "en" ? en : WithNames(c, Tr.Condition(c, en)))}");
+            sb.AppendLine($"{pad()}  {L.T("IF"),-5} {WithNames(c, Tr.Condition(c, en))}");
             Out.Record("C", n, c, en);
             // Debug: MFADUMP_RAW=<code> shows the parameters (and their raw bytes) of conditions and actions having this code
             if (rawCode != null && c.Parameters.Any(p => p.Code.ToString() == rawCode))
@@ -277,7 +279,7 @@ static void DumpEvents(StringBuilder sb, FrameEvents evts)
             if (a.ObjectType == -1 && a.Num == 0)
                 continue; // empty action inserted by Fusion
             string en = WithNames(a, Safe(() => a.ToString(), a.ObjectType, a.Num));
-            sb.AppendLine($"{pad()}  {L.T("DO"),-5} {(L.Lang == "en" ? en : WithNames(a, Tr.Action(a, en)))}");
+            sb.AppendLine($"{pad()}  {L.T("DO"),-5} {WithNames(a, Tr.Action(a, en))}");
             Out.Record("A", n, a, en);
             if (rawCode != null && a.Parameters.Any(p => p.Code.ToString() == rawCode))
                 foreach (var p in a.Parameters)
@@ -337,7 +339,8 @@ static string TypeName(int t) => t switch
     7 => "Counter",
     8 => "Formatted Text",
     9 => "Sub-Application",
-    _ => $"Extension {t}"
+    // Extension: its .mfx file (the display name of non-Unicode extensions may be badly decoded)
+    _ => Out.ExtFile(t) is string file ? $"Extension {file}" : $"Extension {t}"
 };
 
 // Interface strings of the export
@@ -356,14 +359,19 @@ static class L
     public static string T(string en) => Lang == "fr" && Fr.TryGetValue(en, out var fr) ? fr : en;
 }
 
-// Translation of conditions and actions from the embedded table (see src/bible/generate.js):
+// Rendering of conditions and actions from the embedded table (see src/bible/generate.js):
 // templates with placeholders filled from the event's parameters. Any placeholder that cannot be
-// rendered safely keeps the English line.
+// rendered safely keeps Nebula's English line.
+// - built-in objects: French only (in English, Nebula's text is kept);
+// - extensions, in both languages: the catalog's template replaces Nebula's raw "Event ID n".
+//   In French, an extension without French label shows its English template, as the editor does.
 static class Tr
 {
-    // Built-in: (EN template, FR template) variants; extensions: FR template
+    // Built-in: (EN template, FR template) variants; extensions: FR / EN templates, expression names
     static readonly Dictionary<string, List<(string en, string fr)>> Builtin = new();
     static readonly Dictionary<string, string> Ext = new();
+    static readonly Dictionary<string, string> ExtEn = new();
+    static readonly Dictionary<string, (string name, int count)> ExtExpr = new();
     // Parameter codes of compared values: 23 = number comparison, 46 = string comparison
     static readonly int[] ComparisonCodes = { 23, 46 };
     // Headers that Nebula puts in front of actions of system objects
@@ -383,6 +391,17 @@ static class Tr
         foreach (var p in doc.RootElement.GetProperty("builtin").EnumerateObject())
             Builtin[p.Name] = p.Value.EnumerateArray().Select(pair => (pair[0].GetString(), pair[1].GetString())).ToList();
         foreach (var p in doc.RootElement.GetProperty("ext").EnumerateObject()) Ext[p.Name] = p.Value.GetString();
+        if (doc.RootElement.TryGetProperty("extEn", out var extEn))
+            foreach (var p in extEn.EnumerateObject()) ExtEn[p.Name] = p.Value.GetString();
+        if (doc.RootElement.TryGetProperty("extExpr", out var extExpr))
+            foreach (var p in extExpr.EnumerateObject()) ExtExpr[p.Name] = (p.Value[0].GetString(), p.Value[1].GetInt32());
+    }
+
+    // Editor name and parameter count of an extension expression (resolver given to Nebula)
+    public static (string Name, int ParameterCount)? ExtensionExpression(ParameterExpression e)
+    {
+        string file = Out.ExtFile(e.ObjectType);
+        return file != null && ExtExpr.TryGetValue($"ext|{file.ToLowerInvariant()}|{e.Num}", out var x) ? (x.name, x.count) : null;
     }
 
     public static string Condition(Condition c, string en) => Translate(c, "C", en, "", "");
@@ -421,11 +440,23 @@ static class Tr
         if (x.ObjectType >= 32 && (kind == "A" ? x.Num >= 80 : x.Num <= -81))
         {
             string file = Out.ExtFile(x.ObjectType);
-            if (file != null && Ext.TryGetValue($"ext|{file.ToLowerInvariant()}|{kind}|{x.Num}", out var t))
+            string key = $"ext|{file?.ToLowerInvariant()}|{kind}|{x.Num}";
+            string t = null;
+            if (file != null && !(L.Lang == "fr" && Ext.TryGetValue(key, out t)))
+                ExtEn.TryGetValue(key, out t);
+            if (t != null)
+            {
+                string objName = null;
+                try { objName = x.GetObjectName(); } catch { }
+                // Actions: the object is already in the header ("Ini : "), drop it from the template.
+                // Conditions: "<object>: text", as Nebula writes them.
+                t = kind == "A" ? Regex.Replace(t, @"^<object>\s*:?\s*", "")
+                    : t.Contains("<object>") || objName == null ? t : "<object>: " + t;
                 candidates.Add((null, t));
+            }
         }
-        else if (Builtin.TryGetValue($"{kind}|{x.ObjectType}|{x.Num}", out var pairs)
-                 || x.ObjectType >= 0 && Builtin.TryGetValue($"{kind}|*|{x.Num}", out pairs))
+        else if (L.Lang == "fr" && (Builtin.TryGetValue($"{kind}|{x.ObjectType}|{x.Num}", out var pairs)
+                 || x.ObjectType >= 0 && Builtin.TryGetValue($"{kind}|*|{x.Num}", out pairs)))
             candidates.AddRange(pairs);
 
         // 1. The EN template matches Nebula's text: placeholders take the captured text
@@ -446,7 +477,8 @@ static class Tr
         catch { return en; }
     }
 
-    static string Finish(string fr, string prefix, bool negated) => prefix + (negated ? "NON " : "") + fr;
+    static string Finish(string text, string prefix, bool negated) =>
+        prefix + (negated ? (L.Lang == "fr" ? "NON " : "NOT ") : "") + text;
 
     // Placeholder values of an EN template matched against Nebula's text, or null if it does not match
     static Dictionary<string, string> Capture(ACEventBase x, string enTemplate, string text)

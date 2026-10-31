@@ -75,9 +75,14 @@ Read `FUSION_CONTEXT.md` (sections 1 to 7 for the engine, 8 for the export). The
 - **Built-in objects** (Special, Sound, Storyboard, Timer, Mouse/keyboard, Players, Active, String,
   Counter…): `bible/built-in-objects.md`, sorted by object then Conditions / Actions / Expressions,
   with the French label next to the English one.
-- **Extensions**: the raw export shows `Object : Event ID 89, …` or `Expression ID 88(…)`.
-  Open `bible/extensions/README.md`, find the extension (by its displayed name), then:
-  action / expression = 80 + code (89 → code 9), condition = −(81 + code) (−82 → code 1).
+- **Extensions**: the export names their conditions, actions and expressions from the extension
+  catalog (`Ini : Set current file to "game.ini"`, `GroupItemValue("Ini", "Game", "sound")`). The
+  objects list gives each extension's file (`Ini (Extension kcini)`). An extension missing from the
+  catalog still shows raw numbers: `Object : Event ID 89, …` or `Expression ID 88("Object")`. Then open
+  `bible/extensions/README.md`, find the extension, and: action / expression = 80 + code (89 → code 9),
+  condition = −(81 + code) (−82 → code 1).
+- In French, an extension that Clickteam did not translate shows **its English text**, in the export
+  as in the editor.
 - A `[ERROR]` or `[??]` line: see the end of `bible/built-in-objects.md`; otherwise ask for a
   **screenshot of the event** rather than guessing.
 - The **Usage** column says how many times the entry was seen in 162 real projects: an entry never seen
@@ -94,18 +99,17 @@ Fusion editor**:
 
 ### Writing an expression as in the editor
 
-The export does not use the editor's syntax: **translate** it before giving it to the user. In the
-editor, an expression tied to an object takes **the object's name in quotes as its first parameter**,
-then its parameters. The bible does not repeat this in its Parameters column.
+In the editor, an expression tied to an object takes **the object's name in quotes as its first
+parameter**, then its parameters. The bible does not repeat this in its Parameters column. The export
+already uses this syntax (`GroupItemValue("Ini", Str$(indPack), Str$(indLevel))`, `X("hero")`), except
+for an extension missing from the catalog, which must be **translated** before giving it to the user:
 
-| MfaDump export | To type in the editor |
+| MfaDump export (extension without catalog) | To type in the editor |
 |---|---|
-| `Expression ID 83("Ini")Str$(indPack), Str$(indLevel))` | `GroupItemValue( "Ini", Str$(indPack), Str$(indLevel) )` |
-| `Expression ID 89("meta")0, indPack)` | `StrAtXY( "meta", 0, indPack )` |
-| `X("hero")` | `X( "hero" )` |
+| `Expression ID 83("Ini")` followed by `Str$(indPack), Str$(indLevel))` | `GroupItemValue( "Ini", Str$(indPack), Str$(indLevel) )` |
 
-The expression's name comes from the "Display text" column of the bible (`GroupItemValue(`); the object
-is the one the export puts in parentheses right after `Expression ID n`.
+The expression's name comes from the "Display text" column of the extension's page
+(`GroupItemValue(`, code 83 − 80 = 3).
 
 ### Prefer native features over extensions
 

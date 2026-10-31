@@ -189,9 +189,13 @@ function frBuiltin(t, kind) {
   return null;
 }
 
-// Translation table embedded into MfaDump: key "C|type|num" ("*" = any object type not covered
-// by a dedicated entry), or "ext|<mfx file>|C|num"
-const frTable = { builtin: {}, ext: {} };
+// Table embedded into MfaDump (used in both languages despite its name):
+// - builtin: key "C|type|num" ("*" = any object type not covered by a dedicated entry) -> [EN, FR] pairs
+// - ext:     key "ext|<mfx file>|C|num" -> FR template of an extension condition/action
+// - extEn:   same key -> EN template (the French editor shows it too when the extension is not translated)
+// - extExpr: key "ext|<mfx file>|num" -> [expression name as typed in the editor ("GroupItemValue("),
+//            number of parameters or -1 when unreliable]
+const frTable = { builtin: {}, ext: {}, extEn: {}, extExpr: {} };
 
 let frOfficial = 0, frUnofficial = 0, rowsBuiltin = 0;
 const frMissing = new Set(); // conditions/actions without French label (to add to fr-unofficial.json)
@@ -257,6 +261,11 @@ for (const [dir, origin] of [[path.join(DATA, "extensions/installed"), "installe
   }
 }
 const extKeys = [...new Set([...Object.keys(catalogs), ...Object.keys(statsExt).filter(k => k !== "?")])].sort();
+// Hand-checked labels replacing unusable catalog texts (data\extensions\overrides.json)
+const OVERRIDES_FILE = path.join(DATA, "extensions/overrides.json");
+const overrides = fs.existsSync(OVERRIDES_FILE) ? readJson(OVERRIDES_FILE) : {};
+// Display texts that are not labels: extensions refusing to run outside their host
+const unusableText = t => !t || /not compatible with this version/i.test(t);
 const eventNum = (k, c) => k === "C" ? -(81 + c) : 80 + c;
 const codeOf = (k, num) => k === "C" ? -num - 81 : num - 80;
 
@@ -274,7 +283,7 @@ for (const key of extKeys) {
   if (names.length) p += `- Name(s) shown in projects: ${names.map(n => `“${n}”`).join(", ")}\n`;
   p += `- Usage in the corpus: ${total ? `${total} times` : "none"}\n`;
   p += `- Numbers in events: condition = −(81 + code), action / expression = 80 + code\n`;
-  p += `- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. \`GroupItemValue( "Ini", "Game", "sound" )\` (the MfaDump export shows \`Expression ID 83("Ini")"Game", "sound")\`)\n`;
+  p += `- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. \`GroupItemValue( "Ini", "Game", "sound" )\` (the MfaDump export writes it this way; an extension missing from the catalog shows \`Expression ID 83("Ini")\` instead)\n`;
   if (cat) for (const k of ["conditions", "actions", "expressions"])
     if (cat[k + "_status"]) p += `- ${k}: extracted in “${cat[k + "_status"]}” mode${/ressources|resource/.test(cat[k + "_status"]) ? " (numbers possibly guessed, see the Code column)" : ""}\n`;
   const seenCodes = new Set();
@@ -287,20 +296,37 @@ for (const key of extKeys) {
       const num = eventNum(k, a.code);
       seenCodes.add(`${k}|${num}`);
       const u = usage(usedK.filter(s => s.num === num));
-      const text = normText(a.text || a.resText);
+      const ov = overrides[key]?.[`${k}|${num}`];
+      const text = ov?.en ?? normText(a.text || a.resText);
       if (text) extRowsWithText++;
       extRows++;
-      const frRaw = frGet(title, fixAnsi(a.text)) || frGet(title, a.menu?.split(" > ").pop());
+      const frRaw = ov?.fr ?? (frGet(title, fixAnsi(a.text)) || frGet(title, a.menu?.split(" > ").pop()));
       const frText = typeof frRaw === "string" ? normText(frRaw) : "";
       if (frText) {
         extFr++;
-        if (k !== "E" && /<object>|<p\d>/.test(frText) || k !== "E" && frRaw === frGet(title, fixAnsi(a.text)))
+        if (k !== "E" && (ov?.fr || /<object>|<p\d>/.test(frText) || frRaw === frGet(title, fixAnsi(a.text))))
           frTable.ext[`ext|${key}|${k}|${num}`] = frText;
       }
+      if (k === "E") {
+        const name = fixAnsi(a.text || a.resText)?.trim();
+        if (name && !unusableText(name))
+          frTable.extExpr[`ext|${key}|${num}`] = [name.endsWith("(") ? name : name + "(", a.paramsUnreliable ? -1 : (a.paramTypes || []).length];
+      } else if (!unusableText(text))
+        frTable.extEn[`ext|${key}|${k}|${num}`] = text;
       const params = (a.paramTypes || []).map((t, i) =>
         `${(k === "E" ? EXP_PARAM : PARAM)[t] || "type " + t}${a.paramTitles?.[i] ? ` “${fixAnsi(a.paramTitles[i])}”` : ""}`).join("; ")
         + (k === "E" && a.flags & 1 ? " → string" : "") + (a.paramsUnreliable ? " (unreliable parameters)" : "");
       p += `| ${a.code}${a.codeGuessed ? " (guessed)" : ""} | ${num} | ${md(a.menu)} | ${code(text)} | ${md(frText)} | ${md(params)} | ${usageCell(u)} | ${code(cut(u.example))} |\n`;
+    }
+    // Hand-checked entries missing from the catalog
+    for (const [ok, ov] of Object.entries(overrides[key] || {})) {
+      const [ovKind, ovNum] = ok.split("|");
+      if (ovKind !== k || seenCodes.has(ok)) continue;
+      const num = +ovNum, u = usage(usedK.filter(s => s.num === num));
+      seenCodes.add(ok);
+      if (ov.en) frTable.extEn[`ext|${key}|${k}|${num}`] = ov.en;
+      if (ov.fr) frTable.ext[`ext|${key}|${k}|${num}`] = ov.fr;
+      p += `| ${codeOf(k, num)} | ${num} | ${md(ov.menu)} | ${code(ov.en)} | ${md(ov.fr)} | (checked by hand) | ${usageCell(u)} | ${code(cut(u.example))} |\n`;
     }
     for (const s of usedK.filter(s => !seenCodes.has(`${k}|${s.num}`)).sort((x, y) => Math.abs(x.num) - Math.abs(y.num)))
       p += `| ${codeOf(k, s.num)} | ${s.num} | ? | ? |  |  | ${usageCell(usage([s]))} | ${code(cut(s.examples[0] || s.errorExamples[0]))} |\n`;
@@ -360,8 +386,11 @@ export format). Generated by \`src/bible/generate.js\`: do not edit by hand.
   0 expression operators, 2 Active, 3 String, 7 Counter…, 32 and more = extensions (\`ObjectType - 32\` =
   index of the extension in the project).
 - **Extensions**: *code* = internal number of the extension; in events, condition = −(81 + code),
-  action and expression = 80 + code (checked on real examples). That is why the raw export shows
-  \`Event ID 89\` or \`Expression ID 88(…)\` for an extension: look for 89 − 80 = code 9 in its page.
+  action and expression = 80 + code (checked on real examples). MfaDump uses these tables to name
+  them; for an extension missing from the catalog, the export shows \`Event ID 89\` or
+  \`Expression ID 88(…)\`: look for 89 − 80 = code 9 in its page.
+- **Overrides**: rows marked “(checked by hand)” come from \`data/extensions/overrides.json\`, for
+  extensions whose catalog extraction gave no usable text.
 - **Placeholders**: \`<object>\` = object of the condition/action, \`<p0>\`, \`<p1>\`… = parameters in order,
   \`<op>\` = comparison operator (=, <>, <, <=, >, >=).
 - **Case**: extra condition of Nebula for this label (e.g. depending on a parameter value).
@@ -397,7 +426,7 @@ if (haveFusion) write(FR_CACHE, JSON.stringify(frUsed, null, 1) + "\n");
 
 console.log(`built-in-objects.md: ${rowsBuiltin} rows, FR ${frOfficial} official + ${frUnofficial} unofficial`);
 console.log(`extensions: ${index.length} pages (${index.filter(e => e.installed).length} cataloged), ${extRows} entries, ${extRowsWithText} with display text, ${extFr} with FR`);
-console.log(`data/lang/fr.json: ${Object.keys(frTable.builtin).length} built-in + ${Object.keys(frTable.ext).length} extension labels`);
+console.log(`data/lang/fr.json: ${Object.keys(frTable.builtin).length} built-in + ${Object.keys(frTable.ext).length} extension labels (FR), ${Object.keys(frTable.extEn).length} (EN), ${Object.keys(frTable.extExpr).length} extension expression names`);
 write(path.join(OUT, "_meta.json"), JSON.stringify({ files: stats.files, rows: stats.rows, rowsBuiltin, frOfficial, frUnofficial,
   extensions: index.length, installed: index.filter(e => e.installed).length, extRows, extRowsWithText, extFr,
   unknownBuiltin: unknown.filter(s => s.errors).length }, null, 1) + "\n");
