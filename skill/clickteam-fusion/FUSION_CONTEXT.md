@@ -92,8 +92,11 @@ iterations × the number of `On loop` events; a few hundred iterations remain ne
 
 ## 6. Object data
 
-- **Alterable values**: A, B, C… per object, can be named. The export shows the name when there is one:
-  `testPosY("Params")` instead of `Alterable Value F("Params")`.
+- **Alterable values**: per object, can be named. The export shows the name when there is one:
+  `testPosY("Params")` instead of `Alterable Value F("Params")`. **Recent Fusion 2.5 editors (build 296)
+  number them (value 1, 2, 3…) instead of using letters A, B, C** (verified): in a suggestion, refer to an
+  alterable value by its name and its number, never by a letter. The export does not show the number
+  yet (to verify: 0- or 1-based in the editor).
 - **Flags**: booleans numbered **from 0** (as in the editor), can be named. The export shows
   `Flag 3 «landed»`.
 - **Global values**: listed at the top of the export.
