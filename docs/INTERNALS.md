@@ -83,8 +83,8 @@ C# program with top-level statements.
      (`<p1>` = `< 2`), so the operator is added when the FR template has no `<op>`.
    - Otherwise (extensions, or no EN template matches), the placeholders are rendered from the
      parameters (`Placeholder`): object, value names, zones, keys, mouse buttons, joystick, etc.
-   - A line that cannot be rendered safely stays in English. On the Tetris example and 60 projects,
-     about 95% of the lines are translated; the rest are mostly comparisons that read the same in both
+   - A line that cannot be rendered safely stays in English. On 60 test projects, about 95% of the
+     lines are translated; the rest are mostly comparisons that read the same in both
      languages, and generic "Event ID" lines of extensions without a catalog.
    - The `.jsonl` (statistics) always keeps the English text.
 6. **Writing** in UTF-8 with BOM. An isolated error → `[?? type T, num N : Exception]`, without stopping.
