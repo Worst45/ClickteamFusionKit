@@ -1,32 +1,32 @@
 # Extension kctoken
 
-- Fichier : `kctoken.mfx` — extension tierce (fournie avec un projet téléchargé)
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `kctoken.mfx` — third-party extension (shipped with a downloaded project)
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | -81 | Compare Token | `<objet>: Token <p0> <p1>` |  | (paramètres non fiables) | — |  |
-| 1 | -82 | Compare Number of Tokens | `<objet>: Number of Tokens <p0>` |  | (paramètres non fiables) | — |  |
+| 0 | -81 | Compare Token | `<object>: Token <p0> <p1>` |  | (unreliable parameters) | — |  |
+| 1 | -82 | Compare Number of Tokens | `<object>: Number of Tokens <p0>` |  | (unreliable parameters) | — |  |
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Set Fixed parsing Characters | `Set Fixed Parsing Characters to <p0>` |  | (paramètres non fiables) | — |  |
-| 1 | 81 | Set Fixed String | `Set Fixed String to <p0>` |  | (paramètres non fiables) | — |  |
+| 0 | 80 | Set Fixed parsing Characters | `Set Fixed Parsing Characters to <p0>` |  | (unreliable parameters) | — |  |
+| 1 | 81 | Set Fixed String | `Set Fixed String to <p0>` |  | (unreliable parameters) | — |  |
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Get Token with Fixed Parsing Characters | `GetToken$(` |  | nombre (paramètres non fiables) | — |  |
-| 1 | 81 | Get Token with Fixed String | `GetTokenStr$(` |  | nombre (paramètres non fiables) | — |  |
-| 2 | 82 | Get String with Fixed Parsing Characters replaced with | `GetRepToken$(` |  | chaîne (paramètres non fiables) | — |  |
-| 3 | 83 | Get Fixed String with Parsing Characters replaced with | `GetRepTokenStr$(` |  | chaîne (paramètres non fiables) | — |  |
-| 4 | 84 | Remove Parsing Character(s) from a string | `RemoveChr$(` |  | chaîne (paramètres non fiables) | — |  |
-| 5 | 85 | Repeat string | `RepeatStr$(` |  | nombre (paramètres non fiables) | — |  |
-| 6 | 86 | Get Number of Tokens | `CountToken(` |  | chaîne (paramètres non fiables) | — |  |
+| 0 | 80 | Get Token with Fixed Parsing Characters | `GetToken$(` |  | number (unreliable parameters) | — |  |
+| 1 | 81 | Get Token with Fixed String | `GetTokenStr$(` |  | number (unreliable parameters) | — |  |
+| 2 | 82 | Get String with Fixed Parsing Characters replaced with | `GetRepToken$(` |  | string (unreliable parameters) | — |  |
+| 3 | 83 | Get Fixed String with Parsing Characters replaced with | `GetRepTokenStr$(` |  | string (unreliable parameters) | — |  |
+| 4 | 84 | Remove Parsing Character(s) from a string | `RemoveChr$(` |  | string (unreliable parameters) | — |  |
+| 5 | 85 | Repeat string | `RepeatStr$(` |  | number (unreliable parameters) | — |  |
+| 6 | 86 | Get Number of Tokens | `CountToken(` |  | string (unreliable parameters) | — |  |

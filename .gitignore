@@ -1,16 +1,16 @@
-# Compilation
+# Build output
 bin/
 obj/
 skill/clickteam-fusion/MfaDump.exe
 skill/clickteam-fusion/config.json
 
-# Outils téléchargés ou compilés localement (SDK .NET, Node portable, exe de maintenance)
+# Tools downloaded or built locally (.NET SDK, portable Node, maintenance executables)
 tools/
 
-# Dossier de travail LOCAL : exports des projets, statistiques complètes, provenance des règles.
-# Contient des noms de projets personnels : ne jamais versionner.
+# LOCAL working folder: project exports, full statistics, provenance of the rules.
+# Contains personal project names: never commit it.
 work/
 
-# Exports MfaDump
+# MfaDump exports
 *.events.txt
 *.events.jsonl

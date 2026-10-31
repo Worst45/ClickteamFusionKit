@@ -1,13 +1,13 @@
 # Extension QuickToken
 
-- Fichier : `QuickToken.mfx` — extension tierce (fournie avec un projet téléchargé)
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `QuickToken.mfx` — third-party extension (shipped with a downloaded project)
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | 80 | Set Base > Base Zero | `Set Base 0` |  |  | — |  |
 | 1 | 81 | Set Base > Base One | `Set Base 1` |  |  | — |  |
@@ -16,21 +16,21 @@
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Get Token (Single Char Tokens) | `GetToken$(` |  | chaîne ; chaîne ; nombre → chaîne | — |  |
-| 1 | 81 | Other String Functions > Convert to Upper Case | `UpperCase$(` |  | chaîne → chaîne | — |  |
-| 2 | 82 | Other String Functions > Convert to Lower Case | `LowerCase$(` |  | chaîne → chaîne | — |  |
-| 3 | 83 | Other String Functions > Reverse String | `Reverse$(` |  | chaîne → chaîne | — |  |
-| 4 | 84 | Number of Tokens (Single Char Tokens) | `GetNumberToken(` |  | chaîne ; chaîne | — |  |
-| 5 | 85 | Other String Functions > Trim | `Trim$(` |  | chaîne → chaîne | — |  |
-| 6 | 86 | Other String Functions > Trim Left Only | `LTrim$(` |  | chaîne → chaîne | — |  |
-| 7 | 87 | Other String Functions > Trim Right Only | `RTrim$(` |  | chaîne → chaîne | — |  |
-| 8 | 88 | Constants > New Line | `Return$(` |  | → chaîne | — |  |
-| 9 | 89 | Constants > Horizontal Tab | `Tab$(` |  | → chaîne | — |  |
-| 10 | 90 | Other String Functions > Number of Certain Characters in String | `NumCharInString(` |  | chaîne ; chaîne | — |  |
-| 11 | 91 | Constants > Double Quote | `Quote$(` |  | → chaîne | — |  |
-| 12 | 92 | Constants > Copyright Symbol | `Copyright$(` |  | → chaîne | — |  |
-| 13 | 93 | Other String Functions > Replace Characters in String | `ReplaceChar$(` |  | chaîne ; chaîne ; chaîne → chaîne | — |  |
-| 14 | 94 | Other String Functions > Remove Characters in String | `RemoveChar$(` |  | chaîne ; chaîne → chaîne | — |  |
-| 15 | 95 | Other String Functions > Remove Repeated Characters | `RemoveRepeat$(` |  | chaîne ; chaîne → chaîne | — |  |
+| 0 | 80 | Get Token (Single Char Tokens) | `GetToken$(` |  | string; string; number → string | — |  |
+| 1 | 81 | Other String Functions > Convert to Upper Case | `UpperCase$(` |  | string → string | — |  |
+| 2 | 82 | Other String Functions > Convert to Lower Case | `LowerCase$(` |  | string → string | — |  |
+| 3 | 83 | Other String Functions > Reverse String | `Reverse$(` |  | string → string | — |  |
+| 4 | 84 | Number of Tokens (Single Char Tokens) | `GetNumberToken(` |  | string; string | — |  |
+| 5 | 85 | Other String Functions > Trim | `Trim$(` |  | string → string | — |  |
+| 6 | 86 | Other String Functions > Trim Left Only | `LTrim$(` |  | string → string | — |  |
+| 7 | 87 | Other String Functions > Trim Right Only | `RTrim$(` |  | string → string | — |  |
+| 8 | 88 | Constants > New Line | `Return$(` |  | → string | — |  |
+| 9 | 89 | Constants > Horizontal Tab | `Tab$(` |  | → string | — |  |
+| 10 | 90 | Other String Functions > Number of Certain Characters in String | `NumCharInString(` |  | string; string | — |  |
+| 11 | 91 | Constants > Double Quote | `Quote$(` |  | → string | — |  |
+| 12 | 92 | Constants > Copyright Symbol | `Copyright$(` |  | → string | — |  |
+| 13 | 93 | Other String Functions > Replace Characters in String | `ReplaceChar$(` |  | string; string; string → string | — |  |
+| 14 | 94 | Other String Functions > Remove Characters in String | `RemoveChar$(` |  | string; string → string | — |  |
+| 15 | 95 | Other String Functions > Remove Repeated Characters | `RemoveRepeat$(` |  | string; string → string | — |  |

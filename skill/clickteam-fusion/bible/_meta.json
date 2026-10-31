@@ -2,10 +2,12 @@
  "files": 163,
  "rows": 178678,
  "rowsBuiltin": 614,
- "frHits": 332,
+ "frOfficial": 317,
+ "frUnofficial": 108,
  "extensions": 417,
  "installed": 410,
  "extRows": 15393,
  "extRowsWithText": 14995,
+ "extFr": 2381,
  "unknownBuiltin": 17
 }

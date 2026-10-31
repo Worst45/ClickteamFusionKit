@@ -4,7 +4,7 @@
     "objectType": "-7",
     "num": "-6",
     "when": null,
-    "template": "Repeat while Player <n° joueur> <direction joystick>",
+    "template": "Repeat while Player <player no.> <joystick direction>",
     "source": "Condition.cs:417"
   },
   {
@@ -12,7 +12,7 @@
     "objectType": "-7",
     "num": "-5",
     "when": null,
-    "template": "Number of lives of Player <n° joueur> reaches 0",
+    "template": "Number of lives of Player <player no.> reaches 0",
     "source": "Condition.cs:419"
   },
   {
@@ -20,7 +20,7 @@
     "objectType": "-7",
     "num": "-4",
     "when": null,
-    "template": "Player <n° joueur> <direction joystick>",
+    "template": "Player <player no.> <joystick direction>",
     "source": "Condition.cs:421"
   },
   {
@@ -28,7 +28,7 @@
     "objectType": "-7",
     "num": "-3",
     "when": null,
-    "template": "Number of lives of Player <n° joueur> <op> <p0>",
+    "template": "Number of lives of Player <player no.> <op> <p0>",
     "source": "Condition.cs:423"
   },
   {
@@ -36,7 +36,7 @@
     "objectType": "-7",
     "num": "-2",
     "when": null,
-    "template": "Score of Player <n° joueur> <op> <p0>",
+    "template": "Score of Player <player no.> <op> <p0>",
     "source": "Condition.cs:425"
   },
   {
@@ -124,7 +124,7 @@
     "objectType": "-6",
     "num": "-2",
     "when": null,
-    "template": "Repeat while \"<touche>\" is pressed",
+    "template": "Repeat while \"<key>\" is pressed",
     "source": "Condition.cs:487"
   },
   {
@@ -132,7 +132,7 @@
     "objectType": "-6",
     "num": "-1",
     "when": null,
-    "template": "Upon pressing \"<touche>\"",
+    "template": "Upon pressing \"<key>\"",
     "source": "Condition.cs:489"
   },
   {
@@ -164,7 +164,7 @@
     "objectType": "-5",
     "num": "-20",
     "when": null,
-    "template": "Pick objects which <valeur modifiable p0> <op> <p1>",
+    "template": "Pick objects which <alterable value p0> <op> <p1>",
     "source": "Condition.cs:502"
   },
   {
@@ -212,7 +212,7 @@
     "objectType": "-5",
     "num": "-14",
     "when": null,
-    "template": "Number of objects in zone <valeur> <op> <valeur>",
+    "template": "Number of objects in zone <value> <op> <value>",
     "source": "Condition.cs:515"
   },
   {
@@ -548,7 +548,7 @@
     "objectType": "-1",
     "num": "-20",
     "when": null,
-    "template": "<chaîne globale p0> <op> <p1>",
+    "template": "<global string p0> <op> <p1>",
     "source": "Condition.cs:626"
   },
   {
@@ -564,7 +564,7 @@
     "objectType": "-1",
     "num": "-18",
     "when": null,
-    "template": "Menu option <option de menu> is enabled",
+    "template": "Menu option <menu option> is enabled",
     "source": "Condition.cs:630"
   },
   {
@@ -572,7 +572,7 @@
     "objectType": "-1",
     "num": "-17",
     "when": null,
-    "template": "Menu option <option de menu> is checked",
+    "template": "Menu option <menu option> is checked",
     "source": "Condition.cs:632"
   },
   {
@@ -596,7 +596,7 @@
     "objectType": "-1",
     "num": "-14",
     "when": null,
-    "template": "Menu option \"<option de menu>\" selected",
+    "template": "Menu option \"<menu option>\" selected",
     "source": "Condition.cs:638"
   },
   {
@@ -636,7 +636,7 @@
     "objectType": "-1",
     "num": "-8",
     "when": null,
-    "template": "<valeur globale p0> <op> <p1>",
+    "template": "<global value p0> <op> <p1>",
     "source": "Condition.cs:648"
   },
   {
@@ -700,7 +700,7 @@
     "objectType": ">= 0",
     "num": "-84",
     "when": "Num = default && ObjectType < 32 && ObjectType == 9",
-    "template": "Application <objet> is paused",
+    "template": "Application <object> is paused",
     "source": "Condition.cs:674"
   },
   {
@@ -708,7 +708,7 @@
     "objectType": ">= 0",
     "num": "-84",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 9)",
-    "template": "Y scale of <objet> <op> <p0>",
+    "template": "Y scale of <object> <op> <p0>",
     "source": "Condition.cs:675"
   },
   {
@@ -716,7 +716,7 @@
     "objectType": ">= 0",
     "num": "-83",
     "when": "Num = default && ObjectType < 32 && ObjectType == 4",
-    "template": "<objet> : answer number <p0> chosen",
+    "template": "<object> : answer number <p0> chosen",
     "source": "Condition.cs:678"
   },
   {
@@ -724,7 +724,7 @@
     "objectType": ">= 0",
     "num": "-83",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 4) && ObjectType == 9",
-    "template": "Application <objet> is visible",
+    "template": "Application <object> is visible",
     "source": "Condition.cs:680"
   },
   {
@@ -732,7 +732,7 @@
     "objectType": ">= 0",
     "num": "-83",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 9) && !(ObjectType == 4)",
-    "template": "X scale of <objet> <op> <p0>",
+    "template": "X scale of <object> <op> <p0>",
     "source": "Condition.cs:681"
   },
   {
@@ -740,7 +740,7 @@
     "objectType": ">= 0",
     "num": "-82",
     "when": "Num = default && ObjectType < 32 && ObjectType == 4",
-    "template": "<objet> : bad answer",
+    "template": "<object> : bad answer",
     "source": "Condition.cs:684"
   },
   {
@@ -748,7 +748,7 @@
     "objectType": ">= 0",
     "num": "-82",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 4) && ObjectType == 9",
-    "template": "Application <objet> is finished",
+    "template": "Application <object> is finished",
     "source": "Condition.cs:686"
   },
   {
@@ -756,7 +756,7 @@
     "objectType": ">= 0",
     "num": "-82",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 9) && !(ObjectType == 4)",
-    "template": "Angle of <objet> <op> <p0>",
+    "template": "Angle of <object> <op> <p0>",
     "source": "Condition.cs:687"
   },
   {
@@ -764,7 +764,7 @@
     "objectType": ">= 0",
     "num": "-81",
     "when": "Num = default && ObjectType < 32 && ObjectType == 4",
-    "template": "<objet> : correct answer",
+    "template": "<object> : correct answer",
     "source": "Condition.cs:690"
   },
   {
@@ -772,7 +772,7 @@
     "objectType": ">= 0",
     "num": "-81",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 4) && ObjectType == 9",
-    "template": "<objet>: Frame has changed",
+    "template": "<object>: Frame has changed",
     "source": "Condition.cs:692"
   },
   {
@@ -780,7 +780,7 @@
     "objectType": ">= 0",
     "num": "-81",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 9) && !(ObjectType == 4)",
-    "template": "<objet> <op> <p0>",
+    "template": "<object> <op> <p0>",
     "source": "Condition.cs:693"
   },
   {
@@ -796,7 +796,7 @@
     "objectType": ">= 0",
     "num": "-51",
     "when": null,
-    "template": "Would <objet> at X=<p0>, Y=<p1> overlap a backdrop?",
+    "template": "Would <object> at X=<p0>, Y=<p1> overlap a backdrop?",
     "source": "Condition.cs:705"
   },
   {
@@ -804,7 +804,7 @@
     "objectType": ">= 0",
     "num": "-50",
     "when": null,
-    "template": "Would <objet> at X=<p1>, Y=<p2> overlap <p0>?",
+    "template": "Would <object> at X=<p1>, Y=<p2> overlap <p0>?",
     "source": "Condition.cs:707"
   },
   {
@@ -812,7 +812,7 @@
     "objectType": ">= 0",
     "num": "-49",
     "when": null,
-    "template": "Instance value of <objet> <op> <p0>",
+    "template": "Instance value of <object> <op> <p0>",
     "source": "Condition.cs:709"
   },
   {
@@ -820,7 +820,7 @@
     "objectType": ">= 0",
     "num": "-48",
     "when": null,
-    "template": "Pick \"<objet>\" objects with a maximum value of <p0>",
+    "template": "Pick \"<object>\" objects with a maximum value of <p0>",
     "source": "Condition.cs:711"
   },
   {
@@ -828,7 +828,7 @@
     "objectType": ">= 0",
     "num": "-47",
     "when": null,
-    "template": "Pick \"<objet>\" objects with a minimum value of <p0>",
+    "template": "Pick \"<object>\" objects with a minimum value of <p0>",
     "source": "Condition.cs:713"
   },
   {
@@ -836,7 +836,7 @@
     "objectType": ">= 0",
     "num": "-46",
     "when": null,
-    "template": "Layer of <objet> <op> <p0>",
+    "template": "Layer of <object> <op> <p0>",
     "source": "Condition.cs:715"
   },
   {
@@ -844,7 +844,7 @@
     "objectType": ">= 0",
     "num": "-45",
     "when": null,
-    "template": "<objet>: <p0> <op> <p1>",
+    "template": "<object>: <p0> <op> <p1>",
     "source": "Condition.cs:717"
   },
   {
@@ -852,7 +852,7 @@
     "objectType": ">= 0",
     "num": "-44",
     "when": null,
-    "template": "Pick closest \"<objet>\" objects from \"<p0>\"",
+    "template": "Pick closest \"<object>\" objects from \"<p0>\"",
     "source": "Condition.cs:719"
   },
   {
@@ -860,7 +860,7 @@
     "objectType": ">= 0",
     "num": "-41",
     "when": null,
-    "template": "On each of <objet>, loop name <p0>",
+    "template": "On each of <object>, loop name <p0>",
     "source": "Condition.cs:721"
   },
   {
@@ -868,7 +868,7 @@
     "objectType": ">= 0",
     "num": "-40",
     "when": null,
-    "template": "<objet>: font is strikeout",
+    "template": "<object>: font is strikeout",
     "source": "Condition.cs:723"
   },
   {
@@ -876,7 +876,7 @@
     "objectType": ">= 0",
     "num": "-39",
     "when": null,
-    "template": "<objet>: font is underlined",
+    "template": "<object>: font is underlined",
     "source": "Condition.cs:725"
   },
   {
@@ -884,7 +884,7 @@
     "objectType": ">= 0",
     "num": "-38",
     "when": null,
-    "template": "<objet>: font is italic",
+    "template": "<object>: font is italic",
     "source": "Condition.cs:727"
   },
   {
@@ -892,7 +892,7 @@
     "objectType": ">= 0",
     "num": "-37",
     "when": null,
-    "template": "<objet>: font is bold",
+    "template": "<object>: font is bold",
     "source": "Condition.cs:729"
   },
   {
@@ -900,7 +900,7 @@
     "objectType": ">= 0",
     "num": "-36",
     "when": null,
-    "template": "<chaîne modifiable p0> of <objet> <op> <p1>",
+    "template": "<alterable string p0> of <object> <op> <p1>",
     "source": "Condition.cs:731"
   },
   {
@@ -908,7 +908,7 @@
     "objectType": ">= 0",
     "num": "-35",
     "when": null,
-    "template": "Path movement of <objet> has reached node <p1>",
+    "template": "Path movement of <object> has reached node <p1>",
     "source": "Condition.cs:733"
   },
   {
@@ -916,7 +916,7 @@
     "objectType": ">= 0",
     "num": "-34",
     "when": null,
-    "template": "Pick one of <objet>",
+    "template": "Pick one of <object>",
     "source": "Condition.cs:735"
   },
   {
@@ -924,7 +924,7 @@
     "objectType": ">= 0",
     "num": "-33",
     "when": null,
-    "template": "Last <objet> has been destroyed",
+    "template": "Last <object> has been destroyed",
     "source": "Condition.cs:737"
   },
   {
@@ -932,7 +932,7 @@
     "objectType": ">= 0",
     "num": "-32",
     "when": null,
-    "template": "Number of <objet> <op> <p0>",
+    "template": "Number of <object> <op> <p0>",
     "source": "Condition.cs:739"
   },
   {
@@ -940,7 +940,7 @@
     "objectType": ">= 0",
     "num": "-31",
     "when": null,
-    "template": "No more <objet> in zone <zone p0>",
+    "template": "No more <object> in zone <zone p0>",
     "source": "Condition.cs:741"
   },
   {
@@ -948,7 +948,7 @@
     "objectType": ">= 0",
     "num": "-30",
     "when": null,
-    "template": "Number of <objet> in zone <valeur> <op> <valeur>",
+    "template": "Number of <object> in zone <value> <op> <value>",
     "source": "Condition.cs:744"
   },
   {
@@ -956,7 +956,7 @@
     "objectType": ">= 0",
     "num": "-29",
     "when": null,
-    "template": "<objet> is visible",
+    "template": "<object> is visible",
     "source": "Condition.cs:746"
   },
   {
@@ -964,7 +964,7 @@
     "objectType": ">= 0",
     "num": "-28",
     "when": null,
-    "template": "<objet> is invisible",
+    "template": "<object> is invisible",
     "source": "Condition.cs:748"
   },
   {
@@ -972,7 +972,7 @@
     "objectType": ">= 0",
     "num": "-27",
     "when": null,
-    "template": "<valeur modifiable p0> of <objet> <op> <p1>",
+    "template": "<alterable value p0> of <object> <op> <p1>",
     "source": "Condition.cs:750"
   },
   {
@@ -980,7 +980,7 @@
     "objectType": ">= 0",
     "num": "-26",
     "when": null,
-    "template": "Fixed value of <objet> <op> <p0>",
+    "template": "Fixed value of <object> <op> <p0>",
     "source": "Condition.cs:752"
   },
   {
@@ -988,7 +988,7 @@
     "objectType": ">= 0",
     "num": "-25",
     "when": null,
-    "template": "<objet>: Flag <p0> is on",
+    "template": "<object>: Flag <p0> is on",
     "source": "Condition.cs:754"
   },
   {
@@ -996,7 +996,7 @@
     "objectType": ">= 0",
     "num": "-24",
     "when": null,
-    "template": "<objet>: Flag <p0> is off",
+    "template": "<object>: Flag <p0> is off",
     "source": "Condition.cs:756"
   },
   {
@@ -1004,7 +1004,7 @@
     "objectType": ">= 0",
     "num": "-23",
     "when": null,
-    "template": "<objet> is overlapping a backdrop",
+    "template": "<object> is overlapping a backdrop",
     "source": "Condition.cs:758"
   },
   {
@@ -1012,7 +1012,7 @@
     "objectType": ">= 0",
     "num": "-22",
     "when": null,
-    "template": "<objet> is getting closer than <p0> pixels from window's edge",
+    "template": "<object> is getting closer than <p0> pixels from window's edge",
     "source": "Condition.cs:760"
   },
   {
@@ -1020,7 +1020,7 @@
     "objectType": ">= 0",
     "num": "-21",
     "when": null,
-    "template": "<objet> has reached the end in its path",
+    "template": "<object> has reached the end in its path",
     "source": "Condition.cs:762"
   },
   {
@@ -1028,7 +1028,7 @@
     "objectType": ">= 0",
     "num": "-20",
     "when": null,
-    "template": "<objet> has reached a node in the path",
+    "template": "<object> has reached a node in the path",
     "source": "Condition.cs:764"
   },
   {
@@ -1036,7 +1036,7 @@
     "objectType": ">= 0",
     "num": "-19",
     "when": null,
-    "template": "Acceleration of <objet> <op> <p0>",
+    "template": "Acceleration of <object> <op> <p0>",
     "source": "Condition.cs:766"
   },
   {
@@ -1044,7 +1044,7 @@
     "objectType": ">= 0",
     "num": "-18",
     "when": null,
-    "template": "Deceleration of <objet> <op> <p0>",
+    "template": "Deceleration of <object> <op> <p0>",
     "source": "Condition.cs:768"
   },
   {
@@ -1052,7 +1052,7 @@
     "objectType": ">= 0",
     "num": "-17",
     "when": null,
-    "template": "X position of <objet> <op> <p0>",
+    "template": "X position of <object> <op> <p0>",
     "source": "Condition.cs:770"
   },
   {
@@ -1060,7 +1060,7 @@
     "objectType": ">= 0",
     "num": "-16",
     "when": null,
-    "template": "Y position of <objet> <op> <p0>",
+    "template": "Y position of <object> <op> <p0>",
     "source": "Condition.cs:772"
   },
   {
@@ -1068,7 +1068,7 @@
     "objectType": ">= 0",
     "num": "-15",
     "when": null,
-    "template": "Speed of <objet> <op> <p0>",
+    "template": "Speed of <object> <op> <p0>",
     "source": "Condition.cs:774"
   },
   {
@@ -1076,7 +1076,7 @@
     "objectType": ">= 0",
     "num": "-14",
     "when": null,
-    "template": "Collision between <objet> and <p0>",
+    "template": "Collision between <object> and <p0>",
     "source": "Condition.cs:776"
   },
   {
@@ -1084,7 +1084,7 @@
     "objectType": ">= 0",
     "num": "-13",
     "when": null,
-    "template": "<objet> collides with the background",
+    "template": "<object> collides with the background",
     "source": "Condition.cs:778"
   },
   {
@@ -1092,7 +1092,7 @@
     "objectType": ">= 0",
     "num": "-12",
     "when": null,
-    "template": "<objet> leaves the play area<valeur>",
+    "template": "<object> leaves the play area<value>",
     "source": "Condition.cs:780"
   },
   {
@@ -1100,7 +1100,7 @@
     "objectType": ">= 0",
     "num": "-11",
     "when": null,
-    "template": "<objet> enters the play area<valeur>",
+    "template": "<object> enters the play area<value>",
     "source": "Condition.cs:782"
   },
   {
@@ -1108,7 +1108,7 @@
     "objectType": ">= 0",
     "num": "-10",
     "when": null,
-    "template": "<objet> is out of the play area",
+    "template": "<object> is out of the play area",
     "source": "Condition.cs:784"
   },
   {
@@ -1116,7 +1116,7 @@
     "objectType": ">= 0",
     "num": "-9",
     "when": null,
-    "template": "<objet> is in the play area",
+    "template": "<object> is in the play area",
     "source": "Condition.cs:786"
   },
   {
@@ -1124,7 +1124,7 @@
     "objectType": ">= 0",
     "num": "-8",
     "when": null,
-    "template": "<objet> is facing a direction <direction>",
+    "template": "<object> is facing a direction <direction>",
     "source": "Condition.cs:788"
   },
   {
@@ -1132,7 +1132,7 @@
     "objectType": ">= 0",
     "num": "-7",
     "when": null,
-    "template": "<objet> is stopped",
+    "template": "<object> is stopped",
     "source": "Condition.cs:790"
   },
   {
@@ -1140,7 +1140,7 @@
     "objectType": ">= 0",
     "num": "-6",
     "when": null,
-    "template": "<objet> is bouncing",
+    "template": "<object> is bouncing",
     "source": "Condition.cs:792"
   },
   {
@@ -1148,7 +1148,7 @@
     "objectType": ">= 0",
     "num": "-4",
     "when": null,
-    "template": "<objet> is overlapping <p0>",
+    "template": "<object> is overlapping <p0>",
     "source": "Condition.cs:794"
   },
   {
@@ -1156,7 +1156,7 @@
     "objectType": ">= 0",
     "num": "-3",
     "when": "Parameters[0].Data is ParameterShort",
-    "template": "<objet> animation <animation> is playing",
+    "template": "<object> animation <animation> is playing",
     "source": "Condition.cs:797"
   },
   {
@@ -1164,7 +1164,7 @@
     "objectType": ">= 0",
     "num": "-3",
     "when": "!(Parameters[0].Data is ParameterShort)",
-    "template": "<objet> animation <p0> is playing",
+    "template": "<object> animation <p0> is playing",
     "source": "Condition.cs:798"
   },
   {
@@ -1172,7 +1172,7 @@
     "objectType": ">= 0",
     "num": "-2",
     "when": "Parameters[0].Data is ParameterShort",
-    "template": "<objet> animation <animation> is over",
+    "template": "<object> animation <animation> is over",
     "source": "Condition.cs:801"
   },
   {
@@ -1180,7 +1180,7 @@
     "objectType": ">= 0",
     "num": "-2",
     "when": "!(Parameters[0].Data is ParameterShort)",
-    "template": "<objet> animation <p0> is over",
+    "template": "<object> animation <p0> is over",
     "source": "Condition.cs:802"
   },
   {
@@ -1188,7 +1188,7 @@
     "objectType": ">= 0",
     "num": "-1",
     "when": null,
-    "template": "Current frame of <objet> <op> <p0>",
+    "template": "Current frame of <object> <op> <p0>",
     "source": "Condition.cs:804"
   },
   {
@@ -1268,7 +1268,7 @@
     "objectType": "-7",
     "num": "9",
     "when": null,
-    "template": "Set key <p0> to \"<touche>\"",
+    "template": "Set key <p0> to \"<key>\"",
     "source": "Action.cs:466"
   },
   {
@@ -1300,7 +1300,7 @@
     "objectType": "-6",
     "num": "2",
     "when": null,
-    "template": "Reset input between frames: <valeur>",
+    "template": "Reset input between frames: <value>",
     "source": "Action.cs:481"
   },
   {
@@ -1372,7 +1372,7 @@
     "objectType": "-3",
     "num": "2",
     "when": null,
-    "template": "Jump to frame <scène>",
+    "template": "Jump to frame <scene>",
     "source": "Action.cs:521"
   },
   {
@@ -1404,7 +1404,7 @@
     "objectType": "-3",
     "num": "7",
     "when": null,
-    "template": "Center display at <valeur>",
+    "template": "Center display at <value>",
     "source": "Action.cs:529"
   },
   {
@@ -1468,7 +1468,7 @@
     "objectType": "-3",
     "num": "17",
     "when": null,
-    "template": "Pause application and resume when key \"<touche>\" is pressed",
+    "template": "Pause application and resume when key \"<key>\" is pressed",
     "source": "Action.cs:545"
   },
   {
@@ -1588,7 +1588,7 @@
     "objectType": "-3",
     "num": "32",
     "when": null,
-    "template": "Set effect to <valeur>",
+    "template": "Set effect to <value>",
     "source": "Action.cs:575"
   },
   {
@@ -1940,7 +1940,7 @@
     "objectType": "-1",
     "num": "2",
     "when": null,
-    "template": "Execute external program <valeur> <valeur><valeur>",
+    "template": "Execute external program <value> <value><value>",
     "source": "Action.cs:678"
   },
   {
@@ -1948,7 +1948,7 @@
     "objectType": "-1",
     "num": "3",
     "when": null,
-    "template": "Set <valeur globale p0> to <p1>",
+    "template": "Set <global value p0> to <p1>",
     "source": "Action.cs:680"
   },
   {
@@ -1956,7 +1956,7 @@
     "objectType": "-1",
     "num": "4",
     "when": null,
-    "template": "Subtract <p1> from <valeur globale p0>",
+    "template": "Subtract <p1> from <global value p0>",
     "source": "Action.cs:682"
   },
   {
@@ -1964,7 +1964,7 @@
     "objectType": "-1",
     "num": "5",
     "when": null,
-    "template": "Add <p1> to <valeur globale p0>",
+    "template": "Add <p1> to <global value p0>",
     "source": "Action.cs:684"
   },
   {
@@ -1988,7 +1988,7 @@
     "objectType": "-1",
     "num": "8",
     "when": null,
-    "template": "Enable menu option <option de menu>",
+    "template": "Enable menu option <menu option>",
     "source": "Action.cs:690"
   },
   {
@@ -1996,7 +1996,7 @@
     "objectType": "-1",
     "num": "9",
     "when": null,
-    "template": "Disable menu option <option de menu>",
+    "template": "Disable menu option <menu option>",
     "source": "Action.cs:692"
   },
   {
@@ -2004,7 +2004,7 @@
     "objectType": "-1",
     "num": "10",
     "when": null,
-    "template": "Check menu option <option de menu>",
+    "template": "Check menu option <menu option>",
     "source": "Action.cs:694"
   },
   {
@@ -2012,7 +2012,7 @@
     "objectType": "-1",
     "num": "11",
     "when": null,
-    "template": "Uncheck menu option <option de menu>",
+    "template": "Uncheck menu option <menu option>",
     "source": "Action.cs:696"
   },
   {
@@ -2068,7 +2068,7 @@
     "objectType": "-1",
     "num": "18",
     "when": null,
-    "template": "Send Menu Command <option de menu>",
+    "template": "Send Menu Command <menu option>",
     "source": "Action.cs:710"
   },
   {
@@ -2076,7 +2076,7 @@
     "objectType": "-1",
     "num": "19",
     "when": null,
-    "template": "Set <chaîne globale p0> to <p1>",
+    "template": "Set <global string p0> to <p1>",
     "source": "Action.cs:712"
   },
   {
@@ -2100,7 +2100,7 @@
     "objectType": "-1",
     "num": "22",
     "when": null,
-    "template": "Execute external program <p0> <p1><valeur>",
+    "template": "Execute external program <p0> <p1><value>",
     "source": "Action.cs:719"
   },
   {
@@ -2260,7 +2260,7 @@
     "objectType": ">= 0",
     "num": "81",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 9) && !(ObjectType == 8) && !(ObjectType == 7) && !(ObjectType == 2)",
-    "template": "Display paragraph <valeur> at <valeur>",
+    "template": "Display paragraph <value> at <value>",
     "source": "Action.cs:769"
   },
   {
@@ -2292,7 +2292,7 @@
     "objectType": ">= 0",
     "num": "82",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 9) && !(ObjectType == 8) && !(ObjectType == 7)",
-    "template": "Flash paragraph <valeur> at <valeur> for <p2>",
+    "template": "Flash paragraph <value> at <value> for <p2>",
     "source": "Action.cs:777"
   },
   {
@@ -2340,7 +2340,7 @@
     "objectType": ">= 0",
     "num": "84",
     "when": "Num = default && ObjectType < 32 && ObjectType == 3 && Parameters.Length > 1 && Parameters[1].Data is ParameterShort",
-    "template": "Display paragraph <valeur>",
+    "template": "Display paragraph <value>",
     "source": "Action.cs:792"
   },
   {
@@ -2780,7 +2780,7 @@
     "objectType": ">= 0",
     "num": "1",
     "when": null,
-    "template": "Set position at <valeur>",
+    "template": "Set position at <value>",
     "source": "Action.cs:909"
   },
   {
@@ -2884,7 +2884,7 @@
     "objectType": ">= 0",
     "num": "14",
     "when": null,
-    "template": "Look at <valeur>",
+    "template": "Look at <value>",
     "source": "Action.cs:935"
   },
   {
@@ -3020,7 +3020,7 @@
     "objectType": ">= 0",
     "num": "30",
     "when": null,
-    "template": "Launch <p0> toward <valeur>",
+    "template": "Launch <p0> toward <value>",
     "source": "Action.cs:970"
   },
   {
@@ -3028,7 +3028,7 @@
     "objectType": ">= 0",
     "num": "31",
     "when": null,
-    "template": "Set <valeur modifiable p0> to <p1>",
+    "template": "Set <alterable value p0> to <p1>",
     "source": "Action.cs:972"
   },
   {
@@ -3036,7 +3036,7 @@
     "objectType": ">= 0",
     "num": "32",
     "when": null,
-    "template": "Add <p1> to <valeur modifiable p0>",
+    "template": "Add <p1> to <alterable value p0>",
     "source": "Action.cs:974"
   },
   {
@@ -3044,7 +3044,7 @@
     "objectType": ">= 0",
     "num": "33",
     "when": null,
-    "template": "Subtract <p1> from <valeur modifiable p0>",
+    "template": "Subtract <p1> from <alterable value p0>",
     "source": "Action.cs:976"
   },
   {
@@ -3052,7 +3052,7 @@
     "objectType": ">= 0",
     "num": "34",
     "when": null,
-    "template": "Spread value <p1> in <valeur modifiable p0>",
+    "template": "Spread value <p1> in <alterable value p0>",
     "source": "Action.cs:978"
   },
   {
@@ -3084,7 +3084,7 @@
     "objectType": ">= 0",
     "num": "38",
     "when": null,
-    "template": "Set ink effect to <effet d'encre>",
+    "template": "Set ink effect to <ink effect>",
     "source": "Action.cs:986"
   },
   {
@@ -3172,7 +3172,7 @@
     "objectType": ">= 0",
     "num": "49",
     "when": null,
-    "template": "Set <chaîne modifiable p0> to <p1>",
+    "template": "Set <alterable string p0> to <p1>",
     "source": "Action.cs:1008"
   },
   {
@@ -3284,7 +3284,7 @@
     "objectType": ">= 0",
     "num": "63",
     "when": null,
-    "template": "Set effect to <valeur>",
+    "template": "Set effect to <value>",
     "source": "Action.cs:1036"
   },
   {
@@ -3388,7 +3388,7 @@
     "objectType": ">= 0",
     "num": "76",
     "when": null,
-    "template": "Start loop for each one of <objet>, loop name <p0>",
+    "template": "Start loop for each one of <object>, loop name <p0>",
     "source": "Action.cs:1062"
   },
   {
@@ -3396,7 +3396,7 @@
     "objectType": ">= 0",
     "num": "77",
     "when": null,
-    "template": "Start loop for each one of <objet> and <p0>, loop name <p1>",
+    "template": "Start loop for each one of <object> and <p0>, loop name <p1>",
     "source": "Action.cs:1064"
   },
   {
@@ -3420,7 +3420,7 @@
     "objectType": "-7",
     "num": "0",
     "when": null,
-    "template": "score(\"Player <n° joueur>\")",
+    "template": "score(\"Player <player no.>\")",
     "source": "ParameterExpression.cs:113"
   },
   {
@@ -3428,7 +3428,7 @@
     "objectType": "-7",
     "num": "1",
     "when": null,
-    "template": "lives(\"Player <n° joueur>\")",
+    "template": "lives(\"Player <player no.>\")",
     "source": "ParameterExpression.cs:115"
   },
   {
@@ -3436,7 +3436,7 @@
     "objectType": "-7",
     "num": "2",
     "when": null,
-    "template": "input(\"Player <n° joueur>\")",
+    "template": "input(\"Player <player no.>\")",
     "source": "ParameterExpression.cs:117"
   },
   {
@@ -3444,7 +3444,7 @@
     "objectType": "-7",
     "num": "3",
     "when": null,
-    "template": "key$(\"Player <n° joueur>\", ",
+    "template": "key$(\"Player <player no.>\", ",
     "source": "ParameterExpression.cs:119"
   },
   {
@@ -3452,7 +3452,7 @@
     "objectType": "-7",
     "num": "4",
     "when": null,
-    "template": "playername$(\"Player <n° joueur>\")",
+    "template": "playername$(\"Player <player no.>\")",
     "source": "ParameterExpression.cs:121"
   },
   {
@@ -4020,7 +4020,7 @@
     "objectType": "-1",
     "num": "23",
     "when": null,
-    "template": "dbl.IndexOfAny(new[] <valeur>) >= 0 ? dbl : dbl + \".0\"",
+    "template": "dbl.IndexOfAny(new[] <value>) >= 0 ? dbl : dbl + \".0\"",
     "source": "ParameterExpression.cs:295"
   },
   {
@@ -4428,7 +4428,7 @@
     "objectType": "> 0",
     "num": "80",
     "when": "Num = default && ObjectType < 32 && ObjectType == 2",
-    "template": "RGBAt(\"<objet>\", ",
+    "template": "RGBAt(\"<object>\", ",
     "source": "ParameterExpression.cs:412"
   },
   {
@@ -4436,7 +4436,7 @@
     "objectType": "> 0",
     "num": "80",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && ObjectType == 3",
-    "template": "paragraph(\"<objet>\")",
+    "template": "paragraph(\"<object>\")",
     "source": "ParameterExpression.cs:414"
   },
   {
@@ -4444,7 +4444,7 @@
     "objectType": "> 0",
     "num": "80",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && !(ObjectType == 3) && ObjectType == 7",
-    "template": "value(\"<objet>\")",
+    "template": "value(\"<object>\")",
     "source": "ParameterExpression.cs:416"
   },
   {
@@ -4452,7 +4452,7 @@
     "objectType": "> 0",
     "num": "80",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && !(ObjectType == 3) && !(ObjectType == 7) && ObjectType == 9",
-    "template": "App Frame Number(\"<objet>\")",
+    "template": "App Frame Number(\"<object>\")",
     "source": "ParameterExpression.cs:418"
   },
   {
@@ -4460,7 +4460,7 @@
     "objectType": "> 0",
     "num": "81",
     "when": "Num = default && ObjectType < 32 && ObjectType == 2",
-    "template": "XScale(\"<objet>\")",
+    "template": "XScale(\"<object>\")",
     "source": "ParameterExpression.cs:422"
   },
   {
@@ -4468,7 +4468,7 @@
     "objectType": "> 0",
     "num": "81",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && ObjectType == 3",
-    "template": "string$(\"<objet>\")",
+    "template": "string$(\"<object>\")",
     "source": "ParameterExpression.cs:424"
   },
   {
@@ -4476,7 +4476,7 @@
     "objectType": "> 0",
     "num": "81",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && !(ObjectType == 3) && ObjectType == 7",
-    "template": "minvalue(\"<objet>\")",
+    "template": "minvalue(\"<object>\")",
     "source": "ParameterExpression.cs:426"
   },
   {
@@ -4484,7 +4484,7 @@
     "objectType": "> 0",
     "num": "81",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && !(ObjectType == 3) && !(ObjectType == 7) && ObjectType == 9",
-    "template": "App Global Value(\"<objet>\", ",
+    "template": "App Global Value(\"<object>\", ",
     "source": "ParameterExpression.cs:428"
   },
   {
@@ -4492,7 +4492,7 @@
     "objectType": "> 0",
     "num": "82",
     "when": "Num = default && ObjectType < 32 && ObjectType == 2",
-    "template": "YScale(\"<objet>\")",
+    "template": "YScale(\"<object>\")",
     "source": "ParameterExpression.cs:432"
   },
   {
@@ -4500,7 +4500,7 @@
     "objectType": "> 0",
     "num": "82",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && ObjectType == 3",
-    "template": "paragraph$(\"<objet>\", ",
+    "template": "paragraph$(\"<object>\", ",
     "source": "ParameterExpression.cs:434"
   },
   {
@@ -4508,7 +4508,7 @@
     "objectType": "> 0",
     "num": "82",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && !(ObjectType == 3) && ObjectType == 7",
-    "template": "maxvalue(\"<objet>\")",
+    "template": "maxvalue(\"<object>\")",
     "source": "ParameterExpression.cs:436"
   },
   {
@@ -4516,7 +4516,7 @@
     "objectType": "> 0",
     "num": "82",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && !(ObjectType == 3) && !(ObjectType == 7) && ObjectType == 9",
-    "template": "App Global String(\"<objet>\", ",
+    "template": "App Global String(\"<object>\", ",
     "source": "ParameterExpression.cs:438"
   },
   {
@@ -4524,7 +4524,7 @@
     "objectType": "> 0",
     "num": "83",
     "when": "Num = default && ObjectType < 32 && ObjectType == 2",
-    "template": "Angle(\"<objet>\")",
+    "template": "Angle(\"<object>\")",
     "source": "ParameterExpression.cs:442"
   },
   {
@@ -4532,7 +4532,7 @@
     "objectType": "> 0",
     "num": "83",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && ObjectType == 3",
-    "template": "value(\"<objet>\")",
+    "template": "value(\"<object>\")",
     "source": "ParameterExpression.cs:444"
   },
   {
@@ -4540,7 +4540,7 @@
     "objectType": "> 0",
     "num": "83",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && !(ObjectType == 3) && ObjectType == 7",
-    "template": "cColor(\"<objet>\")",
+    "template": "cColor(\"<object>\")",
     "source": "ParameterExpression.cs:446"
   },
   {
@@ -4548,7 +4548,7 @@
     "objectType": "> 0",
     "num": "84",
     "when": "Num = default && ObjectType < 32 && ObjectType == 3",
-    "template": "npara(\"<objet>\")",
+    "template": "npara(\"<object>\")",
     "source": "ParameterExpression.cs:450"
   },
   {
@@ -4556,7 +4556,7 @@
     "objectType": "> 0",
     "num": "84",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 3) && ObjectType == 7",
-    "template": "cColor2(\"<objet>\")",
+    "template": "cColor2(\"<object>\")",
     "source": "ParameterExpression.cs:452"
   },
   {
@@ -4564,7 +4564,7 @@
     "objectType": "default",
     "num": "default",
     "when": "ObjectType = > 0",
-    "template": "Expression ID <valeur>(\"<objet>\")",
+    "template": "Expression ID <value>(\"<object>\")",
     "source": "ParameterExpression.cs:458"
   },
   {
@@ -4572,7 +4572,7 @@
     "objectType": "> 0",
     "num": "1",
     "when": null,
-    "template": "Y(\"<objet>\")",
+    "template": "Y(\"<object>\")",
     "source": "ParameterExpression.cs:461"
   },
   {
@@ -4580,7 +4580,7 @@
     "objectType": "> 0",
     "num": "2",
     "when": null,
-    "template": "Image(\"<objet>\")",
+    "template": "Image(\"<object>\")",
     "source": "ParameterExpression.cs:463"
   },
   {
@@ -4588,7 +4588,7 @@
     "objectType": "> 0",
     "num": "3",
     "when": null,
-    "template": "Speed(\"<objet>\")",
+    "template": "Speed(\"<object>\")",
     "source": "ParameterExpression.cs:465"
   },
   {
@@ -4596,7 +4596,7 @@
     "objectType": "> 0",
     "num": "4",
     "when": null,
-    "template": "Acc(\"<objet>\")",
+    "template": "Acc(\"<object>\")",
     "source": "ParameterExpression.cs:467"
   },
   {
@@ -4604,7 +4604,7 @@
     "objectType": "> 0",
     "num": "5",
     "when": null,
-    "template": "Dec(\"<objet>\")",
+    "template": "Dec(\"<object>\")",
     "source": "ParameterExpression.cs:469"
   },
   {
@@ -4612,7 +4612,7 @@
     "objectType": "> 0",
     "num": "6",
     "when": null,
-    "template": "Dir(\"<objet>\")",
+    "template": "Dir(\"<object>\")",
     "source": "ParameterExpression.cs:471"
   },
   {
@@ -4620,7 +4620,7 @@
     "objectType": "> 0",
     "num": "7",
     "when": null,
-    "template": "X Left(\"<objet>\")",
+    "template": "X Left(\"<object>\")",
     "source": "ParameterExpression.cs:473"
   },
   {
@@ -4628,7 +4628,7 @@
     "objectType": "> 0",
     "num": "8",
     "when": null,
-    "template": "X Right(\"<objet>\")",
+    "template": "X Right(\"<object>\")",
     "source": "ParameterExpression.cs:475"
   },
   {
@@ -4636,7 +4636,7 @@
     "objectType": "> 0",
     "num": "9",
     "when": null,
-    "template": "Y Top(\"<objet>\")",
+    "template": "Y Top(\"<object>\")",
     "source": "ParameterExpression.cs:477"
   },
   {
@@ -4644,7 +4644,7 @@
     "objectType": "> 0",
     "num": "10",
     "when": null,
-    "template": "Y Bottom(\"<objet>\")",
+    "template": "Y Bottom(\"<object>\")",
     "source": "ParameterExpression.cs:479"
   },
   {
@@ -4652,7 +4652,7 @@
     "objectType": "> 0",
     "num": "11",
     "when": null,
-    "template": "X(\"<objet>\")",
+    "template": "X(\"<object>\")",
     "source": "ParameterExpression.cs:481"
   },
   {
@@ -4660,7 +4660,7 @@
     "objectType": "> 0",
     "num": "12",
     "when": null,
-    "template": "Fixed(\"<objet>\")",
+    "template": "Fixed(\"<object>\")",
     "source": "ParameterExpression.cs:483"
   },
   {
@@ -4668,7 +4668,7 @@
     "objectType": "> 0",
     "num": "13",
     "when": null,
-    "template": "Flag(\"<objet>\", ",
+    "template": "Flag(\"<object>\", ",
     "source": "ParameterExpression.cs:485"
   },
   {
@@ -4676,7 +4676,7 @@
     "objectType": "> 0",
     "num": "14",
     "when": null,
-    "template": "Anim Number(\"<objet>\")",
+    "template": "Anim Number(\"<object>\")",
     "source": "ParameterExpression.cs:487"
   },
   {
@@ -4684,7 +4684,7 @@
     "objectType": "> 0",
     "num": "15",
     "when": null,
-    "template": "NObjects(\"<objet>\")",
+    "template": "NObjects(\"<object>\")",
     "source": "ParameterExpression.cs:489"
   },
   {
@@ -4692,7 +4692,7 @@
     "objectType": "> 0",
     "num": "16",
     "when": null,
-    "template": "<valeur>(\"<objet>\")",
+    "template": "<value>(\"<object>\")",
     "source": "ParameterExpression.cs:491"
   },
   {
@@ -4700,7 +4700,7 @@
     "objectType": "> 0",
     "num": "17",
     "when": null,
-    "template": "SemiTrans(\"<objet>\")",
+    "template": "SemiTrans(\"<object>\")",
     "source": "ParameterExpression.cs:493"
   },
   {
@@ -4708,7 +4708,7 @@
     "objectType": "> 0",
     "num": "18",
     "when": null,
-    "template": "NMovement(\"<objet>\")",
+    "template": "NMovement(\"<object>\")",
     "source": "ParameterExpression.cs:495"
   },
   {
@@ -4716,7 +4716,7 @@
     "objectType": "> 0",
     "num": "19",
     "when": null,
-    "template": "<valeur>(\"<objet>\")",
+    "template": "<value>(\"<object>\")",
     "source": "ParameterExpression.cs:497"
   },
   {
@@ -4724,7 +4724,7 @@
     "objectType": "> 0",
     "num": "20",
     "when": null,
-    "template": "FontName$(\"<objet>\")",
+    "template": "FontName$(\"<object>\")",
     "source": "ParameterExpression.cs:499"
   },
   {
@@ -4732,7 +4732,7 @@
     "objectType": "> 0",
     "num": "21",
     "when": null,
-    "template": "FontSize(\"<objet>\")",
+    "template": "FontSize(\"<object>\")",
     "source": "ParameterExpression.cs:501"
   },
   {
@@ -4740,7 +4740,7 @@
     "objectType": "> 0",
     "num": "22",
     "when": null,
-    "template": "FontColor(\"<objet>\")",
+    "template": "FontColor(\"<object>\")",
     "source": "ParameterExpression.cs:503"
   },
   {
@@ -4748,7 +4748,7 @@
     "objectType": "> 0",
     "num": "23",
     "when": null,
-    "template": "Layer(\"<objet>\")",
+    "template": "Layer(\"<object>\")",
     "source": "ParameterExpression.cs:505"
   },
   {
@@ -4756,7 +4756,7 @@
     "objectType": "> 0",
     "num": "24",
     "when": null,
-    "template": "Gravity(\"<objet>\")",
+    "template": "Gravity(\"<object>\")",
     "source": "ParameterExpression.cs:507"
   },
   {
@@ -4764,7 +4764,7 @@
     "objectType": "> 0",
     "num": "25",
     "when": null,
-    "template": "XActionPoint(\"<objet>\")",
+    "template": "XActionPoint(\"<object>\")",
     "source": "ParameterExpression.cs:509"
   },
   {
@@ -4772,7 +4772,7 @@
     "objectType": "> 0",
     "num": "26",
     "when": null,
-    "template": "YActionPoint(\"<objet>\")",
+    "template": "YActionPoint(\"<object>\")",
     "source": "ParameterExpression.cs:511"
   },
   {
@@ -4780,7 +4780,7 @@
     "objectType": "> 0",
     "num": "27",
     "when": null,
-    "template": "AlphaCoef(\"<objet>\")",
+    "template": "AlphaCoef(\"<object>\")",
     "source": "ParameterExpression.cs:513"
   },
   {
@@ -4788,7 +4788,7 @@
     "objectType": "> 0",
     "num": "28",
     "when": null,
-    "template": "RGBCoef(\"<objet>\")",
+    "template": "RGBCoef(\"<object>\")",
     "source": "ParameterExpression.cs:515"
   },
   {
@@ -4796,7 +4796,7 @@
     "objectType": "> 0",
     "num": "29",
     "when": null,
-    "template": "EffectParam(\"<objet>\", ",
+    "template": "EffectParam(\"<object>\", ",
     "source": "ParameterExpression.cs:517"
   },
   {
@@ -4804,7 +4804,7 @@
     "objectType": "> 0",
     "num": "30",
     "when": null,
-    "template": "AltValN(\"<objet>\", ",
+    "template": "AltValN(\"<object>\", ",
     "source": "ParameterExpression.cs:519"
   },
   {
@@ -4812,7 +4812,7 @@
     "objectType": "> 0",
     "num": "31",
     "when": null,
-    "template": "AltStrN$(\"<objet>\", ",
+    "template": "AltStrN$(\"<object>\", ",
     "source": "ParameterExpression.cs:521"
   },
   {
@@ -4820,7 +4820,7 @@
     "objectType": "> 0",
     "num": "32",
     "when": null,
-    "template": "ODistance(\"<objet>\", ",
+    "template": "ODistance(\"<object>\", ",
     "source": "ParameterExpression.cs:523"
   },
   {
@@ -4828,7 +4828,7 @@
     "objectType": "> 0",
     "num": "33",
     "when": null,
-    "template": "OAngle(\"<objet>\", ",
+    "template": "OAngle(\"<object>\", ",
     "source": "ParameterExpression.cs:525"
   },
   {
@@ -4836,7 +4836,7 @@
     "objectType": "> 0",
     "num": "34",
     "when": null,
-    "template": "ForEachLoopIndex(\"<objet>\")",
+    "template": "ForEachLoopIndex(\"<object>\")",
     "source": "ParameterExpression.cs:527"
   },
   {
@@ -4844,7 +4844,7 @@
     "objectType": "> 0",
     "num": "35",
     "when": null,
-    "template": "PFriction(\"<objet>\")",
+    "template": "PFriction(\"<object>\")",
     "source": "ParameterExpression.cs:529"
   },
   {
@@ -4852,7 +4852,7 @@
     "objectType": "> 0",
     "num": "36",
     "when": null,
-    "template": "PElasticity(\"<objet>\")",
+    "template": "PElasticity(\"<object>\")",
     "source": "ParameterExpression.cs:531"
   },
   {
@@ -4860,7 +4860,7 @@
     "objectType": "> 0",
     "num": "37",
     "when": null,
-    "template": "PDensity(\"<objet>\")",
+    "template": "PDensity(\"<object>\")",
     "source": "ParameterExpression.cs:533"
   },
   {
@@ -4868,7 +4868,7 @@
     "objectType": "> 0",
     "num": "38",
     "when": null,
-    "template": "PVelocity(\"<objet>\")",
+    "template": "PVelocity(\"<object>\")",
     "source": "ParameterExpression.cs:535"
   },
   {
@@ -4876,7 +4876,7 @@
     "objectType": "> 0",
     "num": "39",
     "when": null,
-    "template": "PVelocityAngle(\"<objet>\")",
+    "template": "PVelocityAngle(\"<object>\")",
     "source": "ParameterExpression.cs:537"
   },
   {
@@ -4884,7 +4884,7 @@
     "objectType": "> 0",
     "num": "40",
     "when": null,
-    "template": "OWidth(\"<objet>\")",
+    "template": "OWidth(\"<object>\")",
     "source": "ParameterExpression.cs:539"
   },
   {
@@ -4892,7 +4892,7 @@
     "objectType": "> 0",
     "num": "41",
     "when": null,
-    "template": "OHeight(\"<objet>\")",
+    "template": "OHeight(\"<object>\")",
     "source": "ParameterExpression.cs:541"
   },
   {
@@ -4900,7 +4900,7 @@
     "objectType": "> 0",
     "num": "42",
     "when": null,
-    "template": "PMass(\"<objet>\")",
+    "template": "PMass(\"<object>\")",
     "source": "ParameterExpression.cs:543"
   },
   {
@@ -4908,7 +4908,7 @@
     "objectType": "> 0",
     "num": "43",
     "when": null,
-    "template": "PAngularVelocity(\"<objet>\")",
+    "template": "PAngularVelocity(\"<object>\")",
     "source": "ParameterExpression.cs:545"
   },
   {
@@ -4916,7 +4916,7 @@
     "objectType": "> 0",
     "num": "44",
     "when": null,
-    "template": "OName$(\"<objet>\")",
+    "template": "OName$(\"<object>\")",
     "source": "ParameterExpression.cs:547"
   },
   {
@@ -4924,7 +4924,7 @@
     "objectType": "> 0",
     "num": "45",
     "when": null,
-    "template": "NSelectedObjects(\"<objet>\")",
+    "template": "NSelectedObjects(\"<object>\")",
     "source": "ParameterExpression.cs:549"
   },
   {
@@ -4932,7 +4932,7 @@
     "objectType": "> 0",
     "num": "46",
     "when": null,
-    "template": "InstanceValue(\"<objet>\")",
+    "template": "InstanceValue(\"<object>\")",
     "source": "ParameterExpression.cs:551"
   }
 ]

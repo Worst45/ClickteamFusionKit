@@ -1,10 +1,11 @@
-﻿# Régénère la bible (skill\clickteam-fusion\bible\) à partir de data\.
-#   .\regen-bible.ps1                         -> bible seule (catalogues et statistiques existants)
-#   .\regen-bible.ps1 -Corpus -Sources 'perso=C:\Jeux\mes-jeux'
-#                                             -> réexporte d'abord les projets (+ exemples de Fusion),
-#                                                recalcule les statistiques (work\corpus\, data\usage.json)
-# Node.js : celui du système s'il existe, sinon une version portable officielle est téléchargée une
-# fois dans tools\node\ (empreinte SHA-256 vérifiée). -PortableNode force la version portable.
+﻿# Regenerates the bible (skill\clickteam-fusion\bible\) and data\lang\fr.json from data\.
+#   .\regen-bible.ps1                         -> bible only (existing catalogs and statistics)
+#   .\regen-bible.ps1 -Corpus -Sources 'mine=C:\Games\my-games'
+#                                             -> first re-exports the projects (+ Fusion's examples)
+#                                                and recomputes the statistics (work\corpus\, data\usage.json)
+# Node.js: the system one if present, otherwise an official portable version is downloaded once
+# into tools\node\ (SHA-256 checked). -PortableNode forces the portable version.
+# Then run .\build.ps1 so that MfaDump embeds the new data\lang\fr.json.
 param(
     [switch]$Corpus,
     [string[]]$Sources = @(),
@@ -28,13 +29,13 @@ function Get-Node {
 
     $name = "node-$NodeVersion-win-x64"
     $base = "https://nodejs.org/dist/$NodeVersion"
-    Write-Host "Node.js absent : téléchargement de $name (version portable officielle)..."
+    Write-Host "Node.js missing: downloading $name (official portable version)..."
     $zip = Join-Path $env:TEMP "$name.zip"
     Invoke-WebRequest "$base/$name.zip" -OutFile $zip
     $sums = (Invoke-WebRequest "$base/SHASUMS256.txt" -UseBasicParsing).Content
     $expected = ($sums -split "`n" | Where-Object { $_ -match " $name\.zip$" }) -replace '\s.*$', ''
     $actual = (Get-FileHash $zip -Algorithm SHA256).Hash
-    if (-not $expected -or $actual -ne $expected.ToUpper()) { Remove-Item $zip; throw "Empreinte SHA-256 incorrecte pour $name.zip" }
+    if (-not $expected -or $actual -ne $expected.ToUpper()) { Remove-Item $zip; throw "Wrong SHA-256 for $name.zip" }
     $tmp = Join-Path $env:TEMP ('node-' + [guid]::NewGuid())
     Expand-Archive $zip $tmp
     New-Item -ItemType Directory -Force (Split-Path $dir) | Out-Null
@@ -44,15 +45,15 @@ function Get-Node {
     return $exe
 }
 $node = Get-Node
-Write-Host "Node.js : $node"
+Write-Host "Node.js: $node"
 
 if ($Corpus) {
     $corpusArgs = @{ Sources = $Sources }
     if ($NoFusionExamples) { $corpusArgs.NoFusionExamples = $true }
     & (Join-Path $kit 'scripts\corpus\run-corpus.ps1') @corpusArgs
     & $node (Join-Path $kit 'scripts\corpus\stats.js')
-    if ($LASTEXITCODE -ne 0) { throw 'stats.js a échoué' }
+    if ($LASTEXITCODE -ne 0) { throw 'stats.js failed' }
 }
 
 & $node (Join-Path $kit 'src\bible\generate.js')
-if ($LASTEXITCODE -ne 0) { throw 'generate.js a échoué' }
+if ($LASTEXITCODE -ne 0) { throw 'generate.js failed' }

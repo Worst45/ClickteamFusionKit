@@ -1,23 +1,23 @@
 # Extension kcpict
 
-- Fichier : `kcpict.mfx` — installée avec Fusion
-- Nom(s) affiché(s) dans les projets : « Picture »
-- Usage dans le corpus : 2 fois
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `kcpict.mfx` — installed with Fusion
+- Name(s) shown in projects: “Picture”
+- Usage in the corpus: 2 times
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | -81 | A picture is loaded ? | `<p0>: a picture is loaded` | <objet>: une image est chargée |  | — |  |
-| 1 | -82 | Is visible ? | `<objet>: visible` | <objet>: visible |  | — |  |
+| 0 | -81 | A picture is loaded ? | `<p0>: a picture is loaded` | <object>: une image est chargée |  | — |  |
+| 1 | -82 | Is visible ? | `<object>: visible` | <object>: visible |  | — |  |
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | New picture | `New picture : <p0>` | Nouvelle image : <p0> | (paramètres non fiables) | 1 (1 proj.) | `Picture : Event ID 80, 1 Parameters { Apppath$ + ".\pictures\" + string$("Filename...") + ".pcx" }` |
+| 0 | 80 | New picture | `New picture : <p0>` | Nouvelle image : <p0> | (unreliable parameters) | 1 (1 proj.) | `Picture : Event ID 80, 1 Parameters { Apppath$ + ".\pictures\" + string$("Filename...") + ".pcx" }` |
 | 1 | 81 | New picture from selector | `New picture from selector` | Nouvelle image avec sélecteur |  | — |  |
 | 2 | 82 | Visibility > Make Object Reappear | `Show` | Montrer |  | — |  |
 | 3 | 83 | Visibility > Make Object Invisible | `Hide` | Cacher |  | — |  |
@@ -26,7 +26,7 @@
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | 80 | Get picture name | `poPictureName$(` | Nom de l'image |  | — |  |
 | 1 | 81 | Get picture original x size | `poOrgWidth(` | Taille en X originale |  | — |  |

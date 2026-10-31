@@ -1,17 +1,17 @@
 # Extension QuickHash
 
-- Fichier : `QuickHash.mfx` — extension tierce (fournie avec un projet téléchargé)
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
-- actions : extraction en mode « menu ressources » (numéros possiblement supposés, voir colonne Code)
-- expressions : extraction en mode « menu ressources » (numéros possiblement supposés, voir colonne Code)
+- File: `QuickHash.mfx` — third-party extension (shipped with a downloaded project)
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
+- actions: extracted in “resource menu” mode (numbers possibly guessed, see the Code column)
+- expressions: extracted in “resource menu” mode (numbers possibly guessed, see the Code column)
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Set file | `Set current file to: <p0>` |  | expression chaîne « Current file » | — |  |
+| 0 | 80 | Set file | `Set current file to: <p0>` |  | string expression “Current file” | — |  |
 | 6 | 86 | GHash > GHash | `Perform a GHash hash` |  |  | — |  |
 | 7 | 87 | GOST > GOST-Hash | `Perform a GOST-Hash hash` |  |  | — |  |
 | 8 | 88 | MD > MD2 | `Perform a MD2 hash` |  |  | — |  |
@@ -25,11 +25,11 @@
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Get hash | `get Hash$(` |  | → chaîne | — |  |
+| 0 | 80 | Get hash | `get Hash$(` |  | → string | — |  |
 | 1 | 81 | Get hash length | `get Hash Length(` |  |  | — |  |
-| 2 | 82 | MD > MD2 | `get MDTwo Hash$(` |  | chaîne → chaîne | — |  |
-| 3 | 83 | MD > MD4 | `get MDFour Hash$(` |  | chaîne → chaîne | — |  |
-| 4 | 84 | SHA > SHA-1 | `get SHAOne Hash$(` |  | chaîne → chaîne | — |  |
-| 5 | 85 | MD > MD5 | `get MDFive Hash$(` |  | chaîne → chaîne | — |  |
+| 2 | 82 | MD > MD2 | `get MDTwo Hash$(` |  | string → string | — |  |
+| 3 | 83 | MD > MD4 | `get MDFour Hash$(` |  | string → string | — |  |
+| 4 | 84 | SHA > SHA-1 | `get SHAOne Hash$(` |  | string → string | — |  |
+| 5 | 85 | MD > MD5 | `get MDFive Hash$(` |  | string → string | — |  |

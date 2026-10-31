@@ -1,13 +1,13 @@
 # Extension ActiveOverlay
 
-- Fichier : `ActiveOverlay.mfx` — extension tierce (fournie avec un projet téléchargé)
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `ActiveOverlay.mfx` — third-party extension (shipped with a downloaded project)
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Set Redux adress | `Set adress = <p0>` |  | expression numérique « Address of overlay redux » | — |  |
+| 0 | 80 | Set Redux adress | `Set adress = <p0>` |  | numeric expression “Address of overlay redux” | — |  |
 | 1 | 81 | Update | `Update display` |  |  | — |  |

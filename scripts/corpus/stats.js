@@ -1,9 +1,9 @@
-// Statistiques d'usage sur tous les .events.jsonl du corpus (work\corpus\).
-// node stats.js [dossier du corpus]
-//   -> work\corpus\_stats.json : version complète, LOCALE (projets, exemples de tous les projets)
-//   -> data\usage.json         : version publique, versionnée : compteurs + exemples tirés
-//                                uniquement des exemples officiels de Fusion (sources fusion_*)
-// Clés : intégrés "kind|type|num", extensions "fichier mfx|kind|num" (C condition, A action, E expression)
+// Usage statistics over every .events.jsonl of the corpus (work\corpus\).
+// node stats.js [corpus folder]
+//   -> work\corpus\_stats.json : full version, LOCAL (projects, examples from every project)
+//   -> data\usage.json         : public, committed version: counters + examples taken only from
+//                                Fusion's official examples (fusion_* sources)
+// Keys: built-in "kind|type|num", extensions "mfx file|kind|num" (C condition, A action, E expression)
 const fs = require("fs"), path = require("path");
 
 const KIT = path.resolve(__dirname, "../..");
@@ -54,7 +54,7 @@ for (const file of walk(CORPUS)) {
 const full = m => Object.values(m).map(s => ({ ...s, extNames: [...s.extNames], projects: s.projects.size,
                                               projectList: [...s.projects].slice(0, 5) }))
                                  .sort((a, b) => b.count - a.count);
-// Version publique : aucun nom de projet ni exemple tiré des projets personnels
+// Public version: no project name and no example from personal projects
 const pub = list => list.map(s => ({ kind: s.kind, type: s.type, num: s.num, extFile: s.extFile, extNames: s.extNames,
                                      count: s.count, projects: s.projects, errors: s.errors,
                                      examples: s.publicExamples, errorExamples: s.publicErrorExamples }));
@@ -64,13 +64,13 @@ fs.writeFileSync(path.join(KIT, "data/usage.json"), JSON.stringify(
   { files, rows, builtin: pub(result.builtin), extensions: pub(result.extensions) }, null, 1));
 
 const sum = (l, f) => l.reduce((a, s) => a + f(s), 0);
-console.log(`${files} fichiers, ${rows} lignes (C/A/E) -> ${path.join(CORPUS, "_stats.json")} + data/usage.json`);
+console.log(`${files} files, ${rows} rows (C/A/E) -> ${path.join(CORPUS, "_stats.json")} + data/usage.json`);
 for (const k of ["C", "A", "E"]) {
   const b = result.builtin.filter(s => s.kind == k), e = result.extensions.filter(s => s.kind == k);
-  console.log(`  ${k} : intégrés ${b.length} distincts / ${sum(b, s => s.count)} usages (${sum(b, s => s.errors)} en erreur) ; extensions ${e.length} distincts / ${sum(e, s => s.count)} usages`);
+  console.log(`  ${k}: built-in ${b.length} distinct / ${sum(b, s => s.count)} uses (${sum(b, s => s.errors)} with errors); extensions ${e.length} distinct / ${sum(e, s => s.count)} uses`);
 }
 const errs = result.builtin.filter(s => s.errors).sort((a, b) => b.errors - a.errors);
 if (errs.length) {
-  console.log("--- intégrés en erreur (occurrences fautives) :");
+  console.log("--- built-in with errors (faulty occurrences):");
   errs.forEach(s => console.log(`  ${s.kind} ${s.type}/${s.num}  ${s.errors}/${s.count}  ${s.errorExamples[0]}`));
 }

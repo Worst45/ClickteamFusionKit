@@ -1,40 +1,40 @@
 # Extension DirectoryPacker
 
-- Fichier : `DirectoryPacker.mfx` — extension tierce (fournie avec un projet téléchargé)
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `DirectoryPacker.mfx` — third-party extension (shipped with a downloaded project)
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | -81 | An error occured | `<objet> : Error occured` |  |  | — |  |
-| 1 | -82 | Packing finished | `<objet> : Packing finished` |  |  | — |  |
-| 2 | -83 | Unpacking finished | `<objet> : Unpacking finished` |  |  | — |  |
-| 3 | -84 | Packing failed | `<objet> : Packing failed` |  |  | — |  |
-| 4 | -85 | Unpacking failed | `<objet> : Unpacking failed` |  |  | — |  |
-| 5 | -86 | File is allowed | `<objet> : File <p0> allowed` |  | expression chaîne « Filename » | — |  |
+| 0 | -81 | An error occured | `<object> : Error occured` |  |  | — |  |
+| 1 | -82 | Packing finished | `<object> : Packing finished` |  |  | — |  |
+| 2 | -83 | Unpacking finished | `<object> : Unpacking finished` |  |  | — |  |
+| 3 | -84 | Packing failed | `<object> : Packing failed` |  |  | — |  |
+| 4 | -85 | Unpacking failed | `<object> : Unpacking failed` |  |  | — |  |
+| 5 | -86 | File is allowed | `<object> : File <p0> allowed` |  | string expression “Filename” | — |  |
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Pack directory | `Pack directory <p0> to <p1>` |  | expression chaîne « Directory » ; expression chaîne « Destination filename » | — |  |
-| 1 | 81 | Unpack file | `Unpack <p0> to <p1> (stop if folder exists = <p2>)` |  | nom de fichier « Packed file » ; expression chaîne « Destination directory » ; expression numérique « Stop if folder exists? (0 = no, 1 = yes) » | — |  |
-| 2 | 82 | Delete directory | `Delete directory <p0>` |  | expression chaîne « Directory to delete » | — |  |
-| 3 | 83 | Enable extension filter | `Enable extension filter (only allow list = <p0>)` |  | expression numérique « 0 = block list, 1 = only allow list » | — |  |
+| 0 | 80 | Pack directory | `Pack directory <p0> to <p1>` |  | string expression “Directory”; string expression “Destination filename” | — |  |
+| 1 | 81 | Unpack file | `Unpack <p0> to <p1> (stop if folder exists = <p2>)` |  | file name “Packed file”; string expression “Destination directory”; numeric expression “Stop if folder exists? (0 = no, 1 = yes)” | — |  |
+| 2 | 82 | Delete directory | `Delete directory <p0>` |  | string expression “Directory to delete” | — |  |
+| 3 | 83 | Enable extension filter | `Enable extension filter (only allow list = <p0>)` |  | numeric expression “0 = block list, 1 = only allow list” | — |  |
 | 4 | 84 | Disable extension filter | `Disable extension filter` |  |  | — |  |
-| 5 | 85 | Add extension to filter list | `Add extension <p0> to filter list` |  | expression chaîne « Extension to add » | — |  |
-| 6 | 86 | Remove extension from filter list | `Remove extension <p0> from filter list` |  | expression chaîne « Extension to remove » | — |  |
-| 7 | 87 | Pack directory (this thread) | `Pack directory <p0> to <p1> in this thread` |  | expression chaîne « Directory » ; expression chaîne « Destination filename » | — |  |
-| 8 | 88 | Unpack file (this thread) | `Unpack <p0> to <p1> in this thread (stop if folder exists = <p2>)` |  | nom de fichier « Packed file » ; expression chaîne « Destination directory » ; expression numérique « Stop if folder exists? (0 = no, 1 = yes) » | — |  |
+| 5 | 85 | Add extension to filter list | `Add extension <p0> to filter list` |  | string expression “Extension to add” | — |  |
+| 6 | 86 | Remove extension from filter list | `Remove extension <p0> from filter list` |  | string expression “Extension to remove” | — |  |
+| 7 | 87 | Pack directory (this thread) | `Pack directory <p0> to <p1> in this thread` |  | string expression “Directory”; string expression “Destination filename” | — |  |
+| 8 | 88 | Unpack file (this thread) | `Unpack <p0> to <p1> in this thread (stop if folder exists = <p2>)` |  | file name “Packed file”; string expression “Destination directory”; numeric expression “Stop if folder exists? (0 = no, 1 = yes)” | — |  |
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Get current process | `process$(` |  | → chaîne | — |  |
+| 0 | 80 | Get current process | `process$(` |  | → string | — |  |
 | 1 | 81 | Get current progress % | `progress(` |  |  | — |  |
-| 2 | 82 | Get last error | `error$(` |  | → chaîne | — |  |
-| 3 | 83 | Get last windows error | `werr$(` |  | → chaîne | — |  |
+| 2 | 82 | Get last error | `error$(` |  | → string | — |  |
+| 3 | 83 | Get last windows error | `werr$(` |  | → string | — |  |

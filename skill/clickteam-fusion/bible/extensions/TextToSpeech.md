@@ -1,19 +1,19 @@
 # Extension TextToSpeech
 
-- Fichier : `TextToSpeech.mfx` — extension tierce (fournie avec un projet téléchargé)
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `TextToSpeech.mfx` — third-party extension (shipped with a downloaded project)
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | -81 | Is Talking? | `<objet> Is Talking?` |  |  | — |  |
-| 1 | -82 | Has Stopped Talking | `<objet> Has Stopped Talking` |  |  | — |  |
+| 0 | -81 | Is Talking? | `<object> Is Talking?` |  |  | — |  |
+| 1 | -82 | Has Stopped Talking | `<object> Has Stopped Talking` |  |  | — |  |
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Speak | `Speak (<p0>)` |  | expression chaîne « Speak » | — |  |
+| 0 | 80 | Speak | `Speak (<p0>)` |  | string expression “Speak” | — |  |

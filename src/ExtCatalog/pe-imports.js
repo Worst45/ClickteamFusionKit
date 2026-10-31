@@ -1,4 +1,4 @@
-// node pe-imports.js <fichier>... : liste les DLL importées
+// node pe-imports.js <file>...: lists the imported DLLs
 const fs = require("fs");
 for (const file of process.argv.slice(2)) {
   const b = fs.readFileSync(file), pe = b.readUInt32LE(0x3c), n = b.readUInt16LE(pe + 6), os = b.readUInt16LE(pe + 20), opt = pe + 24;

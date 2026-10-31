@@ -1,42 +1,42 @@
 # Extension diction
 
-- Fichier : `diction.mfx` — extension tierce (fournie avec un projet téléchargé)
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `diction.mfx` — third-party extension (shipped with a downloaded project)
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | -81 | Word exists | `<objet>: Word <p0> exists` |  | (paramètres non fiables) | — |  |
+| 0 | -81 | Word exists | `<object>: Word <p0> exists` |  | (unreliable parameters) | — |  |
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Add word | `<objet>: Add word <p0>` |  | (paramètres non fiables) | — |  |
-| 1 | 81 | Remove word | `<objet>: Remove word <p0>` |  | (paramètres non fiables) | — |  |
-| 2 | 82 | Remove all words | `<objet>: Remove all words` |  |  | — |  |
-| 3 | 83 | File > Save as CSV | `<objet>: Save as CSV <p0>` |  | (paramètres non fiables) | — |  |
-| 4 | 84 | File > Load from CSV | `<objet>: Load from CSV <p0>` |  | (paramètres non fiables) | — |  |
-| 5 | 85 | File > Save as MMF Array | `<objet>: Save as MMF Array <p0>` |  | (paramètres non fiables) | — |  |
-| 6 | 86 | File > Load from MMF Array | `<objet>: Load from MMF Array <p0>` |  | (paramètres non fiables) | — |  |
-| 7 | 87 | File > Save as Dynamic Array | `<objet>: Save as Dynamic Array <p0>` |  | (paramètres non fiables) | — |  |
-| 8 | 88 | File > Load from Dynamic Array | `<objet>: Load from Dynamic Array <p0>` |  | (paramètres non fiables) | — |  |
-| 9 | 89 | File > Save as INI | `<objet>: Save as INI <p0>` |  | (paramètres non fiables) | — |  |
-| 10 | 90 | File > Load from INI | `<objet>: Load from INI <p0>` |  | (paramètres non fiables) | — |  |
-| 11 | 91 | Settings > Hash Table > Set table size | `<objet>: Set table size to <p0>` |  | (paramètres non fiables) | — |  |
-| 12 | 92 | Settings > String Comparisons > Case Insensitive (A == a) | `<objet>: Comparisons are case insensitive` |  |  | — |  |
-| 13 | 93 | Settings > String Comparisons > Case Sensitive (A < a) | `<objet>: Comparisons are case sensitive` |  |  | — |  |
-| 14 | 94 | Settings > Search Mode > Literal | `<objet>: Disable wildcards` |  |  | — |  |
-| 15 | 95 | Settings > Search Mode > Wildcards | `<objet>: Enable wildcards` |  |  | — |  |
-| 16 | 96 | Settings > Duplicate Words > Disallow duplicates | `<objet>: Disallow duplicates` |  |  | — |  |
-| 17 | 97 | Settings > Duplicate Words > Allow duplicates | `<objet>: Allow duplicates` |  |  | — |  |
+| 0 | 80 | Add word | `<object>: Add word <p0>` |  | (unreliable parameters) | — |  |
+| 1 | 81 | Remove word | `<object>: Remove word <p0>` |  | (unreliable parameters) | — |  |
+| 2 | 82 | Remove all words | `<object>: Remove all words` |  |  | — |  |
+| 3 | 83 | File > Save as CSV | `<object>: Save as CSV <p0>` |  | (unreliable parameters) | — |  |
+| 4 | 84 | File > Load from CSV | `<object>: Load from CSV <p0>` |  | (unreliable parameters) | — |  |
+| 5 | 85 | File > Save as MMF Array | `<object>: Save as MMF Array <p0>` |  | (unreliable parameters) | — |  |
+| 6 | 86 | File > Load from MMF Array | `<object>: Load from MMF Array <p0>` |  | (unreliable parameters) | — |  |
+| 7 | 87 | File > Save as Dynamic Array | `<object>: Save as Dynamic Array <p0>` |  | (unreliable parameters) | — |  |
+| 8 | 88 | File > Load from Dynamic Array | `<object>: Load from Dynamic Array <p0>` |  | (unreliable parameters) | — |  |
+| 9 | 89 | File > Save as INI | `<object>: Save as INI <p0>` |  | (unreliable parameters) | — |  |
+| 10 | 90 | File > Load from INI | `<object>: Load from INI <p0>` |  | (unreliable parameters) | — |  |
+| 11 | 91 | Settings > Hash Table > Set table size | `<object>: Set table size to <p0>` |  | (unreliable parameters) | — |  |
+| 12 | 92 | Settings > String Comparisons > Case Insensitive (A == a) | `<object>: Comparisons are case insensitive` |  |  | — |  |
+| 13 | 93 | Settings > String Comparisons > Case Sensitive (A < a) | `<object>: Comparisons are case sensitive` |  |  | — |  |
+| 14 | 94 | Settings > Search Mode > Literal | `<object>: Disable wildcards` |  |  | — |  |
+| 15 | 95 | Settings > Search Mode > Wildcards | `<object>: Enable wildcards` |  |  | — |  |
+| 16 | 96 | Settings > Duplicate Words > Disallow duplicates | `<object>: Disallow duplicates` |  |  | — |  |
+| 17 | 97 | Settings > Duplicate Words > Allow duplicates | `<object>: Allow duplicates` |  |  | — |  |
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | 80 | Get number of words | `countWords(` |  |  | — |  |
 | 1 | 81 | Get hash table size | `tableSize(` |  |  | — |  |

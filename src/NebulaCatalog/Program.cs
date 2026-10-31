@@ -1,6 +1,10 @@
-// NebulaCatalog <racine Nebula.Core> <sortie.json>
-// Pour chaque `return` des méthodes de rendu de Nebula, remonte les switch/if englobants
-// et produit une entrée { kind, objectType, num, when, template, source }.
+// NebulaCatalog <Nebula.Core folder> <output.json>
+// For every `return` of Nebula's rendering methods, walks up the enclosing switch/if statements
+// and produces an entry { kind, objectType, num, when, template, source }.
+// Templates use placeholders shared by the bible generator and MfaDump's translated rendering:
+//   <object>, <op>, <pN>, <global value pN>, <global string pN>, <alterable value pN>,
+//   <alterable string pN>, <zone pN>, <key>, <joystick direction>, <menu option>, <animation>,
+//   <direction>, <frame>, <player no.>, <obstacle>, <ink effect>, <scene>, <value> (anything else).
 using System.Text.Json;
 using System.Text.RegularExpressions;
 using Microsoft.CodeAnalysis;
@@ -32,7 +36,7 @@ foreach (var t in targets)
         SyntaxNode child = ret;
         for (SyntaxNode n = ret.Parent; n != null && n != method.Body; child = n, n = n.Parent)
         {
-            // `if (X) return A; return B;` : B ne s'applique que si les if précédents sont faux
+            // `if (X) return A; return B;`: B only applies when the previous ifs are false
             if (n is BlockSyntax or SwitchSectionSyntax)
             {
                 var statements = n is BlockSyntax b ? b.Statements : ((SwitchSectionSyntax)n).Statements;
@@ -69,12 +73,13 @@ foreach (var t in targets)
     }
 }
 
-File.WriteAllText(output, JsonSerializer.Serialize(entries, new JsonSerializerOptions
+string json = JsonSerializer.Serialize(entries, new JsonSerializerOptions
 {
     WriteIndented = true,
     Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
-}));
-Console.WriteLine($"{entries.Count} entrées -> {output}");
+});
+File.WriteAllText(output, json.Replace("\r\n", "\n") + "\n"); // LF on every OS (stable diffs)
+Console.WriteLine($"{entries.Count} entries -> {output}");
 foreach (var g in entries.GroupBy(e => e.kind))
     Console.WriteLine($"  {g.Key}: {g.Count()}");
 
@@ -86,7 +91,7 @@ static string LabelText(SwitchLabelSyntax l) => l switch
     _ => l.ToString()
 };
 
-// Rend le gabarit lisible : interpolations Nebula -> <placeholders>
+// Makes the template readable: Nebula interpolations -> <placeholders>
 static string Simplify(string s)
 {
     s = s.Trim();
@@ -96,27 +101,27 @@ static string Simplify(string s)
         s = s[2..^1];
     else if (s.StartsWith("\"") && s.EndsWith("\""))
         s = s[1..^1];
-    s = Regex.Replace(s, @"\{GetObjectName\(\)\}", "<objet>");
+    s = Regex.Replace(s, @"\{GetObjectName\(\)\}", "<object>");
     s = Regex.Replace(s, @"\{GetComparison\([^{}]*?\.Comparison\)\}", "<op>");
     s = Regex.Replace(s, @"\{Parameters\[(\d+)\](\.Data)?\}", "<p$1>");
-    s = Regex.Replace(s, @"\{GetGlobalValueName\(Parameters\[(\d+)\]\.Data\)\}", "<valeur globale p$1>");
-    s = Regex.Replace(s, @"\{GetGlobalStringName\(Parameters\[(\d+)\]\.Data\)\}", "<chaîne globale p$1>");
-    s = Regex.Replace(s, @"\{GetObjectAlterableValueName\(Parameters\[(\d+)\]\.Data\)\}", "<valeur modifiable p$1>");
-    s = Regex.Replace(s, @"\{GetObjectAlterableStringName\(Parameters\[(\d+)\]\.Data\)\}", "<chaîne modifiable p$1>");
-    s = Regex.Replace(s, @"\{GetAlterableValueName\(Parameters\[(\d+)\]\.Data\)\}", "<valeur modifiable p$1>");
+    s = Regex.Replace(s, @"\{GetGlobalValueName\(Parameters\[(\d+)\]\.Data\)\}", "<global value p$1>");
+    s = Regex.Replace(s, @"\{GetGlobalStringName\(Parameters\[(\d+)\]\.Data\)\}", "<global string p$1>");
+    s = Regex.Replace(s, @"\{GetObjectAlterableValueName\(Parameters\[(\d+)\]\.Data\)\}", "<alterable value p$1>");
+    s = Regex.Replace(s, @"\{GetObjectAlterableStringName\(Parameters\[(\d+)\]\.Data\)\}", "<alterable string p$1>");
+    s = Regex.Replace(s, @"\{GetAlterableValueName\(Parameters\[(\d+)\]\.Data\)\}", "<alterable value p$1>");
     s = Regex.Replace(s, @"\{GetZone\((\d+)[^}]*\}", "<zone p$1>");
-    s = Regex.Replace(s, @"\{GetKeyboardKey\([^}]*\}", "<touche>");
-    s = Regex.Replace(s, @"\{GetJoystickString\([^}]*\}", "<direction joystick>");
-    s = Regex.Replace(s, @"\{GetMenuItemName\([^}]*\}", "<option de menu>");
+    s = Regex.Replace(s, @"\{GetKeyboardKey\([^}]*\}", "<key>");
+    s = Regex.Replace(s, @"\{GetJoystickString\([^}]*\}", "<joystick direction>");
+    s = Regex.Replace(s, @"\{GetMenuItemName\([^}]*\}", "<menu option>");
     s = Regex.Replace(s, @"\{GetObjectAnimation\([^}]*\}", "<animation>");
     s = Regex.Replace(s, @"\{GetDirection\([^}]*\}", "<direction>");
     s = Regex.Replace(s, @"\{GetFrameName\([^}]*\}", "<frame>");
-    s = Regex.Replace(s, @"\{ObjectInfo \+ 1\}", "<n° joueur>");
+    s = Regex.Replace(s, @"\{ObjectInfo \+ 1\}", "<player no.>");
     s = Regex.Replace(s, @"\{GetDirectionSettings\(.*?\)\}", " <obstacle>");
-    s = Regex.Replace(s, @"\{GetInkEffect\(.*?\)\}", "<effet d'encre>");
-    s = Regex.Replace(s, @"\{\(\(Parameters\[0\]\.Data is ParameterExpressions\).*GetFrameName.*\}", "<scène>");
-    // Toute autre interpolation de code restante : valeur calculée par Nebula
-    s = Regex.Replace(s, @"\{[^{}]*(\{[^{}]*\}[^{}]*)*\}", "<valeur>");
+    s = Regex.Replace(s, @"\{GetInkEffect\(.*?\)\}", "<ink effect>");
+    s = Regex.Replace(s, @"\{\(\(Parameters\[0\]\.Data is ParameterExpressions\).*GetFrameName.*\}", "<scene>");
+    // Any other remaining code interpolation: value computed by Nebula
+    s = Regex.Replace(s, @"\{[^{}]*(\{[^{}]*\}[^{}]*)*\}", "<value>");
     s = s.Replace("\\\"", "\"");
     return s;
 }

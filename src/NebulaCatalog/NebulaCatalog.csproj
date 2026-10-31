@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <!-- Extrait le catalogue des conditions / actions / expressions connues de Nebula
-       en analysant son code source avec Roslyn. -->
+  <!-- Extracts the catalog of conditions / actions / expressions known to Nebula
+       by analyzing its source code with Roslyn. -->
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>

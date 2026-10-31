@@ -1,13 +1,13 @@
 # Extension fcWindowLife
 
-- Fichier : `fcWindowLife.mfx` — extension tierce (fournie avec un projet téléchargé)
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `fcWindowLife.mfx` — third-party extension (shipped with a downloaded project)
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | -81 | On Window just moved | `On Window just moved` |  |  | — |  |
 | 1 | -82 | On Window move | `On Window move` |  |  | — |  |
@@ -18,17 +18,17 @@
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Properties > Set minimum window size | `Set Minimum window size to (<p0>,<p1>)` |  | expression numérique « Minimum Width » ; expression numérique « Minimum Height » | — |  |
-| 1 | 81 | Properties > Set maximum window size | `Set Maximum window size to (<p0>,<p1>)` |  | expression numérique « Maximum Width » ; expression numérique « Maximum Height » | — |  |
-| 2 | 82 | Properties > Use minimum size | `Use minimum window size (<p0>)` |  | expression numérique « On = 1 / Off = 0 » | — |  |
-| 3 | 83 | Properties > Use maximum size | `Use maximum window size (<p0>)` |  | expression numérique « On = 1 / Off = 0 » | — |  |
-| 4 | 84 | Properties > Use Client Area | `Use ClientArea (<p0>)` |  | expression numérique « On = 1 / Off = 0 » | — |  |
+| 0 | 80 | Properties > Set minimum window size | `Set Minimum window size to (<p0>,<p1>)` |  | numeric expression “Minimum Width”; numeric expression “Minimum Height” | — |  |
+| 1 | 81 | Properties > Set maximum window size | `Set Maximum window size to (<p0>,<p1>)` |  | numeric expression “Maximum Width”; numeric expression “Maximum Height” | — |  |
+| 2 | 82 | Properties > Use minimum size | `Use minimum window size (<p0>)` |  | numeric expression “On = 1 / Off = 0” | — |  |
+| 3 | 83 | Properties > Use maximum size | `Use maximum window size (<p0>)` |  | numeric expression “On = 1 / Off = 0” | — |  |
+| 4 | 84 | Properties > Use Client Area | `Use ClientArea (<p0>)` |  | numeric expression “On = 1 / Off = 0” | — |  |
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | 80 | Properties > Get window border Width | `getWindowBorderWidth(` |  |  | — |  |
 | 1 | 81 | Properties > Get window border Height | `getWindowBorderHeight(` |  |  | — |  |

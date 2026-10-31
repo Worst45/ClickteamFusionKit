@@ -1,9 +1,9 @@
 {
   "file": "KcRuntime.mfx",
   "conditions": [],
-  "conditions_status": "menu ressources",
+  "conditions_status": "resource menu",
   "actions": [],
-  "actions_status": "menu ressources",
+  "actions_status": "resource menu",
   "expressions": [],
-  "expressions_status": "menu ressources"
+  "expressions_status": "resource menu"
 }

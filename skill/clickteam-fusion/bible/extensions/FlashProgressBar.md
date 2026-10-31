@@ -1,43 +1,43 @@
 # Extension FlashProgressBar
 
-- Fichier : `FlashProgressBar.mfx` — extension tierce (fournie avec un projet téléchargé)
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `FlashProgressBar.mfx` — third-party extension (shipped with a downloaded project)
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | -81 | Progress Bar Is Visible | `<objet> Progress Bar Is Visible` |  |  | — |  |
-| 1 | -82 | Progress Bar Is Full | `<objet> Progress Bar Is Full` |  |  | — |  |
+| 0 | -81 | Progress Bar Is Visible | `<object> Progress Bar Is Visible` |  |  | — |  |
+| 1 | -82 | Progress Bar Is Full | `<object> Progress Bar Is Full` |  |  | — |  |
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | 80 | Create Progress Bar | `Create Progress Bar` |  |  | — |  |
-| 1 | 81 | Set X | `Set X (<p0>)` |  | expression numérique « X Coordinate » | — |  |
-| 2 | 82 | Set Y | `Set Y (<p0>)` |  | expression numérique « Y Coordinate » | — |  |
-| 3 | 83 | Set Width | `Set Width (<p0>)` |  | expression numérique « Width » | — |  |
-| 4 | 84 | Set Height | `Set Height (<p0>)` |  | expression numérique « Height » | — |  |
-| 5 | 85 | Set Bar Color | `Set Bar Color (<p0>)` |  | couleur « Bar Color » | — |  |
-| 6 | 86 | Set Background Color | `Set Background Color (<p0>)` |  | couleur « Background Color » | — |  |
-| 7 | 87 | Set Status Text Color | `Set Status Text Color (<p0>)` |  | couleur « Status Text Color » | — |  |
-| 8 | 88 | Set Alpha | `Set Alpha (<p0>)` |  | expression numérique « Alpha » | — |  |
-| 9 | 89 | Set Current Value | `Set Current Value (<p0>)` |  | expression numérique « Current Value » | — |  |
-| 10 | 90 | Set Minimum Value | `Set Minimum Value (<p0>)` |  | expression numérique « Minimum Value » | — |  |
-| 11 | 91 | Set Maximum Value | `Set Maximum Value (<p0>)` |  | expression numérique « Maximum Value » | — |  |
-| 12 | 92 | Set Status Text | `Set Status Text (<p0>)` |  | expression chaîne « Status Text » | — |  |
+| 1 | 81 | Set X | `Set X (<p0>)` |  | numeric expression “X Coordinate” | — |  |
+| 2 | 82 | Set Y | `Set Y (<p0>)` |  | numeric expression “Y Coordinate” | — |  |
+| 3 | 83 | Set Width | `Set Width (<p0>)` |  | numeric expression “Width” | — |  |
+| 4 | 84 | Set Height | `Set Height (<p0>)` |  | numeric expression “Height” | — |  |
+| 5 | 85 | Set Bar Color | `Set Bar Color (<p0>)` |  | color “Bar Color” | — |  |
+| 6 | 86 | Set Background Color | `Set Background Color (<p0>)` |  | color “Background Color” | — |  |
+| 7 | 87 | Set Status Text Color | `Set Status Text Color (<p0>)` |  | color “Status Text Color” | — |  |
+| 8 | 88 | Set Alpha | `Set Alpha (<p0>)` |  | numeric expression “Alpha” | — |  |
+| 9 | 89 | Set Current Value | `Set Current Value (<p0>)` |  | numeric expression “Current Value” | — |  |
+| 10 | 90 | Set Minimum Value | `Set Minimum Value (<p0>)` |  | numeric expression “Minimum Value” | — |  |
+| 11 | 91 | Set Maximum Value | `Set Maximum Value (<p0>)` |  | numeric expression “Maximum Value” | — |  |
+| 12 | 92 | Set Status Text | `Set Status Text (<p0>)` |  | string expression “Status Text” | — |  |
 | 13 | 93 | Show Progress Bar | `Show Progress Bar` |  |  | — |  |
 | 14 | 94 | Hide Progress Bar | `Hide Progress Bar` |  |  | — |  |
 | 15 | 95 | Destroy Progress Bar | `Destroy Progress Bar` |  |  | — |  |
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Status Text | `StatusText$(` |  | → chaîne | — |  |
+| 0 | 80 | Status Text | `StatusText$(` |  | → string | — |  |
 | 1 | 81 | Get X | `GetX(` |  |  | — |  |
 | 2 | 82 | Get Y | `GetY(` |  |  | — |  |
 | 3 | 83 | Get Width | `GetWidth(` |  |  | — |  |

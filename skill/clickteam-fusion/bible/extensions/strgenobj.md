@@ -1,24 +1,24 @@
 # Extension strgenobj
 
-- Fichier : `strgenobj.mfx` — extension tierce (fournie avec un projet téléchargé)
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `strgenobj.mfx` — third-party extension (shipped with a downloaded project)
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | -81 | String Generated? | `<objet>: String Generated?` |  |  | — |  |
+| 0 | -81 | String Generated? | `<object>: String Generated?` |  |  | — |  |
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Generate String | `Generate String - Length(<p0>), Letters?(<p1>), Numbers?(<p2>), Symbols?(<p3>)` |  | expression numérique « Length Of String - (In Characters) » ; expression numérique « Include Letters? - (0 = No, 1 = Yes) » ; expression numérique « Include Numbers? - (0 = No, 1 = Yes) » ; expression numérique « Include Symbols? - (0 = No, 1 = Yes) » | — |  |
+| 0 | 80 | Generate String | `Generate String - Length(<p0>), Letters?(<p1>), Numbers?(<p2>), Symbols?(<p3>)` |  | numeric expression “Length Of String - (In Characters)”; numeric expression “Include Letters? - (0 = No, 1 = Yes)”; numeric expression “Include Numbers? - (0 = No, 1 = Yes)”; numeric expression “Include Symbols? - (0 = No, 1 = Yes)” | — |  |
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Get Last Generated String | `GetLastGeneratedString$(` |  | → chaîne | — |  |
+| 0 | 80 | Get Last Generated String | `GetLastGeneratedString$(` |  | → string | — |  |

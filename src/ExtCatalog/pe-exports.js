@@ -1,4 +1,4 @@
-// node pe-exports.js <fichier.dll|.mfx>... : liste la machine (x86/x64) et les fonctions exportées
+// node pe-exports.js <file.dll|.mfx>...: lists the machine (x86/x64) and the exported functions
 const fs = require("fs");
 for (const file of process.argv.slice(2)) {
   const b = fs.readFileSync(file);

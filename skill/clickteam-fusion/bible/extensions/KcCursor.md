@@ -1,14 +1,14 @@
 # Extension KcCursor
 
-- Fichier : `KcCursor.mfx` — installée avec Fusion
-- Nom(s) affiché(s) dans les projets : « Cursor »
-- Usage dans le corpus : 17 fois
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `KcCursor.mfx` — installed with Fusion
+- Name(s) shown in projects: “Cursor”
+- Usage in the corpus: 17 times
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | 80 | Set Cursor Shape > Standard arrow and small hourglass | `Change cursor to standard arrow and small hourglass` | Changer le pointeur en flèche standard et petit sablier |  | — |  |
 | 1 | 81 | Set Cursor Shape > Standard arrow | `Change cursor to standard arrow` | Changer le pointeur en flèche standard |  | 5 (3 proj.) | `Cursor : Event ID 81, 0 Parameters` |
@@ -23,8 +23,8 @@
 | 10 | 90 | Set Cursor Shape > Vertical arrow | `Change cursor to vertical arrow` | Changer le pointeur en flèche verticale |  | — |  |
 | 11 | 91 | Set Cursor Shape > Hourglass | `Change cursor to hourglass` | Changer le pointeur en sablier |  | 1 (1 proj.) | `Cursor : Event ID 91, 0 Parameters` |
 | 12 | 92 | Set Cursor Shape > Help | `Change cursor to help pointer` | Changer le pointeur en pointeur d'aide |  | — |  |
-| 13 | 93 | Set Cursor Shape > Image number | `Change cursor to image number <p0>` | Changer le pointeur en image numéro <p0> | (paramètres non fiables) | — |  |
-| 14 | 94 | Set Cursor Shape > Image name | `Change cursor to <p0>` | Changer le pointeur en <p0> | (paramètres non fiables) | — |  |
+| 13 | 93 | Set Cursor Shape > Image number | `Change cursor to image number <p0>` | Changer le pointeur en image numéro <p0> | (unreliable parameters) | — |  |
+| 14 | 94 | Set Cursor Shape > Image name | `Change cursor to <p0>` | Changer le pointeur en <p0> | (unreliable parameters) | — |  |
 | 15 | 95 | Set Cursor Shape > Hand | `Change cursor to hand` | Changer le pointeur en main |  | 1 (1 proj.) | `Cursor : Event ID 95, 0 Parameters` |
 | 16 | 96 | Set Cursor Shape > Magnifying Glass | `Change cursor to magnifying glass` | Changer le pointeur en loupe |  | 1 (1 proj.) | `Cursor : Event ID 96, 0 Parameters` |
 | 17 | 97 | Set Cursor Shape > Color Picker | `Change cursor to color picker` | Changer le pointeur en sélecteur de couleurs |  | 1 (1 proj.) | `Cursor : Event ID 97, 0 Parameters` |
@@ -34,11 +34,11 @@
 | 21 | 101 | Set Cursor Shape > Drag (Copy) | `Change cursor to drag (copy)` | Changer le pointeur en drag (copier) |  | — |  |
 | 22 | 102 | Set Cursor Shape > Drag (Move) | `Change cursor to drag (move)` | Changer le pointeur en drag (déplacer) |  | — |  |
 | 23 | 103 | Set Cursor Shape > Drag (Shortcut) | `Change cursor to drag (shortcut)` | Changer le pointeur en drag (raccourci) |  | — |  |
-| 24 | 104 | Set Cursor Shape > Set shape from Active object | `Set shape from Active object <p0>` | Utiliser la forme de l'objet actif <p0> | (paramètres non fiables) | 1 (1 proj.) | `Cursor : Event ID 104, 1 Parameters { "Cherries" }` |
+| 24 | 104 | Set Cursor Shape > Set shape from Active object | `Set shape from Active object <p0>` | Utiliser la forme de l'objet actif <p0> | (unreliable parameters) | 1 (1 proj.) | `Cursor : Event ID 104, 1 Parameters { "Cherries" }` |
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | 80 | Number of images | `NumberOfImages(` | Nombre d'images |  | — |  |
 | 1 | 81 | Current image number | `CurrentImage(` | Numéro d'image courante |  | — |  |

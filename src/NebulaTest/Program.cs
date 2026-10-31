@@ -1,6 +1,6 @@
-// NebulaTest <fichier.mfa|.exe> <sortie.txt>
-// Écrit, pour chaque frame, chaque condition/action telle que Nebula la rend (ToString),
-// afin de comparer le comportement avant/après les patchs de Nebula.Core.
+// NebulaTest <file.mfa|.exe> <output.txt>
+// Writes, for each frame, each condition/action as Nebula renders it (ToString),
+// to compare the behavior before/after patches to Nebula.Core.
 using System.Text;
 using Nebula;
 using Nebula.Core.Data.Chunks.FrameChunks;
@@ -20,7 +20,7 @@ using (var bytes = new ByteReader(File.ReadAllBytes(input)))
     reader.LoadGame(bytes, input);
 
 var sb = new StringBuilder();
-// NEBULATEST_HANDLES=1 : liste, par frame, les numéros d'objets (pour vérifier s'ils sont propres à chaque frame)
+// NEBULATEST_HANDLES=1: lists the object numbers per frame (to check whether they are specific to each frame)
 if (Environment.GetEnvironmentVariable("NEBULATEST_HANDLES") == "1" && reader is MFAFileReader mfaReader)
 {
     var byHandle = new Dictionary<int, HashSet<string>>();
@@ -28,7 +28,7 @@ if (Environment.GetEnvironmentVariable("NEBULATEST_HANDLES") == "1" && reader is
         foreach (var oi in f.MFAFrameInfo.Objects)
             (byHandle.TryGetValue(oi.Handle, out var set) ? set : byHandle[oi.Handle] = new()).Add($"{oi.Name} (type {oi.ObjectType})");
     var conflicts = byHandle.Where(kv => kv.Value.Count > 1).ToList();
-    Console.WriteLine($"{mfaReader.Package.Frames.Count} frames, {byHandle.Count} numéros, {conflicts.Count} numéros portés par des objets différents");
+    Console.WriteLine($"{mfaReader.Package.Frames.Count} frames, {byHandle.Count} numbers, {conflicts.Count} numbers used by different objects");
     foreach (var kv in conflicts.Take(5))
         Console.WriteLine($"  {kv.Key}: {string.Join(" | ", kv.Value.Take(4))}");
 }
@@ -48,7 +48,7 @@ foreach (Frame frame in reader.getPackageData().Frames)
 #if RAW
             foreach (Parameter p in c.Parameters.Where(p => p.Code.ToString() == Environment.GetEnvironmentVariable("NEBULATEST_RAW")))
                 sb.AppendLine($"    RAW[{p.Code}] len={p.Raw.Length} {Convert.ToHexString(p.Raw)}");
-            // Aller-retour : WriteMFA doit reproduire exactement les octets lus
+            // Round trip: WriteMFA must reproduce exactly the bytes read
             foreach (Parameter p in c.Parameters.Where(p => p.Data is Nebula.Core.Data.Chunks.FrameChunks.Events.Parameters.ParameterComment))
             {
                 var ms = new MemoryStream();

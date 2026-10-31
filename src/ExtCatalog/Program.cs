@@ -1,11 +1,11 @@
-// ExtCatalog --all <dossier sortie> <dossier .mfx>...
-//   Pour chaque extension Fusion (DLL 32 bits) : liste ses conditions, actions et expressions
-//   en parcourant les menus de l'éditeur, comme le fait Fusion. Un processus par extension et par
-//   type (une extension qui plante n'arrête pas les autres) ; en cas de plantage, nouvel essai sans
-//   le texte affiché (menu + paramètres seulement). Résultat : <dossier sortie>\<extension>.json
-// ExtCatalog <extension.mfx> <sortie.json> <Condition|Action|Expression>   (processus de travail)
-//   Variables : EXTCAT_NOSTRING=1 (sans Get*String), EXTCAT_VERSION (hexa, défaut 20000128),
-//   EXTCAT_TRACE=1 (trace des appels sur stderr), EXTCAT_RUNTIME (dossier de mmfs2.dll)
+// ExtCatalog --all <output folder> <.mfx folder>...
+//   For each Fusion extension (32-bit DLL): lists its conditions, actions and expressions by
+//   walking the editor menus, as Fusion does. One process per extension and per type (an
+//   extension that crashes does not stop the others); after a crash, new attempt without the
+//   display text (menu + parameters only). Result: <output folder>\<extension>.json
+// ExtCatalog <extension.mfx> <output.json> <Condition|Action|Expression>   (worker process)
+//   Variables: EXTCAT_NOSTRING=1 (no Get*String), EXTCAT_VERSION (hex, default 20000128),
+//   EXTCAT_TRACE=1 (call trace on stderr), EXTCAT_RUNTIME (folder of mmfs2.dll)
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -25,7 +25,7 @@ if (args.Length >= 3 && args[0] == "--all")
     Directory.CreateDirectory(outDir);
     string tmp = Path.Combine(outDir, "_tmp");
     Directory.CreateDirectory(tmp);
-    // EXTCAT_ONLY=nom1,nom2 : ne traiter que ces extensions
+    // EXTCAT_ONLY=name1,name2: process only these extensions
     var only = Environment.GetEnvironmentVariable("EXTCAT_ONLY")?.Split(',').Select(s => s.Trim().ToLowerInvariant()).ToHashSet();
     foreach (string mfx in args.Skip(2).SelectMany(d => Directory.GetFiles(d, "*.mfx"))
                  .Where(f => only == null || only.Contains(Path.GetFileNameWithoutExtension(f).ToLowerInvariant())).OrderBy(Path.GetFileName))
@@ -36,13 +36,13 @@ if (args.Length >= 3 && args[0] == "--all")
         foreach (string kind in kinds)
         {
             string part = Path.Combine(tmp, $"{name}.{kind}.json");
-            // Essais successifs : menu de l'extension, puis menus lus dans les ressources de la DLL
-            // (extensions dont le menu a besoin d'un vrai objet), avec puis sans le texte affiché
-            string mode = "échec";
-            // Un menu vide (sans vrai objet) déclenche aussi l'essai suivant ; on garde le plus complet
+            // Successive attempts: the extension's menu, then the menus read from the DLL resources
+            // (extensions whose menu needs a real object), with then without the display text
+            string mode = "failed";
+            // An empty menu (no real object) also triggers the next attempt; the most complete one is kept
             int best = -1;
-            foreach (var (resMenu, noString, label) in new[] { (false, false, "ok"), (false, true, "sans texte"),
-                                                               (true, false, "menu ressources"), (true, true, "menu ressources, sans texte") })
+            foreach (var (resMenu, noString, label) in new[] { (false, false, "ok"), (false, true, "no text"),
+                                                               (true, false, "resource menu"), (true, true, "resource menu, no text") })
             {
                 string attempt = part + ".try";
                 if (!RunWorker(mfx, attempt, kind, noString, resMenu))
@@ -68,11 +68,11 @@ if (args.Length >= 3 && args[0] == "--all")
             int count = merged[kind.ToLower() + "s"] is JsonArray arr ? arr.Count : -1;
             status.Add($"{kind[0]}={(count >= 0 ? count : "-")}{(mode == "ok" ? "" : $" ({mode})")}");
         }
-        // Même extension en version Unicode et ancienne : garder la plus complète
+        // Same extension in Unicode and old versions: keep the most complete one
         string outFile = Path.Combine(outDir, name + ".json");
         static int Total(JsonNode n) => new[] { "conditions", "actions", "expressions" }.Sum(k => n?[k] is JsonArray a ? a.Count : 0);
         if (File.Exists(outFile) && Total(JsonNode.Parse(File.ReadAllText(outFile))) >= Total(merged))
-            status.Add("(doublon moins complet, ignoré)");
+            status.Add("(less complete duplicate, ignored)");
         else
             File.WriteAllText(outFile, merged.ToJsonString(jsonOptions));
         Console.WriteLine($"{Path.GetFileName(mfx),-40} {string.Join("  ", status)}");
@@ -81,7 +81,7 @@ if (args.Length >= 3 && args[0] == "--all")
     return 0;
 }
 
-// Processus de travail : une extension, un type
+// Worker process: one extension, one type
 {
     string path = Path.GetFullPath(args[0]);
     string output = Path.GetFullPath(args[1]);
@@ -93,7 +93,7 @@ if (args.Length >= 3 && args[0] == "--all")
     IntPtr lib = Native.LoadLibraryW(path);
     if (lib == IntPtr.Zero)
     {
-        Console.WriteLine($"LoadLibrary a échoué ({Marshal.GetLastWin32Error()})");
+        Console.WriteLine($"LoadLibrary failed ({Marshal.GetLastWin32Error()})");
         return 2;
     }
     var list = Ext.Read(lib, kind, Environment.GetEnvironmentVariable("EXTCAT_NOSTRING") != "1",
@@ -139,9 +139,9 @@ class Ace
 
 static unsafe class Ext
 {
-    // Fausse structure mv (environnement de l'éditeur). Les extensions vérifient leur compatibilité
-    // via la fonction mvGetVersion() de cette structure : chaque emplacement pointe donc vers une
-    // mini-fonction native qui renvoie un numéro de version (EXTCAT_VERSION, hexadécimal).
+    // Fake mv structure (editor environment). Extensions check their compatibility through the
+    // mvGetVersion() function of this structure: every slot therefore points to a tiny native
+    // function that returns a version number (EXTCAT_VERSION, hexadecimal).
     static readonly IntPtr MV = Marshal.AllocHGlobal(4096);
     static Ext()
     {
@@ -161,11 +161,11 @@ static unsafe class Ext
     }
     static void Trace(string s) { if (Environment.GetEnvironmentVariable("EXTCAT_TRACE") == "1") { Console.Error.WriteLine(s); Console.Error.Flush(); } }
 
-    // Signatures du SDK Fusion (Edittime.cpp), convention stdcall, chaînes Unicode (build Unicode)
+    // Fusion SDK signatures (Edittime.cpp), stdcall convention, Unicode strings (Unicode build)
     public static List<Ace> Read(IntPtr lib, string kind, bool withString, bool resMenu)
     {
         var list = new List<Ace>();
-        // Sans fonction de menu, seule la lecture des menus en ressources est possible
+        // Without a menu function, only the menus in the resources can be read
         bool hasMenu = NativeLibrary.TryGetExport(lib, $"Get{kind}Menu", out IntPtr menuExport);
         if (!hasMenu && !resMenu)
             return list;
@@ -181,7 +181,7 @@ static unsafe class Ext
         IEnumerable<(int id, string path)> items;
         if (resMenu)
         {
-            // Convention du SDK : actions 25000+, conditions 26000+, expressions 27000+
+            // SDK convention: actions 25000+, conditions 26000+, expressions 27000+
             items = Native.ResourceMenus(lib).SelectMany(m => Native.MenuItems(m, ""))
                           .Where(i => i.id >= baseId && i.id < baseId + 1000).ToList();
         }
@@ -196,7 +196,7 @@ static unsafe class Ext
         foreach (var (id, menuPath) in items)
         {
             Trace($"{kind}CodeFromMenu {id}");
-            // Sans Get*CodeFromMenu, numéro supposé d'après la convention d'identifiants du SDK
+            // Without Get*CodeFromMenu, number guessed from the SDK identifier convention
             bool guessed = codeFromMenu == null;
             short code = guessed ? (short)(id - baseId) : codeFromMenu(MV, (short)id);
             if (code < 0 || !seen.Add(code))
@@ -214,9 +214,9 @@ static unsafe class Ext
             short* infos = getInfos != null ? getInfos(MV, code) : null;
             if (infos != null)
             {
-                // infosEventsV2 : code, flags, nParams, puis nParams types de paramètres.
-                // Garde-fou : au-delà de 12 paramètres ou avec un type hors de la plage connue
-                // (1-100), la structure n'est pas celle attendue.
+                // infosEventsV2: code, flags, nParams, then nParams parameter types.
+                // Safeguard: beyond 12 parameters or with a type outside the known range
+                // (1-100), the structure is not the expected one.
                 ace.flags = infos[1];
                 int n = infos[2];
                 if (n < 0 || n > 12)
@@ -275,7 +275,7 @@ static class Native
     delegate bool EnumResNameProc(IntPtr module, IntPtr type, IntPtr name, IntPtr param);
     [DllImport("kernel32")] static extern bool EnumResourceNamesW(IntPtr module, IntPtr type, EnumResNameProc proc, IntPtr param);
 
-    // Tous les menus (RT_MENU = 4) contenus dans les ressources de la DLL
+    // All the menus (RT_MENU = 4) in the DLL resources
     public static List<IntPtr> ResourceMenus(IntPtr lib)
     {
         var menus = new List<IntPtr>();
@@ -289,7 +289,7 @@ static class Native
         return menus;
     }
 
-    // Parcourt récursivement le menu : (id de l'élément, chemin "Menu > Sous-menu > Élément")
+    // Walks the menu recursively: (item id, path "Menu > Submenu > Item")
     public static IEnumerable<(int id, string path)> MenuItems(IntPtr menu, string prefix)
     {
         int n = GetMenuItemCount(menu);

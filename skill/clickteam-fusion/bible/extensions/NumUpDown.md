@@ -1,31 +1,31 @@
 # Extension NumUpDown
 
-- Fichier : `NumUpDown.mfx` — extension tierce (fournie avec un projet téléchargé)
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `NumUpDown.mfx` — third-party extension (shipped with a downloaded project)
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | -81 | Has entry zone just been modified? | `<objet> : Has just been modified` |  |  | — |  |
-| 1 | -82 | Does entry zone have input focus? | `<objet> : Have input focus` |  |  | — |  |
-| 2 | -83 | Is entry zone enabled? | `<objet> : is enabled` |  |  | — |  |
-| 3 | -84 | Is entry zone read-only? | `<objet> : is read-only` |  |  | — |  |
-| 4 | -85 | Is entry zone visible? | `<objet> : is visible` |  |  | — |  |
-| 5 | -86 | Numeric > Value changed? | `<objet> : Value changed` |  |  | — |  |
-| 6 | -87 | Numeric > Is left aligned? | `<objet> : Left aligned` |  |  | — |  |
-| 7 | -88 | Numeric > Is horizontal? | `<objet> : Horizontal` |  |  | — |  |
-| 8 | -89 | Numeric > Wraps? | `<objet> : Wraps` |  |  | — |  |
+| 0 | -81 | Has entry zone just been modified? | `<object> : Has just been modified` |  |  | — |  |
+| 1 | -82 | Does entry zone have input focus? | `<object> : Have input focus` |  |  | — |  |
+| 2 | -83 | Is entry zone enabled? | `<object> : is enabled` |  |  | — |  |
+| 3 | -84 | Is entry zone read-only? | `<object> : is read-only` |  |  | — |  |
+| 4 | -85 | Is entry zone visible? | `<object> : is visible` |  |  | — |  |
+| 5 | -86 | Numeric > Value changed? | `<object> : Value changed` |  |  | — |  |
+| 6 | -87 | Numeric > Is left aligned? | `<object> : Left aligned` |  |  | — |  |
+| 7 | -88 | Numeric > Is horizontal? | `<object> : Horizontal` |  |  | — |  |
+| 8 | -89 | Numeric > Wraps? | `<object> : Wraps` |  |  | — |  |
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Numeric > Set Value | `Set Value to <p0>` |  | expression numérique « Enter value » | — |  |
-| 1 | 81 | Numeric > Set Minimum Range | `Set Minimum Range to <p0>` |  | expression numérique « Enter Minimum Range » | — |  |
-| 2 | 82 | Numeric > Set Maximum Range | `Set Maximum Range to <p0>` |  | expression numérique « Enter Maximum Range » | — |  |
+| 0 | 80 | Numeric > Set Value | `Set Value to <p0>` |  | numeric expression “Enter value” | — |  |
+| 1 | 81 | Numeric > Set Minimum Range | `Set Minimum Range to <p0>` |  | numeric expression “Enter Minimum Range” | — |  |
+| 2 | 82 | Numeric > Set Maximum Range | `Set Maximum Range to <p0>` |  | numeric expression “Enter Maximum Range” | — |  |
 | 3 | 83 | Control > Focus > On | `Set focus On` |  |  | — |  |
 | 4 | 84 | Control > Focus > Off | `Set focus Off` |  |  | — |  |
 | 5 | 85 | Control > Enabled > On | `Highlight` |  |  | — |  |
@@ -34,15 +34,15 @@
 | 8 | 88 | Control > Read only > Off | `Set read only Off` |  |  | — |  |
 | 9 | 89 | Control > Force text modified flag > On | `Text modified flag on` |  |  | — |  |
 | 10 | 90 | Control > Force text modified flag > Off | `Text modified flag off` |  |  | — |  |
-| 11 | 91 | Control > Set background color | `Set background colour to <p0>` |  | couleur « Set background colour » | — |  |
-| 12 | 92 | Size > Set Horizontal Size | `Set horizontal size to <p0>` |  | expression numérique « Set Horizontal Size » | — |  |
-| 13 | 93 | Size > Set Vertical Size | `Set vertical size to <p0>` |  | expression numérique « Set Vertical Size » | — |  |
+| 11 | 91 | Control > Set background color | `Set background colour to <p0>` |  | color “Set background colour” | — |  |
+| 12 | 92 | Size > Set Horizontal Size | `Set horizontal size to <p0>` |  | numeric expression “Set Horizontal Size” | — |  |
+| 13 | 93 | Size > Set Vertical Size | `Set vertical size to <p0>` |  | numeric expression “Set Vertical Size” | — |  |
 | 14 | 94 | Visibility > Make Object Invisible | `Hide` |  |  | — |  |
 | 15 | 95 | Visibility > Make Object Reappear | `Show` |  |  | — |  |
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | 80 | Numeric > Get Value | `Value(` |  |  | — |  |
 | 1 | 81 | Numeric > Get Minimum Range | `MinRange(` |  |  | — |  |

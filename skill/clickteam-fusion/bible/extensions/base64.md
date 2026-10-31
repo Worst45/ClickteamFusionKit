@@ -1,27 +1,27 @@
 # Extension base64
 
-- Fichier : `base64.mfx` — extension tierce (fournie avec un projet téléchargé)
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `base64.mfx` — third-party extension (shipped with a downloaded project)
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | -81 | Evaluated condition | `<objet>: <p0> == <p1>` |  | expression numérique « First number » ; expression numérique « Second number » | — |  |
-| 1 | -82 | Triggered condition | `<objet> : On trigger` |  |  | — |  |
+| 0 | -81 | Evaluated condition | `<object>: <p0> == <p1>` |  | numeric expression “First number”; numeric expression “Second number” | — |  |
+| 1 | -82 | Triggered condition | `<object> : On trigger` |  |  | — |  |
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | 80 | This is a submenu > Trigger condition | `Trigger condition` |  |  | — |  |
 | 1 | 81 | Dummy action | `Dummy action` |  |  | — |  |
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Encode | `encode$(` |  | chaîne « String to encode » → chaîne | — |  |
-| 1 | 81 | Decode | `decode$(` |  | chaîne « String to decode » → chaîne | — |  |
+| 0 | 80 | Encode | `encode$(` |  | string “String to encode” → string | — |  |
+| 1 | 81 | Decode | `decode$(` |  | string “String to decode” → string | — |  |

@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <!-- Banc de test : rendu brut des événements par Nebula (sans la mise en forme de MfaDump).
-       Par défaut : le fork du kit (external\NebulaFD). Pour comparer avec une autre version de
-       Nebula : dotnet build -p:NebulaDir=<dossier contenant Nebula.Core> -->
+  <!-- Test bench: raw rendering of the events by Nebula (without MfaDump's formatting).
+       Default: the kit's fork (external\NebulaFD). To compare with another version of
+       Nebula: dotnet build -p:NebulaDir=<folder containing Nebula.Core> -->
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>

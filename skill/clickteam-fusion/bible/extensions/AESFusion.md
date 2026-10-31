@@ -1,26 +1,26 @@
 # Extension AESFusion
 
-- Fichier : `AESFusion.mfx` — extension tierce (fournie avec un projet téléchargé)
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `AESFusion.mfx` — third-party extension (shipped with a downloaded project)
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | -81 | On error | `<objet> : On error` |  |  | — |  |
+| 0 | -81 | On error | `<object> : On error` |  |  | — |  |
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Set key | `Set key to <p0>` |  | expression chaîne « Key (16 characters length ONLY) » | — |  |
+| 0 | 80 | Set key | `Set key to <p0>` |  | string expression “Key (16 characters length ONLY)” | — |  |
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Encrypt | `Encrypt$(` |  | chaîne « String to encrypt » → chaîne | — |  |
-| 1 | 81 | Decrypt | `Decrypt$(` |  | chaîne « String to decrypt » → chaîne | — |  |
-| 2 | 82 | Get error | `Error$(` |  | → chaîne | — |  |
+| 0 | 80 | Encrypt | `Encrypt$(` |  | string “String to encrypt” → string | — |  |
+| 1 | 81 | Decrypt | `Decrypt$(` |  | string “String to decrypt” → string | — |  |
+| 2 | 82 | Get error | `Error$(` |  | → string | — |  |

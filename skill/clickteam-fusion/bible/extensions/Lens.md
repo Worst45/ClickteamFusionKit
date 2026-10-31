@@ -1,22 +1,22 @@
 # Extension Lens
 
-- Fichier : `Lens.mfx` — extension tierce (fournie avec un projet téléchargé)
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `Lens.mfx` — third-party extension (shipped with a downloaded project)
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | 80 | Update > Manual update | `Update` |  |  | — |  |
-| 1 | 81 | Load image | `Load image: <p0>` |  | expression chaîne « Load lens image » | — |  |
-| 2 | 82 | Stretch | `Stretch to <p0>, <p1>` |  | expression numérique « X size » ; expression numérique « Y size » | — |  |
-| 3 | 83 | Set height multiplier | `Set height multiplier: <p0>` |  | expression numérique « Enter debth multiplier. (float value) » | — |  |
-| 4 | 84 | Set Angle | `Set angle to <p0>` |  | expression numérique « Set angle » | — |  |
-| 5 | 85 | Scroll | `Scroll <p0>, <p1>` |  | expression numérique « Scroll X amount » ; expression numérique « Scroll Y amount » | — |  |
-| 6 | 86 | Import > Import active image | `Import active: <p0>` |  | objet « Select the object » | — |  |
-| 7 | 87 | Import > Import overlay image | `Import overlay from adress: <p0>` |  | expression numérique « Enter the memory adress of the overlay object » | — |  |
+| 1 | 81 | Load image | `Load image: <p0>` |  | string expression “Load lens image” | — |  |
+| 2 | 82 | Stretch | `Stretch to <p0>, <p1>` |  | numeric expression “X size”; numeric expression “Y size” | — |  |
+| 3 | 83 | Set height multiplier | `Set height multiplier: <p0>` |  | numeric expression “Enter debth multiplier. (float value)” | — |  |
+| 4 | 84 | Set Angle | `Set angle to <p0>` |  | numeric expression “Set angle” | — |  |
+| 5 | 85 | Scroll | `Scroll <p0>, <p1>` |  | numeric expression “Scroll X amount”; numeric expression “Scroll Y amount” | — |  |
+| 6 | 86 | Import > Import active image | `Import active: <p0>` |  | object “Select the object” | — |  |
+| 7 | 87 | Import > Import overlay image | `Import overlay from adress: <p0>` |  | numeric expression “Enter the memory adress of the overlay object” | — |  |
 | 8 | 88 | Update > Auto update on | `Auto update on` |  |  | — |  |
 | 9 | 89 | Update > Auto update off | `Auto update off` |  |  | — |  |
 | 10 | 90 | Render mode > Refraction | `Rendermode: Refraction` |  |  | — |  |
@@ -30,7 +30,7 @@
 | 18 | 98 | Hotspot > Bottom left | `Hotspot: Bottom left` |  |  | — |  |
 | 19 | 99 | Hotspot > Bottom center | `Hotspot: Bottom center` |  |  | — |  |
 | 20 | 100 | Hotspot > Bottom right | `Hotspot: Bottom right` |  |  | — |  |
-| 21 | 101 | Hotspot > Custom | `Hotspot: <p0>, <p1>` |  | expression numérique « X » ; expression numérique « Y » | — |  |
+| 21 | 101 | Hotspot > Custom | `Hotspot: <p0>, <p1>` |  | numeric expression “X”; numeric expression “Y” | — |  |
 | 22 | 102 | Origin > Center | `Origin: Center` |  |  | — |  |
 | 23 | 103 | Origin > Top left | `Origin: Top left` |  |  | — |  |
 | 24 | 104 | Origin > Top center | `Origin: Top center` |  |  | — |  |
@@ -40,15 +40,15 @@
 | 28 | 108 | Origin > Bottom left | `Origin: Bottom left` |  |  | — |  |
 | 29 | 109 | Origin > Bottom center | `Origin: Bottom center` |  |  | — |  |
 | 30 | 110 | Origin > Bottom right | `Origin: Bottom right` |  |  | — |  |
-| 31 | 111 | Origin > Custom | `Origin: <p0>, <p1>` |  | expression numérique « X » ; expression numérique « Y » | — |  |
-| 32 | 112 | Offsets > Set source X offset | `Set X offset to: <p0>` |  | expression numérique « Enter an X offset value » | — |  |
-| 33 | 113 | Offsets > Set source Y offset | `Set Y offset to: <p0>` |  | expression numérique « Enter a Y offset value » | — |  |
-| 34 | 114 | Offsets > X offset multiplier | `Set X offfset multiplier to: <p0>` |  | expression numérique « Enter an offset multiplier (float - can be negative) » | — |  |
-| 35 | 115 | Offsets > Y offset multiplier | `Set Y offfset multiplier to: <p0>` |  | expression numérique « Enter an offset multiplier (float - can be negative) » | — |  |
+| 31 | 111 | Origin > Custom | `Origin: <p0>, <p1>` |  | numeric expression “X”; numeric expression “Y” | — |  |
+| 32 | 112 | Offsets > Set source X offset | `Set X offset to: <p0>` |  | numeric expression “Enter an X offset value” | — |  |
+| 33 | 113 | Offsets > Set source Y offset | `Set Y offset to: <p0>` |  | numeric expression “Enter a Y offset value” | — |  |
+| 34 | 114 | Offsets > X offset multiplier | `Set X offfset multiplier to: <p0>` |  | numeric expression “Enter an offset multiplier (float - can be negative)” | — |  |
+| 35 | 115 | Offsets > Y offset multiplier | `Set Y offfset multiplier to: <p0>` |  | numeric expression “Enter an offset multiplier (float - can be negative)” | — |  |
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | 80 | Get X size | `SizeX(` |  |  | — |  |
 | 1 | 81 | Get Y size | `SizeY(` |  |  | — |  |

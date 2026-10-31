@@ -1,13 +1,13 @@
 # Extension AppPriority
 
-- Fichier : `AppPriority.mfx` — extension tierce (fournie avec un projet téléchargé)
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `AppPriority.mfx` — third-party extension (shipped with a downloaded project)
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | -81 | App is at High Priority | `App is at High Priority` |  |  | — |  |
 | 1 | -82 | App is at Above Normal Priority | `App is at Above Normal Priority` |  |  | — |  |
@@ -18,19 +18,19 @@
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | 80 | High Priority (0x80) | `Set Application to High Priority` |  |  | — |  |
 | 1 | 81 | Above Normal Priority (0x8000) | `Set Application to Above Normal Priority` |  |  | — |  |
 | 2 | 82 | Normal Priority (Default) (0x20) | `Set Application to Normal Priority` |  |  | — |  |
 | 3 | 83 | Below Normal Priority (0x4000) | `Set Application to Below Normal Priority` |  |  | — |  |
 | 4 | 84 | Idle Priority (0x40) | `Set Application to Idle Priority` |  |  | — |  |
-| 5 | 85 | Set Priority from Expression | `Set Application Priority to <p0>` |  | expression numérique « Priority » | — |  |
+| 5 | 85 | Set Priority from Expression | `Set Application Priority to <p0>` |  | numeric expression “Priority” | — |  |
 | 6 | 86 | RealTime Priority (CAUTION!) (0x100) | `Set Application to RealTime Priority` |  |  | — |  |
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | 80 | Get Priority | `GetPriority(` |  |  | — |  |
 | 1 | 81 | Get High Priority Value | `GetHighPriority(` |  |  | — |  |

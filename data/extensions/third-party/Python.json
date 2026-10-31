@@ -1,6 +1,6 @@
 {
   "file": "Python.mfx",
-  "conditions_status": "échec",
-  "actions_status": "échec",
-  "expressions_status": "échec"
+  "conditions_status": "failed",
+  "actions_status": "failed",
+  "expressions_status": "failed"
 }

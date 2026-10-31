@@ -1,13 +1,13 @@
 # Extension urlencoder
 
-- Fichier : `urlencoder.mfx` — extension tierce (fournie avec un projet téléchargé)
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `urlencoder.mfx` — third-party extension (shipped with a downloaded project)
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | 80 | Encode Spaces as '+' | `Encode Spaces as '+'` |  |  | — |  |
 | 1 | 81 | Encode Spaces as '%20' | `Encode Spaces as '%<p2>0'` |  |  | — |  |
@@ -16,7 +16,7 @@
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Encode URL | `urlEncode$(` |  | chaîne « Enter URL or URL Part » → chaîne | — |  |
-| 1 | 81 | Misc. > Get MD5 Hash | `MD5$(` |  | chaîne « Enter String to be Hashed » → chaîne | — |  |
+| 0 | 80 | Encode URL | `urlEncode$(` |  | string “Enter URL or URL Part” → string | — |  |
+| 1 | 81 | Misc. > Get MD5 Hash | `MD5$(` |  | string “Enter String to be Hashed” → string | — |  |

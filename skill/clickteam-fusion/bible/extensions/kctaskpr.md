@@ -1,13 +1,13 @@
 # Extension kctaskpr
 
-- Fichier : `kctaskpr.mfx` — installée avec Fusion
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `kctaskpr.mfx` — installed with Fusion
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | -81 | Is task priority low? | `Task priority is low` | La priorité de tâche est basse |  | — |  |
 | 1 | -82 | Is task priority medium? | `Task priority is medium` | La priorité de tâche est moyenne |  | — |  |
@@ -15,15 +15,15 @@
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | 80 | Set Task Priority > Low | `Set low task priority` | Fixer la priorité de tâche à basse |  | — |  |
 | 1 | 81 | Set Task Priority > Medium | `Set medium task priority` | Fixer la priorité de tâche à moyenne |  | — |  |
 | 2 | 82 | Set Task Priority > High | `Set high task priority` | Fixer la priorité de tâche à haute |  | — |  |
-| 3 | 83 | Wake up application every... | `Wake up application every <p0>` | Réveiller l'application tous les <p0> | (paramètres non fiables) | — |  |
+| 3 | 83 | Wake up application every... | `Wake up application every <p0>` | Réveiller l'application tous les <p0> | (unreliable parameters) | — |  |
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | 80 | Task priority | `task priority(` | Priorité de tâche |  | — |  |

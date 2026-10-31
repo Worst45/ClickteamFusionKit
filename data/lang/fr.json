@@ -1,0 +1,4132 @@
+{
+ "builtin": {
+  "C|-1|-1": [
+   [
+    "Always",
+    "Toujours"
+   ]
+  ],
+  "C|-1|-2": [
+   [
+    "Never",
+    "Jamais"
+   ]
+  ],
+  "C|-1|-3": [
+   [
+    "<p0> <op> <p1>",
+    "<p0> <p1>"
+   ]
+  ],
+  "C|-1|-4": [
+   [
+    "Restrict actions for <p0>",
+    "Restreindre les actions pour <p0>"
+   ]
+  ],
+  "C|-1|-5": [
+   [
+    "Repeat <p0> times",
+    "Répéter <p0> fois"
+   ]
+  ],
+  "C|-1|-6": [
+   [
+    "Run this event once",
+    "Exécuter cet événement une seule fois"
+   ]
+  ],
+  "C|-1|-7": [
+   [
+    "Only one action when event loops",
+    "Une seule action lorsque l'événement est en boucle"
+   ]
+  ],
+  "C|-1|-8": [
+   [
+    "<global value p0> <op> <p1>",
+    "<global value p0> <op> <p1>"
+   ]
+  ],
+  "C|-1|-9": [
+   [
+    "[COMMENT] <text>",
+    "[COMMENTAIRE] <text>"
+   ]
+  ],
+  "C|-1|-10": [
+   [
+    "[GROUP] <group name>",
+    "[GROUPE] <group name>"
+   ]
+  ],
+  "C|-1|-11": [
+   [
+    "[END GROUP]",
+    "[FIN DU GROUPE]"
+   ]
+  ],
+  "C|-1|-12": [
+   [
+    "Group \"<p0>\" is activated",
+    "Le groupe \"<p0>\" est activé"
+   ]
+  ],
+  "C|-1|-14": [
+   [
+    "Menu option \"<menu option>\" selected",
+    "Option de menu \"<menu option>\" sélectionnée"
+   ]
+  ],
+  "C|-1|-15": [
+   [
+    "Files have been dropped",
+    "Des fichiers ont été lachés"
+   ]
+  ],
+  "C|-1|-16": [
+   [
+    "On loop <p0>",
+    "Lors de la boucle <p0>"
+   ]
+  ],
+  "C|-1|-17": [
+   [
+    "Menu option <menu option> is checked",
+    "L'option de menu <menu option> est cochée"
+   ]
+  ],
+  "C|-1|-18": [
+   [
+    "Menu option <menu option> is enabled",
+    "L'option de menu <menu option> est activée"
+   ]
+  ],
+  "C|-1|-19": [
+   [
+    "Menu bar is visible",
+    "La barre de menu est visible"
+   ]
+  ],
+  "C|-1|-20": [
+   [
+    "<global string p0> <op> <p1>",
+    "<global string p0> <op> <p1>"
+   ]
+  ],
+  "C|-1|-21": [
+   [
+    "Close window has been selected",
+    "Fermeture de fenêtre a été sélectionnée"
+   ]
+  ],
+  "C|-1|-22": [
+   [
+    "Text is available in clipboard",
+    "Du texte est disponible dans le presse-papier"
+   ]
+  ],
+  "C|-1|-23": [
+   [
+    "On group activation",
+    "Lors de l'activation du groupe"
+   ]
+  ],
+  "C|-1|-24": [
+   [
+    "OR",
+    "Or"
+   ]
+  ],
+  "C|-1|-25": [
+   [
+    "OR (logical)",
+    "OR (logique)"
+   ]
+  ],
+  "C|-1|-26": [
+   [
+    "<p0> chances out of <p1> at random",
+    "<p0> chances sur <p1> au hasard"
+   ]
+  ],
+  "C|-1|-40": [
+   [
+    "Is running as Windows application",
+    "Tourne comme application Windows"
+   ],
+   [
+    "Is running as Mac application",
+    "Tourne comme application Mac"
+   ],
+   [
+    "Is running as SWF / Flash Player application",
+    "Tourne comme application SWF / Flash Player"
+   ],
+   [
+    "Is running as Android application",
+    "Tourne comme application Android"
+   ],
+   [
+    "Is running as iOS application",
+    "Tourne comme application iOS"
+   ],
+   [
+    "Is running as Html5 application",
+    "Tourne comme application HTML5"
+   ],
+   [
+    "Is running as XNA application",
+    "Tourne comme application XNA"
+   ],
+   [
+    "Is running as UWP application",
+    "Tourne comme application UWP"
+   ],
+   [
+    "Is running as <p0>",
+    "Est exécuté en tant qu'application <p0>"
+   ]
+  ],
+  "C|-1|-41": [
+   [
+    "Is profiling in progress",
+    "Profilage en cours?"
+   ]
+  ],
+  "A|-1|0": [
+   [
+    "Skip",
+    "Rien"
+   ]
+  ],
+  "A|-1|2": [
+   [
+    "Execute external program <value> <value><value>",
+    "Exécuter le programme externe <value> <value><value>"
+   ]
+  ],
+  "A|-1|3": [
+   [
+    "Set <global value p0> to <p1>",
+    "Mettre <global value p0> à <p1>"
+   ]
+  ],
+  "A|-1|4": [
+   [
+    "Subtract <p1> from <global value p0>",
+    "Soustraire <p1> de <global value p0>"
+   ]
+  ],
+  "A|-1|5": [
+   [
+    "Add <p1> to <global value p0>",
+    "Ajouter <p1> à <global value p0>"
+   ]
+  ],
+  "A|-1|6": [
+   [
+    "Activate Group \"<p0>\"",
+    "Activer le groupe \"<p0>\""
+   ]
+  ],
+  "A|-1|7": [
+   [
+    "Deactivate Group \"<p0>\"",
+    "Désactiver le groupe \"<p0>\""
+   ]
+  ],
+  "A|-1|8": [
+   [
+    "Enable menu option <menu option>",
+    "Activer l'option de menu <menu option>"
+   ]
+  ],
+  "A|-1|9": [
+   [
+    "Disable menu option <menu option>",
+    "Désactiver l'option de menu <menu option>"
+   ]
+  ],
+  "A|-1|10": [
+   [
+    "Check menu option <menu option>",
+    "Cocher l'option de menu <menu option>"
+   ]
+  ],
+  "A|-1|11": [
+   [
+    "Uncheck menu option <menu option>",
+    "Décocher l'option de menu <menu option>"
+   ]
+  ],
+  "A|-1|12": [
+   [
+    "Show menu bar",
+    "Montrer la barre de menu"
+   ]
+  ],
+  "A|-1|13": [
+   [
+    "Hide menu bar",
+    "Cacher la barre de menu"
+   ]
+  ],
+  "A|-1|14": [
+   [
+    "Start loop <p0> <p1> times",
+    "Démarrer la boucle <p0> <p1> fois"
+   ]
+  ],
+  "A|-1|15": [
+   [
+    "Stop loop <p0>",
+    "Arrêter la boucle <p0>"
+   ]
+  ],
+  "A|-1|16": [
+   [
+    "Set loop <p0> index to <p1>",
+    "Fixer l'index de boucle <p0> à <p1>"
+   ]
+  ],
+  "A|-1|17": [
+   [
+    "Randomize <p0>",
+    "Randomiser <p0>"
+   ]
+  ],
+  "A|-1|18": [
+   [
+    "Send Menu Command <menu option>",
+    "Envoyer la commande de menu <menu option>"
+   ]
+  ],
+  "A|-1|19": [
+   [
+    "Set <global string p0> to <p1>",
+    "Mettre <global string p0> à <p1>"
+   ]
+  ],
+  "A|-1|20": [
+   [
+    "Send <p0> to clipboard",
+    "Envoyer <p0> au presse-papier"
+   ]
+  ],
+  "A|-1|21": [
+   [
+    "Clear clipboard",
+    "Vider le presse-papier"
+   ]
+  ],
+  "A|-1|22": [
+   [
+    "Execute external program <p0> <p1><value>",
+    "Exécuter le programme externe <p0> <p1><value>"
+   ]
+  ],
+  "A|-1|23": [
+   [
+    "Open debugger",
+    "Ouvrir le débuggeur"
+   ]
+  ],
+  "A|-1|24": [
+   [
+    "Pause debugger",
+    "Mettre le débuggeur en pause"
+   ]
+  ],
+  "A|-1|25": [
+   [
+    "Extract binary file <p0>",
+    "Extraire fichier binaire <p0>"
+   ]
+  ],
+  "A|-1|26": [
+   [
+    "Release binary file <p0>",
+    "Libérer fichier binaire <p0>"
+   ]
+  ],
+  "A|-1|39": [
+   [
+    "Start profiling",
+    "Lancer le profilage"
+   ]
+  ],
+  "A|-1|40": [
+   [
+    "Stop profiling",
+    "Arrêter le profilage"
+   ]
+  ],
+  "A|-1|41": [
+   [
+    "Clear output window",
+    "Effacer fenêtre Résultats"
+   ]
+  ],
+  "A|-1|42": [
+   [
+    "Send <p0> to output window",
+    "Envoyer <p0> à la fenêtre Résultats"
+   ]
+  ],
+  "A|-1|44": [
+   [
+    "Break",
+    "Break"
+   ]
+  ],
+  "C|-2|-2": [
+   [
+    "<p0> is not playing",
+    "<p0> ne joue pas"
+   ]
+  ],
+  "C|-2|-1": [
+   [
+    "<p0> is not playing",
+    "<p0> ne joue pas"
+   ]
+  ],
+  "C|-2|-3": [
+   [
+    "No sample is playing",
+    "Aucun échantillon n'est en train d'être joué"
+   ]
+  ],
+  "C|-2|-4": [
+   [
+    "No music is playing",
+    "Aucune musique n'est en train d'être jouée"
+   ]
+  ],
+  "C|-2|-5": [
+   [
+    "<p0> has just finished",
+    "<p0> vient de se terminer"
+   ]
+  ],
+  "C|-2|-6": [
+   [
+    "Is sample <p0> paused?",
+    "L'échantillon sonore <p0> est en pause?"
+   ]
+  ],
+  "C|-2|-7": [
+   [
+    "Is music paused?",
+    "La musique est-elle en pause?"
+   ]
+  ],
+  "C|-2|-8": [
+   [
+    "Is channel <p0> not playing?",
+    "Le canal <p0> n'est pas en train de jouer?"
+   ]
+  ],
+  "C|-2|-9": [
+   [
+    "Is channel <p0> paused?",
+    "Le canal <p0> est-il en pause?"
+   ]
+  ],
+  "A|-2|0": [
+   [
+    "Play sample <p0>",
+    "Jouer échantillon <p0>"
+   ]
+  ],
+  "A|-2|1": [
+   [
+    "Stop any sample",
+    "Stopper tout échantillon sonore"
+   ]
+  ],
+  "A|-2|2": [
+   [
+    "Play music <p0>",
+    "Jouer musique <p0>"
+   ]
+  ],
+  "A|-2|3": [
+   [
+    "Stop any music",
+    "Stopper toute musique"
+   ]
+  ],
+  "A|-2|4": [
+   [
+    "Play sample <p0> <p1> times",
+    "Jouer échantillon <p0> <p1> fois"
+   ]
+  ],
+  "A|-2|5": [
+   [
+    "Play music <p0> <p1> times",
+    "Jouer musique <p0> <p1> fois"
+   ]
+  ],
+  "A|-2|6": [
+   [
+    "Stop sample <p0>",
+    "Arrêter l'échantillon <p0>"
+   ]
+  ],
+  "A|-2|7": [
+   [
+    "Pause sample <p0>",
+    "Passer l'échantillon <p0> en pause"
+   ]
+  ],
+  "A|-2|8": [
+   [
+    "Resume sample <p0>",
+    "Relancer l'échantillon <p0>"
+   ]
+  ],
+  "A|-2|9": [
+   [
+    "Pause music",
+    "Mettre la musique en pause"
+   ]
+  ],
+  "A|-2|10": [
+   [
+    "Resume music",
+    "Reprendre la musique"
+   ]
+  ],
+  "A|-2|11": [
+   [
+    "Play sample <p0> on channel #<p1>",
+    "Jouer l'échantillon <p0> sur le canal #¨<p1>"
+   ]
+  ],
+  "A|-2|12": [
+   [
+    "Play sample <p0> on channel #<p1>, <p2> times",
+    "Jouer l'échantillon <p0> sur le canal #<p1>, <p2> fois"
+   ]
+  ],
+  "A|-2|13": [
+   [
+    "Pause channel #<p0>",
+    "Mettre le canal #<p0> en pause"
+   ]
+  ],
+  "A|-2|14": [
+   [
+    "Resume channel #<p0>",
+    "relancer le canal #<p0>"
+   ]
+  ],
+  "A|-2|15": [
+   [
+    "Stop channel #<p0>",
+    "Arrêter le canal #<p0>"
+   ]
+  ],
+  "A|-2|16": [
+   [
+    "Set position of channel #<p0> to <p1>",
+    "Fixer la position du canal #<p0> à <p1>"
+   ]
+  ],
+  "A|-2|17": [
+   [
+    "Set volume of channel #<p0> to <p1>",
+    "Changer le volume du canal #<p0> à <p1>"
+   ]
+  ],
+  "A|-2|18": [
+   [
+    "Set pan of channel #<p0> to <p1>",
+    "Fixer la balance du canal #<p0> à <p1>"
+   ]
+  ],
+  "A|-2|19": [
+   [
+    "Set position of sample <p0> to <p1>",
+    "Fixer la position d'un échantillon <p0> à <p1>"
+   ]
+  ],
+  "A|-2|20": [
+   [
+    "Set main volume to <p0>",
+    "Passer le volume général à <p0>"
+   ]
+  ],
+  "A|-2|21": [
+   [
+    "Set volume of sample <p0> to <p1>",
+    "Changer le volume d'un échantillon <p0> à <p1>"
+   ]
+  ],
+  "A|-2|22": [
+   [
+    "Set main pan to <p0>",
+    "Fixer la balance générale à <p0>"
+   ]
+  ],
+  "A|-2|23": [
+   [
+    "Set pan of sample <p0> to <p1>",
+    "Fixer la balance de l'échantillon <p0> à <p1>"
+   ]
+  ],
+  "A|-2|24": [
+   [
+    "Pause all sounds",
+    "Mettre tous les sons en pause"
+   ]
+  ],
+  "A|-2|25": [
+   [
+    "Resume all sounds",
+    "Relancer tous les sons"
+   ]
+  ],
+  "A|-2|26": [
+   [
+    "Play music file <p0>",
+    "Jouer fichier musical <p0>"
+   ]
+  ],
+  "A|-2|27": [
+   [
+    "Play and loop music file <p0>, <p1> times",
+    "Jouer et boucler le fichier musical <p0>, <p1> fois"
+   ]
+  ],
+  "A|-2|28": [
+   [
+    "Play sample file <p0> on channel #<p1>",
+    "Jouer le fichier son <p0> sur le canal n°<p1>"
+   ]
+  ],
+  "A|-2|29": [
+   [
+    "Play sample file <p0> on channel #<p1>, <p2> times",
+    "Jouer le fichier son <p0> sur le canal n°<p1>, <p2> fois"
+   ]
+  ],
+  "A|-2|30": [
+   [
+    "Lock channel <p0>",
+    "Verrouiller Canal <p0>"
+   ]
+  ],
+  "A|-2|31": [
+   [
+    "Unlock channel <p0>",
+    "Déverrouiller Canal <p0>"
+   ]
+  ],
+  "A|-2|32": [
+   [
+    "Set frequency of channel #<p0> to <p1>",
+    "Fixer fréquence du canal <p0> à <p1>"
+   ]
+  ],
+  "A|-2|33": [
+   [
+    "Set frequency of sample <p0> to <p1>",
+    "Fixer fréquence de l'échantillon <p0> à <p1>"
+   ]
+  ],
+  "A|-2|34": [
+   [
+    "Preload sample file <p0>",
+    "Précharger fichier échantillon <p0>"
+   ]
+  ],
+  "A|-2|35": [
+   [
+    "Discard sample file <p0>",
+    "Libérer fichier échantillon <p0>"
+   ]
+  ],
+  "A|-2|36": [
+   [
+    "Play sample <p0>, <p2> times, on channel #<p1>, volume <p3>, pan <p4>, frequency <p5>",
+    "Jouer l'échantillon <p0>, <p2> fois, sur le canal n°<p1>, volume <p3>, balance <p4>, fréquence <p5>"
+   ]
+  ],
+  "C|-3|-1": [
+   [
+    "Start of Frame",
+    "En début de scène"
+   ]
+  ],
+  "C|-3|-2": [
+   [
+    "End of Frame",
+    "Fin de scène"
+   ]
+  ],
+  "C|-3|-4": [
+   [
+    "End of Application",
+    "Fin d'application"
+   ]
+  ],
+  "C|-3|-5": [
+   [
+    "<p0>,<p1> is an obstacle",
+    "<p0>,<p1> est un obstacle"
+   ]
+  ],
+  "C|-3|-6": [
+   [
+    "<p0>,<p1> is a ladder",
+    "<p0>,<p1> est une échelle"
+   ]
+  ],
+  "C|-3|-7": [
+   [
+    "V-Sync is enabled",
+    "Synchronisation verticale activée"
+   ]
+  ],
+  "C|-3|-8": [
+   [
+    "End of pause",
+    "Fin de pause"
+   ]
+  ],
+  "C|-3|-9": [
+   [
+    "Frame position has just been loaded",
+    "La position de la scène vient d'être chargée"
+   ]
+  ],
+  "C|-3|-10": [
+   [
+    "Frame position has just been saved",
+    "La position de la scène vient d'être sauvée"
+   ]
+  ],
+  "A|-3|0": [
+   [
+    "Next frame",
+    "Scène suivante"
+   ]
+  ],
+  "A|-3|1": [
+   [
+    "Previous frame",
+    "Scène précédente"
+   ]
+  ],
+  "A|-3|2": [
+   [
+    "Jump to frame <scene>",
+    "Aller à la scène <scene>"
+   ]
+  ],
+  "A|-3|4": [
+   [
+    "End the application",
+    "Terminer l'application"
+   ]
+  ],
+  "A|-3|5": [
+   [
+    "Restart the application",
+    "Relancer l'application"
+   ]
+  ],
+  "A|-3|6": [
+   [
+    "Restart current frame",
+    "Relancer la scène courante"
+   ]
+  ],
+  "A|-3|7": [
+   [
+    "Center display at <value>",
+    "Centrer l'affichage en <value>"
+   ]
+  ],
+  "A|-3|8": [
+   [
+    "Center display at X=<p0>",
+    "Centrer l'affichage en X=<p0>"
+   ]
+  ],
+  "A|-3|9": [
+   [
+    "Center display at Y=<p0>",
+    "Centrer l'affichage en Y=<p0>"
+   ]
+  ],
+  "A|-3|12": [
+   [
+    "Clear screen in color <p0>",
+    "Effacer l'écran en couleur <p0>"
+   ]
+  ],
+  "A|-3|13": [
+   [
+    "Clear zone zone <p0> in color <p1>",
+    "Effacer la zone <p0> avec la couleur <p1>"
+   ]
+  ],
+  "A|-3|14": [
+   [
+    "Full Screen Mode",
+    "Mode plein écran"
+   ]
+  ],
+  "A|-3|15": [
+   [
+    "Windowed Mode",
+    "Mode fenêtré"
+   ]
+  ],
+  "A|-3|16": [
+   [
+    "Set frame rate to <p0>",
+    "Fixer le nombre d'images par seconde à <p0>"
+   ]
+  ],
+  "A|-3|17": [
+   [
+    "Pause application and resume when key \"<key>\" is pressed",
+    "Mettre l'application en pause et reprendre à l'appui sur \"<key>\""
+   ]
+  ],
+  "A|-3|18": [
+   [
+    "Pause application and resume when any key is pressed",
+    "Mettre en pause et relancer quand n'importe quelle touche est pressée"
+   ]
+  ],
+  "A|-3|19": [
+   [
+    "Set V-Sync On",
+    "Activer synchronisation verticale"
+   ]
+  ],
+  "A|-3|20": [
+   [
+    "Set V-Sync Off",
+    "Désactiver synchronisation verticale"
+   ]
+  ],
+  "A|-3|21": [
+   [
+    "Set Virtual Width to <p0>",
+    "Fixed Largeur Virtuelle à <p0>"
+   ]
+  ],
+  "A|-3|22": [
+   [
+    "Set Virtual Height to <p0>",
+    "Fixed Hauteur Virtuelle à <p0>"
+   ]
+  ],
+  "A|-3|23": [
+   [
+    "Set Background Color to <p0>",
+    "Fixer couleur de fond à <p0>"
+   ]
+  ],
+  "A|-3|24": [
+   [
+    "Delete Created Backdrops At <p1>,<p2> in layer <p0> (fine detection: <p3>)",
+    "Détruire les décors créés en <p1>,<p2> dans le calque <p0> (détection fine: <p3>)"
+   ]
+  ],
+  "A|-3|25": [
+   [
+    "Delete All Created Backdrops in layer <p0>",
+    "Détruire tous les décors créés dans le calque <p0>"
+   ]
+  ],
+  "A|-3|26": [
+   [
+    "Set Frame Width to <p0>",
+    "Fixer Largeur Scène à <p0>"
+   ]
+  ],
+  "A|-3|27": [
+   [
+    "Set Frame Height to <p0>",
+    "Fixer Hauteur Scène à <p0>"
+   ]
+  ],
+  "A|-3|28": [
+   [
+    "Save frame position to <p0>, version <p1>",
+    "Sauver la position de la scène dans <p0>, version <p1>"
+   ]
+  ],
+  "A|-3|29": [
+   [
+    "Load frame position <p0>, version <p1>",
+    "Charger la position de la scène <p0>, version <p1>"
+   ]
+  ],
+  "A|-3|30": [
+   [
+    "Load application position <p0>, version <p1>",
+    "Charger la position de l'application <p0>, version <p1>"
+   ]
+  ],
+  "A|-3|31": [
+   [
+    "Play demo file <p0>",
+    "Jouer le fichier démo <p0>"
+   ]
+  ],
+  "A|-3|32": [
+   [
+    "Set effect to <value>",
+    "Fixer l'effet à <value>"
+   ]
+  ],
+  "A|-3|33": [
+   [
+    "Set effect parameter <p0> to <p1>",
+    "Fixer paramètre effet <p0> à <p1>"
+   ]
+  ],
+  "A|-3|34": [
+   [
+    "Set effect image parameter <p0> to <p1>",
+    "Fixer paramètre image effet <p0> à <p1>"
+   ]
+  ],
+  "A|-3|35": [
+   [
+    "Set alpha-blending coefficient to <p0>",
+    "Fixer coefficient semi-transparence à <p0>"
+   ]
+  ],
+  "A|-3|36": [
+   [
+    "Set RGB coefficient to <p0>",
+    "Fixer coefficient RGB à <p0>"
+   ]
+  ],
+  "A|-3|37": [
+   [
+    "Set anti-aliasing when resizing to <p0>",
+    "Mettre ré-échantillonage quand redimensionnement à <p0>"
+   ]
+  ],
+  "C|-4|-1": [
+   [
+    "Timer is greater than <p0>",
+    "Le timer est plus grand que <p0>"
+   ]
+  ],
+  "C|-4|-2": [
+   [
+    "Timer is less than <p0>",
+    "Le timer est moins grand que <p0>"
+   ]
+  ],
+  "C|-4|-4": [
+   [
+    "Every <p0>",
+    "Tous les <p0>"
+   ]
+  ],
+  "C|-4|-5": [
+   [
+    "User has left the computer for <p0>",
+    "L'utilisateur a laissé l'ordinateur depuis <p0>"
+   ]
+  ],
+  "C|-4|-6": [
+   [
+    "On timer event <p0>",
+    "Lors de l'événement timer <p0>"
+   ]
+  ],
+  "C|-4|-7": [
+   [
+    "Timer equals <p0>",
+    "Le timer est egal à <p0>"
+   ]
+  ],
+  "C|-4|-8": [
+   [
+    "Every <p0>",
+    "Tous les <p0>"
+   ]
+  ],
+  "A|-4|0": [
+   [
+    "Set timer to <p0>",
+    "Fixer le timer à <p0>"
+   ]
+  ],
+  "A|-4|1": [
+   [
+    "Fire event <p1> after <p0>",
+    "Lancer l'événement <p1> après <p0>"
+   ]
+  ],
+  "A|-4|2": [
+   [
+    "Fire event <p3> <p1> times every <p2> after <p0>",
+    "Lancer l'événement <p3> <p1> fois tous les <p2> après <p0>"
+   ]
+  ],
+  "C|-5|-13": [
+   [
+    "No more objects in zone <zone p0>",
+    "Plus aucun objet dans la zone <zone p0>"
+   ]
+  ],
+  "C|-5|-14": [
+   [
+    "Number of objects in zone <value> <op> <value>",
+    "Le nombre d'objets dans la zone <value> <op> <value>"
+   ]
+  ],
+  "C|-5|-15": [
+   [
+    "Total number of objects <op> <p0>",
+    "Nombre total d'objets <p0>"
+   ]
+  ],
+  "C|-5|-16": [
+   [
+    "Pick a random object from zone <zone p0>",
+    "Sélectionner un objet au hasard dans la zone <zone p0>"
+   ]
+  ],
+  "C|-5|-17": [
+   [
+    "Pick an object at random",
+    "Choisir un objet au hasard"
+   ]
+  ],
+  "C|-5|-18": [
+   [
+    "Pick all objects in zone <zone p0>",
+    "Sélectionner tous les objets de la zone <zone p0>"
+   ]
+  ],
+  "C|-5|-19": [
+   [
+    "Pick objects with fixed value <op> <p0>",
+    "Sélectionner les objets dont la valeur fixe <op> <p0>"
+   ]
+  ],
+  "C|-5|-20": [
+   [
+    "Pick objects which <alterable value p0> <op> <p1>",
+    "Sélectionner les objets dont <alterable value p0> <op> <p1>"
+   ]
+  ],
+  "C|-5|-21": [
+   [
+    "Pick objects with Flag <p0> on",
+    "Sélectionner les objets ayant le drapeau <p0> sur ON"
+   ]
+  ],
+  "C|-5|-22": [
+   [
+    "Pick objects with Flag <p0> off",
+    "Sélectionner les objets ayant le drapeau <p0> sur OFF"
+   ]
+  ],
+  "C|-5|-23": [
+   [
+    "Pick all objects in line (<p0>,<p1>) to (<p2>,<p3>)",
+    "Sélectionner tous les objets sur la ligne (<p0>,<p1>) à (<p2>,<p3>)"
+   ]
+  ],
+  "A|-5|0": [
+   [
+    "Create <p0>",
+    "Créer <p0>"
+   ]
+  ],
+  "A|-5|1": [
+   [
+    "Create <p0> at <p1>",
+    "Créer <p0> en <p1>"
+   ]
+  ],
+  "A|-5|2": [
+   [
+    "Create <p0> at X=<p1>, Y=<p2>, Layer=<p3>",
+    "Créer <p0> en X=<p1>, Y=<p2>, Calque=<p3>"
+   ]
+  ],
+  "A|-5|3": [
+   [
+    "Create <p0> at X=<p1>, Y=<p2>, Layer=<p3>",
+    "Créer <p0> en X=<p1>, Y=<p2>, Calque=<p3>"
+   ]
+  ],
+  "C|-6|-1": [
+   [
+    "Upon pressing \"<key>\"",
+    "À l'appui sur \"<key>\""
+   ]
+  ],
+  "C|-6|-2": [
+   [
+    "Repeat while \"<key>\" is pressed",
+    "Répéter tant que \"<key>\" est appuyée"
+   ]
+  ],
+  "C|-6|-3": [
+   [
+    "Mouse pointer lays within zone <zone p0>",
+    "Le pointeur de la souris est dans la zone <zone p0>"
+   ]
+  ],
+  "C|-6|-4": [
+   [
+    "Mouse pointer is over <p0>",
+    "Le pointeur de la souris se trouve au dessus de <p0>"
+   ]
+  ],
+  "C|-6|-5": [
+   [
+    "User clicks with <mouse button> button",
+    "L'utilisateur clique avec le bouton <mouse button>"
+   ]
+  ],
+  "C|-6|-6": [
+   [
+    "User clicks with <mouse button> button within zone <zone p1>",
+    "L'utilisateur clique avec le bouton <mouse button> dans la zone <zone p1>"
+   ]
+  ],
+  "C|-6|-7": [
+   [
+    "User clicks with <mouse button> button on <p1>",
+    "L'utilisateur clique avec le bouton <mouse button> sur <p1>"
+   ]
+  ],
+  "C|-6|-8": [
+   [
+    "Repeat while <mouse button> mouse-key is pressed",
+    "Répéter tant que le bouton <mouse button> de la souris est appuyé"
+   ]
+  ],
+  "C|-6|-9": [
+   [
+    "Upon pressing any key",
+    "Lors de l'appui sur n'importe quelle touche"
+   ]
+  ],
+  "C|-6|-10": [
+   [
+    "Mouse cursor is displayed",
+    "Le curseur de souris est affiché"
+   ]
+  ],
+  "C|-6|-11": [
+   [
+    "On mouse wheel up",
+    "La roulette de la souris est bougée vers le haut"
+   ]
+  ],
+  "C|-6|-12": [
+   [
+    "On mouse wheel down",
+    "La roulette de la souris est bougée vers le bas"
+   ]
+  ],
+  "A|-6|0": [
+   [
+    "Hide Windows mouse pointer",
+    "Cacher le pointeur de souris"
+   ]
+  ],
+  "A|-6|1": [
+   [
+    "Show Windows mouse pointer",
+    "Montrer le pointeur de souris"
+   ]
+  ],
+  "A|-6|2": [
+   [
+    "Reset input between frames: <value>",
+    "Réinitialiser les entrées entre les scènes : <value>"
+   ]
+  ],
+  "C|-7|-2": [
+   [
+    "Score of Player <player no.> <op> <p0>",
+    "Score du joueur <player no.> <op> <p0>"
+   ]
+  ],
+  "C|-7|-3": [
+   [
+    "Number of lives of Player <player no.> <op> <p0>",
+    "Nombre de vies du joueur <player no.> <op> <p0>"
+   ]
+  ],
+  "C|-7|-4": [
+   [
+    "Player <player no.> <joystick direction>",
+    "Joueur <player no.> : <joystick direction>"
+   ]
+  ],
+  "C|-7|-5": [
+   [
+    "Number of lives of Player <player no.> reaches 0",
+    "Le nombre de vies du joueur <player no.> atteint 0"
+   ]
+  ],
+  "C|-7|-6": [
+   [
+    "Repeat while Player <player no.> <joystick direction>",
+    "Répéter tant que joueur <player no.> : <joystick direction>"
+   ]
+  ],
+  "A|-7|0": [
+   [
+    "Set Score to <p0>",
+    "Fixer le score à <p0>"
+   ]
+  ],
+  "A|-7|1": [
+   [
+    "Set Number of Lives to <p0>",
+    "Fixer le nombre de vies à <p0>"
+   ]
+  ],
+  "A|-7|2": [
+   [
+    "Ignore Control",
+    "Ignorer contrôle"
+   ]
+  ],
+  "A|-7|3": [
+   [
+    "Restore Control",
+    "Restaurer le contrôle"
+   ]
+  ],
+  "A|-7|4": [
+   [
+    "Add <p0> to Score",
+    "Ajouter <p0> au score"
+   ]
+  ],
+  "A|-7|5": [
+   [
+    "Add <p0> to Number of Lives",
+    "Ajouter <p0> au nombre de vies"
+   ]
+  ],
+  "A|-7|6": [
+   [
+    "Subtract <p0> from Score",
+    "Soustraire <p0> au score"
+   ]
+  ],
+  "A|-7|7": [
+   [
+    "Subtract <p0> from Number of Lives",
+    "Soustraire <p0> au nombre de vies"
+   ]
+  ],
+  "A|-7|8": [
+   [
+    "Set input device to <p0>",
+    "Changer le périphérique d'entrée en <p0>"
+   ]
+  ],
+  "A|-7|9": [
+   [
+    "Set key <p0> to \"<key>\"",
+    "Fixer la touche <p0> à \"<key>\""
+   ]
+  ],
+  "A|-7|10": [
+   [
+    "Set player name to <p0>",
+    "Fixer le nom du joueur à <p0>"
+   ]
+  ],
+  "C|*|-1": [
+   [
+    "Current frame of <object> <op> <p0>",
+    "L'image courante de <object> <p0>"
+   ]
+  ],
+  "C|*|-2": [
+   [
+    "<object> animation <animation> is over",
+    "L'animation <animation> de <object> est terminée"
+   ],
+   [
+    "<object> animation <p0> is over",
+    "<object>: l'animation <p0> est terminée"
+   ]
+  ],
+  "C|*|-3": [
+   [
+    "<object> animation <animation> is playing",
+    "L'animation <animation> de <object> est en cours"
+   ],
+   [
+    "<object> animation <p0> is playing",
+    "<object>: l'animation <p0> est en train de jouer"
+   ]
+  ],
+  "C|*|-4": [
+   [
+    "<object> is overlapping <p0>",
+    "<object> est au dessus de <p0>"
+   ]
+  ],
+  "C|*|-6": [
+   [
+    "<object> is bouncing",
+    "<object> est en train de rebondir"
+   ]
+  ],
+  "C|*|-7": [
+   [
+    "<object> is stopped",
+    "<object> est stoppé"
+   ]
+  ],
+  "C|*|-8": [
+   [
+    "<object> is facing a direction <direction>",
+    "<object> est orienté dans la direction <direction>"
+   ]
+  ],
+  "C|*|-9": [
+   [
+    "<object> is in the play area",
+    "<object> est dans l'aire de jeu"
+   ]
+  ],
+  "C|*|-10": [
+   [
+    "<object> is out of the play area",
+    "<object> est hors de l'aire de jeu"
+   ]
+  ],
+  "C|*|-11": [
+   [
+    "<object> enters the play area<value>",
+    "<object> entre dans l'aire de jeu<value>"
+   ]
+  ],
+  "C|*|-12": [
+   [
+    "<object> leaves the play area<value>",
+    "<object> sort de l'aire de jeu<value>"
+   ]
+  ],
+  "C|*|-13": [
+   [
+    "<object> collides with the background",
+    "<object> est en collision avec le décor"
+   ]
+  ],
+  "C|*|-14": [
+   [
+    "Collision between <object> and <p0>",
+    "Collision entre <object> et <p0>"
+   ]
+  ],
+  "C|*|-15": [
+   [
+    "Speed of <object> <op> <p0>",
+    "La vitesse de <object> <p0>"
+   ]
+  ],
+  "C|*|-16": [
+   [
+    "Y position of <object> <op> <p0>",
+    "La position en Y de <object> <p0>"
+   ]
+  ],
+  "C|*|-17": [
+   [
+    "X position of <object> <op> <p0>",
+    "La position en X de <object> <p0>"
+   ]
+  ],
+  "C|*|-18": [
+   [
+    "Deceleration of <object> <op> <p0>",
+    "La décélération de <object> <p0>"
+   ]
+  ],
+  "C|*|-19": [
+   [
+    "Acceleration of <object> <op> <p0>",
+    "L'accélération de <object> <p0>"
+   ]
+  ],
+  "C|*|-20": [
+   [
+    "<object> has reached a node in the path",
+    "<object> a atteint un noeud dans le cheminement"
+   ]
+  ],
+  "C|*|-21": [
+   [
+    "<object> has reached the end in its path",
+    "<object> a atteint la fin de sa trajectoire"
+   ]
+  ],
+  "C|*|-22": [
+   [
+    "<object> is getting closer than <p0> pixels from window's edge",
+    "<object> se rapproche de plus de <p0> pixels de la bordure de la fenêtre"
+   ]
+  ],
+  "C|*|-23": [
+   [
+    "<object> is overlapping a backdrop",
+    "<object> est au dessus d'un décor"
+   ]
+  ],
+  "C|*|-24": [
+   [
+    "<object>: Flag <p0> is off",
+    "<object> : le drapeau <p0> est sur OFF"
+   ]
+  ],
+  "C|*|-25": [
+   [
+    "<object>: Flag <p0> is on",
+    "<object> : le drapeau <p0> est sur ON"
+   ]
+  ],
+  "C|*|-26": [
+   [
+    "Fixed value of <object> <op> <p0>",
+    "La valeur fixe de <object> <p0>"
+   ]
+  ],
+  "C|*|-27": [
+   [
+    "<alterable value p0> of <object> <op> <p1>",
+    "<alterable value p0> de <object> <op> <p1>"
+   ]
+  ],
+  "C|*|-28": [
+   [
+    "<object> is invisible",
+    "<object> est invisible"
+   ]
+  ],
+  "C|*|-29": [
+   [
+    "<object> is visible",
+    "<object> est visible"
+   ]
+  ],
+  "C|*|-30": [
+   [
+    "Number of <object> in zone <value> <op> <value>",
+    "Le nombre de <object> dans la zone <value> <op> <value>"
+   ]
+  ],
+  "C|*|-31": [
+   [
+    "No more <object> in zone <zone p0>",
+    "Plus aucun <object> dans la zone <zone p0>"
+   ]
+  ],
+  "C|*|-32": [
+   [
+    "Number of <object> <op> <p0>",
+    "Le nombre de <object> <p0>"
+   ]
+  ],
+  "C|*|-33": [
+   [
+    "Last <object> has been destroyed",
+    "Le dernier <object> a été détruit"
+   ]
+  ],
+  "C|*|-34": [
+   [
+    "Pick one of <object>",
+    "Choisir l'un des <object>"
+   ]
+  ],
+  "C|*|-35": [
+   [
+    "Path movement of <object> has reached node <p1>",
+    "Le mouvement trajectoire de <object> a atteint le nœud <p1>"
+   ]
+  ],
+  "C|*|-36": [
+   [
+    "<alterable string p0> of <object> <op> <p1>",
+    "<alterable string p0> de <object> <op> <p1>"
+   ]
+  ],
+  "C|*|-37": [
+   [
+    "<object>: font is bold",
+    "<object>: la police est grasse"
+   ]
+  ],
+  "C|*|-38": [
+   [
+    "<object>: font is italic",
+    "<object>: la police est en italique"
+   ]
+  ],
+  "C|*|-39": [
+   [
+    "<object>: font is underlined",
+    "<object>: la police est soulignée"
+   ]
+  ],
+  "C|*|-40": [
+   [
+    "<object>: font is strikeout",
+    "<object>: la police est barrée"
+   ]
+  ],
+  "C|*|-41": [
+   [
+    "On each of <object>, loop name <p0>",
+    "Pour chacun des <object>, nom de boucle <p0>"
+   ]
+  ],
+  "C|*|-44": [
+   [
+    "Pick closest \"<object>\" objects from \"<p0>\"",
+    "Choisir objets \"<object>\" les plus proches de \"<p0>\""
+   ]
+  ],
+  "C|*|-45": [
+   [
+    "<object>: <p0> <op> <p1>",
+    "<object>: <p0> <p1>"
+   ]
+  ],
+  "C|*|-46": [
+   [
+    "Layer of <object> <op> <p0>",
+    "Calque <object> <p0>"
+   ]
+  ],
+  "C|*|-47": [
+   [
+    "Pick \"<object>\" objects with a minimum value of <p0>",
+    "Sélectionner les objets \"<object>\" ayant la valeur minimale de <p0>"
+   ]
+  ],
+  "C|*|-48": [
+   [
+    "Pick \"<object>\" objects with a maximum value of <p0>",
+    "Sélectionner les objets \"<object>\" ayant la valeur maximale de <p0>"
+   ]
+  ],
+  "C|*|-49": [
+   [
+    "Instance value of <object> <op> <p0>",
+    "Valeur instance de <object> <p0>"
+   ]
+  ],
+  "C|*|-50": [
+   [
+    "Would <object> at X=<p1>, Y=<p2> overlap <p0>?",
+    "Est-ce que <object> en X=<p1>, Y=<p2> serait au-dessus de <p0>?"
+   ]
+  ],
+  "C|*|-51": [
+   [
+    "Would <object> at X=<p0>, Y=<p1> overlap a backdrop?",
+    "Est-ce que <object> en X=<p0>, Y=<p1> serait au-dessus d'un obstacle?"
+   ]
+  ],
+  "C|*|-81": [
+   [
+    "<object> <op> <p0>",
+    "<object> <p0>"
+   ]
+  ],
+  "C|*|-82": [
+   [
+    "Angle of <object> <op> <p0>",
+    "Angle de <object> <p0>"
+   ]
+  ],
+  "C|*|-83": [
+   [
+    "X scale of <object> <op> <p0>",
+    "Echelle en X de <object> <p0>"
+   ]
+  ],
+  "C|*|-84": [
+   [
+    "Y scale of <object> <op> <p0>",
+    "Echelle en Y de <object> <p0>"
+   ]
+  ],
+  "A|*|0": [
+   [
+    "Set Flag <p1> to <p2>",
+    "Mettre drapeau <p1> à <p2>"
+   ]
+  ],
+  "A|*|1": [
+   [
+    "Set position at <value>",
+    "Fixer la position à <value>"
+   ]
+  ],
+  "A|*|2": [
+   [
+    "Set X position to <p0>",
+    "Fixer la position en X à <p0>"
+   ]
+  ],
+  "A|*|3": [
+   [
+    "Set Y position to <p0>",
+    "Fixer la position en Y à <p0>"
+   ]
+  ],
+  "A|*|4": [
+   [
+    "Stop",
+    "Stop"
+   ]
+  ],
+  "A|*|5": [
+   [
+    "Start",
+    "Démarrer"
+   ]
+  ],
+  "A|*|6": [
+   [
+    "Set speed to <p0>",
+    "Fixer la vitesse à <p0>"
+   ]
+  ],
+  "A|*|7": [
+   [
+    "Set maximum speed to <p0>",
+    "Fixer la vitesse maximum à <p0>"
+   ]
+  ],
+  "A|*|8": [
+   [
+    "Wrap",
+    "Faire le tour"
+   ]
+  ],
+  "A|*|9": [
+   [
+    "Bounce",
+    "Rebond"
+   ]
+  ],
+  "A|*|10": [
+   [
+    "Reverse",
+    "Inverser"
+   ]
+  ],
+  "A|*|11": [
+   [
+    "Next movement",
+    "Mouvement suivant"
+   ]
+  ],
+  "A|*|12": [
+   [
+    "Previous movement",
+    "Mouvement précédent"
+   ]
+  ],
+  "A|*|13": [
+   [
+    "Select movement <p0>",
+    "Sélectionner le mouvement <p0>"
+   ]
+  ],
+  "A|*|14": [
+   [
+    "Look at <value>",
+    "Regarder vers <value>"
+   ]
+  ],
+  "A|*|15": [
+   [
+    "Stop animation",
+    "Stopper l'animation"
+   ]
+  ],
+  "A|*|16": [
+   [
+    "Start animation",
+    "Lancer l'animation"
+   ]
+  ],
+  "A|*|17": [
+   [
+    "Change animation sequence to <animation>",
+    "Changer la séquence d'animation en <animation>"
+   ],
+   [
+    "Change animation sequence to <p0>",
+    "Changer la séquence d'animation pour <p0>"
+   ]
+  ],
+  "A|*|18": [
+   [
+    "Change animation direction to <direction>",
+    "Changer la direction de l'animation en <direction>"
+   ]
+  ],
+  "A|*|19": [
+   [
+    "Change speed of animation to <p0>",
+    "Changer la vitesse d'animation à <p0>"
+   ]
+  ],
+  "A|*|20": [
+   [
+    "Restore animation sequence",
+    "Restaurer l'animation"
+   ]
+  ],
+  "A|*|21": [
+   [
+    "Restore animation direction",
+    "Restaurer la direction d'animation"
+   ]
+  ],
+  "A|*|22": [
+   [
+    "Restore speed of animation",
+    "Restaurer la vitesse d'animation"
+   ]
+  ],
+  "A|*|23": [
+   [
+    "Set direction to <direction>",
+    "Fixer la direction à <direction>"
+   ]
+  ],
+  "A|*|24": [
+   [
+    "Destroy",
+    "Détruire"
+   ]
+  ],
+  "A|*|25": [
+   [
+    "Swap position with another object",
+    "Echanger la position avec un autre objet"
+   ]
+  ],
+  "A|*|26": [
+   [
+    "Make invisible",
+    "Rendre invisible"
+   ]
+  ],
+  "A|*|27": [
+   [
+    "Reappear",
+    "Réapparition"
+   ]
+  ],
+  "A|*|28": [
+   [
+    "Flash during <p0>",
+    "Clignoter pendant <p0>"
+   ]
+  ],
+  "A|*|29": [
+   [
+    "Launch <p0>",
+    "Lancer <p0>"
+   ]
+  ],
+  "A|*|30": [
+   [
+    "Launch <p0> toward <value>",
+    "Lancer <p0> vers <value>"
+   ]
+  ],
+  "A|*|31": [
+   [
+    "Set <alterable value p0> to <p1>",
+    "Mettre <alterable value p0> à <p1>"
+   ]
+  ],
+  "A|*|32": [
+   [
+    "Add <p1> to <alterable value p0>",
+    "Ajouter <p1> à <alterable value p0>"
+   ]
+  ],
+  "A|*|33": [
+   [
+    "Subtract <p1> from <alterable value p0>",
+    "Soustraire <p1> de <alterable value p0>"
+   ]
+  ],
+  "A|*|34": [
+   [
+    "Spread value <p1> in <alterable value p0>",
+    "Répartir la valeur <p1> dans <alterable value p0>"
+   ]
+  ],
+  "A|*|35": [
+   [
+    "Set Flag <p0> on",
+    "Mettre le drapeau <p0> sur ON"
+   ]
+  ],
+  "A|*|36": [
+   [
+    "Set Flag <p0> off",
+    "Mettre le drapeau <p0> sur OFF"
+   ]
+  ],
+  "A|*|37": [
+   [
+    "Toggle Flag <p0>",
+    "Inverser le drapeau <p0>"
+   ]
+  ],
+  "A|*|38": [
+   [
+    "Set ink effect to <ink effect>",
+    "Fixer l'effet d'encre à <ink effect>"
+   ]
+  ],
+  "A|*|39": [
+   [
+    "Set semi-transparency to <p0>",
+    "Fixer la semi-transparence à <p0>"
+   ]
+  ],
+  "A|*|40": [
+   [
+    "Force animation frame to <p0>",
+    "Force l'image de l'animation à <p0>"
+   ]
+  ],
+  "A|*|41": [
+   [
+    "Restore animation frame",
+    "Restaurer l'image d'animation"
+   ]
+  ],
+  "A|*|42": [
+   [
+    "Set acceleration to <p0>",
+    "Fixer l'accélération à <p0>"
+   ]
+  ],
+  "A|*|43": [
+   [
+    "Set deceleration to <p0>",
+    "Fixer la décélération à <p0>"
+   ]
+  ],
+  "A|*|44": [
+   [
+    "Set rotating speed to <p0>",
+    "Fixer la vitesse de rotation à <p0>"
+   ]
+  ],
+  "A|*|45": [
+   [
+    "Set authorized directions to <direction>",
+    "Fixer les directions autorisées à <direction>"
+   ]
+  ],
+  "A|*|46": [
+   [
+    "Branch node <p0>",
+    "Brancher le noeud <p0>"
+   ]
+  ],
+  "A|*|47": [
+   [
+    "Set gravity to <p0>",
+    "Fixer la gravité à <p0>"
+   ]
+  ],
+  "A|*|48": [
+   [
+    "Goto node <p0>",
+    "Aller au noeud <p0>"
+   ]
+  ],
+  "A|*|49": [
+   [
+    "Set <alterable string p0> to <p1>",
+    "Mettre <alterable string p0> à <p1>"
+   ]
+  ],
+  "A|*|50": [
+   [
+    "Set font name to <p0>",
+    "Fixer le nom de la police en <p0>"
+   ]
+  ],
+  "A|*|51": [
+   [
+    "Set font size to <p0>, border <p1>",
+    "Fixer taille police à <p0>, bordure <p1>"
+   ]
+  ],
+  "A|*|52": [
+   [
+    "Set bold <p0>",
+    "Passer en gras <p0>"
+   ]
+  ],
+  "A|*|53": [
+   [
+    "Set italic <p0>",
+    "Passer en italique <p0>"
+   ]
+  ],
+  "A|*|54": [
+   [
+    "Set underline <p0>",
+    "Passer en souligné <p0>"
+   ]
+  ],
+  "A|*|55": [
+   [
+    "Set strikeout <p0>",
+    "Passer en barré <p0>"
+   ]
+  ],
+  "A|*|56": [
+   [
+    "Set font color to <p0>",
+    "Fixer la couleur de la police à <p0>"
+   ]
+  ],
+  "A|*|57": [
+   [
+    "Bring to front",
+    "Passer devant"
+   ]
+  ],
+  "A|*|58": [
+   [
+    "Bring to back",
+    "Passer en fond"
+   ]
+  ],
+  "A|*|59": [
+   [
+    "Move behind object <p0>",
+    "Faire passer derrière l'objet <p0>"
+   ]
+  ],
+  "A|*|60": [
+   [
+    "Move in front of object <p0>",
+    "Faire passer devant l'objet <p0>"
+   ]
+  ],
+  "A|*|61": [
+   [
+    "Move to layer <p0>",
+    "Déplacer vers calque <p0>"
+   ]
+  ],
+  "A|*|62": [
+   [
+    "Add to debugger",
+    "Ajouter au débuggeur"
+   ]
+  ],
+  "A|*|63": [
+   [
+    "Set effect to <value>",
+    "Fixer l'effet à <value>"
+   ]
+  ],
+  "A|*|64": [
+   [
+    "Set effect parameter <p0> to <p1>",
+    "Fixer paramètre effet <p0> à <p1>"
+   ]
+  ],
+  "A|*|65": [
+   [
+    "Set alpha-blending coefficient to <p0>",
+    "Fixer coefficient semi-transparence à <p0>"
+   ]
+  ],
+  "A|*|66": [
+   [
+    "Set RGB coefficient to <p0>",
+    "Fixer coefficient RGB à <p0>"
+   ]
+  ],
+  "A|*|67": [
+   [
+    "Set effect image parameter <p0> to <p1>",
+    "Fixer paramètre image effet <p0> à <p1>"
+   ]
+  ],
+  "A|*|68": [
+   [
+    "Set friction to <p0>",
+    "Fixer la friction à <p0>"
+   ]
+  ],
+  "A|*|69": [
+   [
+    "Set elasticity to <p0>",
+    "Fixer l'élasticité à <p0>"
+   ]
+  ],
+  "A|*|70": [
+   [
+    "Apply impulse, force <p0>, angle <p1> degrees",
+    "Appliquer une impulsion <p0>, angle <p1> degrés"
+   ]
+  ],
+  "A|*|71": [
+   [
+    "Apply angular impulse, torque <p0>",
+    "Appliquer une impulsion angulaire, couple <p0>"
+   ]
+  ],
+  "A|*|72": [
+   [
+    "Apply force <p0>, angle <p1> degrees",
+    "Appliquer la force <p0>, angle <p1> degrés"
+   ]
+  ],
+  "A|*|73": [
+   [
+    "Apply torque <p0>",
+    "Appliquer le couple <p0>"
+   ]
+  ],
+  "A|*|74": [
+   [
+    "Set linear velocity to <p0>, angle <p1> degrees",
+    "Fixer la vélocité linéaire à <p0>, angle <p1> degrés"
+   ]
+  ],
+  "A|*|75": [
+   [
+    "Set angular velocity to <p0>",
+    "Fixer la vélocité angulaire à <p0>"
+   ]
+  ],
+  "A|*|76": [
+   [
+    "Start loop for each one of <object>, loop name <p0>",
+    "Lancer une boucle pour chacun des <object>, nom de boucle <p0>"
+   ]
+  ],
+  "A|*|77": [
+   [
+    "Start loop for each one of <object> and <p0>, loop name <p1>",
+    "Lancer une boucle pour chacun des <object> et <p0>, nom de boucle <p1>"
+   ]
+  ],
+  "A|*|78": [
+   [
+    "Stop force",
+    "Arrêter la force"
+   ]
+  ],
+  "A|*|79": [
+   [
+    "Stop torque",
+    "Arrêter le couple"
+   ]
+  ],
+  "A|*|80": [
+   [
+    "Paste into background <obstacle>",
+    "Coller dans le décor <obstacle>"
+   ]
+  ],
+  "A|*|81": [
+   [
+    "Display paragraph <value> at <value>",
+    "Afficher le paragraphe <value> en <value>"
+   ]
+  ],
+  "A|*|82": [
+   [
+    "Flash paragraph <value> at <value> for <p2>",
+    "Faire clignoter le paragraphe <value> en <value> pendant <p2>"
+   ]
+  ],
+  "A|*|83": [
+   [
+    "Add backdrop <obstacle>",
+    "Ajouter au décor <obstacle>"
+   ]
+  ],
+  "A|*|84": [
+   [
+    "Replace color <p0> by <p1>",
+    "Remplacer la couleur <p0> par <p1>"
+   ]
+  ],
+  "A|*|85": [
+   [
+    "Set scale to <p0> (Quality = <p1>)",
+    "Fixer l'échelle à <p0> (qualité = <p1>)"
+   ]
+  ],
+  "A|*|86": [
+   [
+    "Set X scale to <p0> (Quality = <p1>)",
+    "Fixer l'échelle en X à <p0> (qualité = <p1>)"
+   ]
+  ],
+  "A|*|87": [
+   [
+    "Set Y scale to <p0> (Quality = <p1>)",
+    "Fixer l'échelle en Y à <p0> (qualité = <p1>)"
+   ]
+  ],
+  "A|*|88": [
+   [
+    "Set angle to <p0> (Quality = <p1>)",
+    "Fixer l'angle à <p0> (qualité = <p1>)"
+   ]
+  ],
+  "A|*|89": [
+   [
+    "Load <p0> into Animation <animation>, Direction <direction>, Frame #<p3>, HotSpot(<p4>,<p5>, Action Point(<p6>,<p7>), Transparent Color <p8>",
+    "Charger <p0> dans l'animation <animation>, direction <direction>, image n°<p3>, point chaud (<p4>,<p5>), point d'action (<p6>,<p7>), couleur transparente <p8>"
+   ],
+   [
+    "Load <p0> into Animation <p1>, Direction <direction>, Frame #<p3>, HotSpot(<p4>,<p5>, Action Point(<p6>,<p7>), Transparent Color <p8>",
+    "Charger <p0> dans l'animation <p1>, direction <direction>, image n°<p3>, point chaud (<p4>,<p5>), point d'action (<p6>,<p7>), couleur transparente <p8>"
+   ]
+  ],
+  "A|*|90": [
+   [
+    "Load <p0> as image, HotSpot(<p1>,<p2>, Action Point(<p3>,<p4>), Transparent Color <p5>",
+    "Charger <p0> comme image, point chaud (<p1>,<p2>), point d'action (<p3>,<p4>), couleur transparente <p5>"
+   ]
+  ],
+  "A|*|91": [
+   [
+    "Load animations from file <p0>",
+    "Charger animations depuis fichier <p0>"
+   ]
+  ],
+  "A|*|92": [
+   [
+    "Select from Word num <p0> to <p1>",
+    "Sélectionner à partir du mot <p0> jusqu'à <p1>"
+   ]
+  ],
+  "A|*|93": [
+   [
+    "Set width to <p0>",
+    "Fixer la largeur à <p0>"
+   ]
+  ],
+  "A|*|94": [
+   [
+    "Set Focus to Word num <p0>",
+    "Mettre le focus sur le mot numéro <p0>"
+   ]
+  ],
+  "A|*|95": [
+   [
+    "Remove highlight",
+    "Enlever la surbrillance"
+   ]
+  ],
+  "A|*|96": [
+   [
+    "Set Highlighted text color <p0>",
+    "Fixer la couleur du texte sélectionné à <p0>"
+   ]
+  ],
+  "A|*|97": [
+   [
+    "Set Highlighted text bold",
+    "Passer le texte sélectionné en gras"
+   ]
+  ],
+  "A|*|98": [
+   [
+    "Set Highlighted text italic",
+    "Passer le texte sélectionné en italique"
+   ]
+  ],
+  "A|*|99": [
+   [
+    "Set Highlighted text underlined",
+    "Passer le texte sélectionné en souligné"
+   ]
+  ],
+  "A|*|100": [
+   [
+    "Set Highlighted text outline color <p0>, <p1> pixels",
+    "Fixer la couleur du tour du texte sélectionné à <p0>, <p1> pixels"
+   ]
+  ],
+  "A|*|101": [
+   [
+    "Set Highlighted background color <p0>",
+    "Fixer la couleur de fond sélectionné à <p0>"
+   ]
+  ],
+  "A|*|103": [
+   [
+    "Set Highlighted background as Marker",
+    "Passer le fond sélectionné en marqueur"
+   ]
+  ],
+  "A|*|104": [
+   [
+    "Set Highlighted background as Hatched with color <p0>",
+    "Fixer le fond sélectionné en moiré avec la couleur <p0>"
+   ]
+  ],
+  "A|*|105": [
+   [
+    "Set Highlighted background as Inverted",
+    "Fond de surbrillance inversé"
+   ]
+  ],
+  "A|*|106": [
+   [
+    "Display the text",
+    "Afficher le texte"
+   ]
+  ],
+  "A|*|107": [
+   [
+    "Set Focus to previous word",
+    "Mettre le focus sur le mot précédent"
+   ]
+  ],
+  "A|*|108": [
+   [
+    "Set Focus to next word",
+    "Mettre le focus sur le mot suivant"
+   ]
+  ],
+  "A|*|109": [
+   [
+    "Remove the Focus",
+    "Enlever le focus"
+   ]
+  ],
+  "A|*|112": [
+   [
+    "Insert <p0>",
+    "Insérer <p0>"
+   ]
+  ],
+  "A|*|113": [
+   [
+    "Load text <p0>",
+    "Charger le texte <p0>"
+   ]
+  ],
+  "A|*|114": [
+   [
+    "Insert text <p0>",
+    "Insérer le texte <p0>"
+   ]
+  ],
+  "A|2|81": [
+   [
+    "Bring to front",
+    "Passer devant"
+   ]
+  ],
+  "A|7|80": [
+   [
+    "Set Counter to <p0>",
+    "Fixer le compteur à <p0>"
+   ]
+  ],
+  "A|7|81": [
+   [
+    "Add <p0> to Counter",
+    "Ajouter <p0> au compteur"
+   ]
+  ],
+  "A|7|82": [
+   [
+    "Subtract <p0> from Counter",
+    "Soustraire <p0> au compteur"
+   ]
+  ],
+  "A|7|83": [
+   [
+    "Set minimum value to <p0>",
+    "Fixer la valeur minimale à <p0>"
+   ]
+  ],
+  "A|7|84": [
+   [
+    "Set maximum value to <p0>",
+    "Fixer la valeur maximale à <p0>"
+   ]
+  ],
+  "A|7|85": [
+   [
+    "Set color to <p0>",
+    "Fixer la couleur à <p0>"
+   ]
+  ],
+  "A|7|86": [
+   [
+    "Set color #2 to <p0>",
+    "Fixer la couleur n°2 à <p0>"
+   ]
+  ],
+  "A|8|80": [
+   [
+    "Set X Position to <p0>",
+    "Fixer la position en X à <p0>"
+   ]
+  ],
+  "A|8|81": [
+   [
+    "Set Y Position to <p0>",
+    "Fixer la position en Y à <p0>"
+   ]
+  ],
+  "A|8|82": [
+   [
+    "Set Zoom Factor to <p0>",
+    "Fixer le facteur de zoom à <p0>"
+   ]
+  ],
+  "A|8|83": [
+   [
+    "Clear Selected",
+    "Effacer la sélection"
+   ]
+  ],
+  "A|8|84": [
+   [
+    "Search and select <p0>",
+    "Chercher et sélectionner <p0>"
+   ]
+  ],
+  "A|8|85": [
+   [
+    "Search and select next",
+    "Chercher et sélectionner le suivant"
+   ]
+  ],
+  "A|8|86": [
+   [
+    "Search All and select<p0>",
+    "Chercher tout et sélectionner <p0>"
+   ]
+  ],
+  "A|8|87": [
+   [
+    "Select word num <p0>",
+    "Sélectionner le mot numéro <p0>"
+   ]
+  ],
+  "A|8|88": [
+   [
+    "Select Line num <p0>",
+    "Sélectionner ligne numéro <p0>"
+   ]
+  ],
+  "A|8|89": [
+   [
+    "Select Paragraph num <p0>",
+    "Sélectionner le paragraphe numéro <p0>"
+   ]
+  ],
+  "A|8|91": [
+   [
+    "Select All",
+    "Tout sélectionner"
+   ]
+  ],
+  "C|4|-81": [
+   [
+    "<object> : correct answer",
+    "<object>: réponse exacte"
+   ]
+  ],
+  "C|4|-82": [
+   [
+    "<object> : bad answer",
+    "<object>: mauvaise réponse"
+   ]
+  ],
+  "C|4|-83": [
+   [
+    "<object> : answer number <p0> chosen",
+    "<object>: réponse numéro <p0> choisie"
+   ]
+  ],
+  "A|4|80": [
+   [
+    "Ask question",
+    "Poser la question"
+   ]
+  ],
+  "A|3|80": [
+   [
+    "Erase",
+    "Effacer"
+   ]
+  ],
+  "A|3|83": [
+   [
+    "Set color of <p0>",
+    "Fixer la couleur de <p0>"
+   ]
+  ],
+  "A|3|84": [
+   [
+    "Display paragraph <value>",
+    "Afficher le paragraphe <value>"
+   ],
+   [
+    "Display paragraph <p0>",
+    "Afficher le paragraphe <p0>"
+   ]
+  ],
+  "A|3|85": [
+   [
+    "Display previous paragraph",
+    "Afficher le paragraphe précédent"
+   ]
+  ],
+  "A|3|86": [
+   [
+    "Display next paragraph",
+    "Afficher le paragraphe suivant"
+   ]
+  ],
+  "A|3|87": [
+   [
+    "Display alterable string",
+    "Afficher la chaîne modifiable"
+   ]
+  ],
+  "A|3|88": [
+   [
+    "Set alterable string to <p0>",
+    "Fixer la chaîne modifiable à <p0>"
+   ]
+  ],
+  "C|9|-81": [
+   [
+    "<object>: Frame has changed",
+    "<object> : la scène a changé"
+   ]
+  ],
+  "C|9|-82": [
+   [
+    "Application <object> is finished",
+    "L'application <object> est finie"
+   ]
+  ],
+  "C|9|-83": [
+   [
+    "Application <object> is visible",
+    "L'application <object> est visible"
+   ]
+  ],
+  "C|9|-84": [
+   [
+    "Application <object> is paused",
+    "L'application <object> est en pause"
+   ]
+  ],
+  "A|9|80": [
+   [
+    "Restart application",
+    "Relancer l'application"
+   ]
+  ],
+  "A|9|81": [
+   [
+    "Restart current frame",
+    "Relancer la scène courante"
+   ]
+  ],
+  "A|9|82": [
+   [
+    "Next Frame",
+    "Scène suivante"
+   ]
+  ],
+  "A|9|83": [
+   [
+    "Previous Frame",
+    "Scène précédente"
+   ]
+  ],
+  "A|9|84": [
+   [
+    "End application",
+    "Terminer l'application"
+   ]
+  ],
+  "A|9|85": [
+   [
+    "Set application <p0>",
+    "Fixer l'application <p0>"
+   ]
+  ],
+  "A|9|86": [
+   [
+    "Jump to Frame <p0>",
+    "Aller à la scène <p0>"
+   ]
+  ],
+  "A|9|87": [
+   [
+    "Set global value <p0> to <p1>",
+    "Fixer la valeur globale <p0> à <p1>"
+   ]
+  ],
+  "A|9|90": [
+   [
+    "Set global string <p0> to <p1>",
+    "Fixer la chaîne globale <p0> à <p1>"
+   ]
+  ],
+  "A|9|91": [
+   [
+    "Pause application",
+    "Pause"
+   ]
+  ],
+  "A|9|92": [
+   [
+    "Resume application",
+    "Continuer"
+   ]
+  ],
+  "A|9|94": [
+   [
+    "Set height to <p0>",
+    "Fixer la hauteur à <p0>"
+   ]
+  ]
+ },
+ "ext": {
+  "ext|accelerometer|C|-81": "Changement d'orientation",
+  "ext|activebackdrop|C|-81": "<object>: est visible",
+  "ext|activebackdrop|A|80": "Fixer l'image à <p0>",
+  "ext|activebackdrop|A|81": "Fixer la coordonnée X à <p0>",
+  "ext|activebackdrop|A|82": "Fixer la coordonnée Y à <p0>",
+  "ext|activebackdrop|A|83": "Montrer",
+  "ext|activebackdrop|A|84": "Cacher",
+  "ext|adshow|C|-81": "<object>: En train de jouer?",
+  "ext|adshow|C|-82": "<object>: Comparer à la position temps (<p0>)",
+  "ext|adshow|A|80": "<object>: Charger vidéo (<p0>)",
+  "ext|adshow|A|81": "<object>: Fermer la vidéo",
+  "ext|adshow|A|82": "<object>: Jouer vidéo",
+  "ext|adshow|A|83": "<object>: Arrêter la vidéo",
+  "ext|adshow|A|84": "<object>: Fixer la largeur (<p0>)",
+  "ext|adshow|A|85": "<object>: Fixer hauteur (<p0>)",
+  "ext|adshow|A|86": "<object>: Fixer la position (<p0>)",
+  "ext|adshow|A|87": "<object>: Couper le son",
+  "ext|adshow|A|88": "<object>: Remettre le son",
+  "ext|adshow|A|89": "<object>: Fixer la vitesse (<p0>)",
+  "ext|adshow|A|90": "<object>: Fixer le volume (<p0>)",
+  "ext|adshow|A|91": "<object>: Boucle ON",
+  "ext|adshow|A|92": "<object>: Boucle OFF",
+  "ext|box2dbase|A|80": "Fixer la force de la gravité à <p0>",
+  "ext|box2dbase|A|81": "Fixer l'angle de la gravité à <p0> degrés",
+  "ext|box2dbase|A|88": "Créer l'articulation à distance <p0> entre <p1> et <p2> au point chaud des deux objets",
+  "ext|box2dbase|A|89": "Créer l'articulation à distance <p0> entre <p1> et <p2> au point d'action des deux objets",
+  "ext|box2dbase|A|90": "Créer une articulation à distance <p0> entre <p1> à (<p2>, <p3>) et <p4> à (<p5>, <p6>)",
+  "ext|box2dbase|A|91": "Créer l'articulation de rotation <p0> entre <p1> et <p2> au point chaud de <p1>",
+  "ext|box2dbase|A|92": "Créer l'articulation de rotation <p0> entre <p1> et <p2> au point d'action des deux objets",
+  "ext|box2dbase|A|93": "Créer une articulation de rotation <p0> entre <p1> et <p4> à (<p2>, <p3>)",
+  "ext|box2dbase|A|94": "Créer l'articulation prismatique <p0> entre <p1> et <p2> au point chaud des deux objets",
+  "ext|box2dbase|A|95": "Créer l'articulation prismatique <p0> entre <p1> et <p2> au point d'action des deux objets",
+  "ext|box2dbase|A|96": "Créer l'articulation prismatique <p0> entre <p1> et <p4> à (<p2>, <p3>)",
+  "ext|box2dbase|A|103": "Ajouter l'objet <p0> au monde, densité <p1>, friction <p2>, forme <p3>",
+  "ext|box2dbase|A|104": "Enlever l'objet <p0> du monde",
+  "ext|box2dbase|A|105": "Fixer la densité de <p0> à <p1>",
+  "ext|box2dbase|A|106": "Fixer la friction de <p0> à <p1>",
+  "ext|box2dbase|A|107": "Fixer l'élasticité de <p0> à <p1>",
+  "ext|box2dbase|A|108": "Fixer l'échelle de gravité de <p0> à <p1>",
+  "ext|box2dbase|A|109": "Fixer l'élasticité de l'articulation à distance <p0> : fréquence <p1> Hz, ralentissement <p2>",
+  "ext|box2dbase|A|110": "Fixer les limites d'angle de l'articulation <p0> à <p1> (limite basse) et <p2> (limite haute)",
+  "ext|box2dbase|A|111": "Fixer le moteur de l'articulation <p0> à <p1> (couple), <p2> (vitesse)",
+  "ext|box2dbase|A|112": "Fixer les positions limites de l'articulation <p0> à <p1> (limite basse) et <p2> (limite haute)",
+  "ext|box2dbase|A|113": "Fixer le moteur de l'articulation <p0> à <p1> (force), <p2> (vitesse)",
+  "ext|box2dbase|A|114": "Créer une articulation poulie <p0> entre <p1> et <p2> au point chaud, corde 1 (<p3>, <p4>), corde 2 (<p5>, <p6>), ratio <p7>",
+  "ext|box2dbase|A|115": "Créer une articulation poulie <p0> entre <p1> et <p2> au point d'action, corde 1 (<p3>, <p4>), corde 2 (<p5>, <p6>), ratio <p7>",
+  "ext|box2dbase|A|118": "Détruire l'articulation <p0>",
+  "ext|box2dbase|A|119": "Fixer le nombre d'indentations de vélocité <p0> et de position à <p1>",
+  "ext|box2dbase|A|120": "Pause",
+  "ext|box2dbase|A|121": "Reprendre",
+  "ext|box2dfan|C|-81": "<object>: Le ventilateur est-il actif?",
+  "ext|box2dfan|A|80": "Fixer la force du vent à <p0>",
+  "ext|box2dfan|A|81": "Fixer l'angle à <p0> degrés",
+  "ext|box2dfan|A|82": "Fixer la largeur à <p0>",
+  "ext|box2dfan|A|83": "Fixer la hauteur à <p0>",
+  "ext|box2dfan|A|84": "Fixer marche/arrêt à <p0>",
+  "ext|box2djoint|A|80": "Fixer les limites à <p0> (angle minimal) et <p1> (angle maximal)",
+  "ext|box2djoint|A|81": "Fixer le moteur à <p0> (couple) et <p1> (vitesse)",
+  "ext|box2djoint|A|82": "Détruire l'articulation",
+  "ext|box2dmagnet|C|-81": "<object> : L'aimant est-il actif?",
+  "ext|box2dmagnet|A|80": "Fixer la force du vent à <p0>",
+  "ext|box2dmagnet|A|81": "Fixer l'angle à <p0> degrés",
+  "ext|box2dmagnet|A|82": "Fixer la largeur à <p0>",
+  "ext|box2dmagnet|A|83": "Fixer la hauteur à <p0>",
+  "ext|box2dmagnet|A|84": "Fixer marche/arrêt à <p0>",
+  "ext|box2dparticules|C|-81": "Pour chaque particule, nom de boucle <p0>",
+  "ext|box2dparticules|C|-82": "<object>: Une particule entre en collision avec <p0>",
+  "ext|box2dparticules|C|-83": "<object>: Une particule sort du terrain à gauche",
+  "ext|box2dparticules|C|-84": "<object>: Une particule sort du terrain à droite",
+  "ext|box2dparticules|C|-85": "<object>: Une particule sort du terrain en haut",
+  "ext|box2dparticules|C|-86": "<object>: Une particule sort du terrain en bas",
+  "ext|box2dparticules|C|-87": "<object>: Une particule entre en collision avec une autre particule",
+  "ext|box2dparticules|C|-88": "<object>: Une particule entre en collision avec un décor",
+  "ext|box2dparticules|A|80": "Créer <p0> particules",
+  "ext|box2dparticules|A|81": "Arrêter la particule courante",
+  "ext|box2dparticules|A|82": "Pour chaque particule, nom de boucle <p0>",
+  "ext|box2dparticules|A|83": "Fixer la vitesse de création à <p0>",
+  "ext|box2dparticules|A|84": "Fixer la rotation de la particule à <p0>",
+  "ext|box2dparticules|A|85": "Fixer l'intervalle de l'angle de création à <p0>",
+  "ext|box2dparticules|A|86": "Fixer l'angle de création à <p0>",
+  "ext|box2dparticules|A|87": "Détruire la particule courante",
+  "ext|box2dparticules|A|88": "Détruire les deux particules courantes",
+  "ext|box2dparticules|A|89": "Fixer l'intervalle de vitesse de création à <p0>",
+  "ext|box2dparticules|A|91": "Fixer la création à <p0>",
+  "ext|box2dparticules|A|92": "Quitter la boucle",
+  "ext|box2dparticules|A|93": "Appliquer la force <p0> aux particules",
+  "ext|box2dparticules|A|94": "Appliquer le couple <p0> aux particules",
+  "ext|box2dparticules|A|95": "Fixer la vitesse de l'animation à <p0>",
+  "ext|box2dparticules|A|96": "Fixer la boucle de l'animation à <p0>",
+  "ext|box2dparticules|A|97": "Fixer l'échelle à <p0>",
+  "ext|box2dparticules|A|98": "Fixer la friction à <p0>",
+  "ext|box2dparticules|A|99": "Fixer l'élasticité à <p0>",
+  "ext|box2dparticules|A|100": "Fixer la densité à <p0>",
+  "ext|box2dparticules|A|101": "Fixer l'échelle de gravité à <p0>",
+  "ext|box2dparticules|A|102": "Fixer la distance de destruction à <p0>",
+  "ext|box2dparticules|A|103": "Fixer la destruction à la fin de l'animation à <p0>",
+  "ext|box2dropeandchain|C|-81": "<object>: Pour chaque élément, nom de boucle <p0>",
+  "ext|box2dropeandchain|C|-82": "<object>: Un élément entre en collision avec <p0>",
+  "ext|box2dropeandchain|C|-83": "<object>: Un élément sort du terrain à gauche",
+  "ext|box2dropeandchain|C|-84": "<object>: Un élément sort du terrain à droite",
+  "ext|box2dropeandchain|C|-85": "<object>: Un élément sort du terrain en haut",
+  "ext|box2dropeandchain|C|-86": "<object>: Un élément sort du terrain en bas",
+  "ext|box2dropeandchain|C|-88": "<object>: Un élément entre en collision avec un décor",
+  "ext|box2dropeandchain|A|80": "Pour chaque élément, nom de boucle <p0>",
+  "ext|box2dropeandchain|A|81": "Stop",
+  "ext|box2dropeandchain|A|82": "Faire grimper <p0> de un élément",
+  "ext|box2dropeandchain|A|83": "Faire descendre <p0> de un élément",
+  "ext|box2dropeandchain|A|84": "Attacher <p0> à la corde à l'élément courant, à la distance <p1>",
+  "ext|box2dropeandchain|A|85": "Détacher <p0> de la corde",
+  "ext|box2dropeandchain|A|86": "Quitter la boucle",
+  "ext|box2dropeandchain|A|87": "Couper la corde à l'élément <p0>",
+  "ext|box2dropeandchain|A|88": "Attacher <p0> à la corde, élément <p1> au point d'action",
+  "ext|box2dtreadmill|C|-81": "<object> : Le tapis roulant est-il actif?",
+  "ext|box2dtreadmill|A|80": "Fixer la vitesse à <p0>",
+  "ext|box2dtreadmill|A|81": "Fixer l'angle à <p0> degrés",
+  "ext|box2dtreadmill|A|82": "Fixer la largeur à <p0>",
+  "ext|box2dtreadmill|A|83": "Fixer la hauteur à <p0>",
+  "ext|box2dtreadmill|A|84": "Fixer marche/arrêt à <p0>",
+  "ext|capture|A|80": "Fixer le nom de fichier à <p0>",
+  "ext|capture|A|81": "Fixer le nom de fichier avec un sélecteur",
+  "ext|capture|A|82": "Incrémenter le nom de fichier",
+  "ext|capture|A|83": "Capturer l'écran",
+  "ext|capture|A|84": "Capturer la fenêtre active",
+  "ext|capture|A|85": "Capturer la surface de la scène",
+  "ext|capture|A|86": "Fixer la position de la zone à (<p0>, <p1>)",
+  "ext|capture|A|87": "Fixer les dimensions de la zone à (<p0>, <p1>)",
+  "ext|capture|A|88": "Lancer la capture automatique",
+  "ext|capture|A|89": "Arrêter la capture automatique",
+  "ext|capture|A|90": "Diriger la sortie vers le presse-papier",
+  "ext|clickteam-movement-controller|A|82": "Fixer la vitesse angulaire à <p0>",
+  "ext|clickteam-movement-controller|A|84": "Fixer le rayon à <p0>",
+  "ext|clickteam-movement-controller|A|85": "Fixer la vitesse de spirale à <p0>",
+  "ext|clickteam-movement-controller|A|86": "Fixer le rayon minimal à <p0>",
+  "ext|clickteam-movement-controller|A|87": "Fixer le rayon maximal à <p0>",
+  "ext|clickteam-movement-controller|A|88": "Fixer l'action de fin à stop",
+  "ext|clickteam-movement-controller|A|89": "Fixer l'action de fin à remise à zéro",
+  "ext|clickteam-movement-controller|A|90": "Fixer l'action de fin à inverse la vitesse",
+  "ext|clickteam-movement-controller|A|91": "Fixer l'action de fin à inverser le mouvement",
+  "ext|clickteam-movement-controller|A|94": "Fixer le nombre de côtés à <p0>",
+  "ext|clickteam-movement-controller|A|95": "Fixer le rayon à <p0>",
+  "ext|clickteam-movement-controller|A|96": "Fixer l'angle de rotation à <p0>",
+  "ext|clickteam-movement-controller|A|97": "Fixer la vitesse à <p0>",
+  "ext|clickteam-movement-controller|A|98": "Fixer la vitesse à <p0>",
+  "ext|clickteam-movement-controller|A|99": "Fixer X début à <p0>",
+  "ext|clickteam-movement-controller|A|100": "Fixer Y début à <p0>",
+  "ext|clickteam-movement-controller|A|101": "Fixer X final à <p0>",
+  "ext|clickteam-movement-controller|A|102": "Fixer Y final à <p0>",
+  "ext|clickteam-movement-controller|A|103": "Fixer l'amplitude à 0",
+  "ext|clickteam-movement-controller|A|104": "Fixer la vitesse angulaire à <p0>",
+  "ext|clickteam-movement-controller|A|105": "Fixer langle de début à <p0>",
+  "ext|clickteam-movement-controller|A|107": "Relancer le mouvement",
+  "ext|clickteam-movement-controller|A|108": "Fixer l'action de fin à stop",
+  "ext|clickteam-movement-controller|A|109": "Fixer l'action de fin à remise à zéro",
+  "ext|clickteam-movement-controller|A|110": "Fixer l'action de fin à rebond",
+  "ext|clickteam-movement-controller|A|111": "Fixer l'action de fin à inverser",
+  "ext|clickteam-movement-controller|A|114": "Fixer le rayon en X à <p0>",
+  "ext|clickteam-movement-controller|A|115": "Fixer le rayon en Y à <p0>",
+  "ext|clickteam-movement-controller|A|116": "Fixer la vitesse angulaire à <p0>",
+  "ext|clickteam-movement-controller|A|118": "Fixer le décalage d'angle à <p0>",
+  "ext|clickteam-movement-controller|A|119": "Fixer la vitesse à <p0>",
+  "ext|clickteam-movement-controller|A|120": "Fixer le pas en X à <p0>",
+  "ext|clickteam-movement-controller|A|121": "Fixer le pas en Y à <p0>",
+  "ext|clickteam-movement-controller|A|122": "Fixer la bordure de gauche à <p0>",
+  "ext|clickteam-movement-controller|A|123": "Fixer la bordure de droite à <p0>",
+  "ext|clickteam-movement-controller|A|124": "Fixer X à <p0>",
+  "ext|clickteam-movement-controller|A|125": "Fixer Y à <p0>",
+  "ext|clickteam-movement-controller|A|126": "Fixer la position à <p0>,<p1>",
+  "ext|clickteam-movement-controller|A|127": "Bouger de <p1> pixels vers l'angle <p0>",
+  "ext|clickteam-movement-controller|A|128": "Bouger de <p2> pixels vers le point <p0>,<p1>",
+  "ext|clickteam-movement-controller|A|129": "Bouger de <p1> pixels vers l'objet <p0>",
+  "ext|clickteam-movement-controller|A|130": "Fixer la direction vers l'angle <p0>",
+  "ext|clickteam-movement-controller|A|131": "Fixer la direction vers le point <p0>, <p1>",
+  "ext|clickteam-movement-controller|A|132": "Fixer la direction vers l'objet <p0>",
+  "ext|clickteam-movement-controller|A|133": "Tourner vers l'angle <p0> par <p1> degrés",
+  "ext|clickteam-movement-controller|A|134": "Tourner vers le point <p0>,<p1> par <p2> degrés",
+  "ext|clickteam-movement-controller|A|135": "Tourner vers l'objet <p0> par <p1> degrés",
+  "ext|clickteam-movement-controller|A|136": "Fixer la vitesse à <p0>",
+  "ext|clickteam-movement-controller|A|137": "Fixer la composante X de la vitesse à <p0>",
+  "ext|clickteam-movement-controller|A|138": "Fixer la composante en Y de la vitesse à <p0>",
+  "ext|clickteam-movement-controller|A|139": "Ajouter la vitesse de rotation <p1> vers l'angle <p0>",
+  "ext|clickteam-movement-controller|A|140": "Ajouter la vitesse de rotation <p2> vers le point <p0>,<p1>",
+  "ext|clickteam-movement-controller|A|141": "Ajouter la vitesse de rotation <p1> vers l'objet <p0>",
+  "ext|clickteam-movement-controller|A|142": "Fixer la vitesse minimale à <p0>",
+  "ext|clickteam-movement-controller|A|143": "Fixer la vitesse maximale à <p0>",
+  "ext|clickteam-movement-controller|A|144": "Fixer la force de la gravité à <p0>",
+  "ext|clickteam-movement-controller|A|145": "Tourner la gravité vers l'angle <p0>",
+  "ext|clickteam-movement-controller|A|146": "Tourner la gravité vers le point <p0>,<p1>",
+  "ext|clickteam-movement-controller|A|147": "Tourner la gravité vers l'objet <p0>",
+  "ext|clickteam-movement-controller|A|149": "Force l'angle de rebond à <p0>",
+  "ext|clickteam-movement-controller|A|150": "Suivant",
+  "ext|clickteam-movement-controller|A|151": "Précédent",
+  "ext|clickteam-movement-controller|A|152": "Remise au début",
+  "ext|clickteam-movement-controller|A|153": "Remise à la fin",
+  "ext|clickteam-movement-controller|A|154": "Fixer l'objet à <p0>",
+  "ext|clickteam-movement-controller|A|155": "Fixer l'objet dont la valeur fixe est <p0>",
+  "ext|clickteam-movement-controller|A|156": "Fixer la puissance du réacteur à <p0>",
+  "ext|clickteam-movement-controller|A|157": "Fixer la vitesse à <p0>",
+  "ext|clickteam-movement-controller|A|158": "Fixer la direction à <p0>",
+  "ext|clickteam-movement-controller|A|159": "Fixer la décélération à <p0>",
+  "ext|clickteam-movement-controller|A|160": "Fixer la vitesse de rotation à <p0>",
+  "ext|clickteam-movement-controller|A|161": "Fixer la gravité à <p0>",
+  "ext|clickteam-movement-controller|A|162": "Fixer la direction de la gravité à <p0>",
+  "ext|clickteam-movement-controller|A|163": "Faire marcher le réacteur",
+  "ext|clickteam-movement-controller|A|164": "Tourner à droite",
+  "ext|clickteam-movement-controller|A|165": "Tourner à gauche",
+  "ext|clickteam-movement-controller|A|166": "Bouton gauche souris pressé",
+  "ext|clickteam-movement-controller|A|167": "Bouton droite souris pressé",
+  "ext|clickteam-movement-controller|A|168": "Clic bouton gauche souris",
+  "ext|clickteam-movement-controller|A|169": "Clic bouton droite souris",
+  "ext|clickteam-movement-controller|A|170": "Aucune (contrôlé par utilisateur)",
+  "ext|clickteam-movement-controller|A|171": "Zone limite de déplacement",
+  "ext|clickteam-movement-controller|A|172": "Désactiver zone autorisée",
+  "ext|clickteam-movement-controller|A|173": "Lâcher objet quand tiré hors zone",
+  "ext|clickteam-movement-controller|A|174": "Ne pas lâcher objet quand tiré hors zone",
+  "ext|clickteam-movement-controller|A|175": "Toujours garder l'objet dans la zone délimitée",
+  "ext|clickteam-movement-controller|A|176": "Ne pas forcer position objet dans zone autorisée",
+  "ext|clickteam-movement-controller|A|177": "Zone autorisée = <p0>",
+  "ext|clickteam-movement-controller|A|178": "Définir limite gauche zone autorisée à <p0>",
+  "ext|clickteam-movement-controller|A|179": "Définir limite haute zone autorisée à <p0>",
+  "ext|clickteam-movement-controller|A|180": "Définir largeur zone autorisée à <p0>",
+  "ext|clickteam-movement-controller|A|181": "Définir hauteur zone autorisée à <p0>",
+  "ext|clickteam-movement-controller|A|182": "Aimantation à la grille",
+  "ext|clickteam-movement-controller|A|183": "Ne pas aimanter à la grille",
+  "ext|clickteam-movement-controller|A|184": "Fixer l'origine de la grille à <p0>",
+  "ext|clickteam-movement-controller|A|185": "Fixer l'origine en X de la grille à <p0>",
+  "ext|clickteam-movement-controller|A|186": "Fixer l'origine en Y de la grille à <p0>",
+  "ext|clickteam-movement-controller|A|187": "Fixer la largeur de la grille à <p0>",
+  "ext|clickteam-movement-controller|A|188": "Fixer la hauteur de la grille à <p0>",
+  "ext|datagrid|C|-81": "<object>: Clic avec le bouton gauche",
+  "ext|datagrid|C|-82": "<object>: Clic avec le bouton droit",
+  "ext|datagrid|C|-83": "<object>: Double clic?",
+  "ext|datagrid|C|-84": "<object> est-il activé?",
+  "ext|datagrid|C|-85": "<object> est-il visible?",
+  "ext|datagrid|C|-86": "Lors d'énumération",
+  "ext|datagrid|A|80": "Montrer",
+  "ext|datagrid|A|81": "Cacher",
+  "ext|datagrid|A|82": "Fixer la largeur à <p0>",
+  "ext|datagrid|A|83": "Fixer la hauteur à <p0>",
+  "ext|datagrid|A|84": "Activer",
+  "ext|datagrid|A|85": "Désactiver",
+  "ext|datagrid|A|86": "Enumérer les cellules sélectionnées",
+  "ext|datagrid|A|87": "Enumérer toutes les cellules",
+  "ext|datagrid|A|88": "Fixer le texte de la cellule (<p0>, <p1>) à <p2>",
+  "ext|datagrid|A|89": "Insérer ligne <p0> avec titre <p1>",
+  "ext|datagrid|A|90": "Insérer colonne <p0> avec titre <p1>",
+  "ext|datagrid|A|91": "Fixer la hauteur de la ligne <p0> à <p1>",
+  "ext|datagrid|A|92": "Fixer la largeur de la colonne <p0> à <p1>",
+  "ext|datagrid|A|93": "Détruire ligne <p0>",
+  "ext|datagrid|A|94": "Détruire colonne <p0>",
+  "ext|datagrid|A|95": "Détruire tout",
+  "ext|datagrid|A|96": "Imprimer",
+  "ext|datagrid|A|97": "Grille horizontale ON",
+  "ext|datagrid|A|98": "Grille horizontale OFF",
+  "ext|datagrid|A|99": "Grille verticale ON",
+  "ext|datagrid|A|100": "Grille verticale OFF",
+  "ext|datagrid|A|101": "Titre horizontal ON",
+  "ext|datagrid|A|102": "Titre horizontal OFF",
+  "ext|datagrid|A|103": "Titres verticaux ON",
+  "ext|datagrid|A|104": "Titres verticaux OFF",
+  "ext|datagrid|A|105": "Grille éditable ON",
+  "ext|datagrid|A|106": "Grille éditable OFF",
+  "ext|datagrid|A|107": "Grille sélectionnable ON",
+  "ext|datagrid|A|108": "Grille sélectionnable OFF",
+  "ext|datagrid|A|109": "Redimensionnnement de ligne ON",
+  "ext|datagrid|A|110": "Redimensionnement de ligne OFF",
+  "ext|datagrid|A|111": "Redimensionnement de colonne ON",
+  "ext|datagrid|A|112": "Redimensionnement de colonne OFF",
+  "ext|datagrid|A|113": "Aligner le text de la cellule (<p0>, <p1>) à gauche",
+  "ext|datagrid|A|114": "Centrer le texte dans cellule (<p0>, <p1>)",
+  "ext|datagrid|A|115": "Aligner le texte de la cellule (<p0>, <p1>) à droite",
+  "ext|datagrid|A|116": "Centrer le texte verticalement dans la cellule (<p0>, <p1>)",
+  "ext|datagrid|A|117": "Aligner le texte de la cellule (<p0>, <p1>) en haut",
+  "ext|datagrid|A|118": "Fixer la couleur de fond de la cellule (<p0>, <p1> ) à <p2>",
+  "ext|datagrid|A|119": "Fixer la couleur de texte de la cellule (<p0>, <p1> ) à <p2>",
+  "ext|datagrid|A|120": "Enregistrer <p0>",
+  "ext|datagrid|A|121": "Charger <p0>",
+  "ext|datagrid|A|122": "Enregistrer fichier ascii <p0> avec délimiteur <p1>",
+  "ext|datagrid|A|123": "Charger fichier ascii <p0> avec délimiteur <p1>",
+  "ext|datagrid|A|124": "Faire en sorte que la cellule (<p0>, <p1>) soit visible",
+  "ext|datagrid|A|125": "Sélectionner les cellules depuis (<p0>, <p1> ) à (<p2>, <p3> )",
+  "ext|datagrid|A|126": "Charger \"<p0>\" d'un objet Tableau",
+  "ext|datagrid|A|127": "Enregistrer \"<p0>\" vers objet Tableau, type <p1>",
+  "ext|datagrid|A|128": "Désélectionner les cellules",
+  "ext|datagrid|A|129": "Auto-dimensionnement ligne <p0>",
+  "ext|datagrid|A|130": "Auto-dimensionnement colonne <p0>",
+  "ext|directshow|C|-81": "<object>: En train de jouer?",
+  "ext|directshow|C|-82": "<object>: En plein écran?",
+  "ext|directshow|C|-83": "<object>: Comparer à la position temps (<p0>)",
+  "ext|directshow|A|80": "<object>: Charger vidéo (<p0>)",
+  "ext|directshow|A|81": "<object>: Fermer la vidéo",
+  "ext|directshow|A|82": "<object>: Jouer vidéo",
+  "ext|directshow|A|83": "<object>: Arrêter la vidéo",
+  "ext|directshow|A|84": "<object>: Fixer la largeur (<p0>)",
+  "ext|directshow|A|85": "<object>: Fixer hauteur (<p0>)",
+  "ext|directshow|A|86": "<object>: Fixer la position (<p0>)",
+  "ext|directshow|A|87": "%i: Créer fenêtre DVD",
+  "ext|directshow|A|88": "<object>: Jouer",
+  "ext|directshow|A|89": "<object>: Pause",
+  "ext|directshow|A|90": "<object>: Détruire fenêtre vidéo",
+  "ext|directshow|A|91": "<object>: Fixer chapitre (<p0>)",
+  "ext|directshow|A|92": "<object>: Chapitre précédent",
+  "ext|directshow|A|93": "<object>: Chapitre suivant",
+  "ext|directshow|A|94": "<object>: Inverser plein écran",
+  "ext|directshow|A|95": "<object>: Couper le son",
+  "ext|directshow|A|96": "<object>: Remettre le son",
+  "ext|directshow|A|97": "<object>: Fixer la vitesse (<p0>)",
+  "ext|directshow|A|98": "<object>: Montrer menu",
+  "ext|directshow|A|99": "<object>: Fixer le texte de la fenêtre (<p0>)",
+  "ext|directshow|A|100": "<object>: Montrer",
+  "ext|directshow|A|101": "<object>: Cacher",
+  "ext|directshow|A|102": "<object>: Fixer le volume (<p0>)",
+  "ext|directshow|A|103": "<object>: Boucle ON",
+  "ext|directshow|A|104": "<object>: Boucle OFF",
+  "ext|download|C|-81": "<object>: Téléchargement en cours dans le port <p0>",
+  "ext|download|C|-82": "<object>: Téléchargement réussi dans le port <p0>",
+  "ext|download|C|-83": "<object>: Erreur de connection dans le port <p0>",
+  "ext|download|C|-84": "<object>: Téléchargement abandonné dans le port <p0>",
+  "ext|download|A|80": "Télécharger fichier, Url=<p0>, destination=<p1>, port <p2>",
+  "ext|download|A|81": "Abandonner le téléchargement port <p0>",
+  "ext|download|A|82": "Mettre le téléchargement en pause port <p0>",
+  "ext|download|A|83": "Relancer le téléchargement port <p0>",
+  "ext|explorer|C|-81": "<object>: Dossier changé",
+  "ext|explorer|A|80": "Choisir dossier: <p0>",
+  "ext|fglobject|C|-81": "<object>: Le jeu fonctionne-t'il en mode premium?",
+  "ext|fglobject|C|-82": "<object>: La promotion croisée est-elle activée?",
+  "ext|fglobject|C|-83": "Le déverrouillage est-il activé?",
+  "ext|fglobject|A|80": "Montrer publicité",
+  "ext|fglobject|A|81": "Montrer plus de jeux",
+  "ext|fglobject|A|82": "Déverrouiller le jeu",
+  "ext|fglobject|A|84": "Envoyer le score",
+  "ext|fglobject|A|85": "Afficher tableau des scores",
+  "ext|fglobject|A|86": "Afficher le logo du sponsor <p0>",
+  "ext|html5|C|-81": "<object>: Erreur",
+  "ext|html5|C|-82": "<object>: Est-ce un préloader?",
+  "ext|html5|C|-83": "<object>: La souris se trouve dans la fenêtre",
+  "ext|html5|C|-84": "<object>: Le navigateur courant est Microsoft Internet Explorer",
+  "ext|html5|C|-85": "<object>: Le navigateur courrant est Google Chrome",
+  "ext|html5|C|-86": "<object>: Le navigateur courant est Firefox",
+  "ext|html5|C|-87": "<object>: Le navigateur courant est Safari",
+  "ext|html5|C|-88": "<object>: Le navigateur courant est Opera",
+  "ext|html5|C|-89": "<object>: Le navigateur courant est Microsoft Edge",
+  "ext|html5|A|80": "Ouvrir l'URL <p0> dans la fenêtre courante",
+  "ext|html5|A|81": "Ouvrir l'URL <p0> dans la fenêtre parent",
+  "ext|html5|A|82": "Ouvrir l'URL <p0> dans la fenêtre de premier niveau",
+  "ext|html5|A|83": "Ouvrir l'URL <p0> dans une nouvelle fenêtre",
+  "ext|html5|A|84": "Ouvrir l'URL <p0> dans une fenêtre cible",
+  "ext|html5|A|85": "Mettre liste paramètres à zéro",
+  "ext|html5|A|86": "Ajouter Paramètre Entier <p0>",
+  "ext|html5|A|87": "Ajouter Paramètre Virgule Flottante <p0>",
+  "ext|html5|A|88": "Ajouter Paramètre Chaîne <p0>",
+  "ext|html5|A|89": "Appeler Fonction <p0>",
+  "ext|html5|A|90": "Ecrire le cookie <p0>, expiration <p1>, texte : <p2>",
+  "ext|html5video|C|-81": "Une erreur s'est-elle produite?",
+  "ext|html5video|C|-82": "La vidéo est en train de jouer",
+  "ext|html5video|A|80": "Pause",
+  "ext|html5video|A|81": "Positionner à <p0> ms",
+  "ext|html5video|A|82": "Fixer l'URL à <p0>",
+  "ext|html5video|A|83": "Fixer la largeur à <p0>",
+  "ext|html5video|A|84": "Fixer la hauteur à <p0>",
+  "ext|html5video|A|85": "Lancer",
+  "ext|html5video|A|86": "Fixer le volume à <p0>",
+  "ext|html5video|A|87": "Fixer le nombre de boucles à <p0>",
+  "ext|html5video|A|88": "Fixer la vitesse de la vidéo à <p0>",
+  "ext|html5video|A|89": "Fixer les contrôles à <p0>",
+  "ext|inandoutcontroller|A|80": "Fixer l'objet à <p0>",
+  "ext|inandoutcontroller|A|81": "Fixer l'objet à la valeur non modifiable <p0>",
+  "ext|inandoutcontroller|A|82": "Positionner l'objet au début",
+  "ext|inandoutcontroller|A|83": "Positionner l'objet à la fin",
+  "ext|inandoutcontroller|A|84": "Faire entrer l'objet",
+  "ext|inandoutcontroller|A|85": "Faire sortir l'objet",
+  "ext|joystickcontrol|A|80": "Lancer le joystick accéléromètre",
+  "ext|joystickcontrol|A|81": "Arrêter le joystick accéléromètre",
+  "ext|joystickcontrol|A|82": "Lancer/arrêter le joystick tactile <p0> (joystick), <p1> (bouton 1), <p2> (bouton 2), <p3> (gaucher)",
+  "ext|joystickcontrol|A|83": "Fixer la position du joystick à <p0>",
+  "ext|joystickcontrol|A|84": "Fixer la position du bouton 1 à <p0>",
+  "ext|joystickcontrol|A|85": "Fixer la position du bouton 2 à <p0>",
+  "ext|joystickcontrol|A|86": "Fixer la coordonnée X du joystick à <p0>",
+  "ext|joystickcontrol|A|87": "Fixer la coordonnée Y du joystick à <p0>",
+  "ext|joystickcontrol|A|88": "Fixer la coordonnée X du bouton 1 à <p0>",
+  "ext|joystickcontrol|A|89": "Fixer la coordonnée Y du bouton 1 à <p0>",
+  "ext|joystickcontrol|A|90": "Fixer la coordonnée X du bouton 2 à <p0>",
+  "ext|joystickcontrol|A|91": "Fixer la coordonnée Y du bouton 2 à <p0>",
+  "ext|joystickcontrol|A|92": "Fixer le masque du joystick à <p0>",
+  "ext|kcanim|C|-81": "<object>: L'image courante <p0>",
+  "ext|kcanim|C|-82": "<object>: Fin de l'animation",
+  "ext|kcanim|C|-83": "<object> est lancé",
+  "ext|kcanim|C|-84": "<object> est en pause",
+  "ext|kcanim|A|80": "Démarrer",
+  "ext|kcanim|A|81": "Stop",
+  "ext|kcanim|A|82": "Pause",
+  "ext|kcanim|A|83": "Reprendre",
+  "ext|kcanim|A|84": "Fixer la durée d'une image à <p0> ms",
+  "ext|kcanim|A|87": "Aller à l'image <p0>",
+  "ext|kcanim|A|88": "Image suivante",
+  "ext|kcanim|A|89": "Image précédente",
+  "ext|kcanim|A|90": "Fixer fichier à <p0>",
+  "ext|kcanim|A|91": "Nouveau fichier avec sélecteur",
+  "ext|kcarray|C|-81": "<object>: Index de la dimension X à la fin",
+  "ext|kcarray|C|-82": "<object>: Index de la dimension Y à la fin",
+  "ext|kcarray|C|-83": "<object>: Index de la dimension Z à la fin",
+  "ext|kcarray|A|80": "Fixer l'index de la dimension X à <p0>",
+  "ext|kcarray|A|81": "Fixer l'index de la dimension Y à <p0>",
+  "ext|kcarray|A|82": "Fixer l'index de la dimension Z à <p0>",
+  "ext|kcarray|A|83": "Ajouter 1 à l'index de la dimension X",
+  "ext|kcarray|A|84": "Ajouter 1 à l'index de la dimension Y",
+  "ext|kcarray|A|85": "Ajouter 1 à l'index de la dimension Z",
+  "ext|kcarray|A|86": "Ecrire la valeur <p0> à la position courante",
+  "ext|kcarray|A|87": "Ecrire la chaîne <p0> à la position courante",
+  "ext|kcarray|A|88": "Effacer le tableau",
+  "ext|kcarray|A|89": "Charger le tableau d'un fichier <p0>",
+  "ext|kcarray|A|90": "Charger le tableau d'un fichier avec un sélecteur de fichiers",
+  "ext|kcarray|A|91": "Enregistrer le tableau dans le fichier <p0>",
+  "ext|kcarray|A|92": "Enregistrer le tableau dans un fichier avec un sélecteur",
+  "ext|kcarray|A|93": "Ecrire valeur <p0> en (<p1>)",
+  "ext|kcarray|A|94": "Ecrire valeur <p0> en (<p1>, <p2>)",
+  "ext|kcarray|A|95": "Ecrire valeur <p0> en (<p1>, <p2>, <p3>)",
+  "ext|kcarray|A|96": "Ecrire chaîne <p0> en (<p1>)",
+  "ext|kcarray|A|97": "Ecrire chaîne <p0> en (<p1>, <p2>)",
+  "ext|kcarray|A|98": "Ecrire chaîne <p0> en (<p1>, <p2>, <p3>)",
+  "ext|kcboxa|C|-81": "On a cliqué sur <object>",
+  "ext|kcboxa|C|-82": "<object> est activé",
+  "ext|kcboxa|C|-83": "<object> est coché",
+  "ext|kcboxa|C|-84": "L'utilisateur clique avec le bouton gauche sur <object>",
+  "ext|kcboxa|C|-85": "L'utilisateur clique avec le bouton droit du <object>",
+  "ext|kcboxa|C|-86": "La souris se trouve au dessus de <object>",
+  "ext|kcboxa|C|-87": "L'image de <object> est montrée",
+  "ext|kcboxa|C|-88": "<object> est empilé",
+  "ext|kcboxa|A|80": "Fixer les dimensions à (<p0>, <p1>)",
+  "ext|kcboxa|A|81": "Fixer la position à (<p0>, <p1>)",
+  "ext|kcboxa|A|82": "Activer",
+  "ext|kcboxa|A|83": "Désactiver",
+  "ext|kcboxa|A|84": "Cocher",
+  "ext|kcboxa|A|85": "Décocher",
+  "ext|kcboxa|A|86": "Fixer la couleur de remplissage à rien",
+  "ext|kcboxa|A|87": "Fixer la couleur de remplissage à ombre sombre 3D",
+  "ext|kcboxa|A|88": "Fixer la couleur de remplissage à face 3D (aspect de bouton)",
+  "ext|kcboxa|A|89": "Fixer la couleur de remplissage à 3D surbrillant (surbrillant bouton)",
+  "ext|kcboxa|A|90": "Fixer la couleur de remplissage à 3D léger",
+  "ext|kcboxa|A|91": "Fixer la couleur de remplissage à 3D ombrée (ombre bouton)",
+  "ext|kcboxa|A|92": "Fixer la couleur de remplissage à celle du titre d'une fenêtre active",
+  "ext|kcboxa|A|93": "Fixer la couleur de remplissage à celle d'un fond MDI",
+  "ext|kcboxa|A|94": "Fixer la couleur de remplissage à celle du bureau",
+  "ext|kcboxa|A|95": "Fixer la couleur de remplissage à celle d'un élément sélectionné dans un contrôle",
+  "ext|kcboxa|A|96": "Fixer la couleur de remplissage à celle du titre d'une fenêtre inactive",
+  "ext|kcboxa|A|97": "Fixer la couleur de remplissage à celle du fond des tooltips",
+  "ext|kcboxa|A|98": "Fixer la couleur de remplissage à celle du fond d'un menu",
+  "ext|kcboxa|A|99": "Fixer la couleur de remplissage à celle de la partie grise d'une barre de scrolling",
+  "ext|kcboxa|A|100": "Fixer la couleur de remplissage à celle du fond de fenêtre",
+  "ext|kcboxa|A|101": "Fixer la couleur de remplissage au tour d'une fenêtre",
+  "ext|kcboxa|A|102": "Fixer la couleur de bordure #1 à rien",
+  "ext|kcboxa|A|103": "Fixer la couleur de bordure #1 à ombre 3D sombre",
+  "ext|kcboxa|A|104": "Fixer la couleur de bordure #1 à face 3D (devant de bouton)",
+  "ext|kcboxa|A|105": "Fixer la couleur de bordure #1 à 3D surbrillance (surbrillance bouton)",
+  "ext|kcboxa|A|106": "Fixer la couleur de bordure #1 à 3D léger",
+  "ext|kcboxa|A|107": "Fixer la couleur de bordure #1 à 3D ombrée (ombre bouton)",
+  "ext|kcboxa|A|108": "Fixer la couleur de bordure #1 à couleur de bordure de fenêtre active",
+  "ext|kcboxa|A|109": "Fixer la couleur de bordure #1 à bordure inactive",
+  "ext|kcboxa|A|110": "Fixer la couleur de bordure #1 à bord de fenêtre",
+  "ext|kcboxa|A|111": "Fixer la couleur de bordure #2 à rien",
+  "ext|kcboxa|A|112": "Fixer la couleur de bordure #2 à ombre 3D sombre",
+  "ext|kcboxa|A|113": "Fixer la couleur de bordure #2 à face 3D (devant de bouton)",
+  "ext|kcboxa|A|114": "Fixer la couleur de bordure #2 à 3D surbrillance (surbrillance bouton)",
+  "ext|kcboxa|A|115": "Fixer la couleur de bordure #2 à 3D léger",
+  "ext|kcboxa|A|116": "Fixer la couleur de bordure #2 à 3D ombrée (ombre bouton)",
+  "ext|kcboxa|A|117": "Fixer la couleur de bordure #2 à couleur de bordure de fenêtre active",
+  "ext|kcboxa|A|118": "Fixer la couleur de bordure #2 à bordure inactive",
+  "ext|kcboxa|A|119": "Fixer la couleur de bordure #2 à bord de fenêtre",
+  "ext|kcboxa|A|120": "Fixer la couleur de texte à rien",
+  "ext|kcboxa|A|121": "Fixer la couleur de texte à 3D surbrillant (surbrillant bouton)",
+  "ext|kcboxa|A|122": "Fixer la couleur de texte à 3D ombrée (ombre bouton)",
+  "ext|kcboxa|A|123": "Fixer la couleur de texte à texte bouton",
+  "ext|kcboxa|A|124": "Fixer la couleur de texte à titre de texte",
+  "ext|kcboxa|A|125": "Fixer la couleur de texte à texte grisé",
+  "ext|kcboxa|A|126": "Fixer la couleur de texte à texte sélectionné dans un contrôle",
+  "ext|kcboxa|A|127": "Fixer la couleur de texte à titre inactif",
+  "ext|kcboxa|A|128": "Fixer la couleur de texte à texte de tooltip",
+  "ext|kcboxa|A|129": "Fixer la couleur de texte à texte de menu",
+  "ext|kcboxa|A|130": "Fixer la couleur de texte à texte de fenêtre",
+  "ext|kcboxa|A|131": "Fixer la couleur de remplissage à <p0>",
+  "ext|kcboxa|A|132": "Fixer la couleur de bordure 1 à <p0>",
+  "ext|kcboxa|A|133": "Fixer la couleur de bordure 2 à <p0>",
+  "ext|kcboxa|A|134": "Fixer la couleur de texte à <p0>",
+  "ext|kcboxa|A|135": "Changer le texte en <p0>",
+  "ext|kcboxa|A|136": "Changer le texte du tooltip en <p0>",
+  "ext|kcboxa|A|137": "Désempiler",
+  "ext|kcboxa|A|138": "Empiler à gauche",
+  "ext|kcboxa|A|139": "Empiler à droite",
+  "ext|kcboxa|A|140": "Empiler en haut",
+  "ext|kcboxa|A|141": "Empiler en bas",
+  "ext|kcboxa|A|142": "Montrer l'image",
+  "ext|kcboxa|A|143": "Cacher l'image",
+  "ext|kcboxa|A|144": "Mettre à zéro l'état \"cliqué\"",
+  "ext|kcboxa|A|145": "Fixer la couleur des hyperliens à rien",
+  "ext|kcboxa|A|146": "Fixer la couleur des hyperliens à 3D surbrillant (surbrillant bouton)",
+  "ext|kcboxa|A|147": "Fixer la couleur des hyperliens à 3D ombrée (ombre bouton)",
+  "ext|kcboxa|A|148": "Fixer la couleur des hyperliens à texte bouton",
+  "ext|kcboxa|A|149": "Fixer la couleur des hyperliens à titre texte",
+  "ext|kcboxa|A|150": "Fixer la couleur des hyperliens à texte grisé",
+  "ext|kcboxa|A|151": "Fixer la couleur des hyperliens à texte d'un élément sélectionné dans un contrôle",
+  "ext|kcboxa|A|152": "Fixer la couleur des hyperliens à titre inactif texte",
+  "ext|kcboxa|A|153": "Fixer la couleur des hyperliens à texte de tooltip",
+  "ext|kcboxa|A|154": "Fixer la couleur des hyperliens à texte de menu",
+  "ext|kcboxa|A|155": "Fixer la couleur des hyperliens à texte de fenêtre",
+  "ext|kcboxa|A|156": "Fixer la couleur d'hyperlien à <p0>",
+  "ext|kcboxa|A|157": "Attacher l'option de menu <p0>",
+  "ext|kcboxb|C|-82": "<object> est activé",
+  "ext|kcboxb|C|-86": "La souris se trouve au dessus de <object>",
+  "ext|kcboxb|C|-87": "L'image de <object> est montrée",
+  "ext|kcboxb|A|80": "Fixer les dimensions à (<p0>, <p1>)",
+  "ext|kcboxb|A|81": "Fixer la position à (<p0>, <p1>)",
+  "ext|kcboxb|A|82": "Activer",
+  "ext|kcboxb|A|83": "Désactiver",
+  "ext|kcboxb|A|86": "Fixer la couleur de remplissage à rien",
+  "ext|kcboxb|A|87": "Fixer la couleur de remplissage à ombre sombre 3D",
+  "ext|kcboxb|A|88": "Fixer la couleur de remplissage à face 3D (aspect de bouton)",
+  "ext|kcboxb|A|89": "Fixer la couleur de remplissage à 3D surbrillant (surbrillant bouton)",
+  "ext|kcboxb|A|90": "Fixer la couleur de remplissage à 3D léger",
+  "ext|kcboxb|A|91": "Fixer la couleur de remplissage à 3D ombrée (ombre bouton)",
+  "ext|kcboxb|A|92": "Fixer la couleur de remplissage à celle du titre d'une fenêtre active",
+  "ext|kcboxb|A|93": "Fixer la couleur de remplissage à celle d'un fond MDI",
+  "ext|kcboxb|A|94": "Fixer la couleur de remplissage à celle du bureau",
+  "ext|kcboxb|A|95": "Fixer la couleur de remplissage à celle d'un élément sélectionné dans un contrôle",
+  "ext|kcboxb|A|96": "Fixer la couleur de remplissage à celle du titre d'une fenêtre inactive",
+  "ext|kcboxb|A|97": "Fixer la couleur de remplissage à celle du fond des tooltips",
+  "ext|kcboxb|A|98": "Fixer la couleur de remplissage à celle du fond d'un menu",
+  "ext|kcboxb|A|99": "Fixer la couleur de remplissage à celle de la partie grise d'une barre de scrolling",
+  "ext|kcboxb|A|100": "Fixer la couleur de remplissage à celle du fond de fenêtre",
+  "ext|kcboxb|A|101": "Fixer la couleur de remplissage au tour d'une fenêtre",
+  "ext|kcboxb|A|102": "Fixer la couleur de bordure #1 à rien",
+  "ext|kcboxb|A|103": "Fixer la couleur de bordure #1 à ombre 3D sombre",
+  "ext|kcboxb|A|104": "Fixer la couleur de bordure #1 à face 3D (devant de bouton)",
+  "ext|kcboxb|A|105": "Fixer la couleur de bordure #1 à 3D surbrillance (surbrillance bouton)",
+  "ext|kcboxb|A|106": "Fixer la couleur de bordure #1 à 3D léger",
+  "ext|kcboxb|A|107": "Fixer la couleur de bordure #1 à 3D ombrée (ombre bouton)",
+  "ext|kcboxb|A|108": "Fixer la couleur de bordure #1 à couleur de bordure de fenêtre active",
+  "ext|kcboxb|A|109": "Fixer la couleur de bordure #1 à bordure inactive",
+  "ext|kcboxb|A|110": "Fixer la couleur de bordure #1 à bord de fenêtre",
+  "ext|kcboxb|A|111": "Fixer la couleur de bordure #2 à rien",
+  "ext|kcboxb|A|112": "Fixer la couleur de bordure #2 à ombre 3D sombre",
+  "ext|kcboxb|A|113": "Fixer la couleur de bordure #2 à face 3D (devant de bouton)",
+  "ext|kcboxb|A|114": "Fixer la couleur de bordure #2 à 3D surbrillance (surbrillance bouton)",
+  "ext|kcboxb|A|115": "Fixer la couleur de bordure #2 à 3D léger",
+  "ext|kcboxb|A|116": "Fixer la couleur de bordure #2 à 3D ombrée (ombre bouton)",
+  "ext|kcboxb|A|117": "Fixer la couleur de bordure #2 à couleur de bordure de fenêtre active",
+  "ext|kcboxb|A|118": "Fixer la couleur de bordure #2 à bordure inactive",
+  "ext|kcboxb|A|119": "Fixer la couleur de bordure #2 à bord de fenêtre",
+  "ext|kcboxb|A|120": "Fixer la couleur de texte à rien",
+  "ext|kcboxb|A|121": "Fixer la couleur de texte à 3D surbrillant (surbrillant bouton)",
+  "ext|kcboxb|A|122": "Fixer la couleur de texte à 3D ombrée (ombre bouton)",
+  "ext|kcboxb|A|123": "Fixer la couleur de texte à texte bouton",
+  "ext|kcboxb|A|124": "Fixer la couleur de texte à titre de texte",
+  "ext|kcboxb|A|125": "Fixer la couleur de texte à texte grisé",
+  "ext|kcboxb|A|126": "Fixer la couleur de texte à texte sélectionné dans un contrôle",
+  "ext|kcboxb|A|127": "Fixer la couleur de texte à titre inactif",
+  "ext|kcboxb|A|128": "Fixer la couleur de texte à texte de tooltip",
+  "ext|kcboxb|A|129": "Fixer la couleur de texte à texte de menu",
+  "ext|kcboxb|A|130": "Fixer la couleur de texte à texte de fenêtre",
+  "ext|kcboxb|A|131": "Fixer la couleur de remplissage à <p0>",
+  "ext|kcboxb|A|132": "Fixer la couleur de bordure 1 à <p0>",
+  "ext|kcboxb|A|133": "Fixer la couleur de bordure 2 à <p0>",
+  "ext|kcboxb|A|134": "Fixer la couleur de texte à <p0>",
+  "ext|kcboxb|A|135": "Changer le texte en <p0>",
+  "ext|kcboxb|A|136": "Changer le texte du tooltip en <p0>",
+  "ext|kcboxb|A|142": "Montrer l'image",
+  "ext|kcboxb|A|143": "Cacher l'image",
+  "ext|kcbutton|C|-81": "La case à cocher <object> est cochée",
+  "ext|kcbutton|C|-82": "Bouton <object> cliqué",
+  "ext|kcbutton|C|-84": "Le bouton <object> est visible",
+  "ext|kcbutton|C|-85": "Le bouton <object> est activé",
+  "ext|kcbutton|C|-86": "Le bouton radio <p0> de <object> est activé",
+  "ext|kcbutton|A|80": "Changer le texte en <p0>",
+  "ext|kcbutton|A|81": "Faire réapparaître l'objet",
+  "ext|kcbutton|A|82": "Rendre l'objet invisible",
+  "ext|kcbutton|A|83": "Activer",
+  "ext|kcbutton|A|84": "Désactiver",
+  "ext|kcbutton|A|86": "Fixer la taille horizontale à <p0>",
+  "ext|kcbutton|A|87": "Fixer la taille verticale à <p0>",
+  "ext|kcbutton|A|88": "Changer le texte du bouton radio <p0> en <p1>",
+  "ext|kcbutton|A|89": "Activer le bouton radio numéro <p0>",
+  "ext|kcbutton|A|90": "Désactiver le bouton radio numéro <p0>",
+  "ext|kcbutton|A|91": "Sélectionner bouton radio numéro <p0>",
+  "ext|kcbutton|A|94": "Cocher",
+  "ext|kcbutton|A|95": "Décocher",
+  "ext|kcbutton|A|96": "Attacher option de menu <p0>",
+  "ext|kcbutton|A|97": "Fixer le texte du tooltip à <p0>",
+  "ext|kccda|C|-81": "<object>: position temps dans la piste <p0>",
+  "ext|kccda|C|-82": "<object>: la position temps <p0>",
+  "ext|kccda|A|80": "Jouer a partir de la piste <p0>",
+  "ext|kccda|A|81": "Stop",
+  "ext|kccda|A|82": "Pause",
+  "ext|kccda|A|83": "Reprendre",
+  "ext|kccda|A|84": "Piste précédente",
+  "ext|kccda|A|85": "Piste suivante",
+  "ext|kccda|A|86": "Jouer à <p0>",
+  "ext|kccda|A|87": "Ouvrir le tiroir",
+  "ext|kccda|A|88": "Fermer le tiroir",
+  "ext|kccda|A|89": "Jouer piste <p0>",
+  "ext|kcclkblk|A|80": "Bloquer le clic à gauche",
+  "ext|kcclkblk|A|81": "Bloquer le clic du milieu",
+  "ext|kcclkblk|A|82": "Bloquer le clic à droite",
+  "ext|kcclkblk|A|83": "Débloquer le clic à gauche",
+  "ext|kcclkblk|A|84": "Débloquer le clic du milieu",
+  "ext|kcclkblk|A|85": "Débloquer le clic droit",
+  "ext|kcclock|C|-81": "Chrono<p0>",
+  "ext|kcclock|C|-82": "<object>: Nouvelle seconde",
+  "ext|kcclock|C|-83": "<object>: Nouvelle minute",
+  "ext|kcclock|C|-84": "<object>: Nouvelle heure",
+  "ext|kcclock|C|-85": "<object>: Nouveau jour",
+  "ext|kcclock|C|-86": "<object>: Nouveau mois",
+  "ext|kcclock|C|-87": "<object>: Nouvelle année",
+  "ext|kcclock|C|-88": "Compte à rebours<p0>",
+  "ext|kcclock|C|-89": "Le bouton <object> est visible",
+  "ext|kcclock|A|80": "Changer les centièmes de seconde à <p0>",
+  "ext|kcclock|A|81": "Changer les secondes à <p0>",
+  "ext|kcclock|A|82": "Changer les minutes à <p0>",
+  "ext|kcclock|A|83": "Mettre les heures à <p0>",
+  "ext|kcclock|A|84": "Changer jour de la semaine à <p0>",
+  "ext|kcclock|A|85": "Changer jour du mois à <p0>",
+  "ext|kcclock|A|86": "Changer le mois à <p0>",
+  "ext|kcclock|A|87": "Changer l'année à <p0>",
+  "ext|kcclock|A|88": "RAZ chronomètre",
+  "ext|kcclock|A|89": "Lancer chrono",
+  "ext|kcclock|A|90": "Stopper chrono",
+  "ext|kcclock|A|91": "Montrer",
+  "ext|kcclock|A|92": "Cacher",
+  "ext|kcclock|A|93": "Fixer la position à <p0>",
+  "ext|kcclock|A|94": "Fixer compte à rebours à <p0>",
+  "ext|kcclock|A|95": "Lancer compte à rebours",
+  "ext|kcclock|A|96": "Compte à rebours en pause",
+  "ext|kcclock|A|97": "Fixer la position horizontale à <p0>",
+  "ext|kcclock|A|98": "Fixer la position verticale à <p0>",
+  "ext|kcclock|A|99": "Fixer la taille horizontale à <p0>",
+  "ext|kcclock|A|100": "Fixer la taille verticale à <p0>",
+  "ext|kccombo|C|-81": "<object>: Visible",
+  "ext|kccombo|C|-82": "<object>: Activé",
+  "ext|kccombo|C|-83": "<object>: Double clic",
+  "ext|kccombo|C|-84": "<object>: Sélection modifiée",
+  "ext|kccombo|C|-85": "<object>: A le focus",
+  "ext|kccombo|C|-86": "<object>: Liste ouverte",
+  "ext|kccombo|A|80": "Charger le fichier liste <p0>",
+  "ext|kccombo|A|81": "Charger la liste de lecteurs",
+  "ext|kccombo|A|82": "Charger le répertoire depuis <p0>",
+  "ext|kccombo|A|83": "Charger la liste des fichiers de <p0>",
+  "ext|kccombo|A|84": "Enregistrer le fichier liste <p0>",
+  "ext|kccombo|A|85": "Remise à zéro",
+  "ext|kccombo|A|86": "Ajouter la ligne <p0>",
+  "ext|kccombo|A|87": "Insérer la ligne <p1> à la ligne <p0>",
+  "ext|kccombo|A|88": "Détruire la ligne <p0>",
+  "ext|kccombo|A|89": "Fixer la ligne courante <p0>",
+  "ext|kccombo|A|90": "Montrer",
+  "ext|kccombo|A|91": "Cacher",
+  "ext|kccombo|A|92": "Prendre le focus",
+  "ext|kccombo|A|93": "Activer",
+  "ext|kccombo|A|94": "Désactiver",
+  "ext|kccombo|A|99": "Fixer la taille horizontale à <p0>",
+  "ext|kccombo|A|100": "Fixer la taille verticale à <p0>",
+  "ext|kccombo|A|101": "Perdre le focus",
+  "ext|kccombo|A|102": "Changer le texte édité en <p0>",
+  "ext|kccombo|A|103": "Défiler jusqu'au début",
+  "ext|kccombo|A|104": "Défiler jusqu'à la ligne <p0>",
+  "ext|kccombo|A|105": "Défiler jusqu'à la fin",
+  "ext|kccombo|A|106": "Fixer la couleur de texte à <p0>",
+  "ext|kccombo|A|107": "Fixer la couleur de fond à <p0>",
+  "ext|kccombo|A|108": "Lister les polices",
+  "ext|kccombo|A|109": "Lister les tailles de polices pour <p0>",
+  "ext|kccombo|A|110": "Fixer les données de la ligne <p0> à <p1>",
+  "ext|kccombo|A|111": "Changer ligne <p0> en <p1>",
+  "ext|kccursor|A|80": "Changer le pointeur en flèche standard et petit sablier",
+  "ext|kccursor|A|81": "Changer le pointeur en flèche standard",
+  "ext|kccursor|A|82": "Changer le pointeur en croix",
+  "ext|kccursor|A|83": "Changer le pointeur en curseur texte",
+  "ext|kccursor|A|84": "Changer le pointeur en cercle barré",
+  "ext|kccursor|A|85": "Changer le pointeur en quadruple flèche (Windows NT seulement)",
+  "ext|kccursor|A|86": "Changer le pointeur en double flèche pointant nord-est et sud-ouest",
+  "ext|kccursor|A|87": "Changer le pointeur en double flèche pointant nord et sud",
+  "ext|kccursor|A|88": "Changer le pointeur en double flèche pointant nord-ouest et sud-est",
+  "ext|kccursor|A|89": "Changer le pointeur en double flèche pointant ouest et est",
+  "ext|kccursor|A|90": "Changer le pointeur en flèche verticale",
+  "ext|kccursor|A|91": "Changer le pointeur en sablier",
+  "ext|kccursor|A|92": "Changer le pointeur en pointeur d'aide",
+  "ext|kccursor|A|93": "Changer le pointeur en image numéro <p0>",
+  "ext|kccursor|A|94": "Changer le pointeur en <p0>",
+  "ext|kccursor|A|95": "Changer le pointeur en main",
+  "ext|kccursor|A|96": "Changer le pointeur en loupe",
+  "ext|kccursor|A|97": "Changer le pointeur en sélecteur de couleurs",
+  "ext|kccursor|A|98": "Changer le pointeur en remplissage",
+  "ext|kccursor|A|99": "Changer le pointeur en séparation horizontale",
+  "ext|kccursor|A|100": "Changer le pointeur en séparation verticale",
+  "ext|kccursor|A|101": "Changer le pointeur en drag (copier)",
+  "ext|kccursor|A|102": "Changer le pointeur en drag (déplacer)",
+  "ext|kccursor|A|103": "Changer le pointeur en drag (raccourci)",
+  "ext|kccursor|A|104": "Utiliser la forme de l'objet actif <p0>",
+  "ext|kcdraw|C|-81": "La souris entre dans <p0>",
+  "ext|kcdraw|C|-82": "La souris sort de <p0>",
+  "ext|kcdraw|A|80": "Passer en mode interactif",
+  "ext|kcdraw|A|81": "Passer en mode passif",
+  "ext|kcdraw|A|82": "Sélectionner l'outil brosse",
+  "ext|kcdraw|A|83": "Sélectionner l'outil ligne",
+  "ext|kcdraw|A|84": "Sélectionner l'outil rectangle",
+  "ext|kcdraw|A|85": "Sélectionner l'outil ellipse",
+  "ext|kcdraw|A|86": "Sélectionner l'outil forme",
+  "ext|kcdraw|A|87": "Sélectionner l'outil polygône",
+  "ext|kcdraw|A|88": "Sélectionner l'outil remplissage",
+  "ext|kcdraw|A|89": "Sélectionner l'outil sélecteur de couleur",
+  "ext|kcdraw|A|90": "Sélectionner l'outil gomme",
+  "ext|kcdraw|A|91": "Fixer la couleur de remplissage: <p0>",
+  "ext|kcdraw|A|92": "Fixer la couleur de bordure: <p0>",
+  "ext|kcdraw|A|93": "Fixer la couleur de papier: <p0>",
+  "ext|kcdraw|A|94": "Demander la couleur de remplissage",
+  "ext|kcdraw|A|95": "Demander la couleur de bordure",
+  "ext|kcdraw|A|96": "Demander la couleur de papier",
+  "ext|kcdraw|A|97": "Effacer le papier",
+  "ext|kcdraw|A|98": "Bouger l'outil au point (<p0>, <p1>)",
+  "ext|kcdraw|A|99": "Changer le style de brosse à continue",
+  "ext|kcdraw|A|100": "Changer le style de brosse à discontinu",
+  "ext|kcdraw|A|101": "Changer le style de brosse à \"une touche\"",
+  "ext|kcdraw|A|102": "Changer l'épaisseur de ligne à <p0>",
+  "ext|kcdraw|A|103": "Changer le style rectangle à détouré",
+  "ext|kcdraw|A|104": "Changer le style rectangle à rempli",
+  "ext|kcdraw|A|105": "Changer le style rectangle à détouré + rempli",
+  "ext|kcdraw|A|106": "Changer l'épaisseur de rectangle à <p0>",
+  "ext|kcdraw|A|107": "Changer le style de l'ellipse à détouré",
+  "ext|kcdraw|A|108": "Changer le style de l'ellipse à rempli",
+  "ext|kcdraw|A|109": "Changer le style de l'ellipse à détouré + rempli",
+  "ext|kcdraw|A|110": "Changer l'épaisseur de l'ellipse à <p0>",
+  "ext|kcdraw|A|111": "Changer le style de forme à détouré",
+  "ext|kcdraw|A|112": "Changer le style de forme à rempli",
+  "ext|kcdraw|A|113": "Changer le style de forme à détouré + rempli",
+  "ext|kcdraw|A|114": "Changer l'épaisseur de forme à <p0>",
+  "ext|kcdraw|A|115": "Changer le style de polygône à détouré",
+  "ext|kcdraw|A|116": "Changer le style de polygône à rempli",
+  "ext|kcdraw|A|117": "Changer le style de polygône à détouré + rempli",
+  "ext|kcdraw|A|118": "Changer l'épaisseur de polygône à <p0>",
+  "ext|kcdraw|A|119": "Dessiner un point",
+  "ext|kcdraw|A|120": "Dessiner une ligne au point (<p0>, <p1>)",
+  "ext|kcdraw|A|121": "Dessiner un rectangle au point (<p0>, <p1>)",
+  "ext|kcdraw|A|122": "Dessiner une ellipse au point (<p0>, <p1>)",
+  "ext|kcdraw|A|123": "Remplissage",
+  "ext|kcdraw|A|124": "Changer toutes les épaisseurs à <p0>",
+  "ext|kcdraw|A|125": "Sauve l'outil courant",
+  "ext|kcdraw|A|126": "Restaure le dernier outil sauvé",
+  "ext|kcedit|C|-81": "<object>: est visible",
+  "ext|kcedit|C|-82": "<object>: est activé",
+  "ext|kcedit|C|-83": "<object>: de l'UNDO est disponible",
+  "ext|kcedit|C|-84": "<object>: a été modifiée",
+  "ext|kcedit|C|-85": "<object>: a le focus",
+  "ext|kcedit|C|-86": "<object>: le texte est un nombre",
+  "ext|kcedit|C|-87": "<object>: du texte est sélectionné",
+  "ext|kcedit|A|80": "Charger le fichier texte <p0>",
+  "ext|kcedit|A|81": "Charger un texte avec un sélecteur de fichier",
+  "ext|kcedit|A|82": "Enregistrer le fichier texte <p0>",
+  "ext|kcedit|A|83": "Enregistrer le fichier texte avec un sélecteur",
+  "ext|kcedit|A|84": "Changer le texte <p0>",
+  "ext|kcedit|A|85": "Remplacer la sélection par <p0>",
+  "ext|kcedit|A|86": "Couper",
+  "ext|kcedit|A|87": "Copier",
+  "ext|kcedit|A|88": "Coller",
+  "ext|kcedit|A|89": "Effacer",
+  "ext|kcedit|A|90": "Annuler",
+  "ext|kcedit|A|91": "Effacer le tampon Undo",
+  "ext|kcedit|A|92": "Montrer",
+  "ext|kcedit|A|93": "Cacher",
+  "ext|kcedit|A|94": "Changer la police avec un sélecteur",
+  "ext|kcedit|A|95": "Fixer la couleur de fond avec un sélecteur",
+  "ext|kcedit|A|96": "Mettre le focus",
+  "ext|kcedit|A|97": "Sélectionner",
+  "ext|kcedit|A|98": "Désélectionner",
+  "ext|kcedit|A|99": "Mode lecture seule ON",
+  "ext|kcedit|A|100": "Mode lecture seule OFF",
+  "ext|kcedit|A|101": "Drapeau \"texte modifié\" ON",
+  "ext|kcedit|A|102": "Drapeau \"texte modifié\" OFF",
+  "ext|kcedit|A|103": "Limiter la taille du texte à <p0>",
+  "ext|kcedit|A|108": "Fixer la taille horizontale à <p0>",
+  "ext|kcedit|A|109": "Fixer la taille verticale à <p0>",
+  "ext|kcedit|A|110": "Enlever le focus",
+  "ext|kcedit|A|111": "Défiler jusqu'au début",
+  "ext|kcedit|A|112": "Défiler jusqu'à la ligne <p0>",
+  "ext|kcedit|A|113": "Défiler jusqu'à la fin",
+  "ext|kcedit|A|114": "Fixer la couleur de texte à <p0>",
+  "ext|kcedit|A|115": "Fixer la couleur de fond à <p0>",
+  "ext|kcedit|A|116": "Insérer texte <p0> à la position du curseur <p1>",
+  "ext|kcedit|A|117": "Mettre le curseur à la position <p0>",
+  "ext|kcfile|C|-81": "<object>: Dernière action OK",
+  "ext|kcfile|C|-82": "<object>: <p0> existe",
+  "ext|kcfile|C|-83": "<object>: <p0> peut être lu",
+  "ext|kcfile|C|-84": "<object>: <p0> peut être écrit",
+  "ext|kcfile|C|-85": "<object>: <p0> est un fichier",
+  "ext|kcfile|C|-86": "<object>: <p0> est un répertoire",
+  "ext|kcfile|C|-87": "<object>: Bouton OK appuyé",
+  "ext|kcfile|C|-88": "<object>: Bouton Annuler appuyé",
+  "ext|kcfile|A|80": "Répertoire courant <p0>",
+  "ext|kcfile|A|81": "Fixer le répertoire à l'original",
+  "ext|kcfile|A|82": "Créer le répertoire <p0>",
+  "ext|kcfile|A|83": "Détruire le répertoire <p0>",
+  "ext|kcfile|A|84": "Créer le fichier <p0>",
+  "ext|kcfile|A|85": "Détruire le fichier <p0>",
+  "ext|kcfile|A|86": "renommer <p0> en <p1>",
+  "ext|kcfile|A|87": "Ajouter <p0> à <p1>",
+  "ext|kcfile|A|88": "Copier <p0> à <p1>",
+  "ext|kcfile|A|89": "Bouger <p0> vers <p1>",
+  "ext|kcfile|A|90": "Ajouter <p0> à <p1>",
+  "ext|kcfile|A|91": "Effacer la dernière erreur",
+  "ext|kcfile|A|92": "<object>: Lancer application <p0> <p1>",
+  "ext|kcfile|A|93": "Fixer le titre du sélecteur de fichier à <p0>",
+  "ext|kcfile|A|94": "Fixer le style du sélecteur de fichier à <p0>",
+  "ext|kcfile|A|96": "Fixer les filtres du sélecteur à <p0>, et utiliser le numéro <p1>",
+  "ext|kcfile|A|97": "Fixer l'extension par défaut du sélecteur à <p0>",
+  "ext|kcfile|A|98": "Ouvrir le sélecteur de chargement sur <p0>",
+  "ext|kcfile|A|99": "Ouvrir le sélecteur d'enregistrement sur <p0>",
+  "ext|kcfile|A|100": "Mode simple sélection",
+  "ext|kcfile|A|101": "Mode multiple sélections",
+  "ext|kcfile|A|102": "Ouvrir le sélecteur de répertoire sur <p0>",
+  "ext|kcftp|C|-81": "<object> a rencontré une erreur",
+  "ext|kcftp|C|-82": "Pour <object>, <p0> est un fichier",
+  "ext|kcftp|C|-83": "Pour <object>, <p0> est un répertoire",
+  "ext|kcftp|C|-84": "Encore des fichiers à scanner pour l'objet <object>",
+  "ext|kcftp|C|-85": "Transfert en progression pour <object>",
+  "ext|kcftp|C|-86": "<object> est connecté",
+  "ext|kcftp|C|-87": "<object>: Le mode de transfert est-il binaire?",
+  "ext|kcftp|A|80": "Ouvrir la connexion à l'URL <p0>",
+  "ext|kcftp|A|81": "Fermer la connexion",
+  "ext|kcftp|A|82": "Télécharger <p0> depuis <p1>",
+  "ext|kcftp|A|83": "Uploader <p0> vers <p1>",
+  "ext|kcftp|A|84": "Fixer le répertoire courant de <object> à <p0>",
+  "ext|kcftp|A|85": "Charger le répertoire avec le joker <p0>",
+  "ext|kcftp|A|86": "<object> scanne les répertoires",
+  "ext|kcftp|A|87": "Fixer le nom d'utilisateur à <p0> et le mot de passe à <p1>",
+  "ext|kcftp|A|88": "Créer répertoire <p0>",
+  "ext|kcftp|A|89": "Détruire répertoire <p0>",
+  "ext|kcftp|A|90": "Détruire fichier <p0>",
+  "ext|kcftp|A|91": "Abandonner le transfert",
+  "ext|kcftp|A|93": "Fixer le numéro de port à <p0>",
+  "ext|kcftp|A|94": "Passer en mode de transfert binaire",
+  "ext|kcftp|A|95": "Passer en mode de transfert ASCII",
+  "ext|kchisc|C|-81": "<p0> a un hi-score",
+  "ext|kchisc|C|-82": "Le tableau de hi-scores <object> est visible",
+  "ext|kchisc|A|80": "Demander le nom de <p0>",
+  "ext|kchisc|A|81": "Cacher",
+  "ext|kchisc|A|82": "Montrer",
+  "ext|kchisc|A|83": "Remise à zéro",
+  "ext|kchisc|A|84": "Changer le nom <p0> en <p1>",
+  "ext|kchisc|A|85": "Changer le score <p0> en <p1>",
+  "ext|kchisc|A|86": "Fixer la position à <p0>",
+  "ext|kchisc|A|87": "Fixer la position horizontale à <p0>",
+  "ext|kchisc|A|88": "Fixer la position verticale à <p0>",
+  "ext|kchisc|A|89": "Insérer hi-score <p0> et le nom <p1>",
+  "ext|kchisc|A|90": "Fixer fichier courant à <p0>",
+  "ext|kcini|A|80": "Fixer groupe courant à <p0>",
+  "ext|kcini|A|81": "Fixer élément courant à <p0>",
+  "ext|kcini|A|82": "Fixer la valeur à <p0>",
+  "ext|kcini|A|83": "Enregistrer la position de <p0>",
+  "ext|kcini|A|84": "Charger la position de <p0>",
+  "ext|kcini|A|85": "Fixer la chaîne à <p0>",
+  "ext|kcini|A|86": "Fixer fichier courant à <p0>",
+  "ext|kcini|A|87": "Fixer valeur <p1> dans élément <p0>",
+  "ext|kcini|A|88": "Fixer valeur <p2> dans élément <p1> et groupe <p0>",
+  "ext|kcini|A|89": "Fixer chaîne <p1> de l'élément <p0>",
+  "ext|kcini|A|90": "Fixer chaîne <p2> de l'élément <p1> dans le groupe <p0>",
+  "ext|kcini|A|91": "Détruire élément <p0>",
+  "ext|kcini|A|92": "Détruire élément <p1> dans groupe <p0>",
+  "ext|kcini|A|93": "Détruire groupe <p0>",
+  "ext|kclist|C|-81": "<object>: Visible",
+  "ext|kclist|C|-82": "<object>: Activé",
+  "ext|kclist|C|-83": "<object>: Double clic",
+  "ext|kclist|C|-84": "<object>: Sélection modifiée",
+  "ext|kclist|C|-85": "<object>: A le focus",
+  "ext|kclist|A|80": "Charger le fichier liste <p0>",
+  "ext|kclist|A|81": "Charger la liste de lecteurs",
+  "ext|kclist|A|82": "Charger le répertoire depuis <p0>",
+  "ext|kclist|A|83": "Charger la liste des fichiers de <p0>",
+  "ext|kclist|A|84": "Enregistrer le fichier liste <p0>",
+  "ext|kclist|A|85": "Remise à zéro",
+  "ext|kclist|A|86": "Ajouter la ligne <p0>",
+  "ext|kclist|A|87": "Insérer la ligne <p1> à la ligne <p0>",
+  "ext|kclist|A|88": "Détruire la ligne <p0>",
+  "ext|kclist|A|89": "Fixer la ligne courante <p0>",
+  "ext|kclist|A|90": "Montrer",
+  "ext|kclist|A|91": "Cacher",
+  "ext|kclist|A|92": "Prendre le focus",
+  "ext|kclist|A|93": "Activer",
+  "ext|kclist|A|94": "Désactiver",
+  "ext|kclist|A|99": "Fixer la taille horizontale à <p0>",
+  "ext|kclist|A|100": "Fixer la taille verticale à <p0>",
+  "ext|kclist|A|101": "Perdre le focus",
+  "ext|kclist|A|102": "Défiler jusqu'au début",
+  "ext|kclist|A|103": "Défiler jusqu'à la ligne <p0>",
+  "ext|kclist|A|104": "Défiler jusqu'à la fin",
+  "ext|kclist|A|105": "Fixer la couleur de texte à <p0>",
+  "ext|kclist|A|106": "Fixer la couleur de fond à <p0>",
+  "ext|kclist|A|107": "Lister les polices",
+  "ext|kclist|A|108": "Lister les tailles de polices pour <p0>",
+  "ext|kclist|A|109": "Fixer les données de la ligne <p0> à <p1>",
+  "ext|kclist|A|110": "Changer ligne <p0> en <p1>",
+  "ext|kcmci|C|-81": "Valeur de retour <p0>",
+  "ext|kcmci|C|-82": "Chaîne de retour <p0>",
+  "ext|kcmci|A|80": "Envoyer <p0>",
+  "ext|kcmixer|A|80": "Changer le volume droit et gauche des échantillons à <p0>",
+  "ext|kcmixer|A|81": "Changer le volume gauche des échantillons à <p0>",
+  "ext|kcmixer|A|82": "Changer le volume droit des échantillons à <p0>",
+  "ext|kcmixer|A|83": "Changer les volumes gauche et droite synthétiseur FM à <p0>",
+  "ext|kcmixer|A|84": "Changer le volume gauche du synthétiseur FM à <p0>",
+  "ext|kcmixer|A|85": "Changer le volume droit du synthétiseur FM à <p0>",
+  "ext|kcmixer|A|86": "Changer le volume droit et gauche du synthétiseur carré à <p0>",
+  "ext|kcmixer|A|87": "Changer le volume gauche du synthétiseur carré à <p0>",
+  "ext|kcmixer|A|88": "Changer le volume droit du synthétiseur carré à <p0>",
+  "ext|kcmpeg|C|-81": "<object>: début de vidéo",
+  "ext|kcmpeg|C|-82": "<object>: fin de la vidéo",
+  "ext|kcmpeg|C|-83": "L'utilisateur <p0> au milieu de <object>",
+  "ext|kcmpeg|C|-84": "<object>: L'image courante <p0>",
+  "ext|kcmpeg|C|-85": "<object>: le temps courant <p0>",
+  "ext|kcmpeg|C|-86": "<object>: le fichier est ouvert",
+  "ext|kcmpeg|C|-87": "<object>: visible",
+  "ext|kcmpeg|A|80": "Jouer la vidéo",
+  "ext|kcmpeg|A|81": "Arrêter la vidéo",
+  "ext|kcmpeg|A|82": "Mettre la vidéo en pause",
+  "ext|kcmpeg|A|83": "Reprendre la vidéo",
+  "ext|kcmpeg|A|84": "Jouer la vidéo en arrière",
+  "ext|kcmpeg|A|85": "Jouer <p0> images",
+  "ext|kcmpeg|A|86": "Nouveau fichier <p0>",
+  "ext|kcmpeg|A|87": "Nouveau fichier avec sélecteur",
+  "ext|kcmpeg|A|88": "Cacher",
+  "ext|kcmpeg|A|89": "Montrer",
+  "ext|kcmpeg|A|90": "Aller au début",
+  "ext|kcmpeg|A|91": "Aller à la fin",
+  "ext|kcmpeg|A|92": "Aller à l'image <p0>",
+  "ext|kcmpeg|A|93": "Aller au temps <p0>",
+  "ext|kcmpeg|A|95": "Fixer la taille horizontale à <p0>",
+  "ext|kcmpeg|A|96": "Fixer la taille verticale à <p0>",
+  "ext|kcmslot|C|-81": "<object>: Message disponible sur le canal <p0>",
+  "ext|kcmslot|C|-82": "<object>: Erreur",
+  "ext|kcmslot|A|80": "Ouvrir le canal <p0> comme <p1>",
+  "ext|kcmslot|A|81": "Fermer le canal <p0>",
+  "ext|kcmslot|A|82": "Envoyer nombre <p0> au canal <p1>",
+  "ext|kcmslot|A|83": "Envoyer une chaîne <p0> au canal <p1>",
+  "ext|kcmslot|A|84": "RAZ erreur",
+  "ext|kcodbc|C|-81": "<object>: données prêtes?",
+  "ext|kcodbc|A|80": "Sélectionner une nouvelle source de données",
+  "ext|kcodbc|A|81": "Choisir une source de données avec un sélecteur",
+  "ext|kcodbc|A|82": "Envoyer la commande SQL <p0>",
+  "ext|kcodbc|A|83": "Nouvelle instruction",
+  "ext|kcodbc|A|84": "Récupérer rangée",
+  "ext|kcodbc|A|85": "Fixer la taille maxi des rangées à <p0>",
+  "ext|kcpict|C|-81": "<object>: une image est chargée",
+  "ext|kcpict|C|-82": "<object>: visible",
+  "ext|kcpict|A|80": "Nouvelle image : <p0>",
+  "ext|kcpict|A|81": "Nouvelle image avec sélecteur",
+  "ext|kcpict|A|82": "Montrer",
+  "ext|kcpict|A|83": "Cacher",
+  "ext|kcpict|A|84": "Redimensionnement image ON",
+  "ext|kcpict|A|85": "Redimensionnement image OFF",
+  "ext|kcplugin|C|-81": "<p0> est-il en train d'être chargé?",
+  "ext|kcplugin|C|-82": "<p0> est-il chargé?",
+  "ext|kcplugin|C|-83": "Le téléchargement de <p0> a-t-il échoué",
+  "ext|kcplugin|C|-84": "<p0> est-il dans la liste de téléchargement",
+  "ext|kcplugin|C|-85": "En cas d'erreur",
+  "ext|kcplugin|A|80": "Ouvrir l'URL <p0> dans la fenêtre du plug-in",
+  "ext|kcplugin|A|81": "Ouvrir l'URL <p0> dans la fenêtre courante",
+  "ext|kcplugin|A|82": "Ouvrir l'URL <p0> dans la fenêtre parent",
+  "ext|kcplugin|A|83": "Ouvrir l'URL <p0> dans la fenêtre de premier niveau",
+  "ext|kcplugin|A|84": "Ouvrir l'URL <p0> dans une nouvelle fenêtre",
+  "ext|kcplugin|A|85": "Afficher le message d'information <p0>",
+  "ext|kcplugin|A|86": "Ouvrir l'URL <p0> dans la fenêtre <p1>",
+  "ext|kcplugin|A|87": "Télécharger <p0>",
+  "ext|kcplugin|A|88": "Anulation du téléchargement de <p0>",
+  "ext|kcplugin|A|90": "Mettre liste paramètres à zéro",
+  "ext|kcplugin|A|91": "Ajouter Paramètre Entier <p0>",
+  "ext|kcplugin|A|92": "Ajouter Paramètre Virgule Flottante <p0>",
+  "ext|kcplugin|A|93": "Ajouter Paramètre Chaîne <p0>",
+  "ext|kcplugin|A|94": "Appeler Fonction <p0>",
+  "ext|kcprint|A|80": "Imprimer l'écran",
+  "ext|kcprint|A|81": "Imprimer la fenêtre",
+  "ext|kcprint|A|82": "Imprimer la zone client",
+  "ext|kcprint|A|83": "Imprimer zone <p0>",
+  "ext|kcprint|A|84": "Configuration imprimante",
+  "ext|kcprint|A|85": "Changer la méthode d'impression à \"meilleure dimension\"",
+  "ext|kcprint|A|86": "Changer la méthode d'impression à Etirer à la page",
+  "ext|kcprint|A|87": "Changer la méthode d'impression à Redimensionner",
+  "ext|kcprint|A|88": "Fixer échelle en X à <p0>",
+  "ext|kcprint|A|89": "Fixer échelle en Y à <p0>",
+  "ext|kcprint|A|90": "Imprimer texte <p0>",
+  "ext|kcprint|A|91": "Imprimer fichier texte <p0>",
+  "ext|kcprint|A|92": "Imprimer une page blanche",
+  "ext|kcqtvr|C|-81": "L'utilisateur <p0> au milieu de <object>",
+  "ext|kcqtvr|C|-82": "<object>: Un fichier est ouvert",
+  "ext|kcqtvr|C|-83": "<object>: visible",
+  "ext|kcqtvr|A|80": "Nouveau fichier <p0>",
+  "ext|kcqtvr|A|81": "Nouveau fichier avec sélecteur",
+  "ext|kcqtvr|A|82": "Cacher",
+  "ext|kcqtvr|A|83": "Montrer",
+  "ext|kcqtvr|A|84": "Fixer la position à <p0>",
+  "ext|kcqtvr|A|85": "Fixer la coordonnée en X à <p0>",
+  "ext|kcqtvr|A|86": "Fixer la coordonnée en X à <p0>",
+  "ext|kcqtvr|A|87": "Fixer la taille horizontale à <p0>",
+  "ext|kcqtvr|A|88": "Fixer la taille verticale à <p0>",
+  "ext|kcqtw|C|-81": "<object>: début de vidéo",
+  "ext|kcqtw|C|-82": "<object>: fin de vidéo",
+  "ext|kcqtw|C|-83": "L'utilisateur <p0> au milieu de <object>",
+  "ext|kcqtw|C|-84": "<object>: Un fichier est présent",
+  "ext|kcqtw|C|-85": "<object>: temps courant <p0>",
+  "ext|kcqtw|C|-86": "<object>: visible",
+  "ext|kcqtw|C|-87": "<object>: Piste vidéo présente",
+  "ext|kcqtw|C|-88": "<object>: Piste sonore présente",
+  "ext|kcqtw|C|-89": "<object>: Piste texte présente",
+  "ext|kcqtw|C|-90": "<object>: Piste musique présente",
+  "ext|kcqtw|C|-91": "<object>: piste Mpeg présente",
+  "ext|kcqtw|C|-92": "<object>: Piste vidéo activée",
+  "ext|kcqtw|C|-93": "<object>: piste sonore activée",
+  "ext|kcqtw|C|-94": "<object>: Piste texte activée",
+  "ext|kcqtw|C|-95": "<object>: piste musique activée",
+  "ext|kcqtw|C|-96": "<object>: piste Mpeg activée",
+  "ext|kcqtw|A|80": "Jouer",
+  "ext|kcqtw|A|81": "Stop",
+  "ext|kcqtw|A|82": "Pause",
+  "ext|kcqtw|A|83": "Reprendre",
+  "ext|kcqtw|A|84": "Jouer en arrière",
+  "ext|kcqtw|A|85": "Jouer <p0> images",
+  "ext|kcqtw|A|86": "Nouveau fichier <p0>",
+  "ext|kcqtw|A|87": "Nouveau fichier avec sélecteur",
+  "ext|kcqtw|A|88": "Cacher",
+  "ext|kcqtw|A|89": "Montrer",
+  "ext|kcqtw|A|90": "Fixer le volume à <p0>",
+  "ext|kcqtw|A|91": "Boucle ON",
+  "ext|kcqtw|A|92": "Boucle OFF",
+  "ext|kcqtw|A|93": "Aller au début",
+  "ext|kcqtw|A|94": "Aller à la fin",
+  "ext|kcqtw|A|95": "Aller au temps <p0>",
+  "ext|kcqtw|A|98": "Fixer la taille horizontale à <p0>",
+  "ext|kcqtw|A|99": "Fixer la taille verticale à <p0>",
+  "ext|kcqtw|A|100": "Activer la piste vidéo",
+  "ext|kcqtw|A|101": "Désactiver la piste vidéo",
+  "ext|kcqtw|A|102": "Activer la piste sons",
+  "ext|kcqtw|A|103": "Désactiver la piste sons",
+  "ext|kcqtw|A|104": "Activer la piste textes",
+  "ext|kcqtw|A|105": "Désactiver la piste texte",
+  "ext|kcqtw|A|106": "Activer la piste musique",
+  "ext|kcqtw|A|107": "Désactiver la piste musicale",
+  "ext|kcqtw|A|108": "Activer la piste Mpeg",
+  "ext|kcqtw|A|109": "Désactiver la piste Mpeg",
+  "ext|kcqtw3|C|-81": "<object>: début de vidéo",
+  "ext|kcqtw3|C|-82": "<object>: fin de vidéo",
+  "ext|kcqtw3|C|-83": "L'utilisateur <p0> au milieu de <object>",
+  "ext|kcqtw3|C|-84": "<object>: Un fichier est présent",
+  "ext|kcqtw3|C|-85": "<object>: temps courant <p0>",
+  "ext|kcqtw3|C|-86": "<object>: visible",
+  "ext|kcqtw3|C|-87": "<object>: Piste vidéo présente",
+  "ext|kcqtw3|C|-88": "<object>: Piste sonore présente",
+  "ext|kcqtw3|C|-89": "<object>: Piste texte présente",
+  "ext|kcqtw3|C|-90": "<object>: Piste musique présente",
+  "ext|kcqtw3|C|-91": "<object>: piste Mpeg présente",
+  "ext|kcqtw3|C|-92": "<object>: Piste vidéo activée",
+  "ext|kcqtw3|C|-93": "<object>: piste sonore activée",
+  "ext|kcqtw3|C|-94": "<object>: Piste texte activée",
+  "ext|kcqtw3|C|-95": "<object>: piste musique activée",
+  "ext|kcqtw3|C|-96": "<object>: piste Mpeg activée",
+  "ext|kcqtw3|A|80": "Jouer",
+  "ext|kcqtw3|A|81": "Stop",
+  "ext|kcqtw3|A|82": "Pause",
+  "ext|kcqtw3|A|83": "Reprendre",
+  "ext|kcqtw3|A|84": "Jouer en arrière",
+  "ext|kcqtw3|A|85": "Jouer <p0> images",
+  "ext|kcqtw3|A|86": "Nouveau fichier <p0>",
+  "ext|kcqtw3|A|87": "Nouveau fichier avec sélecteur",
+  "ext|kcqtw3|A|88": "Cacher",
+  "ext|kcqtw3|A|89": "Montrer",
+  "ext|kcqtw3|A|90": "Fixer le volume à <p0>",
+  "ext|kcqtw3|A|91": "Boucle ON",
+  "ext|kcqtw3|A|92": "Boucle OFF",
+  "ext|kcqtw3|A|93": "Aller au début",
+  "ext|kcqtw3|A|94": "Aller à la fin",
+  "ext|kcqtw3|A|95": "Aller au temps <p0>",
+  "ext|kcqtw3|A|98": "Fixer la taille horizontale à <p0>",
+  "ext|kcqtw3|A|99": "Fixer la taille verticale à <p0>",
+  "ext|kcqtw3|A|100": "Activer la piste vidéo",
+  "ext|kcqtw3|A|101": "Désactiver la piste vidéo",
+  "ext|kcqtw3|A|102": "Activer la piste sons",
+  "ext|kcqtw3|A|103": "Désactiver la piste sons",
+  "ext|kcqtw3|A|104": "Activer la piste textes",
+  "ext|kcqtw3|A|105": "Désactiver la piste texte",
+  "ext|kcqtw3|A|106": "Activer la piste musique",
+  "ext|kcqtw3|A|107": "Désactiver la piste musicale",
+  "ext|kcqtw3|A|108": "Activer la piste Mpeg",
+  "ext|kcqtw3|A|109": "Désactiver la piste Mpeg",
+  "ext|kcriched|C|-81": "<object> est visible",
+  "ext|kcriched|C|-82": "<object> est activé",
+  "ext|kcriched|C|-83": "<object> est en lecture seule",
+  "ext|kcriched|C|-84": "<object> a le focus",
+  "ext|kcriched|C|-85": "<object> a été modifié",
+  "ext|kcriched|C|-86": "<object>: Peut faire un pas d'UNDO",
+  "ext|kcriched|C|-87": "<object>: Du texte est disponible dans le presse-papier",
+  "ext|kcriched|C|-88": "<object>: Le caractère est en gras",
+  "ext|kcriched|C|-89": "<object>: La caractère est en italique",
+  "ext|kcriched|C|-90": "<object>: Le caractère est souligné",
+  "ext|kcriched|C|-91": "<object>: Le caracère est barré",
+  "ext|kcriched|C|-92": "<object>: Le paragraphe est aligné à gauche",
+  "ext|kcriched|C|-93": "<object>: Le paragraphe est centré",
+  "ext|kcriched|C|-94": "<object>: Le paragraphe est aligné à droite",
+  "ext|kcriched|C|-95": "<object>: le paragraphe a une puce",
+  "ext|kcriched|C|-96": "<object>: cliqué (bouton gauche)",
+  "ext|kcriched|C|-97": "<object>: cliqué (bouton droit)",
+  "ext|kcriched|C|-98": "<object>: double-cliqué",
+  "ext|kcriched|C|-99": "<object>: <p0> cliqué",
+  "ext|kcriched|C|-100": "<object>: Clic sur un lien",
+  "ext|kcriched|C|-101": "<object>: peut faire un pas de REDO",
+  "ext|kcriched|C|-102": "<object>: Le caractère est un lien",
+  "ext|kcriched|C|-103": "<object>: Le caractère est protégé",
+  "ext|kcriched|C|-104": "<object>: La ligne <p0> est visible",
+  "ext|kcriched|C|-105": "<object>: La ligne <p0> est entièrement visible",
+  "ext|kcriched|A|80": "Charger le texte <p0>",
+  "ext|kcriched|A|81": "Charger texte RTF <p0>",
+  "ext|kcriched|A|82": "Enregistrer le texte <p0>",
+  "ext|kcriched|A|83": "Enregistrer texte RTF <p0>",
+  "ext|kcriched|A|84": "Charger du texte ASCII avec un sélecteur",
+  "ext|kcriched|A|85": "Charger du texte RTF avec un sélecteur",
+  "ext|kcriched|A|86": "Enregistrer texte ASCII avec un sélecteur",
+  "ext|kcriched|A|87": "Enregistrer texte RTF avec un sélecteur",
+  "ext|kcriched|A|88": "Remplacer la sélection avec <p0>",
+  "ext|kcriched|A|89": "Couper",
+  "ext|kcriched|A|90": "Copier",
+  "ext|kcriched|A|91": "Coller",
+  "ext|kcriched|A|92": "Effacer",
+  "ext|kcriched|A|96": "Fixer la largeur à <p0>",
+  "ext|kcriched|A|97": "Changer la hauteur à <p0>",
+  "ext|kcriched|A|98": "Montrer",
+  "ext|kcriched|A|99": "Cacher",
+  "ext|kcriched|A|100": "Mode lecture seule ON",
+  "ext|kcriched|A|101": "Mode lecture seule OFF",
+  "ext|kcriched|A|102": "Activer la fenêtre",
+  "ext|kcriched|A|103": "Désactiver la fenêtre",
+  "ext|kcriched|A|104": "Aller au caractère numéro <p0>",
+  "ext|kcriched|A|105": "Aller à la ligne <p0>",
+  "ext|kcriched|A|106": "Chercher <p0> (options: <p1>)",
+  "ext|kcriched|A|107": "Cherche texte",
+  "ext|kcriched|A|108": "Chercher et sélectionner <p0> (options: <p1>)",
+  "ext|kcriched|A|109": "Chercher et sélectionner suivant",
+  "ext|kcriched|A|110": "Mettre le focus",
+  "ext|kcriched|A|111": "Sélectionner les caractères de <p0> à <p1>",
+  "ext|kcriched|A|112": "Fixer la couleur de fond à <p0>",
+  "ext|kcriched|A|113": "Annuler",
+  "ext|kcriched|A|114": "Effacer le buffer UNDO",
+  "ext|kcriched|A|115": "Gras ON",
+  "ext|kcriched|A|116": "Gras OFF",
+  "ext|kcriched|A|117": "Italique ON",
+  "ext|kcriched|A|118": "Italique OFF",
+  "ext|kcriched|A|119": "Souligné ON",
+  "ext|kcriched|A|120": "Souligné OFF",
+  "ext|kcriched|A|121": "Barré ON",
+  "ext|kcriched|A|122": "Barré OFF",
+  "ext|kcriched|A|123": "Changer la police",
+  "ext|kcriched|A|124": "Changer la couleur de police à <p0>",
+  "ext|kcriched|A|125": "Changer la couleur de la police avec un sélecteur",
+  "ext|kcriched|A|126": "Ajouter '<p0>' au texte",
+  "ext|kcriched|A|127": "Aligner le paragraphe à gauche",
+  "ext|kcriched|A|128": "Centrer le paragraphe",
+  "ext|kcriched|A|129": "Aligner le paragraphe à droite",
+  "ext|kcriched|A|130": "Puces OFF",
+  "ext|kcriched|A|131": "Puces ON",
+  "ext|kcriched|A|132": "Tout sélectionner",
+  "ext|kcriched|A|133": "Indenter la première ligne de <p0> et les lignes suivantes de <p1>",
+  "ext|kcriched|A|134": "Défilement vers le haut",
+  "ext|kcriched|A|135": "Défilement vers le bas",
+  "ext|kcriched|A|136": "Défilement vers la gauche",
+  "ext|kcriched|A|137": "Défilement vers la droite",
+  "ext|kcriched|A|138": "Changer le nom de la police à <p0>",
+  "ext|kcriched|A|139": "Changer la taille de la police à <p0>",
+  "ext|kcriched|A|140": "Changer la couleur de police à <p0>",
+  "ext|kcriched|A|141": "Fixer la couleur de fond à <p0>",
+  "ext|kcriched|A|142": "Désélectionner le bloc",
+  "ext|kcriched|A|143": "Défiler jusqu'au début",
+  "ext|kcriched|A|144": "Défiler jusqu'à la ligne <p0>",
+  "ext|kcriched|A|145": "Défiler jusqu'à la fin",
+  "ext|kcriched|A|146": "Imprimer le texte",
+  "ext|kcriched|A|147": "Lien ON",
+  "ext|kcriched|A|148": "Lien OFF",
+  "ext|kcriched|A|149": "Redo",
+  "ext|kcriched|A|150": "Changer le texte RTF à <p0>",
+  "ext|kcriched|A|151": "Protection ON",
+  "ext|kcriched|A|152": "Protection OFF",
+  "ext|kcriched|A|153": "Modifié",
+  "ext|kcriched|A|154": "Non-modifié",
+  "ext|kcriched|A|155": "Auto Focus ON",
+  "ext|kcriched|A|156": "Auto Focus OFF",
+  "ext|kcriched|A|157": "Changer le texte en <p0>",
+  "ext|kcriched|A|158": "Mettre la marge à gauche à <p0> mm",
+  "ext|kcriched|A|159": "Mettre la marge à droite à <p0> mm",
+  "ext|kcriched|A|160": "Mettre la marge en haut à <p0> mm",
+  "ext|kcriched|A|161": "Mettre la marge en bas à <p0> mm",
+  "ext|kcsearch|C|-81": "Texte trouvé",
+  "ext|kcsearch|C|-82": "Recherche en cours",
+  "ext|kcsearch|C|-83": "Index construit",
+  "ext|kcsearch|C|-84": "Construction de l'index",
+  "ext|kcsearch|C|-85": "Recherche mot complet",
+  "ext|kcsearch|C|-86": "Recherche avec la casse",
+  "ext|kcsearch|C|-87": "Recherche dans les sous-répertoires",
+  "ext|kcsearch|A|80": "Trouver le texte <p0>",
+  "ext|kcsearch|A|81": "Arrêt recherche",
+  "ext|kcsearch|A|82": "Trouver précédent",
+  "ext|kcsearch|A|83": "Cherche texte",
+  "ext|kcsearch|A|84": "Construire l'index de <p0>",
+  "ext|kcsearch|A|85": "Arrêt construction index",
+  "ext|kcsearch|A|86": "Charger l'index <p0>",
+  "ext|kcsearch|A|87": "Sauver l'index <p0>",
+  "ext|kcsearch|A|88": "Trouver la première entrée de l'index",
+  "ext|kcsearch|A|89": "Trouver entrée précédente dans l'index",
+  "ext|kcsearch|A|90": "Trouver entrée suivante dans l'index",
+  "ext|kcsearch|A|91": "Fixer la priorité à <p0>",
+  "ext|kcsearch|A|92": "Fixer le répertoire de recherche à <p0>",
+  "ext|kcsearch|A|93": "Fixer les jokers de recherche à <p0>",
+  "ext|kcsearch|A|94": "Recherche sur tout le mot ON",
+  "ext|kcsearch|A|95": "Recherche sur tout le mot OFF",
+  "ext|kcsearch|A|96": "Mode recherche avec casse ON",
+  "ext|kcsearch|A|97": "Mode recherche avec casse OFF",
+  "ext|kcsearch|A|98": "Recherche dans les sous-répertoires ON",
+  "ext|kcsearch|A|99": "Recherche dans les sous-répertoires OFF",
+  "ext|kcshape|A|80": "Fixer forme standard",
+  "ext|kcshape|A|81": "Fixer forme rectangle arrondi (<p0>, <p1>)",
+  "ext|kcshape|A|82": "Fixer forme elliptique",
+  "ext|kcshape|A|83": "Fixer forme à partir de l'image <p0>",
+  "ext|kcshape|A|84": "Fixer la forme à partir de <p0>",
+  "ext|kcshape|A|85": "Choisir fichier image avec sélecteur de fichiers",
+  "ext|kcshape|A|86": "Activer",
+  "ext|kcshape|A|87": "Désactiver",
+  "ext|kcshape|A|88": "Utiliser la forme de l'objet actif <p0>",
+  "ext|kcshare|C|-81": "<object>: Condition example <p0>=<p1>",
+  "ext|kcshare|A|80": "Valeur partagée <p0>=<p1>",
+  "ext|kcshare|A|81": "Valeur partagée <p0>=val(<p1>)",
+  "ext|kcshare|A|82": "Chaîne partagée <p0>=<p1>",
+  "ext|kcshare|A|83": "Chaîne partagée <p0>=str$(<p1>)",
+  "ext|kcshare|A|84": "Remise à zéro",
+  "ext|kctaskpr|C|-81": "La priorité de tâche est basse",
+  "ext|kctaskpr|C|-82": "La priorité de tâche est moyenne",
+  "ext|kctaskpr|C|-83": "La priorité de tâche est haute",
+  "ext|kctaskpr|A|80": "Fixer la priorité de tâche à basse",
+  "ext|kctaskpr|A|81": "Fixer la priorité de tâche à moyenne",
+  "ext|kctaskpr|A|82": "Fixer la priorité de tâche à haute",
+  "ext|kctaskpr|A|83": "Réveiller l'application tous les <p0>",
+  "ext|kcvfw|C|-81": "<object>: début de vidéo",
+  "ext|kcvfw|C|-82": "<object>: fin de la vidéo",
+  "ext|kcvfw|C|-83": "L'utilisateur <p0> au milieu de <object>",
+  "ext|kcvfw|C|-84": "<object>: L'image courante <p0>",
+  "ext|kcvfw|C|-85": "<object>: le temps courant <p0>",
+  "ext|kcvfw|C|-86": "<object>: le fichier est ouvert",
+  "ext|kcvfw|C|-87": "<object>: visible",
+  "ext|kcvfw|A|80": "Jouer la vidéo",
+  "ext|kcvfw|A|81": "Arrêter la vidéo",
+  "ext|kcvfw|A|82": "Mettre la vidéo en pause",
+  "ext|kcvfw|A|83": "Reprendre la vidéo",
+  "ext|kcvfw|A|84": "Jouer la vidéo en arrière",
+  "ext|kcvfw|A|85": "Jouer <p0> images",
+  "ext|kcvfw|A|86": "Nouveau fichier <p0>",
+  "ext|kcvfw|A|87": "Nouveau fichier avec sélecteur",
+  "ext|kcvfw|A|88": "Cacher",
+  "ext|kcvfw|A|89": "Montrer",
+  "ext|kcvfw|A|90": "Aller au début",
+  "ext|kcvfw|A|91": "Aller à la fin",
+  "ext|kcvfw|A|92": "Aller à l'image <p0>",
+  "ext|kcvfw|A|93": "Aller au temps <p0>",
+  "ext|kcvfw|A|95": "Fixer la taille horizontale à <p0>",
+  "ext|kcvfw|A|96": "Fixer la taille verticale à <p0>",
+  "ext|kcwctrl|C|-81": "La fenêtre est minimisée",
+  "ext|kcwctrl|C|-82": "La fenêtre est maximisée",
+  "ext|kcwctrl|C|-83": "La fenêtre est visible",
+  "ext|kcwctrl|C|-84": "L'application est active",
+  "ext|kcwctrl|C|-85": "La fenêtre a le focus",
+  "ext|kcwctrl|C|-86": "La fenêtre est attachée au bureau",
+  "ext|kcwctrl|A|80": "Fixer la position horizontale à <p0>",
+  "ext|kcwctrl|A|81": "Fixer la position verticale à <p0>",
+  "ext|kcwctrl|A|82": "Fixer la position à <p0>",
+  "ext|kcwctrl|A|83": "Fixer la taille horizontale à <p0>",
+  "ext|kcwctrl|A|84": "Fixer la taille verticale à <p0>",
+  "ext|kcwctrl|A|85": "Passer la fenêtre devant",
+  "ext|kcwctrl|A|86": "Passer la fenêtre en arrière-plan",
+  "ext|kcwctrl|A|87": "Passer la fenêtre devant toutes les autres",
+  "ext|kcwctrl|A|88": "Ne pas mettre toujours devant",
+  "ext|kcwctrl|A|89": "Montrer la fenêtre",
+  "ext|kcwctrl|A|90": "Cacher la fenêtre",
+  "ext|kcwctrl|A|91": "Minimiser la fenêtre",
+  "ext|kcwctrl|A|92": "Maximiser la fenêtre",
+  "ext|kcwctrl|A|93": "fixer la fenêtre à normale",
+  "ext|kcwctrl|A|97": "Bouger vers (<p0>, <p1>)",
+  "ext|kcwctrl|A|98": "Fixer le titre à <p0>",
+  "ext|kcwctrl|A|99": "Sauver Focus",
+  "ext|kcwctrl|A|100": "Restaurer Focus",
+  "ext|kcwctrl|A|101": "Mettre focus",
+  "ext|kcwctrl|A|102": "Faire flasher la fenêtre dans la barre de tâches",
+  "ext|kcwctrl|A|103": "Fixer couleur de fond à <p0>",
+  "ext|kcwctrl|A|104": "Attacher la fenêtre au bureau",
+  "ext|kcwctrl|A|105": "Détacher la fenêtre du bureau",
+  "ext|kcwctrl|A|106": "Fixer position en X fenêtre scène à <p0>",
+  "ext|kcwctrl|A|107": "Fixer position en Y fenêtre scène à <p0>",
+  "ext|kcwctrl|A|108": "Fixer largeur fenêtre scène à <p0>, ajuster taille scène = <p1>",
+  "ext|kcwctrl|A|109": "Fixer hauteur fenêtre scène à <p0>, ajuster taille scène = <p1>",
+  "ext|kcwctrl|A|110": "Définir la largeur minimale à <p0>",
+  "ext|kcwctrl|A|111": "Définir la hauteur minimale à <p0>",
+  "ext|kcwctrl|A|112": "Définir la largeur maximale à <p0>",
+  "ext|kcwctrl|A|113": "Définir la hauteur maximale à <p0>",
+  "ext|layer|C|-81": "<object>: <p0> au fond?",
+  "ext|layer|C|-82": "<object>: <p0> devant?",
+  "ext|layer|C|-83": "<object>: <p0> devant <p1>?",
+  "ext|layer|C|-84": "<object>: <p0> derrière <p1>?",
+  "ext|layer|C|-85": "<object>: <p0> entre <p1> et <p2>?",
+  "ext|layer|C|-86": "<object>: <p0> au fond?",
+  "ext|layer|C|-87": "<object>: <p0> devant?",
+  "ext|layer|C|-88": "<object>: <p0> devant <p1>?",
+  "ext|layer|C|-89": "<object>: <p0> derrière <p1>?",
+  "ext|layer|C|-90": "<object>: <p0> entre <p1> et <p2>?",
+  "ext|layer|C|-91": "<object>: Le calque <p0> est visible?",
+  "ext|layer|C|-92": "<object>: Le calque <p0> est visible?",
+  "ext|layer|A|80": "Envoyer <p0> derrière Un",
+  "ext|layer|A|81": "Passer <p0> devant Un",
+  "ext|layer|A|82": "Echanger % et <p1>",
+  "ext|layer|A|83": "Stocker la valeur fixe de <p0>",
+  "ext|layer|A|84": "Passer <p0> devant",
+  "ext|layer|A|85": "Envoyer % au fond",
+  "ext|layer|A|86": "Envoyer <p0> derrière <p1>",
+  "ext|layer|A|87": "Passer <p0> devant <p1>",
+  "ext|layer|A|88": "Inverser tout",
+  "ext|layer|A|89": "Passer <p0> devant <p1>",
+  "ext|layer|A|90": "Passe <p0> derrière <p1>",
+  "ext|layer|A|91": "Passer <p0> au niveau <p1>",
+  "ext|layer|A|92": "Tri en X croissant",
+  "ext|layer|A|93": "Tri en Y croissant",
+  "ext|layer|A|94": "Tri décroissant en X",
+  "ext|layer|A|95": "Tri décroissant en Y",
+  "ext|layer|A|96": "Envoyer <p0> derrière Un",
+  "ext|layer|A|97": "Passer <p0> devant Un",
+  "ext|layer|A|98": "Echanger % et <p1>",
+  "ext|layer|A|99": "Passer <p0> devant",
+  "ext|layer|A|100": "Envoyer % au fond",
+  "ext|layer|A|101": "Envoyer <p0> derrière <p1>",
+  "ext|layer|A|102": "Passer <p0> devant <p1>",
+  "ext|layer|A|103": "Passer <p0> devant <p1>",
+  "ext|layer|A|104": "Passe <p0> derrière <p1>",
+  "ext|layer|A|105": "Passer <p0> au niveau <p1>",
+  "ext|layer|A|106": "Tri croissant par <p0> : pas de valeur par défaut à <p1>",
+  "ext|layer|A|107": "Tri décroissant par <p0> : pas de valeur par défaut à <p1>",
+  "ext|layer|A|108": "Fixer X du calque <p0> à <p1>",
+  "ext|layer|A|109": "Fixer Y du calque <p0> à <p1>",
+  "ext|layer|A|110": "Fixer position du calque <p0> à (<p1>, <p2>)",
+  "ext|layer|A|111": "Montrer calque <p0>",
+  "ext|layer|A|112": "Cacher calque <p0>",
+  "ext|layer|A|113": "Fixer X du calque <p0> à <p1>",
+  "ext|layer|A|114": "Fixer Y du calque <p0> à <p1>",
+  "ext|layer|A|115": "Fixer position du calque <p0> à (<p1>, <p2>)",
+  "ext|layer|A|116": "Montrer calque <p0>",
+  "ext|layer|A|117": "Cacher calque <p0>",
+  "ext|layer|A|118": "Changer calque courant pour calque <p0>",
+  "ext|layer|A|119": "Changer calque courant pour calque <p0>",
+  "ext|layer|A|120": "Fixer coefficient X du calque <p0> à <p1>",
+  "ext|layer|A|121": "Fixer coefficient Y du calque <p0> à <p1>",
+  "ext|layer|A|122": "Fixer coefficient X du calque <p0> à <p1>",
+  "ext|layer|A|123": "Fixer coefficient Y du calque <p0> à <p1>",
+  "ext|layer|A|124": "Fixer effet du calque <p0> à <p1>",
+  "ext|layer|A|125": "Fixer paramètre effet <p1> du calque <p0> à <p2>",
+  "ext|layer|A|126": "Fixer coefficient de semi-transparence du calque <p0> à <p1>",
+  "ext|layer|A|127": "Fixer coefficient RVB du calque <p0> à <p1>",
+  "ext|layer|A|128": "Fixer effet du calque <p0> à <p1>",
+  "ext|layer|A|129": "Fixer paramètre effet <p1> du calque <p0> à <p2>",
+  "ext|layer|A|130": "Fixer coefficient de semi-transparence du calque <p0> à <p1>",
+  "ext|layer|A|131": "Fixer coefficient RVB du calque <p0> à <p1>",
+  "ext|layer|A|132": "Fixer paramètre effet <p1> du calque <p0> à image <p2>",
+  "ext|layer|A|133": "Fixer paramètre effet <p1> du calque <p0> à image <p2>",
+  "ext|listview|C|-81": "<object>: Clic avec le bouton gauche",
+  "ext|listview|A|80": "<object>: Insérer ligne <p1> en position <p0>",
+  "ext|location|C|-81": "Les services GPS sont disponibles?",
+  "ext|location|C|-82": "Une nouvelle position est disponible",
+  "ext|location|A|80": "Force la recupération de la position",
+  "ext|location|A|81": "Fixer la distance à <p0>",
+  "ext|location|A|82": "Fixer la précision à <p0>",
+  "ext|mobilefont|A|80": "Changer la couleur en <p0>",
+  "ext|mobilefont|A|81": "Fixer l'interligne à <p0>",
+  "ext|mobilefont|A|82": "Fixed l'espace inter-caractère à <p0>",
+  "ext|mobilefont|A|83": "Changer la priorité d'affichage à <p0>",
+  "ext|mobileutilities|C|-81": "Lors de l'appui sur la touche gauche (F10)",
+  "ext|mobileutilities|C|-82": "Lors de l'appui sur la touche droite (F11)",
+  "ext|mobileutilities|C|-83": "Touche gauche enfoncée (F10)",
+  "ext|mobileutilities|C|-84": "Touche droite enfoncée (F11)",
+  "ext|mobileutilities|C|-85": "L'orientation de l'écran a changé",
+  "ext|mobileutilities|C|-86": "L'application fonctionne sur mobile",
+  "ext|mobileutilities|A|80": "Fixer la rotation de la fenêtre à <p0>",
+  "ext|mobileutilities|A|81": "Rafraichir l'affichage",
+  "ext|multipletouch|C|-82": "<object>: Une touche s'est terminée, numéro <p0>",
+  "ext|multipletouch|C|-83": "<object>: Une nouvelle touche a commencé",
+  "ext|multipletouch|C|-84": "<object>: Une touche s'est terminée",
+  "ext|multipletouch|C|-85": "<object>: Une touche a bougé, numéro <p0>",
+  "ext|multipletouch|C|-86": "<object>: La touche <p0> est active",
+  "ext|multipletouch|C|-87": "<object>: Une nouvelle touche sur l'objet <p0> a commencé",
+  "ext|multipletouch|C|-88": "<object>: La touche <p0> est active sur l'objet <p1>",
+  "ext|multipletouch|C|-89": "<object>: Un nouveau pincement a commencé",
+  "ext|multipletouch|C|-90": "<object>: Un pincement est actif",
+  "ext|multipletouch|C|-91": "<object>: Un nouveau geste vient d'être reconnu",
+  "ext|multipletouch|A|80": "Fixer l'origine en X du tirer-déplacer de la touche <p0> à <p1>",
+  "ext|multipletouch|A|81": "Fixer l'origine en Y du tirer-déplacer de la touche <p0> à <p1>",
+  "ext|multipletouch|A|82": "Reconnaître un geste, nombre de touches <p0>",
+  "ext|multipletouch|A|83": "Fixer la reconnaissance à <p0>, touches enregistrées <p1>",
+  "ext|multipletouch|A|84": "Fixer la zone de reconnaissance à <p0>",
+  "ext|multipletouch|A|85": "Fixer la zone de reconnaissance à (<p0>, <p1>), largeur <p2>, hauteur <p3>",
+  "ext|multipletouch|A|86": "Charger le fichier de définition de gestes <p0>",
+  "ext|multipletouch|A|87": "Reconnaître geste <p0>, nombre de touches <p1>",
+  "ext|multipletouch|A|88": "Effacer les gestes",
+  "ext|objectmover|C|-81": "<object> est activé",
+  "ext|objectmover|A|80": "Fixer la largeur à <p0>",
+  "ext|objectmover|A|81": "Fixer la hauteur à <p0>",
+  "ext|objectmover|A|82": "Activer",
+  "ext|objectmover|A|83": "Désactiver",
+  "ext|popupmenu|C|-81": "<object>: Elément <p0> sélectionné",
+  "ext|popupmenu|C|-82": "<object>: <p0> est sélectionné",
+  "ext|popupmenu|A|80": "<object>: Ajouter élément (<p0>, <p1>, <p2>)",
+  "ext|popupmenu|A|81": "<object>: Ajouter menu (<p0>, <p1>, <p2>)",
+  "ext|popupmenu|A|82": "<object>: Ajouter séparateur (<p0>)",
+  "ext|popupmenu|A|83": "<object>: Créer menu",
+  "ext|popupmenu|A|84": "<object>: Détruire élément (<p0>)",
+  "ext|popupmenu|A|85": "<object>: Fixer le texte de l'élément (<p0>, <p1>)",
+  "ext|popupmenu|A|86": "<object>: Activer (<p0>, <p1>)",
+  "ext|popupmenu|A|87": "<object>: Cocher (<p0>, <p1>)",
+  "ext|popupmenu|A|88": "<object>: Montrer menu à <p0>",
+  "ext|popupmenu|A|89": "<object>: Montrer menu",
+  "ext|quiz|C|-81": "<object>: La réponse courante est correcte",
+  "ext|quiz|C|-82": "<object>: La réponse courante est incomplète",
+  "ext|quiz|C|-83": "<object>: La réponse courante est trop remplie",
+  "ext|quiz|C|-84": "<object>: La réponse page <p0> est correcte",
+  "ext|quiz|C|-85": "<object>: La réponse en page <p0> est incomplète",
+  "ext|quiz|C|-86": "<object>: La réponse en page <p0> est trop remplie",
+  "ext|quiz|C|-87": "<object>: La page <p0> a été vue",
+  "ext|quiz|C|-88": "<object>: A chaque seconde du chrono",
+  "ext|quiz|C|-89": "<object>: Le chrono est égal à zéro",
+  "ext|quiz|C|-90": "<object>: le quiz est terminé",
+  "ext|quiz|C|-91": "<object>: la réponse courante est fausse",
+  "ext|quiz|C|-92": "<object>: La réponse en page <p0> est fausse",
+  "ext|quiz|A|80": "Aller à la page suivante",
+  "ext|quiz|A|81": "Aller à la page précédente",
+  "ext|quiz|A|82": "Effacer la page courante",
+  "ext|quiz|A|83": "Aller à la page numéro <p0>",
+  "ext|quiz|A|84": "Afficher dialogue réponse correcte",
+  "ext|quiz|A|85": "Afficher le dialogue mauvaise réponse (ré-essayer: <p0>)",
+  "ext|quiz|A|86": "Afficher le dialogue réponse incomplète (ré-essayer: <p0>)",
+  "ext|quiz|A|87": "Afficher le dialogue trop de réponses (ré-essayer <p0>)",
+  "ext|quiz|A|88": "Afficher le dialogue chrono terminé",
+  "ext|quiz|A|89": "Fixer le chrono à <p0> secondes",
+  "ext|quiz|A|90": "Fixer le fichier source à <p0>",
+  "ext|quiz|A|91": "Sauver le rapport vers <p0>",
+  "ext|quiz|A|92": "Envoyer le rapport vers l'email <p0>",
+  "ext|quiz|A|93": "Montrer la page",
+  "ext|quiz|A|94": "Cacher la page",
+  "ext|registry2|C|-81": "<object>: la clé <p0>\\<p1> existe",
+  "ext|registry2|C|-82": "<object>: la valeur <p2> existe dans la clé <p0>\\<p1>",
+  "ext|registry2|C|-83": "<object>: la clé courante existe",
+  "ext|registry2|C|-84": "<object>: la valeur <p0> existe dans la clé courante",
+  "ext|registry2|C|-85": "<object>: dernière action réussie",
+  "ext|registry2|A|80": "Définir la clé racine à <p0>",
+  "ext|registry2|A|81": "Utiliser <p0> comme clé courante",
+  "ext|registry2|A|82": "Fixer la valeur <p0> de la clé courante à <p1>",
+  "ext|registry2|A|83": "Fixer la valeur <p0> de la clé courante à <p1>",
+  "ext|registry2|A|84": "Fixer la valeur <p0> de la clé <p0>\\<p1> à <p3>",
+  "ext|registry2|A|85": "Fixer la valeur <p0> de la clé <p0>\\<p1> à <p3>",
+  "ext|registry2|A|86": "Supprimer clé courante",
+  "ext|registry2|A|87": "Supprimer la valeur <p0> de la clé courante",
+  "ext|registry2|A|88": "Supprimer clé <p0>\\<p1>",
+  "ext|registry2|A|89": "Supprimer la valeur <p2> de la clé <p0>\\<p1>",
+  "ext|registry2|A|90": "Créer clé courante",
+  "ext|registry2|A|91": "Créer clé <p0>\\<p1>",
+  "ext|registry2|A|92": "Mettre mode 64-bits à <p0>",
+  "ext|screenzoom|C|-81": "<object>: Opération de rotation terminée",
+  "ext|screenzoom|C|-82": "<object>: Opération de mise à l'échelle terminée",
+  "ext|screenzoom|C|-83": "<object>: Calque <p0>, opération de rotation terminée",
+  "ext|screenzoom|C|-84": "<object>: Calque <p0>, opération de mise à l'échelle terminée",
+  "ext|screenzoom|C|-85": "<object>: Opération de vibration terminée",
+  "ext|screenzoom|C|-86": "<object>: Calque <p0>, opération de vibration terminée",
+  "ext|screenzoom|A|80": "Fixer l'angle à <p0>",
+  "ext|screenzoom|A|81": "Fixer l'échelle à <p0>",
+  "ext|screenzoom|A|82": "Fixer l'échelle horizontale à <p0>",
+  "ext|screenzoom|A|83": "Fixer l'échelle verticale à <p0>",
+  "ext|screenzoom|A|84": "Rotation souple vers l'angle <p0> en <p1>ms",
+  "ext|screenzoom|A|85": "Zoom souple vers l'échelle <p0> en <p1>ms",
+  "ext|screenzoom|A|86": "Zoom souple horizontal vers l'échelle <p0> en <p1>ms",
+  "ext|screenzoom|A|87": "Zoom souple vertical vers l'échelle <p0> en <p1>ms",
+  "ext|screenzoom|A|88": "Rotation élastique vers l'angle <p0> en <p1>ms, facteur <p2>",
+  "ext|screenzoom|A|89": "Zoom élastique vers l'échelle <p0> en <p1>ms, facteur <p2>",
+  "ext|screenzoom|A|90": "Zoom élastique horizontal vers l'échelle <p0> en <p1>ms, facteur <p2>",
+  "ext|screenzoom|A|91": "Zoom élastique vertical vers l'échelle <p0> en <p1>ms, facteur <p2>",
+  "ext|screenzoom|A|92": "Fixer le point chaud à <p0>",
+  "ext|screenzoom|A|93": "Fixer la coordonnée X du point chaud à <p0>",
+  "ext|screenzoom|A|94": "Fixer la coordonnée Y du point chaud à <p0>",
+  "ext|screenzoom|A|95": "Rotation linéaire vers l'angle <p0> en <p1>ms",
+  "ext|screenzoom|A|96": "Zoom linéaire vers l'échelle <p0> en <p1>ms",
+  "ext|screenzoom|A|97": "Zoom linéaire horizontal vers l'échelle <p0> en <p1>ms",
+  "ext|screenzoom|A|98": "Zoom linéaire vertical vers l'échelle <p0> en <p1>ms",
+  "ext|screenzoom|A|99": "Calque <p0>: fixer l'angle à <p1>",
+  "ext|screenzoom|A|100": "Calque <p0>: fixer l'échelle à <p1>",
+  "ext|screenzoom|A|101": "Calque <p0>: fixer l'échelle horizontale à <p1>",
+  "ext|screenzoom|A|102": "Calque <p0>: fixer l'échelle verticale à <p1>",
+  "ext|screenzoom|A|103": "Calque <p0>: rotation souple vers l'angle <p1> en <p2>ms",
+  "ext|screenzoom|A|104": "Calque <p0>: zoom souple vers l'échelle <p1> en <p2>ms",
+  "ext|screenzoom|A|105": "Calque <p0>: zoom horizontal souple vers l'échelle <p1> en <p2>ms",
+  "ext|screenzoom|A|106": "Calque <p0>: zoom vertical souple vers l'échelle <p1> en <p2>ms",
+  "ext|screenzoom|A|107": "Calque <p0>: rotation élastique vers l'angle <p1> en <p2>ms, facteur <p3>",
+  "ext|screenzoom|A|108": "Calque <p0>: zoom élastique vers l'échelle <p1> en <p2>ms, facteur <p3>",
+  "ext|screenzoom|A|109": "Calque <p0>: zoom horizontal élastique vers l'échelle <p1> en <p2>ms, facteur <p3>",
+  "ext|screenzoom|A|110": "Calque <p0>: zoom vertical élastique vers l'échelle <p1> en <p2>ms, facteur <p3>",
+  "ext|screenzoom|A|111": "Calque <p0>: fixer le point chaud à <p1>",
+  "ext|screenzoom|A|112": "Calque <p0>: fixer la coordonnée X du point chaud à <p1>",
+  "ext|screenzoom|A|113": "Calque <p0>: fixer la coordonnée Y du point chaud à <p1>",
+  "ext|screenzoom|A|114": "Calque <p0>: rotation linéaire vers l'angle <p1> en <p2>ms",
+  "ext|screenzoom|A|115": "Calque <p0>: zoom linéaire vers l'échelle <p1> en <p2>ms",
+  "ext|screenzoom|A|116": "Calque <p0>: zoom linéaire horizontal vers l'échelle <p1> en <p2>ms",
+  "ext|screenzoom|A|117": "Calque <p0>: zoom linéaire vertical vers l'échelle <p1> en <p2>ms",
+  "ext|screenzoom|A|118": "Fixer le point destination à <p0>",
+  "ext|screenzoom|A|119": "Fixer la coordonnée X du point destination à <p0>",
+  "ext|screenzoom|A|120": "Fixer la coordonnée Y du point destination à <p0>",
+  "ext|screenzoom|A|121": "Calque <p0>: fixer le point destination à <p1>",
+  "ext|screenzoom|A|122": "Calque <p0>: fixer la coordonnée X du point de destination à <p1>",
+  "ext|screenzoom|A|123": "Calque <p0>: fixer la coordonnée Y du point destination à <p1>",
+  "ext|screenzoom|A|124": "Faire vibrer l'écran horizontalement <p0>px, durée vibration <p1>ms, durée totale <p2>ms",
+  "ext|screenzoom|A|125": "Faire vibrer l'écran verticalement <p0>px, durée vibration <p1>ms, durée totale <p3>ms",
+  "ext|screenzoom|A|126": "Calque <p0>: faire vibrer horizontalement <p1>px, durée vibration <p2>ms, durée totale <p3>ms",
+  "ext|screenzoom|A|127": "Calque <p0>: faire vibrer verticalement <p1>px, durée vibration <p2>ms, durée total <p3>ms",
+  "ext|statictext|C|-81": "<object>: Clic avec le bouton gauche",
+  "ext|statictext|C|-82": "<object>: Clic avec le bouton droit",
+  "ext|statictext|C|-83": "<object>: Double clic",
+  "ext|statictext|C|-84": "<object>: L'objet est-il visible?",
+  "ext|statictext|A|80": "<object>: Cacher",
+  "ext|statictext|A|81": "<object>: Montrer",
+  "ext|statictext|A|82": "<object>: Fixer la taille à <p0>",
+  "ext|statictext|A|83": "<object>: Fixer la hauteur à <p0>",
+  "ext|statictext|A|84": "<object>: Fixer le texte à <p0>",
+  "ext|statictext|A|85": "<object>: Fixer la couleur de texte à <p0>",
+  "ext|statictext|A|86": "<object>: Fixer la couleur de fond à <p0>",
+  "ext|tooltip|C|-81": "<object>: L'utilisateur a cliqué sur un lien",
+  "ext|tooltip|A|80": "Fixer la couleur du texte à <p0>",
+  "ext|tooltip|A|81": "Fixer la couleur du fond à <p0>",
+  "ext|tooltip|A|82": "Fixer le texte à <p0>",
+  "ext|tooltip|A|84": "Fixer le timer d'apparition à <p0> ms",
+  "ext|tooltip|A|85": "Fixer le timer d'affichage à <p0> ms",
+  "ext|tooltip|A|86": "Fixer la zone de détection à <p0>",
+  "ext|tooltip|A|87": "Afficher le tooltip en (<p0>, <p1>)",
+  "ext|tooltip|A|88": "Fermer le tooltip",
+  "ext|treecontrol|C|-81": "<object>: Sélection changée",
+  "ext|treecontrol|C|-82": "<object>: Création d'un élément",
+  "ext|treecontrol|C|-83": "<object>: Destruction d'un élément",
+  "ext|treecontrol|C|-84": "<object>: Est-ce un dossier (<p0>)?",
+  "ext|treecontrol|C|-85": "<object>: Lors du changement de texte d'un élément",
+  "ext|treecontrol|C|-86": "<object>: cliqué avec le bouton gauche",
+  "ext|treecontrol|C|-87": "<object>: cliqué avec le bouton droit",
+  "ext|treecontrol|C|-88": "<object>: Double-clic",
+  "ext|treecontrol|C|-89": "<object> est visible",
+  "ext|treecontrol|C|-90": "<object> a le focus",
+  "ext|treecontrol|A|80": "Insérer dossier (<p0>, <p1>, <p2>)",
+  "ext|treecontrol|A|81": "Détruire dossier/élément <p0>",
+  "ext|treecontrol|A|82": "Fixer le texte à <p0>: <p1>",
+  "ext|treecontrol|A|83": "Ouvrir le dossier <p0>",
+  "ext|treecontrol|A|84": "Fermer le dossier <p0>",
+  "ext|treecontrol|A|85": "Insérer élément (<p0>, <p1>, <p2>)",
+  "ext|treecontrol|A|86": "Sélectionner élément (<p0>)",
+  "ext|treecontrol|A|87": "Explorer <p0>",
+  "ext|treecontrol|A|88": "Charger l'arbre (<p0>)",
+  "ext|treecontrol|A|89": "Enregistrer l'arbre (<p0>)",
+  "ext|treecontrol|A|90": "Montrer l'arbre",
+  "ext|treecontrol|A|91": "Cacher l'arbre",
+  "ext|treecontrol|A|92": "Activer l'arbre",
+  "ext|treecontrol|A|93": "Désactiver l'arbre",
+  "ext|treecontrol|A|94": "Sélectionner le texte (<p0>)",
+  "ext|treecontrol|A|95": "Explorer les dossiers <p0>",
+  "ext|treecontrol|A|96": "Explorer les fichiers <p0>",
+  "ext|treecontrol|A|97": "Fixer la largeur à <p0>",
+  "ext|treecontrol|A|98": "Fixer la hauteur à <p0>",
+  "ext|treecontrol|A|99": "Fixer la donnée interne à <p0>",
+  "ext|treecontrol|A|100": "Trier les enfants de <p0> (sous dossier: <p1>)",
+  "ext|treecontrol|A|101": "Prendre le focus",
+  "ext|treecontrol|A|102": "Perdre le focus",
+  "ext|treecontrol|A|103": "Remise à zéro",
+  "ext|treecontrol|A|104": "Editer l'élément <p0>",
+  "ext|treecontrol|A|105": "<object>: Fixer la couleur de fond à <p0>",
+  "ext|treecontrol|A|106": "Fixer l'image #<p0>",
+  "ext|xboxgamepad|C|-81": "<object>: La manette du joueur <p0> est connectée",
+  "ext|xboxgamepad|C|-82": "<object>: Le bouton A du joueur <p0> est enfoncé",
+  "ext|xboxgamepad|C|-83": "<object>: Le bouton B du joueur <p0> est enfoncé",
+  "ext|xboxgamepad|C|-84": "<object>: Le bouton X du joueur <p0> est enfoncé",
+  "ext|xboxgamepad|C|-85": "<object>: Le bouton Y du joueur <p0> est enfoncé",
+  "ext|xboxgamepad|C|-86": "<object>: Le bouton back du joueur <p0> est enfoncé",
+  "ext|xboxgamepad|C|-88": "<object>: Le bouton arrière gauche du joueur <p0> est enfoncé",
+  "ext|xboxgamepad|C|-89": "<object>: Le stick gauche du joueur <p0> est enfoncé",
+  "ext|xboxgamepad|C|-90": "<object>: Le bouton arrière droit du joueur <p0> est enfoncé",
+  "ext|xboxgamepad|C|-91": "<object>: Le stick droit du joueur <p0> est enfoncé",
+  "ext|xboxgamepad|C|-92": "<object>: Le bouton start du joueur <p0> est enfoncé",
+  "ext|xboxgamepad|C|-93": "<object>: Le bouton haut du pad du joueur <p0> est enfoncé",
+  "ext|xboxgamepad|C|-94": "<object>: Le bouton bas du pad du joueur <p0> est enfoncé",
+  "ext|xboxgamepad|C|-95": "<object>: Le bouton gauche du pad du joueur <p0> est enfoncé",
+  "ext|xboxgamepad|C|-96": "<object>: Le bouton droit du pad du joueur <p0> est enfoncé",
+  "ext|xboxgamepad|C|-97": "Le bouton #<p1> des joueurs <p0> est enfoncé",
+  "ext|xboxgamepad|C|-98": "<object>: N'importe quel bouton du joueur <p0> est enfoncé",
+  "ext|xboxgamepad|A|80": "Faire vibrer la manette du joueur <p0>, moteur gauche <p1>, moteur droit <p2>, durée <p3>"
+ }
+}

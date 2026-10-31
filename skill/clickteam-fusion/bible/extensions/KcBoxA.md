@@ -1,31 +1,31 @@
 # Extension KcBoxA
 
-- Fichier : `KcBoxA.mfx` — installée avec Fusion
-- Nom(s) affiché(s) dans les projets : « Active System Box », « Boîte Système Active »
-- Usage dans le corpus : 157 fois
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `KcBoxA.mfx` — installed with Fusion
+- Name(s) shown in projects: “Active System Box”, “Boîte Système Active”
+- Usage in the corpus: 157 times
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | -81 | Button > Is clicked ? | `<objet> clicked` | On a cliqué sur <objet> |  | 42 (9 proj.) | `ASB Forward: Event ID -81, 0 Parameters` |
-| 1 | -82 | Is enabled ? | `<objet> enabled` | <objet> est activé |  | — |  |
-| 2 | -83 | Button > Is checked ? | `<objet> checked` | <objet> est coché |  | 4 (2 proj.) | `NOT Show Status Bar: Event ID -83, 0 Parameters` |
-| 3 | -84 | User clicks > With left button | `User clicks with left button on <objet>` | L'utilisateur clique avec le bouton gauche sur <objet> |  | 1 (1 proj.) | `Floating tools caption: Event ID -84, 0 Parameters` |
-| 4 | -85 | User clicks > With right button | `User clicks with right button on <objet>` | L'utilisateur clique avec le bouton droit du <objet> |  | — |  |
-| 5 | -86 | Mouse is over object | `Mouse is over <objet>` | La souris se trouve au dessus de <objet> |  | 11 (1 proj.) | `Crosshair ASB: Event ID -86, 0 Parameters` |
-| 6 | -87 | Is image shown ? | `Image of <objet> is shown` | L'image de <objet> est montrée |  | — |  |
-| 7 | -88 | Is docked ? | `<objet> docked` | <objet> est empilé |  | — |  |
+| 0 | -81 | Button > Is clicked ? | `<object> clicked` | On a cliqué sur <object> |  | 42 (9 proj.) | `ASB Forward: Event ID -81, 0 Parameters` |
+| 1 | -82 | Is enabled ? | `<object> enabled` | <object> est activé |  | — |  |
+| 2 | -83 | Button > Is checked ? | `<object> checked` | <object> est coché |  | 4 (2 proj.) | `NOT Show Status Bar: Event ID -83, 0 Parameters` |
+| 3 | -84 | User clicks > With left button | `User clicks with left button on <object>` | L'utilisateur clique avec le bouton gauche sur <object> |  | 1 (1 proj.) | `Floating tools caption: Event ID -84, 0 Parameters` |
+| 4 | -85 | User clicks > With right button | `User clicks with right button on <object>` | L'utilisateur clique avec le bouton droit du <object> |  | — |  |
+| 5 | -86 | Mouse is over object | `Mouse is over <object>` | La souris se trouve au dessus de <object> |  | 11 (1 proj.) | `Crosshair ASB: Event ID -86, 0 Parameters` |
+| 6 | -87 | Is image shown ? | `Image of <object> is shown` | L'image de <object> est montrée |  | — |  |
+| 7 | -88 | Is docked ? | `<object> docked` | <object> est empilé |  | — |  |
 | -54 | -27 | ? | ? |  |  | 3 (1 proj.) | `Alterable Value A of Floating tools caption = 0` |
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Set Dimensions | `Set Dimensions to (<p0>, <p1>)` | Fixer les dimensions à (<p0>, <p1>) | expression numérique « Width » ; expression numérique « Height » | 1 (1 proj.) | `Active System Box : Event ID 80, 2 Parameters { Sin(timer / 20.0) * 100 + 200, Sin(timer / 50.0) * 100 + 200 }` |
-| 1 | 81 | Set Position | `Set Position to (<p0>, <p1>)` | Fixer la position à (<p0>, <p1>) | expression numérique « X » ; expression numérique « Y » | 2 (2 proj.) | `Active System Box : Event ID 81, 2 Parameters { Sin(timer / 40.0) * 100 + 200, Sin(timer / 30.0) * 50 + 100 }` |
+| 0 | 80 | Set Dimensions | `Set Dimensions to (<p0>, <p1>)` | Fixer les dimensions à (<p0>, <p1>) | numeric expression “Width”; numeric expression “Height” | 1 (1 proj.) | `Active System Box : Event ID 80, 2 Parameters { Sin(timer / 20.0) * 100 + 200, Sin(timer / 50.0) * 100 + 200 }` |
+| 1 | 81 | Set Position | `Set Position to (<p0>, <p1>)` | Fixer la position à (<p0>, <p1>) | numeric expression “X”; numeric expression “Y” | 2 (2 proj.) | `Active System Box : Event ID 81, 2 Parameters { Sin(timer / 40.0) * 100 + 200, Sin(timer / 30.0) * 50 + 100 }` |
 | 2 | 82 | State > Enable | `Enable` | Activer |  | — |  |
 | 3 | 83 | State > Disable | `Disable` | Désactiver |  | — |  |
 | 4 | 84 | State > Check | `Check` | Cocher |  | 3 (2 proj.) | `Show Status Bar : Event ID 84, 0 Parameters` |
@@ -75,12 +75,12 @@
 | 48 | 128 | Set Text color > Tooltip text | `Set Text color to Tooltip text` | Fixer la couleur de texte à texte de tooltip |  | — |  |
 | 49 | 129 | Set Text color > Menu text | `Set Text color to Menu text` | Fixer la couleur de texte à texte de menu |  | — |  |
 | 50 | 130 | Set Text color > Window text | `Set Text color to Window text` | Fixer la couleur de texte à texte de fenêtre |  | — |  |
-| 51 | 131 | Set Fill color > Other | `Set Fill color to <p0>` | Fixer la couleur de remplissage à <p0> | expression numérique « System color index » | 3 (2 proj.) | `Animation ASB : Event ID 131, 1 Parameters { GetRGB(200, 200, 250) }` |
-| 52 | 132 | Set Border color 1 > Other | `Set Border color 1 to <p0>` | Fixer la couleur de bordure 1 à <p0> | expression numérique « System color index » | — |  |
-| 53 | 133 | Set Border color 2 > Other | `Set Border color 2 to <p0>` | Fixer la couleur de bordure 2 à <p0> | expression numérique « System color index » | — |  |
-| 54 | 134 | Set Text color > Other | `Set Text color to <p0>` | Fixer la couleur de texte à <p0> | expression numérique « System color index » | — |  |
-| 55 | 135 | Set text | `Set text to <p0>` | Changer le texte en <p0> | expression chaîne « Text » | 18 (7 proj.) | `Mouse coordinates : Event ID 135, 1 Parameters { Str$(XMouse) + ", " + Str$(YMouse) }` |
-| 56 | 136 | Set tooltip text | `Set tool tip text to <p0>` | Changer le texte du tooltip en <p0> | expression chaîne « Text » | 1 (1 proj.) | `Tool 1 : Event ID 136, 1 Parameters { "A tool to use!" }` |
+| 51 | 131 | Set Fill color > Other | `Set Fill color to <p0>` | Fixer la couleur de remplissage à <p0> | numeric expression “System color index” | 3 (2 proj.) | `Animation ASB : Event ID 131, 1 Parameters { GetRGB(200, 200, 250) }` |
+| 52 | 132 | Set Border color 1 > Other | `Set Border color 1 to <p0>` | Fixer la couleur de bordure 1 à <p0> | numeric expression “System color index” | — |  |
+| 53 | 133 | Set Border color 2 > Other | `Set Border color 2 to <p0>` | Fixer la couleur de bordure 2 à <p0> | numeric expression “System color index” | — |  |
+| 54 | 134 | Set Text color > Other | `Set Text color to <p0>` | Fixer la couleur de texte à <p0> | numeric expression “System color index” | — |  |
+| 55 | 135 | Set text | `Set text to <p0>` | Changer le texte en <p0> | string expression “Text” | 18 (7 proj.) | `Mouse coordinates : Event ID 135, 1 Parameters { Str$(XMouse) + ", " + Str$(YMouse) }` |
+| 56 | 136 | Set tooltip text | `Set tool tip text to <p0>` | Changer le texte du tooltip en <p0> | string expression “Text” | 1 (1 proj.) | `Tool 1 : Event ID 136, 1 Parameters { "A tool to use!" }` |
 | 57 | 137 | Docking > Undock | `Undock` | Désempiler |  | 2 (1 proj.) | `Status bar : Event ID 137, 0 Parameters` |
 | 58 | 138 | Docking > Dock to left | `Dock to left` | Empiler à gauche |  | — |  |
 | 59 | 139 | Docking > Dock to right | `Dock to right` | Empiler à droite |  | 1 (1 proj.) | `Right Status Container : Event ID 139, 0 Parameters` |
@@ -100,15 +100,15 @@
 | 73 | 153 | Set Hyperlink color > Tooltip text | `Set Hyperlink color to Tooltip text` | Fixer la couleur des hyperliens à texte de tooltip |  | — |  |
 | 74 | 154 | Set Hyperlink color > Menu text | `Set Hyperlink color to Menu text` | Fixer la couleur des hyperliens à texte de menu |  | — |  |
 | 75 | 155 | Set Hyperlink color > Window text | `Set Hyperlink color to Window text` | Fixer la couleur des hyperliens à texte de fenêtre |  | — |  |
-| 76 | 156 | Set Hyperlink color > Other | `Set Hyperlink color to <p0>` | Fixer la couleur d'hyperlien à <p0> | expression numérique « System color index » | — |  |
-| 77 | 157 | Attach menu option | `Attach menu option <p0>` | Attacher l'option de menu <p0> | option de menu « Attach menu option » | 17 (1 proj.) | `Cut : Event ID 157, 1 Parameters { 2008 }` |
+| 76 | 156 | Set Hyperlink color > Other | `Set Hyperlink color to <p0>` | Fixer la couleur d'hyperlien à <p0> | numeric expression “System color index” | — |  |
+| 77 | 157 | Attach menu option | `Attach menu option <p0>` | Attacher l'option de menu <p0> | menu option “Attach menu option” | 17 (1 proj.) | `Cut : Event ID 157, 1 Parameters { 2008 }` |
 | -54 | 26 | ? | ? |  |  | 8 (6 proj.) | `Status bar : Make invisible` |
 | -53 | 27 | ? | ? |  |  | 8 (6 proj.) | `Status bar : Reappear` |
 | -49 | 31 | ? | ? |  |  | 6 (1 proj.) | `Floating tools caption : Set Alterable Value A to 1` |
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | 80 | Current color > Fill color | `Fill color(` | Couleur remplissage |  | 1 (1 proj.) | `Expression ID 80("Color")` |
 | 1 | 81 | Current color > Border color #1 | `Border color one(` | Couleur de bordure #1 |  | — |  |
@@ -139,12 +139,12 @@
 | 26 | 106 | System color > Window background | `Window background(` | Fond de fenêtre |  | — |  |
 | 27 | 107 | System color > Window frame | `Window frame(` | Bordure de fenêtre |  | — |  |
 | 28 | 108 | System color > Window text | `Window text(` | Texte de fenêtre |  | — |  |
-| 29 | 109 | Text | `Text$(` | Texte | → chaîne | 1 (1 proj.) | `Expression ID 109("Group.Good")` |
-| 30 | 110 | Tool tip text | `Tool tip text$(` | Texte du tooltip | → chaîne | — |  |
+| 29 | 109 | Text | `Text$(` | Texte | → string | 1 (1 proj.) | `Expression ID 109("Group.Good")` |
+| 30 | 110 | Tool tip text | `Tool tip text$(` | Texte du tooltip | → string | — |  |
 | 31 | 111 | Dimensions > Width | `Width(` | Largeur |  | 2 (1 proj.) | `Expression ID 111("Active System Box")` |
 | 32 | 112 | Dimensions > Height | `Height(` | Hauteur |  | 2 (1 proj.) | `Expression ID 112("Active System Box")` |
 | 33 | 113 | Current color > Hyperlink color | `Hyperlink color(` | Couleur d'hyperlien |  | — |  |
-| 36 | 116 | Convert System Color To RGB | `SysToRGB(` | Convertir Couleur Système en RVB | nombre | — |  |
+| 36 | 116 | Convert System Color To RGB | `SysToRGB(` | Convertir Couleur Système en RVB | number | — |  |
 | -79 | 1 | ? | ? |  |  | 1 (1 proj.) | `Y("Floating tools frame")` |
 | -73 | 7 | ? | ? |  |  | 4 (1 proj.) | `X Left("Active System Box")` |
 | -72 | 8 | ? | ? |  |  | 1 (1 proj.) | `X Right("Active System Box")` |

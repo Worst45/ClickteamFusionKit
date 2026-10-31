@@ -1,51 +1,51 @@
 # Extension moosock
 
-- Fichier : `moosock.mfx` — extension tierce (fournie avec un projet téléchargé)
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `moosock.mfx` — third-party extension (shipped with a downloaded project)
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | -81 | On Connect | `<objet>: On Connect` |  |  | — |  |
-| 1 | -82 | On Disconnect | `<objet>: On Disconnect` |  |  | — |  |
-| 2 | -83 | On Received | `<objet>: On Received` |  |  | — |  |
-| 3 | -84 | On Can Accept | `<objet>: On Can Accept` |  |  | — |  |
-| 4 | -85 | Is Connected | `<objet>: Is Connected` |  |  | — |  |
+| 0 | -81 | On Connect | `<object>: On Connect` |  |  | — |  |
+| 1 | -82 | On Disconnect | `<object>: On Disconnect` |  |  | — |  |
+| 2 | -83 | On Received | `<object>: On Received` |  |  | — |  |
+| 3 | -84 | On Can Accept | `<object>: On Can Accept` |  |  | — |  |
+| 4 | -85 | Is Connected | `<object>: Is Connected` |  |  | — |  |
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Accept | `<objet>: Accept` |  |  | — |  |
-| 1 | 81 | Connect | `<objet>: Connect to <p0> on port <p1>` |  | (paramètres non fiables) | — |  |
-| 2 | 82 | Disconnect | `<objet>: Disconnect` |  |  | — |  |
-| 3 | 83 | Listen | `<objet>: Listen on port <p0>` |  | (paramètres non fiables) | — |  |
-| 4 | 84 | Send Text | `<objet>: Send Text <p0>` |  | (paramètres non fiables) | — |  |
-| 5 | 85 | Send Text Line | `<objet>: Send Text Line <p0>` |  | (paramètres non fiables) | — |  |
-| 6 | 86 | Send Binary | `<objet>: Send Binary from file <p0>` |  | (paramètres non fiables) | — |  |
-| 7 | 87 | Send Binary Line | `<objet>: Send Binary Line from file <p0>` |  | (paramètres non fiables) | — |  |
-| 8 | 88 | Receive Binary to Create | `<objet>: Receive Binary, create file <p0> (<p1> bytes)` |  | (paramètres non fiables) | — |  |
-| 9 | 89 | Receive Binary Line | `<objet>: Receive Binary Line into file <p0>` |  | (paramètres non fiables) | — |  |
-| 10 | 90 | Set Mode > Blocking | `<objet>: Use Blocking Mode` |  |  | — |  |
-| 11 | 91 | Set Mode > Non-Blocking | `<objet>: Use Non-Blocking Mode` |  |  | — |  |
-| 12 | 92 | Set Timeout (ms) | `<objet>: Set Timeout to <p0> milliseconds` |  | (paramètres non fiables) | — |  |
-| 13 | 93 | Select Socket | `<objet>: Select Socket at index <p0>` |  | (paramètres non fiables) | — |  |
-| 15 | 95 | Receive Binary to Append | `<objet>: Receive Binary, append to file <p0> (<p1> bytes)` |  | (paramètres non fiables) | — |  |
-| 16 | 96 | Set Property | `<objet>: Set Property <p0> to <p1>` |  | (paramètres non fiables) | — |  |
-| 17 | 97 | Select Socket with Property | `<objet>: Select Socket with Property <p0> = <p1>` |  | (paramètres non fiables) | — |  |
-| 18 | 98 | Delete Socket | `<objet>: Delete Socket` |  |  | — |  |
+| 0 | 80 | Accept | `<object>: Accept` |  |  | — |  |
+| 1 | 81 | Connect | `<object>: Connect to <p0> on port <p1>` |  | (unreliable parameters) | — |  |
+| 2 | 82 | Disconnect | `<object>: Disconnect` |  |  | — |  |
+| 3 | 83 | Listen | `<object>: Listen on port <p0>` |  | (unreliable parameters) | — |  |
+| 4 | 84 | Send Text | `<object>: Send Text <p0>` |  | (unreliable parameters) | — |  |
+| 5 | 85 | Send Text Line | `<object>: Send Text Line <p0>` |  | (unreliable parameters) | — |  |
+| 6 | 86 | Send Binary | `<object>: Send Binary from file <p0>` |  | (unreliable parameters) | — |  |
+| 7 | 87 | Send Binary Line | `<object>: Send Binary Line from file <p0>` |  | (unreliable parameters) | — |  |
+| 8 | 88 | Receive Binary to Create | `<object>: Receive Binary, create file <p0> (<p1> bytes)` |  | (unreliable parameters) | — |  |
+| 9 | 89 | Receive Binary Line | `<object>: Receive Binary Line into file <p0>` |  | (unreliable parameters) | — |  |
+| 10 | 90 | Set Mode > Blocking | `<object>: Use Blocking Mode` |  |  | — |  |
+| 11 | 91 | Set Mode > Non-Blocking | `<object>: Use Non-Blocking Mode` |  |  | — |  |
+| 12 | 92 | Set Timeout (ms) | `<object>: Set Timeout to <p0> milliseconds` |  | (unreliable parameters) | — |  |
+| 13 | 93 | Select Socket | `<object>: Select Socket at index <p0>` |  | (unreliable parameters) | — |  |
+| 15 | 95 | Receive Binary to Append | `<object>: Receive Binary, append to file <p0> (<p1> bytes)` |  | (unreliable parameters) | — |  |
+| 16 | 96 | Set Property | `<object>: Set Property <p0> to <p1>` |  | (unreliable parameters) | — |  |
+| 17 | 97 | Select Socket with Property | `<object>: Select Socket with Property <p0> = <p1>` |  | (unreliable parameters) | — |  |
+| 18 | 98 | Delete Socket | `<object>: Delete Socket` |  |  | — |  |
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | 80 | Get Port | `GetPort(` |  |  | — |  |
 | 1 | 81 | Get Local IP | `GetLocalIP$(` |  |  | — |  |
 | 2 | 82 | Get Remote IP | `GetRemoteIP$(` |  |  | — |  |
-| 3 | 83 | Receive Text | `Recv$(` |  | (paramètres non fiables) | — |  |
+| 3 | 83 | Receive Text | `Recv$(` |  | (unreliable parameters) | — |  |
 | 4 | 84 | Receive Text Line | `RecvLine$(` |  |  | — |  |
 | 5 | 85 | Stats > Get Runtime | `StatsRuntime(` |  |  | — |  |
 | 6 | 86 | Stats > Totals > Packets > Get Total Packet Count | `TotalPacketCount(` |  |  | — |  |
@@ -82,4 +82,4 @@
 | 37 | 117 | Stats > Sampling > Last Packet Size > Get Last Incoming Packet Size | `LastInPacketSize(` |  |  | — |  |
 | 38 | 118 | Stats > Sampling > Last Packet Size > Get Last Outgoing Packet Size | `LastOutPacketSize(` |  |  | — |  |
 | 39 | 119 | Count Sockets | `CountSockets(` |  |  | — |  |
-| 40 | 120 | Get Property | `Property$(` |  | (paramètres non fiables) | — |  |
+| 40 | 120 | Get Property | `Property$(` |  | (unreliable parameters) | — |  |

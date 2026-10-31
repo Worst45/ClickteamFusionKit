@@ -1,19 +1,21 @@
 # ClickteamFusionKit
 
-Outils pour faire analyser un projet **Clickteam Fusion 2.5** (`.mfa`) par un LLM :
+Tools that let an LLM analyze a **Clickteam Fusion 2.5** project (`.mfa`):
 
-- **MfaDump** : exporte les événements d'un `.mfa` (conditions, actions, expressions, groupes,
-  commentaires) en texte lisible. Lecture seule : le `.mfa` n'est jamais modifié.
-- **La bible** : référence de toutes les conditions / actions / expressions connues (objets intégrés
-  et 410 extensions), avec les libellés français de l'éditeur.
-- **La skill `clickteam-fusion`** : point d'entrée pour le LLM (comment lire un projet, comprendre le
-  moteur de Fusion, proposer des modifications).
+- **MfaDump** exports the events of a `.mfa` file (conditions, actions, expressions, groups and
+  comments) as readable text, in English or in French (`--lang en|fr`). It only reads: the `.mfa` file
+  is never modified.
+- **The bible** is a reference of every known condition, action and expression (built-in objects and
+  410 extensions), with the labels of the English and French editors.
+- **The `clickteam-fusion` skill** is the LLM's entry point. It explains how to read a project,
+  understand the Fusion engine and suggest changes. It answers in the user's language, using the
+  labels of their editor.
 
-MfaDump s'appuie sur [Nebula](https://github.com/AITYunivers/NebulaFD) (décompilateur Fusion de
-Yunivers), via le fork [Worst45/NebulaFD](https://github.com/Worst45/NebulaFD), branche
-`mfa-dump-enhanced`, qui corrige la lecture des `.mfa` (anciens formats, projets à plusieurs scènes,
-commentaires, groupes, zones, valeurs globales, nombres décimaux…). Le dépôt d'origine n'a pas de
-licence : ce kit ne contient **que du code source** et récupère Nebula depuis GitHub à la compilation.
+MfaDump is built on [Nebula](https://github.com/AITYunivers/NebulaFD), Yunivers' Fusion decompiler,
+through the fork [Worst45/NebulaFD](https://github.com/Worst45/NebulaFD), branch
+`mfa-dump-enhanced`. The fork fixes `.mfa` reading: old formats, multi-frame projects, comments,
+groups, zones, global values, decimal numbers… The original repository has no license, so this kit
+contains **source code only** and fetches Nebula from GitHub at build time.
 
 ## Installation (Windows)
 
@@ -23,44 +25,45 @@ cd ClickteamFusionKit
 powershell -ExecutionPolicy Bypass -File scripts\install-skill.ps1
 ```
 
-`install-skill.ps1` compile MfaDump si besoin, puis installe la skill pour Claude Code (lien vers
-`skill\clickteam-fusion\`, donc toujours à jour avec le kit).
+`install-skill.ps1` builds MfaDump if needed, then installs the skill for Claude Code. The skill is a
+link to `skill\clickteam-fusion\`, so it always follows the kit.
 
-Rien d'autre à installer :
-- **.NET** : si le SDK .NET 8 n'est pas présent, `build.ps1` l'installe dans `tools\dotnet\` (local au
-  kit, environ 300 Mo). `MfaDump.exe` produit est autonome.
-- **Nebula** : sous-module git ; sans git (kit téléchargé en zip), `build.ps1` télécharge le fork.
-- **Node.js** : seulement pour régénérer la bible ; s'il est absent, `regen-bible.ps1` télécharge la
-  version portable officielle dans `tools\node\`.
+There is nothing else to install:
+- **.NET**: if the .NET 8 SDK is missing, `build.ps1` installs it into `tools\dotnet\` (local to the
+  kit, about 300 MB). The resulting `MfaDump.exe` is standalone.
+- **Nebula**: a git submodule. Without git (kit downloaded as a zip), `build.ps1` downloads the fork.
+- **Node.js**: only needed to regenerate the bible. If it is missing, `regen-bible.ps1` downloads the
+  official portable version into `tools\node\`.
 
-## Utilisation
+## Usage
 
-- **Avec Claude Code** : parler du projet Fusion ; la skill `clickteam-fusion` se charge seule.
-- **Avec un autre LLM** : lui donner le dossier `skill\clickteam-fusion\` (point d'entrée : `SKILL.md`).
-- **À la main** : glisser un `.mfa` sur `skill\clickteam-fusion\MfaDump.exe` → `<projet>.events.txt`
-  à côté du `.mfa`.
+- **With Claude Code**: talk about your Fusion project and the `clickteam-fusion` skill loads by itself.
+- **With another LLM**: give it the `skill\clickteam-fusion\` folder (entry point: `SKILL.md`).
+- **By hand**: drop a `.mfa` file on `skill\clickteam-fusion\MfaDump.exe`. You get
+  `<project>.events.txt` next to the `.mfa`, in the language of Windows. From a command line:
+  `MfaDump --lang fr project.mfa`.
 
-## Organisation
+## Layout
 
-| Dossier | Contenu |
+| Folder | Content |
 |---|---|
-| `skill\clickteam-fusion\` | ce qu'il faut pour **utiliser** : `SKILL.md`, `MfaDump.exe` (compilé), `CONTEXTE_CLICKTEAM.md`, `bible\` |
-| `src\` | sources : `MfaDump`, `NebulaCatalog` (catalogue des objets intégrés), `ExtCatalog` (catalogue des extensions, 32 bits), `NebulaTest` (banc de test), `bible\generate.js` |
-| `external\NebulaFD\` | sous-module : le fork de Nebula |
-| `data\` | catalogues extraits et statistiques d'usage **publiques** (aucun nom de projet personnel) |
+| `skill\clickteam-fusion\` | everything needed to **use** the kit: `SKILL.md`, `MfaDump.exe` (built), `FUSION_CONTEXT.md`, `bible\` |
+| `src\` | sources: `MfaDump`, `NebulaCatalog` (built-in objects catalog), `ExtCatalog` (extensions catalog, 32-bit), `NebulaTest` (test bench), `bible\generate.js` |
+| `external\NebulaFD\` | submodule: the Nebula fork |
+| `data\` | extracted catalogs, French labels and **public** usage statistics (no personal project names) |
 | `scripts\` | `build.ps1`, `install-skill.ps1`, `regen-bible.ps1`, `update-catalogs.ps1`, `corpus\` |
-| `docs\CONSTRUCTION.md` | fonctionnement interne et maintenance |
-| `work\` | **local, non versionné** : exports de projets, statistiques complètes, provenance des règles |
-| `tools\` | **local, non versionné** : SDK .NET, Node portable, outils de maintenance compilés |
+| `docs\INTERNALS.md` | how it works inside, and maintenance |
+| `work\` | **local, not committed**: project exports, full statistics, provenance of the rules |
+| `tools\` | **local, not committed**: .NET SDK, portable Node, built maintenance tools |
 
-## Faire évoluer
+## Updating
 
 ```powershell
-scripts\build.ps1                    # recompile MfaDump (après une modification de src\ ou de Nebula)
-scripts\build.ps1 -All               # + outils de maintenance (catalogues, banc de test)
-scripts\regen-bible.ps1              # régénère la bible depuis data\
-scripts\regen-bible.ps1 -Corpus -Sources 'perso=C:\Jeux\mes-jeux'   # réanalyse des projets d'abord
-scripts\update-catalogs.ps1          # réextrait les catalogues (Nebula, extensions de Fusion)
+scripts\regen-bible.ps1              # regenerates the bible and the French labels from data\
+scripts\regen-bible.ps1 -Corpus -Sources 'mine=C:\Games\my-games'   # re-analyzes projects first
+scripts\build.ps1                    # rebuilds MfaDump (after a change in src\, Nebula or data\lang)
+scripts\build.ps1 -All               # + maintenance tools (catalogs, test bench)
+scripts\update-catalogs.ps1          # re-extracts the catalogs (Nebula, Fusion's extensions)
 ```
 
-Détails : `docs\CONSTRUCTION.md`.
+Details: `docs\INTERNALS.md`.

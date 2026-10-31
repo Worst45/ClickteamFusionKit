@@ -1,35 +1,35 @@
 # Extension sfunc
 
-- Fichier : `sfunc.mfx` — extension tierce (fournie avec un projet téléchargé)
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `sfunc.mfx` — third-party extension (shipped with a downloaded project)
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | -81 | On Loop | `<objet> On Loop <p0>` |  | expression chaîne « Loop Name » | — |  |
-| 1 | -82 | On Local Function | `<objet> On Local Function <p0>` |  | expression chaîne « Local Function Name » | — |  |
-| 2 | -83 | On Global Function | `<objet> On Global Function <p0>` |  | expression chaîne « Global Function Name » | — |  |
-| 3 | -84 | Error? | `<objet> Error` |  |  | — |  |
+| 0 | -81 | On Loop | `<object> On Loop <p0>` |  | string expression “Loop Name” | — |  |
+| 1 | -82 | On Local Function | `<object> On Local Function <p0>` |  | string expression “Local Function Name” | — |  |
+| 2 | -83 | On Global Function | `<object> On Global Function <p0>` |  | string expression “Global Function Name” | — |  |
+| 3 | -84 | Error? | `<object> Error` |  |  | — |  |
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Call Loop (start,end,step) | `Call Loop <p0> from <p1> to <p2> step <p3>` |  | expression chaîne « Loop Name » ; expression numérique « Start Value » ; expression numérique « End Value » ; expression numérique « Step Value » | — |  |
-| 1 | 81 | Call Local Function | `Call Local Function <p0>` |  | expression chaîne « Local Function Name » | — |  |
-| 2 | 82 | Call Global Function | `Call Global Function <p0>-><p1>` |  | expression chaîne « Target Object Name » ; expression chaîne « Global Function Name » | — |  |
+| 0 | 80 | Call Loop (start,end,step) | `Call Loop <p0> from <p1> to <p2> step <p3>` |  | string expression “Loop Name”; numeric expression “Start Value”; numeric expression “End Value”; numeric expression “Step Value” | — |  |
+| 1 | 81 | Call Local Function | `Call Local Function <p0>` |  | string expression “Local Function Name” | — |  |
+| 2 | 82 | Call Global Function | `Call Global Function <p0>-><p1>` |  | string expression “Target Object Name”; string expression “Global Function Name” | — |  |
 | 3 | 83 | Clear Last Error | `Clear Last Error` |  |  | — |  |
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Get Loop Index | `Index(` |  | chaîne | — |  |
-| 1 | 81 | Expression | `ProcessExpression$(` |  | chaîne → chaîne | — |  |
-| 2 | 82 | IF Expression (test,true,false) | `IF Expression(` |  | chaîne ; chaîne ; chaîne → chaîne | — |  |
-| 3 | 83 | Quote (string) | `Quote(` |  | chaîne → chaîne | — |  |
+| 0 | 80 | Get Loop Index | `Index(` |  | string | — |  |
+| 1 | 81 | Expression | `ProcessExpression$(` |  | string → string | — |  |
+| 2 | 82 | IF Expression (test,true,false) | `IF Expression(` |  | string; string; string → string | — |  |
+| 3 | 83 | Quote (string) | `Quote(` |  | string → string | — |  |
 | 4 | 84 | Get Error Code | `Err(` |  |  | — |  |
-| 5 | 85 | Get Error Message | `ErrMsg(` |  | → chaîne | — |  |
+| 5 | 85 | Get Error Message | `ErrMsg(` |  | → string | — |  |

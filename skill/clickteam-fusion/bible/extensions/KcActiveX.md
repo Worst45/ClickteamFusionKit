@@ -1,14 +1,14 @@
 # Extension KcActiveX
 
-- Fichier : `KcActiveX.mfx` — **non cataloguée (extension absente lors de l'extraction) : libellés inconnus**
-- Nom(s) affiché(s) dans les projets : « ActiveX »
-- Usage dans le corpus : 8 fois
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `KcActiveX.mfx` — **not cataloged (extension missing during extraction): labels unknown**
+- Name(s) shown in projects: “ActiveX”
+- Usage in the corpus: 8 times
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 4 | 84 | ? | ? |  |  | 1 (1 proj.) | `ControlName : Event ID 84, 0 Parameters` |
 | 5 | 85 | ? | ? |  |  | 1 (1 proj.) | `ControlName : Event ID 85, 0 Parameters` |

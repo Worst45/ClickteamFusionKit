@@ -1,13 +1,13 @@
 # Extension MobileUtilities
 
-- Fichier : `MobileUtilities.mfx` — installée avec Fusion
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `MobileUtilities.mfx` — installed with Fusion
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | -81 | Left key > Left key pressed | `Left key pressed (F10)` | Lors de l'appui sur la touche gauche (F10) |  | — |  |
 | 1 | -82 | Right key > Right key pressed | `Right key pressed (F11)` | Lors de l'appui sur la touche droite (F11) |  | — |  |
@@ -18,14 +18,14 @@
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Set window rotation | `Set window rotation to <p0>` | Fixer la rotation de la fenêtre à <p0> | expression numérique « 0: no rotation, 1: 90 clockwise, 2: 90 anti-clockwise » | — |  |
+| 0 | 80 | Set window rotation | `Set window rotation to <p0>` | Fixer la rotation de la fenêtre à <p0> | numeric expression “0: no rotation, 1: 90 clockwise, 2: 90 anti-clockwise” | — |  |
 | 1 | 81 | Refresh display | `Refresh display` | Rafraichir l'affichage |  | — |  |
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | 80 | Get screen orientation | `Orientation(` | Orientation de l'écran |  | — |  |
 | 1 | 81 | Get window rotation | `Rotation(` | Orientation de la fenêtre |  | — |  |

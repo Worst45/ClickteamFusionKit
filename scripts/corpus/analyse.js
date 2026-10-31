@@ -1,8 +1,8 @@
-// Analyse du lot : succès/échec par version de format MFA et par endroit du plantage Nebula.
-// node analyse.js [dossier du corpus]   (par défaut work\corpus du kit)
+// Batch analysis: success/failure per MFA format version and per Nebula crash site.
+// node analyse.js [corpus folder]   (default: the kit's work\corpus)
 const fs = require("fs"), path = require("path");
 const CORPUS = path.resolve(process.argv[2] || path.join(__dirname, "../../work/corpus"));
-// Dossiers sources écrits par run-corpus.ps1 (libellé -> dossier)
+// Source folders written by run-corpus.ps1 (label -> folder)
 let rootList = JSON.parse(fs.readFileSync(path.join(CORPUS, "roots.json"), "utf8").replace(/^﻿/, ""));
 if (!Array.isArray(rootList)) rootList = [rootList];
 const roots = Object.fromEntries(rootList.map(r => [r.Label, r.Path]));
@@ -17,7 +17,7 @@ for (const line of rows.slice(1)) {
   const id = String(r.id).padStart(3, "0");
   const logFile = path.join(CORPUS, "_logs", `${id}.log`);
   const log = fs.existsSync(logFile) ? fs.readFileSync(logFile, "utf8") : "";
-  const err = log.match(/^ERREUR sur .*? : (.*)$/m);
+  const err = log.match(/^ERROR on .*?: (.*)$/m);
   const site = (log.match(/^\s+at (Nebula\.[^(]+)/m) || [])[1] || "";
   let hdr = "?", build = "?";
   try {
@@ -29,9 +29,9 @@ for (const line of rows.slice(1)) {
              site: site.replace("Nebula.Core.Data.", "").trim(), hdr, build });
 }
 const count = f => res.reduce((o, r) => (o[f(r)] = (o[f(r)] || 0) + 1, o), {});
-console.log("OK/KO :", count(r => r.ok ? "OK" : r.status));
+console.log("OK/KO:", count(r => r.ok ? "OK" : r.status));
 const hb = {};
 res.forEach(r => { const k = `${r.hdr} build ${r.build}`; hb[k] = hb[k] || { ok: 0, ko: 0 }; hb[k][r.ok ? "ok" : "ko"]++; });
-console.log("Par en-tête + build :", hb);
-console.log("Sites de plantage :", count(r => r.ok ? "-" : r.site));
+console.log("Per header + build:", hb);
+console.log("Crash sites:", count(r => r.ok ? "-" : r.site));
 fs.writeFileSync(path.join(CORPUS, "_analyse.json"), JSON.stringify(res, null, 1));

@@ -1,32 +1,32 @@
 # Extension filetime
 
-- Fichier : `filetime.mfx` — extension tierce (fournie avec un projet téléchargé)
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `filetime.mfx` — third-party extension (shipped with a downloaded project)
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | -81 | File is Open | `File is Open` |  |  | — |  |
 | 1 | -82 | Error Occurred | `Error Occurred` |  |  | — |  |
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Open File | `Set File <p0>` |  | expression chaîne « File Path » | — |  |
-| 1 | 81 | Set Created Date | `Set Created Date <p0>, <p1>, <p2>, <p3>, <p4>, <p5>, <p6>` |  | expression numérique « Year (1601 - 30827) » ; expression numérique « Month (1 - 12) » ; expression numérique « Day (1-31) » ; expression numérique « Hour (0-23) » ; expression numérique « Minute (0-59) » ; expression numérique « Second (0-59) » ; expression numérique « Milliseconds (0-999) » | — |  |
-| 2 | 82 | Set Last Modifed Date | `Set Last Modified Date <p0>, <p1>, <p2>, <p3>, <p4>, <p5>, <p6>` |  | expression numérique « Year (1601 - 30827) » ; expression numérique « Month (1 - 12) » ; expression numérique « Day (1-31) » ; expression numérique « Hour (0-23) » ; expression numérique « Minute (0-59) » ; expression numérique « Second (0-59) » ; expression numérique « Milliseconds (0-999) » | — |  |
-| 3 | 83 | Set Last Accessed Date | `Set Last Accessed Date <p0>, <p1>, <p2>, <p3>, <p4>, <p5>, <p6>` |  | expression numérique « Year (1601 - 30827) » ; expression numérique « Month (1 - 12) » ; expression numérique « Day (1-31) » ; expression numérique « Hour (0-23) » ; expression numérique « Minute (0-59) » ; expression numérique « Second (0-59) » ; expression numérique « Milliseconds (0-999) » | — |  |
+| 0 | 80 | Open File | `Set File <p0>` |  | string expression “File Path” | — |  |
+| 1 | 81 | Set Created Date | `Set Created Date <p0>, <p1>, <p2>, <p3>, <p4>, <p5>, <p6>` |  | numeric expression “Year (1601 - 30827)”; numeric expression “Month (1 - 12)”; numeric expression “Day (1-31)”; numeric expression “Hour (0-23)”; numeric expression “Minute (0-59)”; numeric expression “Second (0-59)”; numeric expression “Milliseconds (0-999)” | — |  |
+| 2 | 82 | Set Last Modifed Date | `Set Last Modified Date <p0>, <p1>, <p2>, <p3>, <p4>, <p5>, <p6>` |  | numeric expression “Year (1601 - 30827)”; numeric expression “Month (1 - 12)”; numeric expression “Day (1-31)”; numeric expression “Hour (0-23)”; numeric expression “Minute (0-59)”; numeric expression “Second (0-59)”; numeric expression “Milliseconds (0-999)” | — |  |
+| 3 | 83 | Set Last Accessed Date | `Set Last Accessed Date <p0>, <p1>, <p2>, <p3>, <p4>, <p5>, <p6>` |  | numeric expression “Year (1601 - 30827)”; numeric expression “Month (1 - 12)”; numeric expression “Day (1-31)”; numeric expression “Hour (0-23)”; numeric expression “Minute (0-59)”; numeric expression “Second (0-59)”; numeric expression “Milliseconds (0-999)” | — |  |
 | 4 | 84 | Close File | `Close File` |  |  | — |  |
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Get Open File | `OpenFile$(` |  | → chaîne | — |  |
+| 0 | 80 | Get Open File | `OpenFile$(` |  | → string | — |  |
 | 1 | 81 | Created > Year | `YearCreated(` |  |  | — |  |
 | 2 | 82 | Created > Month | `MonthCreated(` |  |  | — |  |
 | 3 | 83 | Created > Day of Week | `DayofWeekCreated(` |  |  | — |  |
@@ -51,4 +51,4 @@
 | 22 | 102 | Last Accessed > Minute | `MinuteAccessed(` |  |  | — |  |
 | 23 | 103 | Last Accessed > Second | `SecondAccessed(` |  |  | — |  |
 | 24 | 104 | Last Accessed > Millisecond | `MillisecondAccessed(` |  |  | — |  |
-| 25 | 105 | Get Error | `GetError$(` |  | → chaîne | — |  |
+| 25 | 105 | Get Error | `GetError$(` |  | → string | — |  |

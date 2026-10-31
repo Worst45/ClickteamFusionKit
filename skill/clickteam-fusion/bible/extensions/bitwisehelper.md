@@ -1,28 +1,28 @@
 # Extension bitwisehelper
 
-- Fichier : `bitwisehelper.mfx` — extension tierce (fournie avec un projet téléchargé)
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `bitwisehelper.mfx` — third-party extension (shipped with a downloaded project)
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | -81 | Is True | `<p0> is True` |  | expression numérique « Is True » | — |  |
-| 1 | -82 | Is False | `<p0> is False` |  | expression numérique « Is False » | — |  |
+| 0 | -81 | Is True | `<p0> is True` |  | numeric expression “Is True” | — |  |
+| 1 | -82 | Is False | `<p0> is False` |  | numeric expression “Is False” | — |  |
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Equal | `Equal(` |  | nombre ; nombre | — |  |
-| 1 | 81 | Different | `Different(` |  | nombre ; nombre | — |  |
-| 2 | 82 | Lower | `Lower(` |  | nombre ; nombre | — |  |
-| 3 | 83 | LowerEqual | `LowerEqual(` |  | nombre ; nombre | — |  |
-| 4 | 84 | Greater | `Greater(` |  | nombre ; nombre | — |  |
-| 5 | 85 | GreaterEqual | `GreaterEqual(` |  | nombre ; nombre | — |  |
-| 6 | 86 | Conditional | `Conditional(` |  | nombre ; nombre ; nombre | — |  |
-| 7 | 87 | StringEqual | `StringEqual(` |  | chaîne ; chaîne | — |  |
-| 8 | 88 | StringDifferent | `StringDifferent(` |  | chaîne ; chaîne | — |  |
-| 9 | 89 | StringConditional | `StringConditional(` |  | nombre ; chaîne ; chaîne → chaîne | — |  |
+| 0 | 80 | Equal | `Equal(` |  | number; number | — |  |
+| 1 | 81 | Different | `Different(` |  | number; number | — |  |
+| 2 | 82 | Lower | `Lower(` |  | number; number | — |  |
+| 3 | 83 | LowerEqual | `LowerEqual(` |  | number; number | — |  |
+| 4 | 84 | Greater | `Greater(` |  | number; number | — |  |
+| 5 | 85 | GreaterEqual | `GreaterEqual(` |  | number; number | — |  |
+| 6 | 86 | Conditional | `Conditional(` |  | number; number; number | — |  |
+| 7 | 87 | StringEqual | `StringEqual(` |  | string; string | — |  |
+| 8 | 88 | StringDifferent | `StringDifferent(` |  | string; string | — |  |
+| 9 | 89 | StringConditional | `StringConditional(` |  | number; string; string → string | — |  |

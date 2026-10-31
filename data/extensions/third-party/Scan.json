@@ -38,7 +38,7 @@
       "codeGuessed": false
     }
   ],
-  "conditions_status": "menu ressources",
+  "conditions_status": "resource menu",
   "actions": [
     {
       "code": 0,
@@ -53,7 +53,7 @@
       "codeGuessed": false
     }
   ],
-  "actions_status": "menu ressources",
+  "actions_status": "resource menu",
   "expressions": [
     {
       "code": 0,
@@ -68,5 +68,5 @@
       "codeGuessed": false
     }
   ],
-  "expressions_status": "menu ressources"
+  "expressions_status": "resource menu"
 }

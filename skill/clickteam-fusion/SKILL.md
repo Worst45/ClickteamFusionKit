@@ -1,163 +1,173 @@
 ---
 name: clickteam-fusion
-description: Aider sur un projet Clickteam Fusion 2.5 (fichier .mfa) — lire ses événements (conditions, actions, expressions) avec MfaDump, comprendre la logique, déboguer, proposer des modifications à faire dans l'éditeur Fusion. À utiliser dès qu'il est question de Clickteam Fusion, Multimedia Fusion, d'un fichier .mfa ou de l'éditeur d'événements de Fusion.
+description: Help with a Clickteam Fusion 2.5 project (.mfa file) — read its events (conditions, actions, expressions) with MfaDump, understand the logic, debug, and suggest changes to make in the Fusion editor. Use it whenever Clickteam Fusion, Multimedia Fusion, a .mfa file or Fusion's event editor comes up, in any language (e.g. French "éditeur d'événements", "scène", "jeu Fusion").
 ---
 
-# Clickteam Fusion 2.5 — point d'entrée
+# Clickteam Fusion 2.5: entry point
 
-Ce fichier est le **point d'entrée** pour aider sur un projet Clickteam Fusion. Il dit quoi faire et
-renvoie vers les documents détaillés, à ouvrir seulement quand c'est utile.
+This file is the **entry point** for helping with a Clickteam Fusion project. It says what to do and
+points to the detailed documents. Open those only when they are useful.
 
-Les fichiers cités sont dans le même dossier que ce `SKILL.md` : le dossier `skill/clickteam-fusion/`
-du kit **ClickteamFusionKit** (installé comme skill Claude Code par un lien vers ce dossier) :
+The files below are in the same folder as this `SKILL.md`: the `skill/clickteam-fusion/` folder of the
+**ClickteamFusionKit** (installed as a Claude Code skill through a link to this folder):
 
-| Fichier | Contenu | Quand l'ouvrir |
+| File | Content | When to open it |
 |---|---|---|
-| `MfaDump.exe` | exporte les événements d'un `.mfa` en texte (compilé par `scripts\build.ps1` du kit) | toujours, pour lire un projet |
-| `CONTEXTE_CLICKTEAM.md` | modèle d'exécution de Fusion (ticks, fast loops, sélection d'objets, groupes, timers) et format de l'export | avant d'analyser une logique ou un bug |
-| `bible/README.md` | mode d'emploi de la référence : numérotation, placeholders, types de paramètres | avant de chercher une condition/action |
-| `bible/objets-integres.md` | toutes les conditions / actions / expressions des objets intégrés, libellés FR de l'éditeur, usage réel, exemples | pour savoir ce qui existe nativement |
-| `bible/extensions/README.md` + une page par extension | conditions / actions / expressions de 410 extensions | quand le projet utilise une extension |
-| `../../docs/CONSTRUCTION.md` | fabrication et maintenance du kit (MfaDump, Nebula, catalogues, bible) | seulement pour faire évoluer l'outillage |
+| `MfaDump.exe` | exports the events of a `.mfa` file as text, in English or French (built by the kit's `scripts\build.ps1`) | always, to read a project |
+| `FUSION_CONTEXT.md` | Fusion's execution model (ticks, fast loops, object selection, groups, timers) and the export format | before analyzing logic or a bug |
+| `bible/README.md` | how to read the reference: numbering, placeholders, parameter types | before looking up a condition/action |
+| `bible/built-in-objects.md` | every condition / action / expression of the built-in objects, with English and French editor labels, real usage and examples | to know what exists natively |
+| `bible/extensions/README.md` + one page per extension | conditions / actions / expressions of 410 extensions | when the project uses an extension |
+| `../../docs/INTERNALS.md` | how the kit is built and maintained (MfaDump, Nebula, catalogs, bible) | only to change the tooling |
 
-## 1. Lire un projet
+## 0. Language
 
-Le `.mfa` est binaire et non documenté : ne pas essayer de le lire directement.
+Answer in the **user's language**, and name conditions, actions and menus with the labels **of their
+Fusion editor**.
+
+- **French-speaking user**: export with `--lang fr` (the default on a French Windows). Conditions and
+  actions then appear with the French editor's labels (`SI` / `FAIRE` lines, `Mettre le drapeau 0 sur
+  ON`, `Toujours`…). Write your explanations and step-by-step instructions in French, with the "Label
+  (FR)" column of the bible (labels marked *(unofficial)* are translations by the kit, not the
+  editor's: say so if the user cannot find them).
+- **Otherwise**: export with `--lang en` and use the English labels.
+- If the language of the user's editor is unclear (they may write in French with an English editor),
+  ask once, or give both labels: `Toujours (Always)`.
+- Expression names (`X(`, `Str$(`, `LoopIndex(`) are the same in every language.
+
+## 1. Reading a project
+
+A `.mfa` file is binary and undocumented: do not try to read it directly.
 
 ```
-MfaDump.exe "chemin\projet.mfa"              -> chemin\projet.events.txt
-MfaDump.exe "projet.mfa" "sortie.txt"         -> sortie choisie
-MfaDump.exe a.mfa b.mfa ...                   -> un .events.txt par projet (ou glisser-déposer sur l'exe)
+MfaDump.exe "path\project.mfa"                 -> path\project.events.txt
+MfaDump.exe --lang fr "project.mfa" "out.txt"  -> chosen output, in French
+MfaDump.exe a.mfa b.mfa ...                    -> one .events.txt per project (or drag and drop on the exe)
 ```
 
-- MfaDump **ne modifie jamais** le `.mfa` (lecture en mémoire). Il fonctionne sans installer .NET.
-- Si tu ne peux pas lancer de programme, demande à l'utilisateur de glisser son `.mfa` sur
-  `MfaDump.exe` et de te fournir le `.events.txt` produit.
-- L'export contient : taille de fenêtre et FPS, valeurs globales, puis par frame les objets (avec
-  leurs valeurs modifiables nommées), les groupes d'objets (qualifiers) et les événements :
-  `=== GROUPE « … » ===`, commentaires de l'auteur `// …`, `#n` (= numéro de ligne affiché dans
-  l'éditeur), lignes `SI` (conditions) et `FAIRE` (actions), `[DÉSACTIVÉ]`.
-- Après chaque modification faite par l'utilisateur dans Fusion : lui demander de **sauvegarder**,
-  relancer MfaDump et vérifier.
-- Option statistiques : variable d'environnement `MFADUMP_JSONL=1` → `<projet>.events.jsonl`, une ligne
-  par condition (`C`), action (`A`) et élément d'expression (`E`).
+- MfaDump **never modifies** the `.mfa` (it reads it into memory). It runs without installing .NET.
+- Language: `--lang en|fr`, else the `MFADUMP_LANG` variable, else the Windows display language.
+- If you cannot run programs, ask the user to drop their `.mfa` on `MfaDump.exe` and send you the
+  resulting `.events.txt`.
+- The export contains: window size and FPS, global values, then per frame the objects (with their named
+  alterable values), the object groups (qualifiers) and the events: `=== GROUP “…” ===`, the author's
+  comments `// …`, `#n` (= line number shown in the editor), `IF` (conditions) and `DO` (actions) lines,
+  `[DISABLED]`. In French: `GROUPE`, `SI`, `FAIRE`, `[DÉSACTIVÉ]`.
+- In French, a line that has no safe translation stays in English (about 5% of the lines: mostly
+  comparisons, positions, and extensions without a catalog).
+- After each change made by the user in Fusion: ask them to **save**, run MfaDump again and check.
+- Statistics option: environment variable `MFADUMP_JSONL=1` → `<project>.events.jsonl`, one line per
+  condition (`C`), action (`A`) and expression item (`E`), always in English.
 
-## 2. Comprendre ce qu'on lit
+## 2. Understanding what you read
 
-Lire `CONTEXTE_CLICKTEAM.md` (sections 1 à 7 pour le moteur, 8 pour l'export). L'essentiel :
+Read `FUSION_CONTEXT.md` (sections 1 to 7 for the engine, 8 for the export). The essentials:
 
-- À chaque tick, Fusion évalue **tous les événements actifs de haut en bas** ; l'ordre compte.
-- Une **fast loop** (`Start loop` / `On loop`) s'exécute entièrement dans le tick, comme une boucle `for`.
-- Les conditions **sélectionnent** les instances sur lesquelles les actions s'appliquent.
-- Les **groupes** activés/désactivés servent souvent de machine à états.
-- `Every X` suit sa propre horloge : source classique de pauses de durée variable.
-- Les libellés de l'export sont **en anglais** (ceux de Nebula). L'utilisateur peut avoir l'éditeur en
-  français : utiliser la colonne « Libellé FR » de la bible pour lui parler avec les mots de son éditeur.
-- Flags numérotés à partir de 0, comme dans l'éditeur ; l'export ajoute leur nom : `Flag 3 «testPosée»`.
+- On every tick, Fusion evaluates **all active events from top to bottom**; order matters.
+- A **fast loop** (`Start loop` / `On loop`) runs entirely within the tick, like a `for` loop.
+- Conditions **select** the instances that the actions apply to.
+- Groups that are activated/deactivated often act as a state machine.
+- `Every X` follows its own clock: a classic source of pauses of varying length.
+- Flags are numbered from 0, as in the editor; the export adds their name: `Flag 3 «landed»`.
 
-## 3. Trouver une condition / action / expression
+## 3. Finding a condition / action / expression
 
-- **Objets intégrés** (Spécial, Son, Scène, Timer, Clavier/souris, Joueurs, Active, String, Counter…) :
-  `bible/objets-integres.md`, rangé par objet puis Conditions / Actions / Expressions.
-- **Extensions** : l'export brut affiche `Objet : Event ID 89, …` ou `Expression ID 88(…)`.
-  Ouvrir `bible/extensions/README.md`, trouver l'extension (par son nom affiché), puis :
+- **Built-in objects** (Special, Sound, Storyboard, Timer, Mouse/keyboard, Players, Active, String,
+  Counter…): `bible/built-in-objects.md`, sorted by object then Conditions / Actions / Expressions,
+  with the French label next to the English one.
+- **Extensions**: the raw export shows `Object : Event ID 89, …` or `Expression ID 88(…)`.
+  Open `bible/extensions/README.md`, find the extension (by its displayed name), then:
   action / expression = 80 + code (89 → code 9), condition = −(81 + code) (−82 → code 1).
-- Ligne `[ERROR]` ou `[??]` : voir la fin de `bible/objets-integres.md` ; sinon demander une
-  **capture d'écran de l'événement** plutôt que de deviner.
-- La colonne **Usage** indique combien de fois l'entrée a été vue dans 162 projets réels : une entrée
-  jamais vue existe mais est moins éprouvée.
+- A `[ERROR]` or `[??]` line: see the end of `bible/built-in-objects.md`; otherwise ask for a
+  **screenshot of the event** rather than guessing.
+- The **Usage** column says how many times the entry was seen in 162 real projects: an entry never seen
+  exists but is less proven.
 
-## 4. Proposer des modifications
+## 4. Suggesting changes
 
-MfaDump est en lecture seule : on ne modifie pas le `.mfa` par programme. Donner des **instructions pas à
-pas pour l'éditeur Fusion** :
+MfaDump is read-only: the `.mfa` is not modified by a program. Give **step-by-step instructions for the
+Fusion editor**:
 
-- quel événement (`#n`, groupe), quelle condition ou action ajouter/retirer, sur quel objet ;
-- nommer flags et valeurs **par leur nom** (et leur numéro), avec le libellé de l'éditeur ;
-- expliquer pourquoi (ordre des événements, sélection, timer…), puis faire vérifier par un nouvel export.
+- which event (`#n`, group), which condition or action to add/remove, on which object;
+- name flags and values **by their name** (and number), with the editor's label;
+- explain why (event order, selection, timer…), then have the user check with a new export.
 
-### Écrire une expression comme dans l'éditeur
+### Writing an expression as in the editor
 
-L'export n'utilise pas la syntaxe de l'éditeur : il faut la **traduire** avant de la donner à l'utilisateur.
-Dans l'éditeur, une expression liée à un objet prend **le nom de l'objet entre guillemets en 1er
-paramètre**, puis ses paramètres. La bible ne le rappelle pas dans sa colonne Paramètres.
+The export does not use the editor's syntax: **translate** it before giving it to the user. In the
+editor, an expression tied to an object takes **the object's name in quotes as its first parameter**,
+then its parameters. The bible does not repeat this in its Parameters column.
 
-| Export MfaDump | À écrire dans l'éditeur |
+| MfaDump export | To type in the editor |
 |---|---|
 | `Expression ID 83("Ini")Str$(indPack), Str$(indLevel))` | `GroupItemValue( "Ini", Str$(indPack), Str$(indLevel) )` |
 | `Expression ID 89("meta")0, indPack)` | `StrAtXY( "meta", 0, indPack )` |
 | `X("hero")` | `X( "hero" )` |
 
-Le nom de l'expression vient de la colonne « Texte affiché » de la bible (`GroupItemValue(`) ; l'objet est
-celui que l'export met entre parenthèses juste après `Expression ID n`.
+The expression's name comes from the "Display text" column of the bible (`GroupItemValue(`); the object
+is the one the export puts in parentheses right after `Expression ID n`.
 
-### Préférer les fonctions natives aux extensions
+### Prefer native features over extensions
 
-**Ne pas proposer d'ajouter une extension quand les objets et événements intégrés de Fusion
-permettent de faire la même chose.** Beaucoup d'extensions ne fonctionnent que sur certaines
-plateformes (Windows uniquement, HTML5 uniquement, Android/iOS…) : en ajouter une peut **bloquer la
-compilation** du jeu vers une autre cible, et oblige l'utilisateur à l'installer.
+**Do not suggest adding an extension when Fusion's built-in objects and events can do the same
+thing.** Many extensions only work on some platforms (Windows only, HTML5 only, Android/iOS…): adding
+one can **block building** the game for another target, and the user has to install it.
 
-- D'abord chercher une solution native dans `bible/objets-integres.md` : valeurs et chaînes
-  modifiables, flags, valeurs globales, fast loops, groupes, qualifiers, timers, mouvements intégrés…
-- Si le projet utilise **déjà** une extension, on peut s'en servir (elle est installée et acceptée).
-- Si une extension est vraiment nécessaire : le dire explicitement, expliquer pourquoi le natif ne
-  suffit pas, et **demander à l'utilisateur** ses plateformes cibles avant de l'adopter.
+- First look for a native solution in `bible/built-in-objects.md`: alterable values and strings, flags,
+  global values, fast loops, groups, qualifiers, timers, built-in movements…
+- If the project **already** uses an extension, you can use it (it is installed and accepted).
+- If an extension is really needed: say so explicitly, explain why native features are not enough, and
+  **ask the user** about their target platforms before adopting it.
 
-### Bonnes pratiques de l'utilisateur
+### The user's good practices
 
-Conventions à respecter dans toutes les propositions (noms d'objets, structure). Section enrichie au fil
-des projets.
+Conventions to follow in every suggestion (object names, structure). This section grows with the
+projects.
 
-- **Préfixer les objets « spéciaux »** selon leur type, pour les retrouver facilement :
-  `lbl` (texte / label), `str` (String / Chaîne), `compteur` (Compteur), etc.
-  Ex. `compteurLignes`, `strScore`. Ne s'applique pas aux décors ni aux objets actifs classiques
-  (`Pièce bleue`, `Bord`…).
-- **Centraliser l'état général du jeu dans un objet de paramètres** (un Actif invisible, par ex.
-  `Params`) : vitesses, score intermédiaire, niveau, états de la partie… plutôt que de les disperser.
-  Les valeurs globales restent réservées à ce qui doit survivre à un changement de scène.
-- **Les acteurs portent leur propre état** : les objets actifs nécessaires au moteur (caméra, joueur…)
-  et au comportement des ennemis et autres entités **doivent** avoir leurs valeurs / drapeaux associés
-  (ex. `enTrainDeTirer`, `pv`, `etat`), pas dans `Params`.
-- **Commenter** : proposer des lignes de commentaire pour séparer les grands blocs d'événements et
-  expliquer une astuce non évidente (ex. `// Tirage NES de la pièce suivante`). Donner le texte exact
-  et l'emplacement. Un commentaire occupe un numéro de ligne : le compter dans les décalages, ou le
-  faire ajouter en dernière étape.
-- Les objets **purement d'affichage** (HUD : compteurs, chaînes, labels) ne stockent pas d'état : ils
-  recopient les valeurs de l'objet de paramètres ou des acteurs.
+- **Prefix "special" objects** by type, to find them easily: `lbl` (text / label), `str` (String),
+  `counter` (Counter), etc. E.g. `counterLines`, `strScore`. In a French project, keep the user's
+  French prefixes (`compteur`, e.g. `compteurLignes`). This does not apply to backdrops or ordinary
+  active objects (`Blue piece`, `Border`…).
+- **Keep the general game state in a parameters object** (an invisible Active, e.g. `Params`): speeds,
+  intermediate score, level, game states… rather than scattering them. Global values are reserved for
+  what must survive a frame change.
+- **Actors carry their own state**: the active objects needed by the engine (camera, player…) and by the
+  behavior of enemies and other entities **must** have their own values / flags (e.g. `isShooting`,
+  `hp`, `state`), not in `Params`.
+- **Comment**: suggest comment lines to separate the main blocks of events and to explain a non-obvious
+  trick (e.g. `// NES-style draw of the next piece`). Give the exact text and location, in the user's
+  language. A comment takes a line number: count it in the shifts, or have it added as the last step.
+- **Display-only** objects (HUD: counters, strings, labels) do not store state: they copy the values of
+  the parameters object or of the actors.
 
-### Numéros de lignes qui bougent
+### Line numbers that move
 
-Ajouter ou supprimer un événement (ou un commentaire, ou un groupe : ils occupent aussi un numéro)
-**décale tous les numéros `#n` situés en dessous**. Quand une proposition comporte plusieurs
-étapes :
+Adding or removing an event (or a comment, or a group: they also take a number) **shifts every `#n`
+number below it**. When a suggestion has several steps:
 
-- Donner les numéros **tels qu'ils seront au moment où l'utilisateur fera l'étape**, en tenant compte
-  des insertions/suppressions des étapes précédentes, avec la notation **`#35 + 2 → #37`**
-  (numéro dans l'export + décalage → numéro réel dans l'éditeur).
-- Quand c'est possible, ordonner les modifications **du bas vers le haut** : les numéros plus haut ne
-  bougent pas.
-- Repérer aussi chaque événement par son contenu (groupe, première condition) en plus de son numéro.
+- Give the numbers **as they will be when the user does the step**, taking into account the
+  insertions/deletions of the previous steps, with the notation **`#35 + 2 → #37`** (number in the
+  export + shift → actual number in the editor).
+- When possible, order the changes **from bottom to top**: the numbers above do not move.
+- Also identify each event by its content (group, first condition) in addition to its number.
 
-## 5. Limites à garder en tête
+## 5. Limits to keep in mind
 
-- **Faire évoluer la doc sans attendre qu'on le demande** : chaque piège découvert en travaillant
-  (comportement de Fusion, de l'export, de l'éditeur) va dans `CONTEXTE_CLICKTEAM.md` §7 bis ; chaque
-  préférence de l'utilisateur va dans « Bonnes pratiques » ci-dessus.
-  - Ces fichiers sont la **source unique** : modifier directement ceux de ce dossier (la skill
-    installée est un lien vers lui). Puis committer dans le dépôt du kit.
-  - Une règle vérifiée s'écrit « **(vérifié)** », **sans nom de projet** : la doc est générale. Le
-    projet et l'emplacement où elle a été vérifiée se notent dans `work/provenance.md` du kit
-    (fichier local, non versionné).
-  - **Ne jamais corriger à la main les fichiers de `bible/`** : ils sont **régénérés** par
-    `src/bible/generate.js` (`scripts\regen-bible.ps1`), et tout ajout manuel serait perdu. Si une
-    connaissance doit apparaître dans la bible, modifier les textes de `generate.js` puis régénérer.
-
-- Les points marqués **(à vérifier)** dans `CONTEXTE_CLICKTEAM.md` sont des hypothèses, pas des
-  certitudes.
-- Les libellés des objets intégrés sont ceux de Nebula (anglais), proches mais pas identiques à ceux de
-  l'éditeur.
-- Quelques paramètres restent mal décodés (par exemple `Set direction to ...........`) : en cas de
-  doute, demander une capture.
-- MfaDump est validé sur 162 projets (Fusion 2.5 builds 280-296, MMF2 builds 241-258, plusieurs frames,
+- **Improve the docs without waiting to be asked**: every pitfall found while working (behavior of
+  Fusion, of the export, of the editor) goes into `FUSION_CONTEXT.md` §7b; every user preference goes
+  into "The user's good practices" above.
+  - These files are the **single source**: edit the ones in this folder directly (the installed skill
+    is a link to it). Then commit in the kit's repository. Write them in English.
+  - A verified rule is written "**(verified)**", **without a project name**: the docs are general. The
+    project and location where it was verified go into the kit's `work/provenance.md` (local file, not
+    committed).
+  - **Never edit the files in `bible/` by hand**: they are **regenerated** by `src/bible/generate.js`
+    (`scripts\regen-bible.ps1`), and any manual addition would be lost. If some knowledge must appear
+    in the bible, change the texts in `generate.js`, or the French labels in
+    `data/lang/fr-unofficial.json`, then regenerate and rebuild MfaDump.
+- Points marked **(to verify)** in `FUSION_CONTEXT.md` are hypotheses, not certainties.
+- The English labels of the built-in objects are Nebula's, close to but not identical to the editor's.
+- A few parameters are still badly decoded (for example `Set direction to ...........`): when in doubt,
+  ask for a screenshot.
+- MfaDump is validated on 162 projects (Fusion 2.5 builds 280-296, MMF2 builds 241-258, several frames,
   extensions).

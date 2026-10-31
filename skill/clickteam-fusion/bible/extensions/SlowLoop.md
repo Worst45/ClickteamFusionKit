@@ -1,24 +1,24 @@
 # Extension SlowLoop
 
-- Fichier : `SlowLoop.mfx` — extension tierce (fournie avec un projet téléchargé)
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `SlowLoop.mfx` — third-party extension (shipped with a downloaded project)
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | -81 | SlowLoop | `SlowLoop <p0> up to <p1> times` |  | expression chaîne « SlowLoop Name » ; expression numérique « Repeat Times » | — |  |
+| 0 | -81 | SlowLoop | `SlowLoop <p0> up to <p1> times` |  | string expression “SlowLoop Name”; numeric expression “Repeat Times” | — |  |
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Set SlowLoop Index | `Set Slow Loop Index of <p0> to <p1>` |  | expression chaîne « SlowLoop Name » ; expression numérique « Index » | — |  |
+| 0 | 80 | Set SlowLoop Index | `Set Slow Loop Index of <p0> to <p1>` |  | string expression “SlowLoop Name”; numeric expression “Index” | — |  |
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Get SlowLoop Index | `SlowLoopIndex(` |  | chaîne « SlowLoop Name » | — |  |
+| 0 | 80 | Get SlowLoop Index | `SlowLoopIndex(` |  | string “SlowLoop Name” | — |  |

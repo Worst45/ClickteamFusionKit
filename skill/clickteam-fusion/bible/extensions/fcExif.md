@@ -1,31 +1,31 @@
 # Extension fcExif
 
-- Fichier : `fcExif.mfx` — extension tierce (fournie avec un projet téléchargé)
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `fcExif.mfx` — third-party extension (shipped with a downloaded project)
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | -81 | On Load > File contain an EXIF structure | `<objet> : On Load - File contain an EXIF structure` |  |  | — |  |
-| 1 | -82 | On Load > File does not contain any EXIF structure | `<objet> : On Load - File does not contain an EXIF structure` |  |  | — |  |
+| 0 | -81 | On Load > File contain an EXIF structure | `<object> : On Load - File contain an EXIF structure` |  |  | — |  |
+| 1 | -82 | On Load > File does not contain any EXIF structure | `<object> : On Load - File does not contain an EXIF structure` |  |  | — |  |
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Open a JPG File | `Load JPG file <p0>` |  | nom de fichier « Select a JPG file » | — |  |
+| 0 | 80 | Open a JPG File | `Load JPG file <p0>` |  | file name “Select a JPG file” | — |  |
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Misc > Get Version | `getVersion$(` |  | → chaîne | — |  |
-| 1 | 81 | Camera > Get Camera Maker | `getCameraMaker$(` |  | → chaîne | — |  |
-| 2 | 82 | Camera > Get Camera Model | `getCameraModel$(` |  | → chaîne | — |  |
-| 3 | 83 | Photography > Get Date and Time | `getPhotographyDateTime$(` |  | → chaîne | — |  |
+| 0 | 80 | Misc > Get Version | `getVersion$(` |  | → string | — |  |
+| 1 | 81 | Camera > Get Camera Maker | `getCameraMaker$(` |  | → string | — |  |
+| 2 | 82 | Camera > Get Camera Model | `getCameraModel$(` |  | → string | — |  |
+| 3 | 83 | Photography > Get Date and Time | `getPhotographyDateTime$(` |  | → string | — |  |
 | 4 | 84 | Photography > Get Height | `getPhotographyHeight(` |  |  | — |  |
 | 5 | 85 | Photography > Get Width | `getPhotographyWidth(` |  |  | — |  |
 | 6 | 86 | Photography > Get Orientation | `getPhotographyOrientation(` |  |  | — |  |
@@ -50,4 +50,4 @@
 | 25 | 105 | Photography > Get Y Resolution | `getYResF(` |  |  | — |  |
 | 26 | 106 | Photography > Get Resolution Unit | `getResolutionUnitF(` |  |  | — |  |
 | 27 | 107 | Photography > Get Brightness | `getBrightnessF(` |  |  | — |  |
-| 28 | 108 | Misc > Get Comments | `getComments$(` |  | → chaîne | — |  |
+| 28 | 108 | Misc > Get Comments | `getComments$(` |  | → string | — |  |

@@ -1,26 +1,26 @@
 # Extension Keyboard
 
-- Fichier : `Keyboard.mfx` — extension tierce (fournie avec un projet téléchargé)
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `Keyboard.mfx` — third-party extension (shipped with a downloaded project)
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | -81 | Upon key down | `<objet>: Upon key <p0> down` |  | expression numérique « Key number » | — |  |
-| 1 | -82 | Upon key up | `<objet>: Upon key <p0> up` |  | expression numérique « Key number » | — |  |
-| 2 | -83 | Repeat while key is pressed | `<objet>: Repeat while key <p0> is pressed` |  | expression numérique « Key number » | — |  |
-| 3 | -84 | Upon any key down | `<objet>: Upon any key down` |  |  | — |  |
-| 4 | -85 | Upon any key up | `<objet>: Upon any key up` |  |  | — |  |
-| 5 | -86 | Repeat while any key is pressed | `<objet>: Repeat while any key is pressed` |  |  | — |  |
+| 0 | -81 | Upon key down | `<object>: Upon key <p0> down` |  | numeric expression “Key number” | — |  |
+| 1 | -82 | Upon key up | `<object>: Upon key <p0> up` |  | numeric expression “Key number” | — |  |
+| 2 | -83 | Repeat while key is pressed | `<object>: Repeat while key <p0> is pressed` |  | numeric expression “Key number” | — |  |
+| 3 | -84 | Upon any key down | `<object>: Upon any key down` |  |  | — |  |
+| 4 | -85 | Upon any key up | `<object>: Upon any key up` |  |  | — |  |
+| 5 | -86 | Repeat while any key is pressed | `<object>: Repeat while any key is pressed` |  |  | — |  |
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | 80 | Last key pressed | `LastKeyPressed(` |  |  | — |  |
 | 1 | 81 | Last key released | `LastKeyReleased(` |  |  | — |  |
-| 2 | 82 | Key string | `KeyString$(` |  | nombre « Key value » → chaîne | — |  |
-| 3 | 83 | Key value | `KeyValue(` |  | chaîne « Key string » | — |  |
+| 2 | 82 | Key string | `KeyString$(` |  | number “Key value” → string | — |  |
+| 3 | 83 | Key value | `KeyValue(` |  | string “Key string” | — |  |

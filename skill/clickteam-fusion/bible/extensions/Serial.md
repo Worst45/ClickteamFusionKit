@@ -1,30 +1,30 @@
 # Extension Serial
 
-- Fichier : `Serial.mfx` — extension tierce (fournie avec un projet téléchargé)
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `Serial.mfx` — third-party extension (shipped with a downloaded project)
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | -81 | Data is waiting | `<objet>: Data is waiting` |  |  | — |  |
-| 1 | -82 | COM port is open | `<objet> : COM port is open` |  |  | — |  |
+| 0 | -81 | Data is waiting | `<object>: Data is waiting` |  |  | — |  |
+| 1 | -82 | COM port is open | `<object> : COM port is open` |  |  | — |  |
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Open serial port | `<objet>: Open COM <p0> with a baud rate of <p1>` |  | expression numérique « COM Port (ex: 3) » ; expression numérique « Baud (ex: 9600) » | — |  |
-| 1 | 81 | Send data | `<objet>: Send <p0>` |  | expression chaîne « Send data to COM port » | — |  |
+| 0 | 80 | Open serial port | `<object>: Open COM <p0> with a baud rate of <p1>` |  | numeric expression “COM Port (ex: 3)”; numeric expression “Baud (ex: 9600)” | — |  |
+| 1 | 81 | Send data | `<object>: Send <p0>` |  | string expression “Send data to COM port” | — |  |
 | 2 | 82 | Close serial port | `Close connection` |  |  | — |  |
 | 3 | 83 | Clear last error | `Clear last error` |  |  | — |  |
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Get data | `GetData(` |  | → chaîne | — |  |
+| 0 | 80 | Get data | `GetData(` |  | → string | — |  |
 | 1 | 81 | Get bytes waiting | `BytesWaiting(` |  |  | — |  |
-| 2 | 82 | Get last error | `LastError$(` |  | → chaîne | — |  |
+| 2 | 82 | Get last error | `LastError$(` |  | → string | — |  |

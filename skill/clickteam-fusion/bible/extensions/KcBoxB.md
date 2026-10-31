@@ -1,25 +1,25 @@
 # Extension KcBoxB
 
-- Fichier : `KcBoxB.mfx` — installée avec Fusion
-- Nom(s) affiché(s) dans les projets : « Background System Box », « Boîte Système Décor »
-- Usage dans le corpus : 52 fois
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `KcBoxB.mfx` — installed with Fusion
+- Name(s) shown in projects: “Background System Box”, “Boîte Système Décor”
+- Usage in the corpus: 52 times
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 1 | -82 | Is enabled ? | `<objet> enabled` | <objet> est activé |  | — |  |
-| 5 | -86 | Mouse is over object | `Mouse is over <objet>` | La souris se trouve au dessus de <objet> |  | — |  |
-| 6 | -87 | Is image shown ? | `Image of <objet> is shown` | L'image de <objet> est montrée |  | — |  |
+| 1 | -82 | Is enabled ? | `<object> enabled` | <object> est activé |  | — |  |
+| 5 | -86 | Mouse is over object | `Mouse is over <object>` | La souris se trouve au dessus de <object> |  | — |  |
+| 6 | -87 | Is image shown ? | `Image of <object> is shown` | L'image de <object> est montrée |  | — |  |
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Set Dimensions | `Set Dimensions to (<p0>, <p1>)` | Fixer les dimensions à (<p0>, <p1>) | expression numérique « Width » ; expression numérique « Height » | 1 (1 proj.) |  |
-| 1 | 81 | Set Position | `Set Position to (<p0>, <p1>)` | Fixer la position à (<p0>, <p1>) | expression numérique « X » ; expression numérique « Y » | 5 (5 proj.) |  |
+| 0 | 80 | Set Dimensions | `Set Dimensions to (<p0>, <p1>)` | Fixer les dimensions à (<p0>, <p1>) | numeric expression “Width”; numeric expression “Height” | 1 (1 proj.) |  |
+| 1 | 81 | Set Position | `Set Position to (<p0>, <p1>)` | Fixer la position à (<p0>, <p1>) | numeric expression “X”; numeric expression “Y” | 5 (5 proj.) |  |
 | 2 | 82 | State > Enable | `Enable` | Activer |  | — |  |
 | 3 | 83 | State > Disable | `Disable` | Désactiver |  | — |  |
 | 6 | 86 | Set Fill color > None | `Set Fill color to None` | Fixer la couleur de remplissage à rien |  | — |  |
@@ -67,12 +67,12 @@
 | 48 | 128 | Set Text color > Tooltip text | `Set Text color to Tooltip text` | Fixer la couleur de texte à texte de tooltip |  | — |  |
 | 49 | 129 | Set Text color > Menu text | `Set Text color to Menu text` | Fixer la couleur de texte à texte de menu |  | — |  |
 | 50 | 130 | Set Text color > Window text | `Set Text color to Window text` | Fixer la couleur de texte à texte de fenêtre |  | — |  |
-| 51 | 131 | Set Fill color > Other | `Set Fill color to <p0>` | Fixer la couleur de remplissage à <p0> | expression numérique « System color index » | 1 (1 proj.) |  |
-| 52 | 132 | Set Border color 1 > Other | `Set Border color 1 to <p0>` | Fixer la couleur de bordure 1 à <p0> | expression numérique « System color index » | — |  |
-| 53 | 133 | Set Border color 2 > Other | `Set Border color 2 to <p0>` | Fixer la couleur de bordure 2 à <p0> | expression numérique « System color index » | — |  |
-| 54 | 134 | Set Text color > Other | `Set Text color to <p0>` | Fixer la couleur de texte à <p0> | expression numérique « System color index » | — |  |
-| 55 | 135 | Set text | `Set text to <p0>` | Changer le texte en <p0> | expression chaîne « Text » | — |  |
-| 56 | 136 | Set tooltip text | `Set tool tip text to <p0>` | Changer le texte du tooltip en <p0> | expression chaîne « Text » | — |  |
+| 51 | 131 | Set Fill color > Other | `Set Fill color to <p0>` | Fixer la couleur de remplissage à <p0> | numeric expression “System color index” | 1 (1 proj.) |  |
+| 52 | 132 | Set Border color 1 > Other | `Set Border color 1 to <p0>` | Fixer la couleur de bordure 1 à <p0> | numeric expression “System color index” | — |  |
+| 53 | 133 | Set Border color 2 > Other | `Set Border color 2 to <p0>` | Fixer la couleur de bordure 2 à <p0> | numeric expression “System color index” | — |  |
+| 54 | 134 | Set Text color > Other | `Set Text color to <p0>` | Fixer la couleur de texte à <p0> | numeric expression “System color index” | — |  |
+| 55 | 135 | Set text | `Set text to <p0>` | Changer le texte en <p0> | string expression “Text” | — |  |
+| 56 | 136 | Set tooltip text | `Set tool tip text to <p0>` | Changer le texte du tooltip en <p0> | string expression “Text” | — |  |
 | 62 | 142 | Image > Show | `Show image` | Montrer l'image |  | — |  |
 | 63 | 143 | Image > Hide | `Hide image` | Cacher l'image |  | — |  |
 | -56 | 24 | ? | ? |  |  | 8 (4 proj.) |  |
@@ -80,7 +80,7 @@
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | 80 | Current color > Fill color | `Fill color(` | Couleur remplissage |  | — |  |
 | 1 | 81 | Current color > Border color #1 | `Border color one(` | Couleur de bordure #1 |  | — |  |
@@ -111,11 +111,11 @@
 | 26 | 106 | System color > Window background | `Window background(` | Fond de fenêtre |  | — |  |
 | 27 | 107 | System color > Window frame | `Window frame(` | Bordure de fenêtre |  | — |  |
 | 28 | 108 | System color > Window text | `Window text(` | Texte de fenêtre |  | — |  |
-| 29 | 109 | Text | `Text$(` | Texte | → chaîne | — |  |
-| 30 | 110 | Tool tip text | `Tool tip text$(` | Texte du tooltip | → chaîne | — |  |
+| 29 | 109 | Text | `Text$(` | Texte | → string | — |  |
+| 30 | 110 | Tool tip text | `Tool tip text$(` | Texte du tooltip | → string | — |  |
 | 31 | 111 | Dimensions > Width | `Width(` | Largeur |  | 1 (1 proj.) |  |
 | 32 | 112 | Dimensions > Height | `Height(` | Hauteur |  | 1 (1 proj.) |  |
 | 34 | 114 | Position > X Coordinate | `X(` | Coordonnée X |  | 4 (4 proj.) |  |
 | 35 | 115 | Position > Y Coordinate | `Y(` | Coordonnée Y |  | 5 (5 proj.) |  |
-| 36 | 116 | Convert System Color To RGB | `SysToRGB(` | Convertir Couleur Système en RVB | nombre | — |  |
+| 36 | 116 | Convert System Color To RGB | `SysToRGB(` | Convertir Couleur Système en RVB | number | — |  |
 | -64 | 16 | ? | ? |  |  | 13 (1 proj.) |  |

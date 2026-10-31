@@ -1,12 +1,12 @@
-﻿# Exporte tous les .mfa des dossiers sources avec MfaDump (lecture seule) dans work\corpus\.
-# - Sources : -Sources 'libellé=dossier', ... Par défaut : exemples et tutoriels de Fusion.
-#   Le libellé fusion_* est réservé aux exemples officiels : seuls leurs exemples apparaissent dans
-#   la bible publiée (voir stats.js). Exemple :
-#     .\run-corpus.ps1 -Sources 'perso=C:\Jeux\mes-jeux', 'enfants=D:\Jeux'
-#   (les exemples de Fusion sont ajoutés automatiquement sauf avec -NoFusionExamples)
-# - Dédoublonnage par SHA1 : une copie identique n'est exportée qu'une fois (voir index.csv).
-# - Un processus par fichier, limite de temps par fichier, journal par fichier dans _logs\.
-# - MFADUMP_JSONL=1 : chaque export produit aussi un .events.jsonl (statistiques).
+﻿# Exports every .mfa of the source folders with MfaDump (read-only) into work\corpus\.
+# - Sources: -Sources 'label=folder', ... Default: Fusion's examples and tutorials.
+#   The fusion_* label is reserved for the official examples: only their examples appear in the
+#   published bible (see stats.js). Example:
+#     .\run-corpus.ps1 -Sources 'mine=C:\Games\my-games', 'kids=D:\Games'
+#   (Fusion's examples are added automatically unless -NoFusionExamples)
+# - Deduplication by SHA1: an identical copy is exported only once (see index.csv).
+# - One process per file, time limit per file, one log per file in _logs\.
+# - MFADUMP_JSONL=1: each export also writes a .events.jsonl (statistics).
 param(
     [string[]]$Sources = @(),
     [switch]$NoFusionExamples,
@@ -17,14 +17,14 @@ param(
 $ErrorActionPreference = 'Stop'
 $kit = Resolve-Path (Join-Path $PSScriptRoot '..\..')
 $exe = Join-Path $kit 'skill\clickteam-fusion\MfaDump.exe'
-if (-not (Test-Path $exe)) { throw "MfaDump.exe introuvable : lancer d'abord scripts\build.ps1" }
+if (-not (Test-Path $exe)) { throw "MfaDump.exe not found: run scripts\build.ps1 first" }
 $out = Join-Path $kit 'work\corpus'
 
 $roots = New-Object System.Collections.Generic.List[object]
 foreach ($s in $Sources) {
     $label, $path = $s -split '=', 2
-    if (-not $path -or -not (Test-Path $path)) { throw "Source invalide : '$s' (attendu : libellé=dossier existant)" }
-    if ($label -like 'fusion_*') { throw "Le préfixe fusion_ est réservé aux exemples officiels de Fusion" }
+    if (-not $path -or -not (Test-Path $path)) { throw "Invalid source: '$s' (expected: label=existing folder)" }
+    if ($label -like 'fusion_*') { throw "The fusion_ prefix is reserved for Fusion's official examples" }
     $roots.Add(@{ Label = $label; Path = (Resolve-Path $path).Path })
 }
 if (-not $NoFusionExamples) {
@@ -33,9 +33,9 @@ if (-not $NoFusionExamples) {
         if (Test-Path $p) { $roots.Add(@{ Label = "fusion_$($sub.ToLower())"; Path = $p }) }
     }
 }
-if ($roots.Count -eq 0) { throw "Aucune source : passer -Sources, ou installer Fusion (exemples officiels)" }
+if ($roots.Count -eq 0) { throw "No source: pass -Sources, or install Fusion (official examples)" }
 
-# Repartir d'un corpus vide (les exports sont regénérés entièrement)
+# Start from an empty corpus (the exports are fully regenerated)
 if (Test-Path $out) { Remove-Item $out -Recurse -Force }
 $logs = Join-Path $out '_logs'
 New-Item -ItemType Directory -Force $logs | Out-Null
@@ -64,9 +64,10 @@ foreach ($root in $roots) {
         $log = Join-Path $logs ('{0:D3}.log' -f $i)
 
         $sw = [Diagnostics.Stopwatch]::StartNew()
-        $p = Start-Process -FilePath $exe -ArgumentList "`"$($f.FullName)`"", "`"$target`"" -NoNewWindow -PassThru `
+        # English export whatever the PC's language (statistics and bible use the English labels)
+        $p = Start-Process -FilePath $exe -ArgumentList '--lang', 'en', "`"$($f.FullName)`"", "`"$target`"" -NoNewWindow -PassThru `
                            -RedirectStandardOutput $log -RedirectStandardError "$log.err"
-        $null = $p.Handle # sans ça, ExitCode reste vide après WaitForExit(ms) (bug PowerShell)
+        $null = $p.Handle # without this, ExitCode stays empty after WaitForExit(ms) (PowerShell bug)
         if (-not $p.WaitForExit($TimeoutSec * 1000)) {
             $p.Kill(); $row.status = 'TIMEOUT'
         } elseif ($p.ExitCode -ne 0) { $row.status = 'ERROR' } else { $row.status = 'OK' }

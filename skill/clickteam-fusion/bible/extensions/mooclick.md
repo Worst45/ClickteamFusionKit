@@ -1,13 +1,13 @@
 # Extension mooclick
 
-- Fichier : `mooclick.mfx` — extension tierce (fournie avec un projet téléchargé)
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `mooclick.mfx` — third-party extension (shipped with a downloaded project)
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | -81 | Player > On Message | `Player: On Message` |  |  | — |  |
 | 1 | -82 | Player > On Server Message | `Player: On Server Message` |  |  | — |  |
@@ -33,67 +33,67 @@
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Set Player Name | `Set Player Name to <p0>` |  | (paramètres non fiables) | — |  |
-| 1 | 81 | Connect | `Connect to <p0> on port <p1>` |  | (paramètres non fiables) | — |  |
-| 2 | 82 | Host Server | `Host server on port <p0>` |  | (paramètres non fiables) | — |  |
-| 3 | 83 | Select Player by Index | `Select Player at index <p0>` |  | (paramètres non fiables) | — |  |
-| 4 | 84 | Player > Sign On to Channel | `Player: Sign On to Channel <p0>` |  | (paramètres non fiables) | — |  |
-| 5 | 85 | Player > Change Player Name | `Player: Change Name to <p0>` |  | (paramètres non fiables) | — |  |
-| 6 | 86 | Player > Send Text to Server | `Player: Send <p0> on subchannel <p1> to Server` |  | (paramètres non fiables) | — |  |
-| 7 | 87 | Player > Blast Text to Server | `Player: Blast <p0> on subchannel <p1> to Server` |  | (paramètres non fiables) | — |  |
+| 0 | 80 | Set Player Name | `Set Player Name to <p0>` |  | (unreliable parameters) | — |  |
+| 1 | 81 | Connect | `Connect to <p0> on port <p1>` |  | (unreliable parameters) | — |  |
+| 2 | 82 | Host Server | `Host server on port <p0>` |  | (unreliable parameters) | — |  |
+| 3 | 83 | Select Player by Index | `Select Player at index <p0>` |  | (unreliable parameters) | — |  |
+| 4 | 84 | Player > Sign On to Channel | `Player: Sign On to Channel <p0>` |  | (unreliable parameters) | — |  |
+| 5 | 85 | Player > Change Player Name | `Player: Change Name to <p0>` |  | (unreliable parameters) | — |  |
+| 6 | 86 | Player > Send Text to Server | `Player: Send <p0> on subchannel <p1> to Server` |  | (unreliable parameters) | — |  |
+| 7 | 87 | Player > Blast Text to Server | `Player: Blast <p0> on subchannel <p1> to Server` |  | (unreliable parameters) | — |  |
 | 8 | 88 | Player > Disconnect | `Player: Disconnect` |  |  | — |  |
-| 9 | 89 | Player > Select Channel by Index | `Player: Select Channel at index <p0>` |  | (paramètres non fiables) | — |  |
-| 10 | 90 | Player > Channel > Send Text on Channel | `Channel: Send <p0> on subchannel <p1> on Channel` |  | (paramètres non fiables) | — |  |
-| 11 | 91 | Player > Channel > Blast Text on Channel | `Channel: Blast <p0> on subchannel <p1> on Channel` |  | (paramètres non fiables) | — |  |
+| 9 | 89 | Player > Select Channel by Index | `Player: Select Channel at index <p0>` |  | (unreliable parameters) | — |  |
+| 10 | 90 | Player > Channel > Send Text on Channel | `Channel: Send <p0> on subchannel <p1> on Channel` |  | (unreliable parameters) | — |  |
+| 11 | 91 | Player > Channel > Blast Text on Channel | `Channel: Blast <p0> on subchannel <p1> on Channel` |  | (unreliable parameters) | — |  |
 | 12 | 92 | Player > Channel > Sign Off | `Channel: Sign Off` |  |  | — |  |
-| 13 | 93 | Player > Channel > Select User by Index | `Channel: Select User at index <p0>` |  | (paramètres non fiables) | — |  |
-| 14 | 94 | Player > Channel > User > Send Text to User | `User: Send <p0> on subchannel <p1> to User` |  | (paramètres non fiables) | — |  |
-| 15 | 95 | Player > Channel > User > Blast Text to User | `User: Blast <p0> on subchannel <p1> to User` |  | (paramètres non fiables) | — |  |
-| 16 | 96 | Select Server by Index | `Select Server at index <p0>` |  | (paramètres non fiables) | — |  |
-| 17 | 97 | Server > Set MOTD | `Server: Set Message of the Day to <p0>` |  | (paramètres non fiables) | — |  |
-| 18 | 98 | Server > Send Text to Everyone | `Server: Send <p0> on subchannel <p1> to Everyone` |  | (paramètres non fiables) | — |  |
-| 19 | 99 | Server > Blast Text to Everyone | `Server: Blast <p0> on subchannel <p1> to Everyone` |  | (paramètres non fiables) | — |  |
+| 13 | 93 | Player > Channel > Select User by Index | `Channel: Select User at index <p0>` |  | (unreliable parameters) | — |  |
+| 14 | 94 | Player > Channel > User > Send Text to User | `User: Send <p0> on subchannel <p1> to User` |  | (unreliable parameters) | — |  |
+| 15 | 95 | Player > Channel > User > Blast Text to User | `User: Blast <p0> on subchannel <p1> to User` |  | (unreliable parameters) | — |  |
+| 16 | 96 | Select Server by Index | `Select Server at index <p0>` |  | (unreliable parameters) | — |  |
+| 17 | 97 | Server > Set MOTD | `Server: Set Message of the Day to <p0>` |  | (unreliable parameters) | — |  |
+| 18 | 98 | Server > Send Text to Everyone | `Server: Send <p0> on subchannel <p1> to Everyone` |  | (unreliable parameters) | — |  |
+| 19 | 99 | Server > Blast Text to Everyone | `Server: Blast <p0> on subchannel <p1> to Everyone` |  | (unreliable parameters) | — |  |
 | 20 | 100 | Server > Disconnect | `Server: Disconnect` |  |  | — |  |
-| 21 | 101 | Server > Select Connection by Index | `Server: Select Connection at index <p0>` |  | (paramètres non fiables) | — |  |
-| 22 | 102 | Server > Connection > Send Text to Player | `Connection: Send <p0> on subchannel <p1> to Player` |  | (paramètres non fiables) | — |  |
-| 23 | 103 | Server > Connection > Blast Text to Player | `Connection: Send <p0> on subchannel <p1> to Player` |  | (paramètres non fiables) | — |  |
+| 21 | 101 | Server > Select Connection by Index | `Server: Select Connection at index <p0>` |  | (unreliable parameters) | — |  |
+| 22 | 102 | Server > Connection > Send Text to Player | `Connection: Send <p0> on subchannel <p1> to Player` |  | (unreliable parameters) | — |  |
+| 23 | 103 | Server > Connection > Blast Text to Player | `Connection: Send <p0> on subchannel <p1> to Player` |  | (unreliable parameters) | — |  |
 | 24 | 104 | Server > Connection > Disconnect | `Connection: Disconnect` |  |  | — |  |
-| 25 | 105 | Server > Connection > Select Session by Index | `Connection: Select Session at index <p0>` |  | (paramètres non fiables) | — |  |
-| 26 | 106 | Server > Connection > Session > Send Text on Channel | `Session: Send <p0> on subchannel <p1> on Channel` |  | (paramètres non fiables) | — |  |
-| 27 | 107 | Server > Connection > Session > Blast Text on Channel | `Session: Send <p0> on subchannel <p1> on Channel` |  | (paramètres non fiables) | — |  |
+| 25 | 105 | Server > Connection > Select Session by Index | `Connection: Select Session at index <p0>` |  | (unreliable parameters) | — |  |
+| 26 | 106 | Server > Connection > Session > Send Text on Channel | `Session: Send <p0> on subchannel <p1> on Channel` |  | (unreliable parameters) | — |  |
+| 27 | 107 | Server > Connection > Session > Blast Text on Channel | `Session: Send <p0> on subchannel <p1> on Channel` |  | (unreliable parameters) | — |  |
 | 28 | 108 | Server > Connection > Session > Sign Off | `Session: Sign Off` |  |  | — |  |
-| 29 | 109 | Server > Select Session by Index | `Server: Select Session at index <p0>` |  | (paramètres non fiables) | — |  |
-| 30 | 110 | Server > Session > Send Text on Channel | `Session: Send <p0> on subchannel <p1> on Channel` |  | (paramètres non fiables) | — |  |
-| 31 | 111 | Server > Session > Blast Text on Channel | `Session: Blast <p0> on subchannel <p1> on Channel` |  | (paramètres non fiables) | — |  |
+| 29 | 109 | Server > Select Session by Index | `Server: Select Session at index <p0>` |  | (unreliable parameters) | — |  |
+| 30 | 110 | Server > Session > Send Text on Channel | `Session: Send <p0> on subchannel <p1> on Channel` |  | (unreliable parameters) | — |  |
+| 31 | 111 | Server > Session > Blast Text on Channel | `Session: Blast <p0> on subchannel <p1> on Channel` |  | (unreliable parameters) | — |  |
 | 32 | 112 | Server > Session > Sign Off | `Session: Sign Off` |  |  | — |  |
-| 33 | 113 | Server > Session > Select Connection by Index | `Session: Select Connection at index <p0>` |  | (paramètres non fiables) | — |  |
-| 34 | 114 | Server > Session > Connection > Send Text to Player | `Connection: Send <p0> on subchannel <p1> to Player` |  | (paramètres non fiables) | — |  |
-| 35 | 115 | Server > Session > Connection > Blast Text to Player | `Connection: Blast <p0> on subchannel <p1> to Player` |  | (paramètres non fiables) | — |  |
+| 33 | 113 | Server > Session > Select Connection by Index | `Session: Select Connection at index <p0>` |  | (unreliable parameters) | — |  |
+| 34 | 114 | Server > Session > Connection > Send Text to Player | `Connection: Send <p0> on subchannel <p1> to Player` |  | (unreliable parameters) | — |  |
+| 35 | 115 | Server > Session > Connection > Blast Text to Player | `Connection: Blast <p0> on subchannel <p1> to Player` |  | (unreliable parameters) | — |  |
 | 36 | 116 | Server > Session > Connection > Disconnect | `Connection: Disconnect` |  |  | — |  |
 | 37 | 117 | Stats > For All of Moo | `Stats: All of Moo` |  |  | — |  |
 | 38 | 118 | Stats > For Selected Player | `Stats: Selected Player` |  |  | — |  |
 | 39 | 119 | Stats > For Selected Server | `Stats: Selected Server` |  |  | — |  |
 | 40 | 120 | Stats > For Selected Connection | `Stats: Selected Connection` |  |  | — |  |
-| 41 | 121 | Select Player by ID | `Select Player with ID <p0>` |  | (paramètres non fiables) | — |  |
-| 42 | 122 | Select Player by Name | `Select Player with Name <p0>` |  | (paramètres non fiables) | — |  |
-| 43 | 123 | Player > Select Channel by ID | `Player: Select Channel with ID <p0>` |  | (paramètres non fiables) | — |  |
-| 44 | 124 | Player > Select Channel by Name | `Player: Select Channel with Name <p0>` |  | (paramètres non fiables) | — |  |
-| 45 | 125 | Player > Channel > Select User by ID | `Channel: Select User with ID <p0>` |  | (paramètres non fiables) | — |  |
-| 46 | 126 | Player > Channel > Select User by Name | `Channel: Select User with Name <p0>` |  | (paramètres non fiables) | — |  |
-| 47 | 127 | Server > Select Connection by ID | `Server: Select Connection with ID <p0>` |  | (paramètres non fiables) | — |  |
-| 48 | 128 | Server > Select Connection by Name | `Server: Select Connection with Name <p0>` |  | (paramètres non fiables) | — |  |
-| 49 | 129 | Server > Connection > Select Session by ID | `Connection: Select Session with ID <p0>` |  | (paramètres non fiables) | — |  |
-| 50 | 130 | Server > Connection > Select Session by Name | `Connection: Select Session with Name <p0>` |  | (paramètres non fiables) | — |  |
-| 51 | 131 | Server > Select Session by ID | `Server: Select Session with ID <p0>` |  | (paramètres non fiables) | — |  |
-| 52 | 132 | Server > Select Session by Name | `Server: Select Session with Name <p0>` |  | (paramètres non fiables) | — |  |
-| 53 | 133 | Server > Session > Select Connection by ID | `Session: Select Connection with ID <p0>` |  | (paramètres non fiables) | — |  |
-| 54 | 134 | Server > Session > Select Connection by Name | `Session: Select Connection with Name <p0>` |  | (paramètres non fiables) | — |  |
+| 41 | 121 | Select Player by ID | `Select Player with ID <p0>` |  | (unreliable parameters) | — |  |
+| 42 | 122 | Select Player by Name | `Select Player with Name <p0>` |  | (unreliable parameters) | — |  |
+| 43 | 123 | Player > Select Channel by ID | `Player: Select Channel with ID <p0>` |  | (unreliable parameters) | — |  |
+| 44 | 124 | Player > Select Channel by Name | `Player: Select Channel with Name <p0>` |  | (unreliable parameters) | — |  |
+| 45 | 125 | Player > Channel > Select User by ID | `Channel: Select User with ID <p0>` |  | (unreliable parameters) | — |  |
+| 46 | 126 | Player > Channel > Select User by Name | `Channel: Select User with Name <p0>` |  | (unreliable parameters) | — |  |
+| 47 | 127 | Server > Select Connection by ID | `Server: Select Connection with ID <p0>` |  | (unreliable parameters) | — |  |
+| 48 | 128 | Server > Select Connection by Name | `Server: Select Connection with Name <p0>` |  | (unreliable parameters) | — |  |
+| 49 | 129 | Server > Connection > Select Session by ID | `Connection: Select Session with ID <p0>` |  | (unreliable parameters) | — |  |
+| 50 | 130 | Server > Connection > Select Session by Name | `Connection: Select Session with Name <p0>` |  | (unreliable parameters) | — |  |
+| 51 | 131 | Server > Select Session by ID | `Server: Select Session with ID <p0>` |  | (unreliable parameters) | — |  |
+| 52 | 132 | Server > Select Session by Name | `Server: Select Session with Name <p0>` |  | (unreliable parameters) | — |  |
+| 53 | 133 | Server > Session > Select Connection by ID | `Session: Select Connection with ID <p0>` |  | (unreliable parameters) | — |  |
+| 54 | 134 | Server > Session > Select Connection by Name | `Session: Select Connection with Name <p0>` |  | (unreliable parameters) | — |  |
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | 80 | Count Players | `_CountPlayers(` |  |  | — |  |
 | 1 | 81 | Player > Get Player ID | `P_GetID(` |  |  | — |  |
@@ -166,8 +166,8 @@
 | 68 | 148 | Stats > Sampling > Last Packet Size > Get Last Packet Size | `LastPacketSize(` |  |  | — |  |
 | 69 | 149 | Stats > Sampling > Last Packet Size > Get Last Incoming Packet Size | `LastInPacketSize(` |  |  | — |  |
 | 70 | 150 | Stats > Sampling > Last Packet Size > Get Last Outgoing Packet Size | `LastOutPacketSize(` |  |  | — |  |
-| 71 | 151 | Player > Get Player Name from ID | `P_GetNameID$(` |  | (paramètres non fiables) | — |  |
-| 72 | 152 | Player > Channel > Get Channel Name from ID | `PC_GetNameID$(` |  | (paramètres non fiables) | — |  |
-| 73 | 153 | Player > Channel > User > Get User Name from ID | `PCU_GetNameID$(` |  | (paramètres non fiables) | — |  |
-| 74 | 154 | Server > Connection > Get Player Name from ID | `SC_GetNameID$(` |  | (paramètres non fiables) | — |  |
-| 75 | 155 | Server > Session > Get Channel Name from ID | `SS_GetNameID$(` |  | (paramètres non fiables) | — |  |
+| 71 | 151 | Player > Get Player Name from ID | `P_GetNameID$(` |  | (unreliable parameters) | — |  |
+| 72 | 152 | Player > Channel > Get Channel Name from ID | `PC_GetNameID$(` |  | (unreliable parameters) | — |  |
+| 73 | 153 | Player > Channel > User > Get User Name from ID | `PCU_GetNameID$(` |  | (unreliable parameters) | — |  |
+| 74 | 154 | Server > Connection > Get Player Name from ID | `SC_GetNameID$(` |  | (unreliable parameters) | — |  |
+| 75 | 155 | Server > Session > Get Channel Name from ID | `SS_GetNameID$(` |  | (unreliable parameters) | — |  |

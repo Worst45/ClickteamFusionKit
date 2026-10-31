@@ -1,14 +1,14 @@
 # Extension DlgBox
 
-- Fichier : `DlgBox.mfx` — installée avec Fusion
-- Nom(s) affiché(s) dans les projets : « DialogBox », « Boîte de Dialogue »
-- Usage dans le corpus : 36 fois
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `DlgBox.mfx` — installed with Fusion
+- Name(s) shown in projects: “DialogBox”, “Boîte de Dialogue”
+- Usage in the corpus: 36 times
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | -81 | Dialog > Is Opened | `DialogBox: This object is not compatible with this version of MMF` | Est ouvert |  | 2 (2 proj.) | `DialogBox Features: Event ID -81, 0 Parameters` |
 | -54 | -27 | ? | ? |  |  | 1 (1 proj.) | `Alterable Value A of DialogBox Features = 1` |
@@ -18,7 +18,7 @@
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | 80 | Dialog Box > Open Modal | `DialogBox: This object is not compatible with this version of MMF` | Ouvrir modal |  | 6 (6 proj.) |  |
 | -49 | 31 | ? | ? |  |  | 1 (1 proj.) | `DialogBox Features : Set Alterable Value A to 1` |
@@ -30,7 +30,7 @@
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Dialog > Title | `DialogBox: This object is not compatible with this version of MMF` | Titre | → chaîne | — |  |
+| 0 | 80 | Dialog > Title | `DialogBox: This object is not compatible with this version of MMF` | Titre | → string | — |  |
 | 28 | 108 | ? | ? |  |  | 2 (1 proj.) | `Expression ID 108("DialogBox Features")` |

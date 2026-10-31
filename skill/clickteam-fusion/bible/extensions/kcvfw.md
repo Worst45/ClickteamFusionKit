@@ -1,46 +1,46 @@
 # Extension kcvfw
 
-- Fichier : `kcvfw.mfx` — installée avec Fusion
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `kcvfw.mfx` — installed with Fusion
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | -81 | Is AVI at start position ? | `<objet>: start of video` | <objet>: début de vidéo |  | — |  |
-| 1 | -82 | Is AVI at end position ? | `<objet>: end of video` | <objet>: fin de la vidéo |  | — |  |
-| 2 | -83 | Mouse clicks within the AVI window ? | `21User <p0> within <p1>` | L'utilisateur <p0> au milieu de <objet> | (paramètres non fiables) | — |  |
-| 3 | -84 | Compare to current frame ? | `<objet>: current frame <p0>` | <objet>: L'image courante <p0> | (paramètres non fiables) | — |  |
-| 4 | -85 | Compare to current time position ? | `<objet>: current time <p0>` | <objet>: le temps courant <p0> | (paramètres non fiables) | — |  |
-| 5 | -86 | Check whether a file is open ? | `<objet>: file is opened` | <objet>: le fichier est ouvert |  | — |  |
-| 6 | -87 | Is visible ? | `<objet>: visible` | <objet>: visible |  | — |  |
+| 0 | -81 | Is AVI at start position ? | `<object>: start of video` | <object>: début de vidéo |  | — |  |
+| 1 | -82 | Is AVI at end position ? | `<object>: end of video` | <object>: fin de la vidéo |  | — |  |
+| 2 | -83 | Mouse clicks within the AVI window ? | `21User <p0> within <p1>` | L'utilisateur <p0> au milieu de <object> | (unreliable parameters) | — |  |
+| 3 | -84 | Compare to current frame ? | `<object>: current frame <p0>` | <object>: L'image courante <p0> | (unreliable parameters) | — |  |
+| 4 | -85 | Compare to current time position ? | `<object>: current time <p0>` | <object>: le temps courant <p0> | (unreliable parameters) | — |  |
+| 5 | -86 | Check whether a file is open ? | `<object>: file is opened` | <object>: le fichier est ouvert |  | — |  |
+| 6 | -87 | Is visible ? | `<object>: visible` | <object>: visible |  | — |  |
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | 80 | Play > Forward | `Play video` | Jouer la vidéo |  | — |  |
 | 1 | 81 | Stop | `Stop video` | Arrêter la vidéo |  | — |  |
 | 2 | 82 | Pause | `Pause video` | Mettre la vidéo en pause |  | — |  |
 | 3 | 83 | Resume | `Resume video` | Reprendre la vidéo |  | — |  |
 | 4 | 84 | Play > Backward | `Play video backward` | Jouer la vidéo en arrière |  | — |  |
-| 5 | 85 | Play > Step by Step (in frames) | `Play <p0> frames` | Jouer <p0> images | (paramètres non fiables) | — |  |
-| 6 | 86 | Play > A new file | `New file <p0>` | Nouveau fichier <p0> | (paramètres non fiables) | — |  |
+| 5 | 85 | Play > Step by Step (in frames) | `Play <p0> frames` | Jouer <p0> images | (unreliable parameters) | — |  |
+| 6 | 86 | Play > A new file | `New file <p0>` | Nouveau fichier <p0> | (unreliable parameters) | — |  |
 | 7 | 87 | Play > A new file via a file selector | `New file from selector` | Nouveau fichier avec sélecteur |  | — |  |
 | 8 | 88 | Visibility > Make Object Invisible | `Hide` | Cacher |  | — |  |
 | 9 | 89 | Visibility > Make Object Reappear | `Show` | Montrer |  | — |  |
 | 10 | 90 | Set AVI Play Position to... > Beginning | `Goto beginning` | Aller au début |  | — |  |
 | 11 | 91 | Set AVI Play Position to... > End | `Goto end` | Aller à la fin |  | — |  |
-| 12 | 92 | Set AVI Play Position to... > A Frame Number | `Goto frame <p0>` | Aller à l'image <p0> | (paramètres non fiables) | — |  |
-| 13 | 93 | Set AVI Play Position to... > A Time Position | `Goto time <p0>` | Aller au temps <p0> | (paramètres non fiables) | — |  |
-| 15 | 95 | Size > Set Horizontal size | `Set horizontal size to <p0>` | Fixer la taille horizontale à <p0> | (paramètres non fiables) | — |  |
-| 16 | 96 | Size > Set Vertical size | `Set vertical size to <p0>` | Fixer la taille verticale à <p0> | (paramètres non fiables) | — |  |
+| 12 | 92 | Set AVI Play Position to... > A Frame Number | `Goto frame <p0>` | Aller à l'image <p0> | (unreliable parameters) | — |  |
+| 13 | 93 | Set AVI Play Position to... > A Time Position | `Goto time <p0>` | Aller au temps <p0> | (unreliable parameters) | — |  |
+| 15 | 95 | Size > Set Horizontal size | `Set horizontal size to <p0>` | Fixer la taille horizontale à <p0> | (unreliable parameters) | — |  |
+| 16 | 96 | Size > Set Vertical size | `Set vertical size to <p0>` | Fixer la taille verticale à <p0> | (unreliable parameters) | — |  |
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | 80 | Current frame number | `Video Frame(` | Numéro d'image courante |  | — |  |
 | 1 | 81 | Total number of frames | `Video Total Frames(` | Nombre total d'images |  | — |  |

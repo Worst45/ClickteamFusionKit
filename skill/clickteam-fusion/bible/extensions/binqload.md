@@ -1,25 +1,25 @@
 # Extension binqload
 
-- Fichier : `binqload.mfx` — extension tierce (fournie avec un projet téléchargé)
-- Usage dans le corpus : aucun
-- Numéros dans les événements : condition = −(81 + code), action / expression = 80 + code
-- Écrire une expression dans l'éditeur : nom de l'expression, puis **le nom de l'objet en 1er paramètre**, puis les paramètres du tableau — ex. `GroupItemValue( "Ini", "Game", "sound" )` (l'export MfaDump affiche `Expression ID 83("Ini")"Game", "sound")`)
+- File: `binqload.mfx` — third-party extension (shipped with a downloaded project)
+- Usage in the corpus: none
+- Numbers in events: condition = −(81 + code), action / expression = 80 + code
+- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export shows `Expression ID 83("Ini")"Game", "sound")`)
 
 ## Conditions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
 | 0 | -81 | On Error | `On Error` |  |  | — |  |
 
 ## Actions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Load File | `Load File ( <p0> , <p1> , <p2> , <p3> )` |  | expression chaîne « File » ; expression numérique « Memory Address » ; expression numérique « Starting Byte » ; expression numérique « Number of Bytes to Read (-1 to read to end of file) » | — |  |
+| 0 | 80 | Load File | `Load File ( <p0> , <p1> , <p2> , <p3> )` |  | string expression “File”; numeric expression “Memory Address”; numeric expression “Starting Byte”; numeric expression “Number of Bytes to Read (-1 to read to end of file)” | — |  |
 
 ## Expressions
 
-| Code | N° évén. | Menu | Texte affiché | FR | Paramètres | Usage | Exemple réel (rendu Nebula) |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 | 80 | Get File Size | `GetFileSize(` |  | chaîne | — |  |
-| 1 | 81 | GetError | `GetError$(` |  | → chaîne | — |  |
+| 0 | 80 | Get File Size | `GetFileSize(` |  | string | — |  |
+| 1 | 81 | GetError | `GetError$(` |  | → string | — |  |
