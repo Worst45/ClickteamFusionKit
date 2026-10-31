@@ -101,6 +101,11 @@ iterations × the number of `On loop` events; a few hundred iterations remain ne
   (verified): e.g. String Parser → `Set source string to levelBuffer`. Give the English label then.
 - **Flags**: booleans numbered **from 0** (as in the editor), can be named. The export shows
   `Flag 3 «landed»`.
+- **Directions** (verified): a wheel of 32 directions, numbered 0 to 31 **counter-clockwise**:
+  0 = right, 8 = up, 16 = left, 24 = down (4 = up-right, 12 = up-left, 20 = down-left,
+  28 = down-right). The export shows `Set direction to 16 (left)` (French: `16 (gauche)`); several
+  directions selected on the wheel show as `{0 (right), 16 (left)}` (one is picked at random when
+  setting a direction). `Dir("obj")` returns this number.
 - **Global values**: listed at the top of the export.
 - Frequent trick: an invisible object (e.g. `Params`) serves as a container of parameters/variables.
 - **Object groups (qualifiers)**: a set of objects handled as one (e.g. "Groupe Formes"). A
@@ -264,9 +269,9 @@ labels (e.g. `Params : Mettre le drapeau 1 «tombe» sur ON`).
   run the export again with the up-to-date `MfaDump.exe`.
 - A decimal number is always shown with a point (`1.0`, `2.5`); an integer without (`1`). The
   difference matters: an operation between integers stays an integer (`7 / 2 = 3`) **(to verify)**.
-- Some parameters may be badly decoded; they then appear raw or inconsistent. Examples seen:
-  `Set direction to ...........` (direction parameter not translated), `Player 1 Pressed fire 1, Moved `
-  (truncated text).
+- Some parameters may be badly decoded; they then appear raw or inconsistent. Example seen:
+  `Player 1 Pressed fire 1, Moved ` (truncated text). An export older than 2026-11-01 shows directions
+  as dots (`Set direction to ...........`): run the export again.
 - `[ERROR] Could not find ObjectType …` or `[?? type …]`: condition/action unknown to Nebula. See the end
   of `bible/built-in-objects.md`, otherwise ask for a screenshot of the editor.
 - **Extensions**: conditions, actions and expressions are named from the extension catalog, in the

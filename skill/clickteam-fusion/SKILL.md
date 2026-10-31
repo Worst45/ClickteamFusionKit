@@ -171,7 +171,7 @@ number below it**. When a suggestion has several steps:
     `data/lang/fr-unofficial.json`, then regenerate and rebuild MfaDump.
 - Points marked **(to verify)** in `FUSION_CONTEXT.md` are hypotheses, not certainties.
 - The English labels of the built-in objects are Nebula's, close to but not identical to the editor's.
-- A few parameters are still badly decoded (for example `Set direction to ...........`): when in doubt,
-  ask for a screenshot.
+- A few parameters are still badly decoded (raw or truncated text): when in doubt, ask for a
+  screenshot.
 - MfaDump is validated on 162 projects (Fusion 2.5 builds 280-296, MMF2 builds 241-258, several frames,
   extensions).

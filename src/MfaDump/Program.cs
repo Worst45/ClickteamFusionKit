@@ -478,7 +478,18 @@ static class Tr
     }
 
     static string Finish(string text, string prefix, bool negated) =>
-        prefix + (negated ? (L.Lang == "fr" ? "NON " : "NOT ") : "") + text;
+        prefix + (negated ? (L.Lang == "fr" ? "NON " : "NOT ") : "") + (L.Lang == "fr" ? FrenchDirections(text) : text);
+
+    // Direction masks rendered by Nebula ("16 (left)", "all directions"): names in French
+    static readonly Dictionary<string, string> DirectionNames = new()
+    {
+        ["right"] = "droite", ["up-right"] = "haut-droite", ["up"] = "haut", ["up-left"] = "haut-gauche",
+        ["left"] = "gauche", ["down-left"] = "bas-gauche", ["down"] = "bas", ["down-right"] = "bas-droite",
+    };
+    static string FrenchDirections(string text) =>
+        Regex.Replace(text, @"\b(\d+) \((right|up-right|up|up-left|left|down-left|down|down-right)\)",
+                      m => $"{m.Groups[1].Value} ({DirectionNames[m.Groups[2].Value]})")
+             .Replace("all directions", "toutes les directions").Replace("no direction", "aucune direction");
 
     // Placeholder values of an EN template matched against Nebula's text, or null if it does not match
     static Dictionary<string, string> Capture(ACEventBase x, string enTemplate, string text)

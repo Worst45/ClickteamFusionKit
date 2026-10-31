@@ -59,6 +59,7 @@ in the kit.
 | `4b55799` | A round decimal is shown with `.0` (`1.0`) to tell it apart from an integer |
 | `8ea6657` | `Parameter.Raw`: raw bytes of each parameter (debugging) |
 | `d97ca8c` | Menu options: `ACEventBase.GetMenuItem` searches every sub-menu (it stopped after the first one, so `Options > Display > item` was lost when `Options > Sounds` came first); an unknown id renders as `[menu id N]` |
+| `24f3b52` | Directions: `ACEventBase.GetDirectionMask` lists the 32-bit mask (bit n = direction n, counter-clockwise wheel, 0 = right, 8 = up, 16 = left, 24 = down) as `16 (left)` / `{0 (right), 16 (left)}` instead of dots; also used by `ParameterShoot`. MfaDump translates the names in French (`Tr.FrenchDirections`) |
 | `84056db` | Extension expressions: resolver `ParameterExpression.ExtensionExpressionInfo` (name + parameter count, set by MfaDump from the catalog); `ParameterExpressions.ToString` writes `Name("object", p1, p2)` when the next tokens are parameters (any token but an operator, `,` or `)`; a leading ` - ` counts as a parameter only if the catalog says the expression has some) |
 
 ## 3. MfaDump (`src\MfaDump\Program.cs`)
@@ -168,7 +169,6 @@ system .NET 8+ SDK or installs one into `tools\dotnet\`, and publishes a standal
 ## 6. Ideas for later
 
 - Decode the remaining built-in combinations (end of `bible\built-in-objects.md`).
-- Decode the direction parameter (`Set direction to ...........`).
 - Align the built-in English labels with the editor's (today they are Nebula's).
 - French: render `<value>` placeholders (positions, directions) in French instead of Nebula's English
   ("at (0,0) from Obj").
