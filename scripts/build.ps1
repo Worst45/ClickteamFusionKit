@@ -38,12 +38,16 @@ function Get-Dotnet {
         $sdks = & $sys.Source --list-sdks 2>$null
         if ($sdks | Where-Object { $_ -match '^([89]|\d\d)\.' }) { return $sys.Source }
     }
-    $local = Join-Path $kit 'tools\dotnet\dotnet.exe'
+    # Dans tools\dotnet\ du kit ; si le kit est dans un dossier trop profond, les chemins du SDK
+    # dépasseraient la limite de 260 caractères de Windows : %LOCALAPPDATA%\ClickteamFusionKit\dotnet
+    $dir = Join-Path $kit 'tools\dotnet'
+    if ($dir.Length -gt 80) { $dir = Join-Path $env:LOCALAPPDATA 'ClickteamFusionKit\dotnet' }
+    $local = Join-Path $dir 'dotnet.exe'
     if (-not (Test-Path $local)) {
-        Write-Host 'SDK .NET 8 absent : installation locale dans tools\dotnet\ (environ 300 Mo)...'
+        Write-Host "SDK .NET 8 absent : installation locale dans $dir (environ 300 Mo)..."
         $script = Join-Path $env:TEMP 'dotnet-install.ps1'
         Invoke-WebRequest 'https://dot.net/v1/dotnet-install.ps1' -OutFile $script
-        & powershell -NoProfile -ExecutionPolicy Bypass -File $script -Channel 8.0 -InstallDir (Split-Path $local) -NoPath
+        & powershell -NoProfile -ExecutionPolicy Bypass -File $script -Channel 8.0 -InstallDir $dir -NoPath | Out-Host
         if (-not (Test-Path $local)) { throw "Installation du SDK .NET échouée" }
     }
     return $local
