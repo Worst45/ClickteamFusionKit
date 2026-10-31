@@ -1,0 +1,1061 @@
+{
+  "file": "LevelSave.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Stored Objects > Object is Stored (Selector)",
+      "text": "漥›扏敪瑣┠‰獩匠潴敲d",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "扏敪瑣攀瑣┠‰獩匠潴敲d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Stored Objects > Object is Stored (Fixed)",
+      "text": "漥›扏敪瑣┠‰獩匠潴敲d",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬e‰獩匠潴敲d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Object Properties > Object has Property (Selector)",
+      "text": "漥›扏敪瑣┠‰慨⁳牐灯牥祴┠1",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        1,
+        45
+      ],
+      "paramTitles": [
+        "扏敪瑣攀瑣┠‰慨⁳牐灯牥祴┠1",
+        "牐灯牥祴丠浡e慨⁳牐灯牥祴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Object Properties > Object has Property (Fixed)",
+      "text": "漥›扏敪瑣┠‰慨⁳牐灯牥祴┠1",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬e‰慨⁳牐灯牥祴┠1",
+        "牐灯牥祴丠浡e慨⁳牐灯牥祴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Level Properties > Property Exists",
+      "text": "漥›敌敶⁬牐灯牥祴┠‰硅獩獴",
+      "menuId": 26004,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "牐灯牥祴丠浡e牥祴┠‰硅獩獴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Stored Objects > Add Object (Selector)",
+      "text": "摁⁤扏敪瑣漠⁦祔数┠‰牦浯┠1",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        1
+      ],
+      "paramTitles": [
+        "祔数漠⁦扏敪瑣礀数┠‰牦浯┠1",
+        "扏敪瑣 扏敪瑣礀数┠‰牦浯┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Stored Objects > Add Object (Fixed)",
+      "text": "摁⁤扏敪瑣漠⁦祔数┠‰牦浯┠1",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "祔数漠⁦扏敪瑣礀数┠‰牦浯┠1",
+        "楆數⁤慖畬e瑣礀数┠‰牦浯┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Stored Objects > Remove Object (Selector)",
+      "text": "敒潭敶传橢捥⁴〥⠠敄瑳潲㵹ㄥ)",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣伀橢捥⁴〥⠠敄瑳潲㵹ㄥ)",
+        "敄瑳潲⁹扏敪瑣椠⁮牆浡㽥⠠㴰潎‬㴱教⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Stored Objects > Remove Object (Fixed)",
+      "text": "敒潭敶传橢捥⁴〥⠠敄瑳潲㵹ㄥ)",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬e⁴〥⠠敄瑳潲㵹ㄥ)",
+        "敄瑳潲⁹扏敪瑣椠⁮牆浡㽥⠠㴰潎‬㴱教⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Stored Objects > Remove all Objects of Type",
+      "text": "敒潭敶愠汬传橢捥獴漠⁦祔数┠‰䐨獥牴祯┽⤱",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "祔数攀愠汬传橢捥獴漠⁦祔数┠‰䐨獥牴祯┽⤱",
+        "敄瑳潲⁹扏敪瑣⁳湩䘠慲敭‿〨丽Ɐㄠ夽獥)⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Stored Objects > Remove all Objects",
+      "text": "敒潭敶愠汬传橢捥獴⠠敄瑳潲㵹〥)",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敄瑳潲⁹扏敪瑣⁳湩䘠慲敭‿〨丽Ɐㄠ夽獥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Stored Objects > Duplicate Object (Selector)",
+      "text": "畄汰捩瑡⁥扏敪瑣┠‰湩潴┠1",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潓牵散传橢捥t瑣┠‰湩潴┠1",
+        "敄瑳湩瑡潩⁮扏敪瑣 湩潴┠1"
+      ],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Stored Objects > Duplicate Object (Fixed)",
+      "text": "畄汰捩瑡⁥扏敪瑣┠‰湩潴┠1",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潓牵散传橢捥⁴䘨硩摥)潴┠1",
+        "敄瑳湩瑡潩⁮扏敪瑣⠠楆數⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Stored Objects > Replace Object (Selector)",
+      "text": "敒汰捡⁥扏敪瑣┠‰楷桴┠1",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潓牵散传橢捥t┠‰楷桴┠1",
+        "敄瑳湩瑡潩⁮扏敪瑣椀桴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Stored Objects > Replace Object (Fixed)",
+      "text": "敒汰捡⁥扏敪瑣┠‰楷桴┠1",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潓牵散传橢捥t┠‰楷桴┠1",
+        "敄瑳湩瑡潩⁮扏敪瑣椀桴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Object Properties > Add/Set Properties > Value, Single Object (Selector)",
+      "text": "敓⁴慖畬⁥牐灯牥祴┠‱潴┠′潦⁲扏敪瑣┠0",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣甀⁥牐灯牥祴┠‱潴┠′潦⁲扏敪瑣┠0",
+        "慎敭漠⁦牐灯牥祴礀┠‱潴┠′潦⁲扏敪瑣┠0",
+        "慖畬⁥潴匠瑥爀祴礀┠‱潴┠′潦⁲扏敪瑣┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Object Properties > Add/Set Properties > Value, Single Object (Fixed)",
+      "text": "敓⁴慖畬⁥牐灯牥祴┠‱潴┠′潦⁲扏敪瑣┠0",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬e灯牥祴┠‱潴┠′潦⁲扏敪瑣┠0",
+        "慎敭漠⁦牐灯牥祴礀┠‱潴┠′潦⁲扏敪瑣┠0",
+        "慖畬⁥潴匠瑥爀祴礀┠‱潴┠′潦⁲扏敪瑣┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Object Properties > Add/Set Properties > Value, All Objects of Type",
+      "text": "敓⁴慖畬⁥牐灯牥祴┠‱潴┠′潦⁲污⁬扏敪瑣⁳景吠灹⁥〥",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣吠灹e灯牥祴┠‱潴┠′潦⁲污⁬扏敪瑣⁳景吠灹⁥〥",
+        "慎敭漠⁦牐灯牥祴礀┠‱潴┠′潦⁲污⁬扏敪瑣⁳景吠灹⁥〥",
+        "慖畬⁥潴匠瑥爀祴礀┠‱潴┠′潦⁲污⁬扏敪瑣⁳景吠灹⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Object Properties > Add/Set Properties > Value, All Stored Objects",
+      "text": "敓⁴慖畬⁥牐灯牥祴┠‱潴┠′潦⁲污⁬瑓牯摥传橢捥獴",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慎敭漠⁦牐灯牥祴礀┠‱潴┠′潦⁲污⁬瑓牯摥传橢捥獴",
+        "慖畬⁥潴匠瑥爀祴礀┠‱潴┠′潦⁲污⁬瑓牯摥传橢捥獴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Object Properties > Add/Set Properties > String, Single Object (Selector)",
+      "text": "敓⁴瑓楲杮倠潲数瑲⁹ㄥ琠⁯㈥映牯传橢捥⁴〥",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "扏敪瑣椀杮倠潲数瑲⁹ㄥ琠⁯㈥映牯传橢捥⁴〥",
+        "慎敭漠⁦牐灯牥祴琀⁹ㄥ琠⁯㈥映牯传橢捥⁴〥",
+        "瑓楲杮琠⁯敓t祴琀⁹ㄥ琠⁯㈥映牯传橢捥⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Object Properties > Add/Set Properties > String, Single Object (Fixed)",
+      "text": "敓⁴瑓楲杮倠潲数瑲⁹ㄥ琠⁯㈥映牯传橢捥⁴〥",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬e潲数瑲⁹ㄥ琠⁯㈥映牯传橢捥⁴〥",
+        "慎敭漠⁦牐灯牥祴琀⁹ㄥ琠⁯㈥映牯传橢捥⁴〥",
+        "瑓楲杮琠⁯敓t祴琀⁹ㄥ琠⁯㈥映牯传橢捥⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Object Properties > Add/Set Properties > String, All Objects of Type",
+      "text": "敓⁴瑓楲杮倠潲数瑲⁹ㄥ琠⁯㈥映牯愠汬传橢捥獴漠⁦祔数┠0",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "扏敪瑣吠灹e潲数瑲⁹ㄥ琠⁯㈥映牯愠汬传橢捥獴漠⁦祔数┠0",
+        "慎敭漠⁦牐灯牥祴琀⁹ㄥ琠⁯㈥映牯愠汬传橢捥獴漠⁦祔数┠0",
+        "瑓楲杮琠⁯敓t祴琀⁹ㄥ琠⁯㈥映牯愠汬传橢捥獴漠⁦祔数┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Object Properties > Add/Set Properties > String, All Stored Objects",
+      "text": "敓⁴瑓楲杮倠潲数瑲⁹ㄥ琠⁯㈥映牯愠汬匠潴敲⁤扏敪瑣s",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦牐灯牥祴琀⁹ㄥ琠⁯㈥映牯愠汬匠潴敲⁤扏敪瑣s",
+        "瑓楲杮琠⁯敓t祴琀⁹ㄥ琠⁯㈥映牯愠汬匠潴敲⁤扏敪瑣s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Object Properties > Remove Properties > Single Object (Selector)",
+      "text": "敒潭敶倠潲数瑲⁹ㄥ映潲⁭扏敪瑣┠0",
+      "menuId": 25018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        45
+      ],
+      "paramTitles": [
+        "扏敪瑣倀潲数瑲⁹ㄥ映潲⁭扏敪瑣┠0",
+        "慎敭漠⁦牐灯牥祴⠠敌癡⁥求湡⁫潴删浥癯⁥汁⁬牐灯牥楴獥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Object Properties > Remove Properties > Single Object (Fixed)",
+      "text": "敒潭敶倠潲数瑲⁹ㄥ映潲⁭扏敪瑣┠0",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬e瑲⁹ㄥ映潲⁭扏敪瑣┠0",
+        "慎敭漠⁦牐灯牥祴⠠敌癡⁥求湡⁫潴删浥癯⁥汁⁬牐灯牥楴獥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Object Properties > Remove Properties > All Objects of Type",
+      "text": "敒潭敶倠潲数瑲⁹ㄥ映潲⁭污⁬扏敪瑣⁳景吠灹⁥〥",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "扏敪瑣吠灹e瑲⁹ㄥ映潲⁭污⁬扏敪瑣⁳景吠灹⁥〥",
+        "慎敭漠⁦牐灯牥祴⠠敌癡⁥求湡⁫潴删浥癯⁥汁⁬牐灯牥楴獥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Object Properties > Remove Properties > All Stored Objects",
+      "text": "敒潭敶倠潲数瑲⁹〥映潲⁭污⁬瑓牯摥传橢捥獴",
+      "menuId": 25021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦牐灯牥祴⠠敌癡⁥求湡⁫潴删浥癯⁥汁⁬牐灯牥楴獥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Level Properties > Add/Set Value Property",
+      "text": "敓⁴敌敶⁬慖畬⁥牐灯牥祴┠‰潴┠1",
+      "menuId": 25022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慎敭漠⁦牐灯牥祴爀灯牥祴┠‰潴┠1",
+        "慖畬⁥潴匠瑥爀祴爀灯牥祴┠‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Level Properties > Add/Set String Property",
+      "text": "敓⁴敌敶⁬瑓楲杮倠潲数瑲⁹〥琠⁯ㄥ",
+      "menuId": 25023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦牐灯牥祴倀潲数瑲⁹〥琠⁯ㄥ",
+        "瑓楲杮琠⁯敓t祴倀潲数瑲⁹〥琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Level Properties > Remove Property",
+      "text": "敒潭敶䰠癥汥倠潲数瑲⁹〥",
+      "menuId": 25024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦牐灯牥祴攀瑲⁹〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Level Properties > Remove all Properties",
+      "text": "敒潭敶愠汬䰠癥汥倠潲数瑲敩s",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "File Communication > Save Level",
+      "text": "慓敶䰠癥汥琠⁯〥",
+      "menuId": 25026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬䰀癥汥琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "File Communication > Load Level",
+      "text": "潌摡䰠癥汥映潲⁭〥",
+      "menuId": 25027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬䰀癥汥映潲⁭〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Clear All Data",
+      "text": "汃慥⁲汁⁬瑓牯摥䐠瑡a",
+      "menuId": 25028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Stored Objects > Total Number of Objects",
+      "text": "潔慴佬橢⡳",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Stored Objects > Total Objects of Type",
+      "text": "潔慴佬呦灹⡥",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "扏敪瑣吠灹e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Stored Objects > Number of Object Types",
+      "text": "潔慴呬灹獥(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Stored Objects > Get Object At",
+      "text": "扏䅪⡴",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潐楳楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Stored Objects > Object Information > Object Type",
+      "text": "扏呪灹⑥(",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Stored Objects > Object Information > Stored Index",
+      "text": "扏䥪摮硥(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Stored Objects > Object Information > X-Position",
+      "text": "扏塪(",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Stored Objects > Object Information > Y-Position",
+      "text": "扏奪(",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Object Properties > Value Property",
+      "text": "慖偬潲⡰",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        3
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬e",
+        "慎敭漠⁦牐灯牥祴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Object Properties > String Property",
+      "text": "瑓偲潲⑰(",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        3
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬e",
+        "慎敭漠⁦牐灯牥祴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Object Properties > Total/Count > Number of Properties in Object",
+      "text": "扏乪浵牐灯⡳",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Object Properties > Total/Count > Total Number of Properties",
+      "text": "潔慴乬浵牐灯⡳",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Object Properties > Total/Count > Number of Value Properties in Object",
+      "text": "扏乪浵慖偬潲獰(",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬e獰("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Object Properties > Total/Count > Total Number of Value Properties",
+      "text": "潔慴乬浵慖偬潲獰(",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Object Properties > Total/Count > Number of String Properties in Object",
+      "text": "扏乪浵瑓偲潲獰(",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬e獰("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Object Properties > Total/Count > Total Number of String Properties",
+      "text": "潔慴乬浵瑓偲潲獰(",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Object Properties > Iteration > Value Property At (for Single Object)",
+      "text": "扏噪污牐灯瑁⠤",
+      "menuId": 27016,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬e⠤",
+        "湉敤x慖畬e⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Object Properties > Iteration > String Property At (for Single Object)",
+      "text": "扏卪牴牐灯瑁⠤",
+      "menuId": 27017,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬e⠤",
+        "湉敤x慖畬e⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Object Properties > Iteration > Value Property At (for Object Type)",
+      "text": "扏呪灹噥污牐灯瑁⠤",
+      "menuId": 27018,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "扏敪瑣吠灹e灯瑁⠤",
+        "湉敤x吠灹e灯瑁⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Object Properties > Iteration > String Property At (for Object Type)",
+      "text": "扏呪灹卥牴牐灯瑁⠤",
+      "menuId": 27019,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "扏敪瑣吠灹e灯瑁⠤",
+        "湉敤x吠灹e灯瑁⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Object Properties > Iteration > Value Property At (for All Objects)",
+      "text": "慖偬潲䅰⑴(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x䅰⑴("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Object Properties > Iteration > String Property At (for All Objects)",
+      "text": "瑓偲潲䅰⑴(",
+      "menuId": 27021,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x䅰⑴("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Level Properties > Value Property",
+      "text": "敌噶污牐灯(",
+      "menuId": 27022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "牐灯牥祴丠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Level Properties > String Property",
+      "text": "敌卶牴牐灯⠤",
+      "menuId": 27023,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "牐灯牥祴丠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Level Properties > Total Number of Properties",
+      "text": "潔慴䱬癥牐灯⡳",
+      "menuId": 27024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Level Properties > Total Value Properties",
+      "text": "潔慴䱬癥慖偬潲獰(",
+      "menuId": 27025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Level Properties > Total String Properties",
+      "text": "潔慴䱬癥瑓偲潲獰(",
+      "menuId": 27026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Level Properties > Value Property At",
+      "text": "敌噶污牐灯瑁⠤",
+      "menuId": 27027,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x牐灯瑁⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Level Properties > String Property At",
+      "text": "敌卶牴牐灯瑁⠤",
+      "menuId": 27028,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x牐灯瑁⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "File Communication > Get Output String",
+      "text": "畏灴瑵瑓楲杮⠤",
+      "menuId": 27029,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

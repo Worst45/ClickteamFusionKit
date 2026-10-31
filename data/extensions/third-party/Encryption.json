@@ -1,0 +1,43 @@
+{
+  "file": "Encryption.mfx",
+  "conditions": [],
+  "actions": [],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Encrypt string",
+      "text": "湅牣灹⑴(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "瑓楲杮␀(",
+        "敋y杮␀("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Decrypt string",
+      "text": "敄牣灹⑴(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "瑓楲杮␀(",
+        "敋y杮␀("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

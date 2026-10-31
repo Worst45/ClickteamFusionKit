@@ -1,0 +1,96 @@
+{
+  "file": "packx.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Is String small enough to pack using key?",
+      "text": "",
+      "menuId": 26000,
+      "resText": "If %0 fits in key %1",
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮琠⁯慰正"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "conditions_status": "menu ressources",
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Key",
+      "text": "",
+      "menuId": 25000,
+      "resText": "Set key to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敓⁴敫⁹潴⠠来✠䅛娭❝)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions_status": "menu ressources",
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Pack String into Number",
+      "text": "",
+      "menuId": 27000,
+      "resText": "PackX(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Unpack a number back into a string",
+      "text": "",
+      "menuId": 27010,
+      "resText": "UnPackX$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Find max length for key",
+      "text": "",
+      "menuId": 27020,
+      "resText": "MaxLen(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Count the amount of chars in a key",
+      "text": "",
+      "menuId": 27030,
+      "resText": "KeyCharCount(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions_status": "menu ressources"
+}

@@ -1,0 +1,32 @@
+{
+  "file": "kcfocus.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Window has Focus",
+      "text": "〰楗摮睯栠獡䘠捯獵.",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Flash Window on Task Bar",
+      "text": "〰汆獡⁨畂瑴湯漠⁮慔歳慢⹲†伨汮⁹晩眠湩潤⁷獩渠瑯愠瑣癩⥥.",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": []
+}

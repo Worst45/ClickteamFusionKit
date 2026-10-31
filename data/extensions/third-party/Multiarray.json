@@ -1,0 +1,393 @@
+{
+  "file": "Multiarray.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On Iteration",
+      "text": "漥传⁮瑉牥瑡潩⁮┨⤰",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑉牥瑡潩⁮䑉漀⁮┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On ID Iteration",
+      "text": "漥传⁮䑉䤠整慲楴湯",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Array Exists",
+      "text": "漥䄠牲祡⠠〥 硅獩獴",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "牁慲⁹慎敭　 硅獩獴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "On Error",
+      "text": "漥传⁮牅潲r",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Arrays > Create Array",
+      "text": "牃慥整䄠牲祡⠠〥)",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "牁慲⁹慎敭礀⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Arrays > Remove Array",
+      "text": "敒潭敶䄠牲祡⠠〥)",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "牁慲⁹慎敭礀⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Arrays > Iterate Array",
+      "text": "瑉牥瑡⁥牁慲⁹┨⤰眠瑩⁨摩⠠ㄥ)",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "牁慲⁹慎敭愀⁹┨⤰眠瑩⁨摩⠠ㄥ)",
+        "瑉牥瑡潩⁮䑉 ┨⤰眠瑩⁨摩⠠ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Arrays > Clear",
+      "text": "汃慥r",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Modify > Insert Value",
+      "text": "湉敳瑲嘠污敵⠠〥 瑡⠠ㄥ 潴愠牲祡⠠㈥)",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "慖畬e嘠污敵⠠〥 瑡⠠ㄥ 潴愠牲祡⠠㈥)",
+        "牁慲⁹湉敤⁸⴨‱潦⁲湥⥤ 潴愠牲祡⠠㈥)",
+        "牁慲⁹慎敭 ⴨‱潦⁲湥⥤ 潴愠牲祡⠠㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Modify > Set Value",
+      "text": "敓⁴慖畬⁥┨⤰愠⁴┨⤱椠⁮牁慲⁹┨⤲",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "慖畬e畬⁥┨⤰愠⁴┨⤱椠⁮牁慲⁹┨⤲",
+        "牁慲⁹湉敤x⤰愠⁴┨⤱椠⁮牁慲⁹┨⤲",
+        "牁慲⁹慎敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Modify > Insert String",
+      "text": "湉敳瑲匠牴湩⁧┨⤰愠⁴┨⤱琠⁯牡慲⁹┨⤲",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮匀牴湩⁧┨⤰愠⁴┨⤱琠⁯牡慲⁹┨⤲",
+        "牁慲⁹湉敤⁸⴨‱潦⁲湥⥤⤀琠⁯牡慲⁹┨⤲",
+        "牁慲⁹慎敭 ⴨‱潦⁲湥⥤⤀琠⁯牡慲⁹┨⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Modify > Set String",
+      "text": "敓⁴瑓楲杮⠠〥 瑡⠠ㄥ 湩䄠牲祡⠠㈥)",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮椀杮⠠〥 瑡⠠ㄥ 湩䄠牲祡⠠㈥)",
+        "牁慲⁹湉敤x〥 瑡⠠ㄥ 湩䄠牲祡⠠㈥)",
+        "牁慲⁹慎敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Modify > Remove Element",
+      "text": "敒潭敶䔠敬敭瑮⠠〥 牦浯䄠牲祡⠠ㄥ)",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "牁慲⁹湉敤x瑮⠠〥 牦浯䄠牲祡⠠ㄥ)",
+        "牁慲⁹慎敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Files > Save Arrays",
+      "text": "慓敶䄠牲祡⁳潴⠠〥)",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬慮敭礀⁳潴⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Files > Load Arrays",
+      "text": "潌摡䄠牲祡⁳牦浯⠠〥)",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬慮敭礀⁳牦浯⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Arrays > Iterate Array ID's",
+      "text": "瑉牥瑡⁥牁慲⁹䑉猧",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Array > Get Value",
+      "text": "敇噴污敵(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "牁慲⁹慎敭",
+        "牁慲⁹湉敤x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Array > Get String",
+      "text": "敇却牴湩⑧(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "牁慲⁹慎敭",
+        "牁慲⁹湉敤x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Array > Get Number of Elements",
+      "text": "敇乴浵汅浥湥獴(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "牁慲⁹慎敭渀獴("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "On Iteration > Get Current Index",
+      "text": "敇䍴牵湉敤⡸",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "On Iteration > Get Current Value",
+      "text": "敇䍴牵慖畬⡥",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "On Iteration > Get Current String",
+      "text": "敇䍴牵瑓楲杮⠤",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "On Iteration > Get Current Array",
+      "text": "敇䍴牵牁慲⑹(",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "On ID Iteration > Get Current Array",
+      "text": "敇䍴牵䑉⠤",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "On Error > Get Error String",
+      "text": "敇䕴牲牯⠤",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

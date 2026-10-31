@@ -1,0 +1,949 @@
+{
+  "file": "EasyXML.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Load Sucessful?",
+      "text": "漥䰠慯⁤畓散獳畦l",
+      "menuId": 26000,
+      "resText": "%o Load Sucessful",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Auto Parse > On Element",
+      "text": "漥传⁮汅浥湥t",
+      "menuId": 26010,
+      "resText": "%o On Element",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Auto Parse > On Comment",
+      "text": "漥传⁮潃浭湥t",
+      "menuId": 26020,
+      "resText": "%o On Comment",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Auto Parse > On Unknown",
+      "text": "漥传⁮湕湫睯n",
+      "menuId": 26030,
+      "resText": "%o On Unknown",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Auto Parse > On Text",
+      "text": "漥传⁮敔瑸",
+      "menuId": 26040,
+      "resText": "%o On Text",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Node > Node Has Children?",
+      "text": "漥丠摯⁥慈⁳桃汩牤湥",
+      "menuId": 26050,
+      "resText": "%o Node Has Children",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Error > On Error",
+      "text": "漥传⁮牅潲r",
+      "menuId": 26060,
+      "resText": "%o On Error",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Auto Parse > On Attribute",
+      "text": "漥传⁮瑁牴扩瑵e",
+      "menuId": 26070,
+      "resText": "%o On Attribute",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Load File",
+      "text": "潌摡䘠汩⁥〥",
+      "menuId": 25000,
+      "resText": "Load File %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆敬慮敭 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Save File",
+      "text": "慓敶䘠汩⁥潴┠0",
+      "menuId": 25010,
+      "resText": "Save File to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆敬慮敭 潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Parse",
+      "text": "慐獲⁥〥",
+      "menuId": 25020,
+      "resText": "Parse %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慄慴 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "BlowFish > Set Key",
+      "text": "敓⁴敋⁹潴┠0",
+      "menuId": 25030,
+      "resText": "Set Key to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敋y敋⁹潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "BlowFish > Load Encrypted File",
+      "text": "潌摡䔠据祲瑰摥䘠汩⁥〥",
+      "menuId": 25040,
+      "resText": "Load Encrypted File %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆敬慮敭礀瑰摥䘠汩⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "BlowFish > Save Encrypted File",
+      "text": "慓敶䔠据祲瑰摥䘠汩⁥潴┠0",
+      "menuId": 25050,
+      "resText": "Save Encrypted File to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆敬慮敭礀瑰摥䘠汩⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Auto Parse > Start Parsing",
+      "text": "瑓牡⁴慐獲湩g",
+      "menuId": 25060,
+      "resText": "Start Parsing",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Auto Parse > Stop Parsing",
+      "text": "瑓灯倠牡楳杮",
+      "menuId": 25070,
+      "resText": "Stop Parsing",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Node > Set Value",
+      "text": "敓⁴慖畬⁥潴┠0",
+      "menuId": 25080,
+      "resText": "Set Value to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖畬e畬⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Node > Root Node",
+      "text": "潒瑯丠摯e",
+      "menuId": 25090,
+      "resText": "Root Node",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Node > First Child",
+      "text": "楆獲⁴桃汩d",
+      "menuId": 25100,
+      "resText": "First Child",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Node > Find Child",
+      "text": "楆摮䌠楨摬眠瑩⁨慶畬⁥〥",
+      "menuId": 25110,
+      "resText": "Find Child with value %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖畬e楨摬眠瑩⁨慶畬⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Node > Last Child",
+      "text": "慌瑳䌠楨摬",
+      "menuId": 25120,
+      "resText": "Last Child",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Node > Next Sibling",
+      "text": "敎瑸匠扩楬杮",
+      "menuId": 25130,
+      "resText": "Next Sibling",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Node > Find Sibling",
+      "text": "楆摮匠扩楬杮眠瑩⁨慶畬⁥〥",
+      "menuId": 25140,
+      "resText": "Find Sibling with value %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖畬e扩楬杮眠瑩⁨慶畬⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Node > Previous Sibling",
+      "text": "牐癥潩獵匠扩楬杮",
+      "menuId": 25150,
+      "resText": "Previous Sibling",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Node > Parent Node",
+      "text": "慐敲瑮丠摯e",
+      "menuId": 25160,
+      "resText": "Parent Node",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Node > Delete Children",
+      "text": "敄敬整䌠楨摬敲n",
+      "menuId": 25170,
+      "resText": "Delete Children",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Node > Delete Child",
+      "text": "敄敬整䌠楨摬眠瑩⁨慶畬⁥〥",
+      "menuId": 25180,
+      "resText": "Delete Child with value %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖畬e䌠楨摬眠瑩⁨慶畬⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Element > Add Element",
+      "text": "摁⁤汅浥湥⁴楷桴渠浡⁥〥",
+      "menuId": 25190,
+      "resText": "Add Element with name %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慎敭氀浥湥⁴楷桴渠浡⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Element > Set Name",
+      "text": "敓⁴慎敭漠⁦汥浥湥⁴潴┠0",
+      "menuId": 25200,
+      "resText": "Set Name of element to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慎敭愀敭漠⁦汥浥湥⁴潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Element > Set Attribute string",
+      "text": "敓⁴瑁牴扩瑵⁥〥琠⁯ㄥ",
+      "menuId": 25210,
+      "resText": "Set Attribute %0 to %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "瑁牴扩瑵⁥慮敭　琠⁯ㄥ",
+        "慖畬e瑵⁥慮敭　琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Element > Set Attribute value",
+      "text": "敓⁴瑁牴扩瑵⁥〥琠⁯ㄥ",
+      "menuId": 25220,
+      "resText": "Set Attribute %0 to %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "瑁牴扩瑵⁥慮敭　琠⁯ㄥ",
+        "慖畬e瑵⁥慮敭　琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Comment > Add Comment",
+      "text": "摁⁤潃浭湥⁴楷桴琠硥⁴〥",
+      "menuId": 25230,
+      "resText": "Add Comment with text %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃浭湥⁴敔瑸椀桴琠硥⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Comment > Set Comment text",
+      "text": "敓⁴潃浭湥⁴整瑸琠⁯〥",
+      "menuId": 25240,
+      "resText": "Set Comment text to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃浭湥⁴敔瑸攀瑸琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Text > Add Text",
+      "text": "摁⁤敔瑸眠瑩⁨整瑸┠0",
+      "menuId": 25250,
+      "resText": "Add Text with text %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敔瑸攀瑸眠瑩⁨整瑸┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Text > Set Text",
+      "text": "敓⁴敔瑸琠⁯整瑸┠0",
+      "menuId": 25260,
+      "resText": "Set Text to text %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敔瑸攀瑸琠⁯整瑸┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Error > Clear Error",
+      "text": "汃慥⁲牅潲r",
+      "menuId": 25270,
+      "resText": "Clear Error",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Node > Node from index",
+      "text": "潎敤映潲⁭湩敤⁸〥",
+      "menuId": 25280,
+      "resText": "Node from index %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湉敤x潲⁭湩敤⁸〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Node > Sibling from index",
+      "text": "楓汢湩⁧牦浯椠摮硥┠0",
+      "menuId": 25290,
+      "resText": "Sibling from index %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湉敤x⁧牦浯椠摮硥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Node > Child from index",
+      "text": "桃汩⁤牦浯椠摮硥┠0",
+      "menuId": 25300,
+      "resText": "Child from index %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湉敤x牦浯椠摮硥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Element > Remove Attribute",
+      "text": "敒潭敶䄠瑴楲畢整┠0",
+      "menuId": 25310,
+      "resText": "Remove Attribute %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑁牴扩瑵e楲畢整┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Node > Delete Node",
+      "text": "敄敬整丠摯e",
+      "menuId": 25320,
+      "resText": "Delete Node",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Filename",
+      "text": "浘䙬汩乥浡⑥(",
+      "menuId": 27000,
+      "resText": "XmlFileName$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Auto Parse > Get Node Index",
+      "text": "浘䅬瑵乯摯䥥摮硥(",
+      "menuId": 27010,
+      "resText": "XmlAutoNodeIndex(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Node > Get Node Value",
+      "text": "浘乬摯噥污敵⠤",
+      "menuId": 27020,
+      "resText": "XmlNodeValue$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Node > Get Node Type",
+      "text": "浘乬摯呥灹⡥",
+      "menuId": 27030,
+      "resText": "XmlNodeType(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Element > Get Element Name",
+      "text": "浘䕬敬乭浡⑥(",
+      "menuId": 27040,
+      "resText": "XmlElemName$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Element > Get Attribute String",
+      "text": "浘䕬敬䅭瑴楲卢牴⠤",
+      "menuId": 27050,
+      "resText": "XmlElemAttribStr$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Element > Get Attribute Value",
+      "text": "浘䕬敬䅭瑴楲噢污(",
+      "menuId": 27060,
+      "resText": "XmlElemAttribVal(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Element > Parent > Get Parent Name",
+      "text": "浘偬牡湥乴浡⑥(",
+      "menuId": 27070,
+      "resText": "XmlParentName$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Element > Parent > Get Parent Attribute String",
+      "text": "浘偬牡湥䅴瑴楲卢牴⠤",
+      "menuId": 27080,
+      "resText": "XmlParentAttribStr$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Element > Parent > Get Parent Attribute Value",
+      "text": "浘偬牡湥䅴瑴楲噢污(",
+      "menuId": 27090,
+      "resText": "XmlParentAttribVal(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Comment > Get Comment string",
+      "text": "敇䍴浯瑓⑲(",
+      "menuId": 27100,
+      "resText": "GetComStr$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Text > Get Text",
+      "text": "敇呴硥噴污⠤",
+      "menuId": 27110,
+      "resText": "GetTextVal$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Unknown > Get Unknown Text",
+      "text": "敇啴歮潮湷敔瑸⠤",
+      "menuId": 27120,
+      "resText": "GetUnknownText$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Error > Get Error string",
+      "text": "敇䕴牲牯瑓⑲(",
+      "menuId": 27130,
+      "resText": "GetErrorStr$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Error > Get Error ID",
+      "text": "敇䕴牲牯䑉(",
+      "menuId": 27140,
+      "resText": "GetErrorID(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Error > Get Error Row",
+      "text": "敇䕴牲牯潒⡷",
+      "menuId": 27150,
+      "resText": "GetErrorRow(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Error > Get Error Column",
+      "text": "敇䕴牲牯潃畬湭(",
+      "menuId": 27160,
+      "resText": "GetErrorColumn(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Get Text",
+      "text": "敇䑴捯敔瑸⠤",
+      "menuId": 27161,
+      "resText": "GetDocText$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Element > Get Child Text",
+      "text": "敇䍴楨摬敔瑸⠤",
+      "menuId": 27162,
+      "resText": "GetChildText$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Element > Get Number of Children",
+      "text": "敇䍴楨摬畎⡭",
+      "menuId": 27163,
+      "resText": "GetChildNum(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Element > Parent > Get Number of Children",
+      "text": "敇側牡桃汩乤浵(",
+      "menuId": 27164,
+      "resText": "GetParChildNum(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Get Total Nodes",
+      "text": "敇呴瑯污潎敤⡳",
+      "menuId": 27165,
+      "resText": "GetTotalNodes(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Node > Get Node Index",
+      "text": "浘乬摯䥥摮硥(",
+      "menuId": 27166,
+      "resText": "XmlNodeIndex(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Node > Get Node Relative Index",
+      "text": "浘乬摯剥汥湉敤⡸",
+      "menuId": 27167,
+      "resText": "XmlNodeRelIndex(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Node > Get Node Depth",
+      "text": "浘乬摯䑥灥桴(",
+      "menuId": 27168,
+      "resText": "XmlNodeDepth(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Element > Get Attribute Index",
+      "text": "浘䅬瑴楲䥢摮硥(",
+      "menuId": 27169,
+      "resText": "XmlAttribIndex(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Element > Get Attribute Name",
+      "text": "浘䅬瑴楲乢浡⑥(",
+      "menuId": 27170,
+      "resText": "XmlAttribName$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Element > Get Attribute Total",
+      "text": "浘䅬瑴楲呢瑯污(",
+      "menuId": 27171,
+      "resText": "XmlAttribTotal(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "file": "CircleCalc.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Calculate From Radius",
+      "text": "慃捬汵瑡㩥删摡畩⁳‽〥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲慒楤獵搀畩⁳‽〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Calculate From Diameter",
+      "text": "慃捬汵瑡㩥䐠慩敭整⁲‽〥",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲楄浡瑥牥攀整⁲‽〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Calculate From Circumference",
+      "text": "慃捬汵瑡㩥䌠物畣晭牥湥散㴠┠0",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲楃捲浵敦敲据e湥散㴠┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Calculate From Area",
+      "text": "慃捬汵瑡㩥䄠敲⁡‽〥",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲牁慥䄀敲⁡‽〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Set Pi",
+      "text": "敓⁴楐琠⁯〥",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲楐⠠敤慦汵⁴獩㌠ㄮ⤴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Radius",
+      "text": "慒楤獵(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Diameter",
+      "text": "楄浡瑥牥(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Circumference",
+      "text": "楃捲浵敦敲据⡥",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get Area",
+      "text": "牁慥(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get Pi",
+      "text": "楐(",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

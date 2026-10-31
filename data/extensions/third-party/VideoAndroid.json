@@ -1,0 +1,488 @@
+{
+  "file": "VideoAndroid.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On Video at Start",
+      "text": "%o: On Video at start",
+      "menuId": 26000,
+      "resText": "%o: On Video at start",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On Video at End",
+      "text": "%o: On Video at end",
+      "menuId": 26010,
+      "resText": "%o: On Video at end",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "On Video at Position ",
+      "text": "%o: On Video position equal %0 sec.",
+      "menuId": 26020,
+      "resText": "%o: On Video position equal %0 sec.",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Position value in seconds (exam: 11.25)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "On Tap over Video",
+      "text": "%o: On Tap over video",
+      "menuId": 26030,
+      "resText": "%o: On Tap over video",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Is Playing?",
+      "text": "%o: Is Playing?",
+      "menuId": 26040,
+      "resText": "%o: Is Playing?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "On Error",
+      "text": "%o: On Error",
+      "menuId": 26050,
+      "resText": "%o: On Error",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "On Video Prepared",
+      "text": "%o: On Video prepared",
+      "menuId": 26060,
+      "resText": "%o: On Video prepared",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "conditions_status": "menu ressources",
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Video URL",
+      "text": "Video URL %0",
+      "menuId": 25000,
+      "resText": "Video URL %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Video URL"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Video Filename",
+      "text": "Video Filename %0",
+      "menuId": 25010,
+      "resText": "Video Filename %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Video Filename"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Play Video",
+      "text": "Play Video",
+      "menuId": 25020,
+      "resText": "Play Video",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Resume Video",
+      "text": "Resume Video",
+      "menuId": 25030,
+      "resText": "Resume Video",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Stop Video",
+      "text": "Stop Video",
+      "menuId": 25040,
+      "resText": "Stop Video",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Pause Video",
+      "text": "Pause Video",
+      "menuId": 25050,
+      "resText": "Pause Video",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Seek To ...",
+      "text": "Seek to %0",
+      "menuId": 25060,
+      "resText": "Seek to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Set Video Position in seconds(not streaming)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Goto End",
+      "text": "Goto End",
+      "menuId": 25070,
+      "resText": "Goto End",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Goto Beginning",
+      "text": "Goto Beginning",
+      "menuId": 25080,
+      "resText": "Goto Beginning",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Set Video Width",
+      "text": "Set Width %0",
+      "menuId": 25090,
+      "resText": "Set Width %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Width Value"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Set Video Height",
+      "text": "Set Height %0",
+      "menuId": 25100,
+      "resText": "Set Height %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Height Value"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Show Video",
+      "text": "Show Video",
+      "menuId": 25110,
+      "resText": "Show Video",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Hide Video",
+      "text": "Hide Video",
+      "menuId": 25120,
+      "resText": "Hide Video",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Background Color",
+      "text": "Set Background Color to %0",
+      "menuId": 25130,
+      "resText": "Set Background Color to %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "Background Color ..."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Mute Video",
+      "text": "Mute Video",
+      "menuId": 25140,
+      "resText": "Mute Video",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Unmute Video",
+      "text": "Unmute Video",
+      "menuId": 25150,
+      "resText": "Unmute Video",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Set Volume",
+      "text": "Set Video Volume to %0",
+      "menuId": 25160,
+      "resText": "Set Video Volume to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Video Volume (0 - 100)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Video Resource name",
+      "text": "Video Resource name %0",
+      "menuId": 25170,
+      "resText": "Video Resource name %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Video Resource Name (exam: video.mp4)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Set Video Controller",
+      "text": "Set video media controller timeout to %0 secs.",
+      "menuId": 25180,
+      "resText": "Set video media controller timeout to %0 secs.",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Media Controller Timeout (0:OFF, X: value in secs)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions_status": "menu ressources",
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Error Number",
+      "text": "Error(",
+      "menuId": 27000,
+      "resText": "Error(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Position",
+      "text": "GetPosition(",
+      "menuId": 27010,
+      "resText": "GetPosition(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Position to HMS",
+      "text": "secToHMS$(",
+      "menuId": 27020,
+      "resText": "secToHMS$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get Video Filename",
+      "text": "GetFilename$(",
+      "menuId": 27030,
+      "resText": "GetFilename$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get Video URL",
+      "text": "GetURL$(",
+      "menuId": 27040,
+      "resText": "GetURL$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get Video Width",
+      "text": "GetVideoWidth(",
+      "menuId": 27050,
+      "resText": "GetVideoWidth(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Get Video Height",
+      "text": "GetVideoHeight(",
+      "menuId": 27060,
+      "resText": "GetVideoHeight(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Get Video Duration",
+      "text": "VideoDuration(",
+      "menuId": 27070,
+      "resText": "VideoDuration(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Get Frame Width",
+      "text": "GetFrameWidth(",
+      "menuId": 27080,
+      "resText": "GetFrameWidth(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Get Frame Height",
+      "text": "GetFrameHeight(",
+      "menuId": 27090,
+      "resText": "GetFrameHeight(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions_status": "menu ressources"
+}

@@ -1,0 +1,4938 @@
+[
+  {
+    "kind": "condition",
+    "objectType": "-7",
+    "num": "-6",
+    "when": null,
+    "template": "Repeat while Player <n° joueur> <direction joystick>",
+    "source": "Condition.cs:417"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-7",
+    "num": "-5",
+    "when": null,
+    "template": "Number of lives of Player <n° joueur> reaches 0",
+    "source": "Condition.cs:419"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-7",
+    "num": "-4",
+    "when": null,
+    "template": "Player <n° joueur> <direction joystick>",
+    "source": "Condition.cs:421"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-7",
+    "num": "-3",
+    "when": null,
+    "template": "Number of lives of Player <n° joueur> <op> <p0>",
+    "source": "Condition.cs:423"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-7",
+    "num": "-2",
+    "when": null,
+    "template": "Score of Player <n° joueur> <op> <p0>",
+    "source": "Condition.cs:425"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-6",
+    "num": "-12",
+    "when": null,
+    "template": "On mouse wheel down",
+    "source": "Condition.cs:432"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-6",
+    "num": "-11",
+    "when": null,
+    "template": "On mouse wheel up",
+    "source": "Condition.cs:434"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-6",
+    "num": "-10",
+    "when": null,
+    "template": "Mouse cursor is displayed",
+    "source": "Condition.cs:436"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-6",
+    "num": "-9",
+    "when": null,
+    "template": "Upon pressing any key",
+    "source": "Condition.cs:438"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-6",
+    "num": "-8",
+    "when": null,
+    "template": "return8 + \" mouse-key is pressed\"",
+    "source": "Condition.cs:448"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-6",
+    "num": "-7",
+    "when": null,
+    "template": "return7 + $\" button on <p1>\"",
+    "source": "Condition.cs:459"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-6",
+    "num": "-6",
+    "when": null,
+    "template": "return6 + $\" button within zone <zone p1>\"",
+    "source": "Condition.cs:470"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-6",
+    "num": "-5",
+    "when": null,
+    "template": "return5 + \" button\"",
+    "source": "Condition.cs:481"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-6",
+    "num": "-4",
+    "when": null,
+    "template": "Mouse pointer is over <p0>",
+    "source": "Condition.cs:483"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-6",
+    "num": "-3",
+    "when": null,
+    "template": "Mouse pointer lays within zone <zone p0>",
+    "source": "Condition.cs:485"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-6",
+    "num": "-2",
+    "when": null,
+    "template": "Repeat while \"<touche>\" is pressed",
+    "source": "Condition.cs:487"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-6",
+    "num": "-1",
+    "when": null,
+    "template": "Upon pressing \"<touche>\"",
+    "source": "Condition.cs:489"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-5",
+    "num": "-23",
+    "when": null,
+    "template": "Pick all objects in line (<p0>,<p1>) to (<p2>,<p3>)",
+    "source": "Condition.cs:496"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-5",
+    "num": "-22",
+    "when": null,
+    "template": "Pick objects with Flag <p0> off",
+    "source": "Condition.cs:498"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-5",
+    "num": "-21",
+    "when": null,
+    "template": "Pick objects with Flag <p0> on",
+    "source": "Condition.cs:500"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-5",
+    "num": "-20",
+    "when": null,
+    "template": "Pick objects which <valeur modifiable p0> <op> <p1>",
+    "source": "Condition.cs:502"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-5",
+    "num": "-19",
+    "when": null,
+    "template": "Pick objects with fixed value <op> <p0>",
+    "source": "Condition.cs:504"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-5",
+    "num": "-18",
+    "when": null,
+    "template": "Pick all objects in zone <zone p0>",
+    "source": "Condition.cs:506"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-5",
+    "num": "-17",
+    "when": null,
+    "template": "Pick an object at random",
+    "source": "Condition.cs:508"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-5",
+    "num": "-16",
+    "when": null,
+    "template": "Pick a random object from zone <zone p0>",
+    "source": "Condition.cs:510"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-5",
+    "num": "-15",
+    "when": null,
+    "template": "Total number of objects <op> <p0>",
+    "source": "Condition.cs:512"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-5",
+    "num": "-14",
+    "when": null,
+    "template": "Number of objects in zone {zone14} <op> {Parameters[next14]}",
+    "source": "Condition.cs:515"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-5",
+    "num": "-13",
+    "when": null,
+    "template": "No more objects in zone <zone p0>",
+    "source": "Condition.cs:517"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-4",
+    "num": "-8",
+    "when": null,
+    "template": "Every <p0>",
+    "source": "Condition.cs:524"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-4",
+    "num": "-7",
+    "when": null,
+    "template": "Timer equals <p0>",
+    "source": "Condition.cs:526"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-4",
+    "num": "-6",
+    "when": null,
+    "template": "On timer event <p0>",
+    "source": "Condition.cs:528"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-4",
+    "num": "-5",
+    "when": null,
+    "template": "User has left the computer for <p0>",
+    "source": "Condition.cs:530"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-4",
+    "num": "-4",
+    "when": null,
+    "template": "Every <p0>",
+    "source": "Condition.cs:532"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-4",
+    "num": "-2",
+    "when": null,
+    "template": "Timer is less than <p0>",
+    "source": "Condition.cs:534"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-4",
+    "num": "-1",
+    "when": null,
+    "template": "Timer is greater than <p0>",
+    "source": "Condition.cs:536"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-3",
+    "num": "-10",
+    "when": null,
+    "template": "Frame position has just been saved",
+    "source": "Condition.cs:543"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-3",
+    "num": "-9",
+    "when": null,
+    "template": "Frame position has just been loaded",
+    "source": "Condition.cs:545"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-3",
+    "num": "-8",
+    "when": null,
+    "template": "End of pause",
+    "source": "Condition.cs:547"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-3",
+    "num": "-7",
+    "when": null,
+    "template": "V-Sync is enabled",
+    "source": "Condition.cs:549"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-3",
+    "num": "-6",
+    "when": null,
+    "template": "<p0>,<p1> is a ladder",
+    "source": "Condition.cs:551"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-3",
+    "num": "-5",
+    "when": null,
+    "template": "<p0>,<p1> is an obstacle",
+    "source": "Condition.cs:553"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-3",
+    "num": "-4",
+    "when": null,
+    "template": "End of Application",
+    "source": "Condition.cs:555"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-3",
+    "num": "-2",
+    "when": null,
+    "template": "End of Frame",
+    "source": "Condition.cs:557"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-3",
+    "num": "-1",
+    "when": null,
+    "template": "Start of Frame",
+    "source": "Condition.cs:559"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-2",
+    "num": "-9",
+    "when": null,
+    "template": "Is channel <p0> paused?",
+    "source": "Condition.cs:566"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-2",
+    "num": "-8",
+    "when": null,
+    "template": "Is channel <p0> not playing?",
+    "source": "Condition.cs:568"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-2",
+    "num": "-7",
+    "when": null,
+    "template": "Is music paused?",
+    "source": "Condition.cs:570"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-2",
+    "num": "-6",
+    "when": null,
+    "template": "Is sample <p0> paused?",
+    "source": "Condition.cs:572"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-2",
+    "num": "-5",
+    "when": null,
+    "template": "<p0> has just finished",
+    "source": "Condition.cs:574"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-2",
+    "num": "-4",
+    "when": null,
+    "template": "No music is playing",
+    "source": "Condition.cs:576"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-2",
+    "num": "-3",
+    "when": null,
+    "template": "No sample is playing",
+    "source": "Condition.cs:578"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-2",
+    "num": "-2 | -1",
+    "when": null,
+    "template": "<p0> is not playing",
+    "source": "Condition.cs:581"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-41",
+    "when": null,
+    "template": "Is profiling in progress",
+    "source": "Condition.cs:588"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-40",
+    "when": "Parameters[0].Data is ParameterInt && ((ParameterInt)Parameters[0].Data).Value = 0",
+    "template": "Is running as Windows application",
+    "source": "Condition.cs:595"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-40",
+    "when": "Parameters[0].Data is ParameterInt && ((ParameterInt)Parameters[0].Data).Value = 1",
+    "template": "Is running as Mac application",
+    "source": "Condition.cs:597"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-40",
+    "when": "Parameters[0].Data is ParameterInt && ((ParameterInt)Parameters[0].Data).Value = 2",
+    "template": "Is running as SWF / Flash Player application",
+    "source": "Condition.cs:599"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-40",
+    "when": "Parameters[0].Data is ParameterInt && ((ParameterInt)Parameters[0].Data).Value = 3",
+    "template": "Is running as Android application",
+    "source": "Condition.cs:601"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-40",
+    "when": "Parameters[0].Data is ParameterInt && ((ParameterInt)Parameters[0].Data).Value = 4",
+    "template": "Is running as iOS application",
+    "source": "Condition.cs:603"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-40",
+    "when": "Parameters[0].Data is ParameterInt && ((ParameterInt)Parameters[0].Data).Value = 5",
+    "template": "Is running as Html5 application",
+    "source": "Condition.cs:605"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-40",
+    "when": "Parameters[0].Data is ParameterInt && ((ParameterInt)Parameters[0].Data).Value = 6",
+    "template": "Is running as XNA application",
+    "source": "Condition.cs:607"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-40",
+    "when": "Parameters[0].Data is ParameterInt && ((ParameterInt)Parameters[0].Data).Value = 7",
+    "template": "Is running as UWP application",
+    "source": "Condition.cs:609"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-40",
+    "when": null,
+    "template": "Is running as <p0>",
+    "source": "Condition.cs:612"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-26",
+    "when": null,
+    "template": "<p0> chances out of <p1> at random",
+    "source": "Condition.cs:614"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-25",
+    "when": null,
+    "template": "OR (logical)",
+    "source": "Condition.cs:616"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-24",
+    "when": null,
+    "template": "OR",
+    "source": "Condition.cs:618"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-23",
+    "when": null,
+    "template": "On group activation",
+    "source": "Condition.cs:620"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-22",
+    "when": null,
+    "template": "Text is available in clipboard",
+    "source": "Condition.cs:622"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-21",
+    "when": null,
+    "template": "Close window has been selected",
+    "source": "Condition.cs:624"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-20",
+    "when": null,
+    "template": "<chaîne globale p0> <op> <p1>",
+    "source": "Condition.cs:626"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-19",
+    "when": null,
+    "template": "Menu bar is visible",
+    "source": "Condition.cs:628"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-18",
+    "when": null,
+    "template": "Menu option <option de menu> is enabled",
+    "source": "Condition.cs:630"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-17",
+    "when": null,
+    "template": "Menu option <option de menu> is checked",
+    "source": "Condition.cs:632"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-16",
+    "when": null,
+    "template": "On loop <p0>",
+    "source": "Condition.cs:634"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-15",
+    "when": null,
+    "template": "Files have been dropped",
+    "source": "Condition.cs:636"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-14",
+    "when": null,
+    "template": "Menu option \"<option de menu>\" selected",
+    "source": "Condition.cs:638"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-12",
+    "when": null,
+    "template": "Group \"<p0>\" is activated",
+    "source": "Condition.cs:640"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-11",
+    "when": null,
+    "template": "[END GROUP]",
+    "source": "Condition.cs:642"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-10",
+    "when": null,
+    "template": "Parameters[0].ToString()",
+    "source": "Condition.cs:644"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-9",
+    "when": null,
+    "template": "\"[COMMENT] \" + Parameters[0]",
+    "source": "Condition.cs:646"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-8",
+    "when": null,
+    "template": "<valeur globale p0> <op> <p1>",
+    "source": "Condition.cs:648"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-7",
+    "when": null,
+    "template": "Only one action when event loops",
+    "source": "Condition.cs:650"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-6",
+    "when": null,
+    "template": "Run this event once",
+    "source": "Condition.cs:652"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-5",
+    "when": null,
+    "template": "Repeat <p0> times",
+    "source": "Condition.cs:654"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-4",
+    "when": null,
+    "template": "Restrict actions for <p0>",
+    "source": "Condition.cs:656"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-3",
+    "when": null,
+    "template": "<p0> <op> <p1>",
+    "source": "Condition.cs:658"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-2",
+    "when": null,
+    "template": "Never",
+    "source": "Condition.cs:660"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-1",
+    "num": "-1",
+    "when": null,
+    "template": "Always",
+    "source": "Condition.cs:662"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-84",
+    "when": "Num = default && ObjectType < 32 && ObjectType == 9",
+    "template": "Application <objet> is paused",
+    "source": "Condition.cs:674"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-84",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 9)",
+    "template": "Y scale of <objet> <op> <p0>",
+    "source": "Condition.cs:675"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-83",
+    "when": "Num = default && ObjectType < 32 && ObjectType == 4",
+    "template": "<objet> : answer number <p0> chosen",
+    "source": "Condition.cs:678"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-83",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 4) && ObjectType == 9",
+    "template": "Application <objet> is visible",
+    "source": "Condition.cs:680"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-83",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 9) && !(ObjectType == 4)",
+    "template": "X scale of <objet> <op> <p0>",
+    "source": "Condition.cs:681"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-82",
+    "when": "Num = default && ObjectType < 32 && ObjectType == 4",
+    "template": "<objet> : bad answer",
+    "source": "Condition.cs:684"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-82",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 4) && ObjectType == 9",
+    "template": "Application <objet> is finished",
+    "source": "Condition.cs:686"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-82",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 9) && !(ObjectType == 4)",
+    "template": "Angle of <objet> <op> <p0>",
+    "source": "Condition.cs:687"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-81",
+    "when": "Num = default && ObjectType < 32 && ObjectType == 4",
+    "template": "<objet> : correct answer",
+    "source": "Condition.cs:690"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-81",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 4) && ObjectType == 9",
+    "template": "<objet>: Frame has changed",
+    "source": "Condition.cs:692"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-81",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 9) && !(ObjectType == 4)",
+    "template": "<objet> <op> <p0>",
+    "source": "Condition.cs:693"
+  },
+  {
+    "kind": "condition",
+    "objectType": "default",
+    "num": "default",
+    "when": "ObjectType = >= 0",
+    "template": "output",
+    "source": "Condition.cs:702"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-51",
+    "when": null,
+    "template": "Would <objet> at X=<p0>, Y=<p1> overlap a backdrop?",
+    "source": "Condition.cs:705"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-50",
+    "when": null,
+    "template": "Would <objet> at X=<p1>, Y=<p2> overlap <p0>?",
+    "source": "Condition.cs:707"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-49",
+    "when": null,
+    "template": "Instance value of <objet> <op> <p0>",
+    "source": "Condition.cs:709"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-48",
+    "when": null,
+    "template": "Pick \"<objet>\" objects with a maximum value of <p0>",
+    "source": "Condition.cs:711"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-47",
+    "when": null,
+    "template": "Pick \"<objet>\" objects with a minimum value of <p0>",
+    "source": "Condition.cs:713"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-46",
+    "when": null,
+    "template": "Layer of <objet> <op> <p0>",
+    "source": "Condition.cs:715"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-45",
+    "when": null,
+    "template": "<objet>: <p0> <op> <p1>",
+    "source": "Condition.cs:717"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-44",
+    "when": null,
+    "template": "Pick closest \"<objet>\" objects from \"<p0>\"",
+    "source": "Condition.cs:719"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-41",
+    "when": null,
+    "template": "On each of <objet>, loop name <p0>",
+    "source": "Condition.cs:721"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-40",
+    "when": null,
+    "template": "<objet>: font is strikeout",
+    "source": "Condition.cs:723"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-39",
+    "when": null,
+    "template": "<objet>: font is underlined",
+    "source": "Condition.cs:725"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-38",
+    "when": null,
+    "template": "<objet>: font is italic",
+    "source": "Condition.cs:727"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-37",
+    "when": null,
+    "template": "<objet>: font is bold",
+    "source": "Condition.cs:729"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-36",
+    "when": null,
+    "template": "<chaîne modifiable p0> of <objet> <op> <p1>",
+    "source": "Condition.cs:731"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-35",
+    "when": null,
+    "template": "Path movement of <objet> has reached node <p1>",
+    "source": "Condition.cs:733"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-34",
+    "when": null,
+    "template": "Pick one of <objet>",
+    "source": "Condition.cs:735"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-33",
+    "when": null,
+    "template": "Last <objet> has been destroyed",
+    "source": "Condition.cs:737"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-32",
+    "when": null,
+    "template": "Number of <objet> <op> <p0>",
+    "source": "Condition.cs:739"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-31",
+    "when": null,
+    "template": "No more <objet> in zone <zone p0>",
+    "source": "Condition.cs:741"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-30",
+    "when": null,
+    "template": "Number of <objet> in zone {zone30} <op> {Parameters[next30]}",
+    "source": "Condition.cs:744"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-29",
+    "when": null,
+    "template": "<objet> is visible",
+    "source": "Condition.cs:746"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-28",
+    "when": null,
+    "template": "<objet> is invisible",
+    "source": "Condition.cs:748"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-27",
+    "when": null,
+    "template": "<valeur modifiable p0> of <objet> <op> <p1>",
+    "source": "Condition.cs:750"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-26",
+    "when": null,
+    "template": "Fixed value of <objet> <op> <p0>",
+    "source": "Condition.cs:752"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-25",
+    "when": null,
+    "template": "<objet>: Flag <p0> is on",
+    "source": "Condition.cs:754"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-24",
+    "when": null,
+    "template": "<objet>: Flag <p0> is off",
+    "source": "Condition.cs:756"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-23",
+    "when": null,
+    "template": "<objet> is overlapping a backdrop",
+    "source": "Condition.cs:758"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-22",
+    "when": null,
+    "template": "<objet> is getting closer than <p0> pixels from window's edge",
+    "source": "Condition.cs:760"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-21",
+    "when": null,
+    "template": "<objet> has reached the end in its path",
+    "source": "Condition.cs:762"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-20",
+    "when": null,
+    "template": "<objet> has reached a node in the path",
+    "source": "Condition.cs:764"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-19",
+    "when": null,
+    "template": "Acceleration of <objet> <op> <p0>",
+    "source": "Condition.cs:766"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-18",
+    "when": null,
+    "template": "Deceleration of <objet> <op> <p0>",
+    "source": "Condition.cs:768"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-17",
+    "when": null,
+    "template": "X position of <objet> <op> <p0>",
+    "source": "Condition.cs:770"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-16",
+    "when": null,
+    "template": "Y position of <objet> <op> <p0>",
+    "source": "Condition.cs:772"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-15",
+    "when": null,
+    "template": "Speed of <objet> <op> <p0>",
+    "source": "Condition.cs:774"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-14",
+    "when": null,
+    "template": "Collision between <objet> and <p0>",
+    "source": "Condition.cs:776"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-13",
+    "when": null,
+    "template": "<objet> collides with the background",
+    "source": "Condition.cs:778"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-12",
+    "when": null,
+    "template": "<objet> leaves the play area{GetPlayAreaString(((ParameterShort)Parameters[0].Data).Value)}",
+    "source": "Condition.cs:780"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-11",
+    "when": null,
+    "template": "<objet> enters the play area{GetPlayAreaString(((ParameterShort)Parameters[0].Data).Value)}",
+    "source": "Condition.cs:782"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-10",
+    "when": null,
+    "template": "<objet> is out of the play area",
+    "source": "Condition.cs:784"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-9",
+    "when": null,
+    "template": "<objet> is in the play area",
+    "source": "Condition.cs:786"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-8",
+    "when": null,
+    "template": "<objet> is facing a direction <direction>",
+    "source": "Condition.cs:788"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-7",
+    "when": null,
+    "template": "<objet> is stopped",
+    "source": "Condition.cs:790"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-6",
+    "when": null,
+    "template": "<objet> is bouncing",
+    "source": "Condition.cs:792"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-4",
+    "when": null,
+    "template": "<objet> is overlapping <p0>",
+    "source": "Condition.cs:794"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-3",
+    "when": "Parameters[0].Data is ParameterShort",
+    "template": "<objet> animation <animation> is playing",
+    "source": "Condition.cs:797"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-3",
+    "when": "!(Parameters[0].Data is ParameterShort)",
+    "template": "<objet> animation <p0> is playing",
+    "source": "Condition.cs:798"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-2",
+    "when": "Parameters[0].Data is ParameterShort",
+    "template": "<objet> animation <animation> is over",
+    "source": "Condition.cs:801"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-2",
+    "when": "!(Parameters[0].Data is ParameterShort)",
+    "template": "<objet> animation <p0> is over",
+    "source": "Condition.cs:802"
+  },
+  {
+    "kind": "condition",
+    "objectType": ">= 0",
+    "num": "-1",
+    "when": null,
+    "template": "Current frame of <objet> <op> <p0>",
+    "source": "Condition.cs:804"
+  },
+  {
+    "kind": "action",
+    "objectType": "-7",
+    "num": "0",
+    "when": null,
+    "template": "Set Score to <p0>",
+    "source": "Action.cs:448"
+  },
+  {
+    "kind": "action",
+    "objectType": "-7",
+    "num": "1",
+    "when": null,
+    "template": "Set Number of Lives to <p0>",
+    "source": "Action.cs:450"
+  },
+  {
+    "kind": "action",
+    "objectType": "-7",
+    "num": "2",
+    "when": null,
+    "template": "Ignore Control",
+    "source": "Action.cs:452"
+  },
+  {
+    "kind": "action",
+    "objectType": "-7",
+    "num": "3",
+    "when": null,
+    "template": "Restore Control",
+    "source": "Action.cs:454"
+  },
+  {
+    "kind": "action",
+    "objectType": "-7",
+    "num": "4",
+    "when": null,
+    "template": "Add <p0> to Score",
+    "source": "Action.cs:456"
+  },
+  {
+    "kind": "action",
+    "objectType": "-7",
+    "num": "5",
+    "when": null,
+    "template": "Add <p0> to Number of Lives",
+    "source": "Action.cs:458"
+  },
+  {
+    "kind": "action",
+    "objectType": "-7",
+    "num": "6",
+    "when": null,
+    "template": "Subtract <p0> from Score",
+    "source": "Action.cs:460"
+  },
+  {
+    "kind": "action",
+    "objectType": "-7",
+    "num": "7",
+    "when": null,
+    "template": "Subtract <p0> from Number of Lives",
+    "source": "Action.cs:462"
+  },
+  {
+    "kind": "action",
+    "objectType": "-7",
+    "num": "8",
+    "when": null,
+    "template": "Set input device to <p0>",
+    "source": "Action.cs:464"
+  },
+  {
+    "kind": "action",
+    "objectType": "-7",
+    "num": "9",
+    "when": null,
+    "template": "Set key <p0> to \"<touche>\"",
+    "source": "Action.cs:466"
+  },
+  {
+    "kind": "action",
+    "objectType": "-7",
+    "num": "10",
+    "when": null,
+    "template": "Set player name to <p0>",
+    "source": "Action.cs:468"
+  },
+  {
+    "kind": "action",
+    "objectType": "-6",
+    "num": "0",
+    "when": null,
+    "template": "Hide Windows mouse pointer",
+    "source": "Action.cs:477"
+  },
+  {
+    "kind": "action",
+    "objectType": "-6",
+    "num": "1",
+    "when": null,
+    "template": "Show Windows mouse pointer",
+    "source": "Action.cs:479"
+  },
+  {
+    "kind": "action",
+    "objectType": "-6",
+    "num": "2",
+    "when": null,
+    "template": "Reset input between frames: {(int.TryParse(Parameters[0].ToString(), out int param) ? (param == 0 ? \"Disabled\" : \"Enabled\") : Parameters[0])}",
+    "source": "Action.cs:481"
+  },
+  {
+    "kind": "action",
+    "objectType": "-5",
+    "num": "0",
+    "when": null,
+    "template": "Create <p0>",
+    "source": "Action.cs:490"
+  },
+  {
+    "kind": "action",
+    "objectType": "-5",
+    "num": "1",
+    "when": null,
+    "template": "Create <p0> at <p1>",
+    "source": "Action.cs:492"
+  },
+  {
+    "kind": "action",
+    "objectType": "-5",
+    "num": "2 | 3",
+    "when": null,
+    "template": "Create <p0> at X=<p1>, Y=<p2>, Layer=<p3>",
+    "source": "Action.cs:495"
+  },
+  {
+    "kind": "action",
+    "objectType": "-4",
+    "num": "0",
+    "when": null,
+    "template": "Set timer to <p0>",
+    "source": "Action.cs:504"
+  },
+  {
+    "kind": "action",
+    "objectType": "-4",
+    "num": "1",
+    "when": null,
+    "template": "Fire event <p1> after <p0>",
+    "source": "Action.cs:506"
+  },
+  {
+    "kind": "action",
+    "objectType": "-4",
+    "num": "2",
+    "when": null,
+    "template": "Fire event <p3> <p1> times every <p2> after <p0>",
+    "source": "Action.cs:508"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "0",
+    "when": null,
+    "template": "Next frame",
+    "source": "Action.cs:517"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "1",
+    "when": null,
+    "template": "Previous frame",
+    "source": "Action.cs:519"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "2",
+    "when": null,
+    "template": "Jump to frame {((Parameters[0].Data is ParameterExpressions) ? Parameters[0] : GetFrameName(((ParameterShort)Parameters[0].Data).Value))}",
+    "source": "Action.cs:521"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "4",
+    "when": null,
+    "template": "End the application",
+    "source": "Action.cs:523"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "5",
+    "when": null,
+    "template": "Restart the application",
+    "source": "Action.cs:525"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "6",
+    "when": null,
+    "template": "Restart current frame",
+    "source": "Action.cs:527"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "7",
+    "when": null,
+    "template": "Center display at {Parameters[0].ToString().ReplaceLast(\" layer 1\", \"\")}",
+    "source": "Action.cs:529"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "8",
+    "when": null,
+    "template": "Center display at X=<p0>",
+    "source": "Action.cs:531"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "9",
+    "when": null,
+    "template": "Center display at Y=<p0>",
+    "source": "Action.cs:533"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "12",
+    "when": null,
+    "template": "Clear screen in color <p0>",
+    "source": "Action.cs:535"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "13",
+    "when": null,
+    "template": "Clear zone zone <p0> in color <p1>",
+    "source": "Action.cs:537"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "14",
+    "when": null,
+    "template": "Full Screen Mode",
+    "source": "Action.cs:539"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "15",
+    "when": null,
+    "template": "Windowed Mode",
+    "source": "Action.cs:541"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "16",
+    "when": null,
+    "template": "Set frame rate to <p0>",
+    "source": "Action.cs:543"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "17",
+    "when": null,
+    "template": "Pause application and resume when key \"<touche>\" is pressed",
+    "source": "Action.cs:545"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "18",
+    "when": null,
+    "template": "Pause application and resume when any key is pressed",
+    "source": "Action.cs:547"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "19",
+    "when": null,
+    "template": "Set V-Sync On",
+    "source": "Action.cs:549"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "20",
+    "when": null,
+    "template": "Set V-Sync Off",
+    "source": "Action.cs:551"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "21",
+    "when": null,
+    "template": "Set Virtual Width to <p0>",
+    "source": "Action.cs:553"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "22",
+    "when": null,
+    "template": "Set Virtual Height to <p0>",
+    "source": "Action.cs:555"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "23",
+    "when": null,
+    "template": "Set Background Color to <p0>",
+    "source": "Action.cs:557"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "24",
+    "when": null,
+    "template": "Delete Created Backdrops At <p1>,<p2> in layer <p0> (fine detection: <p3>)",
+    "source": "Action.cs:559"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "25",
+    "when": null,
+    "template": "Delete All Created Backdrops in layer <p0>",
+    "source": "Action.cs:561"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "26",
+    "when": null,
+    "template": "Set Frame Width to <p0>",
+    "source": "Action.cs:563"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "27",
+    "when": null,
+    "template": "Set Frame Height to <p0>",
+    "source": "Action.cs:565"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "28",
+    "when": null,
+    "template": "Save frame position to <p0>, version <p1>",
+    "source": "Action.cs:567"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "29",
+    "when": null,
+    "template": "Load frame position <p0>, version <p1>",
+    "source": "Action.cs:569"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "30",
+    "when": null,
+    "template": "Load application position <p0>, version <p1>",
+    "source": "Action.cs:571"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "31",
+    "when": null,
+    "template": "Play demo file <p0>",
+    "source": "Action.cs:573"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "32",
+    "when": null,
+    "template": "Set effect to {Parameters[0].ToString().ReplaceLast(\".fx\", \"\")}",
+    "source": "Action.cs:575"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "33",
+    "when": null,
+    "template": "Set effect parameter <p0> to <p1>",
+    "source": "Action.cs:577"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "34",
+    "when": null,
+    "template": "Set effect image parameter <p0> to <p1>",
+    "source": "Action.cs:579"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "35",
+    "when": null,
+    "template": "Set alpha-blending coefficient to <p0>",
+    "source": "Action.cs:581"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "36",
+    "when": null,
+    "template": "Set RGB coefficient to <p0>",
+    "source": "Action.cs:583"
+  },
+  {
+    "kind": "action",
+    "objectType": "-3",
+    "num": "37",
+    "when": null,
+    "template": "Set anti-aliasing when resizing to <p0>",
+    "source": "Action.cs:585"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "0",
+    "when": null,
+    "template": "Play sample <p0>",
+    "source": "Action.cs:594"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "1",
+    "when": null,
+    "template": "Stop any sample",
+    "source": "Action.cs:596"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "2",
+    "when": null,
+    "template": "Play music <p0>",
+    "source": "Action.cs:598"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "3",
+    "when": null,
+    "template": "Stop any music",
+    "source": "Action.cs:600"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "4",
+    "when": null,
+    "template": "Play sample <p0> <p1> times",
+    "source": "Action.cs:602"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "5",
+    "when": null,
+    "template": "Play music <p0> <p1> times",
+    "source": "Action.cs:604"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "6",
+    "when": null,
+    "template": "Stop sample <p0>",
+    "source": "Action.cs:606"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "7",
+    "when": null,
+    "template": "Pause sample <p0>",
+    "source": "Action.cs:608"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "8",
+    "when": null,
+    "template": "Resume sample <p0>",
+    "source": "Action.cs:610"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "9",
+    "when": null,
+    "template": "Pause music",
+    "source": "Action.cs:612"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "10",
+    "when": null,
+    "template": "Resume music",
+    "source": "Action.cs:614"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "11",
+    "when": null,
+    "template": "Play sample <p0> on channel #<p1>",
+    "source": "Action.cs:616"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "12",
+    "when": null,
+    "template": "Play sample <p0> on channel #<p1>, <p2> times",
+    "source": "Action.cs:618"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "13",
+    "when": null,
+    "template": "Pause channel #<p0>",
+    "source": "Action.cs:620"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "14",
+    "when": null,
+    "template": "Resume channel #<p0>",
+    "source": "Action.cs:622"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "15",
+    "when": null,
+    "template": "Stop channel #<p0>",
+    "source": "Action.cs:624"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "16",
+    "when": null,
+    "template": "Set position of channel #<p0> to <p1>",
+    "source": "Action.cs:626"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "17",
+    "when": null,
+    "template": "Set volume of channel #<p0> to <p1>",
+    "source": "Action.cs:628"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "18",
+    "when": null,
+    "template": "Set pan of channel #<p0> to <p1>",
+    "source": "Action.cs:630"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "19",
+    "when": null,
+    "template": "Set position of sample <p0> to <p1>",
+    "source": "Action.cs:632"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "20",
+    "when": null,
+    "template": "Set main volume to <p0>",
+    "source": "Action.cs:634"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "21",
+    "when": null,
+    "template": "Set volume of sample <p0> to <p1>",
+    "source": "Action.cs:636"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "22",
+    "when": null,
+    "template": "Set main pan to <p0>",
+    "source": "Action.cs:638"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "23",
+    "when": null,
+    "template": "Set pan of sample <p0> to <p1>",
+    "source": "Action.cs:640"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "24",
+    "when": null,
+    "template": "Pause all sounds",
+    "source": "Action.cs:642"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "25",
+    "when": null,
+    "template": "Resume all sounds",
+    "source": "Action.cs:644"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "26",
+    "when": null,
+    "template": "Play music file <p0>",
+    "source": "Action.cs:646"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "27",
+    "when": null,
+    "template": "Play and loop music file <p0>, <p1> times",
+    "source": "Action.cs:648"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "28",
+    "when": null,
+    "template": "Play sample file <p0> on channel #<p1>",
+    "source": "Action.cs:650"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "29",
+    "when": null,
+    "template": "Play sample file <p0> on channel #<p1>, <p2> times",
+    "source": "Action.cs:652"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "30",
+    "when": null,
+    "template": "Lock channel <p0>",
+    "source": "Action.cs:654"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "31",
+    "when": null,
+    "template": "Unlock channel <p0>",
+    "source": "Action.cs:656"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "32",
+    "when": null,
+    "template": "Set frequency of channel #<p0> to <p1>",
+    "source": "Action.cs:658"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "33",
+    "when": null,
+    "template": "Set frequency of sample <p0> to <p1>",
+    "source": "Action.cs:660"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "34",
+    "when": null,
+    "template": "Preload sample file <p0>",
+    "source": "Action.cs:662"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "35",
+    "when": null,
+    "template": "Discard sample file <p0>",
+    "source": "Action.cs:664"
+  },
+  {
+    "kind": "action",
+    "objectType": "-2",
+    "num": "36",
+    "when": null,
+    "template": "Play sample <p0>, <p2> times, on channel #<p1>, volume <p3>, pan <p4>, frequency <p5>",
+    "source": "Action.cs:666"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "0",
+    "when": null,
+    "template": "Skip",
+    "source": "Action.cs:675"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "2",
+    "when": null,
+    "template": "Execute external program {file2.FileName} {file2.Command}{(file2.FileFlags[\"WaitForEnd\"] && file2.FileFlags[\"HideApplication\"] ? \" (wait,hide)\" : file2.FileFlags[\"WaitForEnd\"] ? \" (wait)\" : file2.FileFlags[\"HideApplication\"] ? \" (hide)\" : \"\")}",
+    "source": "Action.cs:678"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "3",
+    "when": null,
+    "template": "Set <valeur globale p0> to <p1>",
+    "source": "Action.cs:680"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "4",
+    "when": null,
+    "template": "Subtract <p1> from <valeur globale p0>",
+    "source": "Action.cs:682"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "5",
+    "when": null,
+    "template": "Add <p1> to <valeur globale p0>",
+    "source": "Action.cs:684"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "6",
+    "when": null,
+    "template": "Activate Group \"<p0>\"",
+    "source": "Action.cs:686"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "7",
+    "when": null,
+    "template": "Deactivate Group \"<p0>\"",
+    "source": "Action.cs:688"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "8",
+    "when": null,
+    "template": "Enable menu option <option de menu>",
+    "source": "Action.cs:690"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "9",
+    "when": null,
+    "template": "Disable menu option <option de menu>",
+    "source": "Action.cs:692"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "10",
+    "when": null,
+    "template": "Check menu option <option de menu>",
+    "source": "Action.cs:694"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "11",
+    "when": null,
+    "template": "Uncheck menu option <option de menu>",
+    "source": "Action.cs:696"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "12",
+    "when": null,
+    "template": "Show menu bar",
+    "source": "Action.cs:698"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "13",
+    "when": null,
+    "template": "Hide menu bar",
+    "source": "Action.cs:700"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "14",
+    "when": null,
+    "template": "Start loop <p0> <p1> times",
+    "source": "Action.cs:702"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "15",
+    "when": null,
+    "template": "Stop loop <p0>",
+    "source": "Action.cs:704"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "16",
+    "when": null,
+    "template": "Set loop <p0> index to <p1>",
+    "source": "Action.cs:706"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "17",
+    "when": null,
+    "template": "Randomize <p0>",
+    "source": "Action.cs:708"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "18",
+    "when": null,
+    "template": "Send Menu Command <option de menu>",
+    "source": "Action.cs:710"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "19",
+    "when": null,
+    "template": "Set <chaîne globale p0> to <p1>",
+    "source": "Action.cs:712"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "20",
+    "when": null,
+    "template": "Send <p0> to clipboard",
+    "source": "Action.cs:714"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "21",
+    "when": null,
+    "template": "Clear clipboard",
+    "source": "Action.cs:716"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "22",
+    "when": null,
+    "template": "Execute external program <p0> <p1>{(flags22 == 3 ? \" (wait,hide)\" : flags22 == 1 ? \" (wait)\" : flags22 == 2 ? \" (hide)\" : \"\")}",
+    "source": "Action.cs:719"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "23",
+    "when": null,
+    "template": "Open debugger",
+    "source": "Action.cs:721"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "24",
+    "when": null,
+    "template": "Pause debugger",
+    "source": "Action.cs:723"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "25",
+    "when": null,
+    "template": "Extract binary file <p0>",
+    "source": "Action.cs:725"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "26",
+    "when": null,
+    "template": "Release binary file <p0>",
+    "source": "Action.cs:727"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "39",
+    "when": null,
+    "template": "Start profiling",
+    "source": "Action.cs:729"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "40",
+    "when": null,
+    "template": "Stop profiling",
+    "source": "Action.cs:731"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "41",
+    "when": null,
+    "template": "Clear output window",
+    "source": "Action.cs:733"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "42",
+    "when": null,
+    "template": "Send <p0> to output window",
+    "source": "Action.cs:735"
+  },
+  {
+    "kind": "action",
+    "objectType": "-1",
+    "num": "44",
+    "when": null,
+    "template": "Break",
+    "source": "Action.cs:737"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "80",
+    "when": "Num = default && ObjectType < 32 && ObjectType == 3",
+    "template": "Erase",
+    "source": "Action.cs:750"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "80",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 3) && ObjectType == 4",
+    "template": "Ask question",
+    "source": "Action.cs:752"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "80",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 4) && !(ObjectType == 3) && ObjectType == 7",
+    "template": "Set Counter to <p0>",
+    "source": "Action.cs:754"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "80",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 7) && !(ObjectType == 4) && !(ObjectType == 3) && ObjectType == 8",
+    "template": "Set X Position to <p0>",
+    "source": "Action.cs:756"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "80",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 8) && !(ObjectType == 7) && !(ObjectType == 4) && !(ObjectType == 3) && ObjectType == 9",
+    "template": "Restart application",
+    "source": "Action.cs:758"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "80",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 9) && !(ObjectType == 8) && !(ObjectType == 7) && !(ObjectType == 4) && !(ObjectType == 3)",
+    "template": "Paste into background{GetDirectionSettings(((ParameterShort)Parameters[0].Data).Value)}",
+    "source": "Action.cs:759"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "81",
+    "when": "Num = default && ObjectType < 32 && ObjectType == 2",
+    "template": "Bring to front",
+    "source": "Action.cs:762"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "81",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && ObjectType == 7",
+    "template": "Add <p0> to Counter",
+    "source": "Action.cs:764"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "81",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 7) && !(ObjectType == 2) && ObjectType == 8",
+    "template": "Set Y Position to <p0>",
+    "source": "Action.cs:766"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "81",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 8) && !(ObjectType == 7) && !(ObjectType == 2) && ObjectType == 9",
+    "template": "Restart current frame",
+    "source": "Action.cs:768"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "81",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 9) && !(ObjectType == 8) && !(ObjectType == 7) && !(ObjectType == 2)",
+    "template": "Display paragraph {((ParameterShort)Parameters[1].Data).Value + 1} at {Parameters[0].ToString().ReplaceLast(\" layer 1\", \"\")}",
+    "source": "Action.cs:769"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "82",
+    "when": "Num = default && ObjectType < 32 && ObjectType == 7",
+    "template": "Subtract <p0> from Counter",
+    "source": "Action.cs:772"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "82",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 7) && ObjectType == 8",
+    "template": "Set Zoom Factor to <p0>",
+    "source": "Action.cs:774"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "82",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 8) && !(ObjectType == 7) && ObjectType == 9",
+    "template": "Next Frame",
+    "source": "Action.cs:776"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "82",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 9) && !(ObjectType == 8) && !(ObjectType == 7)",
+    "template": "Flash paragraph {((ParameterShort)Parameters[1].Data).Value + 1} at {Parameters[0].ToString().ReplaceLast(\" layer 1\", \"\")} for <p2>",
+    "source": "Action.cs:777"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "83",
+    "when": "Num = default && ObjectType < 32 && ObjectType == 3",
+    "template": "Set color of <p0>",
+    "source": "Action.cs:780"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "83",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 3) && ObjectType == 7",
+    "template": "Set minimum value to <p0>",
+    "source": "Action.cs:782"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "83",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 7) && !(ObjectType == 3) && ObjectType == 8",
+    "template": "Clear Selected",
+    "source": "Action.cs:784"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "83",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 8) && !(ObjectType == 7) && !(ObjectType == 3) && ObjectType == 9",
+    "template": "Previous Frame",
+    "source": "Action.cs:786"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "83",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 9) && !(ObjectType == 8) && !(ObjectType == 7) && !(ObjectType == 3)",
+    "template": "Add backdrop{GetDirectionSettings(((ParameterShort)Parameters[0].Data).Value)}",
+    "source": "Action.cs:787"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "84",
+    "when": "Num = default && ObjectType < 32 && ObjectType == 3 && Parameters.Length > 1 && Parameters[1].Data is ParameterShort",
+    "template": "Display paragraph {((ParameterShort)Parameters[1].Data).Value + 1}",
+    "source": "Action.cs:792"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "84",
+    "when": "Num = default && ObjectType < 32 && ObjectType == 3 && !(Parameters.Length > 1 && Parameters[1].Data is ParameterShort)",
+    "template": "Display paragraph <p0>",
+    "source": "Action.cs:794"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "84",
+    "when": "Num = default && ObjectType < 32 && ObjectType == 7",
+    "template": "Set maximum value to <p0>",
+    "source": "Action.cs:797"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "84",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 7) && ObjectType == 8",
+    "template": "Search and select <p0>",
+    "source": "Action.cs:799"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "84",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 8) && !(ObjectType == 7) && ObjectType == 9",
+    "template": "End application",
+    "source": "Action.cs:801"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "84",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 9) && !(ObjectType == 8) && !(ObjectType == 7)",
+    "template": "Replace color <p0> by <p1>",
+    "source": "Action.cs:802"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "85",
+    "when": "Num = default && ObjectType < 32 && ObjectType == 3",
+    "template": "Display previous paragraph",
+    "source": "Action.cs:805"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "85",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 3) && ObjectType == 7",
+    "template": "Set color to <p0>",
+    "source": "Action.cs:807"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "85",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 7) && !(ObjectType == 3) && ObjectType == 8",
+    "template": "Search and select next",
+    "source": "Action.cs:809"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "85",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 8) && !(ObjectType == 7) && !(ObjectType == 3) && ObjectType == 9",
+    "template": "Set application <p0>",
+    "source": "Action.cs:811"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "85",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 9) && !(ObjectType == 8) && !(ObjectType == 7) && !(ObjectType == 3)",
+    "template": "Set scale to <p0> (Quality = <p1>)",
+    "source": "Action.cs:812"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "86",
+    "when": "Num = default && ObjectType < 32 && ObjectType == 3",
+    "template": "Display next paragraph",
+    "source": "Action.cs:815"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "86",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 3) && ObjectType == 7",
+    "template": "Set color #2 to <p0>",
+    "source": "Action.cs:817"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "86",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 7) && !(ObjectType == 3) && ObjectType == 8",
+    "template": "Search All and select<p0>",
+    "source": "Action.cs:819"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "86",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 8) && !(ObjectType == 7) && !(ObjectType == 3) && ObjectType == 9",
+    "template": "Jump to Frame <p0>",
+    "source": "Action.cs:821"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "86",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 9) && !(ObjectType == 8) && !(ObjectType == 7) && !(ObjectType == 3)",
+    "template": "Set X scale to <p0> (Quality = <p1>)",
+    "source": "Action.cs:822"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "87",
+    "when": "Num = default && ObjectType < 32 && ObjectType == 3",
+    "template": "Display alterable string",
+    "source": "Action.cs:825"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "87",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 3) && ObjectType == 8",
+    "template": "Select word num <p0>",
+    "source": "Action.cs:827"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "87",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 8) && !(ObjectType == 3) && ObjectType == 9",
+    "template": "Set global value <p0> to <p1>",
+    "source": "Action.cs:829"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "87",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 9) && !(ObjectType == 8) && !(ObjectType == 3)",
+    "template": "Set Y scale to <p0> (Quality = <p1>)",
+    "source": "Action.cs:830"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "88",
+    "when": "Num = default && ObjectType < 32 && ObjectType == 3",
+    "template": "Set alterable string to <p0>",
+    "source": "Action.cs:833"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "88",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 3) && ObjectType == 8",
+    "template": "Select Line num <p0>",
+    "source": "Action.cs:835"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "88",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 8) && !(ObjectType == 3)",
+    "template": "Set angle to <p0> (Quality = <p1>)",
+    "source": "Action.cs:836"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "89",
+    "when": "Num = default && ObjectType < 32 && ObjectType == 8",
+    "template": "Select Paragraph num <p0>",
+    "source": "Action.cs:839"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "89",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 8) && Parameters[1].Data is ParameterShort",
+    "template": "Load <p0> into Animation <animation>, Direction <direction>, Frame #<p3>, HotSpot(<p4>,<p5>, Action Point(<p6>,<p7>), Transparent Color <p8>",
+    "source": "Action.cs:841"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "89",
+    "when": "Num = default && ObjectType < 32 && !(Parameters[1].Data is ParameterShort) && !(ObjectType == 8)",
+    "template": "Load <p0> into Animation <p1>, Direction <direction>, Frame #<p3>, HotSpot(<p4>,<p5>, Action Point(<p6>,<p7>), Transparent Color <p8>",
+    "source": "Action.cs:842"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "90",
+    "when": "Num = default && ObjectType < 32 && ObjectType == 9",
+    "template": "Set global string <p0> to <p1>",
+    "source": "Action.cs:845"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "90",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 9)",
+    "template": "Load <p0> as image, HotSpot(<p1>,<p2>, Action Point(<p3>,<p4>), Transparent Color <p5>",
+    "source": "Action.cs:846"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "91",
+    "when": "Num = default && ObjectType < 32 && ObjectType == 8",
+    "template": "Select All",
+    "source": "Action.cs:849"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "91",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 8) && ObjectType == 9",
+    "template": "Pause application",
+    "source": "Action.cs:851"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "91",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 9) && !(ObjectType == 8)",
+    "template": "Load animations from file <p0>",
+    "source": "Action.cs:852"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "92",
+    "when": "Num = default && ObjectType < 32 && ObjectType == 9",
+    "template": "Resume application",
+    "source": "Action.cs:855"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "92",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 9)",
+    "template": "Select from Word num <p0> to <p1>",
+    "source": "Action.cs:856"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "93",
+    "when": "Num = default && ObjectType < 32",
+    "template": "Set width to <p0>",
+    "source": "Action.cs:858"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "94",
+    "when": "Num = default && ObjectType < 32 && ObjectType == 9",
+    "template": "Set height to <p0>",
+    "source": "Action.cs:861"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "94",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 9)",
+    "template": "Set Focus to Word num <p0>",
+    "source": "Action.cs:862"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "95",
+    "when": "Num = default && ObjectType < 32",
+    "template": "Remove highlight",
+    "source": "Action.cs:864"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "96",
+    "when": "Num = default && ObjectType < 32",
+    "template": "Set Highlighted text color <p0>",
+    "source": "Action.cs:866"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "97",
+    "when": "Num = default && ObjectType < 32",
+    "template": "Set Highlighted text bold",
+    "source": "Action.cs:868"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "98",
+    "when": "Num = default && ObjectType < 32",
+    "template": "Set Highlighted text italic",
+    "source": "Action.cs:870"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "99",
+    "when": "Num = default && ObjectType < 32",
+    "template": "Set Highlighted text underlined",
+    "source": "Action.cs:872"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "100",
+    "when": "Num = default && ObjectType < 32",
+    "template": "Set Highlighted text outline color <p0>, <p1> pixels",
+    "source": "Action.cs:874"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "101",
+    "when": "Num = default && ObjectType < 32",
+    "template": "Set Highlighted background color <p0>",
+    "source": "Action.cs:876"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "103",
+    "when": "Num = default && ObjectType < 32",
+    "template": "Set Highlighted background as Marker",
+    "source": "Action.cs:878"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "104",
+    "when": "Num = default && ObjectType < 32",
+    "template": "Set Highlighted background as Hatched with color <p0>",
+    "source": "Action.cs:880"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "105",
+    "when": "Num = default && ObjectType < 32",
+    "template": "Set Highlighted background as Inverted",
+    "source": "Action.cs:882"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "106",
+    "when": "Num = default && ObjectType < 32",
+    "template": "Display the text",
+    "source": "Action.cs:884"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "107",
+    "when": "Num = default && ObjectType < 32",
+    "template": "Set Focus to previous word",
+    "source": "Action.cs:886"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "108",
+    "when": "Num = default && ObjectType < 32",
+    "template": "Set Focus to next word",
+    "source": "Action.cs:888"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "109",
+    "when": "Num = default && ObjectType < 32",
+    "template": "Remove the Focus",
+    "source": "Action.cs:890"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "112",
+    "when": "Num = default && ObjectType < 32",
+    "template": "Insert <p0>",
+    "source": "Action.cs:892"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "113",
+    "when": "Num = default && ObjectType < 32",
+    "template": "Load text <p0>",
+    "source": "Action.cs:894"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "114",
+    "when": "Num = default && ObjectType < 32",
+    "template": "Insert text <p0>",
+    "source": "Action.cs:896"
+  },
+  {
+    "kind": "action",
+    "objectType": "default",
+    "num": "default",
+    "when": "ObjectType = >= 0",
+    "template": "output",
+    "source": "Action.cs:904"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "0",
+    "when": null,
+    "template": "Set Flag <p1> to <p2>",
+    "source": "Action.cs:907"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "1",
+    "when": null,
+    "template": "Set position at {Parameters[0].ToString().ReplaceLast(\" layer 1\", \"\")}",
+    "source": "Action.cs:909"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "2",
+    "when": null,
+    "template": "Set X position to <p0>",
+    "source": "Action.cs:911"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "3",
+    "when": null,
+    "template": "Set Y position to <p0>",
+    "source": "Action.cs:913"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "4",
+    "when": null,
+    "template": "Stop",
+    "source": "Action.cs:915"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "5",
+    "when": null,
+    "template": "Start",
+    "source": "Action.cs:917"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "6",
+    "when": null,
+    "template": "Set speed to <p0>",
+    "source": "Action.cs:919"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "7",
+    "when": null,
+    "template": "Set maximum speed to <p0>",
+    "source": "Action.cs:921"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "8",
+    "when": null,
+    "template": "Wrap",
+    "source": "Action.cs:923"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "9",
+    "when": null,
+    "template": "Bounce",
+    "source": "Action.cs:925"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "10",
+    "when": null,
+    "template": "Reverse",
+    "source": "Action.cs:927"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "11",
+    "when": null,
+    "template": "Next movement",
+    "source": "Action.cs:929"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "12",
+    "when": null,
+    "template": "Previous movement",
+    "source": "Action.cs:931"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "13",
+    "when": null,
+    "template": "Select movement <p0>",
+    "source": "Action.cs:933"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "14",
+    "when": null,
+    "template": "Look at {Parameters[0].ToString().ReplaceLast(\" layer 1\", \"\")}",
+    "source": "Action.cs:935"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "15",
+    "when": null,
+    "template": "Stop animation",
+    "source": "Action.cs:937"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "16",
+    "when": null,
+    "template": "Start animation",
+    "source": "Action.cs:939"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "17",
+    "when": "Parameters[0].Data is ParameterShort animS",
+    "template": "Change animation sequence to <animation>",
+    "source": "Action.cs:942"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "17",
+    "when": "!(Parameters[0].Data is ParameterShort animS)",
+    "template": "Change animation sequence to <p0>",
+    "source": "Action.cs:944"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "18",
+    "when": null,
+    "template": "Change animation direction to <direction>",
+    "source": "Action.cs:946"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "19",
+    "when": null,
+    "template": "Change speed of animation to <p0>",
+    "source": "Action.cs:948"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "20",
+    "when": null,
+    "template": "Restore animation sequence",
+    "source": "Action.cs:950"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "21",
+    "when": null,
+    "template": "Restore animation direction",
+    "source": "Action.cs:952"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "22",
+    "when": null,
+    "template": "Restore speed of animation",
+    "source": "Action.cs:954"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "23",
+    "when": null,
+    "template": "Set direction to <direction>",
+    "source": "Action.cs:956"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "24",
+    "when": null,
+    "template": "Destroy",
+    "source": "Action.cs:958"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "25",
+    "when": null,
+    "template": "Swap position with another object",
+    "source": "Action.cs:960"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "26",
+    "when": null,
+    "template": "Make invisible",
+    "source": "Action.cs:962"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "27",
+    "when": null,
+    "template": "Reappear",
+    "source": "Action.cs:964"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "28",
+    "when": null,
+    "template": "Flash during <p0>",
+    "source": "Action.cs:966"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "29",
+    "when": null,
+    "template": "Launch <p0>",
+    "source": "Action.cs:968"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "30",
+    "when": null,
+    "template": "Launch <p0> toward {Parameters[1].ToString().ReplaceLast(\" layer 1\", \"\")}",
+    "source": "Action.cs:970"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "31",
+    "when": null,
+    "template": "Set <valeur modifiable p0> to <p1>",
+    "source": "Action.cs:972"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "32",
+    "when": null,
+    "template": "Add <p1> to <valeur modifiable p0>",
+    "source": "Action.cs:974"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "33",
+    "when": null,
+    "template": "Subtract <p1> from <valeur modifiable p0>",
+    "source": "Action.cs:976"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "34",
+    "when": null,
+    "template": "Spread value <p1> in <valeur modifiable p0>",
+    "source": "Action.cs:978"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "35",
+    "when": null,
+    "template": "Set Flag <p0> on",
+    "source": "Action.cs:980"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "36",
+    "when": null,
+    "template": "Set Flag <p0> off",
+    "source": "Action.cs:982"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "37",
+    "when": null,
+    "template": "Toggle Flag <p0>",
+    "source": "Action.cs:984"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "38",
+    "when": null,
+    "template": "Set ink effect to {GetInkEffect((ParameterDoubleShort)Parameters[0].Data)}",
+    "source": "Action.cs:986"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "39",
+    "when": null,
+    "template": "Set semi-transparency to <p0>",
+    "source": "Action.cs:988"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "40",
+    "when": null,
+    "template": "Force animation frame to <p0>",
+    "source": "Action.cs:990"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "41",
+    "when": null,
+    "template": "Restore animation frame",
+    "source": "Action.cs:992"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "42",
+    "when": null,
+    "template": "Set acceleration to <p0>",
+    "source": "Action.cs:994"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "43",
+    "when": null,
+    "template": "Set deceleration to <p0>",
+    "source": "Action.cs:996"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "44",
+    "when": null,
+    "template": "Set rotating speed to <p0>",
+    "source": "Action.cs:998"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "45",
+    "when": null,
+    "template": "Set authorized directions to <direction>",
+    "source": "Action.cs:1000"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "46",
+    "when": null,
+    "template": "Branch node <p0>",
+    "source": "Action.cs:1002"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "47",
+    "when": null,
+    "template": "Set gravity to <p0>",
+    "source": "Action.cs:1004"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "48",
+    "when": null,
+    "template": "Goto node <p0>",
+    "source": "Action.cs:1006"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "49",
+    "when": null,
+    "template": "Set <chaîne modifiable p0> to <p1>",
+    "source": "Action.cs:1008"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "50",
+    "when": null,
+    "template": "Set font name to <p0>",
+    "source": "Action.cs:1010"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "51",
+    "when": null,
+    "template": "Set font size to <p0>, border <p1>",
+    "source": "Action.cs:1012"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "52",
+    "when": null,
+    "template": "Set bold <p0>",
+    "source": "Action.cs:1014"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "53",
+    "when": null,
+    "template": "Set italic <p0>",
+    "source": "Action.cs:1016"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "54",
+    "when": null,
+    "template": "Set underline <p0>",
+    "source": "Action.cs:1018"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "55",
+    "when": null,
+    "template": "Set strikeout <p0>",
+    "source": "Action.cs:1020"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "56",
+    "when": null,
+    "template": "Set font color to <p0>",
+    "source": "Action.cs:1022"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "57",
+    "when": null,
+    "template": "Bring to front",
+    "source": "Action.cs:1024"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "58",
+    "when": null,
+    "template": "Bring to back",
+    "source": "Action.cs:1026"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "59",
+    "when": null,
+    "template": "Move behind object <p0>",
+    "source": "Action.cs:1028"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "60",
+    "when": null,
+    "template": "Move in front of object <p0>",
+    "source": "Action.cs:1030"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "61",
+    "when": null,
+    "template": "Move to layer <p0>",
+    "source": "Action.cs:1032"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "62",
+    "when": null,
+    "template": "Add to debugger",
+    "source": "Action.cs:1034"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "63",
+    "when": null,
+    "template": "Set effect to {Parameters[0].ToString().ReplaceLast(\".fx\", \"\")}",
+    "source": "Action.cs:1036"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "64",
+    "when": null,
+    "template": "Set effect parameter <p0> to <p1>",
+    "source": "Action.cs:1038"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "65",
+    "when": null,
+    "template": "Set alpha-blending coefficient to <p0>",
+    "source": "Action.cs:1040"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "66",
+    "when": null,
+    "template": "Set RGB coefficient to <p0>",
+    "source": "Action.cs:1042"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "67",
+    "when": null,
+    "template": "Set effect image parameter <p0> to <p1>",
+    "source": "Action.cs:1044"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "68",
+    "when": null,
+    "template": "Set friction to <p0>",
+    "source": "Action.cs:1046"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "69",
+    "when": null,
+    "template": "Set elasticity to <p0>",
+    "source": "Action.cs:1048"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "70",
+    "when": null,
+    "template": "Apply impulse, force <p0>, angle <p1> degrees",
+    "source": "Action.cs:1050"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "71",
+    "when": null,
+    "template": "Apply angular impulse, torque <p0>",
+    "source": "Action.cs:1052"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "72",
+    "when": null,
+    "template": "Apply force <p0>, angle <p1> degrees",
+    "source": "Action.cs:1054"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "73",
+    "when": null,
+    "template": "Apply torque <p0>",
+    "source": "Action.cs:1056"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "74",
+    "when": null,
+    "template": "Set linear velocity to <p0>, angle <p1> degrees",
+    "source": "Action.cs:1058"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "75",
+    "when": null,
+    "template": "Set angular velocity to <p0>",
+    "source": "Action.cs:1060"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "76",
+    "when": null,
+    "template": "Start loop for each one of <objet>, loop name <p0>",
+    "source": "Action.cs:1062"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "77",
+    "when": null,
+    "template": "Start loop for each one of <objet> and <p0>, loop name <p1>",
+    "source": "Action.cs:1064"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "78",
+    "when": null,
+    "template": "Stop force",
+    "source": "Action.cs:1066"
+  },
+  {
+    "kind": "action",
+    "objectType": ">= 0",
+    "num": "79",
+    "when": null,
+    "template": "Stop torque",
+    "source": "Action.cs:1068"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-7",
+    "num": "0",
+    "when": null,
+    "template": "score(\"Player <n° joueur>\")",
+    "source": "ParameterExpression.cs:113"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-7",
+    "num": "1",
+    "when": null,
+    "template": "lives(\"Player <n° joueur>\")",
+    "source": "ParameterExpression.cs:115"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-7",
+    "num": "2",
+    "when": null,
+    "template": "input(\"Player <n° joueur>\")",
+    "source": "ParameterExpression.cs:117"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-7",
+    "num": "3",
+    "when": null,
+    "template": "key$(\"Player <n° joueur>\", ",
+    "source": "ParameterExpression.cs:119"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-7",
+    "num": "4",
+    "when": null,
+    "template": "playername$(\"Player <n° joueur>\")",
+    "source": "ParameterExpression.cs:121"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-6",
+    "num": "0",
+    "when": null,
+    "template": "XMouse",
+    "source": "ParameterExpression.cs:128"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-6",
+    "num": "1",
+    "when": null,
+    "template": "YMouse",
+    "source": "ParameterExpression.cs:130"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-6",
+    "num": "2",
+    "when": null,
+    "template": "WheelDelta",
+    "source": "ParameterExpression.cs:132"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-5",
+    "num": "0",
+    "when": null,
+    "template": "Total Objects",
+    "source": "ParameterExpression.cs:139"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-5",
+    "num": "1",
+    "when": null,
+    "template": "Last fixed value",
+    "source": "ParameterExpression.cs:141"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-4",
+    "num": "0",
+    "when": null,
+    "template": "timer",
+    "source": "ParameterExpression.cs:148"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-4",
+    "num": "1",
+    "when": null,
+    "template": "hundreds",
+    "source": "ParameterExpression.cs:150"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-4",
+    "num": "2",
+    "when": null,
+    "template": "seconds",
+    "source": "ParameterExpression.cs:152"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-4",
+    "num": "3",
+    "when": null,
+    "template": "hours",
+    "source": "ParameterExpression.cs:154"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-4",
+    "num": "4",
+    "when": null,
+    "template": "minutes",
+    "source": "ParameterExpression.cs:156"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-4",
+    "num": "5",
+    "when": null,
+    "template": "eventindex",
+    "source": "ParameterExpression.cs:158"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-3",
+    "num": "0",
+    "when": null,
+    "template": "frame",
+    "source": "ParameterExpression.cs:165"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-3",
+    "num": "1",
+    "when": null,
+    "template": "players",
+    "source": "ParameterExpression.cs:167"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-3",
+    "num": "2",
+    "when": null,
+    "template": "X Left Frame",
+    "source": "ParameterExpression.cs:169"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-3",
+    "num": "3",
+    "when": null,
+    "template": "X Right Frame",
+    "source": "ParameterExpression.cs:171"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-3",
+    "num": "4",
+    "when": null,
+    "template": "Y Top Frame",
+    "source": "ParameterExpression.cs:173"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-3",
+    "num": "5",
+    "when": null,
+    "template": "Y Bottom Frame",
+    "source": "ParameterExpression.cs:175"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-3",
+    "num": "6",
+    "when": null,
+    "template": "Frame Width",
+    "source": "ParameterExpression.cs:177"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-3",
+    "num": "7",
+    "when": null,
+    "template": "Frame Height",
+    "source": "ParameterExpression.cs:179"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-3",
+    "num": "8",
+    "when": null,
+    "template": "frame",
+    "source": "ParameterExpression.cs:181"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-3",
+    "num": "9",
+    "when": null,
+    "template": "CollisionMask(",
+    "source": "ParameterExpression.cs:183"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-3",
+    "num": "10",
+    "when": null,
+    "template": "FrameRate",
+    "source": "ParameterExpression.cs:185"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-3",
+    "num": "11",
+    "when": null,
+    "template": "VirtualWidth",
+    "source": "ParameterExpression.cs:187"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-3",
+    "num": "12",
+    "when": null,
+    "template": "VirtualHeight",
+    "source": "ParameterExpression.cs:189"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-3",
+    "num": "13",
+    "when": null,
+    "template": "FrameBkdColor",
+    "source": "ParameterExpression.cs:191"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-3",
+    "num": "14",
+    "when": null,
+    "template": "DisplayMode",
+    "source": "ParameterExpression.cs:193"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-3",
+    "num": "15",
+    "when": null,
+    "template": "PixelShaderVersion",
+    "source": "ParameterExpression.cs:195"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-3",
+    "num": "16",
+    "when": null,
+    "template": "FrameAlphaCoef",
+    "source": "ParameterExpression.cs:197"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-3",
+    "num": "17",
+    "when": null,
+    "template": "FrameRGBCoef",
+    "source": "ParameterExpression.cs:199"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-3",
+    "num": "18",
+    "when": null,
+    "template": "FrameEffectParam(",
+    "source": "ParameterExpression.cs:201"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-3",
+    "num": "19",
+    "when": null,
+    "template": "DPIScale",
+    "source": "ParameterExpression.cs:203"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-2",
+    "num": "0",
+    "when": null,
+    "template": "SampleMainVolume",
+    "source": "ParameterExpression.cs:210"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-2",
+    "num": "1",
+    "when": null,
+    "template": "SampleVolume(",
+    "source": "ParameterExpression.cs:212"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-2",
+    "num": "2",
+    "when": null,
+    "template": "ChannelVolume(",
+    "source": "ParameterExpression.cs:214"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-2",
+    "num": "3",
+    "when": null,
+    "template": "SampleMainPan",
+    "source": "ParameterExpression.cs:216"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-2",
+    "num": "4",
+    "when": null,
+    "template": "SamplePan(",
+    "source": "ParameterExpression.cs:218"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-2",
+    "num": "5",
+    "when": null,
+    "template": "ChannelPan(",
+    "source": "ParameterExpression.cs:220"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-2",
+    "num": "6",
+    "when": null,
+    "template": "SamplePosition(",
+    "source": "ParameterExpression.cs:222"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-2",
+    "num": "7",
+    "when": null,
+    "template": "ChannelPosition(",
+    "source": "ParameterExpression.cs:224"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-2",
+    "num": "8",
+    "when": null,
+    "template": "SampleDuration(",
+    "source": "ParameterExpression.cs:226"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-2",
+    "num": "9",
+    "when": null,
+    "template": "ChannelDuration(",
+    "source": "ParameterExpression.cs:228"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-2",
+    "num": "10",
+    "when": null,
+    "template": "SampleFreq(",
+    "source": "ParameterExpression.cs:230"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-2",
+    "num": "11",
+    "when": null,
+    "template": "ChannelFreq(",
+    "source": "ParameterExpression.cs:232"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-2",
+    "num": "12",
+    "when": null,
+    "template": "ChannelSampleName$(",
+    "source": "ParameterExpression.cs:234"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "-3",
+    "when": null,
+    "template": ", ",
+    "source": "ParameterExpression.cs:241"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "-2",
+    "when": null,
+    "template": ")",
+    "source": "ParameterExpression.cs:243"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "-1",
+    "when": null,
+    "template": "(",
+    "source": "ParameterExpression.cs:245"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "0",
+    "when": null,
+    "template": "((ExpressionInt)Expression).Value.ToString()",
+    "source": "ParameterExpression.cs:247"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "1",
+    "when": null,
+    "template": "Random(",
+    "source": "ParameterExpression.cs:249"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "2",
+    "when": null,
+    "template": "Global Value(",
+    "source": "ParameterExpression.cs:251"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "3",
+    "when": null,
+    "template": "'\"' + ((ExpressionString)Expression).Value + '\"'",
+    "source": "ParameterExpression.cs:253"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "4",
+    "when": null,
+    "template": "Str$(",
+    "source": "ParameterExpression.cs:255"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "5",
+    "when": null,
+    "template": "Val(",
+    "source": "ParameterExpression.cs:257"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "6",
+    "when": null,
+    "template": "Appdrive$",
+    "source": "ParameterExpression.cs:259"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "7",
+    "when": null,
+    "template": "Appdir$",
+    "source": "ParameterExpression.cs:261"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "8",
+    "when": null,
+    "template": "Apppath$",
+    "source": "ParameterExpression.cs:263"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "9",
+    "when": null,
+    "template": "Appname$",
+    "source": "ParameterExpression.cs:265"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "10",
+    "when": null,
+    "template": "Sin(",
+    "source": "ParameterExpression.cs:267"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "11",
+    "when": null,
+    "template": "Cos(",
+    "source": "ParameterExpression.cs:269"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "12",
+    "when": null,
+    "template": "Tan(",
+    "source": "ParameterExpression.cs:271"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "13",
+    "when": null,
+    "template": "Sqr(",
+    "source": "ParameterExpression.cs:273"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "14",
+    "when": null,
+    "template": "Log(",
+    "source": "ParameterExpression.cs:275"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "15",
+    "when": null,
+    "template": "Ln(",
+    "source": "ParameterExpression.cs:277"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "16",
+    "when": null,
+    "template": "Hex$(",
+    "source": "ParameterExpression.cs:279"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "17",
+    "when": null,
+    "template": "Bin$(",
+    "source": "ParameterExpression.cs:281"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "18",
+    "when": null,
+    "template": "Exp(",
+    "source": "ParameterExpression.cs:283"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "19",
+    "when": null,
+    "template": "Left$(",
+    "source": "ParameterExpression.cs:285"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "20",
+    "when": null,
+    "template": "Right$(",
+    "source": "ParameterExpression.cs:287"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "21",
+    "when": null,
+    "template": "Mid$(",
+    "source": "ParameterExpression.cs:289"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "22",
+    "when": null,
+    "template": "Len(",
+    "source": "ParameterExpression.cs:291"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "23",
+    "when": null,
+    "template": "((ExpressionDouble)Expression).Value.ToString()",
+    "source": "ParameterExpression.cs:293"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "24",
+    "when": null,
+    "template": "GetGlobalValueName()",
+    "source": "ParameterExpression.cs:295"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "28",
+    "when": null,
+    "template": "Int(",
+    "source": "ParameterExpression.cs:297"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "29",
+    "when": null,
+    "template": "Abs(",
+    "source": "ParameterExpression.cs:299"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "30",
+    "when": null,
+    "template": "Ceil(",
+    "source": "ParameterExpression.cs:301"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "31",
+    "when": null,
+    "template": "Floor(",
+    "source": "ParameterExpression.cs:303"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "32",
+    "when": null,
+    "template": "ACos(",
+    "source": "ParameterExpression.cs:305"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "33",
+    "when": null,
+    "template": "ASin(",
+    "source": "ParameterExpression.cs:307"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "34",
+    "when": null,
+    "template": "ATan(",
+    "source": "ParameterExpression.cs:309"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "35",
+    "when": null,
+    "template": "NOT(",
+    "source": "ParameterExpression.cs:311"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "36",
+    "when": null,
+    "template": "NDropped",
+    "source": "ParameterExpression.cs:313"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "37",
+    "when": null,
+    "template": "Dropped$(",
+    "source": "ParameterExpression.cs:315"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "38",
+    "when": null,
+    "template": "CommandLine$",
+    "source": "ParameterExpression.cs:317"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "39",
+    "when": null,
+    "template": "CommandItem$(",
+    "source": "ParameterExpression.cs:319"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "40",
+    "when": null,
+    "template": "Min(",
+    "source": "ParameterExpression.cs:321"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "41",
+    "when": null,
+    "template": "Max(",
+    "source": "ParameterExpression.cs:323"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "42",
+    "when": null,
+    "template": "GetRGB(",
+    "source": "ParameterExpression.cs:325"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "43",
+    "when": null,
+    "template": "GetRed(",
+    "source": "ParameterExpression.cs:327"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "44",
+    "when": null,
+    "template": "GetGreen(",
+    "source": "ParameterExpression.cs:329"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "45",
+    "when": null,
+    "template": "GetBlue(",
+    "source": "ParameterExpression.cs:331"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "46",
+    "when": null,
+    "template": "LoopIndex(",
+    "source": "ParameterExpression.cs:333"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "47",
+    "when": null,
+    "template": "NewLine$",
+    "source": "ParameterExpression.cs:335"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "48",
+    "when": null,
+    "template": "Round(",
+    "source": "ParameterExpression.cs:337"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "49",
+    "when": null,
+    "template": "Global String(",
+    "source": "ParameterExpression.cs:339"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "50",
+    "when": null,
+    "template": "GetGlobalStringName()",
+    "source": "ParameterExpression.cs:341"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "51",
+    "when": null,
+    "template": "Lower$(",
+    "source": "ParameterExpression.cs:343"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "52",
+    "when": null,
+    "template": "Upper$(",
+    "source": "ParameterExpression.cs:345"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "53",
+    "when": null,
+    "template": "Find(",
+    "source": "ParameterExpression.cs:347"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "54",
+    "when": null,
+    "template": "ReverseFind(",
+    "source": "ParameterExpression.cs:349"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "55",
+    "when": null,
+    "template": "ClipText$",
+    "source": "ParameterExpression.cs:351"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "56",
+    "when": null,
+    "template": "AppTempPath$",
+    "source": "ParameterExpression.cs:353"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "57",
+    "when": null,
+    "template": "BinFileTempName$(",
+    "source": "ParameterExpression.cs:355"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "58",
+    "when": null,
+    "template": "FloatToString$(",
+    "source": "ParameterExpression.cs:357"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "59",
+    "when": null,
+    "template": "ATan2(",
+    "source": "ParameterExpression.cs:359"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "60",
+    "when": null,
+    "template": "0",
+    "source": "ParameterExpression.cs:361"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "61",
+    "when": null,
+    "template": "\"\"",
+    "source": "ParameterExpression.cs:363"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "62",
+    "when": null,
+    "template": "Distance(",
+    "source": "ParameterExpression.cs:365"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "63",
+    "when": null,
+    "template": "VAngle(",
+    "source": "ParameterExpression.cs:367"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "64",
+    "when": null,
+    "template": "Range(",
+    "source": "ParameterExpression.cs:369"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "65",
+    "when": null,
+    "template": "RRandom(",
+    "source": "ParameterExpression.cs:371"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "66",
+    "when": null,
+    "template": "RuntimeName$",
+    "source": "ParameterExpression.cs:373"
+  },
+  {
+    "kind": "expression",
+    "objectType": "-1",
+    "num": "67",
+    "when": null,
+    "template": "ReplaceString$(",
+    "source": "ParameterExpression.cs:375"
+  },
+  {
+    "kind": "expression",
+    "objectType": "0",
+    "num": "2",
+    "when": null,
+    "template": " + ",
+    "source": "ParameterExpression.cs:382"
+  },
+  {
+    "kind": "expression",
+    "objectType": "0",
+    "num": "4",
+    "when": null,
+    "template": " - ",
+    "source": "ParameterExpression.cs:384"
+  },
+  {
+    "kind": "expression",
+    "objectType": "0",
+    "num": "6",
+    "when": null,
+    "template": " * ",
+    "source": "ParameterExpression.cs:386"
+  },
+  {
+    "kind": "expression",
+    "objectType": "0",
+    "num": "8",
+    "when": null,
+    "template": " / ",
+    "source": "ParameterExpression.cs:388"
+  },
+  {
+    "kind": "expression",
+    "objectType": "0",
+    "num": "10",
+    "when": null,
+    "template": " mod ",
+    "source": "ParameterExpression.cs:390"
+  },
+  {
+    "kind": "expression",
+    "objectType": "0",
+    "num": "12",
+    "when": null,
+    "template": " pow ",
+    "source": "ParameterExpression.cs:392"
+  },
+  {
+    "kind": "expression",
+    "objectType": "0",
+    "num": "14",
+    "when": null,
+    "template": " and ",
+    "source": "ParameterExpression.cs:394"
+  },
+  {
+    "kind": "expression",
+    "objectType": "0",
+    "num": "16",
+    "when": null,
+    "template": " or ",
+    "source": "ParameterExpression.cs:396"
+  },
+  {
+    "kind": "expression",
+    "objectType": "0",
+    "num": "18",
+    "when": null,
+    "template": " xor ",
+    "source": "ParameterExpression.cs:398"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "80",
+    "when": "Num = default && ObjectType < 32 && ObjectType == 2",
+    "template": "RGBAt(\"<objet>\", ",
+    "source": "ParameterExpression.cs:410"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "80",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && ObjectType == 3",
+    "template": "paragraph(\"<objet>\")",
+    "source": "ParameterExpression.cs:412"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "80",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && !(ObjectType == 3) && ObjectType == 7",
+    "template": "value(\"<objet>\")",
+    "source": "ParameterExpression.cs:414"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "80",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && !(ObjectType == 3) && !(ObjectType == 7) && ObjectType == 9",
+    "template": "App Frame Number(\"<objet>\")",
+    "source": "ParameterExpression.cs:416"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "81",
+    "when": "Num = default && ObjectType < 32 && ObjectType == 2",
+    "template": "XScale(\"<objet>\")",
+    "source": "ParameterExpression.cs:420"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "81",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && ObjectType == 3",
+    "template": "string$(\"<objet>\")",
+    "source": "ParameterExpression.cs:422"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "81",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && !(ObjectType == 3) && ObjectType == 7",
+    "template": "minvalue(\"<objet>\")",
+    "source": "ParameterExpression.cs:424"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "81",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && !(ObjectType == 3) && !(ObjectType == 7) && ObjectType == 9",
+    "template": "App Global Value(\"<objet>\", ",
+    "source": "ParameterExpression.cs:426"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "82",
+    "when": "Num = default && ObjectType < 32 && ObjectType == 2",
+    "template": "YScale(\"<objet>\")",
+    "source": "ParameterExpression.cs:430"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "82",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && ObjectType == 3",
+    "template": "paragraph$(\"<objet>\", ",
+    "source": "ParameterExpression.cs:432"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "82",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && !(ObjectType == 3) && ObjectType == 7",
+    "template": "maxvalue(\"<objet>\")",
+    "source": "ParameterExpression.cs:434"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "82",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && !(ObjectType == 3) && !(ObjectType == 7) && ObjectType == 9",
+    "template": "App Global String(\"<objet>\", ",
+    "source": "ParameterExpression.cs:436"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "83",
+    "when": "Num = default && ObjectType < 32 && ObjectType == 2",
+    "template": "Angle(\"<objet>\")",
+    "source": "ParameterExpression.cs:440"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "83",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && ObjectType == 3",
+    "template": "value(\"<objet>\")",
+    "source": "ParameterExpression.cs:442"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "83",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 2) && !(ObjectType == 3) && ObjectType == 7",
+    "template": "cColor(\"<objet>\")",
+    "source": "ParameterExpression.cs:444"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "84",
+    "when": "Num = default && ObjectType < 32 && ObjectType == 3",
+    "template": "npara(\"<objet>\")",
+    "source": "ParameterExpression.cs:448"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "84",
+    "when": "Num = default && ObjectType < 32 && !(ObjectType == 3) && ObjectType == 7",
+    "template": "cColor2(\"<objet>\")",
+    "source": "ParameterExpression.cs:450"
+  },
+  {
+    "kind": "expression",
+    "objectType": "default",
+    "num": "default",
+    "when": "ObjectType = > 0",
+    "template": "Expression ID {Num}(\"<objet>\")",
+    "source": "ParameterExpression.cs:456"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "1",
+    "when": null,
+    "template": "Y(\"<objet>\")",
+    "source": "ParameterExpression.cs:459"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "2",
+    "when": null,
+    "template": "Image(\"<objet>\")",
+    "source": "ParameterExpression.cs:461"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "3",
+    "when": null,
+    "template": "Speed(\"<objet>\")",
+    "source": "ParameterExpression.cs:463"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "4",
+    "when": null,
+    "template": "Acc(\"<objet>\")",
+    "source": "ParameterExpression.cs:465"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "5",
+    "when": null,
+    "template": "Dec(\"<objet>\")",
+    "source": "ParameterExpression.cs:467"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "6",
+    "when": null,
+    "template": "Dir(\"<objet>\")",
+    "source": "ParameterExpression.cs:469"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "7",
+    "when": null,
+    "template": "X Left(\"<objet>\")",
+    "source": "ParameterExpression.cs:471"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "8",
+    "when": null,
+    "template": "X Right(\"<objet>\")",
+    "source": "ParameterExpression.cs:473"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "9",
+    "when": null,
+    "template": "Y Top(\"<objet>\")",
+    "source": "ParameterExpression.cs:475"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "10",
+    "when": null,
+    "template": "Y Bottom(\"<objet>\")",
+    "source": "ParameterExpression.cs:477"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "11",
+    "when": null,
+    "template": "X(\"<objet>\")",
+    "source": "ParameterExpression.cs:479"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "12",
+    "when": null,
+    "template": "Fixed(\"<objet>\")",
+    "source": "ParameterExpression.cs:481"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "13",
+    "when": null,
+    "template": "Flag(\"<objet>\", ",
+    "source": "ParameterExpression.cs:483"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "14",
+    "when": null,
+    "template": "Anim Number(\"<objet>\")",
+    "source": "ParameterExpression.cs:485"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "15",
+    "when": null,
+    "template": "NObjects(\"<objet>\")",
+    "source": "ParameterExpression.cs:487"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "16",
+    "when": null,
+    "template": "{GetAlterableValueName()}(\"<objet>\")",
+    "source": "ParameterExpression.cs:489"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "17",
+    "when": null,
+    "template": "SemiTrans(\"<objet>\")",
+    "source": "ParameterExpression.cs:491"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "18",
+    "when": null,
+    "template": "NMovement(\"<objet>\")",
+    "source": "ParameterExpression.cs:493"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "19",
+    "when": null,
+    "template": "{GetAlterableStringName()}(\"<objet>\")",
+    "source": "ParameterExpression.cs:495"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "20",
+    "when": null,
+    "template": "FontName$(\"<objet>\")",
+    "source": "ParameterExpression.cs:497"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "21",
+    "when": null,
+    "template": "FontSize(\"<objet>\")",
+    "source": "ParameterExpression.cs:499"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "22",
+    "when": null,
+    "template": "FontColor(\"<objet>\")",
+    "source": "ParameterExpression.cs:501"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "23",
+    "when": null,
+    "template": "Layer(\"<objet>\")",
+    "source": "ParameterExpression.cs:503"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "24",
+    "when": null,
+    "template": "Gravity(\"<objet>\")",
+    "source": "ParameterExpression.cs:505"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "25",
+    "when": null,
+    "template": "XActionPoint(\"<objet>\")",
+    "source": "ParameterExpression.cs:507"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "26",
+    "when": null,
+    "template": "YActionPoint(\"<objet>\")",
+    "source": "ParameterExpression.cs:509"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "27",
+    "when": null,
+    "template": "AlphaCoef(\"<objet>\")",
+    "source": "ParameterExpression.cs:511"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "28",
+    "when": null,
+    "template": "RGBCoef(\"<objet>\")",
+    "source": "ParameterExpression.cs:513"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "29",
+    "when": null,
+    "template": "EffectParam(\"<objet>\", ",
+    "source": "ParameterExpression.cs:515"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "30",
+    "when": null,
+    "template": "AltValN(\"<objet>\", ",
+    "source": "ParameterExpression.cs:517"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "31",
+    "when": null,
+    "template": "AltStrN$(\"<objet>\", ",
+    "source": "ParameterExpression.cs:519"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "32",
+    "when": null,
+    "template": "ODistance(\"<objet>\", ",
+    "source": "ParameterExpression.cs:521"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "33",
+    "when": null,
+    "template": "OAngle(\"<objet>\", ",
+    "source": "ParameterExpression.cs:523"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "34",
+    "when": null,
+    "template": "ForEachLoopIndex(\"<objet>\")",
+    "source": "ParameterExpression.cs:525"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "35",
+    "when": null,
+    "template": "PFriction(\"<objet>\")",
+    "source": "ParameterExpression.cs:527"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "36",
+    "when": null,
+    "template": "PElasticity(\"<objet>\")",
+    "source": "ParameterExpression.cs:529"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "37",
+    "when": null,
+    "template": "PDensity(\"<objet>\")",
+    "source": "ParameterExpression.cs:531"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "38",
+    "when": null,
+    "template": "PVelocity(\"<objet>\")",
+    "source": "ParameterExpression.cs:533"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "39",
+    "when": null,
+    "template": "PVelocityAngle(\"<objet>\")",
+    "source": "ParameterExpression.cs:535"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "40",
+    "when": null,
+    "template": "OWidth(\"<objet>\")",
+    "source": "ParameterExpression.cs:537"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "41",
+    "when": null,
+    "template": "OHeight(\"<objet>\")",
+    "source": "ParameterExpression.cs:539"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "42",
+    "when": null,
+    "template": "PMass(\"<objet>\")",
+    "source": "ParameterExpression.cs:541"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "43",
+    "when": null,
+    "template": "PAngularVelocity(\"<objet>\")",
+    "source": "ParameterExpression.cs:543"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "44",
+    "when": null,
+    "template": "OName$(\"<objet>\")",
+    "source": "ParameterExpression.cs:545"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "45",
+    "when": null,
+    "template": "NSelectedObjects(\"<objet>\")",
+    "source": "ParameterExpression.cs:547"
+  },
+  {
+    "kind": "expression",
+    "objectType": "> 0",
+    "num": "46",
+    "when": null,
+    "template": "InstanceValue(\"<objet>\")",
+    "source": "ParameterExpression.cs:549"
+  }
+]

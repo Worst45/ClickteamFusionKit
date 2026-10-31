@@ -1,0 +1,1610 @@
+{
+  "file": "mode7ex.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 2,
+      "menu": "Render Options > Transparency Mode > Enable",
+      "text": "〰慍敫䈠慬正䤠癮獩扩敬.",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Render Options > Transparency Mode > Disable",
+      "text": "〰慍敫䈠慬正嘠獩扩敬.",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Images > Main Image Map > Load File",
+      "text": "㄰潌摡䘠汩⁥猥椠瑮⁯慍湩䤠慭敧䴠灡.",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "敓敬瑣愠⁮浩条⁥楦敬愀湩䤠慭敧䴠灡."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Size > Set Width",
+      "text": "㄰敓⁴楷瑤⁨潴┠⹳",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴楗瑤h⁨潴┠⹳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Size > Set Height",
+      "text": "㄰敓⁴敨杩瑨琠⁯猥.",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴效杩瑨琀琠⁯猥."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Rotation > Rotation Angle (Y)",
+      "text": "㄰敓⁴潒慴楴湯⠠⥙䄠杮敬琠⁯猥搠来敲獥.",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湡愠杮敬⠠敤牧敥⥳琀⁯猥搠来敲獥."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Set Origin > X",
+      "text": "㄰敓⁴⁘牏杩湩琠⁯猥.",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡潣牯楤慮整猀."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Set Origin > Z (Elevation)",
+      "text": "㄰敓⁴⁚牏杩湩琠⁯猥.",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡潣牯楤慮整猀."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Set Origin > Y",
+      "text": "㄰敓⁴⁙牏杩湩琠⁯猥.",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡潣牯楤慮整猀."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Render Options > Set Zoom factor",
+      "text": "㄰敓⁴潚浯映捡潴⁲潴┠╳⸥",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡数捲湥t⁲潴┠╳⸥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Redraw > Force Redraw",
+      "text": "〰潆捲⁥敲慣捬汵瑡潩⁮湡⁤敲牤睡搠獩汰祡.",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Rotation > Adjust Rotation Angle (Y)",
+      "text": "㄰摁番瑳删瑯瑡潩⁮夨 湁汧⁥祢┠⁳敤牧敥⹳",
+      "menuId": 25018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湡愠橤獵浴湥⁴湡汧⁥搨来敲獥)牧敥⹳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Set Origin > Slide X",
+      "text": "㄰汓摩⁥⁘牯杩湩戠⁹猥.",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湡愠橤獵浴湥⁴浡畯瑮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Set Origin > Slide Y",
+      "text": "㄰汓摩⁥⁙牯杩湩戠⁹猥.",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湡愠橤獵浴湥⁴浡畯瑮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Set Origin > Slide Z ",
+      "text": "㄰汓摩⁥汅癥瑡潩⁮稨漠楲楧⥮戠⁹猥.",
+      "menuId": 25021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湡愠橤獵浴湥⁴浡畯瑮⤀戠⁹猥."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Set Origin > Walk Forward",
+      "text": "㄰慗歬映牯慷摲┠⹳",
+      "menuId": 25022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡楤瑳湡散⸀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Set Origin > Walk Back",
+      "text": "㄰慗歬戠捡睫牡⁤猥.",
+      "menuId": 25023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡楤瑳湡散猀."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Set Origin > Walk Left (Strafe)",
+      "text": "㄰慗歬氠晥⁴猨牴晡⥥┠⹳",
+      "menuId": 25024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡楤瑳湡散昀⥥┠⹳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Set Origin > Walk Right (Strafe)",
+      "text": "㄰慗歬爠杩瑨⠠瑳慲敦 猥.",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡楤瑳湡散愀敦 猥."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Render Options > Wrap Mode > Enable Horizontal Wrap",
+      "text": "〰潈楲潺瑮污眠慲⁰湯.",
+      "menuId": 25026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Render Options > Wrap Mode > Disable Horizontal Wrap",
+      "text": "〰潈楲潺瑮污眠慲⁰景⹦",
+      "menuId": 25027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Render Options > Wrap Mode > Enable Vertical Wrap",
+      "text": "〰敖瑲捩污眠慲⁰湯.",
+      "menuId": 25028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Render Options > Wrap Mode > Disable Vertical Wrap",
+      "text": "〰敖瑲捩污眠慲⁰景⹦",
+      "menuId": 25029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Render Options > Display Resolution > Set Resolution Size",
+      "text": "㄰敓⁴敲潳畬楴湯琠⁯猥╸⹳",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潈楲潺瑮污删獥汯瑵潩⁮ㄨㄭ〰⤰",
+        "湅整⁲敖瑲捩污删獥汯瑵潩⁮ㄨㄭ〰⤰⤀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Render Options > Display Resolution > Set Resolution Mode",
+      "text": "敓⁴敲潳畬楴湯洠摯⁥潴┠‰瀨牡浡›ㄥ⸩",
+      "menuId": 25031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敒潳畬楴湯䴠摯⁥〨焽極正‬㴱畦汬‬㴲捳湡氠湩獥‬㴳数捲湥⁴捳湡氠湩獥)",
+        "慐慲敭整⁲〨渺愯‬㨱⽮ⱡ㈠渺愯‬㨳ⴰ㔲⤵氀湩獥‬㴳数捲湥⁴捳湡氠湩獥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Render Options > Thickness and Height > Set Thickness",
+      "text": "敓⁴桴捩湫獥⁳潴┠⸰",
+      "menuId": 25032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汅癥瑡潩⁮桔捩湫獥s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Render Options > Display Resolution > Set Horizontal Resolution",
+      "text": "敓⁴潨楲潺瑮污爠獥汯瑵潩⁮潴┠⸰",
+      "menuId": 25035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潈楲潺瑮污删獥汯瑵潩⁮ㄨㄭ〰⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Render Options > Display Resolution > Set Vertical Resolution",
+      "text": "敓⁴敶瑲捩污爠獥汯瑵潩⁮潴┠⸰",
+      "menuId": 25036,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲敖瑲捩污删獥汯瑵潩⁮ㄨㄭ〰⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Images > Main Image Map > Load Image number",
+      "text": "潌摡䤠慭敧┠‰湩潴䴠楡⁮浉条⁥慍⹰",
+      "menuId": 25037,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湉整湲污䤠慭敧䤠⁄畎扭牥⠠‰湩敤⥸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Images > Main Image Map > Load Image name",
+      "text": "潌摡䤠慭敧┠‰湩潴䴠楡⁮浉条⁥慍⹰",
+      "menuId": 25038,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲湉整湲污䤠慭敧丠浡e条⁥慍⹰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Images > Secondary Image Map > Load File",
+      "text": "潌摡䘠汩⁥〥椠瑮⁯敓潣摮牡⁹浉条⁥慍⹰",
+      "menuId": 25039,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "敓敬瑣愠⁮浩条⁥楦敬漀摮牡⁹浉条⁥慍⹰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Images > Secondary Image Map > Load Image number",
+      "text": "潌摡䤠慭敧┠‰湩潴匠捥湯慤祲䤠慭敧䴠灡.",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湉整湲污䤠慭敧䤠⁄畎扭牥⠠‰湩敤⥸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Images > Secondary Image Map > Load Image name",
+      "text": "潌摡䤠慭敧┠‰湩潴匠捥湯慤祲䤠慭敧䴠灡.",
+      "menuId": 25041,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲湉整湲污䤠慭敧丠浡e祲䤠慭敧䴠灡."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Images > Image Height Map > Load File",
+      "text": "潌摡䘠汩⁥〥椠瑮⁯浉条⁥效杩瑨䴠灡.",
+      "menuId": 25042,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "敓敬瑣愠⁮浩条⁥楦敬最⁥效杩瑨䴠灡."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Images > Image Height Map > Load Image number",
+      "text": "潌摡䤠慭敧┠‰湩潴䤠慭敧䠠楥桧⁴慍⹰",
+      "menuId": 25043,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湉整湲污䤠慭敧䤠⁄畎扭牥⠠‰湩敤⥸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Images > Image Height Map > Load Image name",
+      "text": "潌摡䤠慭敧┠‰湩潴䤠慭敧䠠楥桧⁴慍⹰",
+      "menuId": 25044,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲湉整湲污䤠慭敧丠浡e楥桧⁴慍⹰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Images > Secondary Image Map > Unload",
+      "text": "湕潬摡䤠慭敧映潲⁭敓潣摮牡⁹浉条⁥慍⹰",
+      "menuId": 25045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Images > Image Height Map > Unload",
+      "text": "湕潬摡䤠慭敧映潲⁭浉条⁥效杩瑨䴠灡.",
+      "menuId": 25046,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Render Options > Fog > Enable",
+      "text": "湅扡敬䘠杯",
+      "menuId": 25047,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Render Options > Fog > Disable",
+      "text": "楄慳汢⁥潆g",
+      "menuId": 25048,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Render Options > Fog > Color > Choose Color",
+      "text": "敓⁴潆⁧潃潬⁲潴┠⸰",
+      "menuId": 25049,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "桃潯敳愠䘠杯䌠汯牯⸀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 50,
+      "menu": "Render Options > Fog > Color > Set Color",
+      "text": "敓⁴潆⁧潃潬⁲潴删䉇 〥Ⱐ┠ⰱ┠′⸩",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡敒⁤慖畬⁥〨㈭㔵)┠ⰱ┠′⸩",
+        "湅整⁲⁡片敥⁮慖畬⁥〨㈭㔵)ⰱ┠′⸩",
+        "湅整⁲⁡求敵嘠污敵⠠ⴰ㔲⤵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "Render Options > Fog > Color > Set Red",
+      "text": "敓⁴潆⁧敒⁤潴┠⸰",
+      "menuId": 25051,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡敒⁤慖畬⁥〨㈭㔵)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 52,
+      "menu": "Render Options > Fog > Color > Set Green",
+      "text": "敓⁴潆⁧片敥⁮潴┠⸰",
+      "menuId": 25052,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡片敥⁮慖畬⁥〨㈭㔵)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 53,
+      "menu": "Render Options > Fog > Color > Set Blue",
+      "text": "敓⁴潆⁧求敵琠⁯〥.",
+      "menuId": 25053,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡求敵嘠污敵⠠ⴰ㔲⤵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 54,
+      "menu": "Render Options > Fog > Set Amount",
+      "text": "敓⁴潆⁧楄瑳湡散琠⁯〥.",
+      "menuId": 25054,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡潆⁧流畯瑮 〥."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 57,
+      "menu": "Secondary Layer > Slide X Origin",
+      "text": "汓摩⁥⁘牏杩湩漠⁦敓潣摮牡⁹慌敹⁲潴┠⸰",
+      "menuId": 25058,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湡愠橤獵浴湥⁴浡畯瑮 慌敹⁲潴┠⸰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 58,
+      "menu": "Secondary Layer > Slide Y Origin",
+      "text": "汓摩⁥⁙牏杩湩漠⁦敓潣摮牡⁹慌敹⁲潴┠⸰",
+      "menuId": 25059,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湡愠橤獵浴湥⁴浡畯瑮 慌敹⁲潴┠⸰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 60,
+      "menu": "Secondary Layer > Adjust Rotation Angle (Y)",
+      "text": "摁番瑳删瑯瑡潩⁮湁汧⁥夨 景匠捥湯慤祲䰠祡牥戠⁹〥搠来敲獥.",
+      "menuId": 25061,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湡愠橤獵浴湥⁴湡汧⁥搨来敲獥)祲䰠祡牥戠⁹〥搠来敲獥."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 61,
+      "menu": "Render Options > Thickness and Height > Set Thickness Mode",
+      "text": "敓⁴桔捩湫獥⁳潍敤琠⁯〥.",
+      "menuId": 25055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡桔捩湫獥⁳潍敤⠠㴰慦瑳‬㴱楦汬‬㴲畦汬)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 62,
+      "menu": "Render Options > Interpolation > Enable Image Interpolation",
+      "text": "湅扡敬䤠慭敧䤠瑮牥潰慬楴湯",
+      "menuId": 25062,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 63,
+      "menu": "Render Options > Interpolation > Disable Image Interpolation",
+      "text": "楄慳汢⁥浉条⁥湉整灲汯瑡潩n",
+      "menuId": 25063,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 64,
+      "menu": "Render Options > Interpolation > Enable Elevation Interpolation",
+      "text": "湅扡敬䔠敬慶楴湯䤠瑮牥潰慬楴湯",
+      "menuId": 25064,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 65,
+      "menu": "Render Options > Interpolation > Disable Elevation Interpolation",
+      "text": "楄慳汢⁥汅癥瑡潩⁮湉整灲汯瑡潩n",
+      "menuId": 25065,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 66,
+      "menu": "Render Options > Mip-Mapping > Enable Image Mip-Mapping",
+      "text": "湅扡敬䤠慭敧䴠灩䴭灡楰杮",
+      "menuId": 25066,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 67,
+      "menu": "Render Options > Mip-Mapping > Disable Image Mip-Mapping",
+      "text": "楄慳汢⁥浉条⁥楍⵰慍灰湩g",
+      "menuId": 25067,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 68,
+      "menu": "Render Options > Mip-Mapping > Enable Secondary Image Mip-Mapping",
+      "text": "湅扡敬匠捥湯慤祲䤠慭敧䴠灩䴭灡楰杮",
+      "menuId": 25068,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 69,
+      "menu": "Render Options > Mip-Mapping > Disable Secondary Image Mip-Mapping",
+      "text": "楄慳汢⁥敓潣摮牡⁹浉条⁥楍⵰慍灰湩g",
+      "menuId": 25069,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 70,
+      "menu": "Render Options > Mip-Mapping > Enable Image Height Map Mip-Mapping",
+      "text": "湅扡敬䤠慭敧䠠楥桧⁴慍⁰楍⵰慍灰湩g",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 71,
+      "menu": "Render Options > Mip-Mapping > Disable Image Height Map Mip-Mapping",
+      "text": "楄慳汢⁥浉条⁥效杩瑨䴠灡䴠灩䴭灡楰杮",
+      "menuId": 25071,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 72,
+      "menu": "Redraw > Enable Auto Redraw",
+      "text": "湅扡敬䄠瑵ⵯ敒牤睡",
+      "menuId": 25072,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 73,
+      "menu": "Redraw > Disable Auto-Redraw",
+      "text": "楄慳汢⁥畁潴刭摥慲w",
+      "menuId": 25073,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 74,
+      "menu": "Render Options > Mip-Mapping > Set Mip-Map Transparent Color",
+      "text": "敓⁴楍⵰慍⁰牔湡灳牡湥⁴潃潬⁲潴┠0",
+      "menuId": 25074,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "桃潯敳愠吠慲獮慰敲据⁹潃潬⁲潦⁲楍⵰慍灰湩g"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 75,
+      "menu": "Render Options > Mip-Mapping > Clear Mip-Map Transparent Color",
+      "text": "汃慥⁲楍⵰慍⁰牔湡灳牡湥祣䌠汯牯",
+      "menuId": 25075,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Size > Get Width",
+      "text": "楗瑤⡨",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Size > Get Height",
+      "text": "效杩瑨(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Images > Main Image Map > Get Image Width",
+      "text": "浉条坥摩桴(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Images > Main Image Map > Get Image Height",
+      "text": "浉条䡥楥桧⡴",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Images > Main Image Map > Get Image Name",
+      "text": "浉条乥浡⑥(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Render Options > Transparency Mode > Get Enabled (1=on)",
+      "text": "牔湡灳牡湥祣(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Rotation > Get Rotation Angle (Y)",
+      "text": "潒慴楴湯(",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Origin > Get X",
+      "text": "⁘牏杩湩(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Origin > Get Z (Elevation)",
+      "text": "⁚牏杩湩(",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Origin > Get Y",
+      "text": "⁙牏杩湩(",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Render Options > Get Zoom factor",
+      "text": "潚浯(",
+      "menuId": 27016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Render Options > Wrap Mode > Get Horizontal (1=on)",
+      "text": "牗灡⡘",
+      "menuId": 27017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Render Options > Wrap Mode > Get Vertical (1=on)",
+      "text": "牗灡⡙",
+      "menuId": 27018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Sprite Mapping > Get on-screen X from X,Y",
+      "text": "敇䵴灡⡘",
+      "menuId": 27019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Sprite Mapping > Get on-screen Y from X,Y",
+      "text": "敇䵴灡⡙",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Sprite Mapping > Get on-screen X from X,Y,Z",
+      "text": "敇䵴灡婘(",
+      "menuId": 27021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Sprite Mapping > Get on-screen Y from X,Y,Z",
+      "text": "敇䵴灡婙(",
+      "menuId": 27022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Sprite Mapping > Get on-screen width from X,Y,W,H",
+      "text": "敇䵴灡楗瑤⡨",
+      "menuId": 27023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Sprite Mapping > Get on-screen height from X,Y,W,H",
+      "text": "敇䵴灡效杩瑨(",
+      "menuId": 27024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Sprite Mapping > Get on-screen angle from X,Y,A",
+      "text": "敇䵴灡湁汧⡥",
+      "menuId": 27027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Sprite Mapping > Visible at X,Y,W,H (1=visible)",
+      "text": "敇䵴灡楖楳汢⡥",
+      "menuId": 27028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Render Options > Display Resolution > Get Horizontal Resolution",
+      "text": "敒潳畬楴湯⡘",
+      "menuId": 27029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Render Options > Display Resolution > Get Vertical Resolution",
+      "text": "敒潳畬楴湯⡙",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Render Options > Display Resolution > Get Resolution Mode",
+      "text": "敒潳畬楴湯潍敤(",
+      "menuId": 27031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Render Options > Display Resolution > Get Resolution Mode Parameter",
+      "text": "敒潳畬楴湯潍敤慐慲⡭",
+      "menuId": 27032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Render Options > Thickness and Height > Get Thickness",
+      "text": "桔捩湫獥⡳",
+      "menuId": 27033,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Images > Main Image Map > Get Image Number",
+      "text": "浉条乥浵敢⡲",
+      "menuId": 27034,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Images > Secondary Image Map > Get Image Width",
+      "text": "敓潣摮牡䥹慭敧楗瑤⡨",
+      "menuId": 27035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Images > Secondary Image Map > Get Image Height",
+      "text": "敓潣摮牡䥹慭敧效杩瑨(",
+      "menuId": 27036,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Images > Secondary Image Map > Get Image Number",
+      "text": "敓潣摮牡䥹慭敧畎扭牥(",
+      "menuId": 27037,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Images > Secondary Image Map > Get Image Name",
+      "text": "敓潣摮牡䥹慭敧慎敭⠤",
+      "menuId": 27038,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Images > Image Height Map > Get Image Width",
+      "text": "效杩瑨浉条坥摩桴(",
+      "menuId": 27039,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Images > Image Height Map > Get Image Height",
+      "text": "效杩瑨浉条䡥楥桧⡴",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Images > Image Height Map > Get Image Number",
+      "text": "效杩瑨浉条乥浵敢⡲",
+      "menuId": 27041,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Images > Image Height Map > Get Image Name",
+      "text": "效杩瑨浉条慎敭⠤",
+      "menuId": 27042,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Images > Image Height Map > Get Height At",
+      "text": "效杩瑨瑁(",
+      "menuId": 27043,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Render Options > Fog > Enabled Mode (1=on)",
+      "text": "潆⡧",
+      "menuId": 27044,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Render Options > Fog > Color > Get Red",
+      "text": "潆剧摥(",
+      "menuId": 27045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Render Options > Fog > Color > Get Green",
+      "text": "潆䝧敲湥(",
+      "menuId": 27046,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Render Options > Fog > Color > Get Blue",
+      "text": "潆䉧畬⡥",
+      "menuId": 27047,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Render Options > Fog > Get Amount",
+      "text": "潆䑧獩慴据⡥",
+      "menuId": 27048,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Secondary Layer > Get X Origin",
+      "text": "敓潣摮牡塹晏獦瑥(",
+      "menuId": 27049,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 50,
+      "menu": "Secondary Layer > Get Y Origin",
+      "text": "敓潣摮牡她晏獦瑥(",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "Secondary Layer > Get Rotation Angle (Y)",
+      "text": "敓潣摮牡䅹杮敬(",
+      "menuId": 27051,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 52,
+      "menu": "Render Options > Thickness and Height > Get Thickness Mode",
+      "text": "桔捩湫獥䵳摯⡥",
+      "menuId": 27052,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 53,
+      "menu": "Render Options > Interpolation > Image Interpolation Mode (1=on)",
+      "text": "浉条䥥瑮牥潰慬楴湯(",
+      "menuId": 27053,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 54,
+      "menu": "Render Options > Interpolation > Elevation Interpolation Mode (1=on)",
+      "text": "汅癥瑡潩䥮瑮牥潰慬楴湯(",
+      "menuId": 27054,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 55,
+      "menu": "Render Options > Mip-Mapping > Get Image Mip-Mapping Mode (1=on)",
+      "text": "浉条䵥灩慍⡰",
+      "menuId": 27055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 56,
+      "menu": "Render Options > Mip-Mapping > Get Secondary Image Mip-Mapping Mode (1=on)",
+      "text": "敓潣摮牡䥹慭敧楍䵰灡(",
+      "menuId": 27056,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 57,
+      "menu": "Render Options > Mip-Mapping > Get Image Height Map Mip-Mapping Mode (1=on)",
+      "text": "汅癥瑡潩䵮灩慍⡰",
+      "menuId": 27057,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 58,
+      "menu": "Redraw > Auto-Redraw Enabled (1=on)",
+      "text": "畁潴敒牤睡(",
+      "menuId": 27058,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 59,
+      "menu": "Sprite Mapping > Visible at X,Y,Z,W,H (1=visible)",
+      "text": "敇䵴灡楖楳汢婥(",
+      "menuId": 27059,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

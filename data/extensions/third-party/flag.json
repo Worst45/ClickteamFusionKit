@@ -1,0 +1,256 @@
+{
+  "file": "flag.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Compare to a flag",
+      "text": "ㄱ猥›潃灭牡⁥汦条┠⁳楷桴┠s",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "娨牥ⵯ慢敳⥤ 汦条┠⁳楷桴┠s",
+        "〨漠⁲⤱攀⥤ 汦条┠⁳楷桴┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "AND flags",
+      "text": "ㄱ猥›乁⁄汦条⁳猥琠⁯猥",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "娨牥ⵯ慢敳⥤最⁳猥琠⁯猥",
+        "乁⁄汦条s⥤最⁳猥琠⁯猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "OR flags",
+      "text": "ㄱ猥›剏映慬獧┠⁳潴┠s",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "娨牥ⵯ慢敳⥤猀┠⁳潴┠s",
+        "剏映慬獧攀⥤猀┠⁳潴┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Count flags",
+      "text": "漥›畎扭牥漠⁦牴敵映慬獧映潲⁭〥琠⁯ㄥ㈥㌥",
+      "menuId": 26015,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22,
+        22,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "娨牥ⵯ慢敳⥤ 牴敵映慬獧映潲⁭〥琠⁯ㄥ㈥㌥",
+        "潃湵⁴汦条s 牴敵映慬獧映潲⁭〥琠⁯ㄥ㈥㌥",
+        "湅整⁲⁡潣灭牡獩湯攠灸敲獳潩⁮㴨‬㸼‬ⰼ㸠‬㴼‬㴾)",
+        "潃湵⁴汦条s牡獩湯攠灸敲獳潩⁮㴨‬㸼‬ⰼ㸠‬㴼‬㴾)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set a flag",
+      "text": "㄰敓⁴汦条┠⁳潴┠s",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "娨牥ⵯ慢敳⥤ 潴┠s",
+        "〨漠⁲⤱攀⥤ 潴┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Toggle a flag",
+      "text": "㄰潔杧敬映慬⁧猥",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "娨牥ⵯ慢敳⥤ 猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set all flags",
+      "text": "㄰敓⁴污⁬汦条⁳潴┠s",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "〨漠⁲⤱ 汦条⁳潴┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Toggle all flags",
+      "text": "〰潔杧敬愠汬映慬獧",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Set flags in a interval",
+      "text": "敓⁴汦条椠⁮湩整癲污┠‰‭ㄥ琠⁯㈥",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "娨牥ⵯ慢敳⥤渀整癲污┠‰‭ㄥ琠⁯㈥",
+        "敓⁴汦条⁳湩愠椠瑮牥慶l‭ㄥ琠⁯㈥",
+        "〨漠⁲⤱ 湩愠椠瑮牥慶l‭ㄥ琠⁯㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Toggle flags in a interval",
+      "text": "㄰潔杧敬映慬獧椠⁮湩整癲污┠⁳‭猥",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "娨牥ⵯ慢敳⥤猀椠⁮湩整癲污┠⁳‭猥",
+        "潔杧敬映慬獧椠⁮⁡湩整癲污─⁳‭猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get a flag",
+      "text": "敇䙴慬⡧",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "AND flags",
+      "text": "乁䙄慬獧(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "OR flags",
+      "text": "剏汆条⡳",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Total number of flags",
+      "text": "畎扭牥晏汆条⡳",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Number of true flags in interval",
+      "text": "畎扭牥晏牔敵汆条⡳",
+      "menuId": 27025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

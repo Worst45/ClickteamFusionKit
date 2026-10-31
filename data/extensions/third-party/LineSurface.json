@@ -1,0 +1,63 @@
+{
+  "file": "LineSurface.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set centre coordinate",
+      "text": "敓⁴散瑮敲挠潯摲湩瑡獥琠⁯〥‬ㄥ",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘潣牯楤慮整漀摲湩瑡獥琠⁯〥‬ㄥ",
+        "⁙潣牯楤慮整漀摲湩瑡獥琠⁯〥‬ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Draw line",
+      "text": "牄睡氠湩⁥牦浯┠ⰰ┠‱潴┠ⰲ┠″楷桴琠楨正敮獳┠‴湡⁤潣潬牵┠5",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "瑓牡⁴⁘潣牯楤慮整─‱潴┠ⰲ┠″楷桴琠楨正敮獳┠‴湡⁤潣潬牵┠5",
+        "瑓牡⁴⁙潣牯楤慮整─‱潴┠ⰲ┠″楷桴琠楨正敮獳┠‴湡⁤潣潬牵┠5",
+        "湅⁤⁘潣牯楤慮整攀─‱潴┠ⰲ┠″楷桴琠楨正敮獳┠‴湡⁤潣潬牵┠5",
+        "湅⁤⁙潣牯楤慮整攀─‱潴┠ⰲ┠″楷桴琠楨正敮獳┠‴湡⁤潣潬牵┠5",
+        "桔捩湫獥s楤慮整攀─‱潴┠ⰲ┠″楷桴琠楨正敮獳┠‴湡⁤潣潬牵┠5",
+        "潃潬牵猀s楤慮整攀─‱潴┠ⰲ┠″楷桴琠楨正敮獳┠‴湡⁤潣潬牵┠5"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Clear surface",
+      "text": "汃慥⁲畳晲捡e",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": []
+}

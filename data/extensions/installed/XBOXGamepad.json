@@ -1,0 +1,659 @@
+{
+  "file": "XBOXGamepad.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Gamepad is connected",
+      "text": "%o: Gamepad of player %0 is connected",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Player number, from 0 to 3"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Buttons > Button A is pressed",
+      "text": "%o: Button A of player %0 is pressed",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Number of the players, 1 for p1, 2 for p2, 4 for p3, 8 for p4 or any combination"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Buttons > Button B is pressed",
+      "text": "%o: Button B of player %0 is pressed",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Number of the players, 1 for p1, 2 for p2, 4 for p3, 8 for p4 or any combination"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Buttons > Button X is pressed",
+      "text": "%o: Button X of player %0 is pressed",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Number of the players, 1 for p1, 2 for p2, 4 for p3, 8 for p4 or any combination"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Buttons > Button Y is pressed",
+      "text": "%o: Button Y of player %0 is pressed",
+      "menuId": 26004,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Number of the players, 1 for p1, 2 for p2, 4 for p3, 8 for p4 or any combination"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Buttons > Back button is pressed",
+      "text": "%o: Back button of player %0 is pressed",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Number of the players, 1 for p1, 2 for p2, 4 for p3, 8 for p4 or any combination"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Shoulders > Left shoulder is pressed",
+      "text": "%o: Left shoulder of player %0 is pressed",
+      "menuId": 26007,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Number of the players, 1 for p1, 2 for p2, 4 for p3, 8 for p4 or any combination"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Sticks > Left stick is pressed",
+      "text": "%o: Left stick of player %0 is pressed",
+      "menuId": 26008,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Number of the players, 1 for p1, 2 for p2, 4 for p3, 8 for p4 or any combination"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Shoulders > Right shoulder is pressed",
+      "text": "%o: Right shoulder of player %0 is pressed",
+      "menuId": 26009,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Number of the players, 1 for p1, 2 for p2, 4 for p3, 8 for p4 or any combination"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Sticks > Right stick is pressed",
+      "text": "%o: Right stick of player %0 is pressed",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Number of the players, 1 for p1, 2 for p2, 4 for p3, 8 for p4 or any combination"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Buttons > Start is pressed",
+      "text": "%o: Start button of player %0 is pressed",
+      "menuId": 26011,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Number of the players, 1 for p1, 2 for p2, 4 for p3, 8 for p4 or any combination"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Direction pad > DPad up is pressed",
+      "text": "%o: DPad up button of player %0 is pressed",
+      "menuId": 26012,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Number of the players, 1 for p1, 2 for p2, 4 for p3, 8 for p4 or any combination"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Direction pad > DPad down is pressed",
+      "text": "%o: DPad down button of player %0 is pressed",
+      "menuId": 26013,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Number of the players, 1 for p1, 2 for p2, 4 for p3, 8 for p4 or any combination"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Direction pad > DPad left is pressed",
+      "text": "%o: DPad left button of player %0 is pressed",
+      "menuId": 26014,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Number of the players, 1 for p1, 2 for p2, 4 for p3, 8 for p4 or any combination"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Direction pad > DPad right is pressed",
+      "text": "%o: DPad right button of player %0 is pressed",
+      "menuId": 26015,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Number of the players, 1 for p1, 2 for p2, 4 for p3, 8 for p4 or any combination"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Button is pressed",
+      "text": "Button %1 of players %0 is pressed",
+      "menuId": 26016,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Number of the players, 1 for p1, 2 for p2, 4 for p3, 8 for p4 or any combination",
+        "Enter the button number"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Any button is pressed",
+      "text": "%o: Any button of player %0 is pressed",
+      "menuId": 26017,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Number of the players, 1 for p1, 2 for p2, 4 for p3, 8 for p4 or any combination"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Vibrate",
+      "text": "Vibrate gamepad of player %0, left motor %1, right motor %2, duration %3",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Number of the players, 1 for p1, 2 for p2, 4 for p3, 8 for p4 or any combination",
+        "Left motor (0-100)",
+        "Right motor (0-100)",
+        "Enter duration, in 1/1000th of second"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Sticks > Left > Get horizontal position",
+      "text": "StickLeftH(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player numbers"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Sticks > Left > Get vertical position",
+      "text": "StickLeftV(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player numbers"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Sticks > Right > Get horizontal position",
+      "text": "StickRightH(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player numbers"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Sticks > Right > Get vertical position",
+      "text": "StickRightV(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player numbers"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Triggers > Get position of left trigger",
+      "text": "TriggerLeft(",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player numbers"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Triggers > Get position of right trigger",
+      "text": "TriggerRight(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player numbers"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Buttons > Button A pressed",
+      "text": "ButtonA(",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player numbers"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Buttons > Button B pressed",
+      "text": "ButtonB(",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player numbers"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Buttons > Button X pressed",
+      "text": "ButtonX(",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player numbers"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Buttons > Button Y pressed",
+      "text": "ButtonY(",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player numbers"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Buttons > Back button pressed",
+      "text": "ButtonBack(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player numbers"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Shoulders > Left shoulder pressed",
+      "text": "ButtonLS(",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player numbers"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Sticks > Left > Stick pressed",
+      "text": "ButtonLStick(",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player numbers"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Shoulders > Right shoulder pressed",
+      "text": "ButtonRS(",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player numbers"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Sticks > Right > Stick pressed",
+      "text": "ButtonRightStick(",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player numbers"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Buttons > Start pressed",
+      "text": "ButtonStart(",
+      "menuId": 27016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player numbers"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Direction pad > DPad up pressed",
+      "text": "ButtonDPADUp(",
+      "menuId": 27017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player numbers"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Direction pad > DPad down pressed",
+      "text": "ButtonDPADDown(",
+      "menuId": 27018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player numbers"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Direction pad > DPad left pressed",
+      "text": "ButtonDPADLeft(",
+      "menuId": 27019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player numbers"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Direction pad > DPad right pressed",
+      "text": "ButtonDPADRight(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player numbers"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Given button pressed",
+      "text": "Buttons(",
+      "menuId": 27021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "Player numbers",
+        "Button number"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Find pressed button",
+      "text": "FindButton(",
+      "menuId": 27022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player numbers"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

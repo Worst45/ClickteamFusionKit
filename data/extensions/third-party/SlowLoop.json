@@ -1,0 +1,61 @@
+{
+  "file": "SlowLoop.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "SlowLoop",
+      "text": "汓睯潌灯┠‰灵琠⁯ㄥ琠浩獥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "汓睯潌灯丠浡e琠⁯ㄥ琠浩獥",
+        "敒数瑡吠浩獥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set SlowLoop Index",
+      "text": "敓⁴汓睯䰠潯⁰湉敤⁸景┠‰潴┠1",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "汓睯潌灯丠浡e湉敤⁸景┠‰潴┠1",
+        "湉敤x灯丠浡e湉敤⁸景┠‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get SlowLoop Index",
+      "text": "汓睯潌灯湉敤⡸",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "汓睯潌灯丠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

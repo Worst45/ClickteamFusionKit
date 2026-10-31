@@ -1,0 +1,194 @@
+{
+  "file": "kcshape.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set standard shape",
+      "text": "00Set standard shape",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set rounded rectangle shape",
+      "text": "01Set rounded rectangle shape (%s,%s)",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Corner width",
+        "Corner height"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set elliptical shape",
+      "text": "00Set elliptical shape",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Set image shape",
+      "text": "01Set shape from image %s",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Image number (0-based)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Set shape from picture file",
+      "text": "01Set shape from %s",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "Set shape from &picture file"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get shape picture file from selector",
+      "text": "00Get picture file from selector",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Enable",
+      "text": "00Enable",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Disable",
+      "text": "00Disable",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Set shape from Active object",
+      "text": "Set shape from Active object %0",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Enter the name of the Active object"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Picture filename",
+      "text": "Filename$(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Number of images",
+      "text": "NumberOfImages(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Current image number",
+      "text": "CurrentImage(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Width",
+      "text": "Width(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Height",
+      "text": "Height(",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "file": "OpenURLs.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Open URL",
+      "text": "灏湥唠䱒┠0",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "剕⁌潴传数n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": []
+}

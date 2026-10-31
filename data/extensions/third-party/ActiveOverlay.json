@@ -1,0 +1,35 @@
+{
+  "file": "ActiveOverlay.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Redux adress",
+      "text": "敓⁴摡敲獳㴠┠0",
+      "menuId": 25000,
+      "resText": "Set adress = %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "摁牤獥⁳景漠敶汲祡爠摥硵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Update",
+      "text": "灕慤整搠獩汰祡",
+      "menuId": 25010,
+      "resText": "Update display",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": []
+}

@@ -1,0 +1,109 @@
+{
+  "file": "Microphone.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Recording done",
+      "text": "漥›敒潣摲湩⁧潤敮",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Listen",
+      "text": "楌瑳湥映牯┠‰敳潣摮s",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畎扭牥漠⁦敳潣摮s摮s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Play from memory",
+      "text": "汐祡洠浥牯⁹畢晦牥愠⁴敬瑦┠ⰰ爠杩瑨┠‱楷桴猠穩⁥㈥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敌瑦愠摤敲獳甀晦牥愠⁴敬瑦┠ⰰ爠杩瑨┠‱楷桴猠穩⁥㈥",
+        "楒桧⁴摡牤獥s晦牥愠⁴敬瑦┠ⰰ爠杩瑨┠‱楷桴猠穩⁥㈥",
+        "楓敺 摡牤獥s晦牥愠⁴敬瑦┠ⰰ爠杩瑨┠‱楷桴猠穩⁥㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Save to file",
+      "text": "慓敶琠⁯楦敬┠0",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆敬慮敭椀敬┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Left buffer address",
+      "text": "敌瑦畂晦牥摁牤獥⡳",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Right buffer address",
+      "text": "楒桧䉴晵敦䅲摤敲獳(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Buffer size",
+      "text": "畂晦牥楓敺(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

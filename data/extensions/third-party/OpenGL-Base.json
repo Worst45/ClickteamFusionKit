@@ -1,0 +1,585 @@
+{
+  "file": "OpenGL-Base.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Is visible?",
+      "text": "漥›獉瘠獩扩敬",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Is double buffered?",
+      "text": "漥›獉搠畯汢⁥畢晦牥摥",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Has stereo buffers?",
+      "text": "漥›慈⁳瑳牥潥戠晵敦獲",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "On create window success",
+      "text": "漥›湏挠敲瑡⁥楷摮睯猠捵散獳",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "On create window failure",
+      "text": "漥›湏挠敲瑡⁥楷摮睯映楡畬敲",
+      "menuId": 26004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "On redraw",
+      "text": "漥›湏爠摥慲w",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Is V-Sync supported?",
+      "text": "漥›ⵖ祓据椠⁳畳灰牯整d",
+      "menuId": 26006,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Is V-Sync enabled?",
+      "text": "漥›ⵖ祓据椠⁳湥扡敬d",
+      "menuId": 26007,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Position > Set X coordinate...",
+      "text": "敓⁴⁘潰楳楴湯琠⁯〥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴⁘潣牯楤慮整⸮."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Position > Set Y coordinate...",
+      "text": "敓⁴⁙潰楳楴湯琠⁯〥",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴⁙潣牯楤慮整⸮."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Size > Set width...",
+      "text": "敓⁴楷瑤⁨潴┠0",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴楷瑤⹨⸮─0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Size > Set height...",
+      "text": "敓⁴敨杩瑨琠⁯〥",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴敨杩瑨⸮.〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Visibility > Show",
+      "text": "桓睯眠湩潤w",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Visibility > Hide",
+      "text": "楈敤眠湩潤w",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Pixel format descriptor > Double buffer...",
+      "text": "潄扵敬戠晵敦㩲┠0",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Pixel format descriptor > Stereo buffer...",
+      "text": "瑓牥潥戠晵敦㩲┠0",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Pixel format descriptor > Color bits...",
+      "text": "潃潬⁲楢獴›〥",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潃潬⁲楢獴⸮."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Pixel format descriptor > Alpha bits...",
+      "text": "汁桰⁡楢獴›〥",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汁桰⁡楢獴⸮."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Pixel format descriptor > Depth bits...",
+      "text": "敄瑰⁨楢獴›〥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敄瑰⁨楢獴⸮."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Pixel format descriptor > Accum bits...",
+      "text": "捁畣⁭楢獴›〥",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "捁畣⁭楢獴⸮."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Pixel format descriptor > Stencil bits...",
+      "text": "瑓湥楣⁬楢獴›〥",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "瑓湥楣⁬楢獴⸮."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Create window",
+      "text": "牃慥整眠湩潤w",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Make current",
+      "text": "慍敫挠牵敲瑮",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Auto swap buffers > Enable",
+      "text": "湅扡敬愠瑵⁯睳灡戠晵敦獲",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Auto swap buffers > Disable",
+      "text": "楄慳汢⁥畡潴猠慷⁰畢晦牥s",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Swap buffers",
+      "text": "睓灡戠晵敦獲",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Auto redraw > Enable",
+      "text": "湅扡敬愠瑵⁯敲牤睡",
+      "menuId": 25018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Auto redraw > Disable",
+      "text": "楄慳汢⁥畡潴爠摥慲w",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Force redraw",
+      "text": "潆捲⁥敲牤睡",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "V-Sync > Enable",
+      "text": "湅扡敬嘠匭湹c",
+      "menuId": 25021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "V-Sync > Disable",
+      "text": "楄慳汢⁥ⵖ祓据",
+      "menuId": 25022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get X position",
+      "text": "⡘",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Y position",
+      "text": "⡙",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get width",
+      "text": "楗瑤⡨",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get height",
+      "text": "效杩瑨(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Pixel format descriptor > Get color bits",
+      "text": "潃潬䉲瑩⡳",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Pixel format descriptor > Get alpha bits",
+      "text": "汁桰䉡瑩⡳",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Pixel format descriptor > Get depth bits",
+      "text": "敄瑰䉨瑩⡳",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Pixel format descriptor > Get accum bits",
+      "text": "捁畣䉭瑩⡳",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Pixel format descriptor > Get stencil bits",
+      "text": "瑓湥楣䉬瑩⡳",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Handles > Get window handle",
+      "text": "坨摮(",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Handles > Get device context handle",
+      "text": "䑨⡃",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Handles > Get rendering context handle",
+      "text": "剨⡃",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Error > Get error number",
+      "text": "牅潲⡲",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Error > Get error string",
+      "text": "牅潲卲牴湩⑧(",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

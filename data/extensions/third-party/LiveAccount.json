@@ -1,0 +1,57 @@
+{
+  "file": "LiveAccount.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On account enumerate",
+      "text": "漥㨠传⁮捡潣湵⁴湥浵牥瑡e",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Enumerate accounts",
+      "text": "湅浵牥瑡⁥捡潣湵獴",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Account username",
+      "text": "獕牥慮敭⠤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Account password",
+      "text": "慐獳潷摲⠤",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

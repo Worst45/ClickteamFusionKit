@@ -1,0 +1,569 @@
+{
+  "file": "WargameMap.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Compare to cost of movement for a tile",
+      "text": "漥㨠䌠獯⁴景琠汩⁥瑡┠‰‬ㄥ椠⁳㈥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22,
+        22,
+        23
+      ],
+      "paramTitles": [
+        "楔敬堠挠潯摲湩瑡e瑡┠‰‬ㄥ椠⁳㈥",
+        "楔敬夠挠潯摲湩瑡e瑡┠‰‬ㄥ椠⁳㈥",
+        "潃灭牡⁥潴琠敨洠癯浥湥⁴潣瑳椀⁳㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Is tile impassable?",
+      "text": "漥㨠吠汩⁥瑡┠‰‬ㄥ椠⁳浩慰獳扡敬",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楔敬堠挠潯摲湩瑡eㄥ椠⁳浩慰獳扡敬",
+        "楔敬夠挠潯摲湩瑡eㄥ椠⁳浩慰獳扡敬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Does a valid path exist?",
+      "text": "漥㨠䄠瘠污摩瀠瑡⁨硥獩獴",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Compare to the total cost... > of the entire path",
+      "text": "漥㨠吠瑯污挠獯⁴景琠敨瀠瑡⁨〥",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        23
+      ],
+      "paramTitles": [
+        "潃灭牡⁥潴琠敨洠癯浥湥⁴潣瑳　"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Compare to the number of movements in the path",
+      "text": "漥㨠丠浵敢⁲景洠癯浥湥獴椠⁮桴⁥慰桴┠0",
+      "menuId": 26004,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        23
+      ],
+      "paramTitles": [
+        "潃灭牡⁥潴琠敨渠浵敢⁲景洠癯浥湥獴椠⁮桴⁥慰桴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Compare to the total cost... > from the beginning to a specified movement",
+      "text": "漥㨠吠瑯污挠獯⁴牦浯戠来湩楮杮琠⁯潰湩⁴〥椠⁳ㄥ",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22,
+        23
+      ],
+      "paramTitles": [
+        "湉敤⁸景洠癯浥湥t浯戠来湩楮杮琠⁯潰湩⁴〥椠⁳ㄥ",
+        "潃灭牡⁥潴琠敨洠癯浥湥⁴潣瑳最琠⁯潰湩⁴〥椠⁳ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Compare to the direction of a specified movement",
+      "text": "漥㨠䐠物捥楴湯漠⁦潰湩⁴〥┠1",
+      "menuId": 26006,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22,
+        23
+      ],
+      "paramTitles": [
+        "湉敤⁸景洠癯浥湥t潰湩⁴〥┠1",
+        "潃灭牡⁥潴琠敨搠物捥楴湯漠⁦桴獩洠癯浥湥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Compare to the total cost... > from the beginning to the current movement",
+      "text": "漥㨠吠瑯污挠獯⁴牦浯戠来湩楮杮琠⁯畣牲湥⁴潰湩⁴獩┠0",
+      "menuId": 26007,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        23
+      ],
+      "paramTitles": [
+        "潃灭牡⁥潴琠敨洠癯浥湥⁴潣瑳最琠⁯畣牲湥⁴潰湩⁴獩┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Compare to the direction of the current movement",
+      "text": "漥㨠䐠物捥楴湯漠⁦畣牲湥⁴潰湩⁴〥",
+      "menuId": 26008,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        23
+      ],
+      "paramTitles": [
+        "潃灭牡⁥潴琠敨搠物捥楴湯漠⁦桴獩洠癯浥湥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "End of path reached?",
+      "text": "漥㨠䔠摮漠⁦慰桴爠慥档摥",
+      "menuId": 26009,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set map width",
+      "text": "敓⁴慭⁰楷瑤⁨潴┠0",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗瑤⁨景琠敨洠灡─0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set map height",
+      "text": "敓⁴慭⁰敨杩瑨琠⁯〥",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "效杩瑨漠⁦桴⁥慭p〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set the cost of movement for a tile",
+      "text": "敓⁴桴⁥潣瑳漠⁦桴⁥楴敬愠⁴〥Ⱐ┠‱潴┠2",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楔敬堠挠潯摲湩瑡e⁥楴敬愠⁴〥Ⱐ┠‱潴┠2",
+        "楔敬夠挠潯摲湩瑡e⁥楴敬愠⁴〥Ⱐ┠‱潴┠2",
+        "桔⁥潭敶敭瑮挠獯⁴景琠楨⁳楴敬Ⰰ┠‱潴┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Calculate a path",
+      "text": "慃捬汵瑡⁥⁡慰桴猠慴瑲湩⁧牦浯┠‰‬ㄥ琠⁯㈥Ⱐ┠3",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "瑓牡楴杮琠汩❥⁳⁘潣牯楤慮整洀┠‰‬ㄥ琠⁯㈥Ⱐ┠3",
+        "瑓牡楴杮琠汩❥⁳⁙潣牯楤慮整洀┠‰‬ㄥ琠⁯㈥Ⱐ┠3",
+        "敄瑳湩瑡潩⁮楴敬猧堠挠潯摲湩瑡e‰‬ㄥ琠⁯㈥Ⱐ┠3",
+        "敄瑳湩瑡潩⁮楴敬猧夠挠潯摲湩瑡e‰‬ㄥ琠⁯㈥Ⱐ┠3"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Next movement in path",
+      "text": "摁慶据⁥潴琠敨渠硥⁴潭敶敭瑮",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Previous movement in path",
+      "text": "潇戠捡⁫潴琠敨瀠敲楶畯⁳潭敶敭瑮",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Reset movement to start of path",
+      "text": "敒敳⁴桴⁥潭敶敭瑮琠⁯桴⁥瑳牡⁴景琠敨瀠瑡h",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Calculate line-of-sight path",
+      "text": "慃捬汵瑡⁥楬敮漭ⵦ楳桧⁴慰桴映潲⁭〥Ⱐ┠‱潴┠′‬㌥",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "瑓牡楴杮琠汩❥⁳⁘潣牯楤慮整昀潲⁭〥Ⱐ┠‱潴┠′‬㌥",
+        "瑓牡楴杮琠汩❥⁳⁙潣牯楤慮整昀潲⁭〥Ⱐ┠‱潴┠′‬㌥",
+        "敄瑳湩瑡潩⁮楴敬猧堠挠潯摲湩瑡e⁭〥Ⱐ┠‱潴┠′‬㌥",
+        "敄瑳湩瑡潩⁮楴敬猧夠挠潯摲湩瑡e⁭〥Ⱐ┠‱潴┠′‬㌥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Map properties > Map width",
+      "text": "慍⁰楗瑤⡨",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Map properties > Map height",
+      "text": "慍⁰效杩瑨(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Map properties > Cost of movement for a tile",
+      "text": "潃瑳漠⁦楔敬(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楔敬堠挠潯摲湩瑡e",
+        "楔敬夠挠潯摲湩瑡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Total cost... > of the entire path",
+      "text": "潃瑳漠⁦慐桴(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Number of movements in the path",
+      "text": "敌杮桴漠⁦慐桴(",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Total cost... > from the beginning to a specified movement",
+      "text": "潃瑳琠⁯潍敶敭瑮(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤⁸景洠癯浥湥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Specified movement > Direction",
+      "text": "潍敶敭瑮䐠物捥楴湯(",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤⁸景洠癯浥湥t("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Specified movement > X coordinate",
+      "text": "潍敶敭瑮堠(",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤⁸景洠癯浥湥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Specified movement > Y coordinate",
+      "text": "潍敶敭瑮夠(",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤⁸景洠癯浥湥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Start and Destination tiles > X coordinate of the starting point",
+      "text": "瑓牡⁴⡘",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Start and Destination tiles > Y coordinate of the starting point",
+      "text": "瑓牡⁴⡙",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Start and Destination tiles > X coordinate of the destination point",
+      "text": "敄瑳堠(",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Start and Destination tiles > Y coordinate of the destination point",
+      "text": "敄瑳夠(",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Current movement > Index",
+      "text": "畃牲湥⁴湉敤⡸",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Total cost... > from the beginning to the current movement",
+      "text": "潃瑳琠⁯畃牲湥⡴",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Current movement > Direction",
+      "text": "畃牲湥⁴楄敲瑣潩⡮",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Current movement > X coordinate",
+      "text": "畃牲湥⁴⡘",
+      "menuId": 27016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Current movement > Y coordinate",
+      "text": "畃牲湥⁴⡙",
+      "menuId": 27017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Specified movement > Cost of movement",
+      "text": "潍敶敭瑮䌠獯⡴",
+      "menuId": 27018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤⁸景洠癯浥湥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Current movement > Cost of movement",
+      "text": "畃牲湥⁴潃瑳(",
+      "menuId": 27019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

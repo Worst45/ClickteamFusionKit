@@ -1,0 +1,401 @@
+{
+  "file": "while.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Start While",
+      "text": "瑓牡⁴桗汩⁥〥",
+      "menuId": 26000,
+      "resText": "Start While %0",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉爀⁴桗汩⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "End While",
+      "text": "湅⁤桗汩e",
+      "menuId": 26010,
+      "resText": "End While",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Sub While",
+      "text": "畓⁢桗汩⁥〥",
+      "menuId": 26020,
+      "resText": "Sub While %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉 桗汩⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Nest While",
+      "text": "敎瑳圠楨敬┠ⰰ┠1",
+      "menuId": 26030,
+      "resText": "Nest While %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "汏⁤䑉椀敬┠ⰰ┠1",
+        "敎⁷䑉椀敬┠ⰰ┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Limit Loops",
+      "text": "楌業⁴潌灯⁳潴┠0",
+      "menuId": 26040,
+      "resText": "Limit Loops to %0",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慍⁸潌灯s⁳潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Loop Index",
+      "text": "敓⁴潌灯䤠摮硥琠⁯〥",
+      "menuId": 25000,
+      "resText": "Set Loop Index to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潌灯䤠摮硥搀硥琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Kill Current Loop",
+      "text": "楋汬䌠牵敲瑮䰠潯p",
+      "menuId": 25010,
+      "resText": "Kill Current Loop",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set Current ID (CAUTION!)",
+      "text": "敓⁴畃牲湥⁴䑉琠⁯〥",
+      "menuId": 25020,
+      "resText": "Set Current ID to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敎⁷䑉爀湥⁴䑉琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Trigger > Start While",
+      "text": "牔杩敧⁲瑓牡⁴桗汩ⱥ䤠⁄〥‬湉敤⁸ㄥ",
+      "menuId": 25030,
+      "resText": "Trigger Start While, ID %0, Index %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "䑉最敧⁲瑓牡⁴桗汩ⱥ䤠⁄〥‬湉敤⁸ㄥ",
+        "潌灯䤠摮硥爀⁴桗汩ⱥ䤠⁄〥‬湉敤⁸ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Trigger > Sub While",
+      "text": "牔杩敧⁲畓⁢桗汩ⱥ䤠⁄〥‬湉敤⁸ㄥ",
+      "menuId": 25040,
+      "resText": "Trigger Sub While, ID %0, Index %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "䑉最敧⁲畓⁢桗汩ⱥ䤠⁄〥‬湉敤⁸ㄥ",
+        "潌灯䤠摮硥 桗汩ⱥ䤠⁄〥‬湉敤⁸ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Trigger > Nest While",
+      "text": "牔杩敧⁲敎瑳圠楨敬‬䑉┠ⰰ䤠摮硥┠1",
+      "menuId": 25050,
+      "resText": "Trigger Nest While, ID %0, Index %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "汏⁤䑉 敎瑳圠楨敬‬䑉┠ⰰ䤠摮硥┠1",
+        "潌灯䤠摮硥琀圠楨敬‬䑉┠ⰰ䤠摮硥┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Set Nest Depth (CAUTION!)",
+      "text": "敓⁴敎瑳敄瑰⁨潴┠0",
+      "menuId": 25060,
+      "resText": "Set NestDepth to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敎瑳敄瑰h瑰⁨潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Dialog Box Options > Auto Triggers > Start While On",
+      "text": "瑓牡⁴桗汩⁥湏",
+      "menuId": 25070,
+      "resText": "Start While On",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Dialog Box Options > Auto Triggers > Start While Off",
+      "text": "瑓牡⁴桗汩⁥晏f",
+      "menuId": 25080,
+      "resText": "Start While Off",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Dialog Box Options > Auto Triggers > Sub While On",
+      "text": "畓⁢桗汩⁥湏",
+      "menuId": 25090,
+      "resText": "Sub While On",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Dialog Box Options > Auto Triggers > Sub While Off",
+      "text": "畓⁢桗汩⁥晏f",
+      "menuId": 25100,
+      "resText": "Sub While Off",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Dialog Box Options > Auto Triggers > Nest While On",
+      "text": "敎瑳圠楨敬传n",
+      "menuId": 25110,
+      "resText": "Nest While On",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Dialog Box Options > Auto Triggers > Nest while Off",
+      "text": "敎瑳圠楨敬传晦",
+      "menuId": 25120,
+      "resText": "Nest While Off",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Dialog Box Options > Set Max Loops",
+      "text": "敓⁴慍⁸潌灯⁳潴┠0",
+      "menuId": 25130,
+      "resText": "Set Max Loops to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慍⁸潌灯⁳〨›湕楬業整⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Dialog Box Options > Set Max Nest Depth",
+      "text": "敓⁴慍⁸敎瑳䐠灥桴琠⁯〥",
+      "menuId": 25140,
+      "resText": "Set Max Nest Depth to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慍⁸敎瑳䐠灥桴⠠㨰唠汮浩瑩摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Loop Index",
+      "text": "敇䱴潯䥰摮硥(",
+      "menuId": 27000,
+      "resText": "GetLoopIndex(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Current ID",
+      "text": "敇䍴牵敲瑮䑉(",
+      "menuId": 27010,
+      "resText": "GetCurrentID(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Current Nest Depth",
+      "text": "敇乴獥䑴灥桴(",
+      "menuId": 27020,
+      "resText": "GetNestDepth(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Dialog Box Options > Get Start While State",
+      "text": "敇却慴瑲桗汩卥慴整(",
+      "menuId": 27030,
+      "resText": "GetStartWhileState(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Dialog Box Options > Get Sub While State",
+      "text": "敇却扵桗汩卥慴整(",
+      "menuId": 27040,
+      "resText": "GetSubWhileState(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Dialog Box Options > Get Nest While State",
+      "text": "敇乴獥坴楨敬瑓瑡⡥",
+      "menuId": 27050,
+      "resText": "GetNestWhileState(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Dialog Box Options > Get Max Loops",
+      "text": "敇䵴硡潌灯⡳",
+      "menuId": 27060,
+      "resText": "GetMaxLoops(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Dialog Box Options > Get Max Nest Depth",
+      "text": "敇䵴硡敎瑳敄瑰⡨",
+      "menuId": 27070,
+      "resText": "GetMaxNestDepth(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

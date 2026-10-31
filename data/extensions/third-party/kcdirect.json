@@ -1,0 +1,142 @@
+{
+  "file": "kcdirect.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set the amount to rotate",
+      "text": "㄰敓⁴桴⁥浡畯瑮琠⁯潲慴整琠⁯猥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Rotate object toward a direction",
+      "text": "㈰潒慴整┠⁳潴慷摲搠物捥楴湯┠s",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Rotate object toward a position",
+      "text": "㄰潒慴整┠⁳潴慷摲┠s",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        16
+      ],
+      "paramTitles": [
+        "潒慴整漠橢捥⁴潴慷摲愠瀠獯瑩潩n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Add a directional speed to an object",
+      "text": "㄰摁⁤灳敥⁤猥琠⁯猥",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Set the direction to add",
+      "text": "㄰敓⁴桴⁥楤敲瑣潩⁮潦⁲摡楤杮琠⁯猥",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Convert an XY to a direction",
+      "text": "奘瑟彯楄⡲",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Convert an XY to a speed",
+      "text": "奘瑟彯灓敥⡤",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Convert a direction to an X value",
+      "text": "楄敲瑣潩彮潴塟(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Convert a direction to a Y value",
+      "text": "楄敲瑣潩彮潴奟(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Turn one direction toward another",
+      "text": "畔湲呟睯牡⡤",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

@@ -1,0 +1,933 @@
+{
+  "file": "ctrlx95.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Keyboard > Repeat while key pressed",
+      "text": "ㄱ猥›敒数瑡眠楨敬瀠敲獳湩⁧猥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥敫⁹獡猠牴湩⁧攨朮‮猢慰散⤢"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Keyboard > Key pressed",
+      "text": "ㄱ猥›敋⁹猥椠⁳牰獥敳d",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥敫⁹獡猠牴湩⁧攨朮‮猢慰散⤢"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Keyboard > Key down",
+      "text": "ㄱ猥›敋⁹猥椠⁳潤湷",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥敫⁹獡猠牴湩⁧攨朮‮猢慰散⤢"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Keyboard > Key up",
+      "text": "ㄱ猥›敋⁹猥椠⁳灵",
+      "menuId": 26015,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥敫⁹獡猠牴湩⁧攨朮‮猢慰散⤢"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Keyboard > Repeat while any key pressed",
+      "text": "〱猥›敒数瑡眠楨敬愠祮欠祥瀠敲獳摥",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Keyboard > Repeat while key (value) pressed",
+      "text": "ㄱ猥›敒数瑡眠楨敬瀠敲獳湩⁧畮扭牥┠s",
+      "menuId": 26025,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡慶畬⁥潦⁲桴⁥敫⁹攨朮‮㈳映牯∠灳捡≥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Keyboard > Key (value) pressed",
+      "text": "ㄱ猥›敋⁹畮扭牥┠⁳獩瀠敲獳摥",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡慶畬⁥潦⁲桴⁥敫⁹攨朮‮㈳映牯∠灳捡≥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Keyboard > Key (value) down",
+      "text": "ㄱ猥›敋⁹畮扭牥┠⁳獩搠睯n",
+      "menuId": 26035,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡慶畬⁥潦⁲桴⁥敫⁹攨朮‮㈳映牯∠灳捡≥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Keyboard > Key (value) up",
+      "text": "ㄱ猥›敋⁹畮扭牥┠⁳獩甠p",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡慶畬⁥潦⁲桴⁥敫⁹攨朮‮㈳映牯∠灳捡≥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Keyboard > Any key down",
+      "text": "〱猥›湁⁹敫⁹獩搠睯n",
+      "menuId": 26045,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Keyboard > Any key up",
+      "text": "〱猥›湁⁹敫⁹獩甠p",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Enable/Disable > Alt+F4 is disabled",
+      "text": "〱猥›汁⭴㑆椠⁳楤慳汢摥",
+      "menuId": 26055,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Enable/Disable > Alt+Tab, Ctrl+Esc and Ctrl+Alt+Del are disabled",
+      "text": "〱猥›汁⭴慔Ɫ䌠牴⭬獅⁣湡⁤瑃汲䄫瑬䐫汥愠敲搠獩扡敬d",
+      "menuId": 26060,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Enable/Disable > Key is disabled",
+      "text": "ㄱ猥›敋⁹猥椠⁳楤慳汢摥",
+      "menuId": 26065,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥敫⁹獡猠牴湩⁧攨朮‮猢慰散⤢"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Enable/Disable > Key (value) is disabled",
+      "text": "ㄱ猥›敋⁹畮扭牥┠⁳獩搠獩扡敬d",
+      "menuId": 26070,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡慶畬⁥潦⁲桴⁥敫⁹攨朮‮㈳映牯∠灳捡≥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Keystate > Caps Lock is on",
+      "text": "〱猥›慃獰䰠捯⁫獩漠n",
+      "menuId": 26075,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Keystate > Num Lock is on",
+      "text": "〱猥›畎⁭潌正椠⁳湯",
+      "menuId": 26080,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Keystate > Scroll Lock is on",
+      "text": "〱猥›捓潲汬䰠捯⁫獩漠n",
+      "menuId": 26085,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Enable/Disable > All keys are disabled",
+      "text": "〱猥›汁⁬敫獹愠敲搠獩扡敬d",
+      "menuId": 26090,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Reset last key pressed",
+      "text": "〰敒敳⁴慬瑳欠祥瀠敲獳摥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Player > Set up (value)",
+      "text": "㄰敓⁴灵映牯瀠慬敹⁲猥琠⁯猥",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣瀠慬敹㩲倠慬敹⁲‱‽ⰱ倠慬敹⁲′‽′瑥⹣",
+        "湅整⁲⁡慶畬⁥潦⁲桴⁥敫⁹攨朮‮㈳映牯∠灳捡≥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Player > Set down (value)",
+      "text": "㄰敓⁴潤湷映牯瀠慬敹⁲猥琠⁯猥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣瀠慬敹㩲倠慬敹⁲‱‽ⰱ倠慬敹⁲′‽′瑥⹣",
+        "湅整⁲⁡慶畬⁥潦⁲桴⁥敫⁹攨朮‮㈳映牯∠灳捡≥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Player > Set left (value)",
+      "text": "㄰敓⁴敬瑦映牯瀠慬敹⁲猥琠⁯猥",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣瀠慬敹㩲倠慬敹⁲‱‽ⰱ倠慬敹⁲′‽′瑥⹣",
+        "湅整⁲⁡慶畬⁥潦⁲桴⁥敫⁹攨朮‮㈳映牯∠灳捡≥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Player > Set right (value)",
+      "text": "㄰敓⁴楲桧⁴潦⁲汰祡牥┠⁳潴┠s",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣瀠慬敹㩲倠慬敹⁲‱‽ⰱ倠慬敹⁲′‽′瑥⹣",
+        "湅整⁲⁡慶畬⁥潦⁲桴⁥敫⁹攨朮‮㈳映牯∠灳捡≥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Player > Set fire 1 (value)",
+      "text": "㄰敓⁴楦敲ㄠ映牯瀠慬敹⁲猥琠⁯猥",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣瀠慬敹㩲倠慬敹⁲‱‽ⰱ倠慬敹⁲′‽′瑥⹣",
+        "湅整⁲⁡慶畬⁥潦⁲桴⁥敫⁹攨朮‮㈳映牯∠灳捡≥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Player > Set fire 2 (value)",
+      "text": "㄰敓⁴楦敲㈠映牯瀠慬敹⁲猥琠⁯猥",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣瀠慬敹㩲倠慬敹⁲‱‽ⰱ倠慬敹⁲′‽′瑥⹣",
+        "湅整⁲⁡慶畬⁥潦⁲桴⁥敫⁹攨朮‮㈳映牯∠灳捡≥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Player > Set up",
+      "text": "㄰敓⁴灵映牯瀠慬敹⁲猥琠⁯猥",
+      "menuId": 25035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "敓敬瑣瀠慬敹㩲倠慬敹⁲‱‽ⰱ倠慬敹⁲′‽′瑥⹣",
+        "湅整⁲桴⁥敫⁹獡猠牴湩⁧攨朮‮猢慰散⤢ ′瑥⹣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Player > Set down",
+      "text": "㄰敓⁴潤湷映牯瀠慬敹⁲猥琠⁯猥",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "敓敬瑣瀠慬敹㩲倠慬敹⁲‱‽ⰱ倠慬敹⁲′‽′瑥⹣",
+        "湅整⁲桴⁥敫⁹獡猠牴湩⁧攨朮‮猢慰散⤢ ′瑥⹣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Player > Set left",
+      "text": "㄰敓⁴敬瑦映牯瀠慬敹⁲猥琠⁯猥",
+      "menuId": 25045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "敓敬瑣瀠慬敹㩲倠慬敹⁲‱‽ⰱ倠慬敹⁲′‽′瑥⹣",
+        "湅整⁲桴⁥敫⁹獡猠牴湩⁧攨朮‮猢慰散⤢ ′瑥⹣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Player > Set right",
+      "text": "㄰敓⁴楲桧⁴潦⁲汰祡牥┠⁳潴┠s",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "敓敬瑣瀠慬敹㩲倠慬敹⁲‱‽ⰱ倠慬敹⁲′‽′瑥⹣",
+        "湅整⁲桴⁥敫⁹獡猠牴湩⁧攨朮‮猢慰散⤢ ′瑥⹣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Player > Set fire 1",
+      "text": "㄰敓⁴楦敲ㄠ映牯瀠慬敹⁲猥琠⁯猥",
+      "menuId": 25055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "敓敬瑣瀠慬敹㩲倠慬敹⁲‱‽ⰱ倠慬敹⁲′‽′瑥⹣",
+        "湅整⁲桴⁥敫⁹獡猠牴湩⁧攨朮‮猢慰散⤢ ′瑥⹣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Player > Set fire 2",
+      "text": "㄰敓⁴楦敲㈠映牯瀠慬敹⁲猥琠⁯猥",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "敓敬瑣瀠慬敹㩲倠慬敹⁲‱‽ⰱ倠慬敹⁲′‽′瑥⹣",
+        "湅整⁲桴⁥敫⁹獡猠牴湩⁧攨朮‮猢慰散⤢ ′瑥⹣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Enable/Disable > Disable Alt+F4",
+      "text": "〰楄慳汢⁥汁⭴㑆",
+      "menuId": 25065,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Enable/Disable > Enable Alt+F4",
+      "text": "〰湅扡敬䄠瑬䘫4",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Enable/Disable > Disable Alt+Tab, Ctrl+Esc and Ctrl+Alt+Del",
+      "text": "〰楄慳汢⁥汁⭴慔Ɫ䌠牴⭬獅⁣湡⁤瑃汲䄫瑬䐫汥",
+      "menuId": 25075,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Enable/Disable > Enable Alt+Tab, Ctrl+Esc and Ctrl+Alt+Del",
+      "text": "〰湅扡敬䄠瑬含扡‬瑃汲䔫捳愠摮䌠牴⭬汁⭴敄l",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Enable/Disable > Disable key",
+      "text": "㄰楄慳汢⁥敫⁹猥",
+      "menuId": 25085,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楄慳汢獥䔯慮汢獥愠欠祥椠⁮桴獩攠獸整獮潩⹮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Enable/Disable > Disable key (value)",
+      "text": "㄰楄慳汢⁥敫⁹畮扭牥┠s",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楄慳汢獥䔯慮汢獥愠欠祥椠⁮桴獩攠獸整獮潩⹮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Enable/Disable > Enable key",
+      "text": "㄰湅扡敬欠祥┠s",
+      "menuId": 25095,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楄慳汢獥䔯慮汢獥愠欠祥椠⁮桴獩攠獸整獮潩⹮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Enable/Disable > Enable key (value)",
+      "text": "㄰湅扡敬欠祥渠浵敢⁲猥",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楄慳汢獥䔯慮汢獥愠欠祥椠⁮桴獩攠獸整獮潩⹮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Keystate > Set Caps Lock on",
+      "text": "〰敓⁴慃獰䰠捯⁫湯",
+      "menuId": 25105,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Keystate > Set Caps Lock off",
+      "text": "〰敓⁴慃獰䰠捯⁫景f",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Keystate > Set Num Lock on",
+      "text": "〰敓⁴畎⁭潌正漠n",
+      "menuId": 25115,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Keystate > Set Num Lock off",
+      "text": "〰敓⁴畎⁭潌正漠晦",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Keystate > Set Scroll Lock on",
+      "text": "〰敓⁴捓潲汬䰠捯⁫湯",
+      "menuId": 25125,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Keystate > Set Scroll Lock off",
+      "text": "〰敓⁴捓潲汬䰠捯⁫景f",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Enable/Disable > Disable all keys",
+      "text": "〰楄慳汢⁥污⁬敫獹",
+      "menuId": 25135,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Enable/Disable > Enable all keys",
+      "text": "〰湅扡敬愠汬欠祥s",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Keyboard > Get last key pressed as string",
+      "text": "慌瑳敋偹敲獳摥⠤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Keyboard > Get last key pressed as value",
+      "text": "慌瑳敋偹敲獳摥(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Conversion > Key to int",
+      "text": "敋呹䥯瑮(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Conversion > Int to key",
+      "text": "湉呴䭯祥⠤",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Player > Get up key",
+      "text": "敇啴⑰(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Player > Get down key",
+      "text": "敇䑴睯⑮(",
+      "menuId": 27025,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Player > Get left key",
+      "text": "敇䱴晥⑴(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Player > Get right key",
+      "text": "敇剴杩瑨⠤",
+      "menuId": 27035,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Player > Get fire 1 key",
+      "text": "敇䙴物佥敮⠤",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Player > Get fire 2 key",
+      "text": "敇䙴物呥潷⠤",
+      "menuId": 27045,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Player > Get up key as value",
+      "text": "敇啴⡰",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Player > Get down key as value",
+      "text": "敇䑴睯⡮",
+      "menuId": 27055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Player > Get left key as value",
+      "text": "敇䱴晥⡴",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Player > Get right key as value",
+      "text": "敇剴杩瑨(",
+      "menuId": 27065,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Player > Get fire 1 key as value",
+      "text": "敇䙴物佥敮(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Player > Get fire 2 key as value",
+      "text": "敇䙴物呥潷(",
+      "menuId": 27075,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

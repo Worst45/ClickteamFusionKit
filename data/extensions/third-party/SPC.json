@@ -1,0 +1,132 @@
+{
+  "file": "SPC.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Play SPC",
+      "text": "汐祡匠䍐䘠汩e",
+      "menuId": 25000,
+      "resText": "Play SPC File",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "汐祡匠䍐䘠汩e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Stop Playing SPC",
+      "text": "瑓灯倠慬楹杮匠䍐䘠汩e",
+      "menuId": 25002,
+      "resText": "Stop Playing SPC File",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Go Forward",
+      "text": "潇䘠牯慷摲",
+      "menuId": 25003,
+      "resText": "Go Forward",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潇䘠牯慷摲",
+        "汓睯䘯獡㽴〠㴠匠潬ⱷㄠ㴠䘠獡⁴䈨敲歡⁳潳敭猠湯獧)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Change Settings",
+      "text": "桃湡敧匠瑥楴杮s",
+      "menuId": 25006,
+      "resText": "Change Settings",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "桃湡敮獬ㄭ㈬⠠ㄭ琠⁯敬癡⥥",
+        "楂獴㠭ㄬⰶ㐲㌬′⴨‱潴氠慥敶)",
+        "慓灭敬删瑡ⵥ〸〰ㄭ㈹〰‰⴨‱潴氠慥敶)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Set Speed",
+      "text": "敓⁴灓敥d",
+      "menuId": 25010,
+      "resText": "Set Speed",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴灓敥⡤ㄭ䐠晥畡瑬)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Set Length",
+      "text": "敓⁴敌杮桴",
+      "menuId": 25013,
+      "resText": "Set Length",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓⁴敌杮桴⠠ㄭ映牯渠⁯湥⥤",
+        "敓⁴慆敤⠠‰潦⁲潮攠摮)⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Reset",
+      "text": "敒敳t",
+      "menuId": 25012,
+      "resText": "Reset",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Is Playing?",
+      "text": "汐祡湩⡧",
+      "menuId": 27000,
+      "resText": "Playing(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

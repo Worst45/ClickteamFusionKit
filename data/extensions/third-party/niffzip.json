@@ -1,0 +1,171 @@
+{
+  "file": "niffzip.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Compression complete",
+      "text": "漥㨠䌠浯牰獥楳湯挠浯汰瑥e",
+      "menuId": 26000,
+      "resText": "%o : Compression complete",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Compression failed",
+      "text": "漥㨠䌠浯牰獥楳湯映楡敬d",
+      "menuId": 26002,
+      "resText": "%o : Compression failed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Extraction complete",
+      "text": "漥㨠䔠瑸慲瑣潩⁮潣灭敬整",
+      "menuId": 26001,
+      "resText": "%o : Extraction complete",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Extraction failed",
+      "text": "漥㨠䔠瑸慲瑣潩⁮慦汩摥",
+      "menuId": 26003,
+      "resText": "%o : Extraction failed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Deletion complete",
+      "text": "漥㨠䐠汥瑥潩⁮潣灭敬整",
+      "menuId": 26004,
+      "resText": "%o : Deletion complete",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Deletion failed",
+      "text": "漥㨠䐠汥瑥潩⁮慦汩摥",
+      "menuId": 26005,
+      "resText": "%o : Deletion failed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Compress directory",
+      "text": "潃灭敲獳┠‰潴┠‱欨敥⁰楤敲瑣牯⁹慮敭›㈥)",
+      "menuId": 25000,
+      "resText": "Compress %0 to %1 (keep directory name: %2)",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "楄敲瑣牯⁹潴挠浯牰獥s⁰楤敲瑣牯⁹慮敭›㈥)",
+        "牁档癩⁥潴挠浯牰獥⁳潴 楤敲瑣牯⁹慮敭›㈥)",
+        "敋灥搠物捥潴祲渠浡⁥湩稠灩⠠‱‽敹ⱳ〠㴠渠⥯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Extract file",
+      "text": "硅牴捡⁴〥琠⁯ㄥ",
+      "menuId": 25001,
+      "resText": "Extract %0 to %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "牁档癩⁥慰桴 ㄥ",
+        "敄瑳湩瑡潩⁮慰桴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Delete directory",
+      "text": "敄敬整搠物捥潴祲┠0",
+      "menuId": 25002,
+      "resText": "Delete directory %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楄敲瑣牯⁹潴搠汥瑥e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get current progress %",
+      "text": "牰杯敲獳(",
+      "menuId": 27000,
+      "resText": "progress(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Name of archive",
+      "text": "牡档癩⑥(",
+      "menuId": 27001,
+      "resText": "archive$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get last error",
+      "text": "牥潲⑲(",
+      "menuId": 27002,
+      "resText": "error$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

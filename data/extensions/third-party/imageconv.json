@@ -1,0 +1,683 @@
+{
+  "file": "imageconv.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "File saved",
+      "text": "漥䤠慭敧猠癡摥猠捵散獳畦汬y",
+      "menuId": 26000,
+      "resText": "%o Image saved successfully",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "File loaded",
+      "text": "漥䤠慭敧氠慯敤⁤畳捣獥晳汵祬",
+      "menuId": 26020,
+      "resText": "%o Image loaded successfully",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Image > Is transparent",
+      "text": "漥䤠慭敧椠⁳牴湡灳牡湥t",
+      "menuId": 26030,
+      "resText": "%o Image is transparent",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Image type > Is BMP",
+      "text": "漥䤠慭敧椠⁳⁡䵂P",
+      "menuId": 26050,
+      "resText": "%o Image is a BMP",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Image type > Is GIF",
+      "text": "漥䤠慭敧椠⁳⁡䥇F",
+      "menuId": 26040,
+      "resText": "%o Image is a GIF",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Image type > Is ICO",
+      "text": "漥䤠慭敧椠⁳⁡䍉O",
+      "menuId": 26100,
+      "resText": "%o Image is a ICO",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Image type > Is JPEG",
+      "text": "漥䤠慭敧椠⁳⁡偊䝅",
+      "menuId": 26070,
+      "resText": "%o Image is a JPEG",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Image type > Is PNG",
+      "text": "漥䤠慭敧椠⁳⁡乐G",
+      "menuId": 26060,
+      "resText": "%o Image is a PNG",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Image type > Is TGA",
+      "text": "漥䤠慭敧椠⁳⁡䝔A",
+      "menuId": 26080,
+      "resText": "%o Image is a TGA",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Resources > Icons > Icon loaded",
+      "text": "漥䤠潣⁮潬摡摥猠捵散獳畦汬y",
+      "menuId": 26110,
+      "resText": "%o Icon loaded successfully",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Image > Has alpha channel",
+      "text": "漥吠敨椠慭敧栠獡愠⁮污桰⁡档湡敮l",
+      "menuId": 26120,
+      "resText": "%o The image has an alpha channel",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 1,
+      "menu": "Save > ICO",
+      "text": "潃癮牥⁴潴䤠佃›〥",
+      "menuId": 25010,
+      "resText": "Convert to ICO: %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "畏灴瑵映汩e佃›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Save > TGA",
+      "text": "潃癮牥⁴潴吠䅇›〥",
+      "menuId": 25020,
+      "resText": "Convert to TGA: %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "畏灴瑵映汩e䅇›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Save > JPEG",
+      "text": "潃癮牥⁴潴䨠䝐›〥",
+      "menuId": 25040,
+      "resText": "Convert to JPG: %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "畏灴瑵映汩e䝐›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Save > PNG",
+      "text": "潃癮牥⁴潴倠䝎›〥",
+      "menuId": 25050,
+      "resText": "Convert to PNG: %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "畏灴瑵映汩e䝎›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Save > BMP",
+      "text": "潃癮牥⁴潴䈠偍›〥",
+      "menuId": 25070,
+      "resText": "Convert to BMP: %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "畏灴瑵映汩e偍›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Load file",
+      "text": "潌摡椠慭敧›〥",
+      "menuId": 25440,
+      "resText": "Load image: %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬琠⁯潬摡　"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Transformations > JPEG > Set JPG quality",
+      "text": "敓⁴偊⁇畱污瑩⁹潴›〥",
+      "menuId": 25420,
+      "resText": "Set JPG quality to: %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畑污瑩⁹ㄨ㤭⤹ 潴›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Transformations > Colours > Grayscale",
+      "text": "牔湡晳牯慭楴湯›片祡捳污e",
+      "menuId": 25430,
+      "resText": "Transformation: Grayscale",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Transformations > Rotate > Flip image",
+      "text": "牔湡晳牯慭楴湯›汆灩椠慭敧",
+      "menuId": 25450,
+      "resText": "Transformation: Flip image",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Transformations > Rotate > Mirror image",
+      "text": "牔湡晳牯慭楴湯›楍牲牯椠慭敧",
+      "menuId": 25460,
+      "resText": "Transformation: Mirror image",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Transformations > Colours > Negative",
+      "text": "牔湡晳牯慭楴湯›敎慧楴敶",
+      "menuId": 25470,
+      "resText": "Transformation: Negative",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Transformations > Resize",
+      "text": "敒楳敺椠慭敧琠㩯┠ⰰ┠1",
+      "menuId": 25490,
+      "resText": "Resize image to: %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗瑤h椠慭敧琠㩯┠ⰰ┠1",
+        "效杩瑨椀慭敧琠㩯┠ⰰ┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Transformations > Rotate > Anti-clockwise 90°",
+      "text": "潒慴整椠慭敧㤠뀰愠瑮⵩汣捯睫獩e",
+      "menuId": 25500,
+      "resText": "Rotate image 90° anti-clockwise",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Clipboard > Set clipboard text",
+      "text": "敓⁴汣灩潢牡⁤整瑸›〥",
+      "menuId": 25510,
+      "resText": "Set clipboard text: %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "汃灩潢牡⁤整瑸攀瑸›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Clipboard > Load from clipboard",
+      "text": "敇⁴浩条⁥牦浯挠楬扰慯摲",
+      "menuId": 25530,
+      "resText": "Get image from clipboard",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Transformations > Rotate > Clockwise 90°",
+      "text": "潒慴整椠慭敧㤠뀰挠潬正楷敳",
+      "menuId": 25550,
+      "resText": "Rotate image 90° clockwise",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Transformations > JPEG > Set JPG scaling",
+      "text": "敓⁴偊⁇捳污湩⁧畱污瑩⁹潴›〥",
+      "menuId": 25540,
+      "resText": "Set JPG scaling quality to: %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "ⰲ㐠‬ⰶ㠠氀湩⁧畱污瑩⁹潴›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Transformations > Rotate > Rotate by angle",
+      "text": "潒慴整椠慭敧戠⁹湡汧㩥┠0",
+      "menuId": 25560,
+      "resText": "Rotate image by angle: %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潒慴楴湯愠杮敬 湡汧㩥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Resources > Icons > Get icon from file",
+      "text": "硅牴捡⁴捩湯渠浵敢㩲┠‱牦浯映汩⁥〥",
+      "menuId": 25570,
+      "resText": "Extract icon number: %1 from file %0",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "楆敬琠⁯硥牴捡⁴牦浯─‱牦浯映汩⁥〥",
+        "捉湯渠浵敢r捡⁴牦浯─‱牦浯映汩⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Effects > Blurs > Guassian > Guassian blur 3x3",
+      "text": "灁汰⁹畇獡楳湡䈠畬⁲砳3",
+      "menuId": 25580,
+      "resText": "Apply Guassian Blur 3x3",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Effects > Filters > Soften",
+      "text": "晅敦瑣›潓瑦湥椠慭敧",
+      "menuId": 25610,
+      "resText": "Effect: Soften image",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Effects > Filters > Sharpen",
+      "text": "晅敦瑣›桓牡数⁮浩条e",
+      "menuId": 25620,
+      "resText": "Effect: Sharpen image",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Effects > Blurs > Guassian > Guassian blur 5x5",
+      "text": "灁汰⁹畇獡楳湡䈠畬⁲砵5",
+      "menuId": 25630,
+      "resText": "Apply Guassian Blur 5x5",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Effects > Filters > Add noise",
+      "text": "晅敦瑣›摁⁤潮獩e",
+      "menuId": 25640,
+      "resText": "Effect: Add noise",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Effects > Filters > Erode",
+      "text": "晅敦瑣›牅摯⁥浩条e",
+      "menuId": 25650,
+      "resText": "Effect: Erode image",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Effects > Filters > Dilate",
+      "text": "晅敦瑣›楄慬整椠慭敧",
+      "menuId": 25660,
+      "resText": "Effect: Dilate image",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Effects > Colour > Set gamma",
+      "text": "敓⁴慧浭⁡敬敶⁬潴›〥",
+      "menuId": 25670,
+      "resText": "Set gamma level to: %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慇浭⁡敬敶㩬〠㔮㔭 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Effects > Colour > Set lighting",
+      "text": "敓⁴潣瑮慲瑳琠㩯┠‰湡⁤牢杩瑨敮獳琠㩯┠1",
+      "menuId": 25680,
+      "resText": "Set contrast to: %0 and brightness to: %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潃瑮慲瑳氠癥汥›ㄭ〰ⴠㄠ〰最瑨敮獳琠㩯┠1",
+        "牂杩瑨敮獳氠癥汥›㈭㔵ⴠ㈠㔵琀敮獳琠㩯┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Effects > Filters > Edge",
+      "text": "晅敦瑣›摅敧椠慭敧",
+      "menuId": 25690,
+      "resText": "Effect: Edge image",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Effects > Blurs > Blur",
+      "text": "求牵›求牵椠慭敧",
+      "menuId": 25700,
+      "resText": "Blur: Blur image",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Effects > Circle effects > Swirl",
+      "text": "楃捲敬吠慲獮潦浲瑡潩㩮匠楷汲",
+      "menuId": 25710,
+      "resText": "Circle Transformation: Swirl",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Effects > Circle effects > Punch",
+      "text": "楃捲敬吠慲獮潦浲瑡潩㩮倠湵档",
+      "menuId": 25720,
+      "resText": "Circle Transformation: Punch",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Effects > Circle effects > Pinch",
+      "text": "楃捲敬吠慲獮潦浲瑡潩㩮倠湵档",
+      "menuId": 25730,
+      "resText": "Circle Transformation: Punch",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Effects > Circle effects > Cylinder",
+      "text": "楃捲敬吠慲獮潦浲瑡潩㩮䌠汹湩敤r",
+      "menuId": 25740,
+      "resText": "Circle Transformation: Cylinder",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Clipboard > Get text",
+      "text": "敧⁴汃灩潢牡⁤敔瑸⠤",
+      "menuId": 27000,
+      "resText": "get Clipboard Text$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Image > Get height",
+      "text": "敧⁴效杩瑨(",
+      "menuId": 27010,
+      "resText": "get Height(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Image > Get width",
+      "text": "敧⁴楗瑤⡨",
+      "menuId": 27020,
+      "resText": "get Width(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Image > JPEG > Get quality",
+      "text": "敧⁴偊䝅儠慵楬祴(",
+      "menuId": 27030,
+      "resText": "get JPEG Quality(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Image > JPEG > Get scale",
+      "text": "敧⁴偊䝅匠慣敬(",
+      "menuId": 27040,
+      "resText": "get JPEG Scale(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Image > Get BPP",
+      "text": "敧⁴偂⡐",
+      "menuId": 27050,
+      "resText": "get BPP(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

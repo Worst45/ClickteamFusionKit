@@ -1,0 +1,1238 @@
+{
+  "file": "GMaps.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On Map Available",
+      "text": "%o: On Map Available",
+      "menuId": 26000,
+      "resText": "%o: On Map Available",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On Location Change",
+      "text": "%o: On Location Change",
+      "menuId": 26010,
+      "resText": "%o: On Location Change",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "On Map Click",
+      "text": "%o: On Map Click",
+      "menuId": 26020,
+      "resText": "%o: On Map Click",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "On Camera Update",
+      "text": "%o: On Camera Update",
+      "menuId": 26030,
+      "resText": "%o: On Camera Update",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "With Identified Marker > On Marker Click",
+      "text": "%o: On Marker Click with Id: %0",
+      "menuId": 26040,
+      "resText": "%o: On Marker Click with Id: %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Id Marker"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "With Identified Marker > On Marker Info Click",
+      "text": "%o: On Marker Info Click with Id: %0",
+      "menuId": 26050,
+      "resText": "%o: On Marker Info Click with Id: %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Id Marker"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "With Identified Marker > On Marker Drag",
+      "text": "%o: On Marker Drag with Id: %0",
+      "menuId": 26060,
+      "resText": "%o: On Marker Drag with Id: %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Id Marker"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Is Zoom Control Enabled",
+      "text": "%o: is Zoom Bar Enabled",
+      "menuId": 26070,
+      "resText": "%o: is Zoom Bar Enabled",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Is Traffic Enabled",
+      "text": "%o: is Traffic Enabled",
+      "menuId": 26080,
+      "resText": "%o: is Traffic Enabled",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Is Compass Enabled",
+      "text": "%o: is Compass Enabled",
+      "menuId": 26090,
+      "resText": "%o: is Compass Enabled",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Is My Location Enabled",
+      "text": "%o: is Mylocation Enabled",
+      "menuId": 26100,
+      "resText": "%o: is Mylocation Enabled",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Gestures ... > Is Rotate Gesture Enabled",
+      "text": "%o: is Rotate Gesture Enabled",
+      "menuId": 26110,
+      "resText": "%o: is Rotate Gesture Enabled",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Gestures ... > Is Scroll Gesture Enabled",
+      "text": "%o: is Scroll Gesture Enabled",
+      "menuId": 26120,
+      "resText": "%o: is Scroll Gesture Enabled",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Gestures ... > Is Tilt Gesture Enabled",
+      "text": "%o: is Tilt Gesture Enabled",
+      "menuId": 26130,
+      "resText": "%o: is Tilt Gesture Enabled",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Gestures ... > Is Zoom Gesture Enabled",
+      "text": "%o: is Zoom Gesture Enabled",
+      "menuId": 26140,
+      "resText": "%o: is Zoom Gesture Enabled",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "On Error",
+      "text": "%o: On Error",
+      "menuId": 26150,
+      "resText": "%o: On Error",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "On Any Marker Click",
+      "text": "%o: On Any Marker Click",
+      "menuId": 26016,
+      "resText": "%o: On Any Marker Click",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "conditions_status": "menu ressources",
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Start Location Listener",
+      "text": "%o: Start Location Listener with interval %0 seconds or radius %1 meters",
+      "menuId": 25000,
+      "resText": "%o: Start Location Listener with interval %0 seconds or radius %1 meters",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Interval in seconds",
+        "Radius in meters"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Stop Location Listener",
+      "text": "%o: Stop Location Listener ",
+      "menuId": 25010,
+      "resText": "%o: Stop Location Listener ",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Center at My Location",
+      "text": "%o: Center at My Location ",
+      "menuId": 25020,
+      "resText": "%o: Center at My Location ",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Camera > Set Camera to",
+      "text": "%o: Set Camera to Lat:%0, Long:%1",
+      "menuId": 25030,
+      "resText": "%o: Set Camera to Lat:%0, Long:%1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Latitude",
+        "Longitude"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Camera > Set Camera Zoom",
+      "text": "%o: Set Camera Zoom to %0",
+      "menuId": 25040,
+      "resText": "%o: Set Camera Zoom to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Zoom factor from 0.0 to 19.0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Camera > Set Camera Bearing",
+      "text": "%o: Set Camera Bearing to %0 degree",
+      "menuId": 25050,
+      "resText": "%o: Set Camera Bearing to %0 degree",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Bearing degrees (0.0 point North)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Camera > Set Camera Tilt",
+      "text": "%o: Set Camera Tilt to %0 degree",
+      "menuId": 25060,
+      "resText": "%o: Set Camera Tilt to %0 degree",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Camera position in degree from ground (0.0 to 90.0)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Camera > Scroll Camera By",
+      "text": "%o: Scroll Camera by x:%0, y:%1",
+      "menuId": 25070,
+      "resText": "%o: Scroll Camera by x:%0, y:%1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "X pixel",
+        "Y pixel"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Map > Set MapType",
+      "text": "%o: Set Map Type to %0",
+      "menuId": 25080,
+      "resText": "%o: Set Map Type to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Map type (0:None, 1: Normal, 2:Satellite, 3: Terrain, 4:Hybrid)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Map > Set Traffic Enable",
+      "text": "%o: Set Traffic to %0",
+      "menuId": 25090,
+      "resText": "%o: Set Traffic to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Traffic (0:Off, 1:On)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Map > Set Compass Enable",
+      "text": "%o: Set Compass Enable to %0",
+      "menuId": 25100,
+      "resText": "%o: Set Compass Enable to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Compass Enabled (0: Off, 1:On)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Map > Set My Location Enable",
+      "text": "%o: Set My Location Enable to %0",
+      "menuId": 25110,
+      "resText": "%o: Set My Location Enable to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "MyLocation Enabled (0: Off, 1:On)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Map > Set Animation",
+      "text": "%o: Set Animation to %0, with interval %1 msec and Zoom %2",
+      "menuId": 25120,
+      "resText": "%o: Set Animation to %0, with interval %1 msec and Zoom %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Animation Enabled (0: Off, 1:On)",
+        "Interval time in milliseconds",
+        "Zoom value (0.0 to 19.0)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Map > Set Zoom Bar Enable",
+      "text": "%o: Set Zoom Bar Enable to %0",
+      "menuId": 25130,
+      "resText": "%o: Set Zoom Bar Enable to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Zoom (0: Default, 1:Off)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Map > Set Scroll Enable",
+      "text": "%o: Set Scroll to %0",
+      "menuId": 25140,
+      "resText": "%o: Set Scroll to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Scroll (0:Default, 1:Off)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Map > Set Gesture Enable",
+      "text": "%o: Set Gesture to %0",
+      "menuId": 25150,
+      "resText": "%o: Set Gesture to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Gesture (0:Default, 1:Off)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Map > Set Tilt Enable",
+      "text": "%o: Set Tilt to %0",
+      "menuId": 25160,
+      "resText": "%o: Set Tilt to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Tilt (0:Default, 1:Off)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Map > Set Zoom Gesture Enable",
+      "text": "%o: Set Zoom Gesture Enable to %0",
+      "menuId": 25170,
+      "resText": "%o: Set Zoom Gesture Enable to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Zoom (0: Default, 1:Off)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Map > Set Map Width",
+      "text": "%o: Set Map Width to %0",
+      "menuId": 25180,
+      "resText": "%o: Set Map Width to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Pixel Width"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Map > Set Map Height",
+      "text": "%o: Set Map Height to %0",
+      "menuId": 25190,
+      "resText": "%o: Set Map Height to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Pixel Height"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Map > Clear Map",
+      "text": "%o: Clear Map",
+      "menuId": 25200,
+      "resText": "%o: Clear Map",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Markers ... > Set Marker to ...",
+      "text": "%o: Set Marker to %0, %1",
+      "menuId": 25210,
+      "resText": "%o: Set Marker to %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Latitude",
+        "Longitude"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Markers ... > Set Marker Info",
+      "text": "%o: Set Marker Info to Title %0 and Snippet %1",
+      "menuId": 25220,
+      "resText": "%o: Set Marker Info to Title %0 and Snippet %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "Marker Title",
+        "Marker Snippet Text"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Markers ... > Set Marker Draggable",
+      "text": "%o: Set Marker Draggable to %0",
+      "menuId": 25230,
+      "resText": "%o: Set Marker Draggable to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Draggable (0: No, 1: Yes)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Markers ... > Set Marker Visible",
+      "text": "%o: Set Marker Visible to %0",
+      "menuId": 25240,
+      "resText": "%o: Set Marker Visible to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Visible (0: No, 1: Yes)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Markers ... > Set Marker Icon",
+      "text": "%o: Set Marker Icon to %0",
+      "menuId": 25250,
+      "resText": "%o: Set Marker Icon to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Image Number (One Based) 0:Google Default Marker 1: to above are Internal images"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Markers ... > Add Marker as ...",
+      "text": "%o: Add Marker with Id:%0",
+      "menuId": 25260,
+      "resText": "%o: Add Marker with Id:%0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Id Number"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Markers ... > Delete Marker",
+      "text": "%o: Delete Marker with Id:%0",
+      "menuId": 25270,
+      "resText": "%o: Delete Marker with Id:%0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Id Number"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Markers ... > Delete All Marker",
+      "text": "%o: Delete All Marker",
+      "menuId": 25280,
+      "resText": "%o: Delete All Marker",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Markers ... > Add Marker with Color",
+      "text": "%o: Add Marker with Id:%0 and Colorize %1",
+      "menuId": 25290,
+      "resText": "%o: Add Marker with Id:%0 and Colorize %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Id Number",
+        "Colorize range 0-360 (0:Red, 60:Yellow, 120:Green, 180:Cyan ,240:Blue, 300:Magenta)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Markers ... > Update All Marker",
+      "text": "%o: Update All Marker",
+      "menuId": 25300,
+      "resText": "%o: Update All Marker",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Circle > Set Circle to ...",
+      "text": "%o: Set Circle to %0, %1",
+      "menuId": 25310,
+      "resText": "%o: Set Circle to %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Latitude",
+        "Longitude"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Circle > Set Circle Radio",
+      "text": "%o: Set Circle radio to %0 meters",
+      "menuId": 25320,
+      "resText": "%o: Set Circle radio to %0 meters",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Circle radio value (specify in meters)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Circle > Set Circle Fill Color",
+      "text": "%o: Set Circle fill color %0 and alpha %1",
+      "menuId": 25330,
+      "resText": "%o: Set Circle fill color %0 and alpha %1",
+      "flags": 0,
+      "paramTypes": [
+        24,
+        22
+      ],
+      "paramTitles": [
+        "Add Color",
+        "Alpha value (0:transp, 256:opaque)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Circle > Set Circle Stroke Color",
+      "text": "%o: Set Circle stroke color %0 and alpha %1",
+      "menuId": 25340,
+      "resText": "%o: Set Circle stroke color %0 and alpha %1",
+      "flags": 0,
+      "paramTypes": [
+        24,
+        22
+      ],
+      "paramTitles": [
+        "Add Color",
+        "Alpha value (0:transp, 256:opaque)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Circle > Set Circle Stroke Width",
+      "text": "%o: Set Circle stroke width %0",
+      "menuId": 25350,
+      "resText": "%o: Set Circle stroke width %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Stroke width (in pixels)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Circle > Add Circle as ...",
+      "text": "%o: Add Circle with Id:%0",
+      "menuId": 25360,
+      "resText": "%o: Add Circle with Id:%0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Id Number"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Circle > Delete All Circle",
+      "text": "%o: Delete All Circle",
+      "menuId": 25380,
+      "resText": "%o: Delete All Circle",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Circle > Delete Circle",
+      "text": "%o: Delete Circle with Id:%0",
+      "menuId": 25370,
+      "resText": "%o: Delete Circle with Id:%0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Id Number"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Circle > Update All Circle",
+      "text": "%o: Update All Circle",
+      "menuId": 25400,
+      "resText": "%o: Update All Circle",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Markers ... > Goto Marker ...",
+      "text": "%o: Goto Marker with Id:%0",
+      "menuId": 25410,
+      "resText": "%o: Goto Marker with Id:%0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Id Number"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions_status": "menu ressources",
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Error",
+      "text": "Error(",
+      "menuId": 27000,
+      "resText": "Error(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Map > Read Type",
+      "text": "MapType(",
+      "menuId": 27010,
+      "resText": "MapType(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Map > My Location Latitude",
+      "text": "MyLocLat(",
+      "menuId": 27020,
+      "resText": "MyLocLat(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Map > My Location Longitude",
+      "text": "MyLocLong(",
+      "menuId": 27030,
+      "resText": "MyLocLong(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Camera > Camera Latitude",
+      "text": "CamLat(",
+      "menuId": 27040,
+      "resText": "CamLat(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Camera > Camera Longitude",
+      "text": "CamLong(",
+      "menuId": 27050,
+      "resText": "CamLong(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Camera > Camera Zoom",
+      "text": "CamZoom(",
+      "menuId": 27060,
+      "resText": "CamZoom(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Camera > Camera Bearing",
+      "text": "CamBearing(",
+      "menuId": 27070,
+      "resText": "CamBearing(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Camera > Camera Tilt",
+      "text": "CamTilt(",
+      "menuId": 27080,
+      "resText": "CamTilt(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Marker Drag Id > Marker Latitude",
+      "text": "DragMarkerLat(",
+      "menuId": 27090,
+      "resText": "DragMarkerLat(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Marker Drag Id > Marker Longitude",
+      "text": "DragMarkerLong(",
+      "menuId": 27100,
+      "resText": "DragMarkerLong(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Marker Id > Marker Id Latitude",
+      "text": "MarkerLat(",
+      "menuId": 27110,
+      "resText": "MarkerLat(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Index value"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Marker Id > Marker Id Longitude",
+      "text": "MarkerLong(",
+      "menuId": 27120,
+      "resText": "MarkerLong(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Index value"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Marker Id > Marker Id Title",
+      "text": "MarkerTitle$(",
+      "menuId": 27130,
+      "resText": "MarkerTitle$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Index value"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Marker Id > Marker Id Snippet",
+      "text": "MarkerSnippet$(",
+      "menuId": 27140,
+      "resText": "MarkerSnippet$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Index value"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Circle Id > Circle Id Latitude",
+      "text": "CircleLat(",
+      "menuId": 27150,
+      "resText": "CircleLat(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Index value"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Circle Id > Circle Id Longitude",
+      "text": "CircleLong(",
+      "menuId": 27160,
+      "resText": "CircleLong(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Index value"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Circle Id > Circle Id Radio",
+      "text": "CircleRadio(",
+      "menuId": 27170,
+      "resText": "CircleRadio(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Index value"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "On Click > Click Latitude",
+      "text": "OnClickLat(",
+      "menuId": 27180,
+      "resText": "OnClickLat(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "On Click > Click Longitude",
+      "text": "OnClickLong(",
+      "menuId": 27190,
+      "resText": "OnClickLong(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Google Map License",
+      "text": "GoogleMapLicense$(",
+      "menuId": 27200,
+      "resText": "GoogleMapLicense$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Last Marker Click > Last Marker Id",
+      "text": "LastMarkerClickId(",
+      "menuId": 27210,
+      "resText": "LastMarkerClickId(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Last Marker Click > Last Marker Latitude",
+      "text": "LastMarkerClickLat(",
+      "menuId": 27220,
+      "resText": "LastMarkerClickLat(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Last Marker Click > Last Marker Longitude",
+      "text": "LastMarkerClickLong(",
+      "menuId": 27230,
+      "resText": "LastMarkerClickLong(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Get Distance > Using Markers Id",
+      "text": "DistanceMarkers(",
+      "menuId": 27240,
+      "resText": "DistanceMarkers(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "Orig. Marker Id",
+        "Dest. Marker Id",
+        "0:Walk/1:Drive"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Get Distance > From Geolocation",
+      "text": "GeolocDistance(",
+      "menuId": 27250,
+      "resText": "GeolocDistance(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "Orig. Latitude",
+        "Orig. Longitude",
+        "Dest. Latitude",
+        "Dest. Latitude",
+        "0:Walk/1:Drive"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions_status": "menu ressources"
+}

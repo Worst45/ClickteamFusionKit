@@ -1,0 +1,338 @@
+{
+  "file": "ScreenDraw.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Settings > Set line type",
+      "text": "敓⁴楬敮琠灹⁥潴┠0",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "祔数⠠‰潦⁲潳楬Ɽㄠ映牯栠牯穩湯慴⁬牧摡敩瑮‬′潦⁲敶瑲捩污朠慲楤湥⁴牯㌠映牯洠獯楡⥣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Settings > Set line colour 1",
+      "text": "敓⁴楬敮挠汯畯⁲‱潴┠0",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "敎⁷潣潬牵氀畯⁲‱潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Settings > Set line colour 2",
+      "text": "敓⁴楬敮挠汯畯⁲′潴┠0",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "敎⁷潣潬牵氀畯⁲′潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Settings > Set line thickness",
+      "text": "敓⁴楬敮琠楨正敮獳琠⁯〥",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敎⁷桴捩湫獥s敮獳琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Settings > Set line image",
+      "text": "敓⁴楬敮椠慭敧琠⁯〥",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潓牵散漠橢捥t琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Settings > Set fill type",
+      "text": "敓⁴楦汬琠灹⁥潴┠0",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "祔数⠠‰潦⁲潳楬Ɽㄠ映牯栠牯穩湯慴⁬牧摡敩瑮‬′潦⁲敶瑲捩污朠慲楤湥⁴湡⁤″潦⁲潭慳捩)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Settings > Set fill colour 1",
+      "text": "敓⁴楦汬挠汯畯⁲‱潴┠0",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "敎⁷潣潬牵氀畯⁲‱潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Settings > Set fill colour 2",
+      "text": "敓⁴楦汬挠汯畯⁲′潴┠0",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "敎⁷潣潬牵氀畯⁲′潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Settings > Set fill image",
+      "text": "敓⁴楦汬椠慭敧琠⁯〥",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潓牵散漠橢捥t琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Settings > Enable anti-aliasing",
+      "text": "湅扡敬愠瑮⵩污慩楳杮",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Settings > Disable anti-aliasing",
+      "text": "楄慳汢⁥湡楴愭楬獡湩g",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Draw > Pixel",
+      "text": "牄睡瀠硩汥愠⁴〥‬ㄥ眠瑩⁨潣潬牵┠2",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "⁘潰楳楴湯愀⁴〥‬ㄥ眠瑩⁨潣潬牵┠2",
+        "⁙潰楳楴湯愀⁴〥‬ㄥ眠瑩⁨潣潬牵┠2",
+        "潃潬牵椀湯愀⁴〥‬ㄥ眠瑩⁨潣潬牵┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Draw > Rectangle",
+      "text": "牄睡爠捥慴杮敬愠⁴〥‬ㄥ眠瑩⁨楷瑤⁨㈥愠摮栠楥桧⁴㌥⠠楦汬┠⤴",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘潰楳楴湯最敬愠⁴〥‬ㄥ眠瑩⁨楷瑤⁨㈥愠摮栠楥桧⁴㌥⠠楦汬┠⤴",
+        "⁙潰楳楴湯最敬愠⁴〥‬ㄥ眠瑩⁨楷瑤⁨㈥愠摮栠楥桧⁴㌥⠠楦汬┠⤴",
+        "楗瑤h楴湯最敬愠⁴〥‬ㄥ眠瑩⁨楷瑤⁨㈥愠摮栠楥桧⁴㌥⠠楦汬┠⤴",
+        "效杩瑨椀湯最敬愠⁴〥‬ㄥ眠瑩⁨楷瑤⁨㈥愠摮栠楥桧⁴㌥⠠楦汬┠⤴",
+        "楆汬‿‰‽潮‬‱‽敹sㄥ眠瑩⁨楷瑤⁨㈥愠摮栠楥桧⁴㌥⠠楦汬┠⤴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Draw > Ellipse",
+      "text": "牄睡攠汬灩敳愠⁴〥‬ㄥ眠瑩⁨楷瑤⁨㈥愠摮栠楥桧⁴㌥⠠楦汬┠⤴",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘潰楳楴湯攀愠⁴〥‬ㄥ眠瑩⁨楷瑤⁨㈥愠摮栠楥桧⁴㌥⠠楦汬┠⤴",
+        "⁙潰楳楴湯攀愠⁴〥‬ㄥ眠瑩⁨楷瑤⁨㈥愠摮栠楥桧⁴㌥⠠楦汬┠⤴",
+        "楗瑤h楴湯攀愠⁴〥‬ㄥ眠瑩⁨楷瑤⁨㈥愠摮栠楥桧⁴㌥⠠楦汬┠⤴",
+        "效杩瑨椀湯攀愠⁴〥‬ㄥ眠瑩⁨楷瑤⁨㈥愠摮栠楥桧⁴㌥⠠楦汬┠⤴",
+        "楆汬‿‰‽潮‬‱‽敹s眠瑩⁨楷瑤⁨㈥愠摮栠楥桧⁴㌥⠠楦汬┠⤴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Draw > Line",
+      "text": "牄睡氠湩⁥牦浯┠ⰰ┠‱潴┠ⰲ┠3",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "瑓牡⁴X⁥牦浯┠ⰰ┠‱潴┠ⰲ┠3",
+        "瑓牡⁴Y⁥牦浯┠ⰰ┠‱潴┠ⰲ┠3",
+        "湅⁤XY⁥牦浯┠ⰰ┠‱潴┠ⰲ┠3"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Draw > Flood fill",
+      "text": "汆潯⁤楦汬愠⁴〥‬ㄥ眠瑩⁨潣潬牵┠′湡⁤潴敬慲据⁥㌥",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        24,
+        22
+      ],
+      "paramTitles": [
+        "X潯⁤楦汬愠⁴〥‬ㄥ眠瑩⁨潣潬牵┠′湡⁤潴敬慲据⁥㌥",
+        "Y潯⁤楦汬愠⁴〥‬ㄥ眠瑩⁨潣潬牵┠′湡⁤潴敬慲据⁥㌥",
+        "潃潬牵椀汬愠⁴〥‬ㄥ眠瑩⁨潣潬牵┠′湡⁤潴敬慲据⁥㌥",
+        "潔敬慲据e愠⁴〥‬ㄥ眠瑩⁨潣潬牵┠′湡⁤潴敬慲据⁥㌥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Draw > Replace colour",
+      "text": "敒汰捡⁥潣潬牵┠‰楷桴┠1",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24,
+        24
+      ],
+      "paramTitles": [
+        "汏⁤潣潬牵漀牵┠‰楷桴┠1",
+        "敎⁷潣潬牵漀牵┠‰楷桴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Files > Save to file",
+      "text": "慓敶映汩⁥〥",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆敬慮敭 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get pixel",
+      "text": "楐數⡬",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "X數⡬",
+        "Y數⡬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

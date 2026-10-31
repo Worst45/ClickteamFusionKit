@@ -1,0 +1,371 @@
+{
+  "file": "trackbar.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Is visible?",
+      "text": "獉┠⁯楶楳汢e",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Is enabled?",
+      "text": "獉┠⁯湥扡敬d",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Has input focus?",
+      "text": "漥栠獡椠灮瑵映捯獵",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Value changed?",
+      "text": "漥瘠污敵栠獡挠慨杮摥",
+      "menuId": 26004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Thumb released?",
+      "text": "漥琠畨扭删汥慥敳d",
+      "menuId": 26007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Visibility > Make object reappear",
+      "text": "敒灡数牡",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Visibility > Make object invisible",
+      "text": "湉楶楳汢e",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Enable > On",
+      "text": "湅扡敬d",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Enable > Off",
+      "text": "楄慳汢摥",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Position > Set horizontal position",
+      "text": "敓⁴⁸〥",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴⁸〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Position > Set vertical position",
+      "text": "敓⁴⁹〥",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴⁹〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Size > Set horizontal size",
+      "text": "敓⁴⁸楳敺┠0",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴⁸楳敺┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Size > Set vertical size",
+      "text": "敓⁴⁹楳敺┠0",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴⁹楳敺┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Focus > On",
+      "text": "潆畣⁳湯",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Focus > Off",
+      "text": "潆畣⁳景f",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Selection > Set starting position",
+      "text": "敓敬瑣潩㩮猠瑥猠慴瑲湩⁧潰楳楴湯┠0",
+      "menuId": 25018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣潩㩮猠瑥猠慴瑲湩⁧潰楳楴湯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Selection > Set ending position",
+      "text": "敓敬瑣潩㩮猠瑥攠摮湩⁧潰楳楴湯┠0",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣潩㩮猠瑥攠摮湩⁧潰楳楴湯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Selection > Clear selection",
+      "text": "敓敬瑣潩㩮挠敬牡",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Set thumb position",
+      "text": "敓⁴桴浵⁢潰楳楴湯›〥",
+      "menuId": 25022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴桴浵⁢潰楳楴湯›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Set range...",
+      "text": "敓⁴慲杮⁥〥琠⁯ㄥ",
+      "menuId": 25023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓⁴慲杮e〥琠⁯ㄥ",
+        "敓⁴慲杮e〥琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Colour > Use system colours",
+      "text": "獕⁥祳瑳浥潣潬牵s",
+      "menuId": 25028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Colour > Choose colour",
+      "text": "潃潬牵›〥",
+      "menuId": 25029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "潃潬牵›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get current value",
+      "text": "慶畬⡥",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Size > Get horizontal size",
+      "text": "楳敺⡸",
+      "menuId": 27031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Size > Get vertical size",
+      "text": "楳敺⡹",
+      "menuId": 27032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Position > Get X",
+      "text": "⡸",
+      "menuId": 27033,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Position > Get Y",
+      "text": "⡹",
+      "menuId": 27034,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

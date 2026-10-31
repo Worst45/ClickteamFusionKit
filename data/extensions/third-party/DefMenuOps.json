@@ -1,0 +1,381 @@
+{
+  "file": "DefMenuOps.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Are Samples On?",
+      "text": "漥›慓灭敬⁳牡⁥湏",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Are Samples in a Particular State?",
+      "text": "漥›慓灭敬⁳牡⁥湩匠慴整┠0",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥瑳瑡⁥〨㴠漠晦※‱‽湯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Is Music On?",
+      "text": "漥›畍楳⁣獩传n",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Is Music in a Particular State?",
+      "text": "漥›畍楳⁣獩椠⁮瑓瑡⁥〥",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥瑳瑡⁥〨㴠漠晦※‱‽湯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Is the Menu Hidden?",
+      "text": "漥›敍畮椠⁳楈摤湥",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Is the Menu in a Particular State?",
+      "text": "漥›敍畮椠⁳湩匠慴整┠0",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥瑳瑡⁥〨㴠漠晦※‱‽湯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "File > New",
+      "text": "楆敬㸭敎w",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "File > Password",
+      "text": "楆敬㸭慐獳潷摲",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "File > Pause",
+      "text": "楆敬㸭慐獵e",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "File > Players",
+      "text": "楆敬㸭汐祡牥s",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "File > Quit",
+      "text": "楆敬㸭畑瑩",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Options > Play samples > Toggle Samples",
+      "text": "灏楴湯⵳倾慬⁹慳灭敬⁳吨杯汧⁥慓灭敬⥳",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Options > Play samples > Set Samples On",
+      "text": "灏楴湯⵳倾慬⁹慳灭敬⁳匨瑥匠浡汰獥传⥮",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Options > Play samples > Set Samples Off",
+      "text": "灏楴湯⵳倾慬⁹慳灭敬⁳匨瑥匠浡汰獥传晦)",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Options > Play samples > Set Samples State",
+      "text": "灏楴湯⵳倾慬⁹慳灭敬⁳匨瑥匠浡汰獥琠⁯〥)",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥瑳瑡⁥〨㴠漠晦※‱‽湯)琠⁯〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Options > Play musics > Toggle Music",
+      "text": "灏楴湯⵳倾慬⁹畭楳獣⠠潔杧敬䴠獵捩)",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Options > Play musics > Set Music On",
+      "text": "灏楴湯⵳倾慬⁹畭楳獣⠠敓⁴畍楳⁣湏)",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Options > Play musics > Set Music Off",
+      "text": "灏楴湯⵳倾慬⁹畭楳獣⠠敓⁴畍楳⁣晏⥦",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Options > Play musics > Set Music State",
+      "text": "灏楴湯⵳倾慬⁹畭楳獣⠠敓⁴畍楳⁣潴┠⤰",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥瑳瑡⁥〨㴠漠晦※‱‽湯)┠⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Options > Hide the menu > Toggle Menu Visibility",
+      "text": "灏楴湯⵳䠾摩⁥桴⁥敭畮⠠潔杧敬䴠湥⁵楖楳楢楬祴)",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Options > Hide the menu > Hide Menu",
+      "text": "灏楴湯⵳䠾摩⁥桴⁥敭畮⠠楈敤䴠湥⥵",
+      "menuId": 25122,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Options > Hide the menu > Show Menu",
+      "text": "灏楴湯⵳䠾摩⁥桴⁥敭畮⠠桓睯䴠湥⥵",
+      "menuId": 25124,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Options > Hide the menu > Set Menu Visibility",
+      "text": "灏楴湯⵳䠾摩⁥桴⁥敭畮⠠敓⁴楈敤䴠湥⁵潴┠⤰",
+      "menuId": 25126,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥瑳瑡⁥〨㴠漠晦※‱‽湯)湥⁵潴┠⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Help > Contents",
+      "text": "效灬㸭潃瑮湥獴",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Help > About...",
+      "text": "效灬㸭扁畯⹴⸮",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Options > Full Screen",
+      "text": "灏楴湯⵳䘾汵⁬捓敲湥",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "State of Samples",
+      "text": "慓灭敬即慴整(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "State of Music",
+      "text": "畍楳卣慴整(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "State of Menu",
+      "text": "敍畮瑓瑡⡥",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

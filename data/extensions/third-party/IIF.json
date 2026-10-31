@@ -1,0 +1,355 @@
+{
+  "file": "IIF.mfx",
+  "conditions": [],
+  "actions": [],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Return Types... > Integers > Compare Integers(n,operator,n,true,false)",
+      "text": "潃灭牡䥥瑮来牥⡳",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        3,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Return Types... > Integers > Compare Strings(a,operator,a,true,false)",
+      "text": "潃灭牡卥牴湩獧(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3,
+        3,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Return Types... > Integers > Compare Floats(n.n,operator,n.n,true,false)",
+      "text": "潃灭牡䙥潬瑡⡳",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        3,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Return Types... > Strings > Compare Integers$(n,operator,n,true,false)",
+      "text": "潃灭牡䥥瑮来牥⑳(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        3,
+        1,
+        3,
+        3
+      ],
+      "paramTitles": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Return Types... > Strings > Compare Strings$(a,operator,a,true,false)",
+      "text": "潃灭牡卥牴湩獧⠤",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "paramTitles": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Return Types... > Strings > Compare Floats$(n.n,operator,n.n,true,false)",
+      "text": "潃灭牡䙥潬瑡⑳(",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        3,
+        1,
+        3,
+        3
+      ],
+      "paramTitles": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Return Types... > Floats > Compare IntegersF(n,operator,n,true,false)",
+      "text": "潃灭牡䥥瑮来牥䙳(",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1,
+        3,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Return Types... > Floats > Compare StringsF(a,operator,a,true,false)",
+      "text": "潃灭牡卥牴湩獧⡆",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        3,
+        3,
+        3,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Return Types... > Floats > Compare FloatsF(n.n,operator,n.n,true,false)",
+      "text": "潃灭牡䙥潬瑡䙳(",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1,
+        3,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Return Types... > Integers > Compare Bool(b,true,false)",
+      "text": "潃灭牡䉥潯⡬",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Return Types... > Strings > Compare Bool$(b,true,false)",
+      "text": "潃灭牡䉥潯⑬(",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        3,
+        3
+      ],
+      "paramTitles": [
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Return Types... > Floats > Compare BoolF(b,true,false)",
+      "text": "潃灭牡䉥潯䙬(",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Return Types... > Bool > Compare IntegersB(n,operator,n)",
+      "text": "潃灭牡䥥瑮来牥䉳(",
+      "menuId": 27120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        3,
+        1
+      ],
+      "paramTitles": [
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Return Types... > Bool > Compare StringsB(a,operator,a)",
+      "text": "潃灭牡卥牴湩獧⡂",
+      "menuId": 27130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3,
+        3
+      ],
+      "paramTitles": [
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Return Types... > Bool > Compare FloatsB(n.n,operator,n.n)",
+      "text": "潃灭牡䙥潬瑡䉳(",
+      "menuId": 27140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        3,
+        1
+      ],
+      "paramTitles": [
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Result of Last Comparison",
+      "text": "慌瑳潃灭牡⡥",
+      "menuId": 27150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

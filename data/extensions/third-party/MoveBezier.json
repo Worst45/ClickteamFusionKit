@@ -1,0 +1,815 @@
+{
+  "file": "MoveBezier.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "An object's current movement is Paused",
+      "text": "漥›畃牲湥⁴潭敶敭瑮椠⁮〥猧焠敵敵椠⁳慰獵摥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t敶敭瑮椠⁮〥猧焠敵敵椠⁳慰獵摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "An object's movement is set in Reverse mode",
+      "text": "漥›潍敶敭瑮愠⁴ㄥ椠⁮〥猧焠敵敵椠⁳敳⁴潴删癥牥敳洠摯e",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t⁴ㄥ椠⁮〥猧焠敵敵椠⁳敳⁴潴删癥牥敳洠摯e",
+        "湅整⁲湉敤⁸景䴠癯浥湥⁴楷桴湩焠敵敵⠠‰‽楦獲⽴畣牲湥⁴潭敶敭瑮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "An object's movement is set to Pause at End mode",
+      "text": "漥›潍敶敭瑮愠⁴ㄥ椠⁮〥猧焠敵敵椠⁳敳⁴潴倠畡敳愠⁴湅⁤潭敤",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t⁴ㄥ椠⁮〥猧焠敵敵椠⁳敳⁴潴倠畡敳愠⁴湅⁤潭敤",
+        "湅整⁲湉敤⁸景䴠癯浥湥⁴楷桴湩焠敵敵⠠‰‽楦獲⽴畣牲湥⁴潭敶敭瑮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "An object moved",
+      "text": "漥›湁漠橢捥⁴潭敶d",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Queue Movement > Add Linear Curve movement at end of an object's queue...",
+      "text": "摁⁤楌敮牡洠癯浥湥⁴瑡攠摮漠⁦〥猧焠敵敵琠㩯┠ⰱ㈥猠数摥›㌥⠠癥湥猠数摥›㐥)",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t浥湥⁴瑡攠摮漠⁦〥猧焠敵敵琠㩯┠ⰱ㈥猠数摥›㌥⠠癥湥猠数摥›㐥)",
+        "湅整⁲⁘敄瑳湩瑡潩⁮潃牯楤慮整　猧焠敵敵琠㩯┠ⰱ㈥猠数摥›㌥⠠癥湥猠数摥›㐥)",
+        "湅整⁲⁙敄瑳湩瑡潩⁮潃牯楤慮整　猧焠敵敵琠㩯┠ⰱ㈥猠数摥›㌥⠠癥湥猠数摥›㐥)",
+        "湅整⁲潍敶敭瑮匠数摥⠠‱‭〱〰)猧焠敵敵琠㩯┠ⰱ㈥猠数摥›㌥⠠癥湥猠数摥›㐥)",
+        "癅湥匠数摥䌠牵敶⠠‰‽潮‬‱‽敹⥳焀敵敵琠㩯┠ⰱ㈥猠数摥›㌥⠠癥湥猠数摥›㐥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Queue Movement > Add Quadratic Curve movement at end of an object's queue...",
+      "text": "摁⁤畑摡慲楴⁣潭敶敭瑮愠⁴湥⁤景┠✰⁳畱略⁥潴›㌥┬‴楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥猠数摥┠‵攨敶⁮灳敥㩤┠⤶",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t潭敶敭瑮愠⁴湥⁤景┠✰⁳畱略⁥潴›㌥┬‴楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥猠数摥┠‵攨敶⁮灳敥㩤┠⤶",
+        "湅整⁲⁘潃牯楤慮整漠⁦楆獲⁴潃瑮潲⁬潐湩t⁥潴›㌥┬‴楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥猠数摥┠‵攨敶⁮灳敥㩤┠⤶",
+        "湅整⁲⁙潃牯楤慮整漠⁦楆獲⁴潃瑮潲⁬潐湩t⁥潴›㌥┬‴楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥猠数摥┠‵攨敶⁮灳敥㩤┠⤶",
+        "湅整⁲⁘敄瑳湩瑡潩⁮潃牯楤慮整琀潲⁬潐湩t⁥潴›㌥┬‴楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥猠数摥┠‵攨敶⁮灳敥㩤┠⤶",
+        "湅整⁲⁙敄瑳湩瑡潩⁮潃牯楤慮整琀潲⁬潐湩t⁥潴›㌥┬‴楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥猠数摥┠‵攨敶⁮灳敥㩤┠⤶",
+        "湅整⁲潍敶敭瑮匠数摥⠠‱‭〱〰)潲⁬潐湩t⁥潴›㌥┬‴楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥猠数摥┠‵攨敶⁮灳敥㩤┠⤶",
+        "癅湥匠数摥䌠牵敶⠠‰‽潮‬‱‽敹⥳ 潐湩t⁥潴›㌥┬‴楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥猠数摥┠‵攨敶⁮灳敥㩤┠⤶"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Queue Movement > Add Cubic Curve movement at end of an object's queue...",
+      "text": "摁⁤畃楢⁣潭敶敭瑮愠⁴湥⁤景┠✰⁳畱略⁥潴›㔥┬‶楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥愠摮┠ⰳ㐥猠数摥┠‷攨敶⁮灳敥㩤┠⤸",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t敭瑮愠⁴湥⁤景┠✰⁳畱略⁥潴›㔥┬‶楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥愠摮┠ⰳ㐥猠数摥┠‷攨敶⁮灳敥㩤┠⤸",
+        "湅整⁲⁘潃牯楤慮整漠⁦楆獲⁴潃瑮潲⁬潐湩t›㔥┬‶楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥愠摮┠ⰳ㐥猠数摥┠‷攨敶⁮灳敥㩤┠⤸",
+        "湅整⁲⁙潃牯楤慮整漠⁦楆獲⁴潃瑮潲⁬潐湩t›㔥┬‶楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥愠摮┠ⰳ㐥猠数摥┠‷攨敶⁮灳敥㩤┠⤸",
+        "湅整⁲⁘潃牯楤慮整漠⁦敓潣摮䌠湯牴汯倠楯瑮 㔥┬‶楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥愠摮┠ⰳ㐥猠数摥┠‷攨敶⁮灳敥㩤┠⤸",
+        "湅整⁲⁙潃牯楤慮整漠⁦敓潣摮䌠湯牴汯倠楯瑮 㔥┬‶楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥愠摮┠ⰳ㐥猠数摥┠‷攨敶⁮灳敥㩤┠⤸",
+        "湅整⁲⁘敄瑳湩瑡潩⁮潃牯楤慮整渀牴汯倠楯瑮 㔥┬‶楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥愠摮┠ⰳ㐥猠数摥┠‷攨敶⁮灳敥㩤┠⤸",
+        "湅整⁲⁙敄瑳湩瑡潩⁮潃牯楤慮整渀牴汯倠楯瑮 㔥┬‶楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥愠摮┠ⰳ㐥猠数摥┠‷攨敶⁮灳敥㩤┠⤸",
+        "湅整⁲潍敶敭瑮匠数摥⠠‱‭〱〰)牴汯倠楯瑮 㔥┬‶楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥愠摮┠ⰳ㐥猠数摥┠‷攨敶⁮灳敥㩤┠⤸",
+        "癅湥匠数摥䌠牵敶⠠‰‽潮‬‱‽敹⥳氀倠楯瑮 㔥┬‶楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥愠摮┠ⰳ㐥猠数摥┠‷攨敶⁮灳敥㩤┠⤸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Queue Movement > Add Quartic Curve movement at end of an object's queue...",
+      "text": "摁⁤畑牡楴⁣潭敶敭瑮愠⁴湥⁤景┠✰⁳畱略⁥潴›㜥┬‸楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥愠摮┠ⰳ㐥愠摮┠ⰵ㘥猠数摥┠‹攨敶⁮灳敥㩤┠⥁",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t敶敭瑮愠⁴湥⁤景┠✰⁳畱略⁥潴›㜥┬‸楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥愠摮┠ⰳ㐥愠摮┠ⰵ㘥猠数摥┠‹攨敶⁮灳敥㩤┠⥁",
+        "湅整⁲⁘潃牯楤慮整漠⁦楆獲⁴潃瑮潲⁬潐湩t潴›㜥┬‸楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥愠摮┠ⰳ㐥愠摮┠ⰵ㘥猠数摥┠‹攨敶⁮灳敥㩤┠⥁",
+        "湅整⁲⁙潃牯楤慮整漠⁦楆獲⁴潃瑮潲⁬潐湩t潴›㜥┬‸楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥愠摮┠ⰳ㐥愠摮┠ⰵ㘥猠数摥┠‹攨敶⁮灳敥㩤┠⥁",
+        "湅整⁲⁘潃牯楤慮整漠⁦敓潣摮䌠湯牴汯倠楯瑮漀›㜥┬‸楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥愠摮┠ⰳ㐥愠摮┠ⰵ㘥猠数摥┠‹攨敶⁮灳敥㩤┠⥁",
+        "湅整⁲⁙潃牯楤慮整漠⁦敓潣摮䌠湯牴汯倠楯瑮漀›㜥┬‸楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥愠摮┠ⰳ㐥愠摮┠ⰵ㘥猠数摥┠‹攨敶⁮灳敥㩤┠⥁",
+        "湅整⁲⁘潃牯楤慮整漠⁦桔物⁤潃瑮潲⁬潐湩t漀›㜥┬‸楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥愠摮┠ⰳ㐥愠摮┠ⰵ㘥猠数摥┠‹攨敶⁮灳敥㩤┠⥁",
+        "湅整⁲⁙潃牯楤慮整漠⁦桔物⁤潃瑮潲⁬潐湩t漀›㜥┬‸楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥愠摮┠ⰳ㐥愠摮┠ⰵ㘥猠数摥┠‹攨敶⁮灳敥㩤┠⥁",
+        "湅整⁲⁘敄瑳湩瑡潩⁮潃牯楤慮整琀潲⁬潐湩t漀›㜥┬‸楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥愠摮┠ⰳ㐥愠摮┠ⰵ㘥猠数摥┠‹攨敶⁮灳敥㩤┠⥁",
+        "湅整⁲⁙敄瑳湩瑡潩⁮潃牯楤慮整琀潲⁬潐湩t漀›㜥┬‸楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥愠摮┠ⰳ㐥愠摮┠ⰵ㘥猠数摥┠‹攨敶⁮灳敥㩤┠⥁",
+        "湅整⁲潍敶敭瑮匠数摥⠠‱‭〱〰)潲⁬潐湩t漀›㜥┬‸楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥愠摮┠ⰳ㐥愠摮┠ⰵ㘥猠数摥┠‹攨敶⁮灳敥㩤┠⥁",
+        "癅湥匠数摥䌠牵敶⠠‰‽潮‬‱‽敹⥳ 潐湩t漀›㜥┬‸楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥愠摮┠ⰳ㐥愠摮┠ⰵ㘥猠数摥┠‹攨敶⁮灳敥㩤┠⥁"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Queue Movement > Add Quintic Curve movement at end of an object's queue...",
+      "text": "摁⁤畑湩楴⁣潭敶敭瑮愠⁴湥⁤景┠✰⁳畱略⁥潴›㤥┬⁁楷桴挠湯牴汯瀠楯瑮㩳┠ⰱ㈥愠摮┠ⰳ㐥愠摮┠ⰵ㘥愠摮┠ⰷ㠥猠数摥┠⁂攨敶⁮灳敥㩤┠⥃",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Queue Movement > Add Custom Curve movement at end of an object's queue...",
+      "text": "摁⁤畃瑳浯洠癯浥湥⁴瑡攠摮漠⁦〥猧焠敵敵琠㩯┠ⰲ㌥眠瑩⁨潣瑮潲⁬潰湩獴›ㄥ猠数摥┠‴攨敶⁮灳敥㩤┠⤵",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        45,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t浥湥⁴瑡攠摮漠⁦〥猧焠敵敵琠㩯┠ⰲ㌥眠瑩⁨潣瑮潲⁬潰湩獴›ㄥ猠数摥┠‴攨敶⁮灳敥㩤┠⤵",
+        "湅整⁲潃牯楤慮整⁳景䌠湯牴汯倠楯瑮⁳∨ⱸ籹ⱸ籹ⱸ≹攠捴)潣瑮潲⁬潰湩獴›ㄥ猠数摥┠‴攨敶⁮灳敥㩤┠⤵",
+        "湅整⁲⁘敄瑳湩瑡潩⁮潃牯楤慮整椀瑮⁳∨ⱸ籹ⱸ籹ⱸ≹攠捴)潣瑮潲⁬潰湩獴›ㄥ猠数摥┠‴攨敶⁮灳敥㩤┠⤵",
+        "湅整⁲⁙敄瑳湩瑡潩⁮潃牯楤慮整椀瑮⁳∨ⱸ籹ⱸ籹ⱸ≹攠捴)潣瑮潲⁬潰湩獴›ㄥ猠数摥┠‴攨敶⁮灳敥㩤┠⤵",
+        "湅整⁲潍敶敭瑮匠数摥⠠‱‭〱〰)瑮⁳∨ⱸ籹ⱸ籹ⱸ≹攠捴)潣瑮潲⁬潰湩獴›ㄥ猠数摥┠‴攨敶⁮灳敥㩤┠⤵",
+        "癅湥匠数摥䌠牵敶⠠‰‽潮‬‱‽敹⥳ ∨ⱸ籹ⱸ籹ⱸ≹攠捴)潣瑮潲⁬潰湩獴›ㄥ猠数摥┠‴攨敶⁮灳敥㩤┠⤵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Insert Movement > Insert Linear Curve movement in an object's queue...",
+      "text": "湉敳瑲䰠湩慥⁲潭敶敭瑮愠⁴ㄥ椠⁮〥猧焠敵敵琠㩯┠ⰲ㌥猠数摥›㐥⠠癥湥猠数摥›㔥)",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t潭敶敭瑮愠⁴ㄥ椠⁮〥猧焠敵敵琠㩯┠ⰲ㌥猠数摥›㐥⠠癥湥猠数摥›㔥)",
+        "湅整⁲湉敤⁸景䴠癯浥湥⁴楷桴湩焠敵敵⠠‰‽楦獲⽴畣牲湥⁴潭敶敭瑮)湥猠数摥›㔥)",
+        "湅整⁲⁘敄瑳湩瑡潩⁮潃牯楤慮整焀敵敵⠠‰‽楦獲⽴畣牲湥⁴潭敶敭瑮)湥猠数摥›㔥)",
+        "湅整⁲⁙敄瑳湩瑡潩⁮潃牯楤慮整焀敵敵⠠‰‽楦獲⽴畣牲湥⁴潭敶敭瑮)湥猠数摥›㔥)",
+        "湅整⁲潍敶敭瑮匠数摥⠠‱‭〱〰)敵敵⠠‰‽楦獲⽴畣牲湥⁴潭敶敭瑮)湥猠数摥›㔥)",
+        "癅湥匠数摥䌠牵敶⠠‰‽潮‬‱‽敹⥳攀⠠‰‽楦獲⽴畣牲湥⁴潭敶敭瑮)湥猠数摥›㔥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Insert Movement > Insert Quadratic Curve movement in an object's queue...",
+      "text": "湉敳瑲儠慵牤瑡捩洠癯浥湥⁴瑡┠‱湩┠✰⁳畱略⁥潴›㐥┬‵楷桴挠湯牴汯瀠楯瑮㩳┠ⰲ㌥猠数摥┠‶攨敶⁮灳敥㩤┠⤷",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t捩洠癯浥湥⁴瑡┠‱湩┠✰⁳畱略⁥潴›㐥┬‵楷桴挠湯牴汯瀠楯瑮㩳┠ⰲ㌥猠数摥┠‶攨敶⁮灳敥㩤┠⤷",
+        "湅整⁲湉敤⁸景䴠癯浥湥⁴楷桴湩焠敵敵⠠‰‽楦獲⽴畣牲湥⁴潭敶敭瑮)汯瀠楯瑮㩳┠ⰲ㌥猠数摥┠‶攨敶⁮灳敥㩤┠⤷",
+        "湅整⁲⁘潃牯楤慮整漠⁦楆獲⁴潃瑮潲⁬潐湩t楦獲⽴畣牲湥⁴潭敶敭瑮)汯瀠楯瑮㩳┠ⰲ㌥猠数摥┠‶攨敶⁮灳敥㩤┠⤷",
+        "湅整⁲⁙潃牯楤慮整漠⁦楆獲⁴潃瑮潲⁬潐湩t楦獲⽴畣牲湥⁴潭敶敭瑮)汯瀠楯瑮㩳┠ⰲ㌥猠数摥┠‶攨敶⁮灳敥㩤┠⤷",
+        "湅整⁲⁘敄瑳湩瑡潩⁮潃牯楤慮整琀潲⁬潐湩t楦獲⽴畣牲湥⁴潭敶敭瑮)汯瀠楯瑮㩳┠ⰲ㌥猠数摥┠‶攨敶⁮灳敥㩤┠⤷",
+        "湅整⁲⁙敄瑳湩瑡潩⁮潃牯楤慮整琀潲⁬潐湩t楦獲⽴畣牲湥⁴潭敶敭瑮)汯瀠楯瑮㩳┠ⰲ㌥猠数摥┠‶攨敶⁮灳敥㩤┠⤷",
+        "湅整⁲潍敶敭瑮匠数摥⠠‱‭〱〰)潲⁬潐湩t楦獲⽴畣牲湥⁴潭敶敭瑮)汯瀠楯瑮㩳┠ⰲ㌥猠数摥┠‶攨敶⁮灳敥㩤┠⤷",
+        "癅湥匠数摥䌠牵敶⠠‰‽潮‬‱‽敹⥳ 潐湩t楦獲⽴畣牲湥⁴潭敶敭瑮)汯瀠楯瑮㩳┠ⰲ㌥猠数摥┠‶攨敶⁮灳敥㩤┠⤷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Insert Movement > Insert Cubic Curve movement in an object's queue...",
+      "text": "湉敳瑲䌠扵捩洠癯浥湥⁴瑡┠‱湩┠✰⁳畱略⁥潴›㘥┬‷楷桴挠湯牴汯瀠楯瑮㩳┠ⰲ㌥愠摮┠ⰴ㔥猠数摥┠‸攨敶⁮灳敥㩤┠⤹",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t癯浥湥⁴瑡┠‱湩┠✰⁳畱略⁥潴›㘥┬‷楷桴挠湯牴汯瀠楯瑮㩳┠ⰲ㌥愠摮┠ⰴ㔥猠数摥┠‸攨敶⁮灳敥㩤┠⤹",
+        "湅整⁲湉敤⁸景䴠癯浥湥⁴楷桴湩焠敵敵⠠‰‽楦獲⽴畣牲湥⁴潭敶敭瑮)楯瑮㩳┠ⰲ㌥愠摮┠ⰴ㔥猠数摥┠‸攨敶⁮灳敥㩤┠⤹",
+        "湅整⁲⁘潃牯楤慮整漠⁦楆獲⁴潃瑮潲⁬潐湩t楦獲⽴畣牲湥⁴潭敶敭瑮)楯瑮㩳┠ⰲ㌥愠摮┠ⰴ㔥猠数摥┠‸攨敶⁮灳敥㩤┠⤹",
+        "湅整⁲⁙潃牯楤慮整漠⁦楆獲⁴潃瑮潲⁬潐湩t楦獲⽴畣牲湥⁴潭敶敭瑮)楯瑮㩳┠ⰲ㌥愠摮┠ⰴ㔥猠数摥┠‸攨敶⁮灳敥㩤┠⤹",
+        "湅整⁲⁘潃牯楤慮整漠⁦敓潣摮䌠湯牴汯倠楯瑮椀獲⽴畣牲湥⁴潭敶敭瑮)楯瑮㩳┠ⰲ㌥愠摮┠ⰴ㔥猠数摥┠‸攨敶⁮灳敥㩤┠⤹",
+        "湅整⁲⁙潃牯楤慮整漠⁦敓潣摮䌠湯牴汯倠楯瑮椀獲⽴畣牲湥⁴潭敶敭瑮)楯瑮㩳┠ⰲ㌥愠摮┠ⰴ㔥猠数摥┠‸攨敶⁮灳敥㩤┠⤹",
+        "湅整⁲⁘敄瑳湩瑡潩⁮潃牯楤慮整渀牴汯倠楯瑮椀獲⽴畣牲湥⁴潭敶敭瑮)楯瑮㩳┠ⰲ㌥愠摮┠ⰴ㔥猠数摥┠‸攨敶⁮灳敥㩤┠⤹",
+        "湅整⁲⁙敄瑳湩瑡潩⁮潃牯楤慮整渀牴汯倠楯瑮椀獲⽴畣牲湥⁴潭敶敭瑮)楯瑮㩳┠ⰲ㌥愠摮┠ⰴ㔥猠数摥┠‸攨敶⁮灳敥㩤┠⤹",
+        "湅整⁲潍敶敭瑮匠数摥⠠‱‭〱〰)牴汯倠楯瑮椀獲⽴畣牲湥⁴潭敶敭瑮)楯瑮㩳┠ⰲ㌥愠摮┠ⰴ㔥猠数摥┠‸攨敶⁮灳敥㩤┠⤹",
+        "癅湥匠数摥䌠牵敶⠠‰‽潮‬‱‽敹⥳氀倠楯瑮椀獲⽴畣牲湥⁴潭敶敭瑮)楯瑮㩳┠ⰲ㌥愠摮┠ⰴ㔥猠数摥┠‸攨敶⁮灳敥㩤┠⤹"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Insert Movement > Insert Quartic Curve movement in an object's queue...",
+      "text": "湉敳瑲儠慵瑲捩洠癯浥湥⁴瑡┠‱湩┠✰⁳畱略⁥潴›㠥┬‹楷桴挠湯牴汯瀠楯瑮㩳┠ⰲ㌥愠摮┠ⰴ㔥愠摮┠ⰶ㜥猠数摥┠⁁攨敶⁮灳敥㩤┠⥂",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t洠癯浥湥⁴瑡┠‱湩┠✰⁳畱略⁥潴›㠥┬‹楷桴挠湯牴汯瀠楯瑮㩳┠ⰲ㌥愠摮┠ⰴ㔥愠摮┠ⰶ㜥猠数摥┠⁁攨敶⁮灳敥㩤┠⥂",
+        "湅整⁲湉敤⁸景䴠癯浥湥⁴楷桴湩焠敵敵⠠‰‽楦獲⽴畣牲湥⁴潭敶敭瑮)瀠楯瑮㩳┠ⰲ㌥愠摮┠ⰴ㔥愠摮┠ⰶ㜥猠数摥┠⁁攨敶⁮灳敥㩤┠⥂",
+        "湅整⁲⁘潃牯楤慮整漠⁦楆獲⁴潃瑮潲⁬潐湩t楦獲⽴畣牲湥⁴潭敶敭瑮)瀠楯瑮㩳┠ⰲ㌥愠摮┠ⰴ㔥愠摮┠ⰶ㜥猠数摥┠⁁攨敶⁮灳敥㩤┠⥂",
+        "湅整⁲⁙潃牯楤慮整漠⁦楆獲⁴潃瑮潲⁬潐湩t楦獲⽴畣牲湥⁴潭敶敭瑮)瀠楯瑮㩳┠ⰲ㌥愠摮┠ⰴ㔥愠摮┠ⰶ㜥猠数摥┠⁁攨敶⁮灳敥㩤┠⥂",
+        "湅整⁲⁘潃牯楤慮整漠⁦敓潣摮䌠湯牴汯倠楯瑮椀獲⽴畣牲湥⁴潭敶敭瑮)瀠楯瑮㩳┠ⰲ㌥愠摮┠ⰴ㔥愠摮┠ⰶ㜥猠数摥┠⁁攨敶⁮灳敥㩤┠⥂",
+        "湅整⁲⁙潃牯楤慮整漠⁦敓潣摮䌠湯牴汯倠楯瑮椀獲⽴畣牲湥⁴潭敶敭瑮)瀠楯瑮㩳┠ⰲ㌥愠摮┠ⰴ㔥愠摮┠ⰶ㜥猠数摥┠⁁攨敶⁮灳敥㩤┠⥂",
+        "湅整⁲⁘潃牯楤慮整漠⁦桔物⁤潃瑮潲⁬潐湩t椀獲⽴畣牲湥⁴潭敶敭瑮)瀠楯瑮㩳┠ⰲ㌥愠摮┠ⰴ㔥愠摮┠ⰶ㜥猠数摥┠⁁攨敶⁮灳敥㩤┠⥂",
+        "湅整⁲⁙潃牯楤慮整漠⁦桔物⁤潃瑮潲⁬潐湩t椀獲⽴畣牲湥⁴潭敶敭瑮)瀠楯瑮㩳┠ⰲ㌥愠摮┠ⰴ㔥愠摮┠ⰶ㜥猠数摥┠⁁攨敶⁮灳敥㩤┠⥂",
+        "湅整⁲⁘敄瑳湩瑡潩⁮潃牯楤慮整琀潲⁬潐湩t椀獲⽴畣牲湥⁴潭敶敭瑮)瀠楯瑮㩳┠ⰲ㌥愠摮┠ⰴ㔥愠摮┠ⰶ㜥猠数摥┠⁁攨敶⁮灳敥㩤┠⥂",
+        "湅整⁲⁙敄瑳湩瑡潩⁮潃牯楤慮整琀潲⁬潐湩t椀獲⽴畣牲湥⁴潭敶敭瑮)瀠楯瑮㩳┠ⰲ㌥愠摮┠ⰴ㔥愠摮┠ⰶ㜥猠数摥┠⁁攨敶⁮灳敥㩤┠⥂",
+        "湅整⁲潍敶敭瑮匠数摥⠠‱‭〱〰)潲⁬潐湩t椀獲⽴畣牲湥⁴潭敶敭瑮)瀠楯瑮㩳┠ⰲ㌥愠摮┠ⰴ㔥愠摮┠ⰶ㜥猠数摥┠⁁攨敶⁮灳敥㩤┠⥂",
+        "癅湥匠数摥䌠牵敶⠠‰‽潮‬‱‽敹⥳ 潐湩t椀獲⽴畣牲湥⁴潭敶敭瑮)瀠楯瑮㩳┠ⰲ㌥愠摮┠ⰴ㔥愠摮┠ⰶ㜥猠数摥┠⁁攨敶⁮灳敥㩤┠⥂"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Insert Movement > Insert Quintic Curve movement in an object's queue...",
+      "text": "湉敳瑲儠極瑮捩洠癯浥湥⁴瑡┠‱湩┠✰⁳畱略⁥潴›䄥┬⁂楷桴挠湯牴汯瀠楯瑮㩳┠ⰲ㌥愠摮┠ⰴ㔥愠摮┠ⰶ㜥愠摮┠ⰸ㤥猠数摥┠⁃攨敶⁮灳敥㩤┠⥄",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Insert Movement > Insert Custom Curve movement in an object's queue...",
+      "text": "湉敳瑲䌠獵潴⁭潭敶敭瑮愠⁴ㄥ椠⁮〥猧焠敵敵琠㩯┠ⰳ㐥眠瑩⁨潣瑮潲⁬潰湩獴›㈥猠数摥┠‵攨敶⁮灳敥㩤┠⤶",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        45,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t潭敶敭瑮愠⁴ㄥ椠⁮〥猧焠敵敵琠㩯┠ⰳ㐥眠瑩⁨潣瑮潲⁬潰湩獴›㈥猠数摥┠‵攨敶⁮灳敥㩤┠⤶",
+        "湅整⁲湉敤⁸景䴠癯浥湥⁴楷桴湩焠敵敵⠠‰‽楦獲⽴畣牲湥⁴潭敶敭瑮)潰湩獴›㈥猠数摥┠‵攨敶⁮灳敥㩤┠⤶",
+        "湅整⁲潃牯楤慮整⁳景䌠湯牴汯倠楯瑮⁳∨ⱸ籹ⱸ籹ⱸ≹攠捴)潭敶敭瑮)潰湩獴›㈥猠数摥┠‵攨敶⁮灳敥㩤┠⤶",
+        "湅整⁲⁘敄瑳湩瑡潩⁮潃牯楤慮整椀瑮⁳∨ⱸ籹ⱸ籹ⱸ≹攠捴)潭敶敭瑮)潰湩獴›㈥猠数摥┠‵攨敶⁮灳敥㩤┠⤶",
+        "湅整⁲⁙敄瑳湩瑡潩⁮潃牯楤慮整椀瑮⁳∨ⱸ籹ⱸ籹ⱸ≹攠捴)潭敶敭瑮)潰湩獴›㈥猠数摥┠‵攨敶⁮灳敥㩤┠⤶",
+        "湅整⁲潍敶敭瑮匠数摥⠠‱‭〱〰)瑮⁳∨ⱸ籹ⱸ籹ⱸ≹攠捴)潭敶敭瑮)潰湩獴›㈥猠数摥┠‵攨敶⁮灳敥㩤┠⤶",
+        "癅湥匠数摥䌠牵敶⠠‰‽潮‬‱‽敹⥳ ∨ⱸ籹ⱸ籹ⱸ≹攠捴)潭敶敭瑮)潰湩獴›㈥猠数摥┠‵攨敶⁮灳敥㩤┠⤶"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Remove a movement in an object's queue...",
+      "text": "敒潭敶洠癯浥湥⁴瑡┠‱牦浯┠✰⁳畱略e",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t⁴瑡┠‱牦浯┠✰⁳畱略e",
+        "湅整⁲湉敤⁸景䴠癯浥湥⁴楷桴湩焠敵敵⠠‰‽楦獲⽴畣牲湥⁴潭敶敭瑮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Clear an object's movement queue...",
+      "text": "汃慥⁲潭敶敭瑮⁳牦浯┠✰⁳畱略e",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t⁳牦浯┠✰⁳畱略e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Control Movements > Change a movement's speed in an object's queue...",
+      "text": "桃湡敧琠敨洠癯浥湥❴⁳灳敥⁤瑡┠‱湩┠✰⁳畱略⁥潴›㈥",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t浥湥❴⁳灳敥⁤瑡┠‱湩┠✰⁳畱略⁥潴›㈥",
+        "湅整⁲湉敤⁸景䴠癯浥湥⁴楷桴湩焠敵敵⠠‰‽楦獲⽴畣牲湥⁴潭敶敭瑮)",
+        "湅整⁲潍敶敭瑮匠数摥⠠‱‭〱〰)敵敵⠠‰‽楦獲⽴畣牲湥⁴潭敶敭瑮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Control Movements > Current Movement > Change movement's progress in an object's queue...",
+      "text": "桃湡敧琠敨挠牵敲瑮洠癯浥湥❴⁳牰杯敲獳椠⁮〥猧焠敵敵琠㩯┠1",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t敲瑮洠癯浥湥❴⁳牰杯敲獳椠⁮〥猧焠敵敵琠㩯┠1",
+        "湅整⁲牰杯敲獳眠瑩楨⁮潭敶敭瑮⠠⸰‰‭⸱⤰　猧焠敵敵琠㩯┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Control Movements > Current Movement > Recalculate the current movement's starting position in an object's queue...",
+      "text": "敒慣捬汵瑡⁥桴⁥畣牲湥⁴潭敶敭瑮猧猠慴瑲湩⁧潰楳楴湯椠⁮〥猧焠敵敵",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t⁥畣牲湥⁴潭敶敭瑮猧猠慴瑲湩⁧潰楳楴湯椠⁮〥猧焠敵敵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Control Movements > Current Movement > Pause movement in an object's queue...",
+      "text": "慐獵⁥桴⁥畣牲湥⁴潭敶敭瑮椠⁮〥猧焠敵敵",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t湥⁴潭敶敭瑮椠⁮〥猧焠敵敵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Control Movements > Current Movement > Resume movement in an object's queue...",
+      "text": "敒畳敭琠敨挠牵敲瑮洠癯浥湥⁴湩┠✰⁳畱略e",
+      "menuId": 25018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t敲瑮洠癯浥湥⁴湩┠✰⁳畱略e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Control Movements > Current Movement > Step movement in an object's queue...",
+      "text": "瑓灥琠敨挠牵敲瑮洠癯浥湥⁴湩┠✰⁳畱略e",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t瑮洠癯浥湥⁴湩┠✰⁳畱略e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Control Movements > Set Reverse mode for a movement in an object's queue > Set",
+      "text": "敓⁴敒敶獲⁥潭敤漠⁦潭敶敭瑮愠⁴ㄥ椠⁮〥猧焠敵敵⠠㈥)",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t敤漠⁦潭敶敭瑮愠⁴ㄥ椠⁮〥猧焠敵敵⠠㈥)",
+        "湅整⁲湉敤⁸景䴠癯浥湥⁴楷桴湩焠敵敵⠠‰‽楦獲⽴畣牲湥⁴潭敶敭瑮)",
+        "〨㴠漠晦‬‱‽湯)浥湥⁴楷桴湩焠敵敵⠠‰‽楦獲⽴畣牲湥⁴潭敶敭瑮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Control Movements > Set Pause at End mode for a movement in an object's queue > Set",
+      "text": "敓⁴慐獵⁥瑡䔠摮洠摯⁥景洠癯浥湥⁴瑡┠‱湩┠✰⁳畱略⁥┨⤲",
+      "menuId": 25021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t摮洠摯⁥景洠癯浥湥⁴瑡┠‱湩┠✰⁳畱略⁥┨⤲",
+        "湅整⁲湉敤⁸景䴠癯浥湥⁴楷桴湩焠敵敵⠠‰‽楦獲⽴畣牲湥⁴潭敶敭瑮)",
+        "〨㴠漠晦‬‱‽湯)浥湥⁴楷桴湩焠敵敵⠠‰‽楦獲⽴畣牲湥⁴潭敶敭瑮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Control Movements > Set Reverse mode for a movement in an object's queue > Off",
+      "text": "敓⁴敒敶獲⁥潭敤漠⁦潭敶敭瑮愠⁴ㄥ椠⁮〥猧焠敵敵⠠晏⥦",
+      "menuId": 25022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t敤漠⁦潭敶敭瑮愠⁴ㄥ椠⁮〥猧焠敵敵⠠晏⥦",
+        "湅整⁲湉敤⁸景䴠癯浥湥⁴楷桴湩焠敵敵⠠‰‽楦獲⽴畣牲湥⁴潭敶敭瑮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Control Movements > Set Reverse mode for a movement in an object's queue > On",
+      "text": "敓⁴敒敶獲⁥潭敤漠⁦潭敶敭瑮愠⁴ㄥ椠⁮〥猧焠敵敵⠠湏)",
+      "menuId": 25023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t敤漠⁦潭敶敭瑮愠⁴ㄥ椠⁮〥猧焠敵敵⠠湏)",
+        "湅整⁲湉敤⁸景䴠癯浥湥⁴楷桴湩焠敵敵⠠‰‽楦獲⽴畣牲湥⁴潭敶敭瑮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Control Movements > Set Pause at End mode for a movement in an object's queue > Off",
+      "text": "敓⁴慐獵⁥瑡䔠摮洠摯⁥景洠癯浥湥⁴瑡┠‱湩┠✰⁳畱略⁥伨晦)",
+      "menuId": 25024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t摮洠摯⁥景洠癯浥湥⁴瑡┠‱湩┠✰⁳畱略⁥伨晦)",
+        "湅整⁲湉敤⁸景䴠癯浥湥⁴楷桴湩焠敵敵⠠‰‽楦獲⽴畣牲湥⁴潭敶敭瑮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Control Movements > Set Pause at End mode for a movement in an object's queue > On",
+      "text": "敓⁴慐獵⁥瑡䔠摮洠摯⁥景洠癯浥湥⁴瑡┠‱湩┠✰⁳畱略⁥伨⥮",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t摮洠摯⁥景洠癯浥湥⁴瑡┠‱湩┠✰⁳畱略⁥伨⥮",
+        "湅整⁲湉敤⁸景䴠癯浥湥⁴楷桴湩焠敵敵⠠‰‽楦獲⽴畣牲湥⁴潭敶敭瑮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get number of movements in an object's queue",
+      "text": "畎扭牥晏潍敶敭瑮⡳",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲楆數⁤慖畬⁥景传橢捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get a movement's speed in an object's queue",
+      "text": "潍敶敭瑮即数摥(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲楆數⁤慖畬⁥景传橢捥t",
+        "湅整⁲湉敤⁸景䴠癯浥湥⁴楷桴湩焠敵敵⠠‰‽楦獲⽴畣牲湥⁴潭敶敭瑮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Current Movement > Get movement's progress in an object's queue",
+      "text": "䵃癯浥湥獴牐杯敲獳(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲楆數⁤慖畬⁥景传橢捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get number of Control Points in a movement in an object's queue",
+      "text": "潍敶敭瑮乳浵敢佲䍦湯牴汯潐湩獴(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲楆數⁤慖畬⁥景传橢捥t獴(",
+        "湅整⁲湉敤⁸景䴠癯浥湥⁴楷桴湩焠敵敵⠠‰‽楦獲⽴畣牲湥⁴潭敶敭瑮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Current Movement > Get movement's size of step in an object's queue",
+      "text": "䵃癯浥湥獴瑓灥楓敺(",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲楆數⁤慖畬⁥景传橢捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get Reverse mode for a movement in an object's queue",
+      "text": "潍敶敭瑮剳癥牥敳潍敤(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲楆數⁤慖畬⁥景传橢捥t",
+        "湅整⁲湉敤⁸景䴠癯浥湥⁴楷桴湩焠敵敵⠠‰‽楦獲⽴畣牲湥⁴潭敶敭瑮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Get Pause at End mode for a movement in an object's queue",
+      "text": "潍敶敭瑮偳畡敳瑁湅䵤摯⡥",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲楆數⁤慖畬⁥景传橢捥t",
+        "湅整⁲湉敤⁸景䴠癯浥湥⁴楷桴湩焠敵敵⠠‰‽楦獲⽴畣牲湥⁴潭敶敭瑮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Current Movement > Get X coordinate of movement's progress in an object's queue",
+      "text": "䵃癯浥湥獴偘潲牧獥⡳",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲楆數⁤慖畬⁥景传橢捥t",
+        "湅整⁲牰杯敲獳眠瑩楨⁮潭敶敭瑮⠠⸰‰‭⸱⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Current Movement > Get Y coordinate of movement's progress in an object's queue",
+      "text": "䵃癯浥湥獴偙潲牧獥⡳",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲楆數⁤慖畬⁥景传橢捥t",
+        "湅整⁲牰杯敲獳眠瑩楨⁮潭敶敭瑮⠠⸰‰‭⸱⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Current Movement > Get Fixed value of last object to move",
+      "text": "噆晏慌瑳潍敶敭瑮(",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

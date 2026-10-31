@@ -1,0 +1,215 @@
+{
+  "file": "kcrandom.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Random Event",
+      "text": "㄰猥瀠牥散瑮漠⁦桴⁥楴敭.",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Random Event Group",
+      "text": "ㄱ猥›⁁猥瀠牥散瑮挠慨据⁥湩朠潲灵.",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Custom Random Event Group",
+      "text": "㈱猥›⁁猥瀠牥散瑮挠慨据⁥湩朠潲灵┠⹳",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "New Random Seed",
+      "text": "㄰敎⁷慒摮浯穩牥匠敥⹤",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set Random Seed",
+      "text": "㄰敓⁴慒摮浯穩牥匠敥⁤潴┠⹳",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Activate Random Event Group",
+      "text": "㄰捁楴慶整删湡潤⁭癅湥⁴片畯⹰",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Activate Custom Random Event Group",
+      "text": "㄰捁楴慶整删湡潤⁭癅湥⁴片畯⁰猥.",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Random Number",
+      "text": "慒摮浯畎⡭",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Random Number (range)",
+      "text": "慒摮浯慒杮⡥",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Last Seed",
+      "text": "敇却敥⡤",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Random Letter",
+      "text": "慒摮浯敌瑴牥⠤",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Random Alphanumeric Character",
+      "text": "慒摮浯汁桰湡浵⠤",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Random Character",
+      "text": "慒摮浯桃牡捡整⑲(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Character/String functions > Ascii to Char",
+      "text": "獁楣呩䍯慨⑲(",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Character/String functions > Char to Ascii",
+      "text": "桃牡潔獁楣⡩",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Character/String functions > To Uppercase",
+      "text": "潴灕数⑲(",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Character/String functions > To Lowercase",
+      "text": "潴潌敷⑲(",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    }
+  ]
+}

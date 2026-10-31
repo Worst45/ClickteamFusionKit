@@ -1,0 +1,1015 @@
+{
+  "file": "xlua.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On Error",
+      "text": "漥›湏䔠牲牯",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On Function",
+      "text": "漥›湏䘠湵瑣潩⁮〥",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畆据楴湯丠浡e⁮〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "On Print",
+      "text": "漥›湏倠楲瑮",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "MMF Interface Enabled",
+      "text": "漥›䵍⁆湉整晲捡⁥湅扡敬d",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "WIN Interface Enabled",
+      "text": "漥›䥗⁎湉整晲捡⁥湅扡敬d",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Bound to Lua State",
+      "text": "漥›潂湵⁤潴䰠慵匠慴整",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Run File",
+      "text": "畒⁮潓牵散䘠汩⁥〥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        63
+      ],
+      "paramTitles": [
+        "楆敬漀牵散䘠汩⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Run String",
+      "text": "畒⁮潓牵散匠牴湩⁧〥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮爀散匠牴湩⁧〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Lua Functions > Push Numeric Parameter",
+      "text": "畐桳丠浵牥捩倠牡浡整㩲┠0",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畎扭牥洀牥捩倠牡浡整㩲┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Lua Functions > Push String Parameter",
+      "text": "畐桳匠牴湩⁧慐慲敭整㩲┠0",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮爀湩⁧慐慲敭整㩲┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Lua Functions > Push Boolean Parameter",
+      "text": "畐桳䈠潯敬湡倠牡浡瑥牥›〥",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潂汯慥n敬湡倠牡浡瑥牥›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Lua Functions > Call Lua Function",
+      "text": "慃汬䘠湵瑣潩㩮┠0",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮渀瑣潩㩮┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "MMF Functions > Push Numeric Return Value",
+      "text": "畐桳丠浵牥捩删瑥牵⁮慖畬㩥┠0",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畎扭牥洀牥捩删瑥牵⁮慖畬㩥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "MMF Functions > Push String Return Value",
+      "text": "畐桳匠牴湩⁧敒畴湲嘠污敵›〥",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮爀湩⁧敒畴湲嘠污敵›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "MMF Functions > Push Boolean Return Value",
+      "text": "畐桳䈠潯敬湡删瑥牵⁮慖畬㩥┠0",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畎扭牥漀敬湡删瑥牵⁮慖畬㩥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Libraries > Open All Libraries",
+      "text": "灏湥䄠汬䰠扩慲楲獥",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Libraries > Open Base",
+      "text": "灏湥䈠獡e",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Libraries > Open 'package'",
+      "text": "灏湥✠慰正条❥",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Libraries > Open 'table'",
+      "text": "灏湥✠慴汢❥",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Libraries > Open 'io'",
+      "text": "灏湥✠潩'",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Libraries > Open 'os'",
+      "text": "灏湥✠獯'",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Libraries > Open 'string'",
+      "text": "灏湥✠瑳楲杮'",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Libraries > Open 'math'",
+      "text": "灏湥✠慭桴'",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Libraries > Open 'debug'",
+      "text": "灏湥✠敤畢❧",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Libraries > Open 'bit'",
+      "text": "灏湥✠楢❴",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "MMF Functions > Register MMF Function",
+      "text": "敒楧瑳牥䴠䙍䘠湵瑣潩⁮〥眠瑩⁨ㄥ瀠牡浡s",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "畆据楴湯丠浡e湵瑣潩⁮〥眠瑩⁨ㄥ瀠牡浡s",
+        "楍楮畭⁭慐慲敭整⁲潃湵t眠瑩⁨ㄥ瀠牡浡s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Variables > Set Numeric Variable",
+      "text": "敓⁴畎敭楲⁣慖楲扡敬┠‰潴┠1",
+      "menuId": 25200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慖楲扡敬丠浡e楲扡敬┠‰潴┠1",
+        "畎敭楲⁣慖畬e楲扡敬┠‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Variables > Set String Variable",
+      "text": "敓⁴瑓楲杮嘠牡慩汢⁥〥琠⁯ㄥ",
+      "menuId": 25210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慖楲扡敬丠浡e慩汢⁥〥琠⁯ㄥ",
+        "瑓楲杮嘠污敵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Variables > Set Boolean Variable",
+      "text": "敓⁴潂汯慥⁮慖楲扡敬┠‰潴┠1",
+      "menuId": 25220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慖楲扡敬丠浡e楲扡敬┠‰潴┠1",
+        "潂汯慥⁮慖畬e楲扡敬┠‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "MMF Interface > Export Object",
+      "text": "硅潰瑲传橢捥⁴〥眠瑩⁨䑉┠1",
+      "menuId": 25230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣吠⁯硅潰瑲眀瑩⁨䑉┠1",
+        "摉湥楴楦牥砀潰瑲眀瑩⁨䑉┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Local Storage > Set Local Value",
+      "text": "敓⁴潌慣⁬瑓牯条⁥慖畬⁥〥㴠┠1",
+      "menuId": 25240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "摉湥楴楦牥琀牯条⁥慖畬⁥〥㴠┠1",
+        "慖畬e楦牥琀牯条⁥慖畬⁥〥㴠┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Local Storage > Set Local String",
+      "text": "敓⁴潌慣⁬瑓牯条⁥瑓楲杮┠‰‽ㄥ",
+      "menuId": 25250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "摉湥楴楦牥琀牯条⁥瑓楲杮┠‰‽ㄥ",
+        "瑓楲杮嘠污敵爀条⁥瑓楲杮┠‰‽ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "MMF Interface > Enable",
+      "text": "湅扡敬䴠䙍䤠瑮牥慦散",
+      "menuId": 25260,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Libraries > Enable LuaJIT",
+      "text": "湅扡敬䰠慵䥊T",
+      "menuId": 25270,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Libraries > Open 'jit'",
+      "text": "灏湥✠楢❴",
+      "menuId": 25280,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "WIN Interface > Enable",
+      "text": "湅扡敬圠义䤠瑮牥慦散",
+      "menuId": 25290,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Local Storage > Reset Local Storage",
+      "text": "敒敳⁴潌慣⁬瑓牯条e",
+      "menuId": 25310,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "MMF Interface > Reset Exports",
+      "text": "敒敳⁴䵍䥆䔠灸牯獴",
+      "menuId": 25320,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "WIN Interface > Reset Exports",
+      "text": "敒敳⁴䥗䥎䔠灸牯獴",
+      "menuId": 25330,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "State > Create State",
+      "text": "牃慥整䰠慵匠慴整┠0",
+      "menuId": 25340,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "摉湥楴楦牥匀慴整┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "State > Destroy State",
+      "text": "敄瑳潲⁹界⁡瑓瑡⁥〥",
+      "menuId": 25350,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "摉湥楴楦牥 瑓瑡⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "State > Bind State",
+      "text": "楂摮䰠慵匠慴整┠0",
+      "menuId": 25360,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "摉湥楴楦牥愀整┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "State > Unbind State",
+      "text": "湕楢摮䰠慵匠慴整",
+      "menuId": 25370,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "MMF Functions > Invoke MMF Function",
+      "text": "湉潶敫䴠䙍䘠湵瑣潩㩮┠0",
+      "menuId": 25380,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮䴀䙍䘠湵瑣潩㩮┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Lua Functions > Push NIL",
+      "text": "畐桳丠䱉",
+      "menuId": 25410,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "MMF Functions > Push NIL",
+      "text": "畐桳丠䱉",
+      "menuId": 25420,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Extensions > Bind OpenGL Object",
+      "text": "楂摮传数䝮⁌扏敪瑣›〥",
+      "menuId": 25430,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "灏湥䱇传橢捥t敪瑣›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Libraries > Open 'gl'",
+      "text": "灏湥✠汧'",
+      "menuId": 25440,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Error String",
+      "text": "牅潲卲牴湩⑧(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Lua Functions > Get Numeric Return",
+      "text": "䙌也浵牥捩敒畴湲(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "ⴱ慢敳⁤湩敤x湲("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Lua Functions > Get String Return",
+      "text": "䙌卟牴湩剧瑥牵⑮(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "ⴱ慢敳⁤湩敤x⑮("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Lua Functions > Get Boolean Return",
+      "text": "䙌䉟潯敬湡敒畴湲(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "ⴱ慢敳⁤湩敤x湲("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Lua Functions > Get Return Count",
+      "text": "䙌剟瑥牵䍮畯瑮(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "MMF Functions > Get Numeric Parameter",
+      "text": "䙍也浵牥捩慐慲⡭",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "ⴱ慢敳⁤湩敤x⡭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "MMF Functions > Get String Parameter",
+      "text": "䙍卟牴湩偧牡浡⠤",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "ⴱ慢敳⁤湩敤x⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "MMF Functions > Get Boolean Parameter",
+      "text": "䙍䉟潯敬湡慐慲⡭",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "ⴱ慢敳⁤湩敤x⡭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "MMF Functions > Get Parameter Count",
+      "text": "䙍偟牡浡潃湵⡴",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Variables > Get Numeric Variable",
+      "text": "畎敭楲噣牡(",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慖楲扡敬丠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Variables > Get String Variable",
+      "text": "瑓楲杮慖⑲(",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慖楲扡敬丠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Variables > Get Boolean Variable",
+      "text": "潂汯慥噮牡(",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慖楲扡敬丠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Local Storage > Get Local Value",
+      "text": "潌慣噬污(",
+      "menuId": 27120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "慖畬⁥䑉"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Local Storage > Get Local String",
+      "text": "潌慣卬牴⠤",
+      "menuId": 27130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "瑓楲杮䤠D"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Get Print String",
+      "text": "牐湩却牴湩⑧(",
+      "menuId": 27140,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Lua Functions > Call Lua Function > Numeric Return > Call with existing parameters",
+      "text": "界䙡湵瑣潩⡮",
+      "menuId": 27150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "畆据楴湯漀⡮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Lua Functions > Call Lua Function > String Return > Call with existing parameters",
+      "text": "界䙡湵瑣潩⑮(",
+      "menuId": 27160,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "畆据楴湯漀⑮("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Lua Functions > Call Lua Function > Numeric Return > Call with numeric parameter",
+      "text": "界䙡湵瑣潩乮⡐",
+      "menuId": 27170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "畆据楴湯漀乮⡐",
+        "慐慲敭整r乮⡐"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Lua Functions > Call Lua Function > Numeric Return > Call with string parameter",
+      "text": "界䙡湵瑣潩卮⡐",
+      "menuId": 27180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "畆据楴湯漀卮⡐",
+        "慐慲敭整r卮⡐"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Lua Functions > Call Lua Function > String Return > Call with numeric parameter",
+      "text": "界䙡湵瑣潩乮⑐(",
+      "menuId": 27190,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "畆据楴湯漀乮⑐(",
+        "慐慲敭整r乮⑐("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Lua Functions > Call Lua Function > String Return > Call with string parameter",
+      "text": "界䙡湵瑣潩卮⑐(",
+      "menuId": 27200,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "畆据楴湯漀卮⑐(",
+        "慐慲敭整r卮⑐("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

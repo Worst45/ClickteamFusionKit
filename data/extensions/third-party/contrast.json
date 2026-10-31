@@ -1,0 +1,48 @@
+{
+  "file": "contrast.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Change contrast",
+      "text": "桃湡敧挠湯牴獡⁴〥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敳⁴湩整敧⁲牦浯〠琠⁯㔲5"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Load default settings",
+      "text": "潌摡搠晥畡瑬猠瑥楴杮s",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 2,
+      "menu": "Get contrast",
+      "text": "敇䍴湯牴獡⡴",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

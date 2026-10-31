@@ -1,0 +1,413 @@
+{
+  "file": "ARCO2.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Before move",
+      "text": "漥䈠晥牯⁥潭楶杮琠敨漠橢捥t",
+      "menuId": 26000,
+      "resText": "%o Before moving the object",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "After move",
+      "text": "漥䄠瑦牥洠癯湩⁧桴⁥扯敪瑣",
+      "menuId": 26010,
+      "resText": "%o After moving the object",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Settings > Set speed",
+      "text": "敓⁴桔⁥灓敥⁤晏䌠牡吠⁯〥",
+      "menuId": 25000,
+      "resText": "Set The Speed Of Car To %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "灓敥d⁥灓敥⁤晏䌠牡吠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Settings > Set rotation Speed",
+      "text": "敓⁴桔⁥潒慴楴湯匠数摥传⁦慃⁲潔┠0",
+      "menuId": 25010,
+      "resText": "Set The Rotation Speed Of Car To %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "灓敥d⁥潒慴楴湯匠数摥传⁦慃⁲潔┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Settings > Set acceleration",
+      "text": "敓⁴桔⁥捁散敬慲楴湯传⁦慃⁲潔┠0",
+      "menuId": 25020,
+      "resText": "Set The Acceleration Of Car To %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "灓敥d⁥捁散敬慲楴湯传⁦慃⁲潔┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Settings > Set deceleration",
+      "text": "敓⁴桔⁥敄散敬慲楴湯传⁦慃⁲潔┠0",
+      "menuId": 25030,
+      "resText": "Set The Deceleration Of Car To %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "灓敥d⁥敄散敬慲楴湯传⁦慃⁲潔┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Settings > Select car object",
+      "text": "敓⁴〥愠⁳桴⁥慣r",
+      "menuId": 25040,
+      "resText": "Set %0 as the car",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t慣r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Step > Step forward",
+      "text": "瑓灥映牯慷摲",
+      "menuId": 25050,
+      "resText": "Step forward",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Step > Step backward",
+      "text": "瑓灥戠捡睫牡d",
+      "menuId": 25060,
+      "resText": "Step backward",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Rotation  > Rotate right",
+      "text": "潒慴整删杩瑨",
+      "menuId": 25070,
+      "resText": "Rotate Right",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Rotation  > Rotate left",
+      "text": "潒慴整䰠晥t",
+      "menuId": 25080,
+      "resText": "Rotate Left",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Custom > Step in amount",
+      "text": "瑓灥┠‰楰數獬",
+      "menuId": 25090,
+      "resText": "Step %0 pixels",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "流畯瑮 楰數獬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Custom > Rotate in amount",
+      "text": "潒慴整┠‰敄g",
+      "menuId": 25100,
+      "resText": "Rotate %0 Deg",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "流畯瑮─‰敄g"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Custom > Set postion",
+      "text": "敓⁴潐瑳潩⁮┨ⰰㄥ)",
+      "menuId": 25110,
+      "resText": "Set Postion (%0,%1)",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "X⁴潐瑳潩⁮┨ⰰㄥ)",
+        "Y⁴潐瑳潩⁮┨ⰰㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Custom > Set angle",
+      "text": "敓⁴湁汧⁥潔┠‰敄g",
+      "menuId": 25120,
+      "resText": "Set Angle To %0 Deg",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "流畯瑮氀⁥潔┠‰敄g"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Custom > Set current speed",
+      "text": "敓⁴畣牲湥⁴灳敥⁤潴┠‰楰數獬",
+      "menuId": 25130,
+      "resText": "Set current speed to %0 pixels",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "灓敥d牲湥⁴灳敥⁤潴┠‰楰數獬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Stop",
+      "text": "瑓灯",
+      "menuId": 25140,
+      "resText": "Stop",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Bounce",
+      "text": "潂湵散眠瑩⁨潰敷⁲〥",
+      "menuId": 25150,
+      "resText": "Bounce with power %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潐敷⁲景戠畯据湩g〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Custom > Step in angle",
+      "text": "瑓灥椠⁮〥搠来",
+      "menuId": 25160,
+      "resText": "Step in %0 deg",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湁汧e⁮〥搠来"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Custom > Step in angle and amount",
+      "text": "瑓灥┠‱楰數獬椠⁮〥搠来",
+      "menuId": 25170,
+      "resText": "Step %1 pixels in %0 deg",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湁汧e‱楰數獬椠⁮〥搠来",
+        "楐數獬 楰數獬椠⁮〥搠来"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get car X",
+      "text": "⡘",
+      "menuId": 27000,
+      "resText": "X(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get car Y",
+      "text": "⡙",
+      "menuId": 27010,
+      "resText": "Y(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get car dir",
+      "text": "楄⡲",
+      "menuId": 27020,
+      "resText": "Dir(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get car angle",
+      "text": "湡汧⡥",
+      "menuId": 27030,
+      "resText": "angle(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get current speed",
+      "text": "獣数摥(",
+      "menuId": 27040,
+      "resText": "cspeed(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Settings > Get speed",
+      "text": "灓敥⡤",
+      "menuId": 27050,
+      "resText": "Speed(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Settings > Get rotation speed",
+      "text": "卒数摥(",
+      "menuId": 27060,
+      "resText": "RSpeed(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Settings > Get acceleration",
+      "text": "捁⡣",
+      "menuId": 27070,
+      "resText": "Acc(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Settings > Get deceleration",
+      "text": "敄⡣",
+      "menuId": 27080,
+      "resText": "Dec(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

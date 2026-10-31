@@ -1,0 +1,196 @@
+{
+  "file": "Select.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Select by number of objects > Select first X objects",
+      "text": "漥›敓敬瑣映物瑳┠‱景┠0",
+      "menuId": 26000,
+      "resText": "%o: Select first %1 of %0",
+      "flags": 32,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "桃潯敳漠橢捥t瑳┠‱景┠0",
+        "湅整⁲潨⁷慭祮琠⁯敳敬瑣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Select by Alt Value > Single object with highest Alt Value",
+      "text": "漥›敓敬瑣猠湩汧⁥〥眠瑩⁨桴⁥楨桧獥⁴汁⹴嘠污敵⠠ㄥ)",
+      "menuId": 26010,
+      "resText": "%o: Select single %0 with the highest Alt. Value (%1)",
+      "flags": 32,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "桃潯敳漠橢捥t汧⁥〥眠瑩⁨桴⁥楨桧獥⁴汁⹴嘠污敵⠠ㄥ)",
+        "湅整⁲桴⁥汁⹴嘠污敵⠠ⴰ㔲)⁥楨桧獥⁴汁⹴嘠污敵⠠ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Select by Alt Value > Single object with lowest Alt Value",
+      "text": "漥›敓敬瑣猠湩汧⁥〥眠瑩⁨桴⁥潬敷瑳䄠瑬‮慖畬⁥┨⤱",
+      "menuId": 26020,
+      "resText": "%o: Select single %0 with the lowest Alt. Value (%1)",
+      "flags": 32,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "桃潯敳漠橢捥t汧⁥〥眠瑩⁨桴⁥潬敷瑳䄠瑬‮慖畬⁥┨⤱",
+        "湅整⁲桴⁥汁⹴嘠污敵⠠ⴰ㔲)⁥潬敷瑳䄠瑬‮慖畬⁥┨⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Select by number of objects > Select last X objects",
+      "text": "漥›敓敬瑣氠獡⁴ㄥ漠⁦〥",
+      "menuId": 26030,
+      "resText": "%o: Select last %1 of %0",
+      "flags": 32,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "桃潯敳漠橢捥t⁴ㄥ漠⁦〥",
+        "湅整⁲潨⁷慭祮琠⁯敳敬瑣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Re-select all objects",
+      "text": "漥›敒猭汥捥⁴污⁬〥",
+      "menuId": 26040,
+      "resText": "%o: Re-select all %0",
+      "flags": 32,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "桃潯敳漠橢捥t污⁬〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Select by display order > Select frontmost object",
+      "text": "漥›敓敬瑣䘠潲瑮潭瑳┠0",
+      "menuId": 26050,
+      "resText": "%o: Select Frontmost %0",
+      "flags": 32,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "桃潯敳漠橢捥t瑮潭瑳┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Select by display order > Select rearmost object",
+      "text": "漥›敓敬瑣删慥浲獯⁴〥",
+      "menuId": 26060,
+      "resText": "%o: Select Rearmost %0",
+      "flags": 32,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "桃潯敳漠橢捥t浲獯⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Compare to n# of selected objects",
+      "text": "漥›畎扭牥漠⁦〥猠汥捥整⁤祢瀠敲楶畯⁳潣摮瑩潩獮┠1",
+      "menuId": 26090,
+      "resText": "%o: Number of %0 selected by previous conditions %1",
+      "flags": 32,
+      "paramTypes": [
+        1,
+        23
+      ],
+      "paramTitles": [
+        "桃潯敳漠橢捥t〥猠汥捥整⁤祢瀠敲楶畯⁳潣摮瑩潩獮┠1",
+        "潃灭牡⁥潴渠浵敢⁲景猠汥捥整⁤扯敪瑣s潣摮瑩潩獮┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Select by number of objects > Select object at index",
+      "text": "漥›敓敬瑣┠‰瑡椠摮硥┠1",
+      "menuId": 26140,
+      "resText": "%o: Select %0 at index %1",
+      "flags": 32,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "桃潯敳漠橢捥t瑡椠摮硥┠1",
+        "湅整⁲湩敤⁸景漠橢捥⁴潴猠汥捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Count Selected Objects (Name)",
+      "text": "畮卭汥捥整䉤乹浡⡥",
+      "menuId": 27000,
+      "resText": "numSelectedByName(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慎敭漠⁦扏敪瑣洀⡥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Count Selected Objects (Fixed Value)",
+      "text": "畮卭汥捥整䉤䙹硩摥⡖",
+      "menuId": 27010,
+      "resText": "numSelectedByFixedV(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬⁥景传橢捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

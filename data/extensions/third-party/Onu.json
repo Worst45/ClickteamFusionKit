@@ -1,0 +1,997 @@
+{
+  "file": "Onu.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Connections > Is Deck Connected?",
+      "text": "漥›獉䐠捥⁫〥䌠湯敮瑣摥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D捥⁫〥䌠湯敮瑣摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Playback > Is Deck Playing?",
+      "text": "漥›獉䐠捥⁫〥倠慬楹杮",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D捥⁫〥倠慬楹杮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Playback > Is Deck Paused?",
+      "text": "漥›獉䐠捥⁫〥倠畡敳d",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D捥⁫〥倠畡敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "On Error",
+      "text": "漥›湏䔠牲牯",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Connections > Is Winamp Deck Connected?",
+      "text": "漥›獉圠湩浡⁰敄正䌠湯敮瑣摥?",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Playback > Is Deck Stopping / Fading Out?",
+      "text": "漥›獉䐠捥⁫瑓灯楰杮漠⁲慆楤杮传瑵?",
+      "menuId": 26006,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D捥⁫瑓灯楰杮漠⁲慆楤杮传瑵?"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Playback > Is Deck Running?",
+      "text": "漥›獉䐠捥⁫〥删湵楮杮?",
+      "menuId": 26007,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D捥⁫〥删湵楮杮?"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Connections > Decks > Connect Deck Cable to Deck",
+      "text": "潃湮捥⁴敄正┠‰楷桴䔠杮湩敥⁲慃汢⁥ㄥ",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D敄正┠‰楷桴䔠杮湩敥⁲慃汢⁥ㄥ",
+        "敄正䔠杮湩敥⁲慃汢⁥伨畮湅ⵧ䌾扡敬 䅔䕐䑉⤠)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Connections > Decks > Disconnect Deck",
+      "text": "楄捳湯敮瑣䐠捥⁫〥",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D瑣䐠捥⁫〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Deck Playback > Play Deck",
+      "text": "汐祡䐠捥⁫〥",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D⁫〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Deck Playback > Pause Deck",
+      "text": "慐獵⁥敄正┠0",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D正┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Deck Playback > Resume Deck",
+      "text": "敒畳敭䐠捥⁫〥",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D捥⁫〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Deck Playback > Stop Deck",
+      "text": "瑓灯䐠捥⁫〥",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D⁫〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Deck Playback > With Fades > Play Deck",
+      "text": "汐祡䐠捥⁫〥眠瑩⁨ㄥ獭䘠摡⁥湉",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D⁫〥眠瑩⁨ㄥ獭䘠摡⁥湉",
+        "慆敤吠浩⁥湩洠汩楬敳潣摮s⁥湉"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Deck Playback > With Fades > Pause Deck",
+      "text": "慐獵⁥敄正┠‰楷桴┠洱⁳慆敤传瑵",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D正┠‰楷桴┠洱⁳慆敤传瑵",
+        "慆敤吠浩⁥湩洠汩楬敳潣摮s敤传瑵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Deck Playback > With Fades > Resume Deck",
+      "text": "敒畳敭䐠捥⁫〥眠瑩⁨ㄥ獭䘠摡⁥湉",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D捥⁫〥眠瑩⁨ㄥ獭䘠摡⁥湉",
+        "慆敤吠浩⁥湩洠汩楬敳潣摮s摡⁥湉"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Deck Playback > With Fades > Stop Deck",
+      "text": "瑓灯䐠捥⁫〥眠瑩⁨ㄥ獭䘠摡⁥畏t",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D⁫〥眠瑩⁨ㄥ獭䘠摡⁥畏t",
+        "慆敤吠浩⁥湩洠汩楬敳潣摮s⁥畏t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Decks > Set Fade In Time",
+      "text": "敓⁴ㄥ獭䘠摡⁥湉漠⁮敄正┠0",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D䘠摡⁥湉漠⁮敄正┠0",
+        "慆敤吠浩⁥湩洠汩楬敳潣摮s0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Decks > Set Fade Out Time",
+      "text": "敓⁴ㄥ獭䘠摡⁥畏⁴湯䐠捥⁫〥",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D䘠摡⁥畏⁴湯䐠捥⁫〥",
+        "慆敤吠浩⁥湩洠汩楬敳潣摮s〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Display Error",
+      "text": "楄灳慬⁹牅潲r",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Clear Error",
+      "text": "汃慥⁲牅潲r",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Connections > Winamp > Connect Winamp Deck to Plugin",
+      "text": "潃湮捥⁴楗慮灭䐠捥⁫潴瀠畬楧⁮〥",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楗慮灭倠畬楧n䐠捥⁫潴瀠畬楧⁮〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Connections > Winamp > Disconnect Winamp Deck",
+      "text": "楄捳湯敮瑣圠湩浡⁰敄正",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Deck Playback > Set Winamp Playback File",
+      "text": "敓⁴楗慮灭倠慬批捡⁫楆敬琠⁯〥",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楗慮灭倠慬批捡⁫楆敬椀敬琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Connections > Visualizers > Connect Visualizer to Deck",
+      "text": "摁⁤楖畳污穩牥䌠扡敬┠‰潴䐠捥⁫ㄥ",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楖畳污穩牥䌠扡敬⠠敇⁴楖畳污穩牥䌠扡敬)",
+        "敄正䤠D牥䌠扡敬⠠敇⁴楖畳污穩牥䌠扡敬)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Connections > Automatic > Connect Deck for File",
+      "text": "潃湮捥⁴敄正┠‰楷桴䘠汩⁥ㄥ",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        40
+      ],
+      "paramTitles": [
+        "敄正䤠D敄正┠‰楷桴䘠汩⁥ㄥ",
+        "汐祡慢正䘠汩e‰楷桴䘠汩⁥ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Decks > Set Volume",
+      "text": "敓⁴潖畬敭漠⁮敄正┠‰潴┠1",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D敭漠⁮敄正┠‰潴┠1",
+        "潖畬敭⠠慖畬⁥牦浯〠匽䱉久⁔潴ㄠ〰㴰商䱌)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Decks > Set Pan",
+      "text": "敓⁴慐⁮湯䐠捥⁫〥琠⁯ㄥ",
+      "menuId": 25021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D湯䐠捥⁫〥琠⁯ㄥ",
+        "慐⁮嘨污敵映潲⁭ㄭ〰㴰䕌呆琠⁯〱〰刽䝉呈⠠㴰䕃呎剅⤩"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Decks > Advanced > Set Playback Frequency",
+      "text": "敓⁴汐祡慢正䘠敲畱湥祣漠⁮敄正┠‰潴┠栱z",
+      "menuId": 25022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D慢正䘠敲畱湥祣漠⁮敄正┠‰潴┠栱z",
+        "牆煥敵据⁹湩䠠⁺渨瑯愠潢敶ㄠ〰〬〰穨)栱z"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Decks > Advanced > Reset Playback Frequency",
+      "text": "敒敳⁴汐祡慢正䘠敲畱湥祣漠⁮敄正┠0",
+      "menuId": 25023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D祡慢正䘠敲畱湥祣漠⁮敄正┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Deck Playback > Play Deck n Times",
+      "text": "汐祡䐠捥⁫〥┠‱楴敭s",
+      "menuId": 25024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D⁫〥┠‱楴敭s",
+        "畎扭牥漠⁦楔敭⁳潴倠慬⁹⴨‱潦⁲湩楦楮整)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Deck Playback > With Fades > Play Deck n Times",
+      "text": "汐祡䐠捥⁫〥┠‱楴敭⁳楷桴愠䘠摡⁥湉漠⁦㈥獭",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D⁫〥┠‱楴敭⁳楷桴愠䘠摡⁥湉漠⁦㈥獭",
+        "畎扭牥漠⁦楔敭⁳潴倠慬⁹⴨‱潦⁲湩楦楮整)獭",
+        "慆敤吠浩⁥湩洠汩楬敳潣摮s‱潦⁲湩楦楮整)獭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Deck Playback > Seek to Position",
+      "text": "敓步琠⁯ㄥ獭椠⁮敤正┠0",
+      "menuId": 25026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠Dㄥ獭椠⁮敤正┠0",
+        "楔敭椠⁮卍琠⁯敳步琠o0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Deck Playback > Stop All Decks",
+      "text": "瑓灯䄠汬䐠捥獫⠠⽷搠晥畡瑬映摡獥)",
+      "menuId": 25027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Decks > Advanced > Set Buffer Length (for next Play)",
+      "text": "敓⁴敄正┠‰畂晦牥䰠湥瑧⁨潴┠‱卍",
+      "menuId": 25028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D┠‰畂晦牥䰠湥瑧⁨潴┠‱卍",
+        "畂晦牥䰠湥瑧⁨湩䴠⁓ㄨ〰㰠‽⁸㴼ㄠⰰ〰⤰⠠‰潦⁲敲污楴敭)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Connections > Automatic > Connect Deck for File (custom Extension)",
+      "text": "潃湮捥⁴敄正┠‰楷桴映汩⁥ㄥ甠楳杮攠瑸湥楳湯┠2",
+      "menuId": 25029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        40,
+        45
+      ],
+      "paramTitles": [
+        "敄正䤠D敄正┠‰楷桴映汩⁥ㄥ甠楳杮攠瑸湥楳湯┠2",
+        "汐祡慢正䘠汩e‰楷桴映汩⁥ㄥ甠楳杮攠瑸湥楳湯┠2",
+        "楆敬䔠瑸湥楳湯⠠潮⸠ 攨⁧洢摯⤢最攠瑸湥楳湯┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Deck Playback > Flush Output",
+      "text": "汆獵⁨畏灴瑵漠⁮敄正┠0",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D灴瑵漠⁮敄正┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Decks > Reserve Deck",
+      "text": "敒敳癲⁥敄正┠‰晩ㄠ㴠┠1",
+      "menuId": 25031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D敄正┠‰晩ㄠ㴠┠1",
+        "敒敳癲⁥汆条⠠‰晩映敲ⱥㄠ椠⁦敲敳癲摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Decks > Advanced > Set Playback Frequency Multiplier",
+      "text": "敓⁴敄正┠‰牆煥敵据⁹畍瑬灩楬牥琠⁯ㄥ",
+      "menuId": 25032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D┠‰牆煥敵据⁹畍瑬灩楬牥琠⁯ㄥ",
+        "牆煥敵据⁹畍瑬灩楬牥⠠〱〰㴠ㄠ〮ⱸ㔠〰㴠〠㔮ⱸ㈠〰‰‽⸲砰‬瑥⥣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Other > Auto-pause > Enable",
+      "text": "湅扡敬䄠瑵灯畡敳⠠楷桴䴠䙍猧倠畡敳䘠慥畴敲)",
+      "menuId": 25033,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Other > Auto-pause > Disable",
+      "text": "楄慳汢⁥畁潴慰獵⁥眨瑩⁨䵍❆⁳慐獵⁥敆瑡牵⥥",
+      "menuId": 25034,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Decks > Get First Free Deck",
+      "text": "楆獲䙴敲䑥捥⡫",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Decks > Get Deck Fade In Time (ms)",
+      "text": "敄正慆敤湉(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D湉("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Decks > Get Deck Fade Out Time (ms)",
+      "text": "敄正慆敤畏⡴",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D畏⡴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Connections > Get Onu Cable",
+      "text": "湏䍵扡敬(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get Error",
+      "text": "牅潲⑲(",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Decks > Get Winamp Deck ID",
+      "text": "楗慮灭敄正䑉(",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Playback > Get Total Time of Deck in ms",
+      "text": "潔慴呬浩䵥⡓",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D䵥⡓"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Playback > Get Current Play Time of Deck in ms",
+      "text": "畃牲湥呴浩䵥⡓",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D浩䵥⡓"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Playback > Get Deck Volume",
+      "text": "敇䑴捥噫汯浵⡥",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D汯浵⡥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Playback > Get Deck Panning",
+      "text": "敇䑴捥偫湡楮杮(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D湡楮杮("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Playback > Advanced > Get Playback Frequency",
+      "text": "敇側慬批捡䙫敲畱湥祣(",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D捡䙫敲畱湥祣("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Playback > Advanced > Get Original Sample Rate",
+      "text": "敇佴楲楧慮卬浡汰剥瑡⡥",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D慮卬浡汰剥瑡⡥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Playback > Advanced > Get Original Bitdepth",
+      "text": "敇佴楲楧慮䉬瑩敄瑰⡨",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D慮䉬瑩敄瑰⡨"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Playback > Advanced > Get Original Number of Channels",
+      "text": "敇佴楲楧慮乬浵敢潲䍦慨湮汥⡳",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D慮乬浵敢潲䍦慨湮汥⡳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Vis. Data > Get Waveform Data",
+      "text": "敇坴癡䑥瑡⡡",
+      "menuId": 27016,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D瑡⡡",
+        "桃湡敮⁬〨䰭晥ⱴㄠ刭杩瑨)",
+        "慗敶潦浲䤠摮硥⠠ⴰ㜵⤵琀)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Vis. Data > Get Spectrum Data",
+      "text": "敇却数瑣畲䑭瑡⡡",
+      "menuId": 27017,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D畲䑭瑡⡡",
+        "桃湡敮⁬〨䰭晥ⱴㄠ刭杩瑨‬ⴲ潂桴)",
+        "灓捥牴浵䤠摮硥⠠ⴰㄵ⤱琀‬ⴲ潂桴)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Vis. Data > Get FFT Data",
+      "text": "敇䙴呆慄慴(",
+      "menuId": 27018,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D慴(",
+        "桃湡敮⁬〨䰭晥ⱴㄠ刭杩瑨‬ⴲ潂桴)",
+        "䙆⁔湉敤⁸〨ㄭ⤵㄀刭杩瑨‬ⴲ潂桴)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Playback > Get Current File Time of Deck in ms",
+      "text": "畃牲湥䙴汩呥浩䵥⡓",
+      "menuId": 27019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D汩呥浩䵥⡓"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Vis. Data > Get Loudest Spectrum Index",
+      "text": "敇䱴畯敤瑳灓捥牴浵(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D瑳灓捥牴浵(",
+        "楍楮畭⁭灓捥牴浵嘠污敵䴠汵楴汰敩⁤祢ㄠ〰0",
+        "灓捥牴浵䤠摮硥䰠睯删湡敧⠠ⴰㄵ⤱ 祢ㄠ〰0",
+        "灓捥牴浵䤠摮硥䠠杩⁨慒杮⁥〨㔭ㄱ)祢ㄠ〰0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Decks > Is Deck Reserved",
+      "text": "敇䑴捥剫獥牥敶⡤",
+      "menuId": 27021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D獥牥敶⡤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

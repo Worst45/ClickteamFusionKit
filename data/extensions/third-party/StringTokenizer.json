@@ -1,0 +1,120 @@
+{
+  "file": "StringTokenizer.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Split string",
+      "text": "Split string %0 with delimiters %1 (1D)",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "String",
+        "Delimiters"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Split string (2D)",
+      "text": "Split string %0 with delimiters %1 and %2 (2D)",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "String",
+        "X delimiters",
+        "Y delimiters"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Number of elements",
+      "text": "ElementCount(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get element",
+      "text": "Element$(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Index (0 based)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get element (2D)",
+      "text": "Element2D$(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "X index (0 based)",
+        "Y index (0 based)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Number of X elements (2D)",
+      "text": "ElementCountX(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Number of Y elements (2D)",
+      "text": "ElementCountY(",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "X index (0 based)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

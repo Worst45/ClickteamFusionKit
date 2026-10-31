@@ -1,0 +1,19 @@
+{
+  "file": "Crasher.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Crash",
+      "text": "牃獡⁨灡汰捩瑡潩n",
+      "menuId": 25000,
+      "resText": "Crash application",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": []
+}

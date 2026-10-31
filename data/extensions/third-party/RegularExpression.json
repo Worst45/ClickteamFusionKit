@@ -1,0 +1,52 @@
+{
+  "file": "RegularExpression.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "String matches regex (internal)",
+      "text": "敒畧慬⁲硅牰獥楳湯›桔獩漠橢捥⁴獩渠瑯挠浯慰楴汢⁥楷桴琠楨⁳敶獲潩⁮景䴠䙍",
+      "menuId": 26000,
+      "resText": "%o : String matches regex (internal)",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "conditions_status": "menu ressources",
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Options > Set interpretation flags",
+      "text": "敒畧慬⁲硅牰獥楳湯›桔獩漠橢捥⁴獩渠瑯挠浯慰楴汢⁥楷桴琠楨⁳敶獲潩⁮景䴠䙍",
+      "menuId": 25000,
+      "resText": "Set interpretation flags to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "摁⁤潴敧桴牥攠灸敲獳潩獮映潲⁭桴獩漠橢捥❴⁳䤧瑮牥牰瑥瑡潩❮洠湥u⁮景䴠䙍"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions_status": "menu ressources",
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Internal Data > Internal string",
+      "text": "敒畧慬⁲硅牰獥楳湯›桔獩漠橢捥⁴獩渠瑯挠浯慰楴汢⁥楷桴琠楨⁳敶獲潩⁮景䴠䙍",
+      "menuId": 27000,
+      "resText": "GetString$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions_status": "menu ressources"
+}

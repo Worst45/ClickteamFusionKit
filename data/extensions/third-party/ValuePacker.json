@@ -1,0 +1,155 @@
+{
+  "file": "ValuePacker.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Is a specific bit set?",
+      "text": "漥›楂⁴〥椠⁳敳t",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楂⁴畮扭牥⠠ⴰㄳ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set value",
+      "text": "敓⁴慶畬⁥潴┠0",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴慶畬e潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Pack n-bit value",
+      "text": "慐正┠ⴱ楢⁴慶畬⁥〥愠⁴楢⁴㈥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓⁴慶畬e⁴慶畬⁥〥愠⁴楢⁴㈥",
+        "畎扭牥漠⁦楢獴⠠ⴱ㈳)⁴楢⁴㈥",
+        "瑓牡楴杮愠⁴楢⁴〨㌭⤱ 楢⁴㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set bit",
+      "text": "敓⁴楢⁴〥",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楂⁴畮扭牥⠠ⴰㄳ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Clear bit",
+      "text": "汃慥⁲楢⁴〥",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楂⁴畮扭牥⠠ⴰㄳ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Toggle bit",
+      "text": "潔杧敬戠瑩┠0",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楂⁴畮扭牥⠠ⴰㄳ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get value",
+      "text": "慖畬⡥",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get packed n-bit value",
+      "text": "慐正摥嘠污敵(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楆獲⁴楢t敵(",
+        "畎扭牥漠⁦楢獴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get bit",
+      "text": "楂⡴",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楂⁴畮扭牥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

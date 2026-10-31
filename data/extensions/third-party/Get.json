@@ -1,0 +1,202 @@
+{
+  "file": "Get.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On get complete",
+      "text": "%o: On get complete",
+      "menuId": 26000,
+      "resText": "%o: On get complete",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Is get pending?",
+      "text": "%o: Get is pending",
+      "menuId": 26010,
+      "resText": "%o: Get is pending",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "On get timeout",
+      "text": "%o: On get timeout",
+      "menuId": 26020,
+      "resText": "%o: On get timeout",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "conditions_status": "menu ressources",
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Get URL",
+      "text": "Get URL %0",
+      "menuId": 25000,
+      "resText": "Get URL %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "URL String"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Add POST data",
+      "text": "Add POST data %0 = %1",
+      "menuId": 25010,
+      "resText": "Add POST data %0 = %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "Name",
+        "Value"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Special Config ... > Set Custom Header",
+      "text": "Set custom header to %0",
+      "menuId": 25020,
+      "resText": "Set custom header to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Custom Header String"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Special Config ... > Set User",
+      "text": "Set user to %0",
+      "menuId": 25030,
+      "resText": "Set user to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "User String"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Special Config ... > Set Password",
+      "text": "Set password to %0",
+      "menuId": 25040,
+      "resText": "Set password to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Password String"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Special Config ... > Set Timeout",
+      "text": "Set timeout to %0 msecs.",
+      "menuId": 25050,
+      "resText": "Set timeout to %0 msecs.",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "timeout in millisecs."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Special Config ... > Set User Agent",
+      "text": "Set user agent to %0",
+      "menuId": 25060,
+      "resText": "Set user agent to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "User Agent String"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions_status": "menu ressources",
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get received",
+      "text": "Received$(",
+      "menuId": 27000,
+      "resText": "Received$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "URL encode",
+      "text": "URLEncode$(",
+      "menuId": 27010,
+      "resText": "URLEncode$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Response Code",
+      "text": "ResponseCode(",
+      "menuId": 27020,
+      "resText": "ResponseCode(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions_status": "menu ressources"
+}

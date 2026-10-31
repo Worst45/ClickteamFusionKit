@@ -1,0 +1,385 @@
+{
+  "file": "fcAVIs.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Has one or more image",
+      "text": "漥栠獡漠敮漠⁲潭敲椠慭敧",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Has a sound strip",
+      "text": "漥栠獡愠猠畯摮猠牴灩",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "On error",
+      "text": "漥›湏䔠牲牯",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "On successful conversion",
+      "text": "漥›湏匠捵散獳畦⁬潃癮牥楳湯",
+      "menuId": 26004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Is processing",
+      "text": "漥椠⁳牰捯獥楳杮",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "On processed image",
+      "text": "漥›湏倠潲散獳摥䤠慭敧",
+      "menuId": 26006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Video images > Add an image at the end",
+      "text": "摁⁤浩条⁥〥愠⁴桴⁥湥⁤景琠敨瘠摩潥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敓敬瑣愠瀠捩畴敲映汩⁥⨨戮灭⨻朮晩⨻樮杰)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Video images > Delete all images",
+      "text": "敄敬整愠汬椠慭敧⁳景琠敨瘠摩潥",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Process > Convert sequence to AVI",
+      "text": "潃癮牥⁴浩条獥猫畯摮琠⁯噁⁉楦敬┠0",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楖敤⁯楦敬琠⁯慳敶愠瑦牥挠湯敶獲潩⁮⨨愮楶)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Sound strip > Set sound strip of the video",
+      "text": "敓⁴桴⁥楶敤⁯潳湵⁤瑳楲⁰潴┠0",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敓敬瑣愠猠畯摮映汩⁥⨨眮癡)┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Sound strip > Delete sound strip of the video",
+      "text": "敄敬整猠畯摮猠牴灩漠⁦桴⁥楶敤o",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Video images > Delete last image",
+      "text": "敄敬整氠獡⁴浩条⁥景琠敨瘠摩潥",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Process > Stop conversion",
+      "text": "瑓灯挠湯敶獲潩⁮湡⁤牆敥洠浥牯y",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Video images > Set images period",
+      "text": "敓⁴浩条獥瀠牥潩⁤潴┠洰s",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楔敭戠瑥敷湥㈠椠慭敧⁳湩洠汩楬敳潣摮s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Process > Compress video",
+      "text": "潃灭敲獳瘠摩潥⠠〥)",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潃灭敲獳瘠摩潥⠠㴰晏ⱦㄠ伽Ɱ㈠唽敳搠慩潬⁧晩渠捥獥慳祲)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Process > Pause conversion",
+      "text": "慐獵⁥潣癮牥楳湯",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Process > Resume conversion",
+      "text": "敒畳敭挠湯敶獲潩⁮慰獵摥",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Process > Set FourCC code to use",
+      "text": "敓⁴潣灭敲獳潩⁮獵湩⁧潆牵䍃›〥",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潆牵䍃⠠慣敳猠湥楳楴敶 潆⁲硥浡汰㩥∠䥄塖Ⱒ∠偍㑇Ⱒ∠噘䑉•氨慥敶戠慬歮映牯愠搠慩潬⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Video images > Count images",
+      "text": "潣湵䥴慭敧⡳",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Video images > Get last image path",
+      "text": "敧䱴獡䥴慭敧慐桴⠤",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Sound strip > Get sound strip path",
+      "text": "敧却畯摮慐桴⠤",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Video images > Get first image path",
+      "text": "敧䙴物瑳浉条健瑡⑨(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Video images > Get an image path",
+      "text": "敧䥴慭敧慐桴⠤",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "浉条⁥畮扭牥⠀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Error > Get last error num",
+      "text": "敧䱴獡䕴牲牯(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Error > Get last error string",
+      "text": "敧䱴獡䕴牲牯⠤",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Process > Get process image",
+      "text": "敧側潲散獳摥浉条⡥",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Process > Get process percentage",
+      "text": "敧側潲散獳摥敐捲湥⡴",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Video images > Get images period",
+      "text": "敧䥴慭敧偳牥潩⡤",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Process > Get video file name",
+      "text": "敧噴摩潥楆敬慎敭⠤",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

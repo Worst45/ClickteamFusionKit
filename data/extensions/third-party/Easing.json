@@ -1,0 +1,521 @@
+{
+  "file": "Easing.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Any object stopped moving?",
+      "text": "漥›湁⁹扯敪瑣猠潴灰摥洠癯湩g",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Object stopped moving?",
+      "text": "漥›扏敪瑣猠潴灰摥洠癯湩㩧┠0",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敓敬瑣漠橢捥⁴潴琠獥t湩㩧┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Is object moving?",
+      "text": "漥›晉┠‰獩洠癯湩g",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敓敬瑣漠橢捥⁴潴琠獥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Move object",
+      "text": "潍敶┠‰獵湩⁧ㄥ琠⁯╛ⰲ㌥⁝癯牥┠‵㐥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敓敬瑣漠橢捥⁴潴洠癯eⰲ㌥⁝癯牥┠‵㐥"
+      ],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Stop object",
+      "text": "瑓灯┠0",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敓敬瑣漠橢捥⁴潴猠潴p"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Stop all objects",
+      "text": "瑓灯愠汬漠橢捥獴",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Reverse object",
+      "text": "敒敶獲⁥潭敶敭瑮漠⁦〥",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敓敬瑣漠橢捥⁴潴洠癯e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Default parameters > Set default amplitude",
+      "text": "敓⁴敤慦汵⁴浡汰瑩摵⁥‽〥",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴浡汰瑩摵⁥慶畬⁥䐨晥畡瑬㴠ㄠ〮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Default parameters > Set default overshoot",
+      "text": "敓⁴敤慦汵⁴癯牥桳潯⁴‽〥",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴癯牥桳潯⁴慶畬⁥䐨晥畡瑬㴠ㄠ㔮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Default parameters > Set default period",
+      "text": "敓⁴敤慦汵⁴数楲摯㴠┠0",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴数楲摯瘠污敵⠠敄慦汵⁴‽⸰⤴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Object parameters > Set amplitude of object",
+      "text": "敓⁴浡汰瑩摵⁥景┠‰潴┠1",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣漠敢捪t景┠‰潴┠1",
+        "敓⁴浡汰瑩摵⁥慶畬⁥䐨晥畡瑬㴠ㄠ〮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Object parameters > Set overshoot of object",
+      "text": "敓⁴癯牥桳潯⁴景┠‰潴┠1",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣漠敢捪t景┠‰潴┠1",
+        "敓⁴癯牥桳潯⁴慶畬⁥䐨晥畡瑬㴠ㄠ㔮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Object parameters > Set period of object",
+      "text": "敓⁴数楲摯漠⁦〥琠⁯ㄥ",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣漠敢捪t〥琠⁯ㄥ",
+        "敓⁴数楲摯瘠污敵⠠敄慦汵⁴‽⸰⤴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Move object (nummeric parameters)",
+      "text": "潍敶┠‰獵湩⁧潭敤┽‱畦据楴湯㵁㈥映湵瑣潩䉮┽″潴嬠㐥┬崵甠楳杮琠浩ⵥ潭敤┠‶癯牥┠‷楴敭甠楮獴",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆數⁤慶畬⁥景琠敨漠橢捥⁴潴洠癯e映湵瑣潩䉮┽″潴嬠㐥┬崵甠楳杮琠浩ⵥ潭敤┠‶癯牥┠‷楴敭甠楮獴",
+        "慅楳杮洠摯⁥〨䤽Ɱㄠ伽瑵‬㴲湉畏ⱴ㌠伽瑵湉)┽″潴嬠㐥┬崵甠楳杮琠浩ⵥ潭敤┠‶癯牥┠‷楴敭甠楮獴",
+        "楆獲⁴畦据楴湯›〨䰽湩慥Ⱳㄠ焽慵牤瑡捩‬㴲畣楢Ᵽ㌠焽極瑮‬㴴楳敮‬⸮‮)敤┠‶癯牥┠‷楴敭甠楮獴",
+        "敓潣摮映湵瑣潩㩮⠠㴰楌敮牡‬㴱畱摡慲楴Ᵽ㈠挽扵捩‬㴳畱湩ⱴ㐠猽湩ⱥ⸠⸮⤠攀┠‶癯牥┠‷楴敭甠楮獴",
+        "湅整⁲慴杲瑥堠挠潯摲湩瑡e‬㴱畱摡慲楴Ᵽ㈠挽扵捩‬㴳畱湩ⱴ㐠猽湩ⱥ⸠⸮⤠攀┠‶癯牥┠‷楴敭甠楮獴",
+        "湅整⁲慴杲瑥夠挠潯摲湩瑡e‬㴱畱摡慲楴Ᵽ㈠挽扵捩‬㴳畱湩ⱴ㐠猽湩ⱥ⸠⸮⤠攀┠‶癯牥┠‷楴敭甠楮獴",
+        "楔敭洠摯⁥〨洽汩楬敳潣摮ⱳㄠ攽敶瑮氠潯獰)挽扵捩‬㴳畱湩ⱴ㐠猽湩ⱥ⸠⸮⤠攀┠‶癯牥┠‷楴敭甠楮獴",
+        "楔敭洀摯⁥〨洽汩楬敳潣摮ⱳㄠ攽敶瑮氠潯獰)挽扵捩‬㴳畱湩ⱴ㐠猽湩ⱥ⸠⸮⤠攀┠‶癯牥┠‷楴敭甠楮獴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get number of controlled objects",
+      "text": "敇乴浵潃瑮潲汬摥(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get fixed value of recently stopped object",
+      "text": "敇却潴灰摥楆數⡤",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Easing value [0..1] > Ease-In (function, step)",
+      "text": "慅敳湉(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "畦据楴湯",
+        "瑳灥椀湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Easing value [0..1] > Ease-Out (function, step)",
+      "text": "慅敳畏⡴",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "畦据楴湯",
+        "瑳灥椀湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Easing value [0..1] > Ease-InOut (functionA, functionB, step)",
+      "text": "慅敳湉畏⡴",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "畦据楴湯䄠",
+        "畦据楴湯䈠",
+        "瑳灥椀湯䈠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Easing value [0..1] > Ease-OutIn (functionA, functionB, step)",
+      "text": "慅敳畏䥴⡮",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "畦据楴湯䄠",
+        "畦据楴湯䈠",
+        "瑳灥椀湯䈠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Between two values > Ease-In (valueA, valueB, function, step)",
+      "text": "慅敳湉敂睴敥⡮",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "慶畬⁥A睴敥⡮",
+        "慶畬⁥B睴敥⡮",
+        "畦据楴湯眀敥⡮",
+        "瑳灥椀湯眀敥⡮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Between two values > Ease-Out (valueA, valueB, function, step)",
+      "text": "慅敳畏䉴瑥敷湥(",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "慶畬⁥A瑥敷湥(",
+        "慶畬⁥B瑥敷湥(",
+        "畦据楴湯琀敷湥(",
+        "瑳灥椀湯琀敷湥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Between two values > Ease-InOut (valueA, valueB, functionA, functionB, step)",
+      "text": "慅敳湉畏䉴瑥敷湥(",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "慶畬⁥A䉴瑥敷湥(",
+        "慶畬⁥B䉴瑥敷湥(",
+        "畦据楴湯䄠琀敷湥(",
+        "畦据楴湯䈠琀敷湥(",
+        "瑳灥椀湯䈠琀敷湥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Between two values > Ease-OutIn (valueA, valueB, functionA, functionB, step)",
+      "text": "慅敳畏䥴䉮瑥敷湥(",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "慶畬⁥A䉮瑥敷湥(",
+        "慶畬⁥B䉮瑥敷湥(",
+        "畦据楴湯䄠琀敷湥(",
+        "畦据楴湯䈠琀敷湥(",
+        "瑳灥椀湯䈠琀敷湥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Parameters of object > Get amplitude of object",
+      "text": "敇佴橢捥䅴灭楬畴敤(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楦數⁤慶畬e楬畴敤("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Parameters of object > Get overshoot of object",
+      "text": "敇佴橢捥佴敶獲潨瑯(",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楦數⁤慶畬e獲潨瑯("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Parameters of object > Get period of object",
+      "text": "敇佴橢捥側牥潩⡤",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楦數⁤慶畬e潩⡤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Default parameters > Get default amplitude",
+      "text": "敇䑴晥畡瑬流汰瑩摵⡥",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Default parameters > Get default overshoot",
+      "text": "敇䑴晥畡瑬癏牥桳潯⡴",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Default parameters > Get default period",
+      "text": "敇䑴晥畡瑬敐楲摯(",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

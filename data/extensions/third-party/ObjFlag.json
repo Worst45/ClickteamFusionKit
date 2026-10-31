@@ -1,0 +1,62 @@
+{
+  "file": "ObjFlag.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set flag",
+      "text": "敓⁴汦条┠‱景┠‰潴┠2",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣最┠‱景┠‰潴┠2",
+        "汆条⠠ⴰㄳ)景┠‰潴┠2",
+        "慖畬⁥〨ㄭ)景┠‰潴┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set all flags",
+      "text": "敓⁴汦条⁳景┠‰潴┠1",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣最⁳景┠‰潴┠1",
+        "汆条⁳戨瑩慭歳)潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get all flags",
+      "text": "汆条⡳",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慶畬e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

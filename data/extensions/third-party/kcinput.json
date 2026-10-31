@@ -1,0 +1,189 @@
+{
+  "file": "kcinput.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "OK Button Clicked",
+      "text": "〱猥›䭏䈠瑵潴⁮汃捩敫d",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Cancel Button Clicked",
+      "text": "〱猥›慃据汥䈠瑵潴⁮汃捩敫d",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Dialogs > Open Input String Dialog",
+      "text": "㄰灏湥䤠灮瑵䐠慩潬⁧匨牴湩Ⱨ吠瑩敬┽ⱳ䐠獥牣灩楴湯┽⥳",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Dialogs > Open Input Number Dialog",
+      "text": "㄰灏湥䤠灮瑵䐠慩潬⁧丨浵敢Ⱳ吠瑩敬┽ⱳ䐠獥牣灩楴湯┽⥳",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Dialogs > Open Input Username and Password Dialog",
+      "text": "㄰灏湥䤠灮瑵䐠慩潬⁧唨敳湲浡⽥慐獳潷摲‬楔汴㵥猥‬敄捳楲瑰潩㵮猥)",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Dialogs > Open Input Multiline Dialog",
+      "text": "㄰灏湥䤠灮瑵䐠慩潬⁧䴨汵楴楬敮‬楔汴㵥猥‬敄捳楲瑰潩㵮猥)",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Dialogs > Open Input Multiline Dialog (With Horizontal Scrollbar)",
+      "text": "㄰灏湥䤠灮瑵䐠慩潬⁧䴨汵楴楬敮䠫ⱓ吠瑩敬┽ⱳ䐠獥牣灩楴湯┽⥳",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Change Control's values > Set Input String",
+      "text": "㄰敓⁴湉異⁴瑓楲杮琠⁯猥",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Change Control's values > Set Input Number",
+      "text": "㄰敓⁴湉異⁴畎扭牥琠⁯猥",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Change Control's values > Set Input2 String (Password Box)",
+      "text": "㄰敓⁴湉異㉴匠牴湩⁧潴┠s",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Change Control's values > Set Input Character Limit",
+      "text": "㄰敓⁴湉異⁴楌業⁴潴┠s",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Change Control's values > Set Input2 Character Limit (Password Box)",
+      "text": "㄰敓⁴湉異㉴䰠浩瑩琠⁯猥",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Input String",
+      "text": "湉異⑴(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Input Number",
+      "text": "湉異⡴",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Input2 String (Password)",
+      "text": "湉異⁴慐獳⠤",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

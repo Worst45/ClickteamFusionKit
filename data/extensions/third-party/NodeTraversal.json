@@ -1,0 +1,25 @@
+{
+  "file": "NodeTraversal.mfx",
+  "conditions": [],
+  "actions": [],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Traverse",
+      "text": "牴癡牥敳⠤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "楆獲⁴潣汬捥楴湯",
+        "敓潣摮挠汯敬瑣潩n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

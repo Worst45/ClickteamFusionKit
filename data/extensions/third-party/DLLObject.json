@@ -1,0 +1,649 @@
+{
+  "file": "DLLObject.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On Error",
+      "text": "漥传⁮牅潲r",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Load DLL",
+      "text": "潌摡┠0",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潌摡䐠䱌"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Unload DLL",
+      "text": "湕潬摡䐠䱌",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Call Function",
+      "text": "慃汬䘠湵瑣潩⁮〥",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慃汬䘠湵瑣潩n〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Return Value > No Return Value",
+      "text": "潎删瑥牵⁮慖畬e",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Return Value > Return Integer",
+      "text": "敒畴湲䤠瑮来牥",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Return Value > Return String",
+      "text": "敒畴湲匠牴湩g",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Return Value > Return Float",
+      "text": "敒畴湲䘠潬瑡",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Arguments > No Arguments (clear all)",
+      "text": "敒敳⁴牁畧敭瑮䰠獩t",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Arguments > Set Argument to Integer",
+      "text": "敓⁴牁畧敭瑮┠‰潴⠠ㄥ 䤨瑮来牥)",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "桗捩⁨牡畧敭瑮‿ㄨ戠獡摥)瑮来牥)",
+        "牁畧敭瑮瘠污敵 ㄨ戠獡摥)瑮来牥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Arguments > Set Argument to Float",
+      "text": "敓⁴牁畧敭瑮┠‰潴⠠ㄥ 䘨潬瑡)",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "桗捩⁨牡畧敭瑮‿ㄨ戠獡摥)潬瑡)",
+        "牁畧敭瑮瘠污敵 ㄨ戠獡摥)潬瑡)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Arguments > Set Argument to String",
+      "text": "敓⁴牁畧敭瑮┠‰潴⠠ㄥ 匨牴湩⥧",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "桗捩⁨牡畧敭瑮‿ㄨ戠獡摥)牴湩⥧",
+        "牁畧敭瑮瘠污敵 ㄨ戠獡摥)牴湩⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Arguments > Add Argument Integer",
+      "text": "摁⁤湉整敧⁲牁畧敭瑮⠠〥)",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牁畧敭瑮瘠污敵甀敭瑮⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Arguments > Add Argument Float",
+      "text": "摁⁤汆慯⁴牁畧敭瑮⠠〥)",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牁畧敭瑮瘠污敵攀瑮⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Arguments > Add Argument String",
+      "text": "摁⁤瑓楲杮䄠杲浵湥⁴┨⤰",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "牁畧敭瑮瘠污敵洀湥⁴┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Arguments > Set Argument to Integer Buffer",
+      "text": "敓⁴牁畧敭瑮┠‰潴䤠瑮来牥䈠晵敦⁲┨⤱",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "桗捩⁨牡畧敭瑮‿ㄨ戠獡摥)䈠晵敦⁲┨⤱",
+        "牁畧敭瑮瘠污敵 ㄨ戠獡摥)䈠晵敦⁲┨⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Arguments > Add Argument Integer Buffer",
+      "text": "摁⁤湉整敧⁲畂晦牥䄠杲浵湥⁴┨⤰",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牁畧敭瑮瘠污敵昀牥䄠杲浵湥⁴┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Calling Convention > __cdecl (C/C++ DLLs)",
+      "text": "畆据楴湯甠敳⁳彟摣捥⁬潣癮湥楴湯",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Calling Convention > __stdcall (Win32, default)",
+      "text": "畆据楴湯甠敳⁳彟瑳捤污⁬潣癮湥楴湯",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Arguments > Set Argument to Float Buffer",
+      "text": "敓⁴牁畧敭瑮┠‰潴䘠潬瑡䈠晵敦⁲┨⤱",
+      "menuId": 25022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "桗捩⁨牡畧敭瑮‿ㄨ戠獡摥)晵敦⁲┨⤱",
+        "牁畧敭瑮瘠污敵 ㄨ戠獡摥)晵敦⁲┨⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Arguments > Add Argument Float Buffer",
+      "text": "摁⁤汆慯⁴畂晦牥䄠杲浵湥⁴┨⤰",
+      "menuId": 25023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牁畧敭瑮瘠污敵爀䄠杲浵湥⁴┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Arguments > Set Argument to Double Buffer",
+      "text": "敓⁴牁畧敭瑮┠‰潴䐠畯汢⁥畂晦牥⠠ㄥ)",
+      "menuId": 25024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "桗捩⁨牡畧敭瑮‿ㄨ戠獡摥)畂晦牥⠠ㄥ)",
+        "牁畧敭瑮瘠污敵 ㄨ戠獡摥)畂晦牥⠠ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Arguments > Add Argument Double Buffer",
+      "text": "摁⁤潄扵敬䈠晵敦⁲牁畧敭瑮⠠〥)",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "牁畧敭瑮瘠污敵攀⁲牁畧敭瑮⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Arguments > Set Argument to String Buffer",
+      "text": "敓⁴牁畧敭瑮┠‰潴匠牴湩⁧畂晦牥⠠㈥戠瑹獥‬湩瑩慩⁬慶畬⁥ㄥ⤠",
+      "menuId": 25026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "桗捩⁨牡畧敭瑮‿ㄨ戠獡摥)畂晦牥⠠㈥戠瑹獥‬湩瑩慩⁬慶畬⁥ㄥ⤠",
+        "牁畧敭瑮瘠污敵 ㄨ戠獡摥)畂晦牥⠠㈥戠瑹獥‬湩瑩慩⁬慶畬⁥ㄥ⤠",
+        "楓敺椠⁮祢整s ㄨ戠獡摥)畂晦牥⠠㈥戠瑹獥‬湩瑩慩⁬慶畬⁥ㄥ⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Arguments > Add Argument String Buffer",
+      "text": "摁⁤瑓楲杮䈠晵敦⁲牁畧敭瑮⠠ㄥ戠瑹獥‬湩瑩慩⁬慶畬⁥〥⤠",
+      "menuId": 25027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "牁畧敭瑮瘠污敵攀⁲牁畧敭瑮⠠ㄥ戠瑹獥‬湩瑩慩⁬慶畬⁥〥⤠",
+        "楓敺椠⁮祢整s攀⁲牁畧敭瑮⠠ㄥ戠瑹獥‬湩瑩慩⁬慶畬⁥〥⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Arguments > Set Argument to Double",
+      "text": "敓⁴牁畧敭瑮┠‰潴⠠ㄥ 䐨畯汢⥥",
+      "menuId": 25028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "桗捩⁨牡畧敭瑮‿ㄨ戠獡摥)畯汢⥥",
+        "牁畧敭瑮瘠污敵 ㄨ戠獡摥)畯汢⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Arguments > Add Argument Double",
+      "text": "摁⁤潄扵敬䄠杲浵湥⁴┨⤰",
+      "menuId": 25029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "牁畧敭瑮瘠污敵洀湥⁴┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Return Value > Return Double",
+      "text": "敒畴湲䐠畯汢e",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Arguments > Integer",
+      "text": "敇䅴杲湉⡴",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "牡畧敭瑮椠d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Arguments > Float",
+      "text": "敇䅴杲汆慯⡴",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "牡畧敭瑮椠d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Arguments > String",
+      "text": "敇䅴杲瑓楲杮⠤",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "牡畧敭瑮椠d⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Return Value > Integer",
+      "text": "敇剴瑥牵䥮瑮(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Return Value > Float",
+      "text": "敇剴瑥牵䙮潬瑡(",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Return Value > String",
+      "text": "敇剴瑥牵卮牴湩⑧(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "On Error > Get Error Message",
+      "text": "敇䕴牲牯敍獳条⑥(",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Function > Return Integer",
+      "text": "敒畴湲湉⡴",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "畦据楴湯渠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Function > Return Float",
+      "text": "敒畴湲汆慯⡴",
+      "menuId": 27016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "畦据楴湯渠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Function > Return String",
+      "text": "敒畴湲瑓楲杮⠤",
+      "menuId": 27017,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "畦据楴湯渠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Window Handle > Get Main Handle",
+      "text": "敇䵴楡䡮湷⡤",
+      "menuId": 27018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Window Handle > Get Frame Handle",
+      "text": "敇䙴慲敭睈摮(",
+      "menuId": 27019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Return Value > Double",
+      "text": "敇剴瑥牵䑮畯汢⑥(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Arguments > Double",
+      "text": "敇䅴杲潄扵敬⠤",
+      "menuId": 27021,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "牡畧敭瑮椠d⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Function > Return Double",
+      "text": "敒畴湲潄扵敬⠤",
+      "menuId": 27022,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "畦据楴湯渠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

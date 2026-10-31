@@ -1,0 +1,105 @@
+{
+  "file": "kcmouse.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Compare Actual Mouse X",
+      "text": "㄰捁畴污䴠畯敳堠瀠獯瑩潩⁮猥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Compare Actual Mouse Y",
+      "text": "㄰捁畴污䴠畯敳夠瀠獯瑩潩⁮猥",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Compare Distance rolled",
+      "text": "㄰楄瑳湡散䴠畯敳删汯敬⁤猥",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Actual Mouse X",
+      "text": "㄰敓⁴捁畴污䴠畯敳堠琠⁯猥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set Actual Mouse Y",
+      "text": "㄰敓⁴捁畴污䴠畯敳夠琠⁯猥",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Actual Mouse X Position",
+      "text": "潍獵塥(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Actual Mouse Y Position",
+      "text": "潍獵奥(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Distance Rolled",
+      "text": "潍獵剥汯⡬",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

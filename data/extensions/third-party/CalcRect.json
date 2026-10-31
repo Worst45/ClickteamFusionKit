@@ -1,0 +1,96 @@
+{
+  "file": "CalcRect.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set font",
+      "text": "敓⁴潦瑮映捡⁥〥Ⱐ猠穩⁥ㄥⰠ猠祴敬┠2",
+      "menuId": 25000,
+      "resText": "Set font face %0 , size %1 , style %2",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慎敭漠⁦桴⁥潦瑮Ⰰ猠穩⁥ㄥⰠ猠祴敬┠2",
+        "楓敺漠⁦桴⁥潦瑮⠠瑰)⁥ㄥⰠ猠祴敬┠2",
+        "瑓汹⁥‭摡⁤潴敧桴牥›‱‽潢摬‬′‽瑩污捩‬‴‽湵敤汲湩e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set text",
+      "text": "敓⁴整瑸琠⁯〥",
+      "menuId": 25010,
+      "resText": "Set text to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敔瑸琠⁯慣捬汵瑡⁥楳敺漠f"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set maximum width (multiline text)",
+      "text": "敓⁴慭⁸楷瑤⁨潴┠0",
+      "menuId": 25020,
+      "resText": "Set max width to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慍楸畭⁭楷瑤⁨湩瀠硩汥s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Calculate area",
+      "text": "慃捬汵瑡⁥牡慥",
+      "menuId": 25030,
+      "resText": "Calculate area",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get text width",
+      "text": "敔瑸圠摩桴(",
+      "menuId": 27000,
+      "resText": "Text Width(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get text height",
+      "text": "敔瑸䠠楥桧⡴",
+      "menuId": 27010,
+      "resText": "Text Height(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

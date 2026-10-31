@@ -1,0 +1,411 @@
+{
+  "file": "globalfunction.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On Function",
+      "text": "漥㨠传⁮畆据楴湯┠0",
+      "menuId": 26000,
+      "resText": "%o : On Function %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畆据楴湯渠浡e湯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "A function is waiting",
+      "text": "漥㨠䄠映湵瑣潩⁮獩眠楡楴杮",
+      "menuId": 26010,
+      "resText": "%o : A function is waiting",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Arguments > Argument is a number",
+      "text": "漥㨠䄠杲浵湥⁴〥椠⁳⁡畮扭牥",
+      "menuId": 26020,
+      "resText": "%o : Argument %0 is a number",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牁畧敭瑮渠浵敢⁲ㄨ戭獡摥)牥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Arguments > Argument is a string",
+      "text": "漥㨠䄠杲浵湥⁴〥椠⁳⁡瑳楲杮",
+      "menuId": 26030,
+      "resText": "%o : Argument %0 is a string",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牁畧敭瑮渠浵敢⁲ㄨ戭獡摥)杮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Arguments > Argument is binary data",
+      "text": "漥㨠䄠杲浵湥⁴〥椠⁳楢慮祲搠瑡a",
+      "menuId": 26040,
+      "resText": "%o : Argument %0 is binary data",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牁畧敭瑮渠浵敢⁲ㄨ戭獡摥)搠瑡a"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Another app is visible",
+      "text": "漥㨠䄠⁮灡⁰獩瘠獩汩汢⁥獵湩⁧慮敭┠0",
+      "menuId": 26050,
+      "resText": "%o : An app is visilble using name %0",
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楖楳汢⁥慮敭猀瘠獩汩汢⁥獵湩⁧慮敭┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Send function > Add number argument",
+      "text": "漥㨠䄠摤渠浵敢⁲牡畧敭瑮┠0",
+      "menuId": 25000,
+      "resText": "%o : Add number argument %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畎扭牥瀠牡浡瑥牥爀畧敭瑮┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Send function > Add string argument",
+      "text": "漥㨠䄠摤猠牴湩⁧牡畧敭瑮┠0",
+      "menuId": 25010,
+      "resText": "%o : Add string argument %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮瀠牡浡瑥牥爀畧敭瑮┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Send function > Add binary argument",
+      "text": "漥㨠䄠摤戠湩牡⁹牡畧敭瑮漠⁦楳敺┠‰牦浯愠摤敲獳┠1",
+      "menuId": 25020,
+      "resText": "%o : Add binary argument of size %0 from address %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楓敺漠⁦楢慮祲椠⁮祢整s漠⁦楳敺┠‰牦浯愠摤敲獳┠1",
+        "敍潭祲愠摤敲獳漠⁦楢慮祲漀⁦楳敺┠‰牦浯愠摤敲獳┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Send function > Send function within app",
+      "text": "漥㨠匠湥⁤畦据楴湯┠‰楷桴湩愠灰琠⁯慴杲瑥┠1",
+      "menuId": 25030,
+      "resText": "%o : Send function %0 within app to target %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "畆据楴湯渠浡e楴湯┠‰楷桴湩愠灰琠⁯慴杲瑥┠1",
+        "慔杲瑥渠浡ee楴湯┠‰楷桴湩愠灰琠⁯慴杲瑥┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Send function > Send function to another app",
+      "text": "漥㨠匠湥⁤畦据楴湯┠‰潴琠牡敧⁴ㄥ椠⁮灡⁰㈥",
+      "menuId": 25040,
+      "resText": "%o : Send function %0 to target %1 in app %2",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "畆据楴湯渠浡e楴湯┠‰潴琠牡敧⁴ㄥ椠⁮灡⁰㈥",
+        "慔杲瑥渠浡ee楴湯┠‰潴琠牡敧⁴ㄥ椠⁮灡⁰㈥",
+        "慔杲瑥愠灰楬慣楴湯猧瘠獩扩敬渠浡e椠⁮灡⁰㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Visibility to other apps > Make app visible to other apps",
+      "text": "漥㨠䴠歡⁥灡⁰楶楳汢⁥獵湩⁧慮敭┠0",
+      "menuId": 25050,
+      "resText": "%o : Make app visible using name %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楖楳汢⁥慮敭 楶楳汢⁥獵湩⁧慮敭┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Visibility to other apps > Remove visibility to other apps",
+      "text": "漥㨠删浥癯⁥楶楳楢楬祴",
+      "menuId": 25060,
+      "resText": "%o : Remove visibility",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Visibility to other apps > Disallow making this app visible",
+      "text": "漥㨠䐠獩污潬⁷慭楫杮琠楨⁳灡⁰楶楳汢e",
+      "menuId": 25070,
+      "resText": "%o : Disallow making this app visible",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Function checking > Auto check for new functions",
+      "text": "漥㨠䄠瑵⁯档捥⁫潦⁲敮⁷畦据楴湯s",
+      "menuId": 25080,
+      "resText": "%o : Auto check for new functions",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Function checking > Turn off Auto checking for new functions",
+      "text": "漥㨠吠牵⁮景⁦畁潴挠敨正湩⁧潦⁲敮⁷畦据楴湯s",
+      "menuId": 25090,
+      "resText": "%o : Turn off Auto checking for new functions",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Function checking > Check for new functions",
+      "text": "漥㨠䌠敨正映牯渠睥映湵瑣潩獮",
+      "menuId": 25100,
+      "resText": "%o : Check for new functions",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "On function > End function",
+      "text": "漥㨠䔠摮映湵瑣潩n",
+      "menuId": 25110,
+      "resText": "%o : End function",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "On function > Dump binary data argument to memory",
+      "text": "漥㨠䐠浵⁰慤慴愠杲浵湥⁴瑡┠‰景猠穩⁥ㄥ戠瑹獥琠⁯摡牤獥⁳㈥",
+      "menuId": 25120,
+      "resText": "%o : Dump data argument at %0 of size %1 bytes to address %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牁畧敭瑮渠浵敢⁲ㄨ戭獡摥)┠‰景猠穩⁥ㄥ戠瑹獥琠⁯摡牤獥⁳㈥",
+        "楓敺漠⁦敭潭祲戠晵敦r摥)┠‰景猠穩⁥ㄥ戠瑹獥琠⁯摡牤獥⁳㈥",
+        "敍潭祲愠摤敲獳漠⁦畢晦牥琠⁯畤灭搠瑡⁡潴戀瑹獥琠⁯摡牤獥⁳㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Save Files > Save functions to file",
+      "text": "漥㨠匠癡⁥畦据楴湯⁳潴┠0",
+      "menuId": 25130,
+      "resText": "%o : Save functions to %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬瀠瑡h畦据楴湯⁳潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Save Files > Load and add functions from file",
+      "text": "漥㨠䰠慯⁤畦据楴湯⁳牦浯┠0",
+      "menuId": 25140,
+      "resText": "%o : Load functions from %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬瀠瑡h畦据楴湯⁳牦浯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Change name",
+      "text": "漥㨠䌠慨杮⁥慮敭琠⁯〥",
+      "menuId": 25150,
+      "resText": "%o : Change name to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楇敶渠睥渠浡⁥潦⁲䙇O"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "On Function > Number of arguments",
+      "text": "畮䅭杲浵湥獴(",
+      "menuId": 27000,
+      "resText": "numArguments(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On Function > Get number argument",
+      "text": "敧乴浵牁畧敭瑮(",
+      "menuId": 27010,
+      "resText": "getNumArgument(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "On Function > Get string argument",
+      "text": "敧却牴牁畧敭瑮⠤",
+      "menuId": 27020,
+      "resText": "getStrArgument$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "On Function > Get size of binary data argument",
+      "text": "楓敺慄慴牁畧敭瑮⠤",
+      "menuId": 27030,
+      "resText": "SizeDataArgument$(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get unique process ID",
+      "text": "牐捯獥䥳⡄",
+      "menuId": 27040,
+      "resText": "ProcessID(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

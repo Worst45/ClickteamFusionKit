@@ -1,0 +1,838 @@
+{
+  "file": "speechbubble.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Settings > Colors > Outline",
+      "text": "%oSet outline color to %0",
+      "menuId": 25000,
+      "resText": "%oSet outline color to %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "Outline Color"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Settings > Outline thickness",
+      "text": "%oSet outline thickness to %0",
+      "menuId": 25010,
+      "resText": "%oSet outline thickness to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Outline thickness"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Settings > Colors > Fill",
+      "text": "%oSet fill color to %0",
+      "menuId": 25020,
+      "resText": "%oSet fill color to %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "Fill Colour"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Settings > Shadow > Color",
+      "text": "%oSet shadow color to %0",
+      "menuId": 25030,
+      "resText": "%oSet shadow color to %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "Color"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Settings > Font > Set Font Color",
+      "text": "%oSet font color to %0",
+      "menuId": 25040,
+      "resText": "%oSet font color to %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "Color"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Settings > Shadow > Opacity",
+      "text": "%oSet shadows oppacity to %0",
+      "menuId": 25050,
+      "resText": "%oSet shadows oppacity to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Opacity 0% = transparent , 100% = opaque"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Set Width",
+      "text": "%oSet width to %0",
+      "menuId": 25060,
+      "resText": "%oSet width to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Width in pixels"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Target Position > Set Position...",
+      "text": "%oSet target position to %0",
+      "menuId": 25070,
+      "resText": "%oSet target position to %0",
+      "flags": 0,
+      "paramTypes": [
+        16
+      ],
+      "paramTitles": [
+        "Target Position"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Target Position > Set X Coordinate...",
+      "text": "%oSet target X position to %0",
+      "menuId": 25080,
+      "resText": "%oSet target X position to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Set X Coordinate..."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Target Position > Set Y Coordinate...",
+      "text": "%oSet target Y position to %0",
+      "menuId": 25090,
+      "resText": "%oSet target Y position to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Set Y Coordinate..."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Set Text",
+      "text": "%oSet text to %0 ",
+      "menuId": 25100,
+      "resText": "%oSet text to %0 ",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Text that is shown in the speech bubble"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Set Margin > Set Left",
+      "text": "%oSet left margin to %0 ",
+      "menuId": 25110,
+      "resText": "%oSet left margin to %0 ",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Pixels"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Set Margin > Set Right",
+      "text": "%oSet right margin to %0 ",
+      "menuId": 25120,
+      "resText": "%oSet right margin to %0 ",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Pixels"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Set Margin > Set Top",
+      "text": "%oSet top margin to %0 ",
+      "menuId": 25130,
+      "resText": "%oSet top margin to %0 ",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Pixels"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Set Margin > Set Bottom",
+      "text": "%oSet bottom margin to %0 ",
+      "menuId": 25140,
+      "resText": "%oSet bottom margin to %0 ",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Pixels"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Force Update ( shouldn't be needed )",
+      "text": "%oUpdate",
+      "menuId": 25150,
+      "resText": "%oUpdate",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Arrow > Set Arrow size",
+      "text": "%oSet Arrow size to %0",
+      "menuId": 25160,
+      "resText": "%oSet Arrow size to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Size"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Arrow > Visibility > Hide",
+      "text": "%oShow arrow",
+      "menuId": 25170,
+      "resText": "%oShow arrow",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Arrow > Visibility > Show",
+      "text": "%oShow arrow",
+      "menuId": 25180,
+      "resText": "%oShow arrow",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Settings > Font > Set Font...",
+      "text": "%oSet font to ( %0, size %1 (bool bold %2, italic %3)",
+      "menuId": 25190,
+      "resText": "%oSet font to ( %0, size %1 (bool bold %2, italic %3)",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Font name",
+        "Size",
+        "Bold ? 1 = yes  0 = no",
+        "Italic ? 1 = yes  0 = no"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Settings > Set Corner radius",
+      "text": "%oSet corner radius to %0",
+      "menuId": 25200,
+      "resText": "%oSet corner radius to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Size"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Hotspot > Custom...",
+      "text": "%oSet hotspot to ( %0, %1 )",
+      "menuId": 25210,
+      "resText": "%oSet hotspot to ( %0, %1 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Set X Coordinate...",
+        "Set Y Coordinate..."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Hotspot > Top-left",
+      "text": "%oSet hotspot to top-left",
+      "menuId": 25220,
+      "resText": "%oSet hotspot to top-left",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Hotspot > Top-center",
+      "text": "%oSet hotspot to top-center",
+      "menuId": 25230,
+      "resText": "%oSet hotspot to top-center",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Hotspot > Top-right",
+      "text": "%oSet hotspot to top-right",
+      "menuId": 25240,
+      "resText": "%oSet hotspot to top-right",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Hotspot > Left-center",
+      "text": "%oSet hotspot to left-center",
+      "menuId": 25250,
+      "resText": "%oSet hotspot to left-center",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Hotspot > Center",
+      "text": "%oSet hotspot to center",
+      "menuId": 25260,
+      "resText": "%oSet hotspot to center",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Hotspot > Right-center",
+      "text": "%oSet hotspot to right-center",
+      "menuId": 25270,
+      "resText": "%oSet hotspot to right-center",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Hotspot > Bottom-left",
+      "text": "%oSet hotspot to bottom-left",
+      "menuId": 25280,
+      "resText": "%oSet hotspot to bottom-left",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Hotspot > Bottom-center",
+      "text": "%oSet hotspot to bottom-center",
+      "menuId": 25290,
+      "resText": "%oSet hotspot to bottom-center",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Settings > Font > Align > Left",
+      "text": "%o Allign text to the left",
+      "menuId": 25310,
+      "resText": "%o Allign text to the left",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Settings > Font > Align > Centre",
+      "text": "%o Allign text to the center",
+      "menuId": 25320,
+      "resText": "%o Allign text to the center",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Settings > Font > Align > Right",
+      "text": "%o Allign text to the right",
+      "menuId": 25330,
+      "resText": "%o Allign text to the right",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Arrow > Position > Custom...",
+      "text": "%o Set arrow origin to (%0,%1)",
+      "menuId": 25340,
+      "resText": "%o Set arrow origin to (%0,%1)",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Set X Coordinate...",
+        "Set Y Coordinate..."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Arrow > Position > Top-left",
+      "text": "%o Set arrow origin to top-left",
+      "menuId": 25350,
+      "resText": "%o Set arrow origin to top-left",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Arrow > Position > Top-center",
+      "text": "%o Set arrow origin to top-center",
+      "menuId": 25360,
+      "resText": "%o Set arrow origin to top-center",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Arrow > Position > Top-right",
+      "text": "%o Set arrow origin to top-right",
+      "menuId": 25370,
+      "resText": "%o Set arrow origin to top-right",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Arrow > Position > Left-center",
+      "text": "%o Set arrow origin to left-center",
+      "menuId": 25380,
+      "resText": "%o Set arrow origin to left-center",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Arrow > Position > Center",
+      "text": "%o Set arrow origin to centre",
+      "menuId": 25390,
+      "resText": "%o Set arrow origin to centre",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Arrow > Position > Right-center",
+      "text": "%o Set arrow origin to right-center",
+      "menuId": 25400,
+      "resText": "%o Set arrow origin to right-center",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Arrow > Position > Bottom-left",
+      "text": "%o Set arrow origin to bottom-left",
+      "menuId": 25410,
+      "resText": "%o Set arrow origin to bottom-left",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Arrow > Position > Bottom-center",
+      "text": "%o Set arrow origin to bottom-center",
+      "menuId": 25420,
+      "resText": "%o Set arrow origin to bottom-center",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Arrow > Position > Bottom-right",
+      "text": "%o Set arrow origin to bottom-right",
+      "menuId": 25430,
+      "resText": "%o Set arrow origin to bottom-right",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Arrow > Position > Auto-Decide",
+      "text": "%o Set arrow origin ( auto )",
+      "menuId": 25440,
+      "resText": "%o Set arrow origin ( auto )",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Settings > Shadow > X offset",
+      "text": "%o Set Shadow X offset to %0",
+      "menuId": 25450,
+      "resText": "%o Set Shadow X offset to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "X offset"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Settings > Shadow > Y offset",
+      "text": "%o Set Shadow Y offset to %0",
+      "menuId": 25460,
+      "resText": "%o Set Shadow Y offset to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Y offset"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get margin left",
+      "text": "Marginleft(",
+      "menuId": 27000,
+      "resText": "Marginleft(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get margin right",
+      "text": "Marginright(",
+      "menuId": 27010,
+      "resText": "Marginright(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get margin top",
+      "text": "Margintop(",
+      "menuId": 27020,
+      "resText": "Margintop(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get margin bottom",
+      "text": "Marginbottom(",
+      "menuId": 27030,
+      "resText": "Marginbottom(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get fill color",
+      "text": "Fill(",
+      "menuId": 27040,
+      "resText": "Fill(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get outline color",
+      "text": "Outline(",
+      "menuId": 27050,
+      "resText": "Outline(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Get outline thickness",
+      "text": "Outlinesize(",
+      "menuId": 27060,
+      "resText": "Outlinesize(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Get shadow color",
+      "text": "Shadow(",
+      "menuId": 27070,
+      "resText": "Shadow(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Get font color",
+      "text": "Fontcolor(",
+      "menuId": 27080,
+      "resText": "Fontcolor(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Get shadow opacity",
+      "text": "ShadowOpacity(",
+      "menuId": 27090,
+      "resText": "ShadowOpacity(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Get width",
+      "text": "Width(",
+      "menuId": 27100,
+      "resText": "Width(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Find width of text ( without word wrap )",
+      "text": "FindWidth(",
+      "menuId": 27110,
+      "resText": "FindWidth(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Get text",
+      "text": "GetText$(",
+      "menuId": 27120,
+      "resText": "GetText$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Get corner radius",
+      "text": "CornerRadius(",
+      "menuId": 27130,
+      "resText": "CornerRadius(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Get height",
+      "text": "Height(",
+      "menuId": 27140,
+      "resText": "Height(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

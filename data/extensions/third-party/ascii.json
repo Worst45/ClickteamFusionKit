@@ -1,0 +1,39 @@
+{
+  "file": "ascii.mfx",
+  "conditions": [],
+  "actions": [],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "int2char$(integer)",
+      "text": "湩㉴档牡⠤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "char2int(unsigned char)",
+      "text": "档牡椲瑮(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

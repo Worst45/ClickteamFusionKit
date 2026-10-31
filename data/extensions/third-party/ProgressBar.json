@@ -1,0 +1,1067 @@
+{
+  "file": "ProgressBar.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Cancel clicked",
+      "text": "漥㨠䌠湡散⁬汣捩敫d",
+      "menuId": 26000,
+      "resText": "%o : Cancel clicked",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Pause clicked",
+      "text": "漥㨠倠畡敳挠楬正摥",
+      "menuId": 26010,
+      "resText": "%o : Pause clicked",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Resume clicked",
+      "text": "漥㨠删獥浵⁥汣捩敫d",
+      "menuId": 26020,
+      "resText": "%o : Resume clicked",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Is Visible",
+      "text": "漥椠⁳楶楳汢e",
+      "menuId": 26030,
+      "resText": "%o is visible",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Progress bar is full",
+      "text": "漥㨠倠潲牧獥⁳慢⁲獩映汵l",
+      "menuId": 26040,
+      "resText": "%o : Progress bar is full",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Progress bar is empty",
+      "text": "漥㨠倠潲牧獥⁳慢⁲獩攠灭祴",
+      "menuId": 26050,
+      "resText": "%o : Progress bar is empty",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Compare Value",
+      "text": "漥㨠嘠污敵椠⁳〥",
+      "menuId": 26060,
+      "resText": "%o : Value is %0",
+      "flags": 544,
+      "paramTypes": [
+        23
+      ],
+      "paramTitles": [
+        "潃灭牡⁥桴⁥慶畬⁥景琠敨瀠潲牧獥⁳慢⹲⸮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Progress bar clicked",
+      "text": "漥㨠䈠牡挠楬正摥眠瑩⁨〥",
+      "menuId": 26070,
+      "resText": "%o : Bar clicked with %0",
+      "flags": 0,
+      "paramTypes": [
+        44
+      ],
+      "paramTitles": [
+        "桗捩⁨潭獵⁥畢瑴湯?⁨〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Bar clicked then button released",
+      "text": "漥㨠䈠牡挠楬正摥琠敨⁮〥爠汥慥敳d",
+      "menuId": 26080,
+      "resText": "%o : Bar clicked then %0 released",
+      "flags": 0,
+      "paramTypes": [
+        44
+      ],
+      "paramTitles": [
+        "桗捩⁨潭獵⁥畢瑴湯?⁮〥爠汥慥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Visibility > Show",
+      "text": "漥㨠匠潨w",
+      "menuId": 25000,
+      "resText": "%o : Show",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Visibility > Create Dialogue Box",
+      "text": "漥㨠䌠敲瑡⁥楄污杯敵䈠硯",
+      "menuId": 25010,
+      "resText": "%o : Create Dialogue Box",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Visibility > Hide",
+      "text": "漥㨠䠠摩e",
+      "menuId": 25020,
+      "resText": "%o : Hide",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Dialogue Box > Centre in Screen",
+      "text": "漥㨠䐠慩潬畧⁥潂⁸›敃瑮敲椠⁮捓敲湥",
+      "menuId": 25030,
+      "resText": "%o : Dialogue Box : Centre in Screen",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Dialogue Box > Change Position",
+      "text": "漥㨠䐠慩潬畧⁥潂⁸›桃湡敧倠獯瑩潩⁮潴⠠〥Ⱐㄥ⤠",
+      "menuId": 25040,
+      "resText": "%o : Dialogue Box : Change Position to (%0 ,%1 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘潐楳楴湯甀⁥潂⁸›桃湡敧倠獯瑩潩⁮潴⠠〥Ⱐㄥ⤠",
+        "⁙潐楳楴湯甀⁥潂⁸›桃湡敧倠獯瑩潩⁮潴⠠〥Ⱐㄥ⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Dialogue Box > Change Size",
+      "text": "漥㨠䐠慩潬畧⁥潂⁸›桃湡敧匠穩⁥潴⠠〥Ⱐㄥ⤠",
+      "menuId": 25050,
+      "resText": "%o : Dialogue Box : Change Size to (%0 ,%1 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘楓敺愀潬畧⁥潂⁸›桃湡敧匠穩⁥潴⠠〥Ⱐㄥ⤠",
+        "⁙楓敺愀潬畧⁥潂⁸›桃湡敧匠穩⁥潴⠠〥Ⱐㄥ⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Dialogue Box > Set Title",
+      "text": "漥㨠䐠慩潬畧⁥潂⁸›敓⁴楔汴⁥潴┠0",
+      "menuId": 25060,
+      "resText": "%o : Dialogue Box : Set Title to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲⁡楴汴⁥潦⁲桴⁥楤污杯敵戠硯."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Dialogue Box > Set Text above Progress Bar",
+      "text": "漥㨠䐠慩潬畧⁥潂⁸›敓⁴敔瑸ㄠ琠⁯〥",
+      "menuId": 25070,
+      "resText": "%o : Dialogue Box : Set Text 1 to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲整瑸琠慨⁴楷汬愠灰慥⁲扡癯⁥桴⁥牰杯敲獳戠牡."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Dialogue Box > Set Text below Progress Bar",
+      "text": "漥㨠䐠慩潬畧⁥潂⁸›敓⁴敔瑸㈠琠⁯〥",
+      "menuId": 25080,
+      "resText": "%o : Dialogue Box : Set Text 2 to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲整瑸琠慨⁴楷汬愠灰慥⁲敢潬⁷桴⁥牰杯敲獳戠牡."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Dialogue Box > Show/Hide Cancel button",
+      "text": "漥㨠䐠慩潬畧⁥潂⁸›敓⁴慃据汥瘠獩扩汩瑩⁹潴┠0",
+      "menuId": 25090,
+      "resText": "%o : Dialogue Box : Set Cancel visibility to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰‽楨敤戠瑵潴Ɱ愠祮桴湩⁧汥敳㴠猠潨⁷畢瑴湯─0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Dialogue Box > Enable/Disable Cancel button",
+      "text": "漥㨠䐠慩潬畧⁥潂⁸›敓⁴慃据汥猧攠慮汢摥猠慴整琠⁯〥",
+      "menuId": 25100,
+      "resText": "%o : Dialogue Box : Set Cancel's enabled state to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰‽楤慳汢⁥畢瑴湯‬湡瑹楨杮攠獬⁥‽湥扡敬戠瑵潴n〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Dialogue Box > Set Text for Cancel button",
+      "text": "漥㨠䐠慩潬畧⁥潂⁸›敓⁴敔瑸映牯䌠湡散⁬畢瑴湯琠⁯〥",
+      "menuId": 25110,
+      "resText": "%o : Dialogue Box : Set Text for Cancel button to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "桔⁥整瑸琠⁯楤灳慬⁹潦⁲桴⁥慃据汥戠瑵潴n瑴湯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Dialogue Box > Show/Hide Pause button",
+      "text": "漥㨠䐠慩潬畧⁥潂⁸›敓⁴慐獵⁥楶楳楢楬祴琠⁯〥",
+      "menuId": 25120,
+      "resText": "%o : Dialogue Box : Set Pause visibility to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰‽楨敤戠瑵潴Ɱ愠祮桴湩⁧汥敳㴠猠潨⁷畢瑴湯　"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Dialogue Box > Change state of Paused button",
+      "text": "漥㨠䐠慩潬畧⁥潂⁸›桃湡敧倠畡敳匠慴整琠⁯〥⠠㴰敒畳敭ㄬ倽畡敳)",
+      "menuId": 25130,
+      "resText": "%o : Dialogue Box : Change Pause State to %0 (0=Resume,1=Pause)",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰‽刧獥浵❥搠獩汰祡摥‬‱‽倧畡敳‧楤灳慬敹d㴰敒畳敭ㄬ倽畡敳)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Dialogue Box > Set Text for Pause button",
+      "text": "漥㨠䐠慩潬畧⁥潂⁸›敓⁴敔瑸映牯倠畡敳戠瑵潴⁮潴┠0",
+      "menuId": 25140,
+      "resText": "%o : Dialogue Box : Set Text for Pause button to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "桔⁥整瑸琠⁯楤灳慬⁹潦⁲桴⁥慐獵⁥畢瑴湯琀潴⁮潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Dialogue Box > Set Text for Resume button",
+      "text": "漥㨠䐠慩潬畧⁥潂⁸›敓⁴敔瑸映牯删獥浵⁥畢瑴湯琠⁯〥",
+      "menuId": 25150,
+      "resText": "%o : Dialogue Box : Set Text for Resume button to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "桔⁥整瑸琠⁯楤灳慬⁹潦⁲桴⁥慐獵⁥畢瑴湯甀瑴湯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Visual Options > Sectioned progress",
+      "text": "漥㨠嘠獩慵⁬灏楴湯⁳›敓瑣潩敮⁤牰杯敲獳戠牡",
+      "menuId": 25160,
+      "resText": "%o : Visual Options : Sectioned progress bar",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Visual Options > Smooth progress",
+      "text": "漥㨠嘠獩慵⁬灏楴湯⁳›浓潯桴瀠潲牧獥⁳慢r",
+      "menuId": 25170,
+      "resText": "%o : Visual Options : Smooth progress bar",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Visual Options > Horizontal Bar",
+      "text": "漥㨠嘠獩慵⁬灏楴湯⁳›潈楲潺瑮污䈠牡",
+      "menuId": 25180,
+      "resText": "%o : Visual Options : Horizontal Bar",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Visual Options > Vertical Bar",
+      "text": "漥㨠嘠獩慵⁬灏楴湯⁳›敖瑲捩污䈠牡",
+      "menuId": 25190,
+      "resText": "%o : Visual Options : Vertical Bar",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Visual Options > Set Bar Colour",
+      "text": "漥㨠嘠獩慵⁬灏楴湯⁳›敓⁴慂⁲潃潬牵琠⁯〥",
+      "menuId": 25200,
+      "resText": "%o : Visual Options : Set Bar Colour to %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥潣潬牵漠⁦桴⁥慢r⁲潃潬牵琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Visual Options > Set Back Colour",
+      "text": "漥㨠嘠獩慵⁬灏楴湯⁳›敓⁴慂正䌠汯畯⁲潴┠0",
+      "menuId": 25210,
+      "resText": "%o : Visual Options : Set Back Colour to %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥潣潬牵漠⁦桴⁥慢正牧畯摮甀⁲潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Visual Options > Thin Border",
+      "text": "漥㨠嘠獩慵⁬灏楴湯⁳›桔湩䈠牯敤r",
+      "menuId": 25220,
+      "resText": "%o : Visual Options : Thin Border",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Visual Options > Thick Border",
+      "text": "漥㨠嘠獩慵⁬灏楴湯⁳›桔捩⁫潂摲牥",
+      "menuId": 25230,
+      "resText": "%o : Visual Options : Thick Border",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Set Range",
+      "text": "漥㨠匠瑥删湡敧映潲⁭〥琠⁯ㄥ",
+      "menuId": 25240,
+      "resText": "%o : Set Range from %0 to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥瑳牡⁴景琠敨爠湡敧",
+        "湅整⁲桴⁥湥⁤景琠敨爠湡敧攀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Set amount to Step",
+      "text": "漥㨠匠瑥愠潭湵⁴潴匠整⁰潴┠0",
+      "menuId": 25250,
+      "resText": "%o : Set amount to Step to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴桴⁥浡畯瑮琠⁯湩牣慥敳戠⁹桷湥匠整灰湩g"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Set Position",
+      "text": "漥㨠匠瑥嘠污敵琠⁯〥",
+      "menuId": 25260,
+      "resText": "%o : Set Value to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴桴⁥慶畬⁥景琠敨瀠潲牧獥⁳慢r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Step",
+      "text": "漥㨠匠整⁰牐杯敲獳䈠牡",
+      "menuId": 25270,
+      "resText": "%o : Step Progress Bar",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Position  Size > Set Position",
+      "text": "漥㨠匠瑥瀠獯瑩潩⁮湩映慲敭琠⁯┨‰┬‱)",
+      "menuId": 25280,
+      "resText": "%o : Set position in frame to (%0 ,%1 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘潐楳楴湯猀瑩潩⁮湩映慲敭琠⁯┨‰┬‱)",
+        "⁙潐楳楴湯猀瑩潩⁮湩映慲敭琠⁯┨‰┬‱)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Position  Size > Set Size",
+      "text": "漥㨠匠瑥猠穩⁥潴⠠〥Ⱐㄥ⤠",
+      "menuId": 25290,
+      "resText": "%o : Set size to (%0 ,%1 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘楓敺琀猠穩⁥潴⠠〥Ⱐㄥ⤠",
+        "⁙楓敺琀猠穩⁥潴⠠〥Ⱐㄥ⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Visibility > Destroy Dialogue Box",
+      "text": "漥㨠䐠獥牴祯䐠慩潬畧⁥潂x",
+      "menuId": 25300,
+      "resText": "%o : Destroy Dialogue Box",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Visibility > Refresh Dialogue Box",
+      "text": "漥㨠删晥敲桳䐠慩潬畧⁥潂x",
+      "menuId": 25310,
+      "resText": "%o : Refresh Dialogue Box",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Maximum Value",
+      "text": "慍楸畭⁭慖畬⡥",
+      "menuId": 27000,
+      "resText": "Maximum Value(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Minimum Value",
+      "text": "楍楮畭⁭慖畬⡥",
+      "menuId": 27010,
+      "resText": "Minimum Value(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Amount to Step",
+      "text": "瑓灥(",
+      "menuId": 27020,
+      "resText": "Step(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Value",
+      "text": "慖畬⡥",
+      "menuId": 27030,
+      "resText": "Value(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Position > X Position",
+      "text": "⡘",
+      "menuId": 27040,
+      "resText": "X(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Position > Y Position",
+      "text": "⡙",
+      "menuId": 27050,
+      "resText": "Y(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Dimensions > X Size",
+      "text": "⁘楓敺(",
+      "menuId": 27060,
+      "resText": "X Size(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Dimensions > Y Size",
+      "text": "⁙楓敺(",
+      "menuId": 27070,
+      "resText": "Y Size(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Dialogue Box > Get Title",
+      "text": "楔汴⑥(",
+      "menuId": 27080,
+      "resText": "Title$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Dialogue Box > Get First Text",
+      "text": "楆獲⁴敔瑸⠤",
+      "menuId": 27090,
+      "resText": "First Text$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Dialogue Box > Get Second Text",
+      "text": "敓潣摮吠硥⑴(",
+      "menuId": 27100,
+      "resText": "Second Text$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Dialogue Box > Get Cancel Text",
+      "text": "慃据汥吠硥⑴(",
+      "menuId": 27110,
+      "resText": "Cancel Text$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Dialogue Box > Get Pause Text",
+      "text": "慐獵⁥敔瑸⠤",
+      "menuId": 27120,
+      "resText": "Pause Text$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Dialogue Box > Get Resume Text",
+      "text": "敒畳敭吠硥⑴(",
+      "menuId": 27130,
+      "resText": "Resume Text$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Get System Colours > Scrollbar Track Area",
+      "text": "祓䍳汯吠慲正(",
+      "menuId": 27140,
+      "resText": "SysCol Track(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Get System Colours > Desktop Background",
+      "text": "祓䍳汯䐠獥瑫灯(",
+      "menuId": 27141,
+      "resText": "SysCol Desktop(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Get System Colours > Active Caption",
+      "text": "祓䍳汯䄠瑣癩⁥慃瑰潩⡮",
+      "menuId": 27142,
+      "resText": "SysCol Active Caption(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Get System Colours > Inactive Caption",
+      "text": "祓䍳汯䤠慮瑣癩⁥慃瑰潩⡮",
+      "menuId": 27143,
+      "resText": "SysCol Inactive Caption(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Get System Colours > Menu",
+      "text": "祓䍳汯䴠湥⡵",
+      "menuId": 27144,
+      "resText": "SysCol Menu(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Get System Colours > Window",
+      "text": "祓䍳汯圠湩潤⡷",
+      "menuId": 27145,
+      "resText": "SysCol Window(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Get System Colours > Window Frame",
+      "text": "祓䍳汯圠湩潤⁷牆浡⡥",
+      "menuId": 27146,
+      "resText": "SysCol Window Frame(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Get System Colours > Menu Text",
+      "text": "祓䍳汯䴠湥⁵敔瑸(",
+      "menuId": 27147,
+      "resText": "SysCol Menu Text(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Get System Colours > Window Text",
+      "text": "祓䍳汯圠湩潤⁷敔瑸(",
+      "menuId": 27148,
+      "resText": "SysCol Window Text(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Get System Colours > Caption Text",
+      "text": "祓䍳汯䌠灡楴湯吠硥⡴",
+      "menuId": 27149,
+      "resText": "SysCol Caption Text(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Get System Colours > Active Border",
+      "text": "祓䍳汯䄠瑣癩⁥潂摲牥(",
+      "menuId": 27150,
+      "resText": "SysCol Active Border(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Get System Colours > Inactive Border",
+      "text": "祓䍳汯䤠慮瑣癩⁥潂摲牥(",
+      "menuId": 27151,
+      "resText": "SysCol Inactive Border(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Get System Colours > MDI Background",
+      "text": "祓䍳汯䴠䥄䈠捡杫潲湵⡤",
+      "menuId": 27152,
+      "resText": "SysCol MDI Background(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Get System Colours > Highlighted Item",
+      "text": "祓䍳汯䠠杩汨杩瑨䤠整⡭",
+      "menuId": 27153,
+      "resText": "SysCol Highlight Item(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Get System Colours > Highlighted Text",
+      "text": "祓䍳汯䠠杩汨杩瑨吠硥⡴",
+      "menuId": 27154,
+      "resText": "SysCol Highlight Text(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Get System Colours > 3D Items > 3D Face (dialogue box fill)",
+      "text": "祓䍳汯䈠瑵潴⁮慆散(",
+      "menuId": 27155,
+      "resText": "SysCol Button Face(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Get System Colours > 3D Items > 3D Shadow",
+      "text": "祓䍳汯䈠瑵潴⁮桓摡睯(",
+      "menuId": 27156,
+      "resText": "SysCol Button Shadow(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Get System Colours > Disabled Text",
+      "text": "祓䍳汯䐠獩扡敬⁤敔瑸(",
+      "menuId": 27157,
+      "resText": "SysCol Disabled Text(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Get System Colours > 3D Items > Button Text",
+      "text": "祓䍳汯䈠瑵潴⁮敔瑸(",
+      "menuId": 27158,
+      "resText": "SysCol Button Text(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Get System Colours > Inactive Caption Text",
+      "text": "祓䍳汯䤠慮瑣癩⁥慃瑰潩⁮敔瑸(",
+      "menuId": 27159,
+      "resText": "SysCol Inactive Caption Text(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Get System Colours > 3D Items > 3D Highlight",
+      "text": "祓䍳汯䈠瑵潴⁮楈桧楬桧⡴",
+      "menuId": 27160,
+      "resText": "SysCol Button Highlight(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Get System Colours > 3D Items > 3D Dark Shadow",
+      "text": "祓䍳汯䈠瑵潴⁮慄歲匠慨潤⡷",
+      "menuId": 27161,
+      "resText": "SysCol Button Dark Shadow(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Get System Colours > 3D Items > 3D Light",
+      "text": "祓䍳汯䈠瑵潴⁮楌桧⡴",
+      "menuId": 27162,
+      "resText": "SysCol Button Light(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Get System Colours > ToolTip Text",
+      "text": "祓䍳汯吠潯呬灩吠硥⡴",
+      "menuId": 27163,
+      "resText": "SysCol ToolTip Text(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Get System Colours > ToolTip Background",
+      "text": "祓䍳汯吠潯呬灩䈠捡杫潲湵⡤",
+      "menuId": 27164,
+      "resText": "SysCol ToolTip Background(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

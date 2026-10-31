@@ -1,0 +1,97 @@
+{
+  "file": "GETMOV.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Did the object move?",
+      "text": "漥›楄⁤桴⁥扯敪瑣洠癯㽥",
+      "menuId": 26000,
+      "resText": "%o: Did the object move?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Preform calculations",
+      "text": "牐晥牯⁭慣捬汵瑡潩獮映牯漠橢捥⁴┠0",
+      "menuId": 25000,
+      "resText": "Preform calculations for object  %0",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "桗捩⁨扯敪瑣?瑡潩獮映牯漠橢捥⁴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get X speed",
+      "text": "敇彴彘灳敥⡤",
+      "menuId": 27000,
+      "resText": "Get_X_speed(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Y speed",
+      "text": "敇奟獟数摥(",
+      "menuId": 27002,
+      "resText": "Ge_Y_speed(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get overall speed",
+      "text": "敇彴灳敥⡤",
+      "menuId": 27003,
+      "resText": "Get_speed(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get angle",
+      "text": "敇彴湁汧⡥",
+      "menuId": 27004,
+      "resText": "Get_Angle(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get direction",
+      "text": "敇彴楤敲瑣潩⡮",
+      "menuId": 27005,
+      "resText": "Get_direction(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "file": "GradCalc.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Gradient Size",
+      "text": "敓⁴片摡敩瑮匠穩⁥〥砠┠1",
+      "menuId": 25000,
+      "resText": "Set Gradient Size %0 x %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲牧摡敩瑮眠摩桴砀┠1",
+        "湅整⁲牧摡敩瑮栠楥桧t┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set Colour 1",
+      "text": "敓⁴潃潬牵ㄠ琠⁯〥",
+      "menuId": 25010,
+      "resText": "Set Colour 1 to %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "湅整⁲潣潬牵ㄠ 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set Colour 2",
+      "text": "敓⁴潃潬牵㈠琠⁯〥",
+      "menuId": 25020,
+      "resText": "Set Colour 2 to %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "湅整⁲潣潬牵㈠ 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Set Colour 3",
+      "text": "敓⁴潃潬牵㌠琠⁯〥",
+      "menuId": 25030,
+      "resText": "Set Colour 3 to %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "湅整⁲潣潬牵㌠ 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Set Colour 4",
+      "text": "敓⁴潃潬牵㐠琠⁯〥",
+      "menuId": 25040,
+      "resText": "Set Colour 4 to %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "湅整⁲潣潬牵㐠 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "2 Colour (Horizontal) > Get RGB",
+      "text": "敇剴䉇⡈",
+      "menuId": 27000,
+      "resText": "GetRGBH(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "2 Colour (Horizontal) > Get R",
+      "text": "敇剴⡈",
+      "menuId": 27010,
+      "resText": "GetRH(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "2 Colour (Horizontal) > Get B",
+      "text": "敇䝴⡈",
+      "menuId": 27020,
+      "resText": "GetGH(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "2 Colour (Horizontal) > Get B",
+      "text": "敇䉴⡈",
+      "menuId": 27030,
+      "resText": "GetBH(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "2 Colour (Vertical) > Get RGB",
+      "text": "敇剴䉇⡖",
+      "menuId": 27040,
+      "resText": "GetRGBV(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "2 Colour (Vertical) > Get R",
+      "text": "敇剴⡖",
+      "menuId": 27050,
+      "resText": "GetRV(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "2 Colour (Vertical) > Get G",
+      "text": "敇䝴⡖",
+      "menuId": 27060,
+      "resText": "GetGV(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "2 Colour (Vertical) > Get B",
+      "text": "敇䉴⡖",
+      "menuId": 27070,
+      "resText": "GetBV(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "4 Colour > Get RGB",
+      "text": "敇䝴䝒⡂",
+      "menuId": 27080,
+      "resText": "GetGRGB(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "4 Colour > Get R",
+      "text": "敇剴(",
+      "menuId": 27090,
+      "resText": "GetR(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "4 Colour > Get G",
+      "text": "敇䝴(",
+      "menuId": 27100,
+      "resText": "GetG(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "4 Colour > Get B",
+      "text": "敇䉴(",
+      "menuId": 27110,
+      "resText": "GetB(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

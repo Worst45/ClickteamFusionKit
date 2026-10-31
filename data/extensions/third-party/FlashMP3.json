@@ -1,0 +1,177 @@
+{
+  "file": "FlashMP3.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "MP3 Is Playing",
+      "text": "漥䴠㍐䤠⁳汐祡湩g",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "MP3 Is Not Playing",
+      "text": "漥䴠㍐䤠⁳潎⁴汐祡湩g",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "On Error",
+      "text": "漥传⁮牅潲r",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Load MP3",
+      "text": "潌摡䴠㍐⠠〥)",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "偍″楆敬唠䱒"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Play",
+      "text": "汐祡⠠〥吠浩獥)",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潌灯吠浩獥⠠‰‽汐祡传据ⱥ㌠㴠䰠潯⁰″楔敭ⱳⴠ‱‽湕楬業整⁤潌灯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Stop",
+      "text": "瑓灯",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Pause",
+      "text": "慐獵e",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Set Position",
+      "text": "敓⁴潐楳楴湯⠠〥)",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潐楳楴湯⠠湉䴠汩楬敳潣摮⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get MP3 Position",
+      "text": "敇䵴㍐潐楳楴湯(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Current File",
+      "text": "敇䍴牵敲瑮楆敬⠤",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Current File Size",
+      "text": "敇䍴牵敲瑮楆敬楓敺(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get Current File Buffered",
+      "text": "敇䍴牵敲瑮楆敬畂晦牥摥(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get Last Error",
+      "text": "敇䱴獡䕴牲牯⠤",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

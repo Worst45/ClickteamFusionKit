@@ -1,0 +1,55 @@
+{
+  "file": "WndTransp.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Transparency ",
+      "text": "敓⁴牔湡灳牡湥祣瘠污敵琠⁯〥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥牔湡灳牡湥祣瘠污敵⠠敢睴敥⁮‰‽牔湡灳牡湥⁴湡⁤㔲‵‽灏煡敵)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set Alpha Color",
+      "text": "敓⁴汁桰⁡潣潬⁲潴┠0",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "敓⁴汁桰⁡潃潬r潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set Use for Sub-Apps",
+      "text": "敓⁴畓ⵢ灁獰甠敳琠⁯〥",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": []
+}

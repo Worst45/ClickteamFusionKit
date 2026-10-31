@@ -1,0 +1,1335 @@
+{
+  "file": "dungeon.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Walls > From room and wall index > Wall is empty?",
+      "text": "漥›潒浯┠‰慷汬┠‱獩攠灭祴?",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潒浯椠摮硥 慷汬┠‱獩攠灭祴?",
+        "慗汬椠摮硥 慷汬┠‱獩攠灭祴?"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Walls > From room and wall index > Wall is solid?",
+      "text": "漥›潒浯┠‰慷汬┠‱獩猠汯摩?",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潒浯椠摮硥 慷汬┠‱獩猠汯摩?",
+        "慗汬椠摮硥 慷汬┠‱獩猠汯摩?"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Walls > From room and wall index > Wall is normal door?",
+      "text": "漥›潒浯┠‰慷汬┠‱獩渠牯慭⁬潤牯?",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潒浯椠摮硥 慷汬┠‱獩渠牯慭⁬潤牯?",
+        "慗汬椠摮硥 慷汬┠‱獩渠牯慭⁬潤牯?"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Walls > From room and wall index > Wall is secret door?",
+      "text": "漥›潒浯┠‰慷汬┠‱獩猠捥敲⁴潤牯?",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潒浯椠摮硥 慷汬┠‱獩猠捥敲⁴潤牯?",
+        "慗汬椠摮硥 慷汬┠‱獩猠捥敲⁴潤牯?"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Walls > From room and wall index > Wall is concealed door?",
+      "text": "漥›潒浯┠‰慷汬┠‱獩挠湯散污摥搠潯㽲",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潒浯椠摮硥 慷汬┠‱獩挠湯散污摥搠潯㽲",
+        "慗汬椠摮硥 慷汬┠‱獩挠湯散污摥搠潯㽲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Walls > From room and wall index > Wall is any door?",
+      "text": "漥›潒浯┠‰慷汬┠‱獩愠祮搠潯㽲",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潒浯椠摮硥 慷汬┠‱獩愠祮搠潯㽲",
+        "慗汬椠摮硥 慷汬┠‱獩愠祮搠潯㽲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Dungeon > Position is block?",
+      "text": "漥›┨ⰰㄥ 獩戠潬正?",
+      "menuId": 26060,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "X›┨ⰰㄥ 獩戠潬正?",
+        "Y›┨ⰰㄥ 獩戠潬正?"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Dungeon > Position is room?",
+      "text": "漥›┨ⰰㄥ 獩爠潯㽭",
+      "menuId": 26070,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "X›┨ⰰㄥ 獩爠潯㽭",
+        "Y›┨ⰰㄥ 獩爠潯㽭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Walls > From two positions > Wall is empty?",
+      "text": "漥›慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳浥瑰㽹",
+      "menuId": 26080,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "ㅘ 慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳浥瑰㽹",
+        "ㅙ 慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳浥瑰㽹",
+        "㉘ 慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳浥瑰㽹",
+        "㉙ 慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳浥瑰㽹"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Walls > From two positions > Wall is solid?",
+      "text": "漥›慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳潳楬㽤",
+      "menuId": 26090,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "ㅘ 慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳潳楬㽤",
+        "ㅙ 慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳潳楬㽤",
+        "㉘ 慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳潳楬㽤",
+        "㉙ 慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳潳楬㽤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Walls > From two positions > Wall is any door?",
+      "text": "漥›慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳湡⁹潤牯?",
+      "menuId": 26100,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "ㅘ 慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳湡⁹潤牯?",
+        "ㅙ 慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳湡⁹潤牯?",
+        "㉘ 慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳湡⁹潤牯?",
+        "㉙ 慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳湡⁹潤牯?"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Walls > From two positions > Wall is normal door?",
+      "text": "漥›慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳潮浲污搠潯㽲",
+      "menuId": 26110,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "ㅘ 慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳潮浲污搠潯㽲",
+        "ㅙ 慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳潮浲污搠潯㽲",
+        "㉘ 慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳潮浲污搠潯㽲",
+        "㉙ 慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳潮浲污搠潯㽲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Walls > From two positions > Wall is secret door?",
+      "text": "漥›慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳敳牣瑥搠潯㽲",
+      "menuId": 26120,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "ㅘ 慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳敳牣瑥搠潯㽲",
+        "ㅙ 慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳敳牣瑥搠潯㽲",
+        "㉘ 慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳敳牣瑥搠潯㽲",
+        "㉙ 慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳敳牣瑥搠潯㽲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Walls > From two positions > Wall is concealed door?",
+      "text": "漥›慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳潣据慥敬⁤潤牯?",
+      "menuId": 26130,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "ㅘ 慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳潣据慥敬⁤潤牯?",
+        "ㅙ 慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳潣据慥敬⁤潤牯?",
+        "㉘ 慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳潣据慥敬⁤潤牯?",
+        "㉙ 慗汬戠瑥敷湥⠠〥┬⤱⠠㈥┬⤳椠⁳潣据慥敬⁤潤牯?"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Walls > From two positions > Compare to wall's type",
+      "text": "漥›慗汬琠灹⁥敢睴敥⁮┨ⰰㄥ ┨ⰲ㌥ 獩┠㼴",
+      "menuId": 26140,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        23
+      ],
+      "paramTitles": [
+        "ㅘ 慗汬琠灹⁥敢睴敥⁮┨ⰰㄥ ┨ⰲ㌥ 獩┠㼴",
+        "ㅙ 慗汬琠灹⁥敢睴敥⁮┨ⰰㄥ ┨ⰲ㌥ 獩┠㼴",
+        "㉘ 慗汬琠灹⁥敢睴敥⁮┨ⰰㄥ ┨ⰲ㌥ 獩┠㼴",
+        "㉙ 慗汬琠灹⁥敢睴敥⁮┨ⰰㄥ ┨ⰲ㌥ 獩┠㼴",
+        "慗汬琠灹⁥〨›潎敮‬㨱圠污ⱬ㈠›潄牯‬㨳匠捥敲⁴潤牯‬㨴䌠湯散污摥搠潯⥲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Walls > From room and wall index > Compare to wall's type",
+      "text": "漥›潒浯┠‰慷汬┠‱祴数椠⁳㈥?",
+      "menuId": 26150,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        23
+      ],
+      "paramTitles": [
+        "潒浯椠摮硥 慷汬┠‱祴数椠⁳㈥?",
+        "慗汬椠摮硥 慷汬┠‱祴数椠⁳㈥?",
+        "慗汬琠灹⁥〨›潎敮‬㨱圠污ⱬ㈠›潄牯‬㨳匠捥敲⁴潤牯‬㨴䌠湯散污摥搠潯⥲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Dungeon > Position is passage?",
+      "text": "漥›┨ⰰㄥ 獩瀠獡慳敧?",
+      "menuId": 26160,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "X›┨ⰰㄥ 獩瀠獡慳敧?",
+        "Y›┨ⰰㄥ 獩瀠獡慳敧?"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Dungeon > Compare to block's type",
+      "text": "漥›┨ⰰㄥ 獩┠㼲",
+      "menuId": 26170,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        23
+      ],
+      "paramTitles": [
+        "X›┨ⰰㄥ 獩┠㼲",
+        "Y›┨ⰰㄥ 獩┠㼲",
+        "求捯⁫祴数⠠㨱圠污ⱬ㈠›慐獳条ⱥ㐠›潒浯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Dungeon > Dungeon exists",
+      "text": "漥›畄杮潥⁮硥獩獴",
+      "menuId": 26180,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Painter > Paint",
+      "text": "慐湩t",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Painter > Set grid size",
+      "text": "敓⁴牧摩猠穩⁥潴┠‰硰",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "片摩猠穩⁥瀨⥸漀┠‰硰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Painter > Paste into overlay",
+      "text": "慐瑳⁥湩潴漠敶汲祡┠‰瑡⠠ㄥ┬⤲",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "癏牥慬⁹摡牤獥s祡┠‰瑡⠠ㄥ┬⤲",
+        "X牥慬⁹摡牤獥s祡┠‰瑡⠠ㄥ┬⤲",
+        "Y牥慬⁹摡牤獥s祡┠‰瑡⠠ㄥ┬⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Painter > Set border size",
+      "text": "敓⁴潢摲牥猠穩⁥潴┠‰硰",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潂摲牥猠穩⁥瀨⥸漀┠‰硰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Dungeon > Generate",
+      "text": "敇敮慲整",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Settings > Set seed",
+      "text": "敓⁴敳摥琠⁯〥",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓摥⠠ㄭ㴠删湡潤⥭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Settings > Set randomness",
+      "text": "敓⁴慲摮浯敮獳琠⁯〥",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慒摮浯敮獳⠠┥)⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Settings > Set sparseness",
+      "text": "敓⁴灳牡敳敮獳琠⁯〥",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "灓牡敳敮獳攀獳琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Settings > Set deadend removal",
+      "text": "敓⁴敤摡湥⁤敲潭慶⁬潴┠0",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敄摡湥⁤敲潭慶⁬┨⤥漀┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Settings > Set start position",
+      "text": "敓⁴瑳牡⁴潰楳楴湯琠⁯┨ⰰㄥ)",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "X⁴瑳牡⁴潰楳楴湯琠⁯┨ⰰㄥ)",
+        "Y⁴瑳牡⁴潰楳楴湯琠⁯┨ⰰㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Settings > Set end position",
+      "text": "敓⁴湥⁤潰楳楴湯琠⁯┨ⰰㄥ)",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "X⁴湥⁤潰楳楴湯琠⁯┨ⰰㄥ)",
+        "Y⁴湥⁤潰楳楴湯琠⁯┨ⰰㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Settings > Set size",
+      "text": "敓⁴楳敺琠⁯┨ⰰㄥ)",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "X⁴楳敺琠⁯┨ⰰㄥ)",
+        "Y⁴楳敺琠⁯┨ⰰㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Painter > Set door flag",
+      "text": "敓⁴潤牯映慬⁧潴┠0",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潄牯映慬⁧〨㴠传晦‬‱‽湏)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Painter > Set grid flag",
+      "text": "敓⁴牧摩映慬⁧潴┠0",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "片摩映慬⁧〨㴠传晦‬‱‽湏)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Painter > Set wall flag",
+      "text": "敓⁴慷汬映慬⁧潴┠0",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慗汬映慬⁧〨㴠传晦‬‱‽湏)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Painter > Set door color",
+      "text": "敓⁴潤牯挠汯牯琠⁯〥",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "潄牯挠汯牯氀牯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Painter > Set background color",
+      "text": "敓⁴慢正牧畯摮挠汯牯琠⁯〥",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "慂正牧畯摮挠汯牯氀牯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Painter > Set block color",
+      "text": "敓⁴汢捯⁫潣潬⁲潴┠0",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "求捯⁫潣潬r潬⁲潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Painter > Set wall color",
+      "text": "敓⁴慷汬挠汯牯琠⁯〥",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "慗汬挠汯牯氀牯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Painter > Set path color",
+      "text": "敓⁴慰桴挠汯牯琠⁯〥",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "慐桴挠汯牯氀牯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Painter > Set room color",
+      "text": "敓⁴潲浯挠汯牯琠⁯〥",
+      "menuId": 25200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "慐桴挠汯牯氀牯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Painter > Set grid color",
+      "text": "敓⁴牧摩挠汯牯琠⁯〥",
+      "menuId": 25210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "片摩挠汯牯氀牯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Settings > Set minimum room count",
+      "text": "敓⁴業楮畭⁭潲浯挠畯瑮琠⁯〥",
+      "menuId": 25220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楍楮畭⁭畮扭牥漠⁦潲浯s⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Settings > Set maximum room count",
+      "text": "敓⁴慭楸畭⁭潲浯挠畯瑮琠⁯〥",
+      "menuId": 25230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慍楸畭⁭畮扭牥漠⁦潲浯s⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Settings > Set minimum room size",
+      "text": "敓⁴業楮畭⁭潲浯猠穩⁥潴⠠〥┬⤱",
+      "menuId": 25240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楍楮畭⁭楷瑤h浯猠穩⁥潴⠠〥┬⤱",
+        "楍楮畭⁭敨杩瑨洀猠穩⁥潴⠠〥┬⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Settings > Set maximum room size",
+      "text": "敓⁴慭楸畭⁭潲浯猠穩⁥潴⠠〥┬⤱",
+      "menuId": 25250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慍楸畭⁭楷瑤h浯猠穩⁥潴⠠〥┬⤱",
+        "慍楸畭⁭敨杩瑨洀猠穩⁥潴⠠〥┬⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Settings > Set secret door percentage",
+      "text": "敓⁴敳牣瑥搠潯⁲数捲湥慴敧琠⁯〥",
+      "menuId": 25260,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓牣瑥搠潯⁲数捲湥慴敧愀敧琠⁯〥"
+      ],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Settings > Set concealed door percentage",
+      "text": "敓⁴潣据慥敬⁤潤牯瀠牥散瑮条⁥潴┠0",
+      "menuId": 25270,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潃据慥敬⁤潤牯瀠牥散瑮条e条⁥潴┠0"
+      ],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Dungeon > Find random position",
+      "text": "楆摮爠湡潤⁭潰楳楴湯漠⁦祴数猨 〥",
+      "menuId": 25280,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "求捯⁫祴数ⱳ愠摤琠杯瑥敨⁲ㄨ›慗汬‬㨲倠獡慳敧‬㨴删潯⥭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Dungeon > ...using seed",
+      "text": "楆摮爠湡潤⁭潰楳楴湯漠⁦祴数猨 〥甠楳杮猠敥⁤ㄥ",
+      "menuId": 25290,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "求捯⁫祴数ⱳ愠摤琠杯瑥敨⁲ㄨ›慗汬‬㨲倠獡慳敧‬㨴删潯⥭",
+        "敓摥 祴数ⱳ愠摤琠杯瑥敨⁲ㄨ›慗汬‬㨲倠獡慳敧‬㨴删潯⥭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Dungeon > Graphic at",
+      "text": "片灡楨䅣⡴",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "X灡楨䅣⡴",
+        "Y灡楨䅣⡴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Rooms > Room count",
+      "text": "畎剭潯獭(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Rooms > Room X",
+      "text": "潒浯⡘",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Rooms > Room Y",
+      "text": "潒浯⡙",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Dungeon > Block type at",
+      "text": "祔数瑁(",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "X数瑁(",
+        "Y数瑁("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Dungeon > Size > Width",
+      "text": "単穩⡥",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Dungeon > Size > Height",
+      "text": "卙穩⡥",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Dungeon > Wall between",
+      "text": "慗汬敂睴敥⡮",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "ㅘ氀敂睴敥⡮",
+        "ㅙ氀敂睴敥⡮",
+        "ㅘ氀敂睴敥⡮",
+        "ㅙ氀敂睴敥⡮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Rooms > Room width",
+      "text": "潒浯単穩⡥",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x穩⡥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Rooms > Room height",
+      "text": "潒浯卙穩⡥",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x穩⡥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Rooms > Walls > Wall count",
+      "text": "畎剭潯坭污獬(",
+      "menuId": 27120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x坭污獬("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Rooms > Walls > Wall type",
+      "text": "潒浯慗汬祔数(",
+      "menuId": 27130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潒浯椠摮硥攀(",
+        "慗汬椠摮硥攀("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Rooms > Walls > Wall side 1 X",
+      "text": "潒浯慗汬ㅘ(",
+      "menuId": 27140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潒浯椠摮硥",
+        "慗汬椠摮硥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Rooms > Walls > Wall side 1 Y",
+      "text": "潒浯慗汬ㅙ(",
+      "menuId": 27150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潒浯椠摮硥",
+        "慗汬椠摮硥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Rooms > Walls > Wall side 2 X",
+      "text": "潒浯慗汬㉘(",
+      "menuId": 27160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潒浯椠摮硥",
+        "慗汬椠摮硥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Rooms > Walls > Wall side 2 Y",
+      "text": "潒浯慗汬㉙(",
+      "menuId": 27170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潒浯椠摮硥",
+        "慗汬椠摮硥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Dungeon > Size > Actual width",
+      "text": "䅘瑣慵卬穩⡥",
+      "menuId": 27180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Dungeon > Size > Actual height",
+      "text": "䅙瑣慵卬穩⡥",
+      "menuId": 27190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Dungeon > Is block at",
+      "text": "獉求捯䅫⡴",
+      "menuId": 27200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "X求捯䅫⡴",
+        "Y求捯䅫⡴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Conversion > Actual position",
+      "text": "畄杮潥偮獯(",
+      "menuId": 27210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湏猭牣敥⁮潰楳楴湯⠠⁘牯夠)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Conversion > On-screen position",
+      "text": "湏捓敲湥潐⡳",
+      "menuId": 27220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "捁畴污瀠獯瑩潩⁮堨漠⁲⥙"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Dungeon > Found position > Position X",
+      "text": "潆湵塤(",
+      "menuId": 27230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Dungeon > Found position > Position Y",
+      "text": "潆湵奤(",
+      "menuId": 27240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Painter > Grid size",
+      "text": "片摩楓敺(",
+      "menuId": 27250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Painter > Width",
+      "text": "慐湩整坲摩桴(",
+      "menuId": 27260,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Painter > Height",
+      "text": "慐湩整䡲楥桧⡴",
+      "menuId": 27270,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Conversion > Painter position",
+      "text": "慐湩整偲獯(",
+      "menuId": 27280,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湏猭牣敥⁮潰楳楴湯⠠⁘牯夠)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Painter > Border size",
+      "text": "潂摲牥楓敺(",
+      "menuId": 27290,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Random > Random float [0-1]",
+      "text": "慒摮䍆潬敳⡤",
+      "menuId": 27300,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Random > Random float (0-1)",
+      "text": "慒摮但数⡮",
+      "menuId": 27310,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Random > Random integer",
+      "text": "慒摮(",
+      "menuId": 27320,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楍楮畭m",
+        "慍楸畭m"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

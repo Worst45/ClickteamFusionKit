@@ -1,0 +1,4 @@
+[submodule "external/NebulaFD"]
+	path = external/NebulaFD
+	url = https://github.com/Worst45/NebulaFD.git
+	branch = mfa-dump-enhanced

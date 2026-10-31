@@ -1,0 +1,23 @@
+{
+  "file": "OnuViz_Osc.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Connect Onu Viz-Control",
+      "text": "潃湮捥⁴楖畳污穩牥⠠〥)",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D楖畳污穩牥⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": []
+}

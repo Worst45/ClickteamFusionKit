@@ -1,0 +1,45 @@
+{
+  "file": "kcclip.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Check Text contents of Clipboard",
+      "text": "㄰汃灩潢牡⁤敔瑸┠s",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Clipboard contents",
+      "text": "㄰桃湡敧䌠楬扰慯摲挠湯整瑮⁳潴┠s",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Clipboard contents",
+      "text": "汃灩潢牡⑤(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

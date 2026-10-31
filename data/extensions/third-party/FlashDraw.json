@@ -1,0 +1,454 @@
+{
+  "file": "FlashDraw.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Line Style > Set Line Thickness",
+      "text": "敓⁴楌敮吠楨正敮獳┨⤰",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楌敮吠楨正敮獳攀獳┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Line Style > Set Line Color",
+      "text": "敓⁴楌敮䌠汯牯┨⤰",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楌敮䌠汯牯⠠效慸敤楣慭⥬ⴠ⠠硅浡汰㩥〠䙸う〰⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Line Style > Set Line Alpha",
+      "text": "敓⁴楌敮䄠灬慨┨⤰",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楌敮䄠灬慨⠠‰‽牔湡灳牡湥ⱴㄠ㴠匠汯摩)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Line Style > Set Line Pixel Hinting",
+      "text": "敓⁴楌敮倠硩汥䠠湩楴杮┨⤰",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楌敮倠硩汥䠠湩楴杮⠠‰‽慆獬ⱥㄠ㴠吠畲⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Line Style > Set Line Scale Mode",
+      "text": "敓⁴楌敮匠慣敬䴠摯⡥〥)",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楌敮匠慣敬䴠摯⁥〨㴠丠牯慭ⱬㄠ㴠丠湯ⱥ㈠㴠嘠牥楴慣ⱬ㌠㴠䠠牯穩湯慴⥬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Line Style > Set Line Caps",
+      "text": "敓⁴楌敮䌠灡⡳〥)",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楌敮䌠灡⁳〨㴠丠湯ⱥㄠ㴠删畯摮‬′‽煓慵敲)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Line Style > Set Line Joints",
+      "text": "敓⁴楌敮䨠楯瑮⡳〥)",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楌敮䨠楯瑮⁳〨㴠删畯摮‬‱‽敂敶ⱬ㈠㴠䴠瑩牥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Line Style > Set Line Miter Limit",
+      "text": "敓⁴楌敮䴠瑩牥䰠浩瑩┨⤰",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楌敮䴠瑩牥䰠浩瑩⠠‱‭㔲⤵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Draw Line",
+      "text": "牄睡䰠湩⁥‭瑓牡⁴⡘〥Ⱙ匠慴瑲夠┨⤱‬湅⁤⡘㈥Ⱙ䔠摮夠┨⤳",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "瑓牡⁴⁘潃牯楤慮整⠀〥Ⱙ匠慴瑲夠┨⤱‬湅⁤⡘㈥Ⱙ䔠摮夠┨⤳",
+        "瑓牡⁴⁙潃牯楤慮整⠀〥Ⱙ匠慴瑲夠┨⤱‬湅⁤⡘㈥Ⱙ䔠摮夠┨⤳",
+        "湅⁤⁘潃牯楤慮整攀⠀〥Ⱙ匠慴瑲夠┨⤱‬湅⁤⡘㈥Ⱙ䔠摮夠┨⤳",
+        "湅⁤⁙潃牯楤慮整攀⠀〥Ⱙ匠慴瑲夠┨⤱‬湅⁤⡘㈥Ⱙ䔠摮夠┨⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Draw Bezier Curve",
+      "text": "牄睡䈠穥敩⁲畃癲⁥‭瑓牡⁴⡘〥Ⱙ匠慴瑲夠┨⤱‬湅⁤⡘㈥Ⱙ䔠摮夠┨⤳‬湁档牯堠┨⤴‬湁档牯夠┨⤵",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "瑓牡⁴⁘潃牯楤慮整 瑓牡⁴⡘〥Ⱙ匠慴瑲夠┨⤱‬湅⁤⡘㈥Ⱙ䔠摮夠┨⤳‬湁档牯堠┨⤴‬湁档牯夠┨⤵",
+        "瑓牡⁴⁙潃牯楤慮整 瑓牡⁴⡘〥Ⱙ匠慴瑲夠┨⤱‬湅⁤⡘㈥Ⱙ䔠摮夠┨⤳‬湁档牯堠┨⤴‬湁档牯夠┨⤵",
+        "湅⁤⁘潃牯楤慮整攀 瑓牡⁴⡘〥Ⱙ匠慴瑲夠┨⤱‬湅⁤⡘㈥Ⱙ䔠摮夠┨⤳‬湁档牯堠┨⤴‬湁档牯夠┨⤵",
+        "湅⁤⁙潃牯楤慮整攀 瑓牡⁴⡘〥Ⱙ匠慴瑲夠┨⤱‬湅⁤⡘㈥Ⱙ䔠摮夠┨⤳‬湁档牯堠┨⤴‬湁档牯夠┨⤵",
+        "湁档牯堠䌠潯摲湩瑡e瑓牡⁴⡘〥Ⱙ匠慴瑲夠┨⤱‬湅⁤⡘㈥Ⱙ䔠摮夠┨⤳‬湁档牯堠┨⤴‬湁档牯夠┨⤵",
+        "湁档牯夠䌠潯摲湩瑡e瑓牡⁴⡘〥Ⱙ匠慴瑲夠┨⤱‬湅⁤⡘㈥Ⱙ䔠摮夠┨⤳‬湁档牯堠┨⤴‬湁档牯夠┨⤵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Draw Rectangle",
+      "text": "牄睡删捥慴杮敬ⴠ匠慴瑲堠┨⤰‬瑓牡⁴⡙ㄥⰩ圠摩桴┨⤲‬效杩瑨┨⤳",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "瑓牡⁴⁘潃牯楤慮整愀瑲堠┨⤰‬瑓牡⁴⡙ㄥⰩ圠摩桴┨⤲‬效杩瑨┨⤳",
+        "瑓牡⁴⁙潃牯楤慮整愀瑲堠┨⤰‬瑓牡⁴⡙ㄥⰩ圠摩桴┨⤲‬效杩瑨┨⤳",
+        "楗瑤h⁙潃牯楤慮整愀瑲堠┨⤰‬瑓牡⁴⡙ㄥⰩ圠摩桴┨⤲‬效杩瑨┨⤳",
+        "效杩瑨 潃牯楤慮整愀瑲堠┨⤰‬瑓牡⁴⡙ㄥⰩ圠摩桴┨⤲‬效杩瑨┨⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Draw Rounded Rectangle",
+      "text": "牄睡删畯摮摥删捥慴杮敬ⴠ匠慴瑲堠┨⤰‬瑓牡⁴⡙ㄥⰩ圠摩桴┨⤲‬效杩瑨┨⤳‬潃湲牥圠摩桴┨⤴‬潃湲牥䠠楥桧⡴㔥)",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "瑓牡⁴⁘潃牯楤慮整最敬ⴠ匠慴瑲堠┨⤰‬瑓牡⁴⡙ㄥⰩ圠摩桴┨⤲‬效杩瑨┨⤳‬潃湲牥圠摩桴┨⤴‬潃湲牥䠠楥桧⡴㔥)",
+        "瑓牡⁴⁙潃牯楤慮整最敬ⴠ匠慴瑲堠┨⤰‬瑓牡⁴⡙ㄥⰩ圠摩桴┨⤲‬效杩瑨┨⤳‬潃湲牥圠摩桴┨⤴‬潃湲牥䠠楥桧⡴㔥)",
+        "楗瑤h⁙潃牯楤慮整最敬ⴠ匠慴瑲堠┨⤰‬瑓牡⁴⡙ㄥⰩ圠摩桴┨⤲‬效杩瑨┨⤳‬潃湲牥圠摩桴┨⤴‬潃湲牥䠠楥桧⡴㔥)",
+        "效杩瑨 潃牯楤慮整最敬ⴠ匠慴瑲堠┨⤰‬瑓牡⁴⡙ㄥⰩ圠摩桴┨⤲‬效杩瑨┨⤳‬潃湲牥圠摩桴┨⤴‬潃湲牥䠠楥桧⡴㔥)",
+        "潃湲牥圠摩桴椀慮整最敬ⴠ匠慴瑲堠┨⤰‬瑓牡⁴⡙ㄥⰩ圠摩桴┨⤲‬效杩瑨┨⤳‬潃湲牥圠摩桴┨⤴‬潃湲牥䠠楥桧⡴㔥)",
+        "潃湲牥䠠楥桧t慮整最敬ⴠ匠慴瑲堠┨⤰‬瑓牡⁴⡙ㄥⰩ圠摩桴┨⤲‬效杩瑨┨⤳‬潃湲牥圠摩桴┨⤴‬潃湲牥䠠楥桧⡴㔥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Draw Circle",
+      "text": "牄睡䌠物汣⁥‭瑓牡⁴⡘〥Ⱙ匠慴瑲夠┨⤱‬慒楤獵┨⤲",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "瑓牡⁴⁘潃牯楤慮整 ⡘〥Ⱙ匠慴瑲夠┨⤱‬慒楤獵┨⤲",
+        "瑓牡⁴⁙潃牯楤慮整 ⡘〥Ⱙ匠慴瑲夠┨⤱‬慒楤獵┨⤲",
+        "慒楤獵 潃牯楤慮整 ⡘〥Ⱙ匠慴瑲夠┨⤱‬慒楤獵┨⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Draw Ellipse",
+      "text": "牄睡䔠汬灩敳ⴠ匠慴瑲堠┨⤰‬瑓牡⁴⡙ㄥⰩ圠摩桴┨⤲‬效杩瑨┨⤳",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "瑓牡⁴⁘潃牯楤慮整琀堠┨⤰‬瑓牡⁴⡙ㄥⰩ圠摩桴┨⤲‬效杩瑨┨⤳",
+        "瑓牡⁴⁙潃牯楤慮整琀堠┨⤰‬瑓牡⁴⡙ㄥⰩ圠摩桴┨⤲‬效杩瑨┨⤳",
+        "楗瑤h⁙潃牯楤慮整琀堠┨⤰‬瑓牡⁴⡙ㄥⰩ圠摩桴┨⤲‬效杩瑨┨⤳",
+        "效杩瑨 潃牯楤慮整琀堠┨⤰‬瑓牡⁴⡙ㄥⰩ圠摩桴┨⤲‬效杩瑨┨⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Clear > Clear All Lines",
+      "text": "汃慥⁲汁⁬楌敮s",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Clear > Clear All Bezier Curves",
+      "text": "汃慥⁲汁⁬敂楺牥䌠牵敶s",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Clear > Clear All Rectangles",
+      "text": "汃慥⁲汁⁬敒瑣湡汧獥",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Clear > Clear All Rounded Rectangles",
+      "text": "汃慥⁲汁⁬潒湵敤⁤敒瑣湡汧獥",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Clear > Clear All Circles",
+      "text": "汃慥⁲汁⁬楃捲敬s",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Clear > Clear All Ellipses",
+      "text": "汃慥⁲汁⁬汅楬獰獥",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Clear > Clear Stage",
+      "text": "汃慥⁲瑓条e",
+      "menuId": 25200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Line Thickness",
+      "text": "敇䱴湩呥楨正敮獳(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Line Color",
+      "text": "敇䱴湩䍥汯牯(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Line Alpha",
+      "text": "敇䱴湩䅥灬慨(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get Line Pixel Hinting",
+      "text": "敇䱴湩健硩汥楈瑮湩⡧",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get Line Scale Mode",
+      "text": "敇䱴湩卥慣敬潍敤(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get Line Caps",
+      "text": "敇䱴湩䍥灡⡳",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Get Line Joints",
+      "text": "敇䱴湩䩥楯瑮⡳",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Get Line Miter Limit",
+      "text": "敇䱴湩䵥瑩牥楌業⡴",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

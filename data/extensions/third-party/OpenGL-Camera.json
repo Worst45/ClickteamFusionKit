@@ -1,0 +1,388 @@
+{
+  "file": "OpenGL-Camera.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Perspective > Set FOV...",
+      "text": "敓⁴但⁖潴┠0",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴湡汧⹥⸮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Perspective > Set near clipping distance...",
+      "text": "敓⁴敮牡挠楬灰湩⁧楤瑳湡散琠⁯〥",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴楤瑳湡散⸮.⁧楤瑳湡散琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Perspective > Set far clipping distance...",
+      "text": "敓⁴慦⁲汣灩楰杮搠獩慴据⁥潴┠0",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴楤瑳湡散⸮.搠獩慴据⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Position > Set X coordinate...",
+      "text": "敓⁴⁘潰楳楴湯琠⁯〥",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴⁘潣牯楤慮整⸮."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Position > Set Y coordinate...",
+      "text": "敓⁴⁙潰楳楴湯琠⁯〥",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴⁙潣牯楤慮整⸮."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Position > Set Z coordinate...",
+      "text": "敓⁴⁚潰楳楴湯琠⁯〥",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴⁚潣牯楤慮整⸮."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Orientation > Set pitch...",
+      "text": "敓⁴楰捴⁨潴┠0",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴湡汧⹥⸮─0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Orientation > Set yaw...",
+      "text": "敓⁴慹⁷潴┠0",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴湡汧⹥⸮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Orientation > Set roll...",
+      "text": "敓⁴潲汬琠⁯〥",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴湡汧⹥⸮　"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Orientation > Look at...",
+      "text": "潌歯愠⁴〥‬ㄥ‬㈥",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓⁴⁘潣牯楤慮整⸮.",
+        "敓⁴⁙潣牯楤慮整⸮.",
+        "敓⁴⁚潣牯楤慮整⸮."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Move > Forward...",
+      "text": "潍敶映牯慷摲┠‰湵瑩s",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴楤瑳湡散⸮.湵瑩s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Move > Backwards...",
+      "text": "潍敶戠捡睫牡獤┠‰湵瑩s",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴楤瑳湡散⸮.‰湵瑩s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Move > Left...",
+      "text": "潍敶氠晥⁴〥甠楮獴",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴楤瑳湡散⸮.獴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Move > Right...",
+      "text": "潍敶爠杩瑨┠‰湵瑩s",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴楤瑳湡散⸮.瑩s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Move > Up...",
+      "text": "潍敶甠⁰〥甠楮獴",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴楤瑳湡散⸮."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Move > Down...",
+      "text": "潍敶搠睯⁮〥甠楮獴",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴楤瑳湡散⸮.獴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Apply camera",
+      "text": "灁汰⁹慣敭慲",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Perspective > Get FOV",
+      "text": "但⡖",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Perspective > Get near clipping distance",
+      "text": "敎牡(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Perspective > Get far clipping distance",
+      "text": "慆⡲",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get X position",
+      "text": "⡘",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get Y position",
+      "text": "⡙",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get Z position",
+      "text": "⡚",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Get pitch",
+      "text": "楐捴⡨",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Get yaw",
+      "text": "慙⡷",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Get roll",
+      "text": "潒汬(",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

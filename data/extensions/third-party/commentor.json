@@ -1,0 +1,40 @@
+{
+  "file": "commentor.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Comment",
+      "text": "〥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃浭湥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Comment",
+      "text": "〥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃浭湥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": []
+}

@@ -1,0 +1,457 @@
+{
+  "file": "filetime.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "File is Open",
+      "text": "楆敬椠⁳灏湥",
+      "menuId": 26000,
+      "resText": "File is Open",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Error Occurred",
+      "text": "牅潲⁲捏畣牲摥",
+      "menuId": 26010,
+      "resText": "Error Occurred",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Open File",
+      "text": "敓⁴楆敬┠0",
+      "menuId": 25000,
+      "resText": "Set File %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆敬倠瑡h0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set Created Date",
+      "text": "敓⁴牃慥整⁤慄整┠ⰰ┠ⰱ┠ⰲ┠ⰳ┠ⰴ┠ⰵ┠6",
+      "menuId": 25010,
+      "resText": "Set Created Date %0, %1, %2, %3, %4, %5, %6",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "教牡⠠㘱㄰ⴠ㌠㠰㜲)┠ⰱ┠ⰲ┠ⰳ┠ⰴ┠ⰵ┠6",
+        "潍瑮⁨ㄨⴠㄠ⤲㠀㜲)┠ⰱ┠ⰲ┠ⰳ┠ⰴ┠ⰵ┠6",
+        "慄⁹ㄨ㌭⤱㄀⤲㠀㜲)┠ⰱ┠ⰲ┠ⰳ┠ⰴ┠ⰵ┠6",
+        "潈牵⠠ⴰ㌲)⤲㠀㜲)┠ⰱ┠ⰲ┠ⰳ┠ⰴ┠ⰵ┠6",
+        "楍畮整⠠ⴰ㤵)㠀㜲)┠ⰱ┠ⰲ┠ⰳ┠ⰴ┠ⰵ┠6",
+        "敓潣摮⠠ⴰ㤵)㠀㜲)┠ⰱ┠ⰲ┠ⰳ┠ⰴ┠ⰵ┠6",
+        "楍汬獩捥湯獤⠠ⴰ㤹⤹─ⰱ┠ⰲ┠ⰳ┠ⰴ┠ⰵ┠6"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set Last Modifed Date",
+      "text": "敓⁴慌瑳䴠摯晩敩⁤慄整┠ⰰ┠ⰱ┠ⰲ┠ⰳ┠ⰴ┠ⰵ┠6",
+      "menuId": 25020,
+      "resText": "Set Last Modified Date %0, %1, %2, %3, %4, %5, %6",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "教牡⠠㘱㄰ⴠ㌠㠰㜲)整┠ⰰ┠ⰱ┠ⰲ┠ⰳ┠ⰴ┠ⰵ┠6",
+        "潍瑮⁨ㄨⴠㄠ⤲㠀㜲)整┠ⰰ┠ⰱ┠ⰲ┠ⰳ┠ⰴ┠ⰵ┠6",
+        "慄⁹ㄨ㌭⤱㄀⤲㠀㜲)整┠ⰰ┠ⰱ┠ⰲ┠ⰳ┠ⰴ┠ⰵ┠6",
+        "潈牵⠠ⴰ㌲)⤲㠀㜲)整┠ⰰ┠ⰱ┠ⰲ┠ⰳ┠ⰴ┠ⰵ┠6",
+        "楍畮整⠠ⴰ㤵)㠀㜲)整┠ⰰ┠ⰱ┠ⰲ┠ⰳ┠ⰴ┠ⰵ┠6",
+        "敓潣摮⠠ⴰ㤵)㠀㜲)整┠ⰰ┠ⰱ┠ⰲ┠ⰳ┠ⰴ┠ⰵ┠6",
+        "楍汬獩捥湯獤⠠ⴰ㤹⤹攀┠ⰰ┠ⰱ┠ⰲ┠ⰳ┠ⰴ┠ⰵ┠6"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Set Last Accessed Date",
+      "text": "敓⁴慌瑳䄠捣獥敳⁤慄整┠ⰰ┠ⰱ┠ⰲ┠ⰳ┠ⰴ┠ⰵ┠6",
+      "menuId": 25030,
+      "resText": "Set Last Accessed Date %0, %1, %2, %3, %4, %5, %6",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "教牡⠠㘱㄰ⴠ㌠㠰㜲)整┠ⰰ┠ⰱ┠ⰲ┠ⰳ┠ⰴ┠ⰵ┠6",
+        "潍瑮⁨ㄨⴠㄠ⤲㠀㜲)整┠ⰰ┠ⰱ┠ⰲ┠ⰳ┠ⰴ┠ⰵ┠6",
+        "慄⁹ㄨ㌭⤱㄀⤲㠀㜲)整┠ⰰ┠ⰱ┠ⰲ┠ⰳ┠ⰴ┠ⰵ┠6",
+        "潈牵⠠ⴰ㌲)⤲㠀㜲)整┠ⰰ┠ⰱ┠ⰲ┠ⰳ┠ⰴ┠ⰵ┠6",
+        "楍畮整⠠ⴰ㤵)㠀㜲)整┠ⰰ┠ⰱ┠ⰲ┠ⰳ┠ⰴ┠ⰵ┠6",
+        "敓潣摮⠠ⴰ㤵)㠀㜲)整┠ⰰ┠ⰱ┠ⰲ┠ⰳ┠ⰴ┠ⰵ┠6",
+        "楍汬獩捥湯獤⠠ⴰ㤹⤹攀┠ⰰ┠ⰱ┠ⰲ┠ⰳ┠ⰴ┠ⰵ┠6"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Close File",
+      "text": "汃獯⁥楆敬",
+      "menuId": 25040,
+      "resText": "Close File",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Open File",
+      "text": "灏湥楆敬⠤",
+      "menuId": 27000,
+      "resText": "OpenFile$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Created > Year",
+      "text": "教牡牃慥整⡤",
+      "menuId": 27010,
+      "resText": "YearCreated(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Created > Month",
+      "text": "潍瑮䍨敲瑡摥(",
+      "menuId": 27020,
+      "resText": "MonthCreated(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Created > Day of Week",
+      "text": "慄潹坦敥䍫敲瑡摥(",
+      "menuId": 27030,
+      "resText": "DayofWeekCreated(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Created > Day",
+      "text": "慄䍹敲瑡摥(",
+      "menuId": 27040,
+      "resText": "DayCreated(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Created > Hour",
+      "text": "潈牵牃慥整⡤",
+      "menuId": 27050,
+      "resText": "HourCreated(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Created > Minute",
+      "text": "楍畮整牃慥整⡤",
+      "menuId": 27060,
+      "resText": "MinuteCreated(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Created > Second",
+      "text": "敓潣摮牃慥整⡤",
+      "menuId": 27070,
+      "resText": "SecondCreated(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Created > Millisecond",
+      "text": "楍汬獩捥湯䍤敲瑡摥(",
+      "menuId": 27080,
+      "resText": "MillisecondCreated(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Modifed > Year",
+      "text": "教牡潍楤楦摥(",
+      "menuId": 27090,
+      "resText": "YearModified(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Modifed > Month",
+      "text": "潍瑮䵨摯晩敩⡤",
+      "menuId": 27100,
+      "resText": "MonthModified(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Modifed > Day of Week",
+      "text": "慄潹坦敥䵫摯晩敩⡤",
+      "menuId": 27110,
+      "resText": "DayofWeekModified(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Modifed > Day",
+      "text": "慄䵹摯晩敩⡤",
+      "menuId": 27120,
+      "resText": "DayModified(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Modifed > Hour",
+      "text": "潈牵潍楤楦摥(",
+      "menuId": 27130,
+      "resText": "HourModified(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Modifed > Minute",
+      "text": "楍畮整潍楤楦摥(",
+      "menuId": 27140,
+      "resText": "MinuteModified(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Modifed > Second",
+      "text": "敓潣摮潍楤楦摥(",
+      "menuId": 27150,
+      "resText": "SecondModified(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Modifed > Millisecond",
+      "text": "楍汬獩捥湯䵤摯晩敩⡤",
+      "menuId": 27160,
+      "resText": "MillisecondModified(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Last Accessed > Year",
+      "text": "教牡捁散獳摥(",
+      "menuId": 27170,
+      "resText": "YearAccessed(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Last Accessed > Month",
+      "text": "潍瑮䅨捣獥敳⡤",
+      "menuId": 27180,
+      "resText": "MonthAccessed(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Last Accessed > Day of Week",
+      "text": "慄潹坦敥䅫捣獥敳⡤",
+      "menuId": 27190,
+      "resText": "DayofWeekAccessed(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Last Accessed > Day",
+      "text": "慄䅹捣獥敳⡤",
+      "menuId": 27200,
+      "resText": "DayAccessed(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Last Accessed > Hour",
+      "text": "潈牵捁散獳摥(",
+      "menuId": 27210,
+      "resText": "HourAccessed(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Last Accessed > Minute",
+      "text": "楍畮整捁散獳摥(",
+      "menuId": 27220,
+      "resText": "MinuteAccessed(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Last Accessed > Second",
+      "text": "敓潣摮捁散獳摥(",
+      "menuId": 27230,
+      "resText": "SecondAccessed(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Last Accessed > Millisecond",
+      "text": "楍汬獩捥湯䅤捣獥敳⡤",
+      "menuId": 27240,
+      "resText": "MillisecondAccessed(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Get Error",
+      "text": "敇䕴牲牯⠤",
+      "menuId": 27250,
+      "resText": "GetError$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

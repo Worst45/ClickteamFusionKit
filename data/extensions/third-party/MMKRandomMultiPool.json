@@ -1,0 +1,549 @@
+{
+  "file": "MMKRandomMultiPool.mfx",
+  "conditions": [
+    {
+      "code": 1,
+      "menu": "Pool conditions > Pool is empty",
+      "text": "漥›潐汯┠‰浥瑰y",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潐汯䤠D┠‰浥瑰y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Generated numbers > On number generated",
+      "text": "漥›湏渠浵敢⁲敇敮慲整⁤牦浯瀠潯⁬〥",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潐汯䤠D浵敢⁲敇敮慲整⁤牦浯瀠潯⁬〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Loop > On number iterated",
+      "text": "漥›湏渠浵敢⁲瑩牥瑡摥椠⁮潰汯┠0",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潐汯䤠D浵敢⁲瑩牥瑡摥椠⁮潰汯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Setup > Fill Pool",
+      "text": "楆汬瀠潯⁬〥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潐汯䤠D⁬〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Pool operations > Generate a number",
+      "text": "敇敮慲整渠浵敢⁲牦浯瀠潯⁬〥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潐汯䤠D渠浵敢⁲牦浯瀠潯⁬〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Pool operations > Add a number",
+      "text": "摁⁤畮扭牥┠‱潴瀠潯⁬〥",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "潐汯䤠D牥┠‱潴瀠潯⁬〥",
+        "畎扭牥琠⁯摡d潴瀠潯⁬〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Pool operations > Remove all occurrences of number",
+      "text": "敒潭敶愠汬漠捣牵敲据獥漠⁦畮扭牥┠‱牦浯瀠潯⁬〥",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "潐汯䤠D汬漠捣牵敲据獥漠⁦畮扭牥┠‱牦浯瀠潯⁬〥",
+        "畎扭牥琠⁯敲潭敶攀据獥漠⁦畮扭牥┠‱牦浯瀠潯⁬〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Setup > Load pool from string",
+      "text": "潌摡瀠潯⁬〥映潲⁭瑳楲杮┠1",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "潐汯䤠D⁬〥映潲⁭瑳楲杮┠1",
+        "慖畬獥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Setup > Files > Load pool from file as list",
+      "text": "潌摡瀠潯⁬〥映潲⁭楦敬┠1",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "潐汯䤠D⁬〥映潲⁭楦敬┠1",
+        "楆敬慮敭 〥映潲⁭楦敬┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Setup > Files > Save pool to file as list",
+      "text": "慓敶瀠潯⁬〥琠⁯楦敬┠1",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "潐汯䤠D⁬〥琠⁯楦敬┠1",
+        "楆敬慮敭 〥琠⁯楦敬┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Setup > Set pool limits",
+      "text": "敓⁴楌業獴漠⁦潰汯┠‰潴⠠ㄥ┭⤲",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潐汯䤠D獴漠⁦潰汯┠‰潴⠠ㄥ┭⤲",
+        "楍n䤠D獴漠⁦潰汯┠‰潴⠠ㄥ┭⤲",
+        "慍x䤠D獴漠⁦潰汯┠‰潴⠠ㄥ┭⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Setup > Set manual seed",
+      "text": "敓⁴敳摥映牯瀠潯⁬〥琠⁯ㄥ",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "潐汯䤠D映牯瀠潯⁬〥琠⁯ㄥ",
+        "敓摥瘠污敵爀瀠潯⁬〥琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Pool operations > Shuffle (Randomize seed)",
+      "text": "慒摮浯穩⁥敳摥映牯瀠潯⁬〥",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潐汯䤠D⁥敳摥映牯瀠潯⁬〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Pool operations > Loops > Iterate over all numbers in pool",
+      "text": "瑉牥瑡⁥癯牥愠汬渠浵敢獲椠⁮潰汯┠0",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潐汯䤠D癯牥愠汬渠浵敢獲椠⁮潰汯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Pool operations > Loops > Iterate over all utilized numbers in pool",
+      "text": "瑉牥瑡⁥癯牥愠汬甠楴楬敺⁤畮扭牥漠⁦潰汯┠0",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潐汯䤠D癯牥愠汬甠楴楬敺⁤畮扭牥漠⁦潰汯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Setup > Files > Load pool from file as string",
+      "text": "潌摡瀠潯⁬〥映潲⁭楦敬┠‱獡猠牴湩g",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "潐汯䤠D⁬〥映潲⁭楦敬┠‱獡猠牴湩g",
+        "楆敬慮敭 〥映潲⁭楦敬┠‱獡猠牴湩g"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Setup > Files > Save pool to file as string",
+      "text": "慓敶瀠潯⁬〥琠⁯楦敬┠‱獡猠牴湩⁧楷桴搠汥浩瑥牥┠2",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "潐汯䤠D⁬〥琠⁯楦敬┠‱獡猠牴湩⁧楷桴搠汥浩瑥牥┠2",
+        "楆敬慮敭 〥琠⁯楦敬┠‱獡猠牴湩⁧楷桴搠汥浩瑥牥┠2",
+        "敄楬業整r〥琠⁯楦敬┠‱獡猠牴湩⁧楷桴搠汥浩瑥牥┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Pool operations > Sort",
+      "text": "潓瑲瀠潯⁬〥嬠ㄥ⁝〨䐺捳‬㨱獁⥣嬠㈥⁝〨债潯ⱬㄠ唺楴楬敺Ɽ㈠䈺瑯⥨",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潐汯䤠D⁬〥嬠ㄥ⁝〨䐺捳‬㨱獁⥣嬠㈥⁝〨债潯ⱬㄠ唺楴楬敺Ɽ㈠䈺瑯⥨",
+        "牏敤⁲〨䐺捳‬㨱獁⥣䐀捳‬㨱獁⥣嬠㈥⁝〨债潯ⱬㄠ唺楴楬敺Ɽ㈠䈺瑯⥨",
+        "桗瑡琠⁯潳瑲⠠㨰潐汯‬㨱瑕汩穩摥‬㨲䈠瑯⥨漀ⱬㄠ唺楴楬敺Ɽ㈠䈺瑯⥨"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Setup > Clear Pool",
+      "text": "汃慥⁲潰汯┠0",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潐汯䤠D汯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Setup > Load pool from delimited string (slower)",
+      "text": "潌摡瀠潯⁬〥映潲⁭敤楬業整⁤瑳楲杮┠1",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "潐汯䤠D⁬〥映潲⁭敤楬業整⁤瑳楲杮┠1",
+        "慖畬獥",
+        "楌瑳漠⁦敄楬業整獲攀楬業整⁤瑳楲杮┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Setup > Remove All Pools",
+      "text": "敄敬整愠汬瀠潯獬",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Pool operations > Remove occurrences of number and trigger",
+      "text": "敒潭敶愠汬漠捣牵敲据獥漠⁦畮扭牥┠‱牦浯瀠潯⁬〥愠摮琠楲杧牥朠湥牥瑡潩n",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "潐汯䤠D汬漠捣牵敲据獥漠⁦畮扭牥┠‱牦浯瀠潯⁬〥愠摮琠楲杧牥朠湥牥瑡潩n",
+        "畎扭牥琠⁯敲潭敶攀据獥漠⁦畮扭牥┠‱牦浯瀠潯⁬〥愠摮琠楲杧牥朠湥牥瑡潩n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Generated numbers > Get generated number",
+      "text": "慌瑳䜠湥牥瑡摥丠浵敢⡲",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "潐汯䤠D牥瑡摥丠浵敢⡲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Pool > Get number of > Numbers remaining in pool",
+      "text": "畎扭牥⁳湩瀠潯⡬",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "潐汯䤠D湩瀠潯⡬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Loops > Get iterated number",
+      "text": "瑉牥瑡潩⁮慶畬⡥",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Pool > Get number of > Numbers utilized from pool",
+      "text": "畎扭牥漠⁦畎扭牥⁳瑵汩穩摥(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "潐汯䤠D⁦畎扭牥⁳瑵汩穩摥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Generated numbers > Get and use new generated number",
+      "text": "慆瑳䜠湥牥瑡⁥畎扭牥(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "潐汯䤠D牥瑡⁥畎扭牥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Pool > Get minimum of pool",
+      "text": "敇⁴楍⁮景倠潯⡬",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "潐汯䤠D景倠潯⡬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Pool > Get maximum of pool",
+      "text": "敇⁴慍⁸景倠潯⡬",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "潐汯䤠D景倠潯⡬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Pool > Get as string > Pool numbers",
+      "text": "敇⁴潐汯丠浵敢獲⠤",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "潐汯䤠D丠浵敢獲⠤",
+        "敄楬業整r浵敢獲⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Pool > Get as string > Pool utilized numbers",
+      "text": "敇⁴瑕汩穩摥丠浵敢獲⠤",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "潐汯䤠D穩摥丠浵敢獲⠤",
+        "敄楬業整r摥丠浵敢獲⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Pool > Get seed of pool",
+      "text": "敇⁴敳摥漠⁦潰汯(",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "潐汯䤠D漠⁦潰汯("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

@@ -1,0 +1,697 @@
+{
+  "file": "Timeline.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On Event",
+      "text": "漥›湏䔠敶瑮┠0",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "癅湥⁴慎敭琀┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Value Exists in Event",
+      "text": "漥›慖畬⁥㈥䔠楸瑳⁳湩䔠敶瑮┠ⰱ倠獯瑩潩⁮〥",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潐楳楴湯椠⁮楔敭楬敮渀䔠敶瑮┠ⰱ倠獯瑩潩⁮〥",
+        "癅湥⁴湉敤x楔敭楬敮渀䔠敶瑮┠ⰱ倠獯瑩潩⁮〥",
+        "慖畬⁥慎敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "String Exists in Event",
+      "text": "漥›瑓楲杮┠′硅獩獴椠⁮癅湥⁴ㄥ‬潐楳楴湯┠0",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潐楳楴湯椠⁮楔敭楬敮椀⁮癅湥⁴ㄥ‬潐楳楴湯┠0",
+        "癅湥⁴湉敤x楔敭楬敮椀⁮癅湥⁴ㄥ‬潐楳楴湯┠0",
+        "慖畬⁥慎敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "On Save/Load Error",
+      "text": "漥›湏匠癡⽥潌摡䔠牲牯",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Position Exists in Timeline",
+      "text": "漥›潐楳楴湯┠‰硅獩獴椠⁮楔敭楬敮",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潐楳楴湯椠⁮楔敭楬敮猀椠⁮楔敭楬敮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Event (Name) Exists at Position",
+      "text": "漥›癅湥⡴⥳┠‱硅獩⡴⥳愠⁴潐楳楴湯┠0",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潐楳楴湯椠⁮楔敭楬敮⠀⥳愠⁴潐楳楴湯┠0",
+        "癅湥⡴⥳丠浡e敭楬敮⠀⥳愠⁴潐楳楴湯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "On Position Change",
+      "text": "漥›湏倠獯瑩潩⁮桃湡敧",
+      "menuId": 26060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Add Event",
+      "text": "摁⁤癅湥⁴ㄥ愠⁴〥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潐楳楴湯椠⁮楔敭楬敮",
+        "癅湥⁴慎敭 楔敭楬敮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set Value in Event",
+      "text": "敓⁴慖畬⁥㈥琠⁯㌥椠⁮癅湥⁴ㄥ愠⁴〥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "潐楳楴湯椠⁮楔敭楬敮 癅湥⁴ㄥ愠⁴〥",
+        "癅湥⁴湉敤x楔敭楬敮 癅湥⁴ㄥ愠⁴〥",
+        "慖畬⁥慎敭",
+        "慖畬e慎敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set String in Event",
+      "text": "敓⁴瑓楲杮┠′潴┠″湩䔠敶瑮┠‱瑡┠0",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "潐楳楴湯椠⁮楔敭楬敮渀䔠敶瑮┠‱瑡┠0",
+        "癅湥⁴湉敤x楔敭楬敮渀䔠敶瑮┠‱瑡┠0",
+        "瑓楲杮丠浡e楔敭楬敮渀䔠敶瑮┠‱瑡┠0",
+        "瑓楲杮一浡e楔敭楬敮渀䔠敶瑮┠‱瑡┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Copy Event",
+      "text": "潃祰䔠敶瑮┠‱潐楳楴湯┠‰潴戠晥牯⁥㌥倠獯瑩潩⁮㈥",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潐楳楴湯椠⁮楔敭楬敮⠠潓牵散)晥牯⁥㌥倠獯瑩潩⁮㈥",
+        "癅湥⁴湉敤⁸匨畯捲⥥⠀潓牵散)晥牯⁥㌥倠獯瑩潩⁮㈥",
+        "潐楳楴湯椠⁮楔敭楬敮⠠慔杲瑥)晥牯⁥㌥倠獯瑩潩⁮㈥",
+        "癅湥⁴湉敤⁸潴䤠獮牥⁴敂潦敲⠠慔杲瑥)倠獯瑩潩⁮㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Move Event",
+      "text": "潍敶䔠敶瑮┠‱潐楳楴湯┠‰潴戠晥牯⁥㌥倠獯瑩潩⁮㈥",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潐楳楴湯椠⁮楔敭楬敮⠠潓牵散)晥牯⁥㌥倠獯瑩潩⁮㈥",
+        "癅湥⁴湉敤⁸匨畯捲⥥⠀潓牵散)晥牯⁥㌥倠獯瑩潩⁮㈥",
+        "潐楳楴湯椠⁮楔敭楬敮⠠慔杲瑥)晥牯⁥㌥倠獯瑩潩⁮㈥",
+        "癅湥⁴湉敤⁸潴䤠獮牥⁴敂潦敲⠠慔杲瑥)倠獯瑩潩⁮㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Remove Event",
+      "text": "敒潭敶䔠敶瑮┠‱瑡┠0",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潐楳楴湯椠⁮楔敭楬敮",
+        "癅湥⁴湉敤x楔敭楬敮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Remove Position",
+      "text": "敒潭敶倠獯瑩潩⁮〥",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潐楳楴湯椠⁮楔敭楬敮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Remove Value from Event",
+      "text": "敒潭敶嘠污敵┠′牦浯┠‱瑡┠0",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潐楳楴湯椠⁮楔敭楬敮─‱瑡┠0",
+        "癅湥⁴湉敤x楔敭楬敮─‱瑡┠0",
+        "慖畬⁥慎敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Remove String from Event",
+      "text": "敒潭敶匠牴湩⁧㈥映潲⁭ㄥ愠⁴〥",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潐楳楴湯椠⁮楔敭楬敮 ㄥ愠⁴〥",
+        "癅湥⁴湉敤x楔敭楬敮 ㄥ愠⁴〥",
+        "瑓楲杮丠浡e楔敭楬敮 ㄥ愠⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Copy Position",
+      "text": "潃祰倠獯瑩潩⁮〥漠瑮⁯ㄥ⠠敒汰捡⁥‽㈥)",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潐楳楴湯椠⁮楔敭楬敮⠠潓牵散)捡⁥‽㈥)",
+        "潐楳楴湯椠⁮楔敭楬敮⠠慔杲瑥)捡⁥‽㈥)",
+        "敒汰捡⁥攨慲敳漠楲楧慮⁬潣瑮湥⁴景 慔杲瑥倠獯瑩潩㽮ㄠ㴠礠獥‬湡瑹楨杮攠獬⁥‽潮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Move Position",
+      "text": "潍敶倠獯瑩潩⁮〥漠瑮⁯ㄥ⠠敒汰捡⁥‽㈥)",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潐楳楴湯椠⁮楔敭楬敮⠠潓牵散)捡⁥‽㈥)",
+        "潐楳楴湯椠⁮楔敭楬敮⠠慔杲瑥)捡⁥‽㈥)",
+        "敒汰捡⁥攨慲敳漠楲楧慮⁬潣瑮湥⁴景 慔杲瑥倠獯瑩潩㽮ㄠ㴠礠獥‬湡瑹楨杮攠獬⁥‽潮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Set Time",
+      "text": "敓⁴楔敭琠⁯〥",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楔敭琠⁯敓⁴潴⠠湩映慲敭⥳⠠潰楳楴敶漠汮⥹"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Set Time Speed",
+      "text": "敓⁴楔敭匠数摥琠⁯〥",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楔敭匠数摥⠠‰‽瑳灯数Ɽ渠来瑡癩⁥畮扭牥⁳‽慢正慷摲⁳湩琠浩⁥用瑮汩〠Ⱙ瀠獯瑩癩⁥‽潦睲牡⁤湩琠浩e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Enable/Disable Event Triggering",
+      "text": "汁潬⁷癅湥⁴牔杩敧楲杮㴠┠0",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‱‽污潬ⱷ愠祮桴湩⁧汥敳㴠搠獩扡敬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Load Timeline from String",
+      "text": "潌摡吠浩汥湩⁥牦浯匠牴湩⁧〥⠠敋灥䌠牵敲瑮吠浩汥湩⁥‽ㄥ)",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楔敭楬敮愠⁳⁡瑓楲杮攀灥䌠牵敲瑮吠浩汥湩⁥‽ㄥ)",
+        "敋灥䌠牵敲瑮吠浩汥湩⁥慄慴‿‱‽敹ⱳ愠祮桴湩⁧汥敳㴠渠o)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Save Timeline to File",
+      "text": "慓敶吠浩汥湩⁥潴䘠汩⁥〥",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆敬慰桴琠⁯慓敶琠o"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Load Timeline from File",
+      "text": "潌摡吠浩汥湩⁥牦浯䘠汩⁥〥⠠敋灥䌠牵敲瑮吠浩汥湩⁥‽ㄥ)",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆敬慰桴琠⁯潌摡映潲m䌠牵敲瑮吠浩汥湩⁥‽ㄥ)",
+        "敋灥䌠牵敲瑮吠浩汥湩⁥慄慴‿‱‽敹⁳愨灰湥⥤‬湡瑹楨杮攠獬⁥‽潮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Move to Position",
+      "text": "潍敶琠⁯潐楳楴楴湯┠0",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潐楳楴湯椠⁮楔敭楬敮琠⁯潍敶琠o"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Enable/Disable Position Change Triggering",
+      "text": "汁潬⁷潐楳楴湯䌠慨杮⁥牔杩敧楲杮㴠┠0",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‱‽污潬ⱷ愠祮桴湩⁧汥敳㴠搠獩扡敬─0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Time",
+      "text": "楔敭(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Time Speed",
+      "text": "楔敭灓敥⡤",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Current Event Name",
+      "text": "畃牲湥䕴敶瑮⠤",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get Current Event Index",
+      "text": "畃牲湥䕴敶瑮(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get Number of Events at Position",
+      "text": "癅湥獴瑁(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潐楳楴湯椠⁮楔敭楬敮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get Event Name At Position  Index",
+      "text": "癅湥䥴䅄⑴(",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潐楳楴湯椠⁮楔敭楬敮",
+        "癅湥⁴湉敤x楔敭楬敮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Get Attached Value",
+      "text": "慖畬⡥",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        3
+      ],
+      "paramTitles": [
+        "潐楳楴湯椠⁮楔敭楬敮",
+        "癅湥⁴湉敤x楔敭楬敮",
+        "慖畬⁥慎敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Get Attached String",
+      "text": "瑓楲杮⠤",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1,
+        3
+      ],
+      "paramTitles": [
+        "潐楳楴湯椠⁮楔敭楬敮",
+        "癅湥⁴湉敤x楔敭楬敮",
+        "瑓楲杮丠浡e楔敭楬敮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Get Timeline as String",
+      "text": "楔敭楬敮⠤",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Get Error String",
+      "text": "牅潲⑲(",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Advanced > Get Number of Values at Position  Index",
+      "text": "慖䍬畯瑮(",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潐楳楴湯椠⁮楔敭楬敮",
+        "癅湥⁴湉敤x楔敭楬敮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Advanced > Get Number of Strings at Position  Index",
+      "text": "瑓䍲畯瑮(",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潐楳楴湯椠⁮楔敭楬敮",
+        "癅湥⁴湉敤x楔敭楬敮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Advanced > Get Value Name by ID at Position  Index",
+      "text": "慖乬浡䉥䥹⑄(",
+      "menuId": 27120,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潐楳楴湯椠⁮楔敭楬敮",
+        "癅湥⁴湉敤x楔敭楬敮",
+        "慖畬⁥䑉攀x楔敭楬敮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Advanced > Get String Name by ID at Position  Index",
+      "text": "瑓乲浡䉥䥹⑄(",
+      "menuId": 27130,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潐楳楴湯椠⁮楔敭楬敮",
+        "癅湥⁴湉敤x楔敭楬敮",
+        "瑓楲杮䤠Dx楔敭楬敮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

@@ -1,0 +1,1041 @@
+{
+  "file": "Registry++.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Sub-Key Exists",
+      "text": "漥›畓ⵢ敋⁹ㄥ䔠楸瑳⁳湩匠潬⁴〥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慄慴匠潬t⁹ㄥ䔠楸瑳⁳湩匠潬⁴〥",
+        "慎敭漠⁦畓ⵢ敋y楸瑳⁳湩匠潬⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Value Exists",
+      "text": "漥›慖畬⁥ㄥ䔠楸瑳⁳湩匠潬⁴〥",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慄慴匠潬tㄥ䔠楸瑳⁳湩匠潬⁴〥",
+        "慎敭漠⁦慖畬e楸瑳⁳湩匠潬⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Any Key Exists > HKEY_CLASSES_ROOT",
+      "text": "漥›敋⁹䭈奅䍟䅌卓卅剟住屔〥䔠楸瑳s",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畆汬倠瑡⁨潴䬠祥⠠獕湩⁧慂正汳獡敨⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Any Key Exists > HKEY_CURRENT_USER",
+      "text": "漥›敋⁹䭈奅䍟剕䕒呎啟䕓屒〥䔠楸瑳s",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畆汬倠瑡⁨潴䬠祥⠠獕湩⁧慂正汳獡敨⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Any Key Exists > HKEY_LOCAL_MACHINE",
+      "text": "漥›敋⁹䭈奅䱟䍏䱁䵟䍁䥈䕎╜‰硅獩獴",
+      "menuId": 26004,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畆汬倠瑡⁨潴䬠祥⠠獕湩⁧慂正汳獡敨⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Any Key Exists > HKEY_CURRENT_CONFIG",
+      "text": "漥›敋⁹䭈奅䍟剕䕒呎䍟乏䥆屇〥䔠楸瑳s",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畆汬倠瑡⁨潴䬠祥⠠獕湩⁧慂正汳獡敨⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Any Key Exists > HKEY_USERS",
+      "text": "漥›敋⁹䭈奅啟䕓卒╜‰硅獩獴",
+      "menuId": 26006,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慐桴琠⁯敋⁹唨楳杮䈠捡獫慬桳獥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Any Value Exists > HKEY_CLASSES_ROOT",
+      "text": "漥›慖畬⁥ㄥ䔠楸瑳⁳湩䬠祥䠠䕋彙䱃十䕓当佒呏╜0",
+      "menuId": 26007,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慐桴琠⁯敋⁹唨楳杮䈠捡獫慬桳獥)䱃十䕓当佒呏╜0",
+        "慖畬⁥慎敭 唨楳杮䈠捡獫慬桳獥)䱃十䕓当佒呏╜0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Any Value Exists > HKEY_CURRENT_USER",
+      "text": "漥›慖畬⁥ㄥ䔠楸瑳⁳湩䬠祥䠠䕋彙啃剒久彔单剅╜0",
+      "menuId": 26008,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慐桴琠⁯敋⁹唨楳杮䈠捡獫慬桳獥)啃剒久彔单剅╜0",
+        "慖畬⁥慎敭 唨楳杮䈠捡獫慬桳獥)啃剒久彔单剅╜0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Any Value Exists > HKEY_LOCAL_MACHINE",
+      "text": "漥›慖畬⁥ㄥ䔠楸瑳⁳湩䬠祥䠠䕋彙佌䅃彌䅍䡃义居〥",
+      "menuId": 26009,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慐桴琠⁯敋⁹唨楳杮䈠捡獫慬桳獥)佌䅃彌䅍䡃义居〥",
+        "慖畬⁥慎敭 唨楳杮䈠捡獫慬桳獥)佌䅃彌䅍䡃义居〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Any Value Exists > HKEY_CURRENT_CONFIG",
+      "text": "漥›慖畬⁥ㄥ䔠楸瑳⁳湩䬠祥䠠䕋彙啃剒久彔佃䙎䝉╜0",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慐桴琠⁯敋⁹唨楳杮䈠捡獫慬桳獥)啃剒久彔佃䙎䝉╜0",
+        "慖畬⁥慎敭 唨楳杮䈠捡獫慬桳獥)啃剒久彔佃䙎䝉╜0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Any Value Exists > HKEY_USERS",
+      "text": "漥›慖畬⁥ㄥ䔠楸瑳⁳湩䬠祥䠠䕋彙单剅屓〥",
+      "menuId": 26011,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慐桴琠⁯敋⁹唨楳杮䈠捡獫慬桳獥)单剅屓〥",
+        "慖畬⁥慎敭 唨楳杮䈠捡獫慬桳獥)单剅屓〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "On Sub-Key Create",
+      "text": "漥›湏匠扵䬭祥┠‱牃慥整⁤湩匠潬⁴〥",
+      "menuId": 26012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慄慴匠潬⁴䈨慬歮㴠䄠祮匠潬⥴匀潬⁴〥",
+        "畓ⵢ敋⁹慎敭⠠求湡⁫‽湁⁹敋⥹漀⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "On Sub-Key Open",
+      "text": "漥›湏匠扵䬭祥┠‱灏湥摥椠⁮汓瑯┠0",
+      "menuId": 26013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慄慴匠潬⁴䈨慬歮㴠䄠祮匠潬⥴氀瑯┠0",
+        "畓ⵢ敋⁹慎敭⠠求湡⁫‽湁⁹敋⥹琀┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Enumeration > On Sub-Key",
+      "text": "漥›湏匠扵䬭祥䔠畮敭慲楴湯",
+      "menuId": 26014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Enumeration > On Value",
+      "text": "漥›湏嘠污敵䔠畮敭慲楴湯",
+      "menuId": 26015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "On Error",
+      "text": "漥›湏䔠牲牯",
+      "menuId": 26016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Data Slot Exists",
+      "text": "漥›慄慴匠潬⁴〥䔠楸瑳s",
+      "menuId": 26017,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慄慴匠潬t潬⁴〥䔠楸瑳s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Keys > Set Root Key > HKEY_CLASSES_ROOT",
+      "text": "敓⁴潒瑯䬠祥漠⁦汓瑯┠‰潴䠠䕋彙䱃十䕓当佒呏",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慄慴匠潬t祥漠⁦汓瑯┠‰潴䠠䕋彙䱃十䕓当佒呏"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Keys > Set Root Key > HKEY_CURRENT_USER",
+      "text": "敓⁴潒瑯䬠祥漠⁦汓瑯┠‰潴䠠䕋彙啃剒久彔单剅",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慄慴匠潬t祥漠⁦汓瑯┠‰潴䠠䕋彙啃剒久彔单剅"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Keys > Set Root Key > HKEY_LOCAL_MACHINE",
+      "text": "敓⁴潒瑯䬠祥漠⁦汓瑯┠‰潴䠠䕋彙佌䅃彌䅍䡃义E",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慄慴匠潬t祥漠⁦汓瑯┠‰潴䠠䕋彙佌䅃彌䅍䡃义E"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Keys > Set Root Key > HKEY_CURRENT_CONFIG",
+      "text": "敓⁴潒瑯䬠祥漠⁦汓瑯┠‰潴䠠䕋彙啃剒久彔佃䙎䝉",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慄慴匠潬t祥漠⁦汓瑯┠‰潴䠠䕋彙啃剒久彔佃䙎䝉"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Keys > Set Root Key > HKEY_USERS",
+      "text": "敓⁴潒瑯䬠祥漠⁦汓瑯┠‰潴䠠䕋彙单剅S",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慄慴匠潬t祥漠⁦汓瑯┠‰潴䠠䕋彙单剅S"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Keys > Navigate to Key > HKEY_CLASSES_ROOT",
+      "text": "慎楶慧整琠⁯䭈奅䍟䅌卓卅剟住屔ㄥ椠⁮慄慴匠潬⁴〥⠠牃慥整㴠┠⤲",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慄慴匠潬t⁯䭈奅䍟䅌卓卅剟住屔ㄥ椠⁮慄慴匠潬⁴〥⠠牃慥整㴠┠⤲",
+        "畆汬倠瑡⁨潴䬠祥⠠獕湩⁧慂正汳獡敨⥳愀慴匠潬⁴〥⠠牃慥整㴠┠⤲",
+        "牃慥整丠湯䔭楸瑳湡⁴敋獹‿〨丽Ɐㄠ夽獥)匠潬⁴〥⠠牃慥整㴠┠⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Keys > Navigate to Key > HKEY_CURRENT_USER",
+      "text": "慎楶慧整琠⁯䭈奅䍟剕䕒呎啟䕓屒ㄥ椠⁮慄慴匠潬⁴〥⠠牃慥整㴠┠⤲",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慄慴匠潬t⁯䭈奅䍟剕䕒呎啟䕓屒ㄥ椠⁮慄慴匠潬⁴〥⠠牃慥整㴠┠⤲",
+        "畆汬倠瑡⁨潴䬠祥⠠獕湩⁧慂正汳獡敨⥳愀慴匠潬⁴〥⠠牃慥整㴠┠⤲",
+        "牃慥整丠湯䔭楸瑳湡⁴敋獹‿〨丽Ɐㄠ夽獥)匠潬⁴〥⠠牃慥整㴠┠⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Keys > Navigate to Key > HKEY_LOCAL_MACHINE",
+      "text": "慎楶慧整琠⁯䭈奅䱟䍏䱁䵟䍁䥈䕎╜‱湩䐠瑡⁡汓瑯┠‰䌨敲瑡⁥‽㈥)",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慄慴匠潬t⁯䭈奅䱟䍏䱁䵟䍁䥈䕎╜‱湩䐠瑡⁡汓瑯┠‰䌨敲瑡⁥‽㈥)",
+        "畆汬倠瑡⁨潴䬠祥⠠獕湩⁧慂正汳獡敨⥳䐀瑡⁡汓瑯┠‰䌨敲瑡⁥‽㈥)",
+        "牃慥整丠湯䔭楸瑳湡⁴敋獹‿〨丽Ɐㄠ夽獥)⁡汓瑯┠‰䌨敲瑡⁥‽㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Keys > Navigate to Key > HKEY_CURRENT_CONFIG",
+      "text": "慎楶慧整琠⁯䭈奅䍟剕䕒呎䍟乏䥆屇ㄥ椠⁮慄慴匠潬⁴〥⠠牃慥整㴠┠⤲",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慄慴匠潬t⁯䭈奅䍟剕䕒呎䍟乏䥆屇ㄥ椠⁮慄慴匠潬⁴〥⠠牃慥整㴠┠⤲",
+        "畆汬倠瑡⁨潴䬠祥⠠獕湩⁧慂正汳獡敨⥳ 慄慴匠潬⁴〥⠠牃慥整㴠┠⤲",
+        "牃慥整丠湯䔭楸瑳湡⁴敋獹‿〨丽Ɐㄠ夽獥)慴匠潬⁴〥⠠牃慥整㴠┠⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Keys > Navigate to Key > HKEY_USERS",
+      "text": "慎楶慧整琠⁯䭈奅啟䕓卒╜‱湩䐠瑡⁡汓瑯┠‰䌨敲瑡⁥‽㈥)",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慄慴匠潬t⁯䭈奅啟䕓卒╜‱湩䐠瑡⁡汓瑯┠‰䌨敲瑡⁥‽㈥)",
+        "畆汬倠瑡⁨潴䬠祥⠠獕湩⁧慂正汳獡敨⥳琀┠‰䌨敲瑡⁥‽㈥)",
+        "牃慥整丠湯䔭楸瑳湡⁴敋獹‿〨丽Ɐㄠ夽獥)‰䌨敲瑡⁥‽㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Keys > Create Sub-Key",
+      "text": "牃慥整匠扵䬭祥┠‱湩䐠瑡⁡汓瑯┠‰伨数⁮敋⁹‽㈥)",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慄慴匠潬t䬭祥┠‱湩䐠瑡⁡汓瑯┠‰伨数⁮敋⁹‽㈥)",
+        "慎敭漠⁦敋y祥┠‱湩䐠瑡⁡汓瑯┠‰伨数⁮敋⁹‽㈥)",
+        "灏湥䬠祥‿〨丽Ɐㄠ夽獥)⁡汓瑯┠‰伨数⁮敋⁹‽㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Keys > Open Sub-Key",
+      "text": "灏湥匠扵䬭祥┠‱湩䐠瑡⁡汓瑯┠0",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慄慴匠潬t祥┠‱湩䐠瑡⁡汓瑯┠0",
+        "慎敭漠⁦敋y┠‱湩䐠瑡⁡汓瑯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Keys > Delete Sub-Key",
+      "text": "敄敬整匠扵䬭祥┠‱湩䐠瑡⁡汓瑯┠0",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慄慴匠潬t䬭祥┠‱湩䐠瑡⁡汓瑯┠0",
+        "慎敭漠⁦畓ⵢ敋y‱湩䐠瑡⁡汓瑯┠0",
+        "敄敬整䬠祥椠⁦潎⁴浅瑰㽹⠠㴰潎‬㴱教⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Values > Set DWORD Value",
+      "text": "敓⁴坄剏⁄慖畬⁥ㄥ琠⁯㈥椠⁮慄慴匠潬⁴〥",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慄慴匠潬t慖畬⁥ㄥ琠⁯㈥椠⁮慄慴匠潬⁴〥",
+        "慎敭漠⁦坄剏⁄慖畬e⁯㈥椠⁮慄慴匠潬⁴〥",
+        "慖畬⁥潴匠瑥 慖畬e⁯㈥椠⁮慄慴匠潬⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Values > Set String Value",
+      "text": "敓⁴瑓楲杮嘠污敵┠‱潴┠′湩䐠瑡⁡汓瑯┠0",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慄慴匠潬t嘠污敵┠‱潴┠′湩䐠瑡⁡汓瑯┠0",
+        "慎敭漠⁦瑓楲杮嘠污敵漀┠′湩䐠瑡⁡汓瑯┠0",
+        "慖畬⁥潴匠瑥最嘠污敵漀┠′湩䐠瑡⁡汓瑯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Values > Set Default Value",
+      "text": "敓⁴敄慦汵⁴慖畬⁥景匠潬⁴〥琠⁯ㄥ",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慄慴匠潬t⁴慖畬⁥景匠潬⁴〥琠⁯ㄥ",
+        "慖畬⁥潴匠瑥愀畬⁥景匠潬⁴〥琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Values > Delete Value",
+      "text": "敄敬整嘠污敵┠‱湩䐠瑡⁡汓瑯┠0",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慄慴匠潬t敵┠‱湩䐠瑡⁡汓瑯┠0",
+        "慎敭漠⁦慖畬⁥潴䐠汥瑥e汓瑯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Enumeration > Enumerate Sub-Keys",
+      "text": "湅浵牥瑡⁥畓ⵢ敋獹椠⁮汓瑯┠0",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慄慴匠潬t畓ⵢ敋獹椠⁮汓瑯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Enumeration > Enumerate Values",
+      "text": "湅浵牥瑡⁥慖畬獥椠⁮汓瑯┠0",
+      "menuId": 25018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慄慴匠潬t慖畬獥椠⁮汓瑯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Files > Save Key",
+      "text": "慓敶䐠瑡⁡汓瑯┠‰潴┠1",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        40
+      ],
+      "paramTitles": [
+        "慄慴匠潬t汓瑯┠‰潴┠1",
+        "楆敬匀潬t汓瑯┠‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Keys > Set Root Key > Custom...",
+      "text": "敓⁴潒瑯䬠祥漠⁦汓瑯┠‰潴┠1",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慄慴匠潬t祥漠⁦汓瑯┠‰潴┠1",
+        "潒瑯䬠祥⠠獡匠牴湩⥧─‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Keys > Navigate to Key > Custom...",
+      "text": "慎楶慧整琠⁯ㄥ椠⁮慄慴匠潬⁴〥⠠牃慥整㴠┠⤲",
+      "menuId": 25021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慄慴匠潬t⁯ㄥ椠⁮慄慴匠潬⁴〥⠠牃慥整㴠┠⤲",
+        "畆汬倠瑡⁨潴䬠祥⠠獕湩⁧慂正汳獡敨⥳攀㴠┠⤲",
+        "牃慥整丠湯䔭楸瑳湡⁴敋獹‿〨丽Ɐㄠ夽獥)┠⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Data Slots > Create Local Slot",
+      "text": "牃慥整䐠瑡⁡汓瑯┠0",
+      "menuId": 25022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慄慴匠潬t⁡汓瑯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Data Slots > Create Remote Slot",
+      "text": "牃慥整删浥瑯⁥慄慴匠潬⁴〥漠⁮潃灭瑵牥┠1",
+      "menuId": 25023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慄慴匠潬t瑯⁥慄慴匠潬⁴〥漠⁮潃灭瑵牥┠1",
+        "潃灭瑵牥丠浡e慄慴匠潬⁴〥漠⁮潃灭瑵牥┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Data Slots > Copy Slot",
+      "text": "潃祰䐠瑡⁡汓瑯┠‰潴匠潬⁴ㄥ",
+      "menuId": 25024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "潓牵散匠潬t瑯┠‰潴匠潬⁴ㄥ",
+        "敄瑳湩瑡潩⁮汓瑯 潴匠潬⁴ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Data Slots > Duplicate Slot",
+      "text": "牃慥整䐠瑡⁡汓瑯┠‱牦浯匠潬⁴〥",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "潓牵散匠潬t汓瑯┠‱牦浯匠潬⁴〥",
+        "敎⁷汓瑯琠⁯牃慥整 牦浯匠潬⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Data Slots > Delete Slot",
+      "text": "敄敬整䐠瑡⁡汓瑯┠0",
+      "menuId": 25026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慄慴匠潬t⁡汓瑯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Data Slots > Delete All Slots",
+      "text": "敄敬整䄠汬䐠瑡⁡汓瑯s",
+      "menuId": 25027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Data Slots > Registry Path of Data Slot",
+      "text": "汓瑯慐桴⠤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慄慴匠潬t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Data Slots > Number of Levels of Data Slot",
+      "text": "汓瑯畎䱭癥汥⡳",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慄慴匠潬t汥⡳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Keys > Information > Number of Sub-Keys in Key",
+      "text": "敋乹浵畓䭢祥⡳",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慄慴匠潬t祥⡳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Keys > Information > Number of Values in Key",
+      "text": "敋乹浵慖畬獥(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慄慴匠潬t獥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Keys > Information > Length of Longest Sub-Key Name",
+      "text": "敋䱹湯敧瑳畓䭢祥(",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慄慴匠潬t畓䭢祥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Keys > Information > Length of Longest Value Name",
+      "text": "敋䱹湯敧瑳慖畬⡥",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慄慴匠潬t慖畬⡥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Keys > Enumeration > Enumerated Sub-Key",
+      "text": "敋䕹畮乭浡⑥(",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Keys > Enumeration > Enumeration Index",
+      "text": "敋䕹畮䥭摮硥(",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Values > Get Data Type",
+      "text": "慖䑬瑡呡灹⑥(",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "慄慴匠潬t⑥(",
+        "慖畬⁥慎敭␀("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Values > Get DWORD Value",
+      "text": "慖䑬佗䑒(",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "慄慴匠潬t",
+        "慖畬⁥慎敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Values > Get String Value",
+      "text": "慖卬牴湩⑧(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "慄慴匠潬t(",
+        "慖畬⁥慎敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Values > Get Default Value",
+      "text": "慖䑬晥瑓楲杮⠤",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慄慴匠潬t杮⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Values > Enumeration > Enumerated Value",
+      "text": "慖䕬畮乭浡⑥(",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Values > Enumeration > Enumeration Index",
+      "text": "慖䕬畮䥭摮硥(",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Error String",
+      "text": "牅潲卲牴湩⑧(",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Data Slots > Total Number of Data Slots",
+      "text": "潔慴卬潬獴(",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

@@ -1,0 +1,617 @@
+{
+  "file": "activeshape.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Shape Type > Shape is a rectangle",
+      "text": "漥椠⁳⁡敲瑣湡汧e",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Shape Type > Shape is an ellipse",
+      "text": "漥椠⁳湡攠汬灩敳",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Shape Type > Shape is a polygon",
+      "text": "漥椠⁳⁡潰祬潧n",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Size...",
+      "text": "敓⁴楓敺琠⁯┨ⰰ┠⤱",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗瑤h敺琠⁯┨ⰰ┠⤱",
+        "效杩瑨攀琠⁯┨ⰰ┠⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Display Options > Set Primary Fill Color",
+      "text": "敓⁴牰浩牡⁹楦汬挠汯牯琠⁯〥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "祓瑳浥䌠汯牯䤠摮硥氀牯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Display Options > Set Line Color",
+      "text": "敓⁴楬敮挠汯牯琠⁯〥",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "祓瑳浥䌠汯牯䤠摮硥　"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Display Options > Set Line Weight",
+      "text": "敓⁴楬敮眠楥桧⁴潴┠0",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楌敮圠楥桧t桧⁴潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Display Options > Set Secondary Fill Color",
+      "text": "敓⁴敳潣摮牡⁹楦汬挠汯牯琠⁯〥",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "祓瑳浥䌠汯牯䤠摮硥挀汯牯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Display Options > Set Gradient Direction",
+      "text": "敓⁴牧摡敩瑮⠠楄敲瑣潩⁮‽〥)",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰‽潈楲潺瑮污‬‱‽敖瑲捩污"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Set Shape > Rectangle",
+      "text": "敓⁴桳灡⁥潴删捥慴杮敬",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Set Shape > Ellipse",
+      "text": "敓⁴桳灡⁥潴䔠汬灩敳",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Set Shape > Polygon",
+      "text": "敓⁴桳灡⁥潴倠汯杹湯",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Set Fill > Solid Color",
+      "text": "敓⁴楦汬琠⁯潓楬⁤潃潬r",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Set Fill > Gradient",
+      "text": "敓⁴楦汬琠⁯片摡敩瑮",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Set Fill > Pattern",
+      "text": "敓⁴楦汬琠⁯慐瑴牥n",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Set Shape > Load Point Set",
+      "text": "潌摡瀠楯瑮猠瑥⠠〥)",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潐湩⁴敳t猠瑥⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Scale / Angle > Set Angle",
+      "text": "敓⁴湡汧⁥潴┠‰儨慵楬祴㴠┠⤱",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湡汧⁥湩搠来敲獥戠瑥敷湥〠愠摮㌠㤵",
+        "湅整⁲‰洨硡浩浵猠数摥Ⱙ漠⁲‱洨硡浩浵焠慵楬祴)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Hot Spot > Custom...",
+      "text": "敓⁴潈⁴灓瑯琠⁯┨ⰰ┠⤱",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘潣牯楤慮整琀⁯┨ⰰ┠⤱",
+        "⁙潣牯楤慮整琀⁯┨ⰰ┠⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Hot Spot > Top-left",
+      "text": "敓⁴潈⁴灓瑯琠⁯潴⵰敬瑦",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Hot Spot > Top-center",
+      "text": "敓⁴潈⁴灓瑯琠⁯潴⵰散瑮牥",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Hot Spot > Top-right",
+      "text": "敓⁴潈⁴灓瑯琠⁯潴⵰楲桧t",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Hot Spot > Left-center",
+      "text": "敓⁴潈⁴灓瑯琠⁯敬瑦挭湥整r",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Hot Spot > Center",
+      "text": "敓⁴潈⁴灓瑯琠⁯散瑮牥",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Hot Spot > Right-center",
+      "text": "敓⁴潈⁴灓瑯琠⁯楲桧⵴散瑮牥",
+      "menuId": 25200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Hot Spot > Bottom-left",
+      "text": "敓⁴潈⁴灓瑯琠⁯潢瑴浯氭晥t",
+      "menuId": 25210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Hot Spot > Bottom-center",
+      "text": "敓⁴潈⁴灓瑯琠⁯潢瑴浯挭湥整r",
+      "menuId": 25220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Hot Spot > Bottom-right",
+      "text": "敓⁴潈⁴灓瑯琠⁯潢瑴浯爭杩瑨",
+      "menuId": 25230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Scale / Angle > Set Scale",
+      "text": "敓⁴捳污⁥潴┠‰儨慵楬祴㴠┠⤱",
+      "menuId": 25240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲捳污⁥慶畬⁥‭⸱‰‽潮浲污搠浩湥楳湯",
+        "湅整⁲‰洨硡浩浵猠数摥Ⱙ漠⁲‱洨硡浩浵焠慵楬祴)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Scale / Angle > Set X Scale",
+      "text": "敓⁴⁘捳污⁥潴┠‰儨慵楬祴㴠┠⤱",
+      "menuId": 25250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲捳污⁥慶畬⁥‭⸱‰‽潮浲污搠浩湥楳湯",
+        "湅整⁲‰洨硡浩浵猠数摥Ⱙ漠⁲‱洨硡浩浵焠慵楬祴)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Scale / Angle > Set Y Scale",
+      "text": "敓⁴⁙捳污⁥潴┠‰儨慵楬祴㴠┠⤱",
+      "menuId": 25260,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲捳污⁥慶畬⁥‭⸱‰‽潮浲污搠浩湥楳湯",
+        "湅整⁲‰洨硡浩浵猠数摥Ⱙ漠⁲‱洨硡浩浵焠慵楬祴)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Set Fill > Image",
+      "text": "敓⁴楦汬琠⁯浉条⁥儨慵楬祴㴠┠⤰",
+      "menuId": 25270,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲‰渨⁯敲慳灭楬杮Ⱙㄠ⠠敲慳灭敬椠慭敧Ⱙ漠⁲′爨獥浡汰⁥浩条⁥‫摥敧)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Set Text",
+      "text": "敓⁴敔瑸⠠〥)",
+      "menuId": 25280,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敔瑸攀瑸⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Text Extras > Horizontal Alignment > Left",
+      "text": "敓⁴潨楲潺瑮污琠硥⁴污杩浮湥⁴潴䰠晥t",
+      "menuId": 25290,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Text Extras > Horizontal Alignment > Center",
+      "text": "敓⁴潨楲潺瑮污琠硥⁴污杩浮湥⁴潴䌠湥整r",
+      "menuId": 25300,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Text Extras > Horizontal Alignment > Right",
+      "text": "敓⁴潨楲潺瑮污琠硥⁴污杩浮湥⁴潴删杩瑨",
+      "menuId": 25310,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Text Extras > Vertical Alignment > Top",
+      "text": "敓⁴敶瑲捩污琠硥⁴污杩浮湥⁴潴吠灯",
+      "menuId": 25320,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Text Extras > Vertical Alignment > Center",
+      "text": "敓⁴敶瑲捩污琠硥⁴污杩浮湥⁴潴䌠湥整r",
+      "menuId": 25330,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Text Extras > Vertical Alignment > Bottom",
+      "text": "敓⁴敶瑲捩污琠硥⁴污杩浮湥⁴潴䈠瑯潴m",
+      "menuId": 25340,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Shape Size > Shape Width",
+      "text": "楗瑤⡨",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Shape Size > Shape Height",
+      "text": "效杩瑨(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Display Options > Primary Fill Color",
+      "text": "楆汬潃潬⡲",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Display Options > Line Color",
+      "text": "楌敮潃潬⡲",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Display Options > Line Weight",
+      "text": "楌敮敗杩瑨(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Display Options > Secondary Fill Color",
+      "text": "楆汬潃潬㉲(",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Text",
+      "text": "敔瑸⠤",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

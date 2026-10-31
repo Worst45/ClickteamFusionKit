@@ -1,0 +1,155 @@
+{
+  "file": "kctoken.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Compare Token",
+      "text": "ㄱ猥›潔敫⁮猥┠s",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Compare Number of Tokens",
+      "text": "ㄱ猥›畎扭牥漠⁦潔敫獮┠s",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Fixed parsing Characters",
+      "text": "㄰敓⁴楆數⁤慐獲湩⁧桃牡捡整獲琠⁯猥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set Fixed String",
+      "text": "㄰敓⁴楆數⁤瑓楲杮琠⁯猥",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Token with Fixed Parsing Characters",
+      "text": "敇呴歯湥⠤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Token with Fixed String",
+      "text": "敇呴歯湥瑓⑲(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get String with Fixed Parsing Characters replaced with",
+      "text": "敇剴灥潔敫⑮(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get Fixed String with Parsing Characters replaced with",
+      "text": "敇剴灥潔敫卮牴⠤",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Remove Parsing Character(s) from a string",
+      "text": "敒潭敶桃⑲(",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Repeat string",
+      "text": "敒数瑡瑓⑲(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Get Number of Tokens",
+      "text": "潃湵呴歯湥(",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    }
+  ]
+}

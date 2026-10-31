@@ -1,0 +1,112 @@
+{
+  "file": "WaitFor.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Fractional Chance",
+      "text": "漥›〥挠慨据獥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牆捡楴湯瀯牥散瑮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Wait For > Wait Before",
+      "text": "漥㨠圠楡⁴潆⁲〥氠潯獰戠晥牯⁥䤨⁄‽ㄥ)",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "畎扭牥漠⁦潌灯s氠潯獰戠晥牯⁥䤨⁄‽ㄥ)",
+        "䑉⠠敢睴敥⁮‱湡⁤㠹)戠晥牯⁥䤨⁄‽ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Wait For > Wait After",
+      "text": "漥㨠圠楡⁴潆⁲〥氠潯獰愠瑦牥⠠䑉㴠┠⤱",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "畎扭牥漠⁦潌灯s氠潯獰愠瑦牥⠠䑉㴠┠⤱",
+        "䑉⠠敢睴敥⁮‱湡⁤㠹)愠瑦牥⠠䑉㴠┠⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Wait For > Delay",
+      "text": "漥㨠䐠汥祡┠‰潬灯⁳敢潦敲愠汬睯湩⁧䤨⁄‽ㄥ)",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "畎扭牥漠⁦潌灯s灯⁳敢潦敲愠汬睯湩⁧䤨⁄‽ㄥ)",
+        "䑉⠠敢睴敥⁮‱湡⁤㠹)潦敲愠汬睯湩⁧䤨⁄‽ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Generate Chance",
+      "text": "敇敮慲整䌠慨据⁥牦浯┠‰潴┠1",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潌敷瑳丠浵敢r⁥牦浯┠‰潴┠1",
+        "楈桧獥⁴畎扭牥 牦浯┠‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Loop the Delay",
+      "text": "潌灯琠敨䐠汥祡⠠䑉㴠┠⤰",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉瀀琠敨䐠汥祡⠠䑉㴠┠⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": []
+}

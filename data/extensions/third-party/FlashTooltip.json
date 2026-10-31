@@ -1,0 +1,199 @@
+{
+  "file": "FlashTooltip.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Tooltip is Visible",
+      "text": "漥吠潯瑬灩䤠⁳楖楳汢e",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Show Tooltip",
+      "text": "桓睯吠潯瑬灩⠠〥 汁桰⁡┨⤱",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "潔汯楴⁰敔瑸⠀〥 汁桰⁡┨⤱",
+        "汁桰a⁰敔瑸⠀〥 汁桰⁡┨⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Hide Tooltip",
+      "text": "楈敤吠潯瑬灩",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set X",
+      "text": "敓⁴⁘┨⤰",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁘潃牯楤慮整"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Set Y",
+      "text": "敓⁴⁙┨⤰",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁙潃牯楤慮整"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Set Background Color",
+      "text": "敓⁴慂正牧畯摮䌠汯牯⠠〥)",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "慂正牧畯摮䌠汯牯氀牯⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Set Font",
+      "text": "敓⁴潆瑮⠠〥)",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潆瑮漀瑮⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Set Font Size",
+      "text": "敓⁴潆瑮匠穩⁥┨⤰",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潆瑮匠穩e穩⁥┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Set Font Color",
+      "text": "敓⁴潆瑮䌠汯牯⠠〥)",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "潆瑮䌠汯牯氀牯⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Set Corner Radius",
+      "text": "敓⁴潃湲牥删摡畩⁳┨⤰",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潃湲牥删摡畩s畩⁳┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Last Tooltip Text",
+      "text": "慌瑳潔汯楴呰硥⑴(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Tooltip X",
+      "text": "潔汯楴塰(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Tooltip Y",
+      "text": "潔汯楴奰(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

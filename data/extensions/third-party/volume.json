@@ -1,0 +1,1273 @@
+{
+  "file": "volume.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Mixer is available",
+      "text": "漥㨠䴠硩牥椠⁳癡楡慬汢e",
+      "menuId": 26000,
+      "resText": "%o : Mixer is available",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Master > Master volume control is available",
+      "text": "漥㨠䴠獡整⁲潶畬敭挠湯牴汯椠⁳癡楡慬汢e",
+      "menuId": 26010,
+      "resText": "%o : Master volume control is available",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Master > Master mute control is available",
+      "text": "漥㨠䴠獡整⁲畭整挠湯牴汯椠⁳癡楡慬汢e",
+      "menuId": 26020,
+      "resText": "%o : Master mute control is available",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Master > Master is Mono",
+      "text": "漥㨠䴠獡整⁲獩䴠湯o",
+      "menuId": 26030,
+      "resText": "%o : Master is Mono",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Master > Master is Stereo",
+      "text": "漥㨠䴠獡整⁲獩匠整敲o",
+      "menuId": 26040,
+      "resText": "%o : Master is Stereo",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Master > Number of channels in Master > 2",
+      "text": "漥㨠丠浵敢⁲景挠慨湮汥⁳湩䴠獡整⁲‾2",
+      "menuId": 26050,
+      "resText": "%o : Number of channels in Master > 2",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Master > Master is Muted",
+      "text": "漥㨠䴠獡整⁲獩䴠瑵摥",
+      "menuId": 26060,
+      "resText": "%o : Master is Muted",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Wave Out > Wave Out volume control is available",
+      "text": "漥㨠圠癡⁥畏⁴潶畬敭挠湯牴汯椠⁳癡楡慬汢e",
+      "menuId": 26070,
+      "resText": "%o : Wave Out volume control is available",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Wave Out > Wave Out mute control is available",
+      "text": "漥㨠圠癡⁥畏⁴畭整挠湯牴汯椠⁳癡楡慬汢e",
+      "menuId": 26080,
+      "resText": "%o : Wave Out mute control is available",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Wave Out > Wave Out is Mono",
+      "text": "漥㨠圠癡⁥畏⁴獩䴠湯o",
+      "menuId": 26090,
+      "resText": "%o : Wave Out is Mono",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Wave Out > Wave Out is Stereo",
+      "text": "漥㨠圠癡⁥畏⁴獩匠整敲o",
+      "menuId": 26100,
+      "resText": "%o : Wave Out is Stereo",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Wave Out > Number of channels in Wave Out > 2",
+      "text": "漥㨠丠浵敢⁲景挠慨湮汥⁳湩圠癡⁥畏⁴‾2",
+      "menuId": 26110,
+      "resText": "%o : Number of channels in Wave Out > 2",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Wave Out > Wave Out is Muted",
+      "text": "漥㨠圠癡⁥畏⁴獩䴠瑵摥",
+      "menuId": 26120,
+      "resText": "%o : Wave Out is Muted",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Midi Out > Midi Out volume control is available",
+      "text": "漥㨠䴠摩⁩畏⁴潶畬敭挠湯牴汯椠⁳癡楡慬汢e",
+      "menuId": 26130,
+      "resText": "%o : Midi Out volume control is available",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Midi Out > Midi Out mute control is available",
+      "text": "漥㨠䴠摩⁩畏⁴畭整挠湯牴汯椠⁳癡楡慬汢e",
+      "menuId": 26140,
+      "resText": "%o : Midi Out mute control is available",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Midi Out > Midi Out is Mono",
+      "text": "漥㨠䴠摩⁩畏⁴獩䴠湯o",
+      "menuId": 26150,
+      "resText": "%o : Midi Out is Mono",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Midi Out > Midi Out is Stereo",
+      "text": "漥㨠䴠摩⁩畏⁴獩匠整敲o",
+      "menuId": 26160,
+      "resText": "%o : Midi Out is Stereo",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Midi Out > Number of channels in Midi Out > 2",
+      "text": "漥㨠丠浵敢⁲景挠慨湮汥⁳湩䴠摩⁩畏⁴‾2",
+      "menuId": 26170,
+      "resText": "%o : Number of channels in Midi Out > 2",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Midi Out > Midi Out is Muted",
+      "text": "漥㨠䴠摩⁩畏⁴獩䴠瑵摥",
+      "menuId": 26180,
+      "resText": "%o : Midi Out is Muted",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "CD Out > CD Out volume control is available",
+      "text": "漥㨠䌠⁄畏⁴潶畬敭挠湯牴汯椠⁳癡楡慬汢e",
+      "menuId": 26190,
+      "resText": "%o : CD Out volume control is available",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "CD Out > CD Out mute control is available",
+      "text": "漥㨠䌠⁄畏⁴畭整挠湯牴汯椠⁳癡楡慬汢e",
+      "menuId": 26200,
+      "resText": "%o : CD Out mute control is available",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "CD Out > CD Out is Mono",
+      "text": "漥㨠䌠⁄畏⁴獩䴠湯o",
+      "menuId": 26210,
+      "resText": "%o : CD Out is Mono",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "CD Out > CD Out is Stereo",
+      "text": "漥㨠䌠⁄畏⁴獩匠整敲o",
+      "menuId": 26220,
+      "resText": "%o : CD Out is Stereo",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "CD Out > Number of channels in CD Out > 2",
+      "text": "漥㨠丠浵敢⁲景挠慨湮汥⁳湩䌠⁄畏⁴‾2",
+      "menuId": 26230,
+      "resText": "%o : Number of channels in CD Out > 2",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "CD Out > CD Out is Muted",
+      "text": "漥㨠䌠⁄畏⁴獩䴠瑵摥",
+      "menuId": 26240,
+      "resText": "%o : CD Out is Muted",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Custom Line > Custom Line volume control is available",
+      "text": "漥㨠䌠獵潴⁭楌敮瘠汯浵⁥潣瑮潲⁬獩愠慶汩扡敬",
+      "menuId": 26250,
+      "resText": "%o : Custom Line volume control is available",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Custom Line > Custom Line mute control is available",
+      "text": "漥㨠䌠獵潴⁭楌敮洠瑵⁥潣瑮潲⁬獩愠慶汩扡敬",
+      "menuId": 26260,
+      "resText": "%o : Custom Line mute control is available",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Custom Line > Custom Line is Mono",
+      "text": "漥㨠䌠獵潴⁭楌敮椠⁳潍潮",
+      "menuId": 26270,
+      "resText": "%o : Custom Line is Mono",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Custom Line > Custom Line is Stereo",
+      "text": "漥㨠䌠獵潴⁭楌敮椠⁳瑓牥潥",
+      "menuId": 26280,
+      "resText": "%o : Custom Line is Stereo",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Custom Line > Number of channels in Custom Line > 2",
+      "text": "漥㨠丠浵敢⁲景挠慨湮汥⁳湩䌠獵潴⁭楌敮㸠㈠",
+      "menuId": 26290,
+      "resText": "%o : Number of channels in Custom Line > 2",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Custom Line > Custom Line is Muted",
+      "text": "漥㨠䌠獵潴⁭楌敮椠⁳畍整d",
+      "menuId": 26300,
+      "resText": "%o : Custom Line is Muted",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Select SoundCard",
+      "text": "漥㨠匠汥捥⁴潓湵䍤牡⁤〥",
+      "menuId": 25000,
+      "resText": "%o : Select SoundCard %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡潳湵䍤牡⁤湩敤⁸〨䴽楡⁮慣摲)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Master > Mute Master",
+      "text": "漥㨠䴠瑵⁥慍瑳牥",
+      "menuId": 25010,
+      "resText": "%o : Mute Master",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Master > UnMute Master",
+      "text": "漥㨠唠䵮瑵⁥慍瑳牥",
+      "menuId": 25020,
+      "resText": "%o : UnMute Master",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Master > Set volume of all channels",
+      "text": "漥㨠䴠獡整⁲›敓⁴潖畬敭漠⁦污⁬档湡敮獬琠⁯〥",
+      "menuId": 25030,
+      "resText": "%o : Master : Set Volume of all channels to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡潶畬敭琠⁯敳⁴〨㘭㔵㔳)档湡敮獬琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Master > Set channel volume",
+      "text": "漥㨠䴠獡整⁲›敓⁴潖畬敭漠⁦档湡敮⁬ㄥ琠⁯〥",
+      "menuId": 25040,
+      "resText": "%o : Master : Set Volume of channel %1 to %0",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡潶畬敭琠⁯敳⁴〨㘭㔵㔳)敮⁬ㄥ琠⁯〥",
+        "湅整⁲⁡档湡敮⁬畎扭牥⠠湉匠整敲⁯㴱敌瑦‬㴲楒桧⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Master > Proportions > Set volume of all channels using Proportions",
+      "text": "漥㨠䴠獡整⁲›敓⁴潖畬敭漠⁦污⁬档湡敮獬瀠潲潰瑲潩慮⁬潴┠0",
+      "menuId": 25050,
+      "resText": "%o : Master : Set Volume of all channels proportional to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡慢敳瘠汯浵⁥潴甠敳⠠ⴰ㔶㌵⤵攀獬瀠潲潰瑲潩慮⁬潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Master > Proportions > Set channel Proportion",
+      "text": "漥㨠䴠獡整⁲›敓⁴牰灯牯楴湯漠⁦档湡敮⁬ㄥ琠⁯〥",
+      "menuId": 25060,
+      "resText": "%o : Master : Set proportion of channel %1 to %0",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡牰灯牯楴湯漠瑵漠⁦㔶㌵‵潴甠敳 ㄥ琠⁯〥",
+        "湅整⁲⁡档湡敮⁬畎扭牥⠠湉匠整敲⁯㴱敌瑦‬㴲楒桧⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Master > Proportions > Set Proportion of all channels",
+      "text": "漥㨠䴠獡整⁲›敓⁴牰灯牯楴湯漠⁦污⁬档湡敮獬琠⁯〥",
+      "menuId": 25070,
+      "resText": "%o : Master : Set proportion of all channels to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡牰灯牯楴湯漠瑵漠⁦㔶㌵‵潴甠敳渀敮獬琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Wave Out > Mute Wave Out",
+      "text": "漥㨠䴠瑵⁥慗敶传瑵",
+      "menuId": 25080,
+      "resText": "%o : Mute Wave Out",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Wave Out > UnMute Wave Out",
+      "text": "漥㨠唠䵮瑵⁥慗敶传瑵",
+      "menuId": 25090,
+      "resText": "%o : UnMute Wave Out",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Wave Out > Set volume of all channels",
+      "text": "漥㨠圠癡⁥畏⁴›敓⁴潖畬敭漠⁦污⁬档湡敮獬琠⁯〥",
+      "menuId": 25100,
+      "resText": "%o : Wave Out : Set Volume of all channels to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡潶畬敭琠⁯敳⁴〨㘭㔵㔳)⁬档湡敮獬琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Wave Out > Set channel volume",
+      "text": "漥㨠圠癡⁥畏⁴›敓⁴潖畬敭漠⁦档湡敮⁬ㄥ琠⁯〥",
+      "menuId": 25110,
+      "resText": "%o : Wave Out : Set Volume of channel %1 to %0",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡潶畬敭琠⁯敳⁴〨㘭㔵㔳)湡敮⁬ㄥ琠⁯〥",
+        "湅整⁲⁡档湡敮⁬畎扭牥⠠湉匠整敲⁯㴱敌瑦‬㴲楒桧⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Wave Out > Proportions > Set volume of all channels using Proportions",
+      "text": "漥㨠圠癡⁥畏⁴›敓⁴潖畬敭漠⁦污⁬档湡敮獬瀠潲潰瑲潩慮⁬潴┠0",
+      "menuId": 25120,
+      "resText": "%o : Wave Out : Set Volume of all channels proportional to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡慢敳瘠汯浵⁥潴甠敳⠠ⴰ㔶㌵⤵渀敮獬瀠潲潰瑲潩慮⁬潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Wave Out > Proportions > Set channel Proportion",
+      "text": "漥㨠圠癡⁥畏⁴›敓⁴牰灯牯楴湯漠⁦档湡敮⁬ㄥ琠⁯〥",
+      "menuId": 25130,
+      "resText": "%o : Wave Out : Set proportion of channel %1 to %0",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡牰灯牯楴湯漠瑵漠⁦㔶㌵‵潴甠敳攀⁬ㄥ琠⁯〥",
+        "湅整⁲⁡档湡敮⁬畎扭牥⠠湉匠整敲⁯㴱敌瑦‬㴲楒桧⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Wave Out > Proportions > Set Proportion of all channels",
+      "text": "漥㨠圠癡⁥畏⁴›敓⁴牰灯牯楴湯漠⁦污⁬档湡敮獬琠⁯〥",
+      "menuId": 25140,
+      "resText": "%o : Wave Out : Set proportion of all channels to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡牰灯牯楴湯漠瑵漠⁦㔶㌵‵潴甠敳栀湡敮獬琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Midi Out > Mute Midi Out",
+      "text": "漥㨠䴠瑵⁥楍楤传瑵",
+      "menuId": 25150,
+      "resText": "%o : Mute Midi Out",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Midi Out > UnMute Midi Out",
+      "text": "漥㨠唠䵮瑵⁥楍楤传瑵",
+      "menuId": 25160,
+      "resText": "%o : UnMute Midi Out",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Midi Out > Set volume of all channels",
+      "text": "漥㨠䴠摩⁩畏⁴›敓⁴潖畬敭漠⁦污⁬档湡敮獬琠⁯〥",
+      "menuId": 25170,
+      "resText": "%o : Midi Out : Set Volume of all channels to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡潶畬敭琠⁯敳⁴〨㘭㔵㔳)⁬档湡敮獬琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Midi Out > Set channel volume",
+      "text": "漥㨠䴠摩⁩畏⁴›敓⁴潖畬敭漠⁦档湡敮⁬ㄥ琠⁯〥",
+      "menuId": 25180,
+      "resText": "%o : Midi Out : Set Volume of channel %1 to %0",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡潶畬敭琠⁯敳⁴〨㘭㔵㔳)湡敮⁬ㄥ琠⁯〥",
+        "湅整⁲⁡档湡敮⁬畎扭牥⠠湉匠整敲⁯㴱敌瑦‬㴲楒桧⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Midi Out > Proportions > Set volume of all channels using Proportions",
+      "text": "漥㨠䴠摩⁩畏⁴›敓⁴潖畬敭漠⁦污⁬档湡敮獬瀠潲潰瑲潩慮⁬潴┠0",
+      "menuId": 25190,
+      "resText": "%o : Midi Out : Set Volume of all channels proportional to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡慢敳瘠汯浵⁥潴甠敳⠠ⴰ㔶㌵⤵渀敮獬瀠潲潰瑲潩慮⁬潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Midi Out > Proportions > Set channel Proportion",
+      "text": "漥㨠䴠摩⁩畏⁴›敓⁴牰灯牯楴湯漠⁦档湡敮⁬ㄥ琠⁯〥",
+      "menuId": 25200,
+      "resText": "%o : Midi Out : Set proportion of channel %1 to %0",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡牰灯牯楴湯漠瑵漠⁦㔶㌵‵潴甠敳攀⁬ㄥ琠⁯〥",
+        "湅整⁲⁡档湡敮⁬畎扭牥⠠湉匠整敲⁯㴱敌瑦‬㴲楒桧⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Midi Out > Proportions > Set Proportion of all channels",
+      "text": "漥㨠䴠摩⁩畏⁴›敓⁴牰灯牯楴湯漠⁦污⁬档湡敮獬琠⁯〥",
+      "menuId": 25210,
+      "resText": "%o : Midi Out : Set proportion of all channels to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡牰灯牯楴湯漠瑵漠⁦㔶㌵‵潴甠敳栀湡敮獬琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "CD Out > Mute CD Out",
+      "text": "漥㨠䴠瑵⁥䑃传瑵",
+      "menuId": 25220,
+      "resText": "%o : Mute CD Out",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "CD Out > UnMute CD Out",
+      "text": "漥㨠唠䵮瑵⁥䑃传瑵",
+      "menuId": 25230,
+      "resText": "%o : UnMute CD Out",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "CD Out > Set volume of all channels",
+      "text": "漥㨠䌠⁄畏⁴›敓⁴潖畬敭漠⁦污⁬档湡敮獬琠⁯〥",
+      "menuId": 25240,
+      "resText": "%o : CD Out : Set Volume of all channels to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡潶畬敭琠⁯敳⁴〨㘭㔵㔳)档湡敮獬琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "CD Out > Set channel volume",
+      "text": "漥㨠䌠⁄畏⁴›敓⁴潖畬敭漠⁦档湡敮⁬ㄥ琠⁯〥",
+      "menuId": 25250,
+      "resText": "%o : CD Out : Set Volume of channel %1 to %0",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡潶畬敭琠⁯敳⁴〨㘭㔵㔳)敮⁬ㄥ琠⁯〥",
+        "湅整⁲⁡档湡敮⁬畎扭牥⠠湉匠整敲⁯㴱敌瑦‬㴲楒桧⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "CD Out > Proportions > Set volume of all channels using Proportions",
+      "text": "漥㨠䌠⁄畏⁴›敓⁴潖畬敭漠⁦污⁬档湡敮獬瀠潲潰瑲潩慮⁬潴┠0",
+      "menuId": 25260,
+      "resText": "%o : CD Out : Set Volume of all channels proportional to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡慢敳瘠汯浵⁥潴甠敳⠠ⴰ㔶㌵⤵攀獬瀠潲潰瑲潩慮⁬潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "CD Out > Proportions > Set channel Proportion",
+      "text": "漥㨠䌠⁄畏⁴›敓⁴牰灯牯楴湯漠⁦档湡敮⁬ㄥ琠⁯〥",
+      "menuId": 25270,
+      "resText": "%o : CD Out : Set proportion of channel %1 to %0",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡牰灯牯楴湯漠瑵漠⁦㔶㌵‵潴甠敳 ㄥ琠⁯〥",
+        "湅整⁲⁡档湡敮⁬畎扭牥⠠湉匠整敲⁯㴱敌瑦‬㴲楒桧⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "CD Out > Proportions > Set Proportion of all channels",
+      "text": "漥㨠䌠⁄畏⁴›敓⁴牰灯牯楴湯漠⁦污⁬档湡敮獬琠⁯〥",
+      "menuId": 25280,
+      "resText": "%o : CD Out : Set proportion of all channels to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡牰灯牯楴湯漠瑵漠⁦㔶㌵‵潴甠敳渀敮獬琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Custom Line > Mute Custom Line",
+      "text": "漥㨠䴠瑵⁥畃瑳浯䰠湩e",
+      "menuId": 25290,
+      "resText": "%o : Mute Custom Line",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Custom Line > UnMute Custom Line",
+      "text": "漥㨠唠䵮瑵⁥畃瑳浯䰠湩e",
+      "menuId": 25300,
+      "resText": "%o : UnMute Custom Line",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Custom Line > Set volume of all channels",
+      "text": "漥㨠䌠獵潴⁭楌敮㨠匠瑥嘠汯浵⁥景愠汬挠慨湮汥⁳潴┠0",
+      "menuId": 25310,
+      "resText": "%o : Custom Line : Set Volume of all channels to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡潶畬敭琠⁯敳⁴〨㘭㔵㔳)愠汬挠慨湮汥⁳潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Custom Line > Set channel volume",
+      "text": "漥㨠䌠獵潴⁭楌敮㨠匠瑥嘠汯浵⁥景挠慨湮汥┠‱潴┠0",
+      "menuId": 25320,
+      "resText": "%o : Custom Line : Set Volume of channel %1 to %0",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡潶畬敭琠⁯敳⁴〨㘭㔵㔳)挠慨湮汥┠‱潴┠0",
+        "湅整⁲⁡档湡敮⁬畎扭牥⠠湉匠整敲⁯㴱敌瑦‬㴲楒桧⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Custom Line > Proportions > Set volume of all channels using Proportions",
+      "text": "漥㨠䌠獵潴⁭楌敮㨠匠瑥嘠汯浵⁥景愠汬挠慨湮汥⁳牰灯牯楴湯污琠⁯〥",
+      "menuId": 25330,
+      "resText": "%o : Custom Line : Set Volume of all channels proportional to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡慢敳瘠汯浵⁥潴甠敳⠠ⴰ㔶㌵⤵挀慨湮汥⁳牰灯牯楴湯污琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Custom Line > Proportions > Set channel Proportion",
+      "text": "漥㨠䌠獵潴⁭楌敮㨠匠瑥瀠潲潰瑲潩⁮景挠慨湮汥┠‱潴┠0",
+      "menuId": 25340,
+      "resText": "%o : Custom Line : Set proportion of channel %1 to %0",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡牰灯牯楴湯漠瑵漠⁦㔶㌵‵潴甠敳愀湮汥┠‱潴┠0",
+        "湅整⁲⁡档湡敮⁬畎扭牥⠠湉匠整敲⁯㴱敌瑦‬㴲楒桧⥴─0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Custom Line > Proportions > Set Proportion of all channels",
+      "text": "漥㨠䌠獵潴⁭楌敮㨠匠瑥瀠潲潰瑲潩⁮景愠汬挠慨湮汥⁳潴┠0",
+      "menuId": 25350,
+      "resText": "%o : Custom Line : Set proportion of all channels to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡牰灯牯楴湯漠瑵漠⁦㔶㌵‵潴甠敳氀挠慨湮汥⁳潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Set Custom line Number",
+      "text": "漥㨠匠瑥䌠獵潴⁭楌敮琠⁯潎‮〥",
+      "menuId": 25360,
+      "resText": "%o : Set Custom Line to No. %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡楬敮挠湯瑳湡⁴‭敓⁥敲摡敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Save all control values",
+      "text": "漥㨠匠癡⁥潖畬敭愠摮䴠瑵⁥敳瑴湩獧",
+      "menuId": 25370,
+      "resText": "%o : Save Volume and Mute settings",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Restore control values",
+      "text": "漥㨠删獥潴敲嘠汯浵⁥湡⁤畍整猠瑥楴杮s",
+      "menuId": 25380,
+      "resText": "%o : Restore Volume and Mute settings",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Number of SoundCards",
+      "text": "畎䍭牡獤(",
+      "menuId": 27000,
+      "resText": "NumCards(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Master > Master Volume",
+      "text": "慍瑳牥潖畬敭(",
+      "menuId": 27010,
+      "resText": "MasterVolume(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Master > Volume of a Channel",
+      "text": "慍瑳牥桃湡敮噬汯(",
+      "menuId": 27020,
+      "resText": "MasterChannelVol(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Master > Number of Channels in Master",
+      "text": "畎䍭慨湮汥䵳獡整⡲",
+      "menuId": 27030,
+      "resText": "NumChannelsMaster(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Master > Proportion for a channel",
+      "text": "慍瑳牥桃湡牐灯牯楴湯(",
+      "menuId": 27040,
+      "resText": "MasterChanProportion(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Wave Out > Wave Out Volume",
+      "text": "慗敶畏噴汯浵⡥",
+      "menuId": 27050,
+      "resText": "WaveOutVolume(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Wave Out > Volume of a Channel",
+      "text": "慗敶传瑵桃湡敮噬汯(",
+      "menuId": 27060,
+      "resText": "Wave OutChannelVol(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Wave Out > Number of Channels in Wave Out",
+      "text": "畎䍭慨湮汥坳癡佥瑵(",
+      "menuId": 27070,
+      "resText": "NumChannelsWaveOut(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Wave Out > Proportion for a channel",
+      "text": "慗敶畏䍴慨偮潲潰瑲潩⡮",
+      "menuId": 27080,
+      "resText": "WaveOutChanProportion(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Midi Out > Midi Out Volume",
+      "text": "楍楤畏噴汯浵⡥",
+      "menuId": 27090,
+      "resText": "MidiOutVolume(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Midi Out > Volume of a Channel",
+      "text": "楍楤畏䍴慨湮汥潖⡬",
+      "menuId": 27100,
+      "resText": "MidiOutChannelVol(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Midi Out > Number of Channels in Midi Out",
+      "text": "畎䍭慨湮汥䵳摩佩瑵(",
+      "menuId": 27110,
+      "resText": "NumChannelsMidiOut(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Midi Out > Proportion for a channel",
+      "text": "楍楤畏䍴慨偮潲潰瑲潩⡮",
+      "menuId": 27120,
+      "resText": "MidiOutChanProportion(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "CD Out > CD Out Volume",
+      "text": "䑃畏噴汯浵⡥",
+      "menuId": 27130,
+      "resText": "CDOutVolume(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "CD Out > Volume of a Channel",
+      "text": "䑃畏䍴慨湮汥潖⡬",
+      "menuId": 27140,
+      "resText": "CDOutChannelVol(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "CD Out > Number of Channels in CD Out",
+      "text": "畎䍭慨湮汥䍳佄瑵(",
+      "menuId": 27150,
+      "resText": "NumChannelsCDOut(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "CD Out > Proportion for a channel",
+      "text": "䑃畏䍴慨偮潲潰瑲潩⡮",
+      "menuId": 27160,
+      "resText": "CDOutChanProportion(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Custom Line > Custom Line Volume",
+      "text": "畃瑳浯楌敮潖畬敭(",
+      "menuId": 27170,
+      "resText": "CustomLineVolume(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Custom Line > Volume of a Channel",
+      "text": "畃瑳浯楌敮桃湡敮噬汯(",
+      "menuId": 27180,
+      "resText": "CustomLineChannelVol(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Custom Line > Number of Channels in Custom Line",
+      "text": "畎䍭慨湮汥䍳獵潴䱭湩⡥",
+      "menuId": 27190,
+      "resText": "NumChannelsCustomLine(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Custom Line > Proportion for a channel",
+      "text": "畃瑳浯楌敮桃湡牐灯牯楴湯(",
+      "menuId": 27200,
+      "resText": "CustomLineChanProportion(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Current SoundCard",
+      "text": "潓湵䍤牡卤瑥(",
+      "menuId": 27210,
+      "resText": "SoundCardSet(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Custom Line number",
+      "text": "畃瑳浯楌敮潎(",
+      "menuId": 27220,
+      "resText": "CustomLineNo(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

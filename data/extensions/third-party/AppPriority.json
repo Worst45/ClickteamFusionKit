@@ -1,0 +1,253 @@
+{
+  "file": "AppPriority.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "App is at High Priority",
+      "text": "灁⁰獩愠⁴楈桧倠楲牯瑩y",
+      "menuId": 26000,
+      "resText": "App is at High Priority",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "App is at Above Normal Priority",
+      "text": "灁⁰獩愠⁴扁癯⁥潎浲污倠楲牯瑩y",
+      "menuId": 26010,
+      "resText": "App is at Above Normal Priority",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "App is at Normal Priority",
+      "text": "灁⁰獩愠⁴潎浲污倠楲牯瑩y",
+      "menuId": 26020,
+      "resText": "App is at Normal Priority",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "App is at Below Normal Priority",
+      "text": "灁⁰獩愠⁴敂潬⁷潎浲污倠楲牯瑩y",
+      "menuId": 26030,
+      "resText": "App is at Below Normal Priority",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "App is at Idle Priority",
+      "text": "灁⁰獩愠⁴摉敬倠楲牯瑩y",
+      "menuId": 26040,
+      "resText": "App is at Idle Priority",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "App is at RealTime Priority",
+      "text": "灁⁰獩愠⁴敒污楔敭倠楲牯瑩y",
+      "menuId": 26050,
+      "resText": "App is at RealTime Priority",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "High Priority (0x80)",
+      "text": "敓⁴灁汰捩瑡潩⁮潴䠠杩⁨牐潩楲祴",
+      "menuId": 25000,
+      "resText": "Set Application to High Priority",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Above Normal Priority (0x8000)",
+      "text": "敓⁴灁汰捩瑡潩⁮潴䄠潢敶丠牯慭⁬牐潩楲祴",
+      "menuId": 25010,
+      "resText": "Set Application to Above Normal Priority",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Normal Priority (Default) (0x20)",
+      "text": "敓⁴灁汰捩瑡潩⁮潴丠牯慭⁬牐潩楲祴",
+      "menuId": 25020,
+      "resText": "Set Application to Normal Priority",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Below Normal Priority (0x4000)",
+      "text": "敓⁴灁汰捩瑡潩⁮潴䈠汥睯丠牯慭⁬牐潩楲祴",
+      "menuId": 25030,
+      "resText": "Set Application to Below Normal Priority",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Idle Priority (0x40)",
+      "text": "敓⁴灁汰捩瑡潩⁮潴䤠汤⁥牐潩楲祴",
+      "menuId": 25040,
+      "resText": "Set Application to Idle Priority",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Set Priority from Expression",
+      "text": "敓⁴灁汰捩瑡潩⁮牐潩楲祴琠⁯〥",
+      "menuId": 25050,
+      "resText": "Set Application Priority to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牐潩楲祴挀瑡潩⁮牐潩楲祴琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "RealTime Priority (CAUTION!) (0x100)",
+      "text": "敓⁴灁汰捩瑡潩⁮潴删慥呬浩⁥牐潩楲祴",
+      "menuId": 25060,
+      "resText": "Set Application to RealTime Priority",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Priority",
+      "text": "敇側楲牯瑩⡹",
+      "menuId": 27000,
+      "resText": "GetPriority(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get High Priority Value",
+      "text": "敇䡴杩偨楲牯瑩⡹",
+      "menuId": 27010,
+      "resText": "GetHighPriority(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Above Normal Priority Value",
+      "text": "敇䅴潢敶潎浲污牐潩楲祴(",
+      "menuId": 27020,
+      "resText": "GetAboveNormalPriority(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get Normal Priority Value",
+      "text": "敇乴牯慭偬楲牯瑩⡹",
+      "menuId": 27030,
+      "resText": "GetNormalPriority(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get Below Normal Priority Value",
+      "text": "敇䉴汥睯潎浲污牐潩楲祴(",
+      "menuId": 27040,
+      "resText": "GetBelowNormalPriority(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get Idle Priority Value",
+      "text": "敇䥴汤健楲牯瑩⡹",
+      "menuId": 27050,
+      "resText": "GetIdlePriority(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Get RealTime Priority Value",
+      "text": "敇剴慥呬浩健楲牯瑩⡹",
+      "menuId": 27060,
+      "resText": "GetRealTimePriority(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

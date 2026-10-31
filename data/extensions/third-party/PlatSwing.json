@@ -1,0 +1,549 @@
+{
+  "file": "PlatSwing.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Is chain swingging?",
+      "text": "桃楡⁮〥椠⁳睳湩楧杮",
+      "menuId": 26000,
+      "resText": "Chain %0 is swinging",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "桃楡⁮湩敤x睳湩楧杮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On Swing",
+      "text": "湏匠楷杮┠0",
+      "menuId": 26010,
+      "resText": "On Swing %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "桃楡⁮湩敤x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Add Anchor",
+      "text": "摁⁤湁档牯┠0",
+      "menuId": 25000,
+      "resText": "Add Anchor %0",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湁档牯传橢捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Add Link",
+      "text": "摁⁤楌歮†〥",
+      "menuId": 25010,
+      "resText": "Add Link  %0",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楌歮传橢捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Add Platform",
+      "text": "摁⁤汐瑡潦浲†〥",
+      "menuId": 25020,
+      "resText": "Add Platform  %0",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "汐瑡潦浲传橢捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Anchor > Set Anchor X ",
+      "text": "敓⁴湁档牯堠愠⁴湩敤⁸〥琠⁯ㄥ",
+      "menuId": 25030,
+      "resText": "Set Anchor X at index %0 to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "桃楡⁮湉敤x愠⁴湩敤⁸〥琠⁯ㄥ",
+        "⁘潐楳楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Anchor > Set Anchor Y",
+      "text": "敓⁴湁档牯夠愠⁴湩敤⁸〥琠⁯ㄥ",
+      "menuId": 25040,
+      "resText": "Set Anchor Y at index %0 to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "桃楡⁮湉敤x愠⁴湩敤⁸〥琠⁯ㄥ",
+        "⁙潐楳楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Chain > Set Mass",
+      "text": "敓⁴慍獳愠⁴湩敤⁸〥琠⁯ㄥ",
+      "menuId": 25050,
+      "resText": "Set Mass at index %0 to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "桃楡⁮湉敤x湩敤⁸〥琠⁯ㄥ",
+        "慍獳 湉敤x湩敤⁸〥琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Chain > Set Angle",
+      "text": "敓⁴湁汧⁥瑡椠摮硥┠‰潴┠1",
+      "menuId": 25060,
+      "resText": "Set Angle at index %0 to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "桃楡⁮湉敤x椠摮硥┠‰潴┠1",
+        "湁汧e湉敤x椠摮硥┠‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Chain > Set Link Spacing",
+      "text": "敓⁴楌歮匠慰楣杮愠⁴湩敤⁸〥琠⁯ㄥ",
+      "menuId": 25080,
+      "resText": "Set Link Spacing at index %0 to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "桃楡⁮湉敤x楣杮愠⁴湩敤⁸〥琠⁯ㄥ",
+        "楌歮匠慰楣杮椀杮愠⁴湩敤⁸〥琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Swing > Start All",
+      "text": "瑓牡⁴汁l",
+      "menuId": 25090,
+      "resText": "Start All",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Swing > Start Chain",
+      "text": "瑓牡⁴桃楡⁮瑡椠摮硥┠0",
+      "menuId": 25100,
+      "resText": "Start Chain at index %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "桃楡⁮湉敤x瑡椠摮硥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Swing > Stop All",
+      "text": "瑓灯䄠汬",
+      "menuId": 25110,
+      "resText": "Stop All",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Swing > Stop Chain",
+      "text": "瑓灯䌠慨湩愠⁴湩敤⁸〥",
+      "menuId": 25120,
+      "resText": "Stop Chain at index %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "桃楡⁮湉敤x⁴湩敤⁸〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Swing > Update All",
+      "text": "灕慤整䄠汬",
+      "menuId": 25130,
+      "resText": "Update All",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Swing > Update Chain",
+      "text": "灕慤整䌠慨湩愠⁴湩敤⁸〥",
+      "menuId": 25140,
+      "resText": "Update Chain at index %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "桃楡⁮湉敤x愠⁴湩敤⁸〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Chain > Set Acceleration",
+      "text": "敓⁴捁散敬慲楴湯愠⁴湩敤⁸〥琠⁯ㄥ",
+      "menuId": 25150,
+      "resText": "Set Acceleration at index %0 to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "桃楡⁮湉敤x楴湯愠⁴湩敤⁸〥琠⁯ㄥ",
+        "捁散敬慲楴湯椀湯愠⁴湩敤⁸〥琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get number of chains",
+      "text": "桃楡乮浵(",
+      "menuId": 27000,
+      "resText": "ChainNum(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get number of links per chain",
+      "text": "桃楡䱮湩獫(",
+      "menuId": 27010,
+      "resText": "ChainLinks(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Anchor > Get Anchor X",
+      "text": "湁档牯⡘",
+      "menuId": 27020,
+      "resText": "AnchorX(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Anchor > Get Anchor Y",
+      "text": "湁档牯⡙",
+      "menuId": 27030,
+      "resText": "AnchorY(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Chain > Get Platform Mass",
+      "text": "汐瑡潦浲慍獳(",
+      "menuId": 27040,
+      "resText": "PlatformMass(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Chain > Get Chain Angle",
+      "text": "桃楡䅮杮敬(",
+      "menuId": 27050,
+      "resText": "ChainAngle(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Chain > Get Chain Speed",
+      "text": "桃楡卮数摥(",
+      "menuId": 27060,
+      "resText": "ChainSpeed(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Link > Get Link Spacing",
+      "text": "楌歮灓捡湩⡧",
+      "menuId": 27070,
+      "resText": "LinkSpacing(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Platform > Get Platform X",
+      "text": "汐瑡潦浲⡘",
+      "menuId": 27080,
+      "resText": "PlatformX(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Platform > Get Platform Y",
+      "text": "汐瑡潦浲⡙",
+      "menuId": 27090,
+      "resText": "PlatformY(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Chain > Get Chain Index",
+      "text": "桃楡䥮摮硥(",
+      "menuId": 27100,
+      "resText": "ChainIndex(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Chain > Get DeltaX",
+      "text": "敄瑬塡(",
+      "menuId": 27110,
+      "resText": "DeltaX(",
+      "flags": 0,
+      "paramTypes": [
+        2
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Chain > Get DeltaY",
+      "text": "敄瑬奡(",
+      "menuId": 27120,
+      "resText": "DeltaY(",
+      "flags": 0,
+      "paramTypes": [
+        2
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Chain > Get Chain Acceleration",
+      "text": "桃楡䅮捣汥(",
+      "menuId": 27130,
+      "resText": "ChainAccel(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Link > Get Link Index",
+      "text": "楌歮湉敤⡸",
+      "menuId": 27140,
+      "resText": "LinkIndex(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Link > Get Link X",
+      "text": "楌歮⡘",
+      "menuId": 27150,
+      "resText": "LinkX(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Link > Get Link Y",
+      "text": "楌歮⡙",
+      "menuId": 27160,
+      "resText": "LinkY(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

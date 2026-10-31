@@ -1,0 +1,124 @@
+{
+  "file": "FlashFx.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Stage > On stage event",
+      "text": "漥›湏猠慴敧攠敶瑮┠0",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "癅湥⁴洨畯敳灕‬潭獵䑥睯Ɱ爠汯佬瑵‬潲汬癏牥‬敫啹Ɒ欠祥潄湷⸮⤮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Stage > Compare to property",
+      "text": "漥›癅湥⁴〥㴠┠1",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "癅湥⁴牰灯牥祴─1",
+        "慖畬e牰灯牥祴─1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Stage > Set scale mode",
+      "text": "敓⁴瑳条⁥捳污⁥潭敤琠⁯〥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "捓污⁥潭敤⠠硥捡䙴瑩‬潮潂摲牥‬潮捓污ⱥ猠潨䅷汬)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Stage > Set display state",
+      "text": "敓⁴瑳条⁥楤灳慬⁹瑳瑡⁥潴┠0",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楄灳慬⁹瑳瑡⁥渨牯慭ⱬ映汵卬牣敥⥮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Stage > Set align",
+      "text": "敓⁴瑳条⁥污杩浮湥⁴潴┠0",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "汁杩浮湥⁴䐨晥畡瑬›敃瑮牥‬潃扭湩⁥ⱌ删‬ⱔ䈠)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Stage > Add event listener",
+      "text": "摁⁤瑳条⁥癥湥⁴楬瑳湥牥┠0",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "癅湥⁴洨畯敳灕‬潭獵䑥睯Ɱ爠汯佬瑵‬潲汬癏牥‬敫啹Ɒ欠祥潄湷⸮⤮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Object > Set blend mode",
+      "text": "敓⁴汢湥⁤潭敤漠⁦〥琠⁯ㄥ",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        45
+      ],
+      "paramTitles": [
+        "扏敪瑣渀⁤潭敤漠⁦〥琠⁯ㄥ",
+        "求湥⁤潭敤⠠潮浲污‬慬敹Ⱳ洠汵楴汰ⱹ猠牣敥Ɱ氠杩瑨湥‬慤歲湥‬楤晦牥湥散‬摡Ɽ猠扵牴捡ⱴ椠癮牥ⱴ愠灬慨‬牥獡ⱥ漠敶汲祡‬慨摲楬桧⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": []
+}

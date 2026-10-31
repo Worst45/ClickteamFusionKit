@@ -1,0 +1,491 @@
+{
+  "file": "Instance Communicator.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Another instance is already running?",
+      "text": "湁瑯敨⁲湩瑳湡散椠⁳污敲摡⁹畲湮湩g",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Compare to number of running instances",
+      "text": "畒湮湩⁧湩瑳湡散⁳〥",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        23
+      ],
+      "paramTitles": [
+        "潃灭牡⁥潴琠敨渠浵敢⁲景爠湵楮杮椠獮慴据獥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Is this the first instance?",
+      "text": "桔獩椠⁳桴⁥楦獲⁴湩瑳湡散",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Message received",
+      "text": "敍獳条⁥敲散癩摥⠠湡⁹祴数)",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Message received of certain type",
+      "text": "敍獳条⁥敲散癩摥漠⁦祴数┠0",
+      "menuId": 26004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        46
+      ],
+      "paramTitles": [
+        "祔数漠⁦敭獳条⁥敲散癩摥─0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Compare message data (string)",
+      "text": "敍獳条⁥慤慴┠0",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        46
+      ],
+      "paramTitles": [
+        "潃灭牡⁥潴洠獥慳敧搠瑡⁡愨⁳⁡瑳楲杮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Compare message data (value)",
+      "text": "敍獳条⁥慤慴┠0",
+      "menuId": 26006,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        23
+      ],
+      "paramTitles": [
+        "潃灭牡⁥潴洠獥慳敧搠瑡⁡愨⁳⁡慶畬⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Is instance X running?",
+      "text": "獉椠獮慴据⁥〥爠湵楮杮?",
+      "menuId": 26007,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湉瑳湡散渠浵敢r湵楮杮?"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Show and focus first instance",
+      "text": "桓睯愠摮映捯獵映物瑳椠獮慴据e",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Send a message to first instance > String",
+      "text": "敓摮洠獥慳敧琠⁯楦獲⁴湩瑳湡散›祴数┠‰※慤慴┠1",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "敍獳条⁥祴数琀⁯楦獲⁴湩瑳湡散›祴数┠‰※慤慴┠1",
+        "敍獳条⁥慤慴琀⁯楦獲⁴湩瑳湡散›祴数┠‰※慤慴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Send a message to first instance > Integer",
+      "text": "敓摮洠獥慳敧琠⁯楦獲⁴湩瑳湡散›祴数┠‰※慤慴┠1",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "敍獳条⁥祴数琀⁯楦獲⁴湩瑳湡散›祴数┠‰※慤慴┠1",
+        "敍獳条⁥慤慴琀⁯楦獲⁴湩瑳湡散›祴数┠‰※慤慴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Send a message to all instances > String",
+      "text": "敓摮洠獥慳敧琠⁯污⁬湩瑳湡散㩳琠灹⁥〥㬠搠瑡⁡ㄥ",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "敍獳条⁥祴数琀⁯污⁬湩瑳湡散㩳琠灹⁥〥㬠搠瑡⁡ㄥ",
+        "敍獳条⁥慤慴琀⁯污⁬湩瑳湡散㩳琠灹⁥〥㬠搠瑡⁡ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Send a message to all instances > Integer",
+      "text": "敓摮洠獥慳敧琠⁯污⁬湩瑳湡散㩳琠灹⁥〥㬠搠瑡⁡ㄥ",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "敍獳条⁥祴数琀⁯污⁬湩瑳湡散㩳琠灹⁥〥㬠搠瑡⁡ㄥ",
+        "敍獳条⁥慤慴琀⁯污⁬湩瑳湡散㩳琠灹⁥〥㬠搠瑡⁡ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Send a message to first instance > Float",
+      "text": "敓摮洠獥慳敧琠⁯楦獲⁴湩瑳湡散›祴数┠‰※慤慴┠1",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "敍獳条⁥祴数琀⁯楦獲⁴湩瑳湡散›祴数┠‰※慤慴┠1",
+        "敍獳条⁥慤慴琀⁯楦獲⁴湩瑳湡散›祴数┠‰※慤慴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Send a message to first instance > Binary",
+      "text": "敓摮洠獥慳敧琠⁯楦獲⁴湩瑳湡散›祴数┠‰※慤慴愠⁴摡牤獥⁳ㄥ㬠氠湥瑧⁨㈥",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敍獳条⁥祴数琀⁯楦獲⁴湩瑳湡散›祴数┠‰※慤慴愠⁴摡牤獥⁳ㄥ㬠氠湥瑧⁨㈥",
+        "摁牤獥⁳景搠瑡⁡潴猠湥d瑳湡散›祴数┠‰※慤慴愠⁴摡牤獥⁳ㄥ㬠氠湥瑧⁨㈥",
+        "敌杮桴漠⁦慤慴 潴猠湥d瑳湡散›祴数┠‰※慤慴愠⁴摡牤獥⁳ㄥ㬠氠湥瑧⁨㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Send a message to all instances > Float",
+      "text": "敓摮洠獥慳敧琠⁯污⁬湩瑳湡散㩳琠灹⁥〥㬠搠瑡⁡ㄥ",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "敍獳条⁥祴数琀⁯污⁬湩瑳湡散㩳琠灹⁥〥㬠搠瑡⁡ㄥ",
+        "敍獳条⁥慤慴琀⁯污⁬湩瑳湡散㩳琠灹⁥〥㬠搠瑡⁡ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Send a message to all instances > Binary",
+      "text": "敓摮洠獥慳敧琠⁯污⁬湩瑳湡散›祴数┠‰※慤慴愠⁴摡牤獥⁳ㄥ㬠氠湥瑧⁨㈥",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敍獳条⁥祴数琀⁯污⁬湩瑳湡散›祴数┠‰※慤慴愠⁴摡牤獥⁳ㄥ㬠氠湥瑧⁨㈥",
+        "摁牤獥⁳景搠瑡⁡潴猠湥d湡散›祴数┠‰※慤慴愠⁴摡牤獥⁳ㄥ㬠氠湥瑧⁨㈥",
+        "敌杮桴漠⁦慤慴 潴猠湥d湡散›祴数┠‰※慤慴愠⁴摡牤獥⁳ㄥ㬠氠湥瑧⁨㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Reorder instance numbers",
+      "text": "敒牯敤⁲湩瑳湡散渠浵敢獲",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Show and focus one instance",
+      "text": "桓睯愠摮映捯獵椠獮慴据⁥〥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湉瑳湡散渠浵敢⁲猨慴瑲湩⁧牦浯ㄠ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Send a message to one instance > String",
+      "text": "敓摮洠獥慳敧琠⁯湩瑳湡散┠‰›祴数┠‱※慤慴┠2",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湉瑳湡散渠浵敢⁲猨慴瑲湩⁧牦浯ㄠ)┠‱※慤慴┠2",
+        "敍獳条⁥祴数攀⁲猨慴瑲湩⁧牦浯ㄠ)┠‱※慤慴┠2",
+        "敍獳条⁥慤慴攀⁲猨慴瑲湩⁧牦浯ㄠ)┠‱※慤慴┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Send a message to one instance > Integer",
+      "text": "敓摮洠獥慳敧琠⁯湩瑳湡散┠‰›祴数┠‱※慤慴┠2",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湉瑳湡散渠浵敢⁲猨慴瑲湩⁧牦浯ㄠ)┠‱※慤慴┠2",
+        "敍獳条⁥祴数攀⁲猨慴瑲湩⁧牦浯ㄠ)┠‱※慤慴┠2",
+        "敍獳条⁥慤慴攀⁲猨慴瑲湩⁧牦浯ㄠ)┠‱※慤慴┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Send a message to one instance > Float",
+      "text": "敓摮洠獥慳敧琠⁯湩瑳湡散┠‰›祴数┠‱※慤慴┠2",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湉瑳湡散渠浵敢⁲猨慴瑲湩⁧牦浯ㄠ)┠‱※慤慴┠2",
+        "敍獳条⁥祴数攀⁲猨慴瑲湩⁧牦浯ㄠ)┠‱※慤慴┠2",
+        "敍獳条⁥慤慴攀⁲猨慴瑲湩⁧牦浯ㄠ)┠‱※慤慴┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Send a message to one instance > Binary",
+      "text": "敓摮洠獥慳敧琠⁯湩瑳湡散┠‰›祴数┠‱※慤慴愠⁴摡牤獥⁳㈥㬠氠湥瑧⁨㌥",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湉瑳湡散渠浵敢⁲猨慴瑲湩⁧牦浯ㄠ)┠‱※慤慴愠⁴摡牤獥⁳㈥㬠氠湥瑧⁨㌥",
+        "敍獳条⁥祴数攀⁲猨慴瑲湩⁧牦浯ㄠ)┠‱※慤慴愠⁴摡牤獥⁳㈥㬠氠湥瑧⁨㌥",
+        "摁牤獥⁳景搠瑡⁡潴猠湥d⁧牦浯ㄠ)┠‱※慤慴愠⁴摡牤獥⁳㈥㬠氠湥瑧⁨㌥",
+        "敌杮桴漠⁦慤慴 潴猠湥d⁧牦浯ㄠ)┠‱※慤慴愠⁴摡牤獥⁳㈥㬠氠湥瑧⁨㌥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get number of instances running",
+      "text": "湉瑳湡散䌠畯瑮(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get message type",
+      "text": "敍獳条⁥祔数⠤",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get message data (string)",
+      "text": "敍獳条⁥慄慴⠤",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get message data (integer)",
+      "text": "敍獳条⁥慄慴(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get unique instance number",
+      "text": "敇⁴湉瑳湡散丠⡯",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get message data (float)",
+      "text": "敍獳条⁥慄慴䘠潬瑡(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Get message data (binary, address)",
+      "text": "敍獳条⁥慄慴䄠摤敲獳(",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Get message data (binary, length)",
+      "text": "敍獳条⁥慄慴䰠湥瑧⡨",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

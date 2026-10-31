@@ -1,0 +1,327 @@
+{
+  "file": "GetLine.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Is File Opened?",
+      "text": "漥㨠䘠汩⁥獩漠数敮d",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "File > Open File...",
+      "text": "灏湥䘠汩⁥〥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "桃潯敳琠敨映汩⁥畦汬瀠瑡⹨⸮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "File > Close File",
+      "text": "汃獯⁥楆敬",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "First Line",
+      "text": "楆獲⁴楌敮",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Previous Line",
+      "text": "牐癥潩獵䰠湩e",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Next Line",
+      "text": "敎瑸䰠湩e",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Last Line",
+      "text": "慌瑳䰠湩e",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Go To Line...",
+      "text": "潇吠⁯楌敮┠0",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楬敮渠浵敢r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Filter Lines > Filter Lines With Text...",
+      "text": "楆瑬牥氠湩獥眠瑩⁨整瑸┠0",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥整瑸琠⁯敳牡档⸮."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Filter Lines > First Line With Text",
+      "text": "楆獲⁴楬敮眠瑩⁨整瑸",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Filter Lines > Previous Line With Text",
+      "text": "牐癥潩獵氠湩⁥楷桴琠硥t",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Filter Lines > Next Line With Text",
+      "text": "敎瑸氠湩⁥楷桴琠硥t",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Filter Lines > Last Line With Text",
+      "text": "慌瑳氠湩⁥楷桴琠硥t",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Filter Lines > Reset Filter",
+      "text": "敒敳⁴楦瑬牥",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Replace Words > Replace Word in Current Line...",
+      "text": "敒汰捡⁥潷摲┠‰楷桴┠‱湩琠敨挠牵敲瑮氠湩e",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "祔数琠敨眠牯⁤潴戠⁥敲汰捡摥攀挠牵敲瑮氠湩e",
+        "祔数琠敨渠睥眠牯⁤潴爠灥慬散攀挠牵敲瑮氠湩e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Replace Words > Reset Words",
+      "text": "敒敳⁴潷摲s",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Number of Lines",
+      "text": "畎䱭湩獥(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Current Line Number",
+      "text": "畃䱲湩⡥",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Number of Characters",
+      "text": "畎䍭慨獲(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Current Character Number",
+      "text": "畃䍲慨⡲",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Current Line Text",
+      "text": "畃䱲湩⑥(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Previous Line Text",
+      "text": "牐癥楌敮⠤",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Next Line Text",
+      "text": "敎瑸楌敮⠤",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Count Words in Line",
+      "text": "潃湵坴牯獤(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Count Lines With Text",
+      "text": "潃湵䱴湩獥楗桴敔瑸(",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

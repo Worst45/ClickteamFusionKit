@@ -1,0 +1,437 @@
+{
+  "file": "FileStream.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On Error",
+      "text": "漥›湏䔠牲牯",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "File is Open",
+      "text": "漥›楆敬椠⁮汓瑯┠‰獩传数n",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汓瑯琠⁯桃捥k瑯┠‰獩传数n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "File is OK",
+      "text": "漥›楆敬椠⁮汓瑯┠‰獩传K",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汓瑯琠⁯桃捥k瑯┠‰獩传K"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "File Exists/has Read Access",
+      "text": "漥›楆敬瀠瑡⁨〥攠楸瑳⽳獩爠慥慤汢e",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆敬琠⁯档捥⁫潦⁲硅獩整据⽥敒摡䄠捣獥s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Open File Stream",
+      "text": "灏湥䘠汩⁥瑓敲浡漠⁮〥椠⁮汓瑯┠‱楷桴映慬獧┠2",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆敬琠⁯灏湥攀浡漠⁮〥椠⁮汓瑯┠‱楷桴映慬獧┠2",
+        "汓瑯琠⁯灯湥䘠汩⁥湩⠠楷汬挠潬敳漠摬猠牴慥⁭湩猠潬⥴",
+        "汆条⁳愨摤琠杯瑥敨⥲›‱‽敲摡‬′‽牷瑩ⱥ㐠㴠挠敬牡映汩⁥潣瑮湥獴‬‸‽灡数摮琠⁯楦敬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Close File Stream",
+      "text": "汃獯⁥楆敬匠牴慥⁭湯┠0",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汓瑯琠⁯汃獯e慥⁭湯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set Byte",
+      "text": "敓⁴祂整琠⁯㈥愠⁴ㄥ椠⁮汓瑯┠0",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "汓瑯礀整琠⁯㈥愠⁴ㄥ椠⁮汓瑯┠0",
+        "潐楳楴湯椠⁮楆敬⠠敢挠牡晥汵渠瑯琠⁯硥散摥琠敨映汩⁥楳敺)",
+        "敎⁷慖畬⁥景䈠瑹e敢挠牡晥汵渠瑯琠⁯硥散摥琠敨映汩⁥楳敺)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Set Short",
+      "text": "敓⁴桓牯⁴潴┠′瑡┠‱湩匠潬⁴〥",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "汓瑯栀牯⁴潴┠′瑡┠‱湩匠潬⁴〥",
+        "潐楳楴湯椠⁮楆敬⠠敢挠牡晥汵渠瑯琠⁯硥散摥琠敨映汩⁥楳敺)",
+        "敎⁷慖畬⁥景匠潨瑲攀挠牡晥汵渠瑯琠⁯硥散摥琠敨映汩⁥楳敺)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Set Int",
+      "text": "敓⁴湉⁴潴┠′瑡┠‱湩匠潬⁴〥",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "汓瑯渀⁴潴┠′瑡┠‱湩匠潬⁴〥",
+        "潐楳楴湯椠⁮楆敬⠠敢挠牡晥汵渠瑯琠⁯硥散摥琠敨映汩⁥楳敺)",
+        "敎⁷慖畬⁥景䤠瑮⠀敢挠牡晥汵渠瑯琠⁯硥散摥琠敨映汩⁥楳敺)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Set Float",
+      "text": "敓⁴汆慯⁴潴┠′瑡┠‱湩匠潬⁴〥",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "汓瑯氀慯⁴潴┠′瑡┠‱湩匠潬⁴〥",
+        "潐楳楴湯椠⁮楆敬⠠敢挠牡晥汵渠瑯琠⁯硥散摥琠敨映汩⁥楳敺)",
+        "敎⁷慖畬⁥景䘠潬瑡攀挠牡晥汵渠瑯琠⁯硥散摥琠敨映汩⁥楳敺)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Set Double",
+      "text": "敓⁴潄扵敬琠⁯㈥愠⁴ㄥ椠⁮汓瑯┠0",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "汓瑯漀扵敬琠⁯㈥愠⁴ㄥ椠⁮汓瑯┠0",
+        "潐楳楴湯椠⁮楆敬⠠敢挠牡晥汵渠瑯琠⁯硥散摥琠敨映汩⁥楳敺)",
+        "敎⁷慖畬⁥景䐠畯汢e挠牡晥汵渠瑯琠⁯硥散摥琠敨映汩⁥楳敺)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Set String",
+      "text": "敓⁴瑓楲杮琠⁯㈥⠠畎汬吠牥業慮整㴠┠⤳愠⁴ㄥ椠⁮汓瑯┠0",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "汓瑯琀楲杮琠⁯㈥⠠畎汬吠牥業慮整㴠┠⤳愠⁴ㄥ椠⁮汓瑯┠0",
+        "潐楳楴湯椠⁮楆敬⠠敢挠牡晥汵渠瑯琠⁯硥散摥琠敨映汩⁥楳敺)",
+        "敎⁷慖畬⁥景匠牴湩g挠牡晥汵渠瑯琠⁯硥散摥琠敨映汩⁥楳敺)",
+        "畎汬吠牥業慮整‿‰‽潎‬湡瑹楨杮攠獬⁥‽教s敨映汩⁥楳敺)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Clear Error State",
+      "text": "汃慥⁲牅潲⁲瑓瑡⁥湩匠潬⁴〥",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汓瑯 牅潲⁲瑓瑡⁥湩匠潬⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Signed Byte",
+      "text": "祂整瑁(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "汓瑯琀(",
+        "潐楳楴湯椠⁮楆敬⠠敢挠牡晥汵渠瑯琠⁯硥散摥琠敨映汩⁥楳敺)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Signed Short",
+      "text": "桓牯䅴⡴",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "汓瑯䄀⡴",
+        "潐楳楴湯椠⁮楆敬⠠敢挠牡晥汵渠瑯琠⁯硥散摥琠敨映汩⁥楳敺)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Int",
+      "text": "湉䅴⡴",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "汓瑯⠀",
+        "潐楳楴湯椠⁮楆敬⠠敢挠牡晥汵渠瑯琠⁯硥散摥琠敨映汩⁥楳敺)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get Float",
+      "text": "汆慯䅴⡴",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "汓瑯䄀⡴",
+        "潐楳楴湯椠⁮楆敬⠠敢挠牡晥汵渠瑯琠⁯硥散摥琠敨映汩⁥楳敺)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get Double",
+      "text": "潄扵敬瑁(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "汓瑯攀瑁(",
+        "潐楳楴湯椠⁮楆敬⠠敢挠牡晥汵渠瑯琠⁯硥散摥琠敨映汩⁥楳敺)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get String",
+      "text": "瑓楲杮瑁⠤",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "汓瑯最瑁⠤",
+        "潐楳楴湯椠⁮楆敬⠠敢挠牡晥汵渠瑯琠⁯硥散摥琠敨映汩⁥楳敺)",
+        "敌杮桴⠠ㄭ映牯丠汵⁬敔浲湩瑡摥)琠⁯硥散摥琠敨映汩⁥楳敺)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Get Read Cursor Position",
+      "text": "敒摡畃獲牯潐⡳",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "汓瑯甀獲牯潐⡳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Get Write Cursor Position",
+      "text": "牗瑩䍥牵潳偲獯(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "汓瑯䌀牵潳偲獯("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Get File Size",
+      "text": "楆敬楓敺(",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "汓瑯椀敺("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Get Unsigned Byte",
+      "text": "湕楳湧摥祂整瑁(",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "汓瑯渀摥祂整瑁(",
+        "潐楳楴湯椠⁮楆敬⠠敢挠牡晥汵渠瑯琠⁯硥散摥琠敨映汩⁥楳敺)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Get Unsigned Short",
+      "text": "湕楳湧摥桓牯䅴⡴",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "汓瑯渀摥桓牯䅴⡴",
+        "潐楳楴湯椠⁮楆敬⠠敢挠牡晥汵渠瑯琠⁯硥散摥琠敨映汩⁥楳敺)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

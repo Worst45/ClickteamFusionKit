@@ -1,0 +1,433 @@
+{
+  "file": "funcloop.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On Function",
+      "text": "漥㨠传⁮畦据楴湯┠0",
+      "menuId": 26000,
+      "resText": "%o : On function %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畆据楴湯渠浡e湯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On loop",
+      "text": "漥㨠传⁮潬灯┠0",
+      "menuId": 26010,
+      "resText": "%o : On loop %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潌灯渠浡e灯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Call function",
+      "text": "漥㨠†慃汬┠‰ )",
+      "menuId": 25000,
+      "resText": "%o :  Call %0 ( )",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畆据楴湯渠浡e )"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Call function ( Int )",
+      "text": "漥㨠†慃汬┠‰ ㄥ⤠",
+      "menuId": 25010,
+      "resText": "%o :  Call %0 ( %1 )",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "畆据楴湯渠浡e ㄥ⤠",
+        "湉⁴牡畧敭瑮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Call function ( Int, Int )",
+      "text": "漥㨠†慃汬┠‰ ㄥ‬㈥⤠",
+      "menuId": 25020,
+      "resText": "%o :  Call %0 ( %1, %2 )",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "畆据楴湯渠浡e ㄥ‬㈥⤠",
+        "湉⁴牡畧敭瑮",
+        "湉⁴牡畧敭瑮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Call function ( String )",
+      "text": "漥㨠†慃汬┠‰ ㄥ⤠",
+      "menuId": 25030,
+      "resText": "%o :  Call %0 ( %1 )",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "畆据楴湯渠浡e ㄥ⤠",
+        "瑓楲杮愠杲浵湥tㄥ⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Call function ( String, String )",
+      "text": "漥㨠†慃汬┠‰ ㄥ‬㈥⤠",
+      "menuId": 25040,
+      "resText": "%o :  Call %0 ( %1, %2 )",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "畆据楴湯渠浡e ㄥ‬㈥⤠",
+        "瑓楲杮愠杲浵湥tㄥ‬㈥⤠",
+        "瑓楲杮愠杲浵湥tㄥ‬㈥⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Call function ( Int, String )",
+      "text": "漥㨠†慃汬┠‰ ㄥ‬㈥⤠",
+      "menuId": 25050,
+      "resText": "%o :  Call %0 ( %1, %2 )",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "畆据楴湯渠浡e ㄥ‬㈥⤠",
+        "湉⁴牡畧敭瑮",
+        "瑓楲杮愠杲浵湥tㄥ‬㈥⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Function Arugments > Add int argument",
+      "text": "漥㨠†摁⁤湩⁴牡畧敭瑮┠0",
+      "menuId": 25060,
+      "resText": "%o :  Add int argument %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湉⁴牡畧敭瑮 牡畧敭瑮┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Function Arugments > Add float argument",
+      "text": "漥㨠†摁⁤汦慯⁴牡畧敭瑮┠0",
+      "menuId": 25070,
+      "resText": "%o :  Add float argument %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汆慯⁴牡畧敭瑮 牡畧敭瑮┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Function Arugments > Add string argument",
+      "text": "漥㨠†摁⁤瑳楲杮愠杲浵湥⁴〥",
+      "menuId": 25080,
+      "resText": "%o :  Add string argument %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮愠杲浵湥t愠杲浵湥⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Return > Return",
+      "text": "漥›敒畴湲",
+      "menuId": 25090,
+      "resText": "%o: Return",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Return > Return an int",
+      "text": "漥›敒畴湲┠0",
+      "menuId": 25100,
+      "resText": "%o: Return %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湉⁴潴爠瑥牵n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Return > Return a float",
+      "text": "漥›敒畴湲┠0",
+      "menuId": 25110,
+      "resText": "%o: Return %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汆慯⁴潴爠瑥牵n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Return > Return a string",
+      "text": "漥›敒畴湲┠0",
+      "menuId": 25120,
+      "resText": "%o: Return %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮琠⁯敲畴湲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Start a loop",
+      "text": "漥㨠匠慴瑲氠潯⁰〥愠摮爠湵┠‱楴敭s",
+      "menuId": 25130,
+      "resText": "%o : Start loop %0 and run %1 times",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "潌灯渠浡e氠潯⁰〥愠摮爠湵┠‱楴敭s",
+        "畎扭牥漠⁦潬灯s〥愠摮爠湵┠‱楴敭s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Stop curent loop",
+      "text": "漥㨠匠潴⁰潬灯",
+      "menuId": 25140,
+      "resText": "%o : Stop loop",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Set loop index",
+      "text": "漥›敓⁴潬灯椠摮硥琠⁯〥",
+      "menuId": 25150,
+      "resText": "%o: Set loop index to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湉敤⁸潴猠瑥椀摮硥琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get loop index of a loop",
+      "text": "湩敤佸⡦",
+      "menuId": 27000,
+      "resText": "indexOf(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get current loop index",
+      "text": "湩敤⡸",
+      "menuId": 27010,
+      "resText": "index(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get int argument A",
+      "text": "湩䅴杲⡁",
+      "menuId": 27020,
+      "resText": "intArgA(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get int argument B",
+      "text": "湩䅴杲⡂",
+      "menuId": 27030,
+      "resText": "intArgB(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get string argument A",
+      "text": "瑳䅲杲⡁",
+      "menuId": 27040,
+      "resText": "strArgA(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get string argument B",
+      "text": "瑳䅲杲⡂",
+      "menuId": 27050,
+      "resText": "strArgB(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Get value argument at",
+      "text": "慶䅬杲瑁(",
+      "menuId": 27060,
+      "resText": "valArgAt(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Get string argument at",
+      "text": "瑳楲杮牁䅧⡴",
+      "menuId": 27070,
+      "resText": "stringArgAt(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Get return value",
+      "text": "敲噴污敵(",
+      "menuId": 27080,
+      "resText": "retValue(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Get return string",
+      "text": "敲却牴湩⡧",
+      "menuId": 27090,
+      "resText": "retString(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

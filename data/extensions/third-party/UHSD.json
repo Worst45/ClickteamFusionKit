@@ -1,0 +1,161 @@
+{
+  "file": "UHSD.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Has an Error Occured?",
+      "text": "漥›湏䔠牲牯",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Add a Field",
+      "text": "摁⁤楆汥⁤〥眠瑩⁨慄慴┠1",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥慎敭漠⁦桴⁥楆汥d",
+        "湅整⁲桴⁥慄慴琠⁯敢匠潴敲⁤湩琠敨䘠敩摬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set a Field",
+      "text": "敓⁴慄慴漠⁦楆汥⁤〥琠⁯ㄥ",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥慎敭漠⁦桴⁥楆汥d",
+        "湅整⁲桴⁥慄慴琠⁯敢匠潴敲⁤湩琠敨䘠敩摬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set Encryption Key",
+      "text": "敓⁴湅牣灹楴湯䬠祥琠⁯〥",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥湅牣灹楴湯䬠祥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Set Fields to be Encrypted",
+      "text": "湅牣灹⁴〥愠摮┠‱湩潴┠2",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆獲⁴楆汥⁤潴䔠据祲瑰⠠牏敤⁲慍瑴牥⥳",
+        "湅整⁲桴⁥敓潣摮䘠敩摬琠⁯湅牣灹⁴伨摲牥䴠瑡整獲)",
+        "湅整⁲桴⁥楆汥⁤湩圠楨档琠⁯瑓牯⁥桴⁥湅牣灹整⁤楆汥獤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Set Address of Add.cgi",
+      "text": "敓⁴摁牤獥⁳景䄠摤挮楧琠⁯〥",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥摁牤獥⁳景䄠摤挮楧⠠瑨灴⼺眯睷搮浯楡⹮潣⽭潦摬牥⽳摡⹤杣⥩"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Data from a Field",
+      "text": "楆汥䑤瑡②(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Generate Query String",
+      "text": "畑牥卹牴湩⑧(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Generate Full URL",
+      "text": "剕⑌(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get Current Error Code",
+      "text": "牅潲䍲摯⡥",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

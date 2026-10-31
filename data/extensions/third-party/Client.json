@@ -1,0 +1,511 @@
+{
+  "file": "Client.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On connect",
+      "text": "漥㨠漠⁮潣湮捥t",
+      "menuId": 26003,
+      "resText": "%o : on connect",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On disconnect",
+      "text": "漥㨠漠⁮楤捳湯敮瑣",
+      "menuId": 26004,
+      "resText": "%o : on disconnect",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "On recieve",
+      "text": "漥㨠漠⁮敲楣癥e",
+      "menuId": 26002,
+      "resText": "%o : on recieve",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "On recieve (UDP)",
+      "text": "漥㨠漠⁮敲楣癥⁥唨偄)",
+      "menuId": 26005,
+      "resText": "%o : on recieve (UDP)",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "On error",
+      "text": "漥㨠漠⁮牥潲r",
+      "menuId": 26000,
+      "resText": "%o : on error",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Connect",
+      "text": "潃湮捥⁴潴┠‰湯瀠牯⁴ㄥ",
+      "menuId": 25000,
+      "resText": "Connect to %0 on port %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "潈瑳挀⁴潴┠‰湯瀠牯⁴ㄥ",
+        "潐瑲挀⁴潴┠‰湯瀠牯⁴ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Disconnect",
+      "text": "楄捳湯敮瑣",
+      "menuId": 25002,
+      "resText": "Disconnect",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Send string",
+      "text": "敓摮猠牴湩⁧〥",
+      "menuId": 25003,
+      "resText": "Send string %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮琠⁯敳摮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Send integer",
+      "text": "敓摮椠瑮来牥┠0",
+      "menuId": 25004,
+      "resText": "Send integer %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湉整敧⁲潴猠湥d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Send byte",
+      "text": "敓摮戠瑹⁥〥",
+      "menuId": 25005,
+      "resText": "Send byte %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "祂整琠⁯敳摮⠠ⴰ㔲⤵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Send buffer",
+      "text": "敓摮戠晵敦⁲瑡┠ⰰ猠穩⁥ㄥ",
+      "menuId": 25006,
+      "resText": "Send buffer at %0, size %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "摁牤獥s敦⁲瑡┠ⰰ猠穩⁥ㄥ",
+        "楓敺猀s敦⁲瑡┠ⰰ猠穩⁥ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Send float",
+      "text": "敓摮映潬瑡┠0",
+      "menuId": 25007,
+      "resText": "Send float %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汆慯⁴潴猠湥d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Send string (UDP)",
+      "text": "敓摮猠牴湩⁧〥瘠慩唠偄",
+      "menuId": 25008,
+      "resText": "Send string %0 via UDP",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮琠⁯敳摮瘀慩唠偄"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Send integer (UDP)",
+      "text": "敓摮椠瑮来牥┠‰楶⁡䑕P",
+      "menuId": 25009,
+      "resText": "Send integer %0 via UDP",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湉整敧⁲潴猠湥d楶⁡䑕P"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Send byte (UDP)",
+      "text": "敓摮戠瑹⁥〥瘠慩唠偄",
+      "menuId": 25010,
+      "resText": "Send byte %0 via UDP",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "祂整琠⁯敳摮⠠ⴰ㔲⤵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Send buffer (UDP)",
+      "text": "敓摮戠晵敦⁲瑡┠ⰰ猠穩⁥ㄥ瘠慩唠偄",
+      "menuId": 25011,
+      "resText": "Send buffer at %0, size %1 via UDP",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "摁牤獥s敦⁲瑡┠ⰰ猠穩⁥ㄥ瘠慩唠偄",
+        "楓敺猀s敦⁲瑡┠ⰰ猠穩⁥ㄥ瘠慩唠偄"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Send float (UDP)",
+      "text": "敓摮映潬瑡┠‰楶⁡䑕P",
+      "menuId": 25019,
+      "resText": "Send float %0 via UDP",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汆慯⁴潴猠湥d楶⁡䑕P"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Add string to packet stack",
+      "text": "摁⁤瑳楲杮┠‰潴瀠捡敫⁴瑳捡k",
+      "menuId": 25012,
+      "resText": "Add string %0 to packet stack",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮琠⁯摡d潴瀠捡敫⁴瑳捡k"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Add integer to packet stack",
+      "text": "摁⁤湩整敧⁲〥琠⁯慰正瑥猠慴正",
+      "menuId": 25013,
+      "resText": "Add integer %0 to packet stack",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湉整敧⁲潴愠摤琀⁯慰正瑥猠慴正"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Add byte to packet stack",
+      "text": "摁⁤祢整┠‰潴瀠捡敫⁴瑳捡k",
+      "menuId": 25014,
+      "resText": "Add byte %0 to packet stack",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "祂整琠⁯摡d潴瀠捡敫⁴瑳捡k"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Add buffer to packet stack",
+      "text": "摁⁤畢晦牥愠⁴〥‬楳敺┠‱潴瀠捡敫⁴瑳捡k",
+      "menuId": 25015,
+      "resText": "Add buffer at %0, size %1 to packet stack",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "摁牤獥s牥愠⁴〥‬楳敺┠‱潴瀠捡敫⁴瑳捡k",
+        "楓敺猀s牥愠⁴〥‬楳敺┠‱潴瀠捡敫⁴瑳捡k"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Add float to packet stack",
+      "text": "摁⁤汦慯⁴〥琠⁯慰正瑥猠慴正",
+      "menuId": 25020,
+      "resText": "Add float %0 to packet stack",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汆慯⁴潴愠摤琀⁯慰正瑥猠慴正"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Clear packet stack",
+      "text": "汃慥⁲慰正瑥猠慴正",
+      "menuId": 25018,
+      "resText": "Clear packet stack",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Send packet stack",
+      "text": "敓摮瀠捡敫⁴瑳捡k",
+      "menuId": 25016,
+      "resText": "Send packet stack",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Send packet stack via UDP",
+      "text": "敓摮瀠捡敫⁴瑳捡⁫楶⁡䑕P",
+      "menuId": 25017,
+      "resText": "Send packet stack via UDP",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Set recieve buffer address",
+      "text": "敓⁴敲楣癥⁥畢晦牥愠摤敲獳琠⁯〥",
+      "menuId": 25001,
+      "resText": "Set recieve buffer address to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "摁牤獥s癥⁥畢晦牥愠摤敲獳琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get string",
+      "text": "敇却牴湩⑧(",
+      "menuId": 27000,
+      "resText": "GetString$(",
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潐楳楴湯␀(",
+        "楓敺⠠ㄭ映牯渠汵⁬整浲湩瑡摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get integer",
+      "text": "敇䥴瑮来牥(",
+      "menuId": 27001,
+      "resText": "GetInteger(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潐楳楴湯爀("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get byte",
+      "text": "敇䉴瑹⡥",
+      "menuId": 27002,
+      "resText": "GetByte(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潐楳楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get float",
+      "text": "敇䙴潬瑡(",
+      "menuId": 27003,
+      "resText": "GetFloat(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潐楳楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get address of internal recieve buffer",
+      "text": "湉整湲污敒楣癥䉥晵敦䅲摤敲獳(",
+      "menuId": 27004,
+      "resText": "InternalRecieveBufferAddress(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get error number",
+      "text": "牥潲⡲",
+      "menuId": 27006,
+      "resText": "error(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Get error string",
+      "text": "牥潲⑲(",
+      "menuId": 27007,
+      "resText": "error$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Get recieved packet size",
+      "text": "敇剴捥敩敶卤穩⡥",
+      "menuId": 27008,
+      "resText": "GetRecievedSize(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

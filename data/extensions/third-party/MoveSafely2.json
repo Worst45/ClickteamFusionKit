@@ -1,0 +1,159 @@
+{
+  "file": "MoveSafely2.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On Safety procedure",
+      "text": "湏匠晡瑥y",
+      "menuId": 26000,
+      "resText": "On Safety",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Safety Procedure > Prepare",
+      "text": "〰牐灥牡⁥慓敦祴",
+      "menuId": 25000,
+      "resText": "00Prepare Safety",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Safety Procedure > Commence",
+      "text": "〰潃浭湥散匠晡瑥⁹牐捯摥牵e",
+      "menuId": 25010,
+      "resText": "00Commence Safety Procedure",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Safety Procedure > Stop ( Push out of obstacle )",
+      "text": "〰瑓灯匠晡瑥⁹牐捯摥牵⁥湡⁤異桳漠瑵",
+      "menuId": 25020,
+      "resText": "00Stop Safety Procedure and push out",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Add a new protected object/s",
+      "text": "㄰摁⁤扯敪瑣⠠猥 潴瀠潲整瑣潩n",
+      "menuId": 25030,
+      "resText": "01Add object (%s) to protection",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t猥 潴瀠潲整瑣潩n",
+        "楐數⁬楄瑳湡散漠⁦慥档✠瑳灥'n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Safety Procedure > Stop ( Keep in obstacle        )",
+      "text": "㄰瑓灯匠晡瑥⁹牐捯摥牵⁥湡⁤敫灥椠⁮扯瑳捡敬",
+      "menuId": 25040,
+      "resText": "01Stop Safety Procedure and keep in obstacle",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Release all objects",
+      "text": "敒敬獡⁥牰瑯捥整⁤扯敪瑣s",
+      "menuId": 25060,
+      "resText": "Release protected objects",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get current object X",
+      "text": "敇塴",
+      "menuId": 27000,
+      "resText": "GetX",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get current object Y",
+      "text": "敇奴",
+      "menuId": 27010,
+      "resText": "GetY",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get current object Fixed Value",
+      "text": "敇䙴硩摥(",
+      "menuId": 27020,
+      "resText": "GetFixed(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get Number of loops",
+      "text": "畎扭牥景扯敪瑣⡳",
+      "menuId": 27030,
+      "resText": "Numberofobjects(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get loop index",
+      "text": "敇汴潯楰摮硥(",
+      "menuId": 27040,
+      "resText": "Getloopindex(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

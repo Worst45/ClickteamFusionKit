@@ -1,0 +1,481 @@
+{
+  "file": "AdvTray.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "User Clicks a Tray Icon > With Left Button",
+      "text": "漥›獕牥䰠晥⵴汃捩獫漠⁮捉湯┠0",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦捉湯⠠湅整⁲ㄭ映牯䄠祮䤠潣⥮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "User Clicks a Tray Icon > With Middle Button",
+      "text": "漥›獕牥䴠摩汤ⵥ汃捩獫漠⁮捉湯┠0",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦捉湯⠠湅整⁲ㄭ映牯䄠祮䤠潣⥮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "User Clicks a Tray Icon > With Right Button",
+      "text": "漥›獕牥删杩瑨䌭楬正⁳湯䤠潣⁮〥",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦捉湯⠠湅整⁲ㄭ映牯䄠祮䤠潣⥮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Mouse Cursor is Over Icon",
+      "text": "漥›潍獵⁥畃獲牯椠⁳癏牥䤠潣⁮〥",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦捉湯⠠湅整⁲ㄭ映牯䄠祮䤠潣⥮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "User Clicks a Balloon",
+      "text": "漥›獕牥䌠楬正⁳⁡慂汬潯⁮湯䤠潣⁮〥",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦捉湯椀正⁳⁡慂汬潯⁮湯䤠潣⁮〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "On Error",
+      "text": "漥›湏䔠牲牯",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Add Icon",
+      "text": "牃慥整愠丠睥吠慲⁹捉湯眠瑩⁨䑉┠0",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦捉湯眀吠慲⁹捉湯眠瑩⁨䑉┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Remove Icon",
+      "text": "敒潭敶䤠潣⁮〥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦捉湯 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Icon Images > Application Icon > Load Application Icon",
+      "text": "牔祡䤠潣⁮〥›敓⁴捉湯䤠慭敧琠⁯灁汰捩瑡潩⁮捉湯",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦捉湯　›敓⁴捉湯䤠慭敧琠⁯灁汰捩瑡潩⁮捉湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Icon Images > System Icons > Load Information Icon",
+      "text": "牔祡䤠潣⁮〥›敓⁴捉湯䤠慭敧琠⁯湉潦浲瑡潩⁮捉湯",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦捉湯　›敓⁴捉湯䤠慭敧琠⁯湉潦浲瑡潩⁮捉湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Icon Images > System Icons > Load Exclamation Icon",
+      "text": "牔祡䤠潣⁮〥›敓⁴捉湯䤠慭敧琠⁯硅汣浡瑡潩⁮捉湯",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦捉湯　›敓⁴捉湯䤠慭敧琠⁯硅汣浡瑡潩⁮捉湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Icon Images > System Icons > Load Question Icon",
+      "text": "牔祡䤠潣⁮〥›敓⁴捉湯䤠慭敧琠⁯畑獥楴湯䤠潣n",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦捉湯　›敓⁴捉湯䤠慭敧琠⁯畑獥楴湯䤠潣n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Icon Images > System Icons > Load Error Icon",
+      "text": "牔祡䤠潣⁮〥›敓⁴捉湯䤠慭敧琠⁯牅潲⁲捉湯",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦捉湯　›敓⁴捉湯䤠慭敧琠⁯牅潲⁲捉湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Icon Images > System Icons > Load WinLogo Icon",
+      "text": "牔祡䤠潣⁮〥›敓⁴捉湯䤠慭敧琠⁯楗摮睯⁳潌潧䤠潣n",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦捉湯　›敓⁴捉湯䤠慭敧琠⁯楗摮睯⁳潌潧䤠潣n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Icon Images > System Icons > Load Default EXE Icon",
+      "text": "牔祡䤠潣⁮〥›敓⁴捉湯䤠慭敧琠⁯敄慦汵⁴塅⁅捉湯",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦捉湯　›敓⁴捉湯䤠慭敧琠⁯敄慦汵⁴塅⁅捉湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Icon Images > Icon Resources > Load Icon From File",
+      "text": "牔祡䤠潣⁮〥›潌摡䤠潣⁮㈥䘠潲⁭ㄥ",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        40,
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦捉湯　›潌摡䤠潣⁮㈥䘠潲⁭ㄥ",
+        "塅⽅䱄⽌䍉⁏楆敬搀䤠潣⁮㈥䘠潲⁭ㄥ",
+        "捉湯䤠摮硥 楆敬搀䤠潣⁮㈥䘠潲⁭ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Icon Images > Icon Resources > Load Icon From Overlay",
+      "text": "牔祡䤠潣⁮〥›潌摡䘠潲⁭癏牥慬⁹ㄥ",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "䑉漠⁦捉湯　›潌摡䘠潲⁭癏牥慬⁹ㄥ",
+        "楆數⁤慖畬⁥景传敶汲祡传橢捥t⁹ㄥ",
+        "牔湡灳牡湥⁴潃潬r汲祡传橢捥t⁹ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Icon Images > Remove Icon",
+      "text": "敒潭敶䤠潣⁮浉条⁥牆浯吠慲⁹捉湯┠0",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦捉湯 浉条⁥牆浯吠慲⁹捉湯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Tooltip > Set Tooltip Text",
+      "text": "敓⁴潔汯楴⁰敔瑸漠⁦捉湯┠‰潴┠1",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "䑉漠⁦捉湯 敔瑸漠⁦捉湯┠‰潴┠1",
+        "潔汯楴⁰敔瑸攀瑸漠⁦捉湯┠‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Tooltip > Remove Tooltip",
+      "text": "敒潭敶吠潯瑬灩映潲⁭捉湯┠0",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦捉湯琀灩映潲⁭捉湯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Balloons > Show Balloon Notification",
+      "text": "桓睯愠䈠污潬湯丠瑯晩捩瑡潩⁮湯䤠潣⁮〥",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦捉湯漀湯丠瑯晩捩瑡潩⁮湯䤠潣⁮〥",
+        "慂汬潯⁮楔汴e丠瑯晩捩瑡潩⁮湯䤠潣⁮〥",
+        "慂汬潯⁮敔瑸",
+        "捉湯䤠慭敧⠠㴰潎敮‬㴱湉潦浲瑡潩Ɱ㈠圽牡楮杮‬㴳牅潲Ⱳ㐠匽浡⁥獡吠慲⁹捉湯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Balloons > Dismiss Balloon",
+      "text": "楄浳獩⁳慂汬潯⁮景䤠潣⁮〥",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦捉湯氀潯⁮景䤠潣⁮〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Window > Minimize and Hide",
+      "text": "楍楮業敺愠摮䠠摩⁥灁汰捩瑡潩⁮楗摮睯",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Window > Restore and Show",
+      "text": "敒瑳牯⁥湡⁤桓睯䄠灰楬慣楴湯圠湩潤w",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Window > Minimize to Tray",
+      "text": "楍楮業敺圠湩潤⁷潴匠獹整⁭牔祡",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Window > Restore from Tray",
+      "text": "敒瑳牯⁥楗摮睯映潲⁭祓瑳浥吠慲y",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "ID of Last Clicked Icon",
+      "text": "䑉慌瑳汃捩⡫",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "ID of Last Hovered Icon",
+      "text": "䑉慌瑳潈敶⡲",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "ID of Last Clicked Balloon",
+      "text": "䑉慌瑳慂汬潯⡮",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Number of Icons",
+      "text": "畎䥭潣獮(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Error String",
+      "text": "牅潲⑲(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

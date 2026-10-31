@@ -1,0 +1,553 @@
+{
+  "file": "tablet.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Support > Tablet is Wacom",
+      "text": "漥›慔汢瑥椠⁳慗潣m",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Support > Tilt is supported",
+      "text": "漥›楔瑬椠⁳畳灰牯整d",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "On message",
+      "text": "漥›湏洠獥慳敧",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Is initialized",
+      "text": "漥›獉椠楮楴污穩摥",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Input > Is holding down 1st button",
+      "text": "漥›楆獲⁴畢瑴湯椠⁳敢湩⁧敨摬搠睯n",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Input > Is holding down 2nd button",
+      "text": "漥›敓潣摮戠瑵潴⁮獩戠楥杮栠汥⁤潤湷",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Input > Is pressing",
+      "text": "漥›獉瀠敲獳湩g",
+      "menuId": 26060,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Input > Is using mouse",
+      "text": "漥›獉甠楳杮洠畯敳",
+      "menuId": 26070,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Input > Is using pen or airbrush",
+      "text": "漥›獉甠楳杮瀠湥漠⁲楡扲畲桳",
+      "menuId": 26080,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Input > Is using eraser",
+      "text": "漥›獉甠楳杮攠慲敳r",
+      "menuId": 26090,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Connect to tablet",
+      "text": "潃湮捥⁴潴琠扡敬t",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Device name",
+      "text": "敄楶散⠤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Orientation > Maximum",
+      "text": "牏慍⡸",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "㨰穁浩瑵ⱨㄠ䄺瑬瑩摵ⱥ㈠吺楷瑳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Orientation > Minimum",
+      "text": "牏楍⡮",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "㨰穁浩瑵ⱨㄠ䄺瑬瑩摵ⱥ㈠吺楷瑳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Orientation > Units",
+      "text": "牏湕瑩⡳",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "㨰穁浩瑵ⱨㄠ䄺瑬瑩摵ⱥ㈠吺楷瑳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Pressure > Value",
+      "text": "牐獥畳敲(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Cursor",
+      "text": "畃獲牯(",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Orientation > Azimuth",
+      "text": "穁浩瑵⡨",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Orientation > Altitude",
+      "text": "汁楴畴敤(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Orientation > Twist",
+      "text": "睔獩⡴",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Tangent Pressure > Value",
+      "text": "慔偮敲獳牵⡥",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Button map",
+      "text": "畂瑴湯⡳",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Serial number",
+      "text": "敓楲污(",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Position > X",
+      "text": "塐(",
+      "menuId": 27120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Position > Y",
+      "text": "奐(",
+      "menuId": 27130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Position > Z",
+      "text": "婐(",
+      "menuId": 27140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Rotation > Pitch",
+      "text": "楐捴⡨",
+      "menuId": 27150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Rotation > Roll",
+      "text": "潒汬(",
+      "menuId": 27160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Rotation > Yaw",
+      "text": "慙⡷",
+      "menuId": 27170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Pressure > Minimum",
+      "text": "牐楍⡮",
+      "menuId": 27180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Pressure > Maximum",
+      "text": "牐慍⡸",
+      "menuId": 27190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Tangent Pressure > Minimum",
+      "text": "慔偮䵲湩(",
+      "menuId": 27200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Tangent Pressure > Maximum",
+      "text": "慔偮䵲硡(",
+      "menuId": 27210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Rotation > Minimum",
+      "text": "潒楍⡮",
+      "menuId": 27220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "㨰楐捴ⱨㄠ刺汯ⱬ㈠夺睡"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Rotation > Maximum",
+      "text": "潒慍⡸",
+      "menuId": 27230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "㨰楐捴ⱨㄠ刺汯ⱬ㈠夺睡"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Rotation > Units",
+      "text": "潒湕瑩⡳",
+      "menuId": 27240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "㨰楐捴ⱨㄠ刺汯ⱬ㈠夺睡"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Position > Minimum",
+      "text": "䵐湩(",
+      "menuId": 27250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "㨰ⱘㄠ夺‬㨲Z"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Position > Maximum",
+      "text": "䵐硡(",
+      "menuId": 27260,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "㨰ⱘㄠ夺‬㨲Z"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Orientation > Resolution",
+      "text": "牏敒⡳",
+      "menuId": 27270,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "㨰穁浩瑵ⱨㄠ䄺瑬瑩摵ⱥ㈠吺楷瑳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Rotation > Resolution",
+      "text": "潒敒⡳",
+      "menuId": 27280,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "㨰楐捴ⱨㄠ刺汯ⱬ㈠夺睡"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Packet map",
+      "text": "慐正瑥(",
+      "menuId": 27290,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Usage time",
+      "text": "楔敭(",
+      "menuId": 27300,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

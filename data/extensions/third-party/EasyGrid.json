@@ -1,0 +1,370 @@
+{
+  "file": "EasyGrid.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "X,Y is over cell",
+      "text": "漥㨠┠ⰰ┠‱獩漠敶⁲散汬┠ⰲ┠″",
+      "menuId": 26000,
+      "resText": "%o : %0, %1 is over cell %2, %3 ",
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣漭摲湩瑡e散汬┠ⰲ┠″",
+        "湅整⁲⁙潣漭摲湩瑡e散汬┠ⰲ┠″",
+        "湅整⁲潣畬湭漠⁦散汬攀汬┠ⰲ┠″",
+        "湅整⁲潲⁷景挠汥l汬攀汬┠ⰲ┠″"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "X is in column",
+      "text": "漥㨠┠‰獩漠敶⁲潣畬湭┠‱",
+      "menuId": 26010,
+      "resText": "%o : %0 is over column %1 ",
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣漭摲湩瑡e湭┠‱",
+        "湅整⁲潣畬湭渠浵敢r湭┠‱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Y is in row",
+      "text": "漥㨠┠‰獩漠敶⁲潲⁷ㄥ ",
+      "menuId": 26020,
+      "resText": "%o : %0 is over row %1 ",
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁙潣漭摲湩瑡eㄥ ",
+        "湅整⁲潲⁷畮扭牥琀eㄥ "
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Cells > Set cell width",
+      "text": "敓⁴散汬眠摩桴琠⁯〥",
+      "menuId": 25000,
+      "resText": "Set cell width to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲散汬眠摩桴 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Cells > Set cell height",
+      "text": "敓⁴散汬栠楥桧⁴潴┠0",
+      "menuId": 25010,
+      "resText": "Set cell height to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲散汬栠楥桧t┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Cells > Set cell size",
+      "text": "敓⁴散汬猠穩⁥潴┠砰┠‱",
+      "menuId": 25020,
+      "resText": "Set cell size to %0x %1 ",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲散汬眠摩桴─砰┠‱",
+        "湅整⁲散汬栠楥桧t砰┠‱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Grid > Limit rows",
+      "text": "楌業⁴潲獷琠⁯〥",
+      "menuId": 25030,
+      "resText": "Limit rows to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲畮扭牥漠⁦潲獷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Grid > Limit columns",
+      "text": "楌業⁴潣畬湭⁳潴┠0",
+      "menuId": 25040,
+      "resText": "Limit columns to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲畮扭牥漠⁲潣畬湭s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Grid > Set Grid Origin",
+      "text": "敓⁴牧摩漠楲楧⁮潴┠ⰰ┠‱",
+      "menuId": 25050,
+      "resText": "Set grid origin to %0, %1 ",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣漭摲湩瑡eⰰ┠‱",
+        "湅整⁲⁙潣漭摲湩瑡eⰰ┠‱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Cells > Set cell value",
+      "text": "敓⁴慶畬⁥景挠汥⁬ 〥‬ㄥ 潴┠′",
+      "menuId": 25053,
+      "resText": "Set value of cell ( %0, %1) to %2 ",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲散汬挠汯浵n 〥‬ㄥ 潴┠′",
+        "湅整⁲散汬爠睯洀n 〥‬ㄥ 潴┠′",
+        "湅整⁲慶畬e睯洀n 〥‬ㄥ 潴┠′"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Cells > Clear all cells",
+      "text": "汃慥⁲污⁬散汬s",
+      "menuId": 25060,
+      "resText": "Clear all cells",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Cells > Get cell width",
+      "text": "敃汬楗瑤⡨",
+      "menuId": 27000,
+      "resText": "CellWidth(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Cells > Get cell height",
+      "text": "敃汬效杩瑨(",
+      "menuId": 27010,
+      "resText": "CellHeight(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Grid > Get Grid X origin",
+      "text": "片摩潘楲楧⡮",
+      "menuId": 27020,
+      "resText": "GridXorigin(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Grid > Get Grid Y origin",
+      "text": "片摩潙楲楧⡮",
+      "menuId": 27030,
+      "resText": "GridYorigin(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Grid > Get row limit",
+      "text": "潒䱷浩瑩(",
+      "menuId": 27040,
+      "resText": "RowLimit(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Grid > Get column limit",
+      "text": "潃䱬浩瑩(",
+      "menuId": 27050,
+      "resText": "ColLimit(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Positions > Conversions > Get X co-ordinate of column",
+      "text": "潘䍦汯(",
+      "menuId": 27060,
+      "resText": "XofCol(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Positions > Conversions > Get Y co-ordinate of row",
+      "text": "潙剦睯(",
+      "menuId": 27070,
+      "resText": "YofRow(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Positions > Conversions > Get column from X co-ordinate",
+      "text": "潃潬塦(",
+      "menuId": 27080,
+      "resText": "ColofX(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Positions > Conversions > Get row from Y co-ordinate",
+      "text": "潒潷奦(",
+      "menuId": 27090,
+      "resText": "RowofY(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Positions > Snap > Snap X co-ordinate to grid",
+      "text": "湓灡⡘",
+      "menuId": 27100,
+      "resText": "SnapX(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Positions > Snap > Snap Y co-ordinate to grid",
+      "text": "湓灡⡙",
+      "menuId": 27110,
+      "resText": "SnapY(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Cells > Get cell value",
+      "text": "敇䍴汥噬污敵(",
+      "menuId": 27111,
+      "resText": "GetCellValue(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

@@ -1,0 +1,2058 @@
+{
+  "file": "AndroidDialog.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On Alert Dialog",
+      "text": "%o: On Alert Dialog with Id %0 and Button %1",
+      "menuId": 26000,
+      "resText": "%o: On Alert Dialog with Id %0 and Button %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id",
+        "Pressed Button Id (button text or number)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On Login Dialog",
+      "text": "%o: On Login Dialog with Id %0 and Button %1",
+      "menuId": 26010,
+      "resText": "%o: On Login Dialog with Id %0 and Button %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id",
+        "Pressed Button Id (button text or number)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "On Password Dialog",
+      "text": "%o: On Password Dialog with Id %0 and Button %1",
+      "menuId": 26020,
+      "resText": "%o: On Password Dialog with Id %0 and Button %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id",
+        "Pressed Button Id (button text or number)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "On Prompt Dialog",
+      "text": "%o: On Prompt Dialog with Id %0 and Button %1",
+      "menuId": 26030,
+      "resText": "%o: On Prompt Dialog with Id %0 and Button %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id",
+        "Pressed Button Id (button text or number)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "On PopUp Dialog",
+      "text": "%o: On PopUp List with Id %0 and Button %1",
+      "menuId": 26040,
+      "resText": "%o: On PopUp List with Id %0 and Button %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id",
+        "Pressed Button Id (button text or number)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "On PopUp Choice",
+      "text": "%o: On PopUp List with Id %0 and Choice %1",
+      "menuId": 26050,
+      "resText": "%o: On PopUp List with Id %0 and Choice %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "Dialog Id",
+        "Choice value"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "On Agreement Dialog",
+      "text": "%o: On Agreement Dialog with Id %0 and Button %1",
+      "menuId": 26060,
+      "resText": "%o: On Agreement Dialog with Id %0 and Button %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id",
+        "Pressed Button Id (button text or number)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "On Slider Dialog",
+      "text": "%o: On Slider Dialog with Id %0 and Button %1",
+      "menuId": 26070,
+      "resText": "%o: On Slider Dialog with Id %0 and Button %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id",
+        "Pressed Button Id (button text or number)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "On Slider Changed",
+      "text": "%o: On Slider Dialog with Id %0 Changed",
+      "menuId": 26080,
+      "resText": "%o: On Slider Dialog with Id %0 Changed",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "On File Picker",
+      "text": "%o: On File Picker with Id %0 and Button %1",
+      "menuId": 26090,
+      "resText": "%o: On File Picker with Id %0 and Button %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id",
+        "Pressed Button Id (button text or number)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "On Color Picker",
+      "text": "%o: On Color Picker with Id %0 and Button %1",
+      "menuId": 26100,
+      "resText": "%o: On Color Picker with Id %0 and Button %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id",
+        "Pressed Button Id (button text or number)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "On Date Picker",
+      "text": "%o: On Date Picker  with Id %0 and Button %1",
+      "menuId": 26110,
+      "resText": "%o: On Date Picker  with Id %0 and Button %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id",
+        "Pressed Button Id (button text or number)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "On Time Picker",
+      "text": "%o: On Time Picker with Id %0 and Button %1",
+      "menuId": 26120,
+      "resText": "%o: On Time Picker with Id %0 and Button %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id",
+        "Pressed Button Id (button text or number)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "On Quick Message ended",
+      "text": "%o:On Quick Message End",
+      "menuId": 26130,
+      "resText": "%o:On Quick Message End",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "On Notification Sent",
+      "text": "%o:On Notification Sent",
+      "menuId": 26140,
+      "resText": "%o:On Notification Sent",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "On Menu Picker",
+      "text": "%o: On Menu Picker with Id %0 and Item %1",
+      "menuId": 26150,
+      "resText": "%o: On Menu Picker with Id %0 and Item %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "Dialog Id",
+        "Pressed Item Id (number or -1 for any)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "On Last Error",
+      "text": "%o: On Last error",
+      "menuId": 26160,
+      "resText": "%o: On Last error",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "conditions_status": "menu ressources",
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Dialogs > Common Features > Set Title",
+      "text": "Set Dialog Title to %0",
+      "menuId": 25000,
+      "resText": "Set Dialog Title to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Dialog Title Text"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Dialogs > Common Features > Set Icon",
+      "text": "Set Dialog Icon to %0",
+      "menuId": 25010,
+      "resText": "Set Dialog Icon to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Dialog Icon to display (URL, internal image number or drawable - check help)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Dialogs > Common Features > Set Message",
+      "text": "Set Dialog Message to %0",
+      "menuId": 25020,
+      "resText": "Set Dialog Message to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Dialog Message Text (doesn't work in popup list or file selector)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Dialogs > Common Features > Set Buttons Text",
+      "text": "Set Dialog Buttons text to %0",
+      "menuId": 25030,
+      "resText": "Set Dialog Buttons text to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Buttons text list (separated by comma, max: 3 buttons, blank for no button) representing POSITIVE-NEUTRAL-NEGATIVE"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Dialogs > Common Features > Set Size",
+      "text": "Set Dialog Size to %0",
+      "menuId": 25040,
+      "resText": "Set Dialog Size to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Dialog Size (0:Full, 1:Large, 2:Medium, 3:Small, 4:Wide, 5:Fit Inside, 6:Best Width)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Dialogs > Common Features > Set Dialog Alignment",
+      "text": "Set Dialog Alignment to %0",
+      "menuId": 25050,
+      "resText": "Set Dialog Alignment to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Dialog Alignment (0:Bottom, 1:Center, 2:Top)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Dialogs > Alert Dialog > Save Alert Dialog ...",
+      "text": "Save Info to Alert Dialog with Id %0",
+      "menuId": 25060,
+      "resText": "Save Info to Alert Dialog with Id %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Dialogs > Alert Dialog > Open Alert Dialog",
+      "text": "Open Alert dialog with Id %0 with message %1",
+      "menuId": 25070,
+      "resText": "Open Alert dialog with Id %0 with message %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id",
+        "Message text"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Dialogs > Login Dialog > Set User hint and initial text",
+      "text": "Set User Hint to %0 and Initial text to %1",
+      "menuId": 25080,
+      "resText": "Set User Hint to %0 and Initial text to %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "User Hint Text",
+        "User Initial Text"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Dialogs > Login Dialog > Set Password hint",
+      "text": "Set Password Hint to %0",
+      "menuId": 25090,
+      "resText": "Set Password Hint to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Password Hint Text"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Dialogs > Login Dialog > Set Remember hint",
+      "text": "Set Remember Label to %0",
+      "menuId": 25100,
+      "resText": "Set Remember Label to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Remember Label Text"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Dialogs > Login Dialog > Set Remember flag",
+      "text": "Set Remember flag to %0",
+      "menuId": 25110,
+      "resText": "Set Remember flag to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Remember flag (0: Off, 1:On)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Dialogs > Login Dialog > Save Login Dialog ...",
+      "text": "Save Info to Login Dialog with Id %0",
+      "menuId": 25120,
+      "resText": "Save Info to Login Dialog with Id %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Dialogs > Login Dialog > Open Login Dialog",
+      "text": "Open Login dialog with Id %0 and User %1",
+      "menuId": 25130,
+      "resText": "Open Login dialog with Id %0 and User %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id",
+        "User Initial Text"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Dialogs > Password Dialog > Set Old Password Hint",
+      "text": "Set Old Password Hint to %0",
+      "menuId": 25140,
+      "resText": "Set Old Password Hint to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Old Password Hint text"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Dialogs > Password Dialog > Set New Password Hint",
+      "text": "Set New Password Hint to %0",
+      "menuId": 25150,
+      "resText": "Set New Password Hint to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Old Password Hint text"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Dialogs > Password Dialog > Set Confirm Password hint",
+      "text": "Set Confirm Password Hint to %0",
+      "menuId": 25160,
+      "resText": "Set Confirm Password Hint to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Old Password Hint text"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Dialogs > Password Dialog > Save Password Dialog ...",
+      "text": "Save Info to Password Dialog with Id %0",
+      "menuId": 25170,
+      "resText": "Save Info to Password Dialog with Id %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Dialogs > Password Dialog > Open Password Dialog",
+      "text": "Open Password dialog with Id %0",
+      "menuId": 25180,
+      "resText": "Open Password dialog with Id %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Dialogs > Prompt Dialog > Set Prompt hint and initial text",
+      "text": "Set Prompt Hint to %0 and Initial text to %1",
+      "menuId": 25190,
+      "resText": "Set Prompt Hint to %0 and Initial text to %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "Prompt Hint Text",
+        "Prompt Initial Text"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Dialogs > Prompt Dialog > Save Prompt Dialog ...",
+      "text": "Save Info to Prompt Dialog with Id %0",
+      "menuId": 25200,
+      "resText": "Save Info to Prompt Dialog with Id %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Dialogs > Prompt Dialog > Open Prompt Dialog",
+      "text": "Open Prompt dialog with Id %0 and initial text %1",
+      "menuId": 25210,
+      "resText": "Open Prompt dialog with Id %0 and initial text %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id",
+        "Prompt Initial Text"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Dialogs > Popup List Dialog > Set Header",
+      "text": "Set Popup List Header Title to %0",
+      "menuId": 25220,
+      "resText": "Set Popup List Header Title to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Title Text"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Dialogs > Popup List Dialog > Set List",
+      "text": "Set Popup List to %0",
+      "menuId": 25230,
+      "resText": "Set Popup List to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Text List (separated by commas)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Dialogs > Popup List Dialog > Set Initial Selection",
+      "text": "Set Popup List initial selection to %0",
+      "menuId": 25240,
+      "resText": "Set Popup List initial selection to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "List of selected items (e.g. '1,0,1,1,0,1,1' for multiselection or '3' for single selection)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Dialogs > Popup List Dialog > Set Multi Selection",
+      "text": "Set Popup List multiselection to %0",
+      "menuId": 25250,
+      "resText": "Set Popup List multiselection to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Multiselection  (1: Multi, 0: Single)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Dialogs > Popup List Dialog > Save Popup Dialog ...",
+      "text": "Save Info to Popup List with Id %0",
+      "menuId": 25260,
+      "resText": "Save Info to Popup List with Id %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Dialogs > Popup List Dialog > Open Popup Dialog",
+      "text": "Open Popup List with Id %0 and initial selection %1",
+      "menuId": 25270,
+      "resText": "Open Popup List with Id %0 and initial selection %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id",
+        "List of selected items (e.g. '1,0,1,1,0,1,1' for multiselection or '3' for single selection)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Dialogs > Progress Dialog > Set Style",
+      "text": "Set Progress Style to %0",
+      "menuId": 25280,
+      "resText": "Set Progress Style to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Style (0:Circular, 1:Horizontal)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Dialogs > Progress Dialog > Set Min",
+      "text": "Set Progress Min to %0",
+      "menuId": 25290,
+      "resText": "Set Progress Min to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Define min. value"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Dialogs > Progress Dialog > Set Max",
+      "text": "Set Progress Max to %0",
+      "menuId": 25300,
+      "resText": "Set Progress Max to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Define max. value (normally 100%)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Dialogs > Progress Dialog > Set Value",
+      "text": "Set Progress Value to %0 for Id %1",
+      "menuId": 25310,
+      "resText": "Set Progress Value to %0 for Id %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "Set value (between min and max)",
+        "Dialog Id"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Dialogs > Progress Dialog > Set Timeout or allow to show",
+      "text": "Set Progress timeout to %0",
+      "menuId": 25320,
+      "resText": "Set Progress timeout to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Timeout/Receive Values (in milliseconds, set to -1 to receive values)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Dialogs > Progress Dialog > Save Progress Dialog ...",
+      "text": "Save Info to Progress Dialog with Id %0",
+      "menuId": 25330,
+      "resText": "Save Info to Progress Dialog with Id %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Dialogs > Progress Dialog > Open Progress Dialog",
+      "text": "Open Progress dialog with Id %0",
+      "menuId": 25340,
+      "resText": "Open Progress dialog with Id %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Dialogs > Progress Dialog > Dismiss Prog Dialog",
+      "text": "Dismiss Prog Dialog with Id %0",
+      "menuId": 25350,
+      "resText": "Dismiss Prog Dialog with Id %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Dialogs > File Selector > Set Default Dir and Text",
+      "text": "Set File Sel. Default dir to %0 and texts for parent dir:%1, folder:%2 and filesize: %3",
+      "menuId": 25360,
+      "resText": "Set File Sel. Default dir to %0 and texts for parent dir:%1, folder:%2 and filesize: %3",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "Default Directory",
+        "Text for parent directory (exam: Parent Directory)",
+        "Text for folder (exam: Folder)",
+        "Text for file size (exam: File Size)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Dialogs > File Selector > Save File Selector Dialog ...",
+      "text": "Save Info to File Selector Dialog with Id %0",
+      "menuId": 25370,
+      "resText": "Save Info to File Selector Dialog with Id %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Dialogs > File Selector > Open File Selector",
+      "text": "Open File Selector with Id %0 and start directory %1",
+      "menuId": 25380,
+      "resText": "Open File Selector with Id %0 and start directory %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id",
+        "Default Directory"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Dialogs > Agreement Dialog > Set Html Message",
+      "text": "Set Html message to %0",
+      "menuId": 25390,
+      "resText": "Set Html message to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "HTML text"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Dialogs > Agreement Dialog > Set Check Label and Status",
+      "text": "Set Agreeement Checkbox Label to %0 and Status %1",
+      "menuId": 25400,
+      "resText": "Set Agreeement Checkbox Label to %0 and Status %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "Check Label Text",
+        "Checked value (0: No, 1: Yes)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Dialogs > Agreement Dialog > Save Agreement Dialog ...",
+      "text": "Save Info to Agreement Dialog with Id %0",
+      "menuId": 25410,
+      "resText": "Save Info to Agreement Dialog with Id %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Dialogs > Agreement Dialog > Open Agreement",
+      "text": "Open Agreement dialog with Id %0",
+      "menuId": 25420,
+      "resText": "Open Agreement dialog with Id %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Dialogs > Slider Dialog > Set Minimum",
+      "text": "Set Slider Minimum to %0",
+      "menuId": 25430,
+      "resText": "Set Slider Minimum to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Minimum value (typical 0)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Dialogs > Slider Dialog > Set Maximum",
+      "text": "Set Slider Maximum to %0",
+      "menuId": 25440,
+      "resText": "Set Slider Maximum to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Maximum value (typical 100)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Dialogs > Slider Dialog > Set Value",
+      "text": "Set Slider Value to %0",
+      "menuId": 25450,
+      "resText": "Set Slider Value to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Initial value (typical 0 to 100)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Dialogs > Slider Dialog > Save Slider Dialog ...",
+      "text": "Save Info to Slider Dialog with Id %0",
+      "menuId": 25460,
+      "resText": "Save Info to Slider Dialog with Id %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Dialogs > Slider Dialog > Open Slider",
+      "text": "Open Slider dialog with Id %0",
+      "menuId": 25470,
+      "resText": "Open Slider dialog with Id %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Color Picker > Save Color Picker Dialog ...",
+      "text": "Save Info to Color Picker Dialog with Id %0",
+      "menuId": 25480,
+      "resText": "Save Info to Color Picker Dialog with Id %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Color Picker > Open Color Picker",
+      "text": "Open Color Picker with Id %0 and initial color %1",
+      "menuId": 25490,
+      "resText": "Open Color Picker with Id %0 and initial color %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "Id String",
+        "Color value"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 50,
+      "menu": "Date Picker > Set What to display",
+      "text": "Set What to display to %0 and calendar %1",
+      "menuId": 25500,
+      "resText": "Set What to display to %0 and calendar %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "What to show (1: Days, 2: Months, 4: Years) exam: 7 show all",
+        "Display Calendar (0:On, 1:Off)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "Date Picker > Set Initial date",
+      "text": "Set Date Initial time to year: %0, month: %1, day:%2",
+      "menuId": 25510,
+      "resText": "Set Date Initial time to year: %0, month: %1, day:%2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Year initial value (-1:current, or set value, min 1900)",
+        "Month initial value (-1:current, Range from: 1 to 12)",
+        "Day initial value (-1:current, Range from: 1 to 31)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 52,
+      "menu": "Date Picker > Save Date Picker Dialog ...",
+      "text": "Save Info to Date Picker Dialog with Id %0",
+      "menuId": 25520,
+      "resText": "Save Info to Date Picker Dialog with Id %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 53,
+      "menu": "Date Picker > Open Date Picker",
+      "text": "Open Date Picker with Id %0 and date %1, %2, %3",
+      "menuId": 25530,
+      "resText": "Open Date Picker with Id %0 and date %1, %2, %3",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Id String",
+        "Day initial value (-2:saved, -1: current, Range from: 1 to 31)",
+        "Month initial value (-2:saved, -1: current, Range from: 1 to 12)",
+        "Year initial value (-2:saved, -1: current, or set value, min 1900)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 54,
+      "menu": "Time Picker > Set What to display",
+      "text": "Set Time what to display to %0",
+      "menuId": 25540,
+      "resText": "Set Time what to display to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "What to show (1: Hour, 2: Minutes) exam: 3 show all"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 55,
+      "menu": "Time Picker > Set Initial time",
+      "text": "Set Time Initial time to hour: %0, mins: %1",
+      "menuId": 25550,
+      "resText": "Set Time Initial time to hour: %0, mins: %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Hour initial value (-1:current, range from: 0 to 23)",
+        "Minutes initial value (-1:current, Range from: 0 to 59)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 56,
+      "menu": "Time Picker > Set Style",
+      "text": "Set Time Style to %0",
+      "menuId": 25560,
+      "resText": "Set Time Style to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Style (0:0-23, 1:1-12, default is 0)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 57,
+      "menu": "Time Picker > Save Time Picker Dialog ...",
+      "text": "Save Info to Time Picker Dialog with Id %0",
+      "menuId": 25570,
+      "resText": "Save Info to Time Picker Dialog with Id %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 58,
+      "menu": "Time Picker > Open Time Picker",
+      "text": "Open Time Picker with Id %0 and time %1:%2",
+      "menuId": 25580,
+      "resText": "Open Time Picker with Id %0 and time %1:%2",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Id Number",
+        "Hour initial value (-2:saved, -1:current, range from: 0 to 23)",
+        "Minutes initial value (-2:saved, -1:current, Range from: 0 to 59)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 59,
+      "menu": "Quick Messages > Set Message and Icon",
+      "text": "Set Quick Message to %0 and Icon %1",
+      "menuId": 25590,
+      "resText": "Set Quick Message to %0 and Icon %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "Quick Message Text",
+        "Icon to display (URL, internal image number or drawable - check help)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 60,
+      "menu": "Quick Messages > Set Message Alignment and Theme",
+      "text": "Set Quick Message Alignment to %0 and theme %1",
+      "menuId": 25600,
+      "resText": "Set Quick Message Alignment to %0 and theme %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Alignment (0:Bottom, 1:Center, 2:Top)",
+        "Themes (0:Default, 1:Light, 2:Dark, 3:Internal, 4:Application)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 61,
+      "menu": "Quick Messages > Set Message TimeOut",
+      "text": "Set Quick Message timeout to %0",
+      "menuId": 25610,
+      "resText": "Set Quick Message timeout to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Time out (in milliseconds or 0 for 3.5 sec and -1 for 2.0 sec)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 62,
+      "menu": "Quick Messages > Open Quick Message",
+      "text": "Open Quick Message",
+      "menuId": 25620,
+      "resText": "Open Quick Message",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 63,
+      "menu": "Notifications > Set Title and Count",
+      "text": "Set Notification title %0 and count %1",
+      "menuId": 25630,
+      "resText": "Set Notification title %0 and count %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "Title Text",
+        "Notification Count"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 64,
+      "menu": "Notifications > Set Large and Small Icon",
+      "text": "Set Notification Large Icon to %0 and Small Icon to %1",
+      "menuId": 25640,
+      "resText": "Set Notification Large Icon to %0 and Small Icon to %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "Large Icon to display (URL, internal image number or drawable - check help)",
+        "Small Icon to display (from resource in lowercase)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 65,
+      "menu": "Notifications > Set Message and Ticker",
+      "text": "Set Notification Message %0 and ticker %1",
+      "menuId": 25650,
+      "resText": "Set Notification Message %0 and ticker %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "Message Text",
+        "Ticker Text"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 66,
+      "menu": "Notifications > Set Action Intent",
+      "text": "Set Notification Intent %0 and action %1",
+      "menuId": 25660,
+      "resText": "Set Notification Intent %0 and action %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "Intent String",
+        "Intent Type (0:VIEW, 1:DIAL, 2:EDIT, 3:PICK, 4:MAIN)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 67,
+      "menu": "Notifications > Set Sound",
+      "text": "Set Notification Sound to %0",
+      "menuId": 25670,
+      "resText": "Set Notification Sound to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Sound Enable (0:No, 1: Yes)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 68,
+      "menu": "Notifications > Set Vibrate",
+      "text": "Set Notification Vibrate to %0",
+      "menuId": 25680,
+      "resText": "Set Notification Vibrate to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Vibrate Enable (0:No, 1: Yes)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 69,
+      "menu": "Notifications > Send Notification",
+      "text": "Send Notification",
+      "menuId": 25690,
+      "resText": "Send Notification",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 70,
+      "menu": "Menu Picker > Set Items and Icons",
+      "text": "Set Menu Picker List to %0 and Icons %1",
+      "menuId": 25700,
+      "resText": "Set Menu Picker List to %0 and Icons %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "Menu Items List (separated by commas)",
+        "Icon List (numeric values from image bank separated by commas)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 71,
+      "menu": "Menu Picker > Set Menu Alignment",
+      "text": "Set Menu Picker Alignment to %0",
+      "menuId": 25710,
+      "resText": "Set Menu Picker Alignment to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Alignment (0:Bottom, 1:Center, 2:Top)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 72,
+      "menu": "Menu Picker > Set Menu TimeOut",
+      "text": "Set Menu Picker timeout to %0",
+      "menuId": 25720,
+      "resText": "Set Menu Picker timeout to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Time out (in milliseconds or -1 for infinite)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 73,
+      "menu": "Menu Picker > Save Menu Picker Dialog ...",
+      "text": "Save Info to Menu Picker Dialog with Id %0",
+      "menuId": 25730,
+      "resText": "Save Info to Menu Picker Dialog with Id %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 74,
+      "menu": "Menu Picker > Open Menu Picker",
+      "text": "Open Menu Picker with Id %0",
+      "menuId": 25740,
+      "resText": "Open Menu Picker with Id %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Menu Picker Id"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 75,
+      "menu": "Special Config > Set Dialog Theme",
+      "text": "Set Dialog Theme to %0",
+      "menuId": 25750,
+      "resText": "Set Dialog Theme to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Dialog themes (0:Default, 1:Light, 2:Dark, 3:Internal, 4:Application)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 76,
+      "menu": "Special Config > File Picker Specials ... > Set Images for File Picker",
+      "text": "Set Images for File Picker to Folders: %0 and Files: %1",
+      "menuId": 25760,
+      "resText": "Set Images for File Picker to Folders: %0 and Files: %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Image Icon to display folders (internal image number or drawable - check help)",
+        "Image Icon to display files (internal image number or drawable - check help)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 77,
+      "menu": "Special Config > File Picker Specials ... > Set Type for File Picker",
+      "text": "Set File Picker type to %0",
+      "menuId": 25770,
+      "resText": "Set File Picker type to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Types (0: Files, 1:Dir)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 78,
+      "menu": "Special Config > Set Dialog Title Color",
+      "text": "Set Title Color %0",
+      "menuId": 25780,
+      "resText": "Set Title Color %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "Set Title Color"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 79,
+      "menu": "Dismiss Dialog",
+      "text": "Dismiss Dialog with Id %0",
+      "menuId": 25790,
+      "resText": "Dismiss Dialog with Id %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Dialog Id"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 80,
+      "menu": "Special Config > Disable Theme Control",
+      "text": "Set Font Control to %0",
+      "menuId": 25800,
+      "resText": "Set Font Control to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Font Size Control (On/Default:0 Off:1)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 81,
+      "menu": "Special Config > File Picker Specials ... > Set Filter for File Picker",
+      "text": "Set File filter to %0",
+      "menuId": 25810,
+      "resText": "Set File filter to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Filter String (e.g: .jpg)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions_status": "menu ressources",
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Dialogs > Alert Button Return",
+      "text": "AlertButtonRet(",
+      "menuId": 27000,
+      "resText": "AlertButtonRet(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Dialogs > Login Username",
+      "text": "LoginUsername$(",
+      "menuId": 27010,
+      "resText": "LoginUsername$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Dialogs > Login Password",
+      "text": "LoginPassword$(",
+      "menuId": 27020,
+      "resText": "LoginPassword$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Dialogs > Login Remember",
+      "text": "LoginRememberFlag(",
+      "menuId": 27030,
+      "resText": "LoginRememberFlag(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Dialogs > Login Button Return",
+      "text": "LoginButtonRet(",
+      "menuId": 27040,
+      "resText": "LoginButtonRet(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Dialogs > Password Password",
+      "text": "PasswordPassword$(",
+      "menuId": 27050,
+      "resText": "PasswordPassword$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Dialogs > Password New Pass",
+      "text": "PasswordNewPass$(",
+      "menuId": 27060,
+      "resText": "PasswordNewPass$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Dialogs > Password Confirm Pass",
+      "text": "PasswordConfPass$(",
+      "menuId": 27070,
+      "resText": "PasswordConfPass$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Dialogs > Password Button Return",
+      "text": "PasswordButtonRet(",
+      "menuId": 27080,
+      "resText": "PasswordButtonRet(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Dialogs > Prompt text",
+      "text": "PromptText$(",
+      "menuId": 27090,
+      "resText": "PromptText$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Dialogs > Prompt Button Return",
+      "text": "PromptButtonRet(",
+      "menuId": 27100,
+      "resText": "PromptButtonRet(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Dialogs > Popup Item text",
+      "text": "PopupItemText$(",
+      "menuId": 27110,
+      "resText": "PopupItemText$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Dialogs > Popup Item id",
+      "text": "PopupItemId(",
+      "menuId": 27120,
+      "resText": "PopupItemId(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Dialogs > Popup Button return",
+      "text": "PopupButtonRet(",
+      "menuId": 27130,
+      "resText": "PopupButtonRet(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Dialogs > Agreement CheckBox Return",
+      "text": "AgreeCheckBox(",
+      "menuId": 27140,
+      "resText": "AgreeCheckBox(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Dialogs > Agreement Button Return",
+      "text": "AgreeButtonRet(",
+      "menuId": 27150,
+      "resText": "AgreeButtonRet(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Dialogs > Slider Value Return",
+      "text": "SliderValue(",
+      "menuId": 27160,
+      "resText": "SliderValue(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Dialogs > Slider Button Return",
+      "text": "SliderButtonRet(",
+      "menuId": 27170,
+      "resText": "SliderButtonRet(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "File Picker > File Name Return",
+      "text": "FilePickedName$(",
+      "menuId": 27180,
+      "resText": "FilePickedName$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "File Picker > File Button Return",
+      "text": "FileButtonRet(",
+      "menuId": 27190,
+      "resText": "FileButtonRet(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Color Picker > Color Picker Value",
+      "text": "ColorPickerValue(",
+      "menuId": 27200,
+      "resText": "ColorPickerValue(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Color Picker > Color Picker Alpha",
+      "text": "ColorPickerAlpha(",
+      "menuId": 27210,
+      "resText": "ColorPickerAlpha(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Color Picker > Color Button Return",
+      "text": "ColorButtonRet(",
+      "menuId": 27220,
+      "resText": "ColorButtonRet(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Date Picker > Date Year",
+      "text": "DateYear(",
+      "menuId": 27230,
+      "resText": "DateYear(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Date Picker > Date Month",
+      "text": "DateMonth(",
+      "menuId": 27240,
+      "resText": "DateMonth(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Date Picker > Date day",
+      "text": "DateDay(",
+      "menuId": 27250,
+      "resText": "DateDay(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Date Picker > Date Button Return",
+      "text": "DateButtonRet(",
+      "menuId": 27260,
+      "resText": "DateButtonRet(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Time Picker > Time hour",
+      "text": "TimeHour(",
+      "menuId": 27270,
+      "resText": "TimeHour(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Time Picker > Time mins",
+      "text": "TimeMins(",
+      "menuId": 27280,
+      "resText": "TimeMins(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Time Picker > Time secs",
+      "text": "TimeSecs(",
+      "menuId": 27290,
+      "resText": "TimeSecs(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Time Picker > Time Button Return",
+      "text": "TimeButtonRet(",
+      "menuId": 27300,
+      "resText": "TimeButtonRet(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Menu Picker > Menu Item Number",
+      "text": "MenuValueRet(",
+      "menuId": 27310,
+      "resText": "MenuValueRet(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Menu Picker > Menu Item String",
+      "text": "MenuStringRet$(",
+      "menuId": 27320,
+      "resText": "MenuStringRet$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions_status": "menu ressources"
+}

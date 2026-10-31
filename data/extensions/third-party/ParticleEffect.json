@@ -1,0 +1,545 @@
+{
+  "file": "ParticleEffect.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Particle destroyed",
+      "text": "漥›慐瑲捩敬搠獥牴祯摥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On animate particle",
+      "text": "漥›湏愠楮慭整瀠牡楴汣e",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Animation > Animate particles",
+      "text": "湁浩瑡⁥慰瑲捩敬s",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Particles > Add at position",
+      "text": "摁⁤〥瀠牡楴汣獥愠⁴ㄥⰠ┠2",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "畎扭牥漠⁦慰瑲捩敬sㄥⰠ┠2",
+        "⁘潰楳楴湯愀瑲捩敬sㄥⰠ┠2",
+        "⁙潰楳楴湯愀瑲捩敬sㄥⰠ┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Colour wrapping > Enable",
+      "text": "湅扡敬挠汯畯⁲牷灡楰杮",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Colour wrapping > Disable",
+      "text": "楄慳汢⁥潣潬牵眠慲灰湩g",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Speed > Set X speed",
+      "text": "敓⁴⁘灳敥⁤潴┠0",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敎⁷灳敥⁤瀨硩汥⁳数⁲湡浩瑡⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Speed > Set Y speed",
+      "text": "敓⁴⁙灳敥⁤潴┠0",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敎⁷灳敥⁤瀨硩汥⁳数⁲湡浩瑡⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Speed > Set X instability",
+      "text": "敓⁴⁘湩瑳扡汩瑩⁹潴┠0",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敎⁷湩瑳扡汩瑩y⁹潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Speed > Set Y instability",
+      "text": "敓⁴⁙湩瑳扡汩瑩⁹潴┠0",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敎⁷湩瑳扡汩瑩y⁹潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Colour > Set colour",
+      "text": "敓⁴潣潬牵琠⁯〥",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "敎⁷潣潬牵琀⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Colour > Set red instability",
+      "text": "敓⁴敲⁤湩瑳扡汩瑩⁹潴┠0",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敎⁷湩瑳扡汩瑩y瑩⁹潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Colour > Set green instability",
+      "text": "敓⁴牧敥⁮湩瑳扡汩瑩⁹潴┠0",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敎⁷湩瑳扡汩瑩y汩瑩⁹潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Colour > Set blue instability",
+      "text": "敓⁴汢敵椠獮慴楢楬祴琠⁯〥",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敎⁷湩瑳扡汩瑩y楬祴琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Lifetime > Set lifetime",
+      "text": "敓⁴楬敦楴敭琠⁯〥",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敎⁷楬敦楴敭⠠ㄭ椠⁳潦敲敶⥲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Lifetime > Set lifetime instability",
+      "text": "敓⁴楬敦楴敭椠獮慴楢楬祴琠⁯〥",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敎⁷湩瑳扡汩瑩y慴楢楬祴琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Particles > Remove all",
+      "text": "敒潭敶愠汬瀠牡楴汣獥",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Particles > Remove selected",
+      "text": "敒潭敶猠汥捥整⁤慰瑲捩敬",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Selection > Select particle by ID",
+      "text": "敓敬瑣瀠牡楴汣⁥〥",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慐瑲捩敬䤠D汣⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Selection > Select new particle",
+      "text": "敓敬瑣渠睥瀠牡楴汣e",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Particles > Add",
+      "text": "摁⁤〥瀠牡楴汣獥",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畎扭牥漠⁦慰瑲捩敬s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Animation > Enable condition (slower!)",
+      "text": "湅扡敬挠湯楤楴湯",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Animation > Disable condition",
+      "text": "楄慳汢⁥潣摮瑩潩n",
+      "menuId": 25200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Selection > Select animating particle",
+      "text": "敓敬瑣愠楮慭楴杮瀠牡楴汣e",
+      "menuId": 25210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Collisions > Set layer",
+      "text": "敓⁴潣汬獩潩⁮慬敹⁲潴┠0",
+      "menuId": 25220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潃汬獩潩⁮慬敹⁲⴨‱潦⁲污ⱬⴠ′潴搠獩扡敬挠汯楬楳湯⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Position > Set X position",
+      "text": "敓⁴⁘潰楳楴湯琠⁯〥",
+      "menuId": 25230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敎⁷潰楳楴湯渀琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Position > Set Y position",
+      "text": "敓⁴⁙潰楳楴湯琠⁯〥",
+      "menuId": 25240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敎⁷潰楳楴湯渀琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Number of particles",
+      "text": "慐瑲捩敬潃湵⡴",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Particle > Position > Get X position",
+      "text": "慐瑲捩敬⡘",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Particle > Position > Get Y position",
+      "text": "慐瑲捩敬⡙",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Particle > Speed > Get X speed",
+      "text": "慐瑲捩敬単数摥(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Particle > Speed > Get Y speed",
+      "text": "慐瑲捩敬卙数摥(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Particle > Speed > Get X instability",
+      "text": "慐瑲捩敬䥘獮慴楢楬祴(",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Particle > Speed > Get Y instability",
+      "text": "慐瑲捩敬䥙獮慴楢楬祴(",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Particle > Colour > Get red",
+      "text": "慐瑲捩敬潃潬牵(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Particle > Colour > Get green",
+      "text": "慐瑲捩敬敒䥤獮慴楢楬祴(",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Particle > Colour > Get blue",
+      "text": "慐瑲捩敬片敥䥮獮慴楢楬祴(",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Particle > Lifetime > Get lifetime",
+      "text": "慐瑲捩敬求敵湉瑳扡汩瑩⡹",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Particle > Lifetime > Get lifetime instability",
+      "text": "慐瑲捩敬楌敦楴敭(",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

@@ -1,0 +1,644 @@
+{
+  "file": "Lens.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Update > Manual update",
+      "text": "灕慤整",
+      "menuId": 25000,
+      "resText": "Update",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Load image",
+      "text": "潌摡椠慭敧›〥",
+      "menuId": 25010,
+      "resText": "Load image: %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潌摡氠湥⁳浩条e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Stretch",
+      "text": "瑓敲捴⁨潴┠ⰰ┠1",
+      "menuId": 25020,
+      "resText": "Stretch to %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘楳敺 潴┠ⰰ┠1",
+        "⁙楳敺 潴┠ⰰ┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Set height multiplier",
+      "text": "敓⁴敨杩瑨洠汵楴汰敩㩲┠0",
+      "menuId": 25030,
+      "resText": "Set height multiplier: %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲敤瑢⁨畭瑬灩楬牥‮昨潬瑡瘠污敵)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Set Angle",
+      "text": "敓⁴湡汧⁥潴┠0",
+      "menuId": 25040,
+      "resText": "Set angle to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴湡汧e潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Scroll",
+      "text": "捓潲汬┠ⰰ┠1",
+      "menuId": 25050,
+      "resText": "Scroll %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "捓潲汬堠愠潭湵t",
+        "捓潲汬夠愠潭湵t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Import > Import active image",
+      "text": "浉潰瑲愠瑣癩㩥┠0",
+      "menuId": 25060,
+      "resText": "Import active: %0",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敓敬瑣琠敨漠橢捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Import > Import overlay image",
+      "text": "浉潰瑲漠敶汲祡映潲⁭摡敲獳›〥",
+      "menuId": 25070,
+      "resText": "Import overlay from adress: %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥敭潭祲愠牤獥⁳景琠敨漠敶汲祡漠橢捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Update > Auto update on",
+      "text": "畁潴甠摰瑡⁥湯",
+      "menuId": 25080,
+      "resText": "Auto update on",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Update > Auto update off",
+      "text": "畁潴甠摰瑡⁥景f",
+      "menuId": 25090,
+      "resText": "Auto update off",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Render mode > Refraction",
+      "text": "敒摮牥潭敤›敒牦捡楴湯",
+      "menuId": 25100,
+      "resText": "Rendermode: Refraction",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Render mode > Zoom",
+      "text": "敒摮牥潭敤›潚浯",
+      "menuId": 25110,
+      "resText": "Rendermode: Zoom",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Hotspot > Center",
+      "text": "潈獴潰㩴䌠湥整r",
+      "menuId": 25120,
+      "resText": "Hotspot: Center",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Hotspot > Top left",
+      "text": "潈獴潰㩴吠灯氠晥t",
+      "menuId": 25130,
+      "resText": "Hotspot: Top left",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Hotspot > Top center",
+      "text": "潈獴潰㩴吠灯挠湥整r",
+      "menuId": 25140,
+      "resText": "Hotspot: Top center",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Hotspot > Top right",
+      "text": "潈獴潰㩴吠灯爠杩瑨",
+      "menuId": 25150,
+      "resText": "Hotspot: Top right",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Hotspot > Left center",
+      "text": "潈獴潰㩴䰠晥⁴散瑮牥",
+      "menuId": 25160,
+      "resText": "Hotspot: Left center",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Hotspot > Right center",
+      "text": "潈獴潰㩴删杩瑨挠湥整r",
+      "menuId": 25170,
+      "resText": "Hotspot: Right center",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Hotspot > Bottom left",
+      "text": "潈獴潰㩴䈠瑯潴⁭敬瑦",
+      "menuId": 25180,
+      "resText": "Hotspot: Bottom left",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Hotspot > Bottom center",
+      "text": "潈獴潰㩴䈠瑯潴⁭散瑮牥",
+      "menuId": 25190,
+      "resText": "Hotspot: Bottom center",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Hotspot > Bottom right",
+      "text": "潈獴潰㩴䈠瑯潴⁭楲桧t",
+      "menuId": 25200,
+      "resText": "Hotspot: Bottom right",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Hotspot > Custom",
+      "text": "潈獴潰㩴┠ⰰ┠1",
+      "menuId": 25210,
+      "resText": "Hotspot: %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "X獴潰㩴┠ⰰ┠1",
+        "Y獴潰㩴┠ⰰ┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Origin > Center",
+      "text": "牏杩湩›敃瑮牥",
+      "menuId": 25220,
+      "resText": "Origin: Center",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Origin > Top left",
+      "text": "牏杩湩›潔⁰敬瑦",
+      "menuId": 25230,
+      "resText": "Origin: Top left",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Origin > Top center",
+      "text": "牏杩湩›潔⁰散瑮牥",
+      "menuId": 25240,
+      "resText": "Origin: Top center",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Origin > Top right",
+      "text": "牏杩湩›潔⁰楲桧t",
+      "menuId": 25250,
+      "resText": "Origin: Top right",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Origin > Left center",
+      "text": "牏杩湩›敌瑦挠湥整r",
+      "menuId": 25260,
+      "resText": "Origin: Left center",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Origin > Right center",
+      "text": "牏杩湩›楒桧⁴散瑮牥",
+      "menuId": 25270,
+      "resText": "Origin: Right center",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Origin > Bottom left",
+      "text": "牏杩湩›潂瑴浯氠晥t",
+      "menuId": 25280,
+      "resText": "Origin: Bottom left",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Origin > Bottom center",
+      "text": "牏杩湩›潂瑴浯挠湥整r",
+      "menuId": 25290,
+      "resText": "Origin: Bottom center",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Origin > Bottom right",
+      "text": "牏杩湩›潂瑴浯爠杩瑨",
+      "menuId": 25300,
+      "resText": "Origin: Bottom right",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Origin > Custom",
+      "text": "牏杩湩›〥‬ㄥ",
+      "menuId": 25310,
+      "resText": "Origin: %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "X杩湩›〥‬ㄥ",
+        "Y杩湩›〥‬ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Offsets > Set source X offset",
+      "text": "敓⁴⁘景獦瑥琠㩯┠0",
+      "menuId": 25320,
+      "resText": "Set X offset to: %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湡堠漠晦敳⁴慶畬e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Offsets > Set source Y offset",
+      "text": "敓⁴⁙景獦瑥琠㩯┠0",
+      "menuId": 25330,
+      "resText": "Set Y offset to: %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡⁙景獦瑥瘠污敵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Offsets > X offset multiplier",
+      "text": "敓⁴⁘景晦敳⁴畭瑬灩楬牥琠㩯┠0",
+      "menuId": 25340,
+      "resText": "Set X offfset multiplier to: %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湡漠晦敳⁴畭瑬灩楬牥⠠汦慯⁴‭慣⁮敢渠来瑡癩⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Offsets > Y offset multiplier",
+      "text": "敓⁴⁙景晦敳⁴畭瑬灩楬牥琠㩯┠0",
+      "menuId": 25350,
+      "resText": "Set Y offfset multiplier to: %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湡漠晦敳⁴畭瑬灩楬牥⠠汦慯⁴‭慣⁮敢渠来瑡癩⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get X size",
+      "text": "楓敺⡘",
+      "menuId": 27000,
+      "resText": "SizeX(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Y size",
+      "text": "楓敺⡙",
+      "menuId": 27010,
+      "resText": "SizeY(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get height multiplier",
+      "text": "效杩瑨畍瑬灩楬牥(",
+      "menuId": 27020,
+      "resText": "HeightMultiplier(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get angle",
+      "text": "敇䅴杮敬(",
+      "menuId": 27030,
+      "resText": "GetAngle(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get Hotspot X",
+      "text": "潈獴潰塴(",
+      "menuId": 27040,
+      "resText": "HotspotX(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get Hotspot Y",
+      "text": "潈却潰奴(",
+      "menuId": 27050,
+      "resText": "HotSpotY(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Get Origin X",
+      "text": "牏杩湩⡘",
+      "menuId": 27060,
+      "resText": "OriginX(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Get Origin Y",
+      "text": "牏杩湩⡙",
+      "menuId": 27070,
+      "resText": "OriginY(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Get source X offset",
+      "text": "晏獦瑥⡘",
+      "menuId": 27080,
+      "resText": "OffsetX(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Get source Y offset",
+      "text": "晏獦瑥⡙",
+      "menuId": 27090,
+      "resText": "OffsetY(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Get X offset multiplier",
+      "text": "晏獦瑥浘汵楴汰敩⡲",
+      "menuId": 27100,
+      "resText": "OffsetXmultiplier(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Get Y offset multiplier",
+      "text": "晏獦瑥浙汵楴汰敩⡲",
+      "menuId": 27110,
+      "resText": "OffsetYmultiplier(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

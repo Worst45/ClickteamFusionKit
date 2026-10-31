@@ -1,0 +1,55 @@
+{
+  "file": "strgenobj.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "String Generated?",
+      "text": "漥›瑓楲杮䜠湥牥瑡摥?",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Generate String",
+      "text": "敇敮慲整匠牴湩⁧‭敌杮桴┨⤰‬敌瑴牥㽳┨⤱‬畎扭牥㽳┨⤲‬祓扭汯㽳┨⤳",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敌杮桴传⁦瑓楲杮ⴠ⠠湉䌠慨慲瑣牥⥳爀㽳┨⤱‬畎扭牥㽳┨⤲‬祓扭汯㽳┨⤳",
+        "湉汣摵⁥敌瑴牥㽳ⴠ⠠‰‽潎‬‱‽教⥳㼀┨⤱‬畎扭牥㽳┨⤲‬祓扭汯㽳┨⤳",
+        "湉汣摵⁥畎扭牥㽳ⴠ⠠‰‽潎‬‱‽教⥳㼀┨⤱‬畎扭牥㽳┨⤲‬祓扭汯㽳┨⤳",
+        "湉汣摵⁥祓扭汯㽳ⴠ⠠‰‽潎‬‱‽教⥳㼀┨⤱‬畎扭牥㽳┨⤲‬祓扭汯㽳┨⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Last Generated String",
+      "text": "敇䱴獡䝴湥牥瑡摥瑓楲杮⠤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "file": "storefloat.mfx",
+  "conditions": [],
+  "actions": [],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Store Float",
+      "text": "瑓牯䙥潬瑡(",
+      "menuId": 27000,
+      "resText": "StoreFloat(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Read Float",
+      "text": "敒摡汆慯⡴",
+      "menuId": 27010,
+      "resText": "ReadFloat(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

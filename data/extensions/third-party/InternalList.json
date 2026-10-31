@@ -1,0 +1,371 @@
+{
+  "file": "InternalList.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Item Exists in List",
+      "text": "漥›瑉浥┠‰獩椠⁮楌瑳",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑉浥匠牴湩g獩椠⁮楌瑳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On Custom Sort",
+      "text": "漥›湏䌠獵潴⁭潓瑲",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "On Error",
+      "text": "漥›湏䔠牲牯",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Insert Item",
+      "text": "湉敳瑲䤠整⁭〥戠晥牯⁥ㄥ‬㈥琠浩獥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "瑉浥匠牴湩g〥戠晥牯⁥ㄥ‬㈥琠浩獥",
+        "湉敳瑲䈠晥牯e戠晥牯⁥ㄥ‬㈥琠浩獥",
+        "畎扭牥漠⁦楔敭⁳潴䤠獮牥t㈥琠浩獥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Change Item",
+      "text": "桃湡敧䤠整⁭〥琠⁯ㄥ",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "湉敤x䤠整⁭〥琠⁯ㄥ",
+        "敎⁷瑉浥匠牴湩g⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Copy Items",
+      "text": "潃祰䤠整獭嬠〥‬ㄥ 潴┠ⰲ传敶睲楲整㴠┠3",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "瑓牡⁴椨据畬敤⥤㄀ 潴┠ⰲ传敶睲楲整㴠┠3",
+        "湅⁤攨捸畬敤⥤⤀㄀ 潴┠ⰲ传敶睲楲整㴠┠3",
+        "潃祰琠⁯敢潦敲⤀㄀ 潴┠ⰲ传敶睲楲整㴠┠3",
+        "‰‽湉敳瑲‬湡瑹楨杮攠獬⁥‽癏牥牷瑩e┠3"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Delete Items",
+      "text": "敄敬整䤠整獭嬠〥‬ㄥ)",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "瑓牡⁴椨据畬敤⥤ ㄥ)",
+        "湅⁤攨捸畬敤⥤⤀ ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Clear List",
+      "text": "汃慥⁲楌瑳",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Save List to File",
+      "text": "慓敶䰠獩⁴潴䘠汩⁥〥眠瑩⁨瑩浥䐠汥浩瑩牥┠‱湡⁤獅慣数眠瑩⁨㈥",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "楆敬倠瑡⁨潴匠癡⁥潴眀瑩⁨瑩浥䐠汥浩瑩牥┠‱湡⁤獅慣数眠瑩⁨㈥",
+        "瑉浥䐠汥浩瑩牥⠠獥慣数⁤牦浯椠整獭)瑩牥┠‱湡⁤獅慣数眠瑩⁨㈥",
+        "獅慣数䌠慨慲瑣牥猨 攨捳灡摥映潲⁭瑩浥⥳─‱湡⁤獅慣数眠瑩⁨㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Load List from File",
+      "text": "潌摡䰠獩⁴牦浯䘠汩⁥〥眠瑩⁨瑩浥䐠汥浩瑩牥┠‱湡⁤獅慣数眠瑩⁨㈥‬湡⁤湉敳瑲戠晥牯⁥㌥",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "楆敬倠瑡⁨潴䰠慯⁤牦浯眀瑩⁨瑩浥䐠汥浩瑩牥┠‱湡⁤獅慣数眠瑩⁨㈥‬湡⁤湉敳瑲戠晥牯⁥㌥",
+        "瑉浥䐠汥浩瑩牥⠠獥慣数⁤牦浯椠整獭)浩瑩牥┠‱湡⁤獅慣数眠瑩⁨㈥‬湡⁤湉敳瑲戠晥牯⁥㌥",
+        "獅慣数䌠慨慲瑣牥猨 攨捳灡摥映潲⁭瑩浥⥳爀┠‱湡⁤獅慣数眠瑩⁨㈥‬湡⁤湉敳瑲戠晥牯⁥㌥",
+        "湉敳瑲䈠晥牯e牥猨 攨捳灡摥映潲⁭瑩浥⥳爀┠‱湡⁤獅慣数眠瑩⁨㈥‬湡⁤湉敳瑲戠晥牯⁥㌥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Load List from String",
+      "text": "潌摡䰠獩⁴牦浯匠牴湩⁧〥眠瑩⁨瑩浥䐠汥浩瑩牥┠‱湡⁤獅慣数眠瑩⁨㈥‬湡⁤湉敳瑲戠晥牯⁥㌥",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "瑓楲杮琠⁯潌摡映潲m⁧〥眠瑩⁨瑩浥䐠汥浩瑩牥┠‱湡⁤獅慣数眠瑩⁨㈥‬湡⁤湉敳瑲戠晥牯⁥㌥",
+        "瑉浥䐠汥浩瑩牥⠠獥慣数⁤牦浯椠整獭)汥浩瑩牥┠‱湡⁤獅慣数眠瑩⁨㈥‬湡⁤湉敳瑲戠晥牯⁥㌥",
+        "獅慣数䌠慨慲瑣牥猨 攨捳灡摥映潲⁭瑩浥⥳琀牥┠‱湡⁤獅慣数眠瑩⁨㈥‬湡⁤湉敳瑲戠晥牯⁥㌥",
+        "湉敳瑲䈠晥牯e牥猨 攨捳灡摥映潲⁭瑩浥⥳琀牥┠‱湡⁤獅慣数眠瑩⁨㈥‬湡⁤湉敳瑲戠晥牯⁥㌥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Sort List in Range",
+      "text": "潓瑲䰠獩⁴湩爠湡敧嬠〥‬ㄥ 楷桴匠牯⁴牏敤⁲㈥",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "瑓牡⁴椨据畬敤⥤攀嬠〥‬ㄥ 楷桴匠牯⁴牏敤⁲㈥",
+        "湅⁤攨捸畬敤⥤⤀攀嬠〥‬ㄥ 楷桴匠牯⁴牏敤⁲㈥",
+        "‰‽ⱡ戠‬㭣ㄠ㴠挠‬Ɫ愠※湡瑹楨杮攠獬⁥‽畃瑳浯匠牯t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Custom Sort: Return True/False",
+      "text": "敓⁴畃瑳浯匠牯⁴敒畴湲琠⁯〥",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰‽慦獬ⱥ愠祮桴湩⁧汥敳㴠琠畲e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Reserve More Space",
+      "text": "敒敳癲⁥灳捡⁥潦⁲瑡氠慥瑳┠‰潴慴⁬瑩浥s",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楍楮畭⁭灓捡⁥慗瑮摥氀慥瑳┠‰潴慴⁬瑩浥s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Item",
+      "text": "瑉浥⠤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "瑉浥䤠摮硥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Number of Items",
+      "text": "瑉浥⡳",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Number of Item Occurrences",
+      "text": "瑉浥捏畣牲湥散⡳",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "瑉浥匠牴湩g散⡳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get Index of Item by Occurrence",
+      "text": "湉敤䉸佹捣牵敲据⡥",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "瑉浥匠牴湩g敲据⡥",
+        "捏畣牲湥散⌠⠠ⴱ慢敳⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get List as String",
+      "text": "楌瑳⠤",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "瑉浥䐠汥浩瑩牥⠠獥慣数⁤牦浯椠整獭)",
+        "獅慣数䌠慨慲瑣牥猨 攨捳灡摥映潲⁭瑩浥⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Custom Sort: Get String A",
+      "text": "潓瑲瑓䅲⠤",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Custom Sort: Get String B",
+      "text": "潓瑲瑓䉲⠤",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Get Capacity",
+      "text": "慃慰楣祴(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

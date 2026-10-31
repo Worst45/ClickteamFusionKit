@@ -1,0 +1,872 @@
+{
+  "file": "ModFusionEX.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Error Occured",
+      "text": "漥›牅潲⁲捏畣敲d",
+      "menuId": 26000,
+      "resText": "%o: Error Occured",
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Playback > Mod Is Playing",
+      "text": "漥›潍⁤獩倠慬楹杮漠⁮牔捡⁫〥",
+      "menuId": 26010,
+      "resText": "%o: Mod is Playing on Track %0",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牔捡⁫䑉猀倠慬楹杮漠⁮牔捡⁫〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Playback > Mod Is Paused",
+      "text": "漥›潍⁤獩倠畡敳⁤湯吠慲正┠0",
+      "menuId": 26020,
+      "resText": "%o: Mod is Paused on Track %0",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牔捡⁫䑉猀倠畡敳⁤湯吠慲正┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Loading > Cache is Used",
+      "text": "漥›慃档⁥〥椠⁳獕摥",
+      "menuId": 26030,
+      "resText": "%o: Cache %0 is Used",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慃档⁥䑉 〥椠⁳獕摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Loading > Cache is Loaded",
+      "text": "漥›慃档⁥〥椠⁳潌摡摥",
+      "menuId": 26040,
+      "resText": "%o: Cache %0 is Loaded",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慃档⁥䑉 〥椠⁳潌摡摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Music Sync > On Beat",
+      "text": "漥›湏䈠慥⁴湩吠慲正┠0",
+      "menuId": 26050,
+      "resText": "%o: On Beat in Track %0",
+      "flags": 32,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牔捡⁫䑉愀⁴湩吠慲正┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Loading > Load Mod into Cache",
+      "text": "潌摡䴠摯┠‰湩潴䌠捡敨䤠⁄ㄥ",
+      "menuId": 25000,
+      "resText": "Load Mod %0 into Cache ID %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "潍⁤楆敬慮敭渀潴䌠捡敨䤠⁄ㄥ",
+        "慃档⁥䑉愀敭渀潴䌠捡敨䤠⁄ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Loading > Load Mod into Track",
+      "text": "潌摡䴠摯┠‰湩潴吠慲正┠1",
+      "menuId": 25020,
+      "resText": "Load Mod %0 into Track %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慃档⁥䑉─‰湩潴吠慲正┠1",
+        "牔捡⁫䑉─‰湩潴吠慲正┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Loading > Free Memory > Empty Entire Cache",
+      "text": "浅瑰⁹湅楴敲䌠捡敨",
+      "menuId": 25030,
+      "resText": "Empty Entire Cache",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Loading > Quick Load Mod",
+      "text": "潌摡䴠摯┠‰潴䌠捡敨┠‱湩潴吠慲正┠2",
+      "menuId": 25040,
+      "resText": "Load Mod %0 to Cache %1 into Track %2",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潍⁤楆敬慮敭漀䌠捡敨┠‱湩潴吠慲正┠2",
+        "慃档⁥䑉愀敭漀䌠捡敨┠‱湩潴吠慲正┠2",
+        "牔捡⁫䑉愀敭漀䌠捡敨┠‱湩潴吠慲正┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Loading > WGM > Load WGM",
+      "text": "潌摡圠䵇┠0",
+      "menuId": 25050,
+      "resText": "Load WGM %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "䝗M圠䵇┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Loading > WGM > Load WGM Unit (ID) to Cache",
+      "text": "潌摡圠䵇唠楮⁴〥琠⁯慃档⁥ㄥ",
+      "menuId": 25070,
+      "resText": "Load WGM Unit %0 to Cache %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "䝗⁍湕瑩唀楮⁴〥琠⁯慃档⁥ㄥ",
+        "慃档⁥䑉唀楮⁴〥琠⁯慃档⁥ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Loading > WGM > Load WGM Unit (STR) to Cache",
+      "text": "潌摡圠䵇唠楮⁴〥琠⁯慃档⁥ㄥ",
+      "menuId": 25080,
+      "resText": "Load WGM Unit %0 to Cache %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "䝗⁍湕瑩匠牴湩⁧䑉 慃档⁥ㄥ",
+        "慃档⁥䑉匀牴湩⁧䑉 慃档⁥ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Loading > WSF Options > Set WSF Password",
+      "text": "敓⁴南⁆慐獳潷摲琠⁯〥",
+      "menuId": 25090,
+      "resText": "Set WSF Password to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "南⁆慐獳潷摲漀摲琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Loading > WSF Options > Reset WSP (Vitalize)",
+      "text": "敒敳⁴南P",
+      "menuId": 25100,
+      "resText": "Reset WSP",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Playback > Play Mod",
+      "text": "汐祡䴠摯漠⁮牔捡⁫〥",
+      "menuId": 25110,
+      "resText": "Play Mod on Track %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牔捡⁫䑉漀⁮牔捡⁫〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Playback > Stop Mod",
+      "text": "瑓灯䴠摯漠⁮牔捡⁫〥",
+      "menuId": 25120,
+      "resText": "Stop Mod on Track %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牔捡⁫䑉漀⁮牔捡⁫〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Playback > Stop Mod (with Fade)",
+      "text": "瑓灯䴠摯漠⁮牔捡⁫〥戠⁹慆敤映牯┠洱s",
+      "menuId": 25130,
+      "resText": "Stop Mod on Track %0 by Fade for %1ms",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牔捡⁫䑉漀⁮牔捡⁫〥戠⁹慆敤映牯┠洱s",
+        "慆敤畯⁴楔敭椠⁮卍　戠⁹慆敤映牯┠洱s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Playback > Pause/Resume Mod",
+      "text": "慐獵⽥敒畳敭䴠摯漠⁮牔捡⁫〥",
+      "menuId": 25140,
+      "resText": "Pause/Resume Mod on Track %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牔捡⁫䑉甀敭䴠摯漠⁮牔捡⁫〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Playback > Set Module Volume",
+      "text": "敓⁴潍⁤〥嘠汯浵⁥潴┠1",
+      "menuId": 25150,
+      "resText": "Set Mod %0 Volume to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牔捡⁫䑉　嘠汯浵⁥潴┠1",
+        "潖畬敭䐀　嘠汯浵⁥潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Playback > Set Module Channel Volume",
+      "text": "敓⁴潍⁤〥嘠汯浵⁥湯䌠慨湮汥┠′潴┠1",
+      "menuId": 25160,
+      "resText": "Set Mod %0 Volume on Channel %2 to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牔捡⁫䑉　嘠汯浵⁥湯䌠慨湮汥┠′潴┠1",
+        "潖畬敭䐀　嘠汯浵⁥湯䌠慨湮汥┠′潴┠1",
+        "桃湡敮l　嘠汯浵⁥湯䌠慨湮汥┠′潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Playback > Set Module Pan (Balance)",
+      "text": "敓⁴潍⁤〥䈠污湡散琠⁯ㄥ",
+      "menuId": 25170,
+      "resText": "Set Mod %0 Balance to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牔捡⁫䑉　䈠污湡散琠⁯ㄥ",
+        "慐⁮⴨〱〰‰‽敬瑦‬‰‽散瑮牥‬〱〰‰‽楲桧⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Playback > Set Module Tempo",
+      "text": "敓⁴潍⁤〥吠浥潰琠⁯ㄥ",
+      "menuId": 25180,
+      "resText": "Set Mod %0 Tempo to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牔捡⁫䑉　吠浥潰琠⁯ㄥ",
+        "敔灭o䑉　吠浥潰琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Playback > Set Mod Position in ms",
+      "text": "敓⁴潍⁤〥倠獯瑩潩⁮湩䴠⁓潴┠1",
+      "menuId": 25190,
+      "resText": "Set Mod %0 Position in MS to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牔捡⁫䑉　倠獯瑩潩⁮湩䴠⁓潴┠1",
+        "潐楳楴湯椠⁮楍楬敳潣摮s⁓潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Playback > Set Mod Position in Order",
+      "text": "敓⁴潍⁤〥传摲牥琠⁯ㄥ",
+      "menuId": 25200,
+      "resText": "Set Mod %0 Order to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牔捡⁫䑉　传摲牥琠⁯ㄥ",
+        "潐楳楴湯椠⁮牏敤獲 ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Playback > Enable Looping",
+      "text": "湅扡敬䰠潯楰杮漠⁮牔捡⁫〥",
+      "menuId": 25210,
+      "resText": "Enable Looping on Track %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牔捡⁫䑉漀楰杮漠⁮牔捡⁫〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Playback > Disable Looping",
+      "text": "楄慳汢⁥潌灯湩⁧湯吠慲正┠0",
+      "menuId": 25220,
+      "resText": "Disable Looping on Track %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牔捡⁫䑉漀灯湩⁧湯吠慲正┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Auto Fading > Cross Fade Tracks",
+      "text": "牃獯⁳慆敤戠⁹瑓灯吠慲正┠‰湡⁤汐祡┠‱湩┠洲s",
+      "menuId": 25230,
+      "resText": "Cross Fade by Stop Track %0 and Play %1 in %2ms",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牔捡⁫䑉⠠瑓灯)灯吠慲正┠‰湡⁤汐祡┠‱湩┠洲s",
+        "牔捡⁫䑉⠠汐祡)灯吠慲正┠‰湡⁤汐祡┠‱湩┠洲s",
+        "慆敤吠浩⁥䴨⥓"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Auto Fading > Set Fade In",
+      "text": "敓⁴畁潴慭楴⁣慆敤䤠⁮湯琠慲正┠‰潦⁲ㄥ洠s",
+      "menuId": 25240,
+      "resText": "Set Automatic Fade In on track %0 for %1 ms",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牔捡⁫䑉愀楴⁣慆敤䤠⁮湯琠慲正┠‰潦⁲ㄥ洠s",
+        "慆敤吠浩⁥䴨⥓愀敤䤠⁮湯琠慲正┠‰潦⁲ㄥ洠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Auto Fading > Set Fade Out",
+      "text": "敓⁴畁潴慭楴⁣慆敤传瑵漠⁮牴捡⁫〥映牯┠‱獭",
+      "menuId": 25250,
+      "resText": "Set Automatic Fade Out on track %0 for %1 ms",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牔捡⁫䑉愀楴⁣慆敤传瑵漠⁮牴捡⁫〥映牯┠‱獭",
+        "慆敤吠浩⁥䴨⥓愀敤传瑵漠⁮牴捡⁫〥映牯┠‱獭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Music Sync > Set Beat Wave",
+      "text": "敓⁴敂瑡圠癡⁥湯琠慲正┠‰潴ㄠ⠯ㄥ)",
+      "menuId": 25260,
+      "resText": "Set Beat Wave on track %0 to 1/(%1)",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牔捡⁫䑉圀癡⁥湯琠慲正┠‰潴ㄠ⠯ㄥ)",
+        "敂瑡漠⁮癥牥⁹⼱瑮⁨潲⁷景丠浵潒獷⠠敤㵦⤴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Sound Options > Set Sound Settings",
+      "text": "敓⁴剓瑡㵥〥匠楂㵴ㄥ䴠湯㵯㈥删卥浡㵰㌥",
+      "menuId": 25270,
+      "resText": "Set SRate=%0 SBit=%1 Mono=%2 ReSamp=%3",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慓灭楬杮删瑡⁥㈨〲〵‬㐴〱⸰⸮ ⴨‱潤❮⁴档湡敧)",
+        "楂側牥慓灭敬⠠㘱漠⁲⤸⠠ㄭ搠湯琧挠慨杮⥥ 档湡敧)",
+        "潍潮‿〨匽整敲Ɐㄠ䴽湯⥯⠠ㄭ搠湯琧挠慨杮⥥栀湡敧)",
+        "敒慳灭楬杮儠慵楬祴⠠ⴱ‴㴱潬⁷㴴楨桧 ⴨‱潤❮⁴档湡敧)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Sound Options > Display User Dialog for Settings",
+      "text": "楄灳慬⁹獕牥䐠慩潬⁧潦⁲敓瑴湩獧",
+      "menuId": 25280,
+      "resText": "Display User Dialog for Settings",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Sound Options > Load User Settings",
+      "text": "潌摡唠敳⁲敓瑴湩獧映潲⁭䑉┠0",
+      "menuId": 25290,
+      "resText": "Load User Settings from ID %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湕煩敵䄠灰楬慣楴湯䤠D⁭䑉┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Sound Options > Save User Settings",
+      "text": "慓敶唠敳⁲敓瑴湩獧映潲⁭䑉┠0",
+      "menuId": 25300,
+      "resText": "Save User Settings from ID %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湕煩敵䄠灰楬慣楴湯䤠D⁭䑉┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Display Error",
+      "text": "楄灳慬⁹牅潲r",
+      "menuId": 25310,
+      "resText": "Display Error",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Playback > Seek to Order at End of Current Order",
+      "text": "牔⁫〥›敓步琠⁯牏敤⁲ㄥ愠⁴湥⁤景挠牵敲瑮传摲牥",
+      "menuId": 25320,
+      "resText": "Trk %0: Seek to Order %1 at end of current Order",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牔捡⁫䑉攀步琠⁯牏敤⁲ㄥ愠⁴湥⁤景挠牵敲瑮传摲牥",
+        "牏敤⁲潴猠敥⁫潴爀敤⁲ㄥ愠⁴湥⁤景挠牵敲瑮传摲牥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Loading > Free Memory > Empty Entire Track-Bank",
+      "text": "浅瑰⁹牔捡獫",
+      "menuId": 25330,
+      "resText": "Empty Tracks",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Loading > Free Memory > Empty Idle Tracks",
+      "text": "浅瑰⁹摉敬吠慲正s",
+      "menuId": 25340,
+      "resText": "Empty Idle Tracks",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Loading > Free Memory > Empty Track",
+      "text": "浅瑰⁹牔捡⁫〥",
+      "menuId": 25350,
+      "resText": "Empty Track %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牔捡⁫潴䔠灭祴⠠楗汬匠潴⁰牔捡⥫"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Music Sync > FFT > Begin FFT Process",
+      "text": "瑓牡⁴䙆⁔牐捯獥⁳湯琠慲正┠0",
+      "menuId": 25360,
+      "resText": "Start FFT Process on track %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牔捡k䙆⁔牐捯獥⁳湯琠慲正┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Music Sync > FFT > Close FFT Process",
+      "text": "汃獯⁥䙆⁔牐捯獥⁳湯琠慲正┠0",
+      "menuId": 25370,
+      "resText": "Close FFT Process on track %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牔捡k䙆⁔牐捯獥⁳湯琠慲正┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Music Sync > FFT > Set Number of FFT Bars to Generate",
+      "text": "敓⁴畎扭牥漠⁦䙆⁔慂獲琠⁯敇敮慲整琠⁯〥",
+      "menuId": 25380,
+      "resText": "Set Number of FFT Bars to Generate to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畎扭牥漠⁦慂獲琠⁯敇敮慲整攀敮慲整琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Playback > Mod Position in Orders (track)",
+      "text": "潍偤獯牏⡤",
+      "menuId": 27000,
+      "resText": "ModPosOrd(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Playback > Mod Position in MS (track)",
+      "text": "潍偤獯卍(",
+      "menuId": 27010,
+      "resText": "ModPosMS(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Playback > Mod Volume (track)",
+      "text": "潍噤汯(",
+      "menuId": 27020,
+      "resText": "ModVol(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Playback > Mod Channel Volume (track, ch)",
+      "text": "潍䍤噈汯(",
+      "menuId": 27030,
+      "resText": "ModCHVol(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Playback > Mod Tempo (track)",
+      "text": "潍呤浥潰(",
+      "menuId": 27040,
+      "resText": "ModTempo(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "WSF/WGM > Get WSF Tag (from Cached WSF) (cache)",
+      "text": "南呆条⠤",
+      "menuId": 27050,
+      "resText": "WSFTag$(",
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "WSF/WGM > WGM Unit for String ID (string ID)",
+      "text": "䝗啍楮䙴牯瑓䥲⡄",
+      "menuId": 27060,
+      "resText": "WGMUnitForStrID(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Music Sync > Get Visual Data (track,offset)",
+      "text": "潍噤卉慄慴(",
+      "menuId": 27070,
+      "resText": "ModVISData(",
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Error String",
+      "text": "牅潲卲牴⠤",
+      "menuId": 27080,
+      "resText": "ErrorStr$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Music Sync > FFT Data (track,offset)",
+      "text": "䙆䑔瑡⡡",
+      "menuId": 27090,
+      "resText": "FFTData(",
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Music Sync > FFT Bar (track, bar)",
+      "text": "䙆䉔牡(",
+      "menuId": 27100,
+      "resText": "FFTBar(",
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

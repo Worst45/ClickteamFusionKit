@@ -1,0 +1,335 @@
+{
+  "file": "Archive.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On Error",
+      "text": "漥›湏䔠牲牯",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Archive Is Open?",
+      "text": "漥›牁档癩⁥獉传数㽮",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "All Progress Finished?",
+      "text": "漥›汁⁬牐杯敲獳䘠湩獩敨㽤",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Files > File Added To Archive?",
+      "text": "漥›楆敬䄠摤摥吠⁯牁档癩㽥",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Files > Folder Added To Archive?",
+      "text": "漥›潆摬牥䄠摤摥吠⁯牁档癩㽥",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Files > File Removed From Archive?",
+      "text": "漥›楆敬删浥癯摥䘠潲⁭牁档癩㽥",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Files > File Extracted From Archive?",
+      "text": "漥›楆敬䔠瑸慲瑣摥䘠潲⁭牁档癩㽥",
+      "menuId": 26060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Files > File Deleted From Disk?",
+      "text": "漥›楆敬䐠汥瑥摥䘠潲⁭楄歳?",
+      "menuId": 26070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Files > FileName List Generated?",
+      "text": "漥›楆敬慎敭䰠獩⁴敇敮慲整㽤",
+      "menuId": 26080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "File Queue > File Added To Queue?",
+      "text": "漥›楆敬䄠摤摥吠⁯畑略㽥",
+      "menuId": 26090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "File Queue > Folder Added To Queue?",
+      "text": "漥›潆摬牥䄠摤摥吠⁯畑略㽥",
+      "menuId": 26100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "File Queue > Queue Cleared?",
+      "text": "漥›畑略⁥汃慥敲㽤",
+      "menuId": 26110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [],
+  "actions_status": "menu ressources",
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Last Error",
+      "text": "慌瑳牅潲⑲(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Current Password",
+      "text": "敇䍴牵敲瑮慐獳潷摲⠤",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "File Info > Last File Queued",
+      "text": "慌瑳楆敬畑略摥⠤",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "File Info > Last Folder Queued",
+      "text": "慌瑳畑略摥潆摬牥⠤",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "File Info > Last File Added",
+      "text": "慌瑳楆敬摁敤⑤(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "File Info > Last Folder Added",
+      "text": "慌瑳潆摬牥摁敤⑤(",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "File Info > Last File Removed",
+      "text": "慌瑳楆敬敒潭敶⑤(",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "File Info > Last File Extracted",
+      "text": "慌瑳楆敬硅牴捡整⑤(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "File Info > Last File Deleted",
+      "text": "慌瑳楆敬敄敬整⑤(",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "FileName From Index",
+      "text": "楆敬慎敭牆浯湉敤⑸(",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "牁档癩⁥楆敬慐桴␀(",
+        "湉敤x⁥楆敬慐桴␀("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Get Archive Size",
+      "text": "敇䅴捲楨敶楓敺(",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "牁档癩⁥楆敬慐桴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "File Queue > Number Of Files In Queue",
+      "text": "畎扭牥晏楆敬䥳兮敵敵(",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "File Queue > Number Of Folders In Queue",
+      "text": "畎扭牥晏潆摬牥䥳兮敵敵(",
+      "menuId": 27120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "File Queue > Number Of Files In Archive",
+      "text": "畎扭牥晏楆敬䥳䅮捲楨敶(",
+      "menuId": 27130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "牁档癩⁥楆敬慐桴挀楨敶("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "file": "Key.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Is key down? (Virtual Key value)",
+      "text": "漥›獉欠祥渠浵敢⁲〥搠睯㽮",
+      "menuId": 26000,
+      "resText": "%o: Is key number %0 down?",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲楖瑲慵⁬敋y〥搠睯㽮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Is key down? (Key name)",
+      "text": "漥›獉欠祥┠‰潤湷?",
+      "menuId": 26001,
+      "resText": "%o: Is key %0 down?",
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲敋⁹慎敭漀湷?"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Is key down? (Dialog)",
+      "text": "漥›獉欠祥┠‰潤湷?",
+      "menuId": 26002,
+      "resText": "%o: Is key %0 down?",
+      "flags": 544,
+      "paramTypes": [
+        14
+      ],
+      "paramTitles": [
+        "敓敬瑣䬠祥─‰潤湷?"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "On key pressed (Virtual Key value)",
+      "text": "漥传⁮敫⁹畮扭牥┠‰牰獥敳d",
+      "menuId": 26003,
+      "resText": "%o On key number %0 pressed",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲楖瑲慵⁬敋y‰牰獥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "On key pressed (Key name)",
+      "text": "漥传⁮敫⁹〥瀠敲獳摥",
+      "menuId": 26004,
+      "resText": "%o On key %0 pressed",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲敋⁹慎敭攀獳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "On key pressed (Dialog)",
+      "text": "漥传⁮敫⁹〥瀠敲獳摥",
+      "menuId": 26005,
+      "resText": "%o On key %0 pressed",
+      "flags": 0,
+      "paramTypes": [
+        14
+      ],
+      "paramTitles": [
+        "敓敬瑣䬠祥　瀠敲獳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "On key released (Virtual Key value)",
+      "text": "漥传⁮敫⁹畮扭牥┠‰敲敬獡摥",
+      "menuId": 26006,
+      "resText": "%o On key number %0 released",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲楖瑲慵⁬敋y‰敲敬獡摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "On key released (Key name)",
+      "text": "漥传⁮敫⁹〥爠汥慥敳d",
+      "menuId": 26007,
+      "resText": "%o On key %0 released",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲敋⁹慎敭氀慥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "On key released (Dialog)",
+      "text": "漥传⁮敫⁹〥爠汥慥敳d",
+      "menuId": 26008,
+      "resText": "%o On key %0 released",
+      "flags": 0,
+      "paramTypes": [
+        14
+      ],
+      "paramTitles": [
+        "敓敬瑣䬠祥　爠汥慥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Disable input for this application",
+      "text": "楄慳汢e",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Enable input for this application",
+      "text": "湅扡敬",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set Player key",
+      "text": "敓⁴敫⁹畮扭牥┠‱湩倠慬敹⁲〥琠⁯㈥",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "汐祡牥丠浵敢⁲ㄨ㐭)倠慬敹⁲〥琠⁯㈥",
+        "敋⁹畎扭牥⠠ⴰ⤷㐀)倠慬敹⁲〥琠⁯㈥",
+        "湅整⁲楖瑲慵⁬敋y)倠慬敹⁲〥琠⁯㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Set Player control type",
+      "text": "敓⁴潣瑮潲⁬祴数映牯倠慬敹⁲〥琠⁯ㄥ",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "汐祡牥丠浵敢⁲ㄨ㐭)倠慬敹⁲〥琠⁯ㄥ",
+        "潃瑮潲⁬祔数⠠ⴱ⤵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get key as string",
+      "text": "敇䭴祥瑓⑲(",
+      "menuId": 27000,
+      "resText": "GetKeyStr$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲楖瑲慵⁬敋y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get key as value",
+      "text": "敇䭴祥慖⡬",
+      "menuId": 27001,
+      "resText": "GetKeyVal(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "湅整⁲敋⁹慎敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get last key pressed (Virtual Key value)",
+      "text": "敇䱴獡䭴祥慖⡬",
+      "menuId": 27002,
+      "resText": "GetLastKeyVal(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get last key pressed (Key name)",
+      "text": "敇䱴獡䭴祥瑓⑲(",
+      "menuId": 27003,
+      "resText": "GetLastKeyStr$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get last key released (Virtual Key value)",
+      "text": "敇䱴獡剴敋噹污(",
+      "menuId": 27004,
+      "resText": "GetLastRKeyVal(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get last key released (Key name)",
+      "text": "敇䱴獡瑒敋卹牴⠤",
+      "menuId": 27006,
+      "resText": "Using sepcific keys would return Left Alt and Right Alt instead of just Alt for example.",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Get key from Player",
+      "text": "敇䭴祥牆浯汐祡牥(",
+      "menuId": 27007,
+      "resText": "Use Specific Keys",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "汐祡牥丠浵敢⁲ㄨ㐭)",
+        "敋⁹畎扭牥⠠ⴰ⤷㐀)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Get Player control type",
+      "text": "敇側慬敹䍲湯牴汯祔数(",
+      "menuId": 27008,
+      "resText": "GetKeyFromPlayer(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "汐祡牥丠浵敢⁲ㄨ㐭)("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

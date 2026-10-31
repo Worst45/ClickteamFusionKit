@@ -1,0 +1,63 @@
+{
+  "file": "BitMask.mfx",
+  "conditions": [],
+  "actions": [],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Bit mask on two numbers (first,second,mask)",
+      "text": "楂䵴獡⡫",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        3
+      ],
+      "paramTitles": [
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Bit mask on one number (number,mask)",
+      "text": "楓杮敬慍歳(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        3
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Nth Bit",
+      "text": "瑎䉨瑩(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

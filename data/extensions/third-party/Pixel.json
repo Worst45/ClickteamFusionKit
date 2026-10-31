@@ -1,0 +1,247 @@
+{
+  "file": "Pixel.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Compare Color",
+      "text": "漥㨠圠敨⁮楰數⁬瑡┠‰‬ㄥ椠⁳煥慵⁬潴┠2",
+      "menuId": 26000,
+      "resText": "%o : When pixel at %0 , %1 is equal to %2",
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "⁘潐楳楴湯椀數⁬瑡┠‰‬ㄥ椠⁳煥慵⁬潴┠2",
+        "⁙潐楳楴湯椀數⁬瑡┠‰‬ㄥ椠⁳煥慵⁬潴┠2",
+        "潃潬r楴湯椀數⁬瑡┠‰‬ㄥ椠⁳煥慵⁬潴┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Compare Red",
+      "text": "漥㨠圠敨⁮敳敬瑣摥瀠硩汥猧删摥┠0",
+      "menuId": 26001,
+      "resText": "%o : When selected pixel's Red %0",
+      "flags": 32,
+      "paramTypes": [
+        23
+      ],
+      "paramTitles": [
+        "敒d圠敨⁮敳敬瑣摥瀠硩汥猧删摥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Compare Green",
+      "text": "漥㨠圠敨⁮敳敬瑣摥瀠硩汥猧䜠敲湥┠0",
+      "menuId": 26002,
+      "resText": "%o : When selected pixel's Green %0",
+      "flags": 32,
+      "paramTypes": [
+        23
+      ],
+      "paramTitles": [
+        "片敥n敨⁮敳敬瑣摥瀠硩汥猧䜠敲湥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Compare Blue",
+      "text": "漥㨠圠敨⁮敳敬瑣摥瀠硩汥猧䈠畬⁥〥",
+      "menuId": 26003,
+      "resText": "%o : When selected pixel's Blue %0",
+      "flags": 32,
+      "paramTypes": [
+        23
+      ],
+      "paramTitles": [
+        "求敵圀敨⁮敳敬瑣摥瀠硩汥猧䈠畬⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Select pixel to compare (Only in compare R/G/B)",
+      "text": "漥›桔⁥楰數⁬潴挠浯慰敲椠⁳〥Ⱐ┠1",
+      "menuId": 26004,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘潐楳楴湯攀⁬潴挠浯慰敲椠⁳〥Ⱐ┠1",
+        "⁙潐楳楴湯攀⁬潴挠浯慰敲椠⁳〥Ⱐ┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Pixel",
+      "text": "敓⁴楐數⁬瑡┠‰‬ㄥ琠⁯㈥",
+      "menuId": 25000,
+      "resText": "Set Pixel at %0 , %1 to %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "⁘潐楳楴湯琀┠‰‬ㄥ琠⁯㈥",
+        "⁙潐楳楴湯琀┠‰‬ㄥ琠⁯㈥",
+        "潃潬r楴湯琀┠‰‬ㄥ琠⁯㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set Red",
+      "text": "敓⁴敒⁤瑡┠‰‬ㄥ琠⁯㈥",
+      "menuId": 25001,
+      "resText": "Set Red at %0 , %1 to %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘潐楳楴湯─‰‬ㄥ琠⁯㈥",
+        "⁙潐楳楴湯─‰‬ㄥ琠⁯㈥",
+        "敒d楳楴湯─‰‬ㄥ琠⁯㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set Green",
+      "text": "敓⁴片敥⁮瑡┠‰‬ㄥ琠⁯㈥",
+      "menuId": 25002,
+      "resText": "Set Green at %0 , %1 to %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘潐楳楴湯琀┠‰‬ㄥ琠⁯㈥",
+        "⁙潐楳楴湯琀┠‰‬ㄥ琠⁯㈥",
+        "片敥n楴湯琀┠‰‬ㄥ琠⁯㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Set Blue",
+      "text": "敓⁴求敵愠⁴〥Ⱐ┠‱潴┠2",
+      "menuId": 25003,
+      "resText": "Set Blue at %0 , %1 to %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘潐楳楴湯 〥Ⱐ┠‱潴┠2",
+        "⁙潐楳楴湯 〥Ⱐ┠‱潴┠2",
+        "求敵椀楴湯 〥Ⱐ┠‱潴┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get color at",
+      "text": "敇側硩汥(",
+      "menuId": 27000,
+      "resText": "GetPixel(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "X側硩汥(",
+        "Y側硩汥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Red at",
+      "text": "敇剴摥瑁(",
+      "menuId": 27001,
+      "resText": "GetRedAt(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "X剴摥瑁(",
+        "Y剴摥瑁("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Green at",
+      "text": "敇䝴敲湥瑁(",
+      "menuId": 27002,
+      "resText": "GetGreenAt(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "X䝴敲湥瑁(",
+        "Y䝴敲湥瑁("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get Blue at",
+      "text": "敇䉴畬䅥⡴",
+      "menuId": 27003,
+      "resText": "GetBlueAt(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "X䉴畬䅥⡴",
+        "Y䉴畬䅥⡴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

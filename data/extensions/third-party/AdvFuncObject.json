@@ -1,0 +1,457 @@
+{
+  "file": "AdvFuncObject.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On Function",
+      "text": "漥›湏䘠湵瑣潩⁮〥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 512,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畆据楴湯丠浡e⁮〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Call Function",
+      "text": "漥›畆据楴湯┠0",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "畆据楴湯丠浡e0",
+        "汃慥⁲慐慲敭整獲愠瑦牥䘠湵瑣潩㽮〠㴠礠獥‬湡瑹楨杮攠獬⁥‽潮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Add/Set String Parameter",
+      "text": "敓⁴瑓楲杮倠牡浡瑥牥┠‰潴┠1",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮倠牡浡瑥牥丠浡e‰潴┠1",
+        "瑓楲杮倠牡浡瑥牥一浡e‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Add/Set Integer Parameter",
+      "text": "敓⁴湉整敧⁲慐慲敭整⁲〥琠⁯ㄥ",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湉整敧⁲慐慲敭整⁲慎敭　琠⁯ㄥ",
+        "湉整敧⁲慐慲敭整r慎敭　琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Add/Set Float Parameter",
+      "text": "敓⁴汆慯⁴慐慲敭整⁲〥琠⁯ㄥ",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "汆慯⁴慐慲敭整⁲慎敭　琠⁯ㄥ",
+        "汆慯⁴慐慲敭整r慎敭　琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Call Function",
+      "text": "慃汬䘠湵瑣潩⁮〥⠠潄❮⁴汃慥⁲慐慲獭㴠┠⤱",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "畆据楴湯丠浡e〥⠠潄❮⁴汃慥⁲慐慲獭㴠┠⤱",
+        "汃慥⁲慐慲敭整獲愠瑦牥䘠湵瑣潩㽮〠㴠礠獥‬湡瑹楨杮攠獬⁥‽潮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Set Integer Return Value",
+      "text": "敓⁴湉整敧⁲敒畴湲琠⁯〥",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湉整敧⁲敒畴湲嘠污敵 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Set Float Return Value",
+      "text": "敓⁴汆慯⁴敒畴湲琠⁯〥",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汆慯⁴敒畴湲嘠污敵 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Set String Return Value",
+      "text": "敓⁴瑓楲杮删瑥牵⁮潴┠0",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮删瑥牵⁮慖畬e┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Name of Current Function",
+      "text": "畃牲湥⁴畆据楴湯⠤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Number of Integer Parameters",
+      "text": "湉整敧⁲慐慲獭(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Number of Float Parameters",
+      "text": "汆慯⁴慐慲獭(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get Number of String Parameters",
+      "text": "瑓楲杮倠牡浡⡳",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Call Integer Function",
+      "text": "湉整敧⁲畆据楴湯(",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "畆据楴湯丠浡e湯(",
+        "汃慥⁲慐慲敭整獲愠瑦牥䘠湵瑣潩㽮〠㴠礠獥‬湡瑹楨杮攠獬⁥‽潮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Call Float Function",
+      "text": "汆慯⁴畆据楴湯(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "畆据楴湯丠浡e(",
+        "汃慥⁲慐慲敭整獲愠瑦牥䘠湵瑣潩㽮〠㴠礠獥‬湡瑹楨杮攠獬⁥‽潮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Call String Function",
+      "text": "瑓楲杮䘠湵瑣潩⑮(",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "畆据楴湯丠浡e⑮(",
+        "汃慥⁲慐慲敭整獲愠瑦牥䘠湵瑣潩㽮〠㴠礠獥‬湡瑹楨杮攠獬⁥‽潮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Get Integer Parameter",
+      "text": "湉整敧⁲慐慲敭整⡲",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慐慲敭整⁲慎敭攀⡲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Get Float Parameter",
+      "text": "汆慯⁴慐慲敭整⡲",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慐慲敭整⁲慎敭⠀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Get String Parameter",
+      "text": "瑓楲杮倠牡浡瑥牥⠤",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慐慲敭整⁲慎敭爀⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Get Integer Return Value",
+      "text": "湉整敧⁲敒畴湲(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Get Float Return Value",
+      "text": "汆慯⁴敒畴湲(",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Get String Return Value",
+      "text": "瑓楲杮删瑥牵⑮(",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Set Integer Parameter",
+      "text": "敓⁴湉整敧⁲慐慲敭整⡲",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "湉整敧⁲慐慲敭整⁲慎敭",
+        "湉整敧⁲慐慲敭整r慎敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Set Integer Parameter$",
+      "text": "敓⁴湉整敧⁲慐慲敭整⑲(",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "湉整敧⁲慐慲敭整⁲慎敭",
+        "湉整敧⁲慐慲敭整r慎敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Set Float Parameter",
+      "text": "敓⁴汆慯⁴慐慲敭整⡲",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "汆慯⁴慐慲敭整⁲慎敭",
+        "汆慯⁴慐慲敭整r慎敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Set Float Parameter$",
+      "text": "敓⁴汆慯⁴慐慲敭整⑲(",
+      "menuId": 27016,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "汆慯⁴慐慲敭整⁲慎敭",
+        "汆慯⁴慐慲敭整r慎敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Set String Parameter",
+      "text": "敓⁴瑓楲杮倠牡浡瑥牥(",
+      "menuId": 27017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "瑓楲杮倠牡浡瑥牥丠浡e",
+        "瑓楲杮倠牡浡瑥牥一浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Set String Parameter$",
+      "text": "敓⁴瑓楲杮倠牡浡瑥牥⠤",
+      "menuId": 27018,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "瑓楲杮倠牡浡瑥牥丠浡e",
+        "瑓楲杮倠牡浡瑥牥一浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

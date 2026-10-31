@@ -1,0 +1,319 @@
+{
+  "file": "Nifflas.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On timer",
+      "text": "漥㨠传⁮楴敭⁲〥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楔敭⁲䑉椀敭⁲〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Compare two numbers",
+      "text": "漥㨠䌠浯慰敲┠‰湡⁤ㄥ眠瑩⁨潣灭牡獩湯琠灹⁥㈥",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆獲⁴畮扭牥─‰湡⁤ㄥ眠瑩⁨潣灭牡獩湯琠灹⁥㈥",
+        "敓潣摮渠浵敢r‰湡⁤ㄥ眠瑩⁨潣灭牡獩湯琠灹⁥㈥",
+        "潃灭牡獩湯琠灹⁥〨㴠䔠畱污‬‱‽楄晦牥湥ⱴ㈠㴠䠠杩敨Ⱳ㌠㴠䰠睯牥‬‴‽煅慵⁬牯栠杩敨Ⱳ㔠㴠䔠畱污漠⁲潬敷⥲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set random seed",
+      "text": "敓⁴慲摮浯猠敥⁤潴┠0",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慒摮浯猠敥d敥⁤潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set random seed to timer",
+      "text": "敓⁴慲摮浯猠敥⁤潴琠浩牥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set timer",
+      "text": "敓⁴楴敭⁲楷桴䤠⁄〥琠⁯牴杩敧⁲癥牥⁹ㄥ映慲敭⁳楷桴漠晦敳⁴㈥",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楔敭⁲䑉 楷桴䤠⁄〥琠⁯牴杩敧⁲癥牥⁹ㄥ映慲敭⁳楷桴漠晦敳⁴㈥",
+        "畎扭牥漠⁦牦浡獥 〥琠⁯牴杩敧⁲癥牥⁹ㄥ映慲敭⁳楷桴漠晦敳⁴㈥",
+        "晏獦瑥漀⁦牦浡獥 〥琠⁯牴杩敧⁲癥牥⁹ㄥ映慲敭⁳楷桴漠晦敳⁴㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Remove timer",
+      "text": "敒潭敶琠浩牥眠瑩⁨䑉┠0",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楔敭⁲䑉洀牥眠瑩⁨䑉┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Random",
+      "text": "敇敮慲整慒摮浯(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楍楮畭m慒摮浯(",
+        "慍楸畭m慒摮浯(",
+        "求捯⁫慶畬e浯("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Random with seed",
+      "text": "敓摥慒摮浯(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楍楮畭m浯(",
+        "慍楸畭m浯(",
+        "求捯⁫慶畬e",
+        "敓摥 慶畬e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Sine",
+      "text": "楓敮(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "慖畬e",
+        "祃汣⁥敬杮桴",
+        "楍楮畭m杮桴",
+        "慍楸畭m杮桴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Limit",
+      "text": "楌業⡴",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "慖畬e",
+        "楍楮畭m",
+        "慍楸畭m"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Substr",
+      "text": "畓獢牴⠤",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "瑓楲杮⠀",
+        "瑓牡t⠀",
+        "敌杮桴⠀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Timer value",
+      "text": "楔敭噲污敵(",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楔敭⁲䑉攀("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Cosine",
+      "text": "潃楳敮(",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "慖畬e(",
+        "祃汣⁥敬杮桴",
+        "楍楮畭m杮桴",
+        "慍楸畭m杮桴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Nearest",
+      "text": "敎牡獥⡴",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "慖畬e⡴",
+        "楍楮畭m",
+        "慍楸畭m"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Normalise",
+      "text": "潎浲污獩⡥",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "慖畬e獩⡥",
+        "楍楮畭m⡥",
+        "慍楸畭m⡥",
+        "楌業tm⡥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Modify range",
+      "text": "潍楤祦慒杮⡥",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "慖畬e慒杮⡥",
+        "畃牲湥⁴業楮畭m",
+        "畃牲湥⁴慭楸畭m",
+        "敎⁷業楮畭m畭m",
+        "敎⁷慭楸畭m畭m",
+        "楌業t楸畭m畭m"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

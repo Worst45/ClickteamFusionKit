@@ -1,0 +1,409 @@
+{
+  "file": "ExpEval.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On Error (immediate)",
+      "text": "漥›湏䔠牲牯",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Error Has Occured (not immediate)",
+      "text": "漥›牅潲⁲慈⁳捏畣敲d",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "On Function",
+      "text": "漥›湏䘠湵瑣潩⁮〥",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥慎敭漠⁦桴⁥畆据楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "On Operation",
+      "text": "漥›湏传数慲潴⁲〥",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥灏牥瑡牯⠠潎䰠瑥整獲漠⁲畎扭牥⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "First Iteration",
+      "text": "漥›楆獲⁴瑉牥瑡潩⁮景䌠牵敲瑮䴠䙍䘠湵瑣潩⁮牯传数慲潴r",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Set to Iterate",
+      "text": "漥›畃牲湥⁴䵍⁆畆据楴湯漠⁲灏牥瑡牯椠⁳敓⁴潴䤠整慲整",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Clear Errors",
+      "text": "汃慥⁲牅潲獲",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set String Indicator",
+      "text": "敓⁴瑓楲杮䤠摮捩瑡牯䌠慨慲瑣牥琠⁯〥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥瑓楲杮䤠摮捩瑡牯䌠慨慲瑣牥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Define a Function",
+      "text": "〥⠠┠‱慐慲敭整獲⤠㨠‽㈥",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥慎敭漠⁦桴⁥畆据楴湯",
+        "湅整⁲桴⁥畎扭牥漠⁦慐慲敭整獲",
+        "湅整⁲桴⁥硅牰獥楳湯⠠慐慲敭整獲愠敲瀠ⰱ瀠ⰲ瀠ⰳ攠捴⤮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Define an Operator",
+      "text": "ㅰ┠‰㉰㨠‽ㄥ愠⁴牐捥摥湥散䰠癥汥┠2",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥灏牥瑡牯⠠潎䰠瑥整獲漠⁲畎扭牥⥳",
+        "湅整⁲桴⁥硅牰獥楳湯⠠慐慲敭整獲愠敲瀠‱湡⁤㉰)",
+        "湅整⁲桴⁥灏牥瑡牯倠敲散敤据⁥畎扭牥瀀‱湡⁤㉰)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "MMF Functions and Operators > Define an MMF Function",
+      "text": "〥⠠┠‱慐慲敭整獲⤠ⴭ癅污慵整倠牡浡瑥牥㽳›㈥",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥慎敭漠⁦桴⁥畆据楴湯倀牡浡瑥牥㽳›㈥",
+        "湅整⁲桴⁥畎扭牥漠⁦慐慲敭整獲倀牡浡瑥牥㽳›㈥",
+        "慈敶传橢捥⁴癅污慵整倠牡浡瑥牥㽳⠠‰‽潎※‱‽教⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "MMF Functions and Operators > Define an MMF Operator",
+      "text": "ㅰ┠‰㉰愠⁴牐捥摥湥散䰠癥汥┠ⴱ䔭慶畬瑡⁥慐慲敭整獲㨿┠2",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥灏牥瑡牯⠠潎䰠瑥整獲漠⁲畎扭牥⥳愀慲敭整獲㨿┠2",
+        "湅整⁲桴⁥灏牥瑡牯倠敲散敤据⁥畎扭牥戀牥⥳愀慲敭整獲㨿┠2",
+        "慈敶传橢捥⁴癅污慵整倠牡浡瑥牥㽳⠠‰‽潎※‱‽教⥳猀㨿┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "MMF Functions and Operators > Return a Value",
+      "text": "敒畴湲┠0",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥慖畬⁥潴戠⁥敒畴湲摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "MMF Functions and Operators > Generate an Error",
+      "text": "敇敮慲整䔠牲牯›〥",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥牅潲⁲敍獳条e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Evaluate an Expression",
+      "text": "癅污慵整┠0",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥硅牰獥楳湯琠⁯癅污慵整"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "MMF Functions and Operators > Looping > Iterate Current MMF Function or Operator",
+      "text": "瑉牥瑡⁥畃牲湥⁴䵍⁆畆据楴湯漠⁲灏牥瑡牯",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "MMF Functions and Operators > Looping > Redraw Frame",
+      "text": "敒牤睡䘠慲敭",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Evaluate Expression",
+      "text": "癅污慵整⠤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Last Error Message",
+      "text": "慌瑳牅潲⑲(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get String Indicator",
+      "text": "瑓楲杮湉楤慣潴⑲(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get Current Loop Index",
+      "text": "畃牲湥䱴潯䥰摮硥(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Expression Analysis > Convert Expression to Lowercase",
+      "text": "潌敷䍲獡⑥(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Expression Analysis > Remove Whitespace from an Expression",
+      "text": "敒潭敶桗瑩卥慰散⠤",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Expression Analysis > Find in Expression",
+      "text": "楆摮湉硅牰獥楳湯(",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Convert Integer to String of So Many Digits",
+      "text": "瑓䑲杩瑩⑳(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Convert ExpEval String to MMF String",
+      "text": "潃癮牥却牴湩⑧(",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

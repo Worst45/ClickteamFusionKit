@@ -1,0 +1,181 @@
+{
+  "file": "ifelse.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Start IF",
+      "text": "瑓牡⁴䙉",
+      "menuId": 26000,
+      "resText": "Start IF",
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "End IF",
+      "text": "湅⁤䙉",
+      "menuId": 26010,
+      "resText": "End IF",
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Else",
+      "text": "汅敳",
+      "menuId": 26020,
+      "resText": "Else",
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Else IF",
+      "text": "汅敳䤠F",
+      "menuId": 26030,
+      "resText": "Else IF",
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Start Nested IF",
+      "text": "瑓牡⁴敎瑳摥䤠⁆〥",
+      "menuId": 26040,
+      "resText": "Start Nested IF %0",
+      "flags": 32,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敎瑳䐠灥桴搀䤠⁆〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "End Nested IF (No parameters)",
+      "text": "湅⁤敎瑳摥䤠F",
+      "menuId": 26050,
+      "resText": "End Nested IF",
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Nested Else",
+      "text": "敎瑳摥䔠獬⁥〥",
+      "menuId": 26060,
+      "resText": "Nested Else %0",
+      "flags": 32,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敎瑳䐠灥桴 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Nested ElseIF",
+      "text": "敎瑳摥䔠獬䥥⁆〥",
+      "menuId": 26070,
+      "resText": "Nested ElseIF %0",
+      "flags": 32,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敎瑳䐠灥桴䤀⁆〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Force IF (Else will not run)",
+      "text": "潆捲⁥䙉",
+      "menuId": 25000,
+      "resText": "Force IF",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Force Else (Else will run)",
+      "text": "潆捲⁥汅敳",
+      "menuId": 25010,
+      "resText": "Force Else",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set Nest Depth",
+      "text": "敓⁴敎瑳䐠灥桴琠⁯〥",
+      "menuId": 25020,
+      "resText": "Set Nest Depth to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴敎瑳䐠灥桴琀⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Last IF (1 is true, 0 is false)",
+      "text": "敇䥴⡆",
+      "menuId": 27000,
+      "resText": "GetIF(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Nest Depth",
+      "text": "敎瑳敄瑰⡨",
+      "menuId": 27010,
+      "resText": "NestDepth(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

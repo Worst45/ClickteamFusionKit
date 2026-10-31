@@ -1,0 +1,843 @@
+{
+  "file": "KcVideo.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Is Video at start position ?",
+      "text": "漥›瑳牡⁴景瘠摩潥?",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 512,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Is Video at end position ?",
+      "text": "漥›湥⁤景瘠摩潥?",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 512,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Mouse clicks within the Video window ?",
+      "text": "獕牥┠‰楷桴湩┠o",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        32
+      ],
+      "paramTitles": [
+        "潍獵⁥汣捩獫眠瑩楨⁮桴⁥楖敤⁯楷摮睯㼠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Compare to current frame ?",
+      "text": "漥›畣牲湥⁴牦浡⁥〥",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        23
+      ],
+      "paramTitles": [
+        "潃灭牡⁥潴挠牵敲瑮映慲敭㼠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Compare to current time position ?",
+      "text": "漥›畣牲湥⁴楴敭┠0",
+      "menuId": 26004,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        42
+      ],
+      "paramTitles": [
+        "潃灭牡⁥潴挠牵敲瑮琠浩⁥潰楳楴湯㼠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Check whether a file is open ?",
+      "text": "漥›楦敬椠⁳灯湥摥?",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 512,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Is visible ?",
+      "text": "漥›楶楳汢e",
+      "menuId": 26006,
+      "resText": null,
+      "flags": 512,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Is Video an Indeo?",
+      "text": "漥›獩愠⁮湉敤⁯楖敤㽯",
+      "menuId": 26007,
+      "resText": null,
+      "flags": 512,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Is AltLine Mode?",
+      "text": "漥›獉䄠瑬楌敮?",
+      "menuId": 26008,
+      "resText": null,
+      "flags": 512,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Is Video an Indio?",
+      "text": "漥›獉愠⁮湉楤⁯楖敤㽯",
+      "menuId": 26009,
+      "resText": null,
+      "flags": 512,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Is Video an DIVX v4/3",
+      "text": "漥›獉愠⁮䥄塖嘠摩潥?",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 512,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Is Video paused ?",
+      "text": "漥›楶敤⁯慰獵摥?",
+      "menuId": 26011,
+      "resText": null,
+      "flags": 512,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Play > Forward",
+      "text": "汐祡瘠摩潥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Stop",
+      "text": "瑓灯瘠摩潥",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Pause",
+      "text": "慐獵⁥楶敤o",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Resume",
+      "text": "敒畳敭瘠摩潥",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Play > A new file",
+      "text": "敎⁷楦敬┠0",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "⩼䴮䝐⨻䐮呁⨻䄮䥖⨻䴮噏噼摩潥䘠汩獥⨨洮杰⨻洮数㭧⸪慤㭴⸪癡㭩⸪潭⥶"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Play > A new file via a file selector",
+      "text": "敎⁷楦敬映潲⁭敳敬瑣牯",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Visibility > Make Object Invisible",
+      "text": "楈敤",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Visibility > Make Object Reappear",
+      "text": "桓睯",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Set Video Play Position to... > Beginning",
+      "text": "潇潴戠来湩楮杮",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Set Video Play Position to... > End",
+      "text": "潇潴攠摮",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Set Video Play Position to... > A Frame Number",
+      "text": "潇潴映慲敭┠0",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣丠睥䘠慲敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Set Video Play Position to... > A Time Position",
+      "text": "潇潴琠浩⁥〥",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣丠睥吠浩⁥猨捥湯⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Size/Position > Set Horizontal and Vertical size",
+      "text": "敓⁴潨楲潺瑮污猠穩⁥潴┠ⰰ愠摮瘠牥楴慣⁬楳敺琠⁯ㄥ",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓⁴潨楲潺瑮污猠穩e潴┠ⰰ愠摮瘠牥楴慣⁬楳敺琠⁯ㄥ",
+        "敓⁴敶瑲捩污猠穩ee潴┠ⰰ愠摮瘠牥楴慣⁬楳敺琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Size/Position > Set Horizontal size",
+      "text": "敓⁴潨楲潺瑮污猠穩⁥潴┠0",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴潨楲潺瑮污猠穩e潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Size/Position > Set Vertical size",
+      "text": "敓⁴敶瑲捩污猠穩⁥潴┠0",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴敶瑲捩污猠穩e潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Window Size and Color > Full Screen",
+      "text": "敓⁴漥䘠汵⁬楖敤⁯",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Window Size and Color > Normal Size",
+      "text": "敓⁴漥丠牯慭⁬楖敤⁯",
+      "menuId": 25018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Center Video",
+      "text": "敃瑮牥嘠摩潥",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Indeo Options > Set RGB Trans Fill",
+      "text": "敓⁴湉敤⁯牔湡䙳汩⁬䝒⡂〥)",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "敒⁤牔湡晳汩ⱬ〠琠⁯㔲ⰵ䜠敲湥吠慲獮楦汬‬‰潴㈠㔵‬求敵吠慲獮楦汬‬‰潴㈠㔵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Indeo Options > Toggle AltLine",
+      "text": "潔杧敬䤠摮潥䄠瑬楌敮",
+      "menuId": 25021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Indeo Options > Set Contrast",
+      "text": "敓⁴湉敤⁯潃瑮慲瑳琠⁯〥",
+      "menuId": 25022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潃瑮慲瑳‬‰潴㈠㘵琀⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Indeo Options > Set Brightness",
+      "text": "敓⁴湉敤⁯牂杩瑨敮獳琠⁯〥",
+      "menuId": 25023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牂杩瑨敮獳‬‰潴㈠㘵琀⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Indeo Options > Set Saturation",
+      "text": "敓⁴湉敤⁯慓畴慲楴湯琠⁯〥",
+      "menuId": 25024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慓畴慲楴湯‬‰潴㈠㘵琀⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Indeo Options > Set Numeric Password",
+      "text": "敓⁴湉敤⁯慐獳潷摲琠⁯〥",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畎敭楲⁣慐獳潷摲搀琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Window Size and Color > Toggle Aspect Ratio",
+      "text": "〰潔杧敬⠠敋灥䄠灳捥⁴慒楴⥯",
+      "menuId": 25026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Window Size and Color > Set Background Color",
+      "text": "敓⁴慂正牧畯摮挠汯牯琠⁯〥",
+      "menuId": 25027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "敒⁤牔湡晳汩ⱬ〠琠⁯㔲ⰵ䜠敲湥吠慲獮楦汬‬‰潴㈠㔵‬求敵吠慲獮楦汬‬‰潴㈠㔵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Indio Options > Set Indio Password",
+      "text": "敓⁴湉楤⁯慐獳潷摲琠⁯〥",
+      "menuId": 25028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畎敭楲⁣慐獳潷摲搀琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Divx Ver 4/3 Options > Set Contrast",
+      "text": "敓⁴䥄塖䌠湯牴獡⁴潴┠0",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楄硶ⴠ䌠湯牴獡ⱴ〠琠⁯㔲6"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Divx Ver 4/3 Options > Set Brightness",
+      "text": "敓⁴䥄塖䈠楲桧湴獥⁳潴┠0",
+      "menuId": 25031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楄硶ⴠ䈠楲桧湴獥ⱳ〠琠⁯㔲6"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Divx Ver 4/3 Options > Set Saturation",
+      "text": "敓⁴䥄塖匠瑡牵瑡潩⁮潴┠0",
+      "menuId": 25032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楄硶ⴠ匠瑡牵瑡潩Ɱ〠琠⁯㔲6"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Size/Position > Set Horizontal position",
+      "text": "敓⁴潨楲潺瑮污瀠獯瑩潩⁮潴┠0",
+      "menuId": 25033,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴潨楲潺瑮污瀠獯瑩潩n潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Size/Position > Set Vertical position",
+      "text": "敓⁴敶瑲捩污瀠獯瑩潩⁮潴┠0",
+      "menuId": 25034,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴敶瑲捩污瀠獯瑩潩n潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Sound > Set Volume",
+      "text": "敓⁴潖畬敭琠⁯〥",
+      "menuId": 25035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敎⁷潖畬敭‬‰潴ㄠ〰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Current frame number",
+      "text": "楖敤⁯牆浡⡥",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Total number of frames",
+      "text": "楖敤⁯潔慴⁬牆浡獥(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Current time position",
+      "text": "楖敤⁯楔敭(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Total time",
+      "text": "楖敤⁯潔慴⁬楔敭(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Horizontal size",
+      "text": "楖敤⁯⁘楓敺(",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Vertical size",
+      "text": "楖敤⁯⁙楓敺(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Last Error Number",
+      "text": "慌瑳䔠牲牯(",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Get Indeo Password",
+      "text": "湉敤䭯祥(",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Get Indeo Contrast",
+      "text": "敇䥴摮潥潃瑮慲瑳(",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Get Indeo Brightness",
+      "text": "敇䥴摮潥牂杩瑨敮獳(",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Get Indeo Saturation",
+      "text": "敇䥴摮潥慓畴慲楴湯(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Get Divx Contrast",
+      "text": "敇䑴癩䍸湯牴獡⡴",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Get Divx Brightness",
+      "text": "敇䑴癩䉸楲桧湴獥⡳",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Get Divx Saturation",
+      "text": "敇䑴癩卸瑡牵瑡潩⡮",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Get Indio Password",
+      "text": "敇䥴摮潩敋⑹(",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Get Volume",
+      "text": "敇噴汯浵⡥",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Get Video Rate",
+      "text": "敇噴摩潥慒整(",
+      "menuId": 27016,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

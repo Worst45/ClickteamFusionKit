@@ -1,0 +1,1951 @@
+{
+  "file": "AdvMenu.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Error Handling > On Error",
+      "text": "漥›湏䔠牲牯┠0",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牅潲⁲潃敤⠠獕⁥ㄭ映牯䄠祮䔠牲牯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Popup Menus > On Popup Item Selected",
+      "text": "漥›湏䤠整⁭〥匠汥捥整⁤牦浯䴠湥⁵ㄥ",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "瑉浥䤠敤瑮晩敩⁲唨敳ⴠ‱潦⁲湁⁹䑉)",
+        "敍畮丠浡⁥䰨慥敶䈠慬歮映牯䄠祮䴠湥⥵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Stored Menus > Menu Exists",
+      "text": "漥›敍畮┠‰獩愠匠潴敲⁤敍畮",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敍畮丠浡e‰獩愠匠潴敲⁤敍畮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Stored Menus > Submenu Exists",
+      "text": "漥›敍畮┠‰慨⁳畓浢湥⁵ㄥ",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "敍畮丠浡e‰慨⁳畓浢湥⁵ㄥ",
+        "畓浢湥⁵潴吠獥⁴潆r湥⁵ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Stored Menus > Menu is Popup",
+      "text": "漥›敍畮┠‰獩愠倠灯灵䴠湥u",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敍畮丠浡e‰獩愠倠灯灵䴠湥u"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Stored Menus > Menu Auto-Dismisses",
+      "text": "漥›敍畮┠‰畁潴䐭獩業獳獥",
+      "menuId": 26060,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敍畮丠浡e‰畁潴䐭獩業獳獥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Stored Menus > Menu is Modeless",
+      "text": "漥›敍畮┠‰獩䴠摯汥獥s",
+      "menuId": 26070,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敍畮丠浡e‰獩䴠摯汥獥s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Menu Items > Item is Enabled",
+      "text": "漥›瑉浥┠‰獩䔠慮汢摥椠⁮敍畮┠2",
+      "menuId": 26080,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "瑉浥琠⁯敔瑳⠠敎瑸倠牡浡瑥牥䐠瑥牥業敮⁳敍湡湩⥧",
+        "潐楳楴湯䴠瑥潨⁤〨䤽敤瑮晩敩Ⱳㄠ倽獯瑩潩⥮渀湩⥧",
+        "敍畮䌠湯慴湩湩⁧瑉浥攀瑮晩敩Ⱳㄠ倽獯瑩潩⥮渀湩⥧",
+        "畓浢湥⁵景䴠湥⁵䰨慥敶䈠慬歮映牯删潯⁴敍畮)湩⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Menu Items > Item is Checked",
+      "text": "漥›瑉浥┠‰獩䌠敨正摥椠⁮敍畮┠2",
+      "menuId": 26090,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "瑉浥琠⁯敔瑳⠠敎瑸倠牡浡瑥牥䐠瑥牥業敮⁳敍湡湩⥧",
+        "潐楳楴湯䴠瑥潨⁤〨䤽敤瑮晩敩Ⱳㄠ倽獯瑩潩⥮渀湩⥧",
+        "敍畮䌠湯慴湩湩⁧瑉浥攀瑮晩敩Ⱳㄠ倽獯瑩潩⥮渀湩⥧",
+        "畓浢湥⁵景䴠湥⁵䰨慥敶䈠慬歮映牯删潯⁴敍畮)湩⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Menu Items > Item has Icon > Item Icon",
+      "text": "漥›瑉浥┠‰慨⁳湡䤠整⁭捉湯椠⁮敍畮┠2",
+      "menuId": 26100,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "瑉浥琠⁯敔瑳⠠敎瑸倠牡浡瑥牥䐠瑥牥業敮⁳敍湡湩⥧",
+        "潐楳楴湯䴠瑥潨⁤〨䤽敤瑮晩敩Ⱳㄠ倽獯瑩潩⥮渀湩⥧",
+        "敍畮䌠湯慴湩湩⁧瑉浥攀瑮晩敩Ⱳㄠ倽獯瑩潩⥮渀湩⥧",
+        "畓浢湥⁵景䴠湥⁵䰨慥敶䈠慬歮映牯删潯⁴敍畮)湩⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Menu Items > Item has Icon > Checked Icon",
+      "text": "漥›瑉浥┠‰慨⁳⁡桃捥敫⁤捉湯椠⁮敍畮┠2",
+      "menuId": 26110,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "瑉浥琠⁯敔瑳⠠敎瑸倠牡浡瑥牥䐠瑥牥業敮⁳敍湡湩⥧",
+        "潐楳楴湯䴠瑥潨⁤〨䤽敤瑮晩敩Ⱳㄠ倽獯瑩潩⥮渀湩⥧",
+        "敍畮䌠湯慴湩湩⁧瑉浥攀瑮晩敩Ⱳㄠ倽獯瑩潩⥮渀湩⥧",
+        "畓浢湥⁵景䴠湥⁵䰨慥敶䈠慬歮映牯删潯⁴敍畮)湩⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Menu Items > Item has Icon > Unchecked Icon",
+      "text": "漥›瑉浥┠‰慨⁳湡唠据敨正摥䤠潣⁮湩䴠湥⁵㈥",
+      "menuId": 26120,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "瑉浥琠⁯敔瑳⠠敎瑸倠牡浡瑥牥䐠瑥牥業敮⁳敍湡湩⥧",
+        "潐楳楴湯䴠瑥潨⁤〨䤽敤瑮晩敩Ⱳㄠ倽獯瑩潩⥮渀湩⥧",
+        "敍畮䌠湯慴湩湩⁧瑉浥攀瑮晩敩Ⱳㄠ倽獯瑩潩⥮渀湩⥧",
+        "畓浢湥⁵景䴠湥⁵䰨慥敶䈠慬歮映牯删潯⁴敍畮)湩⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Popup Menus > On Item Right-Clicked",
+      "text": "漥›湏䤠整⁭〥删杩瑨䌭楬正摥椠⁮敍畮┠1",
+      "menuId": 26130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "瑉浥䤠敤瑮晩敩⁲唨敳ⴠ‱潦⁲湁⁹䑉)┠1",
+        "敍畮丠浡⁥䰨慥敶䈠慬歮映牯䄠祮䴠湥⥵─1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Popup Menus > Popup is Open",
+      "text": "漥›潐異⁰敍畮┠‰獩传数n",
+      "menuId": 26140,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敍畮丠浡⁥䰨慥敶䈠慬歮映牯䄠祮䴠湥⥵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Application Menus > On Menu Bar Item Selected",
+      "text": "漥›湏䤠整⁭〥匠汥捥整⁤牆浯䴠湥⁵慂r",
+      "menuId": 26150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "瑉浥䤠敤瑮晩敩⁲唨敳ⴠ‱潦⁲湁⁹䑉)r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Application Menus > On Window Menu Item Selected",
+      "text": "漥›湏䤠整⁭〥匠汥捥整⁤牆浯圠湩潤⁷敍畮",
+      "menuId": 26160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "瑉浥䤠敤瑮晩敩⁲唨敳ⴠ‱潦⁲湁⁹䑉)敍畮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Miscellaneous > On Item Rollover",
+      "text": "漥›湏䤠整⁭〥删汯敬⁤癏牥椠⁮敍畮┠1",
+      "menuId": 26170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "瑉浥䤠敤瑮晩敩⁲唨敳ⴠ‱潦⁲湁⁹䑉)1",
+        "敍畮丠浡⁥䰨慥敶䈠慬歮映牯䄠祮䴠湥⥵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Create/Delete Menus > Create Popup Menu",
+      "text": "牃慥整倠灯灵䴠湥⁵〥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦敎⁷敍畮 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Create/Delete Menus > Create Menu Bar",
+      "text": "牃慥整䴠湥⁵慂⁲〥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦敎⁷敍畮　"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Application Menus > Load Menu Bar",
+      "text": "牃慥整䴠湥⁵〥䘠潲⁭桴⁥灁汰捩瑡潩❮⁳敍畮䈠牡",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦敎⁷敍畮漀⁭桴⁥灁汰捩瑡潩❮⁳敍畮䈠牡"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Application Menus > Load Window Menu",
+      "text": "牃慥整䴠湥⁵〥䘠潲⁭桴⁥灁汰捩瑡潩❮⁳楗摮睯䴠湥u",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦敎⁷敍畮漀⁭桴⁥灁汰捩瑡潩❮⁳楗摮睯䴠湥u"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Create/Delete Menus > Delete Menu",
+      "text": "敄敬整䴠湥⁵〥⠠敄敬整椠⁮敍潭祲㴠┠⤱",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慎敭漠⁦敍畮琠⁯敄敬整椀⁮敍潭祲㴠┠⤱",
+        "敄敬整椠⁮敍潭祲‿䄨癤湡散Ɽ䐠晥畡瑬〽)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Create/Delete Menus > Delete All Menus",
+      "text": "敄敬整愠汬匠潴敲⁤敍畮⁳䐨汥瑥⁥湩䴠浥牯⁹‽〥)",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敄敬整椠⁮敍潭祲‿䄨癤湡散Ɽ䐠晥畡瑬〽)⁹‽〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Create/Delete Items > Add Item",
+      "text": "摁⁤敎⁷瑉浥眠瑩⁨䑉┠‰湡⁤敔瑸┠‱潴┠′匨扵敭畮┠⤳‬瑡┠4",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45,
+        45,
+        45,
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "摉湥楴楦牥漠⁦敎⁷瑉浥⠠畍瑳戠⁥‱牯䜠敲瑡牥)敭畮┠⤳‬瑡┠4",
+        "敔瑸漠⁦敎⁷瑉浥 瑉浥⠠畍瑳戠⁥‱牯䜠敲瑡牥)敭畮┠⤳‬瑡┠4",
+        "敍畮琠⁯摁⁤瑉浥吠o浥⠠畍瑳戠⁥‱牯䜠敲瑡牥)敭畮┠⤳‬瑡┠4",
+        "畓浢湥⁵景䴠湥⁵䰨慥敶䈠慬歮映牯删潯⁴敍畮))敭畮┠⤳‬瑡┠4",
+        "潐楳楴湯漠⁦敎⁷瑉浥⠠潔䄠灰湥Ɽ倠瑵ⴠ‱效敲愠摮ㄠ映牯琠敨丠硥⁴慐慲⥭",
+        "潐楳楴湯䴠瑥潨⁤〨䤽敤瑮晩敩Ⱳㄠ倽獯瑩潩⥮攀愠摮ㄠ映牯琠敨丠硥⁴慐慲⥭",
+        "敋批慯摲䄠捣汥牥瑡牯⠠敌癡⁥求湡⁫潦⁲潎敮)愠摮ㄠ映牯琠敨丠硥⁴慐慲⥭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Popup Menus > Display Popup Menu",
+      "text": "楄灳慬⁹敍畮┠‰瑡⠠ㄥ┬⤲",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敍畮琠⁯楄灳慬y瑡⠠ㄥ┬⤲",
+        "⁘潐楳楴湯漠⁮捓敲湥⠠獕⁥ㄭ映牯䴠畯敳倠獯瑩潩⥮",
+        "⁙潐楳楴湯漠⁮捓敲湥⠠獕⁥ㄭ映牯䴠畯敳倠獯瑩潩⥮",
+        "潈楲潺瑮污䄠楬湧敭瑮⠠㴰敌瑦‬㴱敃瑮牥‬㴲楒桧⥴",
+        "敖瑲捩污䄠楬湧敭瑮⠠㴰潔Ɒㄠ䴽摩汤ⱥ㈠䈽瑯潴⥭⤀",
+        "潃灭湥慳楴湯䐠物捥楴湯⠠㴰潈穲‮㴱敖瑲⤮琀潴⥭⤀",
+        "潈楲潺瑮污䄠楮慭楴湯⠠㴰潎敮‬㴱呌ⱒ㈠刽䱔)⥭⤀",
+        "敖瑲捩污䄠楮慭楴湯⠠㴰潎敮‬㴱呔ⱂ㈠䈽呔))⥭⤀",
+        "汁潬⁷楒桧⵴汃捩⁫敓敬瑣‿〨丽Ɐㄠ夽獥)))⥭⤀",
+        "桓睯䤠⁦瑏敨⁲敍畮⁳牡⁥灏湥‿〨丽Ɐㄠ夽獥)⥭⤀",
+        "楒桧⵴潴䰭晥⁴慌潹瑵‿〨丽Ɐㄠ夽獥)ㄠ夽獥)⥭⤀",
+        "慍敫䌠浯慰楴汢⁥楷桴琠敨匠獹整⁭牔祡‿〨丽Ɐㄠ夽獥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Create/Delete Items > Add Submenu",
+      "text": "摁⁤敎⁷畓浢湥⁵ㄥ眠瑩⁨䑉┠‰吨硥⁴㈥ 潴┠″匨扵敭畮┠⤴",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45,
+        45,
+        45,
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "摉湥楴楦牥漠⁦敎⁷畓浢湥⁵䴨獵⁴敢ㄠ漠⁲片慥整⥲戀敭畮┠⤴",
+        "慎敭漠⁦敎⁷畓浢湥u浢湥⁵䴨獵⁴敢ㄠ漠⁲片慥整⥲戀敭畮┠⤴",
+        "敔瑸漠⁦敎⁷畓浢湥u浢湥⁵䴨獵⁴敢ㄠ漠⁲片慥整⥲戀敭畮┠⤴",
+        "敍畮琠⁯摁⁤畓浢湥⁵潔渀⁵䴨獵⁴敢ㄠ漠⁲片慥整⥲戀敭畮┠⤴",
+        "畓浢湥⁵景䴠湥⁵䰨慥敶䈠慬歮映牯删潯⁴敍畮)整⥲戀敭畮┠⤴",
+        "潐楳楴湯漠⁦敎⁷畓浢湥⁵吨⁯灁数摮‬畐⁴ㄭ䠠牥⁥湡⁤‱潦⁲桴⁥敎瑸倠牡浡)",
+        "潐楳楴湯䴠瑥潨⁤〨䤽敤瑮晩敩Ⱳㄠ倽獯瑩潩⥮䠀牥⁥湡⁤‱潦⁲桴⁥敎瑸倠牡浡)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Create/Delete Items > Add Separator",
+      "text": "摁⁤敎⁷敓慰慲潴⁲楷桴䤠⁄〥琠⁯ㄥ⠠畓浢湥⁵㈥ 瑡┠3",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45,
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "摉湥楴楦牥漠⁦敎⁷敓慰慲潴⁲䴨獵⁴敢ㄠ漠⁲片慥整⥲─3",
+        "敍畮琠⁯摁⁤敓慰慲潴⁲潔漀⁲䴨獵⁴敢ㄠ漠⁲片慥整⥲─3",
+        "畓浢湥⁵景䴠湥⁵䰨慥敶䈠慬歮映牯删潯⁴敍畮)慥整⥲─3",
+        "潐楳楴湯漠⁦敎⁷敓慰慲潴⁲吨⁯灁数摮‬畐⁴ㄭ䠠牥⁥湡⁤‱潦⁲桴⁥敎瑸倠牡浡)",
+        "潐楳楴湯䴠瑥潨⁤〨䤽敤瑮晩敩Ⱳㄠ倽獯瑩潩⥮㄀䠠牥⁥湡⁤‱潦⁲桴⁥敎瑸倠牡浡)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Create/Delete Items > Add Line Break",
+      "text": "摁⁤敎⁷楌敮䈠敲歡眠瑩⁨䑉┠‰潴┠‱匨扵敭畮┠⤲愠⁴㌥⠠瑓汹⁥㔥)",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45,
+        45,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "摉湥楴楦牥漠⁦敎⁷楌敮䈠敲歡⠠畍瑳戠⁥‱牯䜠敲瑡牥)㌥⠠瑓汹⁥㔥)",
+        "敍畮琠⁯摁⁤楌敮䈠敲歡吠o歡⠠畍瑳戠⁥‱牯䜠敲瑡牥)㌥⠠瑓汹⁥㔥)",
+        "畓浢湥⁵景䴠湥⁵䰨慥敶䈠慬歮映牯删潯⁴敍畮)敲瑡牥)㌥⠠瑓汹⁥㔥)",
+        "潐楳楴湯漠⁦敎⁷楌敮䈠敲歡⠠潔䄠灰湥Ɽ倠瑵ⴠ‱效敲愠摮ㄠ映牯琠敨丠硥⁴慐慲⥭",
+        "潐楳楴湯䴠瑥潨⁤〨䤽敤瑮晩敩Ⱳㄠ倽獯瑩潩⥮ⴀ‱效敲愠摮ㄠ映牯琠敨丠硥⁴慐慲⥭",
+        "瑓汹⁥〨丽⁯慂Ⱳㄠ䈽牡)晩敩Ⱳㄠ倽獯瑩潩⥮ⴀ‱效敲愠摮ㄠ映牯琠敨丠硥⁴慐慲⥭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Create/Delete Items > Delete Item",
+      "text": "敄敬整䤠整⁭〥映潲⁭㈥⠠畓浢湥⁵㌥)",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "瑉浥琠⁯敄敬整⠠敎瑸倠牡浡瑥牥䐠瑥牥業敮⁳敍湡湩⥧",
+        "潐楳楴湯䴠瑥潨⁤〨䤽敤瑮晩敩Ⱳㄠ倽獯瑩潩⥮攀湡湩⥧",
+        "敍畮琠⁯敄敬整䘠潲m敤瑮晩敩Ⱳㄠ倽獯瑩潩⥮攀湡湩⥧",
+        "畓浢湥⁵景䴠湥⁵䰨慥敶䈠慬歮映牯删潯⁴敍畮)湡湩⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Manage Stored Menus > Set Default Item",
+      "text": "敓⁴瑉浥┠‰獡琠敨䐠晥畡瑬䤠整⁭景┠′匨扵敭畮┠⤳",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "瑉浥琠⁯敓⁴獡䐠晥畡瑬⠠獕⁥ㄭ映牯丠⁯敄慦汵⁴瑉浥)",
+        "潐楳楴湯䴠瑥潨⁤〨䤽敤瑮晩敩Ⱳㄠ倽獯瑩潩⥮氀⁴瑉浥)",
+        "敍畮琠⁯潍楤祦 〨䤽敤瑮晩敩Ⱳㄠ倽獯瑩潩⥮氀⁴瑉浥)",
+        "畓浢湥⁵景䴠湥⁵䰨慥敶䈠慬歮映牯删潯⁴敍畮)⁴瑉浥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Manage Stored Menus > Set Background Color > Solid Color",
+      "text": "敓⁴慂正牧畯摮䌠汯牯漠⁦〥⠠畓浢湥⁵ㄥ 潴┠2",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敍畮琠⁯潍楤祦䌀汯牯漠⁦〥⠠畓浢湥⁵ㄥ 潴┠2",
+        "畓浢湥⁵景䴠湥u汯牯漠⁦〥⠠畓浢湥⁵ㄥ 潴┠2",
+        "慂正牧畯摮䌠汯牯⠠獕⁥敇剴䉇⤨椠⁦敎散獳牡⥹",
+        "灁汰⁹潴匠扵敭畮㽳⠠㴰潎‬㴱教⥳ 敎散獳牡⥹"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Manage Stored Menus > Set Auto-Dismiss",
+      "text": "敓⁴畁潴䐭獩業獳传瑰潩⁮景┠‰潴┠1",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "敍畮琠⁯潍楤祦猀传瑰潩⁮景┠‰潴┠1",
+        "獕⁥畁潴䐭獩業獳‿〨丽Ɐㄠ夽獥)┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Manage Stored Menus > Set Modality",
+      "text": "敓⁴潍慤楬祴传瑰潩⁮景┠‰潴┠1",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "敍畮琠⁯潍楤祦琀潩⁮景┠‰潴┠1",
+        "潍敤敬獳䴠湥㽵⠠㴰潎‬㴱教⥳─1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Manage Stored Menus > Set Checkmark Space",
+      "text": "敓⁴桃捥浫牡⁫灓捡⁥灏楴湯漠⁦〥⠠畓浢湥⁵ㄥ 潴┠2",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敍畮琠⁯潍楤祦瀀捡⁥灏楴湯漠⁦〥⠠畓浢湥⁵ㄥ 潴┠2",
+        "畓浢湥⁵景䴠湥⁵䰨慥敶䈠慬歮映牯删潯⁴敍畮) 潴┠2",
+        "敒潭敶䌠敨正慭歲匠慰散‿〨丽癥牥‬㴱汁慷獹‬㴲湏祬椠⁦慨⁳捉湯)",
+        "灁汰⁹潴匠扵敭畮㽳⠠㴰潎‬㴱教⥳ 㴱汁慷獹‬㴲湏祬椠⁦慨⁳捉湯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Manage Stored Menus > Set Maximum Height",
+      "text": "敓⁴慍楸畭⁭效杩瑨漠⁦〥⠠畓浢湥⁵ㄥ 潴┠2",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敍畮琠⁯潍楤祦最瑨漠⁦〥⠠畓浢湥⁵ㄥ 潴┠2",
+        "畓浢湥⁵景䴠湥⁵䰨慥敶䈠慬歮映牯删潯⁴敍畮)",
+        "慍楸畭⁭效杩瑨⠠獕⁥‰潦⁲捓敲湥䠠楥桧⥴甀)",
+        "灁汰⁹潴匠扵敭畮㽳⠠㴰潎‬㴱教⥳䠀楥桧⥴甀)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Manage Stored Menus > Exclusion Rectangle > Set Exclusion Rectangle",
+      "text": "敓⁴硅汣獵潩⁮敒瑣湡汧⁥景┠‰潴⠠ㄥ‬㈥ ‭┨ⰳ┠⤴",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敍畮琠⁯潍楤祦攀瑣湡汧⁥景┠‰潴⠠ㄥ‬㈥ ‭┨ⰳ┠⤴",
+        "敌瑦䈠畯摮祲礀攀瑣湡汧⁥景┠‰潴⠠ㄥ‬㈥ ‭┨ⰳ┠⤴",
+        "潔⁰潂湵牤y礀攀瑣湡汧⁥景┠‰潴⠠ㄥ‬㈥ ‭┨ⰳ┠⤴",
+        "楒桧⁴潂湵牤y攀瑣湡汧⁥景┠‰潴⠠ㄥ‬㈥ ‭┨ⰳ┠⤴",
+        "潂瑴浯䈠畯摮祲攀瑣湡汧⁥景┠‰潴⠠ㄥ‬㈥ ‭┨ⰳ┠⤴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Manage Stored Menus > Exclusion Rectangle > Remove Exclusion Rectangle",
+      "text": "敒潭敶䔠捸畬楳湯删捥慴杮敬映潲⁭〥",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敍畮琠⁯獕e楳湯删捥慴杮敬映潲⁭〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Manage Menu Items > Set Text",
+      "text": "敓⁴敔瑸漠⁦瑉浥┠‰潴┠′潦⁲㐥⠠畓浢湥⁵㔥)",
+      "menuId": 25200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        45,
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "瑉浥琠⁯潍楤祦⠠敎瑸倠牡浡瑥牥䐠瑥牥業敮⁳敍湡湩⥧",
+        "潐楳楴湯䴠瑥潨⁤〨䤽敤瑮晩敩Ⱳㄠ倽獯瑩潩⥮攀湡湩⥧",
+        "敔瑸椀湯䴠瑥潨⁤〨䤽敤瑮晩敩Ⱳㄠ倽獯瑩潩⥮攀湡湩⥧",
+        "敋批慯摲䄠捣汥牥瑡牯⠠敌癡⁥求湡⁫潦⁲潎敮)湡湩⥧",
+        "敍畮䌠湯慴湩湩⁧瑉浥⠀敌癡⁥求湡⁫潦⁲潎敮)湡湩⥧",
+        "畓浢湥⁵景䴠湥⁵䰨慥敶䈠慬歮映牯删潯⁴敍畮)湡湩⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Manage Menu Items > Set ID",
+      "text": "敓⁴摉湥楴楦牥漠⁦瑉浥┠‰潴┠′潦⁲㌥⠠畓浢湥⁵㐥)",
+      "menuId": 25210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "瑉浥琠⁯潍楤祦⠠敎瑸倠牡浡瑥牥䐠瑥牥業敮⁳敍湡湩⥧",
+        "潐楳楴湯䴠瑥潨⁤〨䤽敤瑮晩敩Ⱳㄠ倽獯瑩潩⥮攀湡湩⥧",
+        "敎⁷摉湥楴楦牥⠠畍瑳戠⁥‱牯䜠敲瑡牥)潩⥮攀湡湩⥧",
+        "敍畮䌠湯慴湩湩⁧瑉浥戀⁥‱牯䜠敲瑡牥)潩⥮攀湡湩⥧",
+        "畓浢湥⁵景䴠湥⁵䰨慥敶䈠慬歮映牯删潯⁴敍畮)湡湩⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Manage Menu Items > Set Enabled",
+      "text": "敓⁴瑓瑡⁥景䤠整⁭〥琠⁯㈥映牯┠″匨扵敭畮┠⤴",
+      "menuId": 25220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "瑉浥琠⁯潍楤祦⠠敎瑸倠牡浡瑥牥䐠瑥牥業敮⁳敍湡湩⥧",
+        "潐楳楴湯䴠瑥潨⁤〨䤽敤瑮晩敩Ⱳㄠ倽獯瑩潩⥮攀湡湩⥧",
+        "瑓瑡⁥〨䐽獩扡敬Ɽㄠ䔽慮汢摥‬㴲潔杧敬)⥮攀湡湩⥧",
+        "敍畮䌠湯慴湩湩⁧瑉浥䔀慮汢摥‬㴲潔杧敬)⥮攀湡湩⥧",
+        "畓浢湥⁵景䴠湥⁵䰨慥敶䈠慬歮映牯删潯⁴敍畮)湡湩⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Manage Menu Items > Set Check",
+      "text": "敓⁴桃捥⁫景䤠整⁭〥琠⁯㈥映牯┠″匨扵敭畮┠⤴",
+      "menuId": 25230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "瑉浥琠⁯桃捥⁫丨硥⁴慐慲敭整⁲敄整浲湩獥䴠慥楮杮)",
+        "潐楳楴湯䴠瑥潨⁤〨䤽敤瑮晩敩Ⱳㄠ倽獯瑩潩⥮愀楮杮)",
+        "桃捥⁫〨唽据敨正摥‬㴱桃捥敫Ɽ㈠吽杯汧⥥⤀愀楮杮)",
+        "敍畮䌠湯慴湩湩⁧瑉浥㴀桃捥敫Ɽ㈠吽杯汧⥥⤀愀楮杮)",
+        "畓浢湥⁵景䴠湥⁵䰨慥敶䈠慬歮映牯删潯⁴敍畮)楮杮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Manage Menu Items > Set Radio Check",
+      "text": "慒楤⁯桃捥⁫瑉浥┠‰湩䜠潲灵┠‱潴┠ⰲ映牯┠‴匨扵敭畮┠⤵",
+      "menuId": 25240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "瑉浥琠⁯桃捥k浥┠‰湩䜠潲灵┠‱潴┠ⰲ映牯┠‴匨扵敭畮┠⤵",
+        "楆獲⁴瑉浥椠⁮慒楤⁯片畯p灵┠‱潴┠ⰲ映牯┠‴匨扵敭畮┠⤵",
+        "慌瑳䤠整⁭湩删摡潩䜠潲灵",
+        "潐楳楴湯䴠瑥潨⁤潦⁲牐癥潩獵㌠⠠㴰摉湥楴楦牥‬㴱潐楳楴湯)",
+        "敍畮䌠湯慴湩湩⁧瑉浥爀癥潩獵㌠⠠㴰摉湥楴楦牥‬㴱潐楳楴湯)",
+        "畓浢湥⁵景䴠湥⁵䰨慥敶䈠慬歮映牯删潯⁴敍畮)‬㴱潐楳楴湯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Manage Menu Items > Set Highlight",
+      "text": "敓⁴楈桧楬桧⁴景䤠整⁭〥琠⁯㈥映牯┠″匨扵敭畮┠⤴",
+      "menuId": 25250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "瑉浥琠⁯楈桧楬桧⁴丨硥⁴慐慲敭整⁲敄整浲湩獥䴠慥楮杮)",
+        "潐楳楴湯䴠瑥潨⁤〨䤽敤瑮晩敩Ⱳㄠ倽獯瑩潩⥮猀䴠慥楮杮)",
+        "楈桧楬桧⁴〨唽桮杩汨杩瑨摥‬㴱楈桧楬桧整Ɽ㈠吽杯汧⥥",
+        "敍畮䌠湯慴湩湩⁧瑉浥最瑨摥‬㴱楈桧楬桧整Ɽ㈠吽杯汧⥥",
+        "畓浢湥⁵景䴠湥⁵䰨慥敶䈠慬歮映牯删潯⁴敍畮)吽杯汧⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Manage Menu Items > Item Icons > Set Item Icon > From OS Icon",
+      "text": "潌摡传⁓捉湯┠‰潦⁲瑉浥┠‱湩┠″匨扵敭畮┠⤴",
+      "menuId": 25260,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "协䤠潣⁮唨敳琠敨传橢捥❴⁳硅牰獥楳湯⥳攀畮┠⤴",
+        "瑉浥琠⁯敓⁴捉湯漠⁦丨硥⁴慐慲敭整⁲敄整浲湩獥䴠慥楮杮)",
+        "潐楳楴湯䴠瑥潨⁤〨䤽敤瑮晩敩Ⱳㄠ倽獯瑩潩⥮渀獥䴠慥楮杮)",
+        "敍畮䌠湯慴湩湩⁧瑉浥攀瑮晩敩Ⱳㄠ倽獯瑩潩⥮渀獥䴠慥楮杮)",
+        "畓浢湥⁵景䴠湥⁵䰨慥敶䈠慬歮映牯删潯⁴敍畮)獥䴠慥楮杮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Manage Menu Items > Item Icons > Set Item Icon > From Bitmap/Bank",
+      "text": "潌摡䤠潣⁮牦浯┠‰潦⁲瑉浥┠‱湩┠″匨扵敭畮┠⤴",
+      "menuId": 25270,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "畆汬倠瑡⁨潴䈠瑩慭Ɒ漠⁲ⴱ慂敳⁤畎扭牥漠⁦捉湯䈠湡⁫汓瑯",
+        "瑉浥琠⁯敓⁴捉湯漠⁦丨硥⁴慐慲敭整⁲敄整浲湩獥䴠慥楮杮)",
+        "潐楳楴湯䴠瑥潨⁤〨䤽敤瑮晩敩Ⱳㄠ倽獯瑩潩⥮渀獥䴠慥楮杮)",
+        "敍畮䌠湯慴湩湩⁧瑉浥攀瑮晩敩Ⱳㄠ倽獯瑩潩⥮渀獥䴠慥楮杮)",
+        "畓浢湥⁵景䴠湥⁵䰨慥敶䈠慬歮映牯删潯⁴敍畮)獥䴠慥楮杮)",
+        "獕⁥猱⁴楐數⁬潦⁲牔湡灳牡湥祣‿〨丽Ɐㄠ夽獥)䴠慥楮杮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Manage Menu Items > Item Icons > Set Item Icon > Remove Item Icon",
+      "text": "敒潭敶䤠潣⁮牦浯䤠整⁭〥椠⁮㈥⠠畓浢湥⁵㌥)",
+      "menuId": 25280,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "瑉浥琠⁯敒潭敶䤠潣⁮牦浯⠠敎瑸倠牡浡瑥牥䐠瑥牥業敮⁳敍湡湩⥧",
+        "潐楳楴湯䴠瑥潨⁤〨䤽敤瑮晩敩Ⱳㄠ倽獯瑩潩⥮琀牥業敮⁳敍湡湩⥧",
+        "敍畮䌠湯慴湩湩⁧瑉浥攀瑮晩敩Ⱳㄠ倽獯瑩潩⥮琀牥業敮⁳敍湡湩⥧",
+        "畓浢湥⁵景䴠湥⁵䰨慥敶䈠慬歮映牯删潯⁴敍畮)牥業敮⁳敍湡湩⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Manage Menu Items > Item Icons > Set Check Icons",
+      "text": "潌摡䌠敨正慭歲䤠潣獮映牯䤠整⁭ㄥ椠⁮㌥⠠畓浢湥⁵㐥)",
+      "menuId": 25290,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22,
+        22,
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "畆汬倠瑡⁨潴∠桃捥敫≤䈠瑩慭⁰䰨慥敶䈠慬歮映牯䐠晥畡瑬)",
+        "畆汬倠瑡⁨潴∠湕档捥敫≤䈠瑩慭⁰䰨慥敶䈠慬歮映牯丠湯⥥",
+        "瑉浥琠⁯敓⁴捉湯漠⁦丨硥⁴慐慲敭整⁲敄整浲湩獥䴠慥楮杮)",
+        "潐楳楴湯䴠瑥潨⁤〨䤽敤瑮晩敩Ⱳㄠ倽獯瑩潩⥮渀獥䴠慥楮杮)",
+        "敍畮䌠湯慴湩湩⁧瑉浥攀瑮晩敩Ⱳㄠ倽獯瑩潩⥮渀獥䴠慥楮杮)",
+        "畓浢湥⁵景䴠湥⁵䰨慥敶䈠慬歮映牯删潯⁴敍畮)獥䴠慥楮杮)",
+        "獕⁥猱⁴楐數⁬潦⁲牔湡灳牡湥祣‿〨丽Ɐㄠ夽獥)䴠慥楮杮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Popup Menus > Close Popup Menu",
+      "text": "汃獯⁥捁楴敶倠灯灵䴠湥⡵⥳",
+      "menuId": 25300,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Application Menus > Assign Menu Bar",
+      "text": "獁楳湧䴠湥⁵慂⁲〥琠⁯桴⁥灁汰捩瑡潩⁮楗摮睯",
+      "menuId": 25310,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "敍畮䈠牡渀⁵慂⁲〥琠⁯桴⁥灁汰捩瑡潩⁮楗摮睯",
+        "敄敬整传摬䴠湥⁵湩䴠浥牯㽹⠠摁慶据摥‬敄慦汵㵴⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Application Menus > Remove Menu Bar",
+      "text": "敒潭敶琠敨䴠湥⁵慂⁲牦浯琠敨䄠灰楬慣楴湯圠湩潤w",
+      "menuId": 25320,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敄敬整传摬䴠湥⁵湩䴠浥牯㽹⠠摁慶据摥‬敄慦汵㵴⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Application Menus > Revert Window Menu",
+      "text": "敒敶瑲琠敨䄠灰楬慣楴湯猧圠湩潤⁷敍畮",
+      "menuId": 25330,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Manage Menu Items > Item Icons > Icon Bank > Add to Bank",
+      "text": "摁⁤捉湯┠‰潴䤠潣⁮慂歮",
+      "menuId": 25340,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "畆汬倠瑡⁨潴䈠瑩慭⁰楆敬",
+        "獕⁥猱⁴楐數⁬潦⁲牔湡灳牡湥祣‿〨丽Ɐㄠ夽獥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Manage Menu Items > Item Icons > Icon Bank > Remove from Bank",
+      "text": "敒潭敶䤠潣⁮〥映潲⁭捉湯䈠湡k",
+      "menuId": 25350,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湉敤⁸景䤠潣⁮湩䈠湡⁫ㄨ䈭獡摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Manage Menu Items > Item Icons > Icon Bank > Clear Bank",
+      "text": "汃慥⁲捉湯䈠湡k",
+      "menuId": 25360,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Manage Stored Menus > Set Background Color > Bitmap Pattern",
+      "text": "敓⁴慂正牧畯摮漠⁦〥⠠畓浢湥⁵ㄥ 潴倠瑡整湲┠2",
+      "menuId": 25370,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "敍畮琠⁯潍楤祦漀⁦〥⠠畓浢湥⁵ㄥ 潴倠瑡整湲┠2",
+        "畓浢湥⁵景䴠湥u⁦〥⠠畓浢湥⁵ㄥ 潴倠瑡整湲┠2",
+        "畆汬倠瑡⁨潴䈠瑩慭⁰楆敬琠⁯獵⁥獡倠瑡整湲渀┠2",
+        "灁汰⁹潴匠扵敭畮㽳⠠㴰潎‬㴱教⥳猀倠瑡整湲渀┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Error Handling > Error Number",
+      "text": "慌瑳牅潲⡲",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Error Handling > Error String",
+      "text": "慌瑳牅潲⑲(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Stored Menus > Default Item",
+      "text": "敄慦汵䥴整⡭",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3,
+        1
+      ],
+      "paramTitles": [
+        "敍畮丠浡e⡭",
+        "畓浢湥⁵景䴠湥u",
+        "潐楳楴湯䴠瑥潨d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Stored Menus > Maximum Height",
+      "text": "慍䡸楥桧⡴",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "敍畮丠浡e",
+        "畓浢湥⁵景䴠湥u"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Stored Menus > Exclusion Rectangle > Left Side",
+      "text": "硅剣捥䱴晥⡴",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "敍畮丠浡e⡴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Stored Menus > Exclusion Rectangle > Top Side",
+      "text": "硅剣捥呴灯(",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "敍畮丠浡e("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Stored Menus > Exclusion Rectangle > Right Side",
+      "text": "硅剣捥剴杩瑨(",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "敍畮丠浡e瑨("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Stored Menus > Exclusion Rectangle > Bottom Side",
+      "text": "硅剣捥䉴瑯潴⡭",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "敍畮丠浡e潴⡭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Stored Menus > Stored Menu at",
+      "text": "瑓牯摥敍畮瑁⠤",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x敍畮瑁⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Stored Menus > Stored Submenu at",
+      "text": "瑓牯摥畓浢湥䅵⑴(",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "敍畮丠浡e湥䅵⑴(",
+        "湉敤⁸景匠扵敭畮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Stored Menus > Total Stored Menus",
+      "text": "潔慴卬潴敲䵤湥獵(",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Stored Menus > Total Menu Items",
+      "text": "潔慴䥬整獭(",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "敍畮丠浡e(",
+        "畓浢湥⁵景䴠湥u"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Stored Menus > Item Grand Total",
+      "text": "片湡呤瑯污瑉浥⡳",
+      "menuId": 27120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "敍畮丠浡e瑉浥⡳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Stored Menus > Total Submenus",
+      "text": "潔慴卬扵敭畮⡳",
+      "menuId": 27130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "敍畮丠浡e畮⡳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Menu Items > ID to Position",
+      "text": "䑉潔潐⡳",
+      "menuId": 27140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3,
+        1
+      ],
+      "paramTitles": [
+        "敍畮䌠湯慴湩湩⁧桴⁥瑉浥",
+        "畓浢湥⁵景䴠湥u桴⁥瑉浥",
+        "瑉浥䤠敤瑮晩敩r桴⁥瑉浥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Menu Items > Position to ID",
+      "text": "潐味䥯⡄",
+      "menuId": 27150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3,
+        1
+      ],
+      "paramTitles": [
+        "敍畮䌠湯慴湩湩⁧桴⁥瑉浥",
+        "畓浢湥⁵景䴠湥u桴⁥瑉浥",
+        "ⴰ慂敳⁤潐楳楴湯栀⁥瑉浥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Menu Items > Text of Item",
+      "text": "瑉浥敔瑸⠤",
+      "menuId": 27160,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "敍畮䌠湯慴湩湩⁧桴⁥瑉浥",
+        "畓浢湥⁵景䴠湥u桴⁥瑉浥",
+        "瑉浥渀⁵景䴠湥u桴⁥瑉浥",
+        "潐楳楴湯䴠瑥潨d桴⁥瑉浥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Menu Items > Item Type",
+      "text": "瑉浥祔数(",
+      "menuId": 27170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "敍畮䌠湯慴湩湩⁧桴⁥瑉浥",
+        "畓浢湥⁵景䴠湥u桴⁥瑉浥",
+        "瑉浥渀⁵景䴠湥u桴⁥瑉浥",
+        "潐楳楴湯䴠瑥潨d桴⁥瑉浥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Menu Items > Contained Submenu",
+      "text": "瑉浥畓浢湥⑵(",
+      "menuId": 27180,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "敍畮䌠湯慴湩湩⁧桴⁥瑉浥",
+        "畓浢湥⁵景䴠湥u桴⁥瑉浥",
+        "瑉浥渀⁵景䴠湥u桴⁥瑉浥",
+        "潐楳楴湯䴠瑥潨d桴⁥瑉浥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Menu Items > Item Rectangle > Left Side",
+      "text": "瑉浥敒瑣敌瑦(",
+      "menuId": 27190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3,
+        1
+      ],
+      "paramTitles": [
+        "潐異⁰敍畮丠浡e",
+        "畓浢湥⁵景䴠湥u",
+        "瑉浥倠獯瑩潩nu"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Menu Items > Item Rectangle > Top Side",
+      "text": "瑉浥敒瑣潔⡰",
+      "menuId": 27200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3,
+        1
+      ],
+      "paramTitles": [
+        "潐異⁰敍畮丠浡e",
+        "畓浢湥⁵景䴠湥u",
+        "瑉浥倠獯瑩潩nu"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Menu Items > Item Rectangle > Right Side",
+      "text": "瑉浥敒瑣楒桧⡴",
+      "menuId": 27210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3,
+        1
+      ],
+      "paramTitles": [
+        "潐異⁰敍畮丠浡e",
+        "畓浢湥⁵景䴠湥u",
+        "瑉浥倠獯瑩潩nu"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Menu Items > Item Rectangle > Bottom Side",
+      "text": "瑉浥敒瑣潂瑴浯(",
+      "menuId": 27220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3,
+        1
+      ],
+      "paramTitles": [
+        "潐異⁰敍畮丠浡e",
+        "畓浢湥⁵景䴠湥u",
+        "瑉浥倠獯瑩潩nu"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Menu Items > Item at Point",
+      "text": "瑉浥瑁潐湩⡴",
+      "menuId": 27230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潐異⁰敍畮丠浡e",
+        "畓浢湥⁵景䴠湥u",
+        "⁘潐楳楴湯⠠湏匠牣敥⥮",
+        "⁙潐楳楴湯⠠湏匠牣敥⥮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Popup Menus > Last Popup Menu",
+      "text": "慌瑳潐異䵰湥⑵(",
+      "menuId": 27240,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Popup Menus > Last Selected Item",
+      "text": "慌瑳潐異䥰整⡭",
+      "menuId": 27250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Application Menus > Last Selected Menu Bar Item",
+      "text": "慌瑳敍畮慂䥲整⡭",
+      "menuId": 27260,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Application Menus > Last Selected Window Menu Item",
+      "text": "慌瑳楗摮睯敍畮瑉浥(",
+      "menuId": 27270,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "OS Item Icons > Window Menu Close Button",
+      "text": "协捉湯䵗汃獯⡥",
+      "menuId": 27280,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "OS Item Icons > Window Menu Minimize Button",
+      "text": "协捉湯䵗楍楮(",
+      "menuId": 27290,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "OS Item Icons > Window Menu Maximize Button",
+      "text": "协捉湯䵗慍楸(",
+      "menuId": 27300,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "OS Item Icons > Window Menu Restore Button",
+      "text": "协捉湯䵗敒瑳(",
+      "menuId": 27310,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "OS Item Icons > Menu Bar Close Button",
+      "text": "协捉湯䉍汃獯⡥",
+      "menuId": 27320,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "OS Item Icons > MB Close Button, Disabled",
+      "text": "协捉湯䉍汃獯䑥(",
+      "menuId": 27330,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "OS Item Icons > Menu Bar Minimize Button",
+      "text": "协捉湯䉍楍楮(",
+      "menuId": 27340,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "OS Item Icons > MB Minimize Button, Disabled",
+      "text": "协捉湯䉍楍楮⡄",
+      "menuId": 27350,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "OS Item Icons > Menu Bar Restore Button",
+      "text": "协捉湯䉍敒瑳(",
+      "menuId": 27360,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Window Menu IDs > Close",
+      "text": "䵗䑉汃獯⡥",
+      "menuId": 27370,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Window Menu IDs > Minimize",
+      "text": "䵗䑉楍楮業敺(",
+      "menuId": 27380,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Window Menu IDs > Maximize",
+      "text": "䵗䑉慍楸業敺(",
+      "menuId": 27390,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Window Menu IDs > Restore",
+      "text": "䵗䑉敒瑳牯⡥",
+      "menuId": 27400,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Window Menu IDs > Move",
+      "text": "䵗䑉潍敶(",
+      "menuId": 27410,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Window Menu IDs > Size",
+      "text": "䵗䑉楓敺(",
+      "menuId": 27420,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Window Menu IDs > Next Window",
+      "text": "䵗䑉敎瑸湗⡤",
+      "menuId": 27430,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Window Menu IDs > Previous Window",
+      "text": "䵗䑉牐癥湗⡤",
+      "menuId": 27440,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Window Menu IDs > Start Menu",
+      "text": "䵗䑉瑓牡䵴湥⡵",
+      "menuId": 27450,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Window Menu IDs > Screensaver",
+      "text": "䵗䑉捓湲癓⡲",
+      "menuId": 27460,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Stored Menus > Checkmark Space",
+      "text": "桃捥卫慰散(",
+      "menuId": 27470,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "敍畮丠浡e(",
+        "畓浢湥⁵景䴠湥u"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Popup Menus > Last Right-Clicked Item",
+      "text": "慌瑳潐異剰杩瑨汃捩⡫",
+      "menuId": 27480,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Menu Items > Accelerator Text",
+      "text": "瑉浥敋䅹捣汥敔瑸⠤",
+      "menuId": 27490,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "敍畮䌠湯慴湩湩⁧桴⁥瑉浥",
+        "畓浢湥⁵景䴠湥u桴⁥瑉浥",
+        "瑉浥渀⁵景䴠湥u桴⁥瑉浥",
+        "潐楳楴湯䴠瑥潨d桴⁥瑉浥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 50,
+      "menu": "Miscellaneous > Convert Frame to Screen X",
+      "text": "牆浡呥卯牣敥塮(",
+      "menuId": 27500,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "ⵘ潃牯楤慮整⠠湉䘠慲敭)",
+        "祔数堠潍獵⁥效敲䘀慲敭)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "Miscellaneous > Convert Frame to Screen Y",
+      "text": "牆浡呥卯牣敥奮(",
+      "menuId": 27510,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "ⵙ潃牯楤慮整⠠湉䘠慲敭)",
+        "祔数夠潍獵⁥效敲䘀慲敭)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 52,
+      "menu": "Miscellaneous > Last Rolled-Over Item",
+      "text": "慌瑳潒汬癯牥瑉浥(",
+      "menuId": 27520,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 53,
+      "menu": "Miscellaneous > Menu of Rolled-Over Item",
+      "text": "慌瑳潒汬癯牥敍畮(",
+      "menuId": 27530,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 54,
+      "menu": "Popup Menus > Last Right-Clicked Menu",
+      "text": "慌瑳潐異剰䵃湥⡵",
+      "menuId": 27540,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

@@ -1,0 +1,635 @@
+{
+  "file": "LacewingWebserver.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On error",
+      "text": "漥㨠传⁮牥潲r",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "HTTP server is hosting",
+      "text": "漥㨠䠠呔⁐敳癲牥椠⁳潨瑳湩g",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "HTTPS server is hosting",
+      "text": "漥㨠䠠呔卐猠牥敶⁲獩栠獯楴杮",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "HTTPS certificate is loaded",
+      "text": "漥㨠䠠呔卐挠牥楴楦慣整椠⁳潬摡摥",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Connection > On disconnect",
+      "text": "漥㨠传⁮楤捳湯敮瑣",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Connection > Connection is HTTPS",
+      "text": "漥㨠䌠湯敮瑣潩⁮獩䠠呔卐",
+      "menuId": 26006,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Request > On GET request",
+      "text": "漥㨠传⁮䕇⁔敲畱獥t",
+      "menuId": 26007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Request > On POST request",
+      "text": "漥㨠传⁮佐呓爠煥敵瑳",
+      "menuId": 26008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Request > On HEAD request",
+      "text": "漥㨠传⁮䕈䑁爠煥敵瑳",
+      "menuId": 26009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "HTTP server > Host",
+      "text": "潈瑳䠠呔⁐敳癲牥漠⁮潰瑲┠0",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潐瑲⠠敤慦汵⁴〸)⁮潰瑲┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "HTTP server > Stop hosting",
+      "text": "瑓灯栠獯楴杮䠠呔⁐敳癲牥",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "HTTPS server > Host",
+      "text": "潈瑳䠠呔卐猠牥敶⁲湯瀠牯⁴〥",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潐瑲⠠敤慦汵⁴㐴⤳渀瀠牯⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "HTTPS server > Stop hosting",
+      "text": "瑓灯栠獯楴杮䠠呔卐猠牥敶r",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "HTTPS server > Load certificate from system",
+      "text": "潌摡䠠呔卐挠牥楴楦慣整映潲⁭瑳牯⁥〥眠瑩⁨潣浭湯渠浡⁥ㄥ愠摮氠捯瑡潩⁮㈥",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "瑓牯⁥搨晥畡瑬椠⁳䴢≙)潲⁭瑳牯⁥〥眠瑩⁨潣浭湯渠浡⁥ㄥ愠摮氠捯瑡潩⁮㈥",
+        "潃浭湯渠浡⁥用畳污祬琠敨栠獯湴浡⥥　眠瑩⁨潣浭湯渠浡⁥ㄥ愠摮氠捯瑡潩⁮㈥",
+        "潌慣楴湯⠠敤慦汵㩴∠畃牲湥啴敳≲)　眠瑩⁨潣浭湯渠浡⁥ㄥ愠摮氠捯瑡潩⁮㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "On request > Set MIME type",
+      "text": "敓⁴敲灳湯敳䴠䵉⁅祴数琠⁯〥",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "䥍䕍琠灹⁥搨晥畡瑬›整瑸栯浴⥬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "On request > Set cookie",
+      "text": "敓⁴潣歯敩椠⁮敲灳湯敳㨠┠‰‽ㄥ",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "潃歯敩渠浡e⁮敲灳湯敳㨠┠‰‽ㄥ",
+        "潃歯敩瘠污敵 敲灳湯敳㨠┠‰‽ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "On request > Caching > Disable response caching",
+      "text": "楄慳汢⁥敲灳湯敳挠捡楨杮",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "On request > Caching > Set as unmodified",
+      "text": "敓⁴湵潭楤楦摥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "On request > Caching > Set last modified",
+      "text": "敓⁴慬瑳洠摯晩敩⁤楴敭琠⁯〥⠠乕塉琠浩⥥",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慌瑳洠摯晩敩⁤楴敭⠠乕塉琠浩⥥一塉琠浩⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "On request > Add to response > String",
+      "text": "摁⁤瑳楲杮┠‰潴爠獥潰獮e",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮琠⁯摡d潴爠獥潰獮e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "On request > Add to response > File > Guess MIME type",
+      "text": "摁⁤楦敬┠‰潴爠獥潰獮⁥湡⁤畧獥⁳桴⁥䥍䕍琠灹e",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬慮敭─‰潴爠獥潰獮⁥湡⁤畧獥⁳桴⁥䥍䕍琠灹e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "On request > Add to response > File > Leave the MIME type alone",
+      "text": "摁⁤楦敬┠‰潴爠獥潰獮⁥湡⁤敬癡⁥桴⁥䥍䕍琠灹⁥污湯e",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬慮敭─‰潴爠獥潰獮⁥湡⁤敬癡⁥桴⁥䥍䕍琠灹⁥污湯e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "On request > Add to response > Binary > Byte",
+      "text": "摁⁤祢整┠‰潴爠獥潰獮e",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慖畬e整┠‰潴爠獥潰獮e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "On request > Add to response > Binary > Short",
+      "text": "摁⁤桳牯⁴〥琠⁯敲灳湯敳",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慖畬e牯⁴〥琠⁯敲灳湯敳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "On request > Add to response > Binary > Integer",
+      "text": "摁⁤湩整敧⁲〥琠⁯敲灳湯敳",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慖畬e整敧⁲〥琠⁯敲灳湯敳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "On request > Add to response > Binary > From memory address",
+      "text": "摁⁤ㄥ戠瑹獥映潲⁭敭潭祲愠摤敲獳┠‰潴爠獥潰獮e",
+      "menuId": 25018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "摁牤獥s瑹獥映潲⁭敭潭祲愠摤敲獳┠‰潴爠獥潰獮e",
+        "楓敺猀s瑹獥映潲⁭敭潭祲愠摤敲獳┠‰潴爠獥潰獮e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "On request > Redirect to another URL",
+      "text": "敒楤敲瑣爠煥敵瑳琠⁯〥",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敎⁷剕L爠煥敵瑳琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "On request > Add to response > Binary > Set big endian",
+      "text": "敓⁴楢慮祲洠摯⁥潴戠杩攠摮慩n",
+      "menuId": 25022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "On request > Add to response > Binary > Set little endian (default)",
+      "text": "敓⁴楢慮祲洠摯⁥潴氠瑩汴⁥湥楤湡",
+      "menuId": 25023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "On request > Set MIME type (with charset)",
+      "text": "敓⁴敲灳湯敳䴠䵉⁅祴数琠⁯〥眠瑩⁨档牡敳⁴ㄥ",
+      "menuId": 25024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "䥍䕍琠灹⁥搨晥畡瑬琠硥⽴瑨汭)瑩⁨档牡敳⁴ㄥ",
+        "桃牡敳⁴搨晥畡瑬唠䙔㠭)瑨汭)瑩⁨档牡敳⁴ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Error string (for on error)",
+      "text": "牅潲⑲(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Lacewing version string",
+      "text": "敖獲潩⑮(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get connection IP address",
+      "text": "潃湮捥楴湯䥟⑐(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Statistics > Bytes sent",
+      "text": "呈偔祂整即湥⡴",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Statistics > Bytes received",
+      "text": "呈偔祂整剳捥楥敶⡤",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Request > Get URL",
+      "text": "敒畱獥彴剕⑌(",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Request > Get header",
+      "text": "敒畱獥彴效摡牥⠤",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慎敭猀彴效摡牥⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Request > Get cookie",
+      "text": "敒畱獥彴潃歯敩⠤",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慎敭猀彴潃歯敩⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Request > Get last modified time",
+      "text": "敒畱獥彴慌瑳潍楤楦摥(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慎敭猀彴慌瑳潍楤楦摥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Request > Get GET item",
+      "text": "敒畱獥彴䕇⑔(",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "瑉浥渠浡e⑔("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Request > Get POST item",
+      "text": "敒畱獥彴佐呓⠤",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "瑉浥渠浡e呓⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Request > Get hostname",
+      "text": "敒畱獥彴潈瑳慮敭⠤",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Guess MIME type for filename",
+      "text": "畇獥䵳䵉呅灹⑥(",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆敬慮敭漠⁲楦敬攠瑸湥楳湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Get local connection data",
+      "text": "潃湮捥楴湯䱟捯污慄慴⠤",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "敋y捥楴湯䱟捯污慄慴⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

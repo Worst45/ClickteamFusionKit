@@ -1,0 +1,2009 @@
+{
+  "file": "CharImage.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Line breaks at RC/LF",
+      "text": "漥›楌敮戠敲歡⁳瑡删⽃䙌",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Word Wraps",
+      "text": "漥›潗摲圠慲獰",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Available Characters Contain",
+      "text": "漥›癁楡慬汢⁥桃牡捡整獲䌠湯慴湩›〥",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲湯⁥牯洠牯⁥桃牡捡整獲愀湩›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Available Characters Contain Char...",
+      "text": "漥›癁楡慬汢⁥桃牡捡整獲䌠湯慴湩䌠慨㩲┠0",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁁桃牡⠠十䥃⁉慶畬⥥渀慴湩䌠慨㩲┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "On Draw > On Text",
+      "text": "漥›湏吠硥⁴牄睡",
+      "menuId": 26004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "On Draw > On Line",
+      "text": "漥›湏䰠湩⁥牄睡",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "On Draw > On Character",
+      "text": "漥›湏䌠慨慲瑣牥䐠慲w",
+      "menuId": 26006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Formats > Is Alpha Channel Off on Unformated Text At",
+      "text": "漥›汁桰⁡桃湡敮⁬晏⁦獩漠⁮湕潦浲瑡摥吠硥⁴瑁›〥",
+      "menuId": 26007,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湉敤⁸景䌠慨慲瑣牥眠瑩楨⁮湕潦浲瑡整⁤敔瑸　"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Formats > Ink Effects > Is Transparent Effect on Unformated Text At",
+      "text": "漥›牔湡灳牡湥⁴晅敦瑣椠⁳湯唠普牯慭整⁤敔瑸䄠㩴┠0",
+      "menuId": 26008,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湉敤⁸景䌠慨慲瑣牥眠瑩楨⁮湕潦浲瑡整⁤敔瑸─0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Formats > Ink Effects > Is Invert Effect on Unformated Text At",
+      "text": "漥›湉敶瑲䔠晦捥⁴獩漠⁮湕潦浲瑡摥吠硥⁴瑁›〥",
+      "menuId": 26009,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湉敤⁸景䌠慨慲瑣牥眠瑩楨⁮湕潦浲瑡整⁤敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Formats > Ink Effects > Is XOr Effect of Unformated Text At",
+      "text": "漥›佘⁲晅敦瑣椠⁳湯唠普牯慭整⁤敔瑸䄠㩴┠0",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湉敤⁸景䌠慨慲瑣牥眠瑩楨⁮湕潦浲瑡整⁤敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Formats > Ink Effects > Is And Effect of Unformated Text At",
+      "text": "漥›湁⁤晅敦瑣椠⁳湯唠普牯慭整⁤敔瑸䄠㩴┠0",
+      "menuId": 26011,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湉敤⁸景䌠慨慲瑣牥眠瑩楨⁮湕潦浲瑡整⁤敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Formats > Ink Effects > Is Or Effect of Unformated Text At",
+      "text": "漥›牏䔠晦捥⁴獩漠⁮湕潦浲瑡摥吠硥⁴瑁›〥",
+      "menuId": 26012,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湉敤⁸景䌠慨慲瑣牥眠瑩楨⁮湕潦浲瑡整⁤敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Formats > Ink Effects > Is Mono Effect of Unformated Text At",
+      "text": "漥›潍潮䔠晦捥⁴獩漠⁮湕潦浲瑡摥吠硥⁴瑁›〥",
+      "menuId": 26013,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湉敤⁸景䌠慨慲瑣牥眠瑩楨⁮湕潦浲瑡整⁤敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Formats > Ink Effects > Is Add Effect of Unformated Text At",
+      "text": "漥›摁⁤晅敦瑣椠⁳湯唠普牯慭整⁤敔瑸䄠㩴┠0",
+      "menuId": 26014,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湉敤⁸景䌠慨慲瑣牥眠瑩楨⁮湕潦浲瑡整⁤敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Formats > Ink Effects > Is Subtract Effect of Unformated Text At",
+      "text": "漥›畓瑢慲瑣䔠晦捥⁴獩漠⁮湕潦浲瑡摥吠硥⁴瑁›〥",
+      "menuId": 26015,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湉敤⁸景䌠慨慲瑣牥眠瑩楨⁮湕潦浲瑡整⁤敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Formats > Is Line of Character proceeded by a RC/LF on Unformatted Text At",
+      "text": "漥›楌敮漠⁦桃牡捡整⁲牰捯敥敤⁤祢愠删⽃䙌漠⁮湕潦浲瑡摥吠硥⁴瑁›〥",
+      "menuId": 26016,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湉敤⁸景䌠慨慲瑣牥眠瑩楨⁮湕潦浲瑡整⁤敔瑸漀浲瑡摥吠硥⁴瑁›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Text...",
+      "text": "敓⁴敔瑸›〥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲敔瑸　"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set Unformatted Text...",
+      "text": "敓⁴湕潦浲瑡整⁤敔瑸›〥",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲湕潦浲瑡整⁤敔瑸　"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set Page Width...",
+      "text": "敓⁴慐敧圠摩桴›〥",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲楗瑤h桴›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Set Page Height...",
+      "text": "敓⁴慐敧䠠楥桧㩴┠0",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲效杩瑨栀㩴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Line breaks at RC/LF > On",
+      "text": "楌敮戠敲歡⁳瑡删⽃䙌›湏",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Line breaks at RC/LF > Off",
+      "text": "楌敮戠敲歡⁳瑡删⽃䙌›晏f",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Line breaks at RC/LF > Set",
+      "text": "楌敮戠敲歡⁳瑡删⽃䙌›〥",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴楌敮戠敲歡⁳瑡删⽃䙌⠠‰‽晏ⱦㄠ㴠传⥮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Word Wrap > On",
+      "text": "潗摲圠慲㩰传n",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Word Wrap > Off",
+      "text": "潗摲圠慲㩰传晦",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Word Wrap > Set",
+      "text": "潗摲圠慲㩰┠0",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴潗摲圠慲⁰〨㴠传晦‬‱‽湏)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Set Available Characters...",
+      "text": "敓⁴桃牡捡整獲›〥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲癁楡慬汢⁥桃牡捡整獲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Add Available Char...",
+      "text": "摁⁤癁楡慬汢⁥桃牡›〥",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲癁楡慬汢⁥桃牡⠠十䥃⁉慖畬⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "On Draw Changes > Set X Offset...",
+      "text": "敓⁴湏䐠慲⁷⁘晏獦瑥›〥",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘晏獦瑥昀獦瑥›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "On Draw Changes > Set Y Offset...",
+      "text": "敓⁴湏䐠慲⁷⁙晏獦瑥›〥",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁙晏獦瑥昀獦瑥›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "On Draw Changes > Set Alpha Channel Off of Current Character...",
+      "text": "敓⁴汁桰⁡桃湡敮⁬晏⁦景䌠牵敲瑮䌠慨慲瑣牥",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "On Draw Changes > Ink Effects > Set Transparent Effect of Current Character...",
+      "text": "敓⁴牔湡灳牡湥⁴晅敦瑣漠⁦畃牲湥⁴桃牡捡整Ⱳ䌠敯晦捩敩瑮›〥",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲牔湡灳牡湥祣䌠敯晦捩敩瑮⠠‰‭㈱⤸攀Ⱳ䌠敯晦捩敩瑮›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "On Draw Changes > Ink Effects > Set Invert Effect of Current Character...",
+      "text": "敓⁴湉敶瑲䔠晦捥⁴景䌠牵敲瑮䌠慨慲瑣牥",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "On Draw Changes > Ink Effects > Set XOr Effect of Current Character...",
+      "text": "敓⁴佘⁲晅敦瑣漠⁦畃牲湥⁴桃牡捡整r",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "On Draw Changes > Ink Effects > Set And Effect of Current Character...",
+      "text": "敓⁴湁⁤晅敦瑣漠⁦畃牲湥⁴桃牡捡整r",
+      "menuId": 25018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "On Draw Changes > Ink Effects > Set Or Effect of Current Character...",
+      "text": "敓⁴牏䔠晦捥⁴景䌠牵敲瑮䌠慨慲瑣牥",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "On Draw Changes > Ink Effects > Set Mono Effect of Current Character...",
+      "text": "敓⁴潍潮䔠晦捥⁴景䌠牵敲瑮䌠慨慲瑣牥",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "On Draw Changes > Ink Effects > Set Add Effect of Current Character...",
+      "text": "敓⁴摁⁤晅敦瑣漠⁦畃牲湥⁴桃牡捡整r",
+      "menuId": 25021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "On Draw Changes > Ink Effects > Set Subtract Effect of Current Character...",
+      "text": "敓⁴畓瑢慲瑣䔠晦捥⁴景䌠牵敲瑮䌠慨慲瑣牥",
+      "menuId": 25022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Formats > Set Alias Index of Unformated Text...",
+      "text": "敓⁴汁慩⁳湉敤⁸景唠普牯慭整⁤敔瑸›〥⠠瑡›ㄥ‬敬杮桴›㈥)",
+      "menuId": 25023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩⁳湉敤x唠普牯慭整⁤敔瑸›〥⠠瑡›ㄥ‬敬杮桴›㈥)",
+        "湅整⁲潐楳楴湯椠⁮湕潦浲瑡整⁤敔瑸 〥⠠瑡›ㄥ‬敬杮桴›㈥)",
+        "湅整⁲敌杮桴渀椠⁮湕潦浲瑡整⁤敔瑸 〥⠠瑡›ㄥ‬敬杮桴›㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Formats > Set Tracking of Unformated Text...",
+      "text": "敓⁴牔捡楫杮漠⁦湕潦浲瑡摥吠硥㩴┠‰愨㩴┠ⰱ氠湥瑧㩨┠⤲",
+      "menuId": 25024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲牔捡楫杮 湕潦浲瑡摥吠硥㩴┠‰愨㩴┠ⰱ氠湥瑧㩨┠⤲",
+        "湅整⁲潐楳楴湯椠⁮湕潦浲瑡整⁤敔瑸 愨㩴┠ⰱ氠湥瑧㩨┠⤲",
+        "湅整⁲敌杮桴渀椠⁮湕潦浲瑡整⁤敔瑸 愨㩴┠ⰱ氠湥瑧㩨┠⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Formats > Set Alpha Channel Off of Unformated Text...",
+      "text": "敓⁴汁桰⁡桃湡敮⁬晏⁦景唠普牯慭整⁤敔瑸⠠瑡›ㄥ‬敬杮桴›㈥)",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潐楳楴湯椠⁮湕潦浲瑡整⁤敔瑸 敔瑸⠠瑡›ㄥ‬敬杮桴›㈥)",
+        "湅整⁲敌杮桴渀椠⁮湕潦浲瑡整⁤敔瑸 敔瑸⠠瑡›ㄥ‬敬杮桴›㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Formats > Ink Effects > Set Transparent Effect of Unformated Text...",
+      "text": "敓⁴牔湡灳牡湥⁴晅敦瑣漠⁦湕潦浲瑡摥吠硥㩴┠‰愨㩴┠ⰱ氠湥瑧㩨┠⤲",
+      "menuId": 25026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲牔湡灳牡湥祣䌠敯晦捩敩瑮⠠‰‭㈱⤸㨀┠‰愨㩴┠ⰱ氠湥瑧㩨┠⤲",
+        "湅整⁲潐楳楴湯椠⁮湕潦浲瑡整⁤敔瑸 ㈱⤸㨀┠‰愨㩴┠ⰱ氠湥瑧㩨┠⤲",
+        "湅整⁲敌杮桴渀椠⁮湕潦浲瑡整⁤敔瑸 ㈱⤸㨀┠‰愨㩴┠ⰱ氠湥瑧㩨┠⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Formats > Ink Effects > Set Invert Effect of Unformated Text...",
+      "text": "敓⁴湉敶瑲䔠晦捥⁴景唠普牯慭整⁤敔瑸⠠瑡›ㄥ‬敬杮桴›㈥)",
+      "menuId": 25027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潐楳楴湯椠⁮湕潦浲瑡整⁤敔瑸琀⠠瑡›ㄥ‬敬杮桴›㈥)",
+        "湅整⁲敌杮桴渀椠⁮湕潦浲瑡整⁤敔瑸琀⠠瑡›ㄥ‬敬杮桴›㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Formats > Ink Effects > Set XOr Effect of Unformated Text...",
+      "text": "敓⁴佘⁲晅敦瑣漠⁦湕潦浲瑡摥吠硥⁴愨㩴┠ⰱ氠湥瑧㩨┠⤲",
+      "menuId": 25028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潐楳楴湯椠⁮湕潦浲瑡整⁤敔瑸愀㩴┠ⰱ氠湥瑧㩨┠⤲",
+        "湅整⁲敌杮桴渀椠⁮湕潦浲瑡整⁤敔瑸愀㩴┠ⰱ氠湥瑧㩨┠⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Formats > Ink Effects > Set And Effect of Unformated Text...",
+      "text": "敓⁴湁⁤晅敦瑣漠⁦湕潦浲瑡摥吠硥⁴愨㩴┠ⰱ氠湥瑧㩨┠⤲",
+      "menuId": 25029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潐楳楴湯椠⁮湕潦浲瑡整⁤敔瑸愀㩴┠ⰱ氠湥瑧㩨┠⤲",
+        "湅整⁲敌杮桴渀椠⁮湕潦浲瑡整⁤敔瑸愀㩴┠ⰱ氠湥瑧㩨┠⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Formats > Ink Effects > Set Or Effect of Unformated Text...",
+      "text": "敓⁴牏䔠晦捥⁴景唠普牯慭整⁤敔瑸⠠瑡›ㄥ‬敬杮桴›㈥)",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潐楳楴湯椠⁮湕潦浲瑡整⁤敔瑸琀›ㄥ‬敬杮桴›㈥)",
+        "湅整⁲敌杮桴渀椠⁮湕潦浲瑡整⁤敔瑸琀›ㄥ‬敬杮桴›㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Formats > Ink Effects > Set Mono Effect of Unformated Text...",
+      "text": "敓⁴潍潮䔠晦捥⁴景唠普牯慭整⁤敔瑸⠠瑡›ㄥ‬敬杮桴›㈥)",
+      "menuId": 25031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潐楳楴湯椠⁮湕潦浲瑡整⁤敔瑸⠀瑡›ㄥ‬敬杮桴›㈥)",
+        "湅整⁲敌杮桴渀椠⁮湕潦浲瑡整⁤敔瑸⠀瑡›ㄥ‬敬杮桴›㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Formats > Ink Effects > Set Add Effect of Unformated Text...",
+      "text": "敓⁴摁⁤晅敦瑣漠⁦湕潦浲瑡摥吠硥⁴愨㩴┠ⰱ氠湥瑧㩨┠⤲",
+      "menuId": 25032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潐楳楴湯椠⁮湕潦浲瑡整⁤敔瑸愀㩴┠ⰱ氠湥瑧㩨┠⤲",
+        "湅整⁲敌杮桴渀椠⁮湕潦浲瑡整⁤敔瑸愀㩴┠ⰱ氠湥瑧㩨┠⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Formats > Ink Effects > Set Subtract Effect of Unformated Text...",
+      "text": "敓⁴畓瑢慲瑣䔠晦捥⁴景唠普牯慭整⁤敔瑸⠠瑡›ㄥ‬敬杮桴›㈥)",
+      "menuId": 25033,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潐楳楴湯椠⁮湕潦浲瑡整⁤敔瑸攀瑸⠠瑡›ㄥ‬敬杮桴›㈥)",
+        "湅整⁲敌杮桴渀椠⁮湕潦浲瑡整⁤敔瑸攀瑸⠠瑡›ㄥ‬敬杮桴›㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Formats > Set Horizontal Alignment of Unformated Text...",
+      "text": "敓⁴潈楲潺瑮污䄠楬湧敭瑮漠⁦湕潦浲瑡摥吠硥㩴┠‰愨㩴┠⤱",
+      "menuId": 25034,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潈楲潺瑮污䄠楬湧敭瑮⠠敬瑦‬散瑮敲‬楲桧ⱴ樠獵楴祦)",
+        "湅整⁲潐楳楴湯椠⁮湕潦浲瑡整⁤敔瑸攀瑮敲‬楲桧ⱴ樠獵楴祦)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Formats > Set Vertical Alignment of Unformated Text...",
+      "text": "敓⁴敖瑲捩污䄠楬湧敭瑮漠⁦湕潦浲瑡摥吠硥㩴┠‰愨㩴┠⤱",
+      "menuId": 25035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲敖瑲捩污䄠楬湧敭瑮⠠潴Ɒ挠湥牴ⱥ戠瑯潴⥭愀㩴┠⤱",
+        "湅整⁲潐楳楴湯椠⁮湕潦浲瑡整⁤敔瑸爀ⱥ戠瑯潴⥭愀㩴┠⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Formats > Set Leading of Unformated Text...",
+      "text": "敓⁴敌摡湩⁧景唠普牯慭整⁤敔瑸›〥⠠瑡›ㄥ)",
+      "menuId": 25036,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲敌摡湩g唠普牯慭整⁤敔瑸›〥⠠瑡›ㄥ)",
+        "湅整⁲潐楳楴湯椠⁮湕潦浲瑡整⁤敔瑸⠀瑡›ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Aliases > Add Alias...",
+      "text": "摁⁤汁慩⁳┨⤰",
+      "menuId": 25037,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲慎敭漠⁦汁慩s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Aliases > Insert Alias...",
+      "text": "湉敳瑲䄠楬獡⠠〥 瑡›ㄥ",
+      "menuId": 25038,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲慎敭漠⁦汁慩s›ㄥ",
+        "湉敳瑲䄠t漠⁦汁慩s›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Aliases > Delete Alias",
+      "text": "敄敬整䄠楬獡愠㩴┠0",
+      "menuId": 25039,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敄敬整䄠t獡愠㩴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Aliases > Copy Alias...",
+      "text": "潃祰䄠楬獡映潲㩭┠‰潴›ㄥ",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲牆浯䄠楬獡─‰潴›ㄥ",
+        "湅整⁲潔䄠楬獡猀─‰潴›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Aliases > By Character > Set Clipping X...",
+      "text": "敓⁴汁慩⁳〥猧堠䌠楬灰湩⁧潦⁲桃牡捡整㩲┠‱潴›㈥",
+      "menuId": 25041,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩s猧堠䌠楬灰湩⁧潦⁲桃牡捡整㩲┠‱潴›㈥",
+        "湅整⁲⁁桃牡捡整r楬灰湩⁧潦⁲桃牡捡整㩲┠‱潴›㈥",
+        "湅整⁲⁘汃灩楰杮䌠潯摲湩瑡e⁲桃牡捡整㩲┠‱潴›㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Aliases > By Character > Set Clipping Y...",
+      "text": "敓⁴汁慩⁳〥猧夠䌠楬灰湩⁧潦⁲桃牡捡整㩲┠‱潴›㈥",
+      "menuId": 25042,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩s猧夠䌠楬灰湩⁧潦⁲桃牡捡整㩲┠‱潴›㈥",
+        "湅整⁲⁁桃牡捡整r楬灰湩⁧潦⁲桃牡捡整㩲┠‱潴›㈥",
+        "湅整⁲⁙汃灩楰杮䌠潯摲湩瑡e⁲桃牡捡整㩲┠‱潴›㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Aliases > By Character > Set Clipping Width...",
+      "text": "敓⁴汁慩⁳〥猧䌠楬灰湩⁧楗瑤⁨潦⁲桃牡捡整㩲┠‱潴›㈥",
+      "menuId": 25043,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩s猧䌠楬灰湩⁧楗瑤⁨潦⁲桃牡捡整㩲┠‱潴›㈥",
+        "湅整⁲⁁桃牡捡整r灰湩⁧楗瑤⁨潦⁲桃牡捡整㩲┠‱潴›㈥",
+        "湅整⁲汃灩楰杮圠摩桴渀⁧楗瑤⁨潦⁲桃牡捡整㩲┠‱潴›㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Aliases > By Character > Set Clipping Height...",
+      "text": "敓⁴汁慩⁳〥猧䌠楬灰湩⁧效杩瑨映牯䌠慨慲瑣牥›ㄥ琠㩯┠2",
+      "menuId": 25044,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩s猧䌠楬灰湩⁧效杩瑨映牯䌠慨慲瑣牥›ㄥ琠㩯┠2",
+        "湅整⁲⁁桃牡捡整r灰湩⁧效杩瑨映牯䌠慨慲瑣牥›ㄥ琠㩯┠2",
+        "湅整⁲汃灩楰杮䠠楥桧t⁧效杩瑨映牯䌠慨慲瑣牥›ㄥ琠㩯┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Aliases > By Character > Set Character Width...",
+      "text": "敓⁴汁慩⁳〥猧䌠慨慲瑣牥圠摩桴映牯䌠慨慲瑣牥›ㄥ琠㩯┠2",
+      "menuId": 25045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩s猧䌠慨慲瑣牥圠摩桴映牯䌠慨慲瑣牥›ㄥ琠㩯┠2",
+        "湅整⁲⁁桃牡捡整r慲瑣牥圠摩桴映牯䌠慨慲瑣牥›ㄥ琠㩯┠2",
+        "湅整⁲桃牡捡整⁲楗瑤h牥圠摩桴映牯䌠慨慲瑣牥›ㄥ琠㩯┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Aliases > By Character > Set Character Height...",
+      "text": "敓⁴汁慩⁳〥猧䌠慨慲瑣牥䠠楥桧⁴潦⁲桃牡捡整㩲┠‱潴›㈥",
+      "menuId": 25046,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩s猧䌠慨慲瑣牥䠠楥桧⁴潦⁲桃牡捡整㩲┠‱潴›㈥",
+        "湅整⁲⁁桃牡捡整r慲瑣牥䠠楥桧⁴潦⁲桃牡捡整㩲┠‱潴›㈥",
+        "湅整⁲桃牡捡整⁲效杩瑨爀䠠楥桧⁴潦⁲桃牡捡整㩲┠‱潴›㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Aliases > By Character > Load Image from File...",
+      "text": "敓⁴汁慩⁳〥猧䤠慭敧映牯䌠慨慲瑣牥›ㄥ琠㩯┠2",
+      "menuId": 25047,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45,
+        63,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩s猧䤠慭敧映牯䌠慨慲瑣牥›ㄥ琠㩯┠2",
+        "湅整⁲⁁桃牡捡整r敧映牯䌠慨慲瑣牥›ㄥ琠㩯┠2",
+        "湅整⁲浉条⁥楆敬慮敭昀牯䌠慨慲瑣牥›ㄥ琠㩯┠2",
+        "⁘潃牯楤慮整漠⁦潨⁴灳瑯⠠〱〰〰映牯挠湥牴ⱥㄠ〱〰‰潦⁲楲桧⥴",
+        "⁙潃牯楤慮整漠⁦潨⁴灳瑯⠠〱〰〰映牯挠湥牴ⱥㄠ〱〰‰潦⁲潢瑴浯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Aliases > By Char > Set Clipping X...",
+      "text": "敓⁴汁慩⁳〥猧堠䌠楬灰湩⁧潦⁲桃牡⠠ㄥ 潴›㈥",
+      "menuId": 25048,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩s猧堠䌠楬灰湩⁧潦⁲桃牡⠠ㄥ 潴›㈥",
+        "湅整⁲桃牡⠠十䥃⁉慶畬⥥ 潦⁲桃牡⠠ㄥ 潴›㈥",
+        "湅整⁲⁘汃灩楰杮䌠潯摲湩瑡e⁲桃牡⠠ㄥ 潴›㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Aliases > By Char > Set Clipping Y...",
+      "text": "敓⁴汁慩⁳〥猧夠䌠楬灰湩⁧潦⁲桃牡⠠ㄥ 潴›㈥",
+      "menuId": 25049,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩s猧夠䌠楬灰湩⁧潦⁲桃牡⠠ㄥ 潴›㈥",
+        "湅整⁲桃牡⠠十䥃⁉慶畬⥥ 潦⁲桃牡⠠ㄥ 潴›㈥",
+        "湅整⁲⁙汃灩楰杮䌠潯摲湩瑡e⁲桃牡⠠ㄥ 潴›㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 50,
+      "menu": "Aliases > By Char > Set Clipping Width...",
+      "text": "敓⁴汁慩⁳〥猧䌠楬灰湩⁧楗瑤⁨潦⁲桃牡⠠ㄥ 潴›㈥",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩s猧䌠楬灰湩⁧楗瑤⁨潦⁲桃牡⠠ㄥ 潴›㈥",
+        "湅整⁲桃牡⠠十䥃⁉慶畬⥥椀瑤⁨潦⁲桃牡⠠ㄥ 潴›㈥",
+        "湅整⁲汃灩楰杮圠摩桴甀⥥椀瑤⁨潦⁲桃牡⠠ㄥ 潴›㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "Aliases > By Char > Set Clipping Height...",
+      "text": "敓⁴汁慩⁳〥猧䌠楬灰湩⁧效杩瑨映牯䌠慨⁲┨⤱琠㩯┠2",
+      "menuId": 25051,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩s猧䌠楬灰湩⁧效杩瑨映牯䌠慨⁲┨⤱琠㩯┠2",
+        "湅整⁲桃牡⠠十䥃⁉慶畬⥥攀杩瑨映牯䌠慨⁲┨⤱琠㩯┠2",
+        "湅整⁲汃灩楰杮䠠楥桧t⥥攀杩瑨映牯䌠慨⁲┨⤱琠㩯┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 52,
+      "menu": "Aliases > By Char > Set Character Width...",
+      "text": "敓⁴汁慩⁳〥猧䌠慨慲瑣牥圠摩桴映牯䌠慨⁲┨⤱琠㩯┠2",
+      "menuId": 25052,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩s猧䌠慨慲瑣牥圠摩桴映牯䌠慨⁲┨⤱琠㩯┠2",
+        "湅整⁲桃牡⠠十䥃⁉慶畬⥥圀摩桴映牯䌠慨⁲┨⤱琠㩯┠2",
+        "湅整⁲桃牡捡整⁲楗瑤h⥥圀摩桴映牯䌠慨⁲┨⤱琠㩯┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 53,
+      "menu": "Aliases > By Char > Set Character Height...",
+      "text": "敓⁴汁慩⁳〥猧䌠慨慲瑣牥䠠楥桧⁴潦⁲桃牡⠠ㄥ 潴›㈥",
+      "menuId": 25053,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩s猧䌠慨慲瑣牥䠠楥桧⁴潦⁲桃牡⠠ㄥ 潴›㈥",
+        "湅整⁲桃牡⠠十䥃⁉慶畬⥥䠀楥桧⁴潦⁲桃牡⠠ㄥ 潴›㈥",
+        "湅整⁲桃牡捡整⁲效杩瑨⤀䠀楥桧⁴潦⁲桃牡⠠ㄥ 潴›㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 54,
+      "menu": "Aliases > By Char > Load Image from File...",
+      "text": "敓⁴汁慩⁳〥猧䤠慭敧映牯䌠慨⁲┨⤱琠㩯┠2",
+      "menuId": 25054,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        63,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩s猧䤠慭敧映牯䌠慨⁲┨⤱琠㩯┠2",
+        "湅整⁲桃牡⠠十䥃⁉慶畬⥥䌀慨⁲┨⤱琠㩯┠2",
+        "湅整⁲浉条⁥楆敬慮敭甀⥥䌀慨⁲┨⤱琠㩯┠2",
+        "⁘潃牯楤慮整漠⁦潨⁴灳瑯⠠〱〰〰映牯挠湥牴ⱥㄠ〱〰‰潦⁲楲桧⥴",
+        "⁙潃牯楤慮整漠⁦潨⁴灳瑯⠠〱〰〰映牯挠湥牴ⱥㄠ〱〰‰潦⁲潢瑴浯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 55,
+      "menu": "Aliases > Load Basic Glyph Map from Image File...",
+      "text": "潌摡䈠獡捩䜠祬桰䴠灡椠瑮⁯汁慩㩳┠‰牦浯䤠慭敧䘠汩㩥┠‱眨摩桴㩳┠ⰲ栠楥桧獴›㌥‬潈却潰獴›㩘┠ⰴ夠›㔥)",
+      "menuId": 25055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        63,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩s祬桰䴠灡椠瑮⁯汁慩㩳┠‰牦浯䤠慭敧䘠汩㩥┠‱眨摩桴㩳┠ⰲ栠楥桧獴›㌥‬潈却潰獴›㩘┠ⰴ夠›㔥)",
+        "湅整⁲浉条⁥楆敬慮敭椀瑮⁯汁慩㩳┠‰牦浯䤠慭敧䘠汩㩥┠‱眨摩桴㩳┠ⰲ栠楥桧獴›㌥‬潈却潰獴›㩘┠ⰴ夠›㔥)",
+        "湅整⁲楗瑤⁨景攠捡⁨桃牡捡整⁲浉条e牦浯䤠慭敧䘠汩㩥┠‱眨摩桴㩳┠ⰲ栠楥桧獴›㌥‬潈却潰獴›㩘┠ⰴ夠›㔥)",
+        "湅整⁲效杩瑨漠⁦慥档䌠慨慲瑣牥䤠慭敧爀浯䤠慭敧䘠汩㩥┠‱眨摩桴㩳┠ⰲ栠楥桧獴›㌥‬潈却潰獴›㩘┠ⰴ夠›㔥)",
+        "⁘潃牯楤慮整漠⁦潨⁴灳瑯⁳ㄨ〰〰‰潦⁲散瑮敲‬ㄱ〰〰映牯爠杩瑨)┠ⰲ栠楥桧獴›㌥‬潈却潰獴›㩘┠ⰴ夠›㔥)",
+        "⁙潃牯楤慮整漠⁦潨⁴灳瑯⁳ㄨ〰〰‰潦⁲散瑮敲‬ㄱ〰〰映牯戠瑯潴⥭─ⰲ栠楥桧獴›㌥‬潈却潰獴›㩘┠ⰴ夠›㔥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 56,
+      "menu": "Aliases > Load Character Images from Folder...",
+      "text": "潌摡䌠慨慲瑣牥䤠慭敧⁳湩潴䄠楬獡›〥映潲⁭潆摬牥›ㄥ",
+      "menuId": 25056,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩s牥䤠慭敧⁳湩潴䄠楬獡›〥映潲⁭潆摬牥›ㄥ",
+        "湅整⁲慐桴漠⁦潦摬牥挠湯慴湩湩⁧浩条獥漀⁭潆摬牥›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 57,
+      "menu": "Set Object Width...",
+      "text": "敓⁴扏敪瑣圠摩桴›〥",
+      "menuId": 25057,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲楗瑤h摩桴›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 58,
+      "menu": "Set Object Height...",
+      "text": "敓⁴扏敪瑣䠠楥桧㩴┠0",
+      "menuId": 25058,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲效杩瑨椀桧㩴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 59,
+      "menu": "Aliases > Set Name...",
+      "text": "敓⁴汁慩⁳〥猧丠浡⁥潴›ㄥ",
+      "menuId": 25059,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩s猧丠浡⁥潴›ㄥ",
+        "湅整⁲慎敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 60,
+      "menu": "Redraw",
+      "text": "敒牤睡",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 61,
+      "menu": "On Draw Changes > Set Alias Index of Current Character...",
+      "text": "敓⁴汁慩⁳景䌠牵敲瑮䌠慨慲瑣牥琠㩯┠0",
+      "menuId": 25061,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩⁳湉敤x瑮䌠慨慲瑣牥琠㩯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 62,
+      "menu": "On Draw Changes > Set Tracking of Current Character...",
+      "text": "敓⁴牔捡楫杮漠⁦畃牲湥⁴桃牡捡整⁲潴›〥",
+      "menuId": 25062,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲牔捡楫杮 畃牲湥⁴桃牡捡整⁲潴›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 63,
+      "menu": "On Draw Changes > Set Horizontal Alignment of Current RC/LF Line...",
+      "text": "敓⁴潈楲潺瑮污䄠楬湧敭瑮漠⁦畃牲湥⁴䍒䰯⁆楌敮琠㩯┠0",
+      "menuId": 25063,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲潈楲潺瑮污䄠楬湧敭瑮⠠敬瑦‬散瑮敲‬楲桧ⱴ樠獵楴祦)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 64,
+      "menu": "On Draw Changes > Set Vertical Alignment of Current RC/LF Line...",
+      "text": "敓⁴敖瑲捩污䄠楬湧敭瑮漠⁦畃牲湥⁴䍒䰯⁆楌敮琠㩯┠0",
+      "menuId": 25064,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲敖瑲捩污䄠楬湧敭瑮⠠潴Ɒ挠湥牴ⱥ戠瑯潴⥭㨀┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 65,
+      "menu": "On Draw Changes > Set Leading of Current Line...",
+      "text": "敓⁴敌摡湩⁧景䌠牵敲瑮䰠湩⁥潴›〥",
+      "menuId": 25065,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲敌摡湩g䌠牵敲瑮䰠湩⁥潴›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 66,
+      "menu": "Load Text from File...",
+      "text": "潌摡吠硥⁴牦浯䘠汩㩥┠0",
+      "menuId": 25066,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        63
+      ],
+      "paramTitles": [
+        "湅整⁲敔瑸䘠汩e汩㩥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Object Width",
+      "text": "扏敪瑣楗瑤⡨",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Object Height",
+      "text": "扏敪瑣效杩瑨(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Text",
+      "text": "敔瑸⠤",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get Unformated Text",
+      "text": "湕潦浲瑡整呤硥⑴(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get Unformated Char At",
+      "text": "湕潦浲瑡整䍤慨䅲⡴",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲桃牡倠獯瑩潩⁮楷桴湩唠普牯慭瑴摥吠硥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get Unformated Length",
+      "text": "湕潦浲瑡整䱤湥瑧⡨",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Get Page Width",
+      "text": "慐敧楗瑤⡨",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Get Page Height",
+      "text": "慐敧效杩瑨(",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Get Available Characters",
+      "text": "癁楡慬汢䍥慨慲瑣牥⑳(",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Get Available Char Quantity",
+      "text": "癁楡慬汢䍥慨兲祴(",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Get Available Char At",
+      "text": "癁楡慬汢䍥慨䅲⡴",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲癁楡慬汢⁥桃牡䤠摮硥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "On Draw Changes > Get X Offset",
+      "text": "湏牄睡佘晦敳⡴",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "On Draw Changes > Get Y Offset",
+      "text": "湏牄睡余晦敳⡴",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "On Draw Changes > Get Unformatted Current Character Index",
+      "text": "湏牄睡畃牲湥䍴慨䥲摮硥(",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Drawing > Get X Coordinate of Character Image in Unformatted Text At",
+      "text": "偘獯牄睡䍮慨䥲慭敧湕敔瑸瑁(",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲湉敤⁸景䌠慨慲瑣牥眠瑩楨⁮湕潦浲瑡整⁤敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Drawing > Get Y Coordinate of Character Image in Unformatted Text At",
+      "text": "偙獯牄睡䍮慨䥲慭敧湕敔瑸瑁(",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲湉敤⁸景䌠慨慲瑣牥眠瑩楨⁮湕潦浲瑡整⁤敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Drawing > Get Hotspot Inclusive X Coordinate of Character Image in Unformatted Text At",
+      "text": "偘獯潈䑴慲湷桃牡浉条啥呮硥䅴⡴",
+      "menuId": 27016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲湉敤⁸景䌠慨慲瑣牥眠瑩楨⁮湕潦浲瑡整⁤敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Drawing > Get Hotspot Inclusive Y Coordinate of Character Image in Unformatted Text At",
+      "text": "偙獯潈䑴慲湷桃牡浉条啥呮硥䅴⡴",
+      "menuId": 27017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲湉敤⁸景䌠慨慲瑣牥眠瑩楨⁮湕潦浲瑡整⁤敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Formats > Get Alias Index of Unformated Text At",
+      "text": "汁慩啳普牯慭瑴摥敔瑸瑁(",
+      "menuId": 27018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲湉敤⁸景䌠慨慲瑣牥眠瑩楨⁮湕潦浲瑡整⁤敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Formats > Get Tracking of Unformated Text At",
+      "text": "牔捡楫杮湕潦浲瑡整呤硥䅴⡴",
+      "menuId": 27019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲湉敤⁸景䌠慨慲瑣牥眠瑩楨⁮湕潦浲瑡整⁤敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Formats > Ink Effects > Get Transparent Coefficient of Unformated Text At",
+      "text": "牔湡䍳敯晦湕潦浲瑡整呤硥䅴⡴",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲湉敤⁸景䌠慨慲瑣牥眠瑩楨⁮湕潦浲瑡整⁤敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Formats > Get Horizontal Alignment of Unformated Text At",
+      "text": "潈䅲楬湧湕潦浲瑡整呤硥䅴⑴(",
+      "menuId": 27021,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲湉敤⁸景䌠慨慲瑣牥眠瑩楨⁮湕潦浲瑡整⁤敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Formats > Get Vertical Alignment of Unformated Text At",
+      "text": "敖䅲楬湧湕潦浲瑡整呤硥䅴⑴(",
+      "menuId": 27022,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲湉敤⁸景䌠慨慲瑣牥眠瑩楨⁮湕潦浲瑡整⁤敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Formats > Get Leading of Unformated Text At",
+      "text": "敌摡湩啧普牯慭瑴摥敔瑸瑁(",
+      "menuId": 27023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲湉敤⁸景䌠慨慲瑣牥眠瑩楨⁮湕潦浲瑡整⁤敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Aliases > Get Name of Alias",
+      "text": "汁慩乳浡⑥(",
+      "menuId": 27024,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲湉敤⁸景䄠楬獡"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Aliases > Get Index of Alias",
+      "text": "汁慩䥳摮硥(",
+      "menuId": 27025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "湅整⁲慎敭漠⁦汁慩s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Aliases > Get Quantity of Aliases",
+      "text": "汁慩关祴(",
+      "menuId": 27026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Formats > Get Line of Character from Unformatted Text At",
+      "text": "楌敮湕潦浲瑡整呤硥䅴⡴",
+      "menuId": 27027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲湉敤⁸景䌠慨慲瑣牥眠瑩楨⁮湕潦浲瑡整⁤敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Aliases > By Character > Get Clipping X",
+      "text": "汃灩䍘慨慲瑣牥(",
+      "menuId": 27028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        3
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩⁳湉敤x",
+        "湅整⁲⁁桃牡捡整r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Aliases > By Character > Get Clipping Y",
+      "text": "汃灩䍙慨慲瑣牥(",
+      "menuId": 27029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        3
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩⁳湉敤x",
+        "湅整⁲⁁桃牡捡整r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Aliases > By Character > Get Clipping Width",
+      "text": "汃灩楗瑤䍨慨慲瑣牥(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        3
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩⁳湉敤x(",
+        "湅整⁲⁁桃牡捡整r("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Aliases > By Character > Get Clipping Height",
+      "text": "汃灩效杩瑨桃牡捡整⡲",
+      "menuId": 27031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        3
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩⁳湉敤x⡲",
+        "湅整⁲⁁桃牡捡整r⡲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Aliases > By Character > Get Character Width",
+      "text": "桃牡楗瑤䍨慨慲瑣牥(",
+      "menuId": 27032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        3
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩⁳湉敤x(",
+        "湅整⁲⁁桃牡捡整r("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Aliases > By Character > Get Character Height",
+      "text": "桃牡效杩瑨桃牡捡整⡲",
+      "menuId": 27033,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        3
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩⁳湉敤x⡲",
+        "湅整⁲⁁桃牡捡整r⡲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Aliases > By Char > Get Clipping X",
+      "text": "汃灩䍘慨⡲",
+      "menuId": 27034,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩⁳湉敤x",
+        "湅整⁲⁁桃牡⠠十䥃⁉慶畬⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Aliases > By Char > Get Clipping Y",
+      "text": "汃灩䍙慨⡲",
+      "menuId": 27035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩⁳湉敤x",
+        "湅整⁲⁁桃牡⠠十䥃⁉慶畬⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Aliases > By Char > Get Clipping Width",
+      "text": "汃灩楗瑤䍨慨⡲",
+      "menuId": 27036,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩⁳湉敤x",
+        "湅整⁲⁁桃牡⠠十䥃⁉慶畬⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Aliases > By Char > Get Clipping Height",
+      "text": "汃灩效杩瑨桃牡(",
+      "menuId": 27037,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩⁳湉敤x",
+        "湅整⁲⁁桃牡⠠十䥃⁉慶畬⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Aliases > By Char > Get Character Width",
+      "text": "桃牡楗瑤䍨慨⡲",
+      "menuId": 27038,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩⁳湉敤x",
+        "湅整⁲⁁桃牡⠠十䥃⁉慶畬⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Aliases > By Char > Get Character Height",
+      "text": "桃牡效杩瑨桃牡(",
+      "menuId": 27039,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲汁慩⁳湉敤x",
+        "湅整⁲⁁桃牡⠠十䥃⁉慶畬⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

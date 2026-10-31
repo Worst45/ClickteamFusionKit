@@ -1,0 +1,22 @@
+{
+  "file": "fmod.mfx",
+  "conditions": [],
+  "actions": [],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Float Modulus",
+      "text": "䵆摯(",
+      "menuId": 27000,
+      "resText": "FMod(",
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

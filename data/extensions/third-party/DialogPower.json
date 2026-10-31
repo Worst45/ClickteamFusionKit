@@ -1,0 +1,1357 @@
+{
+  "file": "DialogPower.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On Success > Color Chooser",
+      "text": "漥›湏䌠汯牯䌠潨獯牥┠‰畓捣獥s",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉⠠湅整⁲ㄭ映牯䄠祮䤠⥄甀捣獥s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On Success > Font Dialog",
+      "text": "漥›湏䘠湯⁴楄污杯┠‰畓捣獥s",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉⠠湅整⁲ㄭ映牯䄠祮䤠⥄挀獥s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "On Success > Icon Picker",
+      "text": "漥›湏䤠潣⁮楐正牥┠‰畓捣獥s",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉⠠湅整⁲ㄭ映牯䄠祮䤠⥄挀獥s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "On Success > Open File Dialog",
+      "text": "漥›湏传数⁮楆敬䐠慩潬⁧〥匠捵散獳",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉⠠湅整⁲ㄭ映牯䄠祮䤠⥄　匠捵散獳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "On Success > Save File Dialog",
+      "text": "漥›湏匠癡⁥楆敬䐠慩潬⁧〥匠捵散獳",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉⠠湅整⁲ㄭ映牯䄠祮䤠⥄　匠捵散獳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "On Cancel > Color Chooser",
+      "text": "漥›湏䌠汯牯䌠潨獯牥┠‰慃据汥",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉⠠湅整⁲ㄭ映牯䄠祮䤠⥄愀据汥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "On Cancel > Font Dialog",
+      "text": "漥›湏䘠湯⁴楄污杯┠‰慃据汥",
+      "menuId": 26060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉⠠湅整⁲ㄭ映牯䄠祮䤠⥄挀汥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "On Cancel > Icon Picker",
+      "text": "漥›湏䤠潣⁮楐正牥┠‰慃据汥",
+      "menuId": 26070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉⠠湅整⁲ㄭ映牯䄠祮䤠⥄挀汥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "On Cancel > Open File Dialog",
+      "text": "漥›湏传数⁮楆敬䐠慩潬⁧〥䌠湡散l",
+      "menuId": 26080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉⠠湅整⁲ㄭ映牯䄠祮䤠⥄　䌠湡散l"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "On Cancel > Save File Dialog",
+      "text": "漥›湏匠癡⁥楆敬䐠慩潬⁧〥䌠湡散l",
+      "menuId": 26090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉⠠湅整⁲ㄭ映牯䄠祮䤠⥄　䌠湡散l"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "On Close > MessageBox",
+      "text": "漥›湏䴠獥慳敧潂⁸〥䌠潬敳",
+      "menuId": 26100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉⠠湅整⁲ㄭ映牯䄠祮䤠⥄攀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "On Close > Color Chooser",
+      "text": "漥›湏䌠汯牯䌠潨獯牥┠‰汃獯e",
+      "menuId": 26110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉⠠湅整⁲ㄭ映牯䄠祮䤠⥄氀獯e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "On Close > Font Dialog",
+      "text": "漥›湏䘠湯⁴楄污杯┠‰汃獯e",
+      "menuId": 26120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉⠠湅整⁲ㄭ映牯䄠祮䤠⥄猀e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "On Close > Icon Picker",
+      "text": "漥›湏䤠潣⁮楐正牥┠‰汃獯e",
+      "menuId": 26130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉⠠湅整⁲ㄭ映牯䄠祮䤠⥄猀e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "On Close > AboutBox",
+      "text": "漥›湏䄠潢瑵潂⁸〥䌠潬敳",
+      "menuId": 26140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉⠠湅整⁲ㄭ映牯䄠祮䤠⥄"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "On Close > Open File Dialog",
+      "text": "漥›湏传数⁮楆敬䐠慩潬⁧〥䌠潬敳",
+      "menuId": 26150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉⠠湅整⁲ㄭ映牯䄠祮䤠⥄　䌠潬敳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "On Close > Save File Dialog",
+      "text": "漥›湏匠癡⁥楆敬䐠慩潬⁧〥䌠潬敳",
+      "menuId": 26160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉⠠湅整⁲ㄭ映牯䄠祮䤠⥄　䌠潬敳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Dialog Info > Font Dialog > Bold Selected?",
+      "text": "漥›潆瑮䐠慩潬㩧䈠汯⁤敓敬瑣摥?",
+      "menuId": 26170,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Dialog Info > Font Dialog > Italic Selected?",
+      "text": "漥›潆瑮䐠慩潬㩧䤠慴楬⁣敓敬瑣摥?",
+      "menuId": 26180,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Dialog Info > Font Dialog > Underline Selected?",
+      "text": "漥›潆瑮䐠慩潬㩧唠摮牥楬敮匠汥捥整㽤",
+      "menuId": 26190,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Dialog Info > Font Dialog > Strikeout Selected?",
+      "text": "漥›潆瑮䐠慩潬㩧匠牴歩潥瑵匠汥捥整㽤",
+      "menuId": 26200,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Show Dialog > Show MessageBox",
+      "text": "桓睯䴠獥慳敧潂⁸獕湩⁧楗摮睯䠠湡汤⁥〥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        45,
+        45,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗摮睯䠠湡汤⁥景倠牡湥⁴楗摮睯渀汤⁥〥",
+        "䑉琠⁯獵⁥倨獯瑩癩⁥湉整敧⥲眀渀汤⁥〥",
+        "敔瑸 獵⁥倨獯瑩癩⁥湉整敧⥲眀渀汤⁥〥",
+        "楔汴e獵⁥倨獯瑩癩⁥湉整敧⥲眀渀汤⁥〥",
+        "畂瑴湯⁳〨伽ⱋㄠ伽ⵋ慃据汥‬㴲教⵳潎‬㴳教⵳潎䌭湡散ⱬ㐠刽瑥祲䌭湡散ⱬ㔠䄽潢瑲刭瑥祲䤭湧牯ⱥ㘠䌽湡散⵬牔䅹慧湩䌭湯楴畮⥥",
+        "捉湯⠠㴰潎敮‬㴱硅汣浡瑡潩Ɱ㈠䤽普牯慭楴湯‬㴳畑獥楴湯‬㴴牅潲⥲渀散ⱬ㔠䄽潢瑲刭瑥祲䤭湧牯ⱥ㘠䌽湡散⵬牔䅹慧湩䌭湯楴畮⥥",
+        "敄慦汵⁴畂瑴湯⠠ⴱ⤴洀瑡潩Ɱ㈠䤽普牯慭楴湯‬㴳畑獥楴湯‬㴴牅潲⥲渀散ⱬ㔠䄽潢瑲刭瑥祲䤭湧牯ⱥ㘠䌽湡散⵬牔䅹慧湩䌭湯楴畮⥥",
+        "楒桧⵴潴䰭晥⁴敒摡湩㽧⠠㴰潎‬㴱教⥳愀楴湯‬㴳畑獥楴湯‬㴴牅潲⥲渀散ⱬ㔠䄽潢瑲刭瑥祲䤭湧牯ⱥ㘠䌽湡散⵬牔䅹慧湩䌭湯楴畮⥥",
+        "楒桧⵴畊瑳晩敩㽤⠠㴰潎‬㴱教⥳㴀教⥳愀楴湯‬㴳畑獥楴湯‬㴴牅潲⥲渀散ⱬ㔠䄽潢瑲刭瑥祲䤭湧牯ⱥ㘠䌽湡散⵬牔䅹慧湩䌭湯楴畮⥥",
+        "潍慤楬祴⠠㴰灁汰捩瑡潩Ɱㄠ吽獡Ⱬ㈠匽獹整⥭ 㴳畑獥楴湯‬㴴牅潲⥲渀散ⱬ㔠䄽潢瑲刭瑥祲䤭湧牯ⱥ㘠䌽湡散⵬牔䅹慧湩䌭湯楴畮⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Show Dialog > Show Color Chooser",
+      "text": "桓睯䌠汯牯䌠潨獯牥唠楳杮圠湩潤⁷慈摮敬┠0",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗摮睯䠠湡汤⁥景倠牡湥⁴楗摮睯 慈摮敬┠0",
+        "䑉琠⁯獵⁥倨獯瑩癩⁥湉整敧⥲眀 慈摮敬┠0",
+        "湉瑩慩⁬潃潬⁲唨敳䜠瑥䝒⁂畆据楴湯)敬┠0",
+        "敄楦敮䌠獵潴⁭潃潬獲‿⴨㴱楄慳汢摥‬㴰汃獯摥愠⁴瑓牡ⱴㄠ伽数⁮瑡匠慴瑲)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Show Dialog > Show Font Dialog",
+      "text": "桓睯䘠湯⁴楄污杯唠楳杮圠湩潤⁷慈摮敬┠0",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗摮睯䠠湡汤⁥景倠牡湥⁴楗摮睯愀摮敬┠0",
+        "䑉琠⁯獵⁥倨獯瑩癩⁥湉整敧⥲眀愀摮敬┠0",
+        "湉瑩慩⁬敔瑸䌠汯牯⠠獕⁥敇剴䉇䘠湵瑣潩⥮",
+        "楍楮畭⁭楓敺⠠楓敺䰠浩瑩传汮⥹䘀湵瑣潩⥮",
+        "慍楸畭⁭楓敺⠠楓敺䰠浩瑩传汮⥹䘀湵瑣潩⥮",
+        "獕⁥晅敦瑣㽳⠠㴰潎‬㴱教⥳氀⥹䘀湵瑣潩⥮",
+        "獕⁥楓敺䰠浩瑩㽳⠠㴰潎‬㴱教⥳䘀湵瑣潩⥮",
+        "桓睯传汮⁹牔敵祔数䘠湯獴‿〨丽Ɐㄠ夽獥)",
+        "捓敲湥䘠湯獴‿〨丽Ɐㄠ夽獥)丽Ɐㄠ夽獥)",
+        "牐湩整⁲潆瑮㽳⠠㴰潎‬㴱教⥳一Ɐㄠ夽獥)",
+        "桓睯匠牣灩獴‿〨丽Ɐㄠ夽獥)一Ɐㄠ夽獥)"
+      ],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Show Dialog > Show Icon Picker",
+      "text": "桓睯䤠潣⁮楐正牥唠楳杮圠湩潤⁷慈摮敬┠0",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "楗摮睯䠠湡汤⁥景倠牡湥⁴楗摮睯愀摮敬┠0",
+        "䑉琠⁯獵⁥倨獯瑩癩⁥湉整敧⥲眀愀摮敬┠0",
+        "湉瑩慩⁬敓敬瑣潩⁮湉敤⁸〨䈭獡摥)敬┠0",
+        "畆汬倠瑡⁨潴䤠楮楴污删獥畯捲⁥楆敬攀┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Show Dialog > Show AboutBox",
+      "text": "桓睯䄠潢瑵潂⁸獕湩⁧楗摮睯䠠湡汤⁥〥",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "楗摮睯䠠湡汤⁥景倠牡湥⁴楗摮睯氀⁥〥",
+        "䑉琠⁯獵⁥倨獯瑩癩⁥湉整敧⥲眀氀⁥〥",
+        "敔瑸漠⁦楔汴⁥湡⁤潂⁸匨敥䠠汥⁰潦⁲潍敲)",
+        "瑏敨⁲瑓晵f⁥湡⁤潂⁸匨敥䠠汥⁰潦⁲潍敲)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Show Dialog > Show Open File Dialog",
+      "text": "桓睯传数⁮楆敬䐠慩潬⁧獕湩⁧楗摮睯䠠湡汤⁥〥",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗摮睯䠠湡汤⁥景倠牡湥⁴楗摮睯搀睯䠠湡汤⁥〥",
+        "䑉琠⁯獵⁥倨獯瑩癩⁥湉整敧⥲眀搀睯䠠湡汤⁥〥",
+        "汁潬⁷畍瑬⵩敓敬瑣‿〨丽Ɐㄠ夽獥)䠠湡汤⁥〥",
+        "慐桴䴠獵⁴硅獩㽴⠠㴰潎‬㴱教⥳猀)䠠湡汤⁥〥",
+        "楆敬䴠獵⁴硅獩㽴⠠㴰潎‬㴱教⥳猀)䠠湡汤⁥〥",
+        "楈敤删慥ⵤ湏祬䌠敨正潢㽸⠠㴰潎‬㴱教⥳氀⁥〥",
+        "敇⁴桓牯捴瑵倠瑡獨‿〨丽Ɐㄠ夽獥)教⥳氀⁥〥",
+        "桓睯䠠摩敤⁮湡⁤祓瑳浥䘠汩獥‿〨丽Ɐㄠ夽獥)",
+        "牃慥整倠潲灭㽴⠠㴰潎‬㴱教⥳ 〨丽Ɐㄠ夽獥)",
+        "潄❮⁴摁⁤潴删捥湥⁴潄畣敭瑮㽳⠠㴰潎‬㴱教⥳",
+        "潎丠瑥潷歲䈠瑵潴㽮⠠㴰潎‬㴱教⥳㴀潎‬㴱教⥳",
+        "楄灳慬⁹效灬䈠瑵潴㽮⠠㴰潎‬㴱教⥳漀‬㴱教⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Show Dialog > Show Save File Dialog",
+      "text": "桓睯匠癡⁥楆敬䐠慩潬⁧獕湩⁧楗摮睯䠠湡汤⁥〥",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗摮睯䠠湡汤⁥景倠牡湥⁴楗摮睯搀睯䠠湡汤⁥〥",
+        "䑉琠⁯獵⁥倨獯瑩癩⁥湉整敧⥲眀搀睯䠠湡汤⁥〥",
+        "汁潬⁷畍瑬⵩敓敬瑣‿〨丽Ɐㄠ夽獥)䠠湡汤⁥〥",
+        "慐桴䴠獵⁴硅獩㽴⠠㴰潎‬㴱教⥳猀)䠠湡汤⁥〥",
+        "楆敬䴠獵⁴硅獩㽴⠠㴰潎‬㴱教⥳猀)䠠湡汤⁥〥",
+        "楈敤删慥ⵤ湏祬䌠敨正潢㽸⠠㴰潎‬㴱教⥳氀⁥〥",
+        "敇⁴桓牯捴瑵倠瑡獨‿〨丽Ɐㄠ夽獥)教⥳氀⁥〥",
+        "桓睯䠠摩敤⁮湡⁤祓瑳浥䘠汩獥‿〨丽Ɐㄠ夽獥)",
+        "癏牥牷瑩⁥楆敬倠潲灭㽴⠠㴰潎‬㴱教⥳㄀夽獥)",
+        "潄❮⁴摁⁤潴删捥湥⁴潄畣敭瑮㽳⠠㴰潎‬㴱教⥳",
+        "潎丠瑥潷歲䈠瑵潴㽮⠠㴰潎‬㴱教⥳㴀潎‬㴱教⥳",
+        "楄灳慬⁹效灬䈠瑵潴㽮⠠㴰潎‬㴱教⥳漀‬㴱教⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Dialog Info > Color Chooser > Set Custom Color",
+      "text": "潃潬⁲桃潯敳㩲匠瑥䌠獵潴⁭潃潬⁲〥琠⁯ㄥ",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湉敤⁸景䌠獵潴⁭潃潬⁲〨ㄭ⤵漀⁲〥琠⁯ㄥ",
+        "潃潬⁲唨敳䜠瑥䝒⁂畆据楴湯)漀⁲〥琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Dialog Info > Color Chooser > Reset Custom Colors",
+      "text": "潃潬⁲桃潯敳㩲删獥瑥䌠獵潴⁭潃潬獲",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Dialog Info > Font Dialog > Set TypeFace Name",
+      "text": "潆瑮䐠慩潬㩧匠瑥吠灹䙥捡⁥慎敭琠⁯〥",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "祔数慆散丠浡e瑥吠灹䙥捡⁥慎敭琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Dialog Info > Font Dialog > Set Character Set",
+      "text": "潆瑮䐠慩潬㩧匠瑥䌠慨慲瑣牥匠瑥琠⁯〥",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "桃牡捡整⁲敓⁴匨敥䔠灸敲獳潩獮)⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Dialog Info > Font Dialog > Set Bold State",
+      "text": "潆瑮䐠慩潬㩧匠瑥䈠汯⁤瑓瑡⁥潴┠0",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潂摬‿〨丽Ɐㄠ夽獥)⁤瑓瑡⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Dialog Info > Font Dialog > Set Italic State",
+      "text": "潆瑮䐠慩潬㩧匠瑥䤠慴楬⁣瑓瑡⁥潴┠0",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "瑉污捩‿〨丽Ɐㄠ夽獥)⁣瑓瑡⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Dialog Info > Font Dialog > Set Underline State",
+      "text": "潆瑮䐠慩潬㩧匠瑥唠摮牥楬敮匠慴整琠⁯〥",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湕敤汲湩㽥⠠㴰潎‬㴱教⥳攀匠慴整琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Dialog Info > Font Dialog > Set Strikeout State",
+      "text": "潆瑮䐠慩潬㩧匠瑥匠牴歩潥瑵匠慴整琠⁯〥",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "瑓楲敫畯㽴⠠㴰潎‬㴱教⥳琀匠慴整琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Dialog Info > Font Dialog > Reset Information",
+      "text": "潆瑮䐠慩潬㩧删獥瑥匠癡摥䤠普牯慭楴湯",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Dialog Info > File Dialog > Set Dialog Title",
+      "text": "楆敬䐠慩潬㩧匠瑥䐠慩潬⁧楔汴⁥潴┠0",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楔汴e慩潬㩧匠瑥䐠慩潬⁧楔汴⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Dialog Info > File Dialog > Set Initial Directory",
+      "text": "楆敬䐠慩潬㩧匠瑥䤠楮楴污䐠物捥潴祲琠⁯〥",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潆摬牥倠瑡⁨景䤠楮楴污䐠物捥潴祲礀琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Dialog Info > File Dialog > Set Default Extension",
+      "text": "楆敬䐠慩潬㩧匠瑥䐠晥畡瑬䔠瑸湥楳湯琠⁯〥",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敄慦汵⁴硅整獮潩⁮丨⁯潄⥴琀湥楳湯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Dialog Info > File Dialog > Add Extension Filter",
+      "text": "楆敬䐠慩潬㩧䄠摤䘠汩整⁲〥映牯┠1",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "楆瑬牥䐠獥牣灩楴湯氀整⁲〥映牯┠1",
+        "硅整獮潩獮⠠⸪硸㭸⸪祹㭹⸪空⥺─1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Dialog Info > File Dialog > Clear Extension Filters",
+      "text": "楆敬䐠慩潬㩧䌠敬牡䘠汩整⁲楌瑳",
+      "menuId": 25200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Dialog Info > File Dialog > Set Default Filter",
+      "text": "楆敬䐠慩潬㩧匠瑥䐠晥畡瑬䘠汩整⁲湉敤⁸潴┠0",
+      "menuId": 25210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湉敤⁸ㄨ䈭獡摥)䐠晥畡瑬䘠汩整⁲湉敤⁸潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Window Handles > Main",
+      "text": "慍湩睈摮(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Window Handles > Desktop",
+      "text": "敄歳潴䡰湷⡤",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Window Handles > Taskbar",
+      "text": "慔歳慢䡲湷⡤",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Window Handles > Foreground",
+      "text": "牆牧摮睈摮(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Window Handles > Highest",
+      "text": "楈桧獥䡴湷⡤",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗摮睯䠠湡汤e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Window Handles > Lowest",
+      "text": "潌敷瑳睈摮(",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗摮睯䠠湡汤e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Window Handles > Owner",
+      "text": "睏敮䡲湷⡤",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗摮睯䠠湡汤e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Window Handles > Child",
+      "text": "桃汩䡤湷⡤",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗摮睯䠠湡汤e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Window Handles > Next",
+      "text": "敎瑸睈摮(",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗摮睯䠠湡汤e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Window Handles > Previous",
+      "text": "牐癥睈摮(",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗摮睯䠠湡汤e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Window Handles > Enabled Popup",
+      "text": "湅潐異䡰湷⡤",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗摮睯䠠湡汤e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Returned Values > Returned Number 1",
+      "text": "敒乴浵敢ㅲ(",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Returned Values > Returned Number 2",
+      "text": "敒乴浵敢㉲(",
+      "menuId": 27120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Returned Values > Returned String 1",
+      "text": "敒却牴湩ㅧ⠤",
+      "menuId": 27130,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Returned Values > Returned String 2",
+      "text": "敒却牴湩㉧⠤",
+      "menuId": 27140,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Dialog Info > MessageBox > OK Button",
+      "text": "䉍䭏(",
+      "menuId": 27150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Dialog Info > MessageBox > Cancel Button",
+      "text": "䉍慃据汥(",
+      "menuId": 27160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Dialog Info > MessageBox > Yes Button",
+      "text": "䉍教⡳",
+      "menuId": 27170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Dialog Info > MessageBox > No Button",
+      "text": "䉍潎(",
+      "menuId": 27180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Dialog Info > MessageBox > Retry Button",
+      "text": "䉍敒牴⡹",
+      "menuId": 27190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Dialog Info > MessageBox > Abort Button",
+      "text": "䉍扁牯⡴",
+      "menuId": 27200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Dialog Info > MessageBox > Ignore Button",
+      "text": "䉍杉潮敲(",
+      "menuId": 27210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Dialog Info > MessageBox > Try Again Button",
+      "text": "䉍牔䅹慧湩(",
+      "menuId": 27220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Dialog Info > MessageBox > Continue Button",
+      "text": "䉍潃瑮湩敵(",
+      "menuId": 27230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Dialog Info > Color Chooser > Get Custom Color",
+      "text": "䍃畃瑳潃潬⡲",
+      "menuId": 27240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤⁸〨ㄭ⤵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Dialog Info > Font Dialog > TypeFace Name",
+      "text": "䑆祔数慆散⠤",
+      "menuId": 27250,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Dialog Info > Font Dialog > Character Set",
+      "text": "䑆桃牡敓⡴",
+      "menuId": 27260,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Dialog Info > Font Dialog > Bold State",
+      "text": "䑆潂摬(",
+      "menuId": 27270,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Dialog Info > Font Dialog > Italic State",
+      "text": "䑆瑉污捩(",
+      "menuId": 27280,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Dialog Info > Font Dialog > Underline State",
+      "text": "䑆湕牤湬(",
+      "menuId": 27290,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Dialog Info > Font Dialog > Strikeout State",
+      "text": "䑆瑓佲瑵(",
+      "menuId": 27300,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Dialog Info > Font Dialog > Character Sets > ANSI (Standard)",
+      "text": "䑆桃牡乁䥓(",
+      "menuId": 27310,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Dialog Info > Font Dialog > Character Sets > Baltic",
+      "text": "䑆桃牡慂瑬捩(",
+      "menuId": 27320,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Dialog Info > Font Dialog > Character Sets > Chinese",
+      "text": "䑆桃牡桃湩獥⡥",
+      "menuId": 27330,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Dialog Info > Font Dialog > Character Sets > East Europe",
+      "text": "䑆桃牡畅潲(",
+      "menuId": 27340,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Dialog Info > Font Dialog > Character Sets > Great Britain",
+      "text": "䑆桃牡片牂瑩(",
+      "menuId": 27350,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Dialog Info > Font Dialog > Character Sets > Greek",
+      "text": "䑆桃牡片敥⡫",
+      "menuId": 27360,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Dialog Info > Font Dialog > Character Sets > Hangul",
+      "text": "䑆桃牡慈杮汵(",
+      "menuId": 27370,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Dialog Info > Font Dialog > Character Sets > Mac",
+      "text": "䑆桃牡慍⡣",
+      "menuId": 27380,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Dialog Info > Font Dialog > Character Sets > OEM",
+      "text": "䑆桃牡䕏⡍",
+      "menuId": 27390,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Dialog Info > Font Dialog > Character Sets > Russian",
+      "text": "䑆桃牡畒獳(",
+      "menuId": 27400,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Dialog Info > Font Dialog > Character Sets > Shift",
+      "text": "䑆桃牡桓晩⡴",
+      "menuId": 27410,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Dialog Info > Font Dialog > Character Sets > Symbol",
+      "text": "䑆桃牡祓扭(",
+      "menuId": 27420,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Dialog Info > Font Dialog > Character Sets > Turkish",
+      "text": "䑆桃牡畔歲(",
+      "menuId": 27430,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Dialog Info > Font Dialog > Character Sets > Vietnamese",
+      "text": "䑆桃牡楖瑥(",
+      "menuId": 27440,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "ID of Last Dialog",
+      "text": "慌瑳䑉(",
+      "menuId": 27450,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

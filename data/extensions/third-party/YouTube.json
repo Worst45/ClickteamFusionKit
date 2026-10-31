@@ -1,0 +1,471 @@
+{
+  "file": "YouTube.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Chromeless Player > On Error",
+      "text": "湏䔠牲牯ⴠ倠慬敹⁲┨⤰",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "汐祡牥䤠⁄‭ㄨ㘭)┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Embedded Player > On Error",
+      "text": "湏䔠牲牯ⴠ䔠扭摥敤⁤汐祡牥",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Chromeless Player > Load Video",
+      "text": "潌摡嘠摩潥ⴠ䤠⡄ㄥ 湉潴倠慬敹⁲┨⤰",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "汐祡牥匠潬⁴‭ㄨ㘭)湉潴倠慬敹⁲┨⤰",
+        "楖敤⁯䑉ⴠ⠠ㄱ䐠杩瑩䌠摯⁥牆浯唠䱒)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Chromeless Player > Play Video",
+      "text": "汐祡嘠摩潥ⴠ倠慬敹⡲〥)",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "汐祡牥匠潬⁴‭ㄨ㘭)〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Chromeless Player > Pause Video",
+      "text": "慐獵⁥楖敤⁯‭汐祡牥┨⤰",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "汐祡牥匠潬⁴‭ㄨ㘭)┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Chromeless Player > Stop Video",
+      "text": "瑓灯嘠摩潥ⴠ倠慬敹⡲〥)",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "汐祡牥匠潬⁴‭ㄨ㘭)〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Chromeless Player > Mute Video",
+      "text": "畍整嘠摩潥ⴠ倠慬敹⡲〥)",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "汐祡牥匠潬⁴‭ㄨ㘭)〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Chromeless Player > UnMute Video",
+      "text": "湕畍整嘠摩潥ⴠ倠慬敹⡲〥)",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "汐祡牥匠潬⁴‭ㄨ㘭)⡲〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Chromeless Player > Set Video Volume",
+      "text": "敓⁴楖敤⁯潖畬敭ⴠ⠠ㄥ ‭汐祡牥┨⤰",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "汐祡牥匠潬⁴‭ㄨ㘭)ㄥ ‭汐祡牥┨⤰",
+        "潖畬敭ⴠ⠠‰‽楍Ɱ䴠硡㴠ㄠ〰)牥┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Chromeless Player > Seek To Video Position",
+      "text": "敓步吠⁯楖敤⁯潐楳楴湯ⴠ⠠ㄥ ‭汐祡牥┨⤰",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "汐祡牥匠潬⁴‭ㄨ㘭)湯ⴠ⠠ㄥ ‭汐祡牥┨⤰",
+        "潐楳楴湯⠠湉匠捥湯獤)ⴠ⠠ㄥ ‭汐祡牥┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Chromeless Player > Set X Position",
+      "text": "敓⁴⁘潐楳楴湯ⴠ⠠ㄥ ‭汐祡牥┨⤰",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "汐祡牥匠潬⁴‭ㄨ㘭) ‭汐祡牥┨⤰",
+        "⁘潐楳楴湯 ‭ㄨ㘭) ‭汐祡牥┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Chromeless Player > Set Y Position",
+      "text": "敓⁴⁙潐楳楴湯ⴠ⠠ㄥ ‭汐祡牥┨⤰",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "汐祡牥匠潬⁴‭ㄨ㘭) ‭汐祡牥┨⤰",
+        "⁙潐楳楴湯 ‭ㄨ㘭) ‭汐祡牥┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Chromeless Player > Set Width",
+      "text": "敓⁴楗瑤⁨‭┨⤱ⴠ倠慬敹⡲〥)",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "汐祡牥匠潬⁴‭ㄨ㘭)慬敹⡲〥)",
+        "楗瑤h匠潬⁴‭ㄨ㘭)慬敹⡲〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Chromeless Player > Set Height",
+      "text": "敓⁴效杩瑨ⴠ⠠ㄥ ‭汐祡牥┨⤰",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "汐祡牥匠潬⁴‭ㄨ㘭)汐祡牥┨⤰",
+        "效杩瑨匀潬⁴‭ㄨ㘭)汐祡牥┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Chromeless Player > Destroy",
+      "text": "敄瑳潲⁹‭汐祡牥┨⤰",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "汐祡牥匠潬⁴‭ㄨ㘭)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Embedded Player > Load Video",
+      "text": "潌摡嘠摩潥ⴠ䤠⡄ㄥ 湉潴䔠扭摥敤⁤汐祡牥",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楖敤⁯䑉ⴠ⠠ㄱ䐠杩瑩䌠摯⁥牆浯唠䱒)祡牥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Embedded Player > Destroy",
+      "text": "敄瑳潲⁹‭浅敢摤摥倠慬敹r",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Chromeless Player > Video Url",
+      "text": "敇噴摩潥牕⑬(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "汐祡牥䤠⁄‭ㄨ㘭)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Chromeless Player > Video Embed Code",
+      "text": "敇噴摩潥浅敢䍤摯⑥(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "汐祡牥䤠⁄‭ㄨ㘭)("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Chromeless Player > Video State",
+      "text": "敇噴摩潥瑓瑡⑥(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "汐祡牥䤠⁄‭ㄨ㘭)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Chromeless Player > Video Quality",
+      "text": "敇噴摩潥畑污瑩⑹(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "汐祡牥䤠⁄‭ㄨ㘭)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Chromeless Player > Current Time",
+      "text": "敇䍴牵敲瑮楔敭⠤",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "汐祡牥䤠⁄‭ㄨ㘭)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Chromeless Player > Video Duration",
+      "text": "敇噴摩潥畄慲楴湯⠤",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "汐祡牥䤠⁄‭ㄨ㘭)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Chromeless Player > Bytes Loaded",
+      "text": "敇䉴瑹獥潌摡摥⠤",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "汐祡牥䤠⁄‭ㄨ㘭)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Chromeless Player > Bytes Total",
+      "text": "敇䉴瑹獥潔慴⑬(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "汐祡牥䤠⁄‭ㄨ㘭)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Chromeless Player > Bytes Started From",
+      "text": "敇䉴瑹獥瑓牡整䙤潲⑭(",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "汐祡牥䤠⁄‭ㄨ㘭)⑭("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Chromeless Player > Get Last Error",
+      "text": "敇䱴獡䕴牲牯⠤",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "汐祡牥䤠⁄‭ㄨ㘭)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Embedded Player > Video Url",
+      "text": "敇䕴扭摥敤噤摩潥牕⑬(",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Embedded Player > Get Last Error",
+      "text": "敇䱴獡䕴扭摥敤䕤牲牯⠤",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

@@ -1,0 +1,553 @@
+{
+  "file": "animPicture.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Identifier Exists in Cache?",
+      "text": "漥›〥䔠楸瑳⁳湩䌠捡敨",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "摉湥楴楦牥琀⁳湩䌠捡敨"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Is Animation Playing?",
+      "text": "漥›〥䄠楮慭楴湯椠⁳汐祡湩㽧",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Cahce > Cache Tileset",
+      "text": "慃档⁥楔敬敳⁴┨⤰愠⁳┨⤱‬楔敬猠穩⁥┨ⰲ┠⤳",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        63,
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆敬琠⁯慃捨e┨⤰愠⁳┨⤱‬楔敬猠穩⁥┨ⰲ┠⤳",
+        "摉湥楴楦牥挀e┨⤰愠⁳┨⤱‬楔敬猠穩⁥┨ⰲ┠⤳",
+        "楔敬圠摩桴挀e┨⤰愠⁳┨⤱‬楔敬猠穩⁥┨ⰲ┠⤳",
+        "楔敬䠠楥桧te┨⤰愠⁳┨⤱‬楔敬猠穩⁥┨ⰲ┠⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Cahce > Remove Image from Cache",
+      "text": "湕慣档⁥浉条⁥┨⤰",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "摉湥楴楦牥最⁥┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Scale and Rotation > Set Rotoscale State",
+      "text": "敓⁴潒潴捳污⁥瑓瑡⁥┨⤰",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "瑓瑡⁥ㄨ䔽慮汢摥‬㴰楄慳汢摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Scale and Rotation > Set Angle",
+      "text": "敓⁴湁汧⁥┨⤰",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湁汧e汧⁥┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Scale and Rotation > Set Scale",
+      "text": "敓⁴捓污⁥┨⤰",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "捓污e污⁥┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Scale and Rotation > Set X-Scale",
+      "text": "敓⁴ⵘ捓污⁥┨⤰",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "捓污e捓污⁥┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Scale and Rotation > Set Y-Scale",
+      "text": "敓⁴ⵙ捓污⁥┨⤰",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "捓污e捓污⁥┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Hotspot > Set Hotspot",
+      "text": "敓⁴潈獴潰⁴┨ⰰ┠⤱",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潈獴潰⁴X⁴┨ⰰ┠⤱",
+        "潈獴潰⁴Y⁴┨ⰰ┠⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Hotspot > Set Hotspot X",
+      "text": "敓⁴潈獴潰⁴⁘┨⤰",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潈獴潰⁴X⁴⁘┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Hotspot > Set Hotspot Y",
+      "text": "敓⁴潈獴潰⁴⁙┨⤰",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潈獴潰⁴Y⁴⁙┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Cahce > Cache Image from Alphachannel and Color",
+      "text": "慃档⁥浉条⁥獡䄠灬慨档湡敮⁬景⠠〥 獡⠠ㄥ 楷桴挠汯牯⠠㈥)",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        63,
+        45,
+        24,
+        22
+      ],
+      "paramTitles": [
+        "楆敬琠⁯慃捨e䄠灬慨档湡敮⁬景⠠〥 獡⠠ㄥ 楷桴挠汯牯⠠㈥)",
+        "摉湥楴楦牥挀e䄠灬慨档湡敮⁬景⠠〥 獡⠠ㄥ 楷桴挠汯牯⠠㈥)",
+        "潃潬r楦牥挀e䄠灬慨档湡敮⁬景⠠〥 獡⠠ㄥ 楷桴挠汯牯⠠㈥)",
+        "湉敶獲⁥汁桰a䄠灬慨档湡敮⁬景⠠〥 獡⠠ㄥ 楷桴挠汯牯⠠㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Cahce > Cache Image",
+      "text": "慃档⁥浉条⁥┨⤰愠⁳┨⤱",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        63,
+        45
+      ],
+      "paramTitles": [
+        "楆敬琠⁯慃捨e⤰愠⁳┨⤱",
+        "摉湥楴楦牥挀e⤰愠⁳┨⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Cahce > Cache Tileset from Alphachannel and Color",
+      "text": "慃档⁥楔敬敳⁴獡䄠灬慨档湡敮⁬景⠠〥 獡⠠ㄥ 楷桴挠汯牯⠠㐥Ⱙ吠汩⁥楳敺⠠㈥‬㌥)",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        63,
+        45,
+        22,
+        22,
+        24,
+        22
+      ],
+      "paramTitles": [
+        "楆敬琠⁯慃捨e獡䄠灬慨档湡敮⁬景⠠〥 獡⠠ㄥ 楷桴挠汯牯⠠㐥Ⱙ吠汩⁥楳敺⠠㈥‬㌥)",
+        "摉湥楴楦牥挀e獡䄠灬慨档湡敮⁬景⠠〥 獡⠠ㄥ 楷桴挠汯牯⠠㐥Ⱙ吠汩⁥楳敺⠠㈥‬㌥)",
+        "楔敬圠摩桴挀e獡䄠灬慨档湡敮⁬景⠠〥 獡⠠ㄥ 楷桴挠汯牯⠠㐥Ⱙ吠汩⁥楳敺⠠㈥‬㌥)",
+        "楔敬䠠楥桧te獡䄠灬慨档湡敮⁬景⠠〥 獡⠠ㄥ 楷桴挠汯牯⠠㐥Ⱙ吠汩⁥楳敺⠠㈥‬㌥)",
+        "潃潬r楥桧te獡䄠灬慨档湡敮⁬景⠠〥 獡⠠ㄥ 楷桴挠汯牯⠠㐥Ⱙ吠汩⁥楳敺⠠㈥‬㌥)",
+        "湉敶獲⁥汁桰a獡䄠灬慨档湡敮⁬景⠠〥 獡⠠ㄥ 楷桴挠汯牯⠠㐥Ⱙ吠汩⁥楳敺⠠㈥‬㌥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Animation > Set Image",
+      "text": "敓⁴畃牲湥⁴浉条⁥潴⠠〥)",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "摉湥楴楦牥 浉条⁥潴⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Animation > Set Tile",
+      "text": "敓⁴畃牲湥⁴楔敬琠⁯┨⤰",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楔敬䤠⁄湩吠汩獥瑥 ┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Animation > Animate",
+      "text": "湁浩瑡⁥‭瑓牡⁴┨⤰ⴠ䔠摮⠠ㄥ ‭潌灯䈠捡⁫潴⠠㈥ ‭灓敥⁤┨⤳‬潌灯⠠㐥)",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆獲⁴楔敬琀牡⁴┨⤰ⴠ䔠摮⠠ㄥ ‭潌灯䈠捡⁫潴⠠㈥ ‭灓敥⁤┨⤳‬潌灯⠠㐥)",
+        "慌瑳吠汩e琀牡⁴┨⤰ⴠ䔠摮⠠ㄥ ‭潌灯䈠捡⁫潴⠠㈥ ‭灓敥⁤┨⤳‬潌灯⠠㐥)",
+        "潌灯䈠捡⁫潴爀⁴┨⤰ⴠ䔠摮⠠ㄥ ‭潌灯䈠捡⁫潴⠠㈥ ‭灓敥⁤┨⤳‬潌灯⠠㐥)",
+        "灓敥d捡⁫潴爀⁴┨⤰ⴠ䔠摮⠠ㄥ ‭潌灯䈠捡⁫潴⠠㈥ ‭灓敥⁤┨⤳‬潌灯⠠㐥)",
+        "潌灯⠠㴰湉楦楮祴)⤰ⴠ䔠摮⠠ㄥ ‭潌灯䈠捡⁫潴⠠㈥ ‭灓敥⁤┨⤳‬潌灯⠠㐥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Animation > Pause Animation",
+      "text": "慐獵⁥湁浩瑡潩n",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Animation > Resume Animation",
+      "text": "敒畳敭䄠楮慭楴湯",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Cahce > Set Color of Cache",
+      "text": "敓⁴潃潬⁲景䌠捡敨⠠〥 潴䌠汯牯⠠ㄥ)",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        24
+      ],
+      "paramTitles": [
+        "摉湥楴楦牥昀䌠捡敨⠠〥 潴䌠汯牯⠠ㄥ)",
+        "潃潬r楦牥昀䌠捡敨⠠〥 潴䌠汯牯⠠ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Hotspot > Center Hotspot on Object",
+      "text": "敃瑮牥䠠瑯灳瑯漠⁮扏敪瑣",
+      "menuId": 25200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Cahce > Clear Cache",
+      "text": "汃慥⁲慃档e",
+      "menuId": 25210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Cahce > Cache Image from Overlay",
+      "text": "慃档⁥浉条⁥牦浯传敶汲祡愠⁳┨⤱",
+      "menuId": 25220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "癏牥慬⁹摁敲獳洀传敶汲祡愠⁳┨⤱",
+        "摉湥楴楦牥攀獳洀传敶汲祡愠⁳┨⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Cahce > Cache Tileset from Overlay",
+      "text": "慃档⁥楔敬敳⁴牦浯传敶汲祡愠⁳┨⤱‬楔敬猠穩⁥┨ⰲ┠⤳",
+      "menuId": 25230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "癏牥慬⁹摁敲獳爀浯传敶汲祡愠⁳┨⤱‬楔敬猠穩⁥┨ⰲ┠⤳",
+        "摉湥楴楦牥攀獳爀浯传敶汲祡愠⁳┨⤱‬楔敬猠穩⁥┨ⰲ┠⤳",
+        "楔敬圠摩桴攀獳爀浯传敶汲祡愠⁳┨⤱‬楔敬猠穩⁥┨ⰲ┠⤳",
+        "楔敬䠠楥桧t獳爀浯传敶汲祡愠⁳┨⤱‬楔敬猠穩⁥┨ⰲ┠⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Animation > Get Current Image",
+      "text": "畣䥲慭敧⠤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Animation > Get Current Tile",
+      "text": "畣呲汩⡥",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Hotspot > Get Hotspot X",
+      "text": "潨獴潰塴(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Hotspot > Get Hotspot Y",
+      "text": "潨獴潰奴(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Scale and Rotation > Get Rotoscale State",
+      "text": "潲潴捳污卥慴整(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Scale and Rotation > Get Angle",
+      "text": "湡汧⡥",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Scale and Rotation > Get X-Scale",
+      "text": "捳污塥(",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Scale and Rotation > Get Y-Scale",
+      "text": "捳污奥(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Size > Get Original Width",
+      "text": "牯杩湩污楗瑤⡨",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Size > Get Original Height",
+      "text": "牯杩湩污效杩瑨(",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

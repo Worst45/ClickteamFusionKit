@@ -1,0 +1,663 @@
+{
+  "file": "timex.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Compare time > Every...",
+      "text": "ㄱ猥›癅牥⁹猥洠汩楬敳潣摮",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䤨⁮業汬獩捥湯獤)楬敳潣摮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Compare time > Time equal to...",
+      "text": "ㄱ猥›楔敭攠畱污琠⁯猥洠汩楬敳潣摮s",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䤨⁮業汬獩捥湯獤)⁯猥洠汩楬敳潣摮s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Compare time > Time greater than...",
+      "text": "ㄱ猥›楔敭朠敲瑡牥琠敨⁮猥洠汩楬敳潣摮s",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䤨⁮業汬獩捥湯獤)琠敨⁮猥洠汩楬敳潣摮s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Compare time > Time less than...",
+      "text": "ㄱ猥›楔敭氠獥⁳桴湥┠⁳業汬獩捥湯獤",
+      "menuId": 26015,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䤨⁮業汬獩捥湯獤)湥┠⁳業汬獩捥湯獤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Global timers > Timer is counting?",
+      "text": "ㄱ猥›楔敭⁲猥椠⁳潣湵楴杮",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "娨牥ⵯ慢敳⥤猀椠⁳潣湵楴杮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Global timers > Timer greater than...",
+      "text": "ㄱ猥›楔敭⁲猥椠⁳牧慥整⁲桴湡┠s",
+      "menuId": 26025,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "娨牥ⵯ慢敳⥤猀椠⁳牧慥整⁲桴湡┠s",
+        "䤨⁮業汬獩捥湯獤)牧慥整⁲桴湡┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Global timers > Timer lower than...",
+      "text": "ㄱ猥›楔敭⁲猥椠⁳潬敷⁲桴湡┠s",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "娨牥ⵯ慢敳⥤猀椠⁳潬敷⁲桴湡┠s",
+        "䤨⁮業汬獩捥湯獤)潬敷⁲桴湡┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Global timers > Timer equal to...",
+      "text": "ㄱ猥›楔敭⁲猥椠⁳煥慵⁬潴┠s",
+      "menuId": 26035,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "娨牥ⵯ慢敳⥤猀椠⁳煥慵⁬潴┠s",
+        "䤨⁮業汬獩捥湯獤)煥慵⁬潴┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Global timers > Timer different from...",
+      "text": "ㄱ猥›楔敭⁲猥椠⁳楤晦牥湥⁴牦浯┠s",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "娨牥ⵯ慢敳⥤猀椠⁳楤晦牥湥⁴牦浯┠s",
+        "䤨⁮業汬獩捥湯獤)楤晦牥湥⁴牦浯┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Compare time > Time different from...",
+      "text": "ㄱ猥›楔敭搠晩敦敲瑮映潲⁭猥洠汩楬敳潣摮s",
+      "menuId": 26045,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䤨⁮業汬獩捥湯獤)瑮映潲⁭猥洠汩楬敳潣摮s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Is paused?",
+      "text": "ㄱ猥›獉瀠畡敳㽤",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "MMF loop > Every Nth loop",
+      "text": "ㄱ猥›癅牥⁹猥桴氠潯p",
+      "menuId": 26055,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "癅牥⁹瑎⁨潬灯栀氠潯p"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Pause > Pause application for...",
+      "text": "㄰慐獵⁥潦⁲猥洠汩楬敳潣摮ⱳ栠摩⁥畣獲牯㴠┠s",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "䤨⁮業汬獩捥湯獤)楬敳潣摮ⱳ栠摩⁥畣獲牯㴠┠s",
+        "楈敤挠牵潳㽲⠠‱‽牴敵‬‰‽慦獬⥥甀獲牯㴠┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Global timers > Start timer",
+      "text": "㄰瑓牡⁴楴敭⁲猥",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "娨牥ⵯ慢敳⥤ 猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Global timers > Stop timer",
+      "text": "㄰瑓灯琠浩牥┠s",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "娨牥ⵯ慢敳⥤─s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Global timers > Set timer",
+      "text": "㄰敓⁴楴敭⁲猥琠⁯猥",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "娨牥ⵯ慢敳⥤猀琠⁯猥",
+        "䤨⁮業汬獩捥湯獤)猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Global timers > Reset timer",
+      "text": "㄰敒敳⁴楴敭⁲猥",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "娨牥ⵯ慢敳⥤ 猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Pause > Pause application",
+      "text": "㄰慐獵⁥灡汰捩瑡潩Ɱ栠摩⁥畣獲牯㴠┠s",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楈敤挠牵潳㽲⠠‱‽牴敵‬‰‽慦獬⥥─s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Pause > Set unpausing character",
+      "text": "㄰敓⁴湵慰獵湩⁧档牡捡整⁲潴┠s",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敓⁴湵慰獵湩⁧档牡捡整r⁲潴┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Reset gametime",
+      "text": "敒敳⁴慧敭楴敭",
+      "menuId": 25035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Global timers > Start all timers",
+      "text": "〰瑓牡⁴污⁬楴敭獲",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Global timers > Stop all timers",
+      "text": "㄰瑓灯愠汬琠浩牥s",
+      "menuId": 25045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Global timers > Set all timers",
+      "text": "㄰敓⁴污⁬楴敭獲琠⁯猥",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䤨⁮業汬獩捥湯獤)⁯猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Global timers > Reset all timers",
+      "text": "㄰敒敳⁴污⁬楴敭獲",
+      "menuId": 25055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Pause > Store pausing character",
+      "text": "㄰瑓牯⁥慰獵湩⁧档牡瑣牥┠s",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓牯⁥慰獵湩⁧档牡捡整r┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Global timers > Toggle timer",
+      "text": "㄰潔杧敬琠浩牥┠s",
+      "menuId": 25065,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "娨牥ⵯ慢敳⥤爀┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Global timers > Toggle all timers",
+      "text": "㄰潔杧敬愠汬琠浩牥s",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Set gametime",
+      "text": "敓⁴慧敭楴敭",
+      "menuId": 25075,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䤨⁮業汬獩捥湯獤)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Compare time > Time since Windows started",
+      "text": "楗摮睯即慴瑲摥楓据⡥",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Compare time > Time since the game started",
+      "text": "慇敭瑓牡整卤湩散(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get global timer",
+      "text": "敇呴浩牥(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Pause > Get unpausing key as string",
+      "text": "湕慰獵湩䭧祥⠤",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Pause > Get unpausing key as value",
+      "text": "湕慰獵湩䭧祥(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Pause > Get pausing key as string",
+      "text": "慐獵湩䭧祥⠤",
+      "menuId": 27025,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Pause > Get pausing key as value",
+      "text": "慐獵湩䭧祥(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Get total number of timers",
+      "text": "畎扭牥晏楔敭獲(",
+      "menuId": 27035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Date > Get year",
+      "text": "教牡(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Date > Get month",
+      "text": "潍瑮⡨",
+      "menuId": 27045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Date > Get month (name)",
+      "text": "潍瑮⑨(",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Date > Get day of the year",
+      "text": "教牡慄⡹",
+      "menuId": 27055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Date > Get day of the month",
+      "text": "潍瑮䑨祡(",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Date > Get day of the week",
+      "text": "敗步慄⡹",
+      "menuId": 27065,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Date > Get day of the week (name)",
+      "text": "敗步慄乹浡⡥",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Date > Get hour",
+      "text": "敇䡴畯⡲",
+      "menuId": 27075,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Date > Get minutes",
+      "text": "敇䵴湩(",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Date > Get seconds",
+      "text": "敇却捥(",
+      "menuId": 27085,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

@@ -1,0 +1,1329 @@
+{
+  "file": "AssArray.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Key Exists? > Does a Certain Key Exist?",
+      "text": "ㄱ猥›敋⁹猥攠楸瑳s",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥敋y楸瑳s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Key Exists? > Result of Last 'Key Exists' Condition",
+      "text": "〱猥›敒畳瑬漠⁦慌瑳✠敋⁹硅獩獴‧潃摮瑩潩n",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Is the Array Empty?",
+      "text": "〱猥›牁慲⁹獩䔠灭祴",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Has an Error Occured?",
+      "text": "〱猥›湏䔠牲牯",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Key Exists? > Do So Many Keys Starting With a Substring Exist?",
+      "text": "㈱猥›瑁䰠慥瑳┠⁳敋獹匠慴瑲湩⁧楗桴┠s",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥畓獢牴湩g獹匠慴瑲湩⁧楗桴┠s",
+        "湅整⁲敌獡⁴畎扭牥漠⁦敋獹‬瑓牡楴杮眠瑩⁨桴⁥畓獢牴湩Ⱨ琠⁯楆摮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Key Exists? > Do So Many Keys Ending With a Substring Exist?",
+      "text": "㈱猥›瑁䰠慥瑳┠⁳敋獹䔠摮湩⁧楗桴┠s",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥畓獢牴湩g獹䔠摮湩⁧楗桴┠s",
+        "湅整⁲敌獡⁴畎扭牥漠⁦敋獹‬湅楤杮眠瑩⁨桴⁥畓獢牴湩Ⱨ琠⁯楆摮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Key Exists? > Do So Many Keys Containing a Substring Exist?",
+      "text": "㈱猥›瑁䰠慥瑳┠⁳敋獹䌠湯慴湩湩⁧猥",
+      "menuId": 26060,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥畓獢牴湩g獹䌠湯慴湩湩⁧猥",
+        "湅整⁲敌獡⁴畎扭牥漠⁦敋獹‬潃瑮楡楮杮琠敨匠扵瑳楲杮‬潴䘠湩d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "File Progress > File is Loading",
+      "text": "〱猥›楆敬椠⁳潌摡湩g",
+      "menuId": 26070,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "File Progress > File is Saving",
+      "text": "〱猥›楆敬椠⁳慓楶杮",
+      "menuId": 26080,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Has the Array Been Modified?",
+      "text": "〱猥›牁慲⁹慨⁳敂湥䴠摯晩敩d",
+      "menuId": 26090,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "File Progress > File is Done Loading",
+      "text": "〱猥›楆敬椠⁳潄敮䰠慯楤杮",
+      "menuId": 26100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "File Progress > File is Done Saving",
+      "text": "〱猥›楆敬椠⁳潄敮匠癡湩g",
+      "menuId": 26110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Modify/Add a Value",
+      "text": "㄰敓⁴慖畬⁥瑡䬠祥┠⁳潴┠s",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥敋y䬠祥┠⁳潴┠s",
+        "湅整⁲桴⁥慖畬e祥┠⁳潴┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Modify/Add a String",
+      "text": "㄰敓⁴瑓楲杮愠⁴敋⁹猥琠⁯猥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥敋y⁴敋⁹猥琠⁯猥",
+        "湅整⁲桴⁥瑓楲杮攀⁹猥琠⁯猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Delete a Key",
+      "text": "㄰敄敬整琠敨䬠祥┠s",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥敋y祥┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Clear the Array",
+      "text": "㄰汃慥⁲桴⁥牁慲y",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "INI Files > Load INI > Load an INI into Strings",
+      "text": "㄰潌摡䤠䥎䘠汩⁥猥椠瑮⁯瑓楲杮s",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆敬琠⁯潌摡 瑓楲杮s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "INI Files > Load INI > Load an INI into Strings and Keep Group Info",
+      "text": "㄰潌摡䤠䥎䘠汩⁥猥椠瑮⁯瑓楲杮⁳湡⁤敄楬業⁴片畯獰眠瑩⁨猥",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆敬琠⁯潌摡 瑓楲杮⁳湡⁤敄楬業⁴片畯獰眠瑩⁨猥",
+        "湅整⁲桴⁥敄楬業整r摡 瑓楲杮⁳湡⁤敄楬業⁴片畯獰眠瑩⁨猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "INI Files > Save INI > Save an INI from Strings",
+      "text": "㄰慓敶䤠䥎䘠汩⁥猥映潲⁭瑓楲杮s",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆敬琠⁯慓敶 瑓楲杮s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "INI Files > Save INI > Save an INI from Strings and Keep Group Info",
+      "text": "㄰慓敶䤠䥎䘠汩⁥猥映潲⁭瑓楲杮⁳楷桴䬠祥⁳敄楬業整⁤潴䜠潲灵⁳楷桴┠s",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆敬琠⁯慓敶 瑓楲杮⁳楷桴䬠祥⁳敄楬業整⁤潴䜠潲灵⁳楷桴┠s",
+        "湅整⁲桴⁥敄楬業整r敶 瑓楲杮⁳楷桴䬠祥⁳敄楬業整⁤潴䜠潲灵⁳楷桴┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Associative Array Files > Save an Associative Array File",
+      "text": "㄰慓敶䄠獳捯慩楴敶䄠牲祡䘠汩⁥猥甠楳杮䴠瑥潨⁤猥",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆敬琠⁯慓敶礀䘠汩⁥猥甠楳杮䴠瑥潨⁤猥",
+        "湅整⁲桴⁥敍桴摯琠⁯獵⁥〨琠⁯㈱⤶椀杮䴠瑥潨⁤猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Associative Array Files > Load an Associative Array File",
+      "text": "㄰潌摡䄠獳捯慩楴敶䄠牲祡䘠汩⁥猥甠楳杮䴠瑥潨⁤猥",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆敬琠⁯潌摡礀䘠汩⁥猥甠楳杮䴠瑥潨⁤猥",
+        "湅整⁲桴⁥敍桴摯琠⁯獵⁥〨琠⁯㈱⤶椀杮䴠瑥潨⁤猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Addresses > Modify/Add a Value at an Address",
+      "text": "㄰敓⁴慖畬⁥瑡䄠摤敲獳┠⁳潴┠s",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥摁牤獥s敲獳┠⁳潴┠s",
+        "湅整⁲桴⁥慖畬es敲獳┠⁳潴┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Addresses > Modify/Add a String at an Address",
+      "text": "㄰敓⁴瑓楲杮愠⁴摁牤獥⁳猥琠⁯猥",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥摁牤獥s牤獥⁳猥琠⁯猥",
+        "湅整⁲桴⁥瑓楲杮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "INI Files > Load INI > Load an INI into Values",
+      "text": "㄰潌摡䤠䥎䘠汩⁥猥椠瑮⁯慖畬獥",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆敬琠⁯潌摡 慖畬獥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "INI Files > Load INI > Load an INI into Values and Keep Group Info",
+      "text": "㄰潌摡䤠䥎䘠汩⁥猥椠瑮⁯慖畬獥愠摮䐠汥浩瑩䜠潲灵⁳楷桴┠s",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆敬琠⁯潌摡 慖畬獥愠摮䐠汥浩瑩䜠潲灵⁳楷桴┠s",
+        "湅整⁲桴⁥敄楬業整r摡 慖畬獥愠摮䐠汥浩瑩䜠潲灵⁳楷桴┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "INI Files > Save INI > Save an INI from Values",
+      "text": "㄰慓敶䤠䥎䘠汩⁥猥映潲⁭慖畬獥",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆敬琠⁯慓敶 慖畬獥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "INI Files > Save INI > Save an INI from Values and Keep Group Info",
+      "text": "㄰慓敶䤠䥎䘠汩⁥猥映潲⁭慖畬獥眠瑩⁨敋獹䐠汥浩瑩摥琠⁯片畯獰眠瑩⁨猥",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆敬琠⁯慓敶 慖畬獥眠瑩⁨敋獹䐠汥浩瑩摥琠⁯片畯獰眠瑩⁨猥",
+        "湅整⁲桴⁥敄楬業整r敶 慖畬獥眠瑩⁨敋獹䐠汥浩瑩摥琠⁯片畯獰眠瑩⁨猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "INI Files > Load INI > Load an INI into Strings and into Values",
+      "text": "㄰潌摡䤠䥎䘠汩⁥猥椠瑮⁯瑓楲杮⁳湡⁤湩潴嘠污敵s",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆敬琠⁯潌摡 瑓楲杮⁳湡⁤湩潴嘠污敵s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "INI Files > Load INI > Load an INI into Strings and into Values and Keep Group Info",
+      "text": "㄰潌摡䤠䥎䘠汩⁥猥椠瑮⁯瑓楲杮⁳湡⁤湩潴嘠污敵⁳湡⁤敄楬業⁴片畯獰眠瑩⁨猥",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆敬琠⁯潌摡 瑓楲杮⁳湡⁤湩潴嘠污敵⁳湡⁤敄楬業⁴片畯獰眠瑩⁨猥",
+        "湅整⁲桴⁥敄楬業整r摡 瑓楲杮⁳湡⁤湩潴嘠污敵⁳湡⁤敄楬業⁴片畯獰眠瑩⁨猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "INI Files > Save INI > Save an INI from Strings with Exclusion",
+      "text": "慓敶䤠䥎䘠汩⁥〥映潲⁭瑓楲杮ⱳ甠汮獥⁳瑓楲杮椠⁳ㄥ",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆敬琠⁯慓敶琀楲杮ⱳ甠汮獥⁳瑓楲杮椠⁳ㄥ",
+        "湅整⁲桴⁥硅汣獵潩⁮瑓楲杮⠠敋獹眠瑩⁨桴獩匠牴湩⁧楷汬匠癡⁥桴楥⁲慖畬獥䤠獮整摡)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "INI Files > Save INI > Save an INI from Strings with Exclusion and Keep Group Info",
+      "text": "慓敶䤠䥎䘠汩⁥〥映潲⁭瑓楲杮ⱳ甠汮獥⁳瑓楲杮椠⁳㈥‬楷桴䬠祥⁳敄楬業整⁤潴䜠潲灵⁳楷桴┠1",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆敬琠⁯慓敶琀楲杮ⱳ甠汮獥⁳瑓楲杮椠⁳㈥‬楷桴䬠祥⁳敄楬業整⁤潴䜠潲灵⁳楷桴┠1",
+        "湅整⁲桴⁥敄楬業整r敶琀楲杮ⱳ甠汮獥⁳瑓楲杮椠⁳㈥‬楷桴䬠祥⁳敄楬業整⁤潴䜠潲灵⁳楷桴┠1",
+        "湅整⁲桴⁥硅汣獵潩⁮瑓楲杮⠠敋獹眠瑩⁨桴獩匠牴湩⁧楷汬匠癡⁥桴楥⁲慖畬獥䤠獮整摡)楷桴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "INI Files > Save INI > Save an INI from Values with Exclusion",
+      "text": "慓敶䤠䥎䘠汩⁥〥映潲⁭慖畬獥‬湵敬獳嘠污敵椠⁳ㄥ",
+      "menuId": 25200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆敬琠⁯慓敶愀畬獥‬湵敬獳嘠污敵椠⁳ㄥ",
+        "湅整⁲桴⁥硅汣獵潩⁮慖畬⁥䬨祥⁳楷桴琠楨⁳慖畬⁥楷汬匠癡⁥桴楥⁲瑓楲杮⁳湉瑳慥⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "INI Files > Save INI > Save an INI from Values with Exclusion and Keep Group Info",
+      "text": "慓敶䤠䥎䘠汩⁥〥映潲⁭慖畬獥‬湵敬獳嘠污敵椠⁳㈥‬楷桴䬠祥⁳敄楬業整⁤潴䜠潲灵⁳楷桴┠1",
+      "menuId": 25210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆敬琠⁯慓敶愀畬獥‬湵敬獳嘠污敵椠⁳㈥‬楷桴䬠祥⁳敄楬業整⁤潴䜠潲灵⁳楷桴┠1",
+        "湅整⁲桴⁥敄楬業整r敶愀畬獥‬湵敬獳嘠污敵椠⁳㈥‬楷桴䬠祥⁳敄楬業整⁤潴䜠潲灵⁳楷桴┠1",
+        "湅整⁲桴⁥硅汣獵潩⁮慖畬⁥䬨祥⁳楷桴琠楨⁳慖畬⁥楷汬匠癡⁥桴楥⁲瑓楲杮⁳湉瑳慥⥤椀桴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "List Files > Load a List File",
+      "text": "㄰潌摡䰠獩⁴楆敬┠s",
+      "menuId": 25220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆敬琠⁯潌摡"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "List Files > Save a List File",
+      "text": "㄰慓敶䰠獩⁴楆敬┠s",
+      "menuId": 25230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆敬琠⁯慓敶"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "File Progress > Set File Loading Interval",
+      "text": "㄰敓⁴楆敬䰠慯楤杮䤠瑮牥慶⁬潴┠⁳業汬獩捥湯獤",
+      "menuId": 25240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湉整癲污⠠湩洠汩楬敳潣摮⥳琠⁯灓湥⁤潌摡湩⽧慓楶杮䘠汩獥瀠牥䰠潯p"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "File Progress > Set File Saving Interval",
+      "text": "㄰敓⁴楆敬匠癡湩⁧湉整癲污琠⁯猥洠汩楬敳潣摮s",
+      "menuId": 25250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湉整癲污⠠湩洠汩楬敳潣摮⥳琠⁯灓湥⁤潌摡湩⽧慓楶杮䘠汩獥瀠牥䰠潯p"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "File Progress > Set to Load Entire File All at Once",
+      "text": "〰敓⁴潴䰠慯⁤湅楴敲䘠汩⁥汁⁬瑡传据e",
+      "menuId": 25260,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "File Progress > Set to Save Entire File All at Once",
+      "text": "〰敓⁴潴匠癡⁥湅楴敲䘠汩⁥汁⁬瑡传据e",
+      "menuId": 25270,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Modify a Value > Add to a Value",
+      "text": "摁⁤ㄥ琠⁯慖畬⁥瑡䬠祥┠0",
+      "menuId": 25280,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥敋y⁥瑡䬠祥┠0",
+        "湅整⁲桴⁥慖畬e瑡䬠祥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Modify a Value > Subtract from a Value",
+      "text": "畓瑢慲瑣┠‱牦浯嘠污敵愠⁴敋⁹〥",
+      "menuId": 25290,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥敋y浯嘠污敵愠⁴敋⁹〥",
+        "湅整⁲桴⁥慖畬e嘠污敵愠⁴敋⁹〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Modify a Value > Multiply a Value",
+      "text": "畍楴汰⁹慖畬⁥瑡䬠祥┠‰祢┠1",
+      "menuId": 25300,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥敋y瑡䬠祥┠‰祢┠1",
+        "湅整⁲桴⁥慖畬e䬠祥┠‰祢┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Modify a Value > Divide a Value",
+      "text": "楄楶敤嘠污敵愠⁴敋⁹〥戠⁹ㄥ",
+      "menuId": 25310,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥敋y⁴敋⁹〥戠⁹ㄥ",
+        "湅整⁲桴⁥慖畬e敋⁹〥戠⁹ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Modify a Value > Modulus a Value",
+      "text": "潍畤畬⁳慖畬⁥瑡䬠祥┠‰祢┠1",
+      "menuId": 25320,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥敋y瑡䬠祥┠‰祢┠1",
+        "湅整⁲桴⁥慖畬e䬠祥┠‰祢┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Modify a Value > Operate on a Value",
+      "text": "獕⁥灯牥瑡潩⁮ㄥ漠⁮慖畬⁥瑡䬠祥┠‰楷桴漠数慲摮┠2",
+      "menuId": 25340,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥敋yㄥ漠⁮慖畬⁥瑡䬠祥┠‰楷桴漠数慲摮┠2",
+        "湅整⁲桴⁥灏牥瑡潩⁮⬨ⴠ⨠⼠┠)┠‰楷桴漠数慲摮┠2",
+        "湅整⁲桴⁥慖畬e潩⁮⬨ⴠ⨠⼠┠)┠‰楷桴漠数慲摮┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Errors > Clear Expression Error Code",
+      "text": "汃慥⁲硅牰獥楳湯䔠牲牯䌠摯e",
+      "menuId": 25350,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Crop the Array > Crop with Respect to the Start of Keys",
+      "text": "牃灯䄠牲祡眠瑩⁨敒灳捥⁴潴䬠祥⁳瑓牡楴杮眠瑩⁨ㄥ⠠湉汣摵⁥‽〥)",
+      "menuId": 25360,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲湉汣摵⁥〨琠⁯硅汣摵⁥敋獹※‱潴䤠据畬敤䬠祥⥳氀摵⁥‽〥)",
+        "湅整⁲桴⁥畓獢牴湩g硅汣摵⁥敋獹※‱潴䤠据畬敤䬠祥⥳氀摵⁥‽〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Crop the Array > Crop with Respect to the End of Keys",
+      "text": "牃灯䄠牲祡眠瑩⁨敒灳捥⁴潴䬠祥⁳湅楤杮眠瑩⁨ㄥ⠠湉汣摵⁥‽〥)",
+      "menuId": 25370,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲湉汣摵⁥〨琠⁯硅汣摵⁥敋獹※‱潴䤠据畬敤䬠祥⥳搀⁥‽〥)",
+        "湅整⁲桴⁥畓獢牴湩g硅汣摵⁥敋獹※‱潴䤠据畬敤䬠祥⥳搀⁥‽〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Crop the Array > Crop with Respect to the Contents of Keys",
+      "text": "牃灯䄠牲祡眠瑩⁨敒灳捥⁴潴䬠祥⁳潃瑮楡楮杮┠‱䤨据畬敤㴠┠⤰",
+      "menuId": 25380,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲湉汣摵⁥〨琠⁯硅汣摵⁥敋獹※‱潴䤠据畬敤䬠祥⥳攀㴠┠⤰",
+        "湅整⁲桴⁥畓獢牴湩g硅汣摵⁥敋獹※‱潴䤠据畬敤䬠祥⥳攀㴠┠⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Copy an Array > Copy All Keys",
+      "text": "潃祰䄠汬漠⁦桴⁥敋獹椠⁮牁慲⁹〥",
+      "menuId": 25390,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲楆數⁤慖畬⁥景䄠牲祡映潲⁭桷捩⁨潴䌠灯y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Copy an Array > Copy with Respect to the Start of Keys",
+      "text": "潃祰映潲⁭牁慲⁹〥眠瑩⁨敒灳捥⁴潴䬠祥⁳瑓牡楴杮眠瑩⁨㈥⠠湉汣摵⁥‽ㄥ)",
+      "menuId": 25400,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲楆數⁤慖畬⁥景䄠牲祡映潲⁭桷捩⁨潴䌠灯y杮眠瑩⁨㈥⠠湉汣摵⁥‽ㄥ)",
+        "湅整⁲湉汣摵⁥〨琠⁯硅汣摵⁥敋獹※‱潴䤠据畬敤䬠祥⥳ ㈥⠠湉汣摵⁥‽ㄥ)",
+        "湅整⁲桴⁥畓獢牴湩g硅汣摵⁥敋獹※‱潴䤠据畬敤䬠祥⥳ ㈥⠠湉汣摵⁥‽ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Copy an Array > Copy with Respect to the End of Keys",
+      "text": "潃祰映潲⁭牁慲⁹〥眠瑩⁨敒灳捥⁴潴䬠祥⁳湅楤杮眠瑩⁨㈥⠠湉汣摵⁥‽ㄥ)",
+      "menuId": 25410,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲楆數⁤慖畬⁥景䄠牲祡映潲⁭桷捩⁨潴䌠灯y眠瑩⁨㈥⠠湉汣摵⁥‽ㄥ)",
+        "湅整⁲湉汣摵⁥〨琠⁯硅汣摵⁥敋獹※‱潴䤠据畬敤䬠祥⥳㈀⠠湉汣摵⁥‽ㄥ)",
+        "湅整⁲桴⁥畓獢牴湩g硅汣摵⁥敋獹※‱潴䤠据畬敤䬠祥⥳㈀⠠湉汣摵⁥‽ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Copy an Array > Copy with Respect to the Contents of Keys",
+      "text": "潃祰映潲⁭牁慲⁹〥眠瑩⁨敒灳捥⁴潴䬠祥⁳潃瑮楡楮杮┠′䤨据畬敤㴠┠⤱",
+      "menuId": 25420,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲楆數⁤慖畬⁥景䄠牲祡映潲⁭桷捩⁨潴䌠灯y楮杮┠′䤨据畬敤㴠┠⤱",
+        "湅整⁲湉汣摵⁥〨琠⁯硅汣摵⁥敋獹※‱潴䤠据畬敤䬠祥⥳ 䤨据畬敤㴠┠⤱",
+        "湅整⁲桴⁥畓獢牴湩g硅汣摵⁥敋獹※‱潴䤠据畬敤䬠祥⥳ 䤨据畬敤㴠┠⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Associative Array Files > Encrypted Files > Save an Encrypted Associative Array File",
+      "text": "慓敶䔠据祲祰整⁤獁潳楣瑡癩⁥牁慲⁹楆敬┠‰獵湩⁧敍桴摯┠1",
+      "menuId": 25440,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆敬琠⁯慓敶琀癩⁥牁慲⁹楆敬┠‰獵湩⁧敍桴摯┠1",
+        "湅整⁲桴⁥敍桴摯琠⁯獵⁥〨琠⁯㈱⤶椀敬┠‰獵湩⁧敍桴摯┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Associative Array Files > Encrypted Files > Load an Encrypted Associative Array File",
+      "text": "潌摡䔠据祲祰整⁤獁潳楣瑡癩⁥牁慲⁹楆敬┠‰獵湩⁧敍桴摯┠1",
+      "menuId": 25430,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆敬琠⁯潌摡琀癩⁥牁慲⁹楆敬┠‰獵湩⁧敍桴摯┠1",
+        "湅整⁲桴⁥敍桴摯琠⁯獵⁥〨琠⁯㈱⤶椀敬┠‰獵湩⁧敍桴摯┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Associative Array Files > Encrypted Files > Set Encryption Key",
+      "text": "敓⁴湅牣灹楴湯䬠祥琠⁯〥",
+      "menuId": 25450,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲湅牣灹楴湯䬠祥 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get a Value from a Key",
+      "text": "敇噴污敵(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get a String from a Key",
+      "text": "敇却牴湩⑧(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get the Value from the Key Found in Last 'Key Exists' Condition",
+      "text": "敇噴污敵瑁潆湵䭤祥(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get the String from the Key Found in Last 'Key Exists' Condition",
+      "text": "敇却牴湩䅧䙴畯摮敋⑹(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get the Number of Elements in the Array",
+      "text": "敇却穩⡥",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get the Current Error Number",
+      "text": "敇䕴牲牯(",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Addresses > Get the Address of a Key",
+      "text": "敇䅴摤敲獳(",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Addresses > Get the Address of the Key Found in Last 'Key Exists' Condition",
+      "text": "敇䅴摤敲獳晏潆湵䭤祥(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Addresses > Get a Value from an Address",
+      "text": "敇噴污敵瑁摁牤獥⡳",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Addresses > Get a String from an Address",
+      "text": "敇却牴湩䅧䅴摤敲獳⠤",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Addresses > Get a Key from an Address",
+      "text": "敇䭴祥瑁摁牤獥⑳(",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Addresses > Get Address of Next Element in Array",
+      "text": "敇乴硥䅴摤敲獳(",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Addresses > Get Address of Previous Element in Array",
+      "text": "敇側敲楶畯䅳摤敲獳(",
+      "menuId": 27120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Addresses > Get Address of First Element in Array",
+      "text": "敇䙴物瑳摁牤獥⡳",
+      "menuId": 27130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Addresses > Get Address of Last Element in Array",
+      "text": "敇䱴獡䅴摤敲獳(",
+      "menuId": 27140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Get the Number of Keys Starting with a Substring",
+      "text": "敇乴浵敋獹瑓牡⡴",
+      "menuId": 27150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Get the Number of Keys Ending with a Substring",
+      "text": "敇乴浵敋獹湅⡤",
+      "menuId": 27160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Get the Number of Keys Containing a Substring",
+      "text": "敇乴浵敋獹潃瑮楡⡮",
+      "menuId": 27170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Addresses > Get the Address of the nth Key Starting With a Substring",
+      "text": "敇䅴摤䭹祥即慴瑲(",
+      "menuId": 27180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Addresses > Get the Address of the nth Key Ending With a Substring",
+      "text": "敇䅴摤䭹祥䕳摮(",
+      "menuId": 27190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Addresses > Get the Address of the nth Key Containing a Substring",
+      "text": "敇䅴摤䭹祥䍳湯慴湩(",
+      "menuId": 27200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "File Progress > Get File Progress (percentage)",
+      "text": "敇䙴汩健潲牧獥⡳",
+      "menuId": 27210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "File Progress > Get File Loading Interval",
+      "text": "敇䱴慯䥤瑮牥慶⡬",
+      "menuId": 27220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "File Progress > Get File Saving Interval",
+      "text": "敇却癡䥥瑮牥慶⡬",
+      "menuId": 27230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Get the Current Expression Error Number",
+      "text": "敇䕴灸敲獳潩䕮牲牯(",
+      "menuId": 27240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Get the Array's Address",
+      "text": "敇䅴牲祡摁牤獥⡳",
+      "menuId": 27250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

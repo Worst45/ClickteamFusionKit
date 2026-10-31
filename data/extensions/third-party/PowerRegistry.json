@@ -1,0 +1,271 @@
+{
+  "file": "PowerRegistry.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Key exists",
+      "text": "漥›畃牲湥⁴敫⁹硥獩獴",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Value exists",
+      "text": "漥㨠嘠污敵┠‰硥獩獴椠⁮畣牲湥⁴敫y",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖畬⁥慮敭─‰硥獩獴椠⁮畣牲湥⁴敫y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Root Key > HKEY_CLASSES_ROOT",
+      "text": "敓⁴潲瑯欠祥琠⁯䭈奅䍟䅌卓卅剟住T",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set Root Key > HKEY_CURRENT_USER",
+      "text": "敓⁴潲瑯欠祥琠⁯䭈奅䍟剕䕒呎啟䕓R",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set Root Key > HKEY_LOCAL_MACHINE",
+      "text": "敓⁴潲瑯欠祥琠⁯䭈奅䱟䍏䱁䵟䍁䥈䕎",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Set Root Key > HKEY_USERS",
+      "text": "敓⁴潲瑯欠祥琠⁯䭈奅啟䕓卒",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Set Root Key > HKEY_CURRENT_CONFIG",
+      "text": "敓⁴潲瑯欠祥琠⁯䭈奅䍟剕䕒呎䍟乏䥆G",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Current Key > Open Key",
+      "text": "灏湥欠祥┠0",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "灏湥欠祥─0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Current Key > Create Key",
+      "text": "牃慥整欠祥┠0",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "牃慥整欠祥─0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Current Key > Set String Value",
+      "text": "敓⁴瑳楲杮瘠污敵┠‰潴┠1",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慖畬⁥慮敭瘀污敵┠‰潴┠1",
+        "敓⁴瑓楲杮嘠污敵─‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Current Key > Set Binary Value",
+      "text": "敓⁴楢慮祲瘠污敵┠‰潴┠1",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慖畬⁥慮敭瘀污敵┠‰潴┠1",
+        "敓⁴楂慮祲嘠污敵⠠畐⁴十䥃⥉"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Current Key > Set DWORD Value",
+      "text": "敓⁴坄剏⁄慶畬⁥〥琠⁯ㄥ",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慖畬⁥慮敭愀畬⁥〥琠⁯ㄥ",
+        "敓⁴慖畬e愀畬⁥〥琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Current Key > Delete Key",
+      "text": "敄敬整欠祥┠0",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敋⁹慮敭礀┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Current Key > Delete Value",
+      "text": "敄敬整瘠污敵┠0",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖畬⁥慮敭攀┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Current Key > Get Current Root Key",
+      "text": "敒剧潯䭴祥⠤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Current Key > Get Current Key",
+      "text": "敒䭧祥⠤",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Current Key > Get String\\Binary Value",
+      "text": "敒䝧瑥瑓⑲(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慖畬⁥慮敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Current Key > Get DWORD Value",
+      "text": "敒䝧瑥坄剏⑄(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慖畬⁥慮敭␀("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

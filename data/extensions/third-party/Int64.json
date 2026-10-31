@@ -1,0 +1,439 @@
+{
+  "file": "Int64.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Stored number comparisons > Stored number is equal to...",
+      "text": "漥㨠匠潴敲⁤畮扭牥㴠┠0",
+      "menuId": 26000,
+      "resText": "%o : Stored number = %0",
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲㐶戠瑩椠瑮来牥⠠獡猠牴湩g"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Stored number comparisons > Stored number is different to...",
+      "text": "漥㨠匠潴敲⁤畮扭牥㰠‾〥",
+      "menuId": 26010,
+      "resText": "%o : Stored number <> %0",
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲㐶戠瑩椠瑮来牥⠠獡猠牴湩g"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Stored number comparisons > Stored number is greater than...",
+      "text": "漥㨠匠潴敲⁤畮扭牥㸠┠0",
+      "menuId": 26020,
+      "resText": "%o : Stored number > %0",
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲㐶戠瑩椠瑮来牥⠠獡猠牴湩g"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Stored number comparisons > Stored number is less than...",
+      "text": "漥㨠匠潴敲⁤畮扭牥㰠┠0",
+      "menuId": 26030,
+      "resText": "%o : Stored number < %0",
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲㐶戠瑩椠瑮来牥⠠獡猠牴湩g"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Stored number comparisons > Stored number is greater or equal to...",
+      "text": "漥㨠匠潴敲⁤畮扭牥㸠‽〥",
+      "menuId": 26040,
+      "resText": "%o : Stored number >= %0",
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲㐶戠瑩椠瑮来牥⠠獡猠牴湩g"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Stored number comparisons > Stored number is less or equal to...",
+      "text": "漥㨠匠潴敲⁤畮扭牥㰠‽〥",
+      "menuId": 26050,
+      "resText": "%o : Stored number <= %0",
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲㐶戠瑩椠瑮来牥⠠獡猠牴湩g"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Comparisons > Equals...",
+      "text": "漥㨠┠‰‽ㄥ",
+      "menuId": 26060,
+      "resText": "%o : %0 = %1",
+      "flags": 544,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲㐶戠瑩椠瑮来牥⠠獡猠牴湩⥧",
+        "湅整⁲㐶戠瑩椠瑮来牥⠠獡猠牴湩⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Comparisons > Not equal...",
+      "text": "漥㨠┠‰㸼┠1",
+      "menuId": 26070,
+      "resText": "%o : %0 <> %1",
+      "flags": 544,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲㐶戠瑩椠瑮来牥⠠獡猠牴湩⥧",
+        "湅整⁲㐶戠瑩椠瑮来牥⠠獡猠牴湩⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Comparisons > Greater than...",
+      "text": "漥㨠┠‰‾ㄥ",
+      "menuId": 26080,
+      "resText": "%o : %0 > %1",
+      "flags": 544,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲㐶戠瑩椠瑮来牥⠠獡猠牴湩⥧",
+        "湅整⁲㐶戠瑩椠瑮来牥⠠獡猠牴湩⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Comparisons > Less than...",
+      "text": "漥㨠┠‰‼ㄥ",
+      "menuId": 26090,
+      "resText": "%o : %0 < %1",
+      "flags": 544,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲㐶戠瑩椠瑮来牥⠠獡猠牴湩⥧",
+        "湅整⁲㐶戠瑩椠瑮来牥⠠獡猠牴湩⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Comparisons > Greater or equal...",
+      "text": "漥㨠┠‰㴾┠1",
+      "menuId": 26100,
+      "resText": "%o : %0 >= %1",
+      "flags": 544,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲㐶戠瑩椠瑮来牥⠠獡猠牴湩⥧",
+        "湅整⁲㐶戠瑩椠瑮来牥⠠獡猠牴湩⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Comparisons > Less or equal...",
+      "text": "漥㨠┠‰㴼┠1",
+      "menuId": 26110,
+      "resText": "%o : %0 <= %1",
+      "flags": 544,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲㐶戠瑩椠瑮来牥⠠獡猠牴湩⥧",
+        "湅整⁲㐶戠瑩椠瑮来牥⠠獡猠牴湩⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set stored number",
+      "text": "敓⁴瑳牯摥渠浵敢⁲潴┠0",
+      "menuId": 25000,
+      "resText": "Set stored number to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲㐶戠瑩椠瑮来牥⠠獡猠牴湩⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Stored value > Add",
+      "text": "摁⁤〥琠⁯瑳牯摥渠浵敢r",
+      "menuId": 25010,
+      "resText": "Add %0 to stored number",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲㐶戠瑩椠瑮来牥⠠獡猠牴湩⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Stored value > Subtract",
+      "text": "畓瑢慲瑣┠‰牦浯猠潴敲⁤畮扭牥",
+      "menuId": 25020,
+      "resText": "Subtract %0 from stored number",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲㐶戠瑩椠瑮来牥⠠獡猠牴湩⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Stored value > Multiply",
+      "text": "畍瑬灩祬猠潴敲⁤畮扭牥戠⁹〥",
+      "menuId": 25030,
+      "resText": "Multiply stored number by %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲㐶戠瑩椠瑮来牥⠠獡猠牴湩⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Stored value > Divide",
+      "text": "楄楶敤猠潴敲⁤畮扭牥戠⁹〥",
+      "menuId": 25040,
+      "resText": "Divide stored number by %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲㐶戠瑩椠瑮来牥⠠獡猠牴湩⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Stored value > Modulus",
+      "text": "潍⁤瑳牯摥渠浵敢⁲祢┠0",
+      "menuId": 25050,
+      "resText": "Mod stored number by %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲㐶戠瑩椠瑮来牥⠠獡猠牴湩⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Stored value > Power",
+      "text": "潐敷⁲瑳牯摥渠浵敢⁲祢┠0",
+      "menuId": 25060,
+      "resText": "Power stored number by %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潰楳楴敶椠瑮来牥琠⁯潰敷⁲祢"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get stored number (string)",
+      "text": "瑓牯摥⠤",
+      "menuId": 27000,
+      "resText": "Stored$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get stored number (truncated 32 bit int)",
+      "text": "瑓牯摥(",
+      "menuId": 27010,
+      "resText": "Stored(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Add",
+      "text": "摁⑤(",
+      "menuId": 27020,
+      "resText": "Add$(",
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Subtract",
+      "text": "畓③(",
+      "menuId": 27030,
+      "resText": "Sub$(",
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Multiply",
+      "text": "畍瑬⠤",
+      "menuId": 27040,
+      "resText": "Mult$(",
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Divide",
+      "text": "楄⑶(",
+      "menuId": 27050,
+      "resText": "Div$(",
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Modulus",
+      "text": "潍畤畬⑳(",
+      "menuId": 27060,
+      "resText": "Modulus$(",
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Power",
+      "text": "潐敷⑲(",
+      "menuId": 27070,
+      "resText": "Power$(",
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

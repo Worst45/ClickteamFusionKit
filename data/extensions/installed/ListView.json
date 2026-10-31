@@ -1,0 +1,51 @@
+{
+  "file": "ListView.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Click > Clicked on a column?",
+      "text": "%o: Click with left button",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Edit > Insert line",
+      "text": "%o : Insert line %1 at position %0",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "Enter the number of the line (zero based)",
+        "Enter the name"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Coordinates > Get line at click",
+      "text": "ItemClick(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

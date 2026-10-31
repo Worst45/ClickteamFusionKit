@@ -1,0 +1,1614 @@
+{
+  "file": "KcWebX.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Loaded?",
+      "text": "",
+      "menuId": 26000,
+      "resText": "%o: Web loaded?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Still Navigating?",
+      "text": "",
+      "menuId": 26010,
+      "resText": "%o: Web still navigating?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Download Begin?",
+      "text": "",
+      "menuId": 26020,
+      "resText": "%o: Download Begin?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Download Complete?",
+      "text": "",
+      "menuId": 26030,
+      "resText": "%o: Download Complete?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Clicked?",
+      "text": "",
+      "menuId": 26040,
+      "resText": "%o: Web clicked?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "On Submit?",
+      "text": "",
+      "menuId": 26050,
+      "resText": "%o: On Submit?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Title Change?",
+      "text": "",
+      "menuId": 26060,
+      "resText": "%o: Web title change?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Status Change?",
+      "text": "",
+      "menuId": 26070,
+      "resText": "%o: Web status changed?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Navigate Error occured",
+      "text": "",
+      "menuId": 26080,
+      "resText": "%o: Navigate error occur?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Web has focus?",
+      "text": "",
+      "menuId": 26090,
+      "resText": "%o: Has focus?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "On Elements Read?",
+      "text": "",
+      "menuId": 26100,
+      "resText": "%o: On Elements Read?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "On URLs Read?",
+      "text": "",
+      "menuId": 26110,
+      "resText": "%o: On URLs Read?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "On Progress?",
+      "text": "",
+      "menuId": 26120,
+      "resText": "%o: On Progress?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "On Found Text?",
+      "text": "",
+      "menuId": 26130,
+      "resText": "%o: On Found Text?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "On Image saved?",
+      "text": "",
+      "menuId": 26140,
+      "resText": "%o: On Image saved?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Web Scrollbars needed?",
+      "text": "",
+      "menuId": 26150,
+      "resText": "%o: Web scrollbars needed?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "conditions_status": "menu ressources",
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Navigation > Set URL",
+      "text": "",
+      "menuId": 25000,
+      "resText": "%o: Set URL=%0, referrer=%1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "剕⁌摡牤獥s",
+        "敒敦牲牥愠摤敲獳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Navigation > Set Web Block",
+      "text": "",
+      "menuId": 25290,
+      "resText": "%o: Set Block to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "求捯⁫敗⁢慰敧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Navigation > Go",
+      "text": "",
+      "menuId": 25300,
+      "resText": "%o: Go with mode %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潍敤⠠㴰潎浲污‬㴱潎䠠獩潴祲㈠丽睥圠湩潤⥷挠湡戠⁥摡敤d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Navigation > Go Back",
+      "text": "",
+      "menuId": 25010,
+      "resText": "%o: Go Back",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Navigation > Go Foward",
+      "text": "",
+      "menuId": 25020,
+      "resText": "%o: Go Foward",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Navigation > Go Home",
+      "text": "",
+      "menuId": 25030,
+      "resText": "%o: Go Home",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Navigation > Go Search",
+      "text": "",
+      "menuId": 25040,
+      "resText": "%o: Go Search",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Navigation > Refresh",
+      "text": "",
+      "menuId": 25050,
+      "resText": "%o: Refresh with mode %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敒牦獥⁨潍敤⠠㴰潎浲污‬㴱晉硅楰敲Ɽ㌠䌽浯汰瑥汥⥹"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Navigation > Stop",
+      "text": "",
+      "menuId": 25060,
+      "resText": "%o: Stop ",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Visibility/Size > Show Web",
+      "text": "",
+      "menuId": 25070,
+      "resText": "%o: Show Web ",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Visibility/Size > Hide Web",
+      "text": "",
+      "menuId": 25080,
+      "resText": "%o: Hide Web ",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Visibility/Size > Set Width",
+      "text": "",
+      "menuId": 25110,
+      "resText": "%o: Set width to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楷瑤⁨堨 楳敺琠o"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Visibility/Size > Set Height",
+      "text": "",
+      "menuId": 25120,
+      "resText": "%o: Set height to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敨杩瑨⠠⥙猠穩⁥潴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Visibility/Size > Resize to frame",
+      "text": "",
+      "menuId": 25130,
+      "resText": "%o: resize to frame",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Set Options > Show Scrollbars",
+      "text": "",
+      "menuId": 25140,
+      "resText": "%o: Set Scrollbars %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "桓睯匠牣汯扬牡⁳〨夽獥‬㴱潎)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Set Options > Show Menu",
+      "text": "",
+      "menuId": 25150,
+      "resText": "%o: Show menu=%0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "桓睯䴠湥⁵〨伽晦‬㴱湏)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Elements > Read Elements",
+      "text": "",
+      "menuId": 25160,
+      "resText": "%o: Read Total Elements type=%0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "祔数㩳䄠䄽据潨獲‬㵐慐慲牧灡獨‬䱕伺㵌楌瑳ⱳ䤠䝍䤽慭敧ⱳ䘠剏㵍潆浲ⱳ匠剃偉㵔捓楲瑰ⱳ䤠偎呕䤽灮瑵ⱳ匠䱅䍅㵔敓敬瑣s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Elements > Read URLs",
+      "text": "",
+      "menuId": 25170,
+      "resText": "%o: Read URLs",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Set Options > Status Text",
+      "text": "",
+      "menuId": 25180,
+      "resText": "%o: Set status bar to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓瑡獵吠硥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Utilities > Download URL",
+      "text": "",
+      "menuId": 25190,
+      "resText": "%o: URL2FILE(%0, %1)",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "剕⁌潴搠睯汮慯d",
+        "敄瑳湩瑡潩⁮楦敬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Forms > Do Submit",
+      "text": "",
+      "menuId": 25200,
+      "resText": "%o: Do Submit form with %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潆浲漠⁲畂瑴湯渠浡ⱥ猠扵業⁴祴数挠敨正摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Forms > Do Reset",
+      "text": "",
+      "menuId": 25210,
+      "resText": "%o: Do Reset form with %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潆浲漠⁲畂瑴湯渠浡ⱥ爠獥瑥琠灹⁥档捥敫d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Print and Save ... > Page Setup > Page Setup",
+      "text": "",
+      "menuId": 25220,
+      "resText": "%o: Page Set Up",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Print and Save ... > Page Setup > Page Footer",
+      "text": "",
+      "menuId": 25230,
+      "resText": "%o: Page Footer %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慐敧映潯整r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Print and Save ... > Page Setup > Page Header",
+      "text": "",
+      "menuId": 25240,
+      "resText": "%o: Page Header %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慐敧栠慥敤r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Print and Save ... > Print Preview",
+      "text": "",
+      "menuId": 25250,
+      "resText": "%o: Print Preview, Shrink to fit=%0 and template %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "桓楲歮琠⁯楦⁴〨伽晦‬㴱湏‬㴲潎䌠慨杮⥥",
+        "牐湩⁴敔灭慬整琠⁯獵e㴱湏‬㴲潎䌠慨杮⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Print and Save ... > Print Web Page",
+      "text": "",
+      "menuId": 25260,
+      "resText": "%o: Print Page, Shrink to fit=%0 and template %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "桓楲歮琠⁯楦⁴〨伽晦‬㴱湏‬㴲潎䌠慨杮⥥",
+        "牐湩⁴敔灭慬整琠⁯獵e㴱湏‬㴲潎䌠慨杮⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Print and Save ... > Save Page as",
+      "text": "",
+      "menuId": 25270,
+      "resText": "%o: Save as %0, mode %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "楆敬丠浡e",
+        "祔数䴠摯⁥〨栽浴⁬潣灭敬整‬㴱牡档癩ⱥ㈠栽瑭⁬湯祬‬㴳硴⁴湯祬)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Do Scripts",
+      "text": "",
+      "menuId": 25280,
+      "resText": "%o: Do Scripts %0 with %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "捓楲瑰琠⁯硥捥瑵⁥慮敭",
+        "牁畧敭瑮s硥捥瑵⁥慮敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Navigation > Navigation Internal Mode",
+      "text": "",
+      "menuId": 25310,
+      "resText": "%o: Navigation internal mode %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慎楶慧整䴠摯⁥〨䘽敲ⱥㄠ䌽湯牴汯敬Ɽ㈠䠽污⁦潃瑮潲汬摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Forms > Reset local Submit",
+      "text": "",
+      "menuId": 25320,
+      "resText": "Reset submit",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Set Options > Normal Zoom",
+      "text": "",
+      "menuId": 25330,
+      "resText": "%o: Set Zoom to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潚浯⠠㴰浓污敬瑳‬㴱浓污敬Ⱳ㈠䴽摥畩Ɑ㌠䰽牡敧Ⱳ㐠䰽牡敧瑳)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Elements > Click Button Id",
+      "text": "",
+      "menuId": 25340,
+      "resText": "%o: Do Click button %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯渠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Forms > Find Submit and Do",
+      "text": "",
+      "menuId": 25350,
+      "resText": "%o: Find Submit #:%0 and do",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓浢瑩渠浵敢⁲ㄨ戭獡摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Utilities > Delete URL from History",
+      "text": "",
+      "menuId": 25360,
+      "resText": "%o: Delete URL=%0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "剕⁌潴搠汥瑥⁥牦浯栠獩潴祲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Elements > Set Value text",
+      "text": "",
+      "menuId": 25370,
+      "resText": "%o: Set value of %0 to text %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "汅浥湥⁴慮敭",
+        "敓⁴慶畬⁥整瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Elements > Set Check value",
+      "text": "",
+      "menuId": 25380,
+      "resText": "%o: Set check value of %0 to %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "汅浥湥⁴慮敭",
+        "敓⁴档捥⁫牯爠摡潩⠠㴰晏⁦㴱湏)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Elements > Set Selection Id",
+      "text": "",
+      "menuId": 25390,
+      "resText": "%o: Set Select %0 to Id %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "汅浥湥⁴慮敭",
+        "敓⁴敳敬瑣潩⁮摩瘠污敵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Utilities > Find Text",
+      "text": "",
+      "menuId": 25400,
+      "resText": "%o: Find occurrence#:%0 of text %1, option %2 and read %3 of type '%4'",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45,
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "楆摮漠捣牵敲据⁥畮扭牥",
+        "敔瑸琠⁯敢映畯摮甀扭牥",
+        "潍敤㩳〠伺汮⁹潆湵Ɽㄠ䠺杩汨杩瑨‬㨲敒摡‬㨳楈桧楬桧⁴湡⁤敒摡",
+        "畎扭牥漠⁦祴数⁳潴戠⁥敲摡氀杩瑨‬㨲敒摡‬㨳楈桧楬桧⁴湡⁤敒摡",
+        "祔数琠⁯敢爠慥㩤挠挽慨慲瑣牥‬㵷潷摲‬㵳敳瑮湥散‬㵴整瑸摥瑩搀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Elements > Set Focus Id",
+      "text": "",
+      "menuId": 25410,
+      "resText": "%o: Set Focus, Id %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "汅浥湥⁴慮敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Set Options > Optical Zoom",
+      "text": "",
+      "menuId": 25420,
+      "resText": "%o: Set Optical Zoom to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潚浯瀠牥散瑮条⁥%"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Utilities > Image of URL",
+      "text": "",
+      "menuId": 25430,
+      "resText": "%o: Save URL Image to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "浉条⁥楆敬慮敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Utilities > Add URL to Favorites",
+      "text": "",
+      "menuId": 25440,
+      "resText": "%o: Add URL to Favorites",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Elements > Set Focus by XY",
+      "text": "",
+      "menuId": 25450,
+      "resText": "%o: Select element at x=%0, y=%1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘潰楳楴湯椠⁮楰數l",
+        "⁙潰楳楴湯椠⁮楰數l"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Elements > Set Attributes by Index",
+      "text": "",
+      "menuId": 25460,
+      "resText": "%o: Set Attributes %1 with %2 and index=%0 ",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湉敤⁸畮扭牥",
+        "瑁牴扩瑵e牥",
+        "楗桴琠楨s牥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Elements > Set Styles by Index",
+      "text": "",
+      "menuId": 25470,
+      "resText": "%o: Set Style %1 with %2 and index=%0 ",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湉敤⁸畮扭牥",
+        "瑓汹⁥瑡牴扩瑵e",
+        "楗桴琠楨s扩瑵e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Scroll Web by...",
+      "text": "",
+      "menuId": 25480,
+      "resText": "%o: Scroll web horizontally by %0 and vertically by %1, pixels",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慖畬⁥潴栠牯穩湯慴⁬捳潲汬椠⁮楰數l",
+        "慖畬⁥潴瘠牥楴慣⁬捳潲汬椠⁮楰數ll"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Utilities > Remove URL from Favorites",
+      "text": "",
+      "menuId": 25490,
+      "resText": "%o: Remove URL from Favorites",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 50,
+      "menu": "Redraw Web",
+      "text": "",
+      "menuId": 25500,
+      "resText": "%o: Redraw Web",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "Set Options > Toogle Toolbar",
+      "text": "",
+      "menuId": 25510,
+      "resText": "%o: Toogle toolbar",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 52,
+      "menu": "Print and Save ... > Maximize Preview Window",
+      "text": "",
+      "menuId": 25520,
+      "resText": "%o: Maximize Preview Window",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 53,
+      "menu": "Utilities > Set URL to Zone",
+      "text": "",
+      "menuId": 25530,
+      "resText": "%o: Set Security to zone %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潚敮丠浡獥›潌慣㵬ⰰ䤠瑮慲敮㵴ⰱ吠畲瑳摥㈽‬湉整湲瑥㌽‬敒瑳楲瑣摥㐽"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 54,
+      "menu": "Utilities > Delete IE Cache",
+      "text": "",
+      "menuId": 25540,
+      "resText": "%o: Delete IE Cache",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 55,
+      "menu": "Utilities > Delete IE History",
+      "text": "",
+      "menuId": 25550,
+      "resText": "%o: Delete IE History",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 56,
+      "menu": "Securities > Create Site Zone",
+      "text": "",
+      "menuId": 25560,
+      "resText": "%o: Create Zone:%1 for URL:%0",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "剕⁌瑓楲杮",
+        "潚敮⠠㴰潌慣⁬慭档湩ⱥㄠ䤽瑮慲敮ⱴ㈠吽畲瑳摥‬㴳湉整湲瑥‬㴴湕牴獵整⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 57,
+      "menu": "Securities > Delete Site Zone",
+      "text": "",
+      "menuId": 25570,
+      "resText": "%o: Delete Zone:%1 for URL:%0",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "剕⁌瑓楲杮",
+        "潚敮⠠㴰潌慣⁬慭档湩ⱥㄠ䤽瑮慲敮ⱴ㈠吽畲瑳摥‬㴳湉整湲瑥‬㴴湕牴獵整⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 58,
+      "menu": "Securities > Override Certificates",
+      "text": "",
+      "menuId": 25580,
+      "resText": "%o: Override Certifificate for URL:%0 mode:%1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "剕⁌瑓楲杮",
+        "潍敤⠠㴱湏‬㴰晏⥦"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 59,
+      "menu": "Securities > Read Security",
+      "text": "",
+      "menuId": 25590,
+      "resText": "%o: Read Security",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 60,
+      "menu": "Securities > Change Security",
+      "text": "",
+      "menuId": 25600,
+      "resText": "%o: Change Security of zone: %0, value:%1 to %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潚敮⠠㴰潌慣⁬慭档湩ⱥㄠ䤽瑮慲敮ⱴ㈠吽畲瑳摥‬㴳湉整湲瑥‬㴴湕牴獵整⥤",
+        "畎敭楲慣⁬慖畬⁥敲敦牲湩⁧潴瀠汯捩y吽畲瑳摥‬㴳湉整湲瑥‬㴴湕牴獵整⥤",
+        "慖畬⁥〨›湅扡敬‬㨱倠潲灭ⱴ㌠›楄慳汢⥥琀摥‬㴳湉整湲瑥‬㴴湕牴獵整⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 61,
+      "menu": "Securities > Reset Security",
+      "text": "",
+      "menuId": 25610,
+      "resText": "%o: Reset Security for URL:%0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "剕⁌瑓楲杮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions_status": "menu ressources",
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Elements > Get Type",
+      "text": "",
+      "menuId": 27000,
+      "resText": "Element Type$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Elements > Get Text",
+      "text": "",
+      "menuId": 27010,
+      "resText": "Text_Elem$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Last Click",
+      "text": "",
+      "menuId": 27020,
+      "resText": "Clicked$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get Item",
+      "text": "",
+      "menuId": 27030,
+      "resText": "Item$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get Title",
+      "text": "",
+      "menuId": 27040,
+      "resText": "Title$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get Status",
+      "text": "",
+      "menuId": 27050,
+      "resText": "Status$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Elements > Get Value",
+      "text": "",
+      "menuId": 27060,
+      "resText": "Value_Elem$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Elements > Get Checked",
+      "text": "",
+      "menuId": 27070,
+      "resText": "Check_Elem(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Get Navigation Error",
+      "text": "",
+      "menuId": 27080,
+      "resText": "Nav_Error(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Elements > Get Select Id",
+      "text": "",
+      "menuId": 27090,
+      "resText": "Select_ID_Elem(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Scripting > Last Script Error",
+      "text": "",
+      "menuId": 27100,
+      "resText": "Script_Error(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Scripting > Last Integer Script Return",
+      "text": "",
+      "menuId": 27110,
+      "resText": "Int_Script(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Scripting > Last Float Script Return",
+      "text": "",
+      "menuId": 27120,
+      "resText": "Float_Script(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Scripting > Last String Script Return",
+      "text": "",
+      "menuId": 27130,
+      "resText": "Str_Script(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Actual Progress",
+      "text": "",
+      "menuId": 27140,
+      "resText": "Progress(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Elements > Get # of Elements type",
+      "text": "",
+      "menuId": 27150,
+      "resText": "TotalElemReaded(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Elements > Get Element Name",
+      "text": "",
+      "menuId": 27160,
+      "resText": "ElementName$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Get Total # of URLs",
+      "text": "",
+      "menuId": 27170,
+      "resText": "TotalURLs(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Get URL",
+      "text": "",
+      "menuId": 27180,
+      "resText": "URL$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Get Location URL",
+      "text": "",
+      "menuId": 27190,
+      "resText": "LocationURL$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Get Page Width",
+      "text": "",
+      "menuId": 27200,
+      "resText": "PageWidth(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Get Page Height",
+      "text": "",
+      "menuId": 27210,
+      "resText": "PageHeight(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Get Text Found",
+      "text": "",
+      "menuId": 27220,
+      "resText": "FoundText$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Get Web Version",
+      "text": "",
+      "menuId": 27230,
+      "resText": "WebVersion(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Get Screen Width",
+      "text": "",
+      "menuId": 27240,
+      "resText": "ScreenWidth(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Get Screen Height",
+      "text": "",
+      "menuId": 27250,
+      "resText": "ScreenHeight(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Get Optical Zoom",
+      "text": "",
+      "menuId": 27260,
+      "resText": "OpticalZoomVal(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Get Window Width",
+      "text": "",
+      "menuId": 27270,
+      "resText": "WindowWidth(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Get Window Height",
+      "text": "",
+      "menuId": 27280,
+      "resText": "WindowHeight(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Elements > Total # of Elements ",
+      "text": "",
+      "menuId": 27290,
+      "resText": "AllElements(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Elements > Get Attribute by Index",
+      "text": "",
+      "menuId": 27300,
+      "resText": "GetAttribute$(",
+      "flags": 1,
+      "paramTypes": [
+        1,
+        3
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Elements > Get Tag Name by Index",
+      "text": "",
+      "menuId": 27310,
+      "resText": "GetTagName$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Elements > Get Style by Index",
+      "text": "",
+      "menuId": 27320,
+      "resText": "GetStyle$(",
+      "flags": 1,
+      "paramTypes": [
+        1,
+        3
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Get Security Zone URL",
+      "text": "",
+      "menuId": 27330,
+      "resText": "GetURLSecMap(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Get Zone Action Policy",
+      "text": "",
+      "menuId": 27340,
+      "resText": "GetActionPolicy(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions_status": "menu ressources"
+}

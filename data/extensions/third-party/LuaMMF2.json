@@ -1,0 +1,273 @@
+{
+  "file": "LuaMMF2.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On Function",
+      "text": "漥传⁮畆据楴湯┠0",
+      "menuId": 26000,
+      "resText": "%o On Function %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畆据楴湯渠浡e┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On Error",
+      "text": "漥传⁮牅潲r",
+      "menuId": 26001,
+      "resText": "%o On Error",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Run File",
+      "text": "畒⁮楆敬┠0",
+      "menuId": 25000,
+      "resText": "Run File %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆敬慮敭─0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Run Script",
+      "text": "畒⁮捓楲瑰┠0",
+      "menuId": 25001,
+      "resText": "Run Script %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "捓楲瑰椀瑰┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "MMF Functions > Set Return",
+      "text": "敒畴湲┠0",
+      "menuId": 25002,
+      "resText": "Return %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敒畴湲─0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Lua Functions > Call Function",
+      "text": "慃汬䘠湵瑣潩⁮〥眠瑩⁨ㄥ眠瑩⁨㈥爠瑥牵獮",
+      "menuId": 25003,
+      "resText": "Call Function %0 with %1 with %2 returns",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "畆据楴湯渠浡e〥眠瑩⁨ㄥ眠瑩⁨㈥爠瑥牵獮",
+        "慐慲敭整⁲楬瑳　眠瑩⁨ㄥ眠瑩⁨㈥爠瑥牵獮",
+        "敒畴湲挠畯瑮琀　眠瑩⁨ㄥ眠瑩⁨㈥爠瑥牵獮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Public Variables > Set Public Variable by value",
+      "text": "敓⁴畐汢捩嘠牡慩汢⁥〥琠⁯慶畬⁥ㄥ",
+      "menuId": 25004,
+      "resText": "Set Public Variable %0 to value %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慖楲扡敬挀嘠牡慩汢⁥〥琠⁯慶畬⁥ㄥ",
+        "慖畬e敬挀嘠牡慩汢⁥〥琠⁯慶畬⁥ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Public Variables > Set Public Variable by string",
+      "text": "敓⁴畐汢捩嘠牡慩汢⁥〥琠⁯瑳楲杮┠1",
+      "menuId": 25005,
+      "resText": "Set Public Variable %0 to string %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慖楲扡敬挀嘠牡慩汢⁥〥琠⁯瑳楲杮┠1",
+        "瑓楲杮攀挀嘠牡慩汢⁥〥琠⁯瑳楲杮┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "MMF Functions > Get Parameter Count",
+      "text": "界偡牡浡潃湵⡴",
+      "menuId": 27000,
+      "resText": "LuaParamCount(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "MMF Functions > Get String Parameter",
+      "text": "䰠慵瑓偲牡浡(",
+      "menuId": 27001,
+      "resText": " LuaStrParam(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "慐慲敭整⁲湩敤x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "MMF Functions > Get Value Parameter",
+      "text": "䰠慵慖偬牡浡(",
+      "menuId": 27002,
+      "resText": " LuaValParam(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "慐慲敭整⁲湩敤x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Lua Functions > Get Return Count",
+      "text": "界剡瑥潃湵⡴",
+      "menuId": 27003,
+      "resText": "LuaRetCount(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Lua Functions > Get String Return",
+      "text": "䰠慵瑓割瑥(",
+      "menuId": 27004,
+      "resText": " LuaStrRet(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敒畴湲椠摮硥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Lua Functions > Get Value Return",
+      "text": "䰠慵慖剬瑥(",
+      "menuId": 27005,
+      "resText": " LuaValRet(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敒畴湲椠摮硥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Public Variables > Get Public Variable as string",
+      "text": "界偡扵楬卣(",
+      "menuId": 27007,
+      "resText": "LuaPublicS(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慖楲扡敬渠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Public Variables > Get Public Variable as value",
+      "text": "䰠慵畐汢捩⡖",
+      "menuId": 27006,
+      "resText": " LuaPublicV(",
+      "flags": 2,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慖楲扡敬渠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Error > Get Error Message",
+      "text": "䰠慵牅潲⡲",
+      "menuId": 27008,
+      "resText": " LuaError(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

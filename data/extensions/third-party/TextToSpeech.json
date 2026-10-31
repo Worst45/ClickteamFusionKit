@@ -1,0 +1,48 @@
+{
+  "file": "TextToSpeech.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Is Talking?",
+      "text": "漥䤠⁳慔歬湩㽧",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Has Stopped Talking",
+      "text": "漥䠠獡匠潴灰摥吠污楫杮",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Speak",
+      "text": "灓慥⁫┨⤰",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "灓慥k┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": []
+}

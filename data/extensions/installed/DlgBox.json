@@ -1,0 +1,45 @@
+{
+  "file": "DlgBox.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Dialog > Is Opened",
+      "text": "DialogBox: This object is not compatible with this version of MMF",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Dialog Box > Open Modal",
+      "text": "DialogBox: This object is not compatible with this version of MMF",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Dialog > Title",
+      "text": "DialogBox: This object is not compatible with this version of MMF",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

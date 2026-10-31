@@ -1,0 +1,56 @@
+{
+  "file": "DSRobj.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Sound card?",
+      "text": "獉琠敨敲愠猠畯摮挠牡㽤",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Screen Resolution (X)",
+      "text": "捓敲湥敒塳(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Colour Depth (in bits)",
+      "text": "潃潬䑲灥桴(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Screen Resolution (Y)",
+      "text": "捓敲湥敒女(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

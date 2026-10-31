@@ -1,0 +1,312 @@
+{
+  "file": "QuickToken.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Base > Base Zero",
+      "text": "敓⁴慂敳〠",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set Base > Base One",
+      "text": "敓⁴慂敳ㄠ",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "No Delimeter Handling > Return Nothing (default)",
+      "text": "敒畴湲丠瑯楨杮眠敨⁮潮䐠汥浩瑥牥",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "No Delimeter Handling > Return String",
+      "text": "敒畴湲匠牴湩⁧桷湥渠⁯敄楬敭整r",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Token (Single Char Tokens)",
+      "text": "敇呴歯湥⠤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3,
+        1
+      ],
+      "paramTitles": [
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Other String Functions > Convert to Upper Case",
+      "text": "灕数䍲獡⑥(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Other String Functions > Convert to Lower Case",
+      "text": "潌敷䍲獡⑥(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Other String Functions > Reverse String",
+      "text": "敒敶獲⑥(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Number of Tokens (Single Char Tokens)",
+      "text": "敇乴浵敢呲歯湥(",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Other String Functions > Trim",
+      "text": "牔浩⠤",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Other String Functions > Trim Left Only",
+      "text": "呌楲⑭(",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Other String Functions > Trim Right Only",
+      "text": "呒楲⑭(",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Constants > New Line",
+      "text": "敒畴湲⠤",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Constants > Horizontal Tab",
+      "text": "慔③(",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Other String Functions > Number of Certain Characters in String",
+      "text": "畎䍭慨䥲卮牴湩⡧",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Constants > Double Quote",
+      "text": "畑瑯⑥(",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Constants > Copyright Symbol",
+      "text": "潃祰楲桧⑴(",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Other String Functions > Replace Characters in String",
+      "text": "敒汰捡䍥慨⑲(",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3,
+        3
+      ],
+      "paramTitles": [
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Other String Functions > Remove Characters in String",
+      "text": "敒潭敶桃牡⠤",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Other String Functions > Remove Repeated Characters",
+      "text": "敒潭敶敒数瑡⠤",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

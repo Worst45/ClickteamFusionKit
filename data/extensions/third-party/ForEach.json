@@ -1,0 +1,317 @@
+{
+  "file": "ForEach.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On ForEach loop",
+      "text": "漥㨠传⁮潆䕲捡⁨潬灯›〥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲潆䕲捡⁨潬灯猧渠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "ForEach loop is paused",
+      "text": "漥㨠䘠牯慅档氠潯㩰┠‰獩瀠畡敳d",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲潆䕲捡⁨潬灯猧渠浡e畡敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Object is part of ForEach loop",
+      "text": "漥㨠传橢捥⁴〥椠⁳慰瑲漠⁦潆䕲捡⁨潬灯›ㄥ",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        1,
+        45
+      ],
+      "paramTitles": [
+        "敓敬瑣漠橢捥⹴⸮ 慰瑲漠⁦潆䕲捡⁨潬灯›ㄥ",
+        "湅整⁲潆䕲捡⁨潬灯猧渠浡e潆䕲捡⁨潬灯›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Groups > Object is part of group",
+      "text": "漥㨠传橢捥⁴〥椠⁳慰瑲漠⁦牧畯㩰┠1",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        1,
+        45
+      ],
+      "paramTitles": [
+        "敓敬瑣漠橢捥⹴⸮ 慰瑲漠⁦牧畯㩰┠1",
+        "湅整⁲牧畯❰⁳慮敭愀瑲漠⁦牧畯㩰┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "On ForEach loop for object",
+      "text": "漥㨠传⁮潆䕲捡⁨潬灯›〥映牯漠橢捥⁴ㄥ",
+      "menuId": 26004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲潆䕲捡⁨潬灯猧渠浡e牯漠橢捥⁴ㄥ",
+        "敓敬瑣漠橢捥⹴⸮瀀猧渠浡e牯漠橢捥⁴ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Start ForEach loop for object...",
+      "text": "瑓牡⁴潆䕲捡⁨潬灯›〥映牯漠橢捥⁴ㄥ",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲潆䕲捡⁨潬灯猧渠浡e漠橢捥⁴ㄥ",
+        "敓敬瑣漠橢捥⹴⸮瀀猧渠浡e漠橢捥⁴ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Pause ForEach loop...",
+      "text": "慐獵⁥潆䕲捡⁨潬灯›〥",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲潆䕲捡⁨潬灯猧渠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Resume ForEach loop...",
+      "text": "敒畳敭䘠牯慅档氠潯㩰┠0",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲潆䕲捡⁨潬灯猧渠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Set ForEach loop's iteration...",
+      "text": "敓⁴潆䕲捡⁨潬灯›〥猧椠整慲楴湯琠㩯┠1",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潆䕲捡⁨潬灯猧渠浡e慲楴湯琠㩯┠1",
+        "湅整⁲瑩牥瑡潩⁮湩敤⁸景氠潯p湯琠㩯┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Groups > Start ForEach loop for group...",
+      "text": "瑓牡⁴潆䕲捡⁨潬灯›〥映牯朠潲灵›ㄥ",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲潆䕲捡⁨潬灯猧渠浡e朠潲灵›ㄥ",
+        "湅整⁲牧畯❰⁳慮敭猀渠浡e朠潲灵›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Groups > Add object(s) to group...",
+      "text": "摁⁤扯敪瑣猨 〥琠⁯牧畯㩰┠1",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        45
+      ],
+      "paramTitles": [
+        "敓敬瑣漠橢捥⹴⸮琀⁯牧畯㩰┠1",
+        "湅整⁲牧畯❰⁳慮敭 牧畯㩰┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Groups > Add object to group by Fixed Value...",
+      "text": "摁⁤扯敪瑣猧䘠硩摥嘠污敵›〥琠⁯牧畯㩰┠1",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲湡漠橢捥❴⁳楆數⁤慖畬e⁯牧畯㩰┠1",
+        "湅整⁲牧畯❰⁳慮敭椀數⁤慖畬e⁯牧畯㩰┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Groups > Remove object(s) from group...",
+      "text": "敒潭敶漠橢捥⡴⥳┠‰牦浯朠潲灵›ㄥ",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        45
+      ],
+      "paramTitles": [
+        "敓敬瑣漠橢捥⹴⸮─‰牦浯朠潲灵›ㄥ",
+        "湅整⁲牧畯❰⁳慮敭 牦浯朠潲灵›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Groups > Remove object from group by Fixed Value...",
+      "text": "敒潭敶漠橢捥❴⁳楆數⁤慖畬㩥┠‰牦浯朠潲灵›ㄥ",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲湡漠橢捥❴⁳楆數⁤慖畬e‰牦浯朠潲灵›ㄥ",
+        "湅整⁲牧畯❰⁳慮敭椀數⁤慖畬e‰牦浯朠潲灵›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get ForEach loop's current iterating Fixed Value",
+      "text": "潌灯噆(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "湅整⁲潆䕲捡⁨潬灯猧渠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get ForEach's current iteration",
+      "text": "潌灯瑉牥瑡潩⡮",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "湅整⁲潆䕲捡⁨潬灯猧渠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get ForEach's maximum iteration",
+      "text": "潌灯慍䥸整慲楴湯(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "湅整⁲潆䕲捡⁨潬灯猧渠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Groups > Get number of objects in group",
+      "text": "片畯印穩⡥",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "湅整⁲牧畯❰⁳慮敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

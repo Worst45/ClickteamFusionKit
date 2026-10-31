@@ -1,0 +1,629 @@
+{
+  "file": "VideoPlayer.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Create Video Player",
+      "text": "牃慥整嘠摩潥倠慬敹⁲┨ⰰㄥ)",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "汐祡牥圠摩桴倀慬敹⁲┨ⰰㄥ)",
+        "汐祡牥䠠楥桧t慬敹⁲┨ⰰㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Load Video",
+      "text": "潌摡嘠摩潥⠠〥)",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楖敤⁯剕L⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Load Preview Image",
+      "text": "潌摡倠敲楶睥䤠慭敧⠠〥)",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "牐癥敩⁷浉条⁥剕L⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Set X Position",
+      "text": "敓⁴⁘潐楳楴湯⠠〥)",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汐祡牥堠倠獯瑩潩n)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Set Y Position",
+      "text": "敓⁴⁙潐楳楴湯⠠〥)",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汐祡牥夠倠獯瑩潩n)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Show Player",
+      "text": "桓睯倠慬敹r",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Hide Player",
+      "text": "楈敤倠慬敹r",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Set Volume",
+      "text": "敓⁴潖畬敭⠠〥)",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汐祡牥嘠汯浵e)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Control > Play Video",
+      "text": "汐祡嘠摩潥",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Control > Pause Video",
+      "text": "慐獵⁥楖敤o",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Control > Stop Video",
+      "text": "瑓灯嘠摩潥",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Control > Seek To Position",
+      "text": "敓步吠⁯潐楳楴湯",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楖敤⁯潐楳楴湯⠠敐捲湥慴敧)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Options > Double Clicks",
+      "text": "潄扵敬䌠楬正⁳┨⤰",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅扡敬㽤⠠‰‽慆獬ⱥㄠ㴠吠畲⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Options > Placement",
+      "text": "汐捡浥湥⁴┨⤰",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潃瑮潲⁬汐捡浥湥⁴〨㴠䈠汥睯嘠摩潥‬‱‽癏牥嘠摩潥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Options > Auto Hide Controls",
+      "text": "畁潴䠠摩⁥潃瑮潲獬⠠〥)",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畁潴䠠摩⁥潃瑮潲獬‿〨㴠䘠污敳‬‱‽牔敵)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Options > Auto Play",
+      "text": "畁潴倠慬⁹┨⤰",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畁潴倠慬㽹⠠‰‽慆獬ⱥㄠ㴠吠畲⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Options > Fade Out Time",
+      "text": "慆敤传瑵吠浩⁥┨⤰",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潃瑮潲獬䘠摡⁥畏⁴楔敭⠠湩䴠汩楬敳潣摮⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Options > Left Control Padding",
+      "text": "敌瑦䌠湯牴汯倠摡楤杮⠠〥)",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潃瑮潲⁬慐摤湩⁧敌瑦匠摩⁥椨⁮楐數獬)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Options > Right Control Padding",
+      "text": "楒桧⁴潃瑮潲⁬慐摤湩⁧┨⤰",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潃瑮潲⁬慐摤湩⁧楒桧⁴楓敤⠠湩倠硩汥⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Main Bar > Bar Background Color",
+      "text": "慂⁲慂正牧畯摮䌠汯牯⠠〥)",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "慂⁲慂正牧畯摮䌠汯牯⠀〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Main Bar > Bar Background Alpha",
+      "text": "慂⁲慂正牧畯摮䄠灬慨⠠〥)",
+      "menuId": 25200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慂⁲慂正牧畯摮䄠灬慨⠀〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Main Bar > Bar Knob Outline Color",
+      "text": "慂⁲湋扯传瑵楬敮䌠汯牯⠠〥)",
+      "menuId": 25210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "慂⁲湋扯传瑵楬敮䌠汯牯⠀〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Main Bar > Bar Knob Outline Alpha",
+      "text": "慂⁲湋扯传瑵楬敮䄠灬慨⠠〥)",
+      "menuId": 25220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慂⁲湋扯传瑵楬敮䄠灬慨⠀〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Main Bar > Bar Loading Background Color",
+      "text": "慂⁲潌摡湩⁧慂正牧畯摮䌠汯牯⠠〥)",
+      "menuId": 25230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "慂⁲潌摡湩⁧慂正牧畯摮䌠汯牯⠀〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Main Bar > Bar Playing Background Color",
+      "text": "慂⁲汐祡湩⁧慂正牧畯摮䌠汯牯⠠〥)",
+      "menuId": 25240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "慂⁲汐祡湩⁧慂正牧畯摮䌠汯牯⠀〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Background > Background Top Color",
+      "text": "慂正牧畯摮吠灯䌠汯牯⠠〥)",
+      "menuId": 25250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "慂正牧畯摮吠灯䌠汯牯⠀〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Background > Background Top Alpha",
+      "text": "慂正牧畯摮吠灯䄠灬慨⠠〥)",
+      "menuId": 25260,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慂正牧畯摮吠灯䄠灬慨⠀〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Background > Background Bottom Color",
+      "text": "慂正牧畯摮䈠瑯潴⁭潃潬⁲┨⤰",
+      "menuId": 25270,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "慂正牧畯摮䈠瑯潴⁭潃潬r┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Background > Background Bottom Alpha",
+      "text": "慂正牧畯摮䈠瑯潴⁭汁桰⁡┨⤰",
+      "menuId": 25280,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慂正牧畯摮䈠瑯潴⁭汁桰a┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Controls > Controls Background Color",
+      "text": "潃瑮潲獬䈠捡杫潲湵⁤潃潬⁲┨⤰",
+      "menuId": 25290,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "潃瑮潲獬䈠捡杫潲湵⁤潃潬r┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Controls > Controls Background Alpha",
+      "text": "潃瑮潲獬䈠捡杫潲湵⁤汁桰⁡┨⤰",
+      "menuId": 25300,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潃瑮潲獬䈠捡杫潲湵⁤汁桰a┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Controls > Controls Icon Color",
+      "text": "潃瑮潲獬䤠潣⁮潃潬⁲┨⤰",
+      "menuId": 25310,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "潃瑮潲獬䤠潣⁮潃潬r┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Controls > Controls RollOver Glow Color",
+      "text": "潃瑮潲獬删汯佬敶⁲汇睯䌠汯牯⠠〥)",
+      "menuId": 25320,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "潃瑮潲獬删汯佬敶⁲潃潬r汯牯⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Controls > Controls RollOver Glow Alpha",
+      "text": "潃瑮潲獬删汯佬敶⁲汇睯䄠灬慨⠠〥)",
+      "menuId": 25330,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潃瑮潲獬删汯佬敶⁲汇睯䄠灬慨⠀〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Timer And Icon > Play Icon Color",
+      "text": "汐祡䤠潣⁮潃潬⁲┨⤰",
+      "menuId": 25340,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "汐祡䤠潣⁮潃潬r┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Timer And Icon > Play Icon Alpha",
+      "text": "汐祡䤠潣⁮汁桰⁡┨⤰",
+      "menuId": 25350,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汐祡䤠潣⁮汁桰a┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Timer And Icon > Timer Background Color",
+      "text": "楔敭⁲慂正牧畯摮䌠汯牯⠠〥)",
+      "menuId": 25360,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "楔敭⁲慂正牧畯摮䌠汯牯⠀〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Timer And Icon > Timer Background Alpha",
+      "text": "楔敭⁲慂正牧畯摮䄠灬慨⠠〥)",
+      "menuId": 25370,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楔敭⁲慂正牧畯摮䄠灬慨⠀〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Timer And Icon > Timer CountUp Color",
+      "text": "楔敭⁲潃湵啴⁰潃潬⁲┨⤰",
+      "menuId": 25380,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "楔敭⁲潃湵啴⁰潃潬r┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Timer And Icon > Timer CountDown Color",
+      "text": "楔敭⁲潃湵䑴睯⁮潃潬⁲┨⤰",
+      "menuId": 25390,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "楔敭⁲潃湵䑴睯⁮潃潬r┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": []
+}

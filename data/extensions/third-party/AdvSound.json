@@ -1,0 +1,1487 @@
+{
+  "file": "AdvSound.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Sound added",
+      "text": "漥㨠匠畯摮愠摤摥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Sound generated",
+      "text": "漥㨠匠畯摮朠湥牥瑡摥",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Is sound playing?",
+      "text": "漥㨠匠畯摮┠‰獩瀠慬楹杮",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 34,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潓湵⁤慮敭─‰獩瀠慬楹杮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Is sound paused?",
+      "text": "漥㨠匠畯摮┠‰獩瀠畡敳d",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 34,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潓湵⁤慮敭─‰獩瀠畡敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Does sound exist?",
+      "text": "漥㨠匠畯摮┠‰硥獩獴",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 34,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潓湵⁤慮敭─‰硥獩獴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Sound played",
+      "text": "漥㨠匠畯摮瀠慬敹d",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Sound looped",
+      "text": "漥㨠匠畯摮氠潯数d",
+      "menuId": 26060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Playback > Play and loop",
+      "text": "汐祡猠畯摮┠‰湯挠慨湮汥┠ⰱ┠′楴敭s",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潓湵⁤慮敭─‰湯挠慨湮汥┠ⰱ┠′楴敭s",
+        "桃湡敮⁬湩敤⁸ㄨ㌭ⰲ〠›牆敥挠慨湮汥)",
+        "敒数瑡挠畯瑮⠠㨰䤠普湩瑩⥥攀挠慨湮汥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Playback > Play",
+      "text": "汐祡猠畯摮┠‰湯挠慨湮汥┠1",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "潓湵⁤慮敭─‰湯挠慨湮汥┠1",
+        "桃湡敮⁬湩敤⁸ㄨ㌭ⰲ〠›牆敥挠慨湮汥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Manager > Add generated sound",
+      "text": "摁⁤敧敮慲整⁤潳湵⁤獡┠0",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潓湵⁤慮敭攀⁤潳湵⁤獡┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Generator > Randomize",
+      "text": "慒摮浯穩⁥潳湵d",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Generator > Presets > Pickup/coin",
+      "text": "牃慥整瀠捩畫⽰潣湩",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Generator > Presets > Laser/shoot",
+      "text": "牃慥整氠獡牥猯潨瑯",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Generator > Presets > Explosion",
+      "text": "牃慥整攠灸潬楳湯",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Generator > Presets > Powerup",
+      "text": "牃慥整瀠睯牥灵",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Generator > Presets > Hit/hurt",
+      "text": "牃慥整栠瑩栯牵t",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Generator > Presets > Jump",
+      "text": "牃慥整樠浵p",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Generator > Presets > Blip/select",
+      "text": "牃慥整戠楬⽰敳敬瑣",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Generator > Mutate",
+      "text": "畍慴整猠畯摮",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Generator > Presets > By index",
+      "text": "潌摡瀠敲敳⁴〥",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潓湵⁤晥敦瑣⠠㨰䌠楯Ɱㄠ›慌敳Ⱳ㈠›硅汰獯潩Ɱ㌠›潐敷畲Ɒ㐠›畈瑲‬㨵䨠浵Ɒ㘠›求灩)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Generator > Reset",
+      "text": "敒敳⁴敧敮慲潴r",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Generator > Variables > Wave type",
+      "text": "敓⁴慷敶琠灹⁥潴┠0",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慗敶琠灹⁥〨›煓慵敲眠癡ⱥㄠ›慓瑷潯桴‬㨲匠湩ⱥ㌠›潎獩⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Generator > Variables > Timing > Attack time",
+      "text": "敓⁴瑡慴正琠浩⁥潴┠0",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "瑁慴正琠浩e浩⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Generator > Generate",
+      "text": "敇敮慲整猠畯摮",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Manager > Delete",
+      "text": "敄敬整猠畯摮┠0",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潓湵⁤慮敭搀┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Generator > Set seed",
+      "text": "敓⁴慲摮浯猠敥⁤潴┠0",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓摥⠠㨰䌠牵敲瑮琠浩⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Manager > Add from file",
+      "text": "摁⁤潳湵⁤〥映潲⁭楦敬┠1",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        63
+      ],
+      "paramTitles": [
+        "潓湵⁤慮敭　映潲⁭楦敬┠1",
+        "楆敬⠠⸪慷ⱶ⸪杯Ⱨ⸪潭Ɽ⸪楡⥦"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Manager > Add from memory",
+      "text": "摁⁤潳湵⁤〥映潲⁭敭潭祲愠摤敲獳┠‱楷桴猠穩⁥㈥",
+      "menuId": 25210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潓湵⁤慮敭　映潲⁭敭潭祲愠摤敲獳┠‱楷桴猠穩⁥㈥",
+        "敍潭祲愠摤敲獳漀⁭敭潭祲愠摤敲獳┠‱楷桴猠穩⁥㈥",
+        "楆敬猠穩⁥戨瑹獥)敭潭祲愠摤敲獳┠‱楷桴猠穩⁥㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Playback > Pause",
+      "text": "慐獵⁥潳湵⁤〥",
+      "menuId": 25220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潓湵⁤慮敭 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Playback > Resume",
+      "text": "敒畳敭猠畯摮┠0",
+      "menuId": 25230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潓湵⁤慮敭搀┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Playback > Stop",
+      "text": "瑓灯猠畯摮┠0",
+      "menuId": 25240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潓湵⁤慮敭─0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Playback > Set position",
+      "text": "敓⁴潰楳楴湯漠⁦潳湵⁤〥琠⁯ㄥ",
+      "menuId": 25250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "潓湵⁤慮敭渀漠⁦潳湵⁤〥琠⁯ㄥ",
+        "潐楳楴湯⠠獭)⁦潳湵⁤〥琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Playback > Set frequency",
+      "text": "敓⁴牦煥敵据⁹景猠畯摮┠‰潴┠1",
+      "menuId": 25260,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "潓湵⁤慮敭挀⁹景猠畯摮┠‰潴┠1",
+        "牆煥敵据⁹䠨ⱺ〠›牏杩湩污)┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Playback > Set volume",
+      "text": "敓⁴潶畬敭漠⁦潳湵⁤〥琠⁯ㄥ",
+      "menuId": 25270,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "潓湵⁤慮敭漀⁦潳湵⁤〥琠⁯ㄥ",
+        "潖畬敭⠠ⴰ〱⤰漀湵⁤〥琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Playback > Set pan",
+      "text": "敓⁴慰⁮景猠畯摮┠‰潴┠1",
+      "menuId": 25280,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "潓湵⁤慮敭猀畯摮┠‰潴┠1",
+        "慐⁮⴨〱㨰䰠晥ⱴ〠›敃瑮牥‬〱㨰删杩瑨)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Generator > Variables > Timing > Sustain time",
+      "text": "敓⁴畳瑳楡⁮楴敭琠⁯〥",
+      "menuId": 25290,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓瑳楡⁮楴敭椀敭琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Generator > Variables > Timing > Sustain punch",
+      "text": "敓⁴畳瑳楡⁮異据⁨潴┠0",
+      "menuId": 25300,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓瑳楡⁮異据h据⁨潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Generator > Variables > Timing > Decay time",
+      "text": "敓⁴敤慣⁹楴敭琠⁯〥",
+      "menuId": 25310,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敄慣⁹楴敭椀敭琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Generator > Variables > Frequency > Start frequency",
+      "text": "敓⁴瑳牡⁴牦煥敵据⁹潴┠0",
+      "menuId": 25320,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "瑓牡⁴牦煥敵据y据⁹潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Generator > Variables > Frequency > Minimum frequency",
+      "text": "敓⁴業楮畭⁭牦煥敵据⁹潴┠0",
+      "menuId": 25330,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楍楮畭⁭牦煥敵据y据⁹潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Generator > Variables > Frequency > Slide",
+      "text": "敓⁴汳摩⁥潴┠0",
+      "menuId": 25340,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汓摩e摩⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Generator > Variables > Frequency > Delta slide",
+      "text": "敓⁴敤瑬⁡汳摩⁥潴┠0",
+      "menuId": 25350,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敄瑬⁡汳摩e摩⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Generator > Variables > Frequency > Vibrato depth",
+      "text": "敓⁴楶牢瑡⁯敤瑰⁨潴┠0",
+      "menuId": 25360,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楖牢瑡⁯敤瑰h瑰⁨潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Generator > Variables > Frequency > Vibrato speed",
+      "text": "敓⁴楶牢瑡⁯灳敥⁤潴┠0",
+      "menuId": 25370,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楖牢瑡⁯灓敥d敥⁤潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Generator > Variables > Frequency > Change amount",
+      "text": "敓⁴档湡敧愠潭湵⁴潴┠0",
+      "menuId": 25380,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "桃湡敧愠潭湵t湵⁴潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Generator > Variables > Frequency > Change speed",
+      "text": "敓⁴档湡敧猠数摥琠⁯〥",
+      "menuId": 25390,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "桃湡敧猠数摥攀摥琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Generator > Variables > Square wave > Square duty",
+      "text": "敓⁴煳慵敲搠瑵⁹潴┠0",
+      "menuId": 25400,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "煓慵敲搠瑵y瑵⁹潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Generator > Variables > Square wave > Duty sweep",
+      "text": "敓⁴煳慵敲搠瑵⁹睳敥⁰潴┠0",
+      "menuId": 25410,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "煓慵敲搠瑵⁹睳敥p敥⁰潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Generator > Variables > Repeat speed",
+      "text": "敓⁴敲数瑡猠数摥琠⁯〥",
+      "menuId": 25420,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敒数瑡猠数摥攀摥琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Generator > Variables > Phaser > Offset",
+      "text": "敓⁴桰獡牥漠晦敳⁴潴┠0",
+      "menuId": 25430,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "桐獡牥漠晦敳t敳⁴潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Generator > Variables > Phaser > Sweep",
+      "text": "敓⁴桰獡牥猠敷灥琠⁯〥",
+      "menuId": 25440,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "桐獡牥猠敷灥攀灥琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Generator > Variables > Low pass filter > Cutoff",
+      "text": "敓⁴偌映汩整⁲畣潴晦琠⁯〥",
+      "menuId": 25450,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潌⁷慰獳映汩整⁲畣潴晦 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Generator > Variables > Low pass filter > Cutoff sweep",
+      "text": "敓⁴偌映汩整⁲畣潴晦猠敷灥琠⁯〥",
+      "menuId": 25460,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潌⁷慰獳映汩整⁲畣潴晦猠敷灥 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Generator > Variables > Low pass filter > Resonance",
+      "text": "敓⁴偌映汩整⁲敲潳慮据⁥潴┠0",
+      "menuId": 25470,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潌⁷慰獳映汩整⁲敲潳慮据e┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Generator > Variables > High pass filter > Cutoff",
+      "text": "敓⁴偈映汩整⁲畣潴晦琠⁯〥",
+      "menuId": 25480,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楈桧瀠獡⁳楦瑬牥挠瑵景f〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Generator > Variables > High pass filter > Cutoff sweep",
+      "text": "敓⁴偈映汩整⁲畣潴晦猠敷灥琠⁯〥",
+      "menuId": 25490,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楈桧瀠獡⁳楦瑬牥挠瑵景⁦睳敥p〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 50,
+      "menu": "Generator > Variables > Sound volume",
+      "text": "敓⁴潳湵⁤潶畬敭琠⁯〥",
+      "menuId": 25500,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潓湵⁤潶畬敭甀敭琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "Generator > Variables > Load SFX sample",
+      "text": "潌摡匠塆猠浡汰⁥楦敬┠0",
+      "menuId": 25510,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        63
+      ],
+      "paramTitles": [
+        "䙓⁘慳灭敬映汩⁥⨨献獦)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 52,
+      "menu": "Generator > Variables > Save SFX sample",
+      "text": "慓敶匠塆猠浡汰⁥楦敬┠0",
+      "menuId": 25520,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        63
+      ],
+      "paramTitles": [
+        "䙓⁘慳灭敬映汩⁥⨨献獦)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 53,
+      "menu": "Manager > Save to file",
+      "text": "慓敶猠畯摮┠‰潴映汩⁥ㄥ",
+      "menuId": 25530,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        63
+      ],
+      "paramTitles": [
+        "潓湵⁤慮敭─‰潴映汩⁥ㄥ",
+        "楆敬渠浡e─‰潴映汩⁥ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 54,
+      "menu": "Playback > With parameters > Play",
+      "text": "汐祡猠畯摮┠‰楷桴⠠潶畬敭┠ⰲ瀠湡┠ⰳ瀠獯瑩潩⁮㐥‬牦煥敵据⁹㔥 湯挠慨湮汥┠1",
+      "menuId": 25540,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潓湵⁤慮敭─‰楷桴⠠潶畬敭┠ⰲ瀠湡┠ⰳ瀠獯瑩潩⁮㐥‬牦煥敵据⁹㔥 湯挠慨湮汥┠1",
+        "桃湡敮⁬湩敤⁸ㄨ㌭ⰲ〠›牆敥挠慨湮汥)瀠獯瑩潩⁮㐥‬牦煥敵据⁹㔥 湯挠慨湮汥┠1",
+        "潖畬敭⠠ⴰ〱⤰㄀㌭ⰲ〠›牆敥挠慨湮汥)瀠獯瑩潩⁮㐥‬牦煥敵据⁹㔥 湯挠慨湮汥┠1",
+        "慐⁮⴨〱㨰䰠晥ⱴ〠›敃瑮牥‬〱㨰删杩瑨)獯瑩潩⁮㐥‬牦煥敵据⁹㔥 湯挠慨湮汥┠1",
+        "潐楳楴湯⠠獭)ⱴ〠›敃瑮牥‬〱㨰删杩瑨)獯瑩潩⁮㐥‬牦煥敵据⁹㔥 湯挠慨湮汥┠1",
+        "牆煥敵据⁹䠨ⱺ〠›牏杩湩污)〱㨰删杩瑨)獯瑩潩⁮㐥‬牦煥敵据⁹㔥 湯挠慨湮汥┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 55,
+      "menu": "Generator > Variables > Set by index",
+      "text": "敓⁴慶楲扡敬眠瑩⁨湩敤⁸〥琠⁯ㄥ",
+      "menuId": 25550,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湉敤⁸〨㈭⤳眀瑩⁨湩敤⁸〥琠⁯ㄥ",
+        "慖畬e〨㈭⤳眀瑩⁨湩敤⁸〥琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 56,
+      "menu": "Generator > Variables > Load CSV string",
+      "text": "潌摡瘠牡慩汢獥映潲⁭千⁖瑳楲杮┠0",
+      "menuId": 25560,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "千⁖瑳楲杮氀獥映潲⁭千⁖瑳楲杮┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 57,
+      "menu": "Playback > With parameters > Play and loop",
+      "text": "汐祡猠畯摮┠‰楷桴⠠潶畬敭┠ⰲ瀠湡┠ⰳ瀠獯瑩潩⁮㐥‬牦煥敵据⁹㔥 湯挠慨湮汥┠ⰱ┠‶楴敭s",
+      "menuId": 25570,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潓湵⁤慮敭─‰楷桴⠠潶畬敭┠ⰲ瀠湡┠ⰳ瀠獯瑩潩⁮㐥‬牦煥敵据⁹㔥 湯挠慨湮汥┠ⰱ┠‶楴敭s",
+        "桃湡敮⁬湩敤⁸ㄨ㌭ⰲ〠›牆敥挠慨湮汥)瀠獯瑩潩⁮㐥‬牦煥敵据⁹㔥 湯挠慨湮汥┠ⰱ┠‶楴敭s",
+        "潖畬敭⠠ⴰ〱⤰㄀㌭ⰲ〠›牆敥挠慨湮汥)瀠獯瑩潩⁮㐥‬牦煥敵据⁹㔥 湯挠慨湮汥┠ⰱ┠‶楴敭s",
+        "慐⁮⴨〱㨰䰠晥ⱴ〠›敃瑮牥‬〱㨰删杩瑨)獯瑩潩⁮㐥‬牦煥敵据⁹㔥 湯挠慨湮汥┠ⰱ┠‶楴敭s",
+        "潐楳楴湯⠠獭)ⱴ〠›敃瑮牥‬〱㨰删杩瑨)獯瑩潩⁮㐥‬牦煥敵据⁹㔥 湯挠慨湮汥┠ⰱ┠‶楴敭s",
+        "牆煥敵据⁹䠨ⱺ〠›牏杩湩污)〱㨰删杩瑨)獯瑩潩⁮㐥‬牦煥敵据⁹㔥 湯挠慨湮汥┠ⰱ┠‶楴敭s",
+        "敒数瑡挠畯瑮⠠㨰䤠普湩瑩⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Sounds > Added > Index",
+      "text": "敎敷瑳潓湵⡤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Sounds > Name from index",
+      "text": "潓湵乤浡⑥(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潓湵⁤湩敤⁸〨戭獡摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Sounds > Index from name",
+      "text": "潓湵䥤摮硥(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "潓湵⁤慮敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Sounds > Played/looped > Name",
+      "text": "汐祡摥潓湵⑤(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Generator > Variables > Wave type",
+      "text": "慗敶祔数(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Generator > Variables > Sound volume",
+      "text": "潓湵噤汯浵⡥",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Generator > Variables > Timing > Attack time",
+      "text": "瑁慴正楔敭(",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Generator > Variables > Timing > Sustain time",
+      "text": "畓瑳楡呮浩⡥",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Generator > Variables > Timing > Sustain punch",
+      "text": "畓瑳楡偮湵档(",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Generator > Variables > Timing > Decay time",
+      "text": "敄慣呹浩⡥",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Generator > Variables > Frequency > Start frequency",
+      "text": "瑓牡䙴敲⡱",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Generator > Generated data",
+      "text": "敇坮癡⡥",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "晏獦瑥⠀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Generator > Generated length",
+      "text": "敇䱮湥瑧⡨",
+      "menuId": 27120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Generator > Variables > Frequency > Minimum frequency",
+      "text": "楍䙮敲⡱",
+      "menuId": 27130,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Generator > Variables > Frequency > Slide",
+      "text": "汓摩⡥",
+      "menuId": 27140,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Generator > Variables > Frequency > Delta slide",
+      "text": "敄瑬卡楬敤(",
+      "menuId": 27150,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Generator > Variables > Square wave > Square duty",
+      "text": "煓慵敲畄祴(",
+      "menuId": 27160,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Generator > Variables > Square wave > Duty sweep",
+      "text": "畄祴睓敥⡰",
+      "menuId": 27170,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Generator > Variables > Frequency > Vibrato depth",
+      "text": "楖䑢灥桴(",
+      "menuId": 27180,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Generator > Variables > Frequency > Vibrato speed",
+      "text": "楖卢数摥(",
+      "menuId": 27190,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Generator > Variables > Frequency > Change amount",
+      "text": "桃湡敧流畯瑮(",
+      "menuId": 27200,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Generator > Variables > Frequency > Change speed",
+      "text": "桃湡敧灓敥⡤",
+      "menuId": 27210,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Generator > Variables > Repeat speed",
+      "text": "敒数瑡灓敥⡤",
+      "menuId": 27220,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Generator > Variables > Phaser > Offset",
+      "text": "桐獡牥晏獦瑥(",
+      "menuId": 27230,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Generator > Variables > Phaser > Sweep",
+      "text": "桐獡牥睓敥⡰",
+      "menuId": 27240,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Generator > Variables > Low pass filter > Cutoff",
+      "text": "偌畃潴晦(",
+      "menuId": 27250,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Generator > Variables > Low pass filter > Cutoff sweep",
+      "text": "偌畃潴晦睓敥⡰",
+      "menuId": 27260,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Generator > Variables > Low pass filter > Resonance",
+      "text": "偌敒潳慮据⡥",
+      "menuId": 27270,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Generator > Variables > High pass filter > Cutoff",
+      "text": "偈畃潴晦(",
+      "menuId": 27280,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Generator > Variables > High pass filter > Cutoff sweep",
+      "text": "偈畃潴晦睓敥⡰",
+      "menuId": 27290,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Sounds > Played/looped > Channel",
+      "text": "汐祡摥桃湡敮⡬",
+      "menuId": 27300,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Sounds > Played/looped > Index",
+      "text": "汐祡摥潓湵⡤",
+      "menuId": 27310,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Generator > Variables > By index",
+      "text": "慖楲扡敬(",
+      "menuId": 27320,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤⁸〨㈭⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Generator > Variables > CSV string",
+      "text": "千⑖(",
+      "menuId": 27330,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Sounds > Original frequency",
+      "text": "潓湵佤楲楧慮䙬敲⡱",
+      "menuId": 27340,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "潓湵⁤慮敭愀䙬敲⡱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Sounds > Memory address",
+      "text": "潃湵却畯摮⡳",
+      "menuId": 27350,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Sounds > Memory size",
+      "text": "潓湵䅤摤敲獳(",
+      "menuId": 27360,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "潓湵⁤慮敭猀("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

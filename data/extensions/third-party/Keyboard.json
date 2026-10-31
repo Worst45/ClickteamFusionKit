@@ -1,0 +1,148 @@
+{
+  "file": "Keyboard.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Upon key down",
+      "text": "漥›灕湯欠祥┠‰潤湷",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敋⁹畮扭牥礀┠‰潤湷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Upon key up",
+      "text": "漥›灕湯欠祥┠‰灵",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敋⁹畮扭牥礀┠‰灵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Repeat while key is pressed",
+      "text": "漥›敒数瑡眠楨敬欠祥┠‰獩瀠敲獳摥",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敋⁹畮扭牥眀楨敬欠祥┠‰獩瀠敲獳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Upon any key down",
+      "text": "漥›灕湯愠祮欠祥搠睯n",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Upon any key up",
+      "text": "漥›灕湯愠祮欠祥甠p",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Repeat while any key is pressed",
+      "text": "漥›敒数瑡眠楨敬愠祮欠祥椠⁳牰獥敳d",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Last key pressed",
+      "text": "慌瑳敋偹敲獳摥(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Last key released",
+      "text": "慌瑳敋剹汥慥敳⡤",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Key string",
+      "text": "敋卹牴湩⑧(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敋⁹慶畬e("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Key value",
+      "text": "敋噹污敵(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "敋⁹瑳楲杮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

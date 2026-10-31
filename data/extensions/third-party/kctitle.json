@@ -1,0 +1,45 @@
+{
+  "file": "kctitle.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Compare Titlebar Text",
+      "text": "㄰楔汴扥牡┠s",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Titlebar Text",
+      "text": "㄰敓⁴楴汴扥牡琠╯s",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Retrieve Titlebar Text",
+      "text": "楔汴扥牡⠤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

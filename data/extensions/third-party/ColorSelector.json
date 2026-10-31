@@ -1,0 +1,1016 @@
+{
+  "file": "ColorSelector.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Window > Is Enabled?",
+      "text": "漥›獉䔠慮汢摥",
+      "menuId": 26000,
+      "resText": "%o: Is Enabled",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Window > Is Visible?",
+      "text": "漥›獉嘠獩扩敬",
+      "menuId": 26010,
+      "resText": "%o: Is Visible",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Window > Has Focus?",
+      "text": "漥›慈⁳潆畣s",
+      "menuId": 26020,
+      "resText": "%o: Has Focus",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Color Selection Changed",
+      "text": "漥›潃潬⁲敓敬瑣潩⁮桃湡敧d",
+      "menuId": 26030,
+      "resText": "%o: Color Selection Changed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Color Picker Dropdown",
+      "text": "漥›潃潬⁲楐正牥䐠潲摰睯n",
+      "menuId": 26040,
+      "resText": "%o: Color Picker Dropdown",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Color Picker Closeup",
+      "text": "漥›潃潬⁲楐正牥䌠潬敳灵",
+      "menuId": 26050,
+      "resText": "%o: Color Picker Closeup",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Is Popup Visible?",
+      "text": "漥›潐異⁰獩嘠獩扩敬",
+      "menuId": 26060,
+      "resText": "%o: Popup is Visible",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Is Color None?",
+      "text": "漥›潃潬⁲獩丠湯e",
+      "menuId": 26070,
+      "resText": "%o: Color is None",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Top Button Hit",
+      "text": "漥›潔⁰畂瑴湯䠠瑩",
+      "menuId": 26080,
+      "resText": "%o: Top Button Hit",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Bottom Button Hit",
+      "text": "漥›潂瑴浯䈠瑵潴⁮楈t",
+      "menuId": 26090,
+      "resText": "%o: Bottom Button Hit",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Is Color Default?",
+      "text": "漥›潃潬⁲獩䐠晥畡瑬",
+      "menuId": 26100,
+      "resText": "%o: Color is Default",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Color Dialog > Closed by OK",
+      "text": "漥›潃潬⁲楄污杯䌠潬敳⁤祢传K",
+      "menuId": 26110,
+      "resText": "%o: Color Dialog Closed by OK",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Color Dialog > Closed by Cancel",
+      "text": "漥›潃潬⁲楄污杯䌠潬敳⁤祢䌠湡散l",
+      "menuId": 26120,
+      "resText": "%o: Color Dialog Closed by Cancel",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Style > Button",
+      "text": "獕⁥畂瑴湯匠祴敬",
+      "menuId": 25000,
+      "resText": "Use Button Style",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Style > Combo Box",
+      "text": "獕⁥潃扭⁯潂⁸瑓汹e",
+      "menuId": 25010,
+      "resText": "Use Combo Box Style",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Style > Set Tracking Selection On",
+      "text": "敓⁴牔捡楫杮匠汥捥楴湯传n",
+      "menuId": 25020,
+      "resText": "Set Tracking Selection On",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Style > Set Tracking Selection Off",
+      "text": "敓⁴牔捡楫杮匠汥捥楴湯传晦",
+      "menuId": 25030,
+      "resText": "Set Tracking Selection Off",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Window > Set X Position",
+      "text": "敓⁴⁘潐楳楴湯琠⁯〥",
+      "menuId": 25040,
+      "resText": "Set X Position to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁘潐楳楴湯椀湯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Window > Set Y Position",
+      "text": "敓⁴⁙潐楳楴湯琠⁯〥",
+      "menuId": 25050,
+      "resText": "Set Y Position to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁙潐楳楴湯椀湯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Window > Set Width",
+      "text": "敓⁴楗瑤⁨潴┠0",
+      "menuId": 25060,
+      "resText": "Set Width to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗瑤h瑤⁨潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Window > Set Height",
+      "text": "敓⁴效杩瑨琠⁯〥",
+      "menuId": 25070,
+      "resText": "Set Height to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "效杩瑨最瑨琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Window > Enable",
+      "text": "湅扡敬",
+      "menuId": 25090,
+      "resText": "Enable",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Window > Disable",
+      "text": "楄慳汢e",
+      "menuId": 25100,
+      "resText": "Disable",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Window > Show",
+      "text": "桓睯",
+      "menuId": 25110,
+      "resText": "Show",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Window > Hide",
+      "text": "楈敤",
+      "menuId": 25120,
+      "resText": "Hide",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Combo Box Options > Fill Combo Box With Color",
+      "text": "楆汬䌠浯潢䈠硯圠瑩⁨潃潬r",
+      "menuId": 25130,
+      "resText": "Fill Combo Box With Color",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Combo Box Options > Have Combo Box Show Color and Text",
+      "text": "慈敶䌠浯潢䈠硯匠潨⁷潃潬⁲湡⁤敔瑸",
+      "menuId": 25140,
+      "resText": "Have Combo Box Show Color and Text",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Combo Box Options > Set Combo Box Text Format if Name Can Be Found",
+      "text": "敓⁴潃扭⁯潂⁸敔瑸䘠牯慭⁴晩丠浡⁥慃⁮敂䘠畯摮琠⁯〥",
+      "menuId": 25150,
+      "resText": "Set Combo Box Text Format if Name Can Be Found to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潆浲瑡‬渥㴠渠浡ⱥ┠⁲‽敒Ɽ┠⁧‽片敥Ɱ┠⁢‽求敵　"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Combo Box Options > Set Combo Box Text Format if Name Cannot Be Found",
+      "text": "敓⁴潃扭⁯潂⁸敔瑸䘠牯慭⁴晩丠浡⁥慃湮瑯䈠⁥潆湵⁤潴┠0",
+      "menuId": 25160,
+      "resText": "Set Combo Box Text Format if Name Cannot Be Found to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潆浲瑡‬爥㴠删摥‬朥㴠䜠敲湥‬戥㴠䈠畬e䈠⁥潆湵⁤潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Combo Box Options > Set Font",
+      "text": "敓⁴潆瑮琠⁯〥‬楓敺┠1",
+      "menuId": 25170,
+      "resText": "Set Font to %0, Size %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "潆瑮丠浡e⁯〥‬楓敺┠1",
+        "楓敺一浡e⁯〥‬楓敺┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Additional Buttons > Top Button > Set Function > Nothing",
+      "text": "敓⁴潔⁰畂瑴湯䘠湵瑣潩⁮潴丠瑯楨杮",
+      "menuId": 25180,
+      "resText": "Set Top Button Function to Nothing",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Additional Buttons > Top Button > Set Function > Set Color",
+      "text": "敓⁴潔⁰畂瑴湯䘠湵瑣潩⁮潴匠瑥䌠汯牯",
+      "menuId": 25190,
+      "resText": "Set Top Button Function to Set Color",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Additional Buttons > Top Button > Set Color > None",
+      "text": "敓⁴潔⁰畂瑴湯䌠汯牯琠⁯潎敮",
+      "menuId": 25200,
+      "resText": "Set Top Button Color to None",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Additional Buttons > Top Button > Set Color > Custom",
+      "text": "敓⁴潔⁰畂瑴湯䌠汯牯琠⁯〥",
+      "menuId": 25210,
+      "resText": "Set Top Button Color to %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "潃潬r⁰畂瑴湯䌠汯牯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Additional Buttons > Top Button > Display > Show Color Box",
+      "text": "敓⁴潔⁰畂瑴湯琠⁯桓睯愠䌠汯牯䈠硯",
+      "menuId": 25220,
+      "resText": "Set Top Button to Show a Color Box",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Additional Buttons > Top Button > Display > Do Not Show Color Box",
+      "text": "敓⁴潔⁰畂瑴湯琠⁯潎⁴桓睯愠䌠汯牯䈠硯",
+      "menuId": 25230,
+      "resText": "Set Top Button to Not Show a Color Box",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Additional Buttons > Top Button > Display > Set Text",
+      "text": "敓⁴潔⁰畂瑴湯吠硥⁴潴┠0",
+      "menuId": 25240,
+      "resText": "Set Top Button Text to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敔瑸漀⁰畂瑴湯吠硥⁴潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Additional Buttons > Bottom Button > Set Text",
+      "text": "敓⁴潂瑴浯䈠瑵潴⁮敔瑸琠⁯〥",
+      "menuId": 25250,
+      "resText": "Set Bottom Button Text to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敔瑸漀瑴浯䈠瑵潴⁮敔瑸琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Color Buttons > Set Number of Rows",
+      "text": "敓⁴畎扭牥漠⁦潒獷漠⁦潃潬⁲畂瑴湯⁳潴┠0",
+      "menuId": 25260,
+      "resText": "Set Number of Rows of Color Buttons to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潒獷甀扭牥漠⁦潒獷漠⁦潃潬⁲畂瑴湯⁳潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Color Buttons > Set Number of Columns",
+      "text": "敓⁴畎扭牥漠⁦潃畬湭⁳景䌠汯牯䈠瑵潴獮琠⁯〥",
+      "menuId": 25270,
+      "resText": "Set Number of Columns of Color Buttons to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潃畬湭s牥漠⁦潃畬湭⁳景䌠汯牯䈠瑵潴獮琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Color Buttons > Set Color of Button",
+      "text": "敓⁴潃潬⁲景䈠瑵潴⁮ 〥‬ㄥ⤠琠⁯㈥",
+      "menuId": 25280,
+      "resText": "Set Color of Button ( %0, %1 ) to %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "潒w潃潬⁲景䈠瑵潴⁮ 〥‬ㄥ⤠琠⁯㈥",
+        "潃畬湭漀⁲景䈠瑵潴⁮ 〥‬ㄥ⤠琠⁯㈥",
+        "潃潬r漀⁲景䈠瑵潴⁮ 〥‬ㄥ⤠琠⁯㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Color Buttons > Save Settings",
+      "text": "慓敶䌠汯牯䈠瑵潴⁮敓瑴湩獧琠⁯〥",
+      "menuId": 25290,
+      "resText": "Save Color Button Settings to %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬䌀汯牯䈠瑵潴⁮敓瑴湩獧琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Color Buttons > Load Settings",
+      "text": "潌摡䌠汯牯䈠瑵潴⁮敓瑴湩獧映潲⁭〥",
+      "menuId": 25300,
+      "resText": "Load Color Button Settings from %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬䌀汯牯䈠瑵潴⁮敓瑴湩獧映潲⁭〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Color Buttons > Load 8x5 Default",
+      "text": "潌摡䌠汯牯䈠瑵潴⁮砸‵敄慦汵t",
+      "menuId": 25310,
+      "resText": "Load Color Button 8x5 Default",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Color Buttons > Load 8x2 Default",
+      "text": "潌摡䌠汯牯䈠瑵潴⁮砸′敄慦汵t",
+      "menuId": 25320,
+      "resText": "Load Color Button 8x2 Default",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Color Names > Set/Add Color Name",
+      "text": "敓⽴摁⁤潃潬⁲〥丠浡⁥潴┠1",
+      "menuId": 25330,
+      "resText": "Set/Add Color %0 Name to %1",
+      "flags": 0,
+      "paramTypes": [
+        24,
+        45
+      ],
+      "paramTitles": [
+        "潃潬r⁤潃潬⁲〥丠浡⁥潴┠1",
+        "慎敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Color Names > Remove Color Name",
+      "text": "敒潭敶丠浡⁥潦⁲潃潬⁲〥",
+      "menuId": 25340,
+      "resText": "Remove Name for Color %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "潃潬r丠浡⁥潦⁲潃潬⁲〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Color Names > Save Color Name Settings",
+      "text": "慓敶䌠汯牯丠浡⁥敓瑴湩獧琠⁯〥",
+      "menuId": 25350,
+      "resText": "Save Color Name Settings to %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬䌀汯牯丠浡⁥敓瑴湩獧琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Color Names > Load Color Name Settings",
+      "text": "潌摡䌠汯牯丠浡⁥敓瑴湩獧映潲⁭〥",
+      "menuId": 25360,
+      "resText": "Load Color Name Settings from %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬䌀汯牯丠浡⁥敓瑴湩獧映潲⁭〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Color Names > Load Default Color Name Settings",
+      "text": "潌摡䐠晥畡瑬䌠汯牯丠浡⁥敓瑴湩獧",
+      "menuId": 25370,
+      "resText": "Load Default Color Name Settings",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Set Selected Color",
+      "text": "敓⁴敓敬瑣摥䌠汯牯琠⁯〥",
+      "menuId": 25380,
+      "resText": "Set Selected Color to %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "潃潬r敬瑣摥䌠汯牯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Set Selected Color to None",
+      "text": "敓⁴敓敬瑣摥䌠汯牯琠⁯潎敮",
+      "menuId": 25390,
+      "resText": "Set Selected Color to None",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Additional Buttons > Bottom Button > Set Function > Nothing",
+      "text": "敓⁴潔⁰畂瑴湯䘠湵瑣潩⁮潴丠瑯楨杮",
+      "menuId": 25400,
+      "resText": "Set Top Button Function to Nothing",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Additional Buttons > Bottom Button > Set Function > Open Color Dialog",
+      "text": "敓⁴潔⁰畂瑴湯䘠湵瑣潩⁮潴传数⁮潃潬⁲楄污杯",
+      "menuId": 25410,
+      "resText": "Set Top Button Function to Open Color Dialog",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Color Dialog > Open Color Dialog",
+      "text": "桓睯䌠汯牯䐠慩潬g",
+      "menuId": 25420,
+      "resText": "Show Color Dialog",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Color Dialog > Set Custom Color",
+      "text": "敓⁴畃瑳浯䌠汯牯┠‰景䌠汯牯䐠慩潬⁧潴┠1",
+      "menuId": 25430,
+      "resText": "Set Custom Color %0 of Color Dialog to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        24
+      ],
+      "paramTitles": [
+        "畃瑳浯䌠汯牯⠠‰‭㔱)䌠汯牯䐠慩潬⁧潴┠1",
+        "潃潬r䌠汯牯⠠‰‭㔱)䌠汯牯䐠慩潬⁧潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Color Dialog > Set Display Information",
+      "text": "敓⁴楄灳慬⁹湉潦浲瑡潩⁮景䌠汯牯䐠慩潬⁧潴┠0",
+      "menuId": 25440,
+      "resText": "Set Display Information of Color Dialog to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楄灳慬⁹湉潦䘠慬獧⠠摁⁤潔敧桴牥映潲⁭硅牰獥楳湯⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Show Color Popup",
+      "text": "桓睯䌠汯牯倠灯灵",
+      "menuId": 25450,
+      "resText": "Show Color Popup",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Hide Color Popup",
+      "text": "楈敤䌠汯牯倠灯灵",
+      "menuId": 25460,
+      "resText": "Hide Color Popup",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Window > Get X Position",
+      "text": "敧塴(",
+      "menuId": 27000,
+      "resText": "getX(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Window > Get Y Position",
+      "text": "敧奴(",
+      "menuId": 27010,
+      "resText": "getY(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Window > Get Width",
+      "text": "敧坴(",
+      "menuId": 27020,
+      "resText": "getW(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Window > Get Height",
+      "text": "敧䡴(",
+      "menuId": 27030,
+      "resText": "getH(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get Selected Color",
+      "text": "敧䍴汯牯(",
+      "menuId": 27040,
+      "resText": "getColor(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get Combo Box Text",
+      "text": "敧呴硥⑴(",
+      "menuId": 27050,
+      "resText": "getText$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Get Color of Box",
+      "text": "敧䍴汯牯潂⡸",
+      "menuId": 27060,
+      "resText": "getColorBox(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Get Color from Name",
+      "text": "敧䍴汯牯牆浯慎敭(",
+      "menuId": 27070,
+      "resText": "getColorFromName(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Get Name from Color",
+      "text": "敧乴浡䙥潲䍭汯牯⠤",
+      "menuId": 27080,
+      "resText": "getNameFromColor$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Window > Get Button Window Handle",
+      "text": "睨摮(",
+      "menuId": 27090,
+      "resText": "hwnd(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Window > Get Popup Window Handle",
+      "text": "睨摮潐異⡰",
+      "menuId": 27100,
+      "resText": "hwndPopup(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Color Dialog > Display Info Flags > Display All Available Colors",
+      "text": "䅦汬潃潬獲(",
+      "menuId": 27110,
+      "resText": "fAllColors(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Color Dialog > Display Info Flags > Display Only Solid Colors on Low-Color Resolutions",
+      "text": "卦汯摩潃潬獲(",
+      "menuId": 27120,
+      "resText": "fSolidColors(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Color Dialog > Display Info Flags > Disable Opening of Custom Colors",
+      "text": "䑦獩扡敬畃瑳浯(",
+      "menuId": 27130,
+      "resText": "fDisableCustom(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Color Dialog > Display Info Flags > Custom Colors is Open",
+      "text": "䍦獵潴佭数⡮",
+      "menuId": 27140,
+      "resText": "fCustomOpen(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Color Dialog > Get Custom Color",
+      "text": "敧䑴杬畃瑳浯潃潬⡲",
+      "menuId": 27150,
+      "resText": "getDlgCustomColor(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

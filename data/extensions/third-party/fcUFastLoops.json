@@ -1,0 +1,485 @@
+{
+  "file": "fcUFastLoops.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Standard fast loop > On fast loop standard (ID)",
+      "text": "湏猠慴摮牡⁤慦瑳潬灯⌠〥",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥慦瑳氠潯p⌠〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Chunked fast loop > On fast loop chunked (ID)",
+      "text": "湏挠畨歮摥映獡汴潯⁰┣0",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥慦瑳氠潯p┣0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Every X events loops",
+      "text": "癅牥⁹〥攠敶瑮⁳潬灯s",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畎扭牥漠⁦癥湥獴氠潯獰⠠慭湩氠潯獰)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Standard fast loop > On fast loop standard (Name)",
+      "text": "湏猠慴摮牡⁤慦瑳潬灯┠0",
+      "menuId": 26004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦桴⁥慦瑳氠潯p0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Chunked fast loop > On fast loop chunked (Name)",
+      "text": "湏挠畨歮摥映獡汴潯⁰〥",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦桴⁥慦瑳氠潯p"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Function > On function (Name)",
+      "text": "湏映湵瑣潩⁮〥",
+      "menuId": 26006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦桴⁥慦瑳氠潯p"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Standard fast loop > by ID > Start",
+      "text": "瑓牡⁴瑳湡慤摲映獡汴潯⁰┣‰潦⁲ㄥ氠潯獰",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥慦瑳氠潯p潯⁰┣‰潦⁲ㄥ氠潯獰",
+        "潔慴⁬畮扭牥漠⁦潬灯⁳潦⁲桴⁥慦瑳氠潯p"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Chunked fast loop > by ID > Start (loops/chunk)",
+      "text": "瑓牡⁴档湵敫⁤慦瑳潬灯⌠〥映牯┠‱潬灯⁳瑡┠′潬灯⽳档湵k",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥慦瑳氠潯p灯⌠〥映牯┠‱潬灯⁳瑡┠′潬灯⽳档湵k",
+        "潔慴⁬畮扭牥漠⁦潬灯⁳潦⁲桴⁥慦瑳氠潯p瑡┠′潬灯⽳档湵k",
+        "潔慴⁬畮扭牥漠⁦潬灯⁳数⁲档湵k瑳氠潯p瑡┠′潬灯⽳档湵k"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Standard fast loop > by ID > Stop",
+      "text": "瑓灯猠慴摮牡⁤慦瑳潬灯⌠〥",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥慦瑳氠潯p灯⌠〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Chunked fast loop > by ID > Stop",
+      "text": "瑓灯挠畨歮摥映獡汴潯⁰┣0",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥慦瑳氠潯p⁰┣0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Chunked fast loop > by ID > Start (chunks)",
+      "text": "瑓牡⁴档湵敫⁤慦瑳潬灯⌠〥映牯┠‱潬灯⁳畤楲杮┠′档湵獫",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥慦瑳氠潯p灯⌠〥映牯┠‱潬灯⁳畤楲杮┠′档湵獫",
+        "潔慴⁬畮扭牥漠⁦潬灯⁳潦⁲桴⁥慦瑳氠潯p畤楲杮┠′档湵獫",
+        "潔慴⁬畮扭牥漠⁦档湵獫漀⁲桴⁥慦瑳氠潯p畤楲杮┠′档湵獫"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Chunked fast loop > by ID > Pause",
+      "text": "慐獵⁥档湵敫⁤慦瑳潬灯⌠〥",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥慦瑳氠潯p灯⌠〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Chunked fast loop > by ID > Resume",
+      "text": "敒畳敭挠畨歮摥映獡汴潯⁰┣0",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥慦瑳氠潯p潯⁰┣0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Chunked fast loop > by ID > Step one chunk",
+      "text": "瑓灥映牯慷摲挠畨歮摥映獡汴潯⁰┣0",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥慦瑳氠潯p映獡汴潯⁰┣0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Chunked fast loop > by ID > Set Index",
+      "text": "敓⁴湩敤⁸景挠畨歮摥映獡汴潯⁰┣‰潴┠1",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥慦瑳氠潯p映獡汴潯⁰┣‰潴┠1",
+        "敎⁷湩敤x慦瑳氠潯p映獡汴潯⁰┣‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Standard fast loop > by ID > Set Index",
+      "text": "敓⁴湩敤⁸景猠慴摮牡⁤慦瑳潬灯⌠〥琠⁯ㄥ",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥慦瑳氠潯p⁤慦瑳潬灯⌠〥琠⁯ㄥ",
+        "敎⁷湩敤x慦瑳氠潯p⁤慦瑳潬灯⌠〥琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Standard fast loop > by Name > Start",
+      "text": "瑓牡⁴瑳湡慤摲映獡汴潯⁰〥映牯┠‱潬灯s",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慎敭漠⁦桴⁥慦瑳氠潯p⁰〥映牯┠‱潬灯s",
+        "潔慴⁬畮扭牥漠⁦潬灯⁳潦⁲桴⁥慦瑳氠潯p"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Chunked fast loop > by Name > Start (loops/chunk)",
+      "text": "瑓牡⁴档湵敫⁤慦瑳潬灯┠‰潦⁲ㄥ氠潯獰愠⁴㈥氠潯獰振畨歮",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慎敭漠⁦桴⁥慦瑳氠潯p┠‰潦⁲ㄥ氠潯獰愠⁴㈥氠潯獰振畨歮",
+        "潔慴⁬畮扭牥漠⁦潬灯⁳潦⁲桴⁥慦瑳氠潯p⁴㈥氠潯獰振畨歮",
+        "潔慴⁬畮扭牥漠⁦潬灯⁳数⁲档湵k瑳氠潯p⁴㈥氠潯獰振畨歮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Chunked fast loop > by Name > Start (chunks)",
+      "text": "瑓牡⁴档湵敫⁤慦瑳潬灯┠‰潦⁲ㄥ氠潯獰搠牵湩⁧㈥挠畨歮s",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慎敭漠⁦桴⁥慦瑳氠潯p┠‰潦⁲ㄥ氠潯獰搠牵湩⁧㈥挠畨歮s",
+        "潔慴⁬畮扭牥漠⁦潬灯⁳潦⁲桴⁥慦瑳氠潯p牵湩⁧㈥挠畨歮s",
+        "潔慴⁬畮扭牥漠⁦档湵獫漀⁲桴⁥慦瑳氠潯p牵湩⁧㈥挠畨歮s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Function > by Name > Call",
+      "text": "慃汬映湵瑣潩⁮〥",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦桴⁥慦瑳氠潯p"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Standard fast loop > Get current ID",
+      "text": "敧却摴慆瑳潬灯䑉(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Standard fast loop > Get current index",
+      "text": "敧却摴慆瑳潬灯湉敤⡸",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Standard fast loop > Get current total loops",
+      "text": "敧却摴慆瑳潬灯潌灯⡳",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Chunked fast loop > Get current ID",
+      "text": "敧䍴畨歮摥慆瑳潬灯䑉(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Chunked fast loop > Get current index",
+      "text": "敧䍴畨歮摥慆瑳潬灯湉敤⡸",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Chunked fast loop > Get current total loops",
+      "text": "敧䍴畨歮摥慆瑳潬灯潌灯⡳",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Chunked fast loop > Get number of loops of a chunk",
+      "text": "敧䍴畨歮摥慆瑳潬灯桃湵⡫",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Chunked fast loop > Get number of ellapsed chunks",
+      "text": "敧䍴畨歮摥慆瑳潬灯汅慬獰摥桃湵獫(",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Standard fast loop > Get current Name",
+      "text": "敧却摴慆瑳潬灯慎敭⠤",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Chunked fast loop > Get current Name",
+      "text": "敧䍴畨歮摥慆瑳潬灯慎敭⠤",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Function > Get current Name",
+      "text": "敧䙴湵瑣潩乮浡⑥(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

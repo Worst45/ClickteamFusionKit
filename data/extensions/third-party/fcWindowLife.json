@@ -1,0 +1,237 @@
+{
+  "file": "fcWindowLife.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On Window just moved",
+      "text": "湏圠湩潤⁷番瑳洠癯摥",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On Window move",
+      "text": "湏圠湩潤⁷潭敶",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "On Window just resized",
+      "text": "湏圠湩潤⁷番瑳爠獥穩摥",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "On Window resize",
+      "text": "湏圠湩潤⁷敲楳敺",
+      "menuId": 26004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "On Window Start move/resize",
+      "text": "湏圠湩潤⁷瑓牡⁴潭敶爯獥穩e",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "On Window End move/resize",
+      "text": "湏圠湩潤⁷湅⁤潭敶爯獥穩e",
+      "menuId": 26006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Properties > Set minimum window size",
+      "text": "敓⁴楍楮畭⁭楷摮睯猠穩⁥潴⠠〥┬⤱",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楍楮畭⁭楗瑤h摮睯猠穩⁥潴⠠〥┬⤱",
+        "楍楮畭⁭效杩瑨搀睯猠穩⁥潴⠠〥┬⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Properties > Set maximum window size",
+      "text": "敓⁴慍楸畭⁭楷摮睯猠穩⁥潴⠠〥┬⤱",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慍楸畭⁭楗瑤h摮睯猠穩⁥潴⠠〥┬⤱",
+        "慍楸畭⁭效杩瑨搀睯猠穩⁥潴⠠〥┬⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Properties > Use minimum size",
+      "text": "獕⁥業楮畭⁭楷摮睯猠穩⁥┨⤰",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湏㴠ㄠ⼠传晦㴠〠眀猠穩⁥┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Properties > Use maximum size",
+      "text": "獕⁥慭楸畭⁭楷摮睯猠穩⁥┨⤰",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湏㴠ㄠ⼠传晦㴠〠眀猠穩⁥┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Properties > Use Client Area",
+      "text": "獕⁥汃敩瑮牁慥⠠〥)",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湏㴠ㄠ⼠传晦㴠〠　)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Properties > Get window border Width",
+      "text": "敧坴湩潤䉷牯敤坲摩桴(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Properties > Get window border Height",
+      "text": "敧坴湩潤䉷牯敤䡲楥桧⡴",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Properties > Get minimum window Width",
+      "text": "敧䵴湩楗瑤⡨",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Properties > Get minimum window Height",
+      "text": "敧䵴湩效杩瑨(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Properties > Get maximum window Width",
+      "text": "敧䵴硡楗瑤⡨",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Properties > Get maximum window Height",
+      "text": "敧䵴硡效杩瑨(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

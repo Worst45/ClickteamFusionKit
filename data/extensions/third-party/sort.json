@@ -1,0 +1,397 @@
+{
+  "file": "sort.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Compare to unsorted array",
+      "text": "ㄱ猥›慖畬⁥畮扭牥┠⁳猥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22,
+        23
+      ],
+      "paramTitles": [
+        "敒敭扭牥琠敨戠獡e┠⁳猥",
+        "潃灭牡⁥潴甠獮牯整⁤牡慲y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Compare to sorted array",
+      "text": "ㄱ猥›潓瑲摥瘠污敵渠浵敢⁲猥┠s",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22,
+        23
+      ],
+      "paramTitles": [
+        "敒敭扭牥琠敨戠獡e渠浵敢⁲猥┠s",
+        "潃灭牡⁥潴猠牯整⁤牡慲y⁲猥┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Compare to sorted address array",
+      "text": "ㄱ猥›摁牤獥⁳慶畬⁥畮扭牥┠⁳猥",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22,
+        23
+      ],
+      "paramTitles": [
+        "敒敭扭牥琠敨戠獡e⁥畮扭牥┠⁳猥",
+        "潃灭牡⁥潴猠牯整⁤摡牤獥⁳牡慲y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Array has been sorted",
+      "text": "〱猥›牁慲⁹慨⁳敢湥猠牯整d",
+      "menuId": 26015,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Change values > Set value",
+      "text": "㄰敓⁴猥琠⁯猥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敒敭扭牥琠敨戠獡e",
+        "敓⁴慶畬e敨戠獡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Change array > Sort array increasing order",
+      "text": "㄰潓瑲愠牲祡椠据敲獡湩⁧牦浯┠⁳潴┠s",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牆浯⸮‮刨浥浥敢⁲桴⁥慢敳)┠⁳潴┠s",
+        "潔⸮.‮刨浥浥敢⁲桴⁥慢敳)┠⁳潴┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Change array > Resize array",
+      "text": "㄰敒楳敺愠牲祡琠⁯猥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敒楳敺琠⹯⸮礀琠⁯猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Change values > Clear arrays",
+      "text": "〰汃慥⁲牡慲獹",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Change values > Add value",
+      "text": "㄰摁⁤潴┠⁳楷桴┠s",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敒敭扭牥琠敨戠獡es",
+        "摁⁤慶畬e敨戠獡es"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Change values > Sub value",
+      "text": "㄰畓⁢牦浯┠⁳楷桴┠s",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敒敭扭牥琠敨戠獡e┠s",
+        "畓⁢慶畬e敨戠獡e┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Change array > Sort array decreasing order",
+      "text": "㄰潓瑲愠牲祡搠捥敲獡湩⁧牦浯┠⁳潴┠s",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牆浯⸮‮刨浥浥敢⁲桴⁥慢敳)┠⁳潴┠s",
+        "潔⸮.‮刨浥浥敢⁲桴⁥慢敳)┠⁳潴┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Change array > Expand array",
+      "text": "㄰硅慰摮愠牲祡琠⁯猥",
+      "menuId": 25035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敒楳敺琠⹯⸮礀琠⁯猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Change values > Set value in range",
+      "text": "敓⁴潰楳楴湯┠‰‭ㄥ琠⁯㈥",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敒楳敺琠⹯⸮─‰‭ㄥ琠⁯㈥",
+        "敓⁴慶畬⁥湩爠湡敧㄀琠⁯㈥",
+        "敓⁴慶畬⁥湩爠湡敧㄀琠⁯㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Autosort > Autosort increasing on",
+      "text": "〰敓⁴畡潴潳瑲椠据敲獡湩⁧湯",
+      "menuId": 25045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Autosort > Autosort increasing off",
+      "text": "〰敓⁴畡潴潳瑲椠据敲獡湩⁧景f",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Autosort > Autosort decreasing on",
+      "text": "〰敓⁴畡潴潳瑲搠捥敲獡湩⁧湯",
+      "menuId": 25055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Autosort > Autosort decreasing off",
+      "text": "〰敓⁴畡潴潳瑲搠捥敲獡湩⁧景f",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get value > Get value from unsorted array",
+      "text": "敇噴污敵(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get value > Get value from sorted array",
+      "text": "敇却牯⡴",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get value > Get value from address array",
+      "text": "敇䅴摤敲獳(",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get arraysize",
+      "text": "牁慲卹穩⡥",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Find value > Find value in unsorted array",
+      "text": "楆摮湕潳瑲摥(",
+      "menuId": 27025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Find value > Find value in sorted array",
+      "text": "楆摮潓瑲摥(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Find value > Find value in address array",
+      "text": "楆摮湉敤⡸",
+      "menuId": 27035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Number of sorted items",
+      "text": "潎瑉浥⡳",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Get base",
+      "text": "敇䉴獡⡥",
+      "menuId": 27045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

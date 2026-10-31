@@ -1,0 +1,89 @@
+{
+  "file": "sleep.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Is Sleep on",
+      "text": "汓敥⁰獩漠n",
+      "menuId": 26000,
+      "resText": "Sleep is on",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Wait Period",
+      "text": "敓⁴慗瑩琠⁯〥",
+      "menuId": 25000,
+      "resText": "Set Wait to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "在楡⁴敐楲摯 楍汬獩捥湯獤⠠〱〰㴠ㄠ猠捥湯⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Sleep App",
+      "text": "汓敥⁰灁⁰潦⁲〥洠s",
+      "menuId": 25010,
+      "resText": "Sleep App for %0 ms",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "匨敬灥䄠灰 楍汬獩捥湯獤⠠〱〰㴠ㄠ猠捥湯⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Sleep On",
+      "text": "汓敥⁰湏",
+      "menuId": 25020,
+      "resText": "Sleep On",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Sleep Off",
+      "text": "汓敥⁰晏f",
+      "menuId": 25030,
+      "resText": "Sleep Off",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Wait Period",
+      "text": "敇坴楡⡴",
+      "menuId": 27000,
+      "resText": "GetWait(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

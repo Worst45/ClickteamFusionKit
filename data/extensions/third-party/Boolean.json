@@ -1,0 +1,505 @@
+{
+  "file": "Boolean.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Test Boolean Expression",
+      "text": "ㄱ猥›敔瑳┨⥳",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲潂汯慥⁮硅牰獥楳湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Has an Error Ocurred?",
+      "text": "ㄱ猥›慈⁳牅潲⁲猥传捣牵摥椠⁮猥?",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲牅潲⁲畎扭牥⠠‰‽湁⁹牅潲⥲",
+        "湅整⁲畂晦牥丠浵敢⁲〨ㄭ㬰〠㴠䄠祮䈠晵敦⥲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Is Truth Slot Activated?",
+      "text": "ㄱ猥›獉吠畲桴匠潬⁴猥䄠瑣癩瑡摥?",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲牔瑵⁨汓瑯丠浵敢⁲〨㤭⤹搀?"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Flags > Is Flag On?",
+      "text": "ㄱ猥›獉䘠慬⁧猥传㽮",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汆条丠浵敢⁲〨㤭⤹"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Flags > Is Flag Off?",
+      "text": "ㄱ猥›獉䘠慬⁧猥传晦?",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汆条丠浵敢⁲〨㤭⤹"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "If-Then-Else > If(Expression)-Then",
+      "text": "ㄱ猥›晉┨⥳吠敨n",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲潂汯慥⁮硅牰獥楳湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "If-Then-Else > Then",
+      "text": "〱猥›桔湥",
+      "menuId": 26060,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "If-Then-Else > Else",
+      "text": "〱猥›汅敳",
+      "menuId": 26070,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "If-Then-Else > End If",
+      "text": "〱猥›湅⁤晉",
+      "menuId": 26080,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "If-Then-Else > Nested Ifs > Then If(Expression)-Then",
+      "text": "ㄱ猥›桔湥䤠⡦猥 桔湥",
+      "menuId": 26090,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲潂汯慥⁮硅牰獥楳湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "If-Then-Else > Nested Ifs > Else If(Expression)-Then",
+      "text": "ㄱ猥›汅敳䤠⡦猥 桔湥",
+      "menuId": 26100,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲潂汯慥⁮硅牰獥楳湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "If-Then-Else > If(Conditions)-Then [Open]",
+      "text": "〱猥›晉(",
+      "menuId": 26110,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "If-Then-Else > Nested Ifs > Then If(Conditions)-Then [Open]",
+      "text": "〱猥›桔湥䤠⡦",
+      "menuId": 26120,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "If-Then-Else > Nested Ifs > Else If(Conditions)-Then [Open]",
+      "text": "〱猥›汅敳䤠⡦",
+      "menuId": 26130,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "If-Then-Else > If(Conditions)-Then [Close] (needed for all [Open])",
+      "text": "〱猥› 桔湥",
+      "menuId": 26140,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set String Indicator",
+      "text": "㄰敓⁴瑓楲杮䤠摮捩瑡牯琠⁯猥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲⁡桃牡捡整r瑡牯琠⁯猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Clear Errors",
+      "text": "〰汃慥⁲汁⁬牅潲獲",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Activate Truth Slot",
+      "text": "㄰捁楴慶整吠畲桴匠潬⁴猥",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡牔瑵⁨汓瑯丠浵敢⁲〨㤭⤹"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Flags > Set Flag On",
+      "text": "㄰敓⁴汆条┠⁳湏",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡汆条丠浵敢⁲〨㤭⤹"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Flags > Set Flag Off",
+      "text": "㄰敓⁴汆条┠⁳晏f",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡汆条丠浵敢⁲〨㤭⤹"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Flags > Toggle Flag",
+      "text": "㄰潔杧敬䘠慬⁧猥",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡汆条丠浵敢⁲〨㤭⤹"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Flags > Set Flag by Value",
+      "text": "㄰敓⁴汆条┠❳⁳慖畬⁥潴┠s",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡汆条丠浵敢⁲〨㤭⤹",
+        "湅整⁲⁡慖畬⁥〨映牯传晦漠⁲‱潦⁲湏)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "End All Ifs",
+      "text": "〰湅⁤汁⁬晉s",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Null Action (Does nothing)",
+      "text": "〰畎汬䄠瑣潩n",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Evaluate Boolean Expression",
+      "text": "癅污慵整潂汯慥⡮",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Retrieve String Indicator",
+      "text": "敇䥴摮捩瑡牯⠤",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get the Last Error Message",
+      "text": "敇䕴牲牯⠤",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get the Current Buffer Slot",
+      "text": "敇䍴牵敲瑮畂晦牥(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get the Value of a Truth Slot",
+      "text": "敇呴畲桴慖畬⡥",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get the Value of a Flag",
+      "text": "敇䙴慬噧污敵(",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Immediate If > Return String",
+      "text": "䥉卦牴湩⑧(",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3,
+        3
+      ],
+      "paramTitles": [
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Immediate If > Return Integer",
+      "text": "䥉䥦瑮来牥(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Immediate If > Return Float (Decimal Number)",
+      "text": "䥉䙦潬瑡(",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        3,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

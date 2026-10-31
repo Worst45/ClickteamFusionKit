@@ -1,0 +1,2173 @@
+{
+  "file": "LacewingServer.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On error",
+      "text": "漥㨠传⁮牥潲r",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Connection > On connect request",
+      "text": "漥㨠传⁮潣湮捥⁴敲畱獥t",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Connection > On disconnect",
+      "text": "漥㨠传⁮楤捳湯敮瑣",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Channel > On join request",
+      "text": "漥㨠传⁮潪湩爠煥敵瑳",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Channel > On leave request",
+      "text": "漥㨠传⁮敬癡⁥敲畱獥t",
+      "menuId": 26004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Channel > On all channels loop",
+      "text": "漥㨠传⁮污⁬档湡敮獬氠潯p",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Channel > On client channels loop",
+      "text": "漥㨠传⁮汣敩瑮挠慨湮汥⁳潬灯",
+      "menuId": 26006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Client > On all clients loop",
+      "text": "漥㨠传⁮污⁬汣敩瑮⁳潬灯",
+      "menuId": 26007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Client > On channel clients loop",
+      "text": "漥㨠传⁮档湡敮⁬汣敩瑮⁳潬灯",
+      "menuId": 26008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Client > Client is the channel master",
+      "text": "漥㨠䌠楬湥⁴獩琠敨挠慨湮汥洠獡整r",
+      "menuId": 26009,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Client > On name set request",
+      "text": "漥㨠传⁮慮敭猠瑥爠煥敵瑳",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Message > Sent > On text message to server",
+      "text": "漥㨠传⁮整瑸洠獥慳敧琠⁯敳癲牥漠⁮畳换慨湮汥┠0",
+      "menuId": 26012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ㄭ映牯愠祮)敳癲牥漠⁮畳换慨湮汥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Message > Sent > On number message to server",
+      "text": "漥㨠传⁮畮扭牥洠獥慳敧琠⁯敳癲牥漠⁮畳换慨湮汥┠0",
+      "menuId": 26013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ㄭ映牯愠祮)⁯敳癲牥漠⁮畳换慨湮汥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Message > Sent > On binary message to server",
+      "text": "漥㨠传⁮楢慮祲洠獥慳敧琠⁯敳癲牥漠⁮畳换慨湮汥┠0",
+      "menuId": 26014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ㄭ映牯愠祮)⁯敳癲牥漠⁮畳换慨湮汥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Message > Sent > On any message to server",
+      "text": "漥㨠传⁮湡⁹敭獳条⁥潴猠牥敶⁲湯猠扵档湡敮⁬〥",
+      "menuId": 26015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ㄭ映牯愠祮)牥敶⁲湯猠扵档湡敮⁬〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Message > Sent > On text message to channel",
+      "text": "漥㨠传⁮整瑸洠獥慳敧琠⁯档湡敮⁬湯猠扵档湡敮⁬〥",
+      "menuId": 26016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ㄭ映牯愠祮)档湡敮⁬湯猠扵档湡敮⁬〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Message > Sent > On number message to channel",
+      "text": "漥㨠传⁮畮扭牥洠獥慳敧琠⁯档湡敮⁬湯猠扵档湡敮⁬〥",
+      "menuId": 26017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ㄭ映牯愠祮)⁯档湡敮⁬湯猠扵档湡敮⁬〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Message > Sent > On binary message to channel",
+      "text": "漥㨠传⁮楢慮祲洠獥慳敧琠⁯档湡敮⁬湯猠扵档湡敮⁬〥",
+      "menuId": 26018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ㄭ映牯愠祮)⁯档湡敮⁬湯猠扵档湡敮⁬〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Message > Sent > On any message to channel",
+      "text": "漥㨠传⁮湡⁹敭獳条⁥潴挠慨湮汥漠⁮畳换慨湮汥┠0",
+      "menuId": 26019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ㄭ映牯愠祮)慨湮汥漠⁮畳换慨湮汥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Message > Sent > On text message to peer",
+      "text": "漥㨠传⁮整瑸洠獥慳敧琠⁯数牥漠⁮畳换慨湮汥┠0",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ㄭ映牯愠祮)数牥漠⁮畳换慨湮汥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Message > Sent > On number message to peer",
+      "text": "漥㨠传⁮畮扭牥洠獥慳敧琠⁯数牥漠⁮畳换慨湮汥┠0",
+      "menuId": 26021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ㄭ映牯愠祮)⁯数牥漠⁮畳换慨湮汥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Message > Sent > On binary message to peer",
+      "text": "漥㨠传⁮楢慮祲洠獥慳敧琠⁯数牥漠⁮畳换慨湮汥┠0",
+      "menuId": 26022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ㄭ映牯愠祮)⁯数牥漠⁮畳换慨湮汥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Message > Sent > On any message to peer",
+      "text": "漥㨠传⁮湡⁹敭獳条⁥潴瀠敥⁲湯猠扵档湡敮⁬〥",
+      "menuId": 26023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ㄭ映牯愠祮)敥⁲湯猠扵档湡敮⁬〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Message > Blasted > On text message to server",
+      "text": "漥㨠传⁮整瑸洠獥慳敧琠⁯敳癲牥漠⁮畳换慨湮汥┠‰戨慬瑳摥)",
+      "menuId": 26024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ㄭ映牯愠祮)敳癲牥漠⁮畳换慨湮汥┠‰戨慬瑳摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Message > Blasted > On number message to server",
+      "text": "漥㨠传⁮畮扭牥洠獥慳敧琠⁯敳癲牥漠⁮畳换慨湮汥┠‰戨慬瑳摥)",
+      "menuId": 26025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ㄭ映牯愠祮)⁯敳癲牥漠⁮畳换慨湮汥┠‰戨慬瑳摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Message > Blasted > On binary message to server",
+      "text": "漥㨠传⁮楢慮祲洠獥慳敧琠⁯敳癲牥漠⁮畳换慨湮汥┠‰戨慬瑳摥)",
+      "menuId": 26026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ㄭ映牯愠祮)⁯敳癲牥漠⁮畳换慨湮汥┠‰戨慬瑳摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Message > Blasted > On any message to server",
+      "text": "漥㨠传⁮湡⁹敭獳条⁥潴猠牥敶⁲湯猠扵档湡敮⁬〥⠠汢獡整⥤",
+      "menuId": 26027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ㄭ映牯愠祮)牥敶⁲湯猠扵档湡敮⁬〥⠠汢獡整⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Message > Blasted > On text message to channel",
+      "text": "漥㨠传⁮整瑸洠獥慳敧琠⁯档湡敮⁬湯猠扵档湡敮⁬〥⠠汢獡整⥤",
+      "menuId": 26028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ㄭ映牯愠祮)档湡敮⁬湯猠扵档湡敮⁬〥⠠汢獡整⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Message > Blasted > On number message to channel",
+      "text": "漥㨠传⁮畮扭牥洠獥慳敧琠⁯档湡敮⁬湯猠扵档湡敮⁬〥⠠汢獡整⥤",
+      "menuId": 26029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ㄭ映牯愠祮)⁯档湡敮⁬湯猠扵档湡敮⁬〥⠠汢獡整⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Message > Blasted > On binary message to channel",
+      "text": "漥㨠传⁮楢慮祲洠獥慳敧琠⁯档湡敮⁬湯猠扵档湡敮⁬〥⠠汢獡整⥤",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ㄭ映牯愠祮)⁯档湡敮⁬湯猠扵档湡敮⁬〥⠠汢獡整⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Message > Blasted > On any message to channel",
+      "text": "漥㨠传⁮湡⁹敭獳条⁥潴挠慨湮汥漠⁮畳换慨湮汥┠‰戨慬瑳摥)",
+      "menuId": 26031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ㄭ映牯愠祮)慨湮汥漠⁮畳换慨湮汥┠‰戨慬瑳摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Message > Blasted > On text message to peer",
+      "text": "漥㨠传⁮整瑸洠獥慳敧琠⁯数牥漠⁮畳换慨湮汥┠‰戨慬瑳摥)",
+      "menuId": 26032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ㄭ映牯愠祮)数牥漠⁮畳换慨湮汥┠‰戨慬瑳摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Message > Blasted > On number message to peer",
+      "text": "漥㨠传⁮畮扭牥洠獥慳敧琠⁯数牥漠⁮畳换慨湮汥┠‰戨慬瑳摥)",
+      "menuId": 26033,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ㄭ映牯愠祮)⁯数牥漠⁮畳换慨湮汥┠‰戨慬瑳摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Message > Blasted > On binary message to peer",
+      "text": "漥㨠传⁮楢慮祲洠獥慳敧琠⁯数牥漠⁮畳换慨湮汥┠‰戨慬瑳摥)",
+      "menuId": 26034,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ㄭ映牯愠祮)⁯数牥漠⁮畳换慨湮汥┠‰戨慬瑳摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Message > Blasted > On any message to peer",
+      "text": "漥㨠传⁮湡⁹敭獳条⁥潴瀠敥⁲湯猠扵档湡敮⁬〥⠠汢獡整⥤",
+      "menuId": 26035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ㄭ映牯愠祮)敥⁲湯猠扵档湡敮⁬〥⠠汢獡整⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Channel > [With loop name] On all channels loop",
+      "text": "漥㨠传⁮污⁬档湡敮獬氠潯⁰〥",
+      "menuId": 26036,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潌灯渠浡e⁬档湡敮獬氠潯⁰〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Channel > [With loop name] On client channels loop",
+      "text": "漥㨠传⁮汣敩瑮挠慨湮汥⁳潬灯┠0",
+      "menuId": 26037,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潌灯渠浡e敩瑮挠慨湮汥⁳潬灯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Client > [With loop name] On all clients loop",
+      "text": "漥㨠传⁮污⁬汣敩瑮⁳潬灯┠0",
+      "menuId": 26038,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潌灯渠浡e⁬汣敩瑮⁳潬灯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Client > [With loop name] On channel clients loop",
+      "text": "漥㨠传⁮档湡敮⁬汣敩瑮⁳潬灯┠0",
+      "menuId": 26039,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潌灯渠浡e湡敮⁬汣敩瑮⁳潬灯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Client > [With loop name] On channel clients loop finished",
+      "text": "漥㨠传⁮档湡敮⁬汣敩瑮⁳潬灯┠‰楦楮桳摥",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潌灯渠浡e湡敮⁬汣敩瑮⁳潬灯┠‰楦楮桳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Channel > [With loop name] On all channels loop finished",
+      "text": "漥㨠传⁮污⁬档湡敮獬氠潯⁰〥映湩獩敨d",
+      "menuId": 26041,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潌灯渠浡e⁬档湡敮獬氠潯⁰〥映湩獩敨d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Channel > [With loop name] On client channels loop finished",
+      "text": "漥㨠传⁮汣敩瑮挠慨湮汥⁳潬灯┠‰楦楮桳摥",
+      "menuId": 26043,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潌灯渠浡e敩瑮挠慨湮汥⁳潬灯┠‰楦楮桳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Client > On channel clients loop finished",
+      "text": "漥㨠传⁮档湡敮⁬汣敩瑮⁳潬灯映湩獩敨d",
+      "menuId": 26044,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Channel > On all channels loop finished",
+      "text": "漥㨠传⁮污⁬档湡敮獬氠潯⁰楦楮桳摥",
+      "menuId": 26045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Client > On all clients loop finished",
+      "text": "漥㨠传⁮污⁬汣敩瑮⁳潬灯映湩獩敨d",
+      "menuId": 26046,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Channel > On client channels loop finished",
+      "text": "漥㨠传⁮汣敩瑮挠慨湮汥⁳潬灯映湩獩敨d",
+      "menuId": 26047,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Lacewing server is hosting",
+      "text": "漥㨠匠牥敶⁲獩栠獯楴杮",
+      "menuId": 26048,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Flash Player policy server is hosting",
+      "text": "漥㨠䘠慬桳倠慬敹⁲潰楬祣猠牥敶⁲獩栠獯楴杮",
+      "menuId": 26049,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 50,
+      "menu": "Channel > Channel is hidden from the channel list",
+      "text": "漥㨠䌠慨湮汥椠⁳楨摤湥映潲⁭档湡敮⁬楬瑳",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "Channel > Channel is set to close automatically",
+      "text": "漥㨠䌠慨湮汥椠⁳敳⁴潴挠潬敳愠瑵浯瑡捩污祬",
+      "menuId": 26051,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 52,
+      "menu": "Client > [With loop name] On all clients loop finished",
+      "text": "漥㨠传⁮污⁬汣敩瑮⁳潬灯┠‰楦楮桳摥",
+      "menuId": 26052,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潌灯渠浡e⁬汣敩瑮⁳潬灯┠‰楦楮桳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Relay Server > Host",
+      "text": "潈瑳漠⁮潰瑲┠0",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潐瑲⠠敤慦汵⁴ㄶㄲ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Relay Server > Stop hosting",
+      "text": "瑓灯栠獯楴杮",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set welcome message",
+      "text": "敓⁴敷捬浯⁥敭獳条⁥潴┠0",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敗捬浯⁥敭獳条e条⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Enable conditions > On message to channel",
+      "text": "湅扡敬挠湯楤楴湯∠湏洠獥慳敧琠⁯档湡敮≬",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Enable conditions > On message to peer",
+      "text": "湅扡敬挠湯楤楴湯∠湏洠獥慳敧琠⁯数牥\"",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "On interactive condition > Deny (for on [..] request)",
+      "text": "敄祮爠煥敵瑳",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "On interactive condition > Change name (for name set/change request)",
+      "text": "桃湡敧爠煥敵瑳摥渠浡⁥潴┠0",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敎⁷慮敭焀敵瑳摥渠浡⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "On interactive condition > Change channel name (for channel join request)",
+      "text": "桃湡敧爠煥敵瑳摥挠慨湮汥渠浡⁥潴┠0",
+      "menuId": 25021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敎⁷慮敭焀敵瑳摥挠慨湮汥渠浡⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Channel > Close channel",
+      "text": "汃獯⁥档湡敮l",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Channel > Select the channel master",
+      "text": "敓敬瑣琠敨挠慨湮汥洠獡整r",
+      "menuId": 25026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Channel > Select by name",
+      "text": "敓敬瑣挠慨湮汥戠⁹慮敭┠0",
+      "menuId": 25027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慎敭琀挠慨湮汥戠⁹慮敭┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Channel > Loop all channels",
+      "text": "潌灯愠汬挠慨湮汥s",
+      "menuId": 25028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Client > Disconnect",
+      "text": "楄捳湯敮瑣挠楬湥t",
+      "menuId": 25029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Client > Loop client channels",
+      "text": "潌灯挠楬湥⁴档湡敮獬",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Client > Select by name",
+      "text": "敓敬瑣挠楬湥⁴祢渠浡⁥〥",
+      "menuId": 25031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慎敭琀挠楬湥⁴祢渠浡⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Client > Select by ID",
+      "text": "敓敬瑣挠楬湥⁴祢䤠⁄〥",
+      "menuId": 25032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉攀瑣挠楬湥⁴祢䤠⁄〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Client > Loop all clients",
+      "text": "潌灯愠汬挠楬湥獴",
+      "menuId": 25033,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Send > Text > To client",
+      "text": "敓摮琠硥⁴ㄥ琠⁯汣敩瑮漠⁮畳换慨湮汥┠0",
+      "menuId": 25034,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ⴰ㔲⤵攀瑮漠⁮畳换慨湮汥┠0",
+        "敔瑸琠⁯敳摮ⴀ㔲⤵攀瑮漠⁮畳换慨湮汥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Send > Text > To channel",
+      "text": "敓摮琠硥⁴ㄥ琠⁯档湡敮⁬湯猠扵档湡敮⁬〥",
+      "menuId": 25035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ⴰ㔲⤵渀敮⁬湯猠扵档湡敮⁬〥",
+        "敔瑸琠⁯敳摮ⴀ㔲⤵渀敮⁬湯猠扵档湡敮⁬〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Send > Number > To client",
+      "text": "敓摮渠浵敢⁲ㄥ琠⁯汣敩瑮漠⁮畳换慨湮汥┠0",
+      "menuId": 25036,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ⴰ㔲⤵氀敩瑮漠⁮畳换慨湮汥┠0",
+        "畎扭牥琠⁯敳摮㔀⤵氀敩瑮漠⁮畳换慨湮汥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Send > Number > To channel",
+      "text": "敓摮渠浵敢⁲ㄥ琠⁯档湡敮⁬湯猠扵档湡敮⁬〥",
+      "menuId": 25037,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ⴰ㔲⤵栀湡敮⁬湯猠扵档湡敮⁬〥",
+        "畎扭牥琠⁯敳摮㔀⤵栀湡敮⁬湯猠扵档湡敮⁬〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Send > Stack > To client",
+      "text": "敓摮戠湩牡⁹潴挠楬湥⁴湯猠扵档湡敮⁬〥",
+      "menuId": 25038,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ⴰ㔲⤵渀⁴湯猠扵档湡敮⁬〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Send > Stack > To channel",
+      "text": "敓摮戠湩牡⁹潴挠慨湮汥漠⁮畳换慨湮汥┠0",
+      "menuId": 25039,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ⴰ㔲⤵渀汥漠⁮畳换慨湮汥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Blast > Text > To client",
+      "text": "求獡⁴整瑸┠‱潴挠楬湥⁴湯猠扵档湡敮⁬〥",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ⴰ㔲⤵椀湥⁴湯猠扵档湡敮⁬〥",
+        "敔瑸琠⁯敳摮ⴀ㔲⤵椀湥⁴湯猠扵档湡敮⁬〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Blast > Text > To channel",
+      "text": "求獡⁴整瑸┠‱潴挠慨湮汥漠⁮畳换慨湮汥┠0",
+      "menuId": 25041,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ⴰ㔲⤵愀湮汥漠⁮畳换慨湮汥┠0",
+        "敔瑸琠⁯敳摮ⴀ㔲⤵愀湮汥漠⁮畳换慨湮汥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Blast > Number > To client",
+      "text": "求獡⁴畮扭牥┠‱潴挠楬湥⁴湯猠扵档湡敮⁬〥",
+      "menuId": 25042,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ⴰ㔲⤵挀楬湥⁴湯猠扵档湡敮⁬〥",
+        "畎扭牥琠⁯敳摮㔀⤵挀楬湥⁴湯猠扵档湡敮⁬〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Blast > Number > To channel",
+      "text": "求獡⁴畮扭牥┠‱潴挠慨湮汥漠⁮畳换慨湮汥┠0",
+      "menuId": 25043,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ⴰ㔲⤵挀慨湮汥漠⁮畳换慨湮汥┠0",
+        "畎扭牥琠⁯敳摮㔀⤵挀慨湮汥漠⁮畳换慨湮汥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Blast > Stack > To client",
+      "text": "求獡⁴楢慮祲琠⁯汣敩瑮漠⁮畳换慨湮汥┠0",
+      "menuId": 25044,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ⴰ㔲⤵攀瑮漠⁮畳换慨湮汥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Blast > Stack > To channel",
+      "text": "求獡⁴楢慮祲琠⁯档湡敮⁬湯猠扵档湡敮⁬〥",
+      "menuId": 25045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓换慨湮汥⠠ⴰ㔲⤵渀敮⁬湯猠扵档湡敮⁬〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Binary to send > Add byte > ASCII character",
+      "text": "摁⁤祢整┠0",
+      "menuId": 25046,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "祂整礀整┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Binary to send > Add byte > Integer value",
+      "text": "摁⁤祢整┠0",
+      "menuId": 25047,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "祂整礀整┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Binary to send > Add short",
+      "text": "摁⁤桳牯⁴〥",
+      "menuId": 25048,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "桓牯t牯⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Binary to send > Add integer",
+      "text": "摁⁤湩整敧⁲〥",
+      "menuId": 25049,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湉整敧r敧⁲〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 50,
+      "menu": "Binary to send > Add float",
+      "text": "摁⁤汦慯⁴〥",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汆慯t慯⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "Binary to send > Add string > Without null terminator",
+      "text": "摁⁤瑳楲杮┠‰楷桴畯⁴畮汬琠牥業慮潴r",
+      "menuId": 25051,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮椀杮┠‰楷桴畯⁴畮汬琠牥業慮潴r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 52,
+      "menu": "Binary to send > Add string > With null terminator",
+      "text": "摁⁤瑳楲杮┠‰楷桴渠汵⁬整浲湩瑡牯",
+      "menuId": 25052,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮椀杮┠‰楷桴渠汵⁬整浲湩瑡牯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 53,
+      "menu": "Binary to send > Add binary",
+      "text": "摁⁤楢慮祲愠⁴摡牤獥⁳〥眠瑩⁨楳敺┠1",
+      "menuId": 25053,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "摁牤獥s祲愠⁴摡牤獥⁳〥眠瑩⁨楳敺┠1",
+        "楓敺猀s祲愠⁴摡牤獥⁳〥眠瑩⁨楳敺┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 54,
+      "menu": "Binary to send > Add file",
+      "text": "摁⁤楦敬┠‰湯潴琠敨戠湩牡⁹潴猠湥d",
+      "menuId": 25054,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬琠⁯異桳渀潴琠敨戠湩牡⁹潴猠湥d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 55,
+      "menu": "Binary to send > Compress (ZLIB)",
+      "text": "潃灭敲獳猠湥⁤楢慮祲⠠䱚䉉)",
+      "menuId": 25055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 56,
+      "menu": "Binary to send > Clear",
+      "text": "汃慥⁲楢慮祲琠⁯敳摮",
+      "menuId": 25056,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 57,
+      "menu": "Received binary > Save to a file",
+      "text": "慓敶爠捥楥敶⁤楢慮祲⠠潰楳楴湯┠‰楷桴猠穩⁥ㄥ 潴映汩⁥㈥",
+      "menuId": 25057,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潐楳楴湯椀敶⁤楢慮祲⠠潰楳楴湯┠‰楷桴猠穩⁥ㄥ 潴映汩⁥㈥",
+        "楓敺椀湯椀敶⁤楢慮祲⠠潰楳楴湯┠‰楷桴猠穩⁥ㄥ 潴映汩⁥㈥",
+        "楆敬慮敭椀敶⁤楢慮祲⠠潰楳楴湯┠‰楷桴猠穩⁥ㄥ 潴映汩⁥㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 58,
+      "menu": "Received binary > Append to a file",
+      "text": "灁数摮爠捥楥敶⁤楢慮祲⠠潰楳楴湯┠‰楷桴猠穩⁥ㄥ 潴映汩⁥㈥",
+      "menuId": 25058,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潐楳楴湯挀楥敶⁤楢慮祲⠠潰楳楴湯┠‰楷桴猠穩⁥ㄥ 潴映汩⁥㈥",
+        "楓敺椀湯挀楥敶⁤楢慮祲⠠潰楳楴湯┠‰楷桴猠穩⁥ㄥ 潴映汩⁥㈥",
+        "楆敬慮敭挀楥敶⁤楢慮祲⠠潰楳楴湯┠‰楷桴猠穩⁥ㄥ 潴映汩⁥㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 59,
+      "menu": "Received binary > Uncompress (ZLIB)",
+      "text": "湕潣灭敲獳爠捥楥敶⁤楢慮祲⠠䱚䉉)",
+      "menuId": 25059,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 60,
+      "menu": "Channel > Loop clients",
+      "text": "潌灯挠楬湥獴漠⁮档湡敮l",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 61,
+      "menu": "On interactive condition > Drop message (for on message to channel/peer)",
+      "text": "牄灯洠獥慳敧",
+      "menuId": 25061,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 62,
+      "menu": "Client > Select sender (for \"on message to peer\")",
+      "text": "敓敬瑣猠湥敤r",
+      "menuId": 25062,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 63,
+      "menu": "Client > Select receiver (for \"on message to peer\")",
+      "text": "敓敬瑣爠捥楥敶r",
+      "menuId": 25063,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 64,
+      "menu": "Channel > Loop all channels (with loop name)",
+      "text": "潌灯愠汬挠慨湮汥⁳䱛潯⁰慮敭›〥]",
+      "menuId": 25064,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潌灯渠浡e慨湮汥⁳䱛潯⁰慮敭›〥]"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 65,
+      "menu": "Client > Loop all clients (with loop name)",
+      "text": "潌灯愠汬挠楬湥獴嬠潌灯渠浡㩥┠崰",
+      "menuId": 25065,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潌灯渠浡e楬湥獴嬠潌灯渠浡㩥┠崰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 66,
+      "menu": "Client > Loop client channels (with loop name)",
+      "text": "潌灯挠楬湥⁴档湡敮獬嬠潌灯渠浡㩥┠崰",
+      "menuId": 25066,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潌灯渠浡e⁴档湡敮獬嬠潌灯渠浡㩥┠崰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 68,
+      "menu": "Flash Player Policy Server > Host",
+      "text": "潈瑳䘠慬桳倠慬敹⁲潰楬祣猠牥敶⁲牦浯堠䱍映汩⁥〥漠⁮潰瑲㠠㌴",
+      "menuId": 25068,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "䵘⁌潰楬祣映汩e⁲潰楬祣猠牥敶⁲牦浯堠䱍映汩⁥〥漠⁮潰瑲㠠㌴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 69,
+      "menu": "Flash Player Policy Server > Stop hosting",
+      "text": "瑓灯栠獯楴杮䘠慬桳倠慬敹⁲潰楬祣猠牥敶r",
+      "menuId": 25069,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 70,
+      "menu": "Client > Set local client data",
+      "text": "敓⁴潬慣⁬汣敩瑮搠瑡⁡瑡┠‰潴┠1",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "敋y潬慣⁬汣敩瑮搠瑡⁡瑡┠‰潴┠1",
+        "慖畬e慣⁬汣敩瑮搠瑡⁡瑡┠‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 71,
+      "menu": "Received binary > Move cursor",
+      "text": "潍敶爠捥楥敶⁤楢慮祲挠牵潳⁲潴┠0",
+      "menuId": 25071,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潐楳楴湯椀敶⁤楢慮祲挠牵潳⁲潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 72,
+      "menu": "Channel > Set local channel data",
+      "text": "敓⁴潬慣⁬档湡敮⁬慤慴愠⁴〥琠⁯ㄥ",
+      "menuId": 25072,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "敋y潬慣⁬档湡敮⁬慤慴愠⁴〥琠⁯ㄥ",
+        "慖畬e慣⁬档湡敮⁬慤慴愠⁴〥琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 73,
+      "menu": "Binary to send > Resize",
+      "text": "敒楳敺戠湩牡⁹潴猠湥⁤潴┠‰祢整s",
+      "menuId": 25073,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敎⁷楳敺⠠湩戠瑹獥)⁤潴┠‰祢整s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Error string (for on error)",
+      "text": "牅潲⑲(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Lacewing version string",
+      "text": "敖獲潩⑮(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Binary to send size",
+      "text": "敓摮楂慮祲楓敺(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Requested name (for name set/change request)",
+      "text": "敒畱獥整乤浡⑥(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Requested channel name (for channel join request)",
+      "text": "敒畱獥整䍤慨湮汥慎敭⠤",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Channel > Name",
+      "text": "桃湡敮彬慎敭⠤",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Channel > Client count",
+      "text": "桃湡敮彬汃敩瑮潃湵⡴",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Client > Name",
+      "text": "汃敩瑮也浡⑥(",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Client > ID",
+      "text": "汃敩瑮䥟⡄",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Client > IP address",
+      "text": "汃敩瑮䥟⑐(",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Client > Connection time",
+      "text": "䕒位䕖彄塅剐卅䥓乏(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Client > Channel count",
+      "text": "汃敩瑮䍟慨湮汥潃湵⡴",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Received > Get text",
+      "text": "敒散癩摥⠤",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Received > Get number",
+      "text": "敒散癩摥(",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Received > Get binary size",
+      "text": "敒散癩摥楂慮祲楓敺(",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Received > Get binary memory address",
+      "text": "敒散癩摥楂慮祲摁牤獥⡳",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Received > Get binary data > Byte > ASCII character",
+      "text": "祂整⠤",
+      "menuId": 27016,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Received > Get binary data > Byte > Integer value > Unsigned",
+      "text": "祂整(",
+      "menuId": 27017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Received > Get binary data > Byte > Integer value > Signed",
+      "text": "楓湧摥祂整(",
+      "menuId": 27018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x祂整("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Received > Get binary data > Short > Unsigned",
+      "text": "桓牯⡴",
+      "menuId": 27019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Received > Get binary data > Short > Signed",
+      "text": "楓湧摥桓牯⡴",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x桓牯⡴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Received > Get binary data > Integer > Unsigned",
+      "text": "湉整敧⡲",
+      "menuId": 27021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x⡲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Received > Get binary data > Integer > Signed",
+      "text": "楓湧摥湉整敧⡲",
+      "menuId": 27022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x湉整敧⡲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Received > Get binary data > Float",
+      "text": "汆慯⡴",
+      "menuId": 27023,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Received > Get binary data > String > With size",
+      "text": "瑓楲杮楗桴楓敺⠤",
+      "menuId": 27024,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "湉敤x楗桴楓敺⠤",
+        "楓敺"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Received > Get binary data > String > Null terminated",
+      "text": "瑓楲杮⠤",
+      "menuId": 27025,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Received > Get subchannel",
+      "text": "畓换慨湮汥(",
+      "menuId": 27026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Channel > Number of channels on the server",
+      "text": "桃湡敮䍬畯瑮(",
+      "menuId": 27027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Client > Get local client data",
+      "text": "汃敩瑮䱟捯污慄慴⠤",
+      "menuId": 27028,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "敋y瑮䱟捯污慄慴⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Received > Get binary data (with cursor) > Byte > ASCII character",
+      "text": "畃獲牯祂整⠤",
+      "menuId": 27029,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Received > Get binary data (with cursor) > Byte > Integer value > Unsigned",
+      "text": "畃獲牯祂整(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Received > Get binary data (with cursor) > Byte > Integer value > Signed",
+      "text": "畃獲牯楓湧摥祂整(",
+      "menuId": 27031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Received > Get binary data (with cursor) > Short > Unsigned",
+      "text": "畃獲牯桓牯⡴",
+      "menuId": 27032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Received > Get binary data (with cursor) > Short > Signed",
+      "text": "畃獲牯楓湧摥桓牯⡴",
+      "menuId": 27033,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Received > Get binary data (with cursor) > Integer > Unsigned",
+      "text": "畃獲牯湉整敧⡲",
+      "menuId": 27034,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Received > Get binary data (with cursor) > Integer > Signed",
+      "text": "畃獲牯楓湧摥湉整敧⡲",
+      "menuId": 27035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Received > Get binary data (with cursor) > Float",
+      "text": "畃獲牯汆慯⡴",
+      "menuId": 27036,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Received > Get binary data (with cursor) > String > With size",
+      "text": "畃獲牯瑓楲杮楗桴楓敺⠤",
+      "menuId": 27037,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楓敺爀瑓楲杮楗桴楓敺⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Received > Get binary data (with cursor) > String > Null terminated",
+      "text": "畃獲牯瑓楲杮⠤",
+      "menuId": 27038,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Client > Get client protocol implementation",
+      "text": "䕒位䕖彄塅剐卅䥓乏⠤",
+      "menuId": 27039,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Channel > Get local channel data",
+      "text": "桃湡敮彬潌慣䑬瑡②(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "敋y敮彬潌慣䑬瑡②("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Port",
+      "text": "潐瑲(",
+      "menuId": 27041,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Binary to send address",
+      "text": "敓摮楂慮祲摁牤獥⡳",
+      "menuId": 27042,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

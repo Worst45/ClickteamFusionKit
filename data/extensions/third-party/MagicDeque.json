@@ -1,0 +1,1939 @@
+{
+  "file": "MagicDeque.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Compare value > Compare value at Element, Array",
+      "text": "漥㨠嘠污敵┠‰湩䄠牲祡┠‱獩┠2",
+      "menuId": 26000,
+      "resText": "%o : Value %0 in Array %1 is %2",
+      "flags": 32,
+      "paramTypes": [
+        22,
+        22,
+        23
+      ],
+      "paramTitles": [
+        "汅浥湥⁴湩䄠牲祡䄀牲祡┠‱獩┠2",
+        "牁慲⁹湩䴠条捩敄畱e祡┠‱獩┠2",
+        "潃灭牡⁥桴⁥慶畬⹥⸮礀┠‱獩┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Compare value > Compare value at Element",
+      "text": "漥㨠嘠污敵┠‰獩┠1",
+      "menuId": 26010,
+      "resText": "%o : Value %0 is %1",
+      "flags": 32,
+      "paramTypes": [
+        22,
+        23
+      ],
+      "paramTitles": [
+        "汅浥湥⁴湩䄠牲祡─1",
+        "潃灭牡⁥桴⁥慶畬⹥⸮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Compare value > Compare value at current position",
+      "text": "漥㨠嘠污敵愠⁴畣牲湥⁴潰楳楴湯椠⁳〥",
+      "menuId": 26020,
+      "resText": "%o : Value at current position is %0",
+      "flags": 32,
+      "paramTypes": [
+        23
+      ],
+      "paramTitles": [
+        "潃灭牡⁥桴⁥慶畬⹥⸮ 潰楳楴湯椠⁳〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Compare string > Compare string at Element, Array",
+      "text": "漥㨠匠牴湩⁧〥椠⁮牁慲⁹ㄥ椠⁳㈥",
+      "menuId": 26030,
+      "resText": "%o : String %0 in Array %1 is %2",
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "汅浥湥⁴湩䄠牲祡 牁慲⁹ㄥ椠⁳㈥",
+        "牁慲⁹湩䴠条捩敄畱e慲⁹ㄥ椠⁳㈥",
+        "瑓楲杮椠⁳煥慵⁬潴⸮㼮 ㄥ椠⁳㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Compare string > Compare string at Element",
+      "text": "漥㨠匠牴湩⁧〥椠⁳ㄥ",
+      "menuId": 26040,
+      "resText": "%o : String %0 is %1",
+      "flags": 544,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "汅浥湥⁴湩䄠牲祡 ㄥ",
+        "瑓楲杮椠⁳煥慵⁬潴⸮㼮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Compare string > Compare string at current position",
+      "text": "漥㨠匠牴湩⁧瑡挠牵敲瑮瀠獯瑩潩⁮獩┠0",
+      "menuId": 26050,
+      "resText": "%o : String at current position is %0",
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮椠⁳煥慵⁬潴⸮㼮瀀獯瑩潩⁮獩┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Compare current Element position...",
+      "text": "漥㨠䌠牵敲瑮䔠敬敭瑮瀠獯瑩潩⁮ㄥ",
+      "menuId": 26060,
+      "resText": "%o : Current Element position %1",
+      "flags": 32,
+      "paramTypes": [
+        23
+      ],
+      "paramTitles": [
+        "潃灭牡⁥畣牲湥⁴汅浥湥⁴潰楳楴湯⸮."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Compare current Array position...",
+      "text": "漥㨠䌠牵敲瑮䄠牲祡倠獯瑩潩⁮ㄥ",
+      "menuId": 26070,
+      "resText": "%o : Current Array Position %1",
+      "flags": 32,
+      "paramTypes": [
+        23
+      ],
+      "paramTitles": [
+        "潃灭牡⁥畣牲湥⁴牁慲⁹潰楳楴湯⸮."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "At the end of the Array?",
+      "text": "漥㨠䄠⁴湥⁤景䄠牲祡",
+      "menuId": 26080,
+      "resText": "%o : At end of Array",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "At the end of the MagicDeque?",
+      "text": "漥㨠䄠⁴湥⁤景䴠条捩敄畱e",
+      "menuId": 26090,
+      "resText": "%o : At end of MagicDeque",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Compare number of arrays",
+      "text": "漥㨠丠浵敢⁲景䄠牲祡⁳獩┠0",
+      "menuId": 26100,
+      "resText": "%o : Number of Arrays is %0",
+      "flags": 32,
+      "paramTypes": [
+        23
+      ],
+      "paramTitles": [
+        "潃灭牡⁥桴⁥畮扭牥漠⁦牁慲獹"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Compare no. of elements in Array",
+      "text": "漥㨠䄠牲祡┠‰楳敺椠⁳ㄥ",
+      "menuId": 26110,
+      "resText": "%o : Array %0 size is %1",
+      "flags": 32,
+      "paramTypes": [
+        22,
+        23
+      ],
+      "paramTitles": [
+        "湅整⁲牁慲⁹潰楳楴湯 ㄥ",
+        "潃灭牡⁥楳敺漠⁦牁慲yㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Compare no. of elements in current Array",
+      "text": "漥㨠䌠牵敲瑮䄠牲祡猠穩⁥獩┠0",
+      "menuId": 26120,
+      "resText": "%o : Current Array size is %0",
+      "flags": 32,
+      "paramTypes": [
+        23
+      ],
+      "paramTitles": [
+        "潃灭牡⁥楳敺漠⁦牁慲y⁥獩┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "MagicDeque is empty?",
+      "text": "漥㨠䴠条捩敄畱⁥獩攠灭祴?",
+      "menuId": 26130,
+      "resText": "%o : MagicDeque is empty?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Array is empty?",
+      "text": "漥㨠䄠牲祡┠‰獩攠灭祴?",
+      "menuId": 26140,
+      "resText": "%o : Array %0 is empty?",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲牁慲⁹潰楳楴湯礀?"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Element, Array is string?",
+      "text": "漥㨠䔠敬敭瑮┠‰湩䄠牲祡┠‱獩愠猠牴湩g",
+      "menuId": 26150,
+      "resText": "%o : Element %0 in Array %1 is a string",
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "汅浥湥t敭瑮┠‰湩䄠牲祡┠‱獩愠猠牴湩g",
+        "牁慲yt敭瑮┠‰湩䄠牲祡┠‱獩愠猠牴湩g"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Element is string?",
+      "text": "漥㨠䔠敬敭瑮┠‰獩愠猠牴湩g",
+      "menuId": 26160,
+      "resText": "%o : Element %0 is a string",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汅浥湥t敭瑮┠‰獩愠猠牴湩g"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Current Element is string?",
+      "text": "漥㨠䌠牵敲瑮䔠敬敭瑮椠⁳⁡瑳楲杮",
+      "menuId": 26170,
+      "resText": "%o : Current Element is a string",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Element, Array is value?",
+      "text": "漥㨠䔠敬敭瑮┠‰湩䄠牲祡┠‱獩愠瘠污敵",
+      "menuId": 26180,
+      "resText": "%o : Element %0 in Array %1 is a value",
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "汅浥湥t敭瑮┠‰湩䄠牲祡┠‱獩愠瘠污敵",
+        "牁慲yt敭瑮┠‰湩䄠牲祡┠‱獩愠瘠污敵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Element is value?",
+      "text": "漥㨠䔠敬敭瑮┠‰獩愠瘠污敵",
+      "menuId": 26190,
+      "resText": "%o : Element %0 is a value",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汅浥湥t敭瑮┠‰獩愠瘠污敵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Current Element is value?",
+      "text": "漥㨠䌠牵敲瑮䔠敬敭瑮椠⁳⁡慶畬e",
+      "menuId": 26200,
+      "resText": "%o : Current Element is a value",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "For each Array in MagicDeque",
+      "text": "漥㨠䘠牯攠捡⁨牡慲⁹湩䴠条捩敄畱⁥┨‰)",
+      "menuId": 26210,
+      "resText": "%o : For each array in MagicDeque (%0 )",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲摩湥楴楦牥漠⁦桴⁥潆⁲慥档⸮䰮潯p"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "For each Element in Array",
+      "text": "漥㨠䘠牯攠捡⁨汅浥湥⁴湩䄠牲祡⠠〥⤠",
+      "menuId": 26220,
+      "resText": "%o : For each Element in Array (%0 )",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲摩湥楴楦牥漠⁦桴⁥潆⁲慥档⸮䰮潯p"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Select Array position",
+      "text": "漥㨠匠汥捥⁴牁慲⁹潰楳楴湯┠0",
+      "menuId": 25000,
+      "resText": "%o : Select Array position %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潰楳楴湯漠⁦牁慲y湯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Select Element position",
+      "text": "漥㨠匠汥捥⁴汅浥湥⁴潰楳楴湯┠0",
+      "menuId": 25010,
+      "resText": "%o : Select Element position %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潰楳楴湯漠⁦汅浥湥t湯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Increment Array position by 1",
+      "text": "漥㨠䄠摤ㄠ琠⁯牁慲⁹潰楳楴湯",
+      "menuId": 25020,
+      "resText": "%o : Add 1 to Array position",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Increment Element position by 1",
+      "text": "漥㨠䄠摤ㄠ琠⁯汅浥湥⁴潰楳楴湯",
+      "menuId": 25030,
+      "resText": "%o : Add 1 to Element position",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Arrays > Push array",
+      "text": "漥㨠倠獵⁨牡慲y",
+      "menuId": 25040,
+      "resText": "%o : Push array",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Arrays > Shift array",
+      "text": "漥㨠匠楨瑦愠牲祡",
+      "menuId": 25050,
+      "resText": "%o : Shift array",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Arrays > Insert array",
+      "text": "漥㨠䤠獮牥⁴牡慲⁹瑡┠0",
+      "menuId": 25060,
+      "resText": "%o : Insert array at %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潰楳楴湯琠⁯湩敳瑲愠⁴愨牲祡⁳楷汬戠⁥異桳摥甠⁰晩渠捥獥慳祲)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Arrays > Pop array",
+      "text": "漥㨠倠灯愠牲祡",
+      "menuId": 25070,
+      "resText": "%o : Pop array",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Arrays > Unshift array",
+      "text": "漥㨠唠獮楨瑦愠牲祡",
+      "menuId": 25080,
+      "resText": "%o : Unshift array",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Arrays > Delete array",
+      "text": "漥㨠䐠汥瑥⁥牡慲⁹瑡┠0",
+      "menuId": 25090,
+      "resText": "%o : Delete array at %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲牡慲⁹潴搠汥瑥e0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Arrays > Delete range",
+      "text": "漥㨠䐠汥瑥⁥牡慲獹映潲⁭〥琠⁯ㄥ",
+      "menuId": 25100,
+      "resText": "%o : Delete arrays from %0 to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲瑳牡⁴牡慲⁹椨据畬楳敶)ㄥ",
+        "湅整⁲湥⁤牡慲⁹椨据畬楳敶))ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Arrays > Erase everything",
+      "text": "漥㨠䔠慲敳攠敶祲桴湩g",
+      "menuId": 25110,
+      "resText": "%o : Erase everything",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Arrays > Erase empty arrays",
+      "text": "漥㨠䔠慲敳攠灭祴愠牲祡s",
+      "menuId": 25120,
+      "resText": "%o : Erase empty arrays",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Arrays > Shuffle arrays",
+      "text": "漥㨠匠畨晦敬愠牲祡s",
+      "menuId": 25130,
+      "resText": "%o : Shuffle arrays",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Arrays > Reverse arrays",
+      "text": "漥㨠删癥牥敳愠牲祡s",
+      "menuId": 25140,
+      "resText": "%o : Reverse arrays",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Current Array > Strings > Push string",
+      "text": "漥㨠倠獵⁨瑳楲杮┠0",
+      "menuId": 25150,
+      "resText": "%o : Push string %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲瑳楲杮琠⁯異桳漠瑮⁯湥⁤景愠牲祡"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Current Array > Strings > Shift string",
+      "text": "漥㨠匠楨瑦猠牴湩⁧〥",
+      "menuId": 25160,
+      "resText": "%o : Shift string %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲瑳楲杮琠⁯桳晩⁴湯潴猠慴瑲漠⁦牡慲y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Current Array > Strings > Insert string",
+      "text": "漥㨠䤠獮牥⁴瑳楲杮┠‰瑡┠1",
+      "menuId": 25170,
+      "resText": "%o : Insert string %0 at %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲瑳楲杮琠⁯湩敳瑲椠瑮⁯牡慲y",
+        "湅整⁲潰楳楴湯琠⁯湩敳瑲愠⁴攨敬敭瑮⁳楷汬戠⁥異桳摥甠⁰晩渠捥獥慳祲)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Current Array > Strings > Insert at current pos",
+      "text": "漥㨠䤠獮牥⁴瑳楲杮┠‰瑡挠牵敲瑮瀠獯瑩潩n",
+      "menuId": 25180,
+      "resText": "%o : Insert string %0 at current position",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲瑳楲杮琠⁯湩敳瑲椠瑮⁯牡慲y獯瑩潩n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Current Array > Strings > Change string",
+      "text": "漥㨠䌠慨杮⁥瑳楲杮愠⁴ㄥ琠⁯〥",
+      "menuId": 25190,
+      "resText": "%o : Change string at %1 to %0",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲瑳楲杮琠⁯档湡敧琠o⁯〥",
+        "湅整⁲潰楳楴湯漠⁦瑳楲杮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Current Array > Strings > Change string at current",
+      "text": "漥㨠䌠慨杮⁥瑳楲杮愠⁴畣牲湥⁴潰⁳潴┠0",
+      "menuId": 25200,
+      "resText": "%o : Change string at current pos to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲瑳楲杮琠⁯档湡敧琠o湥⁴潰⁳潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Current Array > Values > Push value",
+      "text": "漥㨠倠獵⁨慶畬⁥〥",
+      "menuId": 25210,
+      "resText": "%o : Push value %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲慶畬⁥潴瀠獵⁨湯潴攠摮漠⁦牡慲y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Current Array > Values > Shift value",
+      "text": "漥㨠匠楨瑦瘠污敵┠0",
+      "menuId": 25220,
+      "resText": "%o : Shift value %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲慶畬⁥潴猠楨瑦漠瑮⁯瑳牡⁴景愠牲祡"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Current Array > Values > Insert value",
+      "text": "漥㨠䤠獮牥⁴慶畬⁥〥愠⁴ㄥ",
+      "menuId": 25230,
+      "resText": "%o : Insert value %0 at %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲慶畬⁥潴椠獮牥⁴湩潴愠牲祡",
+        "湅整⁲潰楳楴湯琠⁯湩敳瑲愠⁴攨敬敭瑮⁳楷汬戠⁥異桳摥甠⁰晩渠捥獥慳祲)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Current Array > Values > Insert at current pos",
+      "text": "漥㨠䤠獮牥⁴慶畬⁥〥愠⁴畣牲湥⁴潰楳楴湯",
+      "menuId": 25240,
+      "resText": "%o : Insert value %0 at current position",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲慶畬⁥潴椠獮牥⁴湩潴愠牲祡漀楳楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Current Array > Values > Change value",
+      "text": "漥㨠䌠慨杮⁥慶畬⁥瑡┠‱潴┠0",
+      "menuId": 25250,
+      "resText": "%o : Change value at %1 to %0",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲慶畬⁥潴挠慨杮⁥潴漀┠0",
+        "湅整⁲潰楳楴湯漠⁦瑳楲杮漀┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Current Array > Values > Change value at current",
+      "text": "漥㨠䌠慨杮⁥慶畬⁥瑡挠牵敲瑮瀠獯琠⁯〥",
+      "menuId": 25260,
+      "resText": "%o : Change value at current pos to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲慶畬⁥潴挠慨杮⁥潴攀瑮瀠獯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Current Array > Pop element",
+      "text": "漥㨠倠灯攠敬敭瑮",
+      "menuId": 25270,
+      "resText": "%o : Pop element",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Current Array > Unshift element",
+      "text": "漥㨠唠獮楨瑦攠敬敭瑮",
+      "menuId": 25280,
+      "resText": "%o : Unshift element",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Current Array > Delete element",
+      "text": "漥㨠䐠汥瑥⁥汥浥湥⁴瑡┠0",
+      "menuId": 25290,
+      "resText": "%o : Delete element at %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汥浥湥⁴潴搠汥瑥e0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Current Array > Delete at current pos",
+      "text": "漥㨠䐠汥瑥⁥汥浥湥⁴瑡挠牵敲瑮瀠獯瑩潩n",
+      "menuId": 25300,
+      "resText": "%o : Delete element at current position",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Current Array > Delete range",
+      "text": "漥㨠䐠汥瑥⁥汥浥湥獴映潲⁭〥琠⁯ㄥ",
+      "menuId": 25310,
+      "resText": "%o : Delete elements from %0 to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲瑳牡⁴潰楳楴湯⠠‰獩琠敨戠来湩楮杮‬‱獩愠瑦牥映物瑳)",
+        "湅整⁲湥⁤潰楳楴湯⠠‱獩愠瑦牥映物瑳‬晩戠瑯⁨慰慲獭猠浡⁥潮桴湩⁧敤敬整⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Current Array > Erase elements",
+      "text": "漥㨠䔠慲敳攠敬敭瑮s",
+      "menuId": 25320,
+      "resText": "%o : Erase elements",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Current Array > Shuffle elements",
+      "text": "漥㨠匠畨晦敬攠敬敭瑮s",
+      "menuId": 25330,
+      "resText": "%o : Shuffle elements",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Current Array > Reverse elements",
+      "text": "漥㨠删癥牥敳攠敬敭瑮s",
+      "menuId": 25340,
+      "resText": "%o : Reverse elements",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Select Array > Strings > Push string",
+      "text": "漥㨠䄠⁴牁慲⁹ㄥ‬畐桳猠牴湩⁧〥",
+      "menuId": 25350,
+      "resText": "%o : At Array %1, Push string %0",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲瑳楲杮琠⁯異桳漠瑮⁯湥⁤景愠牲祡",
+        "湅整⁲牁慲⁹潰楳楴湯漀瑮⁯湥⁤景愠牲祡"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Select Array > Strings > Shift string",
+      "text": "漥㨠䄠⁴牁慲⁹ㄥ‬桓晩⁴瑳楲杮┠0",
+      "menuId": 25360,
+      "resText": "%o : At Array %1, Shift string %0",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲瑳楲杮琠⁯桳晩⁴湯潴猠慴瑲漠⁦牡慲y",
+        "湅整⁲牁慲⁹潰楳楴湯 湯潴猠慴瑲漠⁦牡慲y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Select Array > Strings > Insert string",
+      "text": "漥㨠䄠⁴牁慲⁹㈥‬湉敳瑲猠牴湩⁧〥愠⁴ㄥ",
+      "menuId": 25370,
+      "resText": "%o : At Array %2, Insert string %0 at %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲瑳楲杮琠⁯湩敳瑲椠瑮⁯牡慲y愠⁴ㄥ",
+        "湅整⁲潰楳楴湯琠⁯湩敳瑲愠⁴攨敬敭瑮⁳楷汬戠⁥異桳摥甠⁰晩渠捥獥慳祲)",
+        "湅整⁲牁慲⁹潰楳楴湯攀瑲愠⁴攨敬敭瑮⁳楷汬戠⁥異桳摥甠⁰晩渠捥獥慳祲)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Select Array > Strings > Change string",
+      "text": "漥㨠䄠⁴牁慲⁹㈥‬桃湡敧猠牴湩⁧瑡┠‱潴┠0",
+      "menuId": 25380,
+      "resText": "%o : At Array %2, Change string at %1 to %0",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲瑳楲杮琠⁯档湡敧琠o牴湩⁧瑡┠‱潴┠0",
+        "湅整⁲潰楳楴湯漠⁦瑳楲杮",
+        "湅整⁲牁慲⁹潰楳楴湯椀杮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Select Array > Values > Push value",
+      "text": "漥㨠䄠⁴牁慲⁹ㄥ‬畐桳瘠污敵┠0",
+      "menuId": 25390,
+      "resText": "%o : At Array %1, Push value %0",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲慶畬⁥潴瀠獵⁨湯潴攠摮漠⁦牡慲y",
+        "湅整⁲牁慲⁹潰楳楴湯渀潴攠摮漠⁦牡慲y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Select Array > Values > Shift value",
+      "text": "漥㨠䄠⁴牁慲⁹ㄥ‬桓晩⁴慶畬⁥〥",
+      "menuId": 25400,
+      "resText": "%o : At Array %1, Shift value %0",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲慶畬⁥潴猠楨瑦漠瑮⁯瑳牡⁴景愠牲祡",
+        "湅整⁲牁慲⁹潰楳楴湯漀瑮⁯瑳牡⁴景愠牲祡"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Select Array > Values > Insert value",
+      "text": "漥㨠䄠⁴牁慲⁹㈥‬湉敳瑲瘠污敵┠‰瑡┠1",
+      "menuId": 25410,
+      "resText": "%o : At Array %2, Insert value %0 at %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲慶畬⁥潴椠獮牥⁴湩潴愠牲祡 瑡┠1",
+        "湅整⁲潰楳楴湯琠⁯湩敳瑲愠t牲祡 瑡┠1",
+        "湅整⁲牁慲⁹潰楳楴湯攀瑲愠t牲祡 瑡┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Select Array > Values > Change value",
+      "text": "漥㨠䄠⁴牁慲⁹㈥‬桃湡敧瘠污敵愠⁴ㄥ琠⁯〥",
+      "menuId": 25420,
+      "resText": "%o : At Array %2, Change value at %1 to %0",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲慶畬⁥潴挠慨杮⁥潴瘀污敵愠⁴ㄥ琠⁯〥",
+        "湅整⁲潰楳楴湯漠⁦瑳楲杮瘀污敵愠⁴ㄥ琠⁯〥",
+        "湅整⁲牁慲⁹潰楳楴湯椀杮瘀污敵愠⁴ㄥ琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Select Array > Pop element",
+      "text": "漥㨠䄠⁴牁慲⁹〥‬潐⁰汥浥湥t",
+      "menuId": 25430,
+      "resText": "%o : At Array %0, Pop element",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲牁慲⁹潰楳楴湯 汥浥湥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Select Array > Unshift element",
+      "text": "漥㨠䄠⁴牁慲⁹〥‬湕桳晩⁴汥浥湥t",
+      "menuId": 25440,
+      "resText": "%o : At Array %0, Unshift element",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲牁慲⁹潰楳楴湯栀晩⁴汥浥湥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Select Array > Delete element",
+      "text": "漥㨠䄠⁴牁慲⁹ㄥ‬敄敬整攠敬敭瑮愠⁴〥",
+      "menuId": 25450,
+      "resText": "%o : At Array %1, Delete element at %0",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汥浥湥⁴潴搠汥瑥e攠敬敭瑮愠⁴〥",
+        "湅整⁲牁慲⁹潰楳楴湯琀e攠敬敭瑮愠⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Select Array > Delete range",
+      "text": "漥㨠䄠⁴牁慲⁹㈥‬敄敬整攠敬敭瑮⁳牦浯┠‰潴┠1",
+      "menuId": 25460,
+      "resText": "%o : At Array %2, Delete elements from %0 to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲瑳牡⁴潰楳楴湯⠠湩汣獵癩⥥ 牦浯┠‰潴┠1",
+        "湅整⁲湥⁤潰楳楴湯⠠湩汣獵癩⥥⤀ 牦浯┠‰潴┠1",
+        "湅整⁲牁慲⁹潰楳楴湯渀汣獵癩⥥⤀ 牦浯┠‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Select Array > Erase elements",
+      "text": "漥㨠䄠⁴牁慲⁹〥‬牅獡⁥汥浥湥獴",
+      "menuId": 25470,
+      "resText": "%o : At Array %0, Erase elements",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲牁慲⁹潰楳楴湯猀⁥汥浥湥獴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Select Array > Shuffle elements",
+      "text": "漥㨠䄠⁴牁慲⁹〥‬桓晵汦⁥汥浥湥獴",
+      "menuId": 25480,
+      "resText": "%o : At Array %0, Shuffle elements",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲牁慲⁹潰楳楴湯昀汦⁥汥浥湥獴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Select Array > Reverse elements",
+      "text": "漥㨠䄠⁴牁慲⁹〥‬敒敶獲⁥汥浥湥獴",
+      "menuId": 25490,
+      "resText": "%o : At Array %0, Reverse elements",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲牁慲⁹潰楳楴湯攀獲⁥汥浥湥獴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 50,
+      "menu": "Sort > Options > Sort as Strings",
+      "text": "漥㨠匠牯⁴獡匠牴湩獧",
+      "menuId": 25500,
+      "resText": "%o : Sort as Strings",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "Sort > Options > Sort Numbers",
+      "text": "漥㨠匠牯⁴畮扭牥s",
+      "menuId": 25510,
+      "resText": "%o : Sort numbers",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 52,
+      "menu": "Sort > Options > Case Sensitive (a>A)",
+      "text": "漥㨠䌠獡⁥敓獮瑩癩⁥潓瑲⠠㹡⥁",
+      "menuId": 25520,
+      "resText": "%o : Case Sensitive Sort (a>A)",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 53,
+      "menu": "Sort > Options > Case Insensitive (a=A)",
+      "text": "漥㨠䌠獡⁥湉敳獮瑩癩⁥潓瑲⠠㵡⥁",
+      "menuId": 25530,
+      "resText": "%o : Case Insensitive Sort (a=A)",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 54,
+      "menu": "Sort > One Array, ascending",
+      "text": "漥㨠匠牯⁴牁慲⁹〥‬獡散摮湩⁧潳瑲",
+      "menuId": 25540,
+      "resText": "%o : Sort Array %0, ascending sort",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲牁慲⁹潰楳楴湯猀散摮湩⁧潳瑲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 55,
+      "menu": "Sort > One Array, descending",
+      "text": "漥㨠匠牯⁴牁慲⁹〥‬敤捳湥楤杮猠牯t",
+      "menuId": 25550,
+      "resText": "%o : Sort Array %0, descending sort",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲牁慲⁹潰楳楴湯攀捳湥楤杮猠牯t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 56,
+      "menu": "Sort > All Arrays individually, ascending",
+      "text": "漥㨠匠牯⁴污⁬牁慲獹椠摮癩摩慵汬ⱹ愠捳湥楤杮猠牯t",
+      "menuId": 25560,
+      "resText": "%o : Sort all Arrays individually, ascending sort",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 57,
+      "menu": "Sort > All Arrays individually, descending",
+      "text": "漥㨠匠牯⁴污⁬牁慲獹椠摮癩摩慵汬ⱹ搠獥散摮湩⁧潳瑲",
+      "menuId": 25570,
+      "resText": "%o : Sort all Arrays individually, descending sort",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 58,
+      "menu": "Sort > All Arrays based on element, ascending",
+      "text": "漥㨠匠牯⁴污⁬牁慲獹‬獡散摮湩⁧潳瑲戠獡摥漠⁮汥浥湥⁴〥",
+      "menuId": 25580,
+      "resText": "%o : Sort all Arrays, ascending sort based on element %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汥浥湥⁴潴猠牯⁴祢攀摮湩⁧潳瑲戠獡摥漠⁮汥浥湥⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 59,
+      "menu": "Sort > All Arrays based on element, descending",
+      "text": "漥㨠匠牯⁴污⁬牁慲獹‬敤捳湥楤杮猠牯⁴慢敳⁤湯攠敬敭瑮┠0",
+      "menuId": 25590,
+      "resText": "%o : Sort all Arrays, descending sort based on element %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汥浥湥⁴潴猠牯⁴祢挀湥楤杮猠牯⁴慢敳⁤湯攠敬敭瑮┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 60,
+      "menu": "Sort > All Arrays based on element, ascending (from end)",
+      "text": "漥㨠匠牯⁴污⁬牁慲獹‬獡散摮湩⁧潳瑲戠獡摥漠⁮汥浥湥⁴〥映潲⁭桴⁥湥d",
+      "menuId": 25600,
+      "resText": "%o : Sort all Arrays, ascending sort based on element %0 from the end",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汥浥湥⁴潴猠牯⁴祢‬牦浯攠摮漠⁦桴⁥牡慲y浥湥⁴〥映潲⁭桴⁥湥d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 61,
+      "menu": "Sort > All Arrays based on element, descending (from end)",
+      "text": "漥㨠匠牯⁴⁙楤敭獮潩Ɱ搠獥散摮湩⁧潳瑲戠獡摥漠⁮汥浥湥⁴〥映潲⁭桴⁥湥d",
+      "menuId": 25610,
+      "resText": "%o : Sort Y dimension, descending sort based on element %0 from the end",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汥浥湥⁴潴猠牯⁴祢‬牦浯攠摮漠⁦桴⁥牡慲y汥浥湥⁴〥映潲⁭桴⁥湥d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 62,
+      "menu": "File > Save to file",
+      "text": "漥㨠匠癡⁥潴映汩⁥〥",
+      "menuId": 25620,
+      "resText": "%o : Save to file %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "敓敬瑣愠䴠条捩敄畱⁥楦敬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 63,
+      "menu": "File > Load from file",
+      "text": "漥㨠䰠慯⁤牦浯映汩⁥〥",
+      "menuId": 25630,
+      "resText": "%o : Load from file %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "敓敬瑣愠䴠条捩敄畱⁥楦敬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 64,
+      "menu": "File > Save to file  encrypt",
+      "text": "漥㨠匠癡⁥潴攠据祲瑰摥映汩⁥〥",
+      "menuId": 25640,
+      "resText": "%o : Save to encrypted file %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "敓敬瑣愠䴠条捩敄畱⁥楦敬氀⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 65,
+      "menu": "File > Load from file  decrypt",
+      "text": "漥㨠䰠慯⁤牦浯攠据祲瑰摥映汩⁥〥",
+      "menuId": 25650,
+      "resText": "%o : Load from encrypted file %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "敓敬瑣愠䴠条捩敄畱⁥楦敬昀汩⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 66,
+      "menu": "File > Enter encryption key",
+      "text": "漥㨠匠瑥攠据祲瑰潩⁮敫⁹潴┠0",
+      "menuId": 25660,
+      "resText": "%o : Set encryption key to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲湡攠据祲瑰潩⁮敫⁹氨湯⁧瑳楲杮⁳牡⁥敢瑴牥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 67,
+      "menu": "File > Save CSV file",
+      "text": "漥㨠匠癡⁥潴映汩⁥〥⠠獡䌠噓)",
+      "menuId": 25670,
+      "resText": "%o : Save to file %0 (as CSV)",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "敓敬瑣愠䌠浯慭匠灥牡瑡摥嘠污敵⁳楦敬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 68,
+      "menu": "File > Load CSV file",
+      "text": "漥㨠䰠慯⁤楦敬┠‰愨⁳千⥖",
+      "menuId": 25680,
+      "resText": "%o : Load file %0 (as CSV)",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "敓敬瑣愠䌠浯慭匠灥牡瑡摥嘠污敵⁳楦敬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 69,
+      "menu": "For each...Loop > Iterate through Arrays",
+      "text": "漥㨠匠慴瑲䘠牯攠捡⹨⸮潌灯┠‰‬瑩牥瑡湩⁧桴潲杵⁨牁慲獹",
+      "menuId": 25690,
+      "resText": "%o : Start For each...Loop %0 , iterating through Arrays",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥潆⁲慥档⸮䰮潯❰⁳摩湥楴楦牥渀⁧桴潲杵⁨牁慲獹"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 70,
+      "menu": "For each...Loop > Iterate through Elements in an Array",
+      "text": "漥㨠匠慴瑲䘠牯攠捡⹨⸮潌灯┠‰‬瑩牥瑡湩⁧桴潲杵⁨牁慲⁹ㄥ猧䔠敬敭瑮s",
+      "menuId": 25700,
+      "resText": "%o : Start For each...Loop %0 , iterating through Array %1's Elements",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥潆⁲慥档⸮䰮潯❰⁳摩湥楴楦牥渀⁧桴潲杵⁨牁慲⁹ㄥ猧䔠敬敭瑮s",
+        "湅整⁲牁慲⁹潰楳楴湯䰀潯❰⁳摩湥楴楦牥渀⁧桴潲杵⁨牁慲⁹ㄥ猧䔠敬敭瑮s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 71,
+      "menu": "Arrays > Move an array",
+      "text": "漥㨠䴠癯⁥牡慲⁹〥琠⁯潰楳楴湯┠1",
+      "menuId": 25710,
+      "resText": "%o : Move array %0 to position %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥汥浥湥⁴潴洠癯e楴湯┠1",
+        "湅整⁲桴⁥潰楳楴湯琠⁯潭敶琠o┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 72,
+      "menu": "Current Array > Move an element",
+      "text": "漥㨠䴠癯⁥汥浥湥⁴〥琠⁯潰楳楴湯┠1",
+      "menuId": 25711,
+      "resText": "%o : Move element %0 to position %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥汥浥湥⁴潴洠癯e楳楴湯┠1",
+        "湅整⁲桴⁥潰楳楴湯琠⁯潭敶琠o湯┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 73,
+      "menu": "Select Array > Move an element",
+      "text": "漥㨠䄠⁴牁慲⁹㈥Ⱐ䴠癯⁥汥浥湥⁴〥琠⁯潰楳楴湯┠1",
+      "menuId": 25712,
+      "resText": "%o : At Array %2 , Move element %0 to position %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥汥浥湥⁴潴洠癯e浥湥⁴〥琠⁯潰楳楴湯┠1",
+        "湅整⁲桴⁥潰楳楴湯琠⁯潭敶琠o⁴〥琠⁯潰楳楴湯┠1",
+        "湅整⁲牁慲⁹潰楳楴湯 潭敶琠o⁴〥琠⁯潰楳楴湯┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 74,
+      "menu": "Set random seed",
+      "text": "漥㨠匠瑥爠湡潤⁭敳摥琠⁯〥",
+      "menuId": 25720,
+      "resText": "%o : Set random seed to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥敳摥琠⁯獵e⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get number of arrays",
+      "text": "䑍楓敺(",
+      "menuId": 27000,
+      "resText": "MDSize(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get size of current Array",
+      "text": "畃牲湥䅴牲祡楓敺(",
+      "menuId": 27010,
+      "resText": "CurrentArraySize(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get size of an Array",
+      "text": "牁慲卹穩⡥",
+      "menuId": 27020,
+      "resText": "ArraySize(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get current Element position",
+      "text": "汅浥湥側獯(",
+      "menuId": 27030,
+      "resText": "ElementPos(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get current Array position",
+      "text": "牁慲偹獯(",
+      "menuId": 27040,
+      "resText": "ArrayPos(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Strings > Get string",
+      "text": "敇⑴(",
+      "menuId": 27050,
+      "resText": "Get$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Strings > Get string at Element",
+      "text": "敇䕴敬敭瑮⠤",
+      "menuId": 27060,
+      "resText": "GetElement$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Strings > Get string at Element, Array",
+      "text": "敇䕴敬敭瑮牁慲⑹(",
+      "menuId": 27070,
+      "resText": "GetElementArray$(",
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Strings > Pop string",
+      "text": "潐⑰(",
+      "menuId": 27080,
+      "resText": "Pop$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Strings > Pop string at Array",
+      "text": "潐䅰牲祡⠤",
+      "menuId": 27090,
+      "resText": "PopArray$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Strings > Unshift string",
+      "text": "湕桳晩⑴(",
+      "menuId": 27100,
+      "resText": "Unshift$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Strings > Unshift string at Array",
+      "text": "湕桳晩䅴牲祡⠤",
+      "menuId": 27110,
+      "resText": "UnshiftArray$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Values > Get value",
+      "text": "敇⡴",
+      "menuId": 27120,
+      "resText": "Get(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Values > Get value at Element",
+      "text": "敇䕴敬敭瑮(",
+      "menuId": 27130,
+      "resText": "GetElement(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Values > Get value at Element, Array",
+      "text": "敇䕴敬敭瑮牁慲⡹",
+      "menuId": 27140,
+      "resText": "GetElementArray(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Values > Pop value",
+      "text": "潐⡰",
+      "menuId": 27150,
+      "resText": "Pop(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Values > Pop value at Array",
+      "text": "潐䅰牲祡(",
+      "menuId": 27160,
+      "resText": "PopArray(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Values > Unshift value",
+      "text": "湕桳晩⡴",
+      "menuId": 27170,
+      "resText": "Unshift(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Values > Unshift value at Array",
+      "text": "湕桳晩䅴牲祡(",
+      "menuId": 27180,
+      "resText": "UnshiftArray(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Get For Each Element...Loop's position",
+      "text": "潆䕲捡䕨敬敭瑮(",
+      "menuId": 27190,
+      "resText": "ForEachElement(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Get For Each Array...Loop's position",
+      "text": "潆䕲捡䅨牲祡(",
+      "menuId": 27200,
+      "resText": "ForEachArray(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Number of Occurences > Values in an array",
+      "text": "捏獣湉牁慲⡹",
+      "menuId": 27210,
+      "resText": "OccsInArray(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Number of Occurences > Values across arrays",
+      "text": "捏獣捁潲獳牁慲獹(",
+      "menuId": 27220,
+      "resText": "OccsAcrossArrays(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Number of Occurences > Strings in an array",
+      "text": "瑓佲捣䥳䅮牲祡(",
+      "menuId": 27230,
+      "resText": "StrOccsInArray(",
+      "flags": 0,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Number of Occurences > Strings across arrays",
+      "text": "瑓佲捣䅳牣獯䅳牲祡⡳",
+      "menuId": 27240,
+      "resText": "StrOccsAcrossArrays(",
+      "flags": 0,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Find > Find value in array",
+      "text": "楆摮湉牁慲⡹",
+      "menuId": 27250,
+      "resText": "FindInArray(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Find > Find value across arrays",
+      "text": "楆摮捁潲獳牁慲獹(",
+      "menuId": 27260,
+      "resText": "FindAcrossArrays(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Find > Find string in array",
+      "text": "楆摮瑓䥲䅮牲祡(",
+      "menuId": 27270,
+      "resText": "FindStrInArray(",
+      "flags": 0,
+      "paramTypes": [
+        3,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Find > Find string across arrays",
+      "text": "楆摮瑓䅲牣獯䅳牲祡⡳",
+      "menuId": 27280,
+      "resText": "FindStrAcrossArrays(",
+      "flags": 0,
+      "paramTypes": [
+        3,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

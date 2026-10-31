@@ -1,0 +1,779 @@
+{
+  "file": "3dmesh.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Mesh is loaded",
+      "text": "漥›敍桳椠⁳潬摡摥",
+      "menuId": 26000,
+      "resText": "%o: Mesh is loaded",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Animation is playing",
+      "text": "漥›湁浩瑡潩⁮〥椠⁳汰祡湩g",
+      "menuId": 26001,
+      "resText": "%o: Animation %0 is playing",
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湁浩瑡潩⁮慮敭　椠⁳汰祡湩g"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Animation looping is enabled",
+      "text": "漥›湁浩瑡潩⁮潬灯湩⁧獩攠慮汢摥",
+      "menuId": 26002,
+      "resText": "%o: Animation looping is enabled",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Animation ended",
+      "text": "漥›湁浩瑡潩⁮〥攠摮摥",
+      "menuId": 26003,
+      "resText": "%o: Animation %0 ended",
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湁浩瑡潩⁮慮敭　攠摮摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Load mesh",
+      "text": "潌摡洠獥⁨〥",
+      "menuId": 25000,
+      "resText": "Load mesh %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "敍桳映汩e〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set rotation > X",
+      "text": "敓⁴⁘潲慴楴湯琠⁯〥",
+      "menuId": 25001,
+      "resText": "Set X rotation to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潒慴楴湯搠来敲獥 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set rotation > Y",
+      "text": "敓⁴⁙潲慴楴湯琠⁯〥",
+      "menuId": 25002,
+      "resText": "Set Y rotation to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潒慴楴湯搠来敲獥 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Set rotation > Z",
+      "text": "敓⁴⁚潲慴楴湯琠⁯〥",
+      "menuId": 25003,
+      "resText": "Set Z rotation to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潒慴楴湯搠来敲獥 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Set scale > X",
+      "text": "敓⁴⁘捳污⁥潴┠0",
+      "menuId": 25004,
+      "resText": "Set X scale to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "捓污⁥慦瑣牯⠠⸱‰獩搠晥畡瑬)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Set scale > Y",
+      "text": "敓⁴⁙捳污⁥潴┠0",
+      "menuId": 25005,
+      "resText": "Set Y scale to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "捓污⁥慦瑣牯⠠⸱‰獩搠晥畡瑬)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Set scale > Z",
+      "text": "敓⁴⁚捳污⁥潴┠0",
+      "menuId": 25006,
+      "resText": "Set Z scale to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "捓污⁥慦瑣牯⠠⸱‰獩搠晥畡瑬)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Texture > Enable flag > Wireframe",
+      "text": "湅扡敬眠物晥慲敭",
+      "menuId": 25008,
+      "resText": "Enable wireframe",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Texture > Enable flag > Gouraud",
+      "text": "湅扡敬朠畯慲摵",
+      "menuId": 25009,
+      "resText": "Enable gouraud",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Texture > Enable flag > Bilinear",
+      "text": "湅扡敬戠汩湩慥r",
+      "menuId": 25010,
+      "resText": "Enable bilinear",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Texture > Enable flag > Trilinear",
+      "text": "湅扡敬琠楲楬敮牡",
+      "menuId": 25011,
+      "resText": "Enable trilinear",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Texture > Disable flag > Wireframe",
+      "text": "楄慳汢⁥楷敲牦浡e",
+      "menuId": 25012,
+      "resText": "Disable wireframe",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Texture > Disable flag > Gouraud",
+      "text": "楄慳汢⁥潧牵畡d",
+      "menuId": 25013,
+      "resText": "Disable gouraud",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Texture > Disable flag > Bilinear",
+      "text": "楄慳汢⁥楢楬敮牡",
+      "menuId": 25014,
+      "resText": "Disable bilinear",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Texture > Disable flag > Trilinear",
+      "text": "楄慳汢⁥牴汩湩慥r",
+      "menuId": 25015,
+      "resText": "Disable trilinear",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Texture > Set material type",
+      "text": "敓⁴慭整楲污琠灹⁥潴┠0",
+      "menuId": 25016,
+      "resText": "Set material type to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慍整楲污琠灹⁥湩敤x┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Texture > Set primary texture",
+      "text": "敓⁴牰浩牡⁹整瑸牵⁥潴┠0",
+      "menuId": 25017,
+      "resText": "Set primary texture to %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥楦敬攀瑸牵⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Texture > Set secondary texture",
+      "text": "敓⁴敳潣摮牡⁹整瑸牵⁥潴┠0",
+      "menuId": 25018,
+      "resText": "Set secondary texture to %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥楦敬 整瑸牵⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Animation > Set",
+      "text": "敓⁴湡浩瑡潩⁮潴┠0",
+      "menuId": 25019,
+      "resText": "Set animation to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湁浩瑡潩⁮慮敭漀┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Animation > Resume",
+      "text": "敒畳敭愠楮慭楴湯",
+      "menuId": 25020,
+      "resText": "Resume animation",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Animation > Stop",
+      "text": "瑓灯愠楮慭楴湯",
+      "menuId": 25021,
+      "resText": "Stop animation",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Animation > Pause",
+      "text": "慐獵⁥湡浩瑡潩n",
+      "menuId": 25022,
+      "resText": "Pause animation",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Animation > Set frame",
+      "text": "敓⁴湡浩瑡潩⁮牦浡⁥潴┠0",
+      "menuId": 25023,
+      "resText": "Set animation frame to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牆浡e浩瑡潩⁮牦浡⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Animation > Set speed",
+      "text": "敓⁴湡浩瑡潩⁮灳敥⁤潴┠‰灦s",
+      "menuId": 25024,
+      "resText": "Set animation speed to %0 fps",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牆浡獥猯捥湯d灳敥⁤潴┠‰灦s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Animation > Set range",
+      "text": "敓⁴湡浩瑡潩⁮慲杮⁥潴┠ⴰㄥ",
+      "menuId": 25025,
+      "resText": "Set animation range to %0-%1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牆浡⁥1瑡潩⁮慲杮⁥潴┠ⴰㄥ",
+        "牆浡⁥2瑡潩⁮慲杮⁥潴┠ⴰㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Animation > Enable looping",
+      "text": "湅扡敬愠楮慭楴湯氠潯楰杮",
+      "menuId": 25026,
+      "resText": "Enable animation looping",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Animation > Disable looping",
+      "text": "楄慳汢⁥湡浩瑡潩⁮潬灯湩g",
+      "menuId": 25027,
+      "resText": "Disable animation looping",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Camera > Set distance",
+      "text": "敓⁴慣敭慲搠獩慴据⁥潴┠0",
+      "menuId": 25028,
+      "resText": "Set camera distance to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楄瑳湡散愀搠獩慴据⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Camera > Set X offset",
+      "text": "敓⁴慣敭慲堠漠晦敳⁴潴┠0",
+      "menuId": 25029,
+      "resText": "Set camera X offset to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "晏獦瑥攀慲堠漠晦敳⁴潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Camera > Set Y offset",
+      "text": "敓⁴慣敭慲夠漠晦敳⁴潴┠0",
+      "menuId": 25030,
+      "resText": "Set camera Y offset to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "晏獦瑥攀慲夠漠晦敳⁴潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Rotation > X",
+      "text": "潒慴楴湯⡘",
+      "menuId": 27000,
+      "resText": "RotationX(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Rotation > Y",
+      "text": "潒慴楴湯⡙",
+      "menuId": 27001,
+      "resText": "RotationY(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Rotation > Z",
+      "text": "潒慴楴湯⡚",
+      "menuId": 27002,
+      "resText": "RotationZ(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Scale > X",
+      "text": "捓污塥(",
+      "menuId": 27003,
+      "resText": "ScaleX(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Scale > Y",
+      "text": "捓污奥(",
+      "menuId": 27004,
+      "resText": "ScaleY(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Scale > Z",
+      "text": "捓污婥(",
+      "menuId": 27005,
+      "resText": "ScaleZ(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Material type",
+      "text": "慍整楲污祔数(",
+      "menuId": 27006,
+      "resText": "MaterialType(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Animation > Count",
+      "text": "湁浩瑡潩䍮畯瑮(",
+      "menuId": 27007,
+      "resText": "AnimationCount(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Animation > Name",
+      "text": "湁浩瑡潩乮浡⑥(",
+      "menuId": 27008,
+      "resText": "AnimationName$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湁浩瑡潩⁮湩敤x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Animation > Current animation",
+      "text": "畃牲湥䅴楮慭楴湯⠤",
+      "menuId": 27009,
+      "resText": "CurrentAnimation$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Animation > Frame",
+      "text": "湁浩瑡潩䙮慲敭(",
+      "menuId": 27010,
+      "resText": "AnimationFrame(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Animation > Speed",
+      "text": "湁浩瑡潩卮数摥(",
+      "menuId": 27011,
+      "resText": "AnimationSpeed(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Animation > Range start",
+      "text": "湁浩瑡潩剮湡敧瑓牡⡴",
+      "menuId": 27012,
+      "resText": "AnimationRangeStart(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Animation > Range stop",
+      "text": "湁浩瑡潩剮湡敧瑓灯(",
+      "menuId": 27013,
+      "resText": "AnimationRangeStop(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Camera > Distance",
+      "text": "慃敭慲楄瑳湡散(",
+      "menuId": 27014,
+      "resText": "CameraDistance(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Camera > X offset",
+      "text": "慃敭慲晏獦瑥⡘",
+      "menuId": 27015,
+      "resText": "CameraOffsetX(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Camera > Y offset",
+      "text": "慃敭慲晏獦瑥⡙",
+      "menuId": 27016,
+      "resText": "CameraOffsetY(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Joints > X position",
+      "text": "潊湩塴(",
+      "menuId": 27017,
+      "resText": "JointX(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊湩⁴湩敤x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Joints > Y position",
+      "text": "潊湩奴(",
+      "menuId": 27018,
+      "resText": "JointY(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊湩⁴湩敤x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Joints > Joint count",
+      "text": "潊湩䍴畯瑮(",
+      "menuId": 27019,
+      "resText": "JointCount(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Joints > Joint number",
+      "text": "潊湩乴浵敢⡲",
+      "menuId": 27020,
+      "resText": "JointNumber(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "潊湩⁴慮敭⠀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Joints > Joint name",
+      "text": "潊湩乴浡⑥(",
+      "menuId": 27021,
+      "resText": "JointName$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊湩⁴湩敤x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

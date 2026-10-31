@@ -1,0 +1,285 @@
+{
+  "file": "DirectoryPacker.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "An error occured",
+      "text": "漥㨠䔠牲牯漠捣牵摥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Packing finished",
+      "text": "漥㨠倠捡楫杮映湩獩敨d",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Unpacking finished",
+      "text": "漥㨠唠灮捡楫杮映湩獩敨d",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Packing failed",
+      "text": "漥㨠倠捡楫杮映楡敬d",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Unpacking failed",
+      "text": "漥㨠唠灮捡楫杮映楡敬d",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "File is allowed",
+      "text": "漥㨠䘠汩⁥〥愠汬睯摥",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 512,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆敬慮敭 〥愠汬睯摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Pack directory",
+      "text": "慐正搠物捥潴祲┠‰潴┠1",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "楄敲瑣牯y潴祲┠‰潴┠1",
+        "敄瑳湩瑡潩⁮楦敬慮敭─1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Unpack file",
+      "text": "湕慰正┠‰潴┠‱猨潴⁰晩映汯敤⁲硥獩獴㴠┠⤲",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慐正摥映汩e┠‱猨潴⁰晩映汯敤⁲硥獩獴㴠┠⤲",
+        "敄瑳湩瑡潩⁮楤敲瑣牯y晩映汯敤⁲硥獩獴㴠┠⤲",
+        "瑓灯椠⁦潦摬牥攠楸瑳㽳⠠‰‽潮‬‱‽敹⥳─⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Delete directory",
+      "text": "敄敬整搠物捥潴祲┠0",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楄敲瑣牯⁹潴搠汥瑥e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Enable extension filter",
+      "text": "湅扡敬攠瑸湥楳湯映汩整⁲漨汮⁹污潬⁷楬瑳㴠┠⤰",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰‽汢捯⁫楬瑳‬‱‽湯祬愠汬睯氠獩t楬瑳㴠┠⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Disable extension filter",
+      "text": "楄慳汢⁥硥整獮潩⁮楦瑬牥",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Add extension to filter list",
+      "text": "摁⁤硥整獮潩⁮〥琠⁯楦瑬牥氠獩t",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "硅整獮潩⁮潴愠摤琀⁯楦瑬牥氠獩t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Remove extension from filter list",
+      "text": "敒潭敶攠瑸湥楳湯┠‰牦浯映汩整⁲楬瑳",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "硅整獮潩⁮潴爠浥癯e牦浯映汩整⁲楬瑳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Pack directory (this thread)",
+      "text": "慐正搠物捥潴祲┠‰潴┠‱湩琠楨⁳桴敲摡",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "楄敲瑣牯y潴祲┠‰潴┠‱湩琠楨⁳桴敲摡",
+        "敄瑳湩瑡潩⁮楦敬慮敭─‱湩琠楨⁳桴敲摡"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Unpack file (this thread)",
+      "text": "湕慰正┠‰潴┠‱湩琠楨⁳桴敲摡⠠瑳灯椠⁦潦摬牥攠楸瑳⁳‽㈥)",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慐正摥映汩e┠‱湩琠楨⁳桴敲摡⠠瑳灯椠⁦潦摬牥攠楸瑳⁳‽㈥)",
+        "敄瑳湩瑡潩⁮楤敲瑣牯y⁳桴敲摡⠠瑳灯椠⁦潦摬牥攠楸瑳⁳‽㈥)",
+        "瑓灯椠⁦潦摬牥攠楸瑳㽳⠠‰‽潮‬‱‽敹⥳漀摬牥攠楸瑳⁳‽㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get current process",
+      "text": "牰捯獥⑳(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get current progress %",
+      "text": "牰杯敲獳(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get last error",
+      "text": "牥潲⑲(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get last windows error",
+      "text": "敷牲⠤",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

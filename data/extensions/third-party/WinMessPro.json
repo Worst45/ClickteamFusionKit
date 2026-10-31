@@ -1,0 +1,1381 @@
+{
+  "file": "WinMessPro.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Is There a Message for the Window?",
+      "text": "漥›湏䴠獥慳敧漠⁦祔数┠0",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䴠獥慳敧吠灹e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Does Window have Focus?",
+      "text": "漥›楗摮睯┠‰慨⁳潆畣s",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Has an Error Occured?",
+      "text": "漥›湏䔠牲牯",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Is Window Visible?",
+      "text": "漥›楗摮睯┠‰獩嘠獩扩敬",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Does Menu Item have a Submenu?",
+      "text": "漥›敍畮䤠整⁭ㄥ漠⁦楗摮睯漠⁲敍畮┠‰慨⁳⁡畓浢湥u",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯漠⁲敍畮䠠湡汤e畮┠‰慨⁳⁡畓浢湥u",
+        "湅整⁲桴⁥敍畮䤠整⁭䑉漠⁦桴⁥瑉浥─‰慨⁳⁡畓浢湥u"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Does Window have a Visible Menu?",
+      "text": "漥›楗摮睯┠‰慨⁳⁡楖楳汢⁥敍畮",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e汢⁥敍畮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Window Status > Set Window Caption Text",
+      "text": "敓⁴慃瑰潩⁮敔瑸漠⁦楗摮睯┠‰潴┠1",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e睯┠‰潴┠1",
+        "湅整⁲桴⁥楗摮睯䌠灡楴湯吠硥t潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Errors > Clear Expression Error",
+      "text": "汃慥⁲硅牰獥楳湯䔠牲牯",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Start Intercepting Messages",
+      "text": "瑓牡⁴湉整捲灥楴杮䴠獥慳敧s",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Stop Intercepting Messages",
+      "text": "瑓灯䤠瑮牥散瑰湩⁧敍獳条獥",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Message Handling > Set Current Message as Handled",
+      "text": "敓⁴畃牲湥⁴敍獳条⁥獡䠠湡汤摥",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Message Handling > Set Current Message as Caught",
+      "text": "敓⁴畃牲湥⁴敍獳条⁥獡䌠畡桧t",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Message Handling > Set Current Message to be Handled by Windows",
+      "text": "敓⁴畃牲湥⁴敍獳条⁥潴戠⁥慈摮敬⁤祢圠湩潤獷",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Message Generating > Send Message to the Window",
+      "text": "敓摮敍獳条⡥┠‰‬ㄥⰠ┠′‬㌥⤠",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e′‬㌥⤠",
+        "湅整⁲桴⁥楗摮睯䴠獥慳敧吠灹e⤠",
+        "湅整⁲桴⁥偷牡浡䴀獥慳敧吠灹e⤠",
+        "湅整⁲桴⁥偬牡浡䴀獥慳敧吠灹e⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Message Generating > Post Message to the Window",
+      "text": "潐瑳敍獳条⡥┠‰‬ㄥⰠ┠′‬㌥⤠",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e′‬㌥⤠",
+        "湅整⁲桴⁥楗摮睯䴠獥慳敧吠灹e⤠",
+        "湅整⁲桴⁥偷牡浡䴀獥慳敧吠灹e⤠",
+        "湅整⁲桴⁥偬牡浡䴀獥慳敧吠灹e⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Window Flashing > Flash Window",
+      "text": "汆獡⁨楗摮睯┠0",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Window Flashing > Restore Window from Flashed State",
+      "text": "敒瑳牯⁥楗摮睯┠‰牦浯䘠慬桳摥匠慴整",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e慬桳摥匠慴整"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Window Style > Set Window Caption State (Enabling Turns on Border Until Disabled)",
+      "text": "敓⁴慃瑰潩⁮瑓瑡⁥景圠湩潤⁷〥琠⁯ㄥ",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e潤⁷〥琠⁯ㄥ",
+        "湅整⁲桴⁥瑓瑡⁥〨㴠传晦※湁瑹楨杮䔠獬⁥‽湏)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Window Style > Set Dialog Border Style State (Turns off Caption)",
+      "text": "敓⁴楄污杯䈠牯敤⁲瑓汹⁥瑓瑡⁥景圠湩潤⁷〥琠⁯ㄥ",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e瑓瑡⁥景圠湩潤⁷〥琠⁯ㄥ",
+        "湅整⁲桴⁥瑓瑡⁥〨㴠传晦※湁瑹楨杮䔠獬⁥‽湏)ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Window Style > Set Maximize Button State",
+      "text": "敓⁴慍楸業敺䈠瑵潴⁮瑓瑡⁥景圠湩潤⁷〥琠⁯ㄥ",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e⁥景圠湩潤⁷〥琠⁯ㄥ",
+        "湅整⁲桴⁥瑓瑡⁥〨㴠传晦※湁瑹楨杮䔠獬⁥‽湏)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Window Style > Set Minimize Button State",
+      "text": "敓⁴楍楮業敺䈠瑵潴⁮瑓瑡⁥景圠湩潤⁷〥琠⁯ㄥ",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e⁥景圠湩潤⁷〥琠⁯ㄥ",
+        "湅整⁲桴⁥瑓瑡⁥〨㴠传晦※湁瑹楨杮䔠獬⁥‽湏)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Window Style > Set Thick Frame State",
+      "text": "敓⁴桔捩⁫牆浡⁥瑓瑡⁥景圠湩潤⁷〥琠⁯ㄥ",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e圠湩潤⁷〥琠⁯ㄥ",
+        "湅整⁲桴⁥瑓瑡⁥〨㴠传晦※湁瑹楨杮䔠獬⁥‽湏)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Window Style > Set Window System Menu State (Enabling Turns on Caption)",
+      "text": "敓⁴祓瑳浥䴠湥⁵瑓瑡⁥景圠湩潤⁷〥琠⁯ㄥ",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e圠湩潤⁷〥琠⁯ㄥ",
+        "湅整⁲桴⁥瑓瑡⁥〨㴠传晦※湁瑹楨杮䔠獬⁥‽湏)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Window Style > Set Window Border State (Disabling Turns off Caption)",
+      "text": "敓⁴楗摮睯䈠牯敤⁲瑓瑡⁥景圠湩潤⁷〥琠⁯ㄥ",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e景圠湩潤⁷〥琠⁯ㄥ",
+        "湅整⁲桴⁥瑓瑡⁥〨㴠传晦※湁瑹楨杮䔠獬⁥‽湏)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Window Style > Set Custom Window Style",
+      "text": "敓⁴楗摮睯匠祴敬漠⁦楗摮睯┠‰潴┠1",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e睯┠‰潴┠1",
+        "湅整⁲桴⁥楗摮睯匠祴敬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Extended Window Style > Set Taskbar State",
+      "text": "敓⁴慔歳慢⁲瑓瑡⁥潴漠⁦楗摮睯┠‰潴┠1",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e楗摮睯┠‰潴┠1",
+        "湅整⁲桴⁥瑓瑡⁥〨㴠传晦※湁瑹楨杮䔠獬⁥‽湏)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Extended Window Style > Set Sunken Border State",
+      "text": "敓⁴畓歮湥䈠牯敤⁲瑓瑡⁥景圠湩潤⁷〥琠⁯ㄥ",
+      "menuId": 25200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e景圠湩潤⁷〥琠⁯ㄥ",
+        "湅整⁲桴⁥瑓瑡⁥〨㴠传晦※湁瑹楨杮䔠獬⁥‽湏)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Extended Window Style > Set Help Context Button State (Enabling Turns off Min and Max Buttons)",
+      "text": "敓⁴效灬䌠湯整瑸䈠瑵潴⁮瑓瑡⁥景圠湩潤⁷〥琠⁯ㄥ",
+      "menuId": 25210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e瑓瑡⁥景圠湩潤⁷〥琠⁯ㄥ",
+        "湅整⁲桴⁥瑓瑡⁥〨㴠传晦※湁瑹楨杮䔠獬⁥‽湏)ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Extended Window Style > Set Double Border State",
+      "text": "敓⁴潄扵敬䈠牯敤⁲瑓瑡⁥景圠湩潤⁷〥琠⁯ㄥ",
+      "menuId": 25220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e景圠湩潤⁷〥琠⁯ㄥ",
+        "湅整⁲桴⁥瑓瑡⁥〨㴠传晦※湁瑹楨杮䔠獬⁥‽湏)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Extended Window Style > Set 3D Border State",
+      "text": "敓⁴ⴳ⁄潂摲牥匠慴整漠⁦楗摮睯┠‰潴┠1",
+      "menuId": 25230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e楗摮睯┠‰潴┠1",
+        "湅整⁲桴⁥瑓瑡⁥〨㴠传晦※湁瑹楨杮䔠獬⁥‽湏)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Extended Window Style > Set Tool Window State",
+      "text": "敓⁴潔汯圠湩潤⁷瑓瑡⁥景圠湩潤⁷〥琠⁯ㄥ",
+      "menuId": 25240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e圠湩潤⁷〥琠⁯ㄥ",
+        "湅整⁲桴⁥瑓瑡⁥〨㴠传晦※湁瑹楨杮䔠獬⁥‽湏)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Extended Window Style > Set Raised Border State",
+      "text": "敓⁴慒獩摥䈠牯敤⁲瑓瑡⁥景圠湩潤⁷〥琠⁯ㄥ",
+      "menuId": 25250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e景圠湩潤⁷〥琠⁯ㄥ",
+        "湅整⁲桴⁥瑓瑡⁥〨㴠传晦※湁瑹楨杮䔠獬⁥‽湏)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Extended Window Style > Set Custom Extended Window Style",
+      "text": "敓⁴硅整摮摥圠湩潤⁷瑓汹⁥景圠湩潤⁷〥琠⁯ㄥ",
+      "menuId": 25260,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e⁥景圠湩潤⁷〥琠⁯ㄥ",
+        "湅整⁲桴⁥楗摮睯匠祴敬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Window Status > Set Window Z Order",
+      "text": "敓⁴⁚牏敤⁲景圠湩潤⁷〥琠⁯ㄥ",
+      "menuId": 25270,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e琠⁯ㄥ",
+        "湅整⁲桴⁥潃敤漠⁲慈摮敬漠⁦楗摮睯琠⁯潇䄠潢敶"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Window Status > Set Window Position",
+      "text": "敓⁴潐楳楴湯漠⁦楗摮睯┠‰潴⠠┠‱‬㈥⤠",
+      "menuId": 25280,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e‰潴⠠┠‱‬㈥⤠",
+        "湅整⁲桴⁥⁘潐楳楴湯氀e‰潴⠠┠‱‬㈥⤠",
+        "湅整⁲桴⁥⁙潐楳楴湯氀e‰潴⠠┠‱‬㈥⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Window Status > Set Window Size",
+      "text": "敓⁴楓敺漠⁦楗摮睯┠‰潴┠‱祢┠2",
+      "menuId": 25290,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e┠‱祢┠2",
+        "湅整⁲桴⁥楗瑤h䠠湡汤e┠‱祢┠2",
+        "湅整⁲桴⁥效杩瑨䠀湡汤e┠‱祢┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Window Status > Set Window Visibility",
+      "text": "敓⁴楖楳楢楬祴漠⁦楗摮睯┠‰潴┠1",
+      "menuId": 25300,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e┠‰潴┠1",
+        "湅整⁲桴⁥楖楳楢楬祴⠠‰‽楈摤湥※‱‽楖楳汢⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Window Menu > Add an Item to the Menu Before Another Item",
+      "text": "摁⁤㌥眠瑩⁨䑉┠′敂潦敲䴠湥⁵瑉浥┠‱景圠湩潤⁷牯䴠湥⁵〥",
+      "menuId": 25310,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯漠⁲敍畮䠠湡汤e浥┠‱景圠湩潤⁷牯䴠湥⁵〥",
+        "湅整⁲桴⁥敍畮䤠整⁭䑉琠⁯摁⁤敎⁷瑉浥䈠晥牯e⁷牯䴠湥⁵〥",
+        "湅整⁲桴⁥敍畮䤠整⁭䑉漠⁦桴⁥瑉浥琀浥䈠晥牯e⁷牯䴠湥⁵〥",
+        "湅整⁲桴⁥敔瑸漠⁦桴⁥瑉浥栀⁥瑉浥琀浥䈠晥牯e⁷牯䴠湥⁵〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Window Menu > Add a Separator to the Menu Before an Item",
+      "text": "摁⁤敓慰慲潴⁲楷桴䤠⁄㈥䈠晥牯⁥敍畮䤠整⁭ㄥ漠⁦楗摮睯漠⁲敍畮┠0",
+      "menuId": 25320,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯漠⁲敍畮䠠湡汤e敍畮䤠整⁭ㄥ漠⁦楗摮睯漠⁲敍畮┠0",
+        "湅整⁲桴⁥敍畮䤠整⁭䑉琠⁯摁⁤敎⁷瑉浥䈠晥牯e⁦楗摮睯漠⁲敍畮┠0",
+        "湅整⁲桴⁥敍畮䤠整⁭䑉漠⁦桴⁥瑉浥琀浥䈠晥牯e⁦楗摮睯漠⁲敍畮┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Window Menu > Change a Menu Item's Text",
+      "text": "桃湡敧䴠湥⁵瑉浥眠瑩⁨䑉┠‱景圠湩潤⁷牯䴠湥⁵〥琠⁯㈥",
+      "menuId": 25330,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯漠⁲敍畮䠠湡汤e湩潤⁷牯䴠湥⁵〥琠⁯㈥",
+        "湅整⁲桴⁥敍畮䤠整⁭䑉漠⁦桴⁥瑉浥漀⁷牯䴠湥⁵〥琠⁯㈥",
+        "湅整⁲桴⁥敔瑸漠⁦桴⁥瑉浥栀⁥瑉浥漀⁷牯䴠湥⁵〥琠⁯㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Window Menu > Set an Item's Checked State",
+      "text": "敓⁴敍畮䤠整⁭楷桴䤠⁄ㄥ漠⁦楗摮睯漠⁲敍畮┠‰潴䌠敨正摥匠慴整┠2",
+      "menuId": 25340,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯漠⁲敍畮䠠湡汤e睯漠⁲敍畮┠‰潴䌠敨正摥匠慴整┠2",
+        "湅整⁲桴⁥敍畮䤠整⁭䑉漠⁦桴⁥瑉浥漀⁲敍畮┠‰潴䌠敨正摥匠慴整┠2",
+        "湅整⁲桴⁥瑓瑡⁥〨㴠传晦※湁瑹楨杮䔠獬⁥‽湏)潴䌠敨正摥匠慴整┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Window Menu > Set an Item's Enabled State",
+      "text": "敓⁴敍畮䤠整⁭楷桴䤠⁄ㄥ漠⁦楗摮睯漠⁲敍畮┠‰潴䔠慮汢摥匠慴整┠2",
+      "menuId": 25350,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯漠⁲敍畮䠠湡汤e睯漠⁲敍畮┠‰潴䔠慮汢摥匠慴整┠2",
+        "湅整⁲桴⁥敍畮䤠整⁭䑉漠⁦桴⁥瑉浥漀⁲敍畮┠‰潴䔠慮汢摥匠慴整┠2",
+        "湅整⁲桴⁥瑓瑡⁥〨㴠传晦※湁瑹楨杮䔠獬⁥‽湏)潴䔠慮汢摥匠慴整┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Window Menu > Set an Item's Highlighted State",
+      "text": "敓⁴敍畮䤠整⁭楷桴䤠⁄ㄥ漠⁦楗摮睯漠⁲敍畮┠‰潴䠠杩汨杩瑨摥匠慴整┠2",
+      "menuId": 25360,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯漠⁲敍畮䠠湡汤e睯漠⁲敍畮┠‰潴䠠杩汨杩瑨摥匠慴整┠2",
+        "湅整⁲桴⁥敍畮䤠整⁭䑉漠⁦桴⁥瑉浥漀⁲敍畮┠‰潴䠠杩汨杩瑨摥匠慴整┠2",
+        "湅整⁲桴⁥瑓瑡⁥〨㴠传晦※湁瑹楨杮䔠獬⁥‽湏)潴䠠杩汨杩瑨摥匠慴整┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Window Menu > Delete an Item from the Menu",
+      "text": "敄敬整䴠湥⁵瑉浥眠瑩⁨䑉┠‱牦浯圠湩潤⁷牯䴠湥⁵〥",
+      "menuId": 25370,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯漠⁲敍畮䠠湡汤e圠湩潤⁷牯䴠湥⁵〥",
+        "湅整⁲桴⁥敍畮䤠整⁭䑉漠⁦桴⁥瑉浥渀潤⁷牯䴠湥⁵〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Window Menu > Add an Item to a Submenu",
+      "text": "摁⁤㐥眠瑩⁨䑉┠″湩倠獯瑩潩⁮㈥漠⁦畓浢湥⁵ㄥ漠⁦楗摮睯漠⁲敍畮┠0",
+      "menuId": 25380,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯漠⁲敍畮䠠湡汤e漠⁦畓浢湥⁵ㄥ漠⁦楗摮睯漠⁲敍畮┠0",
+        "湅整⁲桴⁥䑉漠⁦桴⁥畓浢湥u汤e漠⁦畓浢湥⁵ㄥ漠⁦楗摮睯漠⁲敍畮┠0",
+        "湅整⁲桴⁥潐楳楴湯椠⁮桴⁥畓浢湥⁵〨戭獡摥)ㄥ漠⁦楗摮睯漠⁲敍畮┠0",
+        "湅整⁲桴⁥敍畮䤠整⁭䑉漠⁦桴⁥瑉浥　戭獡摥)ㄥ漠⁦楗摮睯漠⁲敍畮┠0",
+        "湅整⁲桴⁥敔瑸漠⁦桴⁥瑉浥栀⁥瑉浥　戭獡摥)ㄥ漠⁦楗摮睯漠⁲敍畮┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Window Menu > Delete a Submenu from a Menu Item",
+      "text": "敄敬整匠扵敭畮映潲⁭敍畮䤠整⁭楷桴䤠⁄ㄥ映潲⁭楗摮睯漠⁲敍畮┠0",
+      "menuId": 25390,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯漠⁲敍畮䠠湡汤e桴䤠⁄ㄥ映潲⁭楗摮睯漠⁲敍畮┠0",
+        "湅整⁲桴⁥䑉漠⁦桴⁥畓浢湥u汤e桴䤠⁄ㄥ映潲⁭楗摮睯漠⁲敍畮┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Window Status > Set Window Client Size",
+      "text": "敓⁴汃敩瑮匠穩⁥景圠湩潤⁷〥琠⁯ㄥ戠⁹㈥",
+      "menuId": 25400,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e⁷〥琠⁯ㄥ戠⁹㈥",
+        "湅整⁲桴⁥楗瑤h䠠湡汤e⁷〥琠⁯ㄥ戠⁹㈥",
+        "湅整⁲桴⁥效杩瑨䠀湡汤e⁷〥琠⁯ㄥ戠⁹㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Window Menu > Add a Separator to a Submenu",
+      "text": "摁⁤敓慰慲潴⁲楷桴䤠⁄㌥椠⁮潐楳楴湯┠′景匠扵敭畮┠‱景圠湩潤⁷牯䴠湥⁵〥",
+      "menuId": 25410,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯漠⁲敍畮䠠湡汤e楴湯┠′景匠扵敭畮┠‱景圠湩潤⁷牯䴠湥⁵〥",
+        "湅整⁲桴⁥䑉漠⁦桴⁥畓浢湥u汤e楴湯┠′景匠扵敭畮┠‱景圠湩潤⁷牯䴠湥⁵〥",
+        "湅整⁲桴⁥潐楳楴湯椠⁮桴⁥畓浢湥⁵〨戭獡摥)扵敭畮┠‱景圠湩潤⁷牯䴠湥⁵〥",
+        "湅整⁲桴⁥敍畮䤠整⁭䑉漠⁦桴⁥瑉浥　戭獡摥)扵敭畮┠‱景圠湩潤⁷牯䴠湥⁵〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Window Menu > Reset the System Menu of a Window",
+      "text": "敒敳⁴桴⁥祓瑳浥䴠湥⁵景圠湩潤⁷〥",
+      "menuId": 25420,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e圠湩潤⁷〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Window Menu > Add an Item to a Menu by Position",
+      "text": "摁⁤㌥眠瑩⁨䑉┠′湩倠獯瑩潩⁮ㄥ漠⁦楗摮睯漠⁲敍畮┠0",
+      "menuId": 25430,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯漠⁲敍畮䠠湡汤e漠⁦楗摮睯漠⁲敍畮┠0",
+        "湅整⁲桴⁥潐楳楴湯椠⁮桴⁥敍畮⠠ⴰ慢敳⥤眀漠⁲敍畮┠0",
+        "湅整⁲桴⁥敍畮䤠整⁭䑉漠⁦桴⁥瑉浥愀敳⥤眀漠⁲敍畮┠0",
+        "湅整⁲桴⁥敔瑸漠⁦桴⁥瑉浥栀⁥瑉浥愀敳⥤眀漠⁲敍畮┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Window Menu > Add a Separator to a Menu by Position",
+      "text": "摁⁤敓慰慲潴⁲楷桴䤠⁄㈥椠⁮潐楳楴湯┠‱景圠湩潤⁷牯䴠湥⁵〥",
+      "menuId": 25440,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯漠⁲敍畮䠠湡汤e楴湯┠‱景圠湩潤⁷牯䴠湥⁵〥",
+        "湅整⁲桴⁥潐楳楴湯椠⁮桴⁥敍畮⠠ⴰ慢敳⥤昀圠湩潤⁷牯䴠湥⁵〥",
+        "湅整⁲桴⁥敍畮䤠整⁭䑉漠⁦桴⁥瑉浥愀敳⥤昀圠湩潤⁷牯䴠湥⁵〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Window Menu > Redraw the Menu Bar of a Window",
+      "text": "敒牤睡琠敨䴠湥⁵慂⁲景圠湩潤⁷〥",
+      "menuId": 25450,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楗摮睯䠠湡汤e湩潤⁷〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Window Data > Get Window Caption Text",
+      "text": "慃瑰潩呮硥⑴(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Messages > Get Type of Last/Current Message",
+      "text": "敍獳条呥灹⡥",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Messages > Get wParam of Last/Current Message",
+      "text": "偷牡浡(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Messages > Get lParam of Last/Current Message",
+      "text": "偬牡浡(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Window Data > Get Window Style",
+      "text": "楗摮睯瑓汹⡥",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Window Data > Get Extended Window Style",
+      "text": "楗摮睯瑓汹䕥⡸",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Window Data > Get Main Window Handle",
+      "text": "慍湩楗摮睯慈摮敬(",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Messages > Get Window Handle of Last/Current Message",
+      "text": "慌瑳楗摮睯慈摮敬(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Errors > Get Last Error Code",
+      "text": "牅潲䍲摯⡥",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Errors > Get Last Expression Error Code",
+      "text": "硅牰獥楳湯牅潲䍲摯⡥",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Window Data > Get Edit Window Handle",
+      "text": "摅瑩楗摮睯慈摮敬(",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Window Data > Get Related Window Handle",
+      "text": "敒慬整坤湩潤䡷湡汤⡥",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Window Data > Get X Position of Window",
+      "text": "偘獯瑩潩⡮",
+      "menuId": 27120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Window Data > Get Y Position of Window",
+      "text": "偙獯瑩潩⡮",
+      "menuId": 27130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Window Data > Get Width of Window",
+      "text": "楗瑤⡨",
+      "menuId": 27140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Window Data > Get Height of Window",
+      "text": "效杩瑨(",
+      "menuId": 27150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Window Data > Get Visibility of Window",
+      "text": "楖楳楢楬祴(",
+      "menuId": 27160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Errors > Get Last Windows Error Code",
+      "text": "楗摮睯䕳牲牯潃敤(",
+      "menuId": 27170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Menu Data > Get Text of a Menu Item",
+      "text": "敍畮瑉浥敔瑸⠤",
+      "menuId": 27180,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Menu Data > Get Checked State of a Menu Item",
+      "text": "敍畮瑉浥桃捥敫⡤",
+      "menuId": 27190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Menu Data > Get Enabled State of a Menu Item",
+      "text": "敍畮瑉浥湅扡敬⡤",
+      "menuId": 27200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Menu Data > Get Highlighted State of a Menu Item",
+      "text": "敍畮瑉浥楈桧楬桧整⡤",
+      "menuId": 27210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Window Data > Get Client Width of Window",
+      "text": "汃敩瑮楗瑤⡨",
+      "menuId": 27220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Window Data > Get Client Height of Window",
+      "text": "汃敩瑮效杩瑨(",
+      "menuId": 27230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Window Data > Get Window Handle of Window with Focus",
+      "text": "楗摮睯楗桴潆畣⡳",
+      "menuId": 27240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Menu Data > Get Menu Handle of a Window",
+      "text": "楗摮睯敍畮慈摮敬(",
+      "menuId": 27250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Menu Data > Get System Menu Handle of a Window",
+      "text": "祓瑳浥敍畮慈摮敬(",
+      "menuId": 27260,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Miscellaneous > HIWORD",
+      "text": "䥈佗䑒(",
+      "menuId": 27280,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Miscellaneous > LOWORD",
+      "text": "佌佗䑒(",
+      "menuId": 27290,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Miscellaneous > Get Environment Variable",
+      "text": "湅楶潲浮湥噴牡⠤",
+      "menuId": 27300,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

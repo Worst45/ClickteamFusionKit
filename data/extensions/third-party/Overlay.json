@@ -1,0 +1,1469 @@
+{
+  "file": "Overlay.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Match Color",
+      "text": "漥›〥‬ㄥ洠瑡档獥┠2",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣牯楤慮整─2",
+        "湅整⁲⁙潣牯楤慮整─2",
+        "慍捴⁨潃潬r楤慮整─2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Match Color using RGB",
+      "text": "漥›〥‬ㄥ洠瑡档獥删䉇┨ⰲ┠ⰳ┠⤴",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣牯楤慮整刀䉇┨ⰲ┠ⰳ┠⤴",
+        "湅整⁲⁙潣牯楤慮整刀䉇┨ⰲ┠ⰳ┠⤴",
+        "湅整⁲⁒慶畬⁥〨㈭㔵)┨ⰲ┠ⰳ┠⤴",
+        "湅整⁲⁇慶畬⁥〨㈭㔵)┨ⰲ┠ⰳ┠⤴",
+        "湅整⁲⁂慶畬⁥〨㈭㔵)┨ⰲ┠ⰳ┠⤴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Is X,Y outside Overlay?",
+      "text": "漥›〥‬ㄥ椠⁳畯⁴景戠畯摮s",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣牯楤慮整昀戠畯摮s",
+        "湅整⁲⁙潣牯楤慮整昀戠畯摮s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Is Overlay Visible?",
+      "text": "漥›獉嘠獩扩敬",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Compare Color to RGB Value",
+      "text": "漥›〥‬ㄥ椠⁳煥慵⁬潴删䉇┨ⰲ┠ⰳ┠⤴",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣牯楤慮整 潴删䉇┨ⰲ┠ⰳ┠⤴",
+        "湅整⁲⁙潣牯楤慮整 潴删䉇┨ⰲ┠ⰳ┠⤴",
+        "湅整⁲⁒慶畬⁥〨㈭㔵)删䉇┨ⰲ┠ⰳ┠⤴",
+        "湅整⁲⁇慶畬⁥〨㈭㔵)删䉇┨ⰲ┠ⰳ┠⤴",
+        "湅整⁲⁂慶畬⁥〨㈭㔵)删䉇┨ⰲ┠ⰳ┠⤴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Has Overlay Finished Auto-Inking?",
+      "text": "漥›畁潴䤭歮湩⁧慈⁳楆楮桳摥",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Is Overlay Auto-Inking?",
+      "text": "漥›獉䄠瑵ⵯ湉楫杮",
+      "menuId": 26060,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Settings > Show Overlay",
+      "text": "桓睯传敶汲祡",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Settings > Hide Overlay",
+      "text": "楈敤传敶汲祡",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Use Color Chooser > Clear Overlay",
+      "text": "汃慥⁲漥眠瑩⁨〥",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "汃慥⁲癏牥慬y〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Use Color Chooser > Change Old Color to New Color",
+      "text": "敒汰捡⁥〥眠瑩⁨ㄥ",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24,
+        24
+      ],
+      "paramTitles": [
+        "桃湡敧传摬䌠汯牯琠⁯敎⁷潃潬r",
+        "桃湡敧传摬䌠汯牯琠⁯敎⁷潃潬r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Use Color Chooser > Set Pixel",
+      "text": "敓⁴〥‬ㄥ琠⁯㈥",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣牯楤慮整",
+        "湅整⁲⁙潣牯楤慮整",
+        "敓⁴楐數l牯楤慮整"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Use Color Chooser > Draw Line",
+      "text": "牄睡䰠湩⁥楷桴┠4",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "湅整⁲瑳牡楴杮堠挠潯摲湩瑡e",
+        "湅整⁲瑳牡楴杮夠挠潯摲湩瑡e",
+        "湅整⁲湥楤杮堠挠潯摲湩瑡ee",
+        "湅整⁲湥楤杮夠挠潯摲湩瑡ee",
+        "牄睡䰠湩e杮夠挠潯摲湩瑡ee"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Use Color Chooser > Draw Rectangle",
+      "text": "牄睡删捥慴杮敬眠瑩⁨㐥",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣牯楤慮整 㐥",
+        "湅整⁲⁙潣牯楤慮整 㐥",
+        "湅整⁲楗瑤h楤慮整 㐥",
+        "湅整⁲效杩瑨椀慮整 㐥",
+        "牄睡删捥慴杮敬愀整 㐥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Use Color Chooser > Draw Ellipse",
+      "text": "牄睡䔠汬灩敳眠瑩⁨㐥",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣牯楤慮整映牯琠敨挠湥整r",
+        "湅整⁲⁙潣牯楤慮整映牯琠敨挠湥整r",
+        "湅整⁲楗瑤h楤慮整映牯琠敨挠湥整r",
+        "湅整⁲效杩瑨椀慮整映牯琠敨挠湥整r",
+        "牄睡䔠汬灩敳椀慮整映牯琠敨挠湥整r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Use RGB > Clear Overlay",
+      "text": "汃慥⁲漥眠瑩⁨䝒⡂〥‬ㄥ‬㈥)",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁒慶畬⁥〨㈭㔵)ㄥ‬㈥)",
+        "湅整⁲⁇慶畬⁥〨㈭㔵)ㄥ‬㈥)",
+        "湅整⁲⁂慶畬⁥〨㈭㔵)ㄥ‬㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Use RGB > Change Old Color to New Color",
+      "text": "敒汰捡⁥䝒⡂〥‬ㄥ‬㈥ 楷桴删䉇┨ⰳ┠ⰴ┠⤵",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁒慶畬⁥〨㈭㔵) 楷桴删䉇┨ⰳ┠ⰴ┠⤵",
+        "湅整⁲⁇慶畬⁥〨㈭㔵) 楷桴删䉇┨ⰳ┠ⰴ┠⤵",
+        "湅整⁲⁂慶畬⁥〨㈭㔵) 楷桴删䉇┨ⰳ┠ⰴ┠⤵",
+        "湅整⁲⁒慶畬⁥〨㈭㔵) 楷桴删䉇┨ⰳ┠ⰴ┠⤵",
+        "湅整⁲⁇慶畬⁥〨㈭㔵) 楷桴删䉇┨ⰳ┠ⰴ┠⤵",
+        "湅整⁲⁂慶畬⁥〨㈭㔵) 楷桴删䉇┨ⰳ┠ⰴ┠⤵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Use RGB > Set Pixel",
+      "text": "敓⁴〥‬ㄥ琠⁯䝒⡂㈥‬㌥‬㐥)",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣牯楤慮整㈀‬㌥‬㐥)",
+        "湅整⁲⁙潣牯楤慮整㈀‬㌥‬㐥)",
+        "湅整⁲⁒慶畬⁥〨㈭㔵)㌥‬㐥)",
+        "湅整⁲⁇慶畬⁥〨㈭㔵)㌥‬㐥)",
+        "湅整⁲⁂慶畬⁥〨㈭㔵)㌥‬㐥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Use RGB > Draw Line",
+      "text": "牄睡䰠湩⁥楷桴删䉇┨ⰴ┠ⰵ┠⤶",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲瑳牡楴杮堠挠潯摲湩瑡e⤶",
+        "湅整⁲瑳牡楴杮夠挠潯摲湩瑡e⤶",
+        "湅整⁲湥楤杮堠挠潯摲湩瑡ee⤶",
+        "湅整⁲湥楤杮夠挠潯摲湩瑡ee⤶",
+        "湅整⁲⁒慶畬⁥〨㈭㔵)瑡ee⤶",
+        "湅整⁲⁇慶畬⁥〨㈭㔵)瑡ee⤶",
+        "湅整⁲⁂慶畬⁥〨㈭㔵)瑡ee⤶"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Use RGB > Draw Rectangle",
+      "text": "牄睡删捥慴杮敬眠瑩⁨䝒⡂㐥‬㔥‬㘥)",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣牯楤慮整 䝒⡂㐥‬㔥‬㘥)",
+        "湅整⁲⁙潣牯楤慮整 䝒⡂㐥‬㔥‬㘥)",
+        "湅整⁲楗瑤h楤慮整 䝒⡂㐥‬㔥‬㘥)",
+        "湅整⁲效杩瑨椀慮整 䝒⡂㐥‬㔥‬㘥)",
+        "湅整⁲⁒慶畬⁥〨㈭㔵)⡂㐥‬㔥‬㘥)",
+        "湅整⁲⁇慶畬⁥〨㈭㔵)⡂㐥‬㔥‬㘥)",
+        "湅整⁲⁂慶畬⁥〨㈭㔵)⡂㐥‬㔥‬㘥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Use RGB > Draw Ellipse",
+      "text": "牄睡䔠汬灩敳眠瑩⁨䝒⡂㐥‬㔥‬㘥)",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣牯楤慮整映牯琠敨挠湥整r",
+        "湅整⁲⁙潣牯楤慮整映牯琠敨挠湥整r",
+        "湅整⁲楗瑤h楤慮整映牯琠敨挠湥整r",
+        "湅整⁲效杩瑨椀慮整映牯琠敨挠湥整r",
+        "湅整⁲⁒慶畬⁥〨㈭㔵)琠敨挠湥整r",
+        "湅整⁲⁇慶畬⁥〨㈭㔵)琠敨挠湥整r",
+        "湅整⁲⁂慶畬⁥〨㈭㔵)琠敨挠湥整r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Files > Load Image",
+      "text": "潌摡䤠慭敧┠0",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆敬慮敭漠⁦桴⁥浉条⁥潴䰠慯d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Settings > Turn Stretching On",
+      "text": "瑓敲捴楨杮䔠慮汢摥",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Settings > Turn Stretching Off",
+      "text": "瑓敲捴楨杮䐠獩扡敬d",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Use Color Chooser > Flood Fill",
+      "text": "汆潯⁤楆汬┠′瑡┠ⰰ┠1",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣牯楤慮整Ⰰ┠1",
+        "湅整⁲⁙潣牯楤慮整Ⰰ┠1",
+        "汆潯⁤楆汬爀楤慮整Ⰰ┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Use RGB > Flood Fill",
+      "text": "汆潯⁤楆汬删䉇┨ⰲ┠ⰳ┠⤴愠⁴〥‬ㄥ",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣牯楤慮整─ⰳ┠⤴愠⁴〥‬ㄥ",
+        "湅整⁲⁙潣牯楤慮整─ⰳ┠⤴愠⁴〥‬ㄥ",
+        "湅整⁲⁒慶畬⁥〨㈭㔵)┠⤴愠⁴〥‬ㄥ",
+        "湅整⁲⁇慶畬⁥〨㈭㔵)┠⤴愠⁴〥‬ㄥ",
+        "湅整⁲⁂慶畬⁥〨㈭㔵)┠⤴愠⁴〥‬ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Files > Save Image",
+      "text": "慓敶䤠慭敧┠0",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆敬慮敭漠⁦桴⁥浉条⁥潴䰠慯d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Position and Size > Set Position in Frame",
+      "text": "敓⁴潐楳楴湯漠⁦癏牥慬⁹潴┠0",
+      "menuId": 25200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        16
+      ],
+      "paramTitles": [
+        "敓敬瑣琠敨倠獯瑩潩⁮景琠敨传敶汲祡"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Position and Size > Set X Position in Frame",
+      "text": "敓⁴⁘潐楳楴湯漠⁦癏牥慬⁹潴┠0",
+      "menuId": 25210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣牯楤慮整瘀牥慬⁹潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Position and Size > Set Y Position in Frame",
+      "text": "敓⁴⁙潐楳楴湯漠⁦癏牥慬⁹潴┠0",
+      "menuId": 25220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁙潣牯楤慮整瘀牥慬⁹潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Settings > Turn Automatic Display Update On",
+      "text": "畁潴慭楴⁣楄灳慬⁹灕慤楴杮䔠慮汢摥",
+      "menuId": 25230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Settings > Turn Automatic Display Update Off",
+      "text": "畁潴慭楴⁣楄灳慬⁹灕慤楴杮䐠獩扡敬d",
+      "menuId": 25240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Settings > Turn Immediate Display Update On",
+      "text": "浉敭楤瑡⁥楄灳慬⁹灕慤楴杮䔠慮汢摥",
+      "menuId": 25250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Settings > Turn Immediate Display Update Off",
+      "text": "浉敭楤瑡⁥楄灳慬⁹灕慤楴杮䐠獩扡敬d",
+      "menuId": 25260,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Settings > Set Functions to Use Absoulte Positions",
+      "text": "獕⁥景䄠獢汯瑵⁥潐楳楴湯⁳湅扡敬d",
+      "menuId": 25270,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Settings > Set Functions to Use Relative Positions",
+      "text": "獕⁥景删汥瑡癩⁥潐楳楴湯⁳湅扡敬d",
+      "menuId": 25280,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Settings > Draw in Opaque Mode",
+      "text": "灏煡敵䴠摯⁥湅扡敬d",
+      "menuId": 25290,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Settings > Draw in Transparent Mode",
+      "text": "牔湡灳牡湥⁴潍敤䔠慮汢摥",
+      "menuId": 25300,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Update Display",
+      "text": "灕慤整䐠獩汰祡",
+      "menuId": 25310,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Use GetRGB (allows thickness and borders) > Clear Overlay",
+      "text": "汃慥⁲漥眠瑩⁨潣潬⁲湩敤⁸〥",
+      "menuId": 25320,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潃潬⁲湉敤⁸用敳䴠䙍猧䜠瑥䝒⡂ⱒⱇ⥂映湵瑣潩⥮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Use GetRGB (allows thickness and borders) > Change Old Color to New Color",
+      "text": "敒汰捡⁥潣潬⁲湩敤⁸〥眠瑩⁨ㄥ",
+      "menuId": 25330,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潃潬⁲湉敤⁸用敳䴠䙍猧䜠瑥䝒⡂ⱒⱇ⥂映湵瑣潩⥮",
+        "湅整⁲潃潬⁲湉敤⁸用敳䴠䙍猧䜠瑥䝒⡂ⱒⱇ⥂映湵瑣潩⥮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Use GetRGB (allows thickness and borders) > Set Pixel",
+      "text": "敓⁴〥‬ㄥ琠⁯潣潬⁲湩敤⁸㈥",
+      "menuId": 25340,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣牯楤慮整 湩敤⁸㈥",
+        "湅整⁲⁙潣牯楤慮整 湩敤⁸㈥",
+        "湅整⁲潃潬⁲湉敤⁸用敳䴠䙍猧䜠瑥䝒⡂ⱒⱇ⥂映湵瑣潩⥮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Use GetRGB (allows thickness and borders) > Draw Line",
+      "text": "牄睡䰠湩⁥楷桴挠汯牯椠摮硥┠‵湡⁤桴捩湫獥⁳㐥",
+      "menuId": 25350,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲瑳牡楴杮堠挠潯摲湩瑡e‵湡⁤桴捩湫獥⁳㐥",
+        "湅整⁲瑳牡楴杮夠挠潯摲湩瑡e‵湡⁤桴捩湫獥⁳㐥",
+        "湅整⁲湥楤杮堠挠潯摲湩瑡ee‵湡⁤桴捩湫獥⁳㐥",
+        "湅整⁲湥楤杮夠挠潯摲湩瑡ee‵湡⁤桴捩湫獥⁳㐥",
+        "湅整⁲桔捩湫獥⁳景䰠湩⁥牯传瑵楬敮栀捩湫獥⁳㐥",
+        "湅整⁲潃潬⁲湉敤⁸用敳䴠䙍猧䜠瑥䝒⡂ⱒⱇ⥂映湵瑣潩⥮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Use GetRGB (allows thickness and borders) > Draw Rectangle",
+      "text": "牄睡删捥慴杮敬眠瑩⁨潣潬⁲湩敤⁸㐥愠摮漠瑵楬敮┠6",
+      "menuId": 25360,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣牯楤慮整 潣潬⁲湩敤⁸㐥愠摮漠瑵楬敮┠6",
+        "湅整⁲⁙潣牯楤慮整 潣潬⁲湩敤⁸㐥愠摮漠瑵楬敮┠6",
+        "湅整⁲楗瑤h楤慮整 潣潬⁲湩敤⁸㐥愠摮漠瑵楬敮┠6",
+        "湅整⁲效杩瑨椀慮整 潣潬⁲湩敤⁸㐥愠摮漠瑵楬敮┠6",
+        "湅整⁲潃潬⁲湉敤⁸景䘠汩⁬用敳琠敨丠⁯楆汬䌠汯牯映牯渠⁯楦汬)",
+        "湅整⁲桔捩湫獥⁳景䰠湩⁥牯传瑵楬敮一⁯楆汬䌠汯牯映牯渠⁯楦汬)",
+        "湅整⁲潃潬⁲湉敤⁸景传瑵楬敮琀楬敮一⁯楆汬䌠汯牯映牯渠⁯楦汬)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Use GetRGB (allows thickness and borders) > Draw Ellipse",
+      "text": "牄睡䔠汬灩敳眠瑩⁨潣潬⁲湩敤⁸㐥愠摮漠瑵楬敮┠6",
+      "menuId": 25370,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣牯楤慮整映牯琠敨挠湥整r摮漠瑵楬敮┠6",
+        "湅整⁲⁙潣牯楤慮整映牯琠敨挠湥整r摮漠瑵楬敮┠6",
+        "湅整⁲楗瑤h楤慮整映牯琠敨挠湥整r摮漠瑵楬敮┠6",
+        "湅整⁲效杩瑨椀慮整映牯琠敨挠湥整r摮漠瑵楬敮┠6",
+        "湅整⁲潃潬⁲湉敤⁸景䘠汩⁬用敳琠敨丠⁯楆汬䌠汯牯映牯渠⁯楦汬)",
+        "湅整⁲桔捩湫獥⁳景䰠湩⁥牯传瑵楬敮一⁯楆汬䌠汯牯映牯渠⁯楦汬)",
+        "湅整⁲潃潬⁲湉敤⁸景传瑵楬敮琀楬敮一⁯楆汬䌠汯牯映牯渠⁯楦汬)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Use GetRGB (allows thickness and borders) > Flood Fill",
+      "text": "汆潯⁤楆汬挠汯牯椠摮硥┠′瑡┠ⰰ┠1",
+      "menuId": 25380,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣牯楤慮整搀硥┠′瑡┠ⰰ┠1",
+        "湅整⁲⁙潣牯楤慮整搀硥┠′瑡┠ⰰ┠1",
+        "湅整⁲潃潬⁲湉敤⁸用敳䴠䙍猧䜠瑥䝒⡂ⱒⱇ⥂映湵瑣潩⥮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Use GetRGB (allows thickness and borders) > Draw Polygon",
+      "text": "牄睡倠汯杹湯眠瑩⁨潣潬⁲湩敤⁸ㄥ愠摮漠瑵楬敮┠3",
+      "menuId": 25390,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潐湩獴漠⁦敖瑲捩獥漠⁦潐祬潧㩮∠砨ⰱㅹ 砨ⰱㅹ∩⸮.",
+        "湅整⁲潃潬⁲湉敤⁸景䘠汩⁬用敳琠敨丠⁯楆汬䌠汯牯映牯渠⁯楦汬)",
+        "湅整⁲桔捩湫獥⁳景䰠湩⁥牯传瑵楬敮一⁯楆汬䌠汯牯映牯渠⁯楦汬)",
+        "湅整⁲潃潬⁲湉敤⁸景传瑵楬敮琀楬敮一⁯楆汬䌠汯牯映牯渠⁯楦汬)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Position and Size > Resize Overlay",
+      "text": "敒楳敺琠⁯〥戠⁹ㄥ",
+      "menuId": 25400,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲楗瑤h戠⁹ㄥ",
+        "湅整⁲效杩瑨戀⁹ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Use GetRGB (allows thickness and borders) > Plotting > Add Point to Plot",
+      "text": "摁⁤潐湩⁴ 〥Ⱐ┠‱ 潴倠潬t",
+      "menuId": 25410,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣牯楤慮整  潴倠潬t",
+        "湅整⁲⁙潣牯楤慮整  潴倠潬t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Use GetRGB (allows thickness and borders) > Plotting > Plot Ploygon",
+      "text": "汐瑯倠汯杹湯眠瑩⁨潣潬⁲湩敤⁸〥愠摮漠瑵楬敮┠2",
+      "menuId": 25420,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潃潬⁲湉敤⁸景䘠汩⁬用敳琠敨丠⁯楆汬䌠汯牯映牯渠⁯楦汬)",
+        "湅整⁲桔捩湫獥⁳景䰠湩⁥牯传瑵楬敮一⁯楆汬䌠汯牯映牯渠⁯楦汬)",
+        "湅整⁲潃潬⁲湉敤⁸景传瑵楬敮琀楬敮一⁯楆汬䌠汯牯映牯渠⁯楦汬)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Use GetRGB (allows thickness and borders) > Plotting > Clear Points",
+      "text": "汃慥⁲潐湩獴",
+      "menuId": 25430,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Pasting > Paste Object into Overlay",
+      "text": "慐瑳⁥〥椠瑮⁯癏牥慬y",
+      "menuId": 25440,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥扏敪瑣爀慬y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Settings > Keep Points After Plotting Polygon",
+      "text": "敋灥倠楯瑮⁳晁整⁲汐瑯楴杮倠汯杹湯",
+      "menuId": 25450,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Settings > Remove Points After Plotting Polygon",
+      "text": "敒潭敶倠楯瑮⁳晁整⁲汐瑯楴杮倠汯杹湯",
+      "menuId": 25460,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Ink Effect > Set Ink Effect to None",
+      "text": "敓⁴湉⁫晅敦瑣琠⁯潎敮",
+      "menuId": 25470,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Ink Effect > Set Ink Effect to Semi-transparency",
+      "text": "敓⁴湉⁫晅敦瑣琠⁯敓業琭慲獮慰敲据⁹楷桴嘠污敵┠0",
+      "menuId": 25480,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湉⁫晅敦瑣嘠污敵⠠ⴰ㈱⤸攀据⁹楷桴嘠污敵┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Ink Effect > Set Ink Effect to Invert",
+      "text": "敓⁴湉⁫晅敦瑣琠⁯湉敶瑲",
+      "menuId": 25490,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 50,
+      "menu": "Ink Effect > Set Ink Effect to Xor",
+      "text": "敓⁴湉⁫晅敦瑣琠⁯潘r",
+      "menuId": 25500,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "Ink Effect > Set Ink Effect to And",
+      "text": "敓⁴湉⁫晅敦瑣琠⁯湁d",
+      "menuId": 25510,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 52,
+      "menu": "Ink Effect > Set Ink Effect to Or",
+      "text": "敓⁴湉⁫晅敦瑣琠⁯牏",
+      "menuId": 25520,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 53,
+      "menu": "Ink Effect > Set Ink Effect to And Not",
+      "text": "敓⁴湉⁫晅敦瑣琠⁯湁⁤潎t",
+      "menuId": 25530,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 54,
+      "menu": "Ink Effect > Enable Anti-Aliasing",
+      "text": "湅扡敬䄠瑮⵩汁慩楳杮",
+      "menuId": 25540,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 55,
+      "menu": "Ink Effect > Disable Anti-Aliasing",
+      "text": "楄慳汢⁥湁楴䄭楬獡湩g",
+      "menuId": 25550,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 56,
+      "menu": "Ink Effect > Set Ink Effect Value",
+      "text": "敓⁴湉⁫晅敦瑣嘠污敵琠⁯〥",
+      "menuId": 25560,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湉⁫晅敦瑣嘠污敵⠠ⴰ㈱⤸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 57,
+      "menu": "Ink Effect > Start Auto-Inking",
+      "text": "瑓牡⁴畁潴䤭歮湩⁧楷桴匠数摥┠0",
+      "menuId": 25570,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲畁潴䤭歮湩⁧灓敥⁤挨湡戠⁥敮慧楴敶愠摮漯⁲汦慯楴杮瀠楯瑮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 58,
+      "menu": "Ink Effect > Stop Auto-Inking",
+      "text": "瑓灯䄠瑵ⵯ湉楫杮",
+      "menuId": 25580,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 59,
+      "menu": "Ink Effect > Reverse Auto-Inking",
+      "text": "敒敶獲⁥楄敲瑣潩⁮景䄠瑵ⵯ湉楫杮",
+      "menuId": 25590,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 60,
+      "menu": "Ink Effect > Set Ink Effect by Number",
+      "text": "敓⁴湉⁫晅敦瑣琠⁯〥",
+      "menuId": 25600,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥畎扭牥漠⁦桴⁥湉⁫晅敦瑣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 61,
+      "menu": "Use GetRGB (allows thickness and borders) > Draw Shape",
+      "text": "牄睡匠慨数眠瑩⁨潣潬⁲湩敤⁸ㄥ愠摮漠瑵楬敮┠3",
+      "menuId": 25610,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潐湩獴漠⁦敖瑲捩獥漠⁦潐祬潧㩮∠砨ⰱㅹ 砨ⰱㅹ∩⸮.",
+        "湅整⁲潃潬⁲湉敤⁸景䘠汩⁬用敳琠敨丠⁯楆汬䌠汯牯映牯渠⁯楦汬)",
+        "湅整⁲桔捩湫獥⁳景䰠湩⁥牯传瑵楬敮一⁯楆汬䌠汯牯映牯渠⁯楦汬)",
+        "湅整⁲潃潬⁲湉敤⁸景传瑵楬敮琀楬敮一⁯楆汬䌠汯牯映牯渠⁯楦汬)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 62,
+      "menu": "Use GetRGB (allows thickness and borders) > Plotting > Plot Shape",
+      "text": "汐瑯匠慨数眠瑩⁨潣潬⁲湩敤⁸〥愠摮漠瑵楬敮┠2",
+      "menuId": 25620,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潃潬⁲湉敤⁸景䘠汩⁬用敳琠敨丠⁯楆汬䌠汯牯映牯渠⁯楦汬)",
+        "湅整⁲桔捩湫獥⁳景䰠湩⁥牯传瑵楬敮一⁯楆汬䌠汯牯映牯渠⁯楦汬)",
+        "湅整⁲潃潬⁲湉敤⁸景传瑵楬敮琀楬敮一⁯楆汬䌠汯牯映牯渠⁯楦汬)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 63,
+      "menu": "Pasting > Paste Overlay into Overlay",
+      "text": "慐瑳⁥癏牥慬⁹〥椠瑮⁯癏牥慬y",
+      "menuId": 25630,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆數⁤慖畬⁥景琠敨匠畯捲⁥癏牥慬y",
+        "湅整⁲桴⁥⁘潃牯楤慮整漠⁦桴⁥敒楧湯漠⁦桴⁥潓牵散琠⁯慐瑳e",
+        "湅整⁲桴⁥⁙潃牯楤慮整漠⁦桴⁥敒楧湯漠⁦桴⁥潓牵散琠⁯慐瑳e",
+        "湅整⁲桴⁥楗瑤⁨景琠敨删来潩⁮景琠敨匠畯捲⁥潴倠獡整 慐瑳e",
+        "湅整⁲桴⁥效杩瑨漠⁦桴⁥敒楧湯漠⁦桴⁥潓牵散琠⁯慐瑳e慐瑳e",
+        "湅整⁲桴⁥⁘潃牯楤慮整漠⁦桴⁥敒楧湯漠⁦桴⁥敄瑳湩瑡潩⁮湩眠楨档琠⁯慐瑳e",
+        "湅整⁲桴⁥⁙潃牯楤慮整漠⁦桴⁥敒楧湯漠⁦桴⁥敄瑳湩瑡潩⁮湩眠楨档琠⁯慐瑳e",
+        "湅整⁲桴⁥楗瑤⁨景琠敨删来潩⁮景琠敨䐠獥楴慮楴湯椠⁮桷捩⁨潴倠獡整 慐瑳e",
+        "湅整⁲桴⁥效杩瑨漠⁦桴⁥敒楧湯漠⁦桴⁥敄瑳湩瑡潩⁮湩眠楨档琠⁯慐瑳e慐瑳e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Red(x,y)",
+      "text": "癯䝬瑥敒⡤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Green(x,y)",
+      "text": "癯䝬瑥片敥⡮",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Blue(x,y)",
+      "text": "癯䝬瑥求敵(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get Color$(x,y)",
+      "text": "癯䝬瑥潃潬⑲(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get RGB$(x,y)",
+      "text": "癯䝬瑥䝒⑂(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get X Position of Overlay",
+      "text": "癯䝬瑥偘獯瑩潩⡮",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Get Y Position of Overlay",
+      "text": "癯䝬瑥偙獯瑩潩⡮",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Make Color Range Value",
+      "text": "癯䍬汯牯慒杮⡥",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Get No Fill Color",
+      "text": "癯乬䙯汩䍬汯牯(",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Get Width of Overlay",
+      "text": "癯䝬瑥楗瑤⡨",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Get Height of Overlay",
+      "text": "癯䝬瑥效杩瑨(",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Get Ink Effect Value",
+      "text": "癯䝬瑥湉噫污敵(",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Get Auto-Inking Speed",
+      "text": "癯䝬瑥湉卫数摥(",
+      "menuId": 27120,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Get Ink Effect",
+      "text": "癯䝬瑥湉䕫晦捥⡴",
+      "menuId": 27130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Get Address of Overlay",
+      "text": "癯䅬摤敲獳(",
+      "menuId": 27140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Get ColorIndex(x,y)",
+      "text": "癯䝬瑥潃潬䥲摮硥(",
+      "menuId": 27150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

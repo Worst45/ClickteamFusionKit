@@ -1,0 +1,1527 @@
+{
+  "file": "PosControl.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Stored Objects > Object is Stored",
+      "text": "漥›扏敪瑣┠‰獩匠潴敲d",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "扏敪瑣攀瑣┠‰獩匠潴敲d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Attach Objects > Object is Parent",
+      "text": "漥›扏敪瑣┠‰獩愠⁮瑁慴档敭瑮倠牡湥t",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "扏敪瑣攀瑣┠‰獩愠⁮瑁慴档敭瑮倠牡湥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Attach Objects > Object is Child",
+      "text": "漥›扏敪瑣┠‰獩愠⁮瑁慴档敭瑮䌠楨摬",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "扏敪瑣攀瑣┠‰獩愠⁮瑁慴档敭瑮䌠楨摬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Track Movement > On Object Movement",
+      "text": "漥›湏䴠癯浥湥⁴景┠0",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "扏敪瑣䴀癯浥湥⁴景┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Track Movement > Object has Tracker",
+      "text": "漥›扏敪瑣┠‰慨⁳牔捡敫r",
+      "menuId": 26004,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "扏敪瑣攀瑣┠‰慨⁳牔捡敫r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Bounding Box > Contains Point",
+      "text": "漥›潂湵楤杮䈠硯漠⁦〥䌠湯慴湩⁳潐湩⁴┨ⰱ㈥)",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        1,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣渀楤杮䈠硯漠⁦〥䌠湯慴湩⁳潐湩⁴┨ⰱ㈥)",
+        "X敪瑣渀楤杮䈠硯漠⁦〥䌠湯慴湩⁳潐湩⁴┨ⰱ㈥)",
+        "Y敪瑣渀楤杮䈠硯漠⁦〥䌠湯慴湩⁳潐湩⁴┨ⰱ㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Bounding Box > Contains Rectangle",
+      "text": "漥›潂湵楤杮䈠硯漠⁦〥䌠湯慴湩⁳敒瑣湡汧⁥┨ⰱ㈥⴩┨ⰳ㐥)",
+      "menuId": 26006,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        1,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣渀楤杮䈠硯漠⁦〥䌠湯慴湩⁳敒瑣湡汧⁥┨ⰱ㈥⴩┨ⰳ㐥)",
+        "ㅘ攀瑣渀楤杮䈠硯漠⁦〥䌠湯慴湩⁳敒瑣湡汧⁥┨ⰱ㈥⴩┨ⰳ㐥)",
+        "ㅙ攀瑣渀楤杮䈠硯漠⁦〥䌠湯慴湩⁳敒瑣湡汧⁥┨ⰱ㈥⴩┨ⰳ㐥)",
+        "㉘攀瑣渀楤杮䈠硯漠⁦〥䌠湯慴湩⁳敒瑣湡汧⁥┨ⰱ㈥⴩┨ⰳ㐥)",
+        "㉙攀瑣渀楤杮䈠硯漠⁦〥䌠湯慴湩⁳敒瑣湡汧⁥┨ⰱ㈥⴩┨ⰳ㐥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Bounding Box > Overlaps Rectangle",
+      "text": "漥›潂湵楤杮䈠硯漠⁦〥传敶汲灡⁳敒瑣湡汧⁥┨ⰱ㈥⴩┨ⰳ㐥)",
+      "menuId": 26007,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        1,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣渀楤杮䈠硯漠⁦〥传敶汲灡⁳敒瑣湡汧⁥┨ⰱ㈥⴩┨ⰳ㐥)",
+        "ㅘ攀瑣渀楤杮䈠硯漠⁦〥传敶汲灡⁳敒瑣湡汧⁥┨ⰱ㈥⴩┨ⰳ㐥)",
+        "ㅙ攀瑣渀楤杮䈠硯漠⁦〥传敶汲灡⁳敒瑣湡汧⁥┨ⰱ㈥⴩┨ⰳ㐥)",
+        "㉘攀瑣渀楤杮䈠硯漠⁦〥传敶汲灡⁳敒瑣湡汧⁥┨ⰱ㈥⴩┨ⰳ㐥)",
+        "㉙攀瑣渀楤杮䈠硯漠⁦〥传敶汲灡⁳敒瑣湡汧⁥┨ⰱ㈥⴩┨ⰳ㐥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Bounding Box > Is Inside Rectangle",
+      "text": "漥›潂湵楤杮䈠硯漠⁦〥椠⁳湉楳敤删捥慴杮敬⠠ㄥ┬⤲⠭㌥┬⤴",
+      "menuId": 26008,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        1,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣渀楤杮䈠硯漠⁦〥椠⁳湉楳敤删捥慴杮敬⠠ㄥ┬⤲⠭㌥┬⤴",
+        "ㅘ攀瑣渀楤杮䈠硯漠⁦〥椠⁳湉楳敤删捥慴杮敬⠠ㄥ┬⤲⠭㌥┬⤴",
+        "ㅙ攀瑣渀楤杮䈠硯漠⁦〥椠⁳湉楳敤删捥慴杮敬⠠ㄥ┬⤲⠭㌥┬⤴",
+        "㉘攀瑣渀楤杮䈠硯漠⁦〥椠⁳湉楳敤删捥慴杮敬⠠ㄥ┬⤲⠭㌥┬⤴",
+        "㉙攀瑣渀楤杮䈠硯漠⁦〥椠⁳湉楳敤删捥慴杮敬⠠ㄥ┬⤲⠭㌥┬⤴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Force Position > On Position Force",
+      "text": "漥›湏倠獯瑩潩⁮潆捲e",
+      "menuId": 26009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Force Position > Last Force Had Effect",
+      "text": "漥›慌瑳倠獯瑩潩⁮潆捲⁥慈⁤晅敦瑣",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Stored Objects > Store Object",
+      "text": "瑓牯⁥扏敪瑣┠0",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣戀敪瑣┠0",
+        "瑓牯⁥扏敪瑣椠⁦畄汰捩瑡㽥⠠㴰潎‬㴱教⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Stored Objects > Remove All",
+      "text": "敒潭敶䄠汬匠潴敲⁤扏敪瑣s",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Align in Frame > Single Object > Align Left",
+      "text": "汁杩⁮扏敪瑣┠‰潴琠敨䰠晥⁴䈨牯敤㩲┠⤱",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣戀敪瑣┠‰潴琠敨䰠晥⁴䈨牯敤㩲┠⤱",
+        "敌瑦䈠牯敤r┠‰潴琠敨䰠晥⁴䈨牯敤㩲┠⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Align in Frame > Single Object > Align Horz Center",
+      "text": "潈楲潺瑮污祬䌠湥整⁲扏敪瑣┠‰䈨牯敤獲›ㄥ‬㈥)",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣琀污祬䌠湥整⁲扏敪瑣┠‰䈨牯敤獲›ㄥ‬㈥)",
+        "敌瑦䈠牯敤r䌠湥整⁲扏敪瑣┠‰䈨牯敤獲›ㄥ‬㈥)",
+        "楒桧⁴潂摲牥䌀湥整⁲扏敪瑣┠‰䈨牯敤獲›ㄥ‬㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Align in Frame > Single Object > Align Right",
+      "text": "汁杩⁮扏敪瑣┠‰潴琠敨删杩瑨⠠潂摲牥›ㄥ)",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣戀敪瑣┠‰潴琠敨删杩瑨⠠潂摲牥›ㄥ)",
+        "楒桧⁴潂摲牥─‰潴琠敨删杩瑨⠠潂摲牥›ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Align in Frame > Single Object > Align Top",
+      "text": "汁杩⁮扏敪瑣┠‰潴琠敨吠灯⠠潂摲牥›ㄥ)",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣戀敪瑣┠‰潴琠敨吠灯⠠潂摲牥›ㄥ)",
+        "潔⁰潂摲牥琀┠‰潴琠敨吠灯⠠潂摲牥›ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Align in Frame > Single Object > Align Vert Center",
+      "text": "敖瑲捩污祬䌠湥整⁲扏敪瑣┠‰䈨牯敤獲›ㄥ‬㈥)",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣氀祬䌠湥整⁲扏敪瑣┠‰䈨牯敤獲›ㄥ‬㈥)",
+        "潔⁰潂摲牥䌀湥整⁲扏敪瑣┠‰䈨牯敤獲›ㄥ‬㈥)",
+        "潂瑴浯䈠牯敤r整⁲扏敪瑣┠‰䈨牯敤獲›ㄥ‬㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Align in Frame > Single Object > Align Bottom",
+      "text": "汁杩⁮扏敪瑣┠‰潴琠敨䈠瑯潴⁭䈨牯敤㩲┠⤱",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣戀敪瑣┠‰潴琠敨䈠瑯潴⁭䈨牯敤㩲┠⤱",
+        "潂瑴浯䈠牯敤r‰潴琠敨䈠瑯潴⁭䈨牯敤㩲┠⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Align in Frame > Stored Objects > Align Left",
+      "text": "汁杩⁮瑓牯摥传橢捥獴琠⁯桴⁥敌瑦⠠片畯㩰┠⤰⠠潂摲牥›ㄥ)",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "獕⁥扏敪瑣⁳獡䜠潲灵‿〨丽Ɐㄠ夽獥)畯㩰┠⤰⠠潂摲牥›ㄥ)",
+        "敌瑦䈠牯敤r獡䜠潲灵‿〨丽Ɐㄠ夽獥)畯㩰┠⤰⠠潂摲牥›ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Align in Frame > Stored Objects > Align Horz Center",
+      "text": "潈楲潺瑮污祬䌠湥整⁲瑓牯摥传橢捥獴⠠片畯㩰┠⤰⠠潂摲牥㩳┠ⰱ┠⤲",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "獕⁥扏敪瑣⁳獡䜠潲灵‿〨丽Ɐㄠ夽獥)片畯㩰┠⤰⠠潂摲牥㩳┠ⰱ┠⤲",
+        "敌瑦䈠牯敤r獡䜠潲灵‿〨丽Ɐㄠ夽獥)片畯㩰┠⤰⠠潂摲牥㩳┠ⰱ┠⤲",
+        "楒桧⁴潂摲牥猀䜠潲灵‿〨丽Ɐㄠ夽獥)片畯㩰┠⤰⠠潂摲牥㩳┠ⰱ┠⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Align in Frame > Stored Objects > Align Right",
+      "text": "汁杩⁮瑓牯摥传橢捥獴琠⁯桴⁥楒桧⁴䜨潲灵›〥 䈨牯敤㩲┠⤱",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "獕⁥扏敪瑣⁳獡䜠潲灵‿〨丽Ɐㄠ夽獥)潲灵›〥 䈨牯敤㩲┠⤱",
+        "楒桧⁴潂摲牥猀䜠潲灵‿〨丽Ɐㄠ夽獥)潲灵›〥 䈨牯敤㩲┠⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Align in Frame > Stored Objects > Align Top",
+      "text": "汁杩⁮瑓牯摥传橢捥獴琠⁯桴⁥潔⁰䜨潲灵›〥 䈨牯敤㩲┠⤱",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "獕⁥扏敪瑣⁳獡䜠潲灵‿〨丽Ɐㄠ夽獥)灵›〥 䈨牯敤㩲┠⤱",
+        "潔⁰潂摲牥 獡䜠潲灵‿〨丽Ɐㄠ夽獥)灵›〥 䈨牯敤㩲┠⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Align in Frame > Stored Objects > Align Vert Center",
+      "text": "敖瑲捩污祬䌠湥整⁲瑓牯摥传橢捥獴⠠片畯㩰┠⤰⠠潂摲牥㩳┠ⰱ┠⤲",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "獕⁥扏敪瑣⁳獡䜠潲灵‿〨丽Ɐㄠ夽獥)畯㩰┠⤰⠠潂摲牥㩳┠ⰱ┠⤲",
+        "潔⁰潂摲牥 獡䜠潲灵‿〨丽Ɐㄠ夽獥)畯㩰┠⤰⠠潂摲牥㩳┠ⰱ┠⤲",
+        "潂瑴浯䈠牯敤r䜠潲灵‿〨丽Ɐㄠ夽獥)畯㩰┠⤰⠠潂摲牥㩳┠ⰱ┠⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Align in Frame > Stored Objects > Align Bottom",
+      "text": "汁杩⁮瑓牯摥传橢捥獴琠⁯桴⁥潂瑴浯⠠片畯㩰┠⤰⠠潂摲牥›ㄥ)",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "獕⁥扏敪瑣⁳獡䜠潲灵‿〨丽Ɐㄠ夽獥)片畯㩰┠⤰⠠潂摲牥›ㄥ)",
+        "潂瑴浯䈠牯敤r䜠潲灵‿〨丽Ɐㄠ夽獥)片畯㩰┠⤰⠠潂摲牥›ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Align Objects > Left",
+      "text": "汁杩⁮敌瑦䈠牯敤獲漠⁦瑓牯摥传橢捥獴眠瑩⁨慍瑳牥传橢捥⁴〥",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "慍瑳牥传橢捥t敤獲漠⁦瑓牯摥传橢捥獴眠瑩⁨慍瑳牥传橢捥⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Align Objects > Horz Center",
+      "text": "潈楲潺瑮污祬䌠湥整⁲瑓牯摥传橢捥獴眠瑩⁨慍瑳牥传橢捥⁴〥",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "慍瑳牥传橢捥t湥整⁲瑓牯摥传橢捥獴眠瑩⁨慍瑳牥传橢捥⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Align Objects > Right",
+      "text": "汁杩⁮楒桧⁴潂摲牥⁳景匠潴敲⁤扏敪瑣⁳楷桴䴠獡整⁲扏敪瑣┠0",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "慍瑳牥传橢捥t摲牥⁳景匠潴敲⁤扏敪瑣⁳楷桴䴠獡整⁲扏敪瑣┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Align Objects > Top",
+      "text": "汁杩⁮潔⁰潂摲牥⁳景匠潴敲⁤扏敪瑣⁳楷桴䴠獡整⁲扏敪瑣┠0",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "慍瑳牥传橢捥t牥⁳景匠潴敲⁤扏敪瑣⁳楷桴䴠獡整⁲扏敪瑣┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Align Objects > Vert Center",
+      "text": "敖瑲捩污祬䌠湥整⁲瑓牯摥传橢捥獴眠瑩⁨慍瑳牥传橢捥⁴〥",
+      "menuId": 25018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "慍瑳牥传橢捥t整⁲瑓牯摥传橢捥獴眠瑩⁨慍瑳牥传橢捥⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Align Objects > Bottom",
+      "text": "汁杩⁮潂瑴浯䈠牯敤獲漠⁦瑓牯摥传橢捥獴眠瑩⁨慍瑳牥传橢捥⁴〥",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "慍瑳牥传橢捥t牯敤獲漠⁦瑓牯摥传橢捥獴眠瑩⁨慍瑳牥传橢捥⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Attach Objects > Attach Single Object",
+      "text": "瑁慴档┠‱潴┠0",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "慐敲瑮传橢捥t0",
+        "桃汩⁤扏敪瑣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Attach Objects > Attach Stored Objects",
+      "text": "瑁慴档愠汬匠潴敲⁤扏敪瑣⁳潴┠0",
+      "menuId": 25021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "慐敲瑮传橢捥t敲⁤扏敪瑣⁳潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Attach Objects > Detach Single Object",
+      "text": "敄慴档┠‰牦浯倠牡湥t",
+      "menuId": 25022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "扏敪瑣─‰牦浯倠牡湥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Attach Objects > Detach Children",
+      "text": "敄慴档愠汬䌠楨摬敲⁮景┠0",
+      "menuId": 25023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "扏敪瑣愀汬䌠楨摬敲⁮景┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Attach Objects > Detach All Objects",
+      "text": "敄慴档愠汬䄠瑴捡敨⁤扏敪瑣s",
+      "menuId": 25024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Attach Objects > Update Attachments",
+      "text": "灕慤整䄠瑴捡敨⁤扏敪瑣s",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Track Movement > Create Tracker (Single Object)",
+      "text": "牃慥整䴠癯浥湥⁴牔捡敫⁲潦⁲〥",
+      "menuId": 25026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "扏敪瑣䴀癯浥湥⁴牔捡敫⁲潦⁲〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Track Movement > Create Tracker (Stored Objects)",
+      "text": "牃慥整䴠癯浥湥⁴牔捡敫獲映牯愠汬匠潴敲⁤扏敪瑣s",
+      "menuId": 25027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Track Movement > Remove Tracker (Single Object)",
+      "text": "敒潭敶䴠癯浥湥⁴牔捡敫⁲牦浯┠0",
+      "menuId": 25028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "扏敪瑣䴀癯浥湥⁴牔捡敫⁲牦浯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Track Movement > Remove Tracker (All Objects)",
+      "text": "敒潭敶愠汬䴠癯浥湥⁴牔捡敫獲",
+      "menuId": 25029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Track Movement > Test for Movement",
+      "text": "敔瑳传橢捥獴映牯䴠癯浥湥t",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Force Position > Single Object > Into Rectangle",
+      "text": "潆捲⁥扏敪瑣┠‰湉潴删捥慴杮敬⠠ㄥ┬⤲⠭㌥┬⤴圠瑩⁨敍桴摯┠5",
+      "menuId": 25031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣戀敪瑣┠‰湉潴删捥慴杮敬⠠ㄥ┬⤲⠭㌥┬⤴圠瑩⁨敍桴摯┠5",
+        "ㅘ攀瑣戀敪瑣┠‰湉潴删捥慴杮敬⠠ㄥ┬⤲⠭㌥┬⤴圠瑩⁨敍桴摯┠5",
+        "ㅙ攀瑣戀敪瑣┠‰湉潴删捥慴杮敬⠠ㄥ┬⤲⠭㌥┬⤴圠瑩⁨敍桴摯┠5",
+        "㉘攀瑣戀敪瑣┠‰湉潴删捥慴杮敬⠠ㄥ┬⤲⠭㌥┬⤴圠瑩⁨敍桴摯┠5",
+        "㉙攀瑣戀敪瑣┠‰湉潴删捥慴杮敬⠠ㄥ┬⤲⠭㌥┬⤴圠瑩⁨敍桴摯┠5",
+        "敍桴摯⠠㴰潃牯楤慮整ⱳㄠ䈽畯摮湩⁧潂⥸⠀㌥┬⤴圠瑩⁨敍桴摯┠5"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Force Position > Single Object > Out of Rectangle",
+      "text": "潆捲⁥扏敪瑣┠‰畏⁴景删捥慴杮敬⠠ㄥ┬⤲⠭㌥┬⤴圠瑩⁨敍桴摯┠5",
+      "menuId": 25032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣戀敪瑣┠‰畏⁴景删捥慴杮敬⠠ㄥ┬⤲⠭㌥┬⤴圠瑩⁨敍桴摯┠5",
+        "ㅘ攀瑣戀敪瑣┠‰畏⁴景删捥慴杮敬⠠ㄥ┬⤲⠭㌥┬⤴圠瑩⁨敍桴摯┠5",
+        "ㅙ攀瑣戀敪瑣┠‰畏⁴景删捥慴杮敬⠠ㄥ┬⤲⠭㌥┬⤴圠瑩⁨敍桴摯┠5",
+        "㉘攀瑣戀敪瑣┠‰畏⁴景删捥慴杮敬⠠ㄥ┬⤲⠭㌥┬⤴圠瑩⁨敍桴摯┠5",
+        "㉙攀瑣戀敪瑣┠‰畏⁴景删捥慴杮敬⠠ㄥ┬⤲⠭㌥┬⤴圠瑩⁨敍桴摯┠5",
+        "敍桴摯⠠㴰潃牯楤慮整ⱳㄠ䈽畯摮湩⁧潂⥸⤀⠭㌥┬⤴圠瑩⁨敍桴摯┠5"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Force Position > Stored Objects > Into Rectangle",
+      "text": "潆捲⁥汁⁬瑓牯摥传橢捥獴䤠瑮⁯敒瑣湡汧⁥┨ⰰㄥ⴩┨ⰲ㌥ 楗桴䴠瑥潨⁤㐥",
+      "menuId": 25033,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "ㅘ挀⁥汁⁬瑓牯摥传橢捥獴䤠瑮⁯敒瑣湡汧⁥┨ⰰㄥ⴩┨ⰲ㌥ 楗桴䴠瑥潨⁤㐥",
+        "ㅙ挀⁥汁⁬瑓牯摥传橢捥獴䤠瑮⁯敒瑣湡汧⁥┨ⰰㄥ⴩┨ⰲ㌥ 楗桴䴠瑥潨⁤㐥",
+        "㉘挀⁥汁⁬瑓牯摥传橢捥獴䤠瑮⁯敒瑣湡汧⁥┨ⰰㄥ⴩┨ⰲ㌥ 楗桴䴠瑥潨⁤㐥",
+        "㉙挀⁥汁⁬瑓牯摥传橢捥獴䤠瑮⁯敒瑣湡汧⁥┨ⰰㄥ⴩┨ⰲ㌥ 楗桴䴠瑥潨⁤㐥",
+        "敍桴摯⠠㴰潃牯楤慮整ⱳㄠ䈽畯摮湩⁧潂⥸ ┨ⰰㄥ⴩┨ⰲ㌥ 楗桴䴠瑥潨⁤㐥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Force Position > Stored Objects > Out of Rectangle",
+      "text": "潆捲⁥汁⁬瑓牯摥传橢捥獴传瑵漠⁦敒瑣湡汧⁥┨ⰰㄥ⴩┨ⰲ㌥ 楗桴䴠瑥潨⁤㐥",
+      "menuId": 25034,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "ㅘ挀⁥汁⁬瑓牯摥传橢捥獴传瑵漠⁦敒瑣湡汧⁥┨ⰰㄥ⴩┨ⰲ㌥ 楗桴䴠瑥潨⁤㐥",
+        "ㅙ挀⁥汁⁬瑓牯摥传橢捥獴传瑵漠⁦敒瑣湡汧⁥┨ⰰㄥ⴩┨ⰲ㌥ 楗桴䴠瑥潨⁤㐥",
+        "㉘挀⁥汁⁬瑓牯摥传橢捥獴传瑵漠⁦敒瑣湡汧⁥┨ⰰㄥ⴩┨ⰲ㌥ 楗桴䴠瑥潨⁤㐥",
+        "㉙挀⁥汁⁬瑓牯摥传橢捥獴传瑵漠⁦敒瑣湡汧⁥┨ⰰㄥ⴩┨ⰲ㌥ 楗桴䴠瑥潨⁤㐥",
+        "敍桴摯⠠㴰潃牯楤慮整ⱳㄠ䈽畯摮湩⁧潂⥸氀⁥┨ⰰㄥ⴩┨ⰲ㌥ 楗桴䴠瑥潨⁤㐥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Set Hotspots > Set X Hotspot",
+      "text": "敓⁴⁘潈獴潰⁴景┠‰潴┠1",
+      "menuId": 25035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣漀獴潰⁴景┠‰潴┠1",
+        "⁘潈獴潰t潰⁴景┠‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Set Hotspots > Set Y Hotspot",
+      "text": "敓⁴⁙潈獴潰⁴景┠‰潴┠1",
+      "menuId": 25036,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣漀獴潰⁴景┠‰潴┠1",
+        "⁙潈獴潰t潰⁴景┠‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Position Objects > Position Single Object",
+      "text": "敓⁴潐楳楴湯漠⁦〥琠⁯┨ⰱ㈥)",
+      "menuId": 25037,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣椀楴湯漠⁦〥琠⁯┨ⰱ㈥)",
+        "X敪瑣椀楴湯漠⁦〥琠⁯┨ⰱ㈥)",
+        "Y敪瑣椀楴湯漠⁦〥琠⁯┨ⰱ㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Position Objects > Move Single Object",
+      "text": "潍敶┠‰祢⠠ㄥ┬⤲",
+      "menuId": 25038,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣 祢⠠ㄥ┬⤲",
+        "⁘潍敶敭瑮⠀ㄥ┬⤲",
+        "⁙潍敶敭瑮⠀ㄥ┬⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Position Objects > Position Stored Objects",
+      "text": "敓⁴潐楳楴湯⁳景䄠汬匠潴敲⁤扏敪瑣⁳潴⠠ㄥ┬⤲",
+      "menuId": 25039,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "X⁴潐楳楴湯⁳景䄠汬匠潴敲⁤扏敪瑣⁳潴⠠ㄥ┬⤲",
+        "Y⁴潐楳楴湯⁳景䄠汬匠潴敲⁤扏敪瑣⁳潴⠠ㄥ┬⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Position Objects > Move Stored Objects",
+      "text": "潍敶䄠汬匠潴敲⁤扏敪瑣⁳祢⠠ㄥ┬⤲",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘潍敶敭瑮漀敲⁤扏敪瑣⁳祢⠠ㄥ┬⤲",
+        "⁙潍敶敭瑮漀敲⁤扏敪瑣⁳祢⠠ㄥ┬⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Snap to Grid > Snap Single Object",
+      "text": "湓灡┠‰潴愠┠‱⁸㈥䜠楲d",
+      "menuId": 25041,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣 潴愠┠‱⁸㈥䜠楲d",
+        "片摩䌠汥⁬楗瑤h⁸㈥䜠楲d",
+        "片摩䌠汥⁬效杩瑨 ㈥䜠楲d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Snap to Grid > Snap Stored Objects",
+      "text": "湓灡䄠汬匠潴敲⁤扏敪瑣⁳潴愠┠‱⁸㈥䜠楲d",
+      "menuId": 25042,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "片摩䌠汥⁬楗瑤h扏敪瑣⁳潴愠┠‱⁸㈥䜠楲d",
+        "片摩䌠汥⁬效杩瑨戀敪瑣⁳潴愠┠‱⁸㈥䜠楲d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Align By Percent > Horizontally",
+      "text": "潐楳楴湯┠‰ㄥ┥䠠牯穩湯慴汬⁹敂睴敥⁮㈥愠摮┠3",
+      "menuId": 25043,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣渀┠‰ㄥ┥䠠牯穩湯慴汬⁹敂睴敥⁮㈥愠摮┠3",
+        "敐捲湥慴敧⠠ⴰ〱⤰爀穩湯慴汬⁹敂睴敥⁮㈥愠摮┠3",
+        "敌瑦䈠牯敤rⴰ〱⤰爀穩湯慴汬⁹敂睴敥⁮㈥愠摮┠3",
+        "楒桧⁴潂摲牥ⴀ〱⤰爀穩湯慴汬⁹敂睴敥⁮㈥愠摮┠3"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Align By Percent > Vertically",
+      "text": "潐楳楴湯┠‰ㄥ┥嘠牥楴慣汬⁹敂睴敥⁮㈥愠摮┠3",
+      "menuId": 25044,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣渀┠‰ㄥ┥嘠牥楴慣汬⁹敂睴敥⁮㈥愠摮┠3",
+        "敐捲湥慴敧⠠ⴰ〱⤰爀楴慣汬⁹敂睴敥⁮㈥愠摮┠3",
+        "潔⁰潂摲牥⠀ⴰ〱⤰爀楴慣汬⁹敂睴敥⁮㈥愠摮┠3",
+        "潂瑴浯䈠牯敤r〱⤰爀楴慣汬⁹敂睴敥⁮㈥愠摮┠3"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Stored Objects > Pick or Count > Index to Fixed Value",
+      "text": "瑓牯摥瑁(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x瑁("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Stored Objects > Pick or Count > Fixed Value to Index",
+      "text": "楆數呤䥯摮硥(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬e("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Stored Objects > Pick or Count > Total Stored Objects",
+      "text": "潔慴卬潴敲⡤",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Stored Objects > Pick or Count > Stored Objects at Position",
+      "text": "瑓牯摥瑁潐⡳",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "X牯摥瑁潐⡳",
+        "Y牯摥瑁潐⡳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Stored Objects > Pick or Count > Stored Objects on Point",
+      "text": "瑓牯摥湏潐湩⡴",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "X牯摥湏潐湩⡴",
+        "Y牯摥湏潐湩⡴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Stored Objects > Pick or Count > Stored Objects in Rectangle",
+      "text": "瑓牯摥湉敒瑣(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "敌瑦匠摩e瑣(",
+        "楒桧⁴楓敤琀(",
+        "潔⁰楓敤攀琀(",
+        "潂瑴浯匠摩e("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Stored Objects > Object Groups > Left Border",
+      "text": "瑓牯摥片䱰晥䉴⡤",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Stored Objects > Object Groups > Top Border",
+      "text": "瑓牯摥片呰灯摂(",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Stored Objects > Object Groups > Right Border",
+      "text": "瑓牯摥片剰杩瑨摂(",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Stored Objects > Object Groups > Bottom Border",
+      "text": "瑓牯摥片䉰浴摂(",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Stored Objects > Distance > Find Nearest Object",
+      "text": "瑓牯摥敎牡獥⡴",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬⁥景传橢捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Stored Objects > Distance > Find Farthest Object",
+      "text": "瑓牯摥慆瑲敨瑳(",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬⁥景传橢捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Stored Objects > Distance > Nearest Object Distance",
+      "text": "瑓牯摥敎牡獥䑴獩⡴",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬⁥景传橢捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Stored Objects > Distance > Farthest Object Distance",
+      "text": "瑓牯摥慆瑲敨瑳楄瑳(",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬⁥景传橢捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Align in Frame > Calculate Left",
+      "text": "慃捬汁杩䱮晥⡴",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬⁥景传橢捥t",
+        "敌瑦䈠牯敤r景传橢捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Align in Frame > Calculate Horz Center",
+      "text": "慃捬汁杩䡮敃瑮牥(",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬⁥景传橢捥t",
+        "敌瑦䈠牯敤r景传橢捥t",
+        "楒桧⁴潂摲牥昀传橢捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Align in Frame > Calculate Right",
+      "text": "慃捬汁杩剮杩瑨(",
+      "menuId": 27016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬⁥景传橢捥t",
+        "楒桧⁴潂摲牥昀传橢捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Align in Frame > Calculate Top",
+      "text": "慃捬汁杩呮灯(",
+      "menuId": 27017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬⁥景传橢捥t",
+        "潔⁰潂摲牥 景传橢捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Align in Frame > Calculate Vert Center",
+      "text": "慃捬汁杩噮敃瑮牥(",
+      "menuId": 27018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬⁥景传橢捥t",
+        "潔⁰潂摲牥 景传橢捥t",
+        "潂瑴浯䈠牯敤r传橢捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Align in Frame > Calculate Bottom",
+      "text": "慃捬汁杩䉮瑯潴⡭",
+      "menuId": 27019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬⁥景传橢捥t",
+        "潂瑴浯䈠牯敤r传橢捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Attach Objects > Get Parent",
+      "text": "瑁䝴瑥慐敲瑮(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬⁥景䌠楨摬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Attach Objects > Get Child",
+      "text": "瑁䝴瑥桃汩⡤",
+      "menuId": 27021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬⁥景倠牡湥t",
+        "湉敤⁸景䌠楨摬倀牡湥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Attach Objects > X-Offset from Parent",
+      "text": "瑁塴晏獦瑥(",
+      "menuId": 27022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬⁥景䌠楨摬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Attach Objects > Y-Offset from Parent",
+      "text": "瑁奴晏獦瑥(",
+      "menuId": 27023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬⁥景䌠楨摬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Attach Objects > Distance from Parent",
+      "text": "瑁䑴獩慴据⡥",
+      "menuId": 27024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬⁥景䌠楨摬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Attach Objects > Number of Children",
+      "text": "瑁乴浵桃汩牤湥(",
+      "menuId": 27025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬⁥景倠牡湥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Track Movement > Get X-Movement",
+      "text": "癍䵘癯⡥",
+      "menuId": 27026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬⁥景传橢捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Track Movement > Get Y-Movement",
+      "text": "癍䵙癯⡥",
+      "menuId": 27027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬⁥景传橢捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Track Movement > Get Distance Moved",
+      "text": "癍潍敶楄瑳(",
+      "menuId": 27028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬⁥景传橢捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Track Movement > Get Angle Moved",
+      "text": "癍潍敶湁汧⡥",
+      "menuId": 27029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬⁥景传橢捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Get Hotspots > Get X Hotspot",
+      "text": "䡘瑯灳瑯(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬⁥景传橢捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Get Hotspots > Get Y Hotspot",
+      "text": "䡙瑯灳瑯(",
+      "menuId": 27031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬⁥景传橢捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

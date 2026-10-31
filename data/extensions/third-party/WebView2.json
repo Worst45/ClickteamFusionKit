@@ -1,0 +1,738 @@
+{
+  "file": "WebView2.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On Load complete",
+      "text": "%o: On Load complete",
+      "menuId": 26000,
+      "resText": "%o: On Load complete",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On Status Change",
+      "text": "%o: On Status Change",
+      "menuId": 26010,
+      "resText": "%o: On Status Change",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Started loading",
+      "text": "%o: Started Loading?",
+      "menuId": 26020,
+      "resText": "%o: Started Loading?",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "On Navigate",
+      "text": "%o: On Navigate",
+      "menuId": 26030,
+      "resText": "%o: On Navigate",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "On Click",
+      "text": "%o: On Click",
+      "menuId": 26040,
+      "resText": "%o: On Click",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "On Error",
+      "text": "%o: On Error",
+      "menuId": 26050,
+      "resText": "%o: On Error",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "On Progress",
+      "text": "%o: On Progress",
+      "menuId": 26060,
+      "resText": "%o: On Progress",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "conditions_status": "menu ressources",
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Load URL",
+      "text": "Load URL=%0",
+      "menuId": 25000,
+      "resText": "Load URL=%0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "URL string"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Load HTML",
+      "text": "Load HTML=%0",
+      "menuId": 25010,
+      "resText": "Load HTML=%0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "HTML  string"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Navigation > Go Forward",
+      "text": "Go Forward",
+      "menuId": 25020,
+      "resText": "Go Forward",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Navigation > Go Back",
+      "text": "Go Back",
+      "menuId": 25030,
+      "resText": "Go Back",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Navigation > Stop",
+      "text": "Stop",
+      "menuId": 25040,
+      "resText": "Stop",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Navigation > Refresh",
+      "text": "Refresh",
+      "menuId": 25050,
+      "resText": "Refresh",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Javascript > Execute Snippet",
+      "text": "Execute Snippet=%0 with Arguments=%1",
+      "menuId": 25060,
+      "resText": "Execute Snippet=%0 with Arguments=%1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "Function or Procedure name",
+        "Arguments string separated by comma, example: 1.23,'hello'"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Size/Control > Hide Web",
+      "text": "Hide Web",
+      "menuId": 25090,
+      "resText": "Hide Web",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Size/Control > Show Web",
+      "text": "Show Web",
+      "menuId": 25100,
+      "resText": "Show Web",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Size/Control > Set X Position",
+      "text": "Set X position to %0",
+      "menuId": 25110,
+      "resText": "Set X position to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Set X Position"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Size/Control > Set Y Position",
+      "text": "Set Y position to %0",
+      "menuId": 25120,
+      "resText": "Set Y position to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Set Y Position"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Size/Control > Set Horizontal Size",
+      "text": "Set Horizontal size to %0",
+      "menuId": 25130,
+      "resText": "Set Horizontal size to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Set Horizontal size"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Size/Control > Set Vertical Size",
+      "text": "Set Vertical size to %0",
+      "menuId": 25140,
+      "resText": "Set Vertical size to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Set Vertical size"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Special Control > Resize to Fit",
+      "text": "Resize HTML to fit=%0",
+      "menuId": 25150,
+      "resText": "Resize HTML to fit=%0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Values (1: Enabled, 0: Disabled)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Special Control > Set inline HTML5 playback",
+      "text": "Allow inline playback of HTML5 media?=%0",
+      "menuId": 25160,
+      "resText": "Allow inline playback of HTML5 media?=%0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Values (1: Enabled, 0: Disabled)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Special Features > Load local document",
+      "text": "Load local HTML=%0, with MIME-type: %1 and directory: %2",
+      "menuId": 25170,
+      "resText": "Load local HTML=%0, with MIME-type: %1 and directory: %2",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "HTML String",
+        "Type/Mime String (exam: txt/html, text/plain)",
+        "Directory String (optional)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Scroll > Scroll to Top",
+      "text": "Scroll to Top",
+      "menuId": 25180,
+      "resText": "Scroll to Top",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Scroll > Scroll to End",
+      "text": "Scroll to End",
+      "menuId": 25190,
+      "resText": "Scroll to End",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Scroll > Scroll to X, Y position",
+      "text": "Scroll to X=%0, Y=%1",
+      "menuId": 25200,
+      "resText": "Scroll to X=%0, Y=%1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Set X Position",
+        "Set Y Position"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Set Optical Zoom ",
+      "text": "Set Optical Zoom %0",
+      "menuId": 25210,
+      "resText": "Set Optical Zoom %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Set Zoom Level (0.10 .... 4.00)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Grab Image",
+      "text": "Grab Image to filename %0",
+      "menuId": 25220,
+      "resText": "Grab Image to filename %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Filename string with extension (.jpg, .png, bmp allowed)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Insert HTML Code ",
+      "text": "InsertHTML to ElemId=%0 at=%1 with=%2",
+      "menuId": 25230,
+      "resText": "InsertHTML to ElemId=%0 at=%1 with=%2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "Element ID, ejem: HTML=1",
+        "Where to Insert(0:beforeBegin, 1:afterBegin 2: beforeEnd 3:afterEnd)",
+        "HTML code to insert"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Navigation > Mode",
+      "text": "Navigation mode=%0",
+      "menuId": 25240,
+      "resText": "Navigation mode=%0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Navigation Mode(0: Default, 1: Internal)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Special Control > Set User Agent ",
+      "text": "Set User-Agent to %0",
+      "menuId": 25250,
+      "resText": "Set User-Agent to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "User Agent String"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Download URL to file",
+      "text": "Download File %0, to dir %1 with name %2",
+      "menuId": 25260,
+      "resText": "Download File %0, to dir %1 with name %2",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "URL to download",
+        "Destination Dir",
+        "File name"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions_status": "menu ressources",
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Error Value",
+      "text": "GetErrorVal(",
+      "menuId": 27000,
+      "resText": "GetErrorVal(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Status String",
+      "text": "GetStatusStr$(",
+      "menuId": 27010,
+      "resText": "GetStatusStr$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Current URL",
+      "text": "GetCurrentURL$(",
+      "menuId": 27020,
+      "resText": "GetCurrentURL$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get Navigate URL",
+      "text": "GetNavigateURL$(",
+      "menuId": 27030,
+      "resText": "GetNavigateURL$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get Clicked link",
+      "text": "GetLastClicked$(",
+      "menuId": 27040,
+      "resText": "GetLastClicked$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get HTML Source",
+      "text": "GetHTMLSource$(",
+      "menuId": 27050,
+      "resText": "GetHTMLSource$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Javascript > Call Function and return int",
+      "text": "CallFunctionInt(",
+      "menuId": 27070,
+      "resText": "CallFunctionInt(",
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "Function Name",
+        "Argument String"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Javascript > Call Function and return float",
+      "text": "CallFunctionFloat(",
+      "menuId": 27080,
+      "resText": "CallFunctionFloat(",
+      "flags": 2,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "Function Name",
+        "Argument String"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Javascript > Call Function and return string",
+      "text": "CallFunctionStr$(",
+      "menuId": 27090,
+      "resText": "CallFunctionStr$(",
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "Function Name",
+        "Argument String"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Get Web page width",
+      "text": "GetPageWidth(",
+      "menuId": 27100,
+      "resText": "GetPageWidth(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Get Web page height",
+      "text": "GetPageHeight(",
+      "menuId": 27110,
+      "resText": "GetPageHeight(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Get Web optical zoom",
+      "text": "GetOpticalZoom(",
+      "menuId": 27120,
+      "resText": "GetOpticalZoom(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Get Form item",
+      "text": "GetFormItem$(",
+      "menuId": 27130,
+      "resText": "GetFormItem$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "tag name"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Get Html-Tag Id",
+      "text": "GetTagId(",
+      "menuId": 27140,
+      "resText": "GetTagId(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "Tag Name"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "DOM Elements > Get Inner text by Id",
+      "text": "GetInnerTextbyId$(",
+      "menuId": 27150,
+      "resText": "GetInnerTextbyId$(",
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3,
+        1
+      ],
+      "paramTitles": [
+        "id_name",
+        "Tag_name",
+        "Index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "DOM Elements > Get Inner text by Classname",
+      "text": "GetInnerTextbyClass$(",
+      "menuId": 27160,
+      "resText": "GetInnerTextbyClass$(",
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3,
+        1
+      ],
+      "paramTitles": [
+        "class_name",
+        "Tag_name",
+        "Index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Get Web Progress",
+      "text": "WebProgress(",
+      "menuId": 27170,
+      "resText": "WebProgress(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Get User Agent",
+      "text": "GetUserAgent$(",
+      "menuId": 27180,
+      "resText": "GetUserAgent$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions_status": "menu ressources"
+}

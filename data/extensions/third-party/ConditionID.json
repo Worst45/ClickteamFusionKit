@@ -1,0 +1,23 @@
+{
+  "file": "ConditionID.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Limit condition",
+      "text": "楌業⁴潣摮瑩潩⁮潴䤠⁄〥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "䑉⠠ⴰ㐶)瑩潩⁮潴䤠⁄〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [],
+  "expressions": []
+}

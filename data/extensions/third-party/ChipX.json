@@ -1,0 +1,1651 @@
+{
+  "file": "ChipX.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Body in Layer",
+      "text": "漥䈠摯⁹〥椠⁳湩䰠祡牥┠1",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D〥椠⁳湩䰠祡牥┠1",
+        "慌敹⁲〨㌭⤱ 湩䰠祡牥┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On Collision",
+      "text": "漥传⁮潃汬獩潩n",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "On Collision - 1 Type",
+      "text": "漥传⁮潃汬獩潩⁮┨⤰",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潃汬獩潩⁮祔数 ┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "On Collision - 2 Types",
+      "text": "漥传⁮潃汬獩潩⁮┨ⰰ┠⤱",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆獲⁴潃汬獩潩⁮祔数─⤱",
+        "敓潣摮䌠汯楬楳湯吠灹e⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "World > Reset World",
+      "text": "潗汲⁤‭敒敳t",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "World > Set Gravity",
+      "text": "潗汲⁤‭敓⁴片癡瑩⁹┨ⰰ┠⤱",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "片癡瑩⁹⁘搨晥畡瑬〠〮)┠⤱",
+        "片癡瑩⁹⁙搨晥畡瑬ㄠ〰〮)⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "World > Resize Static Hash",
+      "text": "潗汲⁤‭敒楳敺匠慴楴⁣慈桳⠠〥‬ㄥ)",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "獅楴慭整⁤癡牥条⁥楳敺漠⁦污⁬扯敪瑣⁳䐨晥畡瑬㔠⸰⤰",
+        "獅楴慭整⁤畮扭牥漠⁦扯敪瑣⁳‪〱⠠敄慦汵⁴〱〰)⸰⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "World > Resize Active Hash",
+      "text": "潗汲⁤‭敒楳敺䄠瑣癩⁥慈桳⠠〥‬ㄥ)",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "獅楴慭整⁤癡牥条⁥楳敺漠⁦污⁬扯敪瑣⁳䐨晥畡瑬㔠⸰⤰",
+        "獅楴慭整⁤畮扭牥漠⁦扯敪瑣⁳‪〱⠠敄慦汵⁴〱〰)⸰⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "World > Set Timestep",
+      "text": "潗汲⁤‭敓⁴楔敭瑳灥⠠〥)",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楔敭瑳灥⠠⸱⼰偆⁓‭敄慦汵⁴⸰㈰)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "World > Update",
+      "text": "潗汲⁤‭灕慤整",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Body > Create > Add Body",
+      "text": "潂祤ⴠ䌠敲瑡⁥‭潐楳楴湯⠠〥‬ㄥ ‭慍獳⠠㈥)",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘潐楳楴湯琀⁥‭潐楳楴湯⠠〥‬ㄥ ‭慍獳⠠㈥)",
+        "⁙潐楳楴湯琀⁥‭潐楳楴湯⠠〥‬ㄥ ‭慍獳⠠㈥)",
+        "慍獳椀楴湯琀⁥‭潐楳楴湯⠠〥‬ㄥ ‭慍獳⠠㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Body > Create > Add Rectangle",
+      "text": "潂祤┠‰‭摁⁤敒瑣湡汧⁥‭潐楳楴湯⠠ㄥ‬㈥ ‭楓敺⠠㌥‬㐥 ‭湁汧⁥┨⤵ⴠ䘠楲瑣潩⁮┨⤶ⴠ䔠慬瑳捩瑩⁹┨⤷",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭摁⁤敒瑣湡汧⁥‭潐楳楴湯⠠ㄥ‬㈥ ‭楓敺⠠㌥‬㐥 ‭湁汧⁥┨⤵ⴠ䘠楲瑣潩⁮┨⤶ⴠ䔠慬瑳捩瑩⁹┨⤷",
+        "敒慬楴敶堠倠獯瑩湯渀汧⁥‭潐楳楴湯⠠ㄥ‬㈥ ‭楓敺⠠㌥‬㐥 ‭湁汧⁥┨⤵ⴠ䘠楲瑣潩⁮┨⤶ⴠ䔠慬瑳捩瑩⁹┨⤷",
+        "敒慬楴敶夠倠獯瑩湯渀汧⁥‭潐楳楴湯⠠ㄥ‬㈥ ‭楓敺⠠㌥‬㐥 ‭湁汧⁥┨⤵ⴠ䘠楲瑣潩⁮┨⤶ⴠ䔠慬瑳捩瑩⁹┨⤷",
+        "楗瑤h敶夠倠獯瑩湯渀汧⁥‭潐楳楴湯⠠ㄥ‬㈥ ‭楓敺⠠㌥‬㐥 ‭湁汧⁥┨⤵ⴠ䘠楲瑣潩⁮┨⤶ⴠ䔠慬瑳捩瑩⁹┨⤷",
+        "效杩瑨攀夠倠獯瑩湯渀汧⁥‭潐楳楴湯⠠ㄥ‬㈥ ‭楓敺⠠㌥‬㐥 ‭湁汧⁥┨⤵ⴠ䘠楲瑣潩⁮┨⤶ⴠ䔠慬瑳捩瑩⁹┨⤷",
+        "湁汧e攀夠倠獯瑩湯渀汧⁥‭潐楳楴湯⠠ㄥ‬㈥ ‭楓敺⠠㌥‬㐥 ‭湁汧⁥┨⤵ⴠ䘠楲瑣潩⁮┨⤶ⴠ䔠慬瑳捩瑩⁹┨⤷",
+        "牆捩楴湯⠠敄慦汵⁴⸱⤰ ‭潐楳楴湯⠠ㄥ‬㈥ ‭楓敺⠠㌥‬㐥 ‭湁汧⁥┨⤵ⴠ䘠楲瑣潩⁮┨⤶ⴠ䔠慬瑳捩瑩⁹┨⤷",
+        "汅獡楴楣祴⠠敄慦汵⁴⸰⤰ 潐楳楴湯⠠ㄥ‬㈥ ‭楓敺⠠㌥‬㐥 ‭湁汧⁥┨⤵ⴠ䘠楲瑣潩⁮┨⤶ⴠ䔠慬瑳捩瑩⁹┨⤷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Body > Create > Add Line Segment",
+      "text": "潂祤┠‰‭摁⁤楌敮匠来敭瑮ⴠ倠獯瑩潩⁮┨ⰱ┠′‭㌥‬㐥 ‭桔捩湫獥⁳┨⤵ⴠ䘠楲瑣潩⁮┨⤶ⴠ䔠慬瑳捩瑩⁹┨⤷",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭摁⁤楌敮匠来敭瑮ⴠ倠獯瑩潩⁮┨ⰱ┠′‭㌥‬㐥 ‭桔捩湫獥⁳┨⤵ⴠ䘠楲瑣潩⁮┨⤶ⴠ䔠慬瑳捩瑩⁹┨⤷",
+        "楆獲⁴敒慬楴敶堠倠獯瑩湯琀ⴠ倠獯瑩潩⁮┨ⰱ┠′‭㌥‬㐥 ‭桔捩湫獥⁳┨⤵ⴠ䘠楲瑣潩⁮┨⤶ⴠ䔠慬瑳捩瑩⁹┨⤷",
+        "楆獲⁴敒慬楴敶夠倠獯瑩湯琀ⴠ倠獯瑩潩⁮┨ⰱ┠′‭㌥‬㐥 ‭桔捩湫獥⁳┨⤵ⴠ䘠楲瑣潩⁮┨⤶ⴠ䔠慬瑳捩瑩⁹┨⤷",
+        "敓潣摮删汥瑡癩⁥⁘潐楳潴nⴠ倠獯瑩潩⁮┨ⰱ┠′‭㌥‬㐥 ‭桔捩湫獥⁳┨⤵ⴠ䘠楲瑣潩⁮┨⤶ⴠ䔠慬瑳捩瑩⁹┨⤷",
+        "敓潣摮删汥瑡癩⁥⁙潐楳潴nⴠ倠獯瑩潩⁮┨ⰱ┠′‭㌥‬㐥 ‭桔捩湫獥⁳┨⤵ⴠ䘠楲瑣潩⁮┨⤶ⴠ䔠慬瑳捩瑩⁹┨⤷",
+        "桔捩湫獥s瑡癩⁥⁙潐楳潴nⴠ倠獯瑩潩⁮┨ⰱ┠′‭㌥‬㐥 ‭桔捩湫獥⁳┨⤵ⴠ䘠楲瑣潩⁮┨⤶ⴠ䔠慬瑳捩瑩⁹┨⤷",
+        "牆捩楴湯⠠敄慦汵⁴⸱⤰漀nⴠ倠獯瑩潩⁮┨ⰱ┠′‭㌥‬㐥 ‭桔捩湫獥⁳┨⤵ⴠ䘠楲瑣潩⁮┨⤶ⴠ䔠慬瑳捩瑩⁹┨⤷",
+        "汅獡楴楣祴⠠敄慦汵⁴⸰⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Body > Create > Add Circle",
+      "text": "潂祤┠‰‭摁⁤楃捲敬ⴠ倠獯瑩潩⁮┨ⰱ┠⤲ⴠ䐠慩敭整⁲┨⤳ⴠ䘠楲瑣潩⁮┨⤴ⴠ䔠慬瑳捩瑩⁹┨⤵",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭摁⁤楃捲敬ⴠ倠獯瑩潩⁮┨ⰱ┠⤲ⴠ䐠慩敭整⁲┨⤳ⴠ䘠楲瑣潩⁮┨⤴ⴠ䔠慬瑳捩瑩⁹┨⤵",
+        "敒慬楴敶堠倠獯瑩湯攀ⴠ倠獯瑩潩⁮┨ⰱ┠⤲ⴠ䐠慩敭整⁲┨⤳ⴠ䘠楲瑣潩⁮┨⤴ⴠ䔠慬瑳捩瑩⁹┨⤵",
+        "敒慬楴敶夠倠獯瑩湯攀ⴠ倠獯瑩潩⁮┨ⰱ┠⤲ⴠ䐠慩敭整⁲┨⤳ⴠ䘠楲瑣潩⁮┨⤴ⴠ䔠慬瑳捩瑩⁹┨⤵",
+        "楄浡瑥牥夀倠獯瑩湯攀ⴠ倠獯瑩潩⁮┨ⰱ┠⤲ⴠ䐠慩敭整⁲┨⤳ⴠ䘠楲瑣潩⁮┨⤴ⴠ䔠慬瑳捩瑩⁹┨⤵",
+        "牆捩楴湯⠠敄慦汵⁴⸱⤰倀獯瑩潩⁮┨ⰱ┠⤲ⴠ䐠慩敭整⁲┨⤳ⴠ䘠楲瑣潩⁮┨⤴ⴠ䔠慬瑳捩瑩⁹┨⤵",
+        "汅獡楴楣祴⠠敄慦汵⁴⸰⤰猀瑩潩⁮┨ⰱ┠⤲ⴠ䐠慩敭整⁲┨⤳ⴠ䘠楲瑣潩⁮┨⤴ⴠ䔠慬瑳捩瑩⁹┨⤵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Body > Create > Add Poly",
+      "text": "潂祤┠‰‭摁⁤潐祬潧⁮‭潐楳楴湯⠠ㄥ‬㈥ ‭摅敧⁳┨⤳ⴠ䐠慩敭整⁲┨⤴ⴠ䘠楲瑣潩⁮┨⤵ⴠ䔠慬瑳捩瑩⁹┨⤶",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭摁⁤潐祬潧⁮‭潐楳楴湯⠠ㄥ‬㈥ ‭摅敧⁳┨⤳ⴠ䐠慩敭整⁲┨⤴ⴠ䘠楲瑣潩⁮┨⤵ⴠ䔠慬瑳捩瑩⁹┨⤶",
+        "敒慬楴敶堠倠獯瑩湯漀⁮‭潐楳楴湯⠠ㄥ‬㈥ ‭摅敧⁳┨⤳ⴠ䐠慩敭整⁲┨⤴ⴠ䘠楲瑣潩⁮┨⤵ⴠ䔠慬瑳捩瑩⁹┨⤶",
+        "敒慬楴敶夠倠獯瑩湯漀⁮‭潐楳楴湯⠠ㄥ‬㈥ ‭摅敧⁳┨⤳ⴠ䐠慩敭整⁲┨⤴ⴠ䘠楲瑣潩⁮┨⤵ⴠ䔠慬瑳捩瑩⁹┨⤶",
+        "摅敧s敶夠倠獯瑩湯漀⁮‭潐楳楴湯⠠ㄥ‬㈥ ‭摅敧⁳┨⤳ⴠ䐠慩敭整⁲┨⤴ⴠ䘠楲瑣潩⁮┨⤵ⴠ䔠慬瑳捩瑩⁹┨⤶",
+        "楄浡瑥牥夀倠獯瑩湯漀⁮‭潐楳楴湯⠠ㄥ‬㈥ ‭摅敧⁳┨⤳ⴠ䐠慩敭整⁲┨⤴ⴠ䘠楲瑣潩⁮┨⤵ⴠ䔠慬瑳捩瑩⁹┨⤶",
+        "牆捩楴湯⠠敄慦汵⁴⸱⤰ 潐楳楴湯⠠ㄥ‬㈥ ‭摅敧⁳┨⤳ⴠ䐠慩敭整⁲┨⤴ⴠ䘠楲瑣潩⁮┨⤵ⴠ䔠慬瑳捩瑩⁹┨⤶",
+        "汅獡楴楣祴⠠敄慦汵⁴⸰⤰漀楳楴湯⠠ㄥ‬㈥ ‭摅敧⁳┨⤳ⴠ䐠慩敭整⁲┨⤴ⴠ䘠楲瑣潩⁮┨⤵ⴠ䔠慬瑳捩瑩⁹┨⤶"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Body > Create > Add Custom Shape > Begin Custom Shape",
+      "text": "潂祤┠‰‭畃瑳浯䈠来湩ⴠ倠獯瑩潩⁮┨ⰱ┠⤲ⴠ䘠楲瑣潩⁮┨⤳ⴠ䔠慬瑳捩瑩⁹┨⤴",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭畃瑳浯䈠来湩ⴠ倠獯瑩潩⁮┨ⰱ┠⤲ⴠ䘠楲瑣潩⁮┨⤳ⴠ䔠慬瑳捩瑩⁹┨⤴",
+        "敒慬楴敶堠倠獯瑩湯最湩ⴠ倠獯瑩潩⁮┨ⰱ┠⤲ⴠ䘠楲瑣潩⁮┨⤳ⴠ䔠慬瑳捩瑩⁹┨⤴",
+        "敒慬楴敶夠倠獯瑩湯最湩ⴠ倠獯瑩潩⁮┨ⰱ┠⤲ⴠ䘠楲瑣潩⁮┨⤳ⴠ䔠慬瑳捩瑩⁹┨⤴",
+        "牆捩楴湯⠠敄慦汵⁴⸱⤰ⴀ倠獯瑩潩⁮┨ⰱ┠⤲ⴠ䘠楲瑣潩⁮┨⤳ⴠ䔠慬瑳捩瑩⁹┨⤴",
+        "汅獡楴楣祴⠠敄慦汵⁴⸰⤰倀獯瑩潩⁮┨ⰱ┠⤲ⴠ䘠楲瑣潩⁮┨⤳ⴠ䔠慬瑳捩瑩⁹┨⤴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Body > Create > Add Custom Shape > End Custom Shape",
+      "text": "潂祤ⴠ䌠獵潴⁭湅d",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Body > Create > Add Custom Shape > Add Vertex",
+      "text": "潂祤ⴠ䌠獵潴⁭摁⁤敖瑲硥ⴠ倠獯瑩潩⡮〥‬ㄥ)",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敒慬楴敶堠倠獯瑩湯攀瑲硥ⴠ倠獯瑩潩⡮〥‬ㄥ)",
+        "敒慬楴敶夠倠獯瑩湯攀瑲硥ⴠ倠獯瑩潩⡮〥‬ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Body > Remove Body",
+      "text": "潂祤┠‰‭敒潭敶",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭敒潭敶"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Body > Modify > Apply Torque",
+      "text": "潂祤┠‰‭灁汰⁹潔煲敵⠠ㄥ)",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭灁汰⁹潔煲敵⠠ㄥ)",
+        "潔煲敵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Body > Modify > Set X Position",
+      "text": "潂祤┠‰‭敓⁴⁘潐楳楴湯⠠ㄥ)",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭敓⁴⁘潐楳楴湯⠠ㄥ)",
+        "⁘潐楳楴湯攀⁴⁘潐楳楴湯⠠ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Body > Modify > Set Y Position",
+      "text": "潂祤┠‰‭敓⁴⁙潐楳楴湯⠠ㄥ)",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭敓⁴⁙潐楳楴湯⠠ㄥ)",
+        "⁙潐楳楴湯攀⁴⁙潐楳楴湯⠠ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Body > Modify > Set Angle",
+      "text": "潂祤┠‰‭敓⁴湁汧⁥┨⤱",
+      "menuId": 25018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭敓⁴湁汧⁥┨⤱",
+        "湁汧eD‭敓⁴湁汧⁥┨⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Body > Modify > Set Angular Velocity",
+      "text": "潂祤┠‰‭敓⁴湁畧慬⁲敖潬楣祴⠠ㄥ)",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭敓⁴湁畧慬⁲敖潬楣祴⠠ㄥ)",
+        "湁畧慬⁲敖潬楣祴甀慬⁲敖潬楣祴⠠ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Body > Modify > Apply Force",
+      "text": "潂祤┠‰‭灁汰⁹潆捲⁥┨ⰱ┠⤲ⴠ传晦敳⁴┨ⰳ┠⤴",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭灁汰⁹潆捲⁥┨ⰱ┠⤲ⴠ传晦敳⁴┨ⰳ┠⤴",
+        "⁘潆捲e‭灁汰⁹潆捲⁥┨ⰱ┠⤲ⴠ传晦敳⁴┨ⰳ┠⤴",
+        "⁙潆捲e‭灁汰⁹潆捲⁥┨ⰱ┠⤲ⴠ传晦敳⁴┨ⰳ┠⤴",
+        "⁘晏獦瑥 灁汰⁹潆捲⁥┨ⰱ┠⤲ⴠ传晦敳⁴┨ⰳ┠⤴",
+        "⁙晏獦瑥 灁汰⁹潆捲⁥┨ⰱ┠⤲ⴠ传晦敳⁴┨ⰳ┠⤴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Body > Modify > Set X Velocity",
+      "text": "潂祤┠‰‭敓⁴⁘敖潬楣祴⠠ㄥ)",
+      "menuId": 25021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭敓⁴⁘敖潬楣祴⠠ㄥ)",
+        "⁘敖潬楣祴攀⁴⁘敖潬楣祴⠠ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Body > Modify > Set Y Velocity",
+      "text": "潂祤┠‰‭敓⁴⁙敖潬楣祴⠠ㄥ)",
+      "menuId": 25022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭敓⁴⁙敖潬楣祴⠠ㄥ)",
+        "⁙敖潬楣祴攀⁴⁙敖潬楣祴⠠ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Joint > Add Pin Joint",
+      "text": "潊湩⁴‭摁⁤楐⁮潊湩⁴‭潂祤⠠〥 瑡⠠㈥‬㌥ ‭潂祤⠠ㄥ 瑡⠠㐥‬㔥)",
+      "menuId": 25023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦楆獲⁴潂祤漀湩⁴‭潂祤⠠〥 瑡⠠㈥‬㌥ ‭潂祤⠠ㄥ 瑡⠠㐥‬㔥)",
+        "䑉漠⁦敓潣摮䈠摯y湩⁴‭潂祤⠠〥 瑡⠠㈥‬㌥ ‭潂祤⠠ㄥ 瑡⠠㐥‬㔥)",
+        "⁘潐楳楴湯漠⁦楆獲⁴湁档牯⠠湩删汥瑡癩⁥潃牯楤慮整⥳⠀ㄥ 瑡⠠㐥‬㔥)",
+        "⁙潐楳楴湯漠⁦楆獲⁴湁档牯⠠湩删汥瑡癩⁥潃牯楤慮整⥳⠀ㄥ 瑡⠠㐥‬㔥)",
+        "⁘潐楳楴湯漠⁦敓潣摮䄠据潨⁲椨⁮敒慬楴敶䌠潯摲湩瑡獥)ㄥ 瑡⠠㐥‬㔥)",
+        "⁙潐楳楴湯漠⁦敓潣摮䄠据潨⁲椨⁮敒慬楴敶䌠潯摲湩瑡獥)ㄥ 瑡⠠㐥‬㔥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Joint > Add Pivot Joint",
+      "text": "潊湩⁴‭摁⁤楐潶⁴潊湩⁴‭潂楤獥⠠〥‬ㄥ ‭湁档牯⠠㈥‬㌥)",
+      "menuId": 25024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦楆獲⁴潂祤 潊湩⁴‭潂楤獥⠠〥‬ㄥ ‭湁档牯⠠㈥‬㌥)",
+        "䑉漠⁦敓潣摮䈠摯y潊湩⁴‭潂楤獥⠠〥‬ㄥ ‭湁档牯⠠㈥‬㌥)",
+        "⁘潐楳楴湯漠⁦湁档牯⠠湩䜠潬慢⁬潃牯楤慮整⥳渀档牯⠠㈥‬㌥)",
+        "⁙潐楳楴湯漠⁦湁档牯⠠湩䜠潬慢⁬潃牯楤慮整⥳渀档牯⠠㈥‬㌥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Joint > Add Slider Joint",
+      "text": "潊湩⁴‭摁⁤汓摩牥䨠楯瑮ⴠ䈠摯⁹┨⤰愠⁴┨ⰲ┠⤳ⴠ䈠摯⁹┨⤱愠⁴┨ⰴ┠⤵ⴠ䰠浩瑩⁳┨ⰶ┠⤷",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦楆獲⁴潂祤爀䨠楯瑮ⴠ䈠摯⁹┨⤰愠⁴┨ⰲ┠⤳ⴠ䈠摯⁹┨⤱愠⁴┨ⰴ┠⤵ⴠ䰠浩瑩⁳┨ⰶ┠⤷",
+        "䑉漠⁦敓潣摮䈠摯y䨠楯瑮ⴠ䈠摯⁹┨⤰愠⁴┨ⰲ┠⤳ⴠ䈠摯⁹┨⤱愠⁴┨ⰴ┠⤵ⴠ䰠浩瑩⁳┨ⰶ┠⤷",
+        "⁘潐楳楴湯漠⁦楆獲⁴湁档牯⠠湩删汥瑡癩⁥潃牯楤慮整⥳搀⁹┨⤱愠⁴┨ⰴ┠⤵ⴠ䰠浩瑩⁳┨ⰶ┠⤷",
+        "⁙潐楳楴湯漠⁦楆獲⁴湁档牯⠠湩删汥瑡癩⁥潃牯楤慮整⥳搀⁹┨⤱愠⁴┨ⰴ┠⤵ⴠ䰠浩瑩⁳┨ⰶ┠⤷",
+        "⁘潐楳楴湯漠⁦敓潣摮䄠据潨⁲椨⁮敒慬楴敶䌠潯摲湩瑡獥)⁹┨⤱愠⁴┨ⰴ┠⤵ⴠ䰠浩瑩⁳┨ⰶ┠⤷",
+        "⁙潐楳楴湯漠⁦敓潣摮䄠据潨⁲椨⁮敒慬楴敶䌠潯摲湩瑡獥)⁹┨⤱愠⁴┨ⰴ┠⤵ⴠ䰠浩瑩⁳┨ⰶ┠⤷",
+        "潊湩⁴楍⁮楌業t潣摮䄠据潨⁲椨⁮敒慬楴敶䌠潯摲湩瑡獥)⁹┨⤱愠⁴┨ⰴ┠⤵ⴠ䰠浩瑩⁳┨ⰶ┠⤷",
+        "潊湩⁴慍⁸楌業t潣摮䄠据潨⁲椨⁮敒慬楴敶䌠潯摲湩瑡獥)⁹┨⤱愠⁴┨ⰴ┠⤵ⴠ䰠浩瑩⁳┨ⰶ┠⤷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Joint > Remove Joint",
+      "text": "潊湩⁴〥ⴠ删浥癯e",
+      "menuId": 25026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊湩⁴䑉ⴀ删浥癯e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Body > Layer > Add Body to Layer",
+      "text": "潂祤┠‰‭摁⁤潴䰠祡牥⠠ㄥ)",
+      "menuId": 25027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭摁⁤潴䰠祡牥⠠ㄥ)",
+        "慌敹⁲〨㌭⤱ 潴䰠祡牥⠠ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Body > Layer > Remove Body from Layer",
+      "text": "潂祤┠‰‭敒潭敶映潲⁭慌敹⁲┨⤱",
+      "menuId": 25028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭敒潭敶映潲⁭慌敹⁲┨⤱",
+        "慌敹⁲〨㌭⤱漀敶映潲⁭慌敹⁲┨⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Body > Layer > Set Body Layer Value (Advanced)",
+      "text": "潂祤┠‰‭敓⁴慌敹獲⠠ㄥ)",
+      "menuId": 25029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭敓⁴慌敹獲⠠ㄥ)",
+        "慌敹⁲慖畬⁥䈨湩牡⁹敒牰獥湥慴楴湯漠⁦慌敹獲)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Body > Set Collision Type",
+      "text": "潂祤┠‰‭敓⁴潃汬獩潩⁮祔数⠠ㄥ)",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭敓⁴潃汬獩潩⁮祔数⠠ㄥ)",
+        "潃汬獩潩⁮祔数漀汬獩潩⁮祔数⠠ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Collision > Register Collision",
+      "text": "敒楧瑳牥䌠汯楬楳湯ⴠ吠灹獥⠠〥‬ㄥ ‭敍桴摯⠠㈥)",
+      "menuId": 25031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆獲⁴潃汬獩潩⁮祔数吀灹獥⠠〥‬ㄥ ‭敍桴摯⠠㈥)",
+        "敓潣摮䌠汯楬楳湯吠灹e灹獥⠠〥‬ㄥ ‭敍桴摯⠠㈥)",
+        "敍桴摯⠠㨰丠⁯潃汬獩潩Ɱㄠ›湅扡敬吠獥楴杮)⠠㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Collision > Unregister Collision",
+      "text": "湕敲楧瑳牥䌠汯楬楳湯ⴠ吠灹獥⠠〥‬ㄥ)",
+      "menuId": 25032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆獲⁴潃汬獩潩⁮祔数ⴀ吠灹獥⠠〥‬ㄥ)",
+        "敓潣摮䌠汯楬楳湯吠灹e吠灹獥⠠〥‬ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Collision > Set Threshold",
+      "text": "敓⁴潃汬獩潩⁮桔敲桳汯⁤┨⤰",
+      "menuId": 25033,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "桔敲桳汯⁤䴨湩浩浵䤠灭捡⁴潆捲⁥潦⁲潃汬獩潩⁮潴吠楲杧牥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Joint > Add Damped Spring Joint",
+      "text": "潊湩⁴‭摁⁤慄灭摥匠牰湩⁧潊湩⁴‭潂祤⠠〥 瑡⠠㈥‬㌥ ‭潂祤⠠ㄥ 瑡⠠㐥‬㔥 ‭敒瑳䰠湥瑧⁨┨⤶ⴠ匠牰湩⁧潃獮慴瑮⠠㜥 ‭慄灭湩⁧潃獮慴瑮⠠㠥)",
+      "menuId": 25034,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦楆獲⁴潂祤搀匠牰湩⁧潊湩⁴‭潂祤⠠〥 瑡⠠㈥‬㌥ ‭潂祤⠠ㄥ 瑡⠠㐥‬㔥 ‭敒瑳䰠湥瑧⁨┨⤶ⴠ匠牰湩⁧潃獮慴瑮⠠㜥 ‭慄灭湩⁧潃獮慴瑮⠠㠥)",
+        "䑉漠⁦敓潣摮䈠摯y匠牰湩⁧潊湩⁴‭潂祤⠠〥 瑡⠠㈥‬㌥ ‭潂祤⠠ㄥ 瑡⠠㐥‬㔥 ‭敒瑳䰠湥瑧⁨┨⤶ⴠ匠牰湩⁧潃獮慴瑮⠠㜥 ‭慄灭湩⁧潃獮慴瑮⠠㠥)",
+        "⁘潐楳楴湯漠⁦楆獲⁴湁档牯⠠湩删汥瑡癩⁥潃牯楤慮整⥳㌀ ‭潂祤⠠ㄥ 瑡⠠㐥‬㔥 ‭敒瑳䰠湥瑧⁨┨⤶ⴠ匠牰湩⁧潃獮慴瑮⠠㜥 ‭慄灭湩⁧潃獮慴瑮⠠㠥)",
+        "⁙潐楳楴湯漠⁦楆獲⁴湁档牯⠠湩删汥瑡癩⁥潃牯楤慮整⥳㌀ ‭潂祤⠠ㄥ 瑡⠠㐥‬㔥 ‭敒瑳䰠湥瑧⁨┨⤶ⴠ匠牰湩⁧潃獮慴瑮⠠㜥 ‭慄灭湩⁧潃獮慴瑮⠠㠥)",
+        "⁘潐楳楴湯漠⁦敓潣摮䄠据潨⁲椨⁮敒慬楴敶䌠潯摲湩瑡獥) ‭潂祤⠠ㄥ 瑡⠠㐥‬㔥 ‭敒瑳䰠湥瑧⁨┨⤶ⴠ匠牰湩⁧潃獮慴瑮⠠㜥 ‭慄灭湩⁧潃獮慴瑮⠠㠥)",
+        "⁙潐楳楴湯漠⁦敓潣摮䄠据潨⁲椨⁮敒慬楴敶䌠潯摲湩瑡獥) ‭潂祤⠠ㄥ 瑡⠠㐥‬㔥 ‭敒瑳䰠湥瑧⁨┨⤶ⴠ匠牰湩⁧潃獮慴瑮⠠㜥 ‭慄灭湩⁧潃獮慴瑮⠠㠥)",
+        "敒瑳䰠湥瑧h⁦敓潣摮䄠据潨⁲椨⁮敒慬楴敶䌠潯摲湩瑡獥) ‭潂祤⠠ㄥ 瑡⠠㐥‬㔥 ‭敒瑳䰠湥瑧⁨┨⤶ⴠ匠牰湩⁧潃獮慴瑮⠠㜥 ‭慄灭湩⁧潃獮慴瑮⠠㠥)",
+        "灓楲杮䌠湯瑳湡⁴䘨牯散䐯獩慴据⥥攀慬楴敶䌠潯摲湩瑡獥) ‭潂祤⠠ㄥ 瑡⠠㐥‬㔥 ‭敒瑳䰠湥瑧⁨┨⤶ⴠ匠牰湩⁧潃獮慴瑮⠠㜥 ‭慄灭湩⁧潃獮慴瑮⠠㠥)",
+        "慄灭湩⁧潃獮慴瑮䘀牯散䐯獩慴据⥥攀慬楴敶䌠潯摲湩瑡獥) ‭潂祤⠠ㄥ 瑡⠠㐥‬㔥 ‭敒瑳䰠湥瑧⁨┨⤶ⴠ匠牰湩⁧潃獮慴瑮⠠㜥 ‭慄灭湩⁧潃獮慴瑮⠠㠥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Body > Modify > Set Surface Velocity",
+      "text": "潂祤┠‰‭敓⁴畓晲捡⁥敖潬楣祴ⴠ䄠杮敬⠠ㄥ ‭敖潬楣祴⠠㈥)",
+      "menuId": 25035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭敓⁴畓晲捡⁥敖潬楣祴ⴠ䄠杮敬⠠ㄥ ‭敖潬楣祴⠠㈥)",
+        "湁汧eD‭敓⁴畓晲捡⁥敖潬楣祴ⴠ䄠杮敬⠠ㄥ ‭敖潬楣祴⠠㈥)",
+        "敖潬楣祴 敓⁴畓晲捡⁥敖潬楣祴ⴠ䄠杮敬⠠ㄥ ‭敖潬楣祴⠠㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Active Object > Attach Active Object to Body",
+      "text": "瑁慴档┠‰潴䈠摯⁹┨⤱ⴠ䬠汩⁬┨⤲ⴠ删瑯瑡潩⁮┨⤳",
+      "menuId": 25036,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "瑁慴档䄠瑣癩⁥扏敪瑣琠⁯潂祤 ┨⤲ⴠ删瑯瑡潩⁮┨⤳",
+        "潂祤䤠D瑣癩⁥扏敪瑣琠⁯潂祤 ┨⤲ⴠ删瑯瑡潩⁮┨⤳",
+        "敄瑳潲⁹捁楴敶眠敨⁮潂祤椠⁳敒潭敶㽤⠠㴱牴敵‬㴰慦獬⥥",
+        "潒慴楴湯⠠ㄭ丽⁯潒慴楴湯‬㴰慍楸畭⁭灓敥Ɽㄠ䴽硡浩浵儠慵楬祴)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Active Object > Detach Active Object",
+      "text": "敄慴档┠0",
+      "menuId": 25037,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敄慴档䄠瑣癩⁥扏敪瑣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Body > Modify > Shapes > Set Surface Velocity",
+      "text": "潂祤┠‰‭桓灡⁥ㄥⴠ匠瑥匠牵慦散嘠汥捯瑩⁹‭湁汧⁥┨⤳ⴠ䘠牯散⠠㈥)",
+      "menuId": 25038,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭桓灡⁥ㄥⴠ匠瑥匠牵慦散嘠汥捯瑩⁹‭湁汧⁥┨⤳ⴠ䘠牯散⠠㈥)",
+        "桓灡⁥䑉 桓灡⁥ㄥⴠ匠瑥匠牵慦散嘠汥捯瑩⁹‭湁汧⁥┨⤳ⴠ䘠牯散⠠㈥)",
+        "湁汧e䑉 桓灡⁥ㄥⴠ匠瑥匠牵慦散嘠汥捯瑩⁹‭湁汧⁥┨⤳ⴠ䘠牯散⠠㈥)",
+        "敖潬楣祴 桓灡⁥ㄥⴠ匠瑥匠牵慦散嘠汥捯瑩⁹‭湁汧⁥┨⤳ⴠ䘠牯散⠠㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Body > Modify > Shapes > Set Friction",
+      "text": "潂祤┠‰‭桓灡⁥ㄥⴠ匠瑥䘠楲瑣潩⁮┨⤲",
+      "menuId": 25039,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭桓灡⁥ㄥⴠ匠瑥䘠楲瑣潩⁮┨⤲",
+        "桓灡⁥䑉 桓灡⁥ㄥⴠ匠瑥䘠楲瑣潩⁮┨⤲",
+        "牆捩楴湯⠠敄慦汵⁴⸱⤰琀䘠楲瑣潩⁮┨⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Body > Modify > Shapes > Set Elasticity",
+      "text": "潂祤┠‰‭桓灡⁥ㄥⴠ匠瑥䔠慬瑳捩瑩⁹┨⤲",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭桓灡⁥ㄥⴠ匠瑥䔠慬瑳捩瑩⁹┨⤲",
+        "桓灡⁥䑉 桓灡⁥ㄥⴠ匠瑥䔠慬瑳捩瑩⁹┨⤲",
+        "汅獡楴楣祴⠠敄慦汵⁴⸰⤰䔀慬瑳捩瑩⁹┨⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Body > Modify > Shapes > Remove All Shapes",
+      "text": "潂祤┠‰‭敒潭敶䄠汬匠慨数s",
+      "menuId": 25041,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭敒潭敶䄠汬匠慨数s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Body > Modify > Shapes > Remove Shape",
+      "text": "潂祤┠‰‭敒潭敶匠慨数┠1",
+      "menuId": 25042,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭敒潭敶匠慨数┠1",
+        "桓灡⁥䑉 敒潭敶匠慨数┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Body > Modify > Set Mass",
+      "text": "潂祤┠‰‭敓⁴慍獳⠠ㄥ)",
+      "menuId": 25043,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭敓⁴慍獳⠠ㄥ)",
+        "慍獳䤀D‭敓⁴慍獳⠠ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Body > Modify > Shapes > Remove All Shapes in Zone",
+      "text": "潂祤┠‰‭敒潭敶䄠汬匠慨数⁳湩娠湯⁥┨ⰱ┠′‭㌥‬㐥)",
+      "menuId": 25044,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭敒潭敶䄠汬匠慨数⁳湩娠湯⁥┨ⰱ┠′‭㌥‬㐥)",
+        "⁘‭敌瑦 敒潭敶䄠汬匠慨数⁳湩娠湯⁥┨ⰱ┠′‭㌥‬㐥)",
+        "⁙‭潔p 敒潭敶䄠汬匠慨数⁳湩娠湯⁥┨ⰱ┠′‭㌥‬㐥)",
+        "⁘‭楒桧t敒潭敶䄠汬匠慨数⁳湩娠湯⁥┨ⰱ┠′‭㌥‬㐥)",
+        "⁙‭潂瑴浯攀潭敶䄠汬匠慨数⁳湩娠湯⁥┨ⰱ┠′‭㌥‬㐥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Body > Modify > Add Dampening",
+      "text": "潂祤┠‰‭摁⁤慄灭湥湩⁧┨ⰱ┠⤲",
+      "menuId": 25045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭摁⁤慄灭湥湩⁧┨ⰱ┠⤲",
+        "⁘慄灭湥嘠污敵愀灭湥湩⁧┨ⰱ┠⤲",
+        "⁙慄灭湥嘠污敵愀灭湥湩⁧┨ⰱ┠⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Body > Modify > Remove Dampening",
+      "text": "潂祤┠‰‭敒潭敶䐠浡数楮杮",
+      "menuId": 25046,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭敒潭敶䐠浡数楮杮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Body > Modify > Shapes > Add Shape to Layer",
+      "text": "潂祤┠‰‭桓灡⁥ㄥⴠ䄠摤琠⁯慌敹⁲┨⤲",
+      "menuId": 25047,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭桓灡⁥ㄥⴠ䄠摤琠⁯慌敹⁲┨⤲",
+        "桓灡⁥䑉 桓灡⁥ㄥⴠ䄠摤琠⁯慌敹⁲┨⤲",
+        "慌敹⁲〨㌭⤱瀀⁥ㄥⴠ䄠摤琠⁯慌敹⁲┨⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Body > Modify > Shapes > Remove Shape from Layer",
+      "text": "潂祤┠‰‭桓灡⁥ㄥⴠ删浥癯⁥牆浯䰠祡牥⠠㈥)",
+      "menuId": 25048,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭桓灡⁥ㄥⴠ删浥癯⁥牆浯䰠祡牥⠠㈥)",
+        "桓灡⁥䑉 桓灡⁥ㄥⴠ删浥癯⁥牆浯䰠祡牥⠠㈥)",
+        "慌敹⁲〨㌭⤱瀀⁥ㄥⴠ删浥癯⁥牆浯䰠祡牥⠠㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Body > Modify > Shapes > Set Shape Layer Value (Advanced)",
+      "text": "潂祤┠‰‭桓灡⁥ㄥⴠ匠瑥䰠祡牥⁳┨⤲",
+      "menuId": 25049,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭桓灡⁥ㄥⴠ匠瑥䰠祡牥⁳┨⤲",
+        "桓灡⁥䑉 桓灡⁥ㄥⴠ匠瑥䰠祡牥⁳┨⤲",
+        "慌敹⁲慖畬⁥䈨湩牡⁹敒牰獥湥慴楴湯漠⁦慌敹獲)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 50,
+      "menu": "Body > Modify > Shapes > Set Collision Type",
+      "text": "潂祤┠‰‭桓灡⁥ㄥⴠ匠瑥䌠汯楬楳湯吠灹⁥┨⤲",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂祤䤠D‭桓灡⁥ㄥⴠ匠瑥䌠汯楬楳湯吠灹⁥┨⤲",
+        "桓灡⁥䑉 桓灡⁥ㄥⴠ匠瑥䌠汯楬楳湯吠灹⁥┨⤲",
+        "潃汬獩潩⁮祔数 ㄥⴠ匠瑥䌠汯楬楳湯吠灹⁥┨⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "World > Get Gravity X",
+      "text": "潗汲䝤慲楶祴⡘",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "World > Get Gravity Y",
+      "text": "潗汲䝤慲楶祴⡙",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Body > Get ID of Last Added Body",
+      "text": "潂祤慌瑳䑉(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Body > Get X Position",
+      "text": "潂祤⡘",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潂祤䤠D"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Body > Get Y Position",
+      "text": "潂祤⡙",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潂祤䤠D"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Body > Get Angle",
+      "text": "潂祤湁汧⡥",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潂祤䤠D⡥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Body > Get Angular Velocity",
+      "text": "潂祤湁畧慬噲汥捯瑩⡹",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潂祤䤠D慬噲汥捯瑩⡹"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Body > Get X Velocity",
+      "text": "潂祤噘汥捯瑩⡹",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潂祤䤠D捯瑩⡹"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Body > Get Y Velocity",
+      "text": "潂祤噙汥捯瑩⡹",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潂祤䤠D捯瑩⡹"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Joint > Get ID of Last Added Joint",
+      "text": "潊湩䱴獡䥴⡄",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Joint > Get ID of First Body",
+      "text": "潊湩䙴物瑳潂祤䑉(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊湩⁴䑉琀潂祤䑉("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Joint > Get ID of Second Body",
+      "text": "潊湩却捥湯䉤摯䥹⡄",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊湩⁴䑉渀䉤摯䥹⡄"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Joint > Get X of First Anchor",
+      "text": "潊湩䙴物瑳湁档牯⡘",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊湩⁴䑉琀湁档牯⡘"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Joint > Get Y of First Anchor",
+      "text": "潊湩䙴物瑳湁档牯⡙",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊湩⁴䑉琀湁档牯⡙"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Joint > Get X of Second Anchor",
+      "text": "潊湩却捥湯䅤据潨塲(",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊湩⁴䑉渀䅤据潨塲("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Joint > Get Y of Second Anchor",
+      "text": "潊湩却捥湯䅤据潨奲(",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊湩⁴䑉渀䅤据潨奲("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Body > Get Layer Value",
+      "text": "潂祤慌敹獲(",
+      "menuId": 27016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潂祤䤠D獲("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Body > Get Collision Type",
+      "text": "潂祤潃汬祔数(",
+      "menuId": 27017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潂祤䤠D祔数("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "On Collision > Get Type of First Body",
+      "text": "潃汬獩潩呮灹ㅥ(",
+      "menuId": 27018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "On Collision > Get Type of Second Body",
+      "text": "潃汬獩潩呮灹㉥(",
+      "menuId": 27019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "On Collision > Get ID of First Body",
+      "text": "潃汬獩潩䉮摯ㅹ(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "On Collision > Get ID of Second Body",
+      "text": "潃汬獩潩䉮摯㉹(",
+      "menuId": 27021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "On Collision > Get Impact Force",
+      "text": "潃汬獩潩䥮灭捡⡴",
+      "menuId": 27022,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "On Collision > Get Impact Angle",
+      "text": "潃汬獩潩䥮灭捡䅴杮敬(",
+      "menuId": 27023,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Collision > Get Threshold",
+      "text": "潃汬獩潩呮牨獥潨摬(",
+      "menuId": 27024,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Body > Shapes > Get Number of Shapes in Body",
+      "text": "潂祤畎卭慨数⡳",
+      "menuId": 27025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潂祤䤠D慨数⡳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Body > Shapes > Get Shape Type",
+      "text": "桓灡呥灹⡥",
+      "menuId": 27026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潂祤䤠D⡥",
+        "桓灡⁥䑉⠀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Body > Shapes > Get X Position",
+      "text": "桓灡塥(",
+      "menuId": 27027,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潂祤䤠D",
+        "桓灡⁥䑉"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Body > Shapes > Get Y Position",
+      "text": "桓灡奥(",
+      "menuId": 27028,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潂祤䤠D",
+        "桓灡⁥䑉"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Body > Shapes > Get Second X Position",
+      "text": "桓灡塥⠲",
+      "menuId": 27029,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潂祤䤠D",
+        "桓灡⁥䑉"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Body > Shapes > Get Second Y Position",
+      "text": "桓灡奥⠲",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潂祤䤠D",
+        "桓灡⁥䑉"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Body > Shapes > Get Radius",
+      "text": "桓灡剥摡畩⡳",
+      "menuId": 27031,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潂祤䤠D畩⡳",
+        "桓灡⁥䑉甀⡳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Body > Shapes > Get Number of Points in Shape",
+      "text": "桓灡乥浵潐湩獴(",
+      "menuId": 27032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潂祤䤠D潐湩獴(",
+        "桓灡⁥䑉漀湩獴("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Body > Shapes > Get Point X",
+      "text": "桓灡健楯瑮⡘",
+      "menuId": 27033,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潂祤䤠D瑮⡘",
+        "桓灡⁥䑉琀⡘",
+        "潐湩⁴䑉琀⡘"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Body > Shapes > Get Point Y",
+      "text": "桓灡健楯瑮⡙",
+      "menuId": 27034,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潂祤䤠D瑮⡙",
+        "桓灡⁥䑉琀⡙",
+        "潐湩⁴䑉琀⡙"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Body > Get Number of Bodies",
+      "text": "畎䉭摯敩⡳",
+      "menuId": 27035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Body > Get Body ID of Active",
+      "text": "捁楴敶潂祤䑉(",
+      "menuId": 27036,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬⁥景䄠瑣癩⁥扏敪瑣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

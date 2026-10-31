@@ -1,0 +1,94 @@
+{
+  "file": "fts.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set time/date data",
+      "text": "敓⁴楴敭搯瑡⁥慤慴›〥Ⱐ┠‱‬㈥Ⱐ┠″‬㐥Ⱐ†㔥 ",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "教牡ㄠ〹‰㸭 慤慴›〥Ⱐ┠‱‬㈥Ⱐ┠″‬㐥Ⱐ†㔥 ",
+        "潍瑮h〹‰㸭 慤慴›〥Ⱐ┠‱‬㈥Ⱐ┠″‬㐥Ⱐ†㔥 ",
+        "慄⁹景洠湯桴 慤慴›〥Ⱐ┠‱‬㈥Ⱐ┠″‬㐥Ⱐ†㔥 ",
+        "潈牵〠㈭4桴 慤慴›〥Ⱐ┠‱‬㈥Ⱐ┠″‬㐥Ⱐ†㔥 ",
+        "楍畮整㈀4桴 慤慴›〥Ⱐ┠‱‬㈥Ⱐ┠″‬㐥Ⱐ†㔥 ",
+        "敓潣湵d4桴 慤慴›〥Ⱐ┠‱‬㈥Ⱐ┠″‬㐥Ⱐ†㔥 "
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set local",
+      "text": "敓⁴潬慣⁬潴┠0",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃湵牴⁹潣敤─0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Formatted time string small",
+      "text": "瑦獳⠤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Formatted time string",
+      "text": "瑦⑳(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

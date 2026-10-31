@@ -1,0 +1,1979 @@
+{
+  "file": "Calendar.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Date/Time picker > Calendar popup shown",
+      "text": "漥›慃敬摮牡瀠灯灵猠潨湷",
+      "menuId": 26000,
+      "resText": "%o: Calendar popup shown",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Date/Time picker > Calendar popup hidden",
+      "text": "漥›慃敬摮牡瀠灯灵栠摩敤n",
+      "menuId": 26001,
+      "resText": "%o: Calendar popup hidden",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Date/Time picker > Date cleared (checkbox unticked)",
+      "text": "漥›慄整挠敬牡摥",
+      "menuId": 26002,
+      "resText": "%o: Date cleared",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Date/Time picker > Date changed",
+      "text": "漥›慄整挠慨杮摥",
+      "menuId": 26003,
+      "resText": "%o: Date changed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Month calendar > User selects specific date(s)",
+      "text": "漥›獕牥猠汥捥獴愠搠瑡e",
+      "menuId": 26004,
+      "resText": "%o: User selects a date",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Month calendar > User selects a new month or date(s)",
+      "text": "漥›獕牥猠汥捥獴愠渠睥洠湯桴漠⁲慤整",
+      "menuId": 26005,
+      "resText": "%o: User selects a new month or date",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Month calendar > X, Y in calendar?",
+      "text": "漥›┨ⰰ┠⤱氠敩⁳湩挠污湥慤r",
+      "menuId": 26006,
+      "resText": "%o: (%0, %1) lies in calendar",
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘潰楳楴湯⤀氠敩⁳湩挠污湥慤r",
+        "⁙潰楳楴湯⤀氠敩⁳湩挠污湥慤r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Month calendar > Specific hit-test locations > Calendar background",
+      "text": "漥›潐湩⁴楬獥椠⁮慣敬摮牡戠捡杫潲湵d",
+      "menuId": 26007,
+      "resText": "%o: Point lies in calendar background",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Month calendar > Specific hit-test locations > Any date",
+      "text": "漥›潐湩⁴楬獥漠⁮慤整",
+      "menuId": 26008,
+      "resText": "%o: Point lies on date",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Month calendar > Specific hit-test locations > Date in next month",
+      "text": "漥›潐湩⁴楬獥漠⁮慤整椠⁮敮瑸洠湯桴",
+      "menuId": 26009,
+      "resText": "%o: Point lies on date in next month",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Month calendar > Specific hit-test locations > Date in previous month",
+      "text": "漥›潐湩⁴楬獥漠⁮慤整椠⁮牰癥洠湯桴",
+      "menuId": 26010,
+      "resText": "%o: Point lies on date in prev month",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Month calendar > Specific hit-test locations > Day name",
+      "text": "漥›潐湩⁴楬獥漠⁮慤整渠浡e",
+      "menuId": 26011,
+      "resText": "%o: Point lies on date name",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Month calendar > Specific hit-test locations > Week number",
+      "text": "漥›潐湩⁴楬獥漠⁮敷步渠浵敢r",
+      "menuId": 26012,
+      "resText": "%o: Point lies on week number",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Month calendar > Specific hit-test locations > Title background",
+      "text": "漥›潐湩⁴楬獥漠⁮楴汴⁥慢正牧畯摮",
+      "menuId": 26013,
+      "resText": "%o: Point lies on title background",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Month calendar > Specific hit-test locations > Next month button",
+      "text": "漥›潐湩⁴楬獥漠⁮敮瑸洠湯桴戠瑵潴n",
+      "menuId": 26014,
+      "resText": "%o: Point lies on next month button",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Month calendar > Specific hit-test locations > Prev month button",
+      "text": "漥›潐湩⁴楬獥漠⁮牰癥洠湯桴戠瑵潴n",
+      "menuId": 26015,
+      "resText": "%o: Point lies on prev month button",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Month calendar > Specific hit-test locations > Month name in title",
+      "text": "漥›潐湩⁴楬獥漠⁮潭瑮⁨慮敭",
+      "menuId": 26016,
+      "resText": "%o: Point lies on month name",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Month calendar > Specific hit-test locations > Year name in title",
+      "text": "漥›潐湩⁴楬獥漠⁮敹牡渠浡e",
+      "menuId": 26017,
+      "resText": "%o: Point lies on year name",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Month calendar > Is date bold?",
+      "text": "漥›慄整┠‰獩戠汯d",
+      "menuId": 26018,
+      "resText": "%o: Date %0 is bold",
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慄整愀整┠‰獩戠汯d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Is visible?",
+      "text": "漥瘠獩扩敬",
+      "menuId": 26019,
+      "resText": "%o visible",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Is enabled?",
+      "text": "漥攠慮汢摥",
+      "menuId": 26020,
+      "resText": "%o enabled",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Focus > Received",
+      "text": "漥›潦畣⁳敲散癩摥",
+      "menuId": 26021,
+      "resText": "%o: focus received",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Focus > Lost",
+      "text": "漥›潦畣⁳潬瑳",
+      "menuId": 26022,
+      "resText": "%o: focus lost",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Focus > Is focused?",
+      "text": "漥椠⁳潦畣敳d",
+      "menuId": 26023,
+      "resText": "%o is focused",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Check if year is a leap year",
+      "text": "漥›〥椠⁳⁡敬灡礠慥r",
+      "menuId": 26024,
+      "resText": "%o: %0 is a leap year",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "教牡　椠⁳⁡敬灡礠慥r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Compare two dates",
+      "text": "漥›潃灭牡⁥慤整›〥┠‱㈥",
+      "menuId": 26025,
+      "resText": "%o: Compare date: %0 %1 %2",
+      "flags": 32,
+      "paramTypes": [
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楦獲⁴慤整─‱㈥",
+        "潃灭牡⁥桴⁥楦獲⁴慤整琠⁯桴⁥敳潣摮⠠湯⁥景㴠℠‽‼‾㴼㸠⤽",
+        "湅整⁲桴⁥敳潣摮搠瑡e琠⁯桴⁥敳潣摮⠠湯⁥景㴠℠‽‼‾㴼㸠⤽"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Mouse > Clicked",
+      "text": "獕牥┠‰湯┠o",
+      "menuId": 26026,
+      "resText": "User %0 on %o",
+      "flags": 0,
+      "paramTypes": [
+        32
+      ],
+      "paramTitles": [
+        "敓敬瑣琠敨洠畯敳戠瑵潴⁮潴琠獥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Mouse > Held",
+      "text": "獕牥栠汯獤琠敨┠‰癯牥┠o",
+      "menuId": 26027,
+      "resText": "User holds the %0 over %o",
+      "flags": 544,
+      "paramTypes": [
+        44
+      ],
+      "paramTitles": [
+        "敓敬瑣琠敨洠畯敳戠瑵潴⁮潴琠獥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Mouse > Released",
+      "text": "獕牥爠汥慥敳⁳桴⁥〥漠敶⁲漥",
+      "menuId": 26028,
+      "resText": "User releases the %0 over %o",
+      "flags": 0,
+      "paramTypes": [
+        44
+      ],
+      "paramTitles": [
+        "敓敬瑣琠敨洠畯敳戠瑵潴⁮潴琠獥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Position and Size > Set X position",
+      "text": "敓⁴⁘潰楳楴湯琠⁯〥",
+      "menuId": 25000,
+      "resText": "Set X position to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁘潰楳楴湯椀湯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Position and Size > Set Y position",
+      "text": "敓⁴⁙潰楳楴湯琠⁯〥",
+      "menuId": 25001,
+      "resText": "Set Y position to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁙潰楳楴湯椀湯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Position and Size > Set width",
+      "text": "敓⁴楷瑤⁨潴┠0",
+      "menuId": 25002,
+      "resText": "Set width to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗瑤h瑤⁨潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Position and Size > Set height",
+      "text": "敓⁴敨杩瑨琠⁯〥",
+      "menuId": 25003,
+      "resText": "Set height to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "效杩瑨最瑨琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Visibility > Show",
+      "text": "桓睯",
+      "menuId": 25004,
+      "resText": "Show",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Visibility > Hide",
+      "text": "楈敤",
+      "menuId": 25005,
+      "resText": "Hide",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "State > Enable",
+      "text": "湅扡敬",
+      "menuId": 25006,
+      "resText": "Enable",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "State > Disable",
+      "text": "楄慳汢e",
+      "menuId": 25007,
+      "resText": "Disable",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "State > Focus",
+      "text": "潆畣s",
+      "menuId": 25008,
+      "resText": "Focus",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "State > Unfocus",
+      "text": "湕潦畣s",
+      "menuId": 25009,
+      "resText": "Unfocus",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Date/Time picker appeareance > Background color",
+      "text": "敓⁴楰正牥戠捡杫潲湵⁤潣潬⁲潴┠1",
+      "menuId": 25017,
+      "resText": "Set picker background color to %1",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "楐正愠挠汯畯r杫潲湵⁤潣潬⁲潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Date/Time picker appeareance > Format string > Short date",
+      "text": "獕⁥桳牯⁴慤整映牯慭t",
+      "menuId": 25019,
+      "resText": "Use short date format",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Date/Time picker appeareance > Format string > Short date (4 digit year)",
+      "text": "獕⁥桳牯⁴慤整映牯慭⁴㐨搠杩瑩礠慥⥲",
+      "menuId": 25020,
+      "resText": "Use short date format (4 digit year)",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Date/Time picker appeareance > Format string > Long date",
+      "text": "獕⁥潬杮搠瑡⁥潦浲瑡",
+      "menuId": 25021,
+      "resText": "Use long date format",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Date/Time picker appeareance > Format string > Time",
+      "text": "獕⁥楴敭映牯慭t",
+      "menuId": 25022,
+      "resText": "Use time format",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Date/Time picker appeareance > Format string > Custom",
+      "text": "獕⁥慤整映牯慭⁴〥",
+      "menuId": 25023,
+      "resText": "Use date format %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲⁡慤整琯浩⁥潦浲瑡猠牴湩⁧猨敥栠汥⁰潦⁲敤慴汩⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Date/Time picker appeareance > Clear date (if contains checkbox)",
+      "text": "汃慥⁲慤整",
+      "menuId": 25024,
+      "resText": "Clear date",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Month calendar appeareance > Styles > Set today's date (as shown on calendar)",
+      "text": "敓⁴潴慤❹⁳慤整琠⁯〥",
+      "menuId": 25031,
+      "resText": "Set today's date to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慄整漀慤❹⁳慤整琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Month calendar appeareance > Styles > Set first day of the week",
+      "text": "敓⁴楦獲⁴慤⁹景琠敨眠敥⁫潴┠0",
+      "menuId": 25032,
+      "resText": "Set first day of the week to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰‽潍摮祡‬‱‽畔獥慤⁹⸮‮‶‽畓摮祡"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Month calendar appeareance > Styles > Set number of months to scroll at a time",
+      "text": "捓潲汬┠‰潭瑮獨愠⁴⁡楴敭",
+      "menuId": 25033,
+      "resText": "Scroll %0 months at a time",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "桔⁥畮扭牥漠⁦潭瑮獨琠⁯捳潲汬戠ⱹ瀠牥猠牣汯l"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Month calendar appeareance > Colors / Font > Background color",
+      "text": "敓⁴慣敬摮牡戠捡杫潲湵⁤潣潬⁲潴┠0",
+      "menuId": 25034,
+      "resText": "Set calendar background color to %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "楐正愠挠汯畯r捡杫潲湵⁤潣潬⁲潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Month calendar appeareance > Colors / Font > Month background color",
+      "text": "敓⁴慣敬摮牡洠湯桴戠捡杫潲湵⁤潣潬⁲潴┠0",
+      "menuId": 25035,
+      "resText": "Set calendar month background color to %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "楐正愠挠汯畯r湯桴戠捡杫潲湵⁤潣潬⁲潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Month calendar appeareance > Colors / Font > Text color",
+      "text": "敓⁴慣敬摮牡琠硥⁴潣潬⁲潴┠0",
+      "menuId": 25036,
+      "resText": "Set calendar text color to %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "楐正愠挠汯畯r硥⁴潣潬⁲潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Month calendar appeareance > Colors / Font > Title background color",
+      "text": "敓⁴慣敬摮牡琠瑩敬戠捡杫潲湵⁤潣潬⁲潴┠0",
+      "menuId": 25037,
+      "resText": "Set calendar title background color to %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "楐正愠挠汯畯r瑩敬戠捡杫潲湵⁤潣潬⁲潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Month calendar appeareance > Colors / Font > Title color",
+      "text": "敓⁴慣敬摮牡琠瑩敬琠硥⁴潣潬⁲潴┠0",
+      "menuId": 25038,
+      "resText": "Set calendar title text color to %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "楐正愠挠汯畯r瑩敬琠硥⁴潣潬⁲潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Month calendar appeareance > Colors / Font > Trailing text color",
+      "text": "敓⁴慣敬摮牡琠慲汩湩⁧整瑸挠汯牯琠⁯〥",
+      "menuId": 25039,
+      "resText": "Set calendar trailing text color to %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "楐正愠挠汯畯r慲汩湩⁧整瑸挠汯牯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Month calendar appeareance > Colors / Font > Set font",
+      "text": "敓⁴慣敬摮牡映湯⁴潴┠ⰰ猠穩⁥ㄥ",
+      "menuId": 25040,
+      "resText": "Set calendar font to %0, size %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "潆瑮映浡汩⁹慮敭 潴┠ⰰ猠穩⁥ㄥ",
+        "潆瑮猠穩⁥湩瀠t 潴┠ⰰ猠穩⁥ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Multiple selection > Set maximum number of days",
+      "text": "敓⁴慭楸畭⁭畮扭牥漠⁦敳敬瑣扡敬搠祡⁳潴┠0",
+      "menuId": 25041,
+      "resText": "Set maximum number of selectable days to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "桔⁥慭楸畭⁭畮扭牥漠⁦敳敬瑣扡敬⠠潣獮捥瑵癩⥥搠瑡獥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Multiple selection > Set selection",
+      "text": "敓⁴敳敬瑣摥搠瑡⁥慲杮⁥牦浯┠‰潴┠1",
+      "menuId": 25042,
+      "resText": "Set selected date range from %0 to %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楦獲⁴慤整最⁥牦浯┠‰潴┠1",
+        "湅整⁲桴⁥敳潣摮搠瑡e⁥牦浯┠‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Month calendar appeareance > Display a date in bold",
+      "text": "潂摬搠瑡⁥〥",
+      "menuId": 25043,
+      "resText": "Bold date %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慄整搀瑡⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Month calendar appeareance > Remove bold state from a date",
+      "text": "湕潢摬搠瑡⁥〥",
+      "menuId": 25044,
+      "resText": "Unbold date %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慄整搀搠瑡⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Set range of allowed dates > Set minimum date",
+      "text": "敓⁴業楮畭⁭污潬敷⁤慤整琠⁯〥",
+      "menuId": 25045,
+      "resText": "Set minimum allowed date to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慄整椀楮畭⁭污潬敷⁤慤整琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Set range of allowed dates > Set maximum date",
+      "text": "敓⁴慭楸畭⁭污潬敷⁤慤整琠⁯〥",
+      "menuId": 25046,
+      "resText": "Set maximum allowed date to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慄整愀楸畭⁭污潬敷⁤慤整琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Set selected date",
+      "text": "敓⁴敳敬瑣摥搠瑡⁥潴┠0",
+      "menuId": 25047,
+      "resText": "Set selected date to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慄整攀敬瑣摥搠瑡⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Set system date",
+      "text": "敓⁴祳瑳浥搠瑡⁥潴┠0",
+      "menuId": 25048,
+      "resText": "Set system date to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慄整礀瑳浥搠瑡⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Month calendar appeareance > Clear bold dates",
+      "text": "汃慥⁲污⁬潢摬搠瑡獥",
+      "menuId": 25049,
+      "resText": "Clear all bold dates",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Position and Size > X position",
+      "text": "⡘",
+      "menuId": 27000,
+      "resText": "X(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Position and Size > Y position",
+      "text": "⡙",
+      "menuId": 27001,
+      "resText": "Y(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Position and Size > Width",
+      "text": "楗瑤⡨",
+      "menuId": 27002,
+      "resText": "Width(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Position and Size > Height",
+      "text": "效杩瑨(",
+      "menuId": 27003,
+      "resText": "Height(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Date/Time picker > Background color",
+      "text": "楐正牥䈠⁇潃潬⡲",
+      "menuId": 27005,
+      "resText": "Picker BG Color(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Date/Time picker > Get current format string",
+      "text": "畃瑳浯䘠牯慭⑴(",
+      "menuId": 27006,
+      "resText": "Custom Format$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Month calendar > Styles > Today's date",
+      "text": "潔慤⁹慄整⠤",
+      "menuId": 27007,
+      "resText": "Today Date$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Month calendar > Styles > First day of the week",
+      "text": "楆獲⁴慄⁹晏圠敥⡫",
+      "menuId": 27008,
+      "resText": "First Day Of Week(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Month calendar > Styles > Number of months to scroll at a time",
+      "text": "潍瑮⁨捓潲汬(",
+      "menuId": 27009,
+      "resText": "Month Scroll(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Month calendar > Window > Maximum width of 'today' text",
+      "text": "慍⁸潔慤⁹楗瑤⡨",
+      "menuId": 27010,
+      "resText": "Max Today Width(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Month calendar > Window > Minimum width",
+      "text": "楍⁮楗瑤⡨",
+      "menuId": 27011,
+      "resText": "Min Width(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Month calendar > Window > Minimum height",
+      "text": "楍⁮效杩瑨(",
+      "menuId": 27012,
+      "resText": "Min Height(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Month calendar > Colors > Background color",
+      "text": "慃⁬䝂䌠汯牯(",
+      "menuId": 27013,
+      "resText": "Cal BG Color(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Month calendar > Colors > Month background color",
+      "text": "慃⁬潍瑮⁨䝂䌠汯牯(",
+      "menuId": 27014,
+      "resText": "Cal Month BG Color(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Month calendar > Colors > Text color",
+      "text": "慃⁬敔瑸䌠汯牯(",
+      "menuId": 27015,
+      "resText": "Cal Text Color(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Month calendar > Colors > Title background color",
+      "text": "慃⁬楔汴⁥䝂䌠汯牯(",
+      "menuId": 27016,
+      "resText": "Cal Title BG Color(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Month calendar > Colors > Title color",
+      "text": "慃⁬楔汴⁥敔瑸䌠汯牯(",
+      "menuId": 27017,
+      "resText": "Cal Title Text Color(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Month calendar > Colors > Trailing text color",
+      "text": "慃⁬牔楡楬杮吠硥⁴潃潬⡲",
+      "menuId": 27018,
+      "resText": "Cal Trailing Text Color(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Multiple selection > Maximum number of days",
+      "text": "慍⁸敓敬瑣摥䐠祡⡳",
+      "menuId": 27019,
+      "resText": "Max Selected Days(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Multiple selection > First date",
+      "text": "敓敬瑣潩⁮瑓牡⑴(",
+      "menuId": 27020,
+      "resText": "Selection Start$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Multiple selection > Last date",
+      "text": "敓敬瑣潩⁮湅⑤(",
+      "menuId": 27021,
+      "resText": "Selection End$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Month calendar > Get displayed month range > Fully and partially visible months > First month",
+      "text": "楆獲⁴楖楳汢⁥潍瑮⑨(",
+      "menuId": 27022,
+      "resText": "First Visible Month$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Month calendar > Get displayed month range > Fully and partially visible months > Last month",
+      "text": "慌瑳嘠獩扩敬䴠湯桴⠤",
+      "menuId": 27023,
+      "resText": "Last Visible Month$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Month calendar > Get displayed month range > Fully and partially visible months > Number of months spanned",
+      "text": "楖楳汢⁥潍瑮⁨潃湵⡴",
+      "menuId": 27024,
+      "resText": "Visible Month Count(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Month calendar > Get displayed month range > Only fully visible months > First month",
+      "text": "楆獲⁴畆汬⁹楖楳汢⁥潍瑮⑨(",
+      "menuId": 27025,
+      "resText": "First Fully Visible Month$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Month calendar > Get displayed month range > Only fully visible months > Last month",
+      "text": "慌瑳䘠汵祬嘠獩扩敬䴠湯桴⠤",
+      "menuId": 27026,
+      "resText": "Last Fully Visible Month$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Month calendar > Get displayed month range > Only fully visible months > Number of months spanned",
+      "text": "畆汬⁹楖楳汢⁥潍瑮⁨潃湵⡴",
+      "menuId": 27027,
+      "resText": "Fully Visible Month Count(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Month calendar > Bold state of a date",
+      "text": "潂摬匠慴整(",
+      "menuId": 27028,
+      "resText": "Bold State(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慄整匀慴整("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Month calendar > Date specified by last hit-test condition",
+      "text": "楈⁴敔瑳䐠瑡⑥(",
+      "menuId": 27029,
+      "resText": "Hit Test Date$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Get selected date",
+      "text": "敓敬瑣摥䐠瑡⑥(",
+      "menuId": 27030,
+      "resText": "Selected Date$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Get allowable date range > Minimum date",
+      "text": "楍⁮汁潬敷⁤慄整⠤",
+      "menuId": 27031,
+      "resText": "Min Allowed Date$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Get allowable date range > Maximum date",
+      "text": "慍⁸汁潬敷⁤慄整⠤",
+      "menuId": 27032,
+      "resText": "Max Allowed Date$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Format date > Custom date",
+      "text": "潆浲瑡䐠瑡⑥(",
+      "menuId": 27033,
+      "resText": "Format Date$(",
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "慄整琀䐠瑡⑥(",
+        "潆浲瑡猠牴湩g"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Format date > Short date",
+      "text": "潆浲瑡匠潨瑲⠤",
+      "menuId": 27034,
+      "resText": "Format Short$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慄整琀匠潨瑲⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Format date > Long date",
+      "text": "潆浲瑡䰠湯⑧(",
+      "menuId": 27035,
+      "resText": "Format Long$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慄整琀䰠湯⑧("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Format date > Year/month",
+      "text": "潆浲瑡夠慥⁲潍瑮⑨(",
+      "menuId": 27036,
+      "resText": "Format Year Month$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慄整琀夠慥⁲潍瑮⑨("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Format date > Custom time",
+      "text": "潆浲瑡吠浩⑥(",
+      "menuId": 27037,
+      "resText": "Format Time$(",
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "楔敭琀吠浩⑥(",
+        "潆浲瑡猠牴湩g"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Format date > HH:MM:SS",
+      "text": "潆浲瑡䠠卍⠤",
+      "menuId": 27038,
+      "resText": "Format HMS$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "楔敭琀䠠卍⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Format date > HH:MM",
+      "text": "潆浲瑡䠠⑍(",
+      "menuId": 27039,
+      "resText": "Format HM$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "楔敭琀䠠⑍("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Format date > HH",
+      "text": "潆浲瑡䠠⠤",
+      "menuId": 27040,
+      "resText": "Format H$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "楔敭琀䠠⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Date manipulation > Year from date",
+      "text": "教牡(",
+      "menuId": 27041,
+      "resText": "Year(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慄整"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Date manipulation > Month from date",
+      "text": "潍瑮⡨",
+      "menuId": 27042,
+      "resText": "Month(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慄整⠀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Date manipulation > Day from date",
+      "text": "慄⡹",
+      "menuId": 27043,
+      "resText": "Day(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慄整"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Date manipulation > Day of the year from date",
+      "text": "慄⁹晏夠慥⡲",
+      "menuId": 27044,
+      "resText": "Day Of Year(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慄整昀夠慥⡲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Date manipulation > Day of the week from date",
+      "text": "慄⁹晏圠敥⡫",
+      "menuId": 27045,
+      "resText": "Day Of Week(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慄整昀圠敥⡫"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Date manipulation > Make date",
+      "text": "慄整⠤",
+      "menuId": 27046,
+      "resText": "Date$(",
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "教牡⠀",
+        "潍瑮h",
+        "慄yh"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Date manipulation > Hour from time",
+      "text": "潈牵(",
+      "menuId": 27047,
+      "resText": "Hour(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慄整"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Date manipulation > Minute from time",
+      "text": "楍畮整(",
+      "menuId": 27048,
+      "resText": "Minute(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慄整攀("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Date manipulation > Second from time",
+      "text": "敓潣摮(",
+      "menuId": 27049,
+      "resText": "Second(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慄整搀("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "Date manipulation > Make date/time",
+      "text": "慄整楔敭⠤",
+      "menuId": 27051,
+      "resText": "DateTime$(",
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "教牡椀敭⠤",
+        "潍瑮h敭⠤",
+        "慄yh敭⠤",
+        "潈牵",
+        "楍畮整攀⠤",
+        "敓潣摮攀⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 53,
+      "menu": "Durations > Add duration to a date",
+      "text": "慄整䄠摤⠤",
+      "menuId": 27053,
+      "resText": "Date Add$(",
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "慄整䄀摤⠤",
+        "畄慲楴湯⠀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 54,
+      "menu": "Durations > Difference between two dates",
+      "text": "慄整䐠晩⡦",
+      "menuId": 27054,
+      "resText": "Date Diff(",
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "慄整䐀晩⡦",
+        "慄整䐀晩⡦"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 55,
+      "menu": "Durations > Get years from duration and start date",
+      "text": "教牡䑳(",
+      "menuId": 27055,
+      "resText": "YearsD(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        3
+      ],
+      "paramTitles": [
+        "畄慲楴湯",
+        "慄整椀湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 56,
+      "menu": "Durations > Get months from duration and start date",
+      "text": "潍瑮獨⡄",
+      "menuId": 27056,
+      "resText": "MonthsD(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        3
+      ],
+      "paramTitles": [
+        "畄慲楴湯",
+        "慄整椀湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 57,
+      "menu": "Durations > Get days from duration and start date",
+      "text": "慄獹⡄",
+      "menuId": 27057,
+      "resText": "DaysD(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        3
+      ],
+      "paramTitles": [
+        "畄慲楴湯",
+        "慄整椀湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 58,
+      "menu": "Durations > Get total number of days from duration",
+      "text": "潔慴⁬慄獹⡄",
+      "menuId": 27058,
+      "resText": "Total DaysD(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "畄慲楴湯猀⡄"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 59,
+      "menu": "Durations > Get hours from duration",
+      "text": "潈牵䑳(",
+      "menuId": 27059,
+      "resText": "HoursD(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "畄慲楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 60,
+      "menu": "Durations > Get minutes from duration",
+      "text": "楍畮整䑳(",
+      "menuId": 27060,
+      "resText": "MinutesD(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "畄慲楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 61,
+      "menu": "Durations > Get seconds from duration",
+      "text": "敓潣摮䑳(",
+      "menuId": 27061,
+      "resText": "SecondsD(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "畄慲楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 62,
+      "menu": "Durations > Make duration",
+      "text": "畄慲楴湯(",
+      "menuId": 27062,
+      "resText": "Duration(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "慄y楴湯(",
+        "潈牵椀湯(",
+        "楍畮整渀(",
+        "敓潣摮渀("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 63,
+      "menu": "Miscellaneous date information > Golden number",
+      "text": "潇摬湥丠浵敢⡲",
+      "menuId": 27063,
+      "resText": "Golden Number(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "教牡渀丠浵敢⡲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 64,
+      "menu": "Miscellaneous date information > Epact",
+      "text": "灅捡⡴",
+      "menuId": 27064,
+      "resText": "Epact(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "教牡⠀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 65,
+      "menu": "Miscellaneous date information > Solar equation",
+      "text": "潓慬⁲煅慵楴湯(",
+      "menuId": 27065,
+      "resText": "Solar Equation(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "教牡 煅慵楴湯("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 66,
+      "menu": "Miscellaneous date information > Lunar equation",
+      "text": "界慮⁲煅慵楴湯(",
+      "menuId": 27066,
+      "resText": "Lunar Equation(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "教牡 煅慵楴湯("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 67,
+      "menu": "Miscellaneous date information > Easter Sunday",
+      "text": "慅瑳牥匠湵慤⑹(",
+      "menuId": 27067,
+      "resText": "Easter Sunday$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "教牡爀匠湵慤⑹("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 68,
+      "menu": "Miscellaneous date information > Get system date",
+      "text": "祓瑳浥䐠瑡⑥(",
+      "menuId": 27068,
+      "resText": "System Date$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 69,
+      "menu": "Get window handle",
+      "text": "楗摮睯䠠湡汤⡥",
+      "menuId": 27069,
+      "resText": "Window Handle(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 70,
+      "menu": "Date manipulation > Week number from date",
+      "text": "敗步丠浵敢⡲",
+      "menuId": 27070,
+      "resText": "Week Number(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慄整一浵敢⡲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 71,
+      "menu": "Date manipulation > Time zone from time",
+      "text": "楔敭潺敮(",
+      "menuId": 27071,
+      "resText": "Timezone(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慄整漀敮("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 72,
+      "menu": "Date manipulation > Date to local time",
+      "text": "潔䰠捯污⠤",
+      "menuId": 27072,
+      "resText": "To Local$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慄整挀污⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 73,
+      "menu": "Date manipulation > Date to specified time zone",
+      "text": "潔吠浩穥湯⑥(",
+      "menuId": 27073,
+      "resText": "To Timezone$(",
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "慄整洀穥湯⑥(",
+        "楍畮整稀湯⑥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 74,
+      "menu": "Date manipulation > Date to UTC",
+      "text": "潔唠䍔⠤",
+      "menuId": 27074,
+      "resText": "To UTC$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慄整䌀⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

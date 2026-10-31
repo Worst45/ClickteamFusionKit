@@ -1,0 +1,838 @@
+{
+  "file": "IconView.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On left-click",
+      "text": "漥㨠传⁮敌瑦䌭楬正",
+      "menuId": 26000,
+      "resText": "%o : On Left-Click",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On right-click",
+      "text": "漥㨠传⁮楒桧⵴汃捩k",
+      "menuId": 26010,
+      "resText": "%o : On Right-Click",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "On double-click",
+      "text": "漥㨠传⁮潤扵敬挭楬正",
+      "menuId": 26020,
+      "resText": "%o : On double-click",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "On label edit started",
+      "text": "漥㨠传⁮慬敢⁬摥瑩猠慴瑲摥",
+      "menuId": 26021,
+      "resText": "%o : On label edit started",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "On label edit ended",
+      "text": "漥㨠传⁮慬敢⁬摥瑩攠摮摥",
+      "menuId": 26022,
+      "resText": "%o : On label edit ended",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Is icon selected?",
+      "text": "漥㨠䤠潣⁮〥椠⁳敳敬瑣摥",
+      "menuId": 26023,
+      "resText": "%o : Icon %0 is selected",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲捩湯渠浵敢r敬瑣摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Is icon highlighted?",
+      "text": "漥㨠䤠潣⁮〥椠⁳楨桧楬桧整d",
+      "menuId": 26025,
+      "resText": "%o : Icon %0 is highlighted",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲捩湯渠浵敢r桧楬桧整d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Drag started",
+      "text": "漥㨠传⁮牄条匠慴瑲摥",
+      "menuId": 26027,
+      "resText": "%o : On Drag Started",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Drag ended",
+      "text": "漥㨠传⁮牄条䔠摮摥",
+      "menuId": 26028,
+      "resText": "%o : On Drag Ended",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "On right double-click",
+      "text": "漥㨠传⁮楒桧⁴潤扵敬挭楬正",
+      "menuId": 26030,
+      "resText": "%o : On Right double-click",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "On return pressed",
+      "text": "漥㨠传⁮敲畴湲瀠敲獳摥",
+      "menuId": 26040,
+      "resText": "%o : On return pressed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Dimensions > Set width",
+      "text": "敓⁴楷瑤⁨潴┠0",
+      "menuId": 25000,
+      "resText": "Set width to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲楷瑤h┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Dimensions > Set height",
+      "text": "敓⁴敨杩瑨琠⁯〥",
+      "menuId": 25010,
+      "resText": "Set height to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲敨杩瑨 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Position > Set X co-ordinate",
+      "text": "敓⁴⁘潴┠0",
+      "menuId": 25020,
+      "resText": "Set X to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣漭摲湩瑡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Position > Set Y co-ordinate",
+      "text": "敓⁴⁙潴┠0",
+      "menuId": 25030,
+      "resText": "Set Y to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁙潣漭摲湩瑡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Icons > Add icon",
+      "text": "摁⁤捩湯┠‰楷桴琠硥⁴ㄥ",
+      "menuId": 25040,
+      "resText": "Add icon %0 with text %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲湩敤⁸景椠潣⁮湩椠慭敧氠獩⁴〨戭獡摥)",
+        "湅整⁲整瑸 景椠潣⁮湩椠慭敧氠獩⁴〨戭獡摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Image list > Set image list from BMP file",
+      "text": "敓⁴浩条⁥楬瑳琠⁯楦敬┠‰猨慭汬椠慭敧㩳┠⤱",
+      "menuId": 25050,
+      "resText": "Set image list to file %0 (small images: %1)",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲慬杲⁥浩条獥戠瑩慭⁰楦敬氀椠慭敧㩳┠⤱",
+        "湅整⁲浳污⁬浩条獥戠瑩慭⁰楦敬⠠灯楴湯污)⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Icons > Set label text",
+      "text": "敓⁴慬敢⁬瑡┠‰潴┠1",
+      "menuId": 25060,
+      "resText": "Set label at %0 to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲捩湯渠浵敢r┠1",
+        "湅整⁲敮⁷整瑸攀r┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Icons > Clear all icons",
+      "text": "汃慥⁲污⁬捩湯s",
+      "menuId": 25070,
+      "resText": "Clear all icons",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Icons > Delete icon",
+      "text": "敄敬整椠潣⁮瑡┠0",
+      "menuId": 25080,
+      "resText": "Delete icon at %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲捩湯渠浵敢r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Appearance > Set background colour",
+      "text": "敓⁴慢正牧畯摮挠汯畯⁲潴┠0",
+      "menuId": 25082,
+      "resText": "Set background colour to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲慢正牧畯摮挠汯畯⁲攨朮‮敇剴䉇㈨㔵㈬㔵㈬㔵⤩"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Appearance > Set view style",
+      "text": "敓⁴楶睥琠⁯〥",
+      "menuId": 25084,
+      "resText": "Set view to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲楶睥⠠‱‽捩湯ⱳ㈠㴠猠慭汬椠潣獮‬″‽楬瑳)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Icons > Arrange icons",
+      "text": "牁慲杮⁥捩湯s",
+      "menuId": 25086,
+      "resText": "Arrange icons",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Icons > Force label edit",
+      "text": "摅瑩椠潣⁮畮扭牥┠0",
+      "menuId": 25087,
+      "resText": "Edit icon number %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲捩湯渠浵敢r0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Appearance > Set icon spacing",
+      "text": "敓⁴捩湯猠慰楣杮琠⁯〥砠┠1",
+      "menuId": 25089,
+      "resText": "Set icon spacing to %0 x %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潨楲潺瑮污猠慰楣杮⠠牦浯琠灯氭晥⁴景椠潣⥮",
+        "湅整⁲敶瑲捩污猠慰楣杮⠠牦浯琠灯氭晥⁴景椠潣⥮⤀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Icons > Move icon",
+      "text": "潍敶椠潣⁮畮扭牥┠‰潴⠠┠ⰱ┠⤲",
+      "menuId": 25092,
+      "resText": "Move icon number %0 to ( %1, %2)",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲捩湯渠浵敢r‰潴⠠┠ⰱ┠⤲",
+        "湅整⁲⁘潴洠癯⁥潴 潴⠠┠ⰱ┠⤲",
+        "湅整⁲⁙潴洠癯⁥潴 潴⠠┠ⰱ┠⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Icons > Select icon",
+      "text": "敓敬瑣椠潣⁮畮扭牥┠0",
+      "menuId": 25096,
+      "resText": "Select icon number %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲捩湯渠浵敢⁲潴猠汥捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Icons > Focus icon",
+      "text": "潆畣⁳捩湯渠浵敢⁲〥",
+      "menuId": 25098,
+      "resText": "Focus icon number %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲捩湯渠浵敢⁲潴映捯獵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Icons > Unselect icon",
+      "text": "湕敳敬瑣椠潣⁮畮扭牥┠0",
+      "menuId": 25100,
+      "resText": "Unselect icon number %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲捩湯渠浵敢⁲潴甠獮汥捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Appearance > Set label text colour",
+      "text": "敓⁴整瑸挠汯畯⁲潴┠0",
+      "menuId": 25102,
+      "resText": "Set text colour to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲整瑸挠汯畯⁲攨朮‮敇剴䉇〨〬〬⤩"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Appearance > Set label colour",
+      "text": "敓⁴慬敢⁬潣潬牵琠⁯〥",
+      "menuId": 25103,
+      "resText": "Set label colour to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲慬敢⁬潣潬牵⠠⹥⹧䜠瑥䝒⡂㔲ⰵ㔲ⰵ㔲⤵)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Icons > Dehighlight icon",
+      "text": "敄楨桧楬桧⁴捩湯渠浵敢⁲〥",
+      "menuId": 25106,
+      "resText": "Dehighlight icon number %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲捩湯渠浵敢⁲潴搠桥杩汨杩瑨"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Icons > Highlight icon",
+      "text": "楈桧楬桧⁴捩湯渠浵敢⁲〥",
+      "menuId": 25108,
+      "resText": "Highlight icon number %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲捩湯渠浵敢⁲潴栠杩汨杩瑨"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Event > On label edit ended > Cancel edit changes",
+      "text": "慃据汥攠楤⁴档湡敧s",
+      "menuId": 25110,
+      "resText": "Cancel edit changes",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Window > Focus On",
+      "text": "潆畣⁳湏",
+      "menuId": 25111,
+      "resText": "Focus On",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Window > Focus Off",
+      "text": "潆畣⁳晏f",
+      "menuId": 25112,
+      "resText": "Focus Off",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Window > Show",
+      "text": "桓睯",
+      "menuId": 25113,
+      "resText": "Show",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Window > Hide",
+      "text": "楈敤",
+      "menuId": 25114,
+      "resText": "Hide",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Image list > Add file's associated icon to image list",
+      "text": "摁⁤潴椠慭敧楬瑳愠獳捯慩整⁤捩湯映牯┠0",
+      "menuId": 25115,
+      "resText": "Add to imagelist associated icon for %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲楦敬慮敭琠⁯敧⁴捩湯映潲m映牯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Image list > Add BMP file to image list",
+      "text": "摁⁤楦敬┠‰潴椠慭敧氠獩⁴猨慭汬椠慭敧㩳┠⤱",
+      "menuId": 25117,
+      "resText": "Add file %0 to image list (small images: %1)",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲䵂⁐楦敬映牯氠牡敧椠慭敧s椠慭敧㩳┠⤱",
+        "湅整⁲䵂⁐楦敬映牯猠慭汬椠慭敧⁳漨瑰潩慮⥬⤀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Icons > Insert icon",
+      "text": "湉敳瑲椠潣⁮〥眠瑩⁨整瑸┠‱潴瀠獯瑩潩⁮㈥",
+      "menuId": 25119,
+      "resText": "Insert icon %0 with text %1 to position %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湩敤⁸景椠潣⁮湩椠慭敧氠獩⁴〨戭獡摥)",
+        "湅整⁲整瑸漠⁦慬敢l湩椠慭敧氠獩⁴〨戭獡摥)",
+        "湅整⁲潰楳楴湯琠⁯汰捡⁥捩湯椠n⁴〨戭獡摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Image list > Save image list to BMP file",
+      "text": "慓敶椠慭敧氠獩⁴潴┠‰猨慭汬椠慭敧⁳潴┠⤱",
+      "menuId": 25123,
+      "resText": "Save image list to %0 (small images to %1)",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲䵂⁐楦敬琠⁯慳敶氠牡敧椠慭敧氠獩⁴潴",
+        "湅整⁲䵂⁐楦敬琠⁯慳敶猠慭汬椠慭敧氠獩⁴潴⠠灯楴湯污)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Image list > Attach imagelist to Listview object",
+      "text": "瑁慴档䤠潣⁮楖睥猧椠慭敧楬瑳琠⁯〥",
+      "menuId": 25127,
+      "resText": "Attach Icon View's imagelist to %0",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敓敬瑣愠䰠獩癴敩⁷扯敪瑣琠⁯瑡慴档椠慭敧楬瑳琠o"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Image list > Set icon number at Listview line",
+      "text": "敓⁴捩湯琠⁯㈥愠⁴楬敮┠‱湩┠0",
+      "menuId": 25129,
+      "resText": "Set icon to %2 at line %1 in %0",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣䰠獩癴敩⁷扯敪瑣琠⁯潭楤祦",
+        "湅整⁲楬敮琠⁯敳⁴浩条⁥潦⁲〨戭獡摥)",
+        "湅整⁲捩湯椠摮硥椠⁮浩条汥獩⁴〨戭獡摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Dimensions > Get width",
+      "text": "癩楗瑤⡨",
+      "menuId": 27000,
+      "resText": "ivWidth(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Dimensions > Get heigh",
+      "text": "癩效杩瑨(",
+      "menuId": 27010,
+      "resText": "ivHeight(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Position > Get X co-ordinate",
+      "text": "癩敇塴(",
+      "menuId": 27020,
+      "resText": "ivGetX(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Position > Get Y co-ordinate",
+      "text": "癩敇奴(",
+      "menuId": 27030,
+      "resText": "ivGetY(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Icons > Get number of icons",
+      "text": "癩畎䥭潣獮(",
+      "menuId": 27040,
+      "resText": "ivNumIcons(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Icons > Get label",
+      "text": "癩慌敢䅬⑴(",
+      "menuId": 27050,
+      "resText": "ivLabelAt$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Selection > Get focused icon number",
+      "text": "癩潆畣敳䥤潣⡮",
+      "menuId": 27060,
+      "resText": "ivFocusedIcon(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Selection > Get selection length",
+      "text": "癩敓䍬畯瑮(",
+      "menuId": 27061,
+      "resText": "ivSelCount(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Find > Find text",
+      "text": "癩楆摮(",
+      "menuId": 27062,
+      "resText": "ivFind(",
+      "flags": 0,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Selection > Get selected icon no.",
+      "text": "癩敓䥬潣䅮⡴",
+      "menuId": 27065,
+      "resText": "ivSelIconAt(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Event > On label edit ended > Get new label text",
+      "text": "癩摅瑩慌敢⑬(",
+      "menuId": 27066,
+      "resText": "ivEditLabel$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Image list > Get last added icon index",
+      "text": "癩慌瑳捉湯湉敤⡸",
+      "menuId": 27067,
+      "resText": "ivLastIconIndex(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Icons > Get image index at",
+      "text": "癩敇䥴潣⡮",
+      "menuId": 27068,
+      "resText": "ivGetIcon(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

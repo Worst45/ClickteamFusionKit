@@ -1,0 +1,72 @@
+{
+  "file": "textthreshold.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Lighter Color",
+      "text": "敓⁴楌桧整⁲潃潬⁲潴┠0",
+      "menuId": 25000,
+      "resText": "Set Lighter Color to %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "潃潬r桧整⁲潃潬⁲潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set Darker Color",
+      "text": "敓⁴慄歲牥䌠汯牯琠⁯〥",
+      "menuId": 25001,
+      "resText": "Set Darker Color to %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "潃潬r歲牥䌠汯牯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set Threshold Color",
+      "text": "敓⁴桔敲桳汯⁤潃潬⁲潴┠0",
+      "menuId": 25002,
+      "resText": "Set Threshold Color to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敌敶ⱬ〠㈭㔵 潃潬⁲潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get text color (Background Color)",
+      "text": "敔瑸潃潬⡲",
+      "menuId": 27000,
+      "resText": "TextColor(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潃潬⁲楶⁡敇剴䉇"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

@@ -1,0 +1,595 @@
+{
+  "file": "fcFormatted.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Calculations > Test is true",
+      "text": "慌瑳琠獥⁴獩琠畲e",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Calculations > Test is false",
+      "text": "慌瑳琠獥⁴獩映污敳",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Format Character",
+      "text": "敓⁴潆浲瑡䌠慨慲瑣牥琠⁯〥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潆浲瑡䌠慨慲瑣牥琀牥琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Manipulations > Get String Filled on Left",
+      "text": "敧䱴晥䙴汩敬⑤(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "楒桧⁴瑓楲杮␀(",
+        "敌杮瑨琀楲杮␀("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Translations > Get French words from Integer",
+      "text": "敧䥴瑮湉牆湥档⠤",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉整敧r牆湥档⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Manipulations > Get Format Char X Time",
+      "text": "敧䙴牯慭䍴慨塲楔敭⠤",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敌杮瑨愀䍴慨塲楔敭⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Translations > Get English words from Integer",
+      "text": "敧䥴瑮湅汧獩⑨(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉整敧r汧獩⑨("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Translations > Get Int/Roman from String",
+      "text": "敧䥴瑮潒慭⑮(",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "湉整敧⁲牯删浯湡渠浵敢r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Translations > Get Morse code from String",
+      "text": "敧䵴牯敳潃敤⠤",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "瑓楲杮椠⁮潬敷⁲慣敳s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Conversions > Get character from Int",
+      "text": "敧䍴慨䙲潲䥭瑮⠤",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉整敧r潲䥭瑮⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Conversions > Get Int from character",
+      "text": "敧䥴瑮牆浯桃牡(",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "桃牡捡整r桃牡("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Manipulations > Get String Filled on Right",
+      "text": "敧剴杩瑨楆汬摥⠤",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "敌瑦匠牴湩g摥⠤",
+        "敌杮瑨爀湩g摥⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Manipulations > Get String Filled on Middle",
+      "text": "敧䵴摩汤䙥汩敬⑤(",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3,
+        1
+      ],
+      "paramTitles": [
+        "敌瑦匠牴湩g敬⑤(",
+        "楒桧⁴瑓楲杮攀⑤(",
+        "敌杮瑨琀楲杮攀⑤("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Conversions > Get Base 10 in Base Y",
+      "text": "敧䥴瑮湉慂敳⑘(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "湉整敧r慂敳⑘(",
+        "慂敳琠⁯潣癮牥⁴潴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Conversions > Get Base X in Base Y",
+      "text": "敧䉴獡塥湉慂敳⑙(",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "畎扭牥椠⁮慂敳堠",
+        "慂敳琠⁯潣癮牥⁴牦浯",
+        "慂敳琠⁯潣癮牥⁴潴洀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Manipulations > Get S (for plurial)",
+      "text": "敧却⠤",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉整敧r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Calculations > Get String after a test",
+      "text": "敧却牴湩䥧⑦(",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        3,
+        1,
+        3,
+        3
+      ],
+      "paramTitles": [
+        "汆慯⁴畮扭牥",
+        "灏牥瑡牯戀牥",
+        "汆慯⁴畮扭牥",
+        "瑓楲杮琠畲e",
+        "瑓楲杮映污敳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Calculations > Get Result after a test",
+      "text": "敧剴獥汵佴䙦(",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        3,
+        1
+      ],
+      "paramTitles": [
+        "汆慯⁴畮扭牥",
+        "灏牥瑡牯戀牥",
+        "汆慯⁴畮扭牥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Manipulations > Get String Trim",
+      "text": "敧呴楲⑭(",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "瑓楲杮␀("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Manipulations > Get String Trim Left",
+      "text": "敧䱴牔浩⠤",
+      "menuId": 27016,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "瑓楲杮洀⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Manipulations > Get String Trim Right",
+      "text": "敧剴牔浩⠤",
+      "menuId": 27017,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "瑓楲杮洀⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Manipulations > Get number with thousands separated",
+      "text": "敧乴浵敢呲潨獵湡獤敓慰慲整⑤(",
+      "menuId": 27018,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "瑓楲杮渠浵敢r湡獤敓慰慲整⑤("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Manipulations > Get string with X chars separated",
+      "text": "敧却牴湩塧桃牡即灥牡瑡摥⠤",
+      "menuId": 27019,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "瑓楲杮渠浵敢r即灥牡瑡摥⠤",
+        "畎扭牥漠⁦档牡⁳潴朠潲灵⠀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Translations > Get Short Leet from String",
+      "text": "敧却潨瑲敌瑥⠤",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "瑓楲杮椠⁮潬敷⁲慣敳s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Translations > Get Long Leet from String",
+      "text": "敧䱴湯䱧敥⑴(",
+      "menuId": 27021,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "瑓楲杮椠⁮潬敷⁲慣敳s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Translations > Get HTML from String",
+      "text": "敧䡴䵔⑌(",
+      "menuId": 27022,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "瑓楲杮␀("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Calculations > Get Rounded float",
+      "text": "敧剴畯摮⡆",
+      "menuId": 27023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "汆慯⁴畮扭牥",
+        "敄楣慭獬戀牥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Translations > Get Upper with accents",
+      "text": "敧啴灰牥捁散瑮⑳(",
+      "menuId": 27024,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "瑓楲杮爀捁散瑮⑳("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Translations > Get Lower with accents",
+      "text": "敧䱴睯牥捁散瑮⑳(",
+      "menuId": 27025,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "瑓楲杮爀捁散瑮⑳("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Translations > Get Upper without accents",
+      "text": "敧啴灰牥⠤",
+      "menuId": 27026,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "瑓楲杮爀⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Translations > Get Lower witout accents",
+      "text": "敧䱴睯牥⠤",
+      "menuId": 27027,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "瑓楲杮爀⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Translations > Get String without accents",
+      "text": "敧乴䅯捣湥⑴(",
+      "menuId": 27028,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "瑓楲杮挀湥⑴("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Translations > Get Spanish words from Integer",
+      "text": "敧䥴瑮灓湡獩⑨(",
+      "menuId": 27029,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉整敧r湡獩⑨("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Translations > Get German words from Integer",
+      "text": "敧䥴瑮敇浲湡⠤",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉整敧r浲湡⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Manipulations > Get String Replace",
+      "text": "敧却牴湩剧灥慬散⠤",
+      "menuId": 27031,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3,
+        3
+      ],
+      "paramTitles": [
+        "敓牡档渀剧灥慬散⠤",
+        "敒汰捡e剧灥慬散⠤",
+        "瑓楲杮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

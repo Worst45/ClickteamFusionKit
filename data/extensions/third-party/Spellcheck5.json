@@ -1,0 +1,681 @@
+{
+  "file": "Spellcheck5.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Is word in Ignore list?",
+      "text": "",
+      "menuId": 26000,
+      "resText": "%o: Is %0 in the ignore list?",
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "漥›潗摲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Is Word correct?",
+      "text": "",
+      "menuId": 26010,
+      "resText": "%o: Is %0 correct?",
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "漥›潗摲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Autoparse > Is Parse in Progress",
+      "text": "",
+      "menuId": 26020,
+      "resText": "%o: Is parse in progress?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "On Correction Suggestion",
+      "text": "",
+      "menuId": 26030,
+      "resText": "%o: On Correction",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "On Loading",
+      "text": "",
+      "menuId": 26040,
+      "resText": "%o is loading",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Is Loading in Background",
+      "text": "",
+      "menuId": 26050,
+      "resText": "Is %o loading in background",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Autoparse > On Incorrect Word",
+      "text": "",
+      "menuId": 26060,
+      "resText": "On incorrect word in %o",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Autoparse > On Parse Done",
+      "text": "",
+      "menuId": 26070,
+      "resText": "On Parse Done in %o",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Autoparse > On Parse Aborted",
+      "text": "",
+      "menuId": 26080,
+      "resText": "On Parse Aborted in %o",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "conditions_status": "menu ressources",
+  "actions": [
+    {
+      "code": 0,
+      "menu": "List Suggestions",
+      "text": "",
+      "menuId": 25000,
+      "resText": "List suggestions for word %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潗摲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Word Lists > Load Wordlist (Pauses MMF)",
+      "text": "",
+      "menuId": 25010,
+      "resText": "Load word list from %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "潗摲楬瑳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Word Lists > Load Wordlist in Background",
+      "text": "",
+      "menuId": 25020,
+      "resText": "Load %0 in background",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "慐桴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Word Lists > Save Word List (Using null separators)",
+      "text": "",
+      "menuId": 25030,
+      "resText": "Save word list to %0 using null seperators",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "潗摲楬瑳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Word Lists > Save Word List (Using new line separators)",
+      "text": "",
+      "menuId": 25040,
+      "resText": "Save word list to %0 using new line seperators",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "潗摲楬瑳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Word Lists > Add Word",
+      "text": "",
+      "menuId": 25050,
+      "resText": "Add Word %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潗摲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Word Lists > Remove Word",
+      "text": "",
+      "menuId": 25060,
+      "resText": "Remove Word %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潗摲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Word Lists > Ignore Word",
+      "text": "",
+      "menuId": 25070,
+      "resText": "Ignore Word %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潗摲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Word Lists > Unignore Word",
+      "text": "",
+      "menuId": 25080,
+      "resText": "Unignore Word %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潗摲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Opitions > Set Suggestion Settings",
+      "text": "",
+      "menuId": 25090,
+      "resText": "Only give results which are %0 or more relavent, and no more than %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敒慬敶据⁥〨‥潴ㄠ〰⤥ⴠ匠敥䐠捯s",
+        "慍⁸潗摲⁳敒畴湲摥⠠ㄭ映牯渠⁯楬業⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Opitions > Set Ordering Settings",
+      "text": "",
+      "menuId": 25100,
+      "resText": "Set sorting costs of %o to %0 and %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "瑓牡⁴慧⁰潣瑳⠠敓⁥潤獣)",
+        "潃瑮湩敵朠灡挠獯⁴匨敥搠捯⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Opitions > Contractions > Set Contraction and Hyphen Mode",
+      "text": "",
+      "menuId": 25110,
+      "resText": "Change the Contraction Mode to %0 and hyphen mode to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潍敤⠠〠㴠丠湯ⱥㄠ㴠匠汥捥楴敶䈠獡獥Ⱐ㈠㴠䄠祮⤠ⴠ匠敥搠捯s",
+        "汁潬⁷湡⁹睴⁯潷摲⁳潪湩摥眠瑩⁨⁡祈桰湥⠠㴰潎ㄬ夽獥)搠捯s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Opitions > Contractions > Add Base",
+      "text": "",
+      "menuId": 25120,
+      "resText": "Add the base %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慂敳⠠⹥⹧✠桳畯摬⤧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Opitions > Contractions > Remove Base",
+      "text": "",
+      "menuId": 25130,
+      "resText": "Remove the base %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慂敳⠠⹥⹧✠桳畯摬⤧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Opitions > Contractions > Add Contraction",
+      "text": "",
+      "menuId": 25140,
+      "resText": "Add Contraction %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃瑮慲瑣潩⁮攨朮‮瘧⁥牯渠琧)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Opitions > Contractions > Remove Contraction",
+      "text": "",
+      "menuId": 25150,
+      "resText": "Remove Contraction %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃瑮慲瑣潩⁮攨朮‮瘧⁥牯渠琧)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Autoparse > Start",
+      "text": "",
+      "menuId": 25160,
+      "resText": "AutoParse %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敔瑸琠⁯慰獲e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Autoparse > Resume Parse",
+      "text": "",
+      "menuId": 25170,
+      "resText": "Resume parse in %o",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Autoparse > Stop Parse",
+      "text": "",
+      "menuId": 25180,
+      "resText": "Stop Parse in %o",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Autoparse > Change Last Incorrect Word",
+      "text": "",
+      "menuId": 25190,
+      "resText": "Check last incorrect word in %o to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敒汰捡敭瑮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Autoparse > Settings > Add Ignore Key",
+      "text": "",
+      "menuId": 25200,
+      "resText": "Add ignore key (Start: %0 , End: %1 , Allow escapes, %2 , Allow quotes: %3)",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "瑓牡⁴潣摮瑩潩⁮攨朮✠✼)",
+        "湅⁤潣摮瑩潩⁮攨朮✠✾))",
+        "汁潬⁷獅慣数㽳⠠‱‽教⁳‬‰‽潎⤠",
+        "汁潬⁷畑瑯獥‿ㄨ㴠夠獥Ⱐ〠㴠丠⁯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Autoparse > Settings > Add Spellcheck Key",
+      "text": "",
+      "menuId": 25210,
+      "resText": "Add Spell-check key (Start: %0 , End: %1 , Allow escapes: %2  , Allow quotes: %3)",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "瑓牡⁴潣摮瑩潩⁮攨朮✠✼)",
+        "湅⁤潣摮瑩潩⁮攨朮✠✾))",
+        "汁潬⁷獅慣数㽳⠠‱‽教⁳‬‰‽潎⤠",
+        "汁潬⁷畑瑯獥‿ㄨ㴠夠獥Ⱐ〠㴠丠⁯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Autoparse > Settings > Add Escape Char",
+      "text": "",
+      "menuId": 25220,
+      "resText": "Add escape char %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮⠠⹥⁧尧⤧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Autoparse > Settings > Add Quote Char",
+      "text": "",
+      "menuId": 25230,
+      "resText": "Add quote char %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮⠠⹥⹧愠搠畯汢⁥畱瑯⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Autoparse > Settings > Set Neutral and General Settings",
+      "text": "",
+      "menuId": 25240,
+      "resText": "Set Neutral settings to ( %0 , %1 , %2) and general settings to ( %4 , %5 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "灓汥⁬档捥⁫桷湥椠⁮敎瑵慲㽬⠠‱‽教⁳‬‰‽潎)",
+        "汁潬⁷獅慣数⁳湩丠略牴污‿ㄨ㴠夠獥Ⱐ〠㴠丠⥯漀)",
+        "汁潬⁷畑瑯獥椠⁮敎瑵慲㽬⠠‱‽教⁳‬‰‽潎)漀)",
+        "敇敮慲㩬䄠汬睯攠捳灡獥眠瑩楨⁮畱瑯獥‿ㄨ㴠夠獥Ⱐ〠㴠丠⥯",
+        "敇敮慲㩬䘠慬⁧潄扵敬眭牯獤愠⁳灳汥楬杮洠獩慴敫㽳⠠‱‽教ⱳ丠⁯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Autoparse > Settings > Reset all parse settings",
+      "text": "",
+      "menuId": 25250,
+      "resText": "Reset all parse settings in %o",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions_status": "menu ressources",
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Options > Get Contraction Mode",
+      "text": "",
+      "menuId": 27000,
+      "resText": "ContractionMode(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Options > Get Max Results",
+      "text": "",
+      "menuId": 27010,
+      "resText": "MaxResults(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Options > Get Min Relevance of Results",
+      "text": "",
+      "menuId": 27020,
+      "resText": "RelevanceResults(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Advanced > Find how similar two strings are",
+      "text": "",
+      "menuId": 27030,
+      "resText": "strCompare$(",
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Suggestions > Get Suggestion",
+      "text": "",
+      "menuId": 27040,
+      "resText": "Suggestion$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Loading > Get Loading Percentage",
+      "text": "",
+      "menuId": 27050,
+      "resText": "LoadingPercentage(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Autoparse > Get Incorrect Word",
+      "text": "",
+      "menuId": 27060,
+      "resText": "IncorrectWord$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Autoparse > Get Incorrect Words start Index",
+      "text": "",
+      "menuId": 27070,
+      "resText": "IncorrectIndex(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Autoparse > Get Incorrect Words Length",
+      "text": "",
+      "menuId": 27080,
+      "resText": "IncorrectLen(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Autoparse > Get Corrected String",
+      "text": "",
+      "menuId": 27090,
+      "resText": "ParseStr$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions_status": "menu ressources"
+}

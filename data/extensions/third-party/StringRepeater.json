@@ -1,0 +1,43 @@
+{
+  "file": "StringRepeater.mfx",
+  "conditions": [],
+  "actions": [],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Repeat string",
+      "text": "敒数瑡瑓楲杮⠤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "瑓楲杮琠⁯敲数瑡",
+        "畎扭牥漠⁦楴敭s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Repeat characters",
+      "text": "敒数瑡桃牡捡整獲⠤",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "桃牡捡整獲琠⁯敲数瑡",
+        "敌杮桴攀獲琠⁯敲数瑡"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

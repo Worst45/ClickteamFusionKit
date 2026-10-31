@@ -1,0 +1,769 @@
+{
+  "file": "FlashButton.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Button Clicked",
+      "text": "漥䈠瑵潴⁮汃捩敫⁤┨⤰",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯䤠⁄慎敭攀⁤┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Button Enabled",
+      "text": "漥䈠瑵潴⁮湅扡敬⁤┨⤰",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯䤠⁄慎敭攀⁤┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Button Disabled",
+      "text": "漥䈠瑵潴⁮楄慳汢摥⠠〥)",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯䤠⁄慎敭氀摥⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Button Visible",
+      "text": "漥䈠瑵潴⁮楖楳汢⁥┨⤰",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯䤠⁄慎敭氀⁥┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Button Invisible",
+      "text": "漥䈠瑵潴⁮湉楶楳汢⁥┨⤰",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯䤠⁄慎敭椀汢⁥┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Button Text",
+      "text": "敓⁴畂瑴湯吠硥⁴┨⤰",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯吠硥t硥⁴┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set Tooltip Text",
+      "text": "敓⁴潔汯楴⁰敔瑸⠠〥)",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潔汯楴⁰敔瑸攀瑸⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Customize > Set Button Font Name",
+      "text": "敓⁴畂瑴湯䘠湯⁴慎敭⠠〥)",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潆瑮丠浡⁥䐨晥畡瑬㴠吠桡浯⥡"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Customize > Set Button Font Color",
+      "text": "敓⁴畂瑴湯䘠湯⁴潃潬⁲┨⤰",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潆瑮䠠硥䌠汯牯⠠硅浡汰⁥‽砰䙆〰〰㴠删摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Customize > Set Button Font Size",
+      "text": "敓⁴畂瑴湯䘠湯⁴楓敺⠠〥)",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潆瑮匠穩⁥䐨晥畡瑬㴠ㄠ⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Customize > Set Tooltip Font Name",
+      "text": "敓⁴潔汯楴⁰潆瑮丠浡⁥┨⤰",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潆瑮丠浡⁥䐨晥畡瑬㴠吠桡浯⥡"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Customize > Set Tooltip Font Color",
+      "text": "敓⁴潔汯楴⁰潆瑮䌠汯牯⠠〥)",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潆瑮䠠硥䌠汯牯⠠硅浡汰⁥‽砰䙆〰〰㴠删摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Customize > Set Tooltip Font Size",
+      "text": "敓⁴潔汯楴⁰潆瑮匠穩⁥┨⤰",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潆瑮匠穩⁥䐨晥畡瑬㴠ㄠ⤰⤀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Customize > Set Button Position",
+      "text": "敓⁴畂瑴湯倠獯瑩潩⁮‭⡘〥Ⱙ夠┨⤱",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "X⁴畂瑴湯倠獯瑩潩⁮‭⡘〥Ⱙ夠┨⤱",
+        "Y⁴畂瑴湯倠獯瑩潩⁮‭⡘〥Ⱙ夠┨⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Customize > Set Button Dimensions",
+      "text": "敓⁴畂瑴湯䐠浩湥楳湯⁳‭楗瑤⡨〥Ⱙ䠠楥桧⡴ㄥ)",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗瑤h瑴湯䐠浩湥楳湯⁳‭楗瑤⡨〥Ⱙ䠠楥桧⡴ㄥ)",
+        "效杩瑨琀湯䐠浩湥楳湯⁳‭楗瑤⡨〥Ⱙ䠠楥桧⡴ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Customize > Set Button ID Name",
+      "text": "敓⁴畂瑴湯䤠⁄慎敭⠠〥)",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯䤠⁄慎敭愀敭⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Customize > Set Button Style",
+      "text": "敓⁴畂瑴湯匠祴敬ⴠ䌠汯牯䌠湯整瑮䈠楲桧湴獥⡳〥Ⱙ䈠牯敤⁲潃潬⁲牂杩瑨敮獳传晦敳⡴ㄥⰩ䈠牯敤⁲潃潬⁲牂杩瑨敮獳删湡敧┨⤲‬桓摡睯䄠灬慨┨⤳‬潃湲牥䠠楥桧⡴㐥)",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潃潬⁲潃瑮湥⁴牂杩瑨敮獳⠠‰‭⸱⤰椀桧湴獥⡳〥Ⱙ䈠牯敤⁲潃潬⁲牂杩瑨敮獳传晦敳⡴ㄥⰩ䈠牯敤⁲潃潬⁲牂杩瑨敮獳删湡敧┨⤲‬桓摡睯䄠灬慨┨⤳‬潃湲牥䠠楥桧⡴㐥)",
+        "潂摲牥䌠汯牯䈠楲桧湴獥⁳晏獦瑥⠠‰‭⸱⤰猀⡳〥Ⱙ䈠牯敤⁲潃潬⁲牂杩瑨敮獳传晦敳⡴ㄥⰩ䈠牯敤⁲潃潬⁲牂杩瑨敮獳删湡敧┨⤲‬桓摡睯䄠灬慨┨⤳‬潃湲牥䠠楥桧⡴㐥)",
+        "潂摲牥䌠汯牯䈠楲桧湴獥⁳慒杮⁥〨ⴠㄠ〮)猀⡳〥Ⱙ䈠牯敤⁲潃潬⁲牂杩瑨敮獳传晦敳⡴ㄥⰩ䈠牯敤⁲潃潬⁲牂杩瑨敮獳删湡敧┨⤲‬桓摡睯䄠灬慨┨⤳‬潃湲牥䠠楥桧⡴㐥)",
+        "桓摡睯䄠灬慨⠠‰‭⸱⤰ 慒杮⁥〨ⴠㄠ〮)猀⡳〥Ⱙ䈠牯敤⁲潃潬⁲牂杩瑨敮獳传晦敳⡴ㄥⰩ䈠牯敤⁲潃潬⁲牂杩瑨敮獳删湡敧┨⤲‬桓摡睯䄠灬慨┨⤳‬潃湲牥䠠楥桧⡴㐥)",
+        "潃湲牥䠠楥桧⁴〨ⴠ㈠⤰ⴠ⠠‰‽煓慵敲䈠瑵潴Ɱ㈠‰‽潒湵⁤畂瑴湯)杩瑨敮獳传晦敳⡴ㄥⰩ䈠牯敤⁲潃潬⁲牂杩瑨敮獳删湡敧┨⤲‬桓摡睯䄠灬慨┨⤳‬潃湲牥䠠楥桧⡴㐥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Customize > Set Tooltip Style",
+      "text": "敓⁴潔汯楴⁰瑓汹⁥‭潃湲牥䠠楥桧⡴〥)",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潃湲牥䠠楥桧t汹⁥‭潃湲牥䠠楥桧⡴〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Customize > Set Button Foreground Color",
+      "text": "敓⁴畂瑴湯䘠牯来潲湵⁤潃潬⁲┨⤰",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯䘠牯来潲湵⁤效⁸潃潬⁲䔨慸灭敬㴠〠䙸う〰‰‽敒⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Customize > Set Button Background Color",
+      "text": "敓⁴畂瑴湯䈠捡杫潲湵⁤潃潬⁲┨⤰",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯䈠捡杫潲湵⁤效⁸潃潬⁲䔨慸灭敬㴠〠䙸う〰‰‽敒⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Customize > Set Tooltip Foreground Color",
+      "text": "敓⁴潔汯楴⁰潆敲牧畯摮䌠汯牯⠠〥)",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潔汯楴⁰潆敲牧畯摮䠠硥䌠汯牯⠠硅浡汰⁥‽砰䙆〰〰㴠删摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Customize > Set Tooltip Background Color",
+      "text": "敓⁴潔汯楴⁰慂正牧畯摮䌠汯牯⠠〥)",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潔汯楴⁰慂正牧畯摮䠠硥䌠汯牯⠠硅浡汰⁥‽砰䙆〰〰㴠删摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Button State > Enable Button",
+      "text": "湅扡敬䈠瑵潴⁮‭䑉┨⤰",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯䤠⁄慎敭 䑉┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Button State > Disable Button",
+      "text": "楄慳汢⁥畂瑴湯ⴠ䤠⡄〥)",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯䤠⁄慎敭ⴀ䤠⡄〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Button State > Make Visible",
+      "text": "慍敫嘠獩扩敬ⴠ䤠⡄〥)",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯䤠⁄慎敭䤀⡄〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Button State > Make Invisible",
+      "text": "慍敫䤠癮獩扩敬ⴠ䤠⡄〥)",
+      "menuId": 25200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯䤠⁄慎敭ⴀ䤠⡄〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Set Button Image",
+      "text": "敓⁴畂瑴湯䤠慭敧⠠〥)",
+      "menuId": 25210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "浉条⁥剕L䤠慭敧⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Create Button",
+      "text": "牃慥整䈠瑵潴n",
+      "menuId": 25220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Remove Button",
+      "text": "敒潭敶䈠瑵潴⁮‭䑉┨⤰",
+      "menuId": 25230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯䤠⁄慎敭 䑉┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Button Text",
+      "text": "畂瑴湯敔瑸⠤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Tooltip Text",
+      "text": "潔汯楴呰硥⑴(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Customizations > Button Font Name",
+      "text": "畂瑴湯潆瑮慎敭⠤",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Customizations > Button Font Color",
+      "text": "畂瑴湯潆瑮潃潬⑲(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Customizations > Button Font Size",
+      "text": "畂瑴湯潆瑮楓敺(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Customizations > Tooltip Font Name",
+      "text": "潔汯楴䙰湯乴浡⑥(",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Customizations > Tooltip Font Color",
+      "text": "潔汯楴䙰湯䍴汯牯⠤",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Customizations > Tooltip Font Size",
+      "text": "潔汯楴䙰湯却穩⡥",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Customizations > Button X Position",
+      "text": "畂瑴湯偘獯瑩潩⡮",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Customizations > Button X Position",
+      "text": "畂瑴湯偙獯瑩潩⡮",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Customizations > Button Width",
+      "text": "畂瑴湯楗瑤⡨",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Customizations > Button Height",
+      "text": "畂瑴湯效杩瑨(",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Customizations > Button ID Name",
+      "text": "畂瑴湯䑉慎敭⠤",
+      "menuId": 27120,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Customizations > Button Foreground Color",
+      "text": "畂瑴湯潆敲牧畯摮潃潬⑲(",
+      "menuId": 27130,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Customizations > Button Background Color",
+      "text": "畂瑴湯慂正牧畯摮潃潬⑲(",
+      "menuId": 27140,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Customizations > Color Content Brightness",
+      "text": "潃潬䍲湯整瑮牂杩瑨敮獳(",
+      "menuId": 27150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Customizations > Border Color Brightness Offset",
+      "text": "潂摲牥潃潬䉲楲桧湴獥佳晦敳⡴",
+      "menuId": 27160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Customizations > Border Color Brightness Range",
+      "text": "潂摲牥潃潬䉲楲桧湴獥剳湡敧(",
+      "menuId": 27170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Customizations > Shadow Alpha",
+      "text": "桓摡睯汁桰⡡",
+      "menuId": 27180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Customizations > Button Corner Height",
+      "text": "畂瑴湯潃湲牥效杩瑨(",
+      "menuId": 27190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Customizations > Tooltip Corner Height",
+      "text": "潔汯楴䍰牯敮䡲楥桧⡴",
+      "menuId": 27200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Customizations > Tooltip Foreground Color",
+      "text": "潔汯楴䙰牯来潲湵䍤汯牯⠤",
+      "menuId": 27210,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Customizations > Tooltip Background Color",
+      "text": "潔汯楴䉰捡杫潲湵䍤汯牯⠤",
+      "menuId": 27220,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Button Image URL",
+      "text": "畂瑴湯浉条啥䱒⠤",
+      "menuId": 27230,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

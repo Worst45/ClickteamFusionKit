@@ -1,0 +1,60 @@
+{
+  "file": "EditBoxSel.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set caret/selection",
+      "text": "敓⁴敳敬瑣潩⁮景┠‰潴⠠ㄥ┬⤲",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "摅瑩䈠硯琀潩⁮景┠‰潴⠠ㄥ┬⤲",
+        "敓敬瑣潩⁮瑳牡⁴〨㴠圠潨敬琠硥⥴",
+        "敓敬瑣潩⁮湥⁤⴨‱‽桗汯⁥整瑸椠⁦瑳牡⁴獩〠‬汥敳猠浡⁥獡猠慴瑲)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get caret/selection start",
+      "text": "敓卬慴瑲(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慶畬⁥景䔠楤⁴潂x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get selection end",
+      "text": "敓䕬摮(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慶畬⁥景䔠楤⁴潂x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

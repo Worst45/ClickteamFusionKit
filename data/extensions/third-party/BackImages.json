@@ -1,0 +1,849 @@
+{
+  "file": "BackImages.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Image exists in slot...",
+      "text": "漥›浉条⁥硥獩獴椠⁮汳瑯┠0",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汓瑯砀獩獴椠⁮汳瑯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Resamples images",
+      "text": "漥›敒慳灭敬⁳浩条獥",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Patterns images",
+      "text": "漥›慐瑴牥獮椠慭敧s",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Compare to displayed image slot",
+      "text": "漥›楄灳慬敹⁤汳瑯┠0",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        23
+      ],
+      "paramTitles": [
+        "湅整⁲汓瑯攀⁤汳瑯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Autoresizes object",
+      "text": "漥›畁潴敲楳敺⁳扯敪瑣",
+      "menuId": 26004,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Display Image from slot...",
+      "text": "楄灳慬⁹浉条⁥牦浯猠潬⁴〥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汓瑯最⁥牦浯猠潬⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Images > External Images > Load Image from file...",
+      "text": "潌摡䤠慭敧映潲⁭楦敬┠‰湩潴猠潬⁴ㄥ",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        63,
+        22
+      ],
+      "paramTitles": [
+        "吣瑩敬䌣潨獯⁥潹牵椠慭敧⸮⌮楆瑬牥䤣慭敧⁳⨨䈮偍⨻䨮䝐⨻䜮䙉⨻倮䝎簩⸪䵂㭐⸪偊㭇⸪䥇㭆⸪乐籇汁⁬楦敬米⸪簪",
+        "湅整⁲汓瑯猀⁥潹牵椠慭敧⸮⌮楆瑬牥䤣慭敧⁳⨨䈮偍⨻䨮䝐⨻䜮䙉⨻倮䝎簩⸪䵂㭐⸪偊㭇⸪䥇㭆⸪乐籇汁⁬楦敬米⸪簪"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Images > External Images > Load Image from Overlay...",
+      "text": "潌摡䤠慭敧映潲⁭癏牥慬⁹瑡┠‰湩潴猠潬⁴ㄥ",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲楆數⁤慶畬⁥景传敶汲祡漠橢捥t潬⁴ㄥ",
+        "湅整⁲汓瑯 慶畬⁥景传敶汲祡漠橢捥t潬⁴ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Images > Copy Images between slots...",
+      "text": "潃祰䤠慭敧映潲⁭汳瑯┠‰湩潴猠潬⁴ㄥ",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汓瑯昀潲⁭汳瑯┠‰湩潴猠潬⁴ㄥ",
+        "湅整⁲汓瑯昀潲⁭汳瑯┠‰湩潴猠潬⁴ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Images > Swap Images between slots...",
+      "text": "睓灡䤠慭敧⁳敢睴敥⁮汳瑯⁳〥愠摮┠1",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汓瑯 敢睴敥⁮汳瑯⁳〥愠摮┠1",
+        "湅整⁲汓瑯 敢睴敥⁮汳瑯⁳〥愠摮┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Images > Clear Image from slot...",
+      "text": "汃慥⁲浉条⁥牦浯猠潬⁴〥",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲汓瑯 牦浯猠潬⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Set X Coordinate...",
+      "text": "敓⁴⁘潐楳楴湯琠⁯〥",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潃牯楤慮整　"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Set Y Coordinate...",
+      "text": "敓⁴⁙潐楳楴湯琠⁯〥",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁙潃牯楤慮整　"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Set Width...",
+      "text": "敓⁴楗瑤⁨潴┠0",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲楗瑤h┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Set Height...",
+      "text": "敓⁴效杩瑨琠⁯〥",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲效杩瑨 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Set Resample mode > Off",
+      "text": "敓⁴敒慳灭敬洠摯㩥传晦",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Set Resample mode > On",
+      "text": "敓⁴敒慳灭敬洠摯㩥传n",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Set Resample mode > Set",
+      "text": "敓⁴敒慳灭敬洠摯⁥潴┠0",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰‽晏ⱦㄠ㴠传n⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Set Resample Width...",
+      "text": "敓⁴敒慳灭敬圠摩桴琠⁯〥",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲敒慳灭敬圠摩桴 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Set Resample Height...",
+      "text": "敓⁴敒慳灭敬䠠楥桧⁴潴┠0",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲敒慳灭敬䠠楥桧t┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Set Pattern mode > Off",
+      "text": "敓⁴慐瑴牥⁮潭敤›晏f",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Set Pattern mode > On",
+      "text": "敓⁴慐瑴牥⁮潭敤›湏",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Set Pattern mode > Set",
+      "text": "敓⁴慐瑴牥⁮潭敤琠⁯〥",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰‽晏ⱦㄠ㴠传n琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Set Alignment mode > Top left",
+      "text": "敓⁴汁杩浮湥⁴潴琠灯氠晥t",
+      "menuId": 25018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Set Alignment mode > Top centre",
+      "text": "敓⁴汁杩浮湥⁴潴琠灯挠湥牴e",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Set Alignment mode > Top right",
+      "text": "敓⁴汁杩浮湥⁴潴琠灯爠杩瑨",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Set Alignment mode > Centre left",
+      "text": "敓⁴汁杩浮湥⁴潴挠湥牴⁥敬瑦",
+      "menuId": 25021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Set Alignment mode > Centre",
+      "text": "敓⁴汁杩浮湥⁴潴挠湥牴e",
+      "menuId": 25022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Set Alignment mode > Centre right",
+      "text": "敓⁴汁杩浮湥⁴潴挠湥牴⁥楲桧t",
+      "menuId": 25023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Set Alignment mode > Bottom left",
+      "text": "敓⁴汁杩浮湥⁴潴戠瑯潴⁭敬瑦",
+      "menuId": 25024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Set Alignment mode > Bottom centre",
+      "text": "敓⁴汁杩浮湥⁴潴戠瑯潴⁭散瑮敲",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Set Alignment mode > Bottom right",
+      "text": "敓⁴汁杩浮湥⁴潴戠瑯潴⁭楲桧t",
+      "menuId": 25026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Set Alignment mode > Set",
+      "text": "敓⁴汁杩浮湥⁴潴┠0",
+      "menuId": 25027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰‽䱔‬‱‽䍔‬′‽剔‬″‽䱃‬‴‽ⱃ㔠㴠䌠ⱒ㘠㴠䈠ⱌ㜠㴠䈠ⱃ㠠㴠䈠R"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Images > External Images > Load Image from Overlay into alpha channel...",
+      "text": "潌摡䤠慭敧映潲⁭癏牥慬⁹瑡┠‰湩潴愠灬慨挠慨湮汥愠⁴汳瑯┠1",
+      "menuId": 25028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲楆數⁤慶畬⁥景传敶汲祡漠橢捥t灬慨挠慨湮汥愠⁴汳瑯┠1",
+        "湅整⁲汓瑯 慶畬⁥景传敶汲祡漠橢捥t灬慨挠慨湮汥愠⁴汳瑯┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Images > External Images > Load Image into Overlay...",
+      "text": "潌摡䤠慭敧映潲⁭汳瑯┠‱湩潴传敶汲祡愠⁴〥",
+      "menuId": 25029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲楆數⁤慶畬⁥景传敶汲祡漠橢捥t愠⁴〥",
+        "湅整⁲汓瑯 慶畬⁥景传敶汲祡漠橢捥t愠⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Images > External Images > Load Alpha channel from Image into Overlay...",
+      "text": "潌摡䄠灬慨挠慨湮汥映潲⁭浉条⁥瑡猠潬⁴ㄥ椠瑮⁯癏牥慬⁹瑡┠0",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲楆數⁤慶畬⁥景传敶汲祡漠橢捥t⁴ㄥ椠瑮⁯癏牥慬⁹瑡┠0",
+        "湅整⁲汓瑯 慶畬⁥景传敶汲祡漠橢捥t⁴ㄥ椠瑮⁯癏牥慬⁹瑡┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Images > Set Transparent Colour...",
+      "text": "敓⁴牔湡灳牡湥⁴潃潬牵琠⁯ㄥ映牯䤠慭敧愠⁴〥",
+      "menuId": 25031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        24
+      ],
+      "paramTitles": [
+        "湅整⁲汓瑯爀湥⁴潃潬牵琠⁯ㄥ映牯䤠慭敧愠⁴〥",
+        "敓⁴牔湡灳牡湥⁴潃潬牵琀⁯ㄥ映牯䤠慭敧愠⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Set Efficiency mode > High RAM  Low CPU",
+      "text": "敓⁴晅楦楣湥祣洠摯⁥潴䠠杩⁨䅒⁍…潌⁷偃U",
+      "menuId": 25032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Set Efficiency mode > Low RAM  High CPU",
+      "text": "敓⁴晅楦楣湥祣洠摯⁥潴䰠睯删䵁☠䠠杩⁨偃U",
+      "menuId": 25033,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Set Efficiency mode > Set",
+      "text": "敓⁴晅楦楣湥祣洠摯⁥潴┠0",
+      "menuId": 25034,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲晅楦楣湥祣洠摯⁥〨㴠䠠杩⁨䅒⁍…潌⁷偃ⱕㄠ㴠䰠睯删䵁☠䠠杩⁨偃⥕"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Visibility > Make Object Invisible",
+      "text": "慍敫椠癮獩扩敬",
+      "menuId": 25035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Visibility > Make Object Reappear",
+      "text": "敒灡数牡",
+      "menuId": 25036,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Visibility > Flash Object",
+      "text": "汆獡⁨畤楲杮┠0",
+      "menuId": 25037,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        2
+      ],
+      "paramTitles": [
+        "汆獡⁨扏敪瑣─0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Visibility > Change ink effect",
+      "text": "敓⁴湩⁫晥敦瑣琠⁯〥",
+      "menuId": 25038,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        47
+      ],
+      "paramTitles": [
+        "桃湡敧椠歮攠晦捥t〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Visibility > Set semi-transparency",
+      "text": "敓⁴敳業琭慲獮慰敲据⁹潴┠0",
+      "menuId": 25039,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汐慥敳攠瑮牥愠瘠污敵戠瑥敷湥〠愠摮ㄠ㠲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Set Autosize mode > Off",
+      "text": "敓⁴畁潴楳敺洠摯㩥传晦",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Set Autosize mode > On",
+      "text": "敓⁴畁潴楳敺洠摯㩥传n",
+      "menuId": 25041,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Set Autosize mode > Set",
+      "text": "敓⁴畁潴楳敺洠摯⁥潴┠0",
+      "menuId": 25042,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰‽晏ⱦㄠ㴠传n⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Displayed Image slot",
+      "text": "楄灳慬敹卤潬⡴",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Images > Get Image Original Width",
+      "text": "汓瑯浉条坥摩桴(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲汓瑯搀桴("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Images > Get Image Original Height",
+      "text": "汓瑯浉条䡥楥桧⡴",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲汓瑯椀桧⡴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get X Coordinate",
+      "text": "潐塳(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get Y Coordinate",
+      "text": "潐女(",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get Width",
+      "text": "楗瑤⡨",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Get Height",
+      "text": "效杩瑨(",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Get Resample Width",
+      "text": "敒慳灭敬楗瑤⡨",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Get Resample Height",
+      "text": "敒慳灭敬效杩瑨(",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Get Alignment mode",
+      "text": "汁杩浮湥䵴摯⡥",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Images > Get Transparent Colour",
+      "text": "汓瑯浉条呥慲獮潃潬牵(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲汓瑯愀獮潃潬牵("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

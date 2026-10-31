@@ -1,0 +1,483 @@
+{
+  "file": "TimeStamp.mfx",
+  "conditions": [],
+  "actions": [],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Time Stamp",
+      "text": "楔敭匠慴灭(",
+      "menuId": 27000,
+      "resText": "Time Stamp(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "教牡匀慴灭(",
+        "潍瑮h慴灭(",
+        "慄yh慴灭(",
+        "潈牵s慴灭(",
+        "楍畮整s灭(",
+        "敓潣摮s灭("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Number returns > Get Year",
+      "text": "協教牡(",
+      "menuId": 27010,
+      "resText": "TSYear(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楔敭瑓浡p"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Number returns > Get Month",
+      "text": "協潍瑮⡨",
+      "menuId": 27020,
+      "resText": "TSMonth(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楔敭瑓浡p"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Number returns > Get Day",
+      "text": "協慄⡹",
+      "menuId": 27030,
+      "resText": "TSDay(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楔敭瑓浡p"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Number returns > Get Hours",
+      "text": "協潈牵⡳",
+      "menuId": 27040,
+      "resText": "TSHours(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楔敭瑓浡p"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Number returns > Get Minutes",
+      "text": "協楍畮整⡳",
+      "menuId": 27050,
+      "resText": "TSMinutes(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楔敭瑓浡p"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Number returns > Get Seconds",
+      "text": "協敓潣摮⡳",
+      "menuId": 27060,
+      "resText": "TSSeconds(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楔敭瑓浡p"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Get Today's Stamp",
+      "text": "潔慤⁹瑓浡⡰",
+      "menuId": 27070,
+      "resText": "Today Stamp(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Number returns > Get Day of Week",
+      "text": "協慄潹坦敥⡫",
+      "menuId": 27080,
+      "resText": "TSDayofWeek(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楔敭瑓浡p⡫"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Text returns > Get Full Date/Time String",
+      "text": "畆汬䐠瑡⁥瑓楲杮(",
+      "menuId": 27090,
+      "resText": "Full Date String(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楔敭瑓浡p瑓楲杮("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Number returns > Add Years",
+      "text": "摁奤慥獲(",
+      "menuId": 27100,
+      "resText": "AddYears(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楔敭瑓浡p",
+        "教牡彳潴慟摤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Number returns > Add Months",
+      "text": "摁䵤湯桴⡳",
+      "menuId": 27110,
+      "resText": "AddMonths(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楔敭瑓浡p",
+        "潍瑮獨瑟彯摡d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Number returns > Add Weeks",
+      "text": "摁坤敥獫(",
+      "menuId": 27120,
+      "resText": "AddWeeks(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楔敭瑓浡p",
+        "敗步彳潴慟摤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Number returns > Add Days",
+      "text": "摁䑤祡⡳",
+      "menuId": 27130,
+      "resText": "AddDays(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楔敭瑓浡p",
+        "慄獹瑟彯摡d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Number returns > Add Hours",
+      "text": "摁䡤畯獲(",
+      "menuId": 27140,
+      "resText": "AddHours(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楔敭瑓浡p",
+        "潈牵彳潴慟摤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Number returns > Add Minutes",
+      "text": "摁䵤湩瑵獥(",
+      "menuId": 27150,
+      "resText": "AddMinutes(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楔敭瑓浡p(",
+        "楍畮整彳潴慟摤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Number returns > Add Seconds",
+      "text": "摁卤捥湯獤(",
+      "menuId": 27160,
+      "resText": "AddSeconds(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楔敭瑓浡p(",
+        "敓潣摮彳潴慟摤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Get Timezone",
+      "text": "楔敭潺敮(",
+      "menuId": 27170,
+      "resText": "Timezone(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Text returns > Get YYYYMMDD String",
+      "text": "協奙奙䵍䑄(",
+      "menuId": 27180,
+      "resText": "TSYYYYMMDD(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楔敭瑓浡p("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Text returns > Get HHMMSS String",
+      "text": "協䡈䵍卓(",
+      "menuId": 27190,
+      "resText": "TSHHMMSS(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楔敭瑓浡p"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Get Difference > Get Year Difference",
+      "text": "協教牡楄晦(",
+      "menuId": 27200,
+      "resText": "TSYearDiff(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楔敭瑓浡ㅰ",
+        "楔敭瑓浡㉰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Get Difference > Get Month Difference",
+      "text": "協潍瑮䑨晩⡦",
+      "menuId": 27210,
+      "resText": "TSMonthDiff(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楔敭瑓浡ㅰ⠀",
+        "楔敭瑓浡㉰⠀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Get Difference > Get Day Difference",
+      "text": "協慄䑹晩⡦",
+      "menuId": 27220,
+      "resText": "TSDayDiff(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楔敭瑓浡ㅰ",
+        "楔敭瑓浡㉰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Get Difference > Get Hours Difference",
+      "text": "協潈牵䑳晩⡦",
+      "menuId": 27230,
+      "resText": "TSHoursDiff(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楔敭瑓浡ㅰ⠀",
+        "楔敭瑓浡㉰⠀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Get Difference > Get Minutes Difference",
+      "text": "協楍畮整䑳晩⡦",
+      "menuId": 27240,
+      "resText": "TSMinutesDiff(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楔敭瑓浡ㅰ昀⡦",
+        "楔敭瑓浡㉰昀⡦"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Get Difference > Get Seconds Difference",
+      "text": "協敓潣摮䑳晩⡦",
+      "menuId": 27250,
+      "resText": "TSSecondsDiff(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楔敭瑓浡ㅰ昀⡦",
+        "楔敭瑓浡㉰昀⡦"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Text returns > Convert TimeStamp to Text",
+      "text": "協卟牴⠤",
+      "menuId": 27260,
+      "resText": "TS_Str$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楔敭瑓浡p"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Text returns > Convert Text to TimeStamp",
+      "text": "協噟污(",
+      "menuId": 27270,
+      "resText": "TS_Val(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "楔敭瑓浡⑰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

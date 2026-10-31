@@ -1,0 +1,684 @@
+{
+  "file": "ColourConv.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set RGB > from integer",
+      "text": "漥㨠匠瑥删䉇琠⁯〥",
+      "menuId": 25000,
+      "resText": "%o : Set RGB to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湩整敧⁲慶畬⁥湩琠敨映牯㩭䈠啌⩅㔶㌵‶‫則䕅⩎㔲‶‫䕒D"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set RGB > from separates",
+      "text": "漥㨠匠瑥删䉇琠⁯〥‬ㄥ‬㈥",
+      "menuId": 25010,
+      "resText": "%o : Set RGB to %0, %1, %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "流畯瑮漠⁦䕒⁄〨㈭㔵)‬㈥",
+        "流畯瑮漠⁦則䕅⁎〨㈭㔵)㈥",
+        "流畯瑮漠⁦䱂䕕⠠ⴰ㔲⤵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set RGB > from hexadecimal",
+      "text": "漥㨠匠瑥删䉇映潲⁭敨⁸〥",
+      "menuId": 25020,
+      "resText": "%o : Set RGB from hex %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲敨慸敤楣慭⁬潣敤椠⁮桴⁥潦浲删䝒䉇⁂渨⁯敬摡湩⁧‣牯〠⥸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Set HSL (0-240) > from integer",
+      "text": "漥㨠匠瑥䠠䱓琠⁯〥",
+      "menuId": 25030,
+      "resText": "%o : Set HSL to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湩整敧⁲慶畬⁥湩琠敨映牯㩭䰠浵湩湡散㔪〸ㄸ⬠匠瑡牵瑡潩⩮㐲‱‫畈e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Set HSL (0-240) > from separates",
+      "text": "漥㨠匠瑥䠠䱓琠⁯〥‬ㄥ‬㈥",
+      "menuId": 25040,
+      "resText": "%o : Set HSL to %0, %1, %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "畈⁥〨㈭〴)琠⁯〥‬ㄥ‬㈥",
+        "慓畴慲楴湯⠠ⴰ㐲⤰ ㄥ‬㈥",
+        "界業慮据⁥〨㈭〴) ㄥ‬㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Set HSL (0-255) > from integer",
+      "text": "漥㨠匠瑥䠠䱓⠠ⴰ㔲⤵琠⁯〥",
+      "menuId": 25050,
+      "resText": "%o : Set HSL (0-255) to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湩整敧⁲慶畬⁥湩琠敨映牯㩭䰠浵湩湡散㘪㔵㘳⬠匠瑡牵瑡潩⩮㔲‶‫畈e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Set HSL (0-255) > from separates",
+      "text": "漥㨠匠瑥䠠䱓⠠ⴰ㔲⤵琠⁯〥‬ㄥ‬㈥",
+      "menuId": 25060,
+      "resText": "%o : Set HSL (0-255) to %0, %1, %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "畈⁥〨㈭㔵)⠠ⴰ㔲⤵琠⁯〥‬ㄥ‬㈥",
+        "慓畴慲楴湯⠠ⴰ㔲⤵⤀琠⁯〥‬ㄥ‬㈥",
+        "界業慮据⁥〨㈭㔵)⤀琠⁯〥‬ㄥ‬㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Set CMYK > from integer",
+      "text": "漥㨠匠瑥䌠奍⁋潴┠0",
+      "menuId": 25070,
+      "resText": "%o : Set CMYK to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湩整敧⁲慶畬⁥湩琠敨映牯㩭䈠慬正ㄪ㜶㜷ㄲ‶‫教汬睯㘪㔵㘳⬠䴠条湥慴㈪㘵⬠䌠慹n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Set CMYK > from separates",
+      "text": "漥㨠匠瑥䌠奍⁋潴┠ⰰ┠ⰱ┠ⰲ┠3",
+      "menuId": 25080,
+      "resText": "%o : Set CMYK to %0, %1, %2, %3",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "祃湡⠠ⴰ㔲⤵ 潴┠ⰰ┠ⰱ┠ⰲ┠3",
+        "慍敧瑮⁡〨㈭㔵)┠ⰰ┠ⰱ┠ⰲ┠3",
+        "教汬睯⠠ⴰ㔲⤵",
+        "⁋䈨慬正 〨㈭㔵)ⰰ┠ⰱ┠ⰲ┠3"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Colour Numbers > Get HSL (0-240)",
+      "text": "敇䡴䱓(",
+      "menuId": 27000,
+      "resText": "GetHSL(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "畈e䱓(",
+        "慓畴慲楴湯",
+        "界業慮据e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Colour Numbers > Get CMYK",
+      "text": "敇䍴奍⡋",
+      "menuId": 27010,
+      "resText": "GetCMYK(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "祃湡夀⡋",
+        "慍敧瑮a",
+        "教汬睯",
+        "求捡k"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Colour Numbers > Get Cyan from CMYK value",
+      "text": "敇䍴慹⡮",
+      "menuId": 27020,
+      "resText": "GetCyan(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "䵃䭙愀⡮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Colour Numbers > Get Magenta from CMYK value",
+      "text": "敇䵴条湥慴(",
+      "menuId": 27030,
+      "resText": "GetMagenta(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "䵃䭙最湥慴("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Colour Numbers > Get Yellow from CMYK value",
+      "text": "敇奴汥潬⡷",
+      "menuId": 27040,
+      "resText": "GetYellow(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "䵃䭙氀潬⡷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Colour Numbers > Get Black from CMYK value",
+      "text": "敇䉴慬正(",
+      "menuId": 27050,
+      "resText": "GetBlack(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "䵃䭙愀正("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Colour Numbers > Get Hue from HSL value (240)",
+      "text": "敇䡴敵(",
+      "menuId": 27060,
+      "resText": "GetHue(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "午L敵("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Colour Numbers > Get Sat from HSL value (240)",
+      "text": "敇却瑡(",
+      "menuId": 27070,
+      "resText": "GetSat(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "午L瑡("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Colour Numbers > Get Lum from HSL value (240)",
+      "text": "敇䱴浵(",
+      "menuId": 27080,
+      "resText": "GetLum(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "午L浵("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "From set colour > Get Red",
+      "text": "敒⡤",
+      "menuId": 27090,
+      "resText": "Red(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "From set colour > Get Green",
+      "text": "片敥⡮",
+      "menuId": 27100,
+      "resText": "Green(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "From set colour > Get Blue",
+      "text": "求敵(",
+      "menuId": 27110,
+      "resText": "Blue(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "From set colour > Get Hue",
+      "text": "畈⡥",
+      "menuId": 27120,
+      "resText": "Hue(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "From set colour > Get Saturation",
+      "text": "慓⡴",
+      "menuId": 27130,
+      "resText": "Sat(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "From set colour > Get Luminance",
+      "text": "界⡭",
+      "menuId": 27140,
+      "resText": "Lum(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "From set colour > Get Hue (255)",
+      "text": "畈䉥(",
+      "menuId": 27150,
+      "resText": "HueB(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "From set colour > Get Sat (255)",
+      "text": "慓䉴(",
+      "menuId": 27160,
+      "resText": "SatB(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "From set colour > Get Lum (255)",
+      "text": "界䉭(",
+      "menuId": 27170,
+      "resText": "LumB(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "From set colour > Get Cyan",
+      "text": "祃湡(",
+      "menuId": 27180,
+      "resText": "Cyan(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "From set colour > Get Magenta",
+      "text": "慍敧瑮⡡",
+      "menuId": 27190,
+      "resText": "Magenta(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "From set colour > Get Yellow",
+      "text": "教汬睯(",
+      "menuId": 27200,
+      "resText": "Yellow(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "From set colour > Get Black",
+      "text": "求捡⡫",
+      "menuId": 27210,
+      "resText": "Black(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "From set colour > Get RGB",
+      "text": "䝒⡂",
+      "menuId": 27220,
+      "resText": "RGB(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "From set colour > Get HSL",
+      "text": "午⡌",
+      "menuId": 27230,
+      "resText": "HSL(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "From set colour > Get HSL (255)",
+      "text": "午䉌(",
+      "menuId": 27240,
+      "resText": "HSLB(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "From set colour > Get CMYK",
+      "text": "䵃䭙(",
+      "menuId": 27250,
+      "resText": "CMYK(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "From expression > Get RGB to HSL",
+      "text": "䝒瑂䡯䱓(",
+      "menuId": 27260,
+      "resText": "RGBtoHSL(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "䝒B䡯䱓("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "From expression > Get RGB to HSL (255)",
+      "text": "䝒瑂䡯䱓⡂",
+      "menuId": 27270,
+      "resText": "RGBtoHSLB(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "䝒B䡯䱓⡂"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "From expression > Get RGB to CMYK",
+      "text": "䝒瑂䍯奍⡋",
+      "menuId": 27280,
+      "resText": "RGBtoCMYK(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "䝒B䍯奍⡋"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "From expression > Get HSL to RGB",
+      "text": "午瑌副䉇(",
+      "menuId": 27290,
+      "resText": "HSLtoRGB(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "午L副䉇("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "From expression > Get HSL (255) to RGB",
+      "text": "午䉌潴䝒⡂",
+      "menuId": 27300,
+      "resText": "HSLBtoRGB(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "午L潴䝒⡂"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "From expression > Get CMYK to RGB",
+      "text": "䵃䭙潴䝒⡂",
+      "menuId": 27310,
+      "resText": "CMYKtoRGB(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "䵃䭙漀䝒⡂"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Blend Colour > Blend RGB",
+      "text": "求湥剤䉇(",
+      "menuId": 27320,
+      "resText": "BlendRGB(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "瑓牡⁴潣潬牵",
+        "湅⁤潣潬牵爀",
+        "求湥⁤潣晥楦楣湥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Blend Colour > Blend CMYK",
+      "text": "求湥䍤奍⡋",
+      "menuId": 27330,
+      "resText": "BlendCMYK(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "瑓牡⁴潣潬牵",
+        "湅⁤潣潬牵爀",
+        "求湥⁤潣晥楦楣湥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Blend Colour > Blend one colour component",
+      "text": "求湥⡤",
+      "menuId": 27340,
+      "resText": "Blend(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "瑓牡⁴潣潬牵",
+        "湅⁤潣潬牵爀",
+        "求湥⁤潣晥楦楣湥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

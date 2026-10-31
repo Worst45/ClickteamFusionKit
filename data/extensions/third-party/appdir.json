@@ -1,0 +1,31 @@
+{
+  "file": "appdir.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Application to RTL",
+      "text": "敓⁴灁汰捩瑡潩⁮潴删䱔",
+      "menuId": 25000,
+      "resText": "Set Application to RTL",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set Application to LTR",
+      "text": "敓⁴灁汰捩瑡潩⁮潴䰠剔",
+      "menuId": 25001,
+      "resText": "Set Application to LTR",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": []
+}

@@ -1,0 +1,51 @@
+{
+  "file": "pipe.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "File finished executing",
+      "text": "漥㨠䘠汩⁥慨⁳楦楮桳摥攠數畣楴杮",
+      "menuId": 26000,
+      "resText": "%o : File has finished executing",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Execute file",
+      "text": "硅捥瑵⁥〥⠠ㄥ)",
+      "menuId": 25000,
+      "resText": "Execute %0 (%1)",
+      "flags": 0,
+      "paramTypes": [
+        40,
+        45
+      ],
+      "paramTitles": [
+        "楆敬琠⁯硥捥瑵e",
+        "潃浭湡⁤楬敮愠杲浵湥獴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get output",
+      "text": "畯灴瑵(",
+      "menuId": 27000,
+      "resText": "output(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

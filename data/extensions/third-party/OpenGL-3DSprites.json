@@ -1,0 +1,699 @@
+{
+  "file": "OpenGL-3DSprites.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Objects > On object loop",
+      "text": "漥›湏漠橢捥⁴潬灯",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Objects > On animation finished",
+      "text": "漥›湏愠楮慭楴湯映湩獩敨d",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Sprites > On texture handle request",
+      "text": "漥›湏琠硥畴敲栠湡汤⁥敲畱獥t",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Sprites > New sprite...",
+      "text": "敎⁷灳楲整┠‰ 楤敲瑣潩獮㴠┠ⰱ映慲敭⁳‽㈥⤠",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "灓楲整渠浡⹥⸮ 楤敲瑣潩獮㴠┠ⰱ映慲敭⁳‽㈥⤠",
+        "畎扭牥漠⁦楤敲瑣潩獮⸮.獮㴠┠ⰱ映慲敭⁳‽㈥⤠",
+        "畎扭牥漠⁦牦浡獥瀠牥搠物捥楴湯⸮.慲敭⁳‽㈥⤠",
+        "楗瑤⹨⸮ 牦浡獥瀠牥搠物捥楴湯⸮.慲敭⁳‽㈥⤠",
+        "效杩瑨⸮.牦浡獥瀠牥搠物捥楴湯⸮.慲敭⁳‽㈥⤠",
+        "潈獴潰⁴⹘⸮洀獥瀠牥搠物捥楴湯⸮.慲敭⁳‽㈥⤠",
+        "潈獴潰⁴⹙⸮洀獥瀠牥搠物捥楴湯⸮.慲敭⁳‽㈥⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Sprites > Select sprite...",
+      "text": "敓敬瑣猠牰瑩⁥〥",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "灓楲整渠浡⹥⸮　"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Sprites > Set texture handle...",
+      "text": "敓⁴整瑸牵⁥慨摮敬漠⁦楤敲瑣潩⁮〥‬牦浡⁥ㄥ琠⁯㈥",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楄敲瑣潩⹮⸮愀摮敬漠⁦楤敲瑣潩⁮〥‬牦浡⁥ㄥ琠⁯㈥",
+        "牆浡⹥⸮⸀⸮愀摮敬漠⁦楤敲瑣潩⁮〥‬牦浡⁥ㄥ琠⁯㈥",
+        "敔瑸牵⁥慨摮敬⸮.漠⁦楤敲瑣潩⁮〥‬牦浡⁥ㄥ琠⁯㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Sprites > Set angle offset...",
+      "text": "敓⁴湡汧⁥景獦瑥琠⁯〥",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湁汧⹥⸮ 景獦瑥琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Sprites > Delete sprite",
+      "text": "敄敬整猠汥捥整⁤灳楲整",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Sprites > Delete all sprites",
+      "text": "敄敬整愠汬猠牰瑩獥",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Objects > Add object...",
+      "text": "摁⁤扯敪瑣眠瑩⁨灳楲整┠0",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "灓楲整渠浡⹥⸮ 灳楲整┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Objects > Remove object",
+      "text": "敒潭敶漠橢捥t",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Objects > Remove all objects",
+      "text": "敒潭敶愠汬漠橢捥獴",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Objects > Object selection > Select object...",
+      "text": "敓敬瑣漠橢捥⁴楷桴䤠⁄〥",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣䤠⹄⸮ 楷桴䤠⁄〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Objects > Object selection > Loop through objects",
+      "text": "潌灯琠牨畯桧漠橢捥獴",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Objects > Visibility > Show",
+      "text": "桓睯漠橢捥t",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Objects > Visibility > Hide",
+      "text": "楈敤漠橢捥t",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Objects > Visibility > Blend mode > Alpha",
+      "text": "敓⁴扯敪瑣戠敬摮洠摯⁥潴䄠灬慨",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Objects > Visibility > Blend mode > Addative",
+      "text": "敓⁴扯敪瑣戠敬摮洠摯⁥潴䄠摤瑡癩e",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Objects > Visibility > Transparency...",
+      "text": "敓⁴扯敪瑣琠慲獮慰敲据⁹潴┠0",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牔湡灳牡湥祣⸮.慰敲据⁹潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Objects > Position > Set X coordinate...",
+      "text": "敓⁴扯敪瑣堠瀠獯瑩潩⁮潴┠0",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁘潣牯楤慮整⸮.瑩潩⁮潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Objects > Position > Set Y coordinate...",
+      "text": "敓⁴扯敪瑣夠瀠獯瑩潩⁮潴┠0",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁙潣牯楤慮整⸮.瑩潩⁮潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Objects > Position > Set Z coordinate...",
+      "text": "敓⁴扯敪瑣娠瀠獯瑩潩⁮潴┠0",
+      "menuId": 25018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁚潣牯楤慮整⸮.瑩潩⁮潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Objects > Set angle...",
+      "text": "敓⁴扯敪瑣愠杮敬琠⁯〥",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湁汧⹥⸮琀愠杮敬琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Objects > Scale > Set X scale...",
+      "text": "敓⁴扯敪瑣堠猠慣敬琠⁯〥",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁘捳污⹥⸮堀猠慣敬琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Objects > Scale > Set Y scale...",
+      "text": "敓⁴扯敪瑣夠猠慣敬琠⁯〥",
+      "menuId": 25021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁙捳污⹥⸮夀猠慣敬琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Objects > Scale > Uniform scale...",
+      "text": "敓⁴扯敪瑣甠楮潦浲猠慣敬琠⁯〥",
+      "menuId": 25022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湕晩牯⁭捳污⹥⸮洀猠慣敬琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Objects > Animation > Start...",
+      "text": "瑓牡⁴扯敪瑣愠楮慭楴湯映潲⁭〥琠⁯ㄥ‬潬灯┠″楴敭s",
+      "menuId": 25023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湁浩瑡潩⁮瑳牡⁴ ㄭ㴠挠牵敲瑮映慲敭⤠⸮.┠″楴敭s",
+        "湁浩瑡潩⁮湥⁤ ㄭ㴠氠獡⁴牦浡⁥⸩⸮⤀⸮.┠″楴敭s",
+        "湁浩瑡潩⁮灳敥⹤⸮㴀氠獡⁴牦浡⁥⸩⸮⤀⸮.┠″楴敭s",
+        "湁浩瑡潩⁮潬灯潣湵⁴ ㄭ㴠椠普湩瑩⤠⸮..┠″楴敭s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Objects > Animation > Stop",
+      "text": "瑓灯漠橢捥⁴湡浩瑡潩n",
+      "menuId": 25024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Objects > Animation > Set frame...",
+      "text": "敓⁴扯敪瑣愠楮慭楴湯映慲敭琠⁯〥",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牆浡⹥⸮琀愠楮慭楴湯映慲敭琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Objects > Render objects",
+      "text": "敒摮牥漠橢捥獴",
+      "menuId": 25026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Properties > Depth sorting > Enable",
+      "text": "湅扡敬搠灥桴猠牯楴杮",
+      "menuId": 25027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Properties > Depth sorting > Disable",
+      "text": "楄慳汢⁥敤瑰⁨潳瑲湩g",
+      "menuId": 25028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Sprites > Texture handle request > Pass texture handle...",
+      "text": "慐獳爠煥敵瑳摥琠硥畴敲栠湡汤㩥┠0",
+      "menuId": 25029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥慨摮敬⸮.畴敲栠湡汤㩥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Sprites > Number of sprites",
+      "text": "畎卭牰瑩獥(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Sprites > Sprite name",
+      "text": "灓楲整慎敭⠤",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Sprites > Number of directions",
+      "text": "畎䑭物⡳",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Sprites > Number of frames",
+      "text": "畎䙭慲敭⡳",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Sprites > Angle offset",
+      "text": "湁汧佥晦敳⡴",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Objects > Number of objects",
+      "text": "畎佭橢捥獴(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Objects > Object ID",
+      "text": "扏敪瑣䑉(",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Objects > Visibility > Get transparency",
+      "text": "牔湡灳牡湥祣(",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Objects > Position > Get X position",
+      "text": "⡘",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Objects > Position > Get Y position",
+      "text": "⡙",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Objects > Position > Get Z position",
+      "text": "⡚",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Objects > Get angle",
+      "text": "湁汧⡥",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Objects > Scale > Get X scale",
+      "text": "単慣敬(",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Objects > Scale > Get Y scale",
+      "text": "卙慣敬(",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Objects > Animation > Current frame",
+      "text": "湁浩牆浡⡥",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Objects > Binding > Get ID",
+      "text": "楂摮䑉(",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Sprites > Texture handle request > Texture index",
+      "text": "敒畱獥整呤硥畴敲(",
+      "menuId": 27016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

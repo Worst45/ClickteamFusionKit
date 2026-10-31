@@ -1,0 +1,641 @@
+{
+  "file": "Console.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Console > Console is open",
+      "text": "漥㨠䌠湯潳敬椠⁳灯湥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Input > Character read",
+      "text": "漥›桃牡捡整⁲敲摡",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Input > String read",
+      "text": "漥›瑓楲杮爠慥d",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Input > Number read",
+      "text": "漥›畎扭牥爠慥d",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Events > Key down",
+      "text": "漥›敋⁹潤湷",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Events > Key up",
+      "text": "漥›敋⁹灵",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Events > Mouse moved",
+      "text": "漥›潍獵⁥潭敶d",
+      "menuId": 26060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Events > Mouse wheeled",
+      "text": "漥›潍獵⁥桷敥敬d",
+      "menuId": 26070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Events > Mouse left down",
+      "text": "漥›潍獵⁥敬瑦搠睯n",
+      "menuId": 26080,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Events > Mouse middle down",
+      "text": "漥›潍獵⁥業摤敬搠睯n",
+      "menuId": 26090,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Events > Mouse right down",
+      "text": "漥›潍獵⁥楲桧⁴潤湷",
+      "menuId": 26100,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Events > Window resized",
+      "text": "漥›楗摮睯爠獥穩摥",
+      "menuId": 26110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Pipe > Application ended",
+      "text": "漥›楐数愠灰楬慣楴湯攠摮摥",
+      "menuId": 26120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Events > Mouse state changed",
+      "text": "漥›潍獵⁥瑳瑡⁥档湡敧d",
+      "menuId": 26130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Console > Open",
+      "text": "灏湥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Console > Close",
+      "text": "汃獯e",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Settings > Set title",
+      "text": "敓⁴楴汴⁥潴┠0",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敎⁷楴汴e潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Settings > Set window dimensions",
+      "text": "敓⁴楷摮睯搠浩湥楳湯⁳潴┠ⰰ┠1",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敎⁷楷瑤h搠浩湥楳湯⁳潴┠ⰰ┠1",
+        "敎⁷敨杩瑨搀浩湥楳湯⁳潴┠ⰰ┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Settings > Set buffer dimensions",
+      "text": "敓⁴畢晦牥搠浩湥楳湯⁳潴┠ⰰ┠1",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敎⁷楷瑤h搠浩湥楳湯⁳潴┠ⰰ┠1",
+        "敎⁷敨杩瑨搀浩湥楳湯⁳潴┠ⰰ┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Settings > Set cursor position",
+      "text": "敓⁴畣獲牯瀠獯瑩潩⁮潴┠‰‬ㄥ",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敎⁷⁘潰楳楴湯琀潩⁮潴┠‰‬ㄥ",
+        "敎⁷⁙潰楳楴湯琀潩⁮潴┠‰‬ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Settings > Set output colours",
+      "text": "敓⁴畯灴瑵挠汯畯獲琠⁯〥愠摮┠1",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慂正牧畯摮挠汯畯⁲〨ㄭ⤵愀摮┠1",
+        "潆敲牧畯摮挠汯畯⁲〨ㄭ⤵愀摮┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Input > Read character",
+      "text": "敒摡挠慨慲瑣牥",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Input > Read string",
+      "text": "敒摡猠牴湩g",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Input > Read number",
+      "text": "敒摡渠浵敢r",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Output > Clear",
+      "text": "汃慥r",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Output > Write string",
+      "text": "牗瑩⁥瑳楲杮┠0",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮琠⁯牷瑩e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Output > Write number",
+      "text": "牗瑩⁥畮扭牥┠0",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畎扭牥琠⁯牷瑩e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Output > Write string with escape sequences",
+      "text": "牗瑩⁥瑳楲杮┠‰楷桴攠捳灡⁥敳畱湥散s",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮琠⁯牷瑩e楷桴攠捳灡⁥敳畱湥散s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Output > Write ASCII character",
+      "text": "牗瑩⁥十䥃⁉档牡捡整⁲〥",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "十䥃⁉湩敤⁸景挠慨慲瑣牥琠⁯牷瑩e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Output > Write newline",
+      "text": "牗瑩⁥敮汷湩e",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Pipe > Run application in it's own console",
+      "text": "畒⁮〥┠‱湩椠❴⁳睯⁮潣獮汯⁥楷桴攠癮物湯敭瑮瘠牡慩汢獥┠′用楳杮搠汥浩瑩牥┠⤳",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40,
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "灁汰捩瑡潩⁮潴爠湵眀⁮潣獮汯⁥楷桴攠癮物湯敭瑮瘠牡慩汢獥┠′用楳杮搠汥浩瑩牥┠⤳",
+        "牁畧敭瑮s⁮潴爠湵眀⁮潣獮汯⁥楷桴攠癮物湯敭瑮瘠牡慩汢獥┠′用楳杮搠汥浩瑩牥┠⤳",
+        "湅楶潲浮湥⁴慶楲扡敬⁳猨灥牥瑡摥戠⁹敤楬業整⁲景礠畯⁲档楯散‬敤楬業整⁲獩渠硥⁴慰慲敭整Ⱳ攠摮眠瑩⁨敤楬業整⥲",
+        "湅楶潲浮湥⁴慶楲扡敬搠汥浩瑩牥⠠楳杮敬挠慨慲瑣牥)畯⁲档楯散‬敤楬業整⁲獩渠硥⁴慰慲敭整Ⱳ攠摮眠瑩⁨敤楬業整⥲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Pipe > Run application without a console",
+      "text": "畒⁮〥┠‱楷桴畯⁴⁡潣獮汯⁥楷桴攠癮物湯敭瑮瘠牡慩汢獥┠′用楳杮搠汥浩瑩牥┠⤳",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40,
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "灁汰捩瑡潩⁮潴爠湵 潣獮汯⁥楷桴攠癮物湯敭瑮瘠牡慩汢獥┠′用楳杮搠汥浩瑩牥┠⤳",
+        "牁畧敭瑮s⁮潴爠湵 潣獮汯⁥楷桴攠癮物湯敭瑮瘠牡慩汢獥┠′用楳杮搠汥浩瑩牥┠⤳",
+        "湅楶潲浮湥⁴慶楲扡敬⁳猨灥牥瑡摥戠⁹敤楬業整⁲景礠畯⁲档楯散‬敤楬業整⁲獩渠硥⁴慰慲敭整Ⱳ攠摮眠瑩⁨敤楬業整⥲",
+        "湅楶潲浮湥⁴慶楲扡敬搠汥浩瑩牥⠠楳杮敬挠慨慲瑣牥)畯⁲档楯散‬敤楬業整⁲獩渠硥⁴慰慲敭整Ⱳ攠摮眠瑩⁨敤楬業整⥲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Settings > Hide cursor",
+      "text": "楈敤挠牵潳r",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Settings > Show cursor",
+      "text": "桓睯挠牵潳r",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Input > Set character to read until",
+      "text": "敓⁴档牡捡整⁲潴爠慥⁤湵楴⁬潴┠0",
+      "menuId": 25200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敎⁷档牡捡整r潴爠慥⁤湵楴⁬潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Input > Get character read",
+      "text": "桃牡捡整割慥⡤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Input > Get string read",
+      "text": "瑓楲杮敒摡⠤",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Input > Get number read",
+      "text": "畎扭牥敒摡(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Settings > Get cursor X position",
+      "text": "畃獲牯⡘",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Settings > Get cursor Y position",
+      "text": "畃獲牯⡙",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Events > Get repeat count for key down",
+      "text": "敋䑹睯剮灥慥䍴畯瑮(",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Events > Get ASCII value for key up/down",
+      "text": "敋啹䑰睯䅮䍓䥉(",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Events > Get mouse X position for mouse events",
+      "text": "潍獵塥(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Events > Get mouse Y position for mouse events",
+      "text": "潍獵奥(",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Events > Get window width for window resize",
+      "text": "敒楳敺楗摮睯楗瑤⡨",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Events > Get window height for window resize",
+      "text": "敒楳敺楗摮睯效杩瑨(",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Pipe > Get output",
+      "text": "楐数畏灴瑵⠤",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

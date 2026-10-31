@@ -1,0 +1,48 @@
+{
+  "file": "prime.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Starting Value",
+      "text": "敓⁴瑓牡楴杮嘠污敵琠⁯〥",
+      "menuId": 25000,
+      "resText": "Set Starting Value to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "瑓牡⁴慖畬e嘠污敵琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Find Next Prime Value",
+      "text": "楆摮丠硥⁴牐浩⁥慖畬e",
+      "menuId": 25010,
+      "resText": "Find Next Prime Value",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Prime Value",
+      "text": "敇側楲敭(",
+      "menuId": 27000,
+      "resText": "GetPrime(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

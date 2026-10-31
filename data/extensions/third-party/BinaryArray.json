@@ -1,0 +1,659 @@
+{
+  "file": "BinaryArray.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Workspace exists",
+      "text": "漥㨠圠牯獫慰散攠楸瑳s",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潗歲灳捡⁥慮敭攀楸瑳s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "File > Load file > Uncompressed",
+      "text": "潌摡映汩⁥〥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬瀠瑡h〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "File > Save file > Uncompressed",
+      "text": "慓敶映汩⁥潴┠0",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆敬瀠瑡h潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "File > Load workspace file > Uncompressed",
+      "text": "潌摡眠牯獫慰散映汩⁥〥",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬瀠瑡h慰散映汩⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "File > Save workspace file > Uncompressed",
+      "text": "慓敶愠汬眠牯獫慰散⁳潴┠0",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆敬瀠瑡h牯獫慰散⁳潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Workspace > Switch",
+      "text": "睓瑩档眠牯獫慰散琠⁯〥",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潗歲灳捡⁥慮敭攀琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Write > Byte",
+      "text": "牗瑩⁥祢整┠‱潴┠0",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潐楳楴湯攀┠‱潴┠0",
+        "慖畬e湯攀┠‱潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Write > Integer",
+      "text": "牗瑩⁥湩整敧⁲ㄥ琠⁯〥",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潐楳楴湯攀敧⁲ㄥ琠⁯〥",
+        "慖畬e湯攀敧⁲ㄥ琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Write > String",
+      "text": "牗瑩⁥瑳楲杮┠‱潴┠0",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潐楳楴湯椀杮┠‱潴┠0",
+        "慖畬e湯椀杮┠‱潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Write > Terminated string",
+      "text": "牗瑩⁥整浲湩瑡摥猠牴湩⁧ㄥ琠⁯〥",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潐楳楴湯洀湩瑡摥猠牴湩⁧ㄥ琠⁯〥",
+        "慖畬e湯洀湩瑡摥猠牴湩⁧ㄥ琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Write > Float",
+      "text": "牗瑩⁥汦慯⁴ㄥ琠⁯〥",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潐楳楴湯愀⁴ㄥ琠⁯〥",
+        "慖畬e湯愀⁴ㄥ琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Workspace > Resize",
+      "text": "敒楳敺琠⁯〥",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楓敺攀琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Settings > Set virtual width/height",
+      "text": "敓⁴楶瑲慵⁬楳敺琠⁯〥Ⱐ┠1",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘楳敺琀慵⁬楳敺琠⁯〥Ⱐ┠1",
+        "⁙楳敺琀慵⁬楳敺琠⁯〥Ⱐ┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Workspace > Create",
+      "text": "牃慥整眠牯獫慰散┠0",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慎敭攀眠牯獫慰散┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Workspace > Delete",
+      "text": "敄敬整眠牯獫慰散┠0",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慎敭攀眠牯獫慰散┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Settings > Set default size",
+      "text": "敓⁴敤慦汵⁴楳敺琠⁯〥",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敎⁷楳敺氀⁴楳敺琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Workspace > Delete all",
+      "text": "敄敬整愠汬眠牯獫慰散s",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Workspace > Copy",
+      "text": "潃祰挠牵敲瑮眠牯獫慰散琠⁯〥",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敄瑳湩瑡潩⁮慮敭猀慰散琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "File > Load file > Compressed",
+      "text": "潌摡挠浯牰獥敳⁤楦敬┠0",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬瀠瑡h獥敳⁤楦敬┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "File > Save file > Compressed",
+      "text": "慓敶挠浯牰獥敳⁤楦敬琠⁯〥",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆敬瀠瑡h獥敳⁤楦敬琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "File > Load workspace file > Compressed",
+      "text": "潌摡挠浯牰獥敳⁤潷歲灳捡⁥楦敬┠0",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬瀠瑡h獥敳⁤潷歲灳捡⁥楦敬┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "File > Save workspace file > Compressed",
+      "text": "慓敶愠汬眠牯獫慰散⁳潣灭敲獳摥琠⁯〥",
+      "menuId": 25200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆敬瀠瑡h牯獫慰散⁳潣灭敲獳摥琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Write > Range",
+      "text": "潍楤祦爠湡敧愠⁴〥眠瑩⁨楳敺┠‱潴┠2",
+      "menuId": 25210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潐楳楴湯渀敧愠⁴〥眠瑩⁨楳敺┠‱潴┠2",
+        "楓敺椀湯渀敧愠⁴〥眠瑩⁨楳敺┠‱潴┠2",
+        "敎⁷慶畬e敧愠⁴〥眠瑩⁨楳敺┠‱潴┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Write > Short",
+      "text": "牗瑩⁥桳牯⁴ㄥ琠⁯〥",
+      "menuId": 25220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潐楳楴湯爀⁴ㄥ琠⁯〥",
+        "慖畬e湯爀⁴ㄥ琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Write > Entity",
+      "text": "牗瑩⁥湥楴祴愠⁴〥映潲⁭ㄥ眠瑩⁨楳敺┠2",
+      "menuId": 25230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潐楳楴湯椀祴愠⁴〥映潲⁭ㄥ眠瑩⁨楳敺┠2",
+        "潓牵散瀠獯瑩潩n〥映潲⁭ㄥ眠瑩⁨楳敺┠2",
+        "楓敺攀瀠獯瑩潩n〥映潲⁭ㄥ眠瑩⁨楳敺┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Settings > Use big-endian",
+      "text": "獕⁥楢⁧湥楤湡",
+      "menuId": 25240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Settings > Use little-endian",
+      "text": "獕⁥楬瑴敬攠摮慩n",
+      "menuId": 25250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Read > Byte > Unsigned",
+      "text": "祂整(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潐楳楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Read > Byte > Signed",
+      "text": "楓湧摥祂整(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潐楳楴湯攀("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Read > Integer > Unsigned",
+      "text": "湉整敧⡲",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潐楳楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Read > String > With size",
+      "text": "瑓楲杮⠤",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潐楳楴湯",
+        "楓敺椀湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Read > String > Null terminated",
+      "text": "敔浲湩瑡摥瑓楲杮⠤",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潐楳楴湯搀瑓楲杮⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Combine > X/Y coordinates",
+      "text": "潃扭湩塥⡙",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "X扭湩塥⡙",
+        "Y扭湩塥⡙"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Combine > X/Y/Z coordinates",
+      "text": "潃扭湩塥婙(",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "X扭湩塥婙(",
+        "Y扭湩塥婙(",
+        "Z扭湩塥婙("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Read > Float",
+      "text": "汆慯⡴",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潐楳楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Read > Short > Unsigned",
+      "text": "桓牯⡴",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潐楳楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Read > Short > Signed",
+      "text": "楓湧摥桓牯⡴",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潐楳楴湯爀⡴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Get array size",
+      "text": "楓敺(",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Get number of workspaces",
+      "text": "潗歲灳捡䍥畯瑮(",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Read > Integer > Signed",
+      "text": "楓湧摥湉整敧⡲",
+      "menuId": 27120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潐楳楴湯攀敧⡲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

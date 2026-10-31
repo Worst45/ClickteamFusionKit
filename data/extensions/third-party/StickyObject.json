@@ -1,0 +1,117 @@
+{
+  "file": "StickyObject.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On broken connection",
+      "text": "漥传⁮牢歯湥挠湯敮瑣潩n",
+      "menuId": 26000,
+      "resText": "%o On broken connection",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Relative attach two objects",
+      "text": "汆硥扩敬愠瑴捡⁨扯敪瑣┠‰潴瀠牡湥㩴┠1",
+      "menuId": 25000,
+      "resText": "Flexible attach object %0 to parent: %1",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣挠楨摬漠橢捥t瑣┠‰潴瀠牡湥㩴┠1",
+        "敓敬瑣瀠牡湥⁴扯敪瑣琀┠‰潴瀠牡湥㩴┠1",
+        "潒慴整眠瑩⁨慰敲瑮›㴰潮挠慨杮ⱥㄠ戽獡摥漠⁮楤敲瑣潩獮⠠㈳Ⱙ㈠戽獡摥漠⁮湡汧獥⠠㘳⤰",
+        "桃湡敧搠物眠瑩⁨慰敲瑮›㴰潮挠慨杮ⱥㄠ‽档湡敧搠物‬㴲档湡敧愠杮敬‬㴳潢桴氀獥⠠㘳⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Static attach two objects",
+      "text": "瑓瑡捩愠瑴捡⁨扯敪瑣┠‰湡⁤ㄥ",
+      "menuId": 25010,
+      "resText": "Static attach object %0 and %1",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣挠楨摬漠橢捥t┠‰湡⁤ㄥ",
+        "敓敬瑣瀠牡湥⁴扯敪瑣─‰湡⁤ㄥ",
+        "潒慴整眠瑩⁨慰敲瑮›㴰潮挠慨杮ⱥㄠ戽獡摥漠⁮楤敲瑣潩獮⠠㈳Ⱙ㈠戽獡摥漠⁮湡汧獥⠠㘳⤰",
+        "桃湡敧搠物眠瑩⁨慰敲瑮›㴰潮挠慨杮ⱥㄠ‽档湡敧搠物‬㴲档湡敧愠杮敬‬㴳潢桴氀獥⠠㘳⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Detach all objects",
+      "text": "敄瑡慴档愠汬漠橢捥獴",
+      "menuId": 25020,
+      "resText": "Deattach all objects",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Detach object",
+      "text": "敄瑡慴档┠0",
+      "menuId": 25030,
+      "resText": "Deattach %0",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敓敬瑣漠橢捥⁴潴搠慥瑴捡h"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get number of attached objects",
+      "text": "畎䅭瑴捡敨⡤",
+      "menuId": 27000,
+      "resText": "NumAttached(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get fixed of remainder after deletion",
+      "text": "楆數佤剦浥楡摮牥(",
+      "menuId": 27010,
+      "resText": "FixedOfRemainder(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

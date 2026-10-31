@@ -1,0 +1,329 @@
+{
+  "file": "EasyScrollbar.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On Scroll ",
+      "text": "漥传⁮捓潲汬",
+      "menuId": 26000,
+      "resText": "%o On Scroll",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Has Focus",
+      "text": "漥䠠獡䘠捯獵",
+      "menuId": 26001,
+      "resText": "%o Has Focus",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Is Enabled",
+      "text": "漥䤠⁳湅扡敬d",
+      "menuId": 26002,
+      "resText": "%o Is Enabled",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Is Visible",
+      "text": "漥䤠⁳楖楳汢e",
+      "menuId": 26003,
+      "resText": "%o Is Visible",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Scroll Position",
+      "text": "敓⁴捓潲汬倠獯瑩潩⁮潴┠0",
+      "menuId": 25000,
+      "resText": "Set Scroll Position to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潐楳楴湯氀倠獯瑩潩⁮潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set Scroll Range",
+      "text": "敓⁴捓潲汬删湡敧映潲⁭〥琠⁯ㄥ",
+      "menuId": 25001,
+      "resText": "Set Scroll Range from %0 to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楍楮畭m汬删湡敧映潲⁭〥琠⁯ㄥ",
+        "慍楸畭m汬删湡敧映潲⁭〥琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set Small Change",
+      "text": "敓⁴浓污⁬桃湡敧琠⁯〥",
+      "menuId": 25006,
+      "resText": "Set Small Change to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "浓污⁬桃湡敧渀敧琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Set Large Change",
+      "text": "敓⁴慌杲⁥桃湡敧琠⁯〥",
+      "menuId": 25007,
+      "resText": "Set Large Change to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慌杲⁥桃湡敧渀敧琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Control > Focus > Get Focus",
+      "text": "漥䘠捯獵传n",
+      "menuId": 25002,
+      "resText": "%o Focus On",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Control > Focus > Lose Focus",
+      "text": "漥䘠捯獵传晦",
+      "menuId": 25003,
+      "resText": "%o Focus Off",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Control > Enabled > Enable",
+      "text": "漥䔠慮汢e",
+      "menuId": 25004,
+      "resText": "%o Enable",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Control > Enabled > Disable",
+      "text": "漥䐠獩扡敬",
+      "menuId": 25005,
+      "resText": "%o Disable",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Size > Set Size",
+      "text": "敓⁴楓敺琠⁯〥戠⁹ㄥ",
+      "menuId": 25008,
+      "resText": "Set Size to %0 by %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗瑤h敺琠⁯〥戠⁹ㄥ",
+        "效杩瑨攀琠⁯〥戠⁹ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Size > Set Width",
+      "text": "敓⁴楗瑤⁨潴┠0",
+      "menuId": 25009,
+      "resText": "Set Width to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗瑤h瑤⁨潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Size > Set Height",
+      "text": "敓⁴效杩瑨琠⁯〥",
+      "menuId": 25010,
+      "resText": "Set Height to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "效杩瑨最瑨琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Control > Visibility > Show",
+      "text": "漥匠潨w",
+      "menuId": 25011,
+      "resText": "%o Show",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Control > Visibility > Hide",
+      "text": "漥䠠摩e",
+      "menuId": 25012,
+      "resText": "%o Hide",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Value",
+      "text": "卅牣汯噬污(",
+      "menuId": 27000,
+      "resText": "EScrollVal(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Minimum Value",
+      "text": "卅牣汯䵬湩慖⡬",
+      "menuId": 27003,
+      "resText": "EScrollMinVal(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Maximum Value",
+      "text": "卅牣汯䵬硡慖⡬",
+      "menuId": 27004,
+      "resText": "EScrollMaxVal(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get Small Change",
+      "text": "卅牣汯卬慭汬桃湡敧(",
+      "menuId": 27005,
+      "resText": "EScrollSmallChange(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get Large Change",
+      "text": "卅牣汯䱬牡敧桃湡敧(",
+      "menuId": 27006,
+      "resText": "EScrollLargeChange(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Size > Get Width",
+      "text": "卅牣汯坬摩桴(",
+      "menuId": 27001,
+      "resText": "EScrollWidth(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Size > Get Height",
+      "text": "卅牣汯䡬楥桧⡴",
+      "menuId": 27002,
+      "resText": "EScrollHeight(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

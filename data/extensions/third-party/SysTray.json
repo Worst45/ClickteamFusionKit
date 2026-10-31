@@ -1,0 +1,613 @@
+{
+  "file": "SysTray.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Is an Icon Displayed in Tray?",
+      "text": "漥›捉湯┠‰獩䐠獩汰祡摥椠⁮牔祡",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥捉湯䤠⁄〨㴠愠祮椠潣Ɱㄠ㴠映物瑳椠潣Ɱ㈠㴠猠捥湯Ɽ攠捴⤮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Mouse Clicks > User Clicks an Icon",
+      "text": "漥›獕牥┠‰湯䤠潣⁮ㄥ",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        32,
+        22
+      ],
+      "paramTitles": [
+        "獕牥䌠楬正⁳湡䤠潣nㄥ",
+        "湅整⁲桴⁥捉湯䤠⁄〨㴠愠祮椠潣Ɱㄠ㴠映物瑳椠潣Ɱ㈠㴠猠捥湯Ɽ攠捴⤮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Has an Error Occured?",
+      "text": "漥›湏䔠牲牯",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Intercept System Commands > On Minimize Command",
+      "text": "漥›湏䴠湩浩穩⁥潃浭湡d",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Intercept System Commands > On Maximize Command",
+      "text": "漥›湏䴠硡浩穩⁥潃浭湡d",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Intercept System Commands > On Close Command",
+      "text": "漥›湏䌠潬敳䌠浯慭摮",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Intercept System Commands > On Task Bar Command",
+      "text": "漥›湏吠獡⁫慂⁲潃浭湡d",
+      "menuId": 26060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Intercept System Commands > On Specific System Command",
+      "text": "漥›湏匠獹整⁭潃浭湡⁤〥",
+      "menuId": 26070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥祓瑳浥䌠浯慭摮吠灹⁥畎扭牥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Mouse Clicks > User Releases Left-Click on Icon",
+      "text": "漥›獕牥删汥慥敳⁳敌瑦䌭楬正漠⁮捉湯┠0",
+      "menuId": 26080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥捉湯䤠⁄〨㴠愠祮椠潣Ɱㄠ㴠映物瑳椠潣Ɱ㈠㴠猠捥湯Ɽ攠捴⤮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Mouse Clicks > User Releases Middle-Click on Icon",
+      "text": "漥›獕牥删汥慥敳⁳楍摤敬䌭楬正漠⁮捉湯┠0",
+      "menuId": 26090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥捉湯䤠⁄〨㴠愠祮椠潣Ɱㄠ㴠映物瑳椠潣Ɱ㈠㴠猠捥湯Ɽ攠捴⤮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Mouse Clicks > User Releases Right-Click on Icon",
+      "text": "漥›獕牥删汥慥敳⁳楒桧⵴汃捩⁫湯䤠潣⁮〥",
+      "menuId": 26100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥捉湯䤠⁄〨㴠愠祮椠潣Ɱㄠ㴠映物瑳椠潣Ɱ㈠㴠猠捥湯Ɽ攠捴⤮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Show Icon in Tray",
+      "text": "桓睯䤠潣⁮〥椠⁮牔祡",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥捉湯䤠⁄〨㴠愠汬椠潣獮‬‱‽楦獲⁴捩湯‬′‽敳潣摮‬瑥⹣)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Change Tray Icon > Default Application Icon",
+      "text": "桃湡敧䤠潣⁮〥琠⁯敄慦汵⁴灁汰捩瑡潩⁮捉湯",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥捉湯䤠⁄〨㴠愠汬椠潣獮‬‱‽楦獲⁴捩湯‬′‽敳潣摮‬瑥⹣)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Change Tray Icon > Asterisk Icon",
+      "text": "桃湡敧䤠潣⁮〥琠⁯獁整楲歳䤠潣n",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥捉湯䤠⁄〨㴠愠汬椠潣獮‬‱‽楦獲⁴捩湯‬′‽敳潣摮‬瑥⹣)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Change Tray Icon > Hand-Shaped Icon",
+      "text": "桃湡敧䤠潣⁮〥琠⁯慈摮匭慨数⁤捉湯",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥捉湯䤠⁄〨㴠愠汬椠潣獮‬‱‽楦獲⁴捩湯‬′‽敳潣摮‬瑥⹣)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Change Tray Icon > Exclamation Point Icon",
+      "text": "桃湡敧䤠潣⁮〥琠⁯硅汣浡瑡潩⁮潐湩⁴捉湯",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥捉湯䤠⁄〨㴠愠汬椠潣獮‬‱‽楦獲⁴捩湯‬′‽敳潣摮‬瑥⹣)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Change Tray Icon > Question Mark Icon",
+      "text": "桃湡敧䤠潣⁮〥琠⁯畑獥楴湯䴠牡⁫捉湯",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥捉湯䤠⁄〨㴠愠汬椠潣獮‬‱‽楦獲⁴捩湯‬′‽敳潣摮‬瑥⹣)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Change Tray Icon > Windows Logo Icon",
+      "text": "桃湡敧䤠潣⁮〥琠⁯楗摮睯⁳潌潧䤠潣n",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥捉湯䤠⁄〨㴠愠汬椠潣獮‬‱‽楦獲⁴捩湯‬′‽敳潣摮‬瑥⹣)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Remove Icon from Tray",
+      "text": "敒潭敶䤠潣⁮〥映潲⁭牔祡",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥捉湯䤠⁄〨㴠愠汬椠潣獮‬‱‽楦獲⁴捩湯‬′‽敳潣摮‬瑥⹣)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Tool Tip > Show Tool Tip",
+      "text": "桓睯吠潯⁬楔⁰潦⁲捉湯┠0",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥捉湯䤠⁄〨㴠愠汬椠潣獮‬‱‽楦獲⁴捩湯‬′‽敳潣摮‬瑥⹣)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Tool Tip > Hide Tool Tip (broken)",
+      "text": "楈敤吠潯⁬楔⁰潦⁲捉湯┠‰戨潲敫⥮",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥捉湯䤠⁄〨㴠愠汬椠潣獮‬‱‽楦獲⁴捩湯‬′‽敳潣摮‬瑥⹣)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Tool Tip > Set Tool Tip",
+      "text": "敓⁴潔汯吠灩映牯䤠潣⁮〥琠⁯ㄥ",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥捉湯䤠⁄〨㴠愠汬椠潣獮‬‱‽楦獲⁴捩湯‬′‽敳潣摮‬瑥⹣)",
+        "湅整⁲潔汯吠灩吠硥t㴠愠汬椠潣獮‬‱‽楦獲⁴捩湯‬′‽敳潣摮‬瑥⹣)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Load Icon Image from ICO File",
+      "text": "潌摡䄠⁴潍瑳┠″浉条⡥⥳映潲⁭〥匠慴瑲湩⁧楷桴䤠潣⁮㈥椠瑮⁯捉湯䤠慭敧⁳瑓牡湩⁧楷桴┠1",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲楆敬倠瑡⁨景䤠潣⁮䤨佃 楆敬愀瑲湩⁧楷桴䤠潣⁮㈥椠瑮⁯捉湯䤠慭敧⁳瑓牡湩⁧楷桴┠1",
+        "湅整⁲䑉漠⁦楆獲⁴捉湯䤠慭敧琠⁯瑓牯⁥浉条⁥湩潴⠠‱‽楦獲⁴捩湯椠慭敧‬′‽敳潣摮‬瑥⹣)",
+        "湅整⁲楆獲⁴捉湯琠⁯敒摡映潲⁭楆敬⠠‱‽楦獲⁴捩湯‬′‽敳潣摮‬瑥⹣)‬′‽敳潣摮‬瑥⹣)",
+        "湅整⁲慍楸畭⁭畎扭牥漠⁦捉湯⁳潴删慥⁤牦浯䘠汩e湯‬′‽敳潣摮‬瑥⹣)‬′‽敳潣摮‬瑥⹣)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Change Tray Icon > One of the Stored Icon Images",
+      "text": "桃湡敧䤠潣⁮〥琠⁯捉湯䤠慭敧┠1",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥捉湯䤠⁄〨㴠愠汬椠潣獮‬‱‽楦獲⁴捩湯‬′‽敳潣摮‬瑥⹣)",
+        "湅整⁲桴⁥捉湯䤠慭敧䤠⁄ㄨ㴠映物瑳椠潣⁮浩条ⱥ㈠㴠猠捥湯Ɽ攠捴⤮⸀)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Halt System Commands > Halt Minimize Command",
+      "text": "慈瑬䴠湩浩穩⁥潃浭湡d",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Halt System Commands > Halt Maximize Command",
+      "text": "慈瑬䴠硡浩穩⁥潃浭湡d",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Halt System Commands > Halt Close Command",
+      "text": "慈瑬䌠潬敳䌠浯慭摮",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Halt System Commands > Halt Task Bar Command",
+      "text": "慈瑬吠獡⁫慂⁲潃浭湡d",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Halt System Commands > Halt this System Command",
+      "text": "慈瑬琠楨⁳祓瑳浥䌠浯慭摮",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Load Icon Image from EXE or DLL File",
+      "text": "潌摡䄠⁴潍瑳┠″浉条⡥⥳映潲⁭〥匠慴瑲湩⁧楷桴䤠潣⁮㈥椠瑮⁯捉湯䤠慭敧⁳瑓牡湩⁧楷桴┠‱獵湩⁧潆浲瑡┠4",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲楆敬倠瑡⁨景䔠䕘漠⁲䱄⁌楆敬愀瑲湩⁧楷桴䤠潣⁮㈥椠瑮⁯捉湯䤠慭敧⁳瑓牡湩⁧楷桴┠‱獵湩⁧潆浲瑡┠4",
+        "湅整⁲䑉漠⁦楆獲⁴捉湯䤠慭敧琠⁯瑓牯⁥浉条⁥湩潴⠠‱‽楦獲⁴捩湯椠慭敧‬′‽敳潣摮‬瑥⹣)湩⁧潆浲瑡┠4",
+        "湅整⁲楆獲⁴捉湯琠⁯敒摡映潲⁭楆敬⠠‱‽楦獲⁴捩湯‬′‽敳潣摮‬瑥⹣)‬′‽敳潣摮‬瑥⹣)湩⁧潆浲瑡┠4",
+        "湅整⁲慍楸畭⁭畎扭牥漠⁦慐物⁳景䤠潣獮琠⁯敒摡映潲⁭楆敬攀潣摮‬瑥⹣)‬′‽敳潣摮‬瑥⹣)湩⁧潆浲瑡┠4",
+        "湅整⁲桴⁥潆浲瑡丠浵敢⁲挨湯畳瑬栠汥⁰楦敬⁳潦⁲慶楲畯⁳潦浲瑡⥳琀⹣)‬′‽敳潣摮‬瑥⹣)湩⁧潆浲瑡┠4"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Application's Icons > Load Small Icon from Application",
+      "text": "潌摡匠慭汬䤠潣⁮牦浯䄠灰楬慣楴湯椠瑮⁯捉湯䤠慭敧┠0",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥捉湯䤠慭敧䤠⁄ㄨ㴠映物瑳椠潣⁮浩条ⱥ㈠㴠猠捥湯Ɽ攠捴⤮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Application's Icons > Load Big Icon from Application",
+      "text": "潌摡䈠杩䤠潣⁮牦浯䄠灰楬慣楴湯椠瑮⁯捉湯䤠慭敧┠0",
+      "menuId": 25200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥捉湯䤠慭敧䤠⁄ㄨ㴠映物瑳椠潣⁮浩条ⱥ㈠㴠猠捥湯Ɽ攠捴⤮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Application's Icons > Change Application's Small Icon",
+      "text": "桃湡敧䄠灰楬慣楴湯猧匠慭汬䤠潣⁮潴䤠潣⁮浉条⁥〥",
+      "menuId": 25210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥捉湯䤠慭敧䤠⁄ㄨ㴠映物瑳椠潣⁮浩条ⱥ㈠㴠猠捥湯Ɽ攠捴⤮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Application's Icons > Change Application's Big Icon",
+      "text": "桃湡敧䄠灰楬慣楴湯猧䈠杩䤠潣⁮潴䤠潣⁮浉条⁥〥",
+      "menuId": 25220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥捉湯䤠慭敧䤠⁄ㄨ㴠映物瑳椠潣⁮浩条ⱥ㈠㴠猠捥湯Ɽ攠捴⤮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Application's Icons > Reset Application's Small Icon",
+      "text": "敒敳⁴灁汰捩瑡潩❮⁳浓污⁬捉湯",
+      "menuId": 25230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Application's Icons > Reset Application's Big Icon",
+      "text": "敒敳⁴灁汰捩瑡潩❮⁳楂⁧捉湯",
+      "menuId": 25240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Change Tray Icon > This Application's Default Small Icon",
+      "text": "桃湡敧䤠潣⁮〥琠⁯桴獩䄠灰楬慣楴湯⁳敄慦汵⁴浓污⁬捉湯",
+      "menuId": 25250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥捉湯䤠⁄〨㴠愠汬椠潣獮‬‱‽楦獲⁴捩湯‬′‽敳潣摮‬瑥⹣)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Change Tray Icon > This Application's Default Big Icon",
+      "text": "桃湡敧䤠潣⁮〥琠⁯桴獩䄠灰楬慣楴湯⁳敄慦汵⁴楂⁧捉湯",
+      "menuId": 25260,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥捉湯䤠⁄〨㴠愠汬椠潣獮‬‱‽楦獲⁴捩湯‬′‽敳潣摮‬瑥⹣)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get ID of Icon Associated with Last Event",
+      "text": "敇䕴敶瑮捉湯(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Current Error Message",
+      "text": "敇䍴牵敲瑮牅潲⑲(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

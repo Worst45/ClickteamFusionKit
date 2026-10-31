@@ -1,0 +1,1420 @@
+{
+  "file": "IsoGrd2.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Cells > X,Y is over cell",
+      "text": "漥㨠┠ⰰ┠‱獩漠敶⁲散汬┠ⰲ┠3",
+      "menuId": 26000,
+      "resText": "%o : %0, %1 is over cell %2, %3",
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣漭摲湩瑡e散汬┠ⰲ┠3",
+        "湅整⁲⁙潣漭摲湩瑡e散汬┠ⰲ┠3",
+        "湅整⁲潣畬湭漠⁦散汬攀汬┠ⰲ┠3",
+        "湅整⁲潲⁷景挠汥l汬攀汬┠ⰲ┠3"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Cells > X,Y is in column",
+      "text": "漥㨠┠ⰰ┠‱獩漠敶⁲潣畬湭┠2",
+      "menuId": 26010,
+      "resText": "%o : %0, %1 is over column %2",
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣漭摲湩瑡e潣畬湭┠2",
+        "湅整⁲⁙潣漭摲湩瑡e潣畬湭┠2",
+        "湅整⁲潣畬湭渠浵敢r潣畬湭┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Cells > X,Y is in row",
+      "text": "漥㨠┠ⰰ┠‱獩漠敶⁲潲⁷㈥",
+      "menuId": 26020,
+      "resText": "%o : %0, %1 is over row %2",
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣漭摲湩瑡e潲⁷㈥",
+        "湅整⁲⁙潣漭摲湩瑡e潲⁷㈥",
+        "湅整⁲潲⁷畮扭牥琀e潲⁷㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Movement > Cell can be moved in to",
+      "text": "漥㨠䌠汥⁬〥‬ㄥ挠湡戠⁥潭敶⁤湩潴映潲⁭敨杩瑨┠2",
+      "menuId": 26030,
+      "resText": "%o : Cell %0, %1 can be moved into from height %2",
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潣畬湭 ㄥ挠湡戠⁥潭敶⁤湩潴映潲⁭敨杩瑨┠2",
+        "湅整⁲潲w湭 ㄥ挠湡戠⁥潭敶⁤湩潴映潲⁭敨杩瑨┠2",
+        "湅整⁲敨杩瑨攠瑮牥湩⁧牦浯攀⁤湩潴映潲⁭敨杩瑨┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Movement > On Object arrived at new cell",
+      "text": "漥㨠传⁮扏敪瑣䄠牲癩摥愠⁴敮⁷散汬",
+      "menuId": 26040,
+      "resText": "%o : On Object Arrived at new cell",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Levels > X,Y is over cell level",
+      "text": "漥㨠┠ⰰ┠‱獩漠敶⁲散汬┠ⰲ┠″湯氠癥汥┠4",
+      "menuId": 26050,
+      "resText": "%o : %0, %1 is over cell %2, %3 on level %4",
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣漭摲湩瑡e散汬┠ⰲ┠″湯氠癥汥┠4",
+        "湅整⁲⁙潣漭摲湩瑡e散汬┠ⰲ┠″湯氠癥汥┠4",
+        "湅整⁲潣畬湭搀湩瑡e散汬┠ⰲ┠″湯氠癥汥┠4",
+        "湅整⁲潲w湭搀湩瑡e散汬┠ⰲ┠″湯氠癥汥┠4",
+        "湅整⁲敬敶l搀湩瑡e散汬┠ⰲ┠″湯氠癥汥┠4"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Levels > Cell level is used",
+      "text": "漥㨠䌠汥⁬〥‬ㄥ氠癥汥┠′獩甠敳d",
+      "menuId": 26060,
+      "resText": "%o : Cell %0, %1 level %2 is used",
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潣畬湭 ㄥ氠癥汥┠′獩甠敳d",
+        "湅整⁲潲w湭 ㄥ氠癥汥┠′獩甠敳d",
+        "湅整⁲敬敶l ㄥ氠癥汥┠′獩甠敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Loading > On Cell Loaded",
+      "text": "漥㨠传⁮敃汬氠慯敤d",
+      "menuId": 26070,
+      "resText": "%o : On Cell loaded",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Loading > On Used Level Loaded",
+      "text": "漥㨠传⁮獕摥䰠癥汥氠慯敤d",
+      "menuId": 26080,
+      "resText": "%o : On Used Level loaded",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Loading > On Level Value Loaded",
+      "text": "漥㨠传⁮敌敶⁬慖畬⁥潌摡摥",
+      "menuId": 26090,
+      "resText": "%o : On Level Value Loaded",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Movement > Object is moving",
+      "text": "漥㨠传橢捥⁴獩洠癯湩g",
+      "menuId": 26064,
+      "resText": "%o : Object is moving",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Movement > Cell can be jumped in to",
+      "text": "漥㨠䌠汥⁬〥‬ㄥ挠湡戠⁥番灭摥椠⁮潴映潲⁭散汬┠ⰲ┠″敨杩瑨┠4",
+      "menuId": 26100,
+      "resText": "%o : Cell %0, %1 can be jumped in to from cell %2, %3 height %4",
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲慴杲瑥挠汯浵n戠⁥番灭摥椠⁮潴映潲⁭散汬┠ⰲ┠″敨杩瑨┠4",
+        "湅整⁲慴杲瑥爠睯洀n戠⁥番灭摥椠⁮潴映潲⁭散汬┠ⰲ┠″敨杩瑨┠4",
+        "湅整⁲畣牲湥⁴潣畬湭戀⁥番灭摥椠⁮潴映潲⁭散汬┠ⰲ┠″敨杩瑨┠4",
+        "湅整⁲畣牲湥⁴潲w湭戀⁥番灭摥椠⁮潴映潲⁭散汬┠ⰲ┠″敨杩瑨┠4",
+        "湅整⁲敨杩瑨 潲w湭戀⁥番灭摥椠⁮潴映潲⁭散汬┠ⰲ┠″敨杩瑨┠4"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Cells > Set cell size",
+      "text": "敓⁴散汬猠穩⁥潴┠砰┠1",
+      "menuId": 25000,
+      "resText": "Set cell size to %0x %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲散汬眠摩桴─砰┠1",
+        "湅整⁲散汬栠楥桧t砰┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Cells > Cell values > Add to > Cell value A",
+      "text": "摁⁤㈥琠⁯慶畬⁥⁁景挠汥⁬〥‬ㄥ",
+      "menuId": 25010,
+      "resText": "Add %2 to value A of cell %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲散汬挠汯浵n景挠汥⁬〥‬ㄥ",
+        "湅整⁲散汬爠睯洀n景挠汥⁬〥‬ㄥ",
+        "湅整⁲慶畬e睯洀n景挠汥⁬〥‬ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Cells > Cell values > Add to > Cell value B",
+      "text": "摁⁤㈥琠⁯慶畬⁥⁂景挠汥⁬〥‬ㄥ",
+      "menuId": 25020,
+      "resText": "Add %2 to value B of cell %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲散汬挠汯浵n景挠汥⁬〥‬ㄥ",
+        "湅整⁲散汬爠睯洀n景挠汥⁬〥‬ㄥ",
+        "湅整⁲慶畬e睯洀n景挠汥⁬〥‬ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Cells > Cell values > Add to > Cell value C",
+      "text": "摁⁤㈥琠⁯慶畬⁥⁃景挠汥⁬〥‬ㄥ",
+      "menuId": 25030,
+      "resText": "Add %2 to value C of cell %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲散汬挠汯浵n景挠汥⁬〥‬ㄥ",
+        "湅整⁲散汬爠睯洀n景挠汥⁬〥‬ㄥ",
+        "湅整⁲慶畬e睯洀n景挠汥⁬〥‬ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Cells > Cell values > Subtract from > Cell value A",
+      "text": "畓瑢慲瑣┠′牦浯瘠污敵䄠漠⁦散汬┠ⰰ┠1",
+      "menuId": 25040,
+      "resText": "Subtract %2 from value A of cell %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲散汬挠汯浵n污敵䄠漠⁦散汬┠ⰰ┠1",
+        "湅整⁲散汬爠睯洀n污敵䄠漠⁦散汬┠ⰰ┠1",
+        "湅整⁲慶畬e睯洀n污敵䄠漠⁦散汬┠ⰰ┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Cells > Cell values > Subtract from > Cell value B",
+      "text": "畓瑢慲瑣┠′牦浯瘠污敵䈠漠⁦散汬┠ⰰ┠1",
+      "menuId": 25050,
+      "resText": "Subtract %2 from value B of cell %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲散汬挠汯浵n污敵䈠漠⁦散汬┠ⰰ┠1",
+        "湅整⁲散汬爠睯洀n污敵䈠漠⁦散汬┠ⰰ┠1",
+        "湅整⁲慶畬e睯洀n污敵䈠漠⁦散汬┠ⰰ┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Cells > Cell values > Subtract from > Cell value C",
+      "text": "畓瑢慲瑣┠′牦浯瘠污敵䌠漠⁦散汬┠ⰰ┠1",
+      "menuId": 25060,
+      "resText": "Subtract %2 from value C of cell %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲散汬挠汯浵n污敵䌠漠⁦散汬┠ⰰ┠1",
+        "湅整⁲散汬爠睯洀n污敵䌠漠⁦散汬┠ⰰ┠1",
+        "湅整⁲慶畬e睯洀n污敵䌠漠⁦散汬┠ⰰ┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Cells > Cell values > Set > Cell value A",
+      "text": "敓⁴慶畬⁥⁁景挠汥⁬〥‬ㄥ琠⁯㈥",
+      "menuId": 25070,
+      "resText": "Set value A of cell %0, %1 to %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲散汬挠汯浵n⁬〥‬ㄥ琠⁯㈥",
+        "湅整⁲散汬爠睯洀n⁬〥‬ㄥ琠⁯㈥",
+        "湅整⁲慶畬e睯洀n⁬〥‬ㄥ琠⁯㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Cells > Cell values > Set > Cell value B",
+      "text": "敓⁴慶畬⁥⁂景挠汥⁬〥‬ㄥ琠⁯㈥",
+      "menuId": 25080,
+      "resText": "Set value B of cell %0, %1 to %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲散汬挠汯浵n⁬〥‬ㄥ琠⁯㈥",
+        "湅整⁲散汬爠睯洀n⁬〥‬ㄥ琠⁯㈥",
+        "湅整⁲慶畬e睯洀n⁬〥‬ㄥ琠⁯㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Cells > Cell values > Set > Cell value C",
+      "text": "敓⁴慶畬⁥⁃景挠汥⁬〥‬ㄥ琠⁯㈥",
+      "menuId": 25090,
+      "resText": "Set value C of cell %0, %1 to %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲散汬挠汯浵n⁬〥‬ㄥ琠⁯㈥",
+        "湅整⁲散汬爠睯洀n⁬〥‬ㄥ琠⁯㈥",
+        "湅整⁲慶畬e睯洀n⁬〥‬ㄥ琠⁯㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Cells > Clear all cell A values",
+      "text": "汃慥⁲污⁬散汬䄠瘠污敵s",
+      "menuId": 25100,
+      "resText": "Clear all cell A values",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Cells > Clear all cell B values",
+      "text": "汃慥⁲污⁬散汬䈠瘠污敵s",
+      "menuId": 25101,
+      "resText": "Clear all cell B values",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Cells > Clear all cell C values",
+      "text": "汃慥⁲污⁬散汬䌠瘠污敵s",
+      "menuId": 25102,
+      "resText": "Clear all cell C values",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Levels > Set height of one level",
+      "text": "敓⁴敬敶⁬敨杩瑨琠⁯〥瀠硩汥s",
+      "menuId": 25110,
+      "resText": "Set level height to %0 pixels",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楰數⁬敨杩瑨漠⁦湯⁥敬敶l"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Levels > Set headroom required",
+      "text": "敓⁴敲畱物摥栠慥牤潯⁭潴┠‰敬敶獬",
+      "menuId": 25120,
+      "resText": "Set required headroom to %0 levels",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲敨摡潲浯‬湩氠癥汥⁳攨朮‮⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Levels > Set maximum height of step up",
+      "text": "敓⁴慭楸畭⁭瑳灥甠⁰敨杩瑨琠⁯〥氠癥汥s",
+      "menuId": 25130,
+      "resText": "Set maximum step up height to %0 levels",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潨⁷慭祮氠癥汥⁳慣⁮敢樠浵数⁤灵椠⁮湯⁥潧⠠⹥⹧ㄠ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Levels > Set maximum height of step down",
+      "text": "敓⁴慭楸畭⁭瑳灥搠睯⁮敨杩瑨琠⁯〥氠癥汥s",
+      "menuId": 25140,
+      "resText": "Set maximum step down height to %0 levels",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潨⁷慭祮氠癥汥⁳慣⁮敢樠浵数⁤潤湷椠⁮湯⁥潧⠠⹥⹧ㄠ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Levels > Level usage > Set a cell level to used",
+      "text": "敓⁴敬敶⁬獵摥愠⁴散汬┠ⰰ┠‱敨杩瑨┠2",
+      "menuId": 25150,
+      "resText": "Set level used at cell %0, %1 height %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潣畬湭搀愠⁴散汬┠ⰰ┠‱敨杩瑨┠2",
+        "湅整⁲潲w湭搀愠⁴散汬┠ⰰ┠‱敨杩瑨┠2",
+        "湅整⁲敬敶l搀愠⁴散汬┠ⰰ┠‱敨杩瑨┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Levels > Level usage > Set a cell level to unused",
+      "text": "敓⁴敬敶⁬湵獵摥愠⁴散汬┠ⰰ┠‱敨杩瑨┠2",
+      "menuId": 25160,
+      "resText": "Set level unused at cell %0, %1 height %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潣畬湭猀摥愠⁴散汬┠ⰰ┠‱敨杩瑨┠2",
+        "湅整⁲潲w湭猀摥愠⁴散汬┠ⰰ┠‱敨杩瑨┠2",
+        "湅整⁲敬敶l猀摥愠⁴散汬┠ⰰ┠‱敨杩瑨┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Levels > Level usage > Set a cell level from value",
+      "text": "敓⁴敬敶⁬瑡挠汥⁬〥‬ㄥ栠楥桧⁴㈥琠⁯㌥",
+      "menuId": 25170,
+      "resText": "Set level at cell %0, %1 height %2 to %3",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潣畬湭挀汥⁬〥‬ㄥ栠楥桧⁴㈥琠⁯㌥",
+        "湅整⁲潲w湭挀汥⁬〥‬ㄥ栠楥桧⁴㈥琠⁯㌥",
+        "湅整⁲敬敶l挀汥⁬〥‬ㄥ栠楥桧⁴㈥琠⁯㌥",
+        "湅整⁲㴰湕獵摥‬㴱獕摥㄀栠楥桧⁴㈥琠⁯㌥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Levels > Level usage > Reset all levels to unused",
+      "text": "敒敳⁴污⁬敬敶獬琠⁯湵獵摥",
+      "menuId": 25180,
+      "resText": "Reset all levels to unused",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Grid > Limit columns",
+      "text": "楌業⁴潣畬湭⁳潴┠0",
+      "menuId": 25190,
+      "resText": "Limit columns to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲畮扭牥漠⁲潣畬湭s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Grid > Limit rows",
+      "text": "楌業⁴潲獷琠⁯〥",
+      "menuId": 25200,
+      "resText": "Limit rows to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲畮扭牥漠⁦潲獷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Grid > Limit levels",
+      "text": "楌業⁴敬敶獬琠⁯〥",
+      "menuId": 25210,
+      "resText": "Limit levels to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲畮扭牥漠⁦敬敶獬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Grid > Set Grid Origin",
+      "text": "敓⁴牧摩漠楲楧⁮潴┠ⰰ┠1",
+      "menuId": 25220,
+      "resText": "Set grid origin to %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣漭摲湩瑡eⰰ┠1",
+        "湅整⁲⁙潣漭摲湩瑡eⰰ┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Movement > Slide object into cell",
+      "text": "潍敶┠‰潴挠汥⁬ㄥ‬㈥栠楥桧⁴㌥⠠潦⁲㐥)",
+      "menuId": 25230,
+      "resText": "Move %0 to cell %1, %2 height %3 (for %4)",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楐正漠橢捥⁴潴猠楬敤椠⁮潴挠汥l⠠潦⁲㐥)",
+        "湅整⁲潣畬湭琠⁯潭敶椠瑮o挠汥l⠠潦⁲㐥)",
+        "湅整⁲潲⁷潴洠癯⁥湩琠oo挠汥l⠠潦⁲㐥)",
+        "湅整⁲敬敶⁬潴洠癯⁥湩琠o挠汥l⠠潦⁲㐥)",
+        "湅整⁲潨⁷潬杮洠癯浥湥⁴桳畯摬琠歡⁥䴨䙍氠潯獰)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Movement > Put object in cell",
+      "text": "畐⁴〥椠⁮散汬┠ⰱ┠′敨杩瑨┠3",
+      "menuId": 25240,
+      "resText": "Put %0 in cell %1, %2 height %3",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楐正漠橢捥⁴潴瀠瑵椠⁮散汬琀┠3",
+        "湅整⁲潣畬湭琠⁯異⁴扯敪瑣椠n3",
+        "湅整⁲潲⁷潴瀠瑵漠橢捥⁴湩椀n3",
+        "湅整⁲敬敶⁬潴瀠瑵漠橢捥⁴湩"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Movement > Slide object N cells towards X,Y",
+      "text": "潍敶┠‰┠‱散汬⁳潴慷摲⁳㈥‬㌥⠠潦⁲㐥)",
+      "menuId": 25250,
+      "resText": "Move %0  %1 cells towards %2, %3 (for %4)",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楐正漠橢捥⁴潴猠楬敤椠⁮潴挠汥l⠠潦⁲㐥)",
+        "湅整⁲畮扭牥漠⁦散汬⁳潴猠楬敤",
+        "湅整⁲⁘潣漭摲湩瑡e⁳潴猠楬敤",
+        "湅整⁲⁙潣漭摲湩瑡e⁳潴猠楬敤",
+        "湅整⁲潨⁷潬杮洠癯浥湥⁴桳畯摬琠歡⁥䴨䙍氠潯獰)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Movement > Put object N cells towards X,Y",
+      "text": "畐⁴〥†ㄥ挠汥獬琠睯牡獤┠ⰲ┠3",
+      "menuId": 25260,
+      "resText": "Put %0  %1 cells towards %2, %3",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楐正漠橢捥⁴潴瀠瑵椠⁮散汬Ⰰ┠3",
+        "湅整⁲潨⁷慭祮挠汥獬琠⁯潭敶─3",
+        "湅整⁲⁘潣漭摲湩瑡e琠⁯潭敶─3",
+        "湅整⁲⁙潣漭摲湩瑡e琠⁯潭敶─3"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Files > Save World",
+      "text": "慓敶眠牯摬琠⁯〥",
+      "menuId": 25270,
+      "resText": "Save world to %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "敓敬瑣映汩⁥潴猠癡⁥潴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Files > Load World",
+      "text": "潌摡眠牯摬映潲⁭〥",
+      "menuId": 25280,
+      "resText": "Load world from %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "敓敬瑣映汩⁥潴氠慯⁤牦浯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Levels > Level values > Set level value",
+      "text": "敓⁴㌥琠⁯敬敶⁬㈥挠汥⁬ 〥‬ㄥ)",
+      "menuId": 25290,
+      "resText": "Set %3 to level %2 cell ( %0, %1)",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潣畬湭攀⁬㈥挠汥⁬ 〥‬ㄥ)",
+        "湅整⁲潲w湭攀⁬㈥挠汥⁬ 〥‬ㄥ)",
+        "湅整⁲敬敶l攀⁬㈥挠汥⁬ 〥‬ㄥ)",
+        "湅整⁲慶畬e攀⁬㈥挠汥⁬ 〥‬ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Levels > Level values > Clear all level values",
+      "text": "汃慥⁲污⁬敬敶⁬慶畬獥",
+      "menuId": 25295,
+      "resText": "Clear all level values",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Movement > Jump object into cell",
+      "text": "畊灭┠‰湩琠⁯散汬┠ⰱ┠′敨杩瑨┠″番灭湩⁧灵┠‴昨牯┠⤵",
+      "menuId": 25296,
+      "resText": "Jump %0 in to cell %1, %2 height %3 jumping up %4 (for %5)",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣漠橢捥t散汬┠ⰱ┠′敨杩瑨┠″番灭湩⁧灵┠‴昨牯┠⤵",
+        "湅整⁲散汬挠汯浵n┠ⰱ┠′敨杩瑨┠″番灭湩⁧灵┠‴昨牯┠⤵",
+        "湅整⁲散汬爠睯洀n┠ⰱ┠′敨杩瑨┠″番灭湩⁧灵┠‴昨牯┠⤵",
+        "湅整⁲敨杩瑨眀洀n┠ⰱ┠′敨杩瑨┠″番灭湩⁧灵┠‴昨牯┠⤵",
+        "湅整⁲番灭栠楥桧⁴瀨硩汥⥳攀杩瑨┠″番灭湩⁧灵┠‴昨牯┠⤵",
+        "湅整⁲潨⁷潬杮洠癯浥湥⁴桳畯摬琠歡⁥䴨䙍氠潯獰)‴昨牯┠⤵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Levels > Level usage > Set range to used",
+      "text": "敓⁴慲杮⁥〥‬ㄥ‬㈥琠⁯㌥‬㐥‬㔥甠敳d",
+      "menuId": 25303,
+      "resText": "Set range %0, %1, %2 to %3, %4, %5 used",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潬敷⁲潣畬湭㈀琠⁯㌥‬㐥‬㔥甠敳d",
+        "湅整⁲潬敷⁲潲w湭㈀琠⁯㌥‬㐥‬㔥甠敳d",
+        "湅整⁲潬敷⁲敬敶l㈀琠⁯㌥‬㐥‬㔥甠敳d",
+        "湅整⁲楨桧牥挠汯浵n琠⁯㌥‬㐥‬㔥甠敳d",
+        "湅整⁲楨桧牥爠睯洀n琠⁯㌥‬㐥‬㔥甠敳d",
+        "湅整⁲楨桧牥氠癥汥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Levels > Level usage > Set range to unused",
+      "text": "敓⁴慲杮⁥〥‬ㄥ‬㈥琠⁯㌥‬㐥‬㔥甠畮敳d",
+      "menuId": 25310,
+      "resText": "Set range %0, %1, %2 to %3, %4, %5 unused",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潬敷⁲潣畬湭㈀琠⁯㌥‬㐥‬㔥甠畮敳d",
+        "湅整⁲潬敷⁲潲w湭㈀琠⁯㌥‬㐥‬㔥甠畮敳d",
+        "湅整⁲潬敷⁲敬敶l㈀琠⁯㌥‬㐥‬㔥甠畮敳d",
+        "湅整⁲楨桧牥挠汯浵n琠⁯㌥‬㐥‬㔥甠畮敳d",
+        "湅整⁲楨桧牥爠睯洀n琠⁯㌥‬㐥‬㔥甠畮敳d",
+        "湅整⁲楨桧牥氠癥汥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Movement > Jump options > Allow jumps to fall to zero",
+      "text": "汁潬⁷番灭⁳潴映污⁬潴稠牥o",
+      "menuId": 25317,
+      "resText": "Allow jumps to fall to zero",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Movement > Jump options > Disallow jumps to fall to zero",
+      "text": "楄慳汬睯樠浵獰琠⁯慦汬琠⁯敺潲",
+      "menuId": 25318,
+      "resText": "Disallow jumps to fall to zero",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Cells > Get cell width",
+      "text": "敃汬楗瑤⡨",
+      "menuId": 27000,
+      "resText": "CellWidth(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Cells > Get cell height",
+      "text": "敃汬效杩瑨(",
+      "menuId": 27010,
+      "resText": "CellHeight(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Cells > Cell values > Get cell value A",
+      "text": "敃汬慖畬䅥(",
+      "menuId": 27020,
+      "resText": "CellValueA(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Cells > Cell values > Get cell value B",
+      "text": "敃汬慖畬䉥(",
+      "menuId": 27030,
+      "resText": "CellValueB(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Cells > Cell values > Get cell value C",
+      "text": "敃汬慖畬䍥(",
+      "menuId": 27040,
+      "resText": "CellValueC(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Levels > Get level height",
+      "text": "敌敶䡬楥桧⡴",
+      "menuId": 27050,
+      "resText": "LevelHeight(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Levels > Get required headroom",
+      "text": "效摡潲浯(",
+      "menuId": 27060,
+      "resText": "Headroom(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Levels > Get maximum step up height",
+      "text": "慍卸整啰⡰",
+      "menuId": 27070,
+      "resText": "MaxStepUp(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Levels > Get maximum step down height",
+      "text": "慍卸整䑰睯⡮",
+      "menuId": 27080,
+      "resText": "MaxStepDown(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Levels > Get level usage as value (0/1)",
+      "text": "敌啶敳⡤",
+      "menuId": 27090,
+      "resText": "LevUsed(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Levels > Get layer value for cell level",
+      "text": "慌敹⡲",
+      "menuId": 27100,
+      "resText": "Layer(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Grid > Get Grid X origin",
+      "text": "片摩潘楲楧⡮",
+      "menuId": 27110,
+      "resText": "GridXorigin(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Grid > Get Grid Y origin",
+      "text": "片摩潙楲楧⡮",
+      "menuId": 27120,
+      "resText": "GridYorigin(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Grid > Get column limit",
+      "text": "潃䱬浩瑩(",
+      "menuId": 27130,
+      "resText": "ColLimit(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Grid > Get row limit",
+      "text": "潒䱷浩瑩(",
+      "menuId": 27140,
+      "resText": "RowLimit(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Grid > Get level limit",
+      "text": "敌䱶浩瑩(",
+      "menuId": 27150,
+      "resText": "LevLimit(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Positions > Conversions > Get X co-ordinate of cell",
+      "text": "潘䍦汥⡬",
+      "menuId": 27160,
+      "resText": "XofCell(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Positions > Conversions > Get Y co-ordinate of cell",
+      "text": "潙䍦汥⡬",
+      "menuId": 27170,
+      "resText": "YofCell(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Positions > Conversions > Get Y co-ordinate of cell level",
+      "text": "潙䍦汥䱬癥汥(",
+      "menuId": 27180,
+      "resText": "YofCellLevel(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Positions > Conversions > Get column from X,Y",
+      "text": "潃慬⡴",
+      "menuId": 27190,
+      "resText": "Colat(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Positions > Conversions > Get row from X,Y",
+      "text": "潒慷⡴",
+      "menuId": 27200,
+      "resText": "Rowat(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Positions > Snap > Snap X co-ordinate to grid",
+      "text": "湓灡⡘",
+      "menuId": 27210,
+      "resText": "SnapX(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Positions > Snap > Snap Y co-ordinate to grid",
+      "text": "湓灡⡙",
+      "menuId": 27220,
+      "resText": "SnapY(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Positions > Snap > Snap Y co-ordinate to grid level",
+      "text": "湓灡汙癥(",
+      "menuId": 27230,
+      "resText": "SnapYlev(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "File loading > Get loaded cell column",
+      "text": "潌摡潃⡬",
+      "menuId": 27240,
+      "resText": "LoadCol(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "File loading > Get loaded cell row",
+      "text": "潌摡潒⡷",
+      "menuId": 27250,
+      "resText": "LoadRow(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "File loading > Get loaded cell level",
+      "text": "潌摡敌⡶",
+      "menuId": 27260,
+      "resText": "LoadLev(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Trigonometry > Angle between two points",
+      "text": "敇䅴杮敬(",
+      "menuId": 27270,
+      "resText": "GetAngle(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Trigonometry > X position ahead of...",
+      "text": "桁慥塤(",
+      "menuId": 27280,
+      "resText": "AheadX(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Trigonometry > Y position ahead of...",
+      "text": "桁慥奤(",
+      "menuId": 27290,
+      "resText": "AheadY(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Movement > Get level offset to movable cell",
+      "text": "敇佴晦敳⡴",
+      "menuId": 27291,
+      "resText": "GetOffset(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Positions > Conversions > Get row from X,Y level",
+      "text": "潒慷䱴癥(",
+      "menuId": 27300,
+      "resText": "RowatLev(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Positions > Conversions > Get column from X,Y level",
+      "text": "潃慬䱴癥(",
+      "menuId": 27310,
+      "resText": "ColatLev(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Levels > Get level value",
+      "text": "敌敶噬污敵(",
+      "menuId": 27320,
+      "resText": "LevelValue(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Movement > Get jump level offset",
+      "text": "畊灭晏獦瑥(",
+      "menuId": 27321,
+      "resText": "JumpOffset(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Movement > Get move time for level offset",
+      "text": "潍敶楔敭(",
+      "menuId": 27322,
+      "resText": "MoveTime(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

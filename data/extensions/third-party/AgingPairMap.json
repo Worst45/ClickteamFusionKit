@@ -1,0 +1,44 @@
+{
+  "file": "AgingPairMap.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Pair is registered",
+      "text": "漥›慐物┠‰湡⁤ㄥ椠⁳敲楧瑳牥摥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆獲⁴畮扭牥渀⁤ㄥ椠⁳敲楧瑳牥摥",
+        "敓潣摮渠浵敢r⁤ㄥ椠⁳敲楧瑳牥摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Register pair",
+      "text": "敒楧瑳牥瀠楡⁲〥愠摮┠1",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆獲⁴畮扭牥 〥愠摮┠1",
+        "敓潣摮渠浵敢r〥愠摮┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": []
+}

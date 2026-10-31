@@ -1,0 +1,611 @@
+{
+  "file": "ColorDialog.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Dialog is Closed by OK",
+      "text": "漥›汃獯摥戠⁹䭏",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Dialog is Closed by Cancel",
+      "text": "漥›汃獯摥戠⁹慃据汥",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Has an Error Occurred?",
+      "text": "漥›湏䔠牲牯",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Open Dialog > Open the Color Dialog",
+      "text": "灏湥䌠汯牯䐠慩潬g",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Open Dialog > Open the Color Dialog at Position",
+      "text": "灏湥䌠汯牯䐠慩潬⁧瑡⠠┠‰‬ㄥ⤠",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潐楳楴湯‬〨〬 獩吠灯䰠晥⁴景䴠湯瑩牯䐠獩汰祡",
+        "湅整⁲⁙潐楳楴湯‬〨〬 獩吠灯䰠晥⁴景䴠湯瑩牯䐠獩汰祡"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Settings > Restore Custom Colors on Cancel",
+      "text": "敓⁴刧獥潴敲䌠獵潴⁭潃潬獲漠⁮慃据汥‧潴匠慴整┠0",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Settings > Dialog Fully Open by Default",
+      "text": "敓⁴䐧慩潬⁧畆汬⁹灏湥戠⁹敄慦汵❴琠⁯瑓瑡⁥〥",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Settings > Cannot Fully Open Dialog",
+      "text": "敓⁴䌧湡潮⁴畆汬⁹灏湥䐠慩潬❧琠⁯瑓瑡⁥〥",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Settings > Round to Solid Colors (256 color mode)",
+      "text": "敓⁴刧畯摮琠⁯潓楬⁤潃潬獲⠠㔲‶潣潬⁲潭敤✩琠⁯瑓瑡⁥〥",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Custom Colors > Set a Custom Color by RGB",
+      "text": "敓⁴畃瑳浯䌠汯牯┠‰潴删䉇 ㄥⰠ┠′‬㌥⤠",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湉敤⁸景䌠獵潴⁭潃潬⁲ㄨㄭ⤶ ‬㌥⤠",
+        "湅整⁲敒⁤慖畬⁥〨㈭㔵)潬⁲ㄨㄭ⤶ ‬㌥⤠",
+        "湅整⁲片敥⁮慖畬⁥〨㈭㔵)⁲ㄨㄭ⤶ ‬㌥⤠",
+        "湅整⁲求敵嘠污敵⠠ⴰ㔲⤵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Custom Colors > Set a Custom Color by Color Reference",
+      "text": "敓⁴畃瑳浯䌠汯牯┠‰潴䌠汯牯┠1",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湉敤⁸景䌠獵潴⁭潃潬⁲ㄨㄭ⤶",
+        "湅整⁲潃潬⁲敒敦敲据ⱥ唠敳䜠瑥䝒⡂ⱒⱇ⥂"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Custom Colors > Back-up Current Custom Colors",
+      "text": "慂正甭⁰畃瑳浯䌠汯牯s",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Custom Colors > Restore Current Custom Colors",
+      "text": "敒瑳牯⁥畃瑳浯䌠汯牯s",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Errors > Clear Expression Error Code",
+      "text": "汃慥⁲硅牰獥楳湯䔠牲牯䌠摯e",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Selected Color > Set Selected Color by RGB",
+      "text": "敓⁴敓敬瑣摥䌠汯牯琠⁯䝒⡂┠ⰰ┠‱‬㈥⤠",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲敒⁤慖畬⁥〨㈭㔵)⡂┠ⰰ┠‱‬㈥⤠",
+        "湅整⁲片敥⁮慖畬⁥〨㈭㔵)┠ⰰ┠‱‬㈥⤠",
+        "湅整⁲求敵嘠污敵⠠ⴰ㔲⤵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Selected Color > Set Selected Color by Color Reference",
+      "text": "敓⁴敓敬瑣摥䌠汯牯琠⁯潃潬⁲〥",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潃潬⁲敒敦敲据ⱥ唠敳䜠瑥䝒⡂ⱒⱇ⥂"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Settings > Set Dialog Window's Title",
+      "text": "敓⁴潃潬⁲楄污杯圠湩潤❷⁳楔汴⁥潴┠0",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲楔汴⁥潦⁲潃潬⁲楄污杯圠湩潤w0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Selected Color",
+      "text": "敓敬瑣摥潃潬⡲",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get a Custom Color",
+      "text": "畃瑳浯潃潬⡲",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Settings > Get State of 'Restore Custom Colors on Cancel'",
+      "text": "敒瑳牯卥慴整(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Settings > Get State of 'Dialog Fully Open by Default'",
+      "text": "畆汬灏湥瑓瑡⡥",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Settings > Get State of 'Cannot Fully Open Dialog'",
+      "text": "潎畆汬灏湥瑓瑡⡥",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Settings > Get State of 'Round to Solid Colors (256 color mode)'",
+      "text": "潓楬䍤汯牯即慴整(",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Errors > Get Error Code",
+      "text": "牅潲䍲摯⡥",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Errors > Get Expression Error Code",
+      "text": "硅牰獥楳湯牅潲䍲摯⡥",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Settings > Get Dialog Window's Title",
+      "text": "楄污杯楔汴⑥(",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Get Last State of Dialog Openness",
+      "text": "楄污杯慌瑳灏湥(",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Color Conversions > Reference <-> RGB Values > Convert RGB values to Color Reference",
+      "text": "䝒呂副晥(",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Color Conversions > Reference <-> RGB Values > Get Red Value from Color Reference",
+      "text": "敒呦副摥(",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Color Conversions > Reference <-> RGB Values > Get Green Value from Color Reference",
+      "text": "敒呦䝯敲湥(",
+      "menuId": 27120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Color Conversions > Reference <-> RGB Values > Get Blue Value from Color Reference",
+      "text": "敒呦䉯畬⡥",
+      "menuId": 27130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Color Conversions > Reference <-> Color Names > Get Name of Color from Color Reference",
+      "text": "敒呦乯浡⑥(",
+      "menuId": 27140,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Color Conversions > RGB Values <-> Color Names > Get Name of Color from RGB Values",
+      "text": "䝒呂乯浡⑥(",
+      "menuId": 27150,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Color Conversions > Reference <-> Color Names > Get Color Reference from Name of Color",
+      "text": "慎敭潔敒⡦",
+      "menuId": 27160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Color Conversions > Reference <-> Hex String > Convert Color Reference to Hex String",
+      "text": "敒呦䡯硥⠤",
+      "menuId": 27170,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Color Conversions > Hex String <-> RGB Values > Convert RGB values to Hex String",
+      "text": "䝒呂䡯硥⠤",
+      "menuId": 27180,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Color Conversions > Reference <-> Hex String > Convert Hex String to Color Reference",
+      "text": "效呸副晥(",
+      "menuId": 27190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Color Conversions > Hex String <-> RGB Values > Get Red Value from Hex String",
+      "text": "效呸副摥(",
+      "menuId": 27200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Color Conversions > Hex String <-> RGB Values > Get Green Value from Hex String",
+      "text": "效呸䝯敲湥(",
+      "menuId": 27210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Color Conversions > Hex String <-> RGB Values > Get Blue Value from Hex String",
+      "text": "效呸䉯畬⡥",
+      "menuId": 27220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

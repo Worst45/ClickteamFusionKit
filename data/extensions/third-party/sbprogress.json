@@ -1,0 +1,64 @@
+{
+  "file": "sbprogress.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Progress Bar Style",
+      "text": "漥匠瑥倠潲牧獥⁳慂⁲瑓汹⁥┨⤰",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴牐杯敲獳䈠牡匠祴敬⠠‰‽潎敮‬‱‽慍煲敵ⱥ㈠㴠丠牯慭ⱬ㌠㴠倠畡敳Ɽ㐠㴠䔠牲牯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set Progress Bar Value",
+      "text": "漥匠瑥倠潲牧獥⁳慂⁲慖畬⁥潴┠0",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴桔⁥牐杯敲獳䈠牡嘠污敵⠠潒湵楤杮眠汩⁬捯畣⁲晩琠敨渠浵敢⁲獩❮⁴敢睴敥⁮ⴰ〱‰湩汣獵癩⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Version of Windows via Registry",
+      "text": "楗噮牥⠤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Version of Windows through Build Number",
+      "text": "楗噮牥畂汩⑤(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

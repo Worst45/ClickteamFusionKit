@@ -1,0 +1,742 @@
+{
+  "file": "Colorizer.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Options > Colorize mode > Set New Red out of Old Red",
+      "text": "敓⁴敎⁷敒⁤畯⁴景传摬删摥琠⁯〥",
+      "menuId": 25000,
+      "resText": "Set New Red out of Old Red to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汆慯㭴〠㴠丠⁯晥敦瑣‬‱‽汏⁤敲Ɽ㈠㴠传摬爠摥⨠㈠‬瑥⹣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Options > Colorize mode > Set New Red out of Old Green",
+      "text": "敓⁴敎⁷敒⁤畯⁴景传摬䜠敲湥琠⁯〥",
+      "menuId": 25001,
+      "resText": "Set New Red out of Old Green to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汆慯㭴〠㴠丠⁯晥敦瑣‬‱‽汏⁤牧敥Ɱ㈠㴠传摬朠敲湥⨠㈠‬瑥⹣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Options > Colorize mode > Set New Red out of Old Blue",
+      "text": "敓⁴敎⁷敒⁤畯⁴景传摬䈠畬⁥潴┠0",
+      "menuId": 25002,
+      "resText": "Set New Red out of Old Blue to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汆慯㭴〠㴠丠⁯晥敦瑣‬‱‽汏⁤汢敵‬′‽汏⁤汢敵⨠㈠‬瑥⹣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Options > Colorize mode > Set New Green out of Old Red",
+      "text": "敓⁴敎⁷片敥⁮畯⁴景传摬删摥琠⁯〥",
+      "menuId": 25003,
+      "resText": "Set New Green out of Old Red to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汆慯㭴〠㴠丠⁯晥敦瑣‬‱‽汏⁤敲Ɽ㈠㴠传摬爠摥⨠㈠‬瑥⹣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Options > Colorize mode > Set New Green out of Old Green",
+      "text": "敓⁴敎⁷片敥⁮畯⁴景传摬䜠敲湥琠⁯〥",
+      "menuId": 25004,
+      "resText": "Set New Green out of Old Green to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汆慯㭴〠㴠丠⁯晥敦瑣‬‱‽汏⁤牧敥Ɱ㈠㴠传摬朠敲湥⨠㈠‬瑥⹣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Options > Colorize mode > Set New Green out of Old Blue",
+      "text": "敓⁴敎⁷片敥⁮畯⁴景传摬䈠畬⁥潴┠0",
+      "menuId": 25005,
+      "resText": "Set New Green out of Old Blue to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汆慯㭴〠㴠丠⁯晥敦瑣‬‱‽汏⁤汢敵‬′‽汏⁤汢敵⨠㈠‬瑥⹣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Options > Colorize mode > Set New Blue out of Old Red",
+      "text": "敓⁴敎⁷求敵漠瑵漠⁦汏⁤敒⁤潴┠0",
+      "menuId": 25006,
+      "resText": "Set New Blue out of Old Red to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汆慯㭴〠㴠丠⁯晥敦瑣‬‱‽汏⁤敲Ɽ㈠㴠传摬爠摥⨠㈠‬瑥⹣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Options > Colorize mode > Set New Blue out of Old Green",
+      "text": "敓⁴敎⁷求敵漠瑵漠⁦汏⁤片敥⁮潴┠0",
+      "menuId": 25007,
+      "resText": "Set New Blue out of Old Green to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汆慯㭴〠㴠丠⁯晥敦瑣‬‱‽汏⁤汢敵‬′‽汏⁤汢敵⨠㈠‬瑥⹣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Options > Colorize mode > Set New Blue out of Old Blue",
+      "text": "敓⁴敎⁷求敵漠瑵漠⁦汏⁤求敵琠⁯〥",
+      "menuId": 25008,
+      "resText": "Set New Blue out of Old Blue to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汦慯ⱴ〠㴠渠⁯晥敦瑣ㄠ‽汯⁤汢敵㈠‽′楴敭⁳汯⁤汢敵攠捴."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Options > Set Value for Hue Mode",
+      "text": "敓⁴畈⁥潴┠0",
+      "menuId": 25009,
+      "resText": "Set Hue to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湉整敧Ⱳ䠠敵猠楨瑦‬ⴰ㘳0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Options > Set Values for HSL Mode",
+      "text": "敓⁴午⁌潴⠠〥‬ㄥ‬㈥)",
+      "menuId": 25010,
+      "resText": "Set HSL to (%0, %1, %2)",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湉整敧Ⱳ䠠敵猠楨瑦‬ⴰ㘳0",
+        "湉整敧Ⱳ匠瑡牵瑡潩⁮景獦瑥‬㈨〴)",
+        "湉整敧Ⱳ䰠浵湩湡散漠晦敳ⱴ⠠㐲⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Resize",
+      "text": "敒楳敺琠⁯〥⨠┠1",
+      "menuId": 25012,
+      "resText": "Resize to %0 * %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗瑤h琠⁯〥⨠┠1",
+        "效杩瑨琀⁯〥⨠┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Load a Preset File",
+      "text": "潌摡倠敲敳⁴楆敬映潲⁭〥",
+      "menuId": 25011,
+      "resText": "Load Preset File from %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬倀敲敳⁴楆敬映潲⁭〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Save a Preset File",
+      "text": "慓敶倠敲敳⁴楆敬琠⁯〥",
+      "menuId": 25013,
+      "resText": "Save Preset File to %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬倀敲敳⁴楆敬琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Change mode to > Colorize Mode",
+      "text": "桃湡敧䴠摯⁥潴䌠汯牯穩⁥潍敤",
+      "menuId": 25014,
+      "resText": "Change Mode to Colorize Mode",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Change mode to > Hue Mode",
+      "text": "桃湡敧䴠摯⁥潴䠠敵䴠摯e",
+      "menuId": 25015,
+      "resText": "Change Mode to Hue Mode",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Change mode to > HSL Mode",
+      "text": "桃湡敧䴠摯⁥潴䠠䱓䴠摯e",
+      "menuId": 25016,
+      "resText": "Change Mode to HSL Mode",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Fading > Fade Red of Red",
+      "text": "慆敤删摥漠⁦敒⁤牦浯┠‰潴┠‱湩┠′牦浡獥",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牆浯嘠污敵 敒⁤牦浯┠‰潴┠‱湩┠′牦浡獥",
+        "潔嘠污敵攀 敒⁤牦浯┠‰潴┠‱湩┠′牦浡獥",
+        "畎扭牥漠⁦牦浡獥爀浯┠‰潴┠‱湩┠′牦浡獥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Fading > Fade Red of Green",
+      "text": "慆敤删摥漠⁦片敥⁮牦浯┠‰潴┠‱湩┠′牦浡獥",
+      "menuId": 25018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牆浯嘠污敵 片敥⁮牦浯┠‰潴┠‱湩┠′牦浡獥",
+        "潔嘠污敵攀 片敥⁮牦浯┠‰潴┠‱湩┠′牦浡獥",
+        "畎扭牥漠⁦牦浡獥 牦浯┠‰潴┠‱湩┠′牦浡獥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Fading > Fade Red of Blue",
+      "text": "慆敤删摥漠⁦求敵映潲⁭〥琠⁯ㄥ椠⁮㈥映慲敭s",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牆浯嘠污敵 求敵映潲⁭〥琠⁯ㄥ椠⁮㈥映慲敭s",
+        "潔嘠污敵攀 求敵映潲⁭〥琠⁯ㄥ椠⁮㈥映慲敭s",
+        "畎扭牥漠⁦牦浡獥昀潲⁭〥琠⁯ㄥ椠⁮㈥映慲敭s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Fading > Fade Green of Red",
+      "text": "慆敤䜠敲湥漠⁦敒⁤牦浯┠‰潴┠‱湩┠′牦浡獥",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牆浯嘠污敵漀⁦敒⁤牦浯┠‰潴┠‱湩┠′牦浡獥",
+        "潔嘠污敵攀漀⁦敒⁤牦浯┠‰潴┠‱湩┠′牦浡獥",
+        "畎扭牥漠⁦牦浡獥 牦浯┠‰潴┠‱湩┠′牦浡獥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Fading > Fade Green of Green",
+      "text": "慆敤䜠敲湥漠⁦片敥⁮牦浯┠‰潴┠‱湩┠′牦浡獥",
+      "menuId": 25021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牆浯嘠污敵漀⁦片敥⁮牦浯┠‰潴┠‱湩┠′牦浡獥",
+        "潔嘠污敵攀漀⁦片敥⁮牦浯┠‰潴┠‱湩┠′牦浡獥",
+        "畎扭牥漠⁦牦浡獥攀⁮牦浯┠‰潴┠‱湩┠′牦浡獥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Fading > Fade Green of Blue",
+      "text": "慆敤䜠敲湥漠⁦求敵映潲⁭〥琠⁯ㄥ椠⁮㈥映慲敭s",
+      "menuId": 25022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牆浯嘠污敵漀⁦求敵映潲⁭〥琠⁯ㄥ椠⁮㈥映慲敭s",
+        "潔嘠污敵攀漀⁦求敵映潲⁭〥琠⁯ㄥ椠⁮㈥映慲敭s",
+        "畎扭牥漠⁦牦浡獥攀映潲⁭〥琠⁯ㄥ椠⁮㈥映慲敭s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Fading > Fade Blue of Red",
+      "text": "慆敤䈠畬⁥景删摥映潲⁭〥琠⁯ㄥ椠⁮㈥映慲敭s",
+      "menuId": 25023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牆浯嘠污敵昀删摥映潲⁭〥琠⁯ㄥ椠⁮㈥映慲敭s",
+        "潔嘠污敵攀昀删摥映潲⁭〥琠⁯ㄥ椠⁮㈥映慲敭s",
+        "畎扭牥漠⁦牦浡獥昀潲⁭〥琠⁯ㄥ椠⁮㈥映慲敭s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Fading > Fade Blue of Green",
+      "text": "慆敤䈠畬⁥景䜠敲湥映潲⁭〥琠⁯ㄥ椠⁮㈥映慲敭s",
+      "menuId": 25024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牆浯嘠污敵昀䜠敲湥映潲⁭〥琠⁯ㄥ椠⁮㈥映慲敭s",
+        "潔嘠污敵攀昀䜠敲湥映潲⁭〥琠⁯ㄥ椠⁮㈥映慲敭s",
+        "畎扭牥漠⁦牦浡獥渀映潲⁭〥琠⁯ㄥ椠⁮㈥映慲敭s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Fading > Fade Blue of Blue",
+      "text": "慆敤䈠畬⁥景䈠畬⁥牦浯┠‰潴┠‱湩┠′牦浡獥",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牆浯嘠污敵昀䈠畬⁥牦浯┠‰潴┠‱湩┠′牦浡獥",
+        "潔嘠污敵攀昀䈠畬⁥牦浯┠‰潴┠‱湩┠′牦浡獥",
+        "畎扭牥漠⁦牦浡獥 牦浯┠‰潴┠‱湩┠′牦浡獥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Fading > Fade H",
+      "text": "慆敤䠠敵映潲⁭〥琠⁯ㄥ椠⁮㈥映慲敭s",
+      "menuId": 25026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牆浯嘠污敵漀⁭〥琠⁯ㄥ椠⁮㈥映慲敭s",
+        "潔嘠污敵攀漀⁭〥琠⁯ㄥ椠⁮㈥映慲敭s",
+        "畎扭牥漠⁦牦浡獥琀⁯ㄥ椠⁮㈥映慲敭s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Fading > Fade S",
+      "text": "慆敤匠瑡牵瑡潩⁮牦浯┠‰潴┠‱湩┠′牦浡獥",
+      "menuId": 25027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牆浯嘠污敵琀潩⁮牦浯┠‰潴┠‱湩┠′牦浡獥",
+        "潔嘠污敵攀琀潩⁮牦浯┠‰潴┠‱湩┠′牦浡獥",
+        "畎扭牥漠⁦牦浡獥爀浯┠‰潴┠‱湩┠′牦浡獥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Fading > Fade L",
+      "text": "慆敤䰠浵湩湡散映潲⁭〥琠⁯ㄥ椠⁮㈥映慲敭s",
+      "menuId": 25028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牆浯嘠污敵渀散映潲⁭〥琠⁯ㄥ椠⁮㈥映慲敭s",
+        "潔嘠污敵攀渀散映潲⁭〥琠⁯ㄥ椠⁮㈥映慲敭s",
+        "畎扭牥漠⁦牦浡獥漀⁭〥琠⁯ㄥ椠⁮㈥映慲敭s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Load Mask from Overlay or Surface",
+      "text": "潌摡䴠獡⁫牦浯传敶汲祡漠⁲畓晲捡⁥┨⤰",
+      "menuId": 25029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "癏牥慬⁹牯匠牵慦散䘠硩摥嘠污敵挀⁥┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Update Colorizer in Manual Updating Mode",
+      "text": "灕慤整䌠汯牯穩牥",
+      "menuId": 25032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Change Threshold Value for Masking",
+      "text": "桃湡敧吠牨獥潨摬嘠污敵琠⁯〥",
+      "menuId": 25033,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲慖畬e潨摬嘠污敵琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Change Mask Mode",
+      "text": "桃湡敧䴠獡⁫潍敤琠⁯〥⠠‰‽晏㭦ㄠ㴠传㭮㈠㴠传⁮楷桴䄠灬慨)",
+      "menuId": 25034,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰‽晏㭦ㄠ㴠传㭮㈠㴠传⁮楷桴䄠灬慨※湁瑹楨杮䔠獬⁥‽湕档湡敧d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Width",
+      "text": "楗瑤⡨",
+      "menuId": 27082,
+      "resText": "Update Colorizer",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Height",
+      "text": "效杩瑨(",
+      "menuId": 27086,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Red of Red",
+      "text": "剒(",
+      "menuId": 27081,
+      "resText": "RR(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get Red of Green",
+      "text": "䝒(",
+      "menuId": 27003,
+      "resText": "RB(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get Red of Blue",
+      "text": "䉒(",
+      "menuId": 27004,
+      "resText": "GR(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get Green of Red",
+      "text": "則(",
+      "menuId": 27005,
+      "resText": "GG(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Get Green of Green",
+      "text": "䝇(",
+      "menuId": 27006,
+      "resText": "GB(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Get Green of Blue",
+      "text": "䉇(",
+      "menuId": 27007,
+      "resText": "BR(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Get Blue of Red",
+      "text": "剂(",
+      "menuId": 27008,
+      "resText": "BG(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Get Blue of Green",
+      "text": "䝂(",
+      "menuId": 27009,
+      "resText": "BB(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Get Blue of Blue",
+      "text": "䉂(",
+      "menuId": 27010,
+      "resText": "H(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Get H",
+      "text": "⡈",
+      "menuId": 27011,
+      "resText": "Mask",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Get S",
+      "text": "⡓",
+      "menuId": 27012,
+      "resText": "Check to mask Colorizer.\nA mask will only colorize a pixel if the red channel in the mask is greater or equal to the threshold value.",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Get L",
+      "text": "⡌",
+      "menuId": 27013,
+      "resText": "Fade Red of Red from %0 to %1 in %2 frames",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

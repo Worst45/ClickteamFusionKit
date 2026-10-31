@@ -1,0 +1,493 @@
+{
+  "file": "GoogleMaps.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Map Is Ready",
+      "text": "漥䴠灡䤠⁳敒摡y",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Map Is Visible",
+      "text": "漥䴠灡䤠⁳楖楳汢e",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Map Key",
+      "text": "敓⁴慍⁰敋⁹┨⤰",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慍⁰敋y敋⁹┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Map Options > Continuous Zoom",
+      "text": "潃瑮湩潵獵娠潯⁭┨⤰",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潃瑮湩潵獵娠潯⁭〨㴠䘠污敳‬‱‽牔敵)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Map Options > Controlled By Keyboard",
+      "text": "潃瑮潲汬摥䈠⁹敋批慯摲⠠〥)",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潃瑮潲汬摥䈠⁹敋批慯摲⠠‰‽慆獬ⱥㄠ㴠吠畲⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Map Options > Crosshairs",
+      "text": "牃獯桳楡獲⠠〥)",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牃獯桳楡獲⠠‰‽慆獬ⱥㄠ㴠吠畲⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Map Options > Dragging",
+      "text": "牄条楧杮⠠〥)",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牄条楧杮⠠‰‽慆獬ⱥㄠ㴠吠畲⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Map Options > Scroll Wheel Zoom",
+      "text": "捓潲汬圠敨汥娠潯⁭┨⤰",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "捓潲汬圠敨汥娠潯⁭〨㴠䘠污敳‬‱‽牔敵)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Map Options > Initial Map Type",
+      "text": "湉瑩慩⁬慍⁰祔数⠠〥)",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湉瑩慩⁬慍⁰祔数⠠‰‽潎浲污‬‱‽桐獹捩污‬′‽慓整汬瑩ⱥ㌠㴠䠠批楲⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Create Map",
+      "text": "牃慥整䴠灡⠠〥┬⤱┨ⰲ㌥)",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘潃牯楤慮整　┬⤱┨ⰲ㌥)",
+        "⁙潃牯楤慮整　┬⤱┨ⰲ㌥)",
+        "慍⁰楗瑤h整　┬⤱┨ⰲ㌥)",
+        "慍⁰效杩瑨攀　┬⤱┨ⰲ㌥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Controls > Add Zoom Control",
+      "text": "摁⁤潚浯䌠湯牴汯",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Controls > Add Overview Map Control",
+      "text": "摁⁤癏牥楶睥䴠灡䌠湯牴汯",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Controls > Add Map Type Control",
+      "text": "摁⁤慍⁰祔数䌠湯牴汯",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Controls > Add Navigation Control",
+      "text": "摁⁤慎楶慧楴湯䌠湯牴汯",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Controls > Add Position Control",
+      "text": "摁⁤潐楳楴湯䌠湯牴汯",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Controls > Add Scale Control",
+      "text": "摁⁤捓污⁥潃瑮潲l",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Controls > Remove Zoom Control",
+      "text": "敒潭敶娠潯⁭潃瑮潲l",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Controls > Remove Overview Map Control",
+      "text": "敒潭敶传敶癲敩⁷慍⁰潃瑮潲l",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Controls > Remove Map Type Control",
+      "text": "敒潭敶䴠灡吠灹⁥潃瑮潲l",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Controls > Remove Navigation Control",
+      "text": "敒潭敶丠癡杩瑡潩⁮潃瑮潲l",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Controls > Remove Position Control",
+      "text": "敒潭敶倠獯瑩潩⁮潃瑮潲l",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Controls > Remove Scale Control",
+      "text": "敒潭敶匠慣敬䌠湯牴汯",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Set Map Center (Location)",
+      "text": "敓⁴慍⁰敃瑮牥⠠〥┬⤱",
+      "menuId": 25200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慌楴畴敤攀瑮牥⠠〥┬⤱",
+        "潌杮瑩摵e瑮牥⠠〥┬⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Add Marker Overlay",
+      "text": "摁⁤慍歲牥传敶汲祡⠠〥┬⤱",
+      "menuId": 25210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慌楴畴敤爀传敶汲祡⠠〥┬⤱",
+        "潌杮瑩摵e传敶汲祡⠠〥┬⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Add Polyline Overlay",
+      "text": "摁⁤潐祬楬敮传敶汲祡⠠〥┬⤱┨ⰲ㌥)",
+      "menuId": 25220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牆浯⠠慌楴畴敤)汲祡⠠〥┬⤱┨ⰲ㌥)",
+        "牆浯⠠潌杮瑩摵⥥氀祡⠠〥┬⤱┨ⰲ㌥)",
+        "潔⠠慌楴畴敤)⥥氀祡⠠〥┬⤱┨ⰲ㌥)",
+        "潔⠠潌楧畴敤)⥥氀祡⠠〥┬⤱┨ⰲ㌥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Add Info Window Overlay",
+      "text": "摁⁤湉潦圠湩潤⁷癏牥慬⁹┨ⰰㄥ⠩㈥┬⤳",
+      "menuId": 25230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慌楴畴敤圀湩潤⁷癏牥慬⁹┨ⰰㄥ⠩㈥┬⤳",
+        "潌杮瑩摵e湩潤⁷癏牥慬⁹┨ⰰㄥ⠩㈥┬⤳",
+        "湉潦吠瑩敬渀潤⁷癏牥慬⁹┨ⰰㄥ⠩㈥┬⤳",
+        "湉潦吠硥t渀潤⁷癏牥慬⁹┨ⰰㄥ⠩㈥┬⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Clear Overlays",
+      "text": "汃慥⁲癏牥慬獹",
+      "menuId": 25240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Pan To",
+      "text": "慐⁮潔⠠〥┬⤱",
+      "menuId": 25250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慌楴畴敤　┬⤱",
+        "潌杮瑩摵e┬⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Show Map",
+      "text": "桓睯䴠灡",
+      "menuId": 25260,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Hide Map",
+      "text": "楈敤䴠灡",
+      "menuId": 25270,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Map X",
+      "text": "慍塰(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Map Y",
+      "text": "慍奰(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Map Width",
+      "text": "慍坰摩桴(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Map Height",
+      "text": "慍䡰楥桧⡴",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

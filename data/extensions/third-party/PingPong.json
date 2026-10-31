@@ -1,0 +1,117 @@
+{
+  "file": "PingPong.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On pong",
+      "text": "漥㨠传⁮潰杮",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On ping failed",
+      "text": "漥㨠传⁮楰杮映楡敬d",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Ping in progress?",
+      "text": "漥㨠倠湩⁧湩瀠潲牧獥㽳",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Ping",
+      "text": "楐杮┠ⰰ┠‱慭⁸瑡整灭獴‬㈥洠⁳楴敭畯t",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "偉愠摤敲獳漠⁲敷獢瑩e獴‬㈥洠⁳楴敭畯t",
+        "慍楸畭⁭畮扭牥漠⁦瑡整灭獴㈀洠⁳楴敭畯t",
+        "瑁整灭⁴楴敭畯⁴湩洠s灭獴㈀洠⁳楴敭畯t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Resolve IP",
+      "text": "敒潳癬䥥⑐(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "敗獢瑩⁥摡牤獥s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On pong > Elapsed milliseconds",
+      "text": "楐杮汅灡敳䵤⡓",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "On pong > Status code",
+      "text": "楐杮瑓瑡獵潃敤(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "On pong > Resolved IP address",
+      "text": "楐杮敒潳癬摥偉⠤",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

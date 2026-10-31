@@ -1,0 +1,205 @@
+{
+  "file": "FunctionEggtimer.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On function",
+      "text": "漥传⁮畦据楴湯┠0",
+      "menuId": 26000,
+      "resText": "%o On function %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畆据楴湯渠浡e┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On any function",
+      "text": "漥传⁮湡⁹畦据楴湯",
+      "menuId": 26010,
+      "resText": "%o On any function",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Queue function",
+      "text": "慃汬┠‰晡整⁲ㄥ攠敶瑮氠潯獰",
+      "menuId": 25000,
+      "resText": "Call %0 after %1 event loops",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲畦据楴湯渠浡e瑮氠潯獰",
+        "癅湥⁴潬灯s湯渠浡e瑮氠潯獰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Remove function from queue by name",
+      "text": "慃据汥映湵瑣潩⁮〥",
+      "menuId": 25010,
+      "resText": "Cancel function %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畆据楴湯琠⁯慣据汥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Change settings for last queued function > Repeat function X times",
+      "text": "敒数瑡映湵瑣潩⁮〥琠浩獥",
+      "menuId": 25020,
+      "resText": "Repeat function %0 times",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲浡畯瑮漠⁦楴敭⁳潦⁲桴⁥畦据楴湯琠⁯敲数瑡⠠ㄭ琠⁯敲数瑡映牯癥牥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Change settings for last queued function > Set private data value",
+      "text": "敓⁴牰癩瑡⁥慤慴琠⁯‽〥",
+      "menuId": 25030,
+      "resText": "Set private data to = %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡慶畬e慴琠⁯‽〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Change settings for last queued function > Continuous trigger untill canceled",
+      "text": "潃瑮湩潵獵琠楲杧牥甠瑮汩挠湡散敬d",
+      "menuId": 25040,
+      "resText": "Continuous trigger until canceled",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Stop current function",
+      "text": "慃据汥挠牵敲瑮映湵瑣潩n",
+      "menuId": 25050,
+      "resText": "Cancel current function",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Call immediate function",
+      "text": "慃汬┠‰浩敭敤瑡祬眠瑩⁨灯楴湯污爠灥慥⁴敤慬⁹景┠1",
+      "menuId": 25060,
+      "resText": "Call %0 immedeatly with optional repeat delay of %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲畦据楴湯渠浡e瑩⁨灯楴湯污爠灥慥⁴敤慬⁹景┠1",
+        "湅整⁲敤慬⁹樨獵⁴敬癡⁥‰晩礠畯搠湯琧瀠慬⁮潴甠敳琠敨✠敲数瑡‧捡楴湯映牯琠楨⁳畦据楴湯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Clear function queue",
+      "text": "汃慥⁲畦据楴湯焠敵敵",
+      "menuId": 25070,
+      "resText": "Clear function queue",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get number of functions in queue",
+      "text": "畑略卥穩⡥",
+      "menuId": 27000,
+      "resText": "QueueSize(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Current function > Get function name",
+      "text": "慌瑳畆据楴湯⠤",
+      "menuId": 27010,
+      "resText": "LastFunction$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Current function > Get private data",
+      "text": "牐癩瑡䑥瑡⡡",
+      "menuId": 27020,
+      "resText": "PrivateData(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Current function > Get number of repeats left",
+      "text": "敒慭湩湩剧灥慥獴(",
+      "menuId": 27030,
+      "resText": "RemainingRepeats(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

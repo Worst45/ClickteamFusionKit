@@ -1,0 +1,52 @@
+{
+  "file": "MMKXMLParser.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Element Exists",
+      "text": "䵘⁌慐獲牥›桔獩漠橢捥⁴獩渠瑯挠浯慰楴汢⁥楷桴琠楨⁳敶獲潩⁮景䴠䙍",
+      "menuId": 26010,
+      "resText": "Element Exists %0",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "conditions_status": "menu ressources",
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Element Manipulation > Root > Set Root Name",
+      "text": "䵘⁌慐獲牥›桔獩漠橢捥⁴獩渠瑯挠浯慰楴汢⁥楷桴琠楨⁳敶獲潩⁮景䴠䙍",
+      "menuId": 25000,
+      "resText": "Set Root Name To %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潒瑯䔠敬敭瑮渠浡e橢捥⁴獩渠瑯挠浯慰楴汢⁥楷桴琠楨⁳敶獲潩⁮景䴠䙍"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions_status": "menu ressources",
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Name > Root",
+      "text": "䵘⁌慐獲牥›桔獩漠橢捥⁴獩渠瑯挠浯慰楴汢⁥楷桴琠楨⁳敶獲潩⁮景䴠䙍",
+      "menuId": 27000,
+      "resText": "Root Name (",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions_status": "menu ressources"
+}

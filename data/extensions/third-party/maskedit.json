@@ -1,0 +1,484 @@
+{
+  "file": "maskedit.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Window > Is Edit Mask Visible?",
+      "text": "",
+      "menuId": 26000,
+      "resText": "%o: Edit Mask is Visible",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Window > Is Edit Mask Enabled?",
+      "text": "",
+      "menuId": 26010,
+      "resText": "%o: Edit Mask is Enabled",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Window > Does Edit Mask Have Focus?",
+      "text": "",
+      "menuId": 26020,
+      "resText": "%o: Edit Mask has Focus",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "On Successful Modification",
+      "text": "",
+      "menuId": 26030,
+      "resText": "%o: On Successful Modification",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "On Unsuccessful Modification",
+      "text": "",
+      "menuId": 26040,
+      "resText": "%o: On Unsuccessful Modification",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "conditions_status": "menu ressources",
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Window > Set X Position",
+      "text": "",
+      "menuId": 25000,
+      "resText": "Set X Position to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁘潐楳楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Window > Set Y Position",
+      "text": "",
+      "menuId": 25010,
+      "resText": "Set Y Position to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁙潐楳楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Window > Set Width",
+      "text": "",
+      "menuId": 25020,
+      "resText": "Set Width to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗瑤h"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Window > Set Height",
+      "text": "",
+      "menuId": 25030,
+      "resText": "Set Height to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "效杩瑨"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Window > Enable",
+      "text": "",
+      "menuId": 25040,
+      "resText": "Enable",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Window > Disable",
+      "text": "",
+      "menuId": 25050,
+      "resText": "Disable",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Window > Show",
+      "text": "",
+      "menuId": 25060,
+      "resText": "Show",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Window > Hide",
+      "text": "",
+      "menuId": 25070,
+      "resText": "Hide",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Window > Set Focus On",
+      "text": "",
+      "menuId": 25080,
+      "resText": "Set Focus On",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Window > Set Focus Off",
+      "text": "",
+      "menuId": 25090,
+      "resText": "Set Focus Off",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Set Mask",
+      "text": "",
+      "menuId": 25100,
+      "resText": "Set Mask to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慍歳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Set Data",
+      "text": "",
+      "menuId": 25110,
+      "resText": "Set Data to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慄慴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Set Prompt Character",
+      "text": "",
+      "menuId": 25120,
+      "resText": "Set Prompt Character to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "牐浯瑰䌠慨慲瑣牥⠠敄慦汵⁴弧⤧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Set Font",
+      "text": "",
+      "menuId": 25130,
+      "resText": "Set Font to %0, Size %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "潆瑮丠浡e",
+        "潆瑮匠穩e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Set Text Color",
+      "text": "",
+      "menuId": 25140,
+      "resText": "Set Text Color to %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "敔瑸䌠汯牯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Set Background Color",
+      "text": "",
+      "menuId": 25150,
+      "resText": "Set Background Color to %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "慂正牧畯摮䌠汯牯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Go to Position",
+      "text": "",
+      "menuId": 25160,
+      "resText": "Go to Position %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潐楳楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Set Cell (Character)",
+      "text": "",
+      "menuId": 25170,
+      "resText": "Set Cell %0 to %1 (Character)",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "敃汬",
+        "桃牡捡整r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Set Cell (Number)",
+      "text": "",
+      "menuId": 25180,
+      "resText": "Set Cell %0 to %1 (Number)",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敃汬",
+        "畎扭牥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions_status": "menu ressources",
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Window > Get X Position",
+      "text": "",
+      "menuId": 27000,
+      "resText": "getX(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Window > Get Y Position",
+      "text": "",
+      "menuId": 27010,
+      "resText": "getY(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Window > Get Width",
+      "text": "",
+      "menuId": 27020,
+      "resText": "getW(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Window > Get Height",
+      "text": "",
+      "menuId": 27030,
+      "resText": "getH(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get Data",
+      "text": "",
+      "menuId": 27040,
+      "resText": "getData$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get Text",
+      "text": "",
+      "menuId": 27050,
+      "resText": "getText$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Get Character at Cell",
+      "text": "",
+      "menuId": 27060,
+      "resText": "getCell$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Get Token (String)",
+      "text": "",
+      "menuId": 27070,
+      "resText": "getToken$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Get Number at Cell",
+      "text": "",
+      "menuId": 27080,
+      "resText": "getCellV(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Window > Get Window Handle (Advanced)",
+      "text": "",
+      "menuId": 27090,
+      "resText": "hwnd(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions_status": "menu ressources"
+}

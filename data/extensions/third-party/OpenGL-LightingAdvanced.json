@@ -1,0 +1,573 @@
+{
+  "file": "OpenGL-LightingAdvanced.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Is a light enabled?",
+      "text": "漥›楌桧⁴〥椠⁳湥扡敬d",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散⠠〠ⴠ㜠⤠⸮."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set global ambient color...",
+      "text": "敓⁴汧扯污愠扭敩瑮挠汯牯琠⁯〥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "流楢湥⁴潣潬⹲⸮琀挠汯牯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Enable > Light...",
+      "text": "湅扡敬氠杩瑨┠0",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散⠠〠ⴠ㜠⤠⸮."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Enable > Lights...",
+      "text": "湅扡敬氠杩瑨⁳〥琠⁯ㄥ",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牆浯氠杩瑨猠畯捲⁥ ‰‭‷⸩⸮",
+        "潔氠杩瑨猠畯捲⁥ ‰‭‷⸩⸮⸀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Enable > All lights",
+      "text": "湅扡敬愠汬氠杩瑨s",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Set type of light...",
+      "text": "敓⁴楬桧⁴〥琠灹⁥潴┠1",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散⠠〠ⴠ㜠⤠⸮.",
+        "祔数⠠〠㴠䐠物捥楴湯污‬‱‽潐楳楴湯污‬′‽灓瑯楬桧⁴⸩⸮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Set ambient color...",
+      "text": "敓⁴楬桧⁴〥愠扭敩瑮挠汯牯琠⁯ㄥ",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        24
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散⠠〠ⴠ㜠⤠⸮.琠⁯ㄥ",
+        "流楢湥⁴潣潬⹲⸮ⴀ㜠⤠⸮.琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Set diffuse color...",
+      "text": "敓⁴楬桧⁴〥搠晩畦敳挠汯牯琠⁯ㄥ",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        24
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散⠠〠ⴠ㜠⤠⸮.琠⁯ㄥ",
+        "楄晦獵⁥潣潬⹲⸮ⴀ㜠⤠⸮.琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Set specular color...",
+      "text": "敓⁴楬桧⁴〥猠数畣慬⁲潣潬⁲潴┠1",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        24
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散⠠〠ⴠ㜠⤠⸮.⁲潴┠1",
+        "灓捥汵牡挠汯牯⸮.㜠⤠⸮.⁲潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Position > Set X coordinate...",
+      "text": "敓⁴楬桧⁴〥堠挠潯摲湩瑡⁥潴┠1",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散⠠〠ⴠ㜠⤠⸮.潴┠1",
+        "⁘潣牯楤慮整⸮.ⴠ㜠⤠⸮.潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Position > Set Y coordinate...",
+      "text": "敓⁴楬桧⁴〥夠挠潯摲湩瑡⁥潴┠1",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散⠠〠ⴠ㜠⤠⸮.潴┠1",
+        "⁙潣牯楤慮整⸮.ⴠ㜠⤠⸮.潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Position > Set Z coordinate...",
+      "text": "敓⁴楬桧⁴〥娠挠潯摲湩瑡⁥潴┠1",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散⠠〠ⴠ㜠⤠⸮.潴┠1",
+        "⁚潣牯楤慮整⸮.ⴠ㜠⤠⸮.潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Spotlight > Set direction...",
+      "text": "敓⁴楬桧⁴〥猠潰汴杩瑨搠物捥楴湯琠⁯ㄥ‬㈥‬㌥",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散⠠〠ⴠ㜠⤠⸮.捥楴湯琠⁯ㄥ‬㈥‬㌥",
+        "⁘潣牯楤慮整⸮.ⴠ㜠⤠⸮.捥楴湯琠⁯ㄥ‬㈥‬㌥",
+        "⁙潣牯楤慮整⸮.ⴠ㜠⤠⸮.捥楴湯琠⁯ㄥ‬㈥‬㌥",
+        "⁚潣牯楤慮整⸮.ⴠ㜠⤠⸮.捥楴湯琠⁯ㄥ‬㈥‬㌥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Spotlight > Set exponent...",
+      "text": "敓⁴楬桧⁴〥猠潰汴杩瑨攠灸湯湥⁴潴┠1",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散⠠〠ⴠ㜠⤠⸮.湯湥⁴潴┠1",
+        "硅潰敮瑮⸮.⠠〠ⴠ㜠⤠⸮.湯湥⁴潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Spotlight > Set cutoff...",
+      "text": "敓⁴楬桧⁴〥猠潰汴杩瑨挠瑵景⁦潴┠1",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散⠠〠ⴠ㜠⤠⸮.景⁦潴┠1",
+        "畃潴晦⸮.散⠠〠ⴠ㜠⤠⸮.景⁦潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Attenuation > Set constant...",
+      "text": "敓⁴楬桧⁴〥挠湯瑳湡⁴瑡整畮瑡潩⁮潴┠1",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散⠠〠ⴠ㜠⤠⸮.畮瑡潩⁮潴┠1",
+        "潃獮慴瑮瘠污敵⸮.㜠⤠⸮.畮瑡潩⁮潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Attenuation > Set linear...",
+      "text": "敓⁴楬桧⁴〥氠湩慥⁲瑡整畮瑡潩⁮潴┠1",
+      "menuId": 25018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散⠠〠ⴠ㜠⤠⸮.瑡潩⁮潴┠1",
+        "楌敮牡瘠污敵⸮.ⴠ㜠⤠⸮.瑡潩⁮潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Attenuation > Set quadratic...",
+      "text": "敓⁴楬桧⁴〥焠慵牤瑡捩愠瑴湥慵楴湯琠⁯ㄥ",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散⠠〠ⴠ㜠⤠⸮.湥慵楴湯琠⁯ㄥ",
+        "畑摡慲楴⁣慶畬⹥⸮㜀⤠⸮.湥慵楴湯琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Apply lights",
+      "text": "灁汰⁹楬桧獴",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get global ambient color",
+      "text": "汇扯污流楢湥⡴",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get ambient color",
+      "text": "流楢湥⡴",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get diffuse color",
+      "text": "楄晦獵⡥",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get specular color",
+      "text": "灓捥汵牡(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Position > Get X coordinate",
+      "text": "⡘",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Position > Get Y coordinate",
+      "text": "⡙",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Position > Get Z coordinate",
+      "text": "⡚",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Spotlight > Direction > Get X value",
+      "text": "灓瑯楄塲(",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Spotlight > Direction > Get Y value",
+      "text": "灓瑯楄奲(",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Spotlight > Direction > Get Z value",
+      "text": "灓瑯楄婲(",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Spotlight > Get exponent",
+      "text": "硅潰敮瑮(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Spotlight > Get cutoff",
+      "text": "畃潴晦(",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Attenuation > Get constant",
+      "text": "潃獮慴瑮(",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Attenuation > Get linear",
+      "text": "楌敮牡(",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Attenuation > Get quadratic",
+      "text": "畑摡慲楴⡣",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楌桧⁴潳牵散"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

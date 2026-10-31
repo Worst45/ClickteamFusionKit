@@ -1,0 +1,303 @@
+{
+  "file": "SaveGame.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On create and load object (type)",
+      "text": "漥›湏挠敲瑡⁥湡⁤潬摡漠橢捥⁴‭祴数┠0",
+      "menuId": 26000,
+      "resText": "%o: On create and load object - type %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣琠灹e⁥湡⁤潬摡漠橢捥⁴‭祴数┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On create and load object",
+      "text": "漥›湏挠敲瑡⁥湡⁤潬摡漠橢捥t",
+      "menuId": 26010,
+      "resText": "%o: On create and load object",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "On save file successful",
+      "text": "漥›湏猠癡⁥楦敬猠捵散獳畦l",
+      "menuId": 26020,
+      "resText": "%o: On save file successful",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "On load file successful",
+      "text": "漥›湏氠慯⁤楦敬猠捵散獳畦l",
+      "menuId": 26030,
+      "resText": "%o: On load file successful",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "On save file failed",
+      "text": "漥›湏猠癡⁥楦敬映楡敬d",
+      "menuId": 26040,
+      "resText": "%o: On save file failed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "On load file failed",
+      "text": "漥›湏氠慯⁤楦敬映楡敬d",
+      "menuId": 26050,
+      "resText": "%o: On load file failed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Save object to memory",
+      "text": "慓敶┠‰獡漠橢捥⁴祴数┠‱潴洠浥牯y",
+      "menuId": 25000,
+      "resText": "Save %0 as object type %1 to memory",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "桃潯敳愠⁮䍁䥔䕖传䩂䍅T‱潴洠浥牯y",
+        "扏敪瑣琠灹e䥔䕖传䩂䍅T‱潴洠浥牯y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Save memory to disk",
+      "text": "慓敶洠浥牯⁹潴┠0",
+      "menuId": 25010,
+      "resText": "Save memory to %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬慮敭爀⁹潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Load file into memory",
+      "text": "潌摡┠‰潴洠浥牯y",
+      "menuId": 25020,
+      "resText": "Load %0 to memory",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬慮敭漀洠浥牯y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Create and load objects from memory",
+      "text": "牃慥整愠摮氠慯⁤扯敪瑣⁳牦浯洠浥牯y",
+      "menuId": 25030,
+      "resText": "Create and load objects from memory",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Clear memory (see docs)",
+      "text": "汃慥⁲敭潭祲",
+      "menuId": 25040,
+      "resText": "Clear memory",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Set string",
+      "text": "敓⁴瑳楲杮┠‰潴┠1",
+      "menuId": 25050,
+      "resText": "Set string %0 to %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮渠浡e‰潴┠1",
+        "瑓楲杮渀浡e‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Set value",
+      "text": "敓⁴慶畬⁥〥琠⁯ㄥ",
+      "menuId": 25060,
+      "resText": "Set value %0 to %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慖畬⁥慮敭　琠⁯ㄥ",
+        "慖畬e慮敭　琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "On create and load object: Setup created object",
+      "text": "敓畴⁰〥",
+      "menuId": 25070,
+      "resText": "Setup %0",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "桃潯敳愠⁮䍁䥔䕖传䩂䍅T"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Set auto-clear on",
+      "text": "敓⁴畡潴挭敬牡漠n",
+      "menuId": 25080,
+      "resText": "Set auto-clear on",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Set auto-clear off",
+      "text": "敓⁴畡潴挭敬牡漠晦",
+      "menuId": 25090,
+      "resText": "Set auto-clear off",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Setup existing object from memory",
+      "text": "敓畴⁰〥映潲⁭敭潭祲",
+      "menuId": 25100,
+      "resText": "Setup %0 from memory",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "On create and load object: Get type",
+      "text": "敇佴橢祔数(",
+      "menuId": 27000,
+      "resText": "GetObjType(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get string",
+      "text": "敇却牴⠤",
+      "menuId": 27010,
+      "resText": "GetStr$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get value",
+      "text": "敇噴污(",
+      "menuId": 27020,
+      "resText": "GetVal(",
+      "flags": 2,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "On create and load object: Get fixed value (of original object)",
+      "text": "敇䙴硩摥(",
+      "menuId": 27030,
+      "resText": "GetFixed(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Banc de test : rendu brut des événements par Nebula (sans la mise en forme de MfaDump).
+       Par défaut : le fork du kit (external\NebulaFD). Pour comparer avec une autre version de
+       Nebula : dotnet build -p:NebulaDir=<dossier contenant Nebula.Core> -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <PlatformTarget>x64</PlatformTarget>
+    <NoWarn>NU1702;CS8632</NoWarn>
+    <NebulaDir Condition="'$(NebulaDir)' == ''">..\..\external\NebulaFD</NebulaDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="$(NebulaDir)\Nebula.Core\Nebula.Core.csproj" />
+  </ItemGroup>
+
+</Project>

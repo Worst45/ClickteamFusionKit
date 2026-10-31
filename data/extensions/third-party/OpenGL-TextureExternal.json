@@ -1,0 +1,233 @@
+{
+  "file": "OpenGL-TextureExternal.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On texture loaded",
+      "text": "漥›湏琠硥畴敲氠慯敤d",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On loading failed",
+      "text": "漥›湏氠慯楤杮映楡敬d",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Load texture from file...",
+      "text": "潌摡琠硥畴敲映潲⁭楦敬┠‰楷桴渠浡⁥ㄥ",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40,
+        45,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆敬琠⁯潬摡⸮.⁭楦敬┠‰楷桴渠浡⁥ㄥ",
+        "敔瑸牵⁥慮敭⸮.⁭楦敬┠‰楷桴渠浡⁥ㄥ",
+        "敔瑸牵⁥楦瑬牥⠠〠㴠渠湯ⱥㄠ㴠洠湩晩楹杮‬′‽慭湧晩捩瑡潩Ɱ㌠㴠戠瑯⁨⸩⸮",
+        "敔瑸牵⁥敲数瑡⠠〠㴠渠湯ⱥㄠ㴠栠牯穩湯慴ⱬ㈠㴠瘠牥楴慣ⱬ㌠㴠戠瑯⁨⸩⸮⸀⸮",
+        "敔瑸牵⁥業浰灡⠠〠㴠渠Ɐㄠ㴠礠獥⤠⸮.慴ⱬ㈠㴠瘠牥楴慣ⱬ㌠㴠戠瑯⁨⸩⸮⸀⸮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Unload texture...",
+      "text": "湕潬摡琠硥畴敲┠0",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥慮敭⸮.0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Unload all textures",
+      "text": "湕潬摡愠汬氠慯敤⁤整瑸牵獥",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Load texture from object...",
+      "text": "潌摡琠硥畴敲映潲⁭扯敪瑣┠‰楷桴渠浡⁥ㄥ",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        45,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣⸮.敲映潲⁭扯敪瑣┠‰楷桴渠浡⁥ㄥ",
+        "敔瑸牵⁥慮敭⸮.⁭扯敪瑣┠‰楷桴渠浡⁥ㄥ",
+        "敔瑸牵⁥楦瑬牥⠠〠㴠渠湯ⱥㄠ㴠洠湩晩楹杮‬′‽慭湧晩捩瑡潩Ɱ㌠㴠戠瑯⁨⸩⸮",
+        "敔瑸牵⁥敲数瑡⠠〠㴠渠湯ⱥㄠ㴠栠牯穩湯慴ⱬ㈠㴠瘠牥楴慣ⱬ㌠㴠戠瑯⁨⸩⸮⸀⸮",
+        "敔瑸牵⁥業浰灡⠠〠㴠渠Ɐㄠ㴠礠獥⤠⸮.慴ⱬ㈠㴠瘠牥楴慣ⱬ㌠㴠戠瑯⁨⸩⸮⸀⸮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Load texture from object ( fixed value )...",
+      "text": "潌摡琠硥畴敲映潲⁭扯敪瑣┠‰楷桴渠浡⁥ㄥ",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆數⁤慶畬⁥景漠橢捥⹴⸮─‰楷桴渠浡⁥ㄥ",
+        "敔瑸牵⁥慮敭⸮.橢捥⹴⸮─‰楷桴渠浡⁥ㄥ",
+        "敔瑸牵⁥楦瑬牥⠠〠㴠渠湯ⱥㄠ㴠洠湩晩楹杮‬′‽慭湧晩捩瑡潩Ɱ㌠㴠戠瑯⁨⸩⸮",
+        "敔瑸牵⁥敲数瑡⠠〠㴠渠湯ⱥㄠ㴠栠牯穩湯慴ⱬ㈠㴠瘠牥楴慣ⱬ㌠㴠戠瑯⁨⸩⸮⸀⸮",
+        "敔瑸牵⁥業浰灡⠠〠㴠渠Ɐㄠ㴠礠獥⤠⸮.慴ⱬ㈠㴠瘠牥楴慣ⱬ㌠㴠戠瑯⁨⸩⸮⸀⸮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get handle",
+      "text": "慈摮敬(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥慮敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get name",
+      "text": "慎敭⠤",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥慨摮敬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get handle from last loaded",
+      "text": "潌摡摥慈摮敬(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get name from last loaded",
+      "text": "潌摡摥慎敭⠤",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Number of textures",
+      "text": "敔瑸牵獥(",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get texture width",
+      "text": "楗瑤⑨(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥慮敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Get texture height",
+      "text": "效杩瑨⠤",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥慮敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

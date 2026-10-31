@@ -1,0 +1,1107 @@
+{
+  "file": "PowerSystem.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "File Features > File Extensions > Does Extension Exist?",
+      "text": "硅整獮潩⁮〥䔠楸瑳s",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "硅整獮潩n〥䔠楸瑳s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "File Features > File Extensions > Is on New File Menu?",
+      "text": "硅整獮潩⁮〥椠⁳湯丠睥䘠汩⁥敍畮",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "硅整獮潩n〥椠⁳湯丠睥䘠汩⁥敍畮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "File Features > File Extensions > Does Association Exist?",
+      "text": "硅整獮潩⁮〥䠠獡䄠獳捯慩楴湯┠1",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "硅整獮潩n〥䠠獡䄠獳捯慩楴湯┠1",
+        "獁潳楣瑡潩n䠠獡䄠獳捯慩楴湯┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "File Features > File Attributes > Is File Read-Only?",
+      "text": "楆敬┠‰獩删慥ⵤ湏祬",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畆汬倠瑡⁨潴䘠汩e祬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "File Features > File Attributes > Is File Hidden?",
+      "text": "楆敬┠‰獩䠠摩敤n",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畆汬倠瑡⁨潴䘠汩e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "File Features > File Attributes > Is File System?",
+      "text": "楆敬┠‰獩匠獹整m",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畆汬倠瑡⁨潴䘠汩e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Run on Startup > Is Application on List?",
+      "text": "灁汰捩瑡潩⁮〥椠⁳湯匠慴瑲灵䰠獩t",
+      "menuId": 26060,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "獁楳湧摥丠浡e椠⁳湯匠慴瑲灵䰠獩t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Task Manager > Is Enabled?",
+      "text": "慔歳䴠湡条牥椠⁳湅扡敬d",
+      "menuId": 26070,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Mouse > Is Cursor In Zone? > On Screen",
+      "text": "潍獵⁥畃獲牯椠⁳湩娠湯⁥┨ⰰ┠⤱ⴠ⠠㈥‬㌥)",
+      "menuId": 26080,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敌瑦 畃獲牯椠⁳湩娠湯⁥┨ⰰ┠⤱ⴠ⠠㈥‬㌥)",
+        "潔p 畃獲牯椠⁳湩娠湯⁥┨ⰰ┠⤱ⴠ⠠㈥‬㌥)",
+        "楒桧t畃獲牯椠⁳湩娠湯⁥┨ⰰ┠⤱ⴠ⠠㈥‬㌥)",
+        "潂瑴浯甀獲牯椠⁳湩娠湯⁥┨ⰰ┠⤱ⴠ⠠㈥‬㌥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Mouse > Is Cursor In Zone? > In Frame",
+      "text": "潍獵⁥畃獲牯椠⁳湩娠湯⁥┨ⰰ┠⤱ⴠ⠠㈥‬㌥ 湉䘠慲敭",
+      "menuId": 26090,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敌瑦⠠敒慬楴敶琠⁯牆浡⥥─ⰰ┠⤱ⴠ⠠㈥‬㌥ 湉䘠慲敭",
+        "潔⁰刨汥瑡癩⁥潴䘠慲敭)─ⰰ┠⤱ⴠ⠠㈥‬㌥ 湉䘠慲敭",
+        "楒桧⁴刨汥瑡癩⁥潴䘠慲敭)ⰰ┠⤱ⴠ⠠㈥‬㌥ 湉䘠慲敭",
+        "潂瑴浯⠠敒慬楴敶琠⁯牆浡⥥Ⰰ┠⤱ⴠ⠠㈥‬㌥ 湉䘠慲敭",
+        "䴨䙍猧堠潍獵⁥硅牰獥楳湯)Ⰰ┠⤱ⴠ⠠㈥‬㌥ 湉䘠慲敭",
+        "䴨䙍猧夠潍獵⁥硅牰獥楳湯)Ⰰ┠⤱ⴠ⠠㈥‬㌥ 湉䘠慲敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Mouse > Is Cursor Confined?",
+      "text": "潍獵⁥畃獲牯椠⁳潃普湩摥",
+      "menuId": 26100,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Taskbar > Is Visible?",
+      "text": "慔歳慢⁲獩嘠獩扩敬",
+      "menuId": 26110,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Taskbar > Is Enabled?",
+      "text": "慔歳慢⁲獩䔠慮汢摥",
+      "menuId": 26120,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Taskbar > AutoHide Enabled?",
+      "text": "慔歳慢㩲䄠瑵䡯摩⁥獩䔠慮汢摥",
+      "menuId": 26130,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Taskbar > Topmost Enabled?",
+      "text": "慔歳慢㩲吠灯潭瑳椠⁳湅扡敬d",
+      "menuId": 26140,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "File Features > File Extensions > Create/Setup File Type",
+      "text": "牃慥整匯瑥灵䘠汩⁥祔数┠‰楗桴䐠獥牣灩楴湯┠‱䤨潣㩮┠ⰲ┠⤳⠠敎⁷楆敬䴠湥㩵┠⤴",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆敬䔠瑸湥楳湯氀⁥祔数┠‰楗桴䐠獥牣灩楴湯┠‱䤨潣㩮┠ⰲ┠⤳⠠敎⁷楆敬䴠湥㩵┠⤴",
+        "硅整獮潩⁮敄捳楲瑰潩n┠‰楗桴䐠獥牣灩楴湯┠‱䤨潣㩮┠ⰲ┠⤳⠠敎⁷楆敬䴠湥㩵┠⤴",
+        "畆汬倠瑡⁨潴䤠潣⁮楆敬─‰楗桴䐠獥牣灩楴湯┠‱䤨潣㩮┠ⰲ┠⤳⠠敎⁷楆敬䴠湥㩵┠⤴",
+        "捉湯䤠摮硥漀䤠潣⁮楆敬─‰楗桴䐠獥牣灩楴湯┠‱䤨潣㩮┠ⰲ┠⤳⠠敎⁷楆敬䴠湥㩵┠⤴",
+        "摁⁤潴丠睥䘠汩⁥敍畮‿〨丽Ɐㄠ夽獥)灩楴湯┠‱䤨潣㩮┠ⰲ┠⤳⠠敎⁷楆敬䴠湥㩵┠⤴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "File Features > File Extensions > Remove File Type",
+      "text": "敒潭敶䘠汩⁥祔数┠0",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆敬䔠瑸湥楳湯攀┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "File Features > File Extensions > Associations > Add Association",
+      "text": "摁⁤獁潳楣瑡潩⁮〥映牯䔠瑸湥楳湯┠‱䘨汩㩥┠⤲",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "獁潳楣瑡潩⁮慎敭　映牯䔠瑸湥楳湯┠‱䘨汩㩥┠⤲",
+        "楆敬䔠瑸湥楳湯攀　映牯䔠瑸湥楳湯┠‱䘨汩㩥┠⤲",
+        "畆汬倠瑡⁨潴䄠灰楬慣楴湯琠⁯獁潳楣瑡⁥楗桴䔠瑸湥楳湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "File Features > File Extensions > Associations > Remove Association",
+      "text": "敒潭敶䄠獳捯慩楴湯┠‰潦⁲硅整獮潩⁮ㄥ",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "獁潳楣瑡潩⁮慎敭渀┠‰潦⁲硅整獮潩⁮ㄥ",
+        "楆敬䔠瑸湥楳湯攀渀┠‰潦⁲硅整獮潩⁮ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "File Features > File Attributes > Set File Attributes",
+      "text": "敓⁴瑁牴扩瑵獥映牯䘠汩⁥〥⠠敒摡伭汮㩹┠ⰱ䠠摩敤㩮┠ⰲ匠獹整㩭┠⤳",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "畆汬倠瑡⁨潴䘠汩e䘠汩⁥〥⠠敒摡伭汮㩹┠ⰱ䠠摩敤㩮┠ⰲ匠獹整㩭┠⤳",
+        "敒摡伭汮㽹⠠㴰潎‬㴱教⥳　⠠敒摡伭汮㩹┠ⰱ䠠摩敤㩮┠ⰲ匠獹整㩭┠⤳",
+        "楈摤湥‿〨丽Ɐㄠ夽獥)⥳　⠠敒摡伭汮㩹┠ⰱ䠠摩敤㩮┠ⰲ匠獹整㩭┠⤳",
+        "祓瑳浥‿〨丽Ɐㄠ夽獥)⥳　⠠敒摡伭汮㩹┠ⰱ䠠摩敤㩮┠ⰲ匠獹整㩭┠⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Run on Startup > Add to Startup List",
+      "text": "摁⁤〥琠⁯瑓牡畴⁰楌瑳⠠慐桴›ㄥ)",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慎敭琠⁯獁楳湧䄠灰楬慣楴湯栀›ㄥ)",
+        "畆汬倠瑡⁨潴䄠灰楬慣楴湯渀栀›ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Run on Startup > Remove from Startup List",
+      "text": "敒潭敶┠‰牦浯匠慴瑲灵䰠獩t",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慎敭䄠獳杩敮⁤潴䄠灰楬慣楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Task Manager > Enable",
+      "text": "湅扡敬琠敨圠湩潤獷吠獡⁫慍慮敧r",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Task Manager > Disable",
+      "text": "楄慳汢⁥桴⁥楗摮睯⁳慔歳䴠湡条牥",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Clipboard > Send Image to Clipboard",
+      "text": "敓摮䤠慭敧┠‰潴䌠楬扰慯摲",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畆汬倠瑡⁨潴䈠瑩慭⁰浉条⁥潴匠湥d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Mouse > Set Cursor Position > On Screen",
+      "text": "敓⁴畃獲牯倠獯瑩潩⁮潴⠠〥‬ㄥ)",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘潐楳楴湯倀獯瑩潩⁮潴⠠〥‬ㄥ)",
+        "⁙潐楳楴湯倀獯瑩潩⁮潴⠠〥‬ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Mouse > Set Cursor Position > In Frame",
+      "text": "敓⁴畃獲牯倠獯瑩潩⁮湩䘠慲敭琠⁯┨ⰰ┠⤱",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘潐楳楴湯倀獯瑩潩⁮湩䘠慲敭琠⁯┨ⰰ┠⤱",
+        "⁙潐楳楴湯倀獯瑩潩⁮湩䘠慲敭琠⁯┨ⰰ┠⤱",
+        "䴨䙍猧堠潍獵⁥硅牰獥楳湯)敭琠⁯┨ⰰ┠⤱",
+        "䴨䙍猧夠潍獵⁥硅牰獥楳湯)敭琠⁯┨ⰰ┠⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Mouse > Set Cursor X Position",
+      "text": "敓⁴畃獲牯堠倠獯瑩潩⁮潴┠0",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁘潐楳楴湯堀倠獯瑩潩⁮潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Mouse > Set Cursor Y Position",
+      "text": "敓⁴畃獲牯夠倠獯瑩潩⁮潴┠0",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁙潐楳楴湯夀倠獯瑩潩⁮潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Mouse > Nudge Cursor",
+      "text": "畎杤⁥畃獲牯䠠牯穩湯慴汬⁹〥倠硩汥⁳湡⁤敖瑲捩污祬┠‱楐數獬",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楐數獬琠⁯畎杤⁥䠨牯穩湯慴⥬倀硩汥⁳湡⁤敖瑲捩污祬┠‱楐數獬",
+        "楐數獬琠⁯畎杤⁥嘨牥楴慣⥬⤀倀硩汥⁳湡⁤敖瑲捩污祬┠‱楐數獬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Mouse > Confine Cursor",
+      "text": "潃普湩⁥畃獲牯映潲⁭┨ⰰ┠⤱琠⁯┨ⰲ┠⤳",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敌瑦䈠畯摮祲爀映潲⁭┨ⰰ┠⤱琠⁯┨ⰲ┠⤳",
+        "潔⁰潂湵牤y爀映潲⁭┨ⰰ┠⤱琠⁯┨ⰲ┠⤳",
+        "楒桧⁴潂湵牤y映潲⁭┨ⰰ┠⤱琠⁯┨ⰲ┠⤳",
+        "潂瑴浯䈠畯摮祲昀潲⁭┨ⰰ┠⤱琠⁯┨ⰲ┠⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Mouse > Release Cursor",
+      "text": "敒敬獡⁥潃普湩摥䌠牵潳r",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Taskbar > Hide/Show",
+      "text": "楈敤匯潨⁷慔歳慢⁲┨⤰",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲‰潴䠠摩ⱥㄠ琠⁯桓睯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Taskbar > Enable/Disable",
+      "text": "湅扡敬䐯獩扡敬吠獡扫牡⠠〥)",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲‰潴䐠獩扡敬‬‱潴䔠慮汢e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Taskbar > Set State",
+      "text": "敓⁴慔歳慢⁲瑓瑡⁥潴┠ⰰ┠1",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "獕⁥畁潴楈敤‿〨丽Ɐㄠ夽獥)",
+        "汁慷獹漠⁮潔㽰⠠㴰潎‬㴱教⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Shutdown > Shutdown (Standard)",
+      "text": "桓瑵潤湷䌠浯異整⁲楗桴䴠獥慳敧┠0",
+      "menuId": 25200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敍獳条⁥潴䐠獩汰祡椀桴䴠獥慳敧┠0",
+        "敌杮桴漠⁦片捡⁥敐楲摯椠⁮敓潣摮s",
+        "敒潢瑯䄠瑦牥匠畨摴睯㽮⠠㴰潎‬㴱教⥳",
+        "潆捲⁥灁汰捩瑡潩獮琠⁯汃獯㽥⠠㴰潎‬㴱教⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Shutdown > Shutdown (Remote)",
+      "text": "桓瑵潤湷䌠浯異整⁲〥圠瑩⁨敍獳条⁥ㄥ",
+      "menuId": 25210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敎睴牯⁫慎敭漠⁦潃灭瑵牥 敍獳条⁥ㄥ",
+        "敍獳条⁥潴䐠獩汰祡瀀瑵牥 敍獳条⁥ㄥ",
+        "敌杮桴漠⁦片捡⁥敐楲摯椠⁮敓潣摮sㄥ",
+        "敒潢瑯䄠瑦牥匠畨摴睯㽮⠠㴰潎‬㴱教⥳",
+        "潆捲⁥灁汰捩瑡潩獮琠⁯汃獯㽥⠠㴰潎‬㴱教⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Shutdown > Abort Shutdown",
+      "text": "扁牯⁴桓瑵潤湷",
+      "menuId": 25220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Shutdown > Disallow Shutdown",
+      "text": "楄慳汬睯匠畨摴睯n",
+      "menuId": 25230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Shutdown > Allow Shutdown",
+      "text": "汁潬⁷桓瑵潤湷",
+      "menuId": 25240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Recycle Bin > Empty Specific Recycle Bin",
+      "text": "浅瑰⁹敒祣汣⁥楂⁮楷桴删潯⁴慐桴┠0",
+      "menuId": 25250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潒瑯倠瑡⁨景删捥捹敬䈠湩漀⁴慐桴┠0",
+        "潄丠瑯䌠湯楦浲‿〨丽Ɐㄠ夽獥)桴┠0",
+        "潄丠瑯匠潨⁷牐杯敲獳‿〨丽Ɐㄠ夽獥)",
+        "潄丠瑯倠慬⁹潓湵⁤瑡䔠摮‿〨丽Ɐㄠ夽獥)",
+        "獕⁥灁汰捩瑡潩⁮楗摮睯映牯䐠慩潬獧‿〨丽Ɐㄠ夽獥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Recycle Bin > Empty All Recycle Bins",
+      "text": "浅瑰⁹污⁬敒祣汣⁥楂獮",
+      "menuId": 25260,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潄丠瑯䌠湯楦浲‿〨丽Ɐㄠ夽獥)",
+        "潄丠瑯匠潨⁷牐杯敲獳‿〨丽Ɐㄠ夽獥)",
+        "潄丠瑯倠慬⁹潓湵⁤瑡䔠摮‿〨丽Ɐㄠ夽獥)",
+        "獕⁥灁汰捩瑡潩⁮楗摮睯映牯䐠慩潬獧‿〨丽Ɐㄠ夽獥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "File Features > File Extensions > Extensions > Extension Description",
+      "text": "硅䑴獥④(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "硅整獮潩n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "File Features > File Extensions > Extensions > Extension Icon Info",
+      "text": "硅䥴潣⑮(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "硅整獮潩n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "File Features > File Extensions > Associations > Association File",
+      "text": "硅䅴獳捯楆敬⠤",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "硅整獮潩n敬⠤",
+        "獁潳楣瑡潩n⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "File Features > File Extensions > Associations > Get Association At",
+      "text": "硅䅴獳捯瑁⠤",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "硅整獮潩n⠤",
+        "湉敤x潩n⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "File Features > File Extensions > Associations > Number of Associations",
+      "text": "硅䅴獳捯畎扭牥(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "硅整獮潩n扭牥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Run on Startup > Application File Path",
+      "text": "瑓牡畴䅰灰⠤",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "獁楳湧摥丠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Run on Startup > Get Application At",
+      "text": "瑓牡畴䅰灰瑁⠤",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x䅰灰瑁⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Run on Startup > Number of Applications",
+      "text": "瑓牡畴䅰灰畎扭牥(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Mouse > Cursor X Position",
+      "text": "畃獲牯⡘",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Mouse > Cursor Y Position",
+      "text": "畃獲牯⡙",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Mouse > Left Boundry",
+      "text": "畃獲牯潂湵䱤晥⡴",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Mouse > Top Boundry",
+      "text": "畃獲牯潂湵呤灯(",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Mouse > Right Boundry",
+      "text": "畃獲牯潂湵剤杩瑨(",
+      "menuId": 27120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Mouse > Bottom Boundry",
+      "text": "畃獲牯潂湵䉤瑯潴⡭",
+      "menuId": 27130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Appearance > Desktop Wallpaper",
+      "text": "慗汬慰数⑲(",
+      "menuId": 27140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Appearance > Screensaver File",
+      "text": "捓卲癡牥⠤",
+      "menuId": 27150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Appearance > Screen Width",
+      "text": "捓敲湥楗瑤⡨",
+      "menuId": 27160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Appearance > Screen Height",
+      "text": "捓敲湥效杩瑨(",
+      "menuId": 27170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Taskbar > Left Edge",
+      "text": "獔扫牡敌瑦(",
+      "menuId": 27180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Taskbar > Top Edge",
+      "text": "獔扫牡潔⡰",
+      "menuId": 27190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Taskbar > Right Edge",
+      "text": "獔扫牡楒桧⡴",
+      "menuId": 27200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Taskbar > Bottom Edge",
+      "text": "獔扫牡潂瑴浯(",
+      "menuId": 27210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Taskbar > Taskbar Width",
+      "text": "獔扫牡楗瑤⡨",
+      "menuId": 27220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Taskbar > Taskbar Height",
+      "text": "獔扫牡效杩瑨(",
+      "menuId": 27230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Taskbar > AutoHide State",
+      "text": "獔扫牡畁潴楈敤(",
+      "menuId": 27240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Taskbar > Topmost State",
+      "text": "獔扫牡潔浰獯⡴",
+      "menuId": 27250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Recycle Bin > Number of Items",
+      "text": "䉒畎䥭整獭(",
+      "menuId": 27260,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "潒瑯倠瑡h("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Recycle Bin > Total Size",
+      "text": "䉒潔慴卬穩⡥",
+      "menuId": 27270,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "潒瑯倠瑡h⡥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Error String",
+      "text": "牅潲⑲(",
+      "menuId": 27280,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

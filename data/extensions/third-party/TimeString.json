@@ -1,0 +1,55 @@
+{
+  "file": "TimeString.mfx",
+  "conditions": [],
+  "actions": [],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get TimeString",
+      "text": "楔敭瑓楲杮⠤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "潆浲瑡⠠敓⁥效灬)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Create TimeString",
+      "text": "畃瑳浯楔敭瑓楲杮⠤",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潆浲瑡⠠敓⁥效灬)",
+        "教牡琀⠠敓⁥效灬)",
+        "慄⁹景琠敨夠慥⁲〨㌭㔶)",
+        "潍瑮⁨〨ㄭ⤱愀⁲〨㌭㔶)",
+        "慄⁹景琠敨䴠湯桴⠠ⴱㄳ)",
+        "慄⁹景琠敨圠敥⁫〨㘭))",
+        "潈牵⠠ⴰ㌲)敥⁫〨㘭))",
+        "楍畮整⠠ⴰ㤵)⁫〨㘭))",
+        "敓潣摮⠠ⴰ㤵)⁫〨㘭))"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "file": "ByteArray.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Byte At",
+      "text": "敓⁴祂整䄠⁴〥琠⁯ㄥ",
+      "menuId": 25000,
+      "resText": "Set Byte At %0 to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "桗捩⁨祢整‿〨戭獡摥‬潹⁵慭⁹獵⁥㉦瑤ㅯ⁤湡⁤㍦瑤ㅯ⥤",
+        "湅整⁲敮⁷慶畬⁥䈨瑹ⱥ〠㈭㔵)獵⁥㉦瑤ㅯ⁤湡⁤㍦瑤ㅯ⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Save to",
+      "text": "慓敶琠⁯〥",
+      "menuId": 25001,
+      "resText": "Save to %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬琠⁯慳敶琠o"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Load from",
+      "text": "潌摡琠⁯〥",
+      "menuId": 25002,
+      "resText": "Load to %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬琠⁯潬摡映潲m"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Resize to",
+      "text": "敒楳敺琠⁯〥戠瑹獥",
+      "menuId": 25003,
+      "resText": "Resize to %0 bytes",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楓敺椠⁮祢整s瑹獥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Value used in calculations > Set X Size",
+      "text": "敓⁴⁘楳敺琠⁯〥",
+      "menuId": 25004,
+      "resText": "Set X size to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲慶畬e⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Value used in calculations > Set Y Size",
+      "text": "敓⁴⁙楳敺琠⁯〥",
+      "menuId": 25005,
+      "resText": "Set Y size to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲慶畬e⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get byte at",
+      "text": "敧扴瑹慥⡴",
+      "menuId": 27000,
+      "resText": "getbyteat(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潌慣楴湯⠀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Useful calculations > Convert a 2D position to 1D position",
+      "text": "㉦瑤ㅯ⡤",
+      "menuId": 27001,
+      "resText": "f2dto1d(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "X瑤ㅯ⡤",
+        "Y瑤ㅯ⡤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Useful calculations > Convert a 3D position to 1D position",
+      "text": "㍦瑤ㅯ⡤",
+      "menuId": 27002,
+      "resText": "f3dto1d(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "X瑤ㅯ⡤",
+        "Y瑤ㅯ⡤",
+        "Z瑤ㅯ⡤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get array size",
+      "text": "楓敺(",
+      "menuId": 27003,
+      "resText": "Size(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "file": "Blowfish.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Errors > Has an Error Occured?",
+      "text": "漥›湏䔠牲牯",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Encryption Keys > Does a Specific Key Exist?",
+      "text": "漥›敋⁹〥䔠楸瑳s",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥湅牣灹楴湯䬠祥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Character Filter > Is a Specific Character Being Filtered?",
+      "text": "漥›桃牡捡整⁲〥椠⁳敂湩⁧楆瑬牥摥",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥桃牡捡整r敂湩⁧楆瑬牥摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Character Filter > Is a Specific Character (by Code) Being Filtered?",
+      "text": "漥›桃牡捡整⁲楷桴䌠摯⁥〥椠⁳敂湩⁧楆瑬牥摥",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥桃牡捡整⁲潃敤　椠⁳敂湩⁧楆瑬牥摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Settings > Is Set to Pad End of Files with Zeros?",
+      "text": "漥›敓⁴潴倠摡䔠摮漠⁦楆敬⁳楷桴娠牥獯",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Settings > Is Filtering of Characters with Codes 0 to 31 Enabled?",
+      "text": "漥›楆瑬牥湩⁧景䌠慨慲瑣牥⁳楷桴䌠摯獥〠琠⁯ㄳ椠⁳湅扡敬d",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Files > Has File Finished Being Encrypted/Decrypted?",
+      "text": "漥›楆敬椠⁳潄敮䈠楥杮䔠据祲瑰摥䐯捥祲瑰摥",
+      "menuId": 26060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Files > Is File Being Encrypted/Decrypted?",
+      "text": "漥›楆敬椠⁳敂湩⁧湅牣灹整⽤敄牣灹整d",
+      "menuId": 26070,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Encryption Keys > Add an Encryption Key",
+      "text": "摁⁤敋⁹〥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥湅牣灹楴湯䬠祥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Encryption Keys > Remove an Encryption Key",
+      "text": "敒潭敶䬠祥┠0",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥湅牣灹楴湯䬠祥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Character Filter > Add Characters to Filter",
+      "text": "摁⁤桃牡捡整獲┠‰潴琠敨䘠汩整r",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥桃牡捡整獲琀敨䘠汩整r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Character Filter > Add a Character to Filter by Code",
+      "text": "摁⁤桃牡捡整⁲楷桴䌠摯⁥〥琠⁯桴⁥楆瑬牥",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥桃牡捡整⁲潃敤　琠⁯桴⁥楆瑬牥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Character Filter > Remove Characters from Filter",
+      "text": "敒潭敶䌠慨慲瑣牥⁳〥映潲⁭桴⁥楆瑬牥",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥桃牡捡整獲昀潲⁭桴⁥楆瑬牥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Character Filter > Remove a Character from Filter by Code",
+      "text": "敒潭敶䌠慨慲瑣牥眠瑩⁨潃敤┠‰牦浯琠敨䘠汩整r",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥桃牡捡整⁲潃敤攀┠‰牦浯琠敨䘠汩整r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Errors > Clear Expression Error Code",
+      "text": "汃慥⁲硅牰獥楳湯䔠牲牯䌠摯e",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Files > Encrypt a File",
+      "text": "湅牣灹⁴楆敬┠‱楷桴䬠祥┠0",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥湅牣灹楴湯䬠祥─0",
+        "湅整⁲桴⁥楆敬瀀楴湯䬠祥─0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Files > Decrypt a File",
+      "text": "敄牣灹⁴楆敬┠‱楷桴䬠祥┠0",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥湅牣灹楴湯䬠祥─0",
+        "湅整⁲桴⁥楆敬瀀楴湯䬠祥─0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Settings > Do not Pad End of Files with Zeros",
+      "text": "潄渠瑯倠摡䔠摮漠⁦楆敬⁳楷桴娠牥獯",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Settings > Pad End of Files with Zeros",
+      "text": "慐⁤湅⁤景䘠汩獥眠瑩⁨敚潲s",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Settings > Enable Filtering of Characters with Codes 0 to 31",
+      "text": "湅扡敬䘠汩整楲杮漠⁦桃牡捡整獲眠瑩⁨潃敤⁳‰潴㌠1",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Settings > Disable Filtering of Characters with Codes 0 to 31",
+      "text": "楄慳汢⁥楆瑬牥湩⁧景䌠慨慲瑣牥⁳楷桴䌠摯獥〠琠⁯ㄳ",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Files > Set File Work Time Interval",
+      "text": "敓⁴楆敬圠牯⁫楔敭䤠瑮牥慶⁬潴┠‰楍汬獩捥湯獤",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆敬圠牯⁫楔敭䤠瑮牥慶⁬湩䴠汩楬敳潣摮⁳〨琠⁯楄慳汢⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Files > Set File Work Percentage Interval",
+      "text": "敓⁴楆敬圠牯⁫敐捲湥慴敧䤠瑮牥慶⁬潴┠‰┥",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥楆敬圠牯⁫敐捲湥慴敧䤠瑮牥慶⁬〨琠⁯楄慳汢⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Encrypting > Encrypt an Integer",
+      "text": "湅牣灹䥴瑮来牥(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Floats > Convert a Float to an Integer",
+      "text": "潃癮牥呴䥯瑮来牥(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Encrypting > Encrypt a String",
+      "text": "湅牣灹却牴湩⑧(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Decrypting > Decrypt an Integer",
+      "text": "敄牣灹䥴瑮来牥(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Floats > Convert an Integer Back to a Float",
+      "text": "潃癮牥呴䙯潬瑡(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Decrypting > Decrypt a String",
+      "text": "敄牣灹却牴湩⑧(",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Filtering > Filter a String",
+      "text": "楆瑬牥瑓楲杮⠤",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Filtering > Defilter a String",
+      "text": "敄楦瑬牥瑓楲杮⠤",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Errors > Get Current Error Code",
+      "text": "牅潲䍲摯⡥",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Errors > Get Current Expression Error Code",
+      "text": "硅牰獥楳湯牅潲䍲摯⡥",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Encryption Keys > Create a Random Key",
+      "text": "慒摮浯敋⑹(",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Files > Get File Work Time Interval",
+      "text": "楆敬楔敭湉整癲污(",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Files > Get File Work Progress",
+      "text": "楆敬牐杯敲獳(",
+      "menuId": 27120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Files > Get File Work Percentage Interval",
+      "text": "楆敬敐捲湥䥴瑮牥慶⡬",
+      "menuId": 27130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Files > Get File Size",
+      "text": "楆敬楓敺(",
+      "menuId": 27140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

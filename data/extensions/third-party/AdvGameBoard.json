@@ -1,0 +1,1466 @@
+{
+  "file": "AdvGameBoard.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On found connected bricks",
+      "text": "漥›湏映畯摮挠湯敮瑣摥",
+      "menuId": 26000,
+      "resText": "%o: On found connected",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On found brick",
+      "text": "漥›湏映畯摮戠楲正",
+      "menuId": 26010,
+      "resText": "%o: On found brick",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "On looped brick (extra looping)",
+      "text": "漥›湏映畯摮氠潯数d",
+      "menuId": 26020,
+      "resText": "%o: On found looped",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "No connected found",
+      "text": "漥›潎挠湯敮瑣摥映畯摮",
+      "menuId": 26030,
+      "resText": "%o: No connected found",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Gravity check > Brick at x,y can fall up",
+      "text": "漥›牂捩⁫瑡┠ⰰ┠‱慣⁮慦汬甠p",
+      "menuId": 26050,
+      "resText": "%o: Brick at %0, %1 can fall up",
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘景戠楲正─‱慣⁮慦汬甠p",
+        "湅整⁲⁙景戠楲正─‱慣⁮慦汬甠p"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Gravity check > Brick at x,y can fall down",
+      "text": "漥›牂捩⁫瑡┠ⰰ┠‱慣⁮慦汬搠睯n",
+      "menuId": 26040,
+      "resText": "%o: Brick at %0, %1 can fall down",
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘景戠楲正─‱慣⁮慦汬搠睯n",
+        "湅整⁲⁙景戠楲正─‱慣⁮慦汬搠睯n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Gravity check > Brick at x,y can fall left",
+      "text": "漥›牂捩⁫瑡┠ⰰ┠‱慣⁮慦汬氠晥t",
+      "menuId": 26060,
+      "resText": "%o: Brick at %0, %1 can fall left",
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘景戠楲正─‱慣⁮慦汬氠晥t",
+        "湅整⁲⁙景戠楲正─‱慣⁮慦汬氠晥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Gravity check > Brick at x,y can fall right",
+      "text": "漥›牂捩⁫瑡┠ⰰ┠‱慣⁮慦汬爠杩瑨",
+      "menuId": 26070,
+      "resText": "%o: Brick at %0, %1 can fall right",
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘景戠楲正─‱慣⁮慦汬爠杩瑨",
+        "湅整⁲⁙景戠楲正─‱慣⁮慦汬爠杩瑨"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "On Brick moved",
+      "text": "漥›湏戠楲正洠癯摥",
+      "menuId": 26080,
+      "resText": "%o: On brick moved",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "On Brick deleted",
+      "text": "漥›湏戠楲正搠汥瑥摥",
+      "menuId": 26090,
+      "resText": "%o: On brick deleted",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Position is empty",
+      "text": "漥›潐楳楴湯┠ⰰ┠‱獩攠灭祴",
+      "menuId": 26100,
+      "resText": "%o: Position %0, %1 is empty",
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲X楴湯┠ⰰ┠‱獩攠灭祴",
+        "湅整⁲Y楴湯┠ⰰ┠‱獩攠灭祴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set brick at x,y",
+      "text": "敓⁴牢捩⁫瑡┠ⰰ┠‱潴琠灹㩥┠2",
+      "menuId": 25000,
+      "resText": "Set brick at %0, %1 to type: %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘潰楳楴湯琀┠ⰰ┠‱潴琠灹㩥┠2",
+        "⁙潰楳楴湯琀┠ⰰ┠‱潴琠灹㩥┠2",
+        "牂捩⁫祴数琀┠ⰰ┠‱潴琠灹㩥┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Clear board",
+      "text": "汃慥⁲潢牡d",
+      "menuId": 25010,
+      "resText": "Clear board",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set board size",
+      "text": "敓⁴潢牡⁤楳敺琠⁯〥‬ㄥ",
+      "menuId": 25020,
+      "resText": "Set board size to %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘楳敺爀⁤楳敺琠⁯〥‬ㄥ",
+        "⁙楳敺爀⁤楳敺琠⁯〥‬ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Search for connected > Set min. connected bricks",
+      "text": "敓⁴敳牡档映牯洠湩┠‰潣湮捥整d",
+      "menuId": 25030,
+      "resText": "Set search for min %0 connected",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡業楮畭⁭慶畬⁥潦⁲潦湵⁤潣湮捥整⁤牢捩獫"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Search for connected > Horizontal",
+      "text": "敓牡档栠牯穩湯慴⁬潦⁲祴数┠0",
+      "menuId": 25040,
+      "resText": "Search horizontal for type %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牂捩瑫灹e穩湯慴⁬潦⁲祴数┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Search for connected > Vertical",
+      "text": "敓牡档瘠牥楴慣⁬潦⁲祴数┠0",
+      "menuId": 25050,
+      "resText": "Search vertical for type %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牂捩瑫灹e楴慣⁬潦⁲祴数┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Search for connected > Diagonal    \\  (nw-se)",
+      "text": "敓牡档搠慩潧慮獬⠠敬瑦ⴠ爠杩瑨 潦⁲祴数┠0",
+      "menuId": 25170,
+      "resText": "Search diagonals (left - right) for type %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牂捩瑫灹e潧慮獬⠠敬瑦ⴠ爠杩瑨 潦⁲祴数┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Search for connected > Connected",
+      "text": "敓牡档挠湯敮瑣摥映潲⁭潰楳楴湯┠ⰰ┠1",
+      "menuId": 25070,
+      "resText": "Search connected from position %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "瑓牡⁴潰楳楴湯堠昀潲⁭潰楳楴湯┠ⰰ┠1",
+        "瑓牡⁴潰楳楴湯夠昀潲⁭潰楳楴湯┠ⰰ┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Manipulate board > Delete horizontal line",
+      "text": "敄敬整栠牯穩湯慴⁬楬敮眠敨敲礠┽‰潭敤┽1",
+      "menuId": 25080,
+      "resText": "Delete horizontal line where y=%0 mode=%1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡⁙潣牯楤慮整映牯琠敨栠牯穩湯慴⁬楬敮琠⁯敢搠汥瑥摥",
+        "潍敤‮‰‽潮浲污‬㴱洠癯⁥扡癯⁥潤湷慷摲ⱳ㈠‽潭敶戠汥睯甠睰牡獤."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Manipulate board > Delete vertical line",
+      "text": "敄敬整瘠牥楴慣⁬楬敮眠敨敲砠┽‰潭敤┽1",
+      "menuId": 25090,
+      "resText": "Delete vertical line where x=%0 mode=%1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡⁘潣牯楤慮整映牯琠敨瘠牥楴慣⁬楬敮琠⁯敢搠汥瑥摥",
+        "潍敤‮‰‽潮浲污‬㴱洠癯⁥敬瑦戠楲正⁳潴琠敨爠杩瑨‬㴲爠杩瑨戠楲正⁳潴琠敨氠晥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Manipulate board > Swap two bricks",
+      "text": "睓灡戠楲正映潲⁭〥‬ㄥ眠瑩⁨㈥‬㌥",
+      "menuId": 25100,
+      "resText": "Swap brick from %0, %1 with %2, %3",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牂捩⁫湯ⱥ堠漀⁭〥‬ㄥ眠瑩⁨㈥‬㌥",
+        "牂捩⁫湯ⱥ夠漀⁭〥‬ㄥ眠瑩⁨㈥‬㌥",
+        "牂捩⁫睴Ɐ堠漀⁭〥‬ㄥ眠瑩⁨㈥‬㌥",
+        "牂捩⁫睴Ɐ夠漀⁭〥‬ㄥ眠瑩⁨㈥‬㌥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Manipulate board > Gravity > Down: Drop x amount",
+      "text": "片癡瑩㩹䐠潲⁰牢捩獫┠‰汳瑯⁳潤湷",
+      "menuId": 25110,
+      "resText": "Gravity: Drop bricks %0 slots down",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥浡畯瑮漠⁦汳瑯⁳桴⁥牢捩獫猠潨汵⁤慦汬搠睯睮牡獤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Manipulate board > Gravity > Down: Drop bricks 1 slot",
+      "text": "片癡瑩㩹䐠潲⁰牢捩獫ㄠ猠潬⁴潤湷",
+      "menuId": 25120,
+      "resText": "Gravity: Drop bricks 1 slot down",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Mark brick as used",
+      "text": "慍歲戠楲正┠ⰰ┠‱獡甠敳d",
+      "menuId": 25130,
+      "resText": "Mark brick %0, %1 as used",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲X正┠ⰰ┠‱獡甠敳d",
+        "湅整⁲Y正┠ⰰ┠‱獡甠敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Delete marked bricks",
+      "text": "敄敬整洠牡敫⁤牢捩獫",
+      "menuId": 25140,
+      "resText": "Delete marked bricks",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Manipulate board > Undo last swap (swap again)",
+      "text": "湕潤猠慷⁰猨慷⁰条楡⥮",
+      "menuId": 25150,
+      "resText": "Undo swap (swap again)",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Search for connected > Diagonal    /  (ne-sw)",
+      "text": "敓牡档搠慩潧慮獬⠠楲桧⁴‭敬瑦 潦⁲祴数┠0",
+      "menuId": 25160,
+      "resText": "Search diagonals (right - left) for type %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牂捩瑫灹e潧慮獬⠠楲桧⁴‭敬瑦 潦⁲祴数┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "On found connected/brick > Loop through found bricks",
+      "text": "潌灯琠牨畯桧映畯摮戠楲正s",
+      "menuId": 25180,
+      "resText": "Loop through found bricks",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Set fixed value of brick",
+      "text": "敓⁴楦數⁤慶畬⁥景戠楲正愠⁴〥‬ㄥ琠⁯㈥",
+      "menuId": 25190,
+      "resText": "Set fixed value of brick at %0, %1 to %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲X⁤慶畬⁥景戠楲正愠⁴〥‬ㄥ琠⁯㈥",
+        "湅整⁲Y⁤慶畬⁥景戠楲正愠⁴〥‬ㄥ琠⁯㈥",
+        "湅整⁲楦數⁤慶畬e戠楲正愠⁴〥‬ㄥ琠⁯㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Import actives for board",
+      "text": "浉潰瑲愠瑣癩獥映牯戠慯摲›┠0",
+      "menuId": 25220,
+      "resText": "Import actives for board:  %0",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "浉潰瑲愠瑣癩獥映牯戠慯摲 ┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "On found connected/brick > Mark all connected as used",
+      "text": "慍歲愠汬映畯摮戠楲正⁳獡甠敳d",
+      "menuId": 25210,
+      "resText": "Mark all found bricks as used",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "On found connected/brick > Mark current brick as used",
+      "text": "慍歲挠牵敲瑮戠楲正愠⁳獵摥",
+      "menuId": 25200,
+      "resText": "Mark current brick as used",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Extra looping > Loop all bricks in board",
+      "text": "潌灯琠牨畯桧愠汬戠楲正s",
+      "menuId": 25230,
+      "resText": "Loop through all bricks",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Extra looping > Loop all bricks of type",
+      "text": "潌灯琠牨畯桧愠汬戠楲正⁳景琠灹⁥〥",
+      "menuId": 25240,
+      "resText": "Loop through all bricks of type %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲牢捩⁫祴数戀楲正⁳景琠灹⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Extra looping > Loop surrounding of brick",
+      "text": "潌灯琠牨畯桧猠牯潲湵楤杮戠楲正⁳牦浯┠ⰰ┠1",
+      "menuId": 25250,
+      "resText": "Loop through sorrounding bricks from %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲散瑮牥堠爀潲湵楤杮戠楲正⁳牦浯┠ⰰ┠1",
+        "湅整⁲散瑮牥夠爀潲湵楤杮戠楲正⁳牦浯┠ⰰ┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Extra looping > Loop through horizontal line",
+      "text": "潌灯琠牨畯桧栠牯穩湯慴⁬楬敮⠠㵹┠‰)",
+      "menuId": 25260,
+      "resText": "Loop through horizontal line (y= %0 )",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁹潣牯楤慮整渀慴⁬楬敮⠠㵹┠‰)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Extra looping > Loop through vertical line",
+      "text": "潌灯琠牨畯桧瘠牥楴慣⁬楬敮⠠㵸┠‰)",
+      "menuId": 25270,
+      "resText": "Loop through vertical line (x= %0 )",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁸潣牯楤慮整愀⁬楬敮⠠㵸┠‰)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Clear with type (fill)",
+      "text": "汃慥⁲潢牡⁤楷桴琠灹⁥〥",
+      "menuId": 25280,
+      "resText": "Clear board with type %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲牢捩⁫祴数琀灹⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Manipulate board > Insert brick",
+      "text": "湉敳瑲戠楲正愠⁴〥‬ㄥ琠灹㩥┠2",
+      "menuId": 25350,
+      "resText": "Insert brick at %0, %1 type: %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲X楲正愠⁴〥‬ㄥ琠灹㩥┠2",
+        "湅整⁲Y楲正愠⁴〥‬ㄥ琠灹㩥┠2",
+        "湅整⁲牢捩⁫祴数　‬ㄥ琠灹㩥┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Easy grid features > Set origin",
+      "text": "敓⁴牯杩湩挠潯摲湩瑡獥›〥‬ㄥ",
+      "menuId": 25360,
+      "resText": "Set origin coordinates: %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣牯楤慮整琀獥›〥‬ㄥ",
+        "湅整⁲⁙潣牯楤慮整琀獥›〥‬ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Easy grid features > Set cell dimensions",
+      "text": "敓⁴散汬搠浩湥楳湯㩳┠ⰰ┠1",
+      "menuId": 25370,
+      "resText": "Set cell dimensions: %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲散汬眠摩桴渀㩳┠ⰰ┠1",
+        "湅整⁲散汬栠楥桧t㩳┠ⰰ┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Move fixed values flag > ON",
+      "text": "潍敶映硩摥›乏",
+      "menuId": 25380,
+      "resText": "Move fixed: ON",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Move fixed values flag > OFF",
+      "text": "潍敶瀠硩摥›䙏F",
+      "menuId": 25390,
+      "resText": "Move pixed: OFF",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Manipulate board > Move brick",
+      "text": "潍敶戠楲正映潲⁭〥‬ㄥ琠⁯㈥‬㌥",
+      "menuId": 25400,
+      "resText": "Move brick from %0, %1 to %2, %3",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲潳牵散堠 〥‬ㄥ琠⁯㈥‬㌥",
+        "湅整⁲潳牵散夠 〥‬ㄥ琠⁯㈥‬㌥",
+        "湅整⁲慴杲瑥堠 〥‬ㄥ琠⁯㈥‬㌥",
+        "湅整⁲慴杲瑥夠 〥‬ㄥ琠⁯㈥‬㌥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Manipulate board > Gravity > Up: Drop bricks 1 slot",
+      "text": "片癡瑩㩹䐠潲⁰牢捩獫ㄠ猠潬⁴灵",
+      "menuId": 25290,
+      "resText": "Gravity: Drop bricks 1 slot up",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Manipulate board > Gravity > Left: Drop bricks 1 slot",
+      "text": "片癡瑩㩹䐠潲⁰牢捩獫ㄠ猠潬⁴敬瑦",
+      "menuId": 25310,
+      "resText": "Gravity: Drop bricks 1 slot left",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Manipulate board > Gravity > Right: Drop bricks 1 slot",
+      "text": "片癡瑩㩹䐠潲⁰牢捩獫ㄠ猠潬⁴楲桧t",
+      "menuId": 25330,
+      "resText": "Gravity: Drop bricks 1 slot right",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Manipulate board > Gravity > Up: Drop x amount",
+      "text": "片癡瑩㩹䐠潲⁰牢捩獫┠‰汳瑯⁳灵",
+      "menuId": 25300,
+      "resText": "Gravity: Drop bricks %0 slots up",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲浡畯瑮琠⁯牤灯甠p汳瑯⁳灵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Manipulate board > Gravity > Left: Drop x amount",
+      "text": "片癡瑩㩹䐠潲⁰牢捩獫┠‰汳瑯⁳敬瑦",
+      "menuId": 25320,
+      "resText": "Gravity: Drop bricks %0 slots left",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲浡畯瑮琠⁯牤灯氠晥t瑯⁳敬瑦"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Manipulate board > Gravity > Right: Drop x amount",
+      "text": "片癡瑩㩹䐠潲⁰牢捩獫┠‰汳瑯⁳楲桧t",
+      "menuId": 25340,
+      "resText": "Gravity: Drop bricks %0 slots right",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲浡畯瑮琠⁯牤灯爠杩瑨琀⁳楲桧t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Easy grid features > Set value of cell",
+      "text": "敓⁴散汬瘠污敵愠⁴〥‬ㄥ琠㩯┠2",
+      "menuId": 25410,
+      "resText": "Set cell value at %0, %1 to: %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲X瘠污敵愠⁴〥‬ㄥ琠㩯┠2",
+        "湅整⁲Y瘠污敵愠⁴〥‬ㄥ琠㩯┠2",
+        "湅整⁲⁡慶畬e愠⁴〥‬ㄥ琠㩯┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Manipulate board > Delete brick",
+      "text": "敄敬整戠楲正愠⁴〥‬ㄥ",
+      "menuId": 25420,
+      "resText": "Delete brick at %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲X楲正愠⁴〥‬ㄥ",
+        "湅整⁲Y楲正愠⁴〥‬ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Manipulate board > Shift horizontal line",
+      "text": "桓晩⁴潨楲潺瑮污氠湩⁥〥猠潬獴›ㄥ",
+      "menuId": 25430,
+      "resText": "Shift horizontal line %0 slots: %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁙潣牯楤慮整映牯栠牯穩湯慴⁬楬敮",
+        "湅整⁲汳瑯⁳潴猠楨瑦氠晥⁴牯爠杩瑨‬潰楳楴敶›潭敶爠杩瑨Ⱐ渠来瑡癩㩥洠癯⁥敬瑦"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Manipulate board > Shift vertical line",
+      "text": "桓晩⁴潨楲潺瑮污氠湩⁥〥猠潬獴›ㄥ",
+      "menuId": 25440,
+      "resText": "Shift horizontal line %0 slots: %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣牯楤慮整映牯瘠牥楴慣⁬楬敮",
+        "湅整⁲汳瑯⁳潴猠楨瑦甠⁰牯搠睯Ɱ瀠獯瑩癩㩥洠癯⁥潤湷Ⱐ渠来瑡癩㩥洠癯⁥灵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Easy grid features > Position bricks to grid",
+      "text": "潐楳楴湯戠楲正⁳潴朠楲d",
+      "menuId": 25450,
+      "resText": "Position bricks to grid",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get brick at x,y",
+      "text": "牂捩䅫⡴",
+      "menuId": 27000,
+      "resText": "BrickAt(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Board X size",
+      "text": "単穩⡥",
+      "menuId": 27010,
+      "resText": "XSize(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Board Y size",
+      "text": "卙穩⡥",
+      "menuId": 27020,
+      "resText": "YSize(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "On found connected > Get number of connected bricks",
+      "text": "畎䍭湯敮瑣摥(",
+      "menuId": 27030,
+      "resText": "NumConnected(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "On found connected > Get X of brick at index",
+      "text": "敇䉴楲正⡘",
+      "menuId": 27040,
+      "resText": "GetBrickX(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "On found connected > Get Y of brick at index",
+      "text": "敇䉴楲正⡙",
+      "menuId": 27050,
+      "resText": "GetBrickY(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "On found connected > Get found brick type",
+      "text": "祓瑳浥牂捩呫灹⡥",
+      "menuId": 27060,
+      "resText": "SystemBrickType(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Count bricks in horizontal line",
+      "text": "畎䉭楲正䡳牯穩湯慴⡬",
+      "menuId": 27070,
+      "resText": "NumBricksHorizontal(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Count bricks in vertical line",
+      "text": "畎䉭楲正噳牥楴慣⡬",
+      "menuId": 27080,
+      "resText": "NumBricksVertical(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Count surrounding of type",
+      "text": "潃湵却牵潲湵楤杮(",
+      "menuId": 27090,
+      "resText": "CountSurrounding(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Count total bricks",
+      "text": "潃湵呴瑯污(",
+      "menuId": 27100,
+      "resText": "CountTotal(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "On found connected > Get fixed value of brick at index",
+      "text": "牂捩䙫硩摥(",
+      "menuId": 27150,
+      "resText": "BrickFixed(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "On found brick > Get X of brick",
+      "text": "潆湵䉤楲正⡘",
+      "menuId": 27110,
+      "resText": "FoundBrickX(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "On found brick > Get Y of brick",
+      "text": "潆湵䉤楲正⡙",
+      "menuId": 27120,
+      "resText": "FoundBrickY(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "On found brick > Get brick type",
+      "text": "潆湵䉤楲正祔数(",
+      "menuId": 27130,
+      "resText": "FoundBrickType(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "On found brick > Get fixed value of brick",
+      "text": "潆湵䉤楲正楆數⡤",
+      "menuId": 27140,
+      "resText": "FoundBrickFixed(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Get fixed value at x,y",
+      "text": "楆數䅤⡴",
+      "menuId": 27160,
+      "resText": "FixedAt(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "On found brick > Get loop index",
+      "text": "牂捩䱫潯䥰摮硥(",
+      "menuId": 27170,
+      "resText": "BrickLoopIndex(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Search board > Find X from fixed value",
+      "text": "楆摮晘潲䙭硩摥(",
+      "menuId": 27180,
+      "resText": "FindXfromFixed(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Search board > Find Y from fixed value",
+      "text": "楆摮晙潲䙭硩摥(",
+      "menuId": 27190,
+      "resText": "FindYfromFixed(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Search board > Find brick type from fixed value",
+      "text": "楆摮牂捩晫潲䙭硩摥(",
+      "menuId": 27200,
+      "resText": "FindBrickfromFixed(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "On looped brick > Get X of brick",
+      "text": "潌灯牂捩填(",
+      "menuId": 27210,
+      "resText": "LoopBrickX(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "On looped brick > Get Y of brick",
+      "text": "潌灯牂捩奫(",
+      "menuId": 27220,
+      "resText": "LoopBrickY(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "On looped brick > Get brick type",
+      "text": "潌灯牂捩呫灹⡥",
+      "menuId": 27230,
+      "resText": "LoopBrickType(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "On looped brick > Get fixed value of brick",
+      "text": "潌灯牂捩䙫硩摥(",
+      "menuId": 27240,
+      "resText": "LoopBrickFixed(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "On looped brick > Get loop index",
+      "text": "潌灯摥湉敤⡸",
+      "menuId": 27350,
+      "resText": "LoopedIndex(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Easy grid features > Get X from X-coordinate",
+      "text": "潘䉦楲正⡘",
+      "menuId": 27360,
+      "resText": "XofBrickX(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Easy grid features > Get Y from Y-coordinate",
+      "text": "潙䉦楲正⡙",
+      "menuId": 27370,
+      "resText": "YofBrickY(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Easy grid features > Snap X-coordinate to grid",
+      "text": "湓灡⡘",
+      "menuId": 27420,
+      "resText": "SnapX(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Easy grid features > Snap Y-coordinate to grid",
+      "text": "湓灡⡙",
+      "menuId": 27430,
+      "resText": "SnapY(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Easy grid features > Get info > Get origin X coordinate",
+      "text": "牏杩湩⡘",
+      "menuId": 27380,
+      "resText": "OriginX(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Easy grid features > Get info > Get origin Y coordinate",
+      "text": "牏杩湩⡙",
+      "menuId": 27390,
+      "resText": "OriginY(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Easy grid features > Get info > Get cell width",
+      "text": "敃汬楗瑤⡨",
+      "menuId": 27400,
+      "resText": "CellWidth(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Easy grid features > Get info > Get cell height",
+      "text": "敃汬效杩瑨(",
+      "menuId": 27410,
+      "resText": "CellHeight(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Easy grid features > Get cell value from x,y",
+      "text": "敃汬慖畬⡥",
+      "menuId": 27440,
+      "resText": "CellValue(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Easy grid features > Get X-coordinate of cell",
+      "text": "潘䍦汥⡬",
+      "menuId": 27450,
+      "resText": "XofCell(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Easy grid features > Get Y-coordinate of cell",
+      "text": "潙䍦汥⡬",
+      "menuId": 27460,
+      "resText": "YofCell(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "On moved brick > Get fixed value of brick",
+      "text": "潍敶䙤硩摥(",
+      "menuId": 27470,
+      "resText": "MovedFixed(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "On moved brick > Get new X-coordinate",
+      "text": "潍敶乤睥⡘",
+      "menuId": 27480,
+      "resText": "MovedNewX(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "On moved brick > Get new Y-coordinate",
+      "text": "潍敶乤睥⡙",
+      "menuId": 27490,
+      "resText": "MovedNewY(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "On moved brick > Get old X-coordinate",
+      "text": "潍敶佤摬⡘",
+      "menuId": 27500,
+      "resText": "MovedOldX(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "On moved brick > Get old Y-coordinate",
+      "text": "潍敶佤摬⡙",
+      "menuId": 27510,
+      "resText": "MovedOldY(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "On deleted brick > Get fixed value of brick",
+      "text": "敄敬整䙤硩摥(",
+      "menuId": 27520,
+      "resText": "DeletedFixed(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "On deleted brick > Get X-coordinate",
+      "text": "敄敬整塤(",
+      "menuId": 27530,
+      "resText": "DeletedX(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "On deleted brick > Get Y-coordinate",
+      "text": "敄敬整奤(",
+      "menuId": 27540,
+      "resText": "DeletedY(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

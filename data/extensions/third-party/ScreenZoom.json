@@ -1,0 +1,1213 @@
+{
+  "file": "ScreenZoom.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Screen > Rotation operation completed?",
+      "text": "%o: Rotation operation completed",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Screen > Scale operation completed?",
+      "text": "%o: Scale operation completed",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Layer > Rotation operation completed?",
+      "text": "%o: Layer %0, rotation operation completed",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Layer > Scale operation completed?",
+      "text": "%o: Layer %0, scale operation completed",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Screen > Shake operation completed?",
+      "text": "%o: Screen shake completed",
+      "menuId": 26004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Layer > Shake operation completed?",
+      "text": "%o: Layer %0, shake completed",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Screen > Set angle",
+      "text": "Set screen angle to %0",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Please enter the angle in degress (0-360)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Screen > Set scale",
+      "text": "Set screen scale to %0",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Please enter the scale, 1.0=normal, 2.0=twice scale, 0.5=half scale"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Screen > Set horizontal scale",
+      "text": "Set screen horizontal scale to %0",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Please enter the scale, 1.0=normal, 2.0=twice scale, 0.5=half scale"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Screen > Set vertical scale",
+      "text": "Set screen vertical scale to %0",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Please enter the scale, 1.0=normal, 2.0=twice scale, 0.5=half scale"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Screen > Smooth > Set angle",
+      "text": "Smooth turn to screen angle %0 in %1ms",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the angle in degress (0-360)",
+        "Please enter the duration, in milliseconds"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Screen > Smooth > Set scale",
+      "text": "Smooth zoom to screen scale %0 in %1ms",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the scale, 1.0=normal, 2.0=twice scale, 0.5=half scale",
+        "Please enter the duration, in milliseconds"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Screen > Smooth > Set horizontal scale",
+      "text": "Smooth zoom to screen horizontal scale %0 in %1ms",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the scale, 1.0=normal, 2.0=twice scale, 0.5=half scale",
+        "Please enter the duration, in milliseconds"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Screen > Smooth > Set vertical scale",
+      "text": "Smooth zoom to screen vertical scale %0 in %1ms",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the scale, 1.0=normal, 2.0=twice scale, 0.5=half scale",
+        "Please enter the duration, in milliseconds"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Screen > Elastic > Set angle",
+      "text": "Elastic turn to screen angle %0 in %1ms, factor %2",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the angle in degress (0-360)",
+        "Please enter the duration, in milliseconds",
+        "Please enter bounce factor, above 1 (1=infinite bounces)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Screen > Elastic > Set scale",
+      "text": "Elastic zoom to screen scale %0 in %1ms, factor %2",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the scale, 1.0=normal, 2.0=twice scale, 0.5=half scale",
+        "Please enter the duration, in milliseconds",
+        "Please enter bounce factor, above 1 (1=infinite bounces)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Screen > Elastic > Set horizontal scale",
+      "text": "Elastic zoom to screen horizontal scale %0 in %1ms, factor %2",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the scale, 1.0=normal, 2.0=twice scale, 0.5=half scale",
+        "Please enter the duration, in milliseconds",
+        "Please enter bounce factor, above 1 (1=infinite bounces)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Screen > Elastic > Set vertical scale",
+      "text": "Elastic zoom to screen vertical scale %0 in %1ms, factor %2",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the scale, 1.0=normal, 2.0=twice scale, 0.5=half scale",
+        "Please enter the duration, in milliseconds",
+        "Please enter bounce factor, above 1 (1=infinite bounces)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Screen > Hot spot > Set position",
+      "text": "Set screen hot spot to %0",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        16
+      ],
+      "paramTitles": [
+        "Please choose the position of the hot spot"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Screen > Hot spot > Set X coordinate",
+      "text": "Set screen X hot spot to %0",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Please enter the X coordinate of the hot spot"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Screen > Hot spot > Set Y coordinate",
+      "text": "Set screen Y hot spot to %0",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Please enter the Y coordinate of the hot spot"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Screen > Linear > Set angle",
+      "text": "Linear turn to screen angle %0 in %1ms",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the angle in degress (0-360)",
+        "Please enter the duration, in milliseconds"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Screen > Linear > Set scale",
+      "text": "Linear zoom to screen scale %0 in %1ms",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the scale, 1.0=normal, 2.0=twice scale, 0.5=half scale",
+        "Please enter the duration, in milliseconds"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Screen > Linear > Set horizontal scale",
+      "text": "Linear zoom to screen horizontal scale %0 in %1ms",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the scale, 1.0=normal, 2.0=twice scale, 0.5=half scale",
+        "Please enter the duration, in milliseconds"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Screen > Linear > Set vertical scale",
+      "text": "Linear zoom to screen vertical scale %0 in %1ms",
+      "menuId": 25018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the scale, 1.0=normal, 2.0=twice scale, 0.5=half scale",
+        "Please enter the duration, in milliseconds"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Layer > Set angle",
+      "text": "Layer %0: set angle to %1",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer",
+        "Please enter the angle in degress (0-360)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Layer > Set scale",
+      "text": "Layer %0: set scale to %1",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer",
+        "Please enter the scale, 1.0=normal, 2.0=twice scale, 0.5=half scale"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Layer > Set horizontal scale",
+      "text": "Layer %0: set horizontal scale to %1",
+      "menuId": 25021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer",
+        "Please enter the scale, 1.0=normal, 2.0=twice scale, 0.5=half scale"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Layer > Set vertical scale",
+      "text": "Layer %0: set vertical scale to %1",
+      "menuId": 25022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer",
+        "Please enter the scale, 1.0=normal, 2.0=twice scale, 0.5=half scale"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Layer > Smooth > Set angle",
+      "text": "Layer %0: smooth turn to angle %1 in %2ms",
+      "menuId": 25023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer",
+        "Please enter the angle in degress (0-360)",
+        "Please enter the duration, in milliseconds"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Layer > Smooth > Set scale",
+      "text": "Layer %0: smooth zoom to scale %1 in %2ms",
+      "menuId": 25024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer",
+        "Please enter the scale, 1.0=normal, 2.0=twice scale, 0.5=half scale",
+        "Please enter the duration, in milliseconds"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Layer > Smooth > Set horizontal scale",
+      "text": "Layer %0: smooth zoom to horizontal scale %1 in %2ms",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer",
+        "Please enter the scale, 1.0=normal, 2.0=twice scale, 0.5=half scale",
+        "Please enter the duration, in milliseconds"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Layer > Smooth > Set vertical scale",
+      "text": "Layer %0: smooth zoom to vertical scale %1 in %2ms",
+      "menuId": 25026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer",
+        "Please enter the scale, 1.0=normal, 2.0=twice scale, 0.5=half scale",
+        "Please enter the duration, in milliseconds"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Layer > Elastic > Set angle",
+      "text": "Layer %0: elastic turn to angle %1 in %2ms, factor %3",
+      "menuId": 25027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer",
+        "Please enter the angle in degress (0-360)",
+        "Please enter the duration, in milliseconds",
+        "Please enter bounce factor, above 1 (1=infinite bounces)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Layer > Elastic > Set scale",
+      "text": "Layer %0: elastic zoom to scale %1 in %2ms, factor %3",
+      "menuId": 25028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer",
+        "Please enter the scale, 1.0=normal, 2.0=twice scale, 0.5=half scale",
+        "Please enter the duration, in milliseconds",
+        "Please enter bounce factor, above 1 (1=infinite bounces)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Layer > Elastic > Set horizontal scale",
+      "text": "Layer %0: elastic zoom to horizontal scale %1 in %2ms, factor %3",
+      "menuId": 25029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer",
+        "Please enter the scale, 1.0=normal, 2.0=twice scale, 0.5=half scale",
+        "Please enter the duration, in milliseconds",
+        "Please enter bounce factor, above 1 (1=infinite bounces)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Layer > Elastic > Set vertical scale",
+      "text": "Layer %0: elastic zoom to vertical scale %1 in %2ms, factor %3",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer",
+        "Please enter the scale, 1.0=normal, 2.0=twice scale, 0.5=half scale",
+        "Please enter the duration, in milliseconds",
+        "Please enter bounce factor, above 1 (1=infinite bounces)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Layer > Hot spot > Set position",
+      "text": "Layer %0: set hot spot to %1",
+      "menuId": 25031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        16
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer",
+        "Please choose the position of the hot spot"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Layer > Hot spot > Set X coordinate",
+      "text": "Layer %0: set X hot spot to %1",
+      "menuId": 25032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer",
+        "Please enter the X coordinate of the hot spot"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Layer > Hot spot > Set Y coordinate",
+      "text": "Layer %0: set Y hot spot to %1",
+      "menuId": 25033,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer",
+        "Please enter the Y coordinate of the hot spot"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Layer > Linear > Set angle",
+      "text": "Layer %0: linear turn to angle %1 in %2ms",
+      "menuId": 25034,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer",
+        "Please enter the angle in degress (0-360)",
+        "Please enter the duration, in milliseconds"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Layer > Linear > Set scale",
+      "text": "Layer %0: linear zoom to scale %1 in %2ms",
+      "menuId": 25035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer",
+        "Please enter the scale, 1.0=normal, 2.0=twice scale, 0.5=half scale",
+        "Please enter the duration, in milliseconds"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Layer > Linear > Set horizontal scale",
+      "text": "Layer %0: linear zoom to horizontal scale %1 in %2ms",
+      "menuId": 25036,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer",
+        "Please enter the scale, 1.0=normal, 2.0=twice scale, 0.5=half scale",
+        "Please enter the duration, in milliseconds"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Layer > Linear > Set vertical scale",
+      "text": "Layer %0: linear zoom to vertical scale %1 in %2ms",
+      "menuId": 25037,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer",
+        "Please enter the scale, 1.0=normal, 2.0=twice scale, 0.5=half scale",
+        "Please enter the duration, in milliseconds"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Screen > Destination > Set position",
+      "text": "Set screen destination point to %0",
+      "menuId": 25041,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        16
+      ],
+      "paramTitles": [
+        "Please enter the position"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Screen > Destination > Set X coordinate",
+      "text": "Set screen X destination point to %0",
+      "menuId": 25042,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Please enter the X coordinate of the destination point"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Screen > Destination > Set Y coordinate",
+      "text": "Set screen Y destination point to %0",
+      "menuId": 25043,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Please enter the Y coordinate of the destination point"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Layer > Destination > Set position",
+      "text": "Layer %0: set destination point to %1",
+      "menuId": 25038,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        16
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer",
+        "Please enter the position"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Layer > Destination > Set X coordinate",
+      "text": "Layer %0: set X destination point to %1",
+      "menuId": 25039,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer",
+        "Please enter the X coordinate of the destination point"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Layer > Destination > Set Y coordinate",
+      "text": "Layer %0: set Y destination point to %1",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer",
+        "Please enter the Y coordinate of the destination point"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Screen > Shake > Horizontally",
+      "text": "Shake screen horizontally %0px, shake duration %1ms, total duration %2ms",
+      "menuId": 25044,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Enter the width of the shake, in pixels",
+        "Enter the duration of one shake, in ms (example: 40)",
+        "Enter the total duration of the shake, in ms (example: 1000)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Screen > Shake > Vertically",
+      "text": "Shake screen vertically %0px, shake duration %1ms, total duration %2ms",
+      "menuId": 25045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Enter the height of the shake, in pixels",
+        "Enter the duration of one shake, in ms (example: 40)",
+        "Enter the total duration of the shake, in ms (example: 1000)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Layer > Shake > Horizontally",
+      "text": "Layer %0: shake horizontally %1px, shake duration %2ms, total duration %3ms",
+      "menuId": 25046,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer",
+        "Enter the width of the shake, in pixels",
+        "Enter the duration of one shake, in ms (example: 40)",
+        "Enter the total duration of the shake, in ms (example: 1000)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Layer > Shake > Vertically",
+      "text": "Layer %0: shake vertically %1px, shake duration %2ms, total duration %3ms",
+      "menuId": 25047,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Please enter the name of the layer",
+        "Enter the height of the shake, in pixels",
+        "Enter the duration of one shake, in ms (example: 40)",
+        "Enter the total duration of the shake, in ms (example: 1000)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Screen > Current angle",
+      "text": "ScAngle(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Screen > Current horizontal scale",
+      "text": "ScXScale(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Screen > Current vertical scale",
+      "text": "ScYScale(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Screen > Current hot spot X coordinate",
+      "text": "ScXSpot(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Screen > Current hot spot Y coordinate",
+      "text": "ScYSpot(",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Screen > Current scale",
+      "text": "ScScale(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Screen > Current destination point X coordinate",
+      "text": "ScXDest(",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Screen > Current destination point Y coordinate",
+      "text": "ScYDest(",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Layer > Current angle",
+      "text": "LaAngle(",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "Layer Name"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Layer > Current horizontal scale",
+      "text": "LaXScale(",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "Layer Name"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Layer > Current vertical scale",
+      "text": "LaYScale(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "Layer Name"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Layer > Current hot spot X coordinate",
+      "text": "LaXSpot(",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "Layer Name"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Layer > Current hot spot Y coordinate",
+      "text": "LaYSpot(",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "Layer Name"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Layer > Current scale",
+      "text": "LaScale(",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "Layer Name"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Layer > Current destination point X coordinate",
+      "text": "LaXDest(",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "Layer Name"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Layer > Current destination point Y coordinate",
+      "text": "LaYDest(",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "Layer Name"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

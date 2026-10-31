@@ -1,0 +1,1553 @@
+{
+  "file": "KcDialog.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "was ABORT",
+      "text": "漥眠獡䄠佂呒",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "was CANCEL",
+      "text": "漥眠獡䌠乁䕃L",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "was IGNORE",
+      "text": "漥眠獡䤠乇剏E",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "was NO",
+      "text": "漥眠獡丠O",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "was OK",
+      "text": "漥眠獡传K",
+      "menuId": 26004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "was RETRY",
+      "text": "漥眠獡删呅奒",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "was YES",
+      "text": "漥眠獡夠卅",
+      "menuId": 26006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Is Asker Text equal",
+      "text": "漥䤠⁳獁敫⁲整瑸攠畱污†〥",
+      "menuId": 26007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敔瑸琠⁯潣灭牡e攠畱污†〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Is Asker Text not equal",
+      "text": "漥䤠⁳獁敫⁲整瑸渠瑯攠畱污†〥",
+      "menuId": 26008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敔瑸琠⁯潣灭牡e渠瑯攠畱污†〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "was IGNORE ALL",
+      "text": "漥眠獡䤠乇剏⁅䱁L",
+      "menuId": 26009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "was NOTOAll",
+      "text": "漥眠獡丠呏䅏䱌",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "was YESTOALL",
+      "text": "漥眠獡夠卅佔䱁L",
+      "menuId": 26011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "was SKIP",
+      "text": "漥眠獡匠䥋P",
+      "menuId": 26012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "was SKIP ALL",
+      "text": "漥眠獡匠䥋⁐䱁L",
+      "menuId": 26013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "was TRY AGAIN",
+      "text": "漥眠獡吠奒䄠䅇义",
+      "menuId": 26014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "was CUSTOM BUTTON #1",
+      "text": "漥眠獡䌠单佔⁍ㄣ",
+      "menuId": 26015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "was CUSTOM BUTTON #2",
+      "text": "漥眠獡䌠单佔⁍㈣",
+      "menuId": 26016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "was CUSTOM BUTTON #3",
+      "text": "漥眠獡䌠单佔⁍㌣",
+      "menuId": 26017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "was CUSTOM BUTTON #4",
+      "text": "漥眠獡䌠单佔⁍㐣",
+      "menuId": 26018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "was HELP",
+      "text": "漥眠獡䠠䱅P",
+      "menuId": 26019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "CheckBox Clicked?",
+      "text": "漥䌠敨正潂⁸汃捩敫㽤",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "was CONTINUE",
+      "text": "漥眠獡䌠乏䥔啎E",
+      "menuId": 26021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "TimeOut occurred?",
+      "text": "漥吠浩佥瑵传捣牵敲㽤",
+      "menuId": 26022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Message Box > Set Title",
+      "text": "敓⁴楔汴⁥潴┠0",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敓⁴楔汴⁥敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Message Box > Set Message",
+      "text": "敓⁴敍獳条⁥潴┠0",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敓⁴敍獳条⁥敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Message Box > Set Icon... > Hand|Stop",
+      "text": "敓⁴潂⁸捉湯䠠湡籤瑓灯",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Message Box > Set Icon... > Question",
+      "text": "敓⁴潂⁸捉湯儠敵瑳潩n",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Message Box > Set Icon... > Exclamation",
+      "text": "敓⁴潂⁸捉湯䔠捸慬慭楴湯",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Message Box > Set Icon... > Information|Asterisk",
+      "text": "敓⁴潂⁸捉湯䤠普籯獁整楲歳",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Message Box > Set Type... > Yes/No",
+      "text": "潂⁸教⽳潎",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Message Box > Set Type... > Yes/No/Cancel",
+      "text": "潂⁸教⽳潎䌯湡散l",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Message Box > Set Type... > Abort/Retry/Ignore",
+      "text": "潂⁸扁牯⽴敒牴⽹杉潮敲",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Message Box > Set Type... > Retry/Cancel",
+      "text": "潂⁸敒牴⽹慃据汥",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Message Box > Set Type... > Ok/Cancel",
+      "text": "潂⁸歏䌯湡散l",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Message Box > Set Type... > Ok",
+      "text": "潂⁸歏",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Message Box > Set Default Button",
+      "text": "敓⁴敄慦汵⁴畂瑴湯琠⁯〥",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴敄慦汵⁴畂瑴湯琠⁯ㄨ㈬㌬㐬㔬㘬)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Message Box > Clear RetMsgBox",
+      "text": "汃慥⁮敒畴湲䴠杳潂x",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Message Box > Do MsgBox",
+      "text": "潄䴠杳潂⡸)",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Asker  > Set Title",
+      "text": "敓⁴獁敫⁲楔汴⁥潴┠0",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敓⁴楔汴⁥敔瑸 潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Asker  > Set Message",
+      "text": "敓⁴獁敫⁲敍獳条⁥潴┠0",
+      "menuId": 25018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敓⁴敍獳条⁥敔瑸 潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Asker  > Define as Password > On",
+      "text": "敓⁴慰獳潷摲传⁎潦⁲獡敫r",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Asker  > Define as Password > Off",
+      "text": "敓⁴慰獳潷摲传䙆映牯愠歳牥",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Asker  > Do Asker",
+      "text": "潄䄠歳牥⤨",
+      "menuId": 25021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Asker  > Do AskerButton",
+      "text": "潄䄠歳牥畂瑴湯⤨",
+      "menuId": 25022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Asker  > Set Result",
+      "text": "敓⁴獁敫⁲敲畳瑬琠⁯〥",
+      "menuId": 25023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敓⁴敒畳瑬䴠獥慳敧吠硥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Pause Box > Set Title",
+      "text": "敓⁴慐獵⁥楔汴⁥潴┠0",
+      "menuId": 25024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敓⁴楔汴⁥敔瑸 潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Pause Box > Set Button text",
+      "text": "敓⁴畂瑴湯吠硥⁴潴┠0",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敓⁴敍獳条⁥敔瑸漀┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Pause Box > Do Pause",
+      "text": "潄倠畡敳",
+      "menuId": 25026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Other Functions > Redraw Window",
+      "text": "敒牤睡圠湩潤w",
+      "menuId": 25027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Message Box > Set Icon... > To Internal Image",
+      "text": "敓⁴潂⁸捉湯眠瑩⁨浩条⍥┠0",
+      "menuId": 25028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴浉条⁥畮扭牥 浩条⍥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Message Box > Set Style > Font Color",
+      "text": "敓⁴敔瑸䌠汯牯琠⁯〥",
+      "menuId": 25029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴潆瑮䌠汯牯琀⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Message Box > Set Style > Use Choosen Font",
+      "text": "獕⁥桃潯敳⁮潆瑮⠠〥)",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "獕⁥瑓汹摥䘠湯⁴〨伺晦ㄠ夺獥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Message Box > Set Style > Background Color",
+      "text": "敓⁴慂正牧畯杮䌠汯牯琠⁯〥",
+      "menuId": 25031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴慂正牧畯摮䌠汯牯琀⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Other Functions > Refresh Window",
+      "text": "敒牦獥⁨楗摮睯",
+      "menuId": 25032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Message Box > Set Style > Background Image",
+      "text": "敓⁴慂正牧畯杮䤠慭敧‣〥",
+      "menuId": 25033,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴浉条⁥畮扭牥愀敧‣〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Message Box > Set Style > Reset Styles",
+      "text": "敒敳⁴桴⁥瑳汹獥",
+      "menuId": 25034,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Message Box > Set Style > Set Transparency value",
+      "text": "敓⁴牔湡灳牡湥祣琠⁯〥",
+      "menuId": 25035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "㴰牔湡灳牡湥ⱴ㈠㔵伽慰畱e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Message Box > Set Button Text... > Custom #1",
+      "text": "敓⁴敔瑸琠⁯〥映牯䌠獵潴⁭ㄣ",
+      "menuId": 25036,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯琠硥t〥映牯䌠獵潴⁭ㄣ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Message Box > Set Button Text... > Custom #2",
+      "text": "敓⁴敔瑸琠⁯〥映牯䌠獵潴⁭㈣",
+      "menuId": 25037,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯琠硥t〥映牯䌠獵潴⁭㈣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Message Box > Set Button Text... > Custom #3",
+      "text": "敓⁴敔瑸琠⁯〥映牯䌠獵潴⁭㌣",
+      "menuId": 25038,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯琠硥t〥映牯䌠獵潴⁭㌣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Message Box > Set Button Text... > Custom #4",
+      "text": "敓⁴敔瑸琠⁯〥映牯䌠獵潴⁭㐣",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯琠硥t〥映牯䌠獵潴⁭㐣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Message Box > Set Style > Set Time Out",
+      "text": "敓⁴楔敭传瑵琠⁯〥",
+      "menuId": 25041,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楔敭椠⁮敓潣摮 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Message Box > Set Type... > Cancel/Try/Continue",
+      "text": "潂⁸慃据汥启祲䌯湯楴畮e",
+      "menuId": 25042,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Message Box > Set Type... > Continue/Abort",
+      "text": "潂⁸潃瑮湩敵䄯潢瑲",
+      "menuId": 25043,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Message Box > Set Type... > Skip/SkipAll/Cancel",
+      "text": "潂⁸歓灩匯楫䅰汬䌯湡散l",
+      "menuId": 25044,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Message Box > Set Type... > Ignore/IgnoreAll/Cancel",
+      "text": "潂⁸杉潮敲䤯湧牯䅥汬䌯湡散l",
+      "menuId": 25045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Message Box > Add Button... > Button Help",
+      "text": "摁⁤畂瑴湯䠠汥p",
+      "menuId": 25046,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Message Box > Add Button... > Button 'No To All'",
+      "text": "摁⁤畂瑴湯✠潎琠⁯汁❬",
+      "menuId": 25047,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Message Box > Add Button... > Button 'Yes To All'",
+      "text": "摁⁤畂瑴湯✠教⁳潴䄠汬'",
+      "menuId": 25048,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Message Box > Add Checkbox... > Box Don't Ask me again",
+      "text": "摁⁤桃捥䉫硯䐠湯琧䄠歳洠⁥条楡n",
+      "menuId": 25049,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 50,
+      "menu": "Message Box > Add Checkbox... > Box Don't Tell me again",
+      "text": "摁⁤桃捥䉫硯䐠湯琧吠汥⁬敭愠慧湩",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "Message Box > Add Checkbox... > Box Don't Show again",
+      "text": "摁⁤桃捥䉫硯䐠湯琧匠潨⁷条楡n",
+      "menuId": 25051,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 52,
+      "menu": "Message Box > Set Style > Set Vista Style Box",
+      "text": "獕⁥楖瑳⁡瑓汹⁥潂⁸┨⤰",
+      "menuId": 25052,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "獕⁥楖瑳⁡瑓汹⁥〨伺晦ㄠ夺獥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 53,
+      "menu": "Message Box > Set Style > Set Right Justified Buttons",
+      "text": "獕⁥楒桧⁴畊瑳晩敩⁤┨⤰",
+      "menuId": 25053,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "獕⁥楒桧⁴畊瑳晩敩⁤〨伺晦ㄠ夺獥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 54,
+      "menu": "Message Box > Set Style > Set Disable Time",
+      "text": "敓⁴楄慳汢⁥楔敭琠⁯〥",
+      "menuId": 25054,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楔敭椠⁮敓潣摮攀琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 55,
+      "menu": "Message Box > Set Button Text... > Button Abort",
+      "text": "敓⁴潴┠‰潦⁲扁牯⁴敔瑸",
+      "menuId": 25055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯琠硥t⁲扁牯⁴敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 56,
+      "menu": "Message Box > Set Button Text... > Button Cancel",
+      "text": "敓⁴潴┠‰潦⁲慃据汥吠硥t",
+      "menuId": 25056,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯琠硥t⁲慃据汥吠硥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 57,
+      "menu": "Message Box > Set Button Text... > Button Continue",
+      "text": "敓⁴潴┠‰潦⁲潃瑮湩敵吠硥t",
+      "menuId": 25057,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯琠硥t⁲潃瑮湩敵吠硥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 58,
+      "menu": "Message Box > Set Button Text... > Button Don't Ask me Again",
+      "text": "敓⁴潴┠‰潦⁲潄❮⁴獁⁫敭䄠慧湩吠硥t",
+      "menuId": 25058,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯琠硥t⁲潄❮⁴獁⁫敭䄠慧湩吠硥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 59,
+      "menu": "Message Box > Set Button Text... > Button Don't Tell me Again",
+      "text": "敓⁴潴┠‰潦⁲潄❮⁴敔汬洠⁥杁楡⁮敔瑸",
+      "menuId": 25059,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯琠硥t⁲潄❮⁴敔汬洠⁥杁楡⁮敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 60,
+      "menu": "Message Box > Set Button Text... > Button Don't Show Again",
+      "text": "敓⁴潴┠‰潦⁲潄❮⁴桓睯䄠慧湩吠硥t",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯琠硥t⁲潄❮⁴桓睯䄠慧湩吠硥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 61,
+      "menu": "Message Box > Set Button Text... > Button Help",
+      "text": "敓⁴潴┠‰潦⁲效灬吠硥t",
+      "menuId": 25061,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯琠硥t⁲效灬吠硥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 62,
+      "menu": "Message Box > Set Button Text... > Button Ignore",
+      "text": "敓⁴潴┠‰潦⁲杉潮敲吠硥t",
+      "menuId": 25062,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯琠硥t⁲杉潮敲吠硥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 63,
+      "menu": "Message Box > Set Button Text... > Button Ignore All",
+      "text": "敓⁴潴┠‰潦⁲杉潮敲䄠汬吠硥t",
+      "menuId": 25063,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯琠硥t⁲杉潮敲䄠汬吠硥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 64,
+      "menu": "Message Box > Set Button Text... > Button No",
+      "text": "敓⁴潴┠‰潦⁲潎吠硥t",
+      "menuId": 25064,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯琠硥t⁲潎吠硥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 65,
+      "menu": "Message Box > Set Button Text... > Button 'No to All'",
+      "text": "敓⁴潴┠‰潦⁲丧⁯潴䄠汬‧敔瑸",
+      "menuId": 25065,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯琠硥t⁲丧⁯潴䄠汬‧敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 66,
+      "menu": "Message Box > Set Button Text... > Button Ok",
+      "text": "敓⁴潴┠‰潦⁲歏吠硥t",
+      "menuId": 25066,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯琠硥t⁲歏吠硥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 67,
+      "menu": "Message Box > Set Button Text... > Button Retry",
+      "text": "敓⁴潴┠‰潦⁲敒牴⁹敔瑸",
+      "menuId": 25067,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯琠硥t⁲敒牴⁹敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 68,
+      "menu": "Message Box > Set Button Text... > Button Skip",
+      "text": "敓⁴潴┠‰潦⁲歓灩吠硥t",
+      "menuId": 25068,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯琠硥t⁲歓灩吠硥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 69,
+      "menu": "Message Box > Set Button Text... > Button SkipAll",
+      "text": "敓⁴潴┠‰潦⁲歓灩䄠汬吠硥t",
+      "menuId": 25069,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯琠硥t⁲歓灩䄠汬吠硥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 70,
+      "menu": "Message Box > Set Button Text... > Button TryAgain",
+      "text": "敓⁴潴┠‰潦⁲牔⁹杁楡⁮敔瑸",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯琠硥t⁲牔⁹杁楡⁮敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 71,
+      "menu": "Message Box > Set Button Text... > Button Yes",
+      "text": "敓⁴潴┠‰潦⁲教⁳敔瑸",
+      "menuId": 25071,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯琠硥t⁲教⁳敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 72,
+      "menu": "Message Box > Set Button Text... > Button 'Yes to All'",
+      "text": "敓⁴潴┠‰潦⁲大獥琠⁯汁❬吠硥t",
+      "menuId": 25072,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畂瑴湯琠硥t⁲大獥琠⁯汁❬吠硥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 73,
+      "menu": "Message Box > Set Type... > Custom Buttons",
+      "text": "潂⁸畃瑳浯䈠瑵潴獮⠠〥)",
+      "menuId": 25073,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "獕⁥畃瑳浯䈠瑵潴獮⠠㨰晏⁦㨱教⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 74,
+      "menu": "Message Box > Set Icon... > Filename Image",
+      "text": "敓⁴捉湯映汩湥浡⁥潴┠0",
+      "menuId": 25074,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "捉湯䘠汩湥浡e浡⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 75,
+      "menu": "Message Box > Set Style > Background Filename",
+      "text": "敓⁴慂正牧畯摮映汩湥浡⁥潴┠0",
+      "menuId": 25075,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 76,
+      "menu": "Message Box > Set Style > Sizing, prefer width",
+      "text": "楓楺杮倠敲敦⁲楷瑤h",
+      "menuId": 25076,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 77,
+      "menu": "Message Box > Set Style > No Sound",
+      "text": "潎匠畯摮",
+      "menuId": 25077,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 78,
+      "menu": "Message Box > Set Style > Enable Close button",
+      "text": "湅扡敬䌠潬敳䈠瑵潴n",
+      "menuId": 25078,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 79,
+      "menu": "Message Box > Set Style > No Title Bar",
+      "text": "楈敤吠瑩敬䈠牡",
+      "menuId": 25079,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 80,
+      "menu": "Message Box > Set Style > Use Aero Glass",
+      "text": "獕⁥汇獡⁳楷桴┠‰数捲湥慴敧漠⁦獍䉧硯",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴汇獡⁳敐捲湥慴敧⠠ⴰ〱⤰漀⁦獍䉧硯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 81,
+      "menu": "Message Box > Set Style > No Button Frame",
+      "text": "楈敤䘠慲敭䈠瑵潴n",
+      "menuId": 25081,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 82,
+      "menu": "Message Box > Set Show Position > Show at...",
+      "text": "桓睯愠⁴潰楳楴湯┠0",
+      "menuId": 25082,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        16
+      ],
+      "paramTitles": [
+        "桓睯愠⹴⸮椀楴湯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 83,
+      "menu": "Message Box > Set Style > Set Icon Title Bar",
+      "text": "敓⁴捉湯‣〥椠⁮楔汴⁥慢r",
+      "menuId": 25083,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "浉条⁥畎扭牥映牯䤠潣⁮楴汴e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "MsgBoxRetStr",
+      "text": "獍䉧硯⠤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "MsgBoxRetVal",
+      "text": "獍䉧硯(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Asker Text",
+      "text": "獁敫⑲(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "RTrim Text",
+      "text": "呒楲⑭(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "瑓楲杮琠⁯牔浩"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Str Trim Text",
+      "text": "瑓呲呯楲⑭(",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "瑓楲杮琠⁯牔浩",
+        "牔浩吠硥t牔浩"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "CHR$()",
+      "text": "䡃⑒(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "十䥃⁉畮扭牥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Replicate Chars",
+      "text": "敒汰捩瑡⑥(",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "瑓楲杮琠⁯牔浩",
+        "楔敭琠⁯敲数瑡"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

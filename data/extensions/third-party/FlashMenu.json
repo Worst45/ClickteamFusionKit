@@ -1,0 +1,208 @@
+{
+  "file": "FlashMenu.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Menu Item Clicked",
+      "text": "漥䴠湥⁵瑉浥䌠楬正摥⠠〥)",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敍畮䤠整⁭敔瑸椀正摥⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Default Menu Items > Forward and Back",
+      "text": "敄慦汵⁴瑉浥⠠潆睲牡⁤湡⁤慂正 ‭┨⤰",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楈敤漠⁲桓睯ⴠ⠠‰‽楈敤‬‱‽桓睯)⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Default Menu Items > Rewind",
+      "text": "敄慦汵⁴瑉浥⠠敒楷摮 ‭┨⤰",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楈敤漠⁲桓睯ⴠ⠠‰‽楈敤‬‱‽桓睯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Default Menu Items > Play",
+      "text": "敄慦汵⁴瑉浥⠠汐祡 ‭┨⤰",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楈敤漠⁲桓睯ⴠ⠠‰‽楈敤‬‱‽桓睯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Default Menu Items > Loop",
+      "text": "敄慦汵⁴瑉浥⠠潌灯 ‭┨⤰",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楈敤漠⁲桓睯ⴠ⠠‰‽楈敤‬‱‽桓睯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Default Menu Items > Print",
+      "text": "敄慦汵⁴瑉浥⠠牐湩⥴ⴠ⠠〥)",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楈敤漠⁲桓睯ⴠ⠠‰‽楈敤‬‱‽桓睯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Default Menu Items > Quality",
+      "text": "敄慦汵⁴瑉浥⠠畑污瑩⥹ⴠ⠠〥)",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楈敤漠⁲桓睯ⴠ⠠‰‽楈敤‬‱‽桓睯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Default Menu Items > Save",
+      "text": "敄慦汵⁴瑉浥⠠慓敶 ‭┨⤰",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楈敤漠⁲桓睯ⴠ⠠‰‽楈敤‬‱‽桓睯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Default Menu Items > Zoom",
+      "text": "敄慦汵⁴瑉浥⠠潚浯 ‭┨⤰",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楈敤漠⁲桓睯ⴠ⠠‰‽楈敤‬‱‽桓睯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Default Menu Items > Hide All",
+      "text": "敄慦汵⁴瑉浥⁳‭楈敤䄠汬",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Default Menu Items > Show All",
+      "text": "敄慦汵⁴瑉浥⁳‭桓睯䄠汬",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Add New Menu Item",
+      "text": "摁⁤敎⁷敍畮䤠整⁭┨⤰‬瑓瑡⁥┨⤱‬敓慰慲潴⁲┨⤲",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敍畮䤠整⁭敔瑸攀⁭┨⤰‬瑓瑡⁥┨⤱‬敓慰慲潴⁲┨⤲",
+        "敍畮䤠整⁭瑓瑡⁥‭〨㴠䐠獩扡敬Ɽㄠ㴠䔠慮汢摥)┨⤲",
+        "敍畮䤠整⁭‭摁⁤敓慰慲潴⁲敂潦敲‿‭〨㴠丠Ɐㄠ㴠夠獥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Show New Menu",
+      "text": "桓睯丠睥䴠湥u",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": []
+}

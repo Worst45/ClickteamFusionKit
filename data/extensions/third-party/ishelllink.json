@@ -1,0 +1,351 @@
+{
+  "file": "ishelllink.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On failure",
+      "text": "漥漠⁮慦汩牵e",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On error",
+      "text": "漥漠⁮牥潲r",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "File > Is dirty? (needs to be saved)",
+      "text": "漥椠⁳楤瑲㽹",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Clear last HRESULT code",
+      "text": "漥䌠敬牡氠獡⁴牥潲r",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "File > Load",
+      "text": "漥氠慯⁤牦浯映汩㵥〥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        63
+      ],
+      "paramTitles": [
+        "吣瑩敬匣汥捥⁴桳汥⁬楬歮琠⁯潬摡䘣汩整⍲桓汥⁬楬歮映汩獥⠠⸪湬⥫⩼氮歮䅼汬映汩獥⠠⸪⤪⩼⨮|"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "File > Save to",
+      "text": "漥猠癡⁥潴映汩㵥〥",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        63
+      ],
+      "paramTitles": [
+        "吣瑩敬匣汥捥⁴楦敬琠⁯慳敶猠敨汬映汩⁥湩䘣汩整⍲桓汥⁬楬歮映汩獥⠠⸪湬⥫⩼氮歮䅼汬映汩獥⠠⸪⤪⩼⨮|"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Content > Resolve path",
+      "text": "漥爠獥汯敶猠敨汬氠湩k",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Content > Set arguments",
+      "text": "漥猠瑥愠杲浵湥獴‬牡獧┽0",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "桓汥⁬楬歮愠杲浵湥獴猀┽0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Content > Set description",
+      "text": "漥猠瑥搠獥牣灩楴湯‬敤捳┽0",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "桓汥⁬楬歮搠獥牣灩楴湯挀┽0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Content > Set hot key",
+      "text": "漥猠瑥栠瑯欠祥‬潨歴祥┽0",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "桓汥⁬楬歮栠瑯欠祥‬敳⁥卍乄映牯搠瑥楡獬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Content > Set icon location",
+      "text": "漥猠瑥椠潣⁮潬慣楴湯‬楦敬┽ⰰ椠潣㵮ㄥ",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        63,
+        22
+      ],
+      "paramTitles": [
+        "吣瑩敬匣汥捥⁴楬歮椠潣⁮潬慣楴湯䘣汩整⍲汁⁬楦敬⁳⨨⨮簩⸪簪",
+        "湉敤⁸景椠潣⁮潴甠敳漀⁮潬慣楴湯䘣汩整⍲汁⁬楦敬⁳⨨⨮簩⸪簪"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Content > Set path",
+      "text": "漥猠瑥琠牡敧ⱴ瀠瑡㵨〥",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "吣瑩敬匣汥捥⁴桳汥⁬楬歮猧琠牡敧⁴楦敬䘣汩整⍲汁⁬楦敬⁳⨨⨮簩⸪簪"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Content > Set relative path",
+      "text": "漥猠瑥爠汥瑡癩⁥慰桴‬敲⁦楦敬┽0",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "吣瑩敬匣汥捥⁴敲敦敲据⁥楦敬䘣汩整⍲汁⁬楦敬⁳⨨⨮簩⸪簪"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Content > Set show cmd",
+      "text": "漥猠瑥猠潨⁷浣Ɽ挠摭┽0",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "桓睯眠湩潤⁷潣浭湡Ɽ猠敥䴠䑓⁎潦⁲敤慴汩s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Content > Set working directory",
+      "text": "漥猠瑥眠牯楫杮搠物捥潴祲‬楤㵲〥",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "桓汥⁬楬歮琠牡敧❴⁳湩瑩慩⁬潷歲湩⁧楤敲瑣牯y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Reset",
+      "text": "漥爠獥瑥",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get last HRESULT code",
+      "text": "敧䱴獡䡴敒畳瑬潃敤(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Content > Get arguments",
+      "text": "敧䅴杲浵湥獴⠤",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Content > Get description",
+      "text": "敧䑴獥牣灩楴湯⠤",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Content > Get hot key",
+      "text": "敧䡴瑯敋⡹",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Content > Get icon location path",
+      "text": "敧䥴潣䱮捯瑡潩偮瑡⑨(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Content > Get icon index",
+      "text": "敧䥴潣䱮捯瑡潩䥮摮硥(",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Content > Get raw path",
+      "text": "敧剴睡慐桴⠤",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Content > Get show cmd",
+      "text": "敧却潨䍷摭(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Content > Get working directory",
+      "text": "敧坴牯楫杮楄敲瑣牯⑹(",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

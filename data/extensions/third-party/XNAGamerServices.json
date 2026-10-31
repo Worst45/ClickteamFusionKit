@@ -1,0 +1,191 @@
+{
+  "file": "XNAGamerServices.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Can player purchase game?",
+      "text": "Player can purchase game",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Enter the player index, 1, 2, 3 or 4"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Are Gamer Services connected?",
+      "text": "Gamer Services are connected",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Has player signed in?",
+      "text": "Player(s) has(ve) signed in",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Connect",
+      "text": "Connect to Gamer Services",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Show Marketplace",
+      "text": "Show Marketplace for player %0",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Enter the player index, 1, 2, 3 or 4"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Sign in",
+      "text": "Sign in for %0 panes, online %1",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Enter the number of players to sign in",
+        "Enter 0 for local players (+ online), and 1 for online only"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Set presence",
+      "text": "Set presence of player #%0 to %1",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "Enter the player index, 1, 2, 3 or 4",
+        "Enter one of the presence describers as listed in the object's documentation"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Set presence value",
+      "text": "Set presence value of player #0 to %1",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Enter the player index, 1, 2, 3 or 4",
+        "Enter the value you wish to associate to the presence string"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get number of players signed in",
+      "text": "NSignedIn(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get player alias",
+      "text": "Alias$(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 3,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get player presence",
+      "text": "Presence$(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 3,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get player presence value",
+      "text": "PresenceValue(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

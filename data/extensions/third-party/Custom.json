@@ -1,0 +1,905 @@
+{
+  "file": "Custom.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On Function",
+      "text": "漥›湏䘠湵瑣潩⁮〥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥畆据楴湯丠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On Error",
+      "text": "漥›湏䔠牲牯",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "On Creation of an Instance",
+      "text": "漥›湏䌠敲瑡潩⁮景愠⁮湉瑳湡散",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "On Destruction of an Instance",
+      "text": "漥›湏䐠獥牴捵楴湯漠⁦湡䤠獮慴据e",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Specify an Instance > Call a Function",
+      "text": "慃汬䘠湵瑣潩⁮ㄥ眠瑩⁨慐慲敭整獲┠′湡⁤楷桴删瑥牵⁮祔数┠″潦⁲湉瑳湡散┠‰湡⁤瑓牯⁥敒畳瑬椠⁮汓瑯┠4",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥湉瑳湡散丠浡e慲敭整獲┠′湡⁤楷桴删瑥牵⁮祔数┠″潦⁲湉瑳湡散┠‰湡⁤瑓牯⁥敒畳瑬椠⁮汓瑯┠4",
+        "湅整⁲桴⁥畆据楴湯丠浡e慲敭整獲┠′湡⁤楷桴删瑥牵⁮祔数┠″潦⁲湉瑳湡散┠‰湡⁤瑓牯⁥敒畳瑬椠⁮汓瑯┠4",
+        "湅整⁲桴⁥慐慲敭整⁲楌瑳愀敭整獲┠′湡⁤楷桴删瑥牵⁮祔数┠″潦⁲湉瑳湡散┠‰湡⁤瑓牯⁥敒畳瑬椠⁮汓瑯┠4",
+        "湅整⁲桴⁥敒畴湲吠灹⁥〨瘽楯㭤ㄠ椽瑮来牥※㴲汦慯㭴㌠猽牴湩⥧漀⁲湉瑳湡散┠‰湡⁤瑓牯⁥敒畳瑬椠⁮汓瑯┠4",
+        "湅整⁲⁡汓瑯丠浵敢⁲〨ㄭ⤰椀㭤ㄠ椽瑮来牥※㴲汦慯㭴㌠猽牴湩⥧漀⁲湉瑳湡散┠‰湡⁤瑓牯⁥敒畳瑬椠⁮汓瑯┠4"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Specify an Instance > Set an Integer Variable",
+      "text": "敓⁴敍扭牥䤠瑮来牥┠‱景䤠獮慴据⁥〥琠⁯㈥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥湉瑳湡散丠浡e䤠獮慴据⁥〥琠⁯㈥",
+        "湅整⁲桴⁥慖楲扡敬丠浡e䤠獮慴据⁥〥琠⁯㈥",
+        "湅整⁲湡䤠瑮来牥攀丠浡e䤠獮慴据⁥〥琠⁯㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Specify an Instance > Set a Float Variable",
+      "text": "敓⁴敍扭牥䘠潬瑡┠‱景䤠獮慴据⁥〥琠⁯㈥",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥湉瑳湡散丠浡e獮慴据⁥〥琠⁯㈥",
+        "湅整⁲桴⁥慖楲扡敬丠浡e獮慴据⁥〥琠⁯㈥",
+        "湅整⁲⁡汆慯t扡敬丠浡e獮慴据⁥〥琠⁯㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Specify an Instance > Set a String Variable",
+      "text": "敓⁴敍扭牥匠牴湩⁧ㄥ漠⁦湉瑳湡散┠‰潴┠2",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥湉瑳湡散丠浡e湉瑳湡散┠‰潴┠2",
+        "湅整⁲桴⁥慖楲扡敬丠浡e湉瑳湡散┠‰潴┠2",
+        "湅整⁲⁡瑓楲杮戀敬丠浡e湉瑳湡散┠‰潴┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Current Instance > Call a Function",
+      "text": "慃汬䘠湵瑣潩⁮〥眠瑩⁨慐慲敭整獲┠‱湡⁤楷桴删瑥牵⁮祔数┠″潦⁲畃牲湥⁴湉瑳湡散愠摮匠潴敲删獥汵⁴湩匠潬⁴㐥",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥畆据楴湯丠浡e慲敭整獲┠‱湡⁤楷桴删瑥牵⁮祔数┠″潦⁲畃牲湥⁴湉瑳湡散愠摮匠潴敲删獥汵⁴湩匠潬⁴㐥",
+        "湅整⁲桴⁥慐慲敭整⁲楌瑳愀敭整獲┠‱湡⁤楷桴删瑥牵⁮祔数┠″潦⁲畃牲湥⁴湉瑳湡散愠摮匠潴敲删獥汵⁴湩匠潬⁴㐥",
+        "湅整⁲桴⁥敒畴湲吠灹⁥〨瘽楯㭤ㄠ椽瑮来牥※㴲汦慯㭴㌠猽牴湩⥧漀⁲畃牲湥⁴湉瑳湡散愠摮匠潴敲删獥汵⁴湩匠潬⁴㐥",
+        "湅整⁲⁡汓瑯丠浵敢⁲〨ㄭ⤰椀㭤ㄠ椽瑮来牥※㴲汦慯㭴㌠猽牴湩⥧漀⁲畃牲湥⁴湉瑳湡散愠摮匠潴敲删獥汵⁴湩匠潬⁴㐥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Current Instance > Set an Integer Variable",
+      "text": "敓⁴敍扭牥䤠瑮来牥┠‰景䌠牵敲瑮䤠獮慴据⁥潴┠1",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥慖楲扡敬丠浡e䌠牵敲瑮䤠獮慴据⁥潴┠1",
+        "湅整⁲湡䤠瑮来牥攀丠浡e䌠牵敲瑮䤠獮慴据⁥潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Current Instance > Set a Float Variable",
+      "text": "敓⁴敍扭牥䘠潬瑡┠‰景䌠牵敲瑮䤠獮慴据⁥潴┠1",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥慖楲扡敬丠浡e牵敲瑮䤠獮慴据⁥潴┠1",
+        "湅整⁲⁡汆慯t扡敬丠浡e牵敲瑮䤠獮慴据⁥潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Current Instance > Set a String Variable",
+      "text": "敓⁴敍扭牥匠牴湩⁧〥漠⁦畃牲湥⁴湉瑳湡散琠⁯ㄥ",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥慖楲扡敬丠浡e畃牲湥⁴湉瑳湡散琠⁯ㄥ",
+        "湅整⁲⁡瑓楲杮戀敬丠浡e畃牲湥⁴湉瑳湡散琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Create Instance",
+      "text": "牃慥整䤠獮慴据⁥〥眠瑩⁨慐慲敭整獲┠1",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥湉瑳湡散丠浡e慐慲敭整獲┠1",
+        "湅整⁲桴⁥慐慲敭整⁲楌瑳愀慲敭整獲┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Destroy Instance",
+      "text": "敄瑳潲⁹湉瑳湡散┠0",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥湉瑳湡散丠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Returns and Loops > Return",
+      "text": "敒畴湲映潲⁭畃牲湥⁴畆据楴湯",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Returns and Loops > Return an Integer",
+      "text": "敒畴湲映潲⁭畃牲湥⁴畆据楴湯眠瑩⁨湉整敧⁲〥",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲湡䤠瑮来牥渀⁴畆据楴湯眠瑩⁨湉整敧⁲〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Returns and Loops > Return a Float",
+      "text": "敒畴湲映潲⁭畃牲湥⁴畆据楴湯眠瑩⁨汆慯⁴〥",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡汆慯t牲湥⁴畆据楴湯眠瑩⁨汆慯⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Returns and Loops > Return a String",
+      "text": "敒畴湲映潲⁭畃牲湥⁴畆据楴湯眠瑩⁨瑓楲杮┠0",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲⁡瑓楲杮爀湥⁴畆据楴湯眠瑩⁨瑓楲杮┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Global Variables > Create a Global Variable",
+      "text": "牃慥整䜠潬慢⁬慖楲扡敬┠0",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥慖楲扡敬丠浡e0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Global Variables > Set an Integer Variable",
+      "text": "敓⁴汇扯污䤠瑮来牥┠‰潴┠1",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥慖楲扡敬丠浡e┠1",
+        "湅整⁲湡䤠瑮来牥攀丠浡e┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Global Variables > Set a Float Variable",
+      "text": "敓⁴汇扯污䘠潬瑡┠‰潴┠1",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥慖楲扡敬丠浡e1",
+        "湅整⁲⁡汆慯t扡敬丠浡e1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Global Variables > Set a String Variable",
+      "text": "敓⁴汇扯污匠牴湩⁧〥琠⁯ㄥ",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥慖楲扡敬丠浡eㄥ",
+        "湅整⁲⁡瑓楲杮戀敬丠浡eㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Local Variables > Create a Local Variable",
+      "text": "牃慥整䰠捯污嘠牡慩汢⁥〥",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥慖楲扡敬丠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Local Variables > Set an Integer Variable",
+      "text": "敓⁴潌慣⁬湉整敧⁲〥琠⁯ㄥ",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥慖楲扡敬丠浡eㄥ",
+        "湅整⁲湡䤠瑮来牥攀丠浡eㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Local Variables > Set a Float Variable",
+      "text": "敓⁴潌慣⁬汆慯⁴〥琠⁯ㄥ",
+      "menuId": 25200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥慖楲扡敬丠浡e",
+        "湅整⁲⁡汆慯t扡敬丠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Local Variables > Set a String Variable",
+      "text": "敓⁴潌慣⁬瑓楲杮┠‰潴┠1",
+      "menuId": 25210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥慖楲扡敬丠浡e1",
+        "湅整⁲⁡瑓楲杮戀敬丠浡e1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Errors > Clear Expression Error Code",
+      "text": "汃慥⁲硅牰獥楳湯䔠牲牯䌠摯e",
+      "menuId": 25220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Returns and Loops > Set Function to Loop",
+      "text": "潌灯䌠牵敲瑮䘠湵瑣潩n",
+      "menuId": 25230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Set Default Instance",
+      "text": "敓⁴敄慦汵⁴湉瑳湡散琠⁯〥",
+      "menuId": 25240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥湉瑳湡散丠浡e〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Errors > Generate an Error",
+      "text": "敇敮慲整䔠牲牯┠0",
+      "menuId": 25250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲牅潲⁲潃敤琠⁯敇敮慲整"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Destroy All Instances",
+      "text": "敄瑳潲⁹汁⁬湉瑳湡散s",
+      "menuId": 25260,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Miscellaneous > Count Selected Objects",
+      "text": "潃湵⁴污⁬敓敬瑣摥┠0",
+      "menuId": 25270,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "桃潯敳琠敨传橢捥t┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Slot Data > Get an Integer from a Slot",
+      "text": "湉整敧卲潬⡴",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Slot Data > Get a Float from a Slot",
+      "text": "汆慯却潬⡴",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Slot Data > Get a String from a Slot",
+      "text": "瑓楲杮汓瑯⠤",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Specify an Instance > Get an Integer Variable",
+      "text": "湉佴䥦獮慴据⡥",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Specify an Instance > Get a Float Variable",
+      "text": "汆慯佴䥦獮慴据⡥",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Specify an Instance > Get a String Variable",
+      "text": "瑓楲杮晏湉瑳湡散⠤",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Current Instance > Get an Integer Variable",
+      "text": "湉佴䍦牵䥲獮慴据⡥",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Current Instance > Get a Float Variable",
+      "text": "汆慯佴䍦牵䥲獮慴据⡥",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Current Instance > Get a String Variable",
+      "text": "瑓楲杮晏畃牲湉瑳湡散⠤",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Global Variables > Get an Integer Variable",
+      "text": "汇扯污湉⡴",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Global Variables > Get a Float Variable",
+      "text": "汇扯污汆慯⡴",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Global Variables > Get a String Variable",
+      "text": "汇扯污瑓楲杮⠤",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Local Variables > Get an Integer Variable",
+      "text": "潌慣䥬瑮(",
+      "menuId": 27120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Local Variables > Get a Float Variable",
+      "text": "潌慣䙬潬瑡(",
+      "menuId": 27130,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Local Variables > Get a String Variable",
+      "text": "潌慣卬牴湩⑧(",
+      "menuId": 27140,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Miscellaneous > Get Loop Index of Current Function",
+      "text": "畆据楴湯潌灯畎扭牥(",
+      "menuId": 27150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Errors > Get Current Error Code",
+      "text": "牅潲⡲",
+      "menuId": 27160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Miscellaneous > Format a String",
+      "text": "潆浲瑡瑓楲杮⠤",
+      "menuId": 27170,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Miscellaneous > Unformat a String",
+      "text": "湕潦浲瑡瑓楲杮⠤",
+      "menuId": 27180,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Current Instance > Get Name of Instance",
+      "text": "敇䥴獮慴据乥浡⑥(",
+      "menuId": 27190,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Miscellaneous > Get Return Type of Current Function",
+      "text": "敇剴瑥牵呮灹⡥",
+      "menuId": 27200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Errors > Get Current Expression Error Code",
+      "text": "硅牰獥楳湯牅潲⡲",
+      "menuId": 27210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Miscellaneous > Get Number of Parameters of Current Function",
+      "text": "畎扭牥晏慐慲敭整獲(",
+      "menuId": 27220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Miscellaneous > Get Number of Selected Objects",
+      "text": "潃湵却汥捥整⡤",
+      "menuId": 27240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

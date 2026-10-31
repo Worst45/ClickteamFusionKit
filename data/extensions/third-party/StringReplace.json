@@ -1,0 +1,158 @@
+{
+  "file": "StringReplace.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set case sensitivity and match limit",
+      "text": "慃敳猠湥瑳癩⁥‽〥‬慍⁸慭捴敨⁳‽ㄥ",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慃敳猠湥楳楴敶‿〨丽Ɐㄠ夽獥)⁳‽ㄥ",
+        "慍楸畭⁭畮扭牥漠⁦慭捴敨⁳渨来瑡癩⁥‽湩楦楮整)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Add to Auto replace... > Add string to replace with string",
+      "text": "摁⁤慰瑴牥㩮┠‰敧獴爠灥慬散⁤祢┠1",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮琠⁯敲汰捡e獴爠灥慬散⁤祢┠1",
+        "瑓楲杮琠⁯敲汰捡⁥楷桴瀀慬散⁤祢┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Add to Auto replace... > Add string to replace with macro",
+      "text": "摁⁤慰瑴牥㩮┠‰敧獴爠灥慬散⁤祢┠‱愨⁳⁡慭牣⥯",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮琠⁯敲汰捡e獴爠灥慬散⁤祢┠‱愨⁳⁡慭牣⥯",
+        "瑓楲杮琠⁯敲汰捡⁥楷桴瀀慬散⁤祢┠‱愨⁳⁡慭牣⥯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Add to Auto replace... > Add string to replace with global string",
+      "text": "摁⁤慰瑴牥㩮┠‰敧獴爠灥慬散⁤祢䜠潬慢⁬瑓楲杮┠1",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "瑓楲杮琠⁯敲汰捡e獴爠灥慬散⁤祢䜠潬慢⁬瑓楲杮┠1",
+        "汇扯污匠牴湩⁧畮扭牥爀灥慬散⁤祢䜠潬慢⁬瑓楲杮┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Add to Auto replace... > Add string to replace with global value",
+      "text": "摁⁤慰瑴牥㩮┠‰敧獴爠灥慬散⁤祢䜠潬慢⁬慖畬⁥ㄥ",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "瑓楲杮琠⁯敲汰捡e獴爠灥慬散⁤祢䜠潬慢⁬慖畬⁥ㄥ",
+        "汇扯污嘠污敵渠浵敢r爠灥慬散⁤祢䜠潬慢⁬慖畬⁥ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Add to Auto replace... > Add string to replace with array reference",
+      "text": "摁⁤慰瑴牥㩮┠‰敧獴爠灥慬散⁤祢┠‱汥浥湥⁴┨ⰲ㌥┬⤴",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "瑓楲杮琠⁯敲汰捡e獴爠灥慬散⁤祢┠‱汥浥湥⁴┨ⰲ㌥┬⤴",
+        "牁慲⁹扯敪瑣渠浡e獴爠灥慬散⁤祢┠‱汥浥湥⁴┨ⰲ㌥┬⤴",
+        "⁘潐楳楴湯琀渠浡e獴爠灥慬散⁤祢┠‱汥浥湥⁴┨ⰲ㌥┬⤴",
+        "⁙潐楳楴湯琀渠浡e獴爠灥慬散⁤祢┠‱汥浥湥⁴┨ⰲ㌥┬⤴",
+        "⁚潐楳楴湯琀渠浡e獴爠灥慬散⁤祢┠‱汥浥湥⁴┨ⰲ㌥┬⤴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Automatic Replace",
+      "text": "敒汰捡䅥瑵⑯(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "潳牵散䄀瑵⑯("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Replace Substring",
+      "text": "敒汰捡卥扵瑳楲杮⠤",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3,
+        3
+      ],
+      "paramTitles": [
+        "潳牵散匀扵瑳楲杮⠤",
+        "瑳楲杮琠⁯楦摮最⠤",
+        "瑳楲杮琠⁯敲汰捡⁥楷桴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

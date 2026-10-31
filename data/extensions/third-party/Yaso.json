@@ -1,0 +1,616 @@
+{
+  "file": "Yaso.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Is Windows NT/2K/XP?",
+      "text": "獉圠湩潤獷丠⽔䬲堯㽐",
+      "menuId": 26000,
+      "resText": "Is Windows NT/2K/XP?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Is connected to the internet?",
+      "text": "獉挠湯敮瑣摥琠⁯桴⁥湩整湲瑥?",
+      "menuId": 26010,
+      "resText": "Is connected to the internet?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Is wild card match?",
+      "text": "潄獥┠‰楦⁴ㄥ?",
+      "menuId": 26020,
+      "resText": "Does %0 fit %1?",
+      "flags": 544,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮琠⁯敳牡档",
+        "瑓楲杮琠⁯潣灭牡⁥潴⠠⹥⹧✠株汥潬✪)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Shutdown Events > On Shutdown Aborted",
+      "text": "湏匠畨摴睯⁮扁牯整d",
+      "menuId": 26030,
+      "resText": "On Shutdown Aborted",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Associate Conditions > Has Association ",
+      "text": "〥栠獡愠⁮獡潳楣瑡潩⁮潦⁲ㄥ",
+      "menuId": 26040,
+      "resText": "%0 has an association for %1",
+      "flags": 544,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "硅整獮潩⁮攨朮‮⸧硴❴)⁲ㄥ",
+        "祔数⠠⹥⹧✠灯湥⤧砀❴)⁲ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Associate Conditions > Has Global Association ",
+      "text": "慈⁳汧扯污愠獳捯慩楴湯映牯┠0",
+      "menuId": 26050,
+      "resText": "Has global association for %0",
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "祔数⠠⹥⹧✠灯湥⤧椀湯映牯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Add file to list of recent documents",
+      "text": "摁⁤〥琠⁯楬瑳漠⁦敲散瑮搠捯浵湥獴",
+      "menuId": 25000,
+      "resText": "Add %0 to list of recent documents",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "敓敬瑣映汩e瑳漠⁦敲散瑮搠捯浵湥獴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Connect to Internet",
+      "text": "潃湮捥⁴潴䤠瑮牥敮⁴楷桴琠瑩敬┠0",
+      "menuId": 25010,
+      "resText": "Connect to Internet with title %0",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "楔汴⁥景搠慩潬g敮⁴楷桴琠瑩敬┠0",
+        "‰‽䌧湡散❬戠瑵潴⁮‬‱‽圧牯⁫景汦湩❥戠瑵潴n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Shutdown Features > Allow Shutdown",
+      "text": "汁潬⁷桳瑵潤湷",
+      "menuId": 25020,
+      "resText": "Allow shutdown",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Shutdown Features > Disallow Shutdown",
+      "text": "楄慳汬睯猠畨摴睯n",
+      "menuId": 25030,
+      "resText": "Disallow shutdown",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Shutdown Features > Set by value",
+      "text": "汁潬⁷桳瑵潤湷㴠┠‰〨㴠丠Ɐㄠ㴠夠獥⤠",
+      "menuId": 25040,
+      "resText": "Allow shutdown = %0 (0 = No, 1 = Yes )",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰‽楄慳汬睯Ⱐㄠ㴠䄠汬睯一Ɐㄠ㴠夠獥⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Association Features > For single extension > Associate",
+      "text": "獁潳楣瑡⁥〥琠⁯㈥映牯琠灹⁥ㄥ眠瑩⁨捩湯┠3",
+      "menuId": 25050,
+      "resText": "Associate %0 to %2 for type %1 with icon %3",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "硅整獮潩⁮攨朮‮⸧硴❴)灹⁥ㄥ眠瑩⁨捩湯┠3",
+        "祔数⠠⹥⹧✠灯湥‧牯✠摥瑩⤧㄀眠瑩⁨捩湯┠3",
+        "慐桴漠⁦硥捥瑵扡敬爀✠摥瑩⤧㄀眠瑩⁨捩湯┠3",
+        "捉湯瀠瑡⁨戨慬歮琠⁯潮⁴档湡敧‬℧‧潴甠敳瀠潲牧浡椠潣⥮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Association Features > For single extension > Un-associate",
+      "text": "湕愭獳捯慩整┠‰潦⁲祴数┠1",
+      "menuId": 25060,
+      "resText": "Un-associate %0 for type %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "硅整獮潩⁮攨朮‮⸧硴❴)┠1",
+        "祔数⠠⹥⹧✠灯湥‧牯✠摥瑩⤧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Association Features > For all file extensions > Associate",
+      "text": "獁潳楣瑡⁥ㄥ眠瑩⁨〥",
+      "menuId": 25070,
+      "resText": "Associate %1 with %0",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "祔数⠠⹥⹧✠灯湥⤧　",
+        "慐桴漠⁦牰杯慲⁭潴愠獳捯慩整眠瑩h"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Association Features > For all file extensions > Un-associate",
+      "text": "敄獡潳楣瑡⁥〥",
+      "menuId": 25080,
+      "resText": "Deassociate %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "祔数⠠⹥⹧✠灯湥⤧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "System Folder Options > Set Error String",
+      "text": "敓⁴牥潲⁲瑳楲杮椠⁮漥琠⁯〥",
+      "menuId": 25090,
+      "resText": "Set error string in %o to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "牅潲⁲瑳楲杮⠠⹥⹧✠攣牲⤧　"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "System Folder Options > Give current users path when global path cannot be found?",
+      "text": "楇敶挠牵敲瑮甠敳獲瀠瑡⁨桷湥朠潬慢⁬慰桴挠湡潮⁴敢映畯摮‿〥⠠‰‽潎Ⱐㄠ㴠夠獥)",
+      "menuId": 25100,
+      "resText": "Give current users path when global path cannot be found? %0 (0 = No , 1 = Yes)",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰‽潎Ⱐㄠ㴠夠獥猀瀠瑡⁨桷湥朠潬慢⁬慰桴挠湡潮⁴敢映畯摮‿〥⠠‰‽潎Ⱐㄠ㴠夠獥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "System Folder Options > Give My Documents when other personal folder cannot be found?",
+      "text": "楇敶䴠⁹潄畣敭瑮⁳桷湥漠桴牥瀠牥潳慮⁬潦摬牥挠湡潮⁴敢映畯摮‿〥⠠‰‽潎Ⱐㄠ㴠夠獥)",
+      "menuId": 25110,
+      "resText": "Give My Documents when other personal folder cannot be found? %0 (0 = No , 1 = Yes)",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰‽潎Ⱐㄠ㴠夠獥 桷湥漠桴牥瀠牥潳慮⁬潦摬牥挠湡潮⁴敢映畯摮‿〥⠠‰‽潎Ⱐㄠ㴠夠獥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Folder Features > All users folders > Application Data",
+      "text": "汇扯污灁䑰瑡②(",
+      "menuId": 27000,
+      "resText": "GlobalAppData$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Folder Features > All users folders > Favorites",
+      "text": "汇扯污慆潶楲整⑳(",
+      "menuId": 27010,
+      "resText": "GlobalFavorites$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Folder Features > All users folders > Desktop",
+      "text": "汇扯污敄歳潴⑰(",
+      "menuId": 27020,
+      "resText": "GlobalDesktop$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Folder Features > All users folders > Templates",
+      "text": "汇扯污敔灭慬整⑳(",
+      "menuId": 27030,
+      "resText": "GlobalTemplates$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Folder Features > All users folders > Shared Documents",
+      "text": "汇扯污桓牡摥潄畣敭瑮⑳(",
+      "menuId": 27040,
+      "resText": "GlobalSharedDocuments$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Folder Features > All users folders > Program Files",
+      "text": "汇扯污牐杯慲䙭汩獥⠤",
+      "menuId": 27050,
+      "resText": "GlobalProgramFiles$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Folder Features > All users folders > System Folder",
+      "text": "汇扯污祓瑳浥潆摬牥⠤",
+      "menuId": 27060,
+      "resText": "GlobalSystemFolder$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Folder Features > All users folders > Windows Folder",
+      "text": "汇扯污楗摮睯䙳汯敤⑲(",
+      "menuId": 27070,
+      "resText": "GlobalWindowsFolder$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Folder Features > Current user folders > Application Data",
+      "text": "畃䅲灰慄慴⠤",
+      "menuId": 27080,
+      "resText": "CurAppData$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Folder Features > Current user folders > Recent Documents",
+      "text": "畃割捥湥䑴捯⑳(",
+      "menuId": 27090,
+      "resText": "CurRecentDocs$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Folder Features > Current user folders > Start Menu",
+      "text": "畃卲慴瑲敍畮⠤",
+      "menuId": 27100,
+      "resText": "CurStartMenu$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Folder Features > Current user folders > Programs (in Start Menu)",
+      "text": "畃偲潲牧浡⑳(",
+      "menuId": 27110,
+      "resText": "CurPrograms$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Folder Features > Current user folders > Send To",
+      "text": "畃卲湥呤⑯(",
+      "menuId": 27120,
+      "resText": "CurSendTo$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Folder Features > Current user folders > Start up",
+      "text": "畃卲慴瑲灕⠤",
+      "menuId": 27130,
+      "resText": "CurStartUp$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Folder Features > Current user folders > Desktop",
+      "text": "畃䑲獥瑫灯⠤",
+      "menuId": 27140,
+      "resText": "CurDesktop$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Folder Features > Current user folders > Personal data folders > My Documents",
+      "text": "畃䵲䑹捯⑳(",
+      "menuId": 27150,
+      "resText": "CurMyDocs$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Folder Features > Current user folders > Personal data folders > My Pictures",
+      "text": "畃䵲偹捩畴敲⑳(",
+      "menuId": 27160,
+      "resText": "CurMyPictures$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Folder Features > Current user folders > Personal data folders > My Music",
+      "text": "畃䵲䵹獵捩⠤",
+      "menuId": 27170,
+      "resText": "CurMyMusic$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Folder Features > Current user folders > Personal data folders > My Videos",
+      "text": "畃䵲噹摩潥⑳(",
+      "menuId": 27180,
+      "resText": "CurMyVideos$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Folder Features > Current user folders > Personal data folders > My Favorites",
+      "text": "畃䵲䙹癡獥⠤",
+      "menuId": 27190,
+      "resText": "CurMyFaves$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Folder Features > Get Error String",
+      "text": "牅卲牴⠤",
+      "menuId": 27200,
+      "resText": "ErrStr$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Folder Features > Get Relative Path ( From , To )",
+      "text": "敒慬楴敶慐桴⠤",
+      "menuId": 27210,
+      "resText": "RelativePath$(",
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Folder Features > Shorten Path ( Path , Length )",
+      "text": "桓牯整偮瑡⑨(",
+      "menuId": 27220,
+      "resText": "ShortenPath$(",
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Associate Features > Get Current Association ( Extension , Type )",
+      "text": "畃䅲獳捯慩楴湯⠤",
+      "menuId": 27230,
+      "resText": "CurAssociation$(",
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Associate Features > Get Current Global Association ( Type )",
+      "text": "畃䝲潬慢䅬獳捯慩楴湯⠤",
+      "menuId": 27240,
+      "resText": "CurGlobalAssociation$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Get Current User",
+      "text": "畃啲敳⑲(",
+      "menuId": 27250,
+      "resText": "CurUser$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

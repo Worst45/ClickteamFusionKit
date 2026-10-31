@@ -1,0 +1,1151 @@
+{
+  "file": "kcamath.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Distance between fixed object and another object",
+      "text": "ㄱ猥›楄瑳湡散戠瑥敷湥映硩摥漠橢捥⁴湡⁤猥椠⁳猥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        23
+      ],
+      "paramTitles": [
+        "楄瑳湡散戠瑥敷湥映硩摥漠橢捥⁴湡⁤湡瑯敨⁲扯敪瑣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Fixed Object is facing within N degrees of another object",
+      "text": "ㄱ猥›楆數⁤扯敪瑣椠⁳慦楣杮┠⁳楷桴湩┠⁳敤牧敥⹳",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楆數⁤扏敪瑣椠⁳慦楣杮眠瑩楨⁮⁎敤牧敥⁳景愠潮桴牥漠橢捥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Compare X of Fixed object",
+      "text": "ㄱ猥›楆數⁤扯敪瑣堠┠s",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Compare Y of Fixed object",
+      "text": "ㄱ猥›楆數⁤扯敪瑣夠┠s",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set decimal offset",
+      "text": "㄰敓⁴敤楣慭⁬景獦瑥琠⁯〱╞s",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set fixed object",
+      "text": "㄰敓⁴楦數⁤扯敪瑣琠⁯猥",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Factorial",
+      "text": "慆瑣(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Absolute Value",
+      "text": "扁⡳",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Raise Number to a Power",
+      "text": "潐⡷",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Greater of Two Numbers",
+      "text": "慍⡸",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Lower of Two Numbers",
+      "text": "楍⡮",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Decimals output functions > Get decimal offset",
+      "text": "敇佴晦敳⡴",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Decimals output functions > Trigonometric Functions > Tangent",
+      "text": "慔杮湥⡴",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Decimals output functions > Trigonometric Functions > Sine",
+      "text": "楓敮(",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Decimals output functions > Trigonometric Functions > Cosine",
+      "text": "潃楳敮(",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Decimals output functions > Trigonometric Functions > ArcTangent",
+      "text": "牁呣湡(",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Decimals output functions > Trigonometric Functions > ArcSine",
+      "text": "牁卣湩(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Decimals output functions > Trigonometric Functions > ArcCosine",
+      "text": "牁䍣獯(",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Decimals output functions > Square Root",
+      "text": "煓瑲(",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Pre-Coded Formulas > Direction from 0,0 to x,y",
+      "text": "楄敲瑣潩⡮",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Pre-Coded Formulas > Direction from fixed object to x,y",
+      "text": "楆數䑤物捥楴湯(",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Pre-Coded Formulas > Decimal output formulas > Distance from 0,0 to x,y",
+      "text": "楄瑳(",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Pre-Coded Formulas > Decimal output formulas > Distance from fixed object to x,y",
+      "text": "楆數䑤獩⡴",
+      "menuId": 27016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Pre-Coded Formulas > Decimal output formulas > Angle from 0,0 to x,y",
+      "text": "湁汧⡥",
+      "menuId": 27017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Pre-Coded Formulas > Decimal output formulas > Angle from fixed object to x,y",
+      "text": "楆數䅤杮敬(",
+      "menuId": 27018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Get X of Fixed Object",
+      "text": "䙘硩摥(",
+      "menuId": 27019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Get Y of Fixed Object",
+      "text": "䙙硩摥(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Get Direction of Fixed Object",
+      "text": "楄䙲硩摥(",
+      "menuId": 27021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Pre-Coded Formulas > Decimal output formulas > Geometry > Area of... > Circle",
+      "text": "楃捲敬牁慥(",
+      "menuId": 27022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Pre-Coded Formulas > Decimal output formulas > Geometry > Circumference of a Circle",
+      "text": "楃捲浵敦敲据⡥",
+      "menuId": 27023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Pre-Coded Formulas > Decimal output formulas > Geometry > Length of arc",
+      "text": "牁䱣湥瑧⡨",
+      "menuId": 27024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Pre-Coded Formulas > Decimal output formulas > Geometry > Interior angle of an N-sided polygon",
+      "text": "潐祬潧䅮杮敬(",
+      "menuId": 27025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Pre-Coded Formulas > Decimal output formulas > Geometry > Area of... > Triangle",
+      "text": "牔慩杮敬牁慥(",
+      "menuId": 27026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Pre-Coded Formulas > Decimal output formulas > Geometry > Volume of... > Cone",
+      "text": "潃敮潖畬敭(",
+      "menuId": 27027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Pre-Coded Formulas > Decimal output formulas > Rotation > Set Angle value",
+      "text": "敓䅴杮敬(",
+      "menuId": 27028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Pre-Coded Formulas > Decimal output formulas > Rotation > New angle using distance from 0,0 to x,y > New X",
+      "text": "敎䅷杮敬⡘",
+      "menuId": 27029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Pre-Coded Formulas > Decimal output formulas > Rotation > New angle using distance from 0,0 to x,y > New Y",
+      "text": "敎䅷杮敬⡙",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Pre-Coded Formulas > Decimal output formulas > Rotation > New angle using distance from fixed object to x,y > New X",
+      "text": "敎䅷杮敬楆數塤(",
+      "menuId": 27031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Pre-Coded Formulas > Decimal output formulas > Rotation > New angle using distance from fixed object to x,y > New Y",
+      "text": "敎䅷杮敬楆數奤(",
+      "menuId": 27032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Pre-Coded Formulas > Decimal output formulas > Rotation > Modify angle using distance from 0,0 to x,y > New X",
+      "text": "䅍杮敬⡘",
+      "menuId": 27033,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Pre-Coded Formulas > Decimal output formulas > Rotation > Modify angle using distance from 0,0 to x,y > New Y",
+      "text": "䅍杮敬⡙",
+      "menuId": 27034,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Pre-Coded Formulas > Decimal output formulas > Rotation > Modify angle using distance from fixed object to x,y > New X",
+      "text": "䅍杮敬楆數塤(",
+      "menuId": 27035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Pre-Coded Formulas > Decimal output formulas > Rotation > Modify angle using distance from fixed object to x,y > New Y",
+      "text": "䅍杮敬楆數奤(",
+      "menuId": 27036,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Decimals output functions > Nth Root",
+      "text": "潒瑯(",
+      "menuId": 27037,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Decimals output functions > Logarithm",
+      "text": "潌⡧",
+      "menuId": 27038,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Decimals output functions > Antilogarithm (Exp)",
+      "text": "湁楴潌⡧",
+      "menuId": 27039,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Decimals output functions > Trigonometric Functions > Secant",
+      "text": "敓慣瑮(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Decimals output functions > Trigonometric Functions > Cosecant",
+      "text": "潃敳慣瑮(",
+      "menuId": 27041,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Decimals output functions > Trigonometric Functions > Cotangent",
+      "text": "潃慴杮湥⡴",
+      "menuId": 27042,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Decimals output functions > Trigonometric Functions > Hyperbolic cosine",
+      "text": "楓敮⡈",
+      "menuId": 27043,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Decimals output functions > Trigonometric Functions > Hyperbolic tangent",
+      "text": "潃楳敮⡈",
+      "menuId": 27044,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Decimals output functions > Trigonometric Functions > Hyperbolic sine",
+      "text": "慔杮湥䡴(",
+      "menuId": 27045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Primes > Check for prime",
+      "text": "獉牐浩⡥",
+      "menuId": 27046,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Primes > Next prime",
+      "text": "敎瑸牐浩⡥",
+      "menuId": 27047,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Primes > Get nth prime",
+      "text": "瑎偨楲敭(",
+      "menuId": 27048,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Primes > Number of primes between",
+      "text": "畎扭牥牐浩獥(",
+      "menuId": 27049,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 50,
+      "menu": "Decimals output functions > Trigonometric Functions > Pi",
+      "text": "楐(",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "Conversions > Directions > Direction -> Angle",
+      "text": "楄呲䅯杮敬(",
+      "menuId": 27051,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 52,
+      "menu": "Conversions > Directions > Angle -> Direction",
+      "text": "湁汧呥䑯物(",
+      "menuId": 27052,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 53,
+      "menu": "Conversions > Directions > Radians -> Angle",
+      "text": "慒楤湡味䅯杮敬(",
+      "menuId": 27053,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 54,
+      "menu": "Conversions > Directions > Angle -> Radians",
+      "text": "湁汧呥副摡慩獮(",
+      "menuId": 27054,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 55,
+      "menu": "Conversions > Directions > Radians -> Direction",
+      "text": "慒楤湡味䑯物(",
+      "menuId": 27055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 56,
+      "menu": "Conversions > Directions > Direction -> Radians",
+      "text": "楄呲副摡慩獮(",
+      "menuId": 27056,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 57,
+      "menu": "Lowest Common Multiple",
+      "text": "潌敷瑳潃浭湯畍瑬灩敬(",
+      "menuId": 27057,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 58,
+      "menu": "Maximum Divisor",
+      "text": "慍楸畭䍭浯潭䑮癩獩牯(",
+      "menuId": 27058,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 59,
+      "menu": "Decimals output functions > Co-Logarithm",
+      "text": "潃潌⡧",
+      "menuId": 27059,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 60,
+      "menu": "Conversions > Weight > Pounds -> Kilograms",
+      "text": "杋潔潐湵獤(",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 61,
+      "menu": "Conversions > Weight > Kilograms -> Pounds",
+      "text": "潐湵獤潔杋(",
+      "menuId": 27061,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 62,
+      "menu": "Conversions > Distance > Centimeter -> Inches",
+      "text": "浃潔湉档獥(",
+      "menuId": 27062,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 63,
+      "menu": "Conversions > Distance > Inches -> Centimeter",
+      "text": "湉档獥潔浃(",
+      "menuId": 27063,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 64,
+      "menu": "Multiplicitive Inverse",
+      "text": "湉敶獲䵥(",
+      "menuId": 27064,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 65,
+      "menu": "Conversions > Distance > Centimeter -> Feet",
+      "text": "浃潔敆瑥(",
+      "menuId": 27065,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 66,
+      "menu": "Conversions > Distance > Feet -> Centimeter",
+      "text": "敆瑥潔浃(",
+      "menuId": 27066,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 67,
+      "menu": "Conversions > Distance > Centimeter -> Yard",
+      "text": "浃潔慙摲⡳",
+      "menuId": 27067,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 68,
+      "menu": "Conversions > Distance > Yard -> Centimeter",
+      "text": "慙摲味䍯⡭",
+      "menuId": 27068,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 69,
+      "menu": "Conversions > Distance > Kilometer -> Miles",
+      "text": "测潔楍敬⡳",
+      "menuId": 27069,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 70,
+      "menu": "Conversions > Distance > Miles -> Kilometer",
+      "text": "楍敬味䭯⡭",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 71,
+      "menu": "Conversions > Temperature > Celsius -> Fahrenheit",
+      "text": "敃獬畩味䙯(",
+      "menuId": 27071,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 72,
+      "menu": "Conversions > Temperature > Fahrenheit -> Celsius",
+      "text": "呆䍯汥楳獵(",
+      "menuId": 27072,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 73,
+      "menu": "Conversions > Temperature > Kelvin -> Celsius",
+      "text": "敋癬湩潔敃獬畩⡳",
+      "menuId": 27073,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 74,
+      "menu": "Conversions > Temperature > Celsius -> Kelvin",
+      "text": "敃獬畩味䭯汥楶⡮",
+      "menuId": 27074,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 75,
+      "menu": "Conversions > Temperature > Kelvin -> Fahrenheit",
+      "text": "敋癬湩潔⡆",
+      "menuId": 27075,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 76,
+      "menu": "Conversions > Temperature > Fahrenheit -> Kelvin",
+      "text": "呆䭯汥楶⡮",
+      "menuId": 27076,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 77,
+      "menu": "Pre-Coded Formulas > Decimal output formulas > Geometry > Sum of internal angles",
+      "text": "畓䅭杮敬⡳",
+      "menuId": 27077,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 78,
+      "menu": "Pre-Coded Formulas > Decimal output formulas > Geometry > External angle of a N-sided polygon",
+      "text": "硅䅴杮敬⡳",
+      "menuId": 27078,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 79,
+      "menu": "Pre-Coded Formulas > Decimal output formulas > Geometry > Area of... > Rectangle",
+      "text": "敒瑣湡汧䅥敲⡡",
+      "menuId": 27079,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 80,
+      "menu": "Pre-Coded Formulas > Decimal output formulas > Geometry > Area of... > Hexagon",
+      "text": "效慸潧䅮敲⡡",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 81,
+      "menu": "Pre-Coded Formulas > Decimal output formulas > Geometry > Volume of... > Cube",
+      "text": "畃敢潖畬敭(",
+      "menuId": 27081,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 82,
+      "menu": "Pre-Coded Formulas > Decimal output formulas > Geometry > Volume of... > Sphere",
+      "text": "灓敨敲潖畬敭(",
+      "menuId": 27082,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 83,
+      "menu": "Pre-Coded Formulas > Decimal output formulas > Geometry > Volume of... > Cilinder",
+      "text": "楃楬摮牥潖畬敭(",
+      "menuId": 27083,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

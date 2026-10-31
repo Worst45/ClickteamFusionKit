@@ -1,0 +1,776 @@
+{
+  "file": "Box2DBase.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "World > Set gravity force",
+      "text": "Set gravity force to %0",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Enter the force of the gravity (10=earth gravity)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "World > Set gravity angle",
+      "text": "Set gravity angle to %0 degrees",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Joints > Distance joints > Joint two objects at hot spot",
+      "text": "Create distance joint %0 between %1 and %2 at hot-spot of both objects",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "Enter the name of the joint",
+        "Choose the first object",
+        "Choose the second object"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Joints > Distance joints > Joint two objects at action point",
+      "text": "Create distance joint %0 between %1 and %2 at action point of both objects",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "Enter the name of the joint",
+        "Choose the first object",
+        "Choose the second object"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Joints > Distance joints > Joint two objects at position",
+      "text": "Create distance joint %0 between %1 at (%2, %3) and %4 at (%5, %6)",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        1,
+        22,
+        22,
+        1,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Enter the name of the joint",
+        "Choose the first object",
+        "Please enter the horizontal coordinate",
+        "Please enter the vertical coordinate",
+        "Choose the second object",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Joints > Revolute joints > Joint two objects at hot spot",
+      "text": "Create revolute joint %0 between %1 and %2 at hot-spot of %1",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "Enter the name of the joint",
+        "Choose the first object",
+        "Choose the second object"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Joints > Revolute joints > Joint two objects at action point",
+      "text": "Create revolute joint %0 between %1 and %2 at action point of both objects",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "Enter the name of the joint",
+        "Choose the first object",
+        "Choose the second object"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Joints > Revolute joints > Joint two objects at position",
+      "text": "Create revolute joint %0 between %1 and %4 at (%2, %3)",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        1,
+        22,
+        22,
+        1
+      ],
+      "paramTitles": [
+        "Enter the name of the joint",
+        "Choose the first object",
+        "Please enter the horizontal coordinate",
+        "Please enter the vertical coordinate",
+        "Choose the second object"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Joints > Prismatic joints > Joint two objects at hot spot",
+      "text": "Create prismatic joint %0 between %1 and %2 at hot-spot of both objects",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "Enter the name of the joint",
+        "Choose the first object",
+        "Choose the second object"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Joints > Prismatic joints > Joint two objects at action point",
+      "text": "Create prismatic joint %0 between %1 and %2 at action point of both objects",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "Enter the name of the joint",
+        "Choose the first object",
+        "Choose the second object"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Joints > Prismatic joints > Joint two objects at position",
+      "text": "Create prismatic joint %0 between %1 and %4 at (%2, %3)",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        1,
+        22,
+        22,
+        1,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Enter the name of the joint",
+        "Choose the first object",
+        "Please enter the horizontal coordinate",
+        "Please enter the vertical coordinate",
+        "Choose the second object",
+        "Please enter the horizontal coordinate",
+        "Please enter the vertical coordinate"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "World > Add object to world",
+      "text": "Add object %0 to world, density %1, friction %2, shape %3",
+      "menuId": 25023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Choose the object to add",
+        "Enter the new density, from 0 to 100",
+        "Enter the new friction, from 0 to 100",
+        "Enter shape: 0=box, 1=circle, 2=shape of first image"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "World > Remove object from world",
+      "text": "Remove object %0 from world",
+      "menuId": 25024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Choose the object to remove"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Objects > Set density",
+      "text": "Set density of %0 to %1",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "Choose the object to modify",
+        "Enter the new density, from 0 to 100"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Objects > Set friction",
+      "text": "Set friction of %0 to %1",
+      "menuId": 25028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "Choose the object to modify",
+        "Enter the new friction, from 0 to 100"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Objects > Set elasticity",
+      "text": "Set elasticity of %0 to %1",
+      "menuId": 25027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "Choose the object to modify",
+        "Enter the new elasticity, from 0 to 100"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Objects > Set gravity scale",
+      "text": "Set gravity scale of %0 to %1",
+      "menuId": 25026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "Choose the object to modify",
+        "Enter the percentage of the world's gravity to apply to this object"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Joints > Distance joints > Set joint elasticity",
+      "text": "Set distance joint %0 elasticity : frequency %1Hz, damping %2",
+      "menuId": 25029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Enter the name of the joint",
+        "Enter the frequency of the axis in Hz",
+        "Enter the damping factor of the axis (0-100)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Joints > Revolute joints > Set joint angle limits",
+      "text": "Set limit angles of joint %0 to %1 (lower limit) and %2 (upper limit)",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Enter the name of the joint",
+        "Enter the lower limit angle (in degrees, 0 to 360)",
+        "Enter the upper limit angle (in degrees, 0 to 360)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Joints > Revolute joints > Set joint motor",
+      "text": "Set joint %0 motor to %1 (torque), %2 (speed)",
+      "menuId": 25031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Enter the name of the joint",
+        "Enter the torque of the motor (-250 to 250)",
+        "Enter the speed of the motor (0-250)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Joints > Prismatic joints > Set joint translation limits",
+      "text": "Set limit positions of joint %0 to %1 (lower limit) and %2 (upper limit)",
+      "menuId": 25032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Enter the name of the joint",
+        "Enter the lower limit position",
+        "Enter the upper limit position"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Joints > Prismatic joints > Set joint motor",
+      "text": "Set joint %0 motor to %1 (force), %2 (speed)",
+      "menuId": 25033,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Enter the name of the joint",
+        "Enter the force of the motor",
+        "Enter the speed of the motor (0-250)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Joints > Pulley joints > Joint two objects at hot spot",
+      "text": "Create pulley joint %0 between %1 and %2 at hot spot, rope 1 (%3, %4), rope 2 (%5, %6), ratio %7",
+      "menuId": 25034,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        1,
+        1,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Enter the name of the joint",
+        "Choose the first object",
+        "Choose the second object",
+        "Enter the length of the first rope",
+        "Enter the angle of the first rope (in degrees, 0-360)",
+        "Enter the length of the second rope",
+        "Enter the angle of the second rope (in degrees, 0-360)",
+        "Enter the transmission ratio percent (100=full transmission, 50=half transmission"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Joints > Pulley joints > Joint two objects at action point",
+      "text": "Create pulley joint %0 between %1 and %2 at action point, rope 1 (%3, %4), rope 2 (%5, %6), ratio %7",
+      "menuId": 25035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        1,
+        1,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Enter the name of the joint",
+        "Choose the first object",
+        "Choose the second object",
+        "Enter the length of the first rope",
+        "Enter the angle of the first rope (in degrees, 0-360)",
+        "Enter the length of the second rope",
+        "Enter the angle of the second rope (in degrees, 0-360)",
+        "Enter the transmission ratio percent (100=full transmission, 50=half transmission"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Joints > Destroy joint",
+      "text": "Destroy joint %0",
+      "menuId": 25038,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Enter the name of the joint"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "World > Set engine iterations",
+      "text": "Set engine velocity iterations to %0 and position iterations to %1",
+      "menuId": 25039,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Enter the velocity iterations (normal=6)",
+        "Enter the position iterations (normal=2)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "World > Pause",
+      "text": "Pause",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "World > Resume",
+      "text": "Resume",
+      "menuId": 25041,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Gravity > Strength",
+      "text": "GravityStrength(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Gravity > Angle",
+      "text": "GravityAngle(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Iterations > Velocity iterations",
+      "text": "VelocityIterations(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Iterations > Position iterations",
+      "text": "PositionIterations(",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Distance joints > Frequency",
+      "text": "ElasticityFrequency(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "Joint name"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Distance joints > Damping",
+      "text": "ElasticityDamping(",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "Joint name"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Revolute joints > Lower angle limit",
+      "text": "LowerAngle(",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "Joint name"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Revolute joints > Upper angle limit",
+      "text": "UpperAngle(",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "Joint name"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Revolute joints > Motor strength",
+      "text": "MotorTorque(",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "Joint name"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Revolute joints > Motor speed",
+      "text": "MotorSpeed(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "Joint name"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Prismatic joints > Lower translation limit",
+      "text": "LowerTranslation(",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "Joint name"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Prismatic joints > Upper translation limit",
+      "text": "UpperTranslation(",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "Joint name"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Prismatic joints > Motor strength",
+      "text": "PMotorStrength(",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "Joint name"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Prismatic joints > Motor speed",
+      "text": "PMotorSpeed(",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "Joint name"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

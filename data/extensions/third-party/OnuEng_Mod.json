@@ -1,0 +1,585 @@
+{
+  "file": "OnuEng_Mod.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Is Channel Muted",
+      "text": "漥›獉䌠慨湮汥┠‱湯䐠捥⁫〥䴠瑵摥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D慨湮汥┠‱湯䐠捥⁫〥䴠瑵摥",
+        "桃湡敮⁬〨㘭⤳─‱湯䐠捥⁫〥䴠瑵摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Seek to Order",
+      "text": "敓步琠⁯牏敤⁲ㄥ椠⁮敄正┠0",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D牏敤⁲ㄥ椠⁮敄正┠0",
+        "牏敤rD牏敤⁲ㄥ椠⁮敄正┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Channels > Set Channel Volume",
+      "text": "敓⁴桃湡敮⁬ㄥ嘠汯浵⁥潴┠′湯䐠捥⁫〥",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D敮⁬ㄥ嘠汯浵⁥潴┠′湯䐠捥⁫〥",
+        "桃湡敮⁬〨㘭⤳嘀汯浵⁥潴┠′湯䐠捥⁫〥",
+        "潖畬敭⠠ⴰ㐶)嘀汯浵⁥潴┠′湯䐠捥⁫〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set Speed",
+      "text": "敓⁴敄正┠‰灓敥⁤潴┠1",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D┠‰灓敥⁤潴┠1",
+        "灓敥dD┠‰灓敥⁤潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Set Tempo",
+      "text": "敓⁴敄正┠‰敔灭⁯潴┠1",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D┠‰敔灭⁯潴┠1",
+        "敔灭oD┠‰敔灭⁯潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Playback Options > Set Sample Rate",
+      "text": "敓⁴慓灭敬慲整琠⁯〥",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慓灭敬删瑡⁥㈨〲〵‬㐴〱ⰰ攠捴)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Playback Options > Set Bit Depth",
+      "text": "敓⁴楂牴瑡⁥潴┠0",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楂⁴敄瑰⁨㠨漠⁲㘱)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Playback Options > Set Stereo/Mono",
+      "text": "敓⁴畎扭牥漠⁦汐祡慢正䌠慨湮汥⁳潴┠0",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "桃湡敮獬⠠‱‽潍潮‬′‽瑓牥潥)潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Playback Options > Set Resample Quality",
+      "text": "敓⁴敒慳灭楬杮儠慵楬祴琠⁯〥",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畑污瑩⁹〨㴠䰠睯䄯楬獡湩Ⱨㄠ㴠䜠潯⽤楌敮牡‬′‽片慥⽴畃楢⥣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Channels > Mute Channel",
+      "text": "畍整䌠慨湮汥┠‱湩䐠捥⁫〥",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D湮汥┠‱湩䐠捥⁫〥",
+        "桃湡敮⁬〨㘭⤳ 湩䐠捥⁫〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Channels > Unmute Channel",
+      "text": "湕畭整䌠慨湮汥┠‱湩䐠捥⁫〥",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D慨湮汥┠‱湩䐠捥⁫〥",
+        "桃湡敮⁬〨㘭⤳─‱湩䐠捥⁫〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Set Filetypes",
+      "text": "敓⁴湅楧敮牥䘠汩瑥灹獥琠⁯〥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆敬琠灹獥⠠灳捡⁥敳数慲整Ɽ椠据畬敤⸠ 攨⁧⸢瑩⸠浸⸠潭⁤献洳⤢"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "WSF > Set WSF Password",
+      "text": "敓⁴南⁆慐獳潷摲琠⁯〥",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "南⁆慐獳潷摲匠牴湩g〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "WSF > Open WGM Unit to Deck",
+      "text": "灏湥圠䵇┠‱湵瑩┠′潴搠捥⁫〥",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        40,
+        22
+      ],
+      "paramTitles": [
+        "敄正䤠D┠‱湵瑩┠′潴搠捥⁫〥",
+        "䝗⁍慐正─‱湵瑩┠′潴搠捥⁫〥",
+        "䝗⁍湕瑩䤠D湵瑩┠′潴搠捥⁫〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Song > Get Current Order",
+      "text": "畃牲湥佴摲牥(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D摲牥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Song > Channels > Get Channel Volume",
+      "text": "桃湡敮噬汯(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D汯(",
+        "桃湡敮⁬〨㘭⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Song > Get Current Speed",
+      "text": "畃牲湥却数摥(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D数摥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Song > Get Current Tempo",
+      "text": "畃牲湥呴浥潰(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D浥潰("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Song > Get Initial Speed",
+      "text": "湉瑩慩卬数摥(",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D数摥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Song > Get Initial Tempo",
+      "text": "湉瑩慩呬浥潰(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D浥潰("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Song > Get Current Row",
+      "text": "畃牲湥剴睯(",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D睯("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Playback Settings > Get Samplerate",
+      "text": "慓灭敬慒整(",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Playback Settings > Get Bit Depth",
+      "text": "楂䑴灥桴(",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Playback Settings > Get # of Channels (Stereo/Mono)",
+      "text": "汐祡桃湡敮獬(",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Playback Settings > Get Resampling Quality",
+      "text": "畑污瑩⡹",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Song > Channels > Get # of Channels",
+      "text": "畎䍭慨湮汥⡳",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D汥⡳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Song > Get Song Message",
+      "text": "潓杮敍獳条⑥(",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D条⑥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Song > Instruments > Get # of Instruments",
+      "text": "畎䥭獮牴浵湥獴(",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D浵湥獴("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Song > Samples > Get # of Samples",
+      "text": "畎卭浡汰獥(",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D獥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Song > Instruments > Get Instrument Name",
+      "text": "湉瑳畲敭瑮慎敭⠤",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D瑮慎敭⠤",
+        "湉瑳畲敭瑮⌠攀⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Song > Samples > Get Sample Name",
+      "text": "慓灭敬慎敭⠤",
+      "menuId": 27016,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D敭⠤",
+        "慓灭敬⌠攀⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Song > Instruments > Get Instrument Filename",
+      "text": "湉瑳畲敭瑮楆敬慮敭⠤",
+      "menuId": 27017,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D瑮楆敬慮敭⠤",
+        "湉瑳畲敭瑮⌠攀慮敭⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Song > Samples > Get Sample Filename",
+      "text": "慓灭敬楆敬慮敭⠤",
+      "menuId": 27018,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D敬慮敭⠤",
+        "慓灭敬⌠攀慮敭⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Song > Get Number of Orders",
+      "text": "畎佭摲牥⡳",
+      "menuId": 27019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D⡳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Song > Channels > Get Initial Channel Volume",
+      "text": "湉瑩慩䍬慨湮汥潖⡬",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "敄正䤠D慨湮汥潖⡬",
+        "桃湡敮⁬〨㘭⤳漀⡬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

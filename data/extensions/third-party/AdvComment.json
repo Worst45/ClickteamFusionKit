@@ -1,0 +1,360 @@
+{
+  "file": "AdvComment.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Comment (Blank)",
+      "text": "〥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃浭湥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Comment (Object)",
+      "text": "漥›〥",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃浭湥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Comments (Text) > Regular > Comment",
+      "text": "潃浭湥㩴┠0",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃浭湥t┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Comments (Text) > Regular > Note",
+      "text": "潎整›〥",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃浭湥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Comments (Text) > Regular > Reminder",
+      "text": "敒業摮牥›〥",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃浭湥t›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Comments (Text) > Regular > Important",
+      "text": "浉潰瑲湡㩴┠0",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃浭湥t㩴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Comments (Text) > Regular > About This Event",
+      "text": "扁畯⁴桔獩䔠敶瑮›〥",
+      "menuId": 26060,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃浭湥t獩䔠敶瑮›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Comments (Text) > All Caps > Comment",
+      "text": "佃䵍久㩔┠0",
+      "menuId": 26070,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃浭湥t┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Comments (Text) > All Caps > Note",
+      "text": "低䕔›〥",
+      "menuId": 26080,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃浭湥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Comments (Text) > All Caps > Reminder",
+      "text": "䕒䥍䑎剅›〥",
+      "menuId": 26090,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃浭湥t›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Comments (Text) > All Caps > Important",
+      "text": "䵉佐呒乁㩔┠0",
+      "menuId": 26100,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃浭湥t㩔┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Comment",
+      "text": "〥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃浭湥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Comments (Text) > Regular > Comment",
+      "text": "潃浭湥㩴┠0",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃浭湥t┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Comments (Text) > Regular > Note",
+      "text": "潎整›〥",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃浭湥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Comments (Text) > Regular > Reminder",
+      "text": "敒業摮牥›〥",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃浭湥t›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Comments (Text) > Regular > Important",
+      "text": "浉潰瑲湡㩴┠0",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃浭湥t㩴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Comments (Text) > Regular > About Action Above",
+      "text": "扁畯⁴捁楴湯䄠潢敶›〥",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃浭湥t楴湯䄠潢敶›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Comments (Text) > Regular > About Action Below",
+      "text": "扁畯⁴捁楴湯䈠汥睯›〥",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃浭湥t楴湯䈠汥睯›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Comments (Text) > All Caps > Comment",
+      "text": "佃䵍久㩔┠0",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃浭湥t┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Comments (Text) > All Caps > Note",
+      "text": "低䕔›〥",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃浭湥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Comments (Text) > All Caps > Reminder",
+      "text": "䕒䥍䑎剅›〥",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃浭湥t›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Comments (Text) > All Caps > Important",
+      "text": "䵉佐呒乁㩔┠0",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潃浭湥t㩔┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": []
+}

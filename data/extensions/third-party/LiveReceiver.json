@@ -1,0 +1,83 @@
+{
+  "file": "LiveReceiver.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Data received",
+      "text": "漥㨠䐠瑡⁡敲散癩摥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Start download (POST)",
+      "text": "瑓牡⁴潤湷潬摡映潲⁭〥眠瑩⁨佐呓猠牴湩⁧ㄥ",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "剕L⁴潤湷潬摡映潲⁭〥眠瑩⁨佐呓猠牴湩⁧ㄥ",
+        "佐呓猠牴湩⁧椨㵤慶畬⍥椣㉤瘽污敵⌲椣㍤瘽污敵⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Start download (GET)",
+      "text": "瑓牡⁴潤湷潬摡映潲⁭〥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "剕L⁴潤湷潬摡映潲⁭〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set cookie file",
+      "text": "敓⁴潣歯敩映汩⁥潴┠0",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "潃歯敩映汩e汩⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get received data",
+      "text": "敒散癩摥⠤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

@@ -1,0 +1,851 @@
+{
+  "file": "bigbox.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Mouse/Keyboard > Is Num Lock on ?",
+      "text": "畎⁭潌正漠n",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Mouse/Keyboard > Is Caps Lock on ?",
+      "text": "慃獰䰠捯⁫湯",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Display > Windows > Change wallpaper",
+      "text": "敎⁷慷汬慰数㩲┠0",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "桃潯敳愠戠瑩慭⁰楦敬⠠⸪浢⥰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Display > Windows > Launch the screensaver",
+      "text": "慌湵档琠敨猠牣敥獮癡牥",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Display > Windows > Enable screensaver",
+      "text": "捓敲湥慳敶㩲䔠慮汢e",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Display > Windows > Disable screensaver",
+      "text": "捓敲湥慳敶㩲䐠獩扡敬",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Display > Windows > Adjust the screensaver delay",
+      "text": "摁番瑳琠敨搠汥祡漠⁦桴⁥捳敲湥慳敶⁲潴┠‰業畮整s",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥敤慬ⱹ椠⁮業畮整s湥慳敶⁲潴┠‰業畮整s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Display > Windows > Reduce all opened windows",
+      "text": "敒畤散愠汬眠湩潤獷",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Mouse/Keyboard > Change keyboard repetition speed",
+      "text": "敋批慯摲爠灥瑥瑩潩⁮灳敥⁤潴┠0",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥灳敥Ɽ戠瑥敷湥〠愠摮㌠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Display > Windows > Change the background color of the desktop",
+      "text": "慂正牧畯摮挠汯牯漠⁦桴⁥敤歳潴㩰┠0",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "桃潯敳愠挠汯畯r漠⁦桴⁥敤歳潴㩰┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Display > Change screen resolution",
+      "text": "桃湡敧爠獥汯瑵潩⁮潭敤琠⁯〥╸1",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗瑤⁨景琠敨爠獥汯瑵潩n⁯〥╸1",
+        "效杩瑨漠⁦桴⁥敲潳畬楴湯 〥╸1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Display > Change color depth",
+      "text": "敓⁴捳敲湥搠灥桴琠⁯〥戠瑩s",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "㡛㵝㔲‶潣汵畯獲‬ㅛ崶㘽㌶㘵‬㉛‴畯㌠崲ㄽ䴶"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Display > Change screen refresh rate",
+      "text": "敓⁴捳敲湥爠晥敲桳爠瑡⁥潴┠‰穨",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敒牦獥⁨慲整‬湩䠠z瑡⁥潴┠‰穨"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "System > Shut down the computer",
+      "text": "桓瑵搠睯⁮桴⁥潣灭瑵牥",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "System > Reboot the computer",
+      "text": "敒潢瑯琠⁯潣灭瑵牥",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "System > Make a BEEP from the internal speaker",
+      "text": "䕂偅℠⠠〥䠠ⱺ┠‱獭)",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥敢灥映敲畱湥祣⠠湩䠠⥺",
+        "敂灥搠牵瑡潩⁮椨⁮業汬獩捥湯獤‬〱〰獭㴠ㄠ敳⥣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Mouse/Keyboard > Set the mouse position",
+      "text": "敓⁴潭獵❥⁳潰楳楴湯⠠〥‬ㄥ)",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘潰楳楴湯 潰楳楴湯⠠〥‬ㄥ)",
+        "⁙潰楳楴湯 潰楳楴湯⠠〥‬ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Mouse/Keyboard > Change the mouse speed",
+      "text": "潍獵⁥灳敥㩤┠‰㈯1",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡慶畬⁥敢睴敥⁮‱湡⁤〲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Mouse/Keyboard > Change keyboard repetition delay",
+      "text": "敋批慯摲䐠汥祡›〥⼠ㄳ",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡慶畬⁥敢睴敥⁮‰湡⁤ㄳ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Mouse/Keyboard > Delay of the double-click",
+      "text": "潄扵敬挭楬正搠汥祡›〥洠s",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慍⁸敤慬⁹潴搠⁯⁡潤扵敬挭楬正‬湥洠汩楬敳潣摮s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Display > Windows > Enable font smoothing",
+      "text": "湅扡敬映湯⁴浳潯桴湩g",
+      "menuId": 25018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Display > Windows > Disable font smoothing",
+      "text": "楄慳汢⁥潦瑮猠潭瑯楨杮",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Mouse/Keyboard > Mouse's trails",
+      "text": "潍獵⁥牴楡獬›〥",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "せ㵝潎嬠縱㘱㵝畎扭牥漠⁦畣獲牯⁳牤睡⁮湩琠敨琠慲汩"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "System > Kill a process",
+      "text": "楋汬瀠潲散獳┠0",
+      "menuId": 25021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "牐捯獥⁳慮敭⠠硥›硥汰牯牥攮數)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Misc > Open a file / Open a website",
+      "text": "灏湥眠扥楳整┠0",
+      "menuId": 25022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆敬琠⁯灯湥⼠唠䱒漠⁦桴⁥敷獢瑩e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "System > Close the current Windows session",
+      "text": "汃獯⁥桴⁥畣牲湥⁴楗摮睯⁳敳獳潩n",
+      "menuId": 25023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "System > Tell computer to hibernate",
+      "text": "敔汬挠浯異整⁲潴栠扩牥慮整",
+      "menuId": 25024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Mouse/Keyboard >    Simulate a left mouse click",
+      "text": "楓畭慬整愠氠晥⁴潭獵⁥汣捩k",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Mouse/Keyboard >    Simulate a right mouse click",
+      "text": "楓畭慬整愠爠杩瑨洠畯敳挠楬正",
+      "menuId": 25026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Mouse/Keyboard > Set Num Lock on",
+      "text": "畔湲漠⁮桴⁥畎⁭潌正",
+      "menuId": 25028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Mouse/Keyboard > Set Num Lock off",
+      "text": "畔湲漠晦琠敨丠浵䰠捯k",
+      "menuId": 25029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Mouse/Keyboard > Set Caps Lock on",
+      "text": "畔湲漠⁮桴⁥慃獰䰠捯k",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Mouse/Keyboard > Set Caps Lock off",
+      "text": "畔湲漠晦琠敨䌠灡⁳潌正",
+      "menuId": 25031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Misc > Make a screenshot",
+      "text": "慍敫愠猠牣敥獮潨t",
+      "menuId": 25032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Mouse/Keyboard >    Simulate a middle mouse click",
+      "text": "楓畭慬整愠洠摩汤⁥潭獵⁥汣捩k",
+      "menuId": 25033,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Mouse/Keyboard > Keyboard repetition delay (*/31)",
+      "text": "敋批䑤汥祡(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Display > Width of the current resolution",
+      "text": "捓坲摩桴(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Display > Height of the current resolution",
+      "text": "捓䡲楥桧⡴",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "System > Total amount of RAM (MB)",
+      "text": "䅒呍瑯污(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Display > Windows > Screensaver delay (in minutes)",
+      "text": "捓卲癡敄慬⡹",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Mouse/Keyboard > Mouse speed (*/21)",
+      "text": "潍獵卥数摥(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Display > Screen refresh rate",
+      "text": "捓䙲敲畱(",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Display > Screen depth",
+      "text": "潃潬䑲灥桴(",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "System > BEEP music ! > C frequency",
+      "text": "潎整潄(",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "System > BEEP music ! > C# frequency",
+      "text": "潎整潄⠣",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "System > BEEP music ! > D frequency",
+      "text": "潎整敒(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "System > BEEP music ! > D# frequency",
+      "text": "潎整敒⠣",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "System > BEEP music ! > E frequency",
+      "text": "潎整楍(",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "System > BEEP music ! > F frequency",
+      "text": "潎整慆(",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "System > BEEP music ! > F# frequency",
+      "text": "潎整慆⠣",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "System > BEEP music ! > G frequency",
+      "text": "潎整潓⡬",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "System > BEEP music ! > G# frequency",
+      "text": "潎整潓⍬(",
+      "menuId": 27016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "System > BEEP music ! > A frequency",
+      "text": "潎整慌(",
+      "menuId": 27017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "System > BEEP music ! > A# frequency",
+      "text": "潎整慌⠣",
+      "menuId": 27018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "System > BEEP music ! > B frequency",
+      "text": "潎整楓(",
+      "menuId": 27019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "System > CPU speed (MHz)",
+      "text": "䍐慎敭(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "System > Hard drive size (MB)",
+      "text": "䑈呄瑯污(",
+      "menuId": 27021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "敌瑴牥漠⁦桴⁥楤歳⠠硥›㩃⥜"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "System > Free space on the hard drive (MB)",
+      "text": "䑈䙄敲⡥",
+      "menuId": 27022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "敌瑴牥漠⁦桴⁥楤歳⠠硥›㩃⥜"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "System > Amount of free RAM (MB)",
+      "text": "䅒䙍敲⡥",
+      "menuId": 27023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Mouse/Keyboard > Keyboard repetition speed (*/31)",
+      "text": "敋批卤数摥(",
+      "menuId": 27024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "System > Installed OS  (see HELP.TXT)",
+      "text": "协(",
+      "menuId": 27025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "System > Get Windows Directory",
+      "text": "楗䑮物⠤",
+      "menuId": 27026,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "System > Get System Directory",
+      "text": "祓䑳物⠤",
+      "menuId": 27027,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "System > Get Temp Directory",
+      "text": "敔灭楄⑲(",
+      "menuId": 27028,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

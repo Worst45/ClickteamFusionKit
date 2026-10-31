@@ -1,0 +1,48 @@
+{
+  "file": "process.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On Process",
+      "text": "牐捯獥⁳楖睥牥›桔獩漠橢捥⁴獩渠瑯挠浯慰楴汢⁥楷桴琠楨⁳敶獲潩⁮景䴠䙍",
+      "menuId": 26000,
+      "resText": "%o: On Process",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "conditions_status": "menu ressources",
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Processes > Update Process List",
+      "text": "牐捯獥⁳楖睥牥›桔獩漠橢捥⁴獩渠瑯挠浯慰楴汢⁥楷桴琠楨⁳敶獲潩⁮景䴠䙍",
+      "menuId": 25000,
+      "resText": "Update Process List",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions_status": "menu ressources",
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Processes > Process ID",
+      "text": "牐捯獥⁳楖睥牥›桔獩漠橢捥⁴獩渠瑯挠浯慰楴汢⁥楷桴琠楨⁳敶獲潩⁮景䴠䙍",
+      "menuId": 27000,
+      "resText": "pProcessID(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions_status": "menu ressources"
+}

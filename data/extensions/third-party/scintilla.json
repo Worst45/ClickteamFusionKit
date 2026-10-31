@@ -1,0 +1,4709 @@
+{
+  "file": "scintilla.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Control > Can undo ?",
+      "text": "漥›慃⁮湵潤㼠",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Control > Can redo ?",
+      "text": "漥›慃⁮敲潤㼠",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Notifications > Any notification",
+      "text": "漥›湁⁹潮楴楦慣楴湯",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Notifications > Character added",
+      "text": "漥›桃牡捡整⁲〥愠摤摥",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "桃牡捡整⁲䈨慬歮㴠愠祮挠慨慲瑣牥‬湜㴠丠睥氠湩⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Notifications > Text modified",
+      "text": "漥›敔瑸洠摯晩敩d",
+      "menuId": 26004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Notifications > Margin clicked",
+      "text": "漥›慍杲湩挠楬正摥",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Notifications > Zoomed",
+      "text": "漥›潚浯摥",
+      "menuId": 26006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Notifications > Double-clicked",
+      "text": "漥›潄扵敬挭楬正摥",
+      "menuId": 26007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Notifications > Key pressed",
+      "text": "漥›敋⁹牰獥敳d",
+      "menuId": 26008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Notifications > Hotspot clicked",
+      "text": "漥›潈獴潰⁴汣捩敫d",
+      "menuId": 26009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Notifications > Hotspot double-clicked",
+      "text": "漥›潈獴潰⁴潤扵敬挭楬正摥",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Notifications > Indicator clicked",
+      "text": "漥›湉楤慣潴⁲汣捩敫d",
+      "menuId": 26011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Notifications > Indicator released",
+      "text": "漥›湉楤慣潴⁲敲敬獡摥",
+      "menuId": 26012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Notifications > Calltip clicked",
+      "text": "漥›慃汬楴⁰汣捩敫d",
+      "menuId": 26013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Notifications > Savepoint reached",
+      "text": "漥›慓敶潰湩⁴敲捡敨d",
+      "menuId": 26014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Notifications > Savepoint left",
+      "text": "漥›慓敶潰湩⁴敬瑦",
+      "menuId": 26015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Notifications > Styling needed",
+      "text": "漥›瑓汹湩⁧敮摥摥",
+      "menuId": 26016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Notifications > Painted",
+      "text": "漥›慐湩整d",
+      "menuId": 26017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Control > Has focus ?",
+      "text": "漥›慈⁳潦畣⁳?",
+      "menuId": 26018,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Control > Can paste ?",
+      "text": "漥›慃⁮慰瑳⁥?",
+      "menuId": 26019,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Notifications > Context-menu requested",
+      "text": "漥›潃瑮硥⵴敭畮爠煥敵瑳摥",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Notifications > Text change attempted",
+      "text": "漥›敔瑸挠慨杮⁥瑡整灭整d",
+      "menuId": 26021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Notifications > UI updated",
+      "text": "漥›䥕甠摰瑡摥",
+      "menuId": 26022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Notifications > Autocompletion selected",
+      "text": "漥›畁潴潣灭敬楴湯猠汥捥整d",
+      "menuId": 26023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Notifications > Autocompletion cancelled",
+      "text": "漥›畁潴潣灭敬楴湯挠湡散汬摥",
+      "menuId": 26024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Control > Overtype is enabled ?",
+      "text": "漥›癏牥祴数椠⁳湥扡敬d",
+      "menuId": 26025,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Notifications > Dwell start",
+      "text": "漥›睄汥⁬瑳牡t",
+      "menuId": 26026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Notifications > Dwell end",
+      "text": "漥›睄汥⁬湥d",
+      "menuId": 26027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Search  Replace > Text found",
+      "text": "漥›敔瑸映畯摮",
+      "menuId": 26028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Search  Replace > Text search failed",
+      "text": "漥›敔瑸猠慥捲⁨慦汩摥",
+      "menuId": 26029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Text > Set text",
+      "text": "敓⁴整瑸琠⁯〥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敔瑸攀瑸琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Style > Color",
+      "text": "敓⁴潣潬⁲景┠‰潴┠1",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        24
+      ],
+      "paramTitles": [
+        "瑓汹獥ⴠ䬠祥潷摲⁳畳灰牯㩴䄠䵓䌬⬫䌬卓䠬䵔ⱌ义ⱉ界ⱡ祐桴湯匬䱑嘬ⱂ䵘⁌匨敥㰠敒敦敲据㹥椠⁮硥牰獥楳湯⥳",
+        "潃潬rⴠ䬠祥潷摲⁳畳灰牯㩴䄠䵓䌬⬫䌬卓䠬䵔ⱌ义ⱉ界ⱡ祐桴湯匬䱑嘬ⱂ䵘⁌匨敥㰠敒敦敲据㹥椠⁮硥牰獥楳湯⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Style > Background color",
+      "text": "敓⁴慢正牧畯摮挠汯牯漠⁦〥琠⁯ㄥ",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        24
+      ],
+      "paramTitles": [
+        "瑓汹獥ⴠ䬠祥潷摲⁳畳灰牯㩴䄠䵓䌬⬫䌬卓䠬䵔ⱌ义ⱉ界ⱡ祐桴湯匬䱑嘬ⱂ䵘⁌匨敥㰠敒敦敲据㹥椠⁮硥牰獥楳湯⥳",
+        "潃潬rⴠ䬠祥潷摲⁳畳灰牯㩴䄠䵓䌬⬫䌬卓䠬䵔ⱌ义ⱉ界ⱡ祐桴湯匬䱑嘬ⱂ䵘⁌匨敥㰠敒敦敲据㹥椠⁮硥牰獥楳湯⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Style > Keywords",
+      "text": "敓⁴敫睹牯獤┠‰潴┠1",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "敋睹牯獤䤠D┠‰潴┠1",
+        "敋睹牯獤䤀D┠‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Window > Send message",
+      "text": "敓摮洠獥慳敧┠⠰ㄥ‬㈥)",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敍獳条e慳敧┠⠰ㄥ‬㈥)",
+        "偗剁䵁",
+        "偌剁䵁"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Style > Bold state",
+      "text": "敓⁴潢摬猠慴整漠⁦〥琠⁯ㄥ",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "瑓汹獥ⴠ䬠祥潷摲⁳畳灰牯㩴䄠䵓䌬⬫䌬卓䠬䵔ⱌ义ⱉ界ⱡ祐桴湯匬䱑嘬ⱂ䵘⁌匨敥㰠敒敦敲据㹥椠⁮硥牰獥楳湯⥳",
+        "潂摬猠慴整⠠ⰰㄠ)畳灰牯㩴䄠䵓䌬⬫䌬卓䠬䵔ⱌ义ⱉ界ⱡ祐桴湯匬䱑嘬ⱂ䵘⁌匨敥㰠敒敦敲据㹥椠⁮硥牰獥楳湯⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Style > Italic state",
+      "text": "敓⁴瑩污捩猠慴整漠⁦〥琠⁯ㄥ",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "瑓汹獥ⴠ䬠祥潷摲⁳畳灰牯㩴䄠䵓䌬⬫䌬卓䠬䵔ⱌ义ⱉ界ⱡ祐桴湯匬䱑嘬ⱂ䵘⁌匨敥㰠敒敦敲据㹥椠⁮硥牰獥楳湯⥳",
+        "瑉污捩猠慴整⠠ⰰㄠ)灰牯㩴䄠䵓䌬⬫䌬卓䠬䵔ⱌ义ⱉ界ⱡ祐桴湯匬䱑嘬ⱂ䵘⁌匨敥㰠敒敦敲据㹥椠⁮硥牰獥楳湯⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Style > Underline state",
+      "text": "敓⁴湵敤汲湩⁥瑳瑡⁥景┠‰潴┠1",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "瑓汹獥ⴠ䬠祥潷摲⁳畳灰牯㩴䄠䵓䌬⬫䌬卓䠬䵔ⱌ义ⱉ界ⱡ祐桴湯匬䱑嘬ⱂ䵘⁌匨敥㰠敒敦敲据㹥椠⁮硥牰獥楳湯⥳",
+        "湕敤汲湩⁥瑳瑡⁥〨‬⤱爀㩴䄠䵓䌬⬫䌬卓䠬䵔ⱌ义ⱉ界ⱡ祐桴湯匬䱑嘬ⱂ䵘⁌匨敥㰠敒敦敲据㹥椠⁮硥牰獥楳湯⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Style > Case",
+      "text": "敓⁴慣敳漠⁦〥琠⁯ㄥ",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "瑓汹獥ⴠ䬠祥潷摲⁳畳灰牯㩴䄠䵓䌬⬫䌬卓䠬䵔ⱌ义ⱉ界ⱡ祐桴湯匬䱑嘬ⱂ䵘⁌匨敥㰠敒敦敲据㹥椠⁮硥牰獥楳湯⥳",
+        "慃敳⠠㨰唠据慨杮摥‬㨱唠灰牥挠獡ⱥ㈠›潌敷⁲慣敳)ⱡ祐桴湯匬䱑嘬ⱂ䵘⁌匨敥㰠敒敦敲据㹥椠⁮硥牰獥楳湯⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Style > Visibility",
+      "text": "敓⁴楶楳楢楬祴漠⁦〥琠⁯ㄥ",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "瑓汹獥ⴠ䬠祥潷摲⁳畳灰牯㩴䄠䵓䌬⬫䌬卓䠬䵔ⱌ义ⱉ界ⱡ祐桴湯匬䱑嘬ⱂ䵘⁌匨敥㰠敒敦敲据㹥椠⁮硥牰獥楳湯⥳",
+        "楖楳楢楬祴⠠ⰰㄠ)畳灰牯㩴䄠䵓䌬⬫䌬卓䠬䵔ⱌ义ⱉ界ⱡ祐桴湯匬䱑嘬ⱂ䵘⁌匨敥㰠敒敦敲据㹥椠⁮硥牰獥楳湯⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Style > Changeability",
+      "text": "敓⁴档湡敧扡汩瑩⁹景┠‰潴┠1",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "瑓汹獥ⴠ䬠祥潷摲⁳畳灰牯㩴䄠䵓䌬⬫䌬卓䠬䵔ⱌ义ⱉ界ⱡ祐桴湯匬䱑嘬ⱂ䵘⁌匨敥㰠敒敦敲据㹥椠⁮硥牰獥楳湯⥳",
+        "桃湡敧扡汩瑩⁹〨‬⤱瀀牯㩴䄠䵓䌬⬫䌬卓䠬䵔ⱌ义ⱉ界ⱡ祐桴湯匬䱑嘬ⱂ䵘⁌匨敥㰠敒敦敲据㹥椠⁮硥牰獥楳湯⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Style > Hotspot state",
+      "text": "敓⁴潨獴潰⁴瑳瑡⁥景┠‰潴┠1",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "瑓汹獥ⴠ䬠祥潷摲⁳畳灰牯㩴䄠䵓䌬⬫䌬卓䠬䵔ⱌ义ⱉ界ⱡ祐桴湯匬䱑嘬ⱂ䵘⁌匨敥㰠敒敦敲据㹥椠⁮硥牰獥楳湯⥳",
+        "潈獴潰⁴瑳瑡⁥〨‬⤱瀀牯㩴䄠䵓䌬⬫䌬卓䠬䵔ⱌ义ⱉ界ⱡ祐桴湯匬䱑嘬ⱂ䵘⁌匨敥㰠敒敦敲据㹥椠⁮硥牰獥楳湯⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Style > Font face",
+      "text": "敓⁴潦瑮映捡⁥景┠‰潴┠1",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "瑓汹獥ⴠ䬠祥潷摲⁳畳灰牯㩴䄠䵓䌬⬫䌬卓䠬䵔ⱌ义ⱉ界ⱡ祐桴湯匬䱑嘬ⱂ䵘⁌匨敥㰠敒敦敲据㹥椠⁮硥牰獥楳湯⥳",
+        "潆瑮映捡⁥䔨朮‮牁慩⥬爀㩴䄠䵓䌬⬫䌬卓䠬䵔ⱌ义ⱉ界ⱡ祐桴湯匬䱑嘬ⱂ䵘⁌匨敥㰠敒敦敲据㹥椠⁮硥牰獥楳湯⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Style > Font size",
+      "text": "敓⁴潦瑮猠穩⁥景┠‰潴┠1",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "瑓汹獥ⴠ䬠祥潷摲⁳畳灰牯㩴䄠䵓䌬⬫䌬卓䠬䵔ⱌ义ⱉ界ⱡ祐桴湯匬䱑嘬ⱂ䵘⁌匨敥㰠敒敦敲据㹥椠⁮硥牰獥楳湯⥳",
+        "潆瑮猠穩e祥潷摲⁳畳灰牯㩴䄠䵓䌬⬫䌬卓䠬䵔ⱌ义ⱉ界ⱡ祐桴湯匬䱑嘬ⱂ䵘⁌匨敥㰠敒敦敲据㹥椠⁮硥牰獥楳湯⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Documents > Create document",
+      "text": "牃慥整搠捯浵湥t",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Documents > Set current document",
+      "text": "敓⁴畣牲湥⁴潤畣敭瑮琠⁯〥",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湉敤x牲湥⁴潤畣敭瑮琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Documents > Delete document",
+      "text": "敄敬整搠捯浵湥⁴〥",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湉敤x搠捯浵湥⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Block > Cut",
+      "text": "畃⁴汢捯k",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Block > Copy",
+      "text": "潃祰戠潬正",
+      "menuId": 25018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Block > Paste",
+      "text": "慐瑳⁥汢捯k",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Block > Clear",
+      "text": "汃慥⁲汢捯k",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Block > Replace selection",
+      "text": "敒汰捡⁥敳敬瑣潩⁮楷桴┠0",
+      "menuId": 25021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮琠⁯敲汰捡⁥楷桴─0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Block > Select text",
+      "text": "敓敬瑣挠慨慲瑣牥⁳〥琠⁯ㄥ",
+      "menuId": 25022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆獲⁴档牡捡整r⁳〥琠⁯ㄥ",
+        "敓潣摮挠慨慲瑣牥 〥琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Block > Select all",
+      "text": "敓敬瑣愠汬",
+      "menuId": 25023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Block > Unselect block",
+      "text": "湕敳敬瑣戠潬正",
+      "menuId": 25024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Control > Autocompletion > Show list",
+      "text": "桓睯愠瑵捯浯汰瑥潩⁮楬瑳",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "畎扭牥漠⁦档牡捡整獲愠牬慥祤攠瑮牥摥",
+        "灓捡ⵥ敳慰慲整⁤楬瑳愀牬慥祤攠瑮牥摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Control > Caret > Go to position",
+      "text": "潇琠⁯潰楳楴湯┠0",
+      "menuId": 25033,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潐楳楴湯椀楴湯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Control > Caret > Go to line",
+      "text": "潇琠⁯楬敮┠0",
+      "menuId": 25034,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楌敮 楬敮┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Control > History > Undo",
+      "text": "湕潤",
+      "menuId": 25035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Control > History > Redo",
+      "text": "敒潤",
+      "menuId": 25036,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Control > History > Clear undo buffer",
+      "text": "浅瑰⁹湵潤戠晵敦r",
+      "menuId": 25037,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Control > Folding > Toggle fold at",
+      "text": "潔杧敬映汯⁤瑡氠湩⁥〥",
+      "menuId": 25038,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楌敮攀映汯⁤瑡氠湩⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Control > Zoom > Zoom in",
+      "text": "潚浯椠n",
+      "menuId": 25039,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Control > Zoom > Zoom out",
+      "text": "潚浯漠瑵",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Control > Zoom > Set zoom",
+      "text": "敓⁴潺浯琠⁯〥",
+      "menuId": 25041,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潚浯漀浯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Control > Margins > Set width",
+      "text": "敓⁴楷瑤⁨景洠牡楧⁮〥琠⁯ㄥ瀠x",
+      "menuId": 25042,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慍杲湩䤠⁄〨㐭)楧⁮〥琠⁯ㄥ瀠x",
+        "楗瑤⁨瀨⥸　㐭)楧⁮〥琠⁯ㄥ瀠x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Control > Margins > Set type",
+      "text": "敓⁴祴数漠⁦慭杲湩┠‰潴┠1",
+      "menuId": 25043,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慍杲湩䤠⁄〨㐭)湩┠‰潴┠1",
+        "祔数⠠㨰匠浹潢ⱬㄠ›楌敮渠浵敢Ⱳ㈠›敔瑸‬㨳删杩瑨愭楬湧摥琠硥⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Control > Margins > Set symbol mask",
+      "text": "敓⁴慭歳漠⁦慭杲湩┠‰潴┠1",
+      "menuId": 25044,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慍杲湩䤠⁄〨㐭)湩┠‰潴┠1",
+        "楂浴獡Ⱬ〠䙸ぅ〰〰‰‽潆摬湩⁧捩湯s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Control > Margins > Set sensitivity",
+      "text": "敓⁴敳獮瑩癩瑩⁹景洠牡楧⁮〥琠⁯ㄥ",
+      "menuId": 25045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慍杲湩䤠⁄〨㐭)景洠牡楧⁮〥琠⁯ㄥ",
+        "敓獮瑩癩瑩⁹〨›敓敬瑣洠汵楴汰⁥楬敮⁳慥楳祬‬㨱䠠湡汤⁥汣捩獫漠⁮慭杲湩)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Control > Calltips > Show calltip",
+      "text": "桓睯挠污瑬灩眠瑩⁨慣瑰潩⁮ㄥ愠⁴〥",
+      "menuId": 25046,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "桃牡捡整r灩眠瑩⁨慣瑰潩⁮ㄥ愠⁴〥",
+        "慃瑰潩nr灩眠瑩⁨慣瑰潩⁮ㄥ愠⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Control > Calltips > Cancel calltip",
+      "text": "慃据汥挠污瑬灩",
+      "menuId": 25047,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Window > Set width",
+      "text": "敓⁴楷瑤⁨潴┠0",
+      "menuId": 25048,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗瑤h瑤⁨潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Window > Set height",
+      "text": "敓⁴敨杩瑨琠⁯〥",
+      "menuId": 25049,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "效杩瑨最瑨琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 50,
+      "menu": "I/O > Open",
+      "text": "灏湥映汩⁥〥",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬昀汩⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "I/O > Save",
+      "text": "慓敶琠⁯楦敬┠0",
+      "menuId": 25051,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬琀⁯楦敬┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 52,
+      "menu": "Window > Set read-only",
+      "text": "敓⁴敲摡漭汮⁹潴┠0",
+      "menuId": 25052,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敒摡漭汮⁹〨‬⤱─0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 53,
+      "menu": "Window > Set visible",
+      "text": "敓⁴楶楳汢⁥潴┠0",
+      "menuId": 25053,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楖楳汢⁥〨‬⤱─0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 54,
+      "menu": "Window > Grab focus",
+      "text": "片扡映捯獵",
+      "menuId": 25054,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 55,
+      "menu": "I/O > Export to HTML",
+      "text": "硅潰瑲琠⁯呈䱍›〥",
+      "menuId": 25055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        63
+      ],
+      "paramTitles": [
+        "楆敬琀琠⁯呈䱍›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 56,
+      "menu": "Control > History > Begin undo action",
+      "text": "敂楧⁮湵潤愠瑣潩n",
+      "menuId": 25056,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 57,
+      "menu": "Control > History > End undo action",
+      "text": "湅⁤湵潤愠瑣潩n",
+      "menuId": 25057,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 58,
+      "menu": "Control > Scrolling > Scroll",
+      "text": "捓潲汬┠‰潣畬湭⁳湡⁤ㄥ氠湩獥",
+      "menuId": 25058,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潃畬湭s‰潣畬湭⁳湡⁤ㄥ氠湩獥",
+        "楌敮ss‰潣畬湭⁳湡⁤ㄥ氠湩獥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 59,
+      "menu": "Control > Scrolling > Scroll to caret",
+      "text": "捓潲汬琠⁯慣敲t",
+      "menuId": 25059,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 60,
+      "menu": "Control > Scrolling > Set end at last lines",
+      "text": "敓⁴捳潲汬湩⁧湥⁤瑡氠獡⁴楬敮琠⁯〥",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅⁤瑡氠獡⁴楬敮⠠ⰰㄠ)⁴楬敮琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 61,
+      "menu": "Control > Scrolling > Set scroll width",
+      "text": "敓⁴捳潲汬眠摩桴琠⁯〥",
+      "menuId": 25061,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "捓潲汬眠摩桴搀桴琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 62,
+      "menu": "Control > Scrolling > Set scroll width tracking",
+      "text": "敓⁴捳潲汬眠摩桴琠慲正湩⁧潴┠0",
+      "menuId": 25062,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "捓潲汬眠摩桴琠慲正湩⁧〨‬⤱─0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 63,
+      "menu": "Control > Search  Replace > Advanced > Set target > Set target from selection",
+      "text": "敓⁴慴杲瑥映潲⁭敳敬瑣潩n",
+      "menuId": 25063,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 64,
+      "menu": "Control > Search  Replace > Advanced > Set target > Set target start",
+      "text": "敓⁴慴杲瑥猠慴瑲琠⁯〥",
+      "menuId": 25064,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慔杲瑥猠慴瑲愀瑲琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 65,
+      "menu": "Control > Search  Replace > Advanced > Set target > Set target end",
+      "text": "敓⁴慴杲瑥攠摮琠⁯〥",
+      "menuId": 25065,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慔杲瑥攠摮攀摮琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 66,
+      "menu": "Control > Search  Replace > Set search flags",
+      "text": "敓⁴敳牡档映慬獧琠⁯〥",
+      "menuId": 25066,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓牡档映慬獧‬摡⁤潴敧桴牥⠠㨲圠潨敬眠牯Ɽ㐠›慍捴⁨慣敳‬㨸圠牯⁤瑳牡ⱴㄠ㨶删来硥Ɒ㌠㨲倠獯硩)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 67,
+      "menu": "Control > Search  Replace > Advanced > Search in target",
+      "text": "敓牡档┠‰湩琠牡敧t",
+      "menuId": 25067,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮─‰湩琠牡敧t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 68,
+      "menu": "Control > Search  Replace > Advanced > Replace target",
+      "text": "敒汰捡⁥慴杲瑥眠瑩⁨〥",
+      "menuId": 25068,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮 慴杲瑥眠瑩⁨〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 69,
+      "menu": "Control > Search  Replace > Advanced > Replace target using Regexp",
+      "text": "敒汰捡⁥慴杲瑥眠瑩⁨〥甠楳杮删来硥p",
+      "menuId": 25069,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敒敧灸映牯慭t眠瑩⁨〥甠楳杮删来硥p"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 70,
+      "menu": "Control > Search  Replace > Simple > Search anchor",
+      "text": "敓牡档愠据潨r",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 71,
+      "menu": "Control > Search  Replace > Simple > Search next",
+      "text": "敓牡档渠硥⁴慭捴⁨潦⁲〥",
+      "menuId": 25071,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮渀硥⁴慭捴⁨潦⁲〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 72,
+      "menu": "Control > Search  Replace > Simple > Search previous",
+      "text": "敓牡档瀠敲楶畯⁳慭捴⁨潦⁲〥",
+      "menuId": 25072,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮瀀敲楶畯⁳慭捴⁨潦⁲〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 73,
+      "menu": "Control > Search  Replace > Advanced > Set target > Set target",
+      "text": "敓⁴慴杲瑥琠⁯〥‬ㄥ",
+      "menuId": 25073,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慔杲瑥猠慴瑲 〥‬ㄥ",
+        "慔杲瑥攠摮琀 〥‬ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 74,
+      "menu": "Control > Autocompletion > Set maximum size",
+      "text": "敓⁴慭楸畭⁭楳敺琠⁯〥挠汯浵獮‬ㄥ爠睯s",
+      "menuId": 25074,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潃畬湭s畭⁭楳敺琠⁯〥挠汯浵獮‬ㄥ爠睯s",
+        "潒獷渀s畭⁭楳敺琠⁯〥挠汯浵獮‬ㄥ爠睯s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 75,
+      "menu": "Control > Autocompletion > Autocomplete",
+      "text": "畁潴潣灭敬整",
+      "menuId": 25075,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 76,
+      "menu": "Control > Autocompletion > Set choose single",
+      "text": "敓⁴档潯敳猠湩汧⁥潴┠0",
+      "menuId": 25076,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畁潴慭楴慣汬⁹档潯敳猠湩汧⁥〨‬⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 77,
+      "menu": "Control > Whitespace > Set visibility",
+      "text": "敓⁴桷瑩獥慰散瘠獩扩汩瑩⁹潴┠0",
+      "menuId": 25077,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楖楳楢楬祴⠠㨰丠湯ⱥㄠ›汁慷獹‬㨲楆獲⁴档牡捡整⁲湯祬)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 78,
+      "menu": "Control > Whitespace > Set color",
+      "text": "敓⁴桷瑩獥慰散挠汯牯琠⁯ㄥ⠠獕㩥┠⤰",
+      "menuId": 25078,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        24
+      ],
+      "paramTitles": [
+        "獕⁥潣潬⁲〨‬⤱氀牯琠⁯ㄥ⠠獕㩥┠⤰",
+        "潃潬r潬⁲〨‬⤱氀牯琠⁯ㄥ⠠獕㩥┠⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 79,
+      "menu": "Control > Whitespace > Set background color",
+      "text": "敓⁴桷瑩獥慰散戠捡杫潲湵⁤潣潬⁲潴┠‱唨敳›〥)",
+      "menuId": 25079,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        24
+      ],
+      "paramTitles": [
+        "獕⁥潣潬⁲〨‬⤱挀杫潲湵⁤潣潬⁲潴┠‱唨敳›〥)",
+        "慂正牧畯摮挠汯牯挀杫潲湵⁤潣潬⁲潴┠‱唨敳›〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 80,
+      "menu": "Control > Whitespace > Set characters",
+      "text": "敓⁴桷瑩獥慰散挠慨慲瑣牥⁳潴┠0",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "桗瑩獥慰散挠慨慲瑣牥s牥⁳潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 81,
+      "menu": "Control > Misc. > Set overtype",
+      "text": "敓⁴癯牥祴数琠⁯〥",
+      "menuId": 25081,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "癏牥祴数⠠ⰰㄠ)〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 82,
+      "menu": "Control > Lexer > Set lexer by ID",
+      "text": "敓⁴敬數⁲祢䤠⁄〥",
+      "menuId": 25082,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敌數⁲䑉 祢䤠⁄〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 83,
+      "menu": "Control > Lexer > Set lexer by name",
+      "text": "敓⁴敬數⁲祢渠浡⁥〥",
+      "menuId": 25083,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敌數⁲慮敭礀渠浡⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 84,
+      "menu": "Text > Insert text",
+      "text": "湉敳瑲┠‱瑡┠0",
+      "menuId": 25084,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潐楳楴湯⠠ㄭ›湅⥤",
+        "敔瑸椀湯⠠ㄭ›湅⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 85,
+      "menu": "Control > Calltips > Set highlighted region",
+      "text": "敓⁴楨桧楬桧整⁤敲楧湯漠⁦慣汬楴⁰潴┠ⰰ┠1",
+      "menuId": 25085,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "瑓牡⁴潰楳楴湯 敲楧湯漠⁦慣汬楴⁰潴┠ⰰ┠1",
+        "湅⁤潰楳楴湯渀 敲楧湯漠⁦慣汬楴⁰潴┠ⰰ┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 87,
+      "menu": "Control > Autocompletion > Set case sensitivity",
+      "text": "敓⁴畡潴潣灭敬楴湯猧挠獡⁥敳獮瑩癩瑩⁹潴┠0",
+      "menuId": 25087,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慃敳猠湥楳楴楶祴⠠ⰰㄠ)⁥敳獮瑩癩瑩⁹潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 88,
+      "menu": "Control > Autocompletion > Select item",
+      "text": "敓敬瑣┠‰湩愠瑵捯浯汰瑥潩⁮楬瑳",
+      "menuId": 25088,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮琠⁯敳敬瑣挀浯汰瑥潩⁮楬瑳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 89,
+      "menu": "Control > Autocompletion > Cancel list",
+      "text": "慃据汥愠瑵捯浯汰瑥潩⁮楬瑳",
+      "menuId": 25089,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 90,
+      "menu": "Control > Indicators > Set style",
+      "text": "敓⁴瑳汹⁥景椠摮捩瑡牯┠‰潴┠1",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湉楤慣潴⁲䑉⠠ⴰㄳ)牯┠‰潴┠1",
+        "瑓汹⁥〨›汐楡Ɱㄠ区畱杩汧ⱹ㈠›⁔桳灡獥‬㨳䐠慩潧慮⁬慨捴楨杮‬㨴瑓楲敫漠瑵‬㨵丠湯ⱥ㘠›潂ⱸ㜠›潒湵敤⁤潢x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 91,
+      "menu": "Control > Indicators > Set color",
+      "text": "敓⁴潣潬⁲景椠摮捩瑡牯┠‰潴┠1",
+      "menuId": 25091,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        24
+      ],
+      "paramTitles": [
+        "湉楤慣潴⁲䑉⠠ⴰㄳ)牯┠‰潴┠1",
+        "潃潬r潴⁲䑉⠠ⴰㄳ)牯┠‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 92,
+      "menu": "Control > Indicators > Fill range",
+      "text": "楆汬爠湡敧┠ⰱ┠′楷桴椠摮捩瑡牯┠0",
+      "menuId": 25092,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湉楤慣潴⁲䑉⠠ⴰㄳ)桴椠摮捩瑡牯┠0",
+        "瑓牡⁴潰楳楴湯ⴀㄳ)桴椠摮捩瑡牯┠0",
+        "湅⁤潰楳楴湯渀ⴀㄳ)桴椠摮捩瑡牯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 93,
+      "menu": "Control > Indicators > Clear range",
+      "text": "汃慥⁲慲杮⁥ㄥ‬㈥映潲⁭湩楤慣潴⁲〥",
+      "menuId": 25093,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湉楤慣潴⁲䑉⠠ⴰㄳ)潲⁭湩楤慣潴⁲〥",
+        "瑓牡⁴潰楳楴湯ⴀㄳ)潲⁭湩楤慣潴⁲〥",
+        "湅⁤潰楳楴湯渀ⴀㄳ)潲⁭湩楤慣潴⁲〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 95,
+      "menu": "Control > Misc. > Highlight braces",
+      "text": "楈桧楬桧⁴牢捡獥愠⁴〥",
+      "menuId": 25095,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潐楳楴湯 牢捡獥愠⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 96,
+      "menu": "Control > Command keys > Assign",
+      "text": "獁楳湧挠浯慭摮┠′潴欠祥┠‰楷桴洠摯晩敩⁲ㄥ",
+      "menuId": 25096,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敋⁹匨敥㰠敒敦敲据㹥椠⁮硥牰獥楳湯ⱳ漠⁲獵⁥档牡捡整Ⱳ氠歩⁥䄢⤢",
+        "潍楤楦牥⠠摁⁤潴敧桴牥‬桓晩㩴ㄠ‬瑃汲›ⰲ䄠瑬›⤴攀Ⱳ氠歩⁥䄢⤢",
+        "潃浭湡⁤匨敥挠浯慭摮⁳湩攠灸敲獳潩獮)›ⰲ䄠瑬›⤴攀Ⱳ氠歩⁥䄢⤢"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 97,
+      "menu": "Control > Command keys > Clear",
+      "text": "汃慥⁲敫⁹〥眠瑩⁨潭楤楦牥┠1",
+      "menuId": 25097,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "敋⁹匨敥㰠敒敦敲据㹥椠⁮硥牰獥楳湯ⱳ漠⁲獵⁥档牡捡整Ⱳ氠歩⁥䄢⤢",
+        "潍楤楦牥⠠摁⁤潴敧桴牥‬桓晩㩴ㄠ‬瑃汲›ⰲ䄠瑬›⤴攀Ⱳ氠歩⁥䄢⤢"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 98,
+      "menu": "Control > Command keys > Clear all",
+      "text": "汃慥⁲污⁬潣浭湡⁤敫獹",
+      "menuId": 25098,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 99,
+      "menu": "Control > Autocompletion > Set separator",
+      "text": "敓⁴畡潴潣灭敬楴湯猧猠灥牡瑡牯琠⁯〥",
+      "menuId": 25099,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敓慰慲潴r灭敬楴湯猧猠灥牡瑡牯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 100,
+      "menu": "Control > Container > Set styling",
+      "text": "敓⁴敮瑸┠‰档牡捡整獲‧瑳汹⁥潴┠1",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敌杮桴琀┠‰档牡捡整獲‧瑳汹⁥潴┠1",
+        "瑓汹⁥䑉─‰档牡捡整獲‧瑳汹⁥潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 101,
+      "menu": "Control > Container > Start styling",
+      "text": "瑓牡⁴瑳汹湩⁧瑡┠‰獵湩⁧慭歳┠1",
+      "menuId": 25101,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潐楳楴湯氀湩⁧瑡┠‰獵湩⁧慭歳┠1",
+        "慍歳※晩礠畯爧⁥湵畳敲‬獵⁥ㄳ─1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 102,
+      "menu": "Control > Container > Set line state",
+      "text": "敓⁴瑳瑡⁥景氠湩⁥〥琠⁯ㄥ",
+      "menuId": 25102,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楌敮琀瑡⁥景氠湩⁥〥琠⁯ㄥ",
+        "瑓瑡e瑡⁥景氠湩⁥〥琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 103,
+      "menu": "Control > Container > Set styling extended",
+      "text": "敓⁴敮瑸┠‰档牡捡整獲‧瑳汹⁥潴┠‱硥整摮摥",
+      "menuId": 25103,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敌杮桴琀┠‰档牡捡整獲‧瑳汹⁥潴┠‱硥整摮摥",
+        "瑓汹⁥䑉─‰档牡捡整獲‧瑳汹⁥潴┠‱硥整摮摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 104,
+      "menu": "Control > Autocompletion > Set auto hide",
+      "text": "敓⁴畡潴潣灭敬楴湯猧愠瑵⁯楨敤琠⁯〥",
+      "menuId": 25104,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畁潴栠摩⁥〨‬⤱渀猧愠瑵⁯楨敤琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 105,
+      "menu": "Control > Autocompletion > Set drop rest",
+      "text": "敓⁴畡潴潣灭敬楴湯猧搠潲⁰敲瑳琠⁯〥",
+      "menuId": 25105,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牄灯爠獥⁴〨‬⤱渀猧搠潲⁰敲瑳琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 106,
+      "menu": "Control > Selection > Set color",
+      "text": "敓⁴敳敬瑣潩⁮潣潬⁲潴┠ⰰ┠1",
+      "menuId": 25106,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24,
+        24
+      ],
+      "paramTitles": [
+        "潆敲牧畯摮挠汯牯⠠ㄭ›敄捡楴慶整)",
+        "慂正牧畯摮挠汯牯⠠ㄭ›敄捡楴慶整)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 107,
+      "menu": "Control > Caret > Set color",
+      "text": "敓⁴慣敲⁴潣潬⁲潴┠0",
+      "menuId": 25107,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "潃潬r敲⁴潣潬⁲潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 108,
+      "menu": "Control > Caret > Set stickiness",
+      "text": "敓⁴慣敲⁴瑳捩楫敮獳琠⁯〥",
+      "menuId": 25108,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "瑓捩楫敮獳⠠ⰰㄠ)獳琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 109,
+      "menu": "Control > Caret > Set period",
+      "text": "敓⁴慣敲⁴数楲摯琠⁯〥洠s",
+      "menuId": 25109,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敐楲摯⠠獭)楲摯琠⁯〥洠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 110,
+      "menu": "Control > Caret > Set width",
+      "text": "敓⁴慣敲⁴楷瑤⁨潴┠‰硰",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗瑤⁨瀨⥸椀瑤⁨潴┠‰硰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 111,
+      "menu": "Control > Caret > Set style",
+      "text": "敓⁴慣敲⁴瑳汹⁥潴┠0",
+      "menuId": 25111,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "瑓汹⁥〨›湉楶楳汢ⱥㄠ›楌敮‬㨲䈠潬正)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 112,
+      "menu": "Control > Selection > Set alpha",
+      "text": "敓⁴敳敬瑣潩⁮污桰⁡潴┠0",
+      "menuId": 25112,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汁桰⁡〨›牔湡灳牡湥⁴‭㔲㨵传慰畱ⱥ㈠㘵›潎愠灬慨)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 113,
+      "menu": "Control > Caret > Set line visibility",
+      "text": "敓⁴慣敲⁴楬敮瘠獩扩汩瑩⁹潴┠0",
+      "menuId": 25113,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楖楳楢楬祴⠠ⰰㄠ)扩汩瑩⁹潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 114,
+      "menu": "Control > Caret > Set line color",
+      "text": "敓⁴慣敲⁴楬敮挠汯牯琠⁯〥",
+      "menuId": 25114,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "潃潬r敲⁴楬敮挠汯牯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 115,
+      "menu": "Control > Caret > Set line alpha",
+      "text": "敓⁴慣敲⁴楬敮愠灬慨琠⁯〥",
+      "menuId": 25115,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汁桰⁡〨›牔湡灳牡湥⁴‭㔲㨵传慰畱ⱥ㈠㘵›潎愠灬慨)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 116,
+      "menu": "Style > Reset default",
+      "text": "敒敳⁴敤慦汵⁴瑳汹e",
+      "menuId": 25116,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 117,
+      "menu": "Style > Clear all",
+      "text": "汃慥⁲污⁬瑳汹獥琠⁯敤慦汵t",
+      "menuId": 25117,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 118,
+      "menu": "Control > Selection > Set anchor",
+      "text": "敓⁴湡档牯琠⁯〥",
+      "menuId": 25118,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湁档牯瀠獯瑩潩n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 119,
+      "menu": "Documents > Set savepoint",
+      "text": "敓⁴慳敶瀠楯瑮",
+      "menuId": 25119,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 120,
+      "menu": "Control > Caret > Move caret inside view",
+      "text": "潍敶挠牡瑥椠獮摩⁥楶睥",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 121,
+      "menu": "Style > Property",
+      "text": "敓⁴牰灯牥祴┠‰潴┠1",
+      "menuId": 25121,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "牐灯牥祴爀祴┠‰潴┠1",
+        "慖畬e祴爀祴┠‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 122,
+      "menu": "Control > Lexer > Load lexer from DLL",
+      "text": "潌摡氠硥牥映潲⁭䱄⁌〥",
+      "menuId": 25122,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "敌數⁲䱄L映潲⁭䱄⁌〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 123,
+      "menu": "Control > Selection > Set visibility",
+      "text": "敓⁴敳敬瑣潩⁮楶楳楢楬祴琠⁯〥",
+      "menuId": 25123,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楖楳楢楬祴⠠ⰰㄠ)楢楬祴琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 125,
+      "menu": "Control > Selection > Set mode",
+      "text": "敓⁴敳敬瑣潩⁮潭敤琠⁯〥",
+      "menuId": 25125,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潍敤⠠㨰匠牴慥Ɑㄠ›敒瑣湡汧ⱥ㈠›楌敮⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 126,
+      "menu": "Style > EOL filled",
+      "text": "敓⁴佅⁌楦汬摥漠⁦〥琠⁯ㄥ",
+      "menuId": 25126,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "瑓汹獥ⴠ䬠祥潷摲⁳畳灰牯㩴䄠䵓䌬⬫䌬卓䠬䵔ⱌ义ⱉ界ⱡ祐桴湯匬䱑嘬ⱂ䵘⁌匨敥㰠敒敦敲据㹥椠⁮硥牰獥楳湯⥳",
+        "湅⁤景氠湩⁥楦汬摥⠠ⰰㄠ)䄠䵓䌬⬫䌬卓䠬䵔ⱌ义ⱉ界ⱡ祐桴湯匬䱑嘬ⱂ䵘⁌匨敥㰠敒敦敲据㹥椠⁮硥牰獥楳湯⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 127,
+      "menu": "Control > Selection > Set EOL filled",
+      "text": "敓⁴敳敬瑣潩⁮佅⁌楦汬摥琠⁯〥",
+      "menuId": 25127,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅⁤景氠湩⁥楦汬摥⠠ⰰㄠ)⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 128,
+      "menu": "Control > Margins > Set text",
+      "text": "敓⁴整瑸漠⁦慭杲湩愠⁴楬敮┠‰潴┠1",
+      "menuId": 25128,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "楌敮攀瑸漠⁦慭杲湩愠⁴楬敮┠‰潴┠1",
+        "敔瑸攀瑸漠⁦慭杲湩愠⁴楬敮┠‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 129,
+      "menu": "Control > Margins > Set style",
+      "text": "敓⁴瑳汹⁥景洠牡楧⁮瑡氠湩⁥〥琠⁯ㄥ",
+      "menuId": 25129,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楌敮琀汹⁥景洠牡楧⁮瑡氠湩⁥〥琠⁯ㄥ",
+        "瑓汹⁥䑉 景洠牡楧⁮瑡氠湩⁥〥琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 130,
+      "menu": "Control > Margins > Set style offset",
+      "text": "敓⁴慭杲湩猠祴敬漠晦敳⁴潴┠0",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "晏獦瑥最湩猠祴敬漠晦敳⁴潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 131,
+      "menu": "Control > Margins > Clear all text margins",
+      "text": "汃慥⁲污⁬整瑸洠牡楧獮",
+      "menuId": 25131,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 132,
+      "menu": "Control > History > Set undo collection",
+      "text": "敓⁴湵潤挠汯敬瑣潩⁮潴┠0",
+      "menuId": 25132,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湕潤挠汯敬瑣潩⁮〨‬⤱─0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 133,
+      "menu": "Control > Lexer > Colorize",
+      "text": "潃潬楲敺映潲⁭〥琠⁯ㄥ",
+      "menuId": 25133,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆獲⁴档牡捡整r琠⁯ㄥ",
+        "敓潣摮挠慨慲瑣牥琀⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 134,
+      "menu": "Control > Misc. > Set word characters",
+      "text": "敓⁴潷摲挠慨慲瑣牥⁳潴┠0",
+      "menuId": 25134,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潗摲挠慨慲瑣牥s牥⁳潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 135,
+      "menu": "Text > Add styled text",
+      "text": "摁⁤整瑸┠‱楷桴猠祴敬┠0",
+      "menuId": 25135,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "瑓汹e瑸┠‱楷桴猠祴敬┠0",
+        "敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 136,
+      "menu": "Control > Command keys > Load default",
+      "text": "潌摡搠晥畡瑬挠浯慭摮欠祥s",
+      "menuId": 25136,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 137,
+      "menu": "Text > Insert styled text",
+      "text": "湉敳瑲┠′楷桴猠祴敬┠‱瑡┠0",
+      "menuId": 25137,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潐楳楴湯⠠ㄭ›湅⥤攀┠‱瑡┠0",
+        "瑓汹e湯⠠ㄭ›湅⥤攀┠‱瑡┠0",
+        "敔瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 138,
+      "menu": "Text > Add text",
+      "text": "摁⁤整瑸┠0",
+      "menuId": 25138,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敔瑸攀瑸┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 139,
+      "menu": "Control > Printing > Set color mode",
+      "text": "敓⁴牰湩⁴潣潬⁲潭敤琠⁯〥",
+      "menuId": 25139,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潃潬⁲潭敤⠠㨰丠牯慭ⱬㄠ›湉敶瑲氠杩瑨‬㨲䈠慬正漠⁮桷瑩ⱥ㌠›潃潬⁲湯眠楨整‬㨴䌠汯牯漠⁮桷瑩⁥敤慦汵⁴慢正牧畯摮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 140,
+      "menu": "Control > Printing > Set wrap mode",
+      "text": "敓⁴牰湩⁴牷灡洠摯⁥潴┠0",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牗灡洠摯⁥〨›潎敮‬㨱圠牯Ɽ㈠›桃牡捡整⥲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 141,
+      "menu": "Control > Printing > Set magnification",
+      "text": "敓⁴牰湩⁴慭湧晩捩瑡潩⁮潴┠0",
+      "menuId": 25141,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慍湧晩捩瑡潩⁮䤨⁮畮扭牥漠⁦潰湩獴琠⁯摡⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 144,
+      "menu": "Style > Clear document style",
+      "text": "汃慥⁲潤畣敭瑮猠祴敬",
+      "menuId": 25144,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 145,
+      "menu": "Control > Long lines > Set edge color",
+      "text": "敓⁴摥敧挠汯牯琠⁯〥",
+      "menuId": 25145,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "摅敧挠汯牯氀牯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 146,
+      "menu": "Control > Long lines > Set edge column",
+      "text": "敓⁴摥敧挠汯浵⁮潴┠0",
+      "menuId": 25146,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潃畬湭琠⁯楤灳慬⁹桴⁥慭歲牥愠t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 147,
+      "menu": "Control > Long lines > Set edge mode",
+      "text": "敓⁴摥敧洠摯⁥潴┠0",
+      "menuId": 25147,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "摅敧洠摯⁥〨›潎敮‬㨱䰠湩ⱥ㈠›慂正牧畯摮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 148,
+      "menu": "Control > Folding > Set fold at",
+      "text": "敓⁴潦摬愠⁴楬敮┠‰潴┠1",
+      "menuId": 25148,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楌敮漀摬愠⁴楬敮┠‰潴┠1",
+        "潆摬⠠㨰䌠潬敳Ɽㄠ›硅慰摮摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 149,
+      "menu": "Control > Folding > Set fold flags",
+      "text": "敓⁴潦摬映慬獧琠⁯〥",
+      "menuId": 25149,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潆摬映慬獧‬摡⁤潴敧桴牥⠠㨱䈠硯獥‬㨲䄠潢敶攠灸湡敤Ɽ㐠›扁癯⁥瑯敨睲獩ⱥ㠠›敂潬⁷硥慰摮摥‬㘱›敂潬⁷瑯敨睲獩ⱥ㘠㨴䐠扥杵映汯⁤敬敶⥬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 150,
+      "menu": "Control > Folding > Show lines",
+      "text": "桓睯氠湩獥┠‰潴┠1",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆獲⁴楬敮─‰潴┠1",
+        "慌瑳氠湩e─‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 151,
+      "menu": "Control > Folding > Hide lines",
+      "text": "楈敤氠湩獥┠‰潴┠1",
+      "menuId": 25151,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆獲⁴楬敮─‰潴┠1",
+        "慌瑳氠湩e─‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 152,
+      "menu": "Control > Folding > Ensure visibility",
+      "text": "湅畳敲瘠獩扩汩瑩⁹景氠湩⁥〥",
+      "menuId": 25152,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楌敮琠⁯桳睯氀瑩⁹景氠湩⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 153,
+      "menu": "Control > Misc. > Set mouse dwell time",
+      "text": "敓⁴潭獵⁥睤汥⁬楴敭琠⁯〥洠s",
+      "menuId": 25153,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "睄汥⁬楴敭椠⁮業汬獩捥湯獤⠠ㄭ›潆敲敶⥲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 154,
+      "menu": "Control > Search  Replace > Simple > Find text",
+      "text": "敓牡档琠硥⁴〥椠⁮慲杮⁥┨ⰱ㈥)",
+      "menuId": 25154,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "瑓楲杮琀硥⁴〥椠⁮慲杮⁥┨ⰱ㈥)",
+        "瑓牡⁴潰楳楴湯椀⁮慲杮⁥┨ⰱ㈥)",
+        "湅⁤潰楳楴湯⠠ㄭ›湅⥤ ┨ⰱ㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Content > Text",
+      "text": "敔瑸⠤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Advanced > Pointer to string",
+      "text": "印牴(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "瑓楲杮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Documents > Last created document",
+      "text": "慌瑳潄⡣",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Documents > Current document",
+      "text": "畃牲湥䑴捯(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Caret  Positions > Caret",
+      "text": "慃敲⡴",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Caret  Positions > Word start",
+      "text": "潗摲瑓牡⡴",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        "湏祬眠牯⁤档牡捡整獲?"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Caret  Positions > Word end",
+      "text": "潗摲湅⡤",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "",
+        "湏祬眠牯⁤档牡捡整獲?"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Notifications > Code",
+      "text": "潎楴祦潃敤(",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Notifications > On key pressed > Key modifier",
+      "text": "潎楴祦潍⡤",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Notifications > On (anything) clicked > Position",
+      "text": "潎楴祦潐⡳",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Notifications > On margin clicked > Margin",
+      "text": "潎楴祦慍杲湩(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Notifications > On key pressed > Key",
+      "text": "潎楴祦桃牡(",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Notifications > On character added > Character",
+      "text": "潎楴祦桃牡⠤",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Notifications > On text modified > Text",
+      "text": "潎楴祦潍呤灹⡥",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Notifications > On text modified > Length",
+      "text": "潎楴祦敌⡮",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Notifications > On text modified > Line",
+      "text": "潎楴祦楌敮(",
+      "menuId": 27016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Notifications > On text modified > Number of lines added",
+      "text": "潎楴祦楌敮䅳摤摥(",
+      "menuId": 27017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Notifications > On text modified > Current fold level",
+      "text": "潎楴祦畃䙲汯䱤汶(",
+      "menuId": 27018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Notifications > On text modified > Previous fold level",
+      "text": "潎楴祦牐癥潆摬癌⡬",
+      "menuId": 27019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Container > End styled",
+      "text": "湅卤祴敬⡤",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Caret  Positions > Conversion > Position to column",
+      "text": "潐㉳潃⡬",
+      "menuId": 27021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潐楳楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Caret  Positions > Conversion > Line to Position",
+      "text": "楌敮倲獯(",
+      "menuId": 27022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楌敮倀獯("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Caret  Positions > Conversion > Position to line",
+      "text": "潐㉳楌敮(",
+      "menuId": 27023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潐楳楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Caret  Positions > Selection start",
+      "text": "敓卬慴瑲(",
+      "menuId": 27024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Caret  Positions > Selection end",
+      "text": "敓䕬摮(",
+      "menuId": 27025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Content > Line count",
+      "text": "楌敮⡳",
+      "menuId": 27026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Content > Line length",
+      "text": "楌敮敌⡮",
+      "menuId": 27027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楌敮攀⡮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Content > Character",
+      "text": "桃牡⠤",
+      "menuId": 27028,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "桃牡捡整r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Style > Style at position",
+      "text": "瑓汹⡥",
+      "menuId": 27029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "桃牡捡整r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Content > Line",
+      "text": "楌敮⠤",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楌敮⠀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Documents > Number of documents",
+      "text": "畎䑭捯⡳",
+      "menuId": 27031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Window > HWND",
+      "text": "坈䑎(",
+      "menuId": 27032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Advanced > Send message",
+      "text": "敓摮敍獳条⡥",
+      "menuId": 27033,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "敍獳条e条⡥",
+        "偗剁䵁",
+        "偌剁䵁"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Caret  Positions > Caret line",
+      "text": "慃䱴湩⡥",
+      "menuId": 27034,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Caret  Positions > First visible line",
+      "text": "楖楳汢䱥湩⡥",
+      "menuId": 27035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Caret  Positions > Conversion > Point to position",
+      "text": "潐湩㉴潐⡳",
+      "menuId": 27036,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "X湩㉴潐⡳",
+        "Y湩㉴潐⡳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Caret  Positions > Conversion > Position to point X",
+      "text": "潐㉳塐(",
+      "menuId": 27037,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潐楳楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Caret  Positions > Conversion > Position to point Y",
+      "text": "潐㉳奐(",
+      "menuId": 27038,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潐楳楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "System color",
+      "text": "祓䍳汯牯(",
+      "menuId": 27039,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慎敭氀牯("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Window > Width",
+      "text": "楗瑤⡨",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Window > Height",
+      "text": "效杩瑨(",
+      "menuId": 27041,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Style > Style ID",
+      "text": "瑓汹䥥⡄",
+      "menuId": 27042,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "瑓汹e⡄"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Content > Character value",
+      "text": "桃牡(",
+      "menuId": 27043,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "桃牡捡整r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Content > Range",
+      "text": "慒杮⑥(",
+      "menuId": 27044,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楆獲⁴潰楳楴湯",
+        "敓潣摮瀠獯瑩潩n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Style > Width of styled text",
+      "text": "敔瑸楗瑤⡨",
+      "menuId": 27045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        3
+      ],
+      "paramTitles": [
+        "瑓汹⁥䑉⠀",
+        "敔瑸 䑉⠀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Content > Selection",
+      "text": "敓敬瑣潩⑮(",
+      "menuId": 27046,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Content > Length",
+      "text": "敌杮桴(",
+      "menuId": 27047,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Container > Maximum line state",
+      "text": "慍䱸湩卥慴整(",
+      "menuId": 27048,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Container > Line state",
+      "text": "楌敮瑓瑡⡥",
+      "menuId": 27049,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楌敮琀瑡⡥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 50,
+      "menu": "Content > Sub-string",
+      "text": "畓卢牴⠤",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "瑓牡⁴潰楳楴湯",
+        "敌杮桴漀楳楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "Caret  Positions > Conversion > Line end position",
+      "text": "楌敮湅偤獯(",
+      "menuId": 27051,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楌敮渀偤獯("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 52,
+      "menu": "Caret  Positions > Lines on screen",
+      "text": "楌敮佳卮牣敥⡮",
+      "menuId": 27052,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 53,
+      "menu": "Documents > Modified flag",
+      "text": "潄䵣摯晩敩⡤",
+      "menuId": 27053,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 54,
+      "menu": "Commands > Caret > Down > Move",
+      "text": "楌敮潄湷(",
+      "menuId": 27054,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 55,
+      "menu": "Commands > Caret > Down > Extend",
+      "text": "楌敮潄湷⡅",
+      "menuId": 27055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 56,
+      "menu": "Commands > Caret > Down > Rectangle extend",
+      "text": "楌敮潄湷䕒(",
+      "menuId": 27056,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 57,
+      "menu": "Commands > Caret > Down > Scroll",
+      "text": "楌敮捓潲汬潄湷(",
+      "menuId": 27057,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 58,
+      "menu": "Commands > Caret > Up > Move",
+      "text": "楌敮灕(",
+      "menuId": 27058,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 59,
+      "menu": "Commands > Caret > Up > Extend",
+      "text": "楌敮灕⡅",
+      "menuId": 27059,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 60,
+      "menu": "Commands > Caret > Up > Rectangle extend",
+      "text": "楌敮灕䕒(",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 61,
+      "menu": "Commands > Caret > Up > Scroll",
+      "text": "楌敮捓潲汬灕(",
+      "menuId": 27061,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 62,
+      "menu": "Commands > Caret > Paragraph > Down > Move",
+      "text": "慐慲潄湷(",
+      "menuId": 27062,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 63,
+      "menu": "Commands > Caret > Paragraph > Down > Extend",
+      "text": "慐慲潄湷⡅",
+      "menuId": 27063,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 64,
+      "menu": "Commands > Caret > Paragraph > Up > Move",
+      "text": "慐慲灕(",
+      "menuId": 27064,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 65,
+      "menu": "Commands > Caret > Paragraph > Up > Extend",
+      "text": "慐慲灕⡅",
+      "menuId": 27065,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 66,
+      "menu": "Commands > Caret > Left > Move",
+      "text": "桃牡敌瑦(",
+      "menuId": 27066,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 67,
+      "menu": "Commands > Caret > Left > Extend",
+      "text": "桃牡敌瑦⡅",
+      "menuId": 27067,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 68,
+      "menu": "Commands > Caret > Left > Rectangle extend",
+      "text": "桃牡敌瑦䕒(",
+      "menuId": 27068,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 69,
+      "menu": "Commands > Caret > Right > Move",
+      "text": "桃牡楒桧⡴",
+      "menuId": 27069,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 70,
+      "menu": "Commands > Caret > Right > Extend",
+      "text": "桃牡楒桧䕴(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 71,
+      "menu": "Commands > Caret > Right > Rectangle extend",
+      "text": "桃牡楒桧剴⡅",
+      "menuId": 27071,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 72,
+      "menu": "Commands > Caret > Word > Left > Move",
+      "text": "潗摲敌瑦(",
+      "menuId": 27072,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 73,
+      "menu": "Commands > Caret > Word > Left > Extend",
+      "text": "潗摲敌瑦⡅",
+      "menuId": 27073,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 74,
+      "menu": "Commands > Caret > Word > Left > End move",
+      "text": "潗摲敌瑦湅⡤",
+      "menuId": 27074,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 75,
+      "menu": "Commands > Caret > Word > Left > End extend",
+      "text": "潗摲敌瑦湅䕤(",
+      "menuId": 27075,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 76,
+      "menu": "Commands > Caret > Word > Left > Part move",
+      "text": "潗摲慐瑲敌瑦(",
+      "menuId": 27076,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 77,
+      "menu": "Commands > Caret > Word > Left > Part extend",
+      "text": "潗摲慐瑲敌瑦⡅",
+      "menuId": 27077,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 78,
+      "menu": "Commands > Caret > Word > Right > Move",
+      "text": "潗摲楒桧⡴",
+      "menuId": 27078,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 79,
+      "menu": "Commands > Caret > Word > Right > Extend",
+      "text": "潗摲楒桧䕴(",
+      "menuId": 27079,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 80,
+      "menu": "Commands > Caret > Word > Right > End move",
+      "text": "潗摲楒桧䕴摮(",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 81,
+      "menu": "Commands > Caret > Word > Right > End extend",
+      "text": "潗摲楒桧䕴摮⡅",
+      "menuId": 27081,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 82,
+      "menu": "Commands > Caret > Word > Right > Part move",
+      "text": "潗摲慐瑲楒桧⡴",
+      "menuId": 27082,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 83,
+      "menu": "Commands > Caret > Word > Right > Part extend",
+      "text": "潗摲慐瑲楒桧䕴(",
+      "menuId": 27083,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 84,
+      "menu": "Commands > Line > Copy",
+      "text": "楌敮潃祰(",
+      "menuId": 27084,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 85,
+      "menu": "Commands > Line > Cut",
+      "text": "楌敮畃⡴",
+      "menuId": 27085,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 86,
+      "menu": "Commands > Line > Delete",
+      "text": "楌敮敄敬整(",
+      "menuId": 27086,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 87,
+      "menu": "Commands > Line > Transpose",
+      "text": "楌敮牔湡灳獯⡥",
+      "menuId": 27087,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 88,
+      "menu": "Commands > Line > Duplicate",
+      "text": "楌敮畄汰捩瑡⡥",
+      "menuId": 27088,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 89,
+      "menu": "Commands > Misc. > New line",
+      "text": "楌敮敎⡷",
+      "menuId": 27089,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 90,
+      "menu": "Commands > Caret > Line start > Move",
+      "text": "潈敭(",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 91,
+      "menu": "Commands > Caret > Line start > Extend",
+      "text": "潈敭⡅",
+      "menuId": 27091,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 92,
+      "menu": "Commands > Caret > Line start > Rectangle extend",
+      "text": "潈敭䕒(",
+      "menuId": 27092,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 93,
+      "menu": "Commands > Caret > Line start > Display move",
+      "text": "潈敭楄灳慬⡹",
+      "menuId": 27093,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 94,
+      "menu": "Commands > Caret > Line start > Display extend",
+      "text": "潈敭楄灳慬䕹(",
+      "menuId": 27094,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 95,
+      "menu": "Commands > Caret > Line start > Wrap move",
+      "text": "潈敭牗灡(",
+      "menuId": 27095,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 96,
+      "menu": "Commands > Caret > Line start > Wrap extend",
+      "text": "潈敭牗灡⡅",
+      "menuId": 27096,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 97,
+      "menu": "Commands > Caret > Indent start > Move",
+      "text": "䍖潈敭(",
+      "menuId": 27097,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 98,
+      "menu": "Commands > Caret > Indent start > Extend",
+      "text": "䍖潈敭⡅",
+      "menuId": 27098,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 99,
+      "menu": "Commands > Caret > Indent start > Rectangle extend",
+      "text": "䍖潈敭䕒(",
+      "menuId": 27099,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 100,
+      "menu": "Commands > Caret > Indent start > Wrap move",
+      "text": "䍖潈敭牗灡(",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 101,
+      "menu": "Commands > Caret > Indent start > Wrap extend",
+      "text": "䍖潈敭牗灡⡅",
+      "menuId": 27101,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 102,
+      "menu": "Commands > Caret > Line end > Move",
+      "text": "楌敮湅⡤",
+      "menuId": 27102,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 103,
+      "menu": "Commands > Caret > Line end > Extend",
+      "text": "楌敮湅䕤(",
+      "menuId": 27103,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 104,
+      "menu": "Commands > Caret > Line end > Rectangle extend",
+      "text": "楌敮湅剤⡅",
+      "menuId": 27104,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 105,
+      "menu": "Commands > Caret > Line end > Display move",
+      "text": "楌敮湅䑤獩汰祡(",
+      "menuId": 27105,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 106,
+      "menu": "Commands > Caret > Line end > Display extend",
+      "text": "楌敮湅䑤獩汰祡⡅",
+      "menuId": 27106,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 107,
+      "menu": "Commands > Caret > Line end > Wrap move",
+      "text": "楌敮湅坤慲⡰",
+      "menuId": 27107,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 108,
+      "menu": "Commands > Caret > Line end > Wrap extend",
+      "text": "楌敮湅坤慲䕰(",
+      "menuId": 27108,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 109,
+      "menu": "Commands > Caret > Document > Start move",
+      "text": "潄卣慴瑲(",
+      "menuId": 27109,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 110,
+      "menu": "Commands > Caret > Document > Start extend",
+      "text": "潄卣慴瑲⡅",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 111,
+      "menu": "Commands > Caret > Document > End move",
+      "text": "潄䕣摮(",
+      "menuId": 27111,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 112,
+      "menu": "Commands > Caret > Document > End extend",
+      "text": "潄䕣摮⡅",
+      "menuId": 27112,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 113,
+      "menu": "Commands > Caret > Page > Up > Move",
+      "text": "慐敧灕(",
+      "menuId": 27113,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 114,
+      "menu": "Commands > Caret > Page > Up > Extend",
+      "text": "慐敧灕⡅",
+      "menuId": 27114,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 115,
+      "menu": "Commands > Caret > Page > Up > Rectangle extend",
+      "text": "慐敧灕䕒(",
+      "menuId": 27115,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 116,
+      "menu": "Commands > Caret > Page > Down > Move",
+      "text": "慐敧潄湷(",
+      "menuId": 27116,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 117,
+      "menu": "Commands > Caret > Page > Down > Extend",
+      "text": "慐敧潄湷⡅",
+      "menuId": 27117,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 118,
+      "menu": "Commands > Caret > Page > Down > Rectangle extend",
+      "text": "慐敧潄湷䕒(",
+      "menuId": 27118,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 119,
+      "menu": "Commands > Caret > Page > Up > Move",
+      "text": "瑓瑵整敲偤条啥⡰",
+      "menuId": 27119,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 120,
+      "menu": "Commands > Caret > Page > Up > Extend",
+      "text": "瑓瑵整敲偤条啥䕰(",
+      "menuId": 27120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 121,
+      "menu": "Commands > Caret > Page > Down > Move",
+      "text": "瑓瑵整敲偤条䑥睯⡮",
+      "menuId": 27121,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 122,
+      "menu": "Commands > Caret > Page > Down > Extend",
+      "text": "瑓瑵整敲偤条䑥睯䕮(",
+      "menuId": 27122,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 123,
+      "menu": "Commands > Delete > Back",
+      "text": "敄敬整慂正(",
+      "menuId": 27123,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 124,
+      "menu": "Commands > Delete > Back not line",
+      "text": "敄敬整慂正潎䱴湩⡥",
+      "menuId": 27124,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 125,
+      "menu": "Commands > Delete > Word left",
+      "text": "敄坬牯䱤晥⡴",
+      "menuId": 27125,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 126,
+      "menu": "Commands > Delete > Word right",
+      "text": "敄坬牯剤杩瑨(",
+      "menuId": 27126,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 127,
+      "menu": "Commands > Delete > Line left",
+      "text": "敄坬牯剤杩瑨湅⡤",
+      "menuId": 27127,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 129,
+      "menu": "Commands > Delete > Line right",
+      "text": "敄䱬湩剥杩瑨(",
+      "menuId": 27129,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 130,
+      "menu": "Commands > Misc. > Lower case",
+      "text": "潌敷䍲獡⡥",
+      "menuId": 27130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 131,
+      "menu": "Commands > Misc. > Upper case",
+      "text": "灕数䍲獡⡥",
+      "menuId": 27131,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 132,
+      "menu": "Commands > Misc. > Edit toggle overtype",
+      "text": "摅瑩潔杧敬癏牥祴数(",
+      "menuId": 27132,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 133,
+      "menu": "Commands > Misc. > Selection duplicate",
+      "text": "敓敬瑣潩䑮灵楬慣整(",
+      "menuId": 27133,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 134,
+      "menu": "Commands > Misc. > Back tab",
+      "text": "慂正慔⡢",
+      "menuId": 27134,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 135,
+      "menu": "Commands > Misc. > Cancel",
+      "text": "慃据汥(",
+      "menuId": 27135,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 136,
+      "menu": "Commands > Misc. > Tab",
+      "text": "慔⡢",
+      "menuId": 27136,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 137,
+      "menu": "Commands > Misc. > Form feed",
+      "text": "潆浲敆摥(",
+      "menuId": 27137,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 138,
+      "menu": "Style > Style settings > Color",
+      "text": "瑓潆敲(",
+      "menuId": 27138,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "瑓汹⁥䑉"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 139,
+      "menu": "Style > Style settings > Background color",
+      "text": "瑓慂正(",
+      "menuId": 27139,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "瑓汹⁥䑉"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 140,
+      "menu": "Style > Style settings > Font face",
+      "text": "瑓潆瑮(",
+      "menuId": 27140,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "瑓汹⁥䑉"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 141,
+      "menu": "Style > Style settings > Font size",
+      "text": "瑓楓敺(",
+      "menuId": 27141,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "瑓汹⁥䑉"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 142,
+      "menu": "Style > Style settings > Bold state",
+      "text": "瑓潂摬(",
+      "menuId": 27142,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "瑓汹⁥䑉"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 143,
+      "menu": "Style > Style settings > Italic state",
+      "text": "瑓瑉污捩(",
+      "menuId": 27143,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "瑓汹⁥䑉"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 144,
+      "menu": "Style > Style settings > Underline state",
+      "text": "瑓湕敤汲湩⡥",
+      "menuId": 27144,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "瑓汹⁥䑉渀⡥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 145,
+      "menu": "Style > Style settings > Case",
+      "text": "瑓慃敳(",
+      "menuId": 27145,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "瑓汹⁥䑉"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 146,
+      "menu": "Style > Style settings > Changeability",
+      "text": "瑓桃湡敧扡敬(",
+      "menuId": 27146,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "瑓汹⁥䑉戀敬("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 147,
+      "menu": "Style > Style settings > EOL filled",
+      "text": "瑓佅䙌汩⡬",
+      "menuId": 27147,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "瑓汹⁥䑉⠀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 148,
+      "menu": "Style > Style settings > Hotspot state",
+      "text": "瑓潈獴潰⡴",
+      "menuId": 27148,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "瑓汹⁥䑉⠀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 149,
+      "menu": "Style > Style settings > Visibility",
+      "text": "瑓楖楳汢⡥",
+      "menuId": 27149,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "瑓汹⁥䑉⠀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 150,
+      "menu": "Style > Length of style",
+      "text": "瑓汹䱥湥瑧⡨",
+      "menuId": 27150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潐楳楴湯琀⡨"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 152,
+      "menu": "Caret  Positions > Conversion > Visible from document line",
+      "text": "楖䙳潲䑭捯楌敮(",
+      "menuId": 27152,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潄畣敭瑮氠湩e("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 153,
+      "menu": "Caret  Positions > Conversion > Document line from visible",
+      "text": "潄䙣潲噭獩楌敮(",
+      "menuId": 27153,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楖楳汢⁥楬敮攀("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 154,
+      "menu": "Notifications > On (anything) clicked > Line",
+      "text": "潎楴祦楌敮(",
+      "menuId": 27154,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 155,
+      "menu": "Search  Replace > Found start",
+      "text": "潆湵卤慴瑲(",
+      "menuId": 27155,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 156,
+      "menu": "Search  Replace > Found end",
+      "text": "潆湵䕤摮(",
+      "menuId": 27156,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 157,
+      "menu": "Search  Replace > Inline search",
+      "text": "敓牡档敔瑸(",
+      "menuId": 27157,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "汆条s敔瑸(",
+        "瑓楲杮攀瑸("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 158,
+      "menu": "Search  Replace > Target start",
+      "text": "慔杲瑥瑓牡⡴",
+      "menuId": 27158,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 159,
+      "menu": "Search  Replace > Target end",
+      "text": "慔杲瑥湅⡤",
+      "menuId": 27159,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

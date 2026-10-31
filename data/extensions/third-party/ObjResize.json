@@ -1,0 +1,239 @@
+{
+  "file": "ObjResize.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Is Any Object Selected",
+      "text": "漥›獉愠⁮扏敪瑣匠汥捥整㽤",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Is Specific Object Selected",
+      "text": "漥›獉传橢捥⁴〥匠汥捥整㽤",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬⁥潴吠獥t捥整㽤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Use Selection > Select Object",
+      "text": "敓敬瑣┠0",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "扏敪瑣琠⁯敓敬瑣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Use Selection > Select None",
+      "text": "敓敬瑣丠湯e",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Use Selection > Set Size",
+      "text": "敓⁴楓敺漠⁦敓敬瑣摥传橢捥⁴潴⠠〥‬ㄥ)",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗瑤h敺漠⁦敓敬瑣摥传橢捥⁴潴⠠〥‬ㄥ)",
+        "效杩瑨攀漠⁦敓敬瑣摥传橢捥⁴潴⠠〥‬ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Use Selection > Set Width",
+      "text": "敓⁴楗瑤⁨景匠汥捥整⁤扏敪瑣琠⁯〥⠠牐灯牯楴湯›ㄥ)",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗瑤h瑤⁨景匠汥捥整⁤扏敪瑣琠⁯〥⠠牐灯牯楴湯›ㄥ)",
+        "牐灯牯楴湯污祬匠瑥䠠楥桧㽴⠠㴰潎‬㴱教⥳爀楴湯›ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Use Selection > Set Height",
+      "text": "敓⁴效杩瑨漠⁦敓敬瑣摥传橢捥⁴潴┠‰倨潲潰瑲潩㩮┠⤱",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "效杩瑨最瑨漠⁦敓敬瑣摥传橢捥⁴潴┠‰倨潲潰瑲潩㩮┠⤱",
+        "牐灯牯楴湯污祬匠瑥圠摩桴‿〨丽Ɐㄠ夽獥)潰瑲潩㩮┠⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Use QuickSizing > Set Width",
+      "text": "敓⁴楗瑤⁨景传橢捥⁴〥琠⁯ㄥ",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣琠⁯敒楳敺挀⁴〥琠⁯ㄥ",
+        "楗瑤h琠⁯敒楳敺挀⁴〥琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Use QuickSizing > Set Height",
+      "text": "敓⁴效杩瑨漠⁦扏敪瑣┠‰潴┠1",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣琠⁯敒楳敺攀瑣┠‰潴┠1",
+        "效杩瑨琀⁯敒楳敺攀瑣┠‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Selected Object > Get X Size",
+      "text": "敓塬楓敺(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Selected Object > Get Y Size",
+      "text": "敓奬楓敺(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Selected Object > Get X Scale",
+      "text": "敓塬捓污⡥",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Selected Object > Get Y Scale",
+      "text": "敓奬捓污⡥",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Selected Object > Get Original X Size",
+      "text": "敓佬楲塧楓敺(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Selected Object > Get Original Y Size",
+      "text": "敓佬楲奧楓敺(",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Selected Object > Get Fixed Value",
+      "text": "敓䙬硩摥(",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

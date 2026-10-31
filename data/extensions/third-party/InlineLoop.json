@@ -1,0 +1,57 @@
+{
+  "file": "InlineLoop.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Inline Loop",
+      "text": "潌灯┠‰ㄥ琠浩獥⠠慍⁸㈥)",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潌灯丠浡e琠浩獥⠠慍⁸㈥)",
+        "畒⁮桴獩攠敶瑮砠琠浩獥㈀)",
+        "慍⁸潌灯䤠整慲楴湯⁳漨汮⁹敳⁴桴獩漠⁮桴⁥楦獲⁴癥湥⁴数⁲潌灯丠浡⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Loop Index",
+      "text": "敓⁴潌灯䤠摮硥琠⁯〥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湉敤⁸〨戭獡摥)⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Loop Index (0-based)",
+      "text": "潌灯䤠摮硥(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

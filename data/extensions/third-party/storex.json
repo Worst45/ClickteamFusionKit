@@ -1,0 +1,953 @@
+{
+  "file": "storex.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Compare value",
+      "text": "ㄱ猥›湉整敧⁲畮扭牥┠⁳猥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22,
+        23
+      ],
+      "paramTitles": [
+        "爨浥浥敢⁲慢敳)扭牥┠⁳猥",
+        "潃灭牡⁥楷桴⸮.扭牥┠⁳猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Compare bool",
+      "text": "ㄱ猥›潂汯渠浵敢⁲猥┠s",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22,
+        23
+      ],
+      "paramTitles": [
+        "爨浥浥敢⁲慢敳)⁲猥┠s",
+        "潃灭牡⁥楷桴⸮.⁲猥┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Compare short",
+      "text": "ㄱ猥›桓牯⁴畮扭牥┠⁳猥",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22,
+        23
+      ],
+      "paramTitles": [
+        "爨浥浥敢⁲慢敳)牥┠⁳猥",
+        "潃灭牡⁥楷桴⸮.牥┠⁳猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Integers > Set integer",
+      "text": "㄰敓⁴湩整敧⁲畮扭牥┠⁳潴┠s",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "爨浥浥敢⁲慢敳)扭牥┠⁳潴┠s",
+        "敓⁴湩整敧r敳)扭牥┠⁳潴┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Bools > Set bool",
+      "text": "㄰敓⁴潢汯渠浵敢⁲猥琠⁯猥",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "爨浥浥敢⁲慢敳)⁲猥琠⁯猥",
+        "敓⁴潢汯 慢敳)⁲猥琠⁯猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Strings > Set string",
+      "text": "㄰敓⁴瑳楲杮渠浵敢⁲猥琠⁯猥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "爨浥浥敢⁲慢敳)敢⁲猥琠⁯猥",
+        "敓⁴瑳楲杮愀敳)敢⁲猥琠⁯猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Integers > Add integer",
+      "text": "㄰摁⁤湩整敧⁲猥眠瑩⁨猥",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "爨浥浥敢⁲慢敳)眠瑩⁨猥",
+        "摁⁤湩整敧r敳)眠瑩⁨猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Bools > Set range",
+      "text": "敓⁴潢汯⁳牦浯┠‰潴┠‱潴┠2",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牆浯⸮‮爨浥浥敢⁲慢敳)潴┠2",
+        "潔⸮‮爨浥浥敢⁲慢敳))潴┠2",
+        "敓⁴慲杮e浥敢⁲慢敳))潴┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Strings > Add string",
+      "text": "㄰摁⁤瑳楲杮┠⁳楷桴┠s",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "摁⁤瑳楲杮最┠⁳楷桴┠s",
+        "摁⁤瑳楲杮最┠⁳楷桴┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Integers > Sub integer",
+      "text": "㄰畓⁢湩整敧⁲猥眠瑩⁨猥",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "爨浥浥敢⁲慢敳)眠瑩⁨猥",
+        "畓⁢湩整敧r敳)眠瑩⁨猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Bools > Clear",
+      "text": "〰汃慥⁲牡慲⁹景戠潯獬",
+      "menuId": 25035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Integers > Set range",
+      "text": "敓⁴湩整敧獲映潲⁭〥琠⁯ㄥ琠⁯㈥",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牆浯⸮‮爨浥浥敢⁲慢敳)ㄥ琠⁯㈥",
+        "潔⸮‮爨浥浥敢⁲慢敳))ㄥ琠⁯㈥",
+        "敓⁴慲杮e浥敢⁲慢敳))ㄥ琠⁯㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Strings > Set range",
+      "text": "敓⁴瑳楲杮⁳牦浯┠‰潴┠‱潴┠2",
+      "menuId": 25045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "牆浯⸮‮爨浥浥敢⁲慢敳)‱潴┠2",
+        "潔⸮‮爨浥浥敢⁲慢敳))‱潴┠2",
+        "敓⁴慲杮e浥敢⁲慢敳))‱潴┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Integers > Clear",
+      "text": "〰汃慥⁲牡慲⁹景椠瑮来牥s",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Integers > Resize",
+      "text": "㄰敒楳敺愠牲祡漠⁦湩整敧獲琠⁯猥",
+      "menuId": 25055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楓敺椀敺愠牲祡漠⁦湩整敧獲琠⁯猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Integers > Expand",
+      "text": "㄰硅慰摮愠牲祡漠⁦湩整敧獲琠⁯猥",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楓敺愀摮愠牲祡漠⁦湩整敧獲琠⁯猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Strings > Clear",
+      "text": "〰汃慥⁲牡慲⁹景猠牴湩獧",
+      "menuId": 25065,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Strings > Resize",
+      "text": "㄰敒楳敺愠牲祡漠⁦瑳楲杮⁳潴┠s",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楓敺椀敺愠牲祡漠⁦瑳楲杮⁳潴┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Strings > Expand",
+      "text": "㄰硅慰摮愠牲祡漠⁦瑳楲杮⁳潴┠s",
+      "menuId": 25075,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楓敺愀摮愠牲祡漠⁦瑳楲杮⁳潴┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Bools > Resize",
+      "text": "㄰敒楳敺愠牲祡漠⁦潢汯⁳潴┠s",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楓敺椀敺愠牲祡漠⁦潢汯⁳潴┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Bools > Expand",
+      "text": "㄰硅慰摮愠牲祡漠⁦潢汯⁳潴┠s",
+      "menuId": 25085,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楓敺愀摮愠牲祡漠⁦潢汯⁳潴┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Integers > Save values (ini)",
+      "text": "㄰慓敶瘠污敵⁳潴┠⁳椨楮)",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "慓敶瘠污敵⁳椨楮)⁳椨楮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Strings > Save strings (ini)",
+      "text": "㄰慓敶猠牴湩獧琠⁯猥⠠湩⥩",
+      "menuId": 25095,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "慓敶猠牴湩獧⠠湩⥩猀⠠湩⥩"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Bools > Save bools (ini)",
+      "text": "㄰慓敶戠潯獬琠⁯猥⠠湩⥩",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "慓敶戠潯獬⠠湩⥩猀⠠湩⥩"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Save all (ini)",
+      "text": "㄰慓敶愠汬琠⁯猥⠠湩⥩",
+      "menuId": 25105,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "慓敶愠汬⠠湩⥩猀⠠湩⥩"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Integers > Load values (ini)",
+      "text": "㄰潌摡瘠污敵⁳牦浯┠⁳椨楮)",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "潌摡瘠污敵⁳椨楮)┠⁳椨楮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Strings > Load strings (ini)",
+      "text": "㄰潌摡猠牴湩獧映潲⁭猥⠠湩⥩",
+      "menuId": 25115,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "潌摡猠牴湩獧⠠湩⥩ 猥⠠湩⥩"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Bools > Load bools (ini)",
+      "text": "㄰潌摡戠潯獬映潲⁭猥⠠湩⥩",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "潌摡戠潯獬⠠湩⥩ 猥⠠湩⥩"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Load all (ini)",
+      "text": "㄰潌摡愠汬映潲⁭猥⠠湩⥩",
+      "menuId": 25125,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "潌摡愠汬⠠湩⥩ 猥⠠湩⥩"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Integers > Save values (binary)",
+      "text": "㄰慓敶瘠污敵⁳潴┠⁳戨湩牡⥹",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "慓敶瘠污敵⁳戨湩牡⥹戀湩牡⥹"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Strings > Save strings (binary)",
+      "text": "㄰慓敶猠牴湩獧琠⁯猥⠠楢慮祲)",
+      "menuId": 25135,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "慓敶猠牴湩獧⠠楢慮祲)楢慮祲)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Bools > Save bools (binary)",
+      "text": "㄰慓敶戠潯獬琠⁯猥⠠楢慮祲)",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "慓敶戠潯獬⠠楢慮祲)楢慮祲)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Save all (binary)",
+      "text": "㄰慓敶愠汬琠⁯猥⠠楢慮祲)",
+      "menuId": 25145,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "慓敶愠汬⠠楢慮祲)楢慮祲)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Integers > Load values (binary)",
+      "text": "㄰潌摡瘠污敵⁳牦浯┠⁳戨湩牡⥹",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "潌摡瘠污敵⁳戨湩牡⥹ 戨湩牡⥹"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Strings > Load strings (binary)",
+      "text": "㄰潌摡猠牴湩獧映潲⁭猥⠠楢慮祲)",
+      "menuId": 25155,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "潌摡猠牴湩獧⠠楢慮祲)⠠楢慮祲)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Bools > Load bools (binary)",
+      "text": "㄰潌摡戠潯獬映潲⁭猥⠠楢慮祲)",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "潌摡戠潯獬⠠楢慮祲)⠠楢慮祲)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Load all (binary)",
+      "text": "㄰潌摡愠汬映潲⁭猥⠠楢慮祲)",
+      "menuId": 25165,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "潌摡愠汬⠠楢慮祲)⠠楢慮祲)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Shorts > Set short",
+      "text": "㄰敓⁴桳牯⁴畮扭牥┠⁳潴┠s",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "爨浥浥敢⁲慢敳)牥┠⁳潴┠s",
+        "敓⁴桳牯t慢敳)牥┠⁳潴┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Shorts > Add short",
+      "text": "㄰摁⁤桳牯⁴猥眠瑩⁨猥",
+      "menuId": 25175,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "爨浥浥敢⁲慢敳)瑩⁨猥",
+        "摁⁤桳牯t慢敳)瑩⁨猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Shorts > Sub short",
+      "text": "㄰畓⁢桳牯⁴猥眠瑩⁨猥",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "爨浥浥敢⁲慢敳)瑩⁨猥",
+        "畓⁢桳牯t慢敳)瑩⁨猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Shorts > Set range",
+      "text": "敓⁴桳牯獴映潲⁭〥琠⁯ㄥ琠⁯㈥",
+      "menuId": 25185,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牆浯⸮‮爨浥浥敢⁲慢敳)琠⁯㈥",
+        "潔⸮‮爨浥浥敢⁲慢敳))琠⁯㈥",
+        "敓⁴慲杮e浥敢⁲慢敳))琠⁯㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Shorts > Clear",
+      "text": "〰汃慥⁲牡慲⁹景猠潨瑲s",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Shorts > Resize",
+      "text": "㄰敒楳敺愠牲祡漠⁦桳牯獴琠⁯猥",
+      "menuId": 25195,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楓敺椀敺愠牲祡漠⁦桳牯獴琠⁯猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Shorts > Expand",
+      "text": "㄰硅慰摮愠牲祡漠⁦桳牯獴琠⁯猥",
+      "menuId": 25200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楓敺愀摮愠牲祡漠⁦桳牯獴琠⁯猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Shorts > Save shorts (ini)",
+      "text": "㄰慓敶猠潨瑲⁳潴┠⁳椨楮)",
+      "menuId": 25205,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "慓敶猠潨瑲⁳椨楮)⁳椨楮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Shorts > Load shorts (ini)",
+      "text": "㄰潌摡猠潨瑲⁳牦浯┠⁳椨楮)",
+      "menuId": 25210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "潌摡猠潨瑲⁳椨楮)┠⁳椨楮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Shorts > Save shorts (binary)",
+      "text": "",
+      "menuId": 25215,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "慓敶猠潨瑲⁳戨湩牡⥹"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Shorts > Load shorts (binary)",
+      "text": "",
+      "menuId": 25220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "潌摡猠潨瑲⁳戨湩牡⥹"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Integers > Get integer",
+      "text": "敇䥴瑮(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Bools > Get bool",
+      "text": "敇䉴潯⡬",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Strings > Get string",
+      "text": "敇却牴湩⑧(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Integers > Get valuearray size",
+      "text": "敇噴污敵楓敺(",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Strings > Get stringarray size",
+      "text": "敇却牴湩卧穩⡥",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Integers > Get value base",
+      "text": "敇噴污敵慂敳(",
+      "menuId": 27025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Strings > Get string base",
+      "text": "敇却牴湩䉧獡⡥",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Bools > Get boolarray size",
+      "text": "敇䉴潯卬穩⡥",
+      "menuId": 27035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Bools > Get bool base",
+      "text": "敇䉴潯䉬獡⡥",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Shorts > Get short",
+      "text": "敇却潨瑲(",
+      "menuId": 27045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Shorts > Get shortarray size",
+      "text": "敇却潨瑲楓敺(",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Shorts > Get short base",
+      "text": "敇却潨瑲慂敳(",
+      "menuId": 27055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

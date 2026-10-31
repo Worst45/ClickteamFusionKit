@@ -1,0 +1,385 @@
+{
+  "file": "cypher.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Error Occurred",
+      "text": "牅潲⁲捏畣牲摥",
+      "menuId": 26000,
+      "resText": "Error Occurred",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Encryption > Encrypt File",
+      "text": "湅牣灹⁴楆敬┠ⰰ┠1",
+      "menuId": 25000,
+      "resText": "Encrypt File %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湉異⁴楆敬攀┠ⰰ┠1",
+        "畏灴瑵䘠汩⁥䰨慥敶戠慬歮琠⁯癯牥牷瑩⁥湉異⁴楆敬)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Encryption > Decrypt File",
+      "text": "敄牣灹⁴楆敬┠ⰰ┠1",
+      "menuId": 25010,
+      "resText": "Decrypt File %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "湉異⁴楆敬攀┠ⰰ┠1",
+        "畏灴瑵䘠汩⁥䰨慥敶戠慬歮琠⁯癯牥牷瑩⁥湉異⁴楆敬)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Encryption > Encrypt Memory",
+      "text": "湅牣灹⁴敍潭祲┠ⰰ┠1",
+      "menuId": 25020,
+      "resText": "Encrypt Memory %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敍潭祲䄠摤敲獳─ⰰ┠1",
+        "楓敺椠⁮祂整s─ⰰ┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Encryption > Decrypt Memory",
+      "text": "敄牣灹⁴敍潭祲┠ⰰ┠1",
+      "menuId": 25030,
+      "resText": "Decrypt Memory %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敍潭祲䄠摤敲獳─ⰰ┠1",
+        "楓敺椠⁮祂整s─ⰰ┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Key > Set Key",
+      "text": "敓⁴敋⁹潴┠0",
+      "menuId": 25040,
+      "resText": "Set Key to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敋y敋⁹潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Key > Set Key from Memory Address",
+      "text": "敓⁴敋⁹牦浯䴠浥牯⁹摁牤獥⁳〥‬ㄥ",
+      "menuId": 25050,
+      "resText": "Set Key from Memory Address %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敍潭祲䄠摤敲獳洀牯⁹摁牤獥⁳〥‬ㄥ",
+        "楓敺椠⁮祂整s洀牯⁹摁牤獥⁳〥‬ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Key > Read Key from File",
+      "text": "敒摡䬠祥映潲⁭楆敬┠0",
+      "menuId": 25060,
+      "resText": "Read Key from File %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敋⁹楆敬昀潲⁭楆敬┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Key > Read Key from File (advanced)",
+      "text": "敒摡䬠祥映潲⁭楆敬⠠摡慶据摥 〥‬ㄥ‬㈥",
+      "menuId": 25070,
+      "resText": "Read Key from File (advanced) %0, %1, %2",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敋⁹楆敬昀潲⁭楆敬⠠摡慶据摥 〥‬ㄥ‬㈥",
+        "瑓牡楴杮䈠瑹e楆敬⠠摡慶据摥 〥‬ㄥ‬㈥",
+        "畎扭牥漠⁦祂整⁳潴删慥d据摥 〥‬ㄥ‬㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Benchmark > Benchmark Encryption",
+      "text": "敂据浨牡⁫湅牣灹楴湯",
+      "menuId": 25080,
+      "resText": "Benchmark Encryption",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Benchmark > Benchmark Decryption",
+      "text": "敂据浨牡⁫敄牣灹楴湯",
+      "menuId": 25090,
+      "resText": "Benchmark Decryption",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Benchmark > Reset Benchmark Results",
+      "text": "敒敳⁴敂据浨牡⁫敒畳瑬s",
+      "menuId": 25100,
+      "resText": "Reset Benchmark Results",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Test > Test Trees for Errors",
+      "text": "敔瑳吠敲獥映牯䔠牲牯s",
+      "menuId": 25110,
+      "resText": "Test Trees for Errors",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Encrypt > Encrypt Short",
+      "text": "湅卣潨瑲(",
+      "menuId": 27000,
+      "resText": "EncShort(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Encrypt > Decrypt Short",
+      "text": "敄卣潨瑲(",
+      "menuId": 27010,
+      "resText": "DecShort(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Encrypt > Encrypt Long",
+      "text": "湅䱣湯⡧",
+      "menuId": 27020,
+      "resText": "EncLong(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Encrypt > Decrypt Long",
+      "text": "敄䱣湯⡧",
+      "menuId": 27030,
+      "resText": "DecLong(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Encrypt > Encrypt Float",
+      "text": "湅䙣潬瑡(",
+      "menuId": 27040,
+      "resText": "EncFloat(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Encrypt > Decrypt Float",
+      "text": "敄䙣潬瑡(",
+      "menuId": 27050,
+      "resText": "DecFloat(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Encrypt > Encrypt String",
+      "text": "湅卣牴⠤",
+      "menuId": 27060,
+      "resText": "EncStr$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Encrypt > Decrypt String",
+      "text": "敄卣牴⠤",
+      "menuId": 27070,
+      "resText": "DecStr$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Benchmark > Get Benchmark for Encryption",
+      "text": "敂据䕨据(",
+      "menuId": 27080,
+      "resText": "BenchEnc(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Benchmark > Get Benchmark for Decryption",
+      "text": "敂据䑨捥(",
+      "menuId": 27090,
+      "resText": "BenchDec(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Error > Get Error Code",
+      "text": "牅潲䍲摯⡥",
+      "menuId": 27100,
+      "resText": "ErrorCode(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Error > Get Error String",
+      "text": "牅潲卲牴⠤",
+      "menuId": 27110,
+      "resText": "ErrorStr$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Error > Get Error String from Code",
+      "text": "牅潲卲牴潃敤⠤",
+      "menuId": 27120,
+      "resText": "ErrorStrCode$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "file": "QuickHash.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set file",
+      "text": "",
+      "menuId": 25000,
+      "resText": "Set current file to: %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "畃牲湥⁴楦敬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "GHash > GHash",
+      "text": "",
+      "menuId": 25060,
+      "resText": "Perform a GHash hash",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "GOST > GOST-Hash",
+      "text": "",
+      "menuId": 25070,
+      "resText": "Perform a GOST-Hash hash",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "MD > MD2",
+      "text": "",
+      "menuId": 25080,
+      "resText": "Perform a MD2 hash",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "MD > MD4",
+      "text": "",
+      "menuId": 25090,
+      "resText": "Perform a MD4 hash",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "MD > MD5",
+      "text": "",
+      "menuId": 25100,
+      "resText": "Perform a MD5 hash",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "SHA > SHA-1",
+      "text": "",
+      "menuId": 25110,
+      "resText": "Perform a SHA-1 hash",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "SHA > SHA-2-256",
+      "text": "",
+      "menuId": 25120,
+      "resText": "Perform a SHA-2 256bit hash",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "SHA > SHA-2-384",
+      "text": "",
+      "menuId": 25130,
+      "resText": "Perform a SHA-2 384bit hash",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "SHA > SHA-2-512",
+      "text": "",
+      "menuId": 25140,
+      "resText": "Perform a SHA-2 512bit hash",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Tiger > Tiger",
+      "text": "",
+      "menuId": 25150,
+      "resText": "Perform a Tiger hash",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions_status": "menu ressources",
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get hash",
+      "text": "",
+      "menuId": 27000,
+      "resText": "get Hash$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get hash length",
+      "text": "",
+      "menuId": 27010,
+      "resText": "get Hash Length(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "MD > MD2",
+      "text": "",
+      "menuId": 27020,
+      "resText": "get MDTwo Hash$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "MD > MD4",
+      "text": "",
+      "menuId": 27030,
+      "resText": "get MDFour Hash$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "SHA > SHA-1",
+      "text": "",
+      "menuId": 27050,
+      "resText": "get SHAOne Hash$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "MD > MD5",
+      "text": "",
+      "menuId": 27040,
+      "resText": "get MDFive Hash$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions_status": "menu ressources"
+}

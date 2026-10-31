@@ -1,0 +1,450 @@
+{
+  "file": "array3d.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "X is inside array",
+      "text": "⡘┠‰ 獩椠獮摩⁥牡慲y",
+      "menuId": 26000,
+      "resText": "X( %0 ) is inside array",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁘獩椠獮摩⁥牡慲y牡慲y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Y is inside array",
+      "text": "⡙┠‰ 獩椠獮摩⁥牡慲y",
+      "menuId": 26010,
+      "resText": "Y( %0 ) is inside array",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁙獩椠獮摩⁥牡慲y牡慲y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Z is inside array",
+      "text": "⡚┠‰ 獩椠獮摩⁥牡慲y",
+      "menuId": 26020,
+      "resText": "Z( %0 ) is inside array",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁚獩椠獮摩⁥牡慲y牡慲y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "XY is inside array",
+      "text": "奘 〥‬ㄥ⤠椠⁳湩楳敤愠牲祡",
+      "menuId": 26030,
+      "resText": "XY( %0, %1 ) is inside array",
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘獩椠獮摩⁥牡慲y楳敤愠牲祡",
+        "⁙獩椠獮摩⁥牡慲y楳敤愠牲祡"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "XYZ is inside array",
+      "text": "奘⡚┠ⰰ┠ⰱ┠′ 獩椠獮摩⁥牡慲y",
+      "menuId": 26040,
+      "resText": "XYZ( %0, %1, %2 ) is inside array",
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘獩椠獮摩⁥牡慲y獩椠獮摩⁥牡慲y",
+        "⁙獩椠獮摩⁥牡慲y獩椠獮摩⁥牡慲y",
+        "⁚獩椠獮摩⁥牡慲y獩椠獮摩⁥牡慲y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Position > Set X",
+      "text": "敓⁴⁘潴┠0",
+      "menuId": 25000,
+      "resText": "Set X to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴X潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set Position > Set Y",
+      "text": "敓⁴⁙潴┠0",
+      "menuId": 25010,
+      "resText": "Set Y to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴Y潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set Position > Set Z",
+      "text": "敓⁴⁚潴┠0",
+      "menuId": 25020,
+      "resText": "Set Z to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴Z潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Set Position > Set XY",
+      "text": "敓⁴奘琠⁯〥‬ㄥ",
+      "menuId": 25030,
+      "resText": "Set XY to %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓⁴X琠⁯〥‬ㄥ",
+        "敓⁴Y琠⁯〥‬ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Set Position > Set XYZ",
+      "text": "敓⁴奘⁚潴┠ⰰ┠ⰱ┠2",
+      "menuId": 25040,
+      "resText": "Set XYZ to %0, %1, %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓⁴X⁚潴┠ⰰ┠ⰱ┠2",
+        "敓⁴Y⁚潴┠ⰰ┠ⰱ┠2",
+        "敓⁴Z⁚潴┠ⰰ┠ⰱ┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Set Size > Set X Size",
+      "text": "敓⁴⁘楓敺琠⁯〥,",
+      "menuId": 25050,
+      "resText": "Set X Size to %0,",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴X楓敺琠⁯〥,"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Set Size > Set Y Size",
+      "text": "敓⁴⁙楓敺琠⁯〥,",
+      "menuId": 25060,
+      "resText": "Set Y Size to %0,",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴Y楓敺琠⁯〥,"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Set Size > Set Z Size",
+      "text": "敓⁴⁚楓敺琠⁯〥,",
+      "menuId": 25070,
+      "resText": "Set Z Size to %0,",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴Z楓敺琠⁯〥,"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Set Size > Set XY Size",
+      "text": "敓⁴奘匠穩⁥潴┠ⰰ┠1",
+      "menuId": 25080,
+      "resText": "Set XY Size to %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓⁴X匠穩⁥潴┠ⰰ┠1",
+        "敓⁴Y匠穩⁥潴┠ⰰ┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Set Size > Set XYZ Size",
+      "text": "敓⁴奘⁚楓敺琠⁯〥‬ㄥ‬㈥",
+      "menuId": 25090,
+      "resText": "Set XYZ Size to %0, %1, %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓⁴X⁚楓敺琠⁯〥‬ㄥ‬㈥",
+        "敓⁴Y⁚楓敺琠⁯〥‬ㄥ‬㈥",
+        "敓⁴Z⁚楓敺琠⁯〥‬ㄥ‬㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "1D Array > Get Position",
+      "text": "敇側獯(",
+      "menuId": 27000,
+      "resText": "GetPos(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "1D Array > Get Position ( X )",
+      "text": "敇側獯⡘",
+      "menuId": 27010,
+      "resText": "GetPosX(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "1D Array > Get Position ( X, Y )",
+      "text": "敇側獯奘(",
+      "menuId": 27020,
+      "resText": "GetPosXY(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "1D Array > Get Position ( X, Y, Z )",
+      "text": "敇側獯奘⡚",
+      "menuId": 27030,
+      "resText": "GetPosXYZ(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "1D Array > Get Size",
+      "text": "敇却穩⡥",
+      "menuId": 27040,
+      "resText": "GetSize(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "3D Array > Get X Position",
+      "text": "敇塴(",
+      "menuId": 27050,
+      "resText": "GetX(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "3D Array > Get Y Position",
+      "text": "敇奴(",
+      "menuId": 27060,
+      "resText": "GetY(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "3D Array > Get Z Position",
+      "text": "敇婴(",
+      "menuId": 27070,
+      "resText": "GetZ(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "3D Array > Get X Size",
+      "text": "敇塴楓敺(",
+      "menuId": 27080,
+      "resText": "GetXSize(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "3D Array > Get Y Size",
+      "text": "敇奴楓敺(",
+      "menuId": 27090,
+      "resText": "GetYSize(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "3D Array > Get Z Size",
+      "text": "敇婴楓敺(",
+      "menuId": 27100,
+      "resText": "GetZSize(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "1D to 3D Array > Get X from single value",
+      "text": "敇塴噓(",
+      "menuId": 27110,
+      "resText": "GetXSV(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "1D to 3D Array > Get Y from single value",
+      "text": "敇奴噓(",
+      "menuId": 27120,
+      "resText": "GetYSV(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "1D to 3D Array > Get Z from single value",
+      "text": "敇婴噓(",
+      "menuId": 27130,
+      "resText": "GetZSV(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "file": "3DActives.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Move an object",
+      "text": "潍敶┠‰潴㌠⡄┠‱‬㈥Ⱐ㌥⤠",
+      "menuId": 25000,
+      "resText": "Move %0 to 3D( %1 , %2 ,%3 )",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t┠‱‬㈥Ⱐ㌥⤠",
+        "⁘䘨潬瑡䄠汬睯摥)‬㈥Ⱐ㌥⤠",
+        "⁙䘨潬瑡䄠汬睯摥)‬㈥Ⱐ㌥⤠",
+        "⁚䘨潬瑡䄠汬睯摥)‬㈥Ⱐ㌥⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Rotate the camara",
+      "text": "潒慴整琠敨挠浡牡⁡潴┠‰‬ㄥⰠ┠2",
+      "menuId": 25004,
+      "resText": "Rotate the camara to %0 , %1 , %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘䘨潬瑡‬ⴰ㘳⤰ 潴┠‰‬ㄥⰠ┠2",
+        "⁙䘨潬瑡‬ⴰ㘳⤰ 潴┠‰‬ㄥⰠ┠2",
+        "⁚䘨潬瑡‬ⴰ㘳⤰ 潴┠‰‬ㄥⰠ┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Settings > Set Prespective Value",
+      "text": "敓⁴牐獥数瑣癩⁥慖畬⁥潴┠0",
+      "menuId": 25001,
+      "resText": "Set Prespective Value to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慖畬⁥䘨潬瑡⁳污潬敷⥤漀┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Settings > Enable scaling",
+      "text": "湅扡敬猠慣楬杮",
+      "menuId": 25002,
+      "resText": "Enable scaling",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Settings > Disable scaling",
+      "text": "楄慳汢⁥捳污湩g",
+      "menuId": 25003,
+      "resText": "Disable scaling",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get X position of last moved object",
+      "text": "慌瑳⡘",
+      "menuId": 27000,
+      "resText": "LastX(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Y position of last moved object",
+      "text": "慌瑳⡙",
+      "menuId": 27001,
+      "resText": "LastY(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Z position of last moved object",
+      "text": "慌瑳⡚",
+      "menuId": 27002,
+      "resText": "LastZ(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get X angle of the camara",
+      "text": "慃塭(",
+      "menuId": 27003,
+      "resText": "CamX(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get Y angle of the camara",
+      "text": "慃奭(",
+      "menuId": 27004,
+      "resText": "CamY(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get Z angle of the camara",
+      "text": "慃婭(",
+      "menuId": 27005,
+      "resText": "CamZ(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

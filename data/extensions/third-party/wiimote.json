@@ -1,0 +1,2111 @@
+{
+  "file": "wiimote.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Wiimote > Wiimote On Connect",
+      "text": "漥圠楩潭整ⴠ传⁮潃湮捥t",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Wiimote > Wiimote On Disconnect",
+      "text": "漥圠楩潭整ⴠ传⁮楄捳湯敮瑣",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Extensions > Nunchuck On Connect",
+      "text": "漥丠湵档捵⁫‭湏䌠湯敮瑣",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Extensions > Classic Controller On Connect",
+      "text": "漥䌠慬獳捩䌠湯牴汯敬⁲‭湏䌠湯敮瑣",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Extensions > Extension On Disconnect",
+      "text": "漥䔠瑸湥楳湯ⴠ传⁮楄捳湯敮瑣",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Wiimote > Wiimote Is Connected",
+      "text": "漥圠楩潭整⠠〥 ‭獉䌠湯敮瑣摥?",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 獉䌠湯敮瑣摥?"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Wiimote > Is Searching for Wiimotes",
+      "text": "漥圠楩潭整ⴠ匠慥捲楨杮?",
+      "menuId": 26060,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Extensions > Guitar On Connect",
+      "text": "漥䜠極慴⁲‭湏䌠湯敮瑣",
+      "menuId": 26070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Extensions > Nunchuck Is Connected",
+      "text": "漥圠楩潭整⠠〥 ‭畎据畨正䤠⁳潃湮捥整㽤",
+      "menuId": 26080,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 畎据畨正䤠⁳潃湮捥整㽤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Extensions > Classic Controller Is Connected",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥䤠⁳潃湮捥整㽤",
+      "menuId": 26090,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥䤠⁳潃湮捥整㽤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Extensions > Guitar Is Connected",
+      "text": "漥圠楩潭整⠠〥 ‭畇瑩牡䤠⁳潃湮捥整㽤",
+      "menuId": 26100,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 畇瑩牡䤠⁳潃湮捥整㽤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Wiimote > Input > A > A is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭⁁牐獥敳d",
+      "menuId": 26110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ ⁁牐獥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Wiimote > Input > A > A is Down",
+      "text": "漥圠楩潭整⠠〥 ‭⁁潄湷",
+      "menuId": 26120,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ ⁁潄湷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Wiimote > Input > B > B is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭⁂牐獥敳d",
+      "menuId": 26130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ ⁂牐獥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Wiimote > Input > B > B is Down",
+      "text": "漥圠楩潭整⠠〥 ‭⁂潄湷",
+      "menuId": 26140,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ ⁂潄湷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Wiimote > Input > D-Pad > D-Up is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭ⵄ灕倠敲獳摥",
+      "menuId": 26150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ ⵄ灕倠敲獳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Wiimote > Input > D-Pad > D-Up is Down",
+      "text": "漥圠楩潭整⠠〥 ‭ⵄ灕䐠睯n",
+      "menuId": 26160,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ ⵄ灕䐠睯n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Wiimote > Input > D-Pad > D-Down is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭ⵄ潄湷倠敲獳摥",
+      "menuId": 26170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ ⵄ潄湷倠敲獳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Wiimote > Input > D-Pad > D-Down is Down",
+      "text": "漥圠楩潭整⠠〥 ‭ⵄ潄湷䐠睯n",
+      "menuId": 26180,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ ⵄ潄湷䐠睯n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Wiimote > Input > D-Pad > D-Left is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭ⵄ敌瑦倠敲獳摥",
+      "menuId": 26190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ ⵄ敌瑦倠敲獳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Wiimote > Input > D-Pad > D-Left is Down",
+      "text": "漥圠楩潭整⠠〥 ‭ⵄ敌瑦䐠睯n",
+      "menuId": 26200,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ ⵄ敌瑦䐠睯n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Wiimote > Input > D-Pad > D-Right is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭ⵄ楒桧⁴牐獥敳d",
+      "menuId": 26210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ ⵄ楒桧⁴牐獥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Wiimote > Input > D-Pad > D-Right is Down",
+      "text": "漥圠楩潭整⠠〥 ‭ⵄ楒桧⁴潄湷",
+      "menuId": 26220,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ ⵄ楒桧⁴潄湷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Wiimote > Input > 1 > 1 is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭‱牐獥敳d",
+      "menuId": 26230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ ‱牐獥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Wiimote > Input > 1 > 1 is Down",
+      "text": "漥圠楩潭整⠠〥 ‭‱潄湷",
+      "menuId": 26240,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ ‱潄湷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Wiimote > Input > 2 > 2 is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭′牐獥敳d",
+      "menuId": 26250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ ′牐獥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Wiimote > Input > 2 > 2 is Down",
+      "text": "漥圠楩潭整⠠〥 ‭′潄湷",
+      "menuId": 26260,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ ′潄湷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Wiimote > Input > Plus > Plus is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭汐獵倠敲獳摥",
+      "menuId": 26270,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汐獵倠敲獳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Wiimote > Input > Plus > Plus is Down",
+      "text": "漥圠楩潭整⠠〥 ‭汐獵䐠睯n",
+      "menuId": 26280,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汐獵䐠睯n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Wiimote > Input > Minus > Minus is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭楍畮⁳牐獥敳d",
+      "menuId": 26290,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 楍畮⁳牐獥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Wiimote > Input > Minus > Minus is Down",
+      "text": "漥圠楩潭整⠠〥 ‭楍畮⁳潄湷",
+      "menuId": 26300,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 楍畮⁳潄湷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Wiimote > Input > Home > Home is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭潈敭倠敲獳摥",
+      "menuId": 26310,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 潈敭倠敲獳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Wiimote > Input > Home > Home is Down",
+      "text": "漥圠楩潭整⠠〥 ‭潈敭䐠睯n",
+      "menuId": 26320,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 潈敭䐠睯n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Extensions > Nunchuck Input > C > C is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭畎据畨正ⴠ䌠倠敲獳摥",
+      "menuId": 26330,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 畎据畨正ⴠ䌠倠敲獳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Extensions > Nunchuck Input > C > C is Down",
+      "text": "漥圠楩潭整⠠〥 ‭畎据畨正ⴠ䌠䐠睯n",
+      "menuId": 26340,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 畎据畨正ⴠ䌠䐠睯n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Extensions > Nunchuck Input > Z > Z is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭畎据畨正ⴠ娠倠敲獳摥",
+      "menuId": 26350,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 畎据畨正ⴠ娠倠敲獳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Extensions > Nunchuck Input > Z > Z is Down",
+      "text": "漥圠楩潭整⠠〥 ‭畎据畨正ⴠ娠䐠睯n",
+      "menuId": 26360,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 畎据畨正ⴠ娠䐠睯n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Extensions > Guitar Input > Green > Green is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭畇瑩牡ⴠ䜠敲湥倠敲獳摥",
+      "menuId": 26370,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 畇瑩牡ⴠ䜠敲湥倠敲獳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Extensions > Guitar Input > Green > Green is Down",
+      "text": "漥圠楩潭整⠠〥 ‭畇瑩牡ⴠ䜠敲湥䐠睯n",
+      "menuId": 26380,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 畇瑩牡ⴠ䜠敲湥䐠睯n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Extensions > Guitar Input > Red > Red is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭畇瑩牡ⴠ删摥倠敲獳摥",
+      "menuId": 26390,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 畇瑩牡ⴠ删摥倠敲獳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Extensions > Guitar Input > Red > Red is Down",
+      "text": "漥圠楩潭整⠠〥 ‭畇瑩牡ⴠ删摥䐠睯n",
+      "menuId": 26400,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 畇瑩牡ⴠ删摥䐠睯n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Extensions > Guitar Input > Yellow > Yellow is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭畇瑩牡ⴠ夠汥潬⁷牐獥敳d",
+      "menuId": 26410,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 畇瑩牡ⴠ夠汥潬⁷牐獥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Extensions > Guitar Input > Yellow > Yellow is Down",
+      "text": "漥圠楩潭整⠠〥 ‭畇瑩牡ⴠ夠汥潬⁷潄湷",
+      "menuId": 26420,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 畇瑩牡ⴠ夠汥潬⁷潄湷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Extensions > Guitar Input > Blue > Blue is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭畇瑩牡ⴠ䈠畬⁥牐獥敳d",
+      "menuId": 26430,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 畇瑩牡ⴠ䈠畬⁥牐獥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Extensions > Guitar Input > Blue > Blue is Down",
+      "text": "漥圠楩潭整⠠〥 ‭畇瑩牡ⴠ䈠畬⁥潄湷",
+      "menuId": 26440,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 畇瑩牡ⴠ䈠畬⁥潄湷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Extensions > Guitar Input > Orange > Orange is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭畇瑩牡ⴠ传慲杮⁥牐獥敳d",
+      "menuId": 26450,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 畇瑩牡ⴠ传慲杮⁥牐獥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Extensions > Guitar Input > Orange > Orange is Down",
+      "text": "漥圠楩潭整⠠〥 ‭畇瑩牡ⴠ传慲杮⁥潄湷",
+      "menuId": 26460,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 畇瑩牡ⴠ传慲杮⁥潄湷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Extensions > Guitar Input > Up > Up is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭畇瑩牡ⴠ唠⁰牐獥敳d",
+      "menuId": 26470,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 畇瑩牡ⴠ唠⁰牐獥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Extensions > Guitar Input > Up > Up is Down",
+      "text": "漥圠楩潭整⠠〥 ‭畇瑩牡ⴠ唠⁰潄湷",
+      "menuId": 26480,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 畇瑩牡ⴠ唠⁰潄湷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Extensions > Guitar Input > Down > Down is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭畇瑩牡ⴠ䐠睯⁮牐獥敳d",
+      "menuId": 26490,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 畇瑩牡ⴠ䐠睯⁮牐獥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 50,
+      "menu": "Extensions > Guitar Input > Down > Down is Down",
+      "text": "漥圠楩潭整⠠〥 ‭畇瑩牡ⴠ䐠睯⁮潄湷",
+      "menuId": 26500,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 畇瑩牡ⴠ䐠睯⁮潄湷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "Extensions > Guitar Input > Plus > Plus is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭畇瑩牡ⴠ倠畬⁳牐獥敳d",
+      "menuId": 26510,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 畇瑩牡ⴠ倠畬⁳牐獥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 52,
+      "menu": "Extensions > Guitar Input > Plus > Plus is Down",
+      "text": "漥圠楩潭整⠠〥 ‭畇瑩牡ⴠ倠畬⁳潄湷",
+      "menuId": 26520,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 畇瑩牡ⴠ倠畬⁳潄湷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 53,
+      "menu": "Extensions > Guitar Input > Minus > Minus is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭畇瑩牡ⴠ䴠湩獵倠敲獳摥",
+      "menuId": 26530,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 畇瑩牡ⴠ䴠湩獵倠敲獳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 54,
+      "menu": "Extensions > Guitar Input > Minus > Minus is Down",
+      "text": "漥圠楩潭整⠠〥 ‭畇瑩牡ⴠ䴠湩獵䐠睯n",
+      "menuId": 26540,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 畇瑩牡ⴠ䴠湩獵䐠睯n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 55,
+      "menu": "Wiimote > IR Dot Found",
+      "text": "漥圠楩潭整⠠〥 ‭剉䐠瑯⠠ㄥ 潆湵㽤",
+      "menuId": 26550,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 剉䐠瑯⠠ㄥ 潆湵㽤",
+        "潄⁴䑉⠠ⴰ⤳ⴀ⤳ 剉䐠瑯⠠ㄥ 潆湵㽤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 56,
+      "menu": "Wiimote > Wiimote Is Rumbling",
+      "text": "漥圠楩潭整⠠〥 ‭獉删浵汢湩㽧",
+      "menuId": 26560,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 獉删浵汢湩㽧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 57,
+      "menu": "Wiimote > Wiimote Is Playing a Sound",
+      "text": "漥圠楩潭整⠠〥 ‭獉倠慬楹杮匠畯摮?",
+      "menuId": 26570,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 獉倠慬楹杮匠畯摮?"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 58,
+      "menu": "Extensions > Classic Controller Input > D-Pad > D-Up is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥ⴠ䐠唭⁰牐獥敳d",
+      "menuId": 26580,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥ⴠ䐠唭⁰牐獥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 59,
+      "menu": "Extensions > Classic Controller Input > D-Pad > D-Up is Down",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥ⴠ䐠唭⁰潄湷",
+      "menuId": 26590,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥ⴠ䐠唭⁰潄湷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 60,
+      "menu": "Extensions > Classic Controller Input > D-Pad > D-Down is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥ⴠ䐠䐭睯⁮牐獥敳d",
+      "menuId": 26600,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥ⴠ䐠䐭睯⁮牐獥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 61,
+      "menu": "Extensions > Classic Controller Input > D-Pad > D-Down is Down",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥ⴠ䐠䐭睯⁮潄湷",
+      "menuId": 26610,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥ⴠ䐠䐭睯⁮潄湷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 62,
+      "menu": "Extensions > Classic Controller Input > D-Pad > D-Left is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥ⴠ䐠䰭晥⁴牐獥敳d",
+      "menuId": 26620,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥ⴠ䐠䰭晥⁴牐獥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 63,
+      "menu": "Extensions > Classic Controller Input > D-Pad > D-Left is Down",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥ⴠ䐠䰭晥⁴潄湷",
+      "menuId": 26630,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥ⴠ䐠䰭晥⁴潄湷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 64,
+      "menu": "Extensions > Classic Controller Input > D-Pad > D-Right is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥ⴠ䐠刭杩瑨倠敲獳摥",
+      "menuId": 26640,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥ⴠ䐠刭杩瑨倠敲獳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 65,
+      "menu": "Extensions > Classic Controller Input > D-Pad > D-Right is Down",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥ⴠ䐠刭杩瑨䐠睯n",
+      "menuId": 26650,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥ⴠ䐠刭杩瑨䐠睯n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 66,
+      "menu": "Extensions > Classic Controller Input > A > A is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥ⴠ䄠倠敲獳摥",
+      "menuId": 26660,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥ⴠ䄠倠敲獳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 67,
+      "menu": "Extensions > Classic Controller Input > A > A is Down",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥ⴠ䄠䐠睯n",
+      "menuId": 26670,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥ⴠ䄠䐠睯n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 68,
+      "menu": "Extensions > Classic Controller Input > B > B is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥ⴠ䈠倠敲獳摥",
+      "menuId": 26680,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥ⴠ䈠倠敲獳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 69,
+      "menu": "Extensions > Classic Controller Input > B > B is Down",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥ⴠ䈠䐠睯n",
+      "menuId": 26690,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥ⴠ䈠䐠睯n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 70,
+      "menu": "Extensions > Classic Controller Input > X > X is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥ⴠ堠倠敲獳摥",
+      "menuId": 26700,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥ⴠ堠倠敲獳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 71,
+      "menu": "Extensions > Classic Controller Input > X > X is Down",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥ⴠ堠䐠睯n",
+      "menuId": 26710,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥ⴠ堠䐠睯n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 72,
+      "menu": "Extensions > Classic Controller Input > Y > Y is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥ⴠ夠倠敲獳摥",
+      "menuId": 26720,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥ⴠ夠倠敲獳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 73,
+      "menu": "Extensions > Classic Controller Input > Y > Y is Down",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥ⴠ夠䐠睯n",
+      "menuId": 26730,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥ⴠ夠䐠睯n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 74,
+      "menu": "Extensions > Classic Controller Input > Minus > Plus is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥ⴠ䴠湩獵倠敲獳摥",
+      "menuId": 26740,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥ⴠ䴠湩獵倠敲獳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 75,
+      "menu": "Extensions > Classic Controller Input > Minus > Plus is Down",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥ⴠ䴠湩獵䐠睯n",
+      "menuId": 26750,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥ⴠ䴠湩獵䐠睯n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 76,
+      "menu": "Extensions > Classic Controller Input > Plus > Plus is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥ⴠ倠畬⁳牐獥敳d",
+      "menuId": 26760,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥ⴠ倠畬⁳牐獥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 77,
+      "menu": "Extensions > Classic Controller Input > Plus > Plus is Down",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥ⴠ倠畬⁳潄湷",
+      "menuId": 26770,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥ⴠ倠畬⁳潄湷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 78,
+      "menu": "Extensions > Classic Controller Input > Home > Home is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥ⴠ䠠浯⁥牐獥敳d",
+      "menuId": 26780,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥ⴠ䠠浯⁥牐獥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 79,
+      "menu": "Extensions > Classic Controller Input > Home > Home is Down",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥ⴠ䠠浯⁥潄湷",
+      "menuId": 26790,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥ⴠ䠠浯⁥潄湷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 80,
+      "menu": "Extensions > Classic Controller Input > ZL > ZL is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥ⴠ娠⁌牐獥敳d",
+      "menuId": 26800,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥ⴠ娠⁌牐獥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 81,
+      "menu": "Extensions > Classic Controller Input > ZL > ZL is Down",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥ⴠ娠⁌潄湷",
+      "menuId": 26810,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥ⴠ娠⁌潄湷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 82,
+      "menu": "Extensions > Classic Controller Input > ZR > ZR is Pressed",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥ⴠ娠⁒牐獥敳d",
+      "menuId": 26820,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥ⴠ娠⁒牐獥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 83,
+      "menu": "Extensions > Classic Controller Input > ZR > ZR is Down",
+      "text": "漥圠楩潭整⠠〥 ‭汃獡楳⁣潃瑮潲汬牥ⴠ娠⁒潄湷",
+      "menuId": 26830,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳ 汃獡楳⁣潃瑮潲汬牥ⴠ娠⁒潄湷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Wiimote > Connect Wiimote",
+      "text": "潃湮捥⁴楗浩瑯e",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Wiimote > Stop Connecting Wiimote",
+      "text": "瑓灯䌠湯敮瑣湩⁧楗浩瑯e",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Wiimote > Disconnect Wiimote",
+      "text": "楄捳湯敮瑣圠楩潭整⠠〥)",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳攀⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Wiimote > Disconnect All Wiimotes",
+      "text": "楄捳湯敮瑣䄠汬圠楩潭整s",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "LEDs > Turn on LED",
+      "text": "楗浩瑯⁥┨⤰ⴠ吠牵⁮湯䰠䑅⠠ㄥ)",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳爀⁮湯䰠䑅⠠ㄥ)",
+        "䕌⁄䑉⠠ⴰ⤳ⴀ⤳爀⁮湯䰠䑅⠠ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "LEDs > Turn off LED",
+      "text": "楗浩瑯⁥┨⤰ⴠ吠牵⁮景⁦䕌⁄┨⤱",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳爀⁮景⁦䕌⁄┨⤱",
+        "䕌⁄䑉⠠ⴰ⤳ⴀ⤳爀⁮景⁦䕌⁄┨⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "LEDs > Set LEDs",
+      "text": "楗浩瑯⁥┨⤰ⴠ匠瑥䰠䑅⁳┨⤱",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳琀䰠䑅⁳┨⤱",
+        "䕌⁄慖畬⁥䈨湩牡⁹敲牰獥湥慴楴湯‬楦獲⁴‴楢獴)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Rumble > Start Rumble",
+      "text": "瑓牡⁴畒扭敬映牯圠楩潭整⠠〥)",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳圀楩潭整⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Rumble > Stop Rumble",
+      "text": "瑓灯删浵汢⁥潦⁲楗浩瑯⁥┨⤰",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳椀浩瑯⁥┨⤰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Sounds > Load Sound (16-bit Mono, WAV)",
+      "text": "潌摡匠畯摮⠠〥 湩潴猠潬⁴┨⤱",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "㘱戭瑩䴠湯⁯䅗V湩潴猠潬⁴┨⤱",
+        "汓瑯⠠ⴰ⤷ 䅗V湩潴猠潬⁴┨⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Sounds > Play Sound",
+      "text": "楗浩瑯⁥┨⤰ⴠ倠慬⁹潓湵⁤牦浯匠潬⁴┨⤱",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳愀⁹潓湵⁤牦浯匠潬⁴┨⤱",
+        "汓瑯⠠ⴰ⤷⠀ⴰ⤳愀⁹潓湵⁤牦浯匠潬⁴┨⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Sounds > Stop Sound",
+      "text": "楗浩瑯⁥┨⤰ⴠ匠潴⁰潓湵d",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳漀⁰潓湵d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Rumble > Stop Rumble for all Wiimotes",
+      "text": "瑓灯删浵汢⁥潦⁲污⁬楗浩瑯獥",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "LEDs > Toggle LED",
+      "text": "楗浩瑯⁥┨⤰ⴠ吠杯汧⁥䕌⁄┨⤱",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳最汧⁥䕌⁄┨⤱",
+        "䕌⁄䑉⠠ⴰ⤳ⴀ⤳最汧⁥䕌⁄┨⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Sounds > Mute Speaker",
+      "text": "楗浩瑯⁥┨⤰ⴠ䴠瑵⁥灓慥敫⁲┨⤱",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗浩瑯⁥䑉⠠ⴰ⤳琀⁥灓慥敫⁲┨⤱",
+        "㴱畭整‬㴰湥扡敬琀⁥灓慥敫⁲┨⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Extensions > Nunchuk > Get Joystick X-delta",
+      "text": "敧乴湵档歵潊塹(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D潊塹("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Extensions > Nunchuk > Get Joystick Y-delta",
+      "text": "敧乴湵档歵潊她(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D潊她("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Extensions > Guitar > Get Joystick X-delta",
+      "text": "敧䝴極慴䩲祯⡘",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D祯⡘"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Extensions > Guitar > Get Joystick Y-delta",
+      "text": "敧䝴極慴䩲祯⡙",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D祯⡙"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Extensions > Guitar > Get Trigger Delta",
+      "text": "敧䝴極慴呲楲杧牥(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D楲杧牥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Wiimote > Orientation > Get Pitch",
+      "text": "敧坴楩潭整楐捴⡨",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D楐捴⡨"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Wiimote > Orientation > Get Roll",
+      "text": "敧坴楩潭整潒汬(",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D潒汬("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Wiimote > Orientation > Get X Orientation",
+      "text": "敧坴楩潭整牏敩瑮瑡潩塮(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D牏敩瑮瑡潩塮("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Wiimote > Orientation > Get Y Orientation",
+      "text": "敧坴楩潭整牏敩瑮瑡潩奮(",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D牏敩瑮瑡潩奮("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Wiimote > Orientation > Get Z Orientation",
+      "text": "敧坴楩潭整牏敩瑮瑡潩婮(",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D牏敩瑮瑡潩婮("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Wiimote > Orientation > Get X Acceleration",
+      "text": "敧坴楩潭整捁散敬慲楴湯⡘",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D捁散敬慲楴湯⡘"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Wiimote > Orientation > Get Y Acceleration",
+      "text": "敧坴楩潭整捁散敬慲楴湯⡙",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D捁散敬慲楴湯⡙"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Wiimote > Orientation > Get Z Acceleration",
+      "text": "敧坴楩潭整捁散敬慲楴湯⡚",
+      "menuId": 27120,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D捁散敬慲楴湯⡚"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Wiimote > Orientation > Get Update Age",
+      "text": "敧坴楩潭整灕慤整杁⡥",
+      "menuId": 27130,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D灕慤整杁⡥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Extensions > Nunchuk > Get Pitch",
+      "text": "敧乴湵档歵楐捴⡨",
+      "menuId": 27140,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D楐捴⡨"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Extensions > Nunchuk > Get Roll",
+      "text": "敧乴湵档歵潒汬(",
+      "menuId": 27150,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D潒汬("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Extensions > Nunchuk > Get X Orientation",
+      "text": "敧乴湵档歵牏敩瑮瑡潩塮(",
+      "menuId": 27160,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D牏敩瑮瑡潩塮("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Extensions > Nunchuk > Get Y Orientation",
+      "text": "敧乴湵档歵牏敩瑮瑡潩奮(",
+      "menuId": 27170,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D牏敩瑮瑡潩奮("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Extensions > Nunchuk > Get Z Orientation",
+      "text": "敧乴湵档歵牏敩瑮瑡潩婮(",
+      "menuId": 27180,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D牏敩瑮瑡潩婮("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Extensions > Nunchuk > Get X Acceleration",
+      "text": "敧乴湵档歵捁散敬慲楴湯⡘",
+      "menuId": 27190,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D捁散敬慲楴湯⡘"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Extensions > Nunchuk > Get Y Acceleration",
+      "text": "敧乴湵档歵捁散敬慲楴湯⡙",
+      "menuId": 27200,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D捁散敬慲楴湯⡙"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Extensions > Nunchuk > Get Z Acceleration",
+      "text": "敧乴湵档歵捁散敬慲楴湯⡚",
+      "menuId": 27210,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D捁散敬慲楴湯⡚"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Extensions > Nunchuk > Get Update Age",
+      "text": "敧乴湵档歵灕慤整杁⡥",
+      "menuId": 27220,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D灕慤整杁⡥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Wiimote > IR Dots > Get Dot X",
+      "text": "敧䥴䑒瑯⡘",
+      "menuId": 27230,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D",
+        "潄䥴D䥥D"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Wiimote > IR Dots > Get Dot Y",
+      "text": "敧䥴䑒瑯⡙",
+      "menuId": 27240,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D",
+        "潄䥴D䥥D"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Wiimote > IR Dots > Get Dot Size",
+      "text": "敧䥴䑒瑯楓敺(",
+      "menuId": 27250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D敺(",
+        "潄䥴D䥥D敺("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Extensions > Classic Controller > Get Left Joystick X-delta",
+      "text": "敧䍴慬獳捩敌瑦潊塹(",
+      "menuId": 27260,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D敌瑦潊塹("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Extensions > Classic Controller > Get Left Joystick Y-delta",
+      "text": "敧䍴慬獳捩敌瑦潊她(",
+      "menuId": 27270,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D敌瑦潊她("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Extensions > Classic Controller > Get Right Joystick X-delta",
+      "text": "敧䍴慬獳捩楒桧䩴祯⡘",
+      "menuId": 27280,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D楒桧䩴祯⡘"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Extensions > Classic Controller > Get Right Joystick Y-delta",
+      "text": "敧䍴慬獳捩楒桧䩴祯⡙",
+      "menuId": 27290,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D楒桧䩴祯⡙"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Extensions > Classic Controller > Get Left Trigger Delta",
+      "text": "敧䍴慬獳捩敌瑦牔杩敧⡲",
+      "menuId": 27300,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D敌瑦牔杩敧⡲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Extensions > Classic Controller > Get Right Trigger Delta",
+      "text": "敧䍴慬獳捩楒桧呴楲杧牥(",
+      "menuId": 27310,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D楒桧呴楲杧牥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Wiimote > Get ID of Last Connected Wiimote",
+      "text": "敧䱴獡坴楩潭整䑉(",
+      "menuId": 27320,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Wiimote > Get Battery Life",
+      "text": "敧坴楩潭整慂瑴牥⡹",
+      "menuId": 27330,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楗浩瑯䥥D慂瑴牥⡹"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

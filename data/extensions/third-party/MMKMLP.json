@@ -1,0 +1,545 @@
+{
+  "file": "MMKMLP.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Training Finished",
+      "text": "牔楡楮杮映湩獩敨d",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Usage > Create Training Set",
+      "text": "牃慥整猠瑥眠瑩⁨䑉┠0",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥敳t⁨䑉┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Usage > Set Pattern Input",
+      "text": "摁⁤湩異⁴ㄥ愠⁴湩敤⁸〥",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湉敤x異⁴ㄥ愠⁴湩敤⁸〥",
+        "牔楡⁮慶畬⁥潴愠摤琠⁯慰瑴牥n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Training > Train by Pattern",
+      "text": "牔楡⁮慰瑴牥獮眠瑩⁨敳⁴〥‬ㄥ椠整慲楴湯s",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥敳t眠瑩⁨敳⁴〥‬ㄥ椠整慲楴湯s",
+        "畎扭牥漠⁦瑩牥瑡潩獮攀⁴〥‬ㄥ椠整慲楴湯s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Usage > Test Pattern",
+      "text": "敔瑳瀠瑡整湲",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敒畳瑬䤠D湲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Usage > Reset Pattern",
+      "text": "敒敳⁴慰瑴牥n",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "File Actions > Save to File",
+      "text": "慓敶琠⁯楦敬┠0",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆敬慮敭椀敬┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "File Actions > Load From File",
+      "text": "潌摡映潲⁭楦敬┠0",
+      "menuId": 25035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆敬慮敭 楦敬┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Usage > Set Pattern Target",
+      "text": "摁⁤慴杲瑥┠‱瑡椠摮硥┠0",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湉敤x杲瑥┠‱瑡椠摮硥┠0",
+        "牔楡⁮慶畬⁥潴愠摤琠⁯慰瑴牥n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Training > Train by Epoch",
+      "text": "牔楡⁮灥捯獨眠瑩⁨敳⁴〥‬ㄥ椠整慲楴湯s",
+      "menuId": 25045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥敳t瑩⁨敳⁴〥‬ㄥ椠整慲楴湯s",
+        "畎扭牥漠⁦瑩牥瑡潩獮 〥‬ㄥ椠整慲楴湯s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Usage > Clear Training Set",
+      "text": "汃慥⁲敳⁴〥",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥敳t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Usage > Remove Training Set",
+      "text": "敒潭敶猠瑥┠0",
+      "menuId": 25055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥敳t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Usage > Add Pattern to Set",
+      "text": "摁⁤慰瑴牥⁮潴猠瑥┠0",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥敳t猠瑥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Usage > Load Pattern from Network",
+      "text": "潌摡瀠瑡整湲映潲⁭敮睴牯k",
+      "menuId": 25065,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Setup > Set Number of Input Layer Neurons",
+      "text": "敓⁴〥椠灮瑵氠祡牥渠略潲獮",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畎扭牥漠⁦敮牵湯s渠略潲獮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Setup > Set Number of Output Layer Neurons",
+      "text": "敓⁴〥漠瑵異⁴慬敹⁲敮牵湯s",
+      "menuId": 25075,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畎扭牥漠⁦敮牵湯s⁲敮牵湯s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Setup > Set Number of Hidden Layers",
+      "text": "牃慥整┠‰楨摤湥氠祡牥s",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畎扭牥漠⁦慬敹獲氀祡牥s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Setup > Set Number of Hidden Layer Neurons",
+      "text": "敓⁴ㄥ渠略潲獮愠⁴楨摤湥氠祡牥┠0",
+      "menuId": 25085,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慌敹⁲湩敤x獮愠⁴楨摤湥氠祡牥┠0",
+        "畎扭牥漠⁦敮牵湯s楨摤湥氠祡牥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Setup > Set Weights",
+      "text": "敓⁴潬敷⁲敷杩瑨㴠┠ⰰ甠灰牥眠楥桧⁴‽ㄥ",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潌敷⁲慶畬e杩瑨㴠┠ⰰ甠灰牥眠楥桧⁴‽ㄥ",
+        "灕数⁲慶畬e杩瑨㴠┠ⰰ甠灰牥眠楥桧⁴‽ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Setup > Set Bias",
+      "text": "敓⁴潬敷⁲楢獡㴠┠ⰰ甠灰牥戠慩⁳‽ㄥ",
+      "menuId": 25095,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潌敷⁲慶畬e獡㴠┠ⰰ甠灰牥戠慩⁳‽ㄥ",
+        "灕数⁲慶畬e獡㴠┠ⰰ甠灰牥戠慩⁳‽ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Setup > Set Learning Rate",
+      "text": "敓⁴敬牡楮杮爠瑡⁥潴┠0",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敌牡楮杮爠瑡⁥慶畬e┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Setup > Set Momentum",
+      "text": "敓⁴潭敭瑮浵琠⁯〥",
+      "menuId": 25105,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潍敭瑮浵瘠污敵 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Setup > Create Network",
+      "text": "牃慥整渠瑥潷歲",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Patterns > Get Result",
+      "text": "敇剴獥汵⡴",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "敒畳瑬䤠D",
+        "湉敤x䤠D"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Patterns > Get Result Array Length",
+      "text": "敇乴敒畳瑬⡳",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "敒畳瑬䤠D⡳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Layers > Get Input Layer Neurons",
+      "text": "湉異乴略潲獮(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Layers > Get Hidden Layers",
+      "text": "楈摤湥慌敹獲(",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Layers > Get Hidden Layer Neurons",
+      "text": "楈摤湥慌敹乲略潲獮(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "慌敹⁲湩敤x略潲獮("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Layers > Get Output Layer Neurons",
+      "text": "畏灴瑵敎瑵潲獮(",
+      "menuId": 27025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Patterns > Get Number of Patterns in Set",
+      "text": "畎扭牥晏慐瑴牥獮(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥敳t獮("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Layers > Get Output Layer Neuron Value",
+      "text": "畏灴瑵敎牵湯慖⡬",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敎牵湯椠摮硥愀⡬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Layers > Get Hidden Layer Neuron Value",
+      "text": "楈摤湥敎牵湯慖⡬",
+      "menuId": 27045,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "慌敹⁲湩敤x慖⡬",
+        "敎牵湯椠摮硥愀⡬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Layers > Get Output Layer Bias Value",
+      "text": "畏灴瑵楂獡慖⡬",
+      "menuId": 27035,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敎牵湯椠摮硥⠀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Layers > Get Hidden Layer Bias Value",
+      "text": "楈摤湥楂獡慖⡬",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "慌敹⁲湩敤x⡬",
+        "敎牵湯椠摮硥⠀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

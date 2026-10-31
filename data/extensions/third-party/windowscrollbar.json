@@ -1,0 +1,345 @@
+{
+  "file": "windowscrollbar.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On error",
+      "text": "漥漠⁮牥潲r",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "HSB (horizontal scrollbar) > On scroll",
+      "text": "漥漠⁮午⁂捳潲汬",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "VSB (vertical scrollbar) > On scroll",
+      "text": "漥漠⁮卖⁂捳潲汬",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "HSB (horizontal scrollbar) > Need HSB?",
+      "text": "漥渠敥⁤午㽂",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "VSB (vertical scrollbar) > Need VSB?",
+      "text": "漥渠敥⁤卖㽂",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "HSB (horizontal scrollbar) > Show HSB",
+      "text": "漥猠潨⁷午⁂〥⠠潢汯慥⥮",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰㴽栠摩ⱥ愠祮桴湩⁧汥敳㴠‽桳睯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "VSB (vertical scrollbar) > Show VSB",
+      "text": "漥猠潨⁷卖⁂〥⠠潢汯慥⥮",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰㴽栠摩ⱥ愠祮桴湩⁧汥敳㴠‽桳睯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "HSB (horizontal scrollbar) > Set HSB pos",
+      "text": "漥猠瑥䠠䉓瀠獯琠⁯〥",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潐楳楴湯䈀瀠獯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "VSB (vertical scrollbar) > Set VSB pos",
+      "text": "漥猠瑥嘠䉓瀠獯琠⁯〥",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潐楳楴湯䈀瀠獯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "HSB (horizontal scrollbar) > Set HSB range",
+      "text": "漥猠瑥䠠䉓爠湡敧映潲⁭〥琠⁯ㄥ",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楍⁮氨晥⥴爀湡敧映潲⁭〥琠⁯ㄥ",
+        "慍⁸爨杩瑨)湡敧映潲⁭〥琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "VSB (vertical scrollbar) > Set VSB range",
+      "text": "漥猠瑥嘠䉓爠湡敧映潲⁭〥琠⁯ㄥ",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楍⁮琨灯)爠湡敧映潲⁭〥琠⁯ㄥ",
+        "慍⁸戨瑯潴⥭渀敧映潲⁭〥琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "HSB (horizontal scrollbar) > Set HSB page",
+      "text": "漥猠瑥䠠䉓瀠条⁥潴┠0",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慐敧琀䠠䉓瀠条⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "VSB (vertical scrollbar) > Set VSB page",
+      "text": "漥猠瑥嘠䉓瀠条⁥潴┠0",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慐敧琀嘠䉓瀠条⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Clear last error",
+      "text": "漥挠敬牡氠獡⁴牥潲r",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "HSB (horizontal scrollbar) > Get HSB pos",
+      "text": "敧䡴䉓潐⡳",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "VSB (vertical scrollbar) > Get VSB pos",
+      "text": "敧噴䉓潐⡳",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "HSB (horizontal scrollbar) > Get HSB page",
+      "text": "敧䡴䉓慐敧(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "VSB (vertical scrollbar) > Get VSB page",
+      "text": "敧噴䉓慐敧(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "HSB (horizontal scrollbar) > Get HSB min",
+      "text": "敧䡴䉓楍⡮",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "VSB (vertical scrollbar) > Get VSB min",
+      "text": "敧噴䉓楍⡮",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "HSB (horizontal scrollbar) > Get HSB max",
+      "text": "敧䡴䉓慍⡸",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "VSB (vertical scrollbar) > Get VSB max",
+      "text": "敧噴䉓慍⡸",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Get last error",
+      "text": "敧䱴獡䕴牲牯(",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "HSB (horizontal scrollbar) > Get HSB height",
+      "text": "敧䡴䉓效杩瑨(",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "VSB (vertical scrollbar) > Get VSB width",
+      "text": "敧噴䉓楗瑤⡨",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

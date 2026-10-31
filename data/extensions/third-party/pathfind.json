@@ -1,0 +1,1263 @@
+{
+  "file": "pathfind.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Compare Map > Map Position is Obstacle",
+      "text": "ㄱ猥›潐楳楴湯⠠猥‬猥 獩漠獢慴汣e",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁸潣牯楤慮整⠠ⴰ慢敳⥤ 獩漠獢慴汣e",
+        "⁹潣牯楤慮整⠠ⴰ慢敳⥤ 獩漠獢慴汣e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Path Found",
+      "text": "〱猥›慐桴映畯摮",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "End of Path",
+      "text": "〱猥›湅⁤景瀠瑡h",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Fourmode is On",
+      "text": "〱猥›ⴴ楤⁲獩漠n",
+      "menuId": 26015,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Compare Map > Map Position is Destination",
+      "text": "ㄱ猥›潐楳楴湯⠠猥‬猥 獩搠獥楴慮楴湯",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁸潣牯楤慮整⠠ⴰ慢敳⥤ 獩搠獥楴慮楴湯",
+        "⁹潣牯楤慮整⠠ⴰ慢敳⥤ 獩搠獥楴慮楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Compare Map > Map Position is Start",
+      "text": "ㄱ猥›潐楳楴湯⠠猥‬猥 獩猠慴瑲",
+      "menuId": 26025,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁸潣牯楤慮整⠠ⴰ慢敳⥤ 獩猠慴瑲",
+        "⁹潣牯楤慮整⠠ⴰ慢敳⥤ 獩猠慴瑲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Start of Path",
+      "text": "〱猥›瑓牡⁴景瀠瑡h",
+      "menuId": 26035,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Map Exists",
+      "text": "〱猥›慍⁰硥獩獴",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Line of Sight",
+      "text": "漥桔牥❥⁳⁡楬敮漭ⵦ楳桧⁴敢睴敥⁮┨ⰰ┠⤱愠摮⠠㈥‬㌥)",
+      "menuId": 26045,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁸潣牯楤慮整⠠ⴰ慢敳⥤栀⁴敢睴敥⁮┨ⰰ┠⤱愠摮⠠㈥‬㌥)",
+        "⁹潣牯楤慮整⠠ⴰ慢敳⥤栀⁴敢睴敥⁮┨ⰰ┠⤱愠摮⠠㈥‬㌥)",
+        "⁸潣牯楤慮整⠠ⴰ慢敳⥤栀⁴敢睴敥⁮┨ⰰ┠⤱愠摮⠠㈥‬㌥)",
+        "⁹潣牯楤慮整⠠ⴰ慢敳⥤栀⁴敢睴敥⁮┨ⰰ┠⤱愠摮⠠㈥‬㌥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Compare Map > Compare Map Position to Value",
+      "text": "漥›潐楳楴湯⠠〥‬ㄥ 獩┠2",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁸潣牯楤慮整⠠ⴰ慢敳⥤猀┠2",
+        "⁹潣牯楤慮整⠠ⴰ慢敳⥤猀┠2",
+        "‰‭㔲‴‽慰桴⠠湩牣慥楳杮挠獯⥴‬㔲‵‽扯瑳捡敬‬㔲‶‽瑳牡ⱴ㈠㜵㴠搠獥楴慮楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Saved Paths > End of Path",
+      "text": "ㄱ猥›獉猠癡摥瀠瑡⁨猥愠⁴湥d",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥牡慲y瑡⁨猥愠⁴湥d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Saved Paths > Start of Path",
+      "text": "ㄱ猥›獉猠癡摥瀠瑡⁨猥愠⁴瑳牡t",
+      "menuId": 26055,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥牡慲y瑡⁨猥愠⁴瑳牡t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Saved Paths > Test if Array Exists",
+      "text": "ㄱ猥›牁慲⁹猥攠楸瑳s",
+      "menuId": 26060,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥牡慲y楸瑳s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Fun > Generate Maze",
+      "text": "〰敇敮慲整洠穡e",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Find Path",
+      "text": "〰楆摮瀠瑡h",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set Map > Set Obstacle",
+      "text": "㄰敓⁴┨ⱳ猥 潴漠獢慴汣e",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁸潣牯楤慮整⠠ⴰ慢敳⥤氀e",
+        "⁹潣牯楤慮整⠠ⴰ慢敳⥤氀e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Set Map > Set Path",
+      "text": "㄰敓⁴┨ⱳ猥 潴瀠瑡h",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁸潣牯楤慮整⠠ⴰ慢敳⥤",
+        "⁹潣牯楤慮整⠠ⴰ慢敳⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Set Map > Set Destination > Set Destination",
+      "text": "㄰敓⁴敤瑳湩瑡潩⁮潴⠠猥‬猥)",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁸潣牯楤慮整⠠ⴰ慢敳⥤猀‬猥)",
+        "⁹潣牯楤慮整⠠ⴰ慢敳⥤猀‬猥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Set Map > Set Start > Set Start",
+      "text": "㄰敓⁴瑳牡⁴潴⠠猥‬猥)",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁸潣牯楤慮整⠠ⴰ慢敳⥤",
+        "⁹潣牯楤慮整⠠ⴰ慢敳⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Set Map > Clear Map",
+      "text": "〰汃慥⁲慭p",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Walk > Advance One Step",
+      "text": "〰摁慶据⁥湯e",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Walk > Advance All Steps",
+      "text": "〰摁慶据⁥污l",
+      "menuId": 25035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Walk > Reverse One Step",
+      "text": "〰敒敶獲⁥湯e",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Walk > Reverse All Steps",
+      "text": "〰敒敶獲⁥污l",
+      "menuId": 25045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Resize Map",
+      "text": "㄰敒楳敺洠灡琠⁯猥砠┠s",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗瑤⁨景琠敨洠灡猀砠┠s",
+        "效杩瑨漠⁦桴⁥慭p砠┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Mode > Change to 4-dir Mode",
+      "text": "〰敓⁴潴㐠搭物",
+      "menuId": 25055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Mode > Change to 8-dir Mode",
+      "text": "〰敓⁴潴㠠搭物",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Mode > Change Mode",
+      "text": "㄰敓⁴潭敤琠⁯猥",
+      "menuId": 25065,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楅桴牥㐠漠⁲‸楤⁲潭敤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "File Actions > Save the Map",
+      "text": "㄰慓敶洠灡琠⁯猥",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "湅整⁲楦敬慮敭猀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "File Actions > Load a Map",
+      "text": "㄰潌摡洠灡映潲⁭猥",
+      "menuId": 25085,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "湅整⁲楦敬慮敭 猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Set Map > Fill Map",
+      "text": "〰楆汬琠敨洠灡",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Set Map > Set Destination > Set Destination X",
+      "text": "㄰敓⁴敤瑳湩瑡潩⁮⁸潴┠s",
+      "menuId": 25095,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁸潣牯楤慮整⠠ⴰ慢敳⥤─s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Set Map > Set Destination > Set Destination Y",
+      "text": "㄰敓⁴敤瑳湩瑡潩⁮⁹潴┠s",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁹潣牯楤慮整⠠ⴰ慢敳⥤─s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Set Map > Set Start > Set Start X",
+      "text": "㄰敓⁴瑳牡⁴⁸潴┠s",
+      "menuId": 25105,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁸潣牯楤慮整⠠ⴰ慢敳⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Set Map > Set Start > Set Start Y",
+      "text": "㄰敓⁴瑳牡⁴⁹潴┠s",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁹潣牯楤慮整⠠ⴰ慢敳⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "File Actions > Load a Map From a Bitmap",
+      "text": "㄰潌摡洠灡映潲⁭楢浴灡┠s",
+      "menuId": 25115,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "湏祬愠㈠挠汯牯‬潮⵮潣灭敲獳摥戠瑩慭p"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "File Actions > Save the Map to a Bitmap",
+      "text": "㄰慓敶洠灡琠⁯楢浴灡┠s",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "湏祬愠㈠挠汯牯‬潮⵮潣灭敲獳摥戠瑩慭p"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Walk > Advance N Steps",
+      "text": "㄰摁慶据⁥猥猠整獰",
+      "menuId": 25135,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "摁慶据⁥⁎瑓灥s獰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Walk > Reverse N Steps",
+      "text": "㄰敒敶獲⁥猥猠整獰",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敒敶獲⁥⁎瑓灥s獰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Set Map > Set Map",
+      "text": "敓⁴慭⁰潰楳楴湯⠠〥‬ㄥ 潴┠2",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁸潣牯楤慮整⠠ⴰ慢敳⥤㄀ 潴┠2",
+        "⁹潣牯楤慮整⠠ⴰ慢敳⥤㄀ 潴┠2",
+        "‰‭㔲‴‽慰桴⠠湩牣慥楳杮挠獯⥴‬㔲‵‽扯瑳捡敬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Find Path in Zone",
+      "text": "楆摮瀠瑡⁨湩稠湯⁥┨ⰰ┠⤱琠⁯┨ⰲ┠⤳",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁸潣牯楤慮整漠⁦敬瑦琯灯挠牯敮rⰲ┠⤳",
+        "⁹潣牯楤慮整漠⁦敬瑦琯灯挠牯敮rⰲ┠⤳",
+        "⁸潣牯楤慮整漠⁦楲桧⽴潢瑴浯挠牯敮r⤳",
+        "⁹潣牯楤慮整漠⁦楲桧⽴潢瑴浯挠牯敮r⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Set Map > Set Zone To",
+      "text": "敓⁴慭⁰湩稠湯⁥┨ⰰ┠⤱琠⁯┨ⰲ┠⤳琠⁯㐥",
+      "menuId": 25075,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁸潣牯楤慮整漠⁦敬瑦琯灯挠牯敮r┠⤳琠⁯㐥",
+        "⁹潣牯楤慮整漠⁦敬瑦琯灯挠牯敮r┠⤳琠⁯㐥",
+        "⁸潣牯楤慮整漠⁦楲桧⽴潢瑴浯挠牯敮r琠⁯㐥",
+        "⁹潣牯楤慮整漠⁦楲桧⽴潢瑴浯挠牯敮r琠⁯㐥",
+        "‰‭㔲‴‽慰桴⠠湩牣慥楳杮挠獯⥴‬㔲‵‽扯瑳捡敬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Costs > Set Diagonal Cost to Sqrt(2)",
+      "text": "敓⁴楤条湯污挠獯⁴潴猠牱⡴⤲",
+      "menuId": 25145,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Costs > Set Costs",
+      "text": "敓⁴潭敶挠獯⁴潴⠠灵愠摮挠畯瑮牥挠潬正楷敳 〥‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潃瑳搠物捥楴湯甠p灵愠摮挠畯瑮牥挠潬正楷敳 〥‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥",
+        "潃瑳搠物捥楴湯甠⁰敬瑦搀挠畯瑮牥挠潬正楷敳 〥‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥",
+        "潃瑳搠物捥楴湯氠晥t瑦搀挠畯瑮牥挠潬正楷敳 〥‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥",
+        "潃瑳搠物捥楴湯搠睯⁮敬瑦挀畯瑮牥挠潬正楷敳 〥‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥",
+        "潃瑳搠物捥楴湯搠睯n敬瑦挀畯瑮牥挠潬正楷敳 〥‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥",
+        "潃瑳搠物捥楴湯搠睯⁮楲桧t畯瑮牥挠潬正楷敳 〥‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥",
+        "潃瑳搠物捥楴湯爠杩瑨椀桧t畯瑮牥挠潬正楷敳 〥‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥",
+        "潃瑳搠物捥楴湯甠⁰楲桧tt畯瑮牥挠潬正楷敳 〥‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Costs > Reset Costs",
+      "text": "",
+      "menuId": 25155,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Closest Path > Use Closest Path",
+      "text": "獕⁥汣獯獥⁴慰桴",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Closest Path > Don't Use Closest Path",
+      "text": "潄❮⁴獵⁥汣獯獥⁴慰桴",
+      "menuId": 25165,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Map Generation > Generate Map From Obstacles",
+      "text": "牃慥整洠灡映潲⁭扯瑳捡敬ⱳ朠楲⁤楳敺┠0",
+      "menuId": 25175,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "片摩猠穩e映潲⁭扯瑳捡敬ⱳ朠楲⁤楳敺┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Map Generation > Generate Map From Obstacles advanced",
+      "text": "牃慥整洠灡映潲⁭扯瑳捡敬ⱳ朠楲⁤楳敺┠ⰰ洠灡瀠獯瑩潩⁮砨⥹┠ⰱ㈥‬慬敹獲┠3",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "片摩猠穩e映潲⁭扯瑳捡敬ⱳ朠楲⁤楳敺┠ⰰ洠灡瀠獯瑩潩⁮砨⥹┠ⰱ㈥‬慬敹獲┠3",
+        "ⵘ慶畬⁥景氠晥⁴慭⁰潰楳楴湯椀⁤楳敺┠ⰰ洠灡瀠獯瑩潩⁮砨⥹┠ⰱ㈥‬慬敹獲┠3",
+        "ⵙ慶畬⁥景琠灯洠灡瀠獯瑩潩n椀⁤楳敺┠ⰰ洠灡瀠獯瑩潩⁮砨⥹┠ⰱ㈥‬慬敹獲┠3",
+        "慌敹獲琠⁯整瑳⠠敺潲戠獡摥‬敳慰慲整⁤楷桴挠浯慭‬⹩⹥∠ⰰⰲ∳漠⁲ㄭ映牯愠汬氠祡獥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Debug > On",
+      "text": "畔湲漠⁮敤畢Ⱨ朠楲⁤楳敺┠ⰰ洠灡瀠獯瑩潩⁮砨⥹┠ⰱ┠2",
+      "menuId": 25185,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "片摩猠穩e畢Ⱨ朠楲⁤楳敺┠ⰰ洠灡瀠獯瑩潩⁮砨⥹┠ⰱ┠2",
+        "ⵘ慶畬⁥景氠晥⁴慭⁰潰楳楴湯洀灡瀠獯瑩潩⁮砨⥹┠ⰱ┠2",
+        "ⵙ慶畬⁥景琠灯洠灡瀠獯瑩潩n洀灡瀠獯瑩潩⁮砨⥹┠ⰱ┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Debug > Off",
+      "text": "畔湲漠晦搠扥杵",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Save Path > Save Current Path to Array",
+      "text": "慓敶瀠瑡⁨潴愠牲祡┠0",
+      "menuId": 25195,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥牡慲y祡┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Save Path > Delete an Array",
+      "text": "敄敬整愠牲祡┠0",
+      "menuId": 25200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥牡慲y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Save Path > Advance One",
+      "text": "摁慶据⁥湯⁥潰楳楴湯椠⁮牡慲⁹〥",
+      "menuId": 25205,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥牡慲y楴湯椠⁮牡慲⁹〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Save Path > Reverse One",
+      "text": "敒敶獲⁥湯⁥潰楳楴湯椠⁮牡慲⁹〥",
+      "menuId": 25210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥牡慲y楴湯椠⁮牡慲⁹〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Save Path > Go To Goal",
+      "text": "敓⁴潰楳楴湯琠⁯瑳牡⁴湩愠牲祡┠0",
+      "menuId": 25215,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥牡慲y瑳牡⁴湩愠牲祡┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Save Path > Go To Start",
+      "text": "敓⁴潰楳楴湯琠⁯湥⁤湩愠牲祡┠0",
+      "menuId": 25220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "䑉漠⁦桴⁥牡慲y湥⁤湩愠牲祡┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Map Generation > Backup Map",
+      "text": "慂正灵洠灡",
+      "menuId": 25225,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Map Generation > Restore Map",
+      "text": "敒瑳牯⁥慭p",
+      "menuId": 25230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Set Map > Auto Grid Size > Set Grid Size",
+      "text": "敓⁴牧摩楳敺琠⁯〥",
+      "menuId": 25235,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "片摩猠穩e敺琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Map > Get a Position From the Map",
+      "text": "慍⡰",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "ⵘ潰s",
+        "ⵙ潰s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Current X-pos",
+      "text": "偘獯(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Current Y-pos",
+      "text": "偙獯(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get Map > Get X-pos of Destination",
+      "text": "䑘獥⡴",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get Map > Get Y-pos of Destination",
+      "text": "䑙獥⡴",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get Map > Get X-pos of Start",
+      "text": "単慴瑲(",
+      "menuId": 27025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Get Map > Get Y-pos of Start",
+      "text": "卙慴瑲(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Get Size > Get X-size of Map",
+      "text": "䵘灡(",
+      "menuId": 27035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Get Size > Get Y-size of Map",
+      "text": "䵙灡(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Get Current Mode",
+      "text": "楄䵲摯⡥",
+      "menuId": 27045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Get Distance to Destination",
+      "text": "楄瑳(",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Walked Direction",
+      "text": "楄⡲",
+      "menuId": 27055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Walked Direction (MMF)",
+      "text": "䵍䑆物(",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Walked Direction (Deg)",
+      "text": "敄䑧物(",
+      "menuId": 27065,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Saved Paths > Get Number of Arrays",
+      "text": "畎扭牥晏牁慲獹(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Saved Paths > Get Array ID",
+      "text": "牁慲䥹⑄(",
+      "menuId": 27075,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "牁慲⁹湉敤x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Saved Paths > Get Path Length",
+      "text": "慓敶偤瑡䱨湥瑧⡨",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "牁慲⁹䑉䰀湥瑧⡨"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Saved Paths > Get X-position",
+      "text": "慓敶偤瑡塨(",
+      "menuId": 27085,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "牁慲⁹䑉堀("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Saved Paths > Get Y-position",
+      "text": "慓敶偤瑡奨(",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "牁慲⁹䑉夀("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Saved Paths > Get Start X",
+      "text": "慓敶偤瑡卨慴瑲⡘",
+      "menuId": 27095,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "牁慲⁹䑉匀慴瑲⡘"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Saved Paths > Get Start Y",
+      "text": "慓敶偤瑡卨慴瑲⡙",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "牁慲⁹䑉匀慴瑲⡙"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Saved Paths > Get Goal X",
+      "text": "慓敶偤瑡䝨慯塬(",
+      "menuId": 27105,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "牁慲⁹䑉䜀慯塬("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Saved Paths > Get Goal Y",
+      "text": "慓敶偤瑡䝨慯奬(",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "牁慲⁹䑉䜀慯奬("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "file": "urlencoder.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Encode Spaces as '+'",
+      "text": "湅潣敤匠慰散⁳獡✠✫",
+      "menuId": 25000,
+      "resText": "Encode Spaces as '+'",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Encode Spaces as '%20'",
+      "text": "湅潣敤匠慰散⁳獡✠┥〲'",
+      "menuId": 25001,
+      "resText": "Encode Spaces as '%%20'",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Encode Control Characters (:/?=#)",
+      "text": "湅潣敤䌠湯牴汯䌠慨慲瑣牥s",
+      "menuId": 25002,
+      "resText": "Encode Control Characters",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Don't Encode Control Characters (:/?=#)",
+      "text": "潄❮⁴湅潣敤䌠湯牴汯䌠慨慲瑣牥s",
+      "menuId": 25003,
+      "resText": "Don't Encode Control Characters",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Encode URL",
+      "text": "牵䕬据摯⑥(",
+      "menuId": 27000,
+      "resText": "urlEncode$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "湅整⁲剕⁌牯唠䱒倠牡t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Misc. > Get MD5 Hash",
+      "text": "䑍␵(",
+      "menuId": 27001,
+      "resText": "MD5$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "湅整⁲瑓楲杮琠⁯敢䠠獡敨d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

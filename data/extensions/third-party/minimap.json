@@ -1,0 +1,151 @@
+{
+  "file": "minimap.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Working Area",
+      "text": "敓⁴潗歲湩⁧牁慥ⴠ倠獯瑩潩⁮┨ⰰ┠⤱ⴠ匠穩⁥┨ⰲ┠⤳",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潗歲䄠敲⁡X牁慥ⴠ倠獯瑩潩⁮┨ⰰ┠⤱ⴠ匠穩⁥┨ⰲ┠⤳",
+        "潗歲䄠敲⁡Y牁慥ⴠ倠獯瑩潩⁮┨ⰰ┠⤱ⴠ匠穩⁥┨ⰲ┠⤳",
+        "潗歲䄠敲⁡楗瑤hⴠ倠獯瑩潩⁮┨ⰰ┠⤱ⴠ匠穩⁥┨ⰲ┠⤳",
+        "潗歲䄠敲⁡效杩瑨ⴀ倠獯瑩潩⁮┨ⰰ┠⤱ⴠ匠穩⁥┨ⰲ┠⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Drawing > Clear",
+      "text": "汃慥⁲楍楮慭p",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Drawing > Blit X,Y",
+      "text": "求瑩愠⁴┨ⰰ┠⤱ⴠ吠灹⁥┨⤲ⴠ匠穩⁥┨⤳ⴠ䌠汯牯⠠㐥)",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "⁘潐楳楴湯琠⁯求瑩吀灹⁥┨⤲ⴠ匠穩⁥┨⤳ⴠ䌠汯牯⠠㐥)",
+        "⁙潐楳楴湯琠⁯求瑩吀灹⁥┨⤲ⴠ匠穩⁥┨⤳ⴠ䌠汯牯⠠㐥)",
+        "桓灡㩥〠刽捥慴杮敬‬㴱楃捲敬‬㴲牃獯s⤳ⴠ䌠汯牯⠠㐥)",
+        "楓敺漠⁦潄⁴潴䈠楬t㴱楃捲敬‬㴲牃獯s⤳ⴠ䌠汯牯⠠㐥)",
+        "潃潬⁲景䐠瑯琠⁯求瑩㴀楃捲敬‬㴲牃獯s⤳ⴠ䌠汯牯⠠㐥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Drawing > Blit Object",
+      "text": "求瑩⠠〥 ‭祔数⠠ㄥ ‭楓敺⠠㈥ ‭潃潬⁲┨⤳",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "扏敪瑣琠⁯求瑩攀⠠ㄥ ‭楓敺⠠㈥ ‭潃潬⁲┨⤳",
+        "桓灡㩥〠刽捥慴杮敬‬㴱楃捲敬‬㴲牃獯s潬⁲┨⤳",
+        "楓敺漠⁦潄⁴潴䈠楬t㴱楃捲敬‬㴲牃獯s潬⁲┨⤳",
+        "潃潬⁲景䐠瑯琠⁯求瑩㴀楃捲敬‬㴲牃獯s潬⁲┨⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Appearence > Set Background Color",
+      "text": "敓⁴慂正牧畯摮䌠汯牯⠠〥)",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "慂正牧畯摮䌠汯牯氀牯⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Appearence > Set Border Color",
+      "text": "敓⁴潂摲牥䌠汯牯⠠〥)",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "潂摲牥䌠汯牯氀牯⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Appearence > Set Border Thickness",
+      "text": "敓⁴慂正牧畯摮吠楨正敮獳⠠〥)",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "桔捩湫獥⁳景䈠牯敤r敮獳⠠〥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Appearence > Show/Hide Background",
+      "text": "敓⁴慂正牧畯摮嘠獩扩汩瑩⁹瑓瑡⁥┨⤰",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慂正牧畯摮嘠獩扩汩瑩⁹瑓瑡⁥〨䠽摩敤Ɱㄠ嘽獩扩敬)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": []
+}

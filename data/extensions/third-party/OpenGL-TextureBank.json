@@ -1,0 +1,569 @@
+{
+  "file": "OpenGL-TextureBank.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "A texture is loaded? ( Index )",
+      "text": "漥›敔瑸牵⁥〥椠⁳潬摡摥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥湩敤x椠⁳潬摡摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "A texture is loaded? ( Name )",
+      "text": "漥›敔瑸牵⁥〥椠⁳潬摡摥",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥慮敭　椠⁳潬摡摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "On texture loaded",
+      "text": "漥›湏琠硥畴敲氠慯敤d",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "By index > Minifying filter...",
+      "text": "敔瑸牵⁥〥洠湩晩楹杮映汩整㩲┠1",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥湩敤x晩楹杮映汩整㩲┠1",
+        "‰‽敎牡獥ⱴㄠ㴠䰠湩慥⁲楦瑬牥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "By index > Magnification filter...",
+      "text": "敔瑸牵⁥〥洠条楮楦慣楴湯映汩整㩲┠1",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥湩敤x楮楦慣楴湯映汩整㩲┠1",
+        "‰‽敎牡獥ⱴㄠ㴠䰠湩慥⁲楦瑬牥㨀┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "By index > Horizontal repeat...",
+      "text": "敔瑸牵⁥〥栠牯穩湯慴⁬敲数瑡›ㄥ",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥湩敤x穩湯慴⁬敲数瑡›ㄥ",
+        "‰‽汃浡Ɒㄠ㴠删灥慥t敲数瑡›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "By index > Vertical repeat...",
+      "text": "敔瑸牵⁥〥瘠牥楴慣⁬敲数瑡›ㄥ",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥湩敤x楴慣⁬敲数瑡›ㄥ",
+        "‰‽汃浡Ɒㄠ㴠删灥慥t数瑡›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "By index > Load texture...",
+      "text": "潌摡琠硥畴敲┠0",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥湩敤x0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "By index > Unload texture...",
+      "text": "湕潬摡琠硥畴敲┠0",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥湩敤x┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "By name > Minifying filter...",
+      "text": "敔瑸牵⁥〥洠湩晩楹杮映汩整㩲┠1",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥慮敭渀晩楹杮映汩整㩲┠1",
+        "‰‽敎牡獥ⱴㄠ㴠䰠湩慥⁲楦瑬牥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "By name > Magnification filter...",
+      "text": "敔瑸牵⁥〥洠条楮楦慣楴湯映汩整㩲┠1",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥慮敭最楮楦慣楴湯映汩整㩲┠1",
+        "‰‽敎牡獥ⱴㄠ㴠䰠湩慥⁲楦瑬牥㨀┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "By name > Horizontal repeat...",
+      "text": "敔瑸牵⁥〥栠牯穩湯慴⁬敲数瑡›ㄥ",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥慮敭爀穩湯慴⁬敲数瑡›ㄥ",
+        "‰‽汃浡Ɒㄠ㴠删灥慥t敲数瑡›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "By name > Vertical repeat...",
+      "text": "敔瑸牵⁥〥瘠牥楴慣⁬敲数瑡›ㄥ",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥慮敭爀楴慣⁬敲数瑡›ㄥ",
+        "‰‽汃浡Ɒㄠ㴠删灥慥t数瑡›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "By name > Load texture...",
+      "text": "潌摡琠硥畴敲┠0",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥慮敭─0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "By name > Unload texture...",
+      "text": "湕潬摡琠硥畴敲┠0",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥慮敭攀┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "All > Minifying filter...",
+      "text": "汁⁬整瑸牵獥洠湩晩楹杮映汩整㩲┠0",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰‽敎牡獥ⱴㄠ㴠䰠湩慥⁲楦瑬牥─0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "All > Magnification filter...",
+      "text": "汁⁬整瑸牵獥洠条楮楦慣楴湯映汩整㩲┠0",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰‽敎牡獥ⱴㄠ㴠䰠湩慥⁲楦瑬牥攀㩲┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "All > Horizontal repeat...",
+      "text": "汁⁬整瑸牵獥栠牯穩湯慴⁬敲数瑡›〥",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰‽汃浡Ɒㄠ㴠删灥慥t⁬敲数瑡›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "All > Vertical repeat...",
+      "text": "汁⁬整瑸牵獥瘠牥楴慣⁬敲数瑡›〥",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰‽汃浡Ɒㄠ㴠删灥慥t敲数瑡›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "All > Load textures",
+      "text": "潌摡愠汬琠硥畴敲s",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "All > Unload textures",
+      "text": "湕潬摡愠汬琠硥畴敲s",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get handle > From index",
+      "text": "慈摮敬牆浯湉敤⡸",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥湩敤x⡸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get handle > From name",
+      "text": "慈摮敬牆浯慎敭(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥慮敭攀("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get handle > Last loaded",
+      "text": "潌摡摥慈摮敬(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get name > From index",
+      "text": "慎敭牆浯湉敤⑸(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥湩敤x("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get name > From handle",
+      "text": "慎敭牆浯慈摮敬⠤",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥慨摮敬⠀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get name > Last loaded",
+      "text": "潌摡摥慎敭⠤",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Get index > From name",
+      "text": "湉敤䙸潲乭浡⡥",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥慮敭⠀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Get index > From handle",
+      "text": "湉敤䙸潲䡭湡汤⡥",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥慨摮敬⠀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Get index > Last loaded",
+      "text": "潌摡摥湉敤⡸",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Number of textures",
+      "text": "敔瑸牵獥(",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Number of loaded textures",
+      "text": "潌摡摥敔瑸牵獥(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Get width > From index",
+      "text": "楗瑤䙨潲䥭摮硥(",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥湩敤x("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Get width > From name",
+      "text": "楗瑤䙨潲乭浡⡥",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥慮敭⠀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Get height > From index",
+      "text": "效杩瑨牆浯湉敤⡸",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥湩敤x⡸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Get height > From name",
+      "text": "效杩瑨牆浯慎敭(",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥慮敭攀("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

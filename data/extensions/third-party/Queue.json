@@ -1,0 +1,21 @@
+{
+  "file": "Queue.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Is queue empty?",
+      "text": "漥㨠椠⁳浥瑰y",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [],
+  "actions_status": "menu ressources",
+  "expressions": [],
+  "expressions_status": "menu ressources"
+}

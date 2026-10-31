@@ -1,0 +1,433 @@
+{
+  "file": "kiosk.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Start Menu > Hide",
+      "text": "楈敤匠慴瑲䈠瑵潴n",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Start Menu > Show",
+      "text": "桓睯匠慴瑲䈠瑵潴n",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Start Menu > Disable",
+      "text": "楄慳汢⁥瑓牡⁴畂瑴湯",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Start Menu > Enable",
+      "text": "湅扡敬匠慴瑲䈠瑵潴n",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Task Bar > Hide",
+      "text": "楈敤吠獡⁫慂r",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Task Bar > Show",
+      "text": "桓睯吠獡⁫慂r",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Task Bar > Disable",
+      "text": "楄慳汢⁥慔歳䈠牡",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Task Bar > Enable",
+      "text": "湅扡敬吠獡⁫慂r",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "External Windows > Hide",
+      "text": "楈敤圠湩潤⁷┨ⰱ┠⤰",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥慮敭漠⁦桴⁥灯湥眠湩潤w"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "External Windows > Minimize",
+      "text": "楍楮業敺圠湩潤⁷┨ⰱ┠⤰",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥慮敭漠⁦桴⁥灯湥眠湩潤w"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "External Windows > Show",
+      "text": "桓睯圠湩潤⁷┨ⰱ┠⤰",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥慮敭漠⁦桴⁥灯湥眠湩潤w"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "External Windows > Show maximized",
+      "text": "桓睯圠湩潤⁷慍楸業敺⁤┨ⰱ┠⤰",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥慮敭漠⁦桴⁥灯湥眠湩潤w"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Control Panel > Connections",
+      "text": "灏湥䌠湯敮瑣潩獮倠湡汥",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Control Panel > Hardware wizard",
+      "text": "灏湥䠠牡睤牡⁥楗慺摲倠湡汥",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Control Panel > Network setup",
+      "text": "灏湥丠瑥潷歲匠瑥灵倠湡汥",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Control Panel > System",
+      "text": "灏湥匠獹整⁭慐敮l",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Control Panel > Time  date",
+      "text": "灏湥吠浩䑥瑡⁥慐敮l",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Control Panel > Video",
+      "text": "灏湥嘠摩潥倠湡汥",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Frame > Disable close button",
+      "text": "楄慳汢⁥汃獯⁥畂瑴湯",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Frame > Enable close button",
+      "text": "湅扡敬䌠潬敳䈠瑵潴n",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Desktop > Change background image...",
+      "text": "桃湡敧䐠獥瑫灯䈠捡杫潲湵⁤浉条⁥潴┠0",
+      "menuId": 25200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥䵂⁐楦敬慮敭⸮.浉条⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Desktop > Use default background Image",
+      "text": "獕⁥敄慦汵⁴敄歳潴⁰慂正牧畯摮",
+      "menuId": 25210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Mouse > Swap mouse buttons ON",
+      "text": "睓灡䴠畯敳䈠瑵潴獮传N",
+      "menuId": 25220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Mouse > Swap mouse buttons OFF",
+      "text": "睓灡䴠畯敳䈠瑵潴獮传䙆",
+      "menuId": 25230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Mouse > Hide mouse",
+      "text": "楈敤䴠畯敳",
+      "menuId": 25240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Mouse > Show mouse",
+      "text": "桓睯䴠畯敳",
+      "menuId": 25250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "System > Set system time...",
+      "text": "敓⁴祳瑳浥琠浩⁥潴›〥┺㨱㈥",
+      "menuId": 25260,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潈牵礀瑳浥琠浩⁥潴›〥┺㨱㈥",
+        "楍畮整s浥琠浩⁥潴›〥┺㨱㈥",
+        "敓潣摮s浥琠浩⁥潴›〥┺㨱㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Display > Change desktop resolution...",
+      "text": "桃湡敧爠獥汯瑵潩⁮潴›〥╸‱㈥戠瑩⁳‭敒瑳牯⁥湏䔠摮›㌥",
+      "menuId": 25270,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "捓敲湥眠摩桴琀潩⁮潴›〥╸‱㈥戠瑩⁳‭敒瑳牯⁥湏䔠摮›㌥",
+        "捓敲湥栠楥桧t潩⁮潴›〥╸‱㈥戠瑩⁳‭敒瑳牯⁥湏䔠摮›㌥",
+        "捓敲湥搠灥桴",
+        "敒瑳牯⁥桷湥琠敨愠灰楬慣楴湯攠摮㩳〠中⁯ⴱ教s湏䔠摮›㌥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Frame > Change frame transparency",
+      "text": "桃湡敧映慲敭琠慲獮慰敲据⁹潴┠0",
+      "menuId": 25280,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敐捲湥慴敧攀琠慲獮慰敲据⁹潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Screensaver > Show screensaver",
+      "text": "桓睯猠牣敥獮癡牥",
+      "menuId": 25290,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Desktop > Disable desktop icons",
+      "text": "楄慳汢⁥敤歳潴⁰捩湯s",
+      "menuId": 25300,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Desktop > Enable desktop icons",
+      "text": "湅扡敬搠獥瑫灯椠潣獮",
+      "menuId": 25310,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": []
+}

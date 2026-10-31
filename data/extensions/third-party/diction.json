@@ -1,0 +1,261 @@
+{
+  "file": "diction.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Word exists",
+      "text": "ㄱ猥›潗摲┠⁳硥獩獴",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Add word",
+      "text": "ㄱ猥›摁⁤潷摲┠s",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Remove word",
+      "text": "ㄱ猥›敒潭敶眠牯⁤猥",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Remove all words",
+      "text": "〱猥›敒潭敶愠汬眠牯獤",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "File > Save as CSV",
+      "text": "ㄱ猥›慓敶愠⁳千⁖猥",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "File > Load from CSV",
+      "text": "ㄱ猥›潌摡映潲⁭千⁖猥",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "File > Save as MMF Array",
+      "text": "ㄱ猥›慓敶愠⁳䵍⁆牁慲⁹猥",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "File > Load from MMF Array",
+      "text": "ㄱ猥›潌摡映潲⁭䵍⁆牁慲⁹猥",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "File > Save as Dynamic Array",
+      "text": "ㄱ猥›慓敶愠⁳祄慮業⁣牁慲⁹猥",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "File > Load from Dynamic Array",
+      "text": "ㄱ猥›潌摡映潲⁭祄慮業⁣牁慲⁹猥",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "File > Save as INI",
+      "text": "ㄱ猥›慓敶愠⁳义⁉猥",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "File > Load from INI",
+      "text": "ㄱ猥›潌摡映潲⁭义⁉猥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Settings > Hash Table > Set table size",
+      "text": "ㄱ猥›敓⁴慴汢⁥楳敺琠⁯猥",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Settings > String Comparisons > Case Insensitive (A == a)",
+      "text": "〱猥›潃灭牡獩湯⁳牡⁥慣敳椠獮湥楳楴敶",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Settings > String Comparisons > Case Sensitive (A < a)",
+      "text": "〱猥›潃灭牡獩湯⁳牡⁥慣敳猠湥楳楴敶",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Settings > Search Mode > Literal",
+      "text": "〱猥›楄慳汢⁥楷摬慣摲s",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Settings > Search Mode > Wildcards",
+      "text": "〱猥›湅扡敬眠汩捤牡獤",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Settings > Duplicate Words > Disallow duplicates",
+      "text": "〱猥›楄慳汬睯搠灵楬慣整s",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Settings > Duplicate Words > Allow duplicates",
+      "text": "〱猥›汁潬⁷畤汰捩瑡獥",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get number of words",
+      "text": "潣湵坴牯獤(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get hash table size",
+      "text": "慴汢卥穩⡥",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

@@ -1,0 +1,1023 @@
+{
+  "file": "AlphaChannel.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Animation > Is an animation ID playing?",
+      "text": "漥㨠䄠楮慭楴湯䤠⁄〥椠⁳汰祡湩㽧",
+      "menuId": 26000,
+      "resText": "%o : Animation ID %0 is playing?",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥䑉漠⁦桴⁥湡浩瑡潩⁮〨㴠映物瑳)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Animation > Is an animation name playing?",
+      "text": "漥㨠䄠楮慭楴湯┠‰獩瀠慬楹杮?",
+      "menuId": 26010,
+      "resText": "%o : Animation %0 is playing?",
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥慮敭漠⁦桴⁥湡浩瑡潩n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Animation > Animation ID has finished",
+      "text": "漥㨠䄠楮慭楴湯䤠⁄〥栠獡映湩獩敨d",
+      "menuId": 26020,
+      "resText": "%o : Animation ID %0 has finished",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥䑉漠⁦桴⁥湡浩瑡潩⁮〨㴠映物瑳)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Animation > Animation name has finished",
+      "text": "漥㨠䄠楮慭楴湯┠‰慨⁳楦楮桳摥",
+      "menuId": 26030,
+      "resText": "%o : Animation %0 has finished",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥慮敭漠⁦桴⁥湡浩瑡潩n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Animation > Compare to current animation frame",
+      "text": "漥㨠䌠牵敲瑮愠楮慭楴湯映慲敭┠0",
+      "menuId": 26040,
+      "resText": "%o : Current animation frame %0",
+      "flags": 544,
+      "paramTypes": [
+        23
+      ],
+      "paramTitles": [
+        "潃灭牡⁥潴琠敨挠牵敲瑮愠楮慭楴湯映慲敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Image > Compare to current image number",
+      "text": "漥㨠䌠牵敲瑮椠慭敧┠0",
+      "menuId": 26050,
+      "resText": "%o : Current image %0",
+      "flags": 544,
+      "paramTypes": [
+        23
+      ],
+      "paramTitles": [
+        "潃灭牡⁥潴琠敨挠牵敲瑮椠慭敧渠浵敢r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Image > Compare to current alpha number",
+      "text": "漥㨠䌠牵敲瑮愠灬慨挠慨湮汥┠0",
+      "menuId": 26060,
+      "resText": "%o : Current alpha channel %0",
+      "flags": 544,
+      "paramTypes": [
+        23
+      ],
+      "paramTitles": [
+        "潃灭牡⁥潴琠敨挠牵敲瑮愠灬慨渠浵敢r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Image > Change image/alpha number",
+      "text": "桃湡敧䤠慭敧琠⁯〥",
+      "menuId": 25000,
+      "resText": "Change Image to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥畮扭牥漠⁦桴⁥浩条e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Image > Change picture number",
+      "text": "桃湡敧倠捩畴敲琠⁯〥",
+      "menuId": 25010,
+      "resText": "Change Picture to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥畮扭牥漠⁦桴⁥浩条e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Image > Change alpha channel number",
+      "text": "桃湡敧䄠灬慨䌠慨湮汥琠⁯〥",
+      "menuId": 25020,
+      "resText": "Change Alpha Channel to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥畮扭牥漠⁦桴⁥浩条e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Animation > Start",
+      "text": "瑓牡⁴湡浩瑡潩n",
+      "menuId": 25030,
+      "resText": "Start animation",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Animation > Stop",
+      "text": "瑓灯愠楮慭楴湯",
+      "menuId": 25040,
+      "resText": "Stop animation",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Animation > Change animation, by ID",
+      "text": "桃湡敧愠楮慭楴湯琠⁯䑉┠0",
+      "menuId": 25050,
+      "resText": "Change animation to ID %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥䑉漠⁦桴⁥湡浩瑡潩⁮〨㴠映物瑳)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Animation > Change animation, by name",
+      "text": "桃湡敧愠楮慭楴湯琠⁯〥",
+      "menuId": 25060,
+      "resText": "Change animation to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥慮敭漠⁦桴⁥湡浩瑡潩n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Animation > Change animation speed",
+      "text": "桃湡敧愠楮慭楴湯猠数摥琠⁯〥",
+      "menuId": 25070,
+      "resText": "Change animation speed to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥湡浩瑡潩⁮灳敥⁤㔨〰‰‽〵灦⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Animation > Change animation frame",
+      "text": "桃湡敧愠楮慭楴湯映慲敭琠⁯〥",
+      "menuId": 25080,
+      "resText": "Change animation frame to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥湡浩瑡潩⁮牦浡⁥〨㴠映物瑳)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Animation > Restore animation speed",
+      "text": "敒瑳牯⁥湡浩瑡潩⁮灳敥d",
+      "menuId": 25090,
+      "resText": "Restore animation speed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Image > Load image > Load picture (BMP, GIF, JPEG)",
+      "text": "潌摡椠慭敧映潲⁭楦敬┠‱湩潴渠浵敢⁲〥⠠畡潴敧敮慲整愠灬慨›㈥)",
+      "menuId": 25100,
+      "resText": "Load image from file %1 into number %0 (autogenerate alpha: %2)",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        40,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥畮扭牥琠⁯潬摡椠瑮o浵敢⁲〥⠠畡潴敧敮慲整愠灬慨›㈥)",
+        "畓灰牯整⁤浩条⁥祴数米⸪浢㭰⸪楤㭢⸪汲㭥⸪捰㭸⸪楧㭦⸪扬㭭⸪晩㭦⸪灪㭧⸪灪来",
+        "畁潴敧敮慲整愠灬慨挠慨湮汥‿〨渽Ɐㄠ礽獥琠慲獮⁰汢捡Ⱬ㈠琽慲獮⁰潴⁰敬瑦瀠硩汥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Image > Load image > Load alpha (BMP, GIF, JPEG)",
+      "text": "潌摡愠灬慨挠慨湮汥映潲⁭浩条⁥楦敬┠‱湩潴渠浵敢⁲〥",
+      "menuId": 25110,
+      "resText": "Load alpha channel from image file %1 into number %0",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        40
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥畮扭牥琠⁯潬摡椠瑮o楦敬┠‱湩潴渠浵敢⁲〥",
+        "畓灰牯整⁤浩条⁥祴数米⸪浢㭰⸪楤㭢⸪汲㭥⸪捰㭸⸪楧㭦⸪扬㭭⸪晩㭦⸪灪㭧⸪灪来"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Image > Free image > Free picture number",
+      "text": "牆敥攠瑸牥慮⁬浩条⁥瑡渠浵敢⁲〥",
+      "menuId": 25120,
+      "resText": "Free external image at number %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥畮扭牥琠⁯牦敥攠瑸牥慮⁬楦敬映潲m"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Image > Free image > Free alpha channel number",
+      "text": "牆敥攠瑸牥慮⁬污桰⁡档湡敮⁬瑡渠浵敢⁲〥",
+      "menuId": 25130,
+      "resText": "Free external alpha channel at number %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥畮扭牥琠⁯牦敥攠瑸牥慮⁬楦敬映潲m"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Set angle",
+      "text": "潒慴整椠慭敧琠⁯〥搠来敲獥",
+      "menuId": 25140,
+      "resText": "Rotate image to %0 degrees",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲敮⁷湡汧⁥搨捥浩污⁳牡⁥污潬敷⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Resize > Width, pixels",
+      "text": "敒楳敺椠慭敧眠摩桴琠⁯〥瀠x",
+      "menuId": 25150,
+      "resText": "Resize image width to %0 px",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敎⁷浩条⁥楷瑤ⱨ椠⁮楰數獬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Resize > Height, pixels",
+      "text": "敒楳敺椠慭敧栠楥桧⁴潴┠‰硰",
+      "menuId": 25160,
+      "resText": "Resize image height to %0 px",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敎⁷浩条⁥敨杩瑨‬湩瀠硩汥s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Resize > Width, percentage",
+      "text": "敒楳敺椠慭敧眠摩桴琠⁯〥┠†景漠楲楧慮l",
+      "menuId": 25170,
+      "resText": "Resize image width to %0 %  of original",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敎⁷楷瑤ⱨ愠⁳⁡数捲湥慴敧漠⁦牯杩湩污"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Resize > Height, percentage",
+      "text": "敒楳敺椠慭敧栠楥桧⁴潴┠‰‥漠⁦牯杩湩污",
+      "menuId": 25180,
+      "resText": "Resize image height to %0 %  of original",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敎⁷敨杩瑨‬獡愠瀠牥散瑮条⁥景漠楲楧慮l"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Resize > Restore image size",
+      "text": "敒瑳牯⁥浩条⁥楳敺",
+      "menuId": 25190,
+      "resText": "Restore image size",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Hotspot > Set to X,Y",
+      "text": "敓⁴潨獴潰⁴潴⠠┠ⰰ┠⤱",
+      "menuId": 25200,
+      "resText": "Set hotspot to ( %0, %1)",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁘潣牯楤慮整漠⁦潨獴潰t",
+        "湅整⁲⁙潣牯楤慮整漠⁦潨獴潰t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Hotspot > Top-left",
+      "text": "敓⁴潨獴潰⁴潴琠灯氭晥t",
+      "menuId": 25210,
+      "resText": "Set hotspot to top-left",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Hotspot > Top-centre",
+      "text": "敓⁴潨獴潰⁴潴琠灯挭湥牴e",
+      "menuId": 25211,
+      "resText": "Set hotspot to top-centre",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Hotspot > Top-right",
+      "text": "敓⁴潨獴潰⁴潴琠灯爭杩瑨",
+      "menuId": 25213,
+      "resText": "Set hotspot to top-right",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Hotspot > Centre-left",
+      "text": "敓⁴潨獴潰⁴潴挠湥牴ⵥ敬瑦",
+      "menuId": 25214,
+      "resText": "Set hotspot to centre-left",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Hotspot > Centre",
+      "text": "敓⁴潨獴潰⁴潴挠湥牴⁥景椠慭敧",
+      "menuId": 25215,
+      "resText": "Set hotspot to centre of image",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Hotspot > Centre-right",
+      "text": "敓⁴潨獴潰⁴潴挠湥牴ⵥ楲桧t",
+      "menuId": 25216,
+      "resText": "Set hotspot to centre-right",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Hotspot > Bottom-left",
+      "text": "敓⁴潨獴潰⁴潴戠瑯潴⵭敬瑦",
+      "menuId": 25217,
+      "resText": "Set hotspot to bottom-left",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Hotspot > Bottom-centre",
+      "text": "敓⁴潨獴潰⁴潴戠瑯潴⵭散瑮敲",
+      "menuId": 25218,
+      "resText": "Set hotspot to bottom-centre",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Hotspot > Bottom-right",
+      "text": "敓⁴潨獴潰⁴潴戠瑯潴⵭楲桧t",
+      "menuId": 25219,
+      "resText": "Set hotspot to bottom-right",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Image > Free image > Free internal alpha number",
+      "text": "牆敥椠瑮牥慮⁬污桰⁡档湡敮⁬〥",
+      "menuId": 25220,
+      "resText": "Free internal alpha channel %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "浉条⁥畮扭牥琠⁯牦敥愠灬慨映潲m"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Image > Free image > Free all internal alphas",
+      "text": "牆敥愠汬椠瑮牥慮⁬污桰⁡档湡敮獬",
+      "menuId": 25230,
+      "resText": "Free all internal alpha channels",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Set global opacity",
+      "text": "敓⁴汧扯污漠慰楣祴琠⁯〥",
+      "menuId": 25240,
+      "resText": "Set global opacity to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲灯捡瑩⁹敬敶⁬㈨㔵㴠漠慰畱ⱥ〠㴠椠癮獩扩敬)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Image > Load image > Load image/alpha from PNG",
+      "text": "潌摡倠䝎┠‱湩潴渠浵敢⁲〥⠠潦捲⁥污桰㩡┠′)",
+      "menuId": 25250,
+      "resText": "Load PNG %1 into number %0 (force alpha: %2 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        40,
+        22
+      ],
+      "paramTitles": [
+        "浉条⁥畮扭牥琠⁯潬摡椠瑮o⠠潦捲⁥污桰㩡┠′)",
+        "潐瑲扡敬丠瑥潷歲䜠慲桰捩⁳楦敬⁳⨨瀮杮簩⸪湰g",
+        "晉渠⁯牴湡灳牡湥祣‬‱‽灯煡敵愠灬慨‬′‽牴湡灳戠慬正‬″‽牴湡灳琠灯氠晥ⱴ〠㴠渠⁯捡楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Image > Load image > Load image from PNG",
+      "text": "潌摡椠慭敧映潲⁭乐⁇ㄥ椠瑮⁯浩条⁥〥",
+      "menuId": 25260,
+      "resText": "Load image from PNG %1 into image %0",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        40
+      ],
+      "paramTitles": [
+        "浉条⁥畮扭牥琠⁯潬摡椠瑮o⁯浩条⁥〥",
+        "潐瑲扡敬丠瑥潷歲䜠慲桰捩⁳楦敬⁳⨨瀮杮簩⸪湰g"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Image > Load image > Load image from PNG as alpha",
+      "text": "潌摡椠慭敧映潲⁭乐⁇ㄥ椠瑮⁯污桰⁡〥",
+      "menuId": 25270,
+      "resText": "Load image from PNG %1 into alpha %0",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        40
+      ],
+      "paramTitles": [
+        "浉条⁥畮扭牥琠⁯潬摡椠瑮o⁯污桰⁡〥",
+        "潐瑲扡敬丠瑥潷歲䜠慲桰捩⁳楦敬⁳⨨瀮杮簩⸪湰g"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Image > Load image > Load BMP from memory",
+      "text": "潌摡䈠偍映潲⁭摡牤獥⁳〥椠瑮⁯畮扭牥┠‱椨杭愯灬›㈥Ⱐ愠灬慨猠瑥楴杮┠″)",
+      "menuId": 25280,
+      "resText": "Load BMP from address %0 into number %1 (img/alp: %2 , alpha setting %3 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敍潭祲愠摤敲獳琠⁯潬摡映潲m⁯畮扭牥┠‱椨杭愯灬›㈥Ⱐ愠灬慨猠瑥楴杮┠″)",
+        "浉条⁥畮扭牥琠⁯潬摡椠瑮om⁯畮扭牥┠‱椨杭愯灬›㈥Ⱐ愠灬慨猠瑥楴杮┠″)",
+        "潌摡椠瑮⁯浩条⁥攨瑮牥〠 牯愠灬慨挠慨湮汥⠠湥整⁲⤱?愠灬慨猠瑥楴杮┠″)",
+        "畁潴敧敮慲整愠灬慨挠慨湮汥‿〨渽Ɐㄠ礽獥琠慲獮⁰汢捡Ⱬ㈠琽慲獮⁰潴⁰敬瑦瀠硩汥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Image > Load image > Load PNG from memory",
+      "text": "潌摡倠䝎映潲⁭摡牤獥⁳〥椠瑮⁯畮扭牥┠‱椨杭愯灬›㈥Ⱐ愠灬慨猠瑥楴杮┠″)",
+      "menuId": 25290,
+      "resText": "Load PNG from address %0 into number %1 (img/alp: %2 , alpha setting %3 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敍潭祲愠摤敲獳琠⁯潬摡映潲m⁯畮扭牥┠‱椨杭愯灬›㈥Ⱐ愠灬慨猠瑥楴杮┠″)",
+        "浉条⁥畮扭牥琠⁯潬摡椠瑮om⁯畮扭牥┠‱椨杭愯灬›㈥Ⱐ愠灬慨猠瑥楴杮┠″)",
+        "潌摡椠慭敧⠠湥整⁲⤰‬污桰⁡攨瑮牥ㄠ 牯戠瑯⁨攨瑮牥㈠㼩瀀慨猠瑥楴杮┠″)",
+        "晉渠⁯牴湡灳牡湥祣‬‱‽灯煡敵愠灬慨‬′‽牴湡灳戠慬正‬″‽牴湡灳琠灯氠晥ⱴ〠㴠渠⁯捡楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Image > Overlay > Overlay -> Image",
+      "text": "潌摡椠慭敧映潲⁭癏牥慬⁹摡牤獥⁳〥椠瑮⁯浩条⁥ㄥ",
+      "menuId": 25300,
+      "resText": "Load image from Overlay address %0 into image %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "摁牤獥⁳景琠敨传敶汲祡⠠獵⁥硥牰獥楳湯映潲⁭扯敪瑣)",
+        "浉条⁥畮扭牥琠⁯潬摡礀⠠獵⁥硥牰獥楳湯映潲⁭扯敪瑣)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Image > Overlay > Overlay -> Alpha",
+      "text": "潌摡椠慭敧映潲⁭癏牥慬⁹摡牤獥⁳〥椠瑮⁯污桰⁡ㄥ",
+      "menuId": 25310,
+      "resText": "Load image from Overlay address %0 into alpha %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "摁牤獥⁳景琠敨传敶汲祡⠠獵⁥硥牰獥楳湯映潲⁭扯敪瑣)",
+        "汁桰⁡档湡敮⁬潴氠慯d⠠獵⁥硥牰獥楳湯映潲⁭扯敪瑣)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Image > Save image > Save PNG (img/alpha)",
+      "text": "慓敶倠䝎琠⁯ㄥ映潲⁭浩条⽥污桰⁡〥",
+      "menuId": 25320,
+      "resText": "Save PNG to %1 from image/alpha %0",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        40
+      ],
+      "paramTitles": [
+        "浉条⁥畮扭牥琠⁯慳敶洀条⽥污桰⁡〥",
+        "潐瑲扡敬丠瑥潷歲䜠慲桰捩⁳楦敬⁳⨨瀮杮簩⸪湰g"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Image > Save image > Save PNG (image only)",
+      "text": "慓敶倠䝎琠⁯ㄥ甠楳杮愠灬慨┠0",
+      "menuId": 25330,
+      "resText": "Save PNG to %1 using alpha %0",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        40
+      ],
+      "paramTitles": [
+        "浉条⁥畮扭牥琠⁯慳敶愀灬慨┠0",
+        "潐瑲扡敬丠瑥潷歲䜠慲桰捩⁳楦敬⁳⨨瀮杮簩⸪湰g"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Image > Save image > Save PNG (alpha only)",
+      "text": "慓敶倠䝎⠠浩条⁥湯祬 潴┠‱牦浯椠慭敧┠0",
+      "menuId": 25340,
+      "resText": "Save PNG (image only) to %1 from image %0",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        40
+      ],
+      "paramTitles": [
+        "浉条⁥畮扭牥琠⁯慳敶 潴┠‱牦浯椠慭敧┠0",
+        "潐瑲扡敬丠瑥潷歲䜠慲桰捩⁳楦敬⁳⨨瀮杮簩⸪湰g"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Image > Overlay > Image -> Overlay",
+      "text": "慓敶椠慭敧┠‱潴传敶汲祡愠⁴摡牤獥⁳〥",
+      "menuId": 25350,
+      "resText": "Save image %1 to Overlay at address %0",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "摁牤獥⁳景琠敨传敶汲祡⠠獵⁥硥牰獥楳湯映潲⁭扯敪瑣)",
+        "浉条⁥畮扭牥琠⁯慳敶礀⠠獵⁥硥牰獥楳湯映潲⁭扯敪瑣)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Image > Overlay > Alpha -> Overlay",
+      "text": "慓敶愠灬慨┠‱潴传敶汲祡愠⁴摡牤獥⁳〥",
+      "menuId": 25360,
+      "resText": "Save alpha %1 to Overlay at address %0",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "摁牤獥⁳景琠敨传敶汲祡⠠獵⁥硥牰獥楳湯映潲⁭扯敪瑣)",
+        "汁桰⁡档湡敮⁬潴猠癡e⠠獵⁥硥牰獥楳湯映潲⁭扯敪瑣)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Image > Current image number",
+      "text": "畃牲湥⁴浉条⡥",
+      "menuId": 27000,
+      "resText": "Current Image(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Image > Current alpha number",
+      "text": "畃牲湥⁴汁桰⡡",
+      "menuId": 27010,
+      "resText": "Current Alpha(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Animation > Animation frame",
+      "text": "畃牲湥⁴湁浩䘠慲敭(",
+      "menuId": 27020,
+      "resText": "Current Anim Frame(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Animation > Current ID",
+      "text": "畃牲湥⁴湁浩(",
+      "menuId": 27030,
+      "resText": "Current Anim(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Animation > Current name",
+      "text": "畃牲湥⁴湁浩⠤",
+      "menuId": 27040,
+      "resText": "Current Anim$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Animation > Animation speed",
+      "text": "畃牲湥⁴湁浩匠数摥(",
+      "menuId": 27050,
+      "resText": "Current Anim Speed(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Hotspot X position",
+      "text": "潈獴潰⁴⡘",
+      "menuId": 27060,
+      "resText": "Hotspot X(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Hotspot Y position",
+      "text": "潈獴潰⁴⡙",
+      "menuId": 27070,
+      "resText": "Hotspot Y(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Original width",
+      "text": "牏杩湩污圠摩桴(",
+      "menuId": 27080,
+      "resText": "Original Width(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Original height",
+      "text": "牏杩湩污䠠楥桧⡴",
+      "menuId": 27090,
+      "resText": "Original Height(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Image > Get width of an image",
+      "text": "浉条⁥楗瑤⡨",
+      "menuId": 27100,
+      "resText": "Image Width(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Image > Get height of an image",
+      "text": "浉条⁥效杩瑨(",
+      "menuId": 27110,
+      "resText": "Image Height(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Get angle",
+      "text": "湁汧⡥",
+      "menuId": 27120,
+      "resText": "Angle(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Resized width",
+      "text": "敒楳敺⁤楗瑤⡨",
+      "menuId": 27130,
+      "resText": "Resized Width(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Resized height",
+      "text": "敒楳敺⁤效杩瑨(",
+      "menuId": 27140,
+      "resText": "Resized Height(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Get global opacity",
+      "text": "灏捡瑩⡹",
+      "menuId": 27150,
+      "resText": "Opacity(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

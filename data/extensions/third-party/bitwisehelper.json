@@ -1,0 +1,192 @@
+{
+  "file": "bitwisehelper.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Is True",
+      "text": "〥椠⁳牔敵",
+      "menuId": 26000,
+      "resText": "%0 is True",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "獉吠畲e敵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Is False",
+      "text": "〥椠⁳慆獬e",
+      "menuId": 26010,
+      "resText": "%0 is False",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "獉䘠污敳猀e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Equal",
+      "text": "煅慵⡬",
+      "menuId": 27000,
+      "resText": "Equal(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Different",
+      "text": "楄晦牥湥⡴",
+      "menuId": 27010,
+      "resText": "Different(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Lower",
+      "text": "潌敷⡲",
+      "menuId": 27020,
+      "resText": "Lower(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "LowerEqual",
+      "text": "潌敷䕲畱污(",
+      "menuId": 27030,
+      "resText": "LowerEqual(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Greater",
+      "text": "片慥整⡲",
+      "menuId": 27040,
+      "resText": "Greater(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "GreaterEqual",
+      "text": "片慥整䕲畱污(",
+      "menuId": 27050,
+      "resText": "GreaterEqual(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Conditional",
+      "text": "潃摮瑩潩慮⡬",
+      "menuId": 27060,
+      "resText": "Conditional(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "StringEqual",
+      "text": "瑓楲杮煅慵⡬",
+      "menuId": 27070,
+      "resText": "StringEqual(",
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "StringDifferent",
+      "text": "瑓楲杮楄晦牥湥⡴",
+      "menuId": 27080,
+      "resText": "StringDifferent(",
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "StringConditional",
+      "text": "瑓楲杮潃摮瑩潩慮⡬",
+      "menuId": 27090,
+      "resText": "StringConditional(",
+      "flags": 1,
+      "paramTypes": [
+        1,
+        3,
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

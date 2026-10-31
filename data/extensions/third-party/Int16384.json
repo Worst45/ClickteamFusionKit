@@ -1,0 +1,1217 @@
+{
+  "file": "Int16384.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Unsigned > A == B",
+      "text": "湕楳湧摥›〥㴠‽ㄥ",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "楆獲⁴畮扭牥㴀‽ㄥ",
+        "敓潣摮渠浵敢r‽ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Unsigned > A > B",
+      "text": "湕楳湧摥›〥㸠┠1",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "楆獲⁴畮扭牥㸀┠1",
+        "敓潣摮渠浵敢r┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Unsigned > A >= B",
+      "text": "湕楳湧摥›〥㸠‽ㄥ",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "楆獲⁴畮扭牥㸀‽ㄥ",
+        "敓潣摮渠浵敢r‽ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Unsigned > A < B",
+      "text": "湕楳湧摥›〥㰠┠1",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "楆獲⁴畮扭牥㰀┠1",
+        "敓潣摮渠浵敢r┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Unsigned > A <= B",
+      "text": "湕楳湧摥›〥㰠‽ㄥ",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "楆獲⁴畮扭牥㰀‽ㄥ",
+        "敓潣摮渠浵敢r‽ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Signed > A == B",
+      "text": "楓湧摥›〥㴠‽ㄥ",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "楆獲⁴畮扭牥 ㄥ",
+        "敓潣摮渠浵敢rㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Signed > A > B",
+      "text": "楓湧摥›〥㸠┠1",
+      "menuId": 26060,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "楆獲⁴畮扭牥─1",
+        "敓潣摮渠浵敢r1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Signed > A >= B",
+      "text": "楓湧摥›〥㸠‽ㄥ",
+      "menuId": 26070,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "楆獲⁴畮扭牥 ㄥ",
+        "敓潣摮渠浵敢rㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Signed > A < B",
+      "text": "楓湧摥›〥㰠┠1",
+      "menuId": 26080,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "楆獲⁴畮扭牥─1",
+        "敓潣摮渠浵敢r1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Signed > A <= B",
+      "text": "楓湧摥›〥㰠‽ㄥ",
+      "menuId": 26090,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "楆獲⁴畮扭牥 ㄥ",
+        "敓潣摮渠浵敢rㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Float > A == B",
+      "text": "汆慯㩴┠‰㴽┠1",
+      "menuId": 26100,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "楆獲⁴畮扭牥─1",
+        "敓潣摮渠浵敢r1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Float > A > B",
+      "text": "汆慯㩴┠‰‾ㄥ",
+      "menuId": 26110,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "楆獲⁴畮扭牥㄀",
+        "敓潣摮渠浵敢r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Float > A >= B",
+      "text": "汆慯㩴┠‰㴾┠1",
+      "menuId": 26120,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "楆獲⁴畮扭牥─1",
+        "敓潣摮渠浵敢r1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Float > A < B",
+      "text": "汆慯㩴┠‰‼ㄥ",
+      "menuId": 26130,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "楆獲⁴畮扭牥㄀",
+        "敓潣摮渠浵敢r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Float > A <= B",
+      "text": "汆慯㩴┠‰㴼┠1",
+      "menuId": 26140,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "楆獲⁴畮扭牥─1",
+        "敓潣摮渠浵敢r1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Unsigned > Set",
+      "text": "湕楳湧摥›敓⁴慖楲扡敬琠⁯〥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖畬⁥潴匠瑥琠o楲扡敬琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Unsigned > Add",
+      "text": "湕楳湧摥›摁⁤〥琠⁯慖楲扡敬",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖畬⁥潴䄠摤 〥琠⁯慖楲扡敬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Unsigned > Subtract",
+      "text": "湕楳湧摥›畓瑢慲瑣┠‰牦浯嘠牡慩汢e",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖畬⁥潴匠扵牴捡t┠‰牦浯嘠牡慩汢e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Unsigned > Multiply",
+      "text": "湕楳湧摥›畍瑬灩祬嘠牡慩汢⁥祢┠0",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖畬⁥潴䴠汵楴汰⁹祢爀慩汢⁥祢┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Unsigned > Divide",
+      "text": "湕楳湧摥›楄楶敤嘠牡慩汢⁥祢┠0",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖畬⁥潴䐠癩摩⁥祢爀慩汢⁥祢┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Unsigned > Raise to Power",
+      "text": "湕楳湧摥›慒獩⁥慖楲扡敬琠⁯桴⁥潐敷⁲景┠0",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖畬⁥潴删楡敳琠⁯桴⁥潐敷⁲景 潐敷⁲景┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Unsigned > Perform Modulus",
+      "text": "湕楳湧摥›敓⁴慖楲扡敬琠⁯慖楲扡敬洠摯┠0",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖畬⁥潴瀠牥潦浲䴠摯汵獵眠瑩h扡敬洠摯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Signed > Set",
+      "text": "楓湧摥›敓⁴慖楲扡敬琠⁯〥",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖畬⁥潴匠瑥琠o扡敬琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Signed > Add",
+      "text": "楓湧摥›摁⁤〥琠⁯慖楲扡敬",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖畬⁥潴䄠摤　琠⁯慖楲扡敬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Signed > Subtract",
+      "text": "楓湧摥›畓瑢慲瑣┠‰牦浯嘠牡慩汢e",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖畬⁥潴匠扵牴捡t‰牦浯嘠牡慩汢e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Signed > Multiply",
+      "text": "楓湧摥›畍瑬灩祬嘠牡慩汢⁥祢┠0",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖畬⁥潴䴠汵楴汰⁹祢愀汢⁥祢┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Signed > Divide",
+      "text": "楓湧摥›楄楶敤嘠牡慩汢⁥祢┠0",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖畬⁥潴䐠癩摩⁥祢愀汢⁥祢┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Signed > Raise to Power",
+      "text": "楓湧摥›慒獩⁥慖楲扡敬琠⁯桴⁥潐敷⁲景┠0",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖畬⁥潴删楡敳琠⁯桴⁥潐敷⁲景漀敷⁲景┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Signed > Perform Modulus",
+      "text": "楓湧摥›敓⁴慖楲扡敬琠⁯慖楲扡敬洠摯┠0",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖畬⁥潴瀠牥潦浲䴠摯汵獵眠瑩h敬洠摯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Float > Set",
+      "text": "汆慯㩴匠瑥嘠牡慩汢⁥潴┠0",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖畬⁥潴匠瑥琠o汢⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Float > Add",
+      "text": "汆慯㩴䄠摤┠‰潴嘠牡慩汢e",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖畬⁥潴䄠摤 潴嘠牡慩汢e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Float > Subtract",
+      "text": "汆慯㩴匠扵牴捡⁴〥映潲⁭慖楲扡敬",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖畬⁥潴匠扵牴捡t映潲⁭慖楲扡敬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Float > Multiply",
+      "text": "汆慯㩴䴠汵楴汰⁹慖楲扡敬戠⁹〥",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖畬⁥潴䴠汵楴汰⁹祢戀敬戠⁹〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Float > Divide",
+      "text": "汆慯㩴䐠癩摩⁥慖楲扡敬戠⁹〥",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖畬⁥潴䐠癩摩⁥祢戀敬戠⁹〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Float > Raise to Power",
+      "text": "汆慯㩴删楡敳嘠牡慩汢⁥潴琠敨倠睯牥漠⁦〥",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖畬⁥潴删楡敳琠⁯桴⁥潐敷⁲景眀牥漠⁦〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Advanced > Unsigned > Set Byte (Size 1, unsigned)",
+      "text": "湕楳湧摥›敓⁴祂整┠‰潴┠1",
+      "menuId": 25210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "祂整琠⁯敓⁴〨琠⁯〲㜴)┠1",
+        "慖畬⁥潴匠瑥琠⁯〨琠⁯㔲⤵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Advanced > Unsigned > Set Integer (Size 4, signed)",
+      "text": "湕楳湧摥›敓⁴湉整敧⁲〥琠⁯ㄥ",
+      "menuId": 25220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湉整敧⁲潴匠瑥⠠‰潴㔠ㄱ)⁯ㄥ",
+        "慖畬⁥潴匠瑥琠⁯⴨ㄲ㜴㠴㘳㠴琠⁯ㄲ㜴㠴㘳㜴)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Advanced > Signed > Set Byte (Size 1, unsigned)",
+      "text": "楓湧摥›敓⁴祂整┠‰潴┠1",
+      "menuId": 25230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "祂整琠⁯敓⁴〨琠⁯〲㜴)1",
+        "慖畬⁥潴匠瑥琠⁯〨琠⁯㔲⤵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Advanced > Signed > Set Integer (Size 4, signed)",
+      "text": "楓湧摥›敓⁴湉整敧⁲〥琠⁯ㄥ",
+      "menuId": 25240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湉整敧⁲潴匠瑥⠠‰潴㔠ㄱ)ㄥ",
+        "慖畬⁥潴匠瑥琠⁯⴨ㄲ㜴㠴㘳㠴琠⁯ㄲ㜴㠴㘳㜴)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Advanced > Float > Set Byte (Size 1, unsigned)",
+      "text": "汆慯㩴匠瑥䈠瑹⁥〥琠⁯ㄥ",
+      "menuId": 25250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "祂整琠⁯敓⁴〨琠⁯〲㜴)",
+        "慖畬⁥潴匠瑥琠⁯〨琠⁯㔲⤵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Advanced > Float > Set Integer (Size 4, signed)",
+      "text": "汆慯㩴匠瑥䤠瑮来牥┠‰潴┠1",
+      "menuId": 25260,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湉整敧⁲潴匠瑥⠠‰潴㔠ㄱ)1",
+        "慖畬⁥潴匠瑥琠⁯⴨ㄲ㜴㠴㘳㠴琠⁯ㄲ㜴㠴㘳㜴)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Unsigned Variable",
+      "text": "噕牡慩汢⑥(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Unsigned > A + B",
+      "text": "䅕摤⠤",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A摤⠤",
+        "B摤⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Unsigned > A - B",
+      "text": "单扵牴捡⑴(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A扵牴捡⑴(",
+        "B扵牴捡⑴("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Unsigned > A * B",
+      "text": "䵕汵楴汰⑹(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A汵楴汰⑹(",
+        "B汵楴汰⑹("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Unsigned > A / B",
+      "text": "䑕癩摩⑥(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A癩摩⑥(",
+        "B癩摩⑥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Unsigned > A ^ B",
+      "text": "偕睯牥⠤",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A睯牥⠤",
+        "B睯牥⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Unsigned > A % B",
+      "text": "䵕摯汵⑯(",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A摯汵⑯(",
+        "B摯汵⑯("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Unsigned > Random",
+      "text": "剕湡潤⑭(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "楍楮畭m(",
+        "慍楸畭m("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Get Signed Variable",
+      "text": "噓牡慩汢⑥(",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Signed > A + B",
+      "text": "䅓摤⠤",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A摤⠤",
+        "B摤⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Signed > A - B",
+      "text": "卓扵牴捡⑴(",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A扵牴捡⑴(",
+        "B扵牴捡⑴("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Signed > A * B",
+      "text": "䵓汵楴汰⑹(",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A汵楴汰⑹(",
+        "B汵楴汰⑹("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Signed > A / B",
+      "text": "䑓癩摩⑥(",
+      "menuId": 27120,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A癩摩⑥(",
+        "B癩摩⑥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Signed > A ^ B",
+      "text": "偓睯牥⠤",
+      "menuId": 27130,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A睯牥⠤",
+        "B睯牥⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Signed > A % B",
+      "text": "䵓摯汵⑯(",
+      "menuId": 27140,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A摯汵⑯(",
+        "B摯汵⑯("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Signed > Random",
+      "text": "剓湡潤⑭(",
+      "menuId": 27150,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "楍楮畭m(",
+        "慍楸畭m("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Get Float Variable",
+      "text": "噆牡慩汢⑥(",
+      "menuId": 27160,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Float > A + B",
+      "text": "䅆摤⠤",
+      "menuId": 27170,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A摤⠤",
+        "B摤⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Float > A - B",
+      "text": "卆扵牴捡⑴(",
+      "menuId": 27180,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A扵牴捡⑴(",
+        "B扵牴捡⑴("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Float > A * B",
+      "text": "䵆汵楴汰⑹(",
+      "menuId": 27190,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A汵楴汰⑹(",
+        "B汵楴汰⑹("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Float > A / B",
+      "text": "䑆癩摩⑥(",
+      "menuId": 27200,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A癩摩⑥(",
+        "B癩摩⑥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Float > A ^ B",
+      "text": "偆睯牥⠤",
+      "menuId": 27210,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A睯牥⠤",
+        "B睯牥⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Advanced > Unsigned > Get Byte (Size 1, unsigned)",
+      "text": "䉕瑹⡥",
+      "menuId": 27240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "祂整倠獯瑩潩⁮〨琠⁯〲㜴)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Advanced > Unsigned > Get Integer (Size 4, signed)",
+      "text": "䥕瑮(",
+      "menuId": 27250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉⁴潐楳楴湯⠠‰潴㔠ㄱ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Advanced > Signed > Get Byte (Size 1, unsigned)",
+      "text": "䉓瑹⡥",
+      "menuId": 27260,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "祂整倠獯瑩潩⁮〨琠⁯〲㜴)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Advanced > Signed > Get Integer (Size 4, signed)",
+      "text": "䥓瑮(",
+      "menuId": 27270,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉⁴潐楳楴湯⠠‰潴㔠ㄱ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Advanced > Float > Get Byte (Size 1, unsigned)",
+      "text": "䉆瑹⡥",
+      "menuId": 27280,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "祂整倠獯瑩潩⁮〨琠⁯〲㜴)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Advanced > Float > Get Integer (Size 4, signed)",
+      "text": "䥆瑮(",
+      "menuId": 27290,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉⁴潐楳楴湯⠠‰潴㔠ㄱ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Advanced > Unsigned > Get Memory Address",
+      "text": "䥕瑮摁牤(",
+      "menuId": 27300,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Advanced > Signed > Get Memory Address",
+      "text": "䥓瑮摁牤(",
+      "menuId": 27310,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Advanced > Float > Get Memory Address",
+      "text": "䅆摤⡲",
+      "menuId": 27320,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

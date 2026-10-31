@@ -1,0 +1,917 @@
+{
+  "file": "AdvInt64.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Unsigned > Variable A == Variable B",
+      "text": "〥㴠‽ㄥ⠠湕楳湧摥)",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慖楲扡敬䄠渀楳湧摥)",
+        "慖楲扡敬䈠渀楳湧摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Unsigned > Variable A >= Variable B",
+      "text": "〥㸠‽ㄥ⠠湕楳湧摥)",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慖楲扡敬䄠渀楳湧摥)",
+        "慖楲扡敬䈠渀楳湧摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Unsigned > Variable A > Variable B",
+      "text": "〥㸠┠‱唨獮杩敮⥤",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慖楲扡敬䄠猀杩敮⥤",
+        "慖楲扡敬䈠猀杩敮⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Unsigned > Variable A <= Variable B",
+      "text": "〥㰠‽ㄥ⠠湕楳湧摥)",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慖楲扡敬䄠渀楳湧摥)",
+        "慖楲扡敬䈠渀楳湧摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Unsigned > Variable A < Variable B",
+      "text": "〥㰠┠‱唨獮杩敮⥤",
+      "menuId": 26004,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慖楲扡敬䄠猀杩敮⥤",
+        "慖楲扡敬䈠猀杩敮⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Signed > Variable A == Variable B",
+      "text": "〥㴠‽ㄥ⠠楓湧摥)",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慖楲扡敬䄠椀湧摥)",
+        "慖楲扡敬䈠椀湧摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Signed > Variable A >= Variable B",
+      "text": "〥㸠‽ㄥ⠠楓湧摥)",
+      "menuId": 26006,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慖楲扡敬䄠椀湧摥)",
+        "慖楲扡敬䈠椀湧摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Signed > Variable A > Variable B",
+      "text": "〥㸠┠‱匨杩敮⥤",
+      "menuId": 26007,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慖楲扡敬䄠最敮⥤",
+        "慖楲扡敬䈠最敮⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Signed > Variable A <= Variable B",
+      "text": "〥㰠‽ㄥ⠠楓湧摥)",
+      "menuId": 26008,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慖楲扡敬䄠椀湧摥)",
+        "慖楲扡敬䈠椀湧摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Signed > Variable A < Variable B",
+      "text": "〥㰠┠‱匨杩敮⥤",
+      "menuId": 26009,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慖楲扡敬䄠最敮⥤",
+        "慖楲扡敬䈠最敮⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Unsigned > On Variable Loop",
+      "text": "漥›湏唠獮杩敮⁤慖楲扡敬䰠潯p",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Signed > On Variable Loop",
+      "text": "漥›湏匠杩敮⁤慖楲扡敬䰠潯p",
+      "menuId": 26011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Unsigned Variable Exists",
+      "text": "漥›湕楳湧摥嘠牡慩汢⁥〥䔠楸瑳s",
+      "menuId": 26012,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖楲扡敬丠浡e牡慩汢⁥〥䔠楸瑳s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Signed Variable Exists",
+      "text": "漥›楓湧摥嘠牡慩汢⁥〥䔠楸瑳s",
+      "menuId": 26013,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慖楲扡敬丠浡e慩汢⁥〥䔠楸瑳s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Unsigned > Set Variable",
+      "text": "湕楳湧摥›敓⁴〥琠⁯ㄥ",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦慖楲扡敬琠⁯潍楤祦",
+        "慖畬⁥潴匠瑥琠敨嘠牡慩汢⁥潴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Unsigned > Add to Variable",
+      "text": "湕楳湧摥›摁⁤ㄥ琠⁯〥",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦慖楲扡敬琠⁯潍楤祦",
+        "慖畬⁥潴䄠摤琠⁯桴⁥慖楲扡敬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Unsigned > Subtract from Variable",
+      "text": "湕楳湧摥›畓瑢慲瑣┠‱牦浯┠0",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦慖楲扡敬琠⁯潍楤祦─0",
+        "慖畬⁥潴匠扵牴捡⁴牦浯琠敨嘠牡慩汢e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Unsigned > Multiply Variable",
+      "text": "湕楳湧摥›畍瑬灩祬┠‰祢┠1",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦慖楲扡敬琠⁯潍楤祦",
+        "慖畬⁥潴䴠汵楴汰⁹桴⁥慖楲扡敬戠y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Unsigned > Divide Variable",
+      "text": "湕楳湧摥›楄楶敤┠‰祢┠1",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦慖楲扡敬琠⁯潍楤祦",
+        "慖畬⁥潴䐠癩摩⁥桴⁥慖楲扡敬戠y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Unsigned > Raise Variable to Power",
+      "text": "湕楳湧摥›慒獩⁥〥琠⁯桴⁥潰敷⁲景┠1",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦慖楲扡敬琠⁯潍楤祦漀敷⁲景┠1",
+        "慖畬⁥潴删楡敳琠敨嘠牡慩汢⁥潴琠敨倠睯牥漠f"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Unsigned > Perform Modulo on Variable",
+      "text": "湕楳湧摥›敓⁴〥琠⁯〥洠摯┠1",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦慖楲扡敬琠⁯潍楤祦─1",
+        "慖畬⁥潴瀠牥潦浲琠敨䴠摯汵⁯灯牥瑡牯眠瑩⁨桴⁥慖楲扡敬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Unsigned > Set Byte in Variable",
+      "text": "湕楳湧摥›敓⁴祂整┠‱湩┠‰潴┠2",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慎敭漠⁦慖楲扡敬攀┠‱湩┠‰潴┠2",
+        "祂整琠⁯摁番瑳⠠ⴰ⤷ 湩┠‰潴┠2",
+        "湕楳湧摥䈠瑹⁥慖畬⁥〨㈭㔵)潴┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Unsigned > Delete Variable",
+      "text": "湕楳湧摥›敄敬整┠0",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦慖楲扡敬琠⁯敄敬整"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Unsigned > Delete All Variables",
+      "text": "湕楳湧摥›敄敬整䄠汬嘠牡慩汢獥",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Signed > Set Variable",
+      "text": "楓湧摥›敓⁴〥琠⁯ㄥ",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦慖楲扡敬琠⁯潍楤祦",
+        "慖畬⁥潴匠瑥琠敨嘠牡慩汢⁥潴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Signed > Add to Variable",
+      "text": "楓湧摥›摁⁤ㄥ琠⁯〥",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦慖楲扡敬琠⁯潍楤祦",
+        "慖畬⁥潴䄠摤琠⁯桴⁥慖楲扡敬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Signed > Subtract from Variable",
+      "text": "楓湧摥›畓瑢慲瑣┠‱牦浯┠0",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦慖楲扡敬琠⁯潍楤祦",
+        "慖畬⁥潴匠扵牴捡⁴牦浯琠敨嘠牡慩汢e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Signed > Multiply Variable",
+      "text": "楓湧摥›畍瑬灩祬┠‰祢┠1",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦慖楲扡敬琠⁯潍楤祦",
+        "慖畬⁥潴䴠汵楴汰⁹桴⁥慖楲扡敬戠y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Signed > Divide Variable",
+      "text": "楓湧摥›楄楶敤┠‰祢┠1",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦慖楲扡敬琠⁯潍楤祦",
+        "慖畬⁥潴䐠癩摩⁥桴⁥慖楲扡敬戠y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Signed > Raise Variable to Power",
+      "text": "楓湧摥›慒獩⁥〥琠⁯桴⁥潰敷⁲景┠1",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦慖楲扡敬琠⁯潍楤祦攀⁲景┠1",
+        "慖畬⁥潴删楡敳琠敨嘠牡慩汢⁥潴琠敨倠睯牥漠f"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Signed > Perform Modulo on Variable",
+      "text": "楓湧摥›敓⁴〥琠⁯〥洠摯┠1",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦慖楲扡敬琠⁯潍楤祦",
+        "慖畬⁥潴瀠牥潦浲琠敨䴠摯汵⁯灯牥瑡牯眠瑩⁨桴⁥慖楲扡敬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Signed > Set Byte in Variable",
+      "text": "楓湧摥›敓⁴祂整┠‱湩┠‰潴┠2",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慎敭漠⁦慖楲扡敬─‱湩┠‰潴┠2",
+        "祂整琠⁯摁番瑳⠠ⴰ⤷渀┠‰潴┠2",
+        "湕楳湧摥䈠瑹⁥慖畬⁥〨㈭㔵)┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Signed > Delete Variable",
+      "text": "楓湧摥›敄敬整┠0",
+      "menuId": 25018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慎敭漠⁦慖楲扡敬琠⁯敄敬整"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Signed > Delete All Variables",
+      "text": "楓湧摥›敄敬整䄠汬嘠牡慩汢獥",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Loop Through Variables",
+      "text": "潌灯吠牨畯桧嘠牡慩汢獥⠠潍敤┽⤰",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰‽湵楳湧摥‬‱‽楳湧摥‬湡瑹楨杮攠獬⁥‽潢桴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Unsigned Variable",
+      "text": "敇啴獮杩敮噤牡⠤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慖楲扡敬丠浡e⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Signed Variable",
+      "text": "敇却杩敮噤牡⠤",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慖楲扡敬丠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Unsigned Variable Byte",
+      "text": "敇啴獮杩敮噤牡祂整(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "慖楲扡敬丠浡e祂整(",
+        "祂整琠⁯敇⁴〨㜭)("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get Signed Variable Byte",
+      "text": "敇却杩敮噤牡祂整(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "慖楲扡敬丠浡e整(",
+        "祂整琠⁯敇⁴〨㜭)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Loop: Get Unsigned Variable Name",
+      "text": "敇啴獮杩敮噤牡慎敭⠤",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Loop: Get Signed Variable Name",
+      "text": "敇却杩敮噤牡慎敭⠤",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Quick Expressions > Unsigned > A + B",
+      "text": "䅕摤⠤",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A摤⠤",
+        "B摤⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Quick Expressions > Unsigned > A - B",
+      "text": "单扵⠤",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A扵⠤",
+        "B扵⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Quick Expressions > Unsigned > A * B",
+      "text": "䵕汵⠤",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A汵⠤",
+        "B汵⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Quick Expressions > Unsigned > A / B",
+      "text": "䑕癩⠤",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A癩⠤",
+        "B癩⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Quick Expressions > Unsigned > A ^ B",
+      "text": "偕睯⠤",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A睯⠤",
+        "B睯⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Quick Expressions > Unsigned > A % B",
+      "text": "䵕摯⠤",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A摯⠤",
+        "B摯⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Quick Expressions > Signed > A + B",
+      "text": "䅓摤⠤",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A摤⠤",
+        "B摤⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Quick Expressions > Signed > A - B",
+      "text": "卓扵⠤",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A扵⠤",
+        "B扵⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Quick Expressions > Signed > A * B",
+      "text": "䵓汵⠤",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A汵⠤",
+        "B汵⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Quick Expressions > Signed > A / B",
+      "text": "䑓癩⠤",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A癩⠤",
+        "B癩⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Quick Expressions > Signed > A ^ B",
+      "text": "偓睯⠤",
+      "menuId": 27016,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A睯⠤",
+        "B睯⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Quick Expressions > Signed > A % B",
+      "text": "䵓摯⠤",
+      "menuId": 27017,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "A摯⠤",
+        "B摯⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

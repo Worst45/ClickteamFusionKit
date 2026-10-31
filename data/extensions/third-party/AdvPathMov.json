@@ -1,0 +1,770 @@
+{
+  "file": "AdvPathMov.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Is moving ?",
+      "text": "〱猥獉洠癯湩⁧?",
+      "menuId": 26000,
+      "resText": "10%sIs moving ?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Are nodes connected ?",
+      "text": "ㄱ猥丠摯獥┠⁳湡⁤猥愠敲挠湯敮瑣摥?",
+      "menuId": 26040,
+      "resText": "11%s Nodes %s and %s are connected?",
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潃湮捥整⁤牦浯丠摯⁥䑉攀挠湯敮瑣摥?",
+        "潃湮捥整⁤潴丠摯⁥䑉䐀攀挠湯敮瑣摥?"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Is stopped ?",
+      "text": "〱猥獉猠潴灰湩㽧",
+      "menuId": 26020,
+      "resText": "10%sIs stopping?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Has reached the end of the journey?",
+      "text": "〱猥慈⁳敲捡敨⁤桴⁥湥⁤景琠敨樠畯湲祥?",
+      "menuId": 26030,
+      "resText": "10%sHas reached the end of the journey?",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Has touched a new node ?",
+      "text": "〱猥慈⁳潴捵敨⁤⁡敮⁷潮敤㼠",
+      "menuId": 26010,
+      "resText": "10%sHas touched a new node ?",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Path Control > Create new path node",
+      "text": "㄰牃慥整渠睥瀠瑡⁨潮敤愠⁴猥‬猥",
+      "menuId": 25000,
+      "resText": "01Create new path node at %s, %s",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘潰楳楴湯眀瀠瑡⁨潮敤愠⁴猥‬猥",
+        "⁙潰楳楴湯眀瀠瑡⁨潮敤愠⁴猥‬猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Path Control > Remove path node",
+      "text": "㄰敒潭敶瀠瑡⁨潮敤漠⁦䑉›猥",
+      "menuId": 25010,
+      "resText": "01Remove path node of ID: %s",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潮敤䤠D瀠瑡⁨潮敤漠⁦䑉›猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Journey Control  > Clear Journey",
+      "text": "㄰汃慥⁲潊牵敮⁹ 祴数┠⁳)",
+      "menuId": 25020,
+      "resText": "01Clear Journey ( type %s )",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰‽敒潭敶愠汬渠摯獥ㄠ㴠䬠敥⁰畃牲湥⁴潮敤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Path Control > Connect nodes",
+      "text": "潃湮捥⁴潮敤䤠⁄〥琠⁯䑉┠‱楷桴猠数摥┠2",
+      "menuId": 25030,
+      "resText": "Connect node ID %0 to ID %1 with speed %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⸮昮潲⁭潮敤䤠D〥琠⁯䑉┠‱楷桴猠数摥┠2",
+        "⸮琮⁯潮敤䤠DD〥琠⁯䑉┠‱楷桴猠数摥┠2",
+        "灓敥⁤ ‱›潮浲污‬⸰‵›汳睯‬′›慦瑳⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Journey Control  > Add path node",
+      "text": "㄰䄠摤瀠瑡⁨潮敤䤠⁄猥琠⁯潪牵敮y",
+      "menuId": 25040,
+      "resText": "01 Add path node ID %s to journey",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潎敤䤠D瑡⁨潮敤䤠⁄猥琠⁯潪牵敮y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Journey Control  > Insert path node",
+      "text": "㄰䤠獮牥⁴慰桴渠摯⁥䑉┠⁳湩琠敨樠畯湲祥愠⁴猥",
+      "menuId": 25050,
+      "resText": "01 Insert path node ID %s in the journey at %s",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潎敤䤠D⁴慰桴渠摯⁥䑉┠⁳湩琠敨樠畯湲祥愠⁴猥",
+        "潐楳楴湯椠⁮潪牵敮y䑉┠⁳湩琠敨樠畯湲祥愠⁴猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Journey Control  > Remove last path node",
+      "text": "㄰删浥癯⁥慰桴渠摯⁥䑉┠⁳牦浯樠畯湲祥",
+      "menuId": 25060,
+      "resText": "01 Remove path node ID %s from journey",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Journey Control  > Delete path node",
+      "text": "㄰䐠汥瑥⁥慰桴渠摯⁥䑉┠⁳牦浯樠畯湲祥",
+      "menuId": 25070,
+      "resText": "01 Delete path node ID %s from journey",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潎敤䤠D⁥慰桴渠摯⁥䑉┠⁳牦浯樠畯湲祥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Journey Control  > Find Journey to node",
+      "text": "㄰楆摮䨠畯湲祥琠⁯潮敤䤠⁄猥 ",
+      "menuId": 25080,
+      "resText": "01Find Journey to node ID %s ",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潎敤䤠D畯湲祥琠⁯潮敤䤠⁄猥 "
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Files > Load Path",
+      "text": "㄰䰠慯⁤慐桴映潲⁭›┠⁳",
+      "menuId": 25090,
+      "resText": "01 Load Path from :  %s ",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆敬䐠物捥潴祲漀⁭›┠⁳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Files > Save Path",
+      "text": "㄰匠癡⁥慐桴琠⁯›┠⁳",
+      "menuId": 25100,
+      "resText": "01 Save Path to :  %s ",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆敬䐠物捥潴祲 ›┠⁳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Movement > Start",
+      "text": "瑓牡⁴潍敶敭瑮",
+      "menuId": 25110,
+      "resText": "Start Movement",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Movement > Stop",
+      "text": "瑓灯䴠癯浥湥t",
+      "menuId": 25120,
+      "resText": "Stop Movement",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Movement > Pause",
+      "text": "慐獵⁥潍敶敭瑮",
+      "menuId": 25130,
+      "resText": "Pause Movement",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Movement > Object Settings > Set Speed",
+      "text": "㄰敓⁴扏敪瑣猠数摥琠⁯猥",
+      "menuId": 25140,
+      "resText": "01Set Object speed to %s",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣匠数摥⠠ㄠ›潮浲污㈠›慦瑳〠㔮›汳睯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Movement > Set Object",
+      "text": "㄰匠瑥传橢捥⁴潴┠s",
+      "menuId": 25150,
+      "resText": "01 Set Object to %s",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敓敬瑣传橢捥t潴┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Movement > Object Settings > Set X Offset",
+      "text": "㄰敓⁴扯敪瑣堠漠晦敳⁴潴┠s",
+      "menuId": 25160,
+      "resText": "01Set object X offset to %s",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁘楐數獬攀瑣堠漠晦敳⁴潴┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Movement > Object Settings > Set Y Offset",
+      "text": "㄰敓⁴扏敪瑣夠漠晦敳⁴潴┠s",
+      "menuId": 25170,
+      "resText": "01Set Object Y offset to %s",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁙楐數獬攀瑣夠漠晦敳⁴潴┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Movement > Auto Step > Enable",
+      "text": "㄰湅扡敬䄠瑵獯整p",
+      "menuId": 25180,
+      "resText": "01Enable Autostep",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Movement > Auto Step > Disable",
+      "text": "㄰楄慳汢⁥畁潴瑳灥",
+      "menuId": 25190,
+      "resText": "01Disable Autostep",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Movement > Auto Step > Force move x steps",
+      "text": "㄰潆捲ⵥ潍敶漠橢捥⁴祢┠⁳瑳灥猯",
+      "menuId": 25200,
+      "resText": "01Force-Move object by %s step/s",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畎扭牥漠⁦瑳灥s捥⁴祢┠⁳瑳灥猯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Path Control > Set Node X",
+      "text": "㄰敓⁴潎敤┠⁳⁘潰⁳潴┠s",
+      "menuId": 25210,
+      "resText": "01Set Node %s X pos to %s",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潎敤䤠D敤┠⁳⁘潰⁳潴┠s",
+        "⁘潐楳楴湯─⁳⁘潰⁳潴┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Path Control > Set Node Y",
+      "text": "㄰敓⁴潎敤┠⁳⁙潰⁳潴┠s",
+      "menuId": 25220,
+      "resText": "01Set Node %s Y pos to %s",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潎敤䤠D敤┠⁳⁙潰⁳潴┠s",
+        "⁙潐楳楴湯─⁳⁙潰⁳潴┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Path Control > Disconnect nodes",
+      "text": "㄰楄捳湯敮瑣丠摯獥┠ⱳ┠s",
+      "menuId": 25230,
+      "resText": "01Disconnect Nodes %s, %s",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⸮昮潲⁭潮敤䤠D獥┠ⱳ┠s",
+        "⸮琮⁯潮敤䤠DD獥┠ⱳ┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Path Control > Clear path",
+      "text": "㄰汃慥⁲慐桴",
+      "menuId": 25240,
+      "resText": "01Clear Path",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Movement > Object Flags > Change X",
+      "text": "㄰畁潴䌠慨杮⁥⁘汦条㴠┠s",
+      "menuId": 25250,
+      "resText": "01Auto Change X flag = %s",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‱‽教⁳‰‽潎 汦条㴠┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Movement > Object Flags > Change Y",
+      "text": "㄰畁潴䌠慨杮⁥⁙汦条㴠┠s",
+      "menuId": 25260,
+      "resText": "01Auto Change Y flag = %s",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‱‽教⁳‰‽潎 汦条㴠┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Movement > Object Flags > Change Direction",
+      "text": "㄰畁潴䌠慨杮⁥楄敲瑣潩⁮汦条㴠┠s",
+      "menuId": 25270,
+      "resText": "01Auto Change Direction flag = %s",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‱‽教⁳‰‽潎椀敲瑣潩⁮汦条㴠┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Nodes > Find closest node from co-ordinates",
+      "text": "楆摮潎敤(",
+      "menuId": 27000,
+      "resText": "FindNode(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Nodes > Number of nodes",
+      "text": "潃湵乴摯獥(",
+      "menuId": 27010,
+      "resText": "CountNodes(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Journey > Get Node ID from Journey",
+      "text": "敇乴摯䥥晄潲䩭畯湲祥(",
+      "menuId": 27020,
+      "resText": "GetNodeIDfromJourney(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Journey > Number of nodes in the journey",
+      "text": "潃湵䩴畯湲祥潎敤⡳",
+      "menuId": 27030,
+      "resText": "CountJourneyNodes(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get Current X",
+      "text": "⡘",
+      "menuId": 27040,
+      "resText": "X(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get Current Y",
+      "text": "⡙",
+      "menuId": 27050,
+      "resText": "Y(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Settings > Get Speed",
+      "text": "灓敥⡤",
+      "menuId": 27060,
+      "resText": "Speed(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Nodes > Get Distance",
+      "text": "潎敤楄瑳湡散(",
+      "menuId": 27070,
+      "resText": "NodeDistance(",
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Nodes > Get X",
+      "text": "潎敤⡘",
+      "menuId": 27080,
+      "resText": "NodeX(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Nodes > Get Y",
+      "text": "潎敤⡙",
+      "menuId": 27090,
+      "resText": "NodeY(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Settings > Get X Offset",
+      "text": "潘晦敳⡴",
+      "menuId": 27110,
+      "resText": "Xoffset(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Settings > Get Y Offset",
+      "text": "潙晦敳⡴",
+      "menuId": 27120,
+      "resText": "Yoffset(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Get Current Angle ( North, clockwise )",
+      "text": "湁汧⡥",
+      "menuId": 27130,
+      "resText": "Angle(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Get Current Direction ( 0 to 32 )",
+      "text": "楄敲瑣潩⡮",
+      "menuId": 27140,
+      "resText": "Direction(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Nodes > Get connection",
+      "text": "敇䍴湯敮瑣潩⡮",
+      "menuId": 27150,
+      "resText": "GetConnection(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Nodes > Get number of connections",
+      "text": "敇乴牢潃湮捥獴(",
+      "menuId": 27160,
+      "resText": "GetNbrConnects(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Nodes > Get speed between nodes",
+      "text": "敇却数摥瑂湷潎敤⡳",
+      "menuId": 27170,
+      "resText": "GetSpeedBtwnNodes(",
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Flags > Auto Change X",
+      "text": "畁潴托潯⡬",
+      "menuId": 27180,
+      "resText": "AutoXbool(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Flags > Auto Change Y",
+      "text": "畁潴扙潯⡬",
+      "menuId": 27190,
+      "resText": "AutoYbool(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Flags > Auto Change Direction",
+      "text": "畁潴楄䉲潯⡬",
+      "menuId": 27200,
+      "resText": "AutoDirBool(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

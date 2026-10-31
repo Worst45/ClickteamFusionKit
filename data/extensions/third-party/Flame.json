@@ -1,0 +1,519 @@
+{
+  "file": "Flame.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Cool Map > Set Offset",
+      "text": "敓⁴晏獦瑥漠⁦潣汯洠灡琠⁯┠ⰰ┠1",
+      "menuId": 25000,
+      "resText": "Set Offset of cool map to  %0, %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘晏獦瑥琀漠⁦潣汯洠灡琠⁯┠ⰰ┠1",
+        "⁙晏獦瑥琀漠⁦潣汯洠灡琠⁯┠ⰰ┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Cool Map > Set Velocity",
+      "text": "敓⁴敖潬楣祴漠⁦潣汯洠灡琠⁯〥愠⁴⁡敢牡湩⁧景┠‱敤牧敥s",
+      "menuId": 25010,
+      "resText": "Set Velocity of cool map to %0 at a bearing of %1 degrees",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "灓敥d潬楣祴漠⁦潣汯洠灡琠⁯〥愠⁴⁡敢牡湩⁧景┠‱敤牧敥s",
+        "敂牡湩⁧ ‰‽潎瑲ⱨ㤠‰‽慅瑳‬㠱‰‽潓瑵ⱨ㈠〷㴠圠獥⁴)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Cool Map > Set Cool Map from object",
+      "text": "潃祰┠✰⁳浩条⁥湡⁤獵⁥獡䌠汯⁤慭p",
+      "menuId": 25020,
+      "resText": "Copy %0's image and use as Cold map",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敓敬瑣挠潯⁬慭⁰扯敪瑣 獡䌠汯⁤慭p"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Flame Gradient > Set Gradient from object ( vertical )",
+      "text": "潃祰┠✰⁳浩条⁥湡⁤獵⁥獡䜠慲楤湥⁴慭p",
+      "menuId": 25030,
+      "resText": "Copy %0's image and use as Gradient map",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敓敬瑣朠慲楤湥⁴慭⁰扯敪瑣䜀慲楤湥⁴慭p"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Flame Gradient > Set Gradient Size",
+      "text": "敓⁴牧摡敩瑮猠穩⁥潴┠0",
+      "menuId": 25040,
+      "resText": "Set gradient size to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楓敺爀摡敩瑮猠穩⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Flame Gradient > Place a gradient",
+      "text": "敓⁴牧摡敩瑮映潲⁭〥琠⁯ㄥ琠⁯㈥映摡湩⁧潴┠3",
+      "menuId": 25050,
+      "resText": "Set gradient from %0 to %1 to %2 fading to %3",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        24,
+        24
+      ],
+      "paramTitles": [
+        "瑓牡楴杮䌠潯摲湩瑡e琠⁯ㄥ琠⁯㈥映摡湩⁧潴┠3",
+        "湅楤杮䌠潯摲湩瑡ee琠⁯ㄥ琠⁯㈥映摡湩⁧潴┠3",
+        "瑓牡楴杮䌠汯畯ree琠⁯ㄥ琠⁯㈥映摡湩⁧潴┠3",
+        "湅⁤潃潬牵氀畯ree琠⁯ㄥ琠⁯㈥映摡湩⁧潴┠3"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Alpha Gradient > Set Gradient Size",
+      "text": "敓⁴牧摡敩瑮猧洠湩琠⁯〥",
+      "menuId": 25060,
+      "resText": "Set gradient's min to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楓敺爀摡敩瑮猧洠湩琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Set on fire > Set Strength of object next on fire",
+      "text": "敓⁴瑳敲杮桴映捡潴⁲潴┠0",
+      "menuId": 25070,
+      "resText": "Set strength factor to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "瑓敲杮桴 ‱‽潎浲污‬⸰‵‽敗歡牥‬′‽瑓潲杮牥⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Alpha Gradient > Place a gradient",
+      "text": "敓⁴牧摡敩瑮映潲⁭〥琠⁯ㄥ琠⁯㈥映摡湩⁧潴┠3",
+      "menuId": 25080,
+      "resText": "Set gradient from %0 to %1 to %2 fading to %3",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        24,
+        24
+      ],
+      "paramTitles": [
+        "瑓牡楴杮䌠潯摲湩瑡e琠⁯ㄥ琠⁯㈥映摡湩⁧潴┠3",
+        "湅楤杮䌠潯摲湩瑡ee琠⁯ㄥ琠⁯㈥映摡湩⁧潴┠3",
+        "瑓牡楴杮䌠汯畯ree琠⁯ㄥ琠⁯㈥映摡湩⁧潴┠3",
+        "湅⁤潃潬牵氀畯ree琠⁯ㄥ琠⁯㈥映摡湩⁧潴┠3"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Set on fire > Object",
+      "text": "敓⁴扏敪瑣┠‰湯映物⁥楷桴攠晦捥⁴ㄥ",
+      "menuId": 25090,
+      "resText": "Set Object %0 on fire with effect %1",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣攀瑣┠‰湯映物⁥楷桴攠晦捥⁴ㄥ",
+        "湉⁫ ⴰ敓ⱴㄠ䄭摤‬ⴲ畓瑢慲瑣‬ⴳ慍ⱸ㐠䴭湩⤠⬠䠠瑯敮獳⠠〠匭汯摩‬ⴵ楌桧湴獥⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Flame > Manually Update",
+      "text": "灕慤整",
+      "menuId": 25100,
+      "resText": "Update",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Flame > Set Bearing",
+      "text": "敓⁴楄敲瑣潩⁮潴┠0",
+      "menuId": 25110,
+      "resText": "Set Direction to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敂牡湩⁧ ‰‽潎瑲ⱨ㤠‰‽慅瑳‬㠱‰‽潓瑵ⱨ㈠〷㴠圠獥⁴)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Flame > Set Size",
+      "text": "敓⁴楓敺琠⁯〥戠⁹ㄥ",
+      "menuId": 25120,
+      "resText": "Set Size to %0 by %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗瑤h敺琠⁯〥戠⁹ㄥ",
+        "效杩瑨攀琠⁯〥戠⁹ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Flame > Scroll",
+      "text": "捓潲汬琠敨映慬敭⠠〥Ⱐ┠⤱",
+      "menuId": 25130,
+      "resText": "Scroll the flame (%0 , %1)",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘捓潲汬攀映慬敭⠠〥Ⱐ┠⤱",
+        "⁙捓潲汬攀映慬敭⠠〥Ⱐ┠⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Hotspot > Custom...",
+      "text": "敓⁴潈獴潰⁴潴⠠〥┬⤱",
+      "menuId": 25140,
+      "resText": "Set Hotspot to (%0,%1)",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Hotspot > Top-left",
+      "text": "敓⁴潈獴潰⁴潴琠灯氭晥t",
+      "menuId": 25150,
+      "resText": "Set Hotspot to top-left",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Hotspot > Top-center",
+      "text": "敓⁴潈獴潰⁴潴琠灯爭杩瑨",
+      "menuId": 25170,
+      "resText": "Set Hotspot to top-right",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Hotspot > Left-center",
+      "text": "敓⁴潈獴潰⁴潴氠晥⵴散瑮牥",
+      "menuId": 25180,
+      "resText": "Set Hotspot to left-center",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Hotspot > Center",
+      "text": "敓⁴潈獴潰⁴潴挠湥整r",
+      "menuId": 25190,
+      "resText": "Set Hotspot to center",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Hotspot > Right-center",
+      "text": "敓⁴潈獴潰⁴潴爠杩瑨挭湥整r",
+      "menuId": 25200,
+      "resText": "Set Hotspot to right-center",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Hotspot > Bottom-left",
+      "text": "敓⁴潈獴潰⁴潴戠瑯潴⵭敬瑦",
+      "menuId": 25210,
+      "resText": "Set Hotspot to bottom-left",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Hotspot > Bottom-center",
+      "text": "敓⁴潈獴潰⁴潴戠瑯潴⵭散瑮牥",
+      "menuId": 25220,
+      "resText": "Set Hotspot to bottom-center",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Hotspot > Bottom-right",
+      "text": "敓⁴潈獴潰⁴潴戠瑯潴⵭楲桧t",
+      "menuId": 25230,
+      "resText": "Set Hotspot to bottom-right",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Flame > Set Speed",
+      "text": "敓⁴汦浡⁥灳敥⁤潴┠0",
+      "menuId": 25240,
+      "resText": "Set flame speed to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汆浡⁥灓敥⁤ 慣⁮獵⁥敤楣慭獬⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Flame > Clear",
+      "text": "汃慥⁲汆浡e",
+      "menuId": 25250,
+      "resText": "Clear Flame",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Flame > Auto Update ?..",
+      "text": "畁潴唠摰瑡⁥‿〥⠠〠㴠渠⁯›㴱敹⥳ ",
+      "menuId": 25260,
+      "resText": "Auto Update ? %0 ( 0 = no : 1=yes) ",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畁潴唠摰瑡⁥‿ ‰‽潮㨠ㄠ礽獥 ⤀ "
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Flame > Auto Scroll on move ?..",
+      "text": "捓潲汬漠⁮潭敶㼠┠‰ ‰‽潮㨠ㄠ礽獥 ",
+      "menuId": 25270,
+      "resText": "Scroll on move ? %0 ( 0 = no : 1=yes) ",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "捓潲汬漠⁮潭敶㼠⠠〠㴠渠⁯›㴱敹⥳  "
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Cool Map > Set Strength",
+      "text": "敓⁴潃汯䴠灡猠牴湥瑧⁨潴┠0",
+      "menuId": 25280,
+      "resText": "Set Cool Map strength to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "瑓敲杮桴 ‱‽潎浲污‬⸰‵‽敗歡牥‬′‽瑓潲杮牥⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Alpha Gradient > Set Gradient from object ( vertical )",
+      "text": "潃祰┠✰⁳浩条⁥湡⁤獵⁥獡䄠灬慨䴠灡",
+      "menuId": 25290,
+      "resText": "Copy %0's image and use as Alpha Map",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敓敬瑣漠橢捥t⁥湡⁤獵⁥獡䄠灬慨䴠灡"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Test heat of pixel ( real co-ordinates )",
+      "text": "效瑡敔瑳(",
+      "menuId": 27000,
+      "resText": "HeatTest(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Cold Offset's X position",
+      "text": "潃摬佘晦敳⡴",
+      "menuId": 27010,
+      "resText": "ColdXOffset(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Cold Offset's Y position",
+      "text": "潃摬余晦敳⡴",
+      "menuId": 27020,
+      "resText": "ColdYOffset(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get Gradient Size",
+      "text": "敇䝴慲卤穩⡥",
+      "menuId": 27030,
+      "resText": "GetGradSize(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get Alpha Size",
+      "text": "敇䝴慲䵤硡(",
+      "menuId": 27050,
+      "resText": "GetGradMax(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

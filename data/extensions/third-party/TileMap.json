@@ -1,0 +1,1801 @@
+{
+  "file": "TileMap.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Input/Output > File loaded",
+      "text": "漥›楆敬氠慯敤d",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Input/Output > File saved",
+      "text": "漥›楆敬猠癡摥",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Input/Output > Loading file failed",
+      "text": "漥›潌摡湩⁧楦敬映楡敬d",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Input/Output > Saving file failed",
+      "text": "漥›慓楶杮映汩⁥慦汩摥",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Properties > On map property",
+      "text": "漥›湏洠灡瀠潲数瑲y",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "<Map>",
+      "text": "敓⁴慬敹⁲楴敬猠穩⁥潴⠠〥┬⤱",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楔敬眠摩桴⠠楰數獬)潴⠠〥┬⤱",
+        "楔敬栠楥桧⁴瀨硩汥⥳漀⠠〥┬⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Settings > Resize",
+      "text": "敒楳敺氠祡牥琠⁯┨ⰰ┠⤱",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慌敹⁲楷瑤⁨琨汩獥)┠⤱",
+        "慌敹⁲敨杩瑨⠠楴敬⥳─⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Settings > Set scroll speed",
+      "text": "敓⁴慬敹⁲捳潲汬猠数摥琠⁯┨ⰰ┠⤱",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘灳敥⁤ㄨ〮㴠渠牯慭⥬琀⁯┨ⰰ┠⤱",
+        "⁙灳敥⁤ㄨ〮㴠渠牯慭⥬琀⁯┨ⰰ┠⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Settings > Assign image path",
+      "text": "獁楳湧映汩⁥慰桴┠‰潴琠汩獥瑥",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        63
+      ],
+      "paramTitles": [
+        "楆敬瀠瑡⁨刨汥瑡癩⁥楦敬瀠瑡ⱨ攠朮‮⸢启汩獥瑥瀮杮•牯挠獵潴⁭摩湥楴楦牥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Settings > Set image from file",
+      "text": "敓⁴楴敬敳⁴浩条⁥牦浯映汩⁥〥",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        63
+      ],
+      "paramTitles": [
+        "楆敬瀠瑡h⁴浩条⁥牦浯映汩⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Tileset source > Set fill pattern",
+      "text": "敓⁴畣獲牯映汩⁬慰瑴牥⁮潴⠠〥‬ㄥ)",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘慰瑴牥⁮〨›牗灡‬㨱删灥慥ⱴ㈠›潂ⱸ㌠›慒摮浯)",
+        "⁙慰瑴牥⁮〨›牗灡‬㨱删灥慥ⱴ㈠›潂ⱸ㌠›慒摮浯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Tiles > With cursor > Clear tiles",
+      "text": "汃慥⁲楴敬⁳瑡挠牵潳r",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Tiles > Set tile",
+      "text": "敓⁴慬敹⁲楴敬愠⁴┨ⰰ┠⤱琠⁯┨ⰲ┠⤳",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楔敬堠攀⁲楴敬愠⁴┨ⰰ┠⤱琠⁯┨ⰲ┠⤳",
+        "楔敬夠攀⁲楴敬愠⁴┨ⰰ┠⤱琠⁯┨ⰲ┠⤳",
+        "楔敬敳⁴⁘⴨㨱䔠灭祴)┠⤱琠⁯┨ⰲ┠⤳",
+        "楔敬敳⁴⁙⴨㨱䔠灭祴)┠⤱琠⁯┨ⰲ┠⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Layers > Set current layer",
+      "text": "敓⁴畣牲湥⁴慬敹⁲潴┠0",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慌敹⁲湩敤x慬敹⁲潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Settings > Set wrapping",
+      "text": "敓⁴慬敹⁲牷灡楰杮琠⁯┨ⰰㄥ)",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牗灡堠⠠㨰丠Ɐㄠ›教⥳─ⰰㄥ)",
+        "牗灡夠⠠㨰丠Ɐㄠ›教⥳─ⰰㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Settings > Set offset",
+      "text": "敓⁴慬敹⁲景獦瑥琠⁯┨ⰰㄥ)",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "晏獦瑥堠⠠楰數獬)⁯┨ⰰㄥ)",
+        "晏獦瑥夠⠠楰數獬)⁯┨ⰰㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Attach viewport",
+      "text": "瑁慴档瘠敩灷牯⁴〥",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楖睥潰瑲漠橢捥t〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Tilesets > Add tileset",
+      "text": "摁⁤敮⁷楴敬敳t",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Settings > Set image from Surface",
+      "text": "敓⁴楴敬敳⁴浩条⁥牦浯匠牵慦散┠‰浩条⁥ㄥ",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "畓晲捡e敳⁴浩条⁥牦浯匠牵慦散┠‰浩条⁥ㄥ",
+        "浉条⁥湩敤x浩条⁥牦浯匠牵慦散┠‰浩条⁥ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Settings > Set collision tileset",
+      "text": "敓⁴慬敹⁲潣汬獩潩⁮楴敬敳⁴潴┠0",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楔敬敳⁴湩敤⁸〨㈭㔵‬ㄭ›慓敭愠⁳潮浲污琠汩獥瑥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Tiles > With cursor > Copy tiles to... > Surface",
+      "text": "潃祰氠祡牥琠汩獥琠⁯畓晲捡⁥〥椠慭敧┠1",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "畓晲捡e牥琠汩獥琠⁯畓晲捡⁥〥椠慭敧┠1",
+        "浉条⁥湩敤x汩獥琠⁯畓晲捡⁥〥椠慭敧┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Tiles > With cursor > Paste tiles from... > Surface",
+      "text": "慐瑳⁥慬敹⁲楴敬⁳牦浯匠牵慦散┠‰浩条⁥ㄥ",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "畓晲捡e敹⁲楴敬⁳牦浯匠牵慦散┠‰浩条⁥ㄥ",
+        "浉条⁥湩敤x楴敬⁳牦浯匠牵慦散┠‰浩条⁥ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Settings > Set visible",
+      "text": "敓⁴慬敹⁲楶楳汢⁥潴┠0",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楖楳汢⁥〨›潎‬㨱夠獥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Settings > Set opacity",
+      "text": "敓⁴慬敹⁲灯捡瑩⁹潴┠0",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "灏捡瑩⁹〨〮ㄭ〮)潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Tileset source > Select range",
+      "text": "敓敬瑣琠汩獥瑥爠湡敧⠠〥‬ㄥ 㸽⠠㈥‬㌥ 潦⁲畣獲牯",
+      "menuId": 25200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潔⵰敬瑦琠汩獥瑥堠攀⠠〥‬ㄥ 㸽⠠㈥‬㌥ 潦⁲畣獲牯",
+        "潔⵰敬瑦琠汩獥瑥夠攀⠠〥‬ㄥ 㸽⠠㈥‬㌥ 潦⁲畣獲牯",
+        "潂瑴浯爭杩瑨琠汩獥瑥堠　‬ㄥ 㸽⠠㈥‬㌥ 潦⁲畣獲牯",
+        "潂瑴浯爭杩瑨琠汩獥瑥夠　‬ㄥ 㸽⠠㈥‬㌥ 潦⁲畣獲牯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Input / Output > Load from file",
+      "text": "潌摡洠灡映潲⁭楦敬┠0",
+      "menuId": 25210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        63
+      ],
+      "paramTitles": [
+        "楆敬洀灡映潲⁭楦敬┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Input / Output > Save to file",
+      "text": "慓敶洠灡琠⁯楦敬┠0",
+      "menuId": 25220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        63
+      ],
+      "paramTitles": [
+        "楆敬洀灡琠⁯楦敬┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Tiles > Clear tile",
+      "text": "汃慥⁲慬敹⁲楴敬愠⁴┨ⰰ┠⤱",
+      "menuId": 25230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楔敬堠愀敹⁲楴敬愠⁴┨ⰰ┠⤱",
+        "楔敬夠愀敹⁲楴敬愠⁴┨ⰰ┠⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Tiles > Fill area with tile",
+      "text": "楆汬氠祡牥愠敲⁡┨ⰰ┠⤱㴠‾┨ⰲ┠⤳眠瑩⁨楴敬⠠㐥‬㔥)",
+      "menuId": 25240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潔⵰敬瑦琠汩⁥X┨ⰰ┠⤱㴠‾┨ⰲ┠⤳眠瑩⁨楴敬⠠㐥‬㔥)",
+        "潔⵰敬瑦琠汩⁥Y┨ⰰ┠⤱㴠‾┨ⰲ┠⤳眠瑩⁨楴敬⠠㐥‬㔥)",
+        "潂瑴浯爭杩瑨琠汩⁥X┠⤱㴠‾┨ⰲ┠⤳眠瑩⁨楴敬⠠㐥‬㔥)",
+        "潂瑴浯爭杩瑨琠汩⁥Y┠⤱㴠‾┨ⰲ┠⤳眠瑩⁨楴敬⠠㐥‬㔥)",
+        "楔敬敳⁴⁘⴨㨱䔠灭祴)⤱㴠‾┨ⰲ┠⤳眠瑩⁨楴敬⠠㐥‬㔥)",
+        "楔敬敳⁴⁙⴨㨱䔠灭祴)⤱㴠‾┨ⰲ┠⤳眠瑩⁨楴敬⠠㐥‬㔥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Tilesets > Add tilesets from Surface",
+      "text": "摁⁤楴敬敳獴映潲⁭畓晲捡⁥〥",
+      "menuId": 25250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "畓晲捡e敳獴映潲⁭畓晲捡⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Input / Output > Set compression level",
+      "text": "敓⁴楦敬挠浯牰獥楳湯氠癥汥琠⁯〥",
+      "menuId": 25260,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潃灭敲獳潩⁮敬敶⁬〨ㄭⰰ〠›潎敮‬㨶䐠晥畡瑬‬〱›敂瑳戠瑵猠潬敷瑳)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Settings > Set transparent color",
+      "text": "敓⁴楴敬敳⁴牴湡灳牡湥⁴潣潬⁲潴┠0",
+      "menuId": 25270,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "牔湡灳牡湥⁴潣潬r牡湥⁴潣潬⁲潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Tiles > With cursor > Place tiles",
+      "text": "汐捡⁥楴敬⁳瑡挠牵潳r",
+      "menuId": 25280,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Layers > Add layer",
+      "text": "摁⁤慬敹⁲楷桴猠穩⁥┨ⰰ┠⤱",
+      "menuId": 25290,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慌敹⁲楷瑤⁨琨汩獥)┨ⰰ┠⤱",
+        "慌敹⁲敨杩瑨⠠楴敬⥳─ⰰ┠⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Tilesets > Set current tileset",
+      "text": "敓⁴畣牲湥⁴楴敬敳⁴潴┠0",
+      "menuId": 25300,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楔敬敳⁴湩敤x敬敳⁴潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Detach viewport",
+      "text": "敄慴档瘠敩灷牯⁴〥",
+      "menuId": 25310,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楖睥潰瑲漠橢捥t〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Tiles > With cursor > Place tiles at position...",
+      "text": "汐捡⁥楴敬⁳瑡⠠〥‬ㄥ)",
+      "menuId": 25320,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楔敬堠椀敬⁳瑡⠠〥‬ㄥ)",
+        "楔敬夠椀敬⁳瑡⠠〥‬ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Layer source > Resize",
+      "text": "敒楳敺挠牵潳⁲潴⠠〥‬ㄥ)",
+      "menuId": 25330,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗瑤⁨湩琠汩獥漀⠠〥‬ㄥ)",
+        "效杩瑨椠⁮楴敬s⠠〥‬ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Tilesets > Swap two tilesets",
+      "text": "睓灡琠汩獥瑥⁳〥愠摮┠1",
+      "menuId": 25340,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楔敬敳⁴⁁〨㈭㔵)摮┠1",
+        "楔敬敳⁴⁂〨㈭㔵)摮┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Layer source > Move",
+      "text": "潍敶挠牵潳⁲潴⠠〥‬ㄥ)",
+      "menuId": 25350,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楔敬堠爀潳⁲潴⠠〥‬ㄥ)",
+        "楔敬夠爀潳⁲潴⠠〥‬ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Tileset source > Select single",
+      "text": "敓敬瑣琠汩獥瑥琠汩⁥┨ⰰ┠⤱映牯挠牵潳r",
+      "menuId": 25360,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楔敬敳⁴⁘⴨㨱䔠灭祴)ⰰ┠⤱映牯挠牵潳r",
+        "楔敬敳⁴⁙⴨㨱䔠灭祴)ⰰ┠⤱映牯挠牵潳r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Settings > Set tileset",
+      "text": "敓⁴慬敹⁲楴敬敳⁴潴┠0",
+      "menuId": 25370,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楔敬敳⁴湩敤⁸〨㈭㔵)0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Tiles > With cursor > Paste tiles from... > Another location",
+      "text": "慐瑳⁥慬敹⁲楴敬⁳牦浯⠠〥‬ㄥ)",
+      "menuId": 25380,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楔敬堠愀敹⁲楴敬⁳牦浯⠠〥‬ㄥ)",
+        "楔敬夠愀敹⁲楴敬⁳牦浯⠠〥‬ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Layer source > Maximize to current layer",
+      "text": "慍楸業敺挠牵潳r",
+      "menuId": 25390,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Input / Output > Set block options",
+      "text": "敓⁴楦敬戠潬正漠瑰潩獮琠⁯〥",
+      "menuId": 25400,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "求捯獫琠⁯潬摡猯癡ⱥ愠摤琠杯瑥敨⁲ㄨ›牐灯牥楴獥‬㨲䰠祡牥ⱳ㐠›楔敬敳獴‬敄慦汵㩴㈠)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Tilesets > Delete tileset",
+      "text": "敄敬整琠汩獥瑥┠0",
+      "menuId": 25410,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楔敬敳⁴湩敤x┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Layers > Delete layer",
+      "text": "敄敬整氠祡牥┠0",
+      "menuId": 25420,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慌敹⁲湩敤x┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Tilesets > Delete all tilesets",
+      "text": "敄敬整愠汬琠汩獥瑥s",
+      "menuId": 25430,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Layers > Delete all layers",
+      "text": "敄敬整愠汬氠祡牥s",
+      "menuId": 25440,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Tiles > Clear layer",
+      "text": "汃慥⁲慬敹r",
+      "menuId": 25450,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Tiles > Fill with tile",
+      "text": "楆汬氠祡牥眠瑩⁨楴敬⠠〥‬ㄥ)",
+      "menuId": 25460,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楔敬敳⁴⁘⴨㨱䔠灭祴)〥‬ㄥ)",
+        "楔敬敳⁴⁙⴨㨱䔠灭祴)〥‬ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Layer source > Select range",
+      "text": "敓敬瑣⠠〥‬ㄥ 㸽⠠㈥‬㌥ 楷桴挠牵潳r",
+      "menuId": 25470,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潔⵰敬瑦琠汩⁥X㸽⠠㈥‬㌥ 楷桴挠牵潳r",
+        "潔⵰敬瑦琠汩⁥Y㸽⠠㈥‬㌥ 楷桴挠牵潳r",
+        "潂瑴浯爭杩瑨琠汩⁥X㈥‬㌥ 楷桴挠牵潳r",
+        "潂瑴浯爭杩瑨琠汩⁥Y㈥‬㌥ 楷桴挠牵潳r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Sub-layers > Add sub-layer... > Small (one byte)",
+      "text": "摁⁤浳污⁬畳ⵢ慬敹r",
+      "menuId": 25480,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Sub-layers > With cursor > Fill with integer",
+      "text": "楆汬猠扵氭祡牥┠‰散汬⁳瑡挠牵潳⁲楷桴┠1",
+      "menuId": 25490,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "畓ⵢ慬敹⁲湩敤x‰散汬⁳瑡挠牵潳⁲楷桴┠1",
+        "慖畬e敹⁲湩敤x‰散汬⁳瑡挠牵潳⁲楷桴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 50,
+      "menu": "Input / Output > Set tileset origin",
+      "text": "敓⁴楴敬敳⁴牯杩湩琠⁯〥",
+      "menuId": 25500,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牏杩湩⠠㨰䄠獢汯瑵ⱥㄠ›灁汰捩瑡潩⁮潦摬牥‬㨲䴠灡映汩⁥潦摬牥‬㨳唠敳⁲慰桴‬㨴䌠獵潴⁭渨⁯桰獹捩污映汩⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "Input / Output > Set tileset user path",
+      "text": "敓⁴楴敬敳⁴獵牥瀠瑡⁨潴┠0",
+      "menuId": 25510,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "獕牥瀠瑡⁨用敳⁤潦⁲桴⁥唧敳⁲慰桴‧楴敬敳⁴慰桴洠摯⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 52,
+      "menu": "Properties > Set integer",
+      "text": "敓⁴慭⁰牰灯牥祴┠‰潴椠瑮来牥┠1",
+      "menuId": 25520,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "牐灯牥祴渠浡e祴┠‰潴椠瑮来牥┠1",
+        "湉整敧⁲慶畬e祴┠‰潴椠瑮来牥┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 53,
+      "menu": "Properties > Set float",
+      "text": "敓⁴慭⁰牰灯牥祴┠‰潴映潬瑡┠1",
+      "menuId": 25530,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "牐灯牥祴渠浡e祴┠‰潴映潬瑡┠1",
+        "汆慯⁴慶畬ee祴┠‰潴映潬瑡┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 54,
+      "menu": "Properties > Set string",
+      "text": "敓⁴慭⁰牰灯牥祴┠‰潴┠1",
+      "menuId": 25540,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "牐灯牥祴渠浡e祴┠‰潴┠1",
+        "瑓楲杮瘠污敵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 55,
+      "menu": "Properties > Delete",
+      "text": "敄敬整洠灡瀠潲数瑲⁹〥",
+      "menuId": 25550,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "牐灯牥祴渠浡e数瑲⁹〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 56,
+      "menu": "Properties > Delete all",
+      "text": "敄敬整愠汬洠灡瀠潲数瑲敩s",
+      "menuId": 25560,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 57,
+      "menu": "Properties > Iterate",
+      "text": "瑉牥瑡⁥癯牥洠灡瀠潲数瑲敩s",
+      "menuId": 25570,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 58,
+      "menu": "Sub-layers > Add sub-layer... > With default value... > Custom",
+      "text": "摁⁤畳ⵢ慬敹⁲楷桴挠汥⁬楳敺┠‰湡⁤敤慦汵⁴慶畬⁥ㄥ",
+      "menuId": 25580,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敃汬猠穩⁥湩戠瑹獥挀汥⁬楳敺┠‰湡⁤敤慦汵⁴慶畬⁥ㄥ",
+        "敄慦汵⁴慶畬ⱥ甠敳⁤潦⁲敮⁷湡⁤汢湡⁫楴敬s慶畬⁥ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 59,
+      "menu": "Sub-layers > Set integer",
+      "text": "敓⁴畳ⵢ慬敹⁲〥瘠污敵愠⁴┨ⰱ┠⤲琠⁯㌥",
+      "menuId": 25590,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "畓ⵢ慬敹⁲湩敤x瘠污敵愠⁴┨ⰱ┠⤲琠⁯㌥",
+        "敃汬堠攀⁲湩敤x瘠污敵愠⁴┨ⰱ┠⤲琠⁯㌥",
+        "敃汬夠攀⁲湩敤x瘠污敵愠⁴┨ⰱ┠⤲琠⁯㌥",
+        "慖畬e攀⁲湩敤x瘠污敵愠⁴┨ⰱ┠⤲琠⁯㌥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 60,
+      "menu": "Sub-layers > Add sub-layer... > Medium (two bytes)",
+      "text": "摁⁤敭楤浵猠扵氭祡牥",
+      "menuId": 25600,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 61,
+      "menu": "Sub-layers > Add sub-layer... > Large (four bytes)",
+      "text": "摁⁤慬杲⁥畳ⵢ慬敹r",
+      "menuId": 25610,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 62,
+      "menu": "Sub-layers > Add sub-layer... > With default value... > Small",
+      "text": "摁⁤浳污⁬畳ⵢ慬敹⁲楷桴搠晥畡瑬瘠污敵┠0",
+      "menuId": 25620,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敄慦汵⁴慶畬ⱥ甠敳⁤潦⁲敮⁷湡⁤汢湡⁫楴敬s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 63,
+      "menu": "Sub-layers > Add sub-layer... > Custom",
+      "text": "摁⁤畳ⵢ慬敹⁲楷桴挠汥⁬楳敺┠0",
+      "menuId": 25630,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敃汬猠穩⁥湩戠瑹獥⠠⹅⹧ㄠ›浓污ⱬ㈠›敍楤浵‬㨴䰠牡敧)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 64,
+      "menu": "Sub-layers > Set float",
+      "text": "敓⁴畳ⵢ慬敹⁲〥瘠污敵愠⁴┨ⰱ┠⤲琠⁯汦慯⁴㌥",
+      "menuId": 25640,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "畓ⵢ慬敹⁲湩敤x瘠污敵愠⁴┨ⰱ┠⤲琠⁯汦慯⁴㌥",
+        "敃汬堠攀⁲湩敤x瘠污敵愠⁴┨ⰱ┠⤲琠⁯汦慯⁴㌥",
+        "敃汬夠攀⁲湩敤x瘠污敵愠⁴┨ⰱ┠⤲琠⁯汦慯⁴㌥",
+        "汆慯⁴慶畬e敤x瘠污敵愠⁴┨ⰱ┠⤲琠⁯汦慯⁴㌥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 65,
+      "menu": "Sub-layers > Fill with integer",
+      "text": "楆汬猠扵氭祡牥┠‰楷桴瘠污敵┠1",
+      "menuId": 25650,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "畓ⵢ慬敹⁲湩敤x‰楷桴瘠污敵┠1",
+        "慖畬e敹⁲湩敤x‰楷桴瘠污敵┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 66,
+      "menu": "Sub-layers > Fill with float",
+      "text": "楆汬猠扵氭祡牥┠‰楷桴映潬瑡瘠污敵┠1",
+      "menuId": 25660,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "畓ⵢ慬敹⁲湩敤x‰楷桴映潬瑡瘠污敵┠1",
+        "汆慯⁴慶畬e敤x‰楷桴映潬瑡瘠污敵┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 67,
+      "menu": "Sub-layers > Clear",
+      "text": "汃慥⁲畳ⵢ慬敹⁲〥",
+      "menuId": 25670,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓ⵢ慬敹⁲湩敤x〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 68,
+      "menu": "Settings > Sub-layer links > Set animation index",
+      "text": "楌歮愠楮慭楴湯椠摮硥琠⁯畳ⵢ慬敹⁲〥",
+      "menuId": 25680,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湁浩瑡潩⁮畳ⵢ慬敹⁲湩敤⁸⴨㨱丠湯⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 69,
+      "menu": "Settings > Sub-layer links > Set tileset",
+      "text": "楌歮琠汩獥瑥椠摮硥琠⁯畳ⵢ慬敹⁲〥",
+      "menuId": 25690,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楔敬敳⁴畳ⵢ慬敹⁲湩敤⁸⴨㨱丠湯⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 70,
+      "menu": "Sub-layers > With cursor > Fill with float",
+      "text": "楆汬猠扵氭祡牥┠‰散汬⁳瑡挠牵潳⁲楷桴┠1",
+      "menuId": 25700,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "畓ⵢ慬敹⁲湩敤x‰散汬⁳瑡挠牵潳⁲楷桴┠1",
+        "慖畬e敹⁲湩敤x‰散汬⁳瑡挠牵潳⁲楷桴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 71,
+      "menu": "Sub-layers > Randomize",
+      "text": "慒摮浯穩⁥畳ⵢ慬敹⁲〥眠瑩⁨慲杮⁥╛ⰱ㈥]",
+      "menuId": 25710,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "畓ⵢ慬敹⁲湩敤x敹⁲〥眠瑩⁨慲杮⁥╛ⰱ㈥]",
+        "湉汣獵癩⁥業楮畭m⁲〥眠瑩⁨慲杮⁥╛ⰱ㈥]",
+        "湉汣獵癩⁥慭楸畭m⁲〥眠瑩⁨慲杮⁥╛ⰱ㈥]"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 72,
+      "menu": "Settings > Sub-layer links > Set animation frame offset",
+      "text": "楌歮愠楮⁭牦浡⁥景獦瑥琠⁯畳ⵢ慬敹⁲〥",
+      "menuId": 25720,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湁浩瑡潩⁮牦浡⁥景獦瑥猠扵氭祡牥椠摮硥⠠ㄭ›潎敮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 73,
+      "menu": "Layers > Insert layer",
+      "text": "湉敳瑲氠祡牥眠瑩⁨楳敺⠠ㄥ‬㈥ 瑡┠0",
+      "menuId": 25730,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慌敹⁲湩敤⁸潴椠獮牥⁴瑡㄀‬㈥ 瑡┠0",
+        "慌敹⁲楷瑤⁨琨汩獥)⁴瑡㄀‬㈥ 瑡┠0",
+        "慌敹⁲敨杩瑨⠠楴敬⥳ 瑡㄀‬㈥ 瑡┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 74,
+      "menu": "Sub-layers > Delete all",
+      "text": "敄敬整愠汬猠扵氭祡牥s",
+      "menuId": 25740,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 75,
+      "menu": "Sub-layers > Delete sub-layer",
+      "text": "敄敬整猠扵氭祡牥┠0",
+      "menuId": 25750,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓ⵢ慬敹⁲湩敤x┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 76,
+      "menu": "Tiles > Replace tile",
+      "text": "敒汰捡⁥楴敬⠠〥‬ㄥ 祢⠠㈥‬㌥)",
+      "menuId": 25760,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楔敬敳⁴⁘景琠汩⁥潴爠灥慬散 ㌥)",
+        "楔敬敳⁴⁙景琠汩⁥潴爠灥慬散 ㌥)",
+        "敎⁷楴敬敳⁴⁘⴨㨱䔠灭祴)散 ㌥)",
+        "敎⁷楴敬敳⁴⁙⴨㨱䔠灭祴)散 ㌥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Tilesets > Width",
+      "text": "楔敬敳坴摩桴(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楔敬敳⁴湩敤x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Tilesets > Height",
+      "text": "楔敬敳䡴楥桧⡴",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楔敬敳⁴湩敤x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Layers > Size > Width",
+      "text": "慌敹坲摩桴(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "慌敹⁲湩敤x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Layers > Size > Height",
+      "text": "慌敹䡲楥桧⡴",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "慌敹⁲湩敤x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Layers > Wrapping > X",
+      "text": "慌敹坲慲塰(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "慌敹⁲湩敤x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Layers > Wrapping > Y",
+      "text": "慌敹坲慲奰(",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "慌敹⁲湩敤x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Layers > Offset > X",
+      "text": "慌敹佲晦敳塴(",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "慌敹⁲湩敤x("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Layers > Offset > Y",
+      "text": "慌敹佲晦敳奴(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "慌敹⁲湩敤x("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Layers > Scroll speed > X",
+      "text": "慌敹卲牣汯塬(",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "慌敹⁲湩敤x("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Layers > Scroll speed > Y",
+      "text": "慌敹卲牣汯奬(",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "慌敹⁲湩敤x("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Layers > Tile size > Width",
+      "text": "慌敹呲汩坥摩桴(",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "慌敹⁲湩敤x桴("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Layers > Tile size > Height",
+      "text": "慌敹呲汩䡥楥桧⡴",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "慌敹⁲湩敤x桧⡴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Layers > Tile at position... > Tileset X",
+      "text": "慌敹呲汩獥瑥⡘",
+      "menuId": 27120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "慌敹⁲湩敤x⡘",
+        "楔敬堠渀敤x⡘",
+        "楔敬夠渀敤x⡘"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Layers > Tile at position... > Tileset Y",
+      "text": "慌敹呲汩獥瑥⡙",
+      "menuId": 27130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "慌敹⁲湩敤x⡙",
+        "楔敬堠渀敤x⡙",
+        "楔敬夠渀敤x⡙"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Layers > Tile at position... > Compound value",
+      "text": "慌敹呲汩⡥",
+      "menuId": 27140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "慌敹⁲湩敤x",
+        "楔敬堠渀敤x",
+        "楔敬夠渀敤x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Layers > Count",
+      "text": "慌敹䍲畯瑮(",
+      "menuId": 27150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Tilesets > Count",
+      "text": "楔敬敳䍴畯瑮(",
+      "menuId": 27160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Tilesets > Absolute path",
+      "text": "楔敬敳䅴獢慐桴⠤",
+      "menuId": 27180,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楔敬敳⁴湩敤x⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Properties > Integer value",
+      "text": "慍䥰瑮牐灯(",
+      "menuId": 27190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "牐灯牥祴渠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Properties > Float value",
+      "text": "慍䙰潬瑡牐灯(",
+      "menuId": 27200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "牐灯牥祴渠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Properties > String value",
+      "text": "慍印牴牐灯⠤",
+      "menuId": 27210,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "牐灯牥祴渠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Properties > Iterated property",
+      "text": "慍䥰整偲潲⑰(",
+      "menuId": 27220,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Layers > Sub-layers > Integer at position",
+      "text": "畓䱢祡牥湉噴污(",
+      "menuId": 27240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "慌敹⁲湩敤x污(",
+        "畓ⵢ慬敹⁲湩敤x",
+        "楔敬堠攀⁲湩敤x",
+        "楔敬夠攀⁲湩敤x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Layers > Sub-layers > Float at position",
+      "text": "畓䱢祡牥汆慯噴污(",
+      "menuId": 27250,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "慌敹⁲湩敤x噴污(",
+        "畓ⵢ慬敹⁲湩敤x(",
+        "楔敬堠攀⁲湩敤x(",
+        "楔敬夠攀⁲湩敤x("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Layers > Sub-layers > Count",
+      "text": "畓䱢祡牥敃汬楓敺(",
+      "menuId": 27260,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "慌敹⁲湩敤x楓敺(",
+        "畓ⵢ慬敹⁲湩敤x("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Layers > Sub-layers > Cell size",
+      "text": "畃獲牯⡘",
+      "menuId": 27270,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Tile cursor > X",
+      "text": "畃獲牯⡙",
+      "menuId": 27280,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Tile cursor > Y",
+      "text": "畃獲牯楗瑤⡨",
+      "menuId": 27290,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Tile cursor > Width",
+      "text": "畃獲牯效杩瑨(",
+      "menuId": 27300,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

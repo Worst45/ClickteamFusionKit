@@ -1,0 +1,527 @@
+{
+  "file": "iconlist.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Got focus?",
+      "text": "漥䠠獡映捯獵?",
+      "menuId": 26000,
+      "resText": "%o Has focus?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Selection changed",
+      "text": "漥匠汥捥楴湯挠慨杮摥",
+      "menuId": 26010,
+      "resText": "%o Selection changed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Double click",
+      "text": "漥䐠畯汢⁥汣捩k",
+      "menuId": 26020,
+      "resText": "%o Double click",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Is enabled?",
+      "text": "漥䤠⁳楨桧楬桧整㽤",
+      "menuId": 26030,
+      "resText": "%o Is highlighted?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Is visible?",
+      "text": "漥䤠⁳楶楳汢㽥",
+      "menuId": 26040,
+      "resText": "%o Is visible?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Dropdown opened",
+      "text": "漥䐠潲摰睯⁮番瑳漠数敮d",
+      "menuId": 26050,
+      "resText": "%o Dropdown just opened",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Dropdown closed",
+      "text": "漥䐠潲摰睯⁮番瑳挠潬敳d",
+      "menuId": 26060,
+      "resText": "%o Dropdown just closed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set current line",
+      "text": "敓⁴楬敮›〥",
+      "menuId": 25000,
+      "resText": "Set line: %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楌敮渠浵敢r"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Add a line",
+      "text": "摁⁤楬敮›〥眠瑩⁨浩条㩥┠1",
+      "menuId": 25010,
+      "resText": "Add line: %0 with image: %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "楌敮琠硥t〥眠瑩⁨浩条㩥┠1",
+        "楌敮椠慭敧渠浵敢r浩条㩥┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Insert line at",
+      "text": "湉敳瑲氠湩⁥楷桴琠硥㩴┠‰楷桴椠慭敧›ㄥ愠瑦牥›㈥",
+      "menuId": 25020,
+      "resText": "Insert line with text: %0 with image: %1 after: %2",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楌敮琠硥t⁥楷桴琠硥㩴┠‰楷桴椠慭敧›ㄥ愠瑦牥›㈥",
+        "楌敮椠慭敧渠浵敢r硥㩴┠‰楷桴椠慭敧›ㄥ愠瑦牥›㈥",
+        "楌敮琠⁯湩敳瑲愠瑦牥㨀┠‰楷桴椠慭敧›ㄥ愠瑦牥›㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Delete a line",
+      "text": "敄敬整氠湩㩥┠0",
+      "menuId": 25030,
+      "resText": "Delete line: %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楌敮渠浵敢r┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Edit line text",
+      "text": "摅瑩氠湩⁥整瑸›ㄥ眠瑩⁨楬敮琠硥㩴┠0",
+      "menuId": 25040,
+      "resText": "Edit line text: %1 with line text: %0",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "楌敮琠硥t整瑸›ㄥ眠瑩⁨楬敮琠硥㩴┠0",
+        "楌敮渠浵敢⁲潴攠楤t瑩⁨楬敮琠硥㩴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Edit line image",
+      "text": "摅瑩氠湩⁥浩条㩥┠‱楷桴氠湩⁥浩条㩥┠0",
+      "menuId": 25050,
+      "resText": "Edit line image: %1 with line image: %0",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "浉条⁥畮扭牥最㩥┠‱楷桴氠湩⁥浩条㩥┠0",
+        "楌敮渠浵敢⁲潴攠楤t楷桴氠湩⁥浩条㩥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Reset",
+      "text": "敒敳t",
+      "menuId": 25060,
+      "resText": "Reset",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Position > Set X",
+      "text": "敓⁴⁘潴›〥",
+      "menuId": 25070,
+      "resText": "Set X to: %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁘潃牯楤慮整"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Position > Set Y",
+      "text": "敓⁴⁙潴›〥",
+      "menuId": 25080,
+      "resText": "Set Y to: %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁙潃牯楤慮整"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Size > Set width",
+      "text": "敓⁴楷瑤⁨潴›〥",
+      "menuId": 25090,
+      "resText": "Set width to: %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗瑤h瑤⁨潴›〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Size > Set height",
+      "text": "敓⁴敨杩瑨琠㩯┠0",
+      "menuId": 25100,
+      "resText": "Set height to: %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "效杩瑨最瑨琠㩯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Control > Give focus",
+      "text": "敇⁴潦畣s",
+      "menuId": 25110,
+      "resText": "Get focus",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Control > Lose focus",
+      "text": "潌敳映捯獵",
+      "menuId": 25120,
+      "resText": "Lose focus",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Control > Dehighlight",
+      "text": "敄楨桧楬桧t",
+      "menuId": 25130,
+      "resText": "Dehighlight",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Control > Highlight",
+      "text": "楈桧楬桧t",
+      "menuId": 25140,
+      "resText": "Highlight",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Visibility > Show",
+      "text": "桓睯挠湯牴汯",
+      "menuId": 25150,
+      "resText": "Show control",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Visibility > Hide",
+      "text": "楈敤挠湯牴汯",
+      "menuId": 25160,
+      "resText": "Hide control",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Images > Add associated icon",
+      "text": "摁⁤捩湯琠⁯浩条汥獩⁴牦浯映汩㩥┠0",
+      "menuId": 25190,
+      "resText": "Add icon to imagelist from file: %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆敬瀠瑡h⁯浩条汥獩⁴牦浯映汩㩥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Control > Show dropdown",
+      "text": "桓睯搠潲摰睯⁮慰瑲",
+      "menuId": 25180,
+      "resText": "Show dropdown part",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Control > Hide dropdown",
+      "text": "楈敤搠潲摰睯⁮慰瑲",
+      "menuId": 25170,
+      "resText": "Hide dropdown part",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Images > Delete image",
+      "text": "敒潭敶›〥映潲⁭浩条汥獩t",
+      "menuId": 25200,
+      "resText": "Remove: %0 from imagelist",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "浉条⁥湩敤⁸畮扭牥琠⁯敲潭敶"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Images > Clear all images",
+      "text": "汃慥⁲浩条汥獩t",
+      "menuId": 25210,
+      "resText": "Clear imagelist",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Current line number",
+      "text": "敧⁴楌敮丠浵敢⡲",
+      "menuId": 27000,
+      "resText": "get Line Number(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Current line text",
+      "text": "敧⁴楌敮吠硥⑴(",
+      "menuId": 27010,
+      "resText": "get Line Text$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Current line image",
+      "text": "敧⁴楌敮䤠慭敧(",
+      "menuId": 27020,
+      "resText": "get Line Image(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get line text",
+      "text": "敧⁴楌敮⠤",
+      "menuId": 27030,
+      "resText": "get Line$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Number of lines",
+      "text": "敧⁴畎扭牥䰠湩獥(",
+      "menuId": 27040,
+      "resText": "get Number Lines(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Get line image",
+      "text": "敧⁴浉条⁥楌敮(",
+      "menuId": 27080,
+      "resText": "get Image Line(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Images > Get number of images",
+      "text": "敧⁴畎扭牥䤠慭敧⡳",
+      "menuId": 27110,
+      "resText": "get Number Images(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Images > Get width",
+      "text": "敧⁴浉条⁥楗瑤⡨",
+      "menuId": 27130,
+      "resText": "get Image Width(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Images > Get height",
+      "text": "敧⁴浉条⁥效杩瑨(",
+      "menuId": 27140,
+      "resText": "get Image Height(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

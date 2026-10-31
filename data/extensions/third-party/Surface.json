@@ -1,0 +1,4291 @@
+{
+  "file": "Surface.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Image > Has alpha channel?",
+      "text": "%o: Image has alpha channel",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Input / Output > Image in clipboard?",
+      "text": "Image available in clipboard",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Input / Output > Loading failed?",
+      "text": "%o: On loading failed",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Input / Output > Saving failed?",
+      "text": "%o: On saving failed",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Input / Output > Loading succeeded?",
+      "text": "%o: On loading succeeded",
+      "menuId": 26004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Input / Output > Saving succeeded?",
+      "text": "%o: On saving succeeded",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Image > Pixel is equal to color?",
+      "text": "%o: RGB at (%0,%1) = %2",
+      "menuId": 26006,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "X",
+        "Y",
+        "Color"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Image > Select image (inline)",
+      "text": "%o: Select image %0",
+      "menuId": 26007,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Image"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "On callback",
+      "text": "%o: On callback %0",
+      "menuId": 26008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Callback"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Image > Compare to displayed image",
+      "text": "%o: Displayed image %0",
+      "menuId": 26009,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        23
+      ],
+      "paramTitles": [
+        "Image"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Image > Compare to selected image",
+      "text": "%o: Selected image %0",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        23
+      ],
+      "paramTitles": [
+        "Image"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Patterns > Pattern exists?",
+      "text": "%o: Pattern %0 exists",
+      "menuId": 26014,
+      "resText": null,
+      "flags": 34,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Pattern name"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Input / Output > Buffer is locked?",
+      "text": "%o: Buffer is locked",
+      "menuId": 26015,
+      "resText": null,
+      "flags": 34,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Image > Point is inside image?",
+      "text": "%o: (%0,%1) is inside image",
+      "menuId": 26016,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "X",
+        "Y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Input / Output > File I/O in progress?",
+      "text": "%o: File I/O is in progress",
+      "menuId": 26017,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Input / Output > File is being saved?",
+      "text": "%o: File is being saved",
+      "menuId": 26018,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Input / Output > File is being loaded?",
+      "text": "%o: File is being loaded",
+      "menuId": 26019,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "- Selected image -",
+      "text": "Blit onto image %0",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Target"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Display settings > Set image to display",
+      "text": "Display image %0",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Image"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "With color > Set pixel",
+      "text": "Set pixel at (%0,%1) to %2",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "X",
+        "Y",
+        "Color"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "With color > Clear",
+      "text": "Clear with color %0",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "Color"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Alpha channel > Create",
+      "text": "Create alpha channel, keep transparency = %0",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Keep transparency? (0: No, 1: Yes)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Alpha channel > Set pixel",
+      "text": "Set alpha at (%0,%1) to %2",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "X",
+        "Y",
+        "Alpha (0-255)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Alpha channel > Clear",
+      "text": "Clear alpha with %0",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Alpha (0-255)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Alpha channel > Draw rectangle",
+      "text": "Draw rectangle (%0,%1,%2,%3) with value %4 on the alpha channel",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "X1",
+        "Y1",
+        "X2",
+        "Y2",
+        "Alpha (0-255)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "With color > Draw ellipse > Via bounding box",
+      "text": "Draw ellipse (%0,%1,%2,%3) with color %4, outline thickness %5 outline color %6",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        24,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "X1",
+        "Y1",
+        "X2",
+        "Y2",
+        "Fill color (-1: None)",
+        "Outline thickness",
+        "Outline color"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "With color > Draw rectangle > Via bounding box",
+      "text": "Draw rectangle (%0,%1,%2,%3) with color %4, outline thickness %5 outline color %6",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        24,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "X1",
+        "Y1",
+        "X2",
+        "Y2",
+        "Fill color (-1: None)",
+        "Outline thickness",
+        "Outline color"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "With color > Draw line",
+      "text": "Draw line (%0,%1,%2,%3) with color %4 and thickness %5",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        24,
+        22
+      ],
+      "paramTitles": [
+        "X1",
+        "Y1",
+        "X2",
+        "Y2",
+        "Color",
+        "Thickness"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Images > Delete image",
+      "text": "Delete image %0",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Image"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Images > Insert image",
+      "text": "Insert image at %0 with dimensions (%1,%2)",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Image",
+        "Width",
+        "Height"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Transformations > Resize",
+      "text": "Resize image to (%0,%1)",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Width",
+        "Height"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Input / Output > Save to file",
+      "text": "Save image to file %0, override extension = %1",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40,
+        45
+      ],
+      "paramTitles": [
+        "File",
+        "Override extension (Specify if path does not include an extension like \"png\""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "With color > Flood fill",
+      "text": "Flood fill at (%0,%1) with color %2 and tolerance %3",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        24,
+        22
+      ],
+      "paramTitles": [
+        "X",
+        "Y",
+        "Color",
+        "Tolerance (0-255)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Images > Add image",
+      "text": "Add image with dimensions (%0,%1)",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Width",
+        "Height"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Images > Delete all images",
+      "text": "Delete all images",
+      "menuId": 25018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Blitting > Onto... > Alpha channel",
+      "text": "Blit onto image %0's alpha channel",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Target image"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "With color > Replace color",
+      "text": "Replace %0 with %1",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24,
+        24
+      ],
+      "paramTitles": [
+        "Old color",
+        "New color"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Transformations > Flip horizontally",
+      "text": "Flip horizontally",
+      "menuId": 25021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Transformations > Flip vertically",
+      "text": "Flip vertically",
+      "menuId": 25022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Transformations > Minimize canvas",
+      "text": "Minimize",
+      "menuId": 25023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Settings > Set transparent color",
+      "text": "Set transparent color to %0, replace old color = %1",
+      "menuId": 25024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24,
+        22
+      ],
+      "paramTitles": [
+        "Transparent color",
+        "Replace old color? (0: No, 1: Yes)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Alpha channel > Draw line",
+      "text": "Draw line (%0,%1,%2,%3) with value %4 on the alpha channel",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "X1",
+        "Y1",
+        "X2",
+        "Y2",
+        "Alpha (0-255)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Adjustments > Perform operation > With color for RGB",
+      "text": "Perform %0 with color %1",
+      "menuId": 25026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        24
+      ],
+      "paramTitles": [
+        "Operator (+  -  *  /  **  %%  <  >  &  |  ^  <<  >>  =)",
+        "Color"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Display settings > Force redraw",
+      "text": "Force redraw",
+      "menuId": 25027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Images > Copy image > From another image",
+      "text": "Copy image %0 from %1",
+      "menuId": 25028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Destination image",
+        "Source image"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Images > Select image",
+      "text": "Select image %0",
+      "menuId": 25029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Image"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "With color > Draw polygon > With outline",
+      "text": "Draw polygon at (%0,%1) with color %2, outline thickness %3, outline color %4",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        24,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "X",
+        "Y",
+        "Fill color (-1: None)",
+        "Outline thickness",
+        "Outline color"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Points > Insert point",
+      "text": "Insert point (%1,%2) at %0",
+      "menuId": 25031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Index (-1: Append)",
+        "X",
+        "Y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Points > Remove all points",
+      "text": "Remove all points",
+      "menuId": 25032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Points > Add points from string",
+      "text": "Add points from string %0",
+      "menuId": 25033,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "List of points X1,Y1,X2,Y2..."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Points > Move points",
+      "text": "Move all points by (%0,%1) pixels",
+      "menuId": 25034,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "X Offset",
+        "Y Offset"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Points > Rotate points",
+      "text": "Rotate all points around (%0,%1) by %2 degrees",
+      "menuId": 25035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Pivot point X",
+        "Pivot point Y",
+        "Angle (Degrees)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Points > Remove point",
+      "text": "Remove point %0",
+      "menuId": 25036,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Point index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Blitting > Effect > Set by index",
+      "text": "Set blit effect to %0",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Blit effect (0: None, 1: Semi-transparency, 2: Invert, 3: XOR, 4: AND, 5: OR, 9: Add, 10: Mono, 11: Subtract)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Blitting > Destination > Set position",
+      "text": "Set blit destination position to (%0,%1)",
+      "menuId": 25041,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Destination X",
+        "Destination Y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "General settings > Set use absolute coords",
+      "text": "Set use absolute coords to %0",
+      "menuId": 25042,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Use absolute coordinates? (0: No, 1: Yes)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Patterns > Color > Create",
+      "text": "Create color pattern %0 with color %1",
+      "menuId": 25043,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        24
+      ],
+      "paramTitles": [
+        "Pattern name",
+        "Color"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "With pattern > Draw rectangle > Via bounding box",
+      "text": "Draw rectangle (%0,%1,%2,%3) with fill pattern %4, outline thickness %5, outline pattern %6",
+      "menuId": 25044,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        45,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "X1",
+        "Y1",
+        "X2",
+        "Y2",
+        "Pattern (Empty: None)",
+        "Outline thickness",
+        "Outline pattern (Empty: None)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Patterns > Tiled image > Create",
+      "text": "Create tiled image pattern %0 with image %1 and offset (%2,%3)",
+      "menuId": 25045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Pattern name",
+        "Image",
+        "X Offset",
+        "Y Offset"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Patterns > Linear gradient > Create",
+      "text": "Create linear gradient pattern %0 with colors (%1,%2), vertical = %3",
+      "menuId": 25046,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        24,
+        24,
+        22
+      ],
+      "paramTitles": [
+        "Pattern name",
+        "Color A",
+        "Color B",
+        "Vertical? (0: No, 1: Yes)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Input / Output > Load from clipboard",
+      "text": "Load image from the clipboard",
+      "menuId": 25047,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Input / Output > Save to clipboard",
+      "text": "Save image to the clipboard",
+      "menuId": 25048,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Blitting > From... > External > Active object > At destination",
+      "text": "Blit Active object %0",
+      "menuId": 25049,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Object"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 50,
+      "menu": "With pattern > Draw ellipse > Via bounding box",
+      "text": "Draw ellipse (%0,%1,%2,%3) with pattern %4, outline thickness %5, outline pattern %6",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        45,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "X1",
+        "Y1",
+        "X2",
+        "Y2",
+        "Pattern (Empty: None)",
+        "Outline thickness",
+        "Outline pattern (Empty: None)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "With pattern > Draw polygon",
+      "text": "Draw polygon at (%0,%1) with pattern %2, outline thickness %3, outline pattern %4",
+      "menuId": 25051,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        45,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "X",
+        "Y",
+        "Pattern (Empty: None)",
+        "Outline thickness",
+        "Outline pattern (Empty: None)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 52,
+      "menu": "With color > Draw text",
+      "text": "Draw text %4 at (%0,%1,%2,%3) with color %5",
+      "menuId": 25052,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        45,
+        24
+      ],
+      "paramTitles": [
+        "X1",
+        "Y1",
+        "X2 (Leave zero to use X1)",
+        "Y2 (Leave zero to use Y1)",
+        "Text",
+        "Color"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 53,
+      "menu": "Text > Set horizontal align",
+      "text": "Set horizontal text align to %0",
+      "menuId": 25053,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Text alignment (Left: 0, Center: 1, Right: 2)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 54,
+      "menu": "Text > Set vertical align",
+      "text": "Set vertical text align to %0",
+      "menuId": 25054,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Text alignment (Top: 0, Center: 1, Bottom: 2)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 55,
+      "menu": "Text > Set multi-line",
+      "text": "Set text multi-line to %0",
+      "menuId": 25055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Multi-line (0: No, 1: Yes)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 56,
+      "menu": "Text > Set font face",
+      "text": "Set text font face to %0",
+      "menuId": 25056,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Font"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 57,
+      "menu": "Text > Set font size",
+      "text": "Set text font size to %0 pt",
+      "menuId": 25057,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Font size (points)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 58,
+      "menu": "Text > Set font quality",
+      "text": "Set text font quality to %0",
+      "menuId": 25058,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Font quality (0: Don't care, 1: Draft, 2: Proof, 3: Aliased, 4: Anti-aliased, 5: ClearType)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 59,
+      "menu": "Text > Set font weight",
+      "text": "Set text font weight to %0",
+      "menuId": 25059,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Font weight (0-9, 1: Thin, 5: Medium, 7: Bold)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 60,
+      "menu": "Text > Set font decoration",
+      "text": "Set text font decoration to %0",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Font decoration, add together (1: Italic, 2: Underline, 4: Strike-out)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 61,
+      "menu": "Adjustments > Apply convolution matrix",
+      "text": "Apply convolution matrix (%3,%4,%5|%6,%7,%8|%9,%A,%B), divisor = %0, offset = %1, iterate %2 times",
+      "menuId": 25061,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Divisor",
+        "Offset",
+        "Iterations",
+        "X1Y1 (X__|___|___)",
+        "X1Y2 (_X_|___|___)",
+        "X1Y3 (__X|___|___)",
+        "X2Y1 (___|X__|___)",
+        "X2Y2 (___|_X_|___)",
+        "X2Y3 (___|__X|___)",
+        "X3Y1 (___|___|X__)",
+        "X3Y2 (___|___|_X_)",
+        "X3Y3 (___|___|__X)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 62,
+      "menu": "Blitting > From... > External > Background",
+      "text": "Blit the background",
+      "menuId": 25062,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 63,
+      "menu": "Blitting > From... > Image",
+      "text": "Blit image %0",
+      "menuId": 25063,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Source"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 64,
+      "menu": "Blitting > Onto... > External > Add backdrop",
+      "text": "Add backdrop %0",
+      "menuId": 25064,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        43
+      ],
+      "paramTitles": [
+        "Options"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 65,
+      "menu": "Blitting > Onto... > External > Background",
+      "text": "Blit onto the background",
+      "menuId": 25065,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 66,
+      "menu": "Blitting > Destination > Set dimensions",
+      "text": "Set blit destination dimensions to (%0,%1)",
+      "menuId": 25066,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Destination width",
+        "Destination height"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 67,
+      "menu": "Blitting > From... > Alpha channel",
+      "text": "Blit image %0's alpha channel",
+      "menuId": 25067,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Source"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 68,
+      "menu": "Input / Output > Advanced > Export as Overlay",
+      "text": "Export image as Overlay",
+      "menuId": 25068,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 69,
+      "menu": "With pattern > Draw line",
+      "text": "Draw line (%0,%1,%2,%3) with pattern %4 and thickness %5",
+      "menuId": 25069,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "X1",
+        "Y1",
+        "X2",
+        "Y2",
+        "Pattern",
+        "Thickness"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 70,
+      "menu": "Blitting > From... > External > Overlay",
+      "text": "Blit Overlay at %0",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Overlay address"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 71,
+      "menu": "Blitting > Onto... > External > Overlay",
+      "text": "Blit onto Overlay at %0",
+      "menuId": 25071,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Overlay address"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 72,
+      "menu": "Patterns > Color > Set color",
+      "text": "Set color of pattern %0 to %1",
+      "menuId": 25072,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        24
+      ],
+      "paramTitles": [
+        "Pattern name",
+        "Color"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 73,
+      "menu": "Patterns > Linear gradient > Set colors",
+      "text": "Set colors of pattern %0 to (%1,%2)",
+      "menuId": 25073,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        24,
+        24
+      ],
+      "paramTitles": [
+        "Pattern name",
+        "Color A",
+        "Color B"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 74,
+      "menu": "Patterns > Linear gradient > Set vertical",
+      "text": "Set vertical flag of pattern %0 to %1",
+      "menuId": 25074,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "Pattern name",
+        "Vertical? (0: No, 1: Yes)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 75,
+      "menu": "Patterns > Tiled image > Set origin",
+      "text": "Set origin of pattern %0 to (%1,%2)",
+      "menuId": 25075,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Pattern name",
+        "X Origin",
+        "Y Origin"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 76,
+      "menu": "Patterns > Tiled image > Set tiled image",
+      "text": "Set image of pattern %0 to %1",
+      "menuId": 25076,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "Pattern name",
+        "Image"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 77,
+      "menu": "Patterns > Delete",
+      "text": "Delete pattern %0",
+      "menuId": 25077,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Pattern name"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 78,
+      "menu": "Transformations > Resize canvas",
+      "text": "Resize canvas to (%0,%1,%2,%3)",
+      "menuId": 25078,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "X1",
+        "Y1",
+        "X2",
+        "Y2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 79,
+      "menu": "With pattern > Clear",
+      "text": "Clear with pattern %0",
+      "menuId": 25079,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Pattern"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 80,
+      "menu": "Transformations > Rotate",
+      "text": "Rotate image by %0 degrees",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Angle (Degrees)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 81,
+      "menu": "General settings > Set linear resampling",
+      "text": "Set linear resampling to %0",
+      "menuId": 25081,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Use linear resampling in actions if available? (0: No, 1: Yes)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 82,
+      "menu": "Blitting > From... > Advanced > Image reference",
+      "text": "Blit image referenced at %0",
+      "menuId": 25082,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Reference value"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 83,
+      "menu": "Blitting > Onto... > Advanced > Image reference",
+      "text": "Blit onto image referenced at %0",
+      "menuId": 25083,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Reference value"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 84,
+      "menu": "Text > Set clipping",
+      "text": "Set text clipping to %0",
+      "menuId": 25084,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Clipping (0: No, 1: Yes)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 85,
+      "menu": "Text > Set add ellipsis",
+      "text": "Set text add ellipsis to %0",
+      "menuId": 25085,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Add ellipsis (0: No, 1: Yes)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 86,
+      "menu": "Text > Set word break",
+      "text": "Set text word break to %0",
+      "menuId": 25086,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Word break (0: No, 1: Yes)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 87,
+      "menu": "Blitting > From... > Advanced > Window handle",
+      "text": "Blit window at %0",
+      "menuId": 25087,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Window handle (0: Whole desktop)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 88,
+      "menu": "Blitting > Onto... > Advanced > Window handle",
+      "text": "Blit onto window at %0",
+      "menuId": 25088,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Window handle (0: Whole desktop)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 89,
+      "menu": "Blitting > Onto... > External > Surface",
+      "text": "Blit onto image %1 of Surface %0",
+      "menuId": 25089,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "Surface object",
+        "Image"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 90,
+      "menu": "Blitting > From... > External > Surface",
+      "text": "Blit image %1 of Surface %0",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "Surface object",
+        "Image"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 91,
+      "menu": "Images > Swap two images",
+      "text": "Swap images %0 and %1",
+      "menuId": 25091,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Image A",
+        "Image B"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 92,
+      "menu": "Adjustments > Move color channels",
+      "text": "Move channels (r,g,b,a) to (%0,%1,%2,%3)",
+      "menuId": 25092,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "New channel for red (r, g, b, a)",
+        "New channel for green (r, g, b, a)",
+        "New channel for blue (r, g, b, a)",
+        "New channel for alpha, if any (r, g, b, a)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 93,
+      "menu": "Transformations > Scroll",
+      "text": "Scroll (%0,%1), wrap = %2",
+      "menuId": 25093,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "X Offset",
+        "Y Offset",
+        "Wrap pixels? (0: No, 1: Yes)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 94,
+      "menu": "Callbacks > Return color",
+      "text": "Return %0 to callback",
+      "menuId": 25094,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "Color"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 95,
+      "menu": "Callbacks > Loop through image",
+      "text": "Loop through image with callback %1 and flags %0",
+      "menuId": 25095,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "Flags, add together (1: Get color, 2: Set color, 4: Store position, 8: Get alpha, 16: Set alpha)",
+        "Callback"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 96,
+      "menu": "Settings > Set clipping rectangle",
+      "text": "Set clipping rectangle to (%0,%1,%2,%3)",
+      "menuId": 25096,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "X1",
+        "Y1",
+        "X2",
+        "Y2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 97,
+      "menu": "Settings > Clear clipping rectangle",
+      "text": "Clear clipping rectangle",
+      "menuId": 25097,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 98,
+      "menu": "Adjustments > Invert colors",
+      "text": "Invert image",
+      "menuId": 25098,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 99,
+      "menu": "Points > Create star",
+      "text": "Create star, inner radius = %0, outer radius = %1, spikes = %2",
+      "menuId": 25099,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Inner radius",
+        "Outer radius",
+        "Number of spikes"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 100,
+      "menu": "Points > Scale points",
+      "text": "Scale all points by (%2,%3) from (%0,%1)",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Scale center X",
+        "Scale center Y",
+        "X scale factor (1.0: None)",
+        "Y scale factor (1.0: None)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 101,
+      "menu": "With color > Draw ellipse > Via center and size",
+      "text": "Draw ellipse at (%0,%1) with size (%2,%3) and color %4, outline thickness %5, outline pattern %6",
+      "menuId": 25101,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        24,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "Center X",
+        "Center Y",
+        "Width",
+        "Height",
+        "Fill color (-1: None)",
+        "Outline thickness",
+        "Outline color"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 102,
+      "menu": "With pattern > Draw ellipse > Via center and size",
+      "text": "Draw ellipse at (%0,%1) with size (%2,%3) and pattern %4, outline thickness %5, outline pattern %6",
+      "menuId": 25102,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        45,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "Center X",
+        "Center Y",
+        "Width",
+        "Height",
+        "Pattern (Empty: None)",
+        "Outline thickness",
+        "Outline pattern (Empty: None)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 103,
+      "menu": "Points > Create regular polygon",
+      "text": "Create regular polygon, radius = %0, edges = %1",
+      "menuId": 25103,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Radius",
+        "Number of edges"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 104,
+      "menu": "Display settings > Skip redraw",
+      "text": "Skip redraw",
+      "menuId": 25104,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 105,
+      "menu": "Blitting > Destination > Set all",
+      "text": "Set blit destination, position = (%0,%1), dimensions = (%2,%3), stretch mode = %4",
+      "menuId": 25105,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Destination X",
+        "Destination Y",
+        "Destination width",
+        "Destination height",
+        "Stretch mode (0: No stretching, 1: No resampling, 2: Resampling, 3: Opaque resampling)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 106,
+      "menu": "Adjustments > Convert to grayscale",
+      "text": "Convert to grayscale",
+      "menuId": 25106,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 107,
+      "menu": "Patterns > Radial gradient > Create",
+      "text": "Create radial gradient pattern %0 with colors (%1,%2)",
+      "menuId": 25107,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        24,
+        24
+      ],
+      "paramTitles": [
+        "Pattern name",
+        "Color A",
+        "Color B"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 109,
+      "menu": "General settings > Set display selected image",
+      "text": "Set display selected image to %0",
+      "menuId": 25109,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Display selected image? (0: No, 1: Yes)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 110,
+      "menu": "General settings > Set select new images",
+      "text": "Set select new images to %0",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Display selected image? (0: No, 1: Yes)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 111,
+      "menu": "Display settings > Set transparent",
+      "text": "Set transparent to %0",
+      "menuId": 25111,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Display transparent? (0: No, 1: Yes)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 112,
+      "menu": "Input / Output > Advanced > Lock buffer",
+      "text": "Lock buffer",
+      "menuId": 25112,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 113,
+      "menu": "Input / Output > Advanced > Unlock buffer",
+      "text": "Unlock buffer",
+      "menuId": 25113,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 114,
+      "menu": "Blitting > Source > Set position",
+      "text": "Set blit source position to (%0,%1)",
+      "menuId": 25114,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Source X",
+        "Source Y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 115,
+      "menu": "Blitting > Source > Set dimensions",
+      "text": "Set blit source dimensions to (%0,%1)",
+      "menuId": 25115,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Source width",
+        "Source height"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 116,
+      "menu": "Blitting > Destination > Set stretch mode",
+      "text": "Set blit stretch mode to %0",
+      "menuId": 25116,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Stretch mode (0: No stretching, 1: No resampling, 2: Resampling, 3: Opaque resampling)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 117,
+      "menu": "Blitting > Source > Set region flag",
+      "text": "Set blit region flag to %0",
+      "menuId": 25117,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Use specified source region? (0: No, 1: Yes)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 118,
+      "menu": "Text > Set angle",
+      "text": "Set text angle to %0",
+      "menuId": 25118,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Angle (Degrees)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 119,
+      "menu": "With color > Draw rectangle > Via position and size",
+      "text": "Draw rectangle at (%0,%1) with size (%2,%3) and color %4, outline thickness %5, outline color %6",
+      "menuId": 25119,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        24,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "X",
+        "Y",
+        "Width",
+        "Height",
+        "Fill color (-1: None)",
+        "Outline thickness",
+        "Outline color"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 120,
+      "menu": "With pattern > Draw rectangle > Via position and size",
+      "text": "Draw rectangle at (%0,%1) with size (%2,%3) and pattern %4, outline thickness %5, outline color %6",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        45,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "X",
+        "Y",
+        "Width",
+        "Height",
+        "Pattern (Empty: None)",
+        "Outline thickness",
+        "Outline pattern (Empty: None)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 121,
+      "menu": "Images > Copy image > From Surface object",
+      "text": "Copy image %0 from image %2 of Surface %1",
+      "menuId": 25121,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        1,
+        22
+      ],
+      "paramTitles": [
+        "Destination image",
+        "Surface object",
+        "Source image"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 122,
+      "menu": "Blitting > From... > External > Active object > At its position",
+      "text": "Blit Active object %0 at its position",
+      "menuId": 25122,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Object"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 123,
+      "menu": "Adjustments > Perform operation > With value for...",
+      "text": "Perform %0 with %1 for channels %2",
+      "menuId": 25123,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "Operator (+  -  *  /  **  %%  <  >  &  |  ^  <<  >>  =)",
+        "Operand",
+        "Channels, add together (r, g, b, a)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 124,
+      "menu": "Blitting > Onto... > Onto alpha channel > Alpha channel",
+      "text": "Blit alpha channel onto image %0's alpha channel",
+      "menuId": 25124,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Target image"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 125,
+      "menu": "Blitting > From... > From alpha channel > Alpha channel",
+      "text": "Blit image %0's alpha channel onto the alpha channel",
+      "menuId": 25125,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Source image"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 126,
+      "menu": "Blitting > Effect > Set by name",
+      "text": "Set blit effect to %0",
+      "menuId": 25126,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Blit effect (Semi-transparency, Invert, XOR, AND, OR, Add, Mono, Sub, Tint)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 127,
+      "menu": "Alpha channel > Remove",
+      "text": "Remove alpha channel",
+      "menuId": 25127,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 128,
+      "menu": "Input / Output > Advanced > Write bytes",
+      "text": "Write bytes at %0 with size %2 into the buffer at %1",
+      "menuId": 25128,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Source address",
+        "Buffer offset",
+        "Size in bytes"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 129,
+      "menu": "Images > References > Add reference",
+      "text": "Add image reference for %0",
+      "menuId": 25129,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Reference value"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 130,
+      "menu": "Images > References > Insert reference",
+      "text": "Insert image reference for %1 at %0",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Image",
+        "Reference value"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 131,
+      "menu": "Images > Copy image > From image reference",
+      "text": "Copy image %0 from image referenced at %1",
+      "menuId": 25131,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Destination image",
+        "Reference value"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 132,
+      "menu": "Images > References > Set reference value",
+      "text": "Set reference value of image %0 to %1",
+      "menuId": 25132,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Image",
+        "Reference value"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 133,
+      "menu": "Images > References > Set reference state",
+      "text": "Set reference state of image %0 to %1",
+      "menuId": 25133,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Image",
+        "State (0: Local image, 1: Reference)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 134,
+      "menu": "General settings > Set keep points after drawing",
+      "text": "Set keep points after drawing to %0",
+      "menuId": 25134,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Keep points after drawing? (0: No, 1: Yes)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 135,
+      "menu": "General settings > Set background file input/output",
+      "text": "Set background file input/output to %0",
+      "menuId": 25135,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Background file input/output? (0: No, 1: Yes)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 136,
+      "menu": "Blitting > Effect > Set callback (overrides effect)",
+      "text": "Set blit callback to %0",
+      "menuId": 25136,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Blit callback (Overrides ink effect, empty: None)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 137,
+      "menu": "Callbacks > Loop through area",
+      "text": "Loop through (%0,%1,%2,%3) with callback %5 and flags %4",
+      "menuId": 25137,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "X1",
+        "Y1",
+        "X2",
+        "Y2",
+        "Flags, add together (1: Get color, 2: Set color, 4: Store position, 8: Get alpha, 16: Set alpha)",
+        "Callback"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 138,
+      "menu": "Callbacks > Return alpha",
+      "text": "Return alpha %0 to callback",
+      "menuId": 25138,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Alpha (0-255)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 139,
+      "menu": "Display settings > Set scale",
+      "text": "Set scale to %0, quality = %1",
+      "menuId": 25139,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Scale value (1.0: Normal dimension)",
+        "Quality (0: Speed, 1: Quality)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 140,
+      "menu": "Display settings > Set X scale",
+      "text": "Set X scale to %0, quality = %1",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Scale value (1.0: Normal dimension)",
+        "Quality (0: Speed, 1: Quality)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 141,
+      "menu": "Display settings > Set Y scale",
+      "text": "Set Y scale to %0, quality = %1",
+      "menuId": 25141,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Scale value (1.0: Normal dimension)",
+        "Quality (0: Speed, 1: Quality)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 142,
+      "menu": "Points > Add point",
+      "text": "Add point (%0,%1)",
+      "menuId": 25142,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "X",
+        "Y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 143,
+      "menu": "Settings > Set hot spot",
+      "text": "Set hot spot to (%0,%1) px",
+      "menuId": 25143,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Hot spot X",
+        "Hot spot Y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 144,
+      "menu": "Settings > Set hot spot (percent)",
+      "text": "Set hot spot to (%0,%1) percent",
+      "menuId": 25144,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Hot spot X (Percent)",
+        "Hot spot Y (Percent)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 145,
+      "menu": "Patterns > Callback > Create",
+      "text": "Create callback pattern %0",
+      "menuId": 25145,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Pattern name"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 146,
+      "menu": "Blitting > Source > Set all",
+      "text": "Set blit source, position = (%0,%1), dimensions = (%2,%3), region flag = %4",
+      "menuId": 25146,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Source X",
+        "Source Y",
+        "Source width",
+        "Source height",
+        "Use specified source region? (0: No, 1: Yes)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 147,
+      "menu": "Blitting > Destination > Set angle",
+      "text": "Set blit angle to %0",
+      "menuId": 25147,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Angle (Degrees)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 148,
+      "menu": "Blitting > Destination > Set pixels",
+      "text": "Set blit hot spot to (%0,%1) px",
+      "menuId": 25148,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Hot spot X",
+        "Hot spot Y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 150,
+      "menu": "Blitting > Destination > Set percent",
+      "text": "Set blit hot spot to (%0,%1) percent",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Hot spot X (Percent)",
+        "Hot spot Y (Percent)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 151,
+      "menu": "Blitting > Destination > Set quality",
+      "text": "Set blit rotation quality to %0",
+      "menuId": 25151,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Rotation quality (0: None, 1: Linear resampling)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 152,
+      "menu": "Display settings > Set angle",
+      "text": "Set angle to %0, quality = %1",
+      "menuId": 25152,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Angle (Degrees)",
+        "Quality (0: Speed, 1: Quality)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 153,
+      "menu": "Input / Output > Load from file",
+      "text": "Load image from file %0",
+      "menuId": 25153,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        63
+      ],
+      "paramTitles": [
+        "File"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 154,
+      "menu": "Settings > Convert to HWA texture",
+      "text": "Convert to HWA texture",
+      "menuId": 25154,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 155,
+      "menu": "Settings > Convert to HWA target",
+      "text": "Convert to HWA target",
+      "menuId": 25155,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 156,
+      "menu": "Settings > Convert to bitmap",
+      "text": "Convert to bitmap",
+      "menuId": 25156,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 157,
+      "menu": "Blitting > Effect > Set tint",
+      "text": "Set blit tint to %0",
+      "menuId": 25157,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "Color multiplier"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 158,
+      "menu": "With color > Draw ellipse > Via bounding box",
+      "text": "Draw ellipse (%0,%1,%2,%3) with color %4",
+      "menuId": 25158,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "X1",
+        "Y1",
+        "X2",
+        "Y2",
+        "Fill color"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 159,
+      "menu": "With color > Draw rectangle > Via bounding box",
+      "text": "Draw rectangle (%0,%1,%2,%3) with color %4",
+      "menuId": 25159,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "X1",
+        "Y1",
+        "X2",
+        "Y2",
+        "Fill color"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 160,
+      "menu": "With color > Draw polygon > Simple",
+      "text": "Draw polygon at (%0,%1) with color %2",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "X",
+        "Y",
+        "Fill color"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 161,
+      "menu": "Adjustments > Apply color matrix",
+      "text": "Apply color matrix R (%0,%1,%2), G (%3,%4,%5), B (%6,%7,%8)",
+      "menuId": 25161,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "Red coefficient for new red (Default: 1)",
+        "Green coefficient for new red (Default: 0)",
+        "Blue coefficient for new red (Default: 0)",
+        "Red coefficient for new green (Default: 0)",
+        "Green coefficient for new green  (Default: 1)",
+        "Blue coefficient for new green (Default: 0)",
+        "Red coefficient for new blue (Default: 0)",
+        "Green coefficient for new blue (Default: 0)",
+        "Blue coefficient for new blue  (Default: 1)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 162,
+      "menu": "Input / Output > Quick store",
+      "text": "Store image",
+      "menuId": 25162,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 163,
+      "menu": "Input / Output > Quick restore",
+      "text": "Restore image",
+      "menuId": 25163,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 164,
+      "menu": "Adjustments > Apply brightness",
+      "text": "Apply brightness %0 to image",
+      "menuId": 25164,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Brightness (0.0: No change, 1.0: Entire image will be white)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 165,
+      "menu": "Adjustments > Apply contrast",
+      "text": "Apply contrast %0 to image",
+      "menuId": 25165,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Contrast (1.0: No change)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 166,
+      "menu": "With color > Draw rectangle > Via position and size",
+      "text": "Draw rectangle at (%0,%1) with size (%2,%3) and color %4",
+      "menuId": 25166,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "X",
+        "Y",
+        "Width",
+        "Height",
+        "Fill color"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 167,
+      "menu": "With color > Draw ellipse > Via center and size",
+      "text": "Draw ellipse at (%0,%1) with size (%2,%3) and color %4",
+      "menuId": 25167,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "Center X",
+        "Center Y",
+        "Width",
+        "Height",
+        "Fill color"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 168,
+      "menu": "Blitting > Effect > Set alpha",
+      "text": "Set blit alpha to %0",
+      "menuId": 25168,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Alpha value (0-255)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 169,
+      "menu": "Blitting > Push settings",
+      "text": "Push blit settings",
+      "menuId": 25169,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 170,
+      "menu": "Blitting > Pop settings",
+      "text": "Pop blit settings",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 171,
+      "menu": "Blitting > Alpha composition > Enable",
+      "text": "Enable blit alpha composition",
+      "menuId": 25171,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 172,
+      "menu": "Blitting > Alpha composition > Disable",
+      "text": "Disable blit alpha composition",
+      "menuId": 25172,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 173,
+      "menu": "Blitting > Transparency > Enable",
+      "text": "Enable blit transparency",
+      "menuId": 25173,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 174,
+      "menu": "Blitting > Transparency > Disable",
+      "text": "Disable blit transparency",
+      "menuId": 25174,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Image count",
+      "text": "ImageCount(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Selected image > Index",
+      "text": "SelImage(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Displayed image > Index",
+      "text": "DisplayImage(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Selected image > RGB at",
+      "text": "RGBAt(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "X",
+        "Y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Selected image > Width",
+      "text": "Width(",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Selected image > Height",
+      "text": "Height(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Last added image",
+      "text": "LastImage(",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Input / Output > Overlay address",
+      "text": "ExportedOvlAddr(",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Displayed image > Width",
+      "text": "DisplayWidth(",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Displayed image > Height",
+      "text": "DisplayHeight(",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Selected image > Red at",
+      "text": "RedAt(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "X",
+        "Y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Selected image > Green at",
+      "text": "GreenAt(",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "X",
+        "Y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Selected image > Blue at",
+      "text": "BlueAt(",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "X",
+        "Y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Selected image > Alpha at",
+      "text": "AlphaAt(",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "X",
+        "Y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Any image > RGB at",
+      "text": "ImgRGBAt(",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "Image",
+        "X",
+        "Y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Any image > Width",
+      "text": "ImgWidth(",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Image"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Any image > Height",
+      "text": "ImgHeight(",
+      "menuId": 27016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Image"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Callback > X position",
+      "text": "CallbackX(",
+      "menuId": 27017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Callback > Y position",
+      "text": "CallbackY(",
+      "menuId": 27018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Tools > Color from RGB",
+      "text": "RGB(",
+      "menuId": 27023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "R",
+        "G",
+        "B"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Tools > Blend two colors",
+      "text": "Blend(",
+      "menuId": 27024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "Color A",
+        "Color B",
+        "Blend (0-255)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Tools > Invert color",
+      "text": "Invert(",
+      "menuId": 27025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Color"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Tools > Multiply two colors",
+      "text": "Multiply(",
+      "menuId": 27026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "Color A",
+        "Color B"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Selected image > Transparent color",
+      "text": "TranspColor(",
+      "menuId": 27027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Input / Output > Files > Filter count",
+      "text": "FilterCount(",
+      "menuId": 27028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Input / Output > Files > Filter name",
+      "text": "Filter$(",
+      "menuId": 27029,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Input / Output > Files > Filter extension name",
+      "text": "FilterExt$(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "Filter index",
+        "Extension index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Input / Output > Files > Filter extension count",
+      "text": "FilterExtCount(",
+      "menuId": 27031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Input / Output > Files > Filter can save",
+      "text": "FilterCanSave(",
+      "menuId": 27032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Input / Output > Buffer address",
+      "text": "BufferAddr(",
+      "menuId": 27033,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Input / Output > Buffer pitch",
+      "text": "BufferPitch(",
+      "menuId": 27034,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Input / Output > Files > Filter extension list",
+      "text": "FilterAllExts$(",
+      "menuId": 27035,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Filter index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Flood fill > Area X1",
+      "text": "FloodX1(",
+      "menuId": 27036,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Flood fill > Area Y1",
+      "text": "FloodY1(",
+      "menuId": 27037,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Flood fill > Area X2",
+      "text": "FloodX2(",
+      "menuId": 27038,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Flood fill > Area Y2",
+      "text": "FloodY2(",
+      "menuId": 27039,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Pattern > Pattern from index",
+      "text": "Pattern$(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Pattern > Pattern count",
+      "text": "PatternCount(",
+      "menuId": 27041,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Pattern > Color",
+      "text": "PatternColor(",
+      "menuId": 27042,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "Pattern"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Pattern > Linear gradient > Color A",
+      "text": "PatternColorA(",
+      "menuId": 27043,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "Pattern"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Pattern > Linear gradient > Color B",
+      "text": "PatternColorB(",
+      "menuId": 27044,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "Pattern"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Pattern > Tiled image",
+      "text": "PatternImage(",
+      "menuId": 27045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "Pattern"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Any image > Red at",
+      "text": "ImgRedAt(",
+      "menuId": 27046,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "Image",
+        "X",
+        "Y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Any image > Green at",
+      "text": "ImgGreenAt(",
+      "menuId": 27047,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "Image",
+        "X",
+        "Y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Any image > Blue at",
+      "text": "ImgBlueAt(",
+      "menuId": 27048,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "Image",
+        "X",
+        "Y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Any image > Alpha at",
+      "text": "ImgAlphaAt(",
+      "menuId": 27049,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "Image",
+        "X",
+        "Y"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 50,
+      "menu": "Tools > Color from HEX",
+      "text": "HEX2RGB(",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "HEX string"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "Tools > Random color",
+      "text": "RandomColor(",
+      "menuId": 27051,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 52,
+      "menu": "Selected image > Reference value",
+      "text": "SelImgRef(",
+      "menuId": 27052,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 53,
+      "menu": "Any image > Reference value",
+      "text": "ImgRef(",
+      "menuId": 27053,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Image"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 54,
+      "menu": "Callback > Source color",
+      "text": "CallbackSrcCol(",
+      "menuId": 27054,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 55,
+      "menu": "Callback > Destination color",
+      "text": "CallbackDestCol(",
+      "menuId": 27055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 56,
+      "menu": "Image references > Object",
+      "text": "ObjImgRef(",
+      "menuId": 27056,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "Fixed value",
+        "Parameter"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 57,
+      "menu": "Image references > Background",
+      "text": "BgImgRef(",
+      "menuId": 27057,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 58,
+      "menu": "Callback > Source alpha",
+      "text": "CallbackSrcAlpha(",
+      "menuId": 27058,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 59,
+      "menu": "Window handles > Frame window",
+      "text": "FrameWindowHandle(",
+      "menuId": 27059,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 60,
+      "menu": "Any image > Hot spot X",
+      "text": "ImgHotX(",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Image"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 61,
+      "menu": "Any image > Hot spot Y",
+      "text": "ImgHotY(",
+      "menuId": 27061,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Image"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 62,
+      "menu": "Selected image > Hot spot X",
+      "text": "HotX(",
+      "menuId": 27062,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 63,
+      "menu": "Selected image > Hot spot Y",
+      "text": "HotY(",
+      "menuId": 27063,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 64,
+      "menu": "Any image > Transparent color",
+      "text": "TranspColor(",
+      "menuId": 27064,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 65,
+      "menu": "Callback > Destination alpha",
+      "text": "CallbackDestAlpha(",
+      "menuId": 27065,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 66,
+      "menu": "Tools > Add two colors",
+      "text": "Add(",
+      "menuId": 27066,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "Color A",
+        "Color B"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 67,
+      "menu": "Tools > Subtract two colors",
+      "text": "Subtract(",
+      "menuId": 27067,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "Color A",
+        "Color B"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 68,
+      "menu": "Image references > Transformed Surface",
+      "text": "TransformedSurfaceAddr(",
+      "menuId": 27068,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 69,
+      "menu": "Scale / Angle > X scale",
+      "text": "XScale(",
+      "menuId": 27069,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 70,
+      "menu": "Scale / Angle > Y scale",
+      "text": "YScale(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 71,
+      "menu": "Scale / Angle > Angle",
+      "text": "Angle(",
+      "menuId": 27071,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 75,
+      "menu": "Tools > Compose two colors > Composed color",
+      "text": "ComposedColor(",
+      "menuId": 27075,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "Color A",
+        "Alpha A (0-255)",
+        "Color B",
+        "Alpha B (0-255)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 76,
+      "menu": "Tools > Compose two colors > Composed alpha",
+      "text": "ComposedAlpha(",
+      "menuId": 27076,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "Alpha A (0-255)",
+        "Alpha B (0-255)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

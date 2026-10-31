@@ -1,0 +1,97 @@
+{
+  "file": "edetect.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On Detect",
+      "text": "漥传⁮敄整瑣",
+      "menuId": 26000,
+      "resText": "%o On Detect",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Check for collision in a detector",
+      "text": "敄整瑣牯渠浵敢⁲〥椠⁳癯牥慬楰杮愠⁮扯捳污e",
+      "menuId": 26001,
+      "resText": "Detector number %0 is overlaping an obscale",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敄整瑣牯椠d敢⁲〥椠⁳癯牥慬楰杮愠⁮扯捳污e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Select object",
+      "text": "敓敬瑣┠‰獡搠瑥捥⁴扯敪瑣",
+      "menuId": 25002,
+      "resText": "Select %0 as detect object",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敓敬瑣漠橢捥t瑥捥⁴扯敪瑣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Detect in offset",
+      "text": "敄整瑣漠敶汲灡⁳〥Ⱐ┠‱楰數獬映潲⁭桴⁥扯敪瑣映牯搠瑥捥潴⁲畮扭牥┠2",
+      "menuId": 25000,
+      "resText": "Detect overlaps %0 , %1 pixels from the object for detector number %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘景獦瑥攀汲灡⁳〥Ⱐ┠‱楰數獬映潲⁭桴⁥扯敪瑣映牯搠瑥捥潴⁲畮扭牥┠2",
+        "⁙景獦瑥攀汲灡⁳〥Ⱐ┠‱楰數獬映潲⁭桴⁥扯敪瑣映牯搠瑥捥潴⁲畮扭牥┠2",
+        "敄整瑣牯䤠D灡⁳〥Ⱐ┠‱楰數獬映潲⁭桴⁥扯敪瑣映牯搠瑥捥潴⁲畮扭牥┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "On detection > Object is overlapping an obstcale",
+      "text": "扏敪瑣椠⁳癯牥慬灰湩⁧湡漠獢慣敬",
+      "menuId": 25001,
+      "resText": "Object is overlapping an obscale",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "On detection > Detector ID",
+      "text": "敤整瑣牯(",
+      "menuId": 27000,
+      "resText": "detector(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

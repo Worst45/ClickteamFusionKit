@@ -1,0 +1,1825 @@
+{
+  "file": "Joystick2.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Buttons > Repeat While Button Pressed",
+      "text": "ㄱ猥›敒数瑡眠楨敬瀠敲獳摥樠祯瑳捩⁫猥戠瑵潴⁮猥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱攀瀠敲獳摥樠祯瑳捩⁫猥戠瑵潴⁮猥",
+        "畂瑴湯ㄠ琠⁯㈱8攀瀠敲獳摥樠祯瑳捩⁫猥戠瑵潴⁮猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Buttons > Repeat While Any Button Pressed",
+      "text": "ㄱ猥›敒数瑡眠楨敬愠祮戠瑵潴⁮牰獥敳⁤湯樠祯┠s",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱攀愠祮戠瑵潴⁮牰獥敳⁤湯樠祯┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Joystick is Attached",
+      "text": "ㄱ猥›潊獹楴正┠⁳獩愠瑴捡敨d",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱 獩愠瑴捡敨d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Joystick is Ignored",
+      "text": "ㄱ猥›潊獹楴正┠⁳獩椠湧牯摥",
+      "menuId": 26015,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱 獩椠湧牯摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Buttons > Button is Pressed",
+      "text": "ㄱ猥›潊獹楴正┠⁳畢瑴湯┠⁳獩瀠敲獳摥",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱 畢瑴湯┠⁳獩瀠敲獳摥",
+        "畂瑴湯ㄠ琠⁯㈱8 畢瑴湯┠⁳獩瀠敲獳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Buttons > Button is Pressed Down",
+      "text": "ㄱ猥›潊獹楴正┠⁳畢瑴湯┠⁳獩瀠敲獳摥搠睯n",
+      "menuId": 26025,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱 畢瑴湯┠⁳獩瀠敲獳摥搠睯n",
+        "畂瑴湯ㄠ琠⁯㈱8 畢瑴湯┠⁳獩瀠敲獳摥搠睯n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Buttons > Button is Released",
+      "text": "ㄱ猥›潊獹楴正┠⁳畢瑴湯┠⁳獩爠汥慥敳d",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱 畢瑴湯┠⁳獩爠汥慥敳d",
+        "畂瑴湯ㄠ琠⁯㈱8 畢瑴湯┠⁳獩爠汥慥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Buttons > Any Button is Pressed",
+      "text": "ㄱ猥›湁⁹畢瑴湯漠⁮潪獹楴正┠⁳獩瀠敲獳摥",
+      "menuId": 26035,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱漀⁮潪獹楴正┠⁳獩瀠敲獳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Point-Of-View > Point-of-view is Forward",
+      "text": "ㄱ猥›潐湩⵴景瘭敩⁷潪獹楴正┠⁳獩映牯慷摲",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱攀⁷潪獹楴正┠⁳獩映牯慷摲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Point-Of-View > Point-of-view is Backward",
+      "text": "ㄱ猥›潐湩⵴景瘭敩⁷潪獹楴正┠⁳獩戠捡睫牡d",
+      "menuId": 26045,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱攀⁷潪獹楴正┠⁳獩戠捡睫牡d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Point-Of-View > Point-of-view is Left",
+      "text": "ㄱ猥›潐湩⵴景瘭敩⁷潪獹楴正┠⁳獩氠晥t",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱攀⁷潪獹楴正┠⁳獩氠晥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Point-Of-View > Point-of-view is Right",
+      "text": "ㄱ猥›潐湩⵴景瘭敩⁷潪獹楴正┠⁳獩爠杩瑨",
+      "menuId": 26055,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱攀⁷潪獹楴正┠⁳獩爠杩瑨"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Point-Of-View > Point-of-view is Centered",
+      "text": "ㄱ猥›潐湩⵴景瘭敩⁷潪獹楴正┠⁳獩挠湥整敲d",
+      "menuId": 26060,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱攀⁷潪獹楴正┠⁳獩挠湥整敲d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Buttons > Button is Changed",
+      "text": "ㄱ猥›潊獹楴正┠⁳畢瑴湯┠⁳獩挠慨杮摥",
+      "menuId": 26065,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱 畢瑴湯┠⁳獩挠慨杮摥",
+        "畂瑴湯ㄠ琠⁯㈱8 畢瑴湯┠⁳獩挠慨杮摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Buttons > Any Button is Released",
+      "text": "ㄱ猥›湁⁹畢瑴湯漠⁮潪獹楴正┠⁳獩爠汥慥敳d",
+      "menuId": 26080,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱漀⁮潪獹楴正┠⁳獩爠汥慥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Directions > Compare to Joystick Direction",
+      "text": "ㄱ猥›楄敲瑣潩⁮景琠敨樠祯瑳捩⁫猥椠⁳猥",
+      "menuId": 26085,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱昀琠敨樠祯瑳捩⁫猥椠⁳猥",
+        "楄敲瑣潩⁮‰‭‸潣湵整⵲汣捯睫獩⁥瑳牡楴杮眠瑩⁨楲桧⁴㠨椠⁳散瑮牥摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Buttons > AND/OR > AND Two Buttons",
+      "text": "漥›潊獹楴正┠‰畢瑴湯┠‱乁⁄㈥",
+      "menuId": 26090,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱甀瑴湯┠‱乁⁄㈥",
+        "畂瑴湯ㄠ琠⁯㈱8甀瑴湯┠‱乁⁄㈥",
+        "畂瑴湯ㄠ琠⁯㈱8甀瑴湯┠‱乁⁄㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Buttons > AND/OR > AND Three Buttons",
+      "text": "漥›潊獹楴正┠‰畢瑴湯┠‱乁⁄㈥䄠䑎┠3",
+      "menuId": 26095,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱甀瑴湯┠‱乁⁄㈥䄠䑎┠3",
+        "畂瑴湯ㄠ琠⁯㈱8甀瑴湯┠‱乁⁄㈥䄠䑎┠3",
+        "畂瑴湯ㄠ琠⁯㈱8甀瑴湯┠‱乁⁄㈥䄠䑎┠3",
+        "畂瑴湯ㄠ琠⁯㈱8甀瑴湯┠‱乁⁄㈥䄠䑎┠3"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Buttons > AND/OR > OR Two Buttons",
+      "text": "漥›潊獹楴正┠‰畢瑴湯┠‱剏┠2",
+      "menuId": 26100,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱甀瑴湯┠‱剏┠2",
+        "畂瑴湯ㄠ琠⁯㈱8甀瑴湯┠‱剏┠2",
+        "畂瑴湯ㄠ琠⁯㈱8甀瑴湯┠‱剏┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Buttons > AND/OR > OR Three Buttons",
+      "text": "漥›潊獹楴正┠‰畢瑴湯┠‱剏┠′剏┠3",
+      "menuId": 26105,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱甀瑴湯┠‱剏┠′剏┠3",
+        "畂瑴湯ㄠ琠⁯㈱8甀瑴湯┠‱剏┠′剏┠3",
+        "畂瑴湯ㄠ琠⁯㈱8甀瑴湯┠‱剏┠′剏┠3",
+        "畂瑴湯ㄠ琠⁯㈱8甀瑴湯┠‱剏┠′剏┠3"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Check Axis > Has Z-axis",
+      "text": "ㄱ猥›潊獹楴正┠⁳慨⁳ⵚ硡獩",
+      "menuId": 26110,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱 慨⁳ⵚ硡獩"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Check Axis > Has X-rotation",
+      "text": "ㄱ猥›潊獹楴正┠⁳慨⁳ⵘ潲慴楴湯",
+      "menuId": 26115,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱 慨⁳ⵘ潲慴楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Check Axis > Has Y-rotation",
+      "text": "ㄱ猥›潊獹楴正┠⁳慨⁳ⵙ潲慴楴湯",
+      "menuId": 26120,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱 慨⁳ⵙ潲慴楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Check Axis > Has Z-rotation",
+      "text": "ㄱ猥›潊獹楴正┠⁳慨⁳ⵚ潲慴楴湯",
+      "menuId": 26125,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱 慨⁳ⵚ潲慴楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Check Axis > Has Point-Of-View",
+      "text": "ㄱ猥›潊獹楴正┠⁳慨⁳潐湩伭ⵦ楖睥",
+      "menuId": 26130,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱 慨⁳潐湩伭ⵦ楖睥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Directions > Direction is Changed",
+      "text": "ㄱ猥›楄敲瑣潩⁮景琠敨樠祯瑳捩⁫猥椠⁳档湡敧d",
+      "menuId": 26135,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱昀琠敨樠祯瑳捩⁫猥椠⁳档湡敧d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Force Feedback > Control has Force Feedback",
+      "text": "ㄱ猥›潊獹楴正┠⁳慨⁳潦捲⁥敦摥慢正",
+      "menuId": 26140,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱 慨⁳潦捲⁥敦摥慢正"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Check Axis > Has Slider",
+      "text": "ㄱ猥›潊獹楴正┠⁳慨⁳汳摩牥",
+      "menuId": 26145,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱 慨⁳汳摩牥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Control Type > Is Gamepad",
+      "text": "漥›潃瑮潲汬牥┠‰獩朠浡灥摡",
+      "menuId": 26150,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱 獩朠浡灥摡"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Control Type > Is Joystick",
+      "text": "漥›潃瑮潲汬牥┠‰獩樠祯瑳捩k",
+      "menuId": 26155,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱 獩樠祯瑳捩k"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Control Type > Is Steering Wheel",
+      "text": "漥›潃瑮潲汬牥┠‰獩猠整牥湩⁧桷敥l",
+      "menuId": 26160,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱 獩猠整牥湩⁧桷敥l"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Control Type > Is Xbox Controller",
+      "text": "漥›潃瑮潲汬牥┠‰獩堠潢⁸潣瑮潲汬牥",
+      "menuId": 26165,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱 獩堠潢⁸潣瑮潲汬牥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Directions > Compare to Right Stick Direction",
+      "text": "ㄱ猥›楒桧⁴瑳捩⁫楤敲瑣潩⁮景琠敨樠祯瑳捩⁫猥椠⁳猥",
+      "menuId": 26170,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱 楤敲瑣潩⁮景琠敨樠祯瑳捩⁫猥椠⁳猥",
+        "楄敲瑣潩⁮‰‭‸潣湵整⵲汣捯睫獩⁥瑳牡楴杮眠瑩⁨楲桧⁴㠨椠⁳散瑮牥摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Directions > Right Stick Direction is Changed",
+      "text": "ㄱ猥›楒桧⁴瑳捩⁫楤敲瑣潩⁮景琠敨樠祯瑳捩⁫猥椠⁳档湡敧d",
+      "menuId": 26175,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱 楤敲瑣潩⁮景琠敨樠祯瑳捩⁫猥椠⁳档湡敧d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Xbox Controller Drivers are Installed",
+      "text": "䉘硯挠湯牴汯敬⁲牤癩牥⁳湩瑳污敬d",
+      "menuId": 26180,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Ignore/Restore > Ignore Control",
+      "text": "㄰杉潮敲挠湯牴汯┠s",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱─s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Ignore/Restore > Restore Control",
+      "text": "㄰敒瑳牯⁥潣瑮潲⁬猥",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱 猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Force Feedback > Create from file",
+      "text": "牃慥整攠晦捥⁴牦浯映汩⁥ㄥ映牯樠祯瑳捩⁫〥",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        63,
+        45
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱洀映汩⁥ㄥ映牯樠祯瑳捩⁫〥",
+        "吣瑩敬匣汥捥⁴楦敬䘣汩整⍲潆捲⁥敆摥慢正䔠晦捥籴⸪晦籥汁⁬楦敬米⸪簪",
+        "慎敭琠⁯摩湥楴祦琠敨攠晦捥t捲⁥敆摥慢正䔠晦捥籴⸪晦籥汁⁬楦敬米⸪簪"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Force Feedback > Joystick > Predefined > Create Gun Shot",
+      "text": "潊獹楴正┠‰‭牃慥整攠晦捥㩴䜠湵桳瑯‬䑉›ㄥ",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱愀整攠晦捥㩴䜠湵桳瑯‬䑉›ㄥ",
+        "慎敭琠⁯摩湥楴祦琠敨攠晦捥t䜠湵桳瑯‬䑉›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Force Feedback > Joystick > Predefined > Create Vehicle",
+      "text": "潊獹楴正┠‰‭牃慥整攠晦捥㩴嘠桥捩敬‬䑉›ㄥ",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱愀整攠晦捥㩴嘠桥捩敬‬䑉›ㄥ",
+        "慎敭琠⁯摩湥楴祦琠敨攠晦捥t嘠桥捩敬‬䑉›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Force Feedback > Joystick > Predefined > Create Crash",
+      "text": "潊獹楴正┠‰‭牃慥整攠晦捥㩴䌠慲桳‬䑉›ㄥ",
+      "menuId": 25035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱愀整攠晦捥㩴䌠慲桳‬䑉›ㄥ",
+        "慎敭琠⁯摩湥楴祦琠敨攠晦捥t䌠慲桳‬䑉›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Force Feedback > Stop All Effects",
+      "text": "瑓灯愠汬攠晦捥獴漠⁮潪獹楴正┠0",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱漀⁮潪獹楴正┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Force Feedback > Gamepad > Create Soft Rumble",
+      "text": "潊獹楴正┠‰‭牃慥整猠景⁴畲扭敬‬䑉›ㄥ",
+      "menuId": 25045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱愀整猠景⁴畲扭敬‬䑉›ㄥ",
+        "慎敭琠⁯摩湥楴祦琠敨攠晦捥t扭敬‬䑉›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Force Feedback > Gamepad > Create Hard Rumble",
+      "text": "潊獹楴正┠‰‭牃慥整栠牡⁤畲扭敬‬䑉›ㄥ",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱愀整栠牡⁤畲扭敬‬䑉›ㄥ",
+        "慎敭琠⁯摩湥楴祦琠敨攠晦捥t扭敬‬䑉›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Force Feedback > Gamepad > Create Custom Rumble",
+      "text": "潊獹楴正┠‰‭牃慥整挠獵潴⁭畲扭敬‬敄慬㩹┠‱畄慲楴湯›㈥‬瑓潲杮洠瑯牯┠ⰳ圠慥⁫潭潴⁲㐥‬䑉›㔥",
+      "menuId": 25055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱愀整挠獵潴⁭畲扭敬‬敄慬㩹┠‱畄慲楴湯›㈥‬瑓潲杮洠瑯牯┠ⰳ圠慥⁫潭潴⁲㐥‬䑉›㔥",
+        "敄慬⁹猨捥湯獤愠⁳汦慯⥴戠晥牯⁥晥敦瑣猠慴瑲s畄慲楴湯›㈥‬瑓潲杮洠瑯牯┠ⰳ圠慥⁫潭潴⁲㐥‬䑉›㔥",
+        "畄慲楴湯⠠敳潣摮⁳獡映潬瑡‬牯ⴠ‱潦⁲湩楦楮整)慲楴湯›㈥‬瑓潲杮洠瑯牯┠ⰳ圠慥⁫潭潴⁲㐥‬䑉›㔥",
+        "瑓潲杮洠瑯牯⠠牯氠晥⁴潭潴⁲晩堠潢⥸映牯散⠠慲杮⁥‰潴ㄠ)‬瑓潲杮洠瑯牯┠ⰳ圠慥⁫潭潴⁲㐥‬䑉›㔥",
+        "敗歡洠瑯牯映牯散⠠牯爠杩瑨洠瑯牯椠⁦托硯 爨湡敧〠琠⁯⤱",
+        "慎敭琠⁯摩湥楴祦琠敨攠晦捥t瑯牯椠⁦托硯 爨湡敧〠琠⁯⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Force Feedback > Start Effect",
+      "text": "瑓牡⁴晥敦瑣┠‱湯䨠祯瑳捩⁫〥‬汰祡┠′楴敭s",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱渀䨠祯瑳捩⁫〥‬汰祡┠′楴敭s",
+        "慎敭琠⁯摩湥楴祦琠敨攠晦捥t〥‬汰祡┠′楴敭s",
+        "畎扭牥漠⁦楴敭⁳潴瀠慬⁹晥敦瑣漠⁲ㄭ映牯椠普湩瑩e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Force Feedback > Stop Effect",
+      "text": "瑓灯攠晦捥⁴ㄥ漠⁮潊獹楴正┠0",
+      "menuId": 25065,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱 潊獹楴正┠0",
+        "慎敭琠⁯摩湥楴祦琠敨攠晦捥t0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Force Feedback > Pause All Effects",
+      "text": "慐獵⁥污⁬晥敦瑣⁳湯樠祯瑳捩⁫〥",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱 湯樠祯瑳捩⁫〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Force Feedback > Resume All Effects",
+      "text": "敒畳敭愠汬攠晦捥獴漠⁮潪獹楴正┠0",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱猀漠⁮潪獹楴正┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Force Feedback > Joystick > Custom > Create Constant Force",
+      "text": "䙆›楄敲瑣潩慮⁬潃獮慴瑮‬潊獹楴正┠ⰰ䐠牵瑡潩⁮ㄥ‬楄⁲㈥‬瑓敲杮桴┠ⰳ䤠⁄㐥",
+      "menuId": 25085,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱漀獮慴瑮‬潊獹楴正┠ⰰ䐠牵瑡潩⁮ㄥ‬楄⁲㈥‬瑓敲杮桴┠ⰳ䤠⁄㐥",
+        "畄慲楴湯⠠敳潣摮⁳獡映潬瑡‬牯ⴠ‱潦⁲湩楦楮整)ㄥ‬楄⁲㈥‬瑓敲杮桴┠ⰳ䤠⁄㐥",
+        "楄敲瑣潩⁮湩搠来敲獥‬‰獩渠牯桴愠摮挠潬正眠獩eㄥ‬楄⁲㈥‬瑓敲杮桴┠ⰳ䤠⁄㐥",
+        "瑓敲杮桴⠠ㄭⰰ〰‰桴潲杵⁨〱〬〰)摮挠潬正眠獩eㄥ‬楄⁲㈥‬瑓敲杮桴┠ⰳ䤠⁄㐥",
+        "慎敭琠⁯摩湥楴祦琠敨攠晦捥t〬〰)摮挠潬正眠獩eㄥ‬楄⁲㈥‬瑓敲杮桴┠ⰳ䤠⁄㐥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Force Feedback > Joystick > Custom > Create Periodic Force",
+      "text": "䙆›楄敲瑣潩慮⁬敐楲摯捩‬潊獹楴正┠ⰰ䐠牵瑡潩⁮ㄥ‬楄⁲㈥‬流汰瑩摵⁥㌥‬敐楲摯┠ⰴ吠灹⁥㔥‬䑉┠6",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱攀楲摯捩‬潊獹楴正┠ⰰ䐠牵瑡潩⁮ㄥ‬楄⁲㈥‬流汰瑩摵⁥㌥‬敐楲摯┠ⰴ吠灹⁥㔥‬䑉┠6",
+        "畄慲楴湯⠠敳潣摮⁳獡映潬瑡‬牯ⴠ‱潦⁲湩楦楮整)ㄥ‬楄⁲㈥‬流汰瑩摵⁥㌥‬敐楲摯┠ⰴ吠灹⁥㔥‬䑉┠6",
+        "楄敲瑣潩⁮湩搠来敲獥‬‰獩渠牯桴愠摮挠潬正眠獩eㄥ‬楄⁲㈥‬流汰瑩摵⁥㌥‬敐楲摯┠ⰴ吠灹⁥㔥‬䑉┠6",
+        "流汰瑩摵⁥景琠敨映牯散⠠‰桴潲杵⁨〱〬〰)眠獩eㄥ‬楄⁲㈥‬流汰瑩摵⁥㌥‬敐楲摯┠ⰴ吠灹⁥㔥‬䑉┠6",
+        "敐楲摯⠠敳潣摮⁳獡映潬瑡)桴潲杵⁨〱〬〰)眠獩eㄥ‬楄⁲㈥‬流汰瑩摵⁥㌥‬敐楲摯┠ⰴ吠灹⁥㔥‬䑉┠6",
+        "祔数漠⁦潦捲⁥〨㴠匠湩ⱥㄠ㴠匠畱牡ⱥ㈠㴠吠楲湡汧ⱥ㌠㴠匠睡潴瑯⁨灵‬‴‽慓瑷潯桴搠睯⥮瀀⁥㔥‬䑉┠6",
+        "慎敭琠⁯摩湥楴祦琠敨攠晦捥t匠畱牡ⱥ㈠㴠吠楲湡汧ⱥ㌠㴠匠睡潴瑯⁨灵‬‴‽慓瑷潯桴搠睯⥮瀀⁥㔥‬䑉┠6"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Force Feedback > Joystick > Custom > Create Resistance Force",
+      "text": "䙆›楄敲瑣潩慮⁬敒楳瑳湡散‬潊獹楴正┠ⰰ䐠牵瑡潩⁮ㄥ‬潃晥楦楣湥⁴㈥‬慓畴慲楴湯┠ⰳ吠灹⁥㐥‬䑉┠5",
+      "menuId": 25095,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱攀楳瑳湡散‬潊獹楴正┠ⰰ䐠牵瑡潩⁮ㄥ‬潃晥楦楣湥⁴㈥‬慓畴慲楴湯┠ⰳ吠灹⁥㐥‬䑉┠5",
+        "畄慲楴湯⠠敳潣摮⁳獡映潬瑡‬牯ⴠ‱潦⁲湩楦楮整)⁮ㄥ‬潃晥楦楣湥⁴㈥‬慓畴慲楴湯┠ⰳ吠灹⁥㐥‬䑉┠5",
+        "潃晥楦楣湥⁴⠠ㄭⰰ〰‰桴潲杵⁨〱〬〰)湩楦楮整)⁮ㄥ‬潃晥楦楣湥⁴㈥‬慓畴慲楴湯┠ⰳ吠灹⁥㐥‬䑉┠5",
+        "慓畴慲楴湯⠠‰桴潲杵⁨〱〬〰)〱〬〰)湩楦楮整)⁮ㄥ‬潃晥楦楣湥⁴㈥‬慓畴慲楴湯┠ⰳ吠灹⁥㐥‬䑉┠5",
+        "祔数漠⁦敲楳瑳湡散⠠‰‽灓楲杮‬‱‽慄灭牥‬′‽湉牥楴⥡昀楦楣湥⁴㈥‬慓畴慲楴湯┠ⰳ吠灹⁥㐥‬䑉┠5",
+        "慎敭琠⁯摩湥楴祦琠敨攠晦捥t杮‬‱‽慄灭牥‬′‽湉牥楴⥡昀楦楣湥⁴㈥‬慓畴慲楴湯┠ⰳ吠灹⁥㐥‬䑉┠5"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Force Feedback > Joystick > Custom > Create Periodic Force Advanced",
+      "text": "䙆›楄敲瑣潩慮⁬敐楲摯捩硅‬潊獹楴正┠ⰰ䐠汥祡┠ⰱ䐠牵瑡潩⁮㈥‬楄⁲㌥‬流汰瑩摵⁥㐥‬敐楲摯┠ⰵ传晦敳⁴㘥‬桐獡⁥㜥‬瑁慴正楔敭┠ⰸ䄠瑴捡䱫癥汥┠ⰹ䘠摡呥浩⁥䄥‬慆敤敌敶⁬䈥‬祔数┠ⱃ䤠⁄䐥",
+      "menuId": 25105,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Force Feedback > Delete Effect",
+      "text": "敄敬整攠晦捥⁴ㄥ映潲⁭潪獹楴正┠0",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱昀潲⁭潪獹楴正┠0",
+        "慎敭琠⁯摩湥楴祦琠敨攠晦捥t正┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Force Feedback > Delete All Effects",
+      "text": "敄敬整愠汬攠晦捥獴映潲⁭潪獹楴正┠0",
+      "menuId": 25115,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱猀映潲⁭潪獹楴正┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Force Feedback > Joystick > Predefined > Create Explosion",
+      "text": "潊獹楴正┠‰‭牃慥整攠晦捥㩴䔠灸潬楳湯‬䑉›ㄥ",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱愀整攠晦捥㩴䔠灸潬楳湯‬䑉›ㄥ",
+        "慎敭琠⁯摩湥楴祦琠敨攠晦捥t䔠灸潬楳湯‬䑉›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Force Feedback > Joystick > Predefined > Create Boing",
+      "text": "潊獹楴正┠‰‭牃慥整攠晦捥㩴䈠楯杮‬䑉›ㄥ",
+      "menuId": 25125,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱愀整攠晦捥㩴䈠楯杮‬䑉›ㄥ",
+        "慎敭琠⁯摩湥楴祦琠敨攠晦捥t䈠楯杮‬䑉›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Force Feedback > Joystick > Predefined > Create Bump",
+      "text": "潊獹楴正┠‰‭牃慥整攠晦捥㩴䈠浵Ɒ䐠物›ㄥ‬䑉›㈥",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱愀整攠晦捥㩴䈠浵Ɒ䐠物›ㄥ‬䑉›㈥",
+        "楄敲瑣潩⁮湩搠来敲獥‬‰獩渠牯桴愠摮挠潬正眠獩e㈥",
+        "慎敭琠⁯摩湥楴祦琠敨攠晦捥t牯桴愠摮挠潬正眠獩e㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Force Feedback > Joystick > Predefined > Create Minigun",
+      "text": "潊獹楴正┠‰‭牃慥整攠晦捥㩴䴠湩杩湵‬䑉›ㄥ",
+      "menuId": 25135,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱愀整攠晦捥㩴䴠湩杩湵‬䑉›ㄥ",
+        "慎敭琠⁯摩湥楴祦琠敨攠晦捥t䴠湩杩湵‬䑉›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Force Feedback > Joystick > Predefined > Create Crossbow",
+      "text": "潊獹楴正┠‰‭牃慥整攠晦捥㩴䌠潲獳潢ⱷ䤠㩄┠1",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱愀整攠晦捥㩴䌠潲獳潢ⱷ䤠㩄┠1",
+        "慎敭琠⁯摩湥楴祦琠敨攠晦捥t䌠潲獳潢ⱷ䤠㩄┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Force Feedback > Joystick > Predefined > Create Dirt",
+      "text": "潊獹楴正┠‰‭牃慥整攠晦捥㩴䐠物ⱴ䤠㩄┠1",
+      "menuId": 25145,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱愀整攠晦捥㩴䐠物ⱴ䤠㩄┠1",
+        "慎敭琠⁯摩湥楴祦琠敨攠晦捥t䐠物ⱴ䤠㩄┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Force Feedback > Joystick > Predefined > Create Energy",
+      "text": "潊獹楴正┠‰‭牃慥整攠晦捥㩴䔠敮杲ⱹ䤠㩄┠1",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱愀整攠晦捥㩴䔠敮杲ⱹ䤠㩄┠1",
+        "慎敭琠⁯摩湥楴祦琠敨攠晦捥t䔠敮杲ⱹ䤠㩄┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Force Feedback > Joystick > Predefined > Create Laser",
+      "text": "潊獹楴正┠‰‭牃慥整攠晦捥㩴䰠獡牥‬䑉›ㄥ",
+      "menuId": 25155,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱愀整攠晦捥㩴䰠獡牥‬䑉›ㄥ",
+        "慎敭琠⁯摩湥楴祦琠敨攠晦捥t䰠獡牥‬䑉›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Force Feedback > Joystick > Predefined > Create Light saber",
+      "text": "潊獹楴正┠‰‭牃慥整攠晦捥㩴䰠杩瑨猠扡牥‬䑉›ㄥ",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱愀整攠晦捥㩴䰠杩瑨猠扡牥‬䑉›ㄥ",
+        "慎敭琠⁯摩湥楴祦琠敨攠晦捥t䰠杩瑨猠扡牥‬䑉›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Force Feedback > Joystick > Predefined > Create Offroad",
+      "text": "潊獹楴正┠‰‭牃慥整攠晦捥㩴传晦潲摡‬䑉›ㄥ",
+      "menuId": 25165,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱愀整攠晦捥㩴传晦潲摡‬䑉›ㄥ",
+        "慎敭琠⁯摩湥楴祦琠敨攠晦捥t传晦潲摡‬䑉›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Force Feedback > Joystick > Predefined > Create Rolling",
+      "text": "潊獹楴正┠‰‭牃慥整攠晦捥㩴删汯楬杮‬䑉›ㄥ",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱愀整攠晦捥㩴删汯楬杮‬䑉›ㄥ",
+        "慎敭琠⁯摩湥楴祦琠敨攠晦捥t删汯楬杮‬䑉›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Map Right Stick Axes",
+      "text": "慍⁰楲桧⁴瑳捩⁫硡獩映牯樠祯瑳捩⁫〥琠⁯灵搯睯㩮┠ⰱ氠晥⽴楲桧⁴㈥",
+      "menuId": 25175,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱砀獩映牯樠祯瑳捩⁫〥琠⁯灵搯睯㩮┠ⰱ氠晥⽴楲桧⁴㈥",
+        "灕搯睯⁮硡獩⠠‰‽ⱘㄠ㴠夠‬′‽ⱚ㌠㴠堠删瑯‬‴‽剙瑯‬‵‽⁘潒ⱴ㘠㴠匠楬敤⥲",
+        "敌瑦爯杩瑨愠楸⁳〨㴠堠‬‱‽ⱙ㈠㴠娠‬″‽⁘潒ⱴ㐠㴠夠潒ⱴ㔠㴠堠删瑯‬‶‽汓摩牥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Poll For New Devices",
+      "text": "潐汬映牯渠睥搠癥捩獥",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Axis Values > Raw X Value",
+      "text": "慒塷(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Axis Values > Raw Y Value",
+      "text": "慒奷(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Axis Values > Raw Z Value",
+      "text": "慒婷(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get Axis Values > Raw X-rotation",
+      "text": "慒⁷剘瑯瑡潩⡮",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get Axis Values > Raw Y-rotation",
+      "text": "慒⁷剙瑯瑡潩⡮",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get Axis Values > Raw Z-rotation",
+      "text": "慒⁷剚瑯瑡潩⡮",
+      "menuId": 27025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Point-of-view Position in Degrees",
+      "text": "佐䑖来敲獥(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Min Values > Min X Value",
+      "text": "楍塮(",
+      "menuId": 27035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Min Values > Min Y Value",
+      "text": "楍奮(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Min Values > Min Z Value",
+      "text": "楍婮(",
+      "menuId": 27045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Min Values > Min X-rotation",
+      "text": "楍⁮剘瑯瑡潩⡮",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Min Values > Min Y-rotation",
+      "text": "楍⁮剙瑯瑡潩⡮",
+      "menuId": 27055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Min Values > Min Z-rotation",
+      "text": "楍⁮剚瑯瑡潩⡮",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Max Values > Max X Value",
+      "text": "慍塸(",
+      "menuId": 27065,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Max Values > Max Y Value",
+      "text": "慍奸(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Max Values > Max Z Value",
+      "text": "慍婸(",
+      "menuId": 27075,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Max Values > Max X-rotation",
+      "text": "慍⁸剘瑯瑡潩⡮",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Max Values > Max Y-rotation",
+      "text": "慍⁸剙瑯瑡潩⡮",
+      "menuId": 27085,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Max Values > Max Z-rotation",
+      "text": "慍⁸剚瑯瑡潩⡮",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Max Values > Max Number of Axis",
+      "text": "慍䅸楸⡳",
+      "menuId": 27095,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Max Values > Max Number of Buttons",
+      "text": "慍䉸瑵潴獮(",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Directions > Joystick Direction",
+      "text": "潊䑹物(",
+      "menuId": 27105,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Buttons > Last Single Button Pressed",
+      "text": "慌瑳畂瑴湯牐獥敳⡤",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱⠀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Buttons > Last Single Button Released",
+      "text": "慌瑳畂瑴湯敒敬獡摥(",
+      "menuId": 27115,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱搀("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Number of Joysticks Attached",
+      "text": "牎晏潊獹楴正⡳",
+      "menuId": 27120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Last Error Code",
+      "text": "慌瑳牅潲䍲摯⡥",
+      "menuId": 27125,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Directions > Joystick Direction (Degrees)",
+      "text": "潊䑹来(",
+      "menuId": 27130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Get Joystick Type",
+      "text": "潊獹楴正吠灹⡥",
+      "menuId": 27135,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Get Joystick Capabilities",
+      "text": "潊獹楴正䌠灡扡汩瑩敩⡳",
+      "menuId": 27140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱琀敩⡳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Min Values > Min Slider Value",
+      "text": "楍⁮汳摩牥(",
+      "menuId": 27145,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Max Values > Max Slider Value",
+      "text": "慍⁸汳摩牥(",
+      "menuId": 27150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Get Axis Values > Raw Slider Value",
+      "text": "汓摩牥瘠污敵(",
+      "menuId": 27155,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Get Device Name",
+      "text": "敄楶散慎敭⠤",
+      "menuId": 27160,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Directions > Joystick Direction Distance (Percent)",
+      "text": "潊䑹獩慴据⡥",
+      "menuId": 27165,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱",
+        "硁獩⠠‰‽ⱘㄠ㴠夠‬′‽⥚"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Directions > Right Stick Direction Distance (Percent)",
+      "text": "楒桧却楴正楄瑳湡散(",
+      "menuId": 27170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱攀(",
+        "硁獩⠠‰‽敌瑦楒桧ⱴㄠ㴠唠䑰睯⥮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Directions > Right Stick Direction",
+      "text": "楒桧却楴正楄⡲",
+      "menuId": 27175,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Directions > Right Stick Direction (Degrees)",
+      "text": "楒桧却楴正敄⡧",
+      "menuId": 27180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Get Last Axis Changed",
+      "text": "慌瑳硁獩桃湡敧⡤",
+      "menuId": 27185,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潊獹楴正ㄠ琠⁯㘱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Get Last Active Joystick",
+      "text": "慌瑳捁楴敶潊獹楴正(",
+      "menuId": 27190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

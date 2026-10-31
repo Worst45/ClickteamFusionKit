@@ -1,0 +1,164 @@
+{
+  "file": "kctray.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Tray Icon Object Conditions",
+      "text": "敎敶⵲潹⵵業摮.",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "User clicks on tray icon...",
+      "text": "ㄱ猥›獕牥┠⁳湯琠慲⁹捩湯.",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Tray Icon Object Actions",
+      "text": "〰潄獥渠瑯楨杮.",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Icon > Change Icon Image",
+      "text": "㄰桃湡敧䤠潣⁮潴┠⹳",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Tool Tip > Change Tool Tip",
+      "text": "㄰桃湡敧吠潯⁬楔⁰潴┠⹳",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Icon > Reset Icon Image",
+      "text": "〰敒敳⁴捉湯.",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Tool Tip > Reset Tool Tip",
+      "text": "〰敒敳⁴潔汯吠灩.",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Window > Enable Auto-hide",
+      "text": "〰湅扡敬䄠瑵ⵯ楨敤洠摯⹥",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Window > Disable Auto-hide",
+      "text": "〰楄慳汢⁥畁潴栭摩⁥潭敤.",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Window > Minimize/Hide Window",
+      "text": "〰楍楮業敺䠯摩⁥楷摮睯.",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Window > Restore/Show Window",
+      "text": "〰敒瑳牯⽥桓睯眠湩潤⹷",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Window > Hide mode > Set minimize and hide mode.",
+      "text": "〰敓⁴楍楮業敺愠摮䠠摩⁥潭敤.",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Window > Hide mode > Set instant Hide mode.",
+      "text": "〰敓⁴湉瑳湡⁴楈敤洠摯⹥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": []
+}

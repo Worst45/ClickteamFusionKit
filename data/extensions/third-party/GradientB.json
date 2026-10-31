@@ -1,0 +1,204 @@
+{
+  "file": "GradientB.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Color 1",
+      "text": "敓⁴潃潬⁲‱潴┠0",
+      "menuId": 25000,
+      "resText": "Set Color 1 to %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "潃潬r潬⁲‱潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Set Color 2",
+      "text": "敓⁴潃潬⁲′潴┠0",
+      "menuId": 25010,
+      "resText": "Set Color 2 to %0",
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "潃潬r潬⁲′潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set Direction",
+      "text": "敓⁴楄敲瑣潩⁮潴┠0",
+      "menuId": 25020,
+      "resText": "Set Direction to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楄敲瑣潩⁮ ‰‽潨楲潺瑮污ㄠ㴠瘠牥楴慣⁬)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Set Width",
+      "text": "敓⁴楗瑤⁨潴┠0",
+      "menuId": 25030,
+      "resText": "Set Width to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗瑤h瑤⁨潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Set Height",
+      "text": "敓⁴效杩瑨琠⁯〥",
+      "menuId": 25040,
+      "resText": "Set Height to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "效杩瑨最瑨琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Set X ",
+      "text": "敓⁴⁘潴┠0",
+      "menuId": 25050,
+      "resText": "Set X to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "X⁴⁘潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Set Y",
+      "text": "敓⁴⁙潴┠0",
+      "menuId": 25060,
+      "resText": "Set Y to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Y⁴⁙潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Color 1",
+      "text": "潃潬ㅲ(",
+      "menuId": 27000,
+      "resText": "Color1(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Color 2",
+      "text": "潃潬㉲(",
+      "menuId": 27010,
+      "resText": "Color2(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get Width",
+      "text": "楗瑤⡨",
+      "menuId": 27020,
+      "resText": "Width(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get Height",
+      "text": "效杩瑨(",
+      "menuId": 27030,
+      "resText": "Height(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "GetDirection",
+      "text": "楄敲瑣潩⡮",
+      "menuId": 27040,
+      "resText": "Direction(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get X",
+      "text": "敇塴(",
+      "menuId": 27050,
+      "resText": "GetX(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Get Y",
+      "text": "敇奴(",
+      "menuId": 27060,
+      "resText": "GetY(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

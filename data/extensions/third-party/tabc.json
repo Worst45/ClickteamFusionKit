@@ -1,0 +1,835 @@
+{
+  "file": "tabc.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Tab changed ?",
+      "text": "漥›湏琠扡挠慨杮摥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "LMB clicked ?",
+      "text": "漥›湏氠晥⁴潭獵⁥畢瑴湯挠楬正摥",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "LMB double-clicked ?",
+      "text": "漥›湏氠晥⁴潭獵⁥畢瑴湯搠畯汢ⵥ汣捩敫d",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "RMB clicked ?",
+      "text": "漥›湏爠杩瑨洠畯敳戠瑵潴⁮汣捩敫d",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "RMB double-clicked ?",
+      "text": "漥›湏爠杩瑨洠畯敳戠瑵潴⁮潤扵敬挭楬正摥",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Tab changed by user ?",
+      "text": "漥›湏琠扡挠慨杮摥戠⁹獵牥",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Tab changed to (by caption) ?",
+      "text": "漥›湏琠扡挠慨杮摥琠⁯〥",
+      "menuId": 26060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慃瑰潩n扡挠慨杮摥琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Tab changed to (by index) ?",
+      "text": "漥›湏琠扡椠摮硥挠慨杮摥琠⁯〥",
+      "menuId": 26070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湉敤x琠扡椠摮硥挠慨杮摥琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Modify tabs > Insert tab",
+      "text": "湉敳瑲琠扡眠瑩⁨慣瑰潩⁮〥‬捩湯┠‱瑡┠2",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慃瑰潩n扡眠瑩⁨慣瑰潩⁮〥‬捩湯┠‱瑡┠2",
+        "捉湯椠摮硥⠠ㄭ›潎敮)⁮〥‬捩湯┠‱瑡┠2",
+        "湉敤⁸⴨㨱䄠摤琠⁯桴⁥湥⥤ 捩湯┠‱瑡┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Modify tabs > Delete tab",
+      "text": "敄敬整琠扡愠⁴ㄥ",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湉敤x琠扡愠⁴ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Modify tabs > Delete all tabs",
+      "text": "敄敬整愠汬琠扡s",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Set current tab",
+      "text": "敓⁴畣牲湥⁴慴⁢潴┠0",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湉敤x牲湥⁴慴⁢潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Modify tabs > Set tab caption",
+      "text": "敓⁴慣瑰潩⁮景琠扡┠‰潴┠1",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "湉敤x瑰潩⁮景琠扡┠‰潴┠1",
+        "慃瑰潩n潩⁮景琠扡┠‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Window settings > Set width",
+      "text": "敓⁴楷瑤⁨潴┠0",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗瑤h瑤⁨潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Window settings > Set visibility",
+      "text": "敓⁴楶楳楢楬祴琠⁯〥",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楖楳汢瑩⁹〨㴠䠠摩ⱥㄠ㴠匠潨⥷"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Modify tabs > Hightlight tab",
+      "text": "楈桧汴杩瑨琠扡┠㨰┠1",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湉敤x杩瑨琠扡┠㨰┠1",
+        "楈桧楬桧⁴〨㴠䘠污敳‬‱‽牔敵)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Tab settings > Set minimal tab width",
+      "text": "敓⁴業楮慭⁬慴⁢楷瑤⁨潴┠0",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗瑤h楮慭⁬慴⁢楷瑤⁨潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Tab settings > Set padding",
+      "text": "敓⁴慰摤湩⁧潴⠠〥┬⤱",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗瑤h摤湩⁧潴⠠〥┬⤱",
+        "效杩瑨搀湩⁧潴⠠〥┬⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Tab settings > Set tab size",
+      "text": "敓⁴慴⁢楳敺琠⁯┨ⰰㄥ)",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗瑤h⁢楳敺琠⁯┨ⰰㄥ)",
+        "效杩瑨 楳敺琠⁯┨ⰰㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Deselect all",
+      "text": "敄敳敬瑣愠汬",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Modify tabs > Insert tabs from list",
+      "text": "湉敳瑲琠扡⁳牦浯氠獩⁴〥愠⁴ㄥ",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "敓業潣潬⵮敳慰慲整⁤楬瑳愀⁴ㄥ",
+        "湉敤⁸⴨㨱䄠摤琠⁯桴⁥湥⥤ ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Window settings > Set height",
+      "text": "敓⁴敨杩瑨琠⁯〥",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "效杩瑨最瑨琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Window settings > Set style",
+      "text": "敓⁴瑳汹⁥潴┠0",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "瑓汹⁥匨敥∠瑓汹獥Ⱒ洠牥敧眠瑩⁨漢≲漠数慲潴⥲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Modify icons > Set icon from image",
+      "text": "敓⁴捩湯┠‰牦浯椠慭敧┠ⰱ琠慲獮慰敲瑮挠汯牯㴠┠2",
+      "menuId": 25180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        63,
+        24
+      ],
+      "paramTitles": [
+        "湉敤⁸⴨㨱䄠摤琠⁯桴⁥湥⥤琀慲獮慰敲瑮挠汯牯㴠┠2",
+        "浉条⁥慰桴䄀摤琠⁯桴⁥湥⥤琀慲獮慰敲瑮挠汯牯㴠┠2",
+        "牔湡灳牡湥⁴潣潬⁲⴨㨱䘠物瑳瀠硩汥挠汯牯)牯㴠┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Modify icons > Set icon from active",
+      "text": "敓⁴捩湯┠‰牦浯愠瑣癩⁥扯敪瑣┠1",
+      "menuId": 25190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        1
+      ],
+      "paramTitles": [
+        "湉敤⁸⴨㨱䄠摤琠⁯桴⁥湥⥤攀瑣┠1",
+        "扏敪瑣ⴀ㨱䄠摤琠⁯桴⁥湥⥤攀瑣┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Modify icons > Remove icon",
+      "text": "敒潭敶椠潣⁮〥",
+      "menuId": 25200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湉敤x椠潣⁮〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Modify icons > Remove all icons",
+      "text": "敒潭敶愠汬椠潣獮",
+      "menuId": 25210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Modify icons > Set icon from overlay",
+      "text": "敓⁴捩湯┠‰牦浯漠敶汲祡愠摤敲獳┠1",
+      "menuId": 25220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湉敤⁸⴨㨱䄠摤琠⁯桴⁥湥⥤搀敲獳┠1",
+        "癏牥慬⁹摡牤獥s⁯桴⁥湥⥤搀敲獳┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Window settings > Force redraw",
+      "text": "潆捲⁥敲牤睡",
+      "menuId": 25230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Modify tabs > Set tab icon",
+      "text": "敓⁴捩湯漠⁦慴⁢〥琠⁯ㄥ",
+      "menuId": 25240,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湉敤x湯漠⁦慴⁢〥琠⁯ㄥ",
+        "捉湯椠摮硥⠠ㄭ›潎敮)ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Modify icons > Set icons from active (horizontal sequence)",
+      "text": "敓⁴捩湯⁳瑡┠‰牦浯愠瑣癩⁥扯敪瑣┠1",
+      "menuId": 25250,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        1
+      ],
+      "paramTitles": [
+        "瑓牡楴杮椠摮硥⠠ㄭ›摁⁤潴琠敨攠摮)1",
+        "扏敪瑣最椠摮硥⠠ㄭ›摁⁤潴琠敨攠摮)1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Modify tabs > Insert tabs with icons",
+      "text": "湉敳瑲琠扡⁳楷桴椠潣獮映潲⁭楬瑳┠‰瑡┠1",
+      "menuId": 25260,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "楌瑳⠠捩湯㬱整瑸㬱捩湯㬲⸮⤮椀瑳┠‰瑡┠1",
+        "湉敤⁸⴨㨱䄠摤琠⁯桴⁥湥⥤⤀椀瑳┠‰瑡┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Modify tabs > Set tab parameter",
+      "text": "敓⁴慰慲敭整⁲景琠扡┠‰潴┠1",
+      "menuId": 25270,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湉敤x慲敭整⁲景琠扡┠‰潴┠1",
+        "慐慲敭整r整⁲景琠扡┠‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get current tab",
+      "text": "畃呲扡(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get tab caption",
+      "text": "慔䍢灡楴湯⠤",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x楴湯⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get tab count",
+      "text": "慔䍢畯瑮(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get row count",
+      "text": "潒䍷畯瑮(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Size > Get width",
+      "text": "⡗",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Size > Get height",
+      "text": "⡈",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Styles > Tabs at bottom",
+      "text": "瑓潂瑴浯(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Styles > Tabs as buttons",
+      "text": "瑓畂瑴湯⡳",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Styles > Fixed tab width",
+      "text": "瑓楆數⡤",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Styles > Flat buttons",
+      "text": "瑓汆瑡(",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Styles > Multi-line",
+      "text": "瑓畍瑬⡩",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Styles > Vertical tabs",
+      "text": "瑓敖瑲捩污(",
+      "menuId": 27120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Styles > Vertical: right side",
+      "text": "瑓楒桧⡴",
+      "menuId": 27130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Styles > Single-line",
+      "text": "瑓楓杮敬(",
+      "menuId": 27140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Styles > Tabs as tabs",
+      "text": "瑓慔獢(",
+      "menuId": 27150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Styles > No tab stretching",
+      "text": "瑓潎瑓敲捴⡨",
+      "menuId": 27160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Get tab icon",
+      "text": "慔䥢潣⡮",
+      "menuId": 27170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x⡮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Find tab from caption",
+      "text": "楆摮慔⡢",
+      "menuId": 27180,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慃瑰潩n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Get tab X",
+      "text": "慔塢(",
+      "menuId": 27190,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤⁸⴨㨱䰠獡⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Get tab Y",
+      "text": "慔奢(",
+      "menuId": 27200,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤⁸⴨㨱䰠獡⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Get tab width",
+      "text": "慔坢(",
+      "menuId": 27210,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤⁸⴨㨱䰠獡⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Get tab height",
+      "text": "慔䡢(",
+      "menuId": 27220,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤⁸⴨㨱䰠獡⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Get tab parameter",
+      "text": "慔偢牡浡(",
+      "menuId": 27230,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x浡("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

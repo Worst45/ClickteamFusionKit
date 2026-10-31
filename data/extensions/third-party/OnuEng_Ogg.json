@@ -1,0 +1,23 @@
+{
+  "file": "OnuEng_Ogg.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Filetypes",
+      "text": "敓⁴湅楧敮牥䘠汩瑥灹獥琠⁯〥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆敬琠灹獥⠠灳捡⁥敳数慲整Ɽ椠据畬敤⸠ 攨⁧⸢瑩⸠浸⸠潭⁤献洳⤢"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": []
+}

@@ -1,0 +1,219 @@
+{
+  "file": "sfunc.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On Loop",
+      "text": "漥传⁮潌灯┠0",
+      "menuId": 26000,
+      "resText": "%o On Loop %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潌灯丠浡e┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On Local Function",
+      "text": "漥传⁮潌慣⁬畆据楴湯┠0",
+      "menuId": 26010,
+      "resText": "%o On Local Function %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潌慣⁬畆据楴湯丠浡e┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "On Global Function",
+      "text": "漥传⁮汇扯污䘠湵瑣潩⁮〥",
+      "menuId": 26020,
+      "resText": "%o On Global Function %0",
+      "flags": 32,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "汇扯污䘠湵瑣潩⁮慎敭 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Error?",
+      "text": "漥䔠牲牯",
+      "menuId": 26030,
+      "resText": "%o Error",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Call Loop (start,end,step)",
+      "text": "慃汬䰠潯⁰〥映潲⁭ㄥ琠⁯㈥猠整⁰㌥",
+      "menuId": 25000,
+      "resText": "Call Loop %0 from %1 to %2 step %3",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潌灯丠浡e〥映潲⁭ㄥ琠⁯㈥猠整⁰㌥",
+        "瑓牡⁴慖畬e映潲⁭ㄥ琠⁯㈥猠整⁰㌥",
+        "湅⁤慖畬ee映潲⁭ㄥ琠⁯㈥猠整⁰㌥",
+        "瑓灥嘠污敵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Call Local Function",
+      "text": "慃汬䰠捯污䘠湵瑣潩⁮〥",
+      "menuId": 25010,
+      "resText": "Call Local Function %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潌慣⁬畆据楴湯丠浡e〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Call Global Function",
+      "text": "慃汬䜠潬慢⁬畆据楴湯┠ⴰ┾1",
+      "menuId": 25020,
+      "resText": "Call Global Function %0->%1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "慔杲瑥传橢捥⁴慎敭渀┠ⴰ┾1",
+        "汇扯污䘠湵瑣潩⁮慎敭─ⴰ┾1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Clear Last Error",
+      "text": "汃慥⁲慌瑳䔠牲牯",
+      "menuId": 25030,
+      "resText": "Clear Last Error",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Loop Index",
+      "text": "湉敤⡸",
+      "menuId": 27000,
+      "resText": "Index(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Expression",
+      "text": "牐捯獥䕳灸敲獳潩⑮(",
+      "menuId": 27010,
+      "resText": "ProcessExpression$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "IF Expression (test,true,false)",
+      "text": "䙉䔠灸敲獳潩⡮",
+      "menuId": 27020,
+      "resText": "IF Expression(",
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3,
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Quote (string)",
+      "text": "畑瑯⡥",
+      "menuId": 27030,
+      "resText": "Quote(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get Error Code",
+      "text": "牅⡲",
+      "menuId": 27040,
+      "resText": "Err(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get Error Message",
+      "text": "牅䵲杳(",
+      "menuId": 27050,
+      "resText": "ErrMsg(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

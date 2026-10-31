@@ -1,0 +1,2323 @@
+{
+  "file": "INI++15.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Current group > Group exists",
+      "text": "漥›畃牲湥⁴牧畯⁰硥獩獴",
+      "menuId": 26000,
+      "resText": "%o: Current group exists",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Current group > Group has Item",
+      "text": "漥›畃牲湥⁴牧畯⁰慨⁳瑩浥┠0",
+      "menuId": 26010,
+      "resText": "%o: Current group has item %0",
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑉浥渠浡e⁴牧畯⁰慨⁳瑩浥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Current group > Item has hashed value",
+      "text": "漥›〥椠⁮畣牲湥⁴牧畯⁰獩攠畱污琠⁯㈥眠瑩⁨敤慦汵⁴慶畬⁥ㄥ⠠慨桳摥 ",
+      "menuId": 26020,
+      "resText": "%o: %0 in current group is equal to %2 with default value %1 (hashed) ",
+      "flags": 544,
+      "paramTypes": [
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "瑉浥渠浡e畣牲湥⁴牧畯⁰獩攠畱污琠⁯㈥眠瑩⁨敤慦汵⁴慶畬⁥ㄥ⠠慨桳摥 ",
+        "敄慦汵⁴瑳楲杮⠠晩椠整⁭潤獥渠瑯攠楸瑳)瑩⁨敤慦汵⁴慶畬⁥ㄥ⠠慨桳摥 ",
+        "瑓楲杮琠⁯潣灭牡⁥潴攀⁭潤獥渠瑯攠楸瑳)瑩⁨敤慦汵⁴慶畬⁥ㄥ⠠慨桳摥 "
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Group exists",
+      "text": "漥›片畯⁰〥攠楸瑳s",
+      "menuId": 26030,
+      "resText": "%o: Group %0 exists",
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "片畯⁰慮敭　攠楸瑳s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Group has item",
+      "text": "漥›片畯⁰〥栠獡椠整⁭ㄥ",
+      "menuId": 26040,
+      "resText": "%o: Group %0 has item %1",
+      "flags": 544,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "片畯⁰慮敭　栠獡椠整⁭ㄥ",
+        "瑉浥渠浡e　栠獡椠整⁭ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Item has hashed value",
+      "text": "漥›ㄥ椠⁮〥椠⁳煥慵⁬潴┠″楷桴搠晥畡瑬瘠污敵┠′栨獡敨⥤ ",
+      "menuId": 26050,
+      "resText": "%o: %1 in %0 is equal to %3 with default value %2 (hashed) ",
+      "flags": 544,
+      "paramTypes": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "片畯⁰慮敭　椠⁳煥慵⁬潴┠″楷桴搠晥畡瑬瘠污敵┠′栨獡敨⥤ ",
+        "瑉浥渠浡e　椠⁳煥慵⁬潴┠″楷桴搠晥畡瑬瘠污敵┠′栨獡敨⥤ ",
+        "敄慦汵⁴慶畬⁥椨⁦瑩浥搠敯⁳潮⁴硥獩⥴琀瘠污敵┠′栨獡敨⥤ ",
+        "瑓楲杮琠⁯潣灭牡⁥潴洀搠敯⁳潮⁴硥獩⥴琀瘠污敵┠′栨獡敨⥤ "
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Extra Functions > Is Wildcat Match?",
+      "text": "漥›楗摬慣⁴慭捴⁨ㄥ琠⁯慰瑴牥⁮〥",
+      "menuId": 26060,
+      "resText": "%o: Wildcat match %1 to pattern %0",
+      "flags": 544,
+      "paramTypes": [
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慐瑴牥⁮⸨漠⁲‪污潬敷⥤愀瑴牥⁮〥",
+        "瑓楲杮 ⸨漠⁲‪污潬敷⥤愀瑴牥⁮〥",
+        "慃敳匠湥楳楴敶‿ ‰‽潎Ⱐㄠ㴠夠獥⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Dialog box > On open",
+      "text": "漥›湏䐠慩潬⁧潂⁸灏湥摥",
+      "menuId": 26080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Dialog box > On close",
+      "text": "漥›湏䐠慩潬⁧潂⁸汃獯摥",
+      "menuId": 26081,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Dialog box > On modified",
+      "text": "漥›湏䐠慩潬⁧潂⁸潍楤楦摥",
+      "menuId": 26082,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "On Data Modified",
+      "text": "漥›湏䐠瑡⁡潍楤楦摥",
+      "menuId": 26083,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "On Save",
+      "text": "漥›湏匠癡e",
+      "menuId": 26084,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "On New Item",
+      "text": "漥›湏丠睥䤠整m",
+      "menuId": 26101,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Search Results > On Results Found",
+      "text": "漥›湏匠慥捲⁨敒畳瑬⁳潆湵d",
+      "menuId": 26104,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Search Results > On No Results Found",
+      "text": "漥›湏丠⁯敓牡档删獥汵獴䘠畯摮",
+      "menuId": 26105,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "On Merge",
+      "text": "漥›湏䴠牥敧",
+      "menuId": 26106,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Extra Functions > On uncompression OK",
+      "text": "漥›楆敬眠獡甠据浯牰獥敳d",
+      "menuId": 26107,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Extra Functions > On uncompression fail",
+      "text": "漥›楆敬映楡敬⁤潴戠⁥湵潣灭敲獳摥",
+      "menuId": 26108,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Undo > Has Undo",
+      "text": "獉甠摮⁯癡楡慬汢㽥",
+      "menuId": 26064,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Undo > Has Redo",
+      "text": "獉爠摥⁯癡楡慬汢㽥",
+      "menuId": 26065,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set Current Group",
+      "text": "敓⁴畣牲湥⁴牧畯⁰潴┠0",
+      "menuId": 25000,
+      "resText": "Set current group to %0",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "片畯⁰慮敭 牧畯⁰潴┠0",
+        "湅畳敲渠睥朠潲灵‿ ‰‽潎‬‱‽教⹳䤠⁦湵畳敲‬档潯敳〠⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Current Group > Set Value",
+      "text": "敓⁴瑩浥┠‰潴瘠污敵┠′匨瑥楴杮㴠┠⤱",
+      "menuId": 25010,
+      "resText": "Set item %0 to value %2 (Setting = %1)",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "瑉浥渠浡e‰潴瘠污敵┠′匨瑥楴杮㴠┠⤱",
+        "祔数⠠‰‽湉整敧⁲坛潨敬渠浵敢獲⁝‬‱‽汆慯楴杮倠楯瑮嬠敄楣慭⁬潐湩獴⥝",
+        "慖畬⁥潴猠瑥琠o⁲坛潨敬渠浵敢獲⁝‬‱‽汆慯楴杮倠楯瑮嬠敄楣慭⁬潐湩獴⥝"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Current Group > Set String",
+      "text": "敓⁴瑩浥┠‰潴猠牴湩⁧ㄥ",
+      "menuId": 25020,
+      "resText": "Set item %0 to string %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "瑉浥渠浡e‰潴猠牴湩⁧ㄥ",
+        "瑓楲杮琠⁯敳⁴潴爀湩⁧ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Current Group > Set String (MD5 Hashed)",
+      "text": "敓⁴瑩浥┠‰潴┠‱䠨獡敨⥤",
+      "menuId": 25030,
+      "resText": "Set item %0 to %1 (Hashed)",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "瑉浥渠浡e‰潴┠‱䠨獡敨⥤",
+        "瑓楲杮琠⁯敳⁴潴 䠨獡敨⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Current Group > Save Object",
+      "text": "慓敶┠‰匨癡㩥倠獯瑩潩⁮‽ㄥ‬汁⁴慖畬獥㴠┠⤲",
+      "menuId": 25040,
+      "resText": "Save %0 (Save: Position = %1, Alt Values = %2)",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣琠⁯慳敶倀獯瑩潩⁮‽ㄥ‬汁⁴慖畬獥㴠┠⤲",
+        "慓敶瀠獯瑩潩㽮⠠‰‽潎‬‱‽教⥳ 慖畬獥㴠┠⤲",
+        "慓敶愠瑬瘠污敵㽳⠠‰‽潎‬‱‽教⥳愀畬獥㴠┠⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Current Group > Load Object",
+      "text": "潌摡┠0",
+      "menuId": 25050,
+      "resText": "Load %0",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "扏敪瑣琠⁯潬摡"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Current Group > Save Position",
+      "text": "慓敶瀠獯瑩潩⁮ㄥ琠⁯瑩浥┠0",
+      "menuId": 25060,
+      "resText": "Save position %1 to item %0",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        16
+      ],
+      "paramTitles": [
+        "瑉浥渠浡e潩⁮ㄥ琠⁯瑩浥┠0",
+        "潐楳楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Current Group > Save global values",
+      "text": "慓敶朠潬慢⁬慶畬獥",
+      "menuId": 25070,
+      "resText": "Save global values",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Current Group > Load global values",
+      "text": "潌摡朠潬慢⁬慶畬獥",
+      "menuId": 25080,
+      "resText": "Load global values",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Current Group > Delete group",
+      "text": "敄敬整挠牵敲瑮朠潲灵",
+      "menuId": 25090,
+      "resText": "Delete current group",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Current Group > Delete item",
+      "text": "敄敬整┠‰湩挠牵敲瑮朠潲灵",
+      "menuId": 25100,
+      "resText": "Delete %0 in current group",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑉浥渠浡e湩挠牵敲瑮朠潲灵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Current Group > Rename group",
+      "text": "敒慮敭挠牵敲瑮朠潲灵琠⁯〥⠠敓瑴湩⁧‽ㄥ)",
+      "menuId": 25110,
+      "resText": "Rename current group to %0 (Setting = %1)",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "敎⁷慮敭爀敲瑮朠潲灵琠⁯〥⠠敓瑴湩⁧‽ㄥ)",
+        "癏牥牷瑩⁥潍敤⠠〠㴠传敶睲楲整Ⱐㄠ㴠䴠牥敧Ⱐ㈠㴠丠癥牥漠敶睲楲整⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Current Group > Rename item",
+      "text": "敒慮敭椠整⁭〥琠⁯ㄥ⠠敓瑴湩⁧‽㈥)",
+      "menuId": 25120,
+      "resText": "Rename item %0 to %1 (Setting = %2)",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "汏⁤慮敭攀⁭〥琠⁯ㄥ⠠敓瑴湩⁧‽㈥)",
+        "敎⁷慮敭攀⁭〥琠⁯ㄥ⠠敓瑴湩⁧‽㈥)",
+        "汁潬⁷癯牥牷瑩湩㽧⠠〠㴠丠⁯‬‱‽教⁳)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Current Group > Move Item to another Group",
+      "text": "潍敶┠‰潴朠潲灵┠1",
+      "menuId": 25130,
+      "resText": "Move %0 to group %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "瑉浥渠浡e朠潲灵┠1",
+        "敎⁷牧畯⁰慮敭瀀┠1",
+        "汁潬⁷癯牥牷瑩獥‿〨㴠丠Ɐㄠ㴠夠獥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Setting Items > Set Value",
+      "text": "敓⁴瑩浥┠‱湩朠潲灵┠‰潴瘠污敵┠″匨瑥楴杮㴠┠⤲",
+      "menuId": 25140,
+      "resText": "Set item %1 in group %0 to value %3 (Setting = %2)",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "片畯⁰慮敭 湩朠潲灵┠‰潴瘠污敵┠″匨瑥楴杮㴠┠⤲",
+        "瑉浥渠浡e 湩朠潲灵┠‰潴瘠污敵┠″匨瑥楴杮㴠┠⤲",
+        "祔数⠠‰‽湉整敧⁲坛潨敬渠浵敢獲⁝‬‱‽汆慯楴杮倠楯瑮嬠敄楣慭⁬潐湩獴⥝",
+        "慖畬e‰‽湉整敧⁲坛潨敬渠浵敢獲⁝‬‱‽汆慯楴杮倠楯瑮嬠敄楣慭⁬潐湩獴⥝"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Setting Items > Set String",
+      "text": "敓⁴瑩浥┠‱湩朠潲灵┠‰潴┠2",
+      "menuId": 25150,
+      "resText": "Set item %1 in group %0 to %2",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "片畯p浥┠‱湩朠潲灵┠‰潴┠2",
+        "瑉浥",
+        "瑓楲杮琠⁯敳⁴潴漀灵┠‰潴┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Setting Items > Set String (MD5 Hashed)",
+      "text": "敓⁴瑩浥┠‱湩朠潲灵┠‰潴┠′䠨獡敨⥤",
+      "menuId": 25160,
+      "resText": "Set item %1 in group %0 to %2 (Hashed)",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "片畯p浥┠‱湩朠潲灵┠‰潴┠′䠨獡敨⥤",
+        "瑉浥",
+        "慖畬e浥┠‱湩朠潲灵┠‰潴┠′䠨獡敨⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Setting Items > Objects  Positions > Save Object",
+      "text": "慓敶漠橢捥⁴〥椠瑮⁯牧畯⁰ㄥ⠠潐⁳‽㈥‬汁⁴慖畬獥㴠┠⤳",
+      "menuId": 25170,
+      "resText": "Save object %0 into group %1 (Pos = %2, Alt Values = %3)",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣樀捥⁴〥椠瑮⁯牧畯⁰ㄥ⠠潐⁳‽㈥‬汁⁴慖畬獥㴠┠⤳",
+        "片畯p樀捥⁴〥椠瑮⁯牧畯⁰ㄥ⠠潐⁳‽㈥‬汁⁴慖畬獥㴠┠⤳",
+        "慓敶瀠獯瑩潩㽮⠠‰‽潎‬‱‽教⥳ ‽㈥‬汁⁴慖畬獥㴠┠⤳",
+        "慓敶愠瑬瘠污敵㽳⠠‰‽潎‬‱‽教⥳ ㈥‬汁⁴慖畬獥㴠┠⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Setting Items > Objects  Positions > Load Object",
+      "text": "潌摡漠橢捥⁴〥映潲⁭牧畯⁰ㄥ",
+      "menuId": 25180,
+      "resText": "Load object %0 from group %1",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        45
+      ],
+      "paramTitles": [
+        "扏敪瑣樀捥⁴〥映潲⁭牧畯⁰ㄥ",
+        "片畯p樀捥⁴〥映潲⁭牧畯⁰ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Setting Items > Objects  Positions > Save Position",
+      "text": "慓敶瀠獯瑩潩⁮㈥椠瑮⁯牧畯⁰〥‬瑩浥┠1",
+      "menuId": 25190,
+      "resText": "Save position %2 into group %0, item %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        16
+      ],
+      "paramTitles": [
+        "片畯⁰慮敭漀⁮㈥椠瑮⁯牧畯⁰〥‬瑩浥┠1",
+        "瑉浥渠浡e漀⁮㈥椠瑮⁯牧畯⁰〥‬瑩浥┠1",
+        "潐楳楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Setting Items > Global Values > Save Global Values",
+      "text": "慓敶朠潬慢⁬慶畬獥琠⁯牧畯⁰〥",
+      "menuId": 25200,
+      "resText": "Save global values to group %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "片畯p潬慢⁬慶畬獥琠⁯牧畯⁰〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Setting Items > Global Values > Load Global Values",
+      "text": "潌摡朠潬慢⁬慶畬獥映潲⁭牧畯⁰〥",
+      "menuId": 25210,
+      "resText": "Load global values from group %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "片畯p潬慢⁬慶畬獥映潲⁭牧畯⁰〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Moving and Copying > Rename Group ",
+      "text": "敒慮敭朠潲灵眠瑩⁨慮敭┠‰潴┠1",
+      "menuId": 25220,
+      "resText": "Rename group with name %0 to %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "汏⁤片畯⁰慎敭琀⁨慮敭┠‰潴┠1",
+        "敎⁷片畯⁰慎敭琀⁨慮敭┠‰潴┠1",
+        "癏牥牷瑩⁥潍敤⠠〠㴠传敶睲楲整Ⱐㄠ㴠䴠牥敧Ⱐ㈠㴠丠癥牥漠敶睲楲整⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Moving and Copying > Rename item",
+      "text": "潍敶┠‰㸭┠‱潴┠‰㸭┠‱伨敶睲楲整㴠┠⤳",
+      "menuId": 25230,
+      "resText": "Move %0 -> %1 to %0 -> %1 (Overwrite = %3)",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "片畯⁰慎敭─‱潴┠‰㸭┠‱伨敶睲楲整㴠┠⤳",
+        "汏⁤瑩浥渠浡e潴┠‰㸭┠‱伨敶睲楲整㴠┠⤳",
+        "敎⁷瑩浥渠浡e潴┠‰㸭┠‱伨敶睲楲整㴠┠⤳",
+        "汁潬⁷癯牥牷瑩㽥⠠‰‽潎‬‱‽教⥳攀㴠┠⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Moving and Copying > Move Item",
+      "text": "潍敶┠‰㸭┠‱潴┠′㸭┠″伨敶睲楲楴杮┽⤴",
+      "menuId": 25240,
+      "resText": "Move %0 -> %1 to %2 -> %3 (Overwriting=%4)",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "汏⁤片畯⁰慎敭漀┠′㸭┠″伨敶睲楲楴杮┽⤴",
+        "汏⁤瑩浥渠浡e漀┠′㸭┠″伨敶睲楲楴杮┽⤴",
+        "敎⁷牧畯⁰慮敭漀┠′㸭┠″伨敶睲楲楴杮┽⤴",
+        "敎⁷瑩浥渠浡e漀┠′㸭┠″伨敶睲楲楴杮┽⤴",
+        "汁潬⁷癯牥牷瑩㽥⠠‰‽潎‬‱‽教⥳椀杮┽⤴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Moving and Copying > Move Item between groups",
+      "text": "潍敶┠‱牦浯朠潲灵┠‰潴┠2",
+      "menuId": 25250,
+      "resText": "Move %1 from group %0 to %2",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "汏⁤片畯⁰慎敭漀灵┠‰潴┠2",
+        "瑉浥渠浡e慎敭漀灵┠‰潴┠2",
+        "敎⁷牧畯⁰慮敭漀灵┠‰潴┠2",
+        "汁潬⁷癯牥牷瑩㽥⠠‰‽潎‬‱‽教⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Moving and Copying > Copy Group",
+      "text": "潃祰朠潲灵映潲⁭〥琠⁯ㄥ⠠潍敤㴠┠⤲",
+      "menuId": 25260,
+      "resText": "Copy group from %0 to %1 (Mode = %2)",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "潓牵散朠潲灵渠浡e琠⁯ㄥ⠠潍敤㴠┠⤲",
+        "敄瑳湩瑡潩⁮牧畯⁰慮敭㄀⠠潍敤㴠┠⤲",
+        "癏牥牷瑩⁥潍敤⠠〠㴠删灥慬散漠摬朠潲灵Ⱐㄠ㴠䴠牥敧眠瑩⁨汯⁤牧畯⁰)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Moving and Copying > Copy Item",
+      "text": "潃祰椠整⁭〥ⴠ‾ㄥ琠⁯㈥ⴠ‾㌥",
+      "menuId": 25270,
+      "resText": "Copy item %0 -> %1 to %2 -> %3",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "潓牵散朠潲灵ⴀ‾ㄥ琠⁯㈥ⴠ‾㌥",
+        "潓牵散椠整mⴀ‾ㄥ琠⁯㈥ⴠ‾㌥",
+        "敄瑳湩瑡潩⁮牧畯p琠⁯㈥ⴠ‾㌥",
+        "敄瑳湩瑡潩⁮瑩浥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Deleting > Delete group",
+      "text": "敄敬整朠潲灵┠0",
+      "menuId": 25280,
+      "resText": "Delete group %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "片畯⁰潴搠汥瑥e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Deleting > Delete item",
+      "text": "敄敬整椠整⁭ㄥ椠⁮牧畯⁰〥",
+      "menuId": 25290,
+      "resText": "Delete item %1 in group %0",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "片畯p椠整⁭ㄥ椠⁮牧畯⁰〥",
+        "瑉浥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Deleting > Delete item in all groups",
+      "text": "敄敬整椠整⁭〥映潲⁭污⁬牧畯獰",
+      "menuId": 25300,
+      "resText": "Delete item %0 from all groups",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "瑉浥渠浡e⁭〥映潲⁭污⁬牧畯獰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Deleting > Delete by pattern",
+      "text": "敄敬整愠汬椠整獭眠瑩⁨慰瑴牥⁮ 〥ⰠㄥⰠ┠′)",
+      "menuId": 25310,
+      "resText": "Delete all items with pattern ( %0 ,%1 , %2 )",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慐瑴牥⁮潦⁲牧畯獰琀⁨慰瑴牥⁮ 〥ⰠㄥⰠ┠′)",
+        "慐瑴牥⁮潦⁲瑩浥s琀⁨慰瑴牥⁮ 〥ⰠㄥⰠ┠′)",
+        "慐瑴牥⁮潦⁲慶畬獥琀⁨慰瑴牥⁮ 〥ⰠㄥⰠ┠′)",
+        "慃敳匠湥楳楴敶⠠〠㴠丠⁯‬‱‽教⁳)ㄥⰠ┠′)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Deleting > Clear all",
+      "text": "汃慥⁲污l",
+      "menuId": 25320,
+      "resText": "Clear all",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Searching > Perform Search",
+      "text": "楆摮椠整獭洠瑡档湩⁧ 〥‬ㄥⰠ┠′⸩┠3",
+      "menuId": 25330,
+      "resText": "Find items matching ( %0, %1 , %2 ). %3",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "片畯⁰潣摮瑩潩⁮唨敳✠✮‬⨧‧牯猠慴瑲眠瑩⁨⁡℧‧潦⁲渧瑯⤧",
+        "瑉浥挠湯楤楴湯⠠獕⁥⸧Ⱗ✠✪漠⁲瑳牡⁴楷桴愠✠✡映牯✠潮❴)",
+        "慖畬⁥潣摮瑩潩⁮唨敳✠✮‬⨧‧牯猠慴瑲眠瑩⁨⁡℧‧潦⁲渧瑯⤧"
+      ],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Searching > Advanced Searching > Find 'Repeats' of Item",
+      "text": "楆摮爠灥慥獴漠⁦〥㸭ㄥ",
+      "menuId": 25340,
+      "resText": "Find repeats of %0->%1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "片畯p灥慥獴漠⁦〥㸭ㄥ",
+        "瑉浥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Searching > Clear Results",
+      "text": "汃慥⁲敒畳瑬s",
+      "menuId": 25350,
+      "resText": "Clear Results",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Searching > Search and put result in Ini file",
+      "text": "敓牡档映牯⠠ㄥ┬ⰲ㌥ 湡⁤異⁴敲畳瑬椠瑮⁯楦敬┠0",
+      "menuId": 25360,
+      "resText": "Search for (%1,%2,%3) and put result into file %0",
+      "flags": 0,
+      "paramTypes": [
+        63,
+        45,
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "吣瑩敬䐣獥楴慮楴湯倠瑡⍨楆瑬牥䤣楮䘠汩獥⩼椮楮䅼汬映汩獥⩼⨮|",
+        "片畯⁰潣摮瑩潩n湯倠瑡⍨楆瑬牥䤣楮䘠汩獥⩼椮楮䅼汬映汩獥⩼⨮|",
+        "瑉浥挠湯楤楴湯",
+        "慖畬⁥潣摮瑩潩n湯倠瑡⍨楆瑬牥䤣楮䘠汩獥⩼椮楮䅼汬映汩獥⩼⨮|",
+        "慃敳猠湥楳楴敶‿〨㴠丠Ɐㄠ㴠夠獥)䘠汩獥⩼椮楮䅼汬映汩獥⩼⨮|"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Searching > Search and put result in Ini++ object",
+      "text": "敓牡档映牯⠠ㄥ┬ⰲ㌥ 湡⁤異⁴敲畳瑬椠瑮⁯扯敪瑣┠0",
+      "menuId": 25370,
+      "resText": "Search for (%1,%2,%3) and put result into object %0",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Merging > Merge (with file)",
+      "text": "敍杲⁥牦浯映汩⁥〥",
+      "menuId": 25380,
+      "resText": "Merge from file %0",
+      "flags": 0,
+      "paramTypes": [
+        63,
+        22
+      ],
+      "paramTitles": [
+        "吣瑩敬䘣汩⁥潴洠牥敧映潲⍭楆瑬牥䤣楮䘠汩獥⩼椮楮䅼汬映汩獥⩼⨮|",
+        "汁潬⁷癯牥牷瑩獥⠠〠㴠丠⁯‬‱‽教⁳)汩獥⩼椮楮䅼汬映汩獥⩼⨮|"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Merging > Merge Group (with file)",
+      "text": "敍杲⁥牧畯⁰ㄥ映潲⁭楦敬┠0",
+      "menuId": 25390,
+      "resText": "Merge group %1 from file %0",
+      "flags": 0,
+      "paramTypes": [
+        63,
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "吣瑩敬䘣汩⁥潴洠牥敧映潲⍭楆瑬牥䤣楮䘠汩獥⩼椮楮䅼汬映汩獥⩼⨮|",
+        "潓牵散䜠潲灵渠浡e敧映潲⍭楆瑬牥䤣楮䘠汩獥⩼椮楮䅼汬映汩獥⩼⨮|",
+        "敄瑳湩瑡潩⁮片畯⁰慮敭漀⍭楆瑬牥䤣楮䘠汩獥⩼椮楮䅼汬映汩獥⩼⨮|",
+        "汁潬⁷癯牥牷瑩獥⠠〠㴠丠⁯‬‱‽教⁳)汩獥⩼椮楮䅼汬映汩獥⩼⨮|"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Merging > Merge (with other Ini++ object)",
+      "text": "敍杲⁥牦浯漠橢捥⁴〥",
+      "menuId": 25400,
+      "resText": "Merge from object %0",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Merging > Merge Group (with other Ini++ object)",
+      "text": "敍杲⁥牧畯⁰ㄥ映潲⁭扯敪瑣┠0",
+      "menuId": 25410,
+      "resText": "Merge group %1 from object %0",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Loading and Saving > Save file",
+      "text": "慓敶䤠楮",
+      "menuId": 25440,
+      "resText": "Save Ini",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Loading and Saving > Export > Save as",
+      "text": "慓敶䤠楮䄠⁳〥",
+      "menuId": 25450,
+      "resText": "Save Ini As %0",
+      "flags": 0,
+      "paramTypes": [
+        63
+      ],
+      "paramTitles": [
+        "慐桴䤀楮䄠⁳〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Loading and Saving > Export > Backup to",
+      "text": "慂正灵䤠楮吠⁯〥⠠潃灭敲獳摥㴠┠ⰱ䬠祥㴠┠⤲",
+      "menuId": 25460,
+      "resText": "Backup Ini To %0 (Compressed = %1, Key = %2)",
+      "flags": 0,
+      "paramTypes": [
+        63,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "吣瑩敬䘣汩⁥潴戠捡畫⁰潴䘣汩整⍲湉⁩楆敬米⸪湩籩汁⁬楦敬米⸪簪",
+        "潃灭敲獳摥‿ ‰‽潎Ⱐㄠ㴠夠獥⤠渀⁩楆敬米⸪湩籩汁⁬楦敬米⸪簪",
+        "湅牣灹整㽤⠠祔数欠祥漠⁲獵⁥汢湡⁫瑳楲杮映牯渠湯⥥ 楦敬米⸪簪"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Loading and Saving > Close",
+      "text": "汃獯⁥湉i",
+      "menuId": 25470,
+      "resText": "Close Ini",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Loading and Saving > Load From String",
+      "text": "潌摡┠‰湩潴䤠楮",
+      "menuId": 25480,
+      "resText": "Load %0 into Ini",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "敔瑸⠠湩䤠楮映牯慭⥴琠⁯潬摡",
+        "潍敤⠠〠㴠删灥慬散Ⱐㄠ㴠䴠牥敧⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Loading and Saving > Settings > Set auto load/save",
+      "text": "敓⁴畡潴慳敶琠⁯〥",
+      "menuId": 25490,
+      "resText": "Set autosave to %0",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "畁潴匠癡⁥〨㴠传晦Ⱐㄠ㴠传⥮",
+        "畁潴䰠慯⁤ ‰‽晏⁦‬‱‽湏⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 50,
+      "menu": "Loading and Saving > Settings > Set compression",
+      "text": "敓⁴潣灭敲獳潩⁮潴┠0",
+      "menuId": 25500,
+      "resText": "Set compression to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰‽晏⁦‬‱‽湏漀┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "Loading and Saving > Settings > Set encryption",
+      "text": "敓⁴湅牣灹楴湯琠⁯〥",
+      "menuId": 25510,
+      "resText": "Set Encryption to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "祔数琠敨欠祥‬牯愠⁮浥瑰⁹瑳楲杮琠⁯潮⁴獵⁥湥牣灹楴湯"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 52,
+      "menu": "Loading and Saving > Settings > Set read only",
+      "text": "敓⁴敒摡传汮⁹潴┠0",
+      "menuId": 25520,
+      "resText": "Set Read Only to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰‽潎Ⱐㄠ㴠夠獥─0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 53,
+      "menu": "Advanced Features > Advanced Settings > Set case sensitivity",
+      "text": "敓⁴慃敳匠湥楳楴敶琠⁯〥",
+      "menuId": 25530,
+      "resText": "Set Case Sensitive to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰‽潎⁴慣敳猠湥楳楴敶Ⱐㄠ㴠䌠獡⁥敳獮瑩癩e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 54,
+      "menu": "Advanced Features > Advanced Settings > Escape character settings",
+      "text": "獕⁥獥慣数挠慨慲瑣牥⁳ 〥Ⱐ┠‱‬㈥⤠",
+      "menuId": 25540,
+      "resText": "Use escape characters ( %0 , %1 , %2 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "獕⁥湩朠潲灵⁳ ‰‽潎Ⱐㄠ㴠夠獥⤠㈀⤠",
+        "獕⁥湩椠整⁭慮敭⁳ ‰‽潎Ⱐㄠ㴠夠獥⤠",
+        "獕⁥湩椠整⁭慶畬獥⠠〠㴠丠⁯‬‱‽教⁳)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 55,
+      "menu": "Advanced Features > Advanced Settings > Enable/Disable 'always quote strings'",
+      "text": "畑瑯⁥瑳楲杮⁳‽〥",
+      "menuId": 25550,
+      "resText": "Quote strings = %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‰‽潎Ⱐㄠ㴠夠獥　"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 56,
+      "menu": "Advanced Features > Advanced Settings > Set repeat modes",
+      "text": "敓⁴敲数瑡洠摯獥琠⁯ 〥Ⱐ┠‱‬㈥⤠",
+      "menuId": 25560,
+      "resText": "Set repeat modes to ( %0 , %1 , %2 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潆⁲牧畯獰⠠〠㴠䘠物瑳Ⱐㄠ㴠䰠獡⁴‬′‽敒慮敭Ⱐ㌠㴠䴠牥敧⤠",
+        "潆⁲瑩浥⁳ ‰‽楆獲⁴‬‱‽慌瑳Ⱐ㈠㴠删湥浡⁥⤠㌀㴠䴠牥敧⤠",
+        "慓敶爠灥慥整⁤瑩浥⁳獡漠楲楧慮㽬⠠‰‽潎‬‱‽教⥳㴀䴠牥敧⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 57,
+      "menu": "Advanced Features > Advanced Settings > Set new line string",
+      "text": "敓⁴敮⁷楬敮猠牴湩⁧潴┠0",
+      "menuId": 25570,
+      "resText": "Set new line string to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "祔数琠敨渠睥氠湩⁥瑳楲杮漠⁲祴数愠⁮浥瑰⁹瑳楲杮琠⁯獵⁥桴⁥瑓湡慤摲洠摯e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 58,
+      "menu": "Advanced Features > Advanced Settings > Set default directory",
+      "text": "敓⁴敤慦汵⁴楤敲瑣牯⁹潴┠0",
+      "menuId": 25580,
+      "resText": "Set default directory to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敄慦汵⁴楤敲瑣牯y牯⁹潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 59,
+      "menu": "Advanced Features > Extra Functions > Compress file",
+      "text": "潃灭敲獳┠‰潴┠1",
+      "menuId": 25590,
+      "resText": "Compress %0 to %1",
+      "flags": 0,
+      "paramTypes": [
+        63,
+        63
+      ],
+      "paramTitles": [
+        "吣瑩敬匣畯捲⍥楆瑬牥䄣汬映汩獥⩼⨮|",
+        "吣瑩敬䐣獥楴慮楴湯䘣汩整⍲汁⁬楦敬米⸪簪"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 60,
+      "menu": "Advanced Features > Extra Functions > Decompress file",
+      "text": "敄潣灭敲獳┠‰潴┠1",
+      "menuId": 25600,
+      "resText": "Decompress %0 to %1",
+      "flags": 0,
+      "paramTypes": [
+        63,
+        63
+      ],
+      "paramTitles": [
+        "吣瑩敬匣畯捲⍥楆瑬牥䄣汬映汩獥⩼⨮|",
+        "吣瑩敬䐣獥楴慮楴湯䘣汩整⍲汁⁬楦敬米⸪簪"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 61,
+      "menu": "Advanced Features > Dialog Box > Open Dialog",
+      "text": "灏湥搠慩潬⁧楷桴琠瑩敬┠‰匨瑥楴杮㩳┠⤱",
+      "menuId": 25603,
+      "resText": "Open dialog with title %0 (Settings: %1)",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楔汴⁥潦⁲楤污杯戠硯攀┠‰匨瑥楴杮㩳┠⤱"
+      ],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 62,
+      "menu": "Advanced Features > Add Repeated Item",
+      "text": "摁⁤敲数瑡摥⠠〥┬ⰱ㈥ 楷桴洠摯⁥㌥",
+      "menuId": 25604,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "片畯⁰慎敭搀⠠〥┬ⰱ㈥ 楷桴洠摯⁥㌥",
+        "瑉浥丠浡e搀⠠〥┬ⰱ㈥ 楷桴洠摯⁥㌥",
+        "瑓楲杮琠⁯敳⁴潴⠠獕⁥瑓⑲⸨⸮ 晩礠畯眠獩⁨潴猠瑥琠⁯⁡慶畬⥥",
+        "潍敤⠠〠㴠丠睥椠整⁭※‱‽敎⁷牧畯⁰)眠獩⁨潴猠瑥琠⁯⁡慶畬⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 63,
+      "menu": "Advanced Features > Dialog Box > Close dialog",
+      "text": "汃獯⁥楤污杯",
+      "menuId": 25201,
+      "resText": "Group",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 64,
+      "menu": "Advanced Features > Dialog Box > Refresh Dialog",
+      "text": "敒牦獥⁨楤污杯⠠潍敤㴠┠⤰",
+      "menuId": 25202,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潍敤⠠‰潦⁲畦汬爠晥敲桳‬‱潦⁲焧極正‧瑩浥渠浡⁥敲牦獥⥨"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 65,
+      "menu": "Loading and Saving > Export > Import/Export CSV",
+      "text": "千⁖浉潰瑲䔯灸牯⁴┨⤰琠⁯楦敬┠ⰱ猠灥牥瑡牯┠2",
+      "menuId": 25605,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        63,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "浉潰瑲㴠〠‬硅潰瑲㴠ㄠ琀⁯楦敬┠ⰱ猠灥牥瑡牯┠2",
+        "吣瑩敬倣瑡⁨潴猠癡⁥潴䘣汩整⍲千⁖楆敬米⸪獣籶汁⁬楦敬米⸪簪",
+        "片畯⁰潴猠癡⹥䰠慥敶戠慬歮琠⁯慳敶氯慯⁤污⹬簀汁⁬楦敬米⸪簪",
+        "敓数慲潴⁲祳扭汯愀敶戠慬歮琠⁯慳敶氯慯⁤污⹬簀汁⁬楦敬米⸪簪"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 66,
+      "menu": "Loading and Saving > Export > Import/Export CSV Array",
+      "text": "千⁖牁慲⁹浉潰瑲䔯灸牯⁴┨⤱琠⁯楦敬┠ⰱ猠灥牥瑡牯┠2",
+      "menuId": 25606,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        63,
+        45
+      ],
+      "paramTitles": [
+        "‰‽浉潰瑲‬‱‽硅潰瑲 ┨⤱琠⁯楦敬┠ⰱ猠灥牥瑡牯┠2",
+        "吣瑩敬倣瑡⁨潴氠慯⁤牦浯䘣汩整⍲千⁖楆敬米⸪獣籶汁⁬楦敬米⸪簪",
+        "敓数慲潴⁲祳扭汯愀⁤牦浯䘣汩整⍲千⁖楆敬米⸪獣籶汁⁬楦敬米⸪簪"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 67,
+      "menu": "Advanced Features > Chart Object > Put data into chart object",
+      "text": "畐⁴慤慴椠瑮⁯档牡⁴扯敪瑣┠‰牦浯朠潲灵┠1",
+      "menuId": 25607,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 68,
+      "menu": "Searching > Advanced Searching > Find 'Subgroups'",
+      "text": "楆摮猠扵牧畯獰漠⁦┧✰⠠敌敶獬㴠┠⤱",
+      "menuId": 25588,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "片畯⁰潴映湩⁤畳杢潲灵⁳景攀獬㴠┠⤱",
+        "畎扭牥漠⁦敬敶獬⠠‰潦⁲湵楬業整⹤渠映牯愠⁴潭瑳渠氠癥汥ⱳⴠ⁮敭湡⁳硥捡汴⁹⁮敬敶獬)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 69,
+      "menu": "Advanced Features > Advanced Settings > Group settings (Subgroups, Empty groups)",
+      "text": "畓杢潲灵⁳湥扡敬⁤‽〥‬浅瑰⁹片畯獰愠汬睯摥㴠┠⸱",
+      "menuId": 25609,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅扡敬猠扵牧畯⁰潬摡湩⁧湡⁤慳楶杮‿〨㴠丠Ɐㄠ㴠夠獥)",
+        "汁潬⁷浥瑰⁹牧畯獰‿〨㴠丠Ɐㄠ㴠夠獥)㴠丠Ɐㄠ㴠夠獥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 70,
+      "menu": "Loading and Saving > Change global data slot",
+      "text": "慎敭漠⁦慤慴猠潬t",
+      "menuId": 25610,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "桃湡敧⁤汧扯污搠瑡⁡汳瑯琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 71,
+      "menu": "Reorder a group",
+      "text": "〥朠潲灵┠1",
+      "menuId": 25611,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 72,
+      "menu": "Advanced Features > Set part in item",
+      "text": "敓⁴慰瑲┠′景琠敨椠整⁭ㄥ映潲⁭牧畯⁰〥琠⁯㌥",
+      "menuId": 25612,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "片畯⁰潴愠灰祬琠o椠整⁭ㄥ映潲⁭牧畯⁰〥琠⁯㌥",
+        "瑉浥 潴愠灰祬琠o椠整⁭ㄥ映潲⁭牧畯⁰〥琠⁯㌥",
+        "慐瑲琠⁯敳t祬琠o椠整⁭ㄥ映潲⁭牧畯⁰〥琠⁯㌥",
+        "瑓楲杮琠⁯敳⁴潴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 73,
+      "menu": "Advanced Features > Array > Get data from array",
+      "text": "潌摡搠瑡⁡牦浯愠牲祡✠〥‧湩潴朠潲灵✠ㄥ'",
+      "menuId": 25613,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 74,
+      "menu": "Advanced Features > Array > Put data into array (numerical only)",
+      "text": "畐⁴慤慴椠瑮⁯牡慲⁹┧✰映潲⁭牧畯⁰┧✱ ",
+      "menuId": 25617,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 75,
+      "menu": "Advanced Features > Chart Object > Get data from chart object",
+      "text": "敇⁴慤慴映潲⁭档牡⁴扯敪瑣┠‰湩潴朠潲灵┠1",
+      "menuId": 25618,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 76,
+      "menu": "Advanced Features > Chart Object > Get settings from chart object",
+      "text": "敇⁴牰灯牥楴獥映潲⁭档牡⁴扯敪瑣┠‰湩潴┠1",
+      "menuId": 25619,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 77,
+      "menu": "Advanced Features > Chart Object > Put settings into chart object",
+      "text": "畐⁴牰灯牥楴獥琠⁯档牡⁴扯敪瑣┠‰牦浯朠潲灵┠1",
+      "menuId": 25620,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 78,
+      "menu": "Loading and Saving > New/Load/Change file",
+      "text": "〥㨠┠1",
+      "menuId": 25614,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        63
+      ],
+      "paramTitles": [
+        "吣瑩敬䘣汩⁥潴氠慯⍤楆瑬牥䤣楮䘠汩獥⩼椮楮䅼汬映汩獥⩼⨮|"
+      ],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 79,
+      "menu": "Advanced Features > Undo > Perform Undo",
+      "text": "敐晲牯⁭湵潤",
+      "menuId": 25621,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 80,
+      "menu": "Advanced Features > Undo > Perform Redo",
+      "text": "敐晲牯⁭敲潤",
+      "menuId": 25622,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 81,
+      "menu": "Advanced Features > Undo > Clear stack(s)",
+      "text": "汃慥⁲湵潤爯摥⁯瑳捡⹫䴠摯⁥‽〥",
+      "menuId": 25623,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "桗捩㽨⠠‱‽湕潤匠慴正‬′‽敒潤匠慴正‬″‽潂桴)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 82,
+      "menu": "Advanced Features > Undo > Manual mode (Advanced) > Force add new undo block",
+      "text": "摁⁤⁡敮⁷湵潤猠慴正戠潬正",
+      "menuId": 25624,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 83,
+      "menu": "Advanced Features > Undo > Manual mode (Advanced) > Set mode",
+      "text": "敓⁴畡潴慭楴⁣潭敤琠⁯〥",
+      "menuId": 25625,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "‱‽畁潴慭楴Ᵽ㈠㴠䴠湡慵l"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Current group > Get Item Value ( item , default value)",
+      "text": "敇䥴整噭污敵⡇",
+      "menuId": 27000,
+      "resText": "GetItemValueG(",
+      "flags": 0,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Current group > Get Item String ( item . default string)",
+      "text": "敇䥴整卭牴湩䝧⠤",
+      "menuId": 27010,
+      "resText": "GetItemStringG$(",
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Current group > Get position X ( item )",
+      "text": "潐塳⡇",
+      "menuId": 27020,
+      "resText": "PosXG(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Current group > Get position Y ( item )",
+      "text": "潐女⡇",
+      "menuId": 27030,
+      "resText": "PosYG(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Current group > Get N-th Item name ( n )",
+      "text": "瑎䥨整䝭⠤",
+      "menuId": 27040,
+      "resText": "NthItemG$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Current group > Get N-th Item value ( n )",
+      "text": "瑎䥨整噭污敵⡇",
+      "menuId": 27050,
+      "resText": "NthItemValueG(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Current group > Get N-th Item string ( n )",
+      "text": "瑎䥨整卭牴湩䝧⠤",
+      "menuId": 27060,
+      "resText": "NthItemStringG$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Current group > Get Item Count",
+      "text": "瑉浥潃湵䝴(",
+      "menuId": 27070,
+      "resText": "ItemCountG(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Get Item Value (group , item , default value)",
+      "text": "敇䥴整噭污敵(",
+      "menuId": 27080,
+      "resText": "GetItemValue(",
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3,
+        1
+      ],
+      "paramTitles": [
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Get Item String (group , item , default string)",
+      "text": "敇䥴整卭牴湩⑧(",
+      "menuId": 27090,
+      "resText": "GetItemString$(",
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3,
+        3
+      ],
+      "paramTitles": [
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Get X Position (group , item)",
+      "text": "潐塳(",
+      "menuId": 27100,
+      "resText": "PosX(",
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Get Y Position (group , item)",
+      "text": "潐女(",
+      "menuId": 27110,
+      "resText": "PosY(",
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "List Groups and Items > Get N-th Group name ( n )",
+      "text": "瑎䝨潲灵⠤",
+      "menuId": 27120,
+      "resText": "NthGroup$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "List Groups and Items > Get N-th Item name ( group , n )",
+      "text": "瑎䥨整乭浡⑥(",
+      "menuId": 27130,
+      "resText": "NthItemName$(",
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "List Groups and Items > Get N-th Item string ( group , n )",
+      "text": "瑎䥨整卭牴湩⑧(",
+      "menuId": 27140,
+      "resText": "NthItemString$(",
+      "flags": 1,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "List Groups and Items > Get N-th Item value ( group , n )",
+      "text": "瑎䥨整噭污敵(",
+      "menuId": 27150,
+      "resText": "NthItemValue(",
+      "flags": 0,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Counting and Calculations > Get Group Count",
+      "text": "片畯䍰畯瑮(",
+      "menuId": 27160,
+      "resText": "GroupCount(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Counting and Calculations > Get Item Count (Group)",
+      "text": "瑉浥潃湵⡴",
+      "menuId": 27170,
+      "resText": "ItemCount(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Counting and Calculations > Get Total Item Count",
+      "text": "潔慴䥬整獭(",
+      "menuId": 27180,
+      "resText": "TotalItems(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Search Results > Number of search results",
+      "text": "敓牡档敒畳瑬䍳畯瑮(",
+      "menuId": 27190,
+      "resText": "SearchResultsCount(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Search Results > Get N-th Search Result Group ( n )",
+      "text": "敓牡档片畯⑰(",
+      "menuId": 27200,
+      "resText": "SearchGroup$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Search Results > Get N-th Search Result Item Name ( n )",
+      "text": "敓牡档瑉浥慎敭⠤",
+      "menuId": 27210,
+      "resText": "SearchItemName$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Search Results > Get N-th Search Result Item Value ( n )",
+      "text": "敓牡档瑉浥慖畬⡥",
+      "menuId": 27220,
+      "resText": "SearchItemValue(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Search Results > Get N-th Search Result Item String ( n )",
+      "text": "敓牡档瑉浥瑓楲杮⠤",
+      "menuId": 27230,
+      "resText": "SearchItemString$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Search Results > Get N-th Search Result Path ( n , separator )",
+      "text": "敓牡档瑉浥慐桴⠤",
+      "menuId": 27240,
+      "resText": "SearchItemPath$(",
+      "flags": 1,
+      "paramTypes": [
+        1,
+        3
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Get INI as String",
+      "text": "牗瑩卥牴慥⑭(",
+      "menuId": 27250,
+      "resText": "WriteStream$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Extra Functions > Hash String ( string )",
+      "text": "慈桳⠤",
+      "menuId": 27260,
+      "resText": "Hash$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Extra Functions > Escape String ( string )",
+      "text": "獅慣数⠤",
+      "menuId": 27280,
+      "resText": "Escape$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Extra Functions > Unescape String ( string )",
+      "text": "湕獥慣数⠤",
+      "menuId": 27290,
+      "resText": "Unescape$(",
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Counting and Calculations > Perform Calculations (Click for info)",
+      "text": "慃捬(",
+      "menuId": 27368,
+      "resText": "Group to save. Leave blank to save/load all.",
+      "flags": 0,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Counting and Calculations > Find Max or Min Group (Click for info)",
+      "text": "慃捬瑓⑲(",
+      "menuId": 27421,
+      "resText": "Undo/Redo Buffer Size",
+      "flags": 3,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "List Groups and Items > Get N-th Sorted Item name ( group , n )",
+      "text": "瑎卨牯整乤浡⑥(",
+      "menuId": 27422,
+      "resText": "Number of actions that can be undone. -1 for infinite.",
+      "flags": 3,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "List Groups and Items > Get N-th Sorted Item Value ( group , n )",
+      "text": "瑎卨牯整䥤整⡭",
+      "menuId": 27423,
+      "resText": "Number of 'undo's that can be redone. -1 for infinite.",
+      "flags": 0,
+      "paramTypes": [
+        3,
+        1
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Get INI as CSV String",
+      "text": "敇䍴噓⠤",
+      "menuId": 27424,
+      "resText": "Clear undo/redo stack. Mode = %0",
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3
+      ],
+      "paramTitles": [
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "List Groups and Items > Get N-th Item used in any group ( n )",
+      "text": "瑎佨敶慲汬瑉浥⠤",
+      "menuId": 27500,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Counting and Calculations > Get number of unique item names",
+      "text": "湕煩敵瑉浥潃湵⡴",
+      "menuId": 27501,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Get part in item (group, item, index, default)",
+      "text": "敇䥴整偭牡⑴(",
+      "menuId": 27502,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3,
+        3,
+        1,
+        3
+      ],
+      "paramTitles": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Current group > Get current group name",
+      "text": "畃牲湥䝴潲灵慎敭⠤",
+      "menuId": 27503,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Current group > Get current group as string",
+      "text": "畃牲湥䝴潲灵瑓楲杮⠤",
+      "menuId": 27504,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Get current file name",
+      "text": "楆敬慮敭⠤",
+      "menuId": 27505,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

@@ -1,0 +1,905 @@
+{
+  "file": "joystick.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Buttons > Repeat while button pressed",
+      "text": "ㄱ猥›敒数瑡眠楨敬瀠敲獳摥樠灯灹摡┠⁳畢瑴湯┠s",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2楨敬瀠敲獳摥樠灯灹摡┠⁳畢瑴湯┠s",
+        "畂瑴湯ㄠ琠⁯㈳椀敬瀠敲獳摥樠灯灹摡┠⁳畢瑴湯┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Buttons > Repeat while any button pressed",
+      "text": "ㄱ猥›敒数瑡眠楨敬愠祮戠瑵潴⁮牰獥敳⁤湯樠祯┠s",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2楨敬愠祮戠瑵潴⁮牰獥敳⁤湯樠祯┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Joypad inplugged",
+      "text": "ㄱ猥›潊獹楴正┠⁳獩椠灮畬杧摥",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2┠⁳獩椠灮畬杧摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Joypad is ignored",
+      "text": "ㄱ猥›潊灹摡┠⁳獩椠湧牯摥",
+      "menuId": 26015,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2⁳獩椠湧牯摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Buttons > Button is pressed",
+      "text": "ㄱ猥›潊灹摡┠⁳畢瑴湯┠⁳獩瀠敲獳摥",
+      "menuId": 26020,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2⁳畢瑴湯┠⁳獩瀠敲獳摥",
+        "畂瑴湯ㄠ琠⁯㈳ 畢瑴湯┠⁳獩瀠敲獳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Buttons > Button is pressed down",
+      "text": "ㄱ猥›潊灹摡┠⁳畢瑴湯┠⁳獩瀠敲獳摥搠睯n",
+      "menuId": 26025,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2⁳畢瑴湯┠⁳獩瀠敲獳摥搠睯n",
+        "畂瑴湯ㄠ琠⁯㈳ 畢瑴湯┠⁳獩瀠敲獳摥搠睯n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Buttons > Button is released",
+      "text": "ㄱ猥›潊灹摡┠⁳畢瑴湯┠⁳獩爠汥慥敳d",
+      "menuId": 26030,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2⁳畢瑴湯┠⁳獩爠汥慥敳d",
+        "畂瑴湯ㄠ琠⁯㈳ 畢瑴湯┠⁳獩爠汥慥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Buttons > Any button is pressed",
+      "text": "ㄱ猥›湁⁹畢瑴湯漠⁮潪灹摡┠⁳獩瀠敲獳摥",
+      "menuId": 26035,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2湯漠⁮潪灹摡┠⁳獩瀠敲獳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Point-Of-View > Point-of-view is forward",
+      "text": "ㄱ猥›潐湩⵴景瘭敩⁷潪灹摡┠⁳獩映牯慷摲",
+      "menuId": 26040,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2瘭敩⁷潪灹摡┠⁳獩映牯慷摲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Point-Of-View > Point-of-view is backward",
+      "text": "ㄱ猥›潐湩⵴景瘭敩⁷潪灹摡┠⁳獩戠捡睫牡d",
+      "menuId": 26045,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2瘭敩⁷潪灹摡┠⁳獩戠捡睫牡d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Point-Of-View > Point-of-view is left",
+      "text": "ㄱ猥›潐湩⵴景瘭敩⁷潪灹摡┠⁳獩氠晥t",
+      "menuId": 26050,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2瘭敩⁷潪灹摡┠⁳獩氠晥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Point-Of-View > Point-of-view is right",
+      "text": "ㄱ猥›潐湩⵴景瘭敩⁷潪灹摡┠⁳獩爠杩瑨",
+      "menuId": 26055,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2瘭敩⁷潪灹摡┠⁳獩爠杩瑨"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Point-Of-View > Point-of-view is centered",
+      "text": "ㄱ猥›潐湩⵴景瘭敩⁷潪灹摡┠⁳獩挠湥整敲d",
+      "menuId": 26060,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2瘭敩⁷潪灹摡┠⁳獩挠湥整敲d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Buttons > Button is changed",
+      "text": "ㄱ猥›潊灹摡┠⁳畢瑴湯┠⁳獩挠慨杮摥",
+      "menuId": 26065,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2⁳畢瑴湯┠⁳獩挠慨杮摥",
+        "畂瑴湯ㄠ琠⁯㈳ 畢瑴湯┠⁳獩挠慨杮摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Buttons > Button is exclusive pressed",
+      "text": "ㄱ猥›潊灹摡┠⁳畢瑴湯┠⁳獩攠捸畬楳敶瀠敲獳摥",
+      "menuId": 26070,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2⁳畢瑴湯┠⁳獩攠捸畬楳敶瀠敲獳摥",
+        "畂瑴湯ㄠ琠⁯㈳ 畢瑴湯┠⁳獩攠捸畬楳敶瀠敲獳摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Buttons > Button is exclusive released",
+      "text": "ㄱ猥›潊灹摡┠⁳畢瑴湯┠⁳獩攠捸畬楳敶爠汥慥敳d",
+      "menuId": 26075,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2⁳畢瑴湯┠⁳獩攠捸畬楳敶爠汥慥敳d",
+        "畂瑴湯ㄠ琠⁯㈳ 畢瑴湯┠⁳獩攠捸畬楳敶爠汥慥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Buttons > Any button is released",
+      "text": "ㄱ猥›湁⁹畢瑴湯漠⁮潪灹摡┠⁳獩爠汥慥敳d",
+      "menuId": 26080,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2湯漠⁮潪灹摡┠⁳獩爠汥慥敳d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Directions > Compare to joypad's direction",
+      "text": "ㄱ猥›楄敲瑣潩⁮景琠敨樠祯慰⁤猥椠⁳猥",
+      "menuId": 26085,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2⁮景琠敨樠祯慰⁤猥椠⁳猥",
+        "楄敲瑣潩⁮‰‭‸潣湵整⵲汣捯睫獩⁥瑳牡楴杮眠瑩⁨楲桧⁴㠨椠⁳散瑮牥摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Buttons > AND/OR > AND two buttons",
+      "text": "漥›潊灹摡┠‰畢瑴湯┠‱乁⁄㈥",
+      "menuId": 26090,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2畢瑴湯┠‱乁⁄㈥",
+        "畂瑴湯ㄠ琠⁯㈳甀瑴湯┠‱乁⁄㈥",
+        "畂瑴湯ㄠ琠⁯㈳甀瑴湯┠‱乁⁄㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Buttons > AND/OR > AND three buttons",
+      "text": "漥›潊灹摡┠‰畢瑴湯┠‱乁⁄㈥䄠䑎┠3",
+      "menuId": 26095,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2畢瑴湯┠‱乁⁄㈥䄠䑎┠3",
+        "畂瑴湯ㄠ琠⁯㈳甀瑴湯┠‱乁⁄㈥䄠䑎┠3",
+        "畂瑴湯ㄠ琠⁯㈳甀瑴湯┠‱乁⁄㈥䄠䑎┠3",
+        "畂瑴湯ㄠ琠⁯㈳甀瑴湯┠‱乁⁄㈥䄠䑎┠3"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Buttons > AND/OR > OR two buttons",
+      "text": "漥›潊灹摡┠‰畢瑴湯┠‱剏┠2",
+      "menuId": 26100,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2畢瑴湯┠‱剏┠2",
+        "畂瑴湯ㄠ琠⁯㈳甀瑴湯┠‱剏┠2",
+        "畂瑴湯ㄠ琠⁯㈳甀瑴湯┠‱剏┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Buttons > AND/OR > OR three buttons",
+      "text": "漥›潊灹摡┠‰畢瑴湯┠‱剏┠′剏┠3",
+      "menuId": 26105,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2畢瑴湯┠‱剏┠′剏┠3",
+        "畂瑴湯ㄠ琠⁯㈳甀瑴湯┠‱剏┠′剏┠3",
+        "畂瑴湯ㄠ琠⁯㈳甀瑴湯┠‱剏┠′剏┠3",
+        "畂瑴湯ㄠ琠⁯㈳甀瑴湯┠‱剏┠′剏┠3"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Check axis > Has Z-axis",
+      "text": "ㄱ猥›潊灹摡┠⁳慨⁳ⵚ硡獩",
+      "menuId": 26110,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2⁳慨⁳ⵚ硡獩"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Check axis > Has R-axis",
+      "text": "ㄱ猥›潊灹摡┠⁳慨⁳ⵒ硡獩",
+      "menuId": 26115,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2⁳慨⁳ⵒ硡獩"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Check axis > Has U-axis",
+      "text": "ㄱ猥›潊灹摡┠⁳慨⁳ⵕ硡獩",
+      "menuId": 26120,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2⁳慨⁳ⵕ硡獩"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Check axis > Has V-axis",
+      "text": "ㄱ猥›潊灹摡┠⁳慨⁳ⵖ硡獩",
+      "menuId": 26125,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2⁳慨⁳ⵖ硡獩"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Check axis > Has Point-Of-View",
+      "text": "ㄱ猥›潊灹摡┠⁳慨⁳潐湩伭ⵦ楖睥",
+      "menuId": 26130,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2⁳慨⁳潐湩伭ⵦ楖睥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Directions > Direction is changed",
+      "text": "ㄱ猥›楄敲瑣潩⁮景琠敨樠祯慰⁤猥椠⁳档湡敧d",
+      "menuId": 26135,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2⁮景琠敨樠祯慰⁤猥椠⁳档湡敧d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Ignore/Restore > Ignore control",
+      "text": "㄰杉潮敲挠湯牴汯┠s",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2汯┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Ignore/Restore > Restore control",
+      "text": "㄰敒瑳牯⁥潣瑮潲⁬猥",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2潲⁬猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Buttons > Reset last button pressed",
+      "text": "㄰敒敳⁴慬瑳戠瑵潴⁮牰獥敳⁤湯樠祯慰⁤猥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2瑵潴⁮牰獥敳⁤湯樠祯慰⁤猥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Buttons > Reset last button released",
+      "text": "㄰敒敳⁴慬瑳戠瑵潴⁮敲敬獡摥漠⁮潪灹摡┠s",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潊灹摡ㄠ漠⁲2瑵潴⁮敲敬獡摥漠⁮潪灹摡┠s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get axis values > Raw X value",
+      "text": "慒塷(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get axis values > Raw Y value",
+      "text": "慒奷(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get axis values > Raw Z value",
+      "text": "慒婷(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get axis values > Raw R value",
+      "text": "慒剷(",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get axis values > Raw U value",
+      "text": "慒啷(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get axis values > Raw V value",
+      "text": "慒噷(",
+      "menuId": 27025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Point-of-view position in degrees",
+      "text": "佐䑖来敲獥(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Min values > Min X value",
+      "text": "楍塮(",
+      "menuId": 27035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Min values > Min Y value",
+      "text": "楍奮(",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Min values > Min Z value",
+      "text": "楍婮(",
+      "menuId": 27045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Min values > Min R value",
+      "text": "楍剮(",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Min values > Min U value",
+      "text": "楍啮(",
+      "menuId": 27055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Min values > Min V value",
+      "text": "楍噮(",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Max values > Max X value",
+      "text": "慍塸(",
+      "menuId": 27065,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Max values > Max Y value",
+      "text": "慍奸(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Max values > Max Z value",
+      "text": "慍婸(",
+      "menuId": 27075,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Max values > Max R value",
+      "text": "慍剸(",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Max values > Max U value",
+      "text": "慍啸(",
+      "menuId": 27085,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Max values > Max V value",
+      "text": "慍噸(",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Max values > Max number of axis",
+      "text": "慍䅸楸⡳",
+      "menuId": 27095,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Max values > Max number of buttons",
+      "text": "慍䉸瑵潴獮(",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Joypad direction",
+      "text": "潊䑹物(",
+      "menuId": 27105,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Buttons > Last single button pressed",
+      "text": "慌瑳畂瑴湯牐獥敳⡤",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Buttons > Last single button released",
+      "text": "慌瑳畂瑴湯敒敬獡摥(",
+      "menuId": 27115,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Number of joypads inplugged",
+      "text": "牎晏潊灹摡⡳",
+      "menuId": 27120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

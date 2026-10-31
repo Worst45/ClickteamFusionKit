@@ -1,0 +1,141 @@
+{
+  "file": "Zipit.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Loop Trigger",
+      "text": "ㄱ猥›潌灯琠楲杧牥⌠猥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Compare Loop Position...",
+      "text": "ㄱ猥›潌灯⌠猥瀠獯瑩潩⁮猥",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Loop is Infinite",
+      "text": "ㄱ猥›潌灯⌠猥椠⁳湉楦楮整",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Start Loop",
+      "text": "㄰瑓牡⁴潌灯⌠猥映牯┠⁳潬灯猨⸩",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Single Loop",
+      "text": "㄰牔杩敧⁲潌灯⌠猥传据⹥",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Stop Loop",
+      "text": "㄰瑓灯䰠潯⁰┣⹳",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Advanced > Adjust Loop Position",
+      "text": "㄰摁番瑳䰠潯⁰┣❳⁳潐楳楴湯琠⁯猥.",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Advanced > Redraw Frame",
+      "text": "㄰敒牤睡䘠慲敭漠⁮捓敲湥.",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Advanced > Set Loop Pause",
+      "text": "㄰敓⁴潌灯倠畡敳琠⁯猥洠汩楬敳潣摮猨⸩",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Loop Step",
+      "text": "潌灯匠整⡰",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get Number of Loop Steps",
+      "text": "畎扭牥漠⁦瑓灥⡳",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": true,
+      "codeGuessed": false
+    }
+  ]
+}

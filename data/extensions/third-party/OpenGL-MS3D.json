@@ -1,0 +1,1245 @@
+{
+  "file": "OpenGL-MS3D.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Models > On model loaded",
+      "text": "漥›湏洠摯汥氠慯敤d",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Models > On loading failed",
+      "text": "漥›湏洠摯汥氠慯楤杮映楡敬d",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Models > On texture handle request",
+      "text": "漥›湏琠硥畴敲栠湡汤⁥敲畱獥t",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Objects > On object loop",
+      "text": "漥›湏漠橢捥⁴潬灯",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Objects > On animation finished",
+      "text": "漥›湏愠楮慭楴湯映湩獩敨d",
+      "menuId": 26004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Properties > Mode > Fill",
+      "text": "潍敤›楆汬",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Properties > Mode > Lines",
+      "text": "潍敤›楌敮s",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Properties > Mode > Points",
+      "text": "潍敤›潐湩獴",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Properties > Shading > None",
+      "text": "桓摡湩㩧丠湯e",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Properties > Shading > Flat",
+      "text": "桓摡湩㩧䘠慬t",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Properties > Shading > Gouraud",
+      "text": "桓摡湩㩧䜠畯慲摵",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Properties > Culling > None",
+      "text": "畃汬湩㩧丠湯e",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Properties > Culling > Back faces",
+      "text": "畃汬湩㩧䈠捡⁫慦散s",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Properties > Culling > Front faces",
+      "text": "畃汬湩㩧䘠潲瑮映捡獥",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Models > Load model from file...",
+      "text": "潌摡洠摯汥映潲⁭楦敬┠0",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "楆敬慮敭⸮.潲⁭楦敬┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Models > Load internal model...",
+      "text": "潌摡椠瑮牥慮⁬潭敤⁬〥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潍敤⁬慮敭⸮.潭敤⁬〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Models > Load all internal models",
+      "text": "潌摡愠汬椠瑮牥慮⁬潭敤獬",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Models > Texture handle request > Pass texture handle...",
+      "text": "慐獳爠煥敵瑳摥琠硥畴敲栠湡汤㩥┠0",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥慨摮敬⸮.畴敲栠湡汤㩥┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Models > Select model...",
+      "text": "敓敬瑣洠摯汥┠0",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潍敤⁬慮敭⸮.0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Models > Delete model",
+      "text": "敄敬整猠汥捥整⁤潭敤l",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Models > Delete all models",
+      "text": "敄敬整愠汬洠摯汥s",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Models > Group > Material...",
+      "text": "敓⁴牧畯⁰〥洠瑡牥慩⁬潴┠1",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "片畯⁰慮敭⸮.瑡牥慩⁬潴┠1",
+        "慍整楲污渠浡⹥⸮爀慩⁬潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Models > Material > Ambient color...",
+      "text": "敓⁴慭整楲污┠‰浡楢湥⁴潣潬⁲潴┠1",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        24
+      ],
+      "paramTitles": [
+        "慍整楲污渠浡⹥⸮洀楢湥⁴潣潬⁲潴┠1",
+        "流楢湥⁴潣潬⹲⸮洀楢湥⁴潣潬⁲潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Models > Material > Diffuse color...",
+      "text": "敓⁴慭整楲污┠‰楤晦獵⁥潣潬⁲潴┠1",
+      "menuId": 25018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        24
+      ],
+      "paramTitles": [
+        "慍整楲污渠浡⹥⸮椀晦獵⁥潣潬⁲潴┠1",
+        "楄晦獵⁥潣潬⹲⸮椀晦獵⁥潣潬⁲潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Models > Material > Specular color...",
+      "text": "敓⁴慭整楲污┠‰灳捥汵牡挠汯牯琠⁯ㄥ",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        24
+      ],
+      "paramTitles": [
+        "慍整楲污渠浡⹥⸮瀀捥汵牡挠汯牯琠⁯ㄥ",
+        "灓捥汵牡挠汯牯⸮.捥汵牡挠汯牯琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Models > Material > Emissive color...",
+      "text": "敓⁴慭整楲污┠‰浥獩楳敶挠汯牯琠⁯ㄥ",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        24
+      ],
+      "paramTitles": [
+        "慍整楲污渠浡⹥⸮洀獩楳敶挠汯牯琠⁯ㄥ",
+        "浅獩楳敶挠汯牯⸮.獩楳敶挠汯牯琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Models > Material > Shininess...",
+      "text": "敓⁴慭整楲污┠‰桳湩湩獥⁳潴┠1",
+      "menuId": 25021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慍整楲污渠浡⹥⸮栀湩湩獥⁳潴┠1",
+        "桓湩湩獥⹳⸮⸀⸮栀湩湩獥⁳潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Models > Material > Transparency...",
+      "text": "敓⁴慭整楲污┠‰牴湡灳牡湥散琠⁯ㄥ",
+      "menuId": 25022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慍整楲污渠浡⹥⸮爀湡灳牡湥散琠⁯ㄥ",
+        "牔湡灳牡湥祣⸮.爀湡灳牡湥散琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Models > Material > Sphere map > Enable...",
+      "text": "敓⁴慭整楲污┠‰灳敨敲洠灡›湅扡敬d",
+      "menuId": 25023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慍整楲污渠浡⹥⸮瀀敨敲洠灡›湅扡敬d"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Models > Material > Sphere map > Disable...",
+      "text": "敓⁴慭整楲污┠‰灳敨敲洠灡›楄慳汢摥",
+      "menuId": 25024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慍整楲污渠浡⹥⸮瀀敨敲洠灡›楄慳汢摥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Models > Material > Texture handle...",
+      "text": "敓⁴慭整楲污┠‰整瑸牵⁥慨摮敬琠⁯ㄥ",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慍整楲污渠浡⹥⸮攀瑸牵⁥慨摮敬琠⁯ㄥ",
+        "敔瑸牵⁥慨摮敬⸮.瑸牵⁥慨摮敬琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Objects > Add object...",
+      "text": "摁⁤扯敪瑣眠瑩⁨潭敤⁬〥",
+      "menuId": 25026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潍敤⁬慮敭⸮.⁨潭敤⁬〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Objects > Remove object",
+      "text": "敒潭敶漠橢捥t",
+      "menuId": 25027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Objects > Remove all objects",
+      "text": "敒潭敶愠汬漠橢捥獴",
+      "menuId": 25028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Objects > Object selection > Select object...",
+      "text": "敓敬瑣漠橢捥⁴楷桴䤠⁄〥",
+      "menuId": 25029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣䤠⹄⸮ 楷桴䤠⁄〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Objects > Object selection > Loop through objects",
+      "text": "潌灯琠牨畯桧漠橢捥獴",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Objects > Visibility > Show",
+      "text": "桓睯漠橢捥t",
+      "menuId": 25031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Objects > Visibility > Hide",
+      "text": "楈敤漠橢捥t",
+      "menuId": 25032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Objects > Position > Set X coordinate...",
+      "text": "敓⁴扯敪瑣堠瀠獯瑩潩⁮潴┠0",
+      "menuId": 25033,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁘潣牯楤慮整⸮.瑩潩⁮潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Objects > Position > Set Y coordinate...",
+      "text": "敓⁴扯敪瑣夠瀠獯瑩潩⁮潴┠0",
+      "menuId": 25034,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁙潣牯楤慮整⸮.瑩潩⁮潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Objects > Position > Set Z coordinate...",
+      "text": "敓⁴扯敪瑣娠瀠獯瑩潩⁮潴┠0",
+      "menuId": 25035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁚潣牯楤慮整⸮.瑩潩⁮潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Objects > Orientation > Set pitch...",
+      "text": "敓⁴扯敪瑣瀠瑩档琠⁯〥",
+      "menuId": 25036,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楐捴⹨⸮琀瀠瑩档琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Objects > Orientation > Set yaw...",
+      "text": "敓⁴扯敪瑣礠睡琠⁯〥",
+      "menuId": 25037,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慙⹷⸮攀瑣礠睡琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Objects > Orientation > Set roll...",
+      "text": "敓⁴扯敪瑣爠汯⁬潴┠0",
+      "menuId": 25038,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潒汬⸮.瑣爠汯⁬潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Objects > Scale > Set X scale...",
+      "text": "敓⁴扯敪瑣堠猠慣敬琠⁯〥",
+      "menuId": 25039,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁘捳污⹥⸮堀猠慣敬琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Objects > Scale > Set Y scale...",
+      "text": "敓⁴扯敪瑣夠猠慣敬琠⁯〥",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁙捳污⹥⸮夀猠慣敬琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Objects > Scale > Set Z scale...",
+      "text": "敓⁴扯敪瑣娠猠慣敬琠⁯〥",
+      "menuId": 25041,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁚捳污⹥⸮娀猠慣敬琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Objects > Scale > Uniform scale...",
+      "text": "敓⁴扯敪瑣甠楮潦浲猠慣敬琠⁯〥",
+      "menuId": 25042,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湕晩牯⁭捳污⹥⸮洀猠慣敬琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Objects > Animation > Start...",
+      "text": "瑓牡⁴扯敪瑣愠楮慭楴湯映潲⁭〥琠⁯ㄥ‬潬灯┠″楴敭s",
+      "menuId": 25043,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湁浩瑡潩⁮瑳牡⁴ ㄭ㴠挠牵敲瑮映慲敭⤠⸮.┠″楴敭s",
+        "湁浩瑡潩⁮湥⁤ ㄭ㴠氠獡⁴牦浡⁥⸩⸮⤀⸮.┠″楴敭s",
+        "湁浩瑡潩⁮灳敥⹤⸮㴀氠獡⁴牦浡⁥⸩⸮⤀⸮.┠″楴敭s",
+        "湁浩瑡潩⁮潬灯潣湵⁴ ㄭ㴠椠普湩瑩⤠⸮..┠″楴敭s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Objects > Animation > Stop",
+      "text": "瑓灯漠橢捥⁴湡浩瑡潩n",
+      "menuId": 25044,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Objects > Animation > Set frame...",
+      "text": "敓⁴扯敪瑣愠楮慭楴湯映慲敭琠⁯〥",
+      "menuId": 25045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湁浩瑡潩⁮牦浡⹥⸮渀映慲敭琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Objects > Joint > Attach object...",
+      "text": "瑁慴档漠橢捥⁴楷桴䤠⁄〥琠⁯潪湩⁴ㄥ",
+      "menuId": 25046,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "扏敪瑣䤠⹄⸮ 楷桴䤠⁄〥琠⁯潪湩⁴ㄥ",
+        "潊湩⁴慮敭⸮.楷桴䤠⁄〥琠⁯潪湩⁴ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Objects > Joint > Detach object...",
+      "text": "敄慴档漠橢捥⁴牦浯樠楯瑮┠0",
+      "menuId": 25047,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潊湩⁴慮敭⸮.牦浯樠楯瑮┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Objects > Render objects",
+      "text": "敒摮牥漠橢捥獴",
+      "menuId": 25048,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Models > Group > Show...",
+      "text": "桓睯朠潲灵┠0",
+      "menuId": 25049,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "片畯⁰慮敭⸮."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 50,
+      "menu": "Models > Group > Hide...",
+      "text": "楈敤朠潲灵┠0",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "片畯⁰慮敭⸮."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "Models > Material > Texture coord offset > S coordinate...",
+      "text": "敓⁴慭整楲污┠‰整瑸牵⁥⁓潣牯楤慮整漠晦敳⁴潴┠1",
+      "menuId": 25051,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慍整楲污渠浡⹥⸮攀瑸牵⁥⁓潣牯楤慮整漠晦敳⁴潴┠1",
+        "敓⁴整瑸牵⁥⁓潣牯楤慮整漠晦敳⹴⸮攀漠晦敳⁴潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 52,
+      "menu": "Models > Material > Texture coord offset > T coordinate...",
+      "text": "敓⁴慭整楲污┠‰整瑸牵⁥⁔潣牯楤慮整漠晦敳⁴潴┠1",
+      "menuId": 25052,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "慍整楲污渠浡⹥⸮攀瑸牵⁥⁔潣牯楤慮整漠晦敳⁴潴┠1",
+        "敓⁴整瑸牵⁥⁔潣牯楤慮整漠晦敳⹴⸮攀漠晦敳⁴潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Models > Texture handle request > Texture name",
+      "text": "敒畱獥整呤硥畴敲⠤",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Models > Number of models",
+      "text": "畎䵭摯汥⡳",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Models > Model name",
+      "text": "潍敤乬浡⑥(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Models > Group > Material",
+      "text": "慍整楲污⠤",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "片畯⁰慮敭"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Models > Material > Ambient color",
+      "text": "流楢湥⡴",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慍整楲污渠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Models > Material > Diffuse color",
+      "text": "楄晦獵⡥",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慍整楲污渠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Models > Material > Specular color",
+      "text": "灓捥汵牡(",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慍整楲污渠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Models > Material > Emissive color",
+      "text": "浅獩楳敶(",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慍整楲污渠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Models > Material > Shininess",
+      "text": "桓湩湩獥⡳",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慍整楲污渠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Models > Material > Transparency",
+      "text": "牔湡灳牡湥祣(",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慍整楲污渠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Models > Material > Texture name",
+      "text": "敔瑸牵⑥(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 3,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慍整楲污渠浡e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Models > Animation > Number of frames",
+      "text": "湁浩畎䙭慲敭⡳",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Objects > Number of objects",
+      "text": "畎佭橢捥獴(",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Objects > Object ID",
+      "text": "扏敪瑣䑉(",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Objects > Position > Get X position",
+      "text": "⡘",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Objects > Position > Get Y position",
+      "text": "⡙",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Objects > Position > Get Z position",
+      "text": "⡚",
+      "menuId": 27016,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Objects > Orientation > Get pitch",
+      "text": "楐捴⡨",
+      "menuId": 27017,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Objects > Orientation > Get yaw",
+      "text": "慙⡷",
+      "menuId": 27018,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Objects > Orientation > Get roll",
+      "text": "潒汬(",
+      "menuId": 27019,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Objects > Scale > Get X scale",
+      "text": "単慣敬(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Objects > Scale > Get Y scale",
+      "text": "卙慣敬(",
+      "menuId": 27021,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Objects > Scale > Get Z scale",
+      "text": "博慣敬(",
+      "menuId": 27022,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Objects > Animation > Current frame",
+      "text": "湁浩牆浡⡥",
+      "menuId": 27023,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Objects > Binding > Get ID",
+      "text": "楂摮䑉(",
+      "menuId": 27024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Models > Material > Texture coord offset > S coordinate",
+      "text": "敔䍸潯摲晏獦瑥⡓",
+      "menuId": 27025,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慍整楲污渠浡e⡓"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Models > Material > Texture coord offset > T coordinate",
+      "text": "敔䍸潯摲晏獦瑥⡔",
+      "menuId": 27026,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "慍整楲污渠浡e⡔"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Models > Texture handle request > Loading model name",
+      "text": "潌摡湩䵧摯汥⠤",
+      "menuId": 27027,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

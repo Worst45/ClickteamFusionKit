@@ -1,0 +1,72 @@
+{
+  "file": "Scan.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On Scan complete?",
+      "text": "%o: On Scan Complete?",
+      "menuId": 26000,
+      "resText": "%o: On Scan Complete?",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On Scan cancelled?",
+      "text": "%o: On Scan Cancelled?",
+      "menuId": 26010,
+      "resText": "%o: On Scan Cancelled?",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "On Scan Error?",
+      "text": "%o: On Scan Error?",
+      "menuId": 26020,
+      "resText": "%o: On Scan Error?",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "conditions_status": "menu ressources",
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Start Scan Code",
+      "text": "%o: Start Scan Code",
+      "menuId": 25000,
+      "resText": "%o: Start Scan Code",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions_status": "menu ressources",
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get Scan String",
+      "text": "ScanResult$(",
+      "menuId": 27000,
+      "resText": "ScanResult$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions_status": "menu ressources"
+}

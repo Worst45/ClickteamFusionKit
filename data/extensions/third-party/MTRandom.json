@@ -1,0 +1,298 @@
+{
+  "file": "MTRandom.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Seed > Set seed to system time",
+      "text": "敓⁴敳摥琠⁯祳瑳浥琠浩e",
+      "menuId": 25000,
+      "resText": "Set seed to system time",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Seed > Set seed using one number",
+      "text": "敓⁴敳摥琠⁯〥",
+      "menuId": 25010,
+      "resText": "Set seed to %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡敳摥映潲⁭㈭㐱㐷㌸㐶‸潴㈠㐱㐷㌸㐶7"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Seed > Set seed using 2 numbers",
+      "text": "敓⁴敳摥琠⁯ 〥‬ㄥ)",
+      "menuId": 25020,
+      "resText": "Set seed to ( %0, %1)",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲猱⁴敳摥　‬ㄥ)",
+        "湅整⁲渲⁤敳摥　‬ㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Seed > Set seed using 3 numbers",
+      "text": "敓⁴敳摥琠⁯ 〥‬ㄥ‬㈥)",
+      "menuId": 25030,
+      "resText": "Set seed to ( %0, %1, %2)",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲猱⁴敳摥　‬ㄥ‬㈥)",
+        "湅整⁲渲⁤敳摥　‬ㄥ‬㈥)",
+        "湅整⁲爳⁤敳摥　‬ㄥ‬㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Seed > Set seed using 4 numbers",
+      "text": "敓⁴敳摥琠⁯ 〥‬ㄥ‬㈥‬㌥)",
+      "menuId": 25040,
+      "resText": "Set seed to ( %0, %1, %2, %3)",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲猱⁴敳摥　‬ㄥ‬㈥‬㌥)",
+        "湅整⁲渲⁤敳摥　‬ㄥ‬㈥‬㌥)",
+        "湅整⁲爳⁤敳摥　‬ㄥ‬㈥‬㌥)",
+        "湅整⁲琴⁨敳摥　‬ㄥ‬㈥‬㌥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Seed > Set seed using 6 numbers",
+      "text": "敓⁴敳摥琠⁯ 〥‬ㄥ‬㈥‬㌥‬㐥‬㔥)",
+      "menuId": 25050,
+      "resText": "Set seed to ( %0, %1, %2, %3, %4, %5)",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲猱⁴敳摥　‬ㄥ‬㈥‬㌥‬㐥‬㔥)",
+        "湅整⁲渲⁤敳摥　‬ㄥ‬㈥‬㌥‬㐥‬㔥)",
+        "湅整⁲爳⁤敳摥　‬ㄥ‬㈥‬㌥‬㐥‬㔥)",
+        "湅整⁲琴⁨敳摥　‬ㄥ‬㈥‬㌥‬㐥‬㔥)",
+        "湅整⁲琵⁨敳摥　‬ㄥ‬㈥‬㌥‬㐥‬㔥)",
+        "湅整⁲琶⁨敳摥　‬ㄥ‬㈥‬㌥‬㐥‬㔥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Seed > Set seed using 8 numbers",
+      "text": "敓⁴敳摥琠⁯ 〥‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥)",
+      "menuId": 25060,
+      "resText": "Set seed to ( %0, %1, %2, %3, %4, %5, %6, %7)",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲猱⁴敳摥　‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥)",
+        "湅整⁲渲⁤敳摥　‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥)",
+        "湅整⁲爳⁤敳摥　‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥)",
+        "湅整⁲琴⁨敳摥　‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥)",
+        "湅整⁲琵⁨敳摥　‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥)",
+        "湅整⁲琶⁨敳摥　‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥)",
+        "湅整⁲琷⁨敳摥　‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥)",
+        "湅整⁲琸⁨敳摥　‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Seed > Set seed using 10 numbers",
+      "text": "敓⁴敳摥琠⁯ 〥‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥‬㠥‬㤥)",
+      "menuId": 25070,
+      "resText": "Set seed to ( %0, %1, %2, %3, %4, %5, %6, %7, %8, %9)",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲猱⁴敳摥　‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥‬㠥‬㤥)",
+        "湅整⁲渲⁤敳摥　‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥‬㠥‬㤥)",
+        "湅整⁲爳⁤敳摥　‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥‬㠥‬㤥)",
+        "湅整⁲琴⁨敳摥　‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥‬㠥‬㤥)",
+        "湅整⁲琵⁨敳摥　‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥‬㠥‬㤥)",
+        "湅整⁲琶⁨敳摥　‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥‬㠥‬㤥)",
+        "湅整⁲琷⁨敳摥　‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥‬㠥‬㤥)",
+        "湅整⁲琸⁨敳摥　‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥‬㠥‬㤥)",
+        "湅整⁲琹⁨敳摥　‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥‬㠥‬㤥)",
+        "湅整⁲〱桴猠敥d‬ㄥ‬㈥‬㌥‬㐥‬㔥‬㘥‬㜥‬㠥‬㤥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Expire one number",
+      "text": "硅楰敲漠敮渠浵敢r",
+      "menuId": 25080,
+      "resText": "Expire one number",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Expire X numbers",
+      "text": "硅楰敲┠‰畮扭牥s",
+      "menuId": 25090,
+      "resText": "Expire %0 numbers",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "流畯瑮漠⁦畮扭牥⁳潴攠灸物e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Random float, 0-1",
+      "text": "慒摮湏⡥",
+      "menuId": 27000,
+      "resText": "RandOne(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Random float, 0-1 (excludes 1)",
+      "text": "慒摮湏䕥捸(",
+      "menuId": 27010,
+      "resText": "RandOneExc(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Random float, define range",
+      "text": "慒摮硅⡣",
+      "menuId": 27020,
+      "resText": "RandExc(",
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Random float, define range (excludes upperbound)",
+      "text": "慒摮硅⡣",
+      "menuId": 27030,
+      "resText": "RandExc(",
+      "flags": 2,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Random integer",
+      "text": "慒摮湉⡴",
+      "menuId": 27040,
+      "resText": "RandInt(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Random integer (excludes upperbound)",
+      "text": "慒摮湉䕴捸(",
+      "menuId": 27050,
+      "resText": "RandIntExc(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

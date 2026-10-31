@@ -1,0 +1,993 @@
+{
+  "file": "Flocking.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On looped boid",
+      "text": "漥›湏氠潯⁰〥映牯戠楯⁤ㄥ",
+      "menuId": 26000,
+      "resText": "%o: On loop %0 for boid %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        1
+      ],
+      "paramTitles": [
+        "湅整⁲⁡慮敭映牯琠敨氠潯p",
+        "敓敬瑣愠⁮扯敪瑣琀敨氠潯p"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Add object as boid",
+      "text": "摁⁤〥愠⁳潢摩琠灹⁥ㄥ",
+      "menuId": 25000,
+      "resText": "Add %0 as boid type %1",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣愠⁮扯敪瑣瀀⁥ㄥ",
+        "潂摩琠灹⁥畮扭牥瀀⁥ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Remove object",
+      "text": "敒潭敶┠0",
+      "menuId": 25001,
+      "resText": "Remove %0",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敓敬瑣愠⁮扯敪瑣"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Set boid type attributes > Set idle speed",
+      "text": "潂摩┠㨰匠瑥椠汤⁥灳敥⁤ㄥ",
+      "menuId": 25002,
+      "resText": "Boid %0: Set idle speed %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂摩琠灹⁥畮扭牥 灳敥⁤ㄥ",
+        "湅整⁲⁡灳敥⁤椨⁮楰數獬瀠牥琠浩⁥湵瑩)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Set boid type attributes > Set min speed",
+      "text": "潂摩┠㨰匠瑥洠湩猠数摥›ㄥ",
+      "menuId": 25003,
+      "resText": "Boid %0: Set min speed: %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂摩琠灹⁥畮扭牥猀数摥›ㄥ",
+        "湅整⁲⁡業⁮灳敥⁤椨⁮楰數獬瀠牥琠浩⁥湵瑩 慃⁮敢渠来瑡癩⁥潦⁲敲敶獲⁥潭敶敭瑮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Set boid type attributes > Set max speed",
+      "text": "潂摩┠㨰匠瑥洠硡猠数摥›ㄥ",
+      "menuId": 25004,
+      "resText": "Boid %0: Set max speed: %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂摩琠灹⁥畮扭牥猀数摥›ㄥ",
+        "湅整⁲⁡慭⁸灳敥⁤椨⁮楰數獬瀠牥琠浩⁥湵瑩)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Set boid type attributes > Set acceleration",
+      "text": "潂摩┠㨰匠瑥愠捣汥牥瑡潩㩮┠1",
+      "menuId": 25005,
+      "resText": "Boid %0: Set acceleration: %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂摩琠灹⁥畮扭牥氀牥瑡潩㩮┠1",
+        "湅整⁲湡愠捣汥牥瑡潩⁮洨硡挠慨杮⁥湩瀠硩汥⁳数⁲楴敭甠楮⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Set boid type attributes > Set deceleration",
+      "text": "潂摩┠㨰匠瑥搠捥汥牥瑡潩㩮┠1",
+      "menuId": 25006,
+      "resText": "Boid %0: Set deceleration: %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂摩琠灹⁥畮扭牥氀牥瑡潩㩮┠1",
+        "湅整⁲⁡敤散敬慲楴湯⠠慭⁸档湡敧椠⁮楰數獬瀠牥琠浩⁥湵瑩)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Set boid type attributes > Set max turn speed",
+      "text": "潂摩┠㨰匠瑥琠牵⁮灳敥㩤┠1",
+      "menuId": 25007,
+      "resText": "Boid %0: Set turn speed: %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂摩琠灹⁥畮扭牥 灳敥㩤┠1",
+        "湅整⁲⁡慭⁸畴湲猠数摥⠠慭⁸湡汧獥瀠牥琠浩⁥湵瑩)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Set boid type attributes > Set view radius",
+      "text": "潂摩┠㨰匠瑥瘠敩⁷慲楤獵›ㄥ",
+      "menuId": 25008,
+      "resText": "Boid %0: Set view radius: %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂摩琠灹⁥畮扭牥 慲楤獵›ㄥ",
+        "慒楤獵瀀⁥畮扭牥 慲楤獵›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Set boid type attributes > Set avoidance radius",
+      "text": "潂摩┠㨰匠瑥愠潶摩湡散爠摡畩㩳┠1",
+      "menuId": 25009,
+      "resText": "Boid %0: Set avoidance radius: %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂摩琠灹⁥畮扭牥搀湡散爠摡畩㩳┠1",
+        "慒楤獵瀀⁥畮扭牥搀湡散爠摡畩㩳┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Set boid type attributes > Set movement randomization",
+      "text": "潂摩┠㨰匠瑥洠癯浥湥⁴慲摮浯穩瑡潩㩮┠1",
+      "menuId": 25010,
+      "resText": "Boid %0: Set movement randomization: %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂摩琠灹⁥畮扭牥洀湥⁴慲摮浯穩瑡潩㩮┠1",
+        "湅整⁲⁡潭敶敭瑮爠湡潤業慺楴湯瘠污敵─1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Set boid type attributes > Set separation weight",
+      "text": "潂摩┠㨰匠瑥猠灥牡瑡潩⁮敷杩瑨›ㄥ",
+      "menuId": 25011,
+      "resText": "Boid %0: Set separation weight: %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂摩琠灹⁥畮扭牥爀瑡潩⁮敷杩瑨›ㄥ",
+        "敗杩瑨瀀⁥畮扭牥爀瑡潩⁮敷杩瑨›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Set boid type attributes > Set alignment weight",
+      "text": "潂摩┠㨰匠瑥愠楬湧敭瑮眠楥桧㩴┠1",
+      "menuId": 25012,
+      "resText": "Boid %0: Set alignment weight: %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂摩琠灹⁥畮扭牥渀敭瑮眠楥桧㩴┠1",
+        "敗杩瑨瀀⁥畮扭牥渀敭瑮眠楥桧㩴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Set boid type attributes > Set cohesion weight",
+      "text": "潂摩┠㨰匠瑥挠桯獥潩⁮敷杩瑨›ㄥ",
+      "menuId": 25013,
+      "resText": "Boid %0: Set cohesion weight: %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂摩琠灹⁥畮扭牥猀潩⁮敷杩瑨›ㄥ",
+        "敗杩瑨瀀⁥畮扭牥猀潩⁮敷杩瑨›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Set boid type attributes > Set angle/direction setting",
+      "text": "潂摩┠㨰匠瑥愠杮敬搯物猠瑥楴杮琠㩯┠1",
+      "menuId": 25014,
+      "resText": "Boid %0: Set angle/dir setting to: %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂摩琠灹⁥畮扭牥攀搯物猠瑥楴杮琠㩯┠1",
+        "敓⁴湡汧⽥楤⁲敳瑴湩⁧〨甽敳愠杮敬ⱳㄠ甽敳搠物捥楴湯ⱳ㈠搽湯琧爠瑯瑡⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Set boid type attributes > Set speed dependant turn setting",
+      "text": "潂摩┠㨰匠瑥猠数摥搠灥湥慤瑮琠牵⁮敳瑴湩㩧┠1",
+      "menuId": 25015,
+      "resText": "Boid %0: Set speed dependant turn setting: %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂摩琠灹⁥畮扭牥搀搠灥湥慤瑮琠牵⁮敳瑴湩㩧┠1",
+        "桓畯摬琠牵⁮灳敥⁤敤数摮漠⁮桴⁥潢摩猠数摥‿〨丽ⱏㄠ夽卅)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Set boid type attributes > Avoid obstacles?",
+      "text": "潂摩┠㨰匠瑥愠潶摩漠獢慴汣獥猠瑥楴杮›ㄥ",
+      "menuId": 25016,
+      "resText": "Boid %0: Set avoid obstacles setting: %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂摩琠灹⁥畮扭牥搀漠獢慴汣獥猠瑥楴杮›ㄥ",
+        "癁楯⁤扯瑳捡敬㽳⠠㴰低‬㴱䕙⥓琀楴杮›ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Control boids > All of type > Attract towards position",
+      "text": "瑁牴捡⁴污⁬潢摩⁳景琠灹⁥〥琠睯牡獤⠠ㄥ┬⤲眠楥桧㩴┠3",
+      "menuId": 25017,
+      "resText": "Attract all boids of type %0 towards (%1,%2) weight: %3",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂摩琠灹⁥畮扭牥 景琠灹⁥〥琠睯牡獤⠠ㄥ┬⤲眠楥桧㩴┠3",
+        "ⵘ潰楳楴湯甀扭牥 景琠灹⁥〥琠睯牡獤⠠ㄥ┬⤲眠楥桧㩴┠3",
+        "ⵙ潐楳楴湯甀扭牥 景琠灹⁥〥琠睯牡獤⠠ㄥ┬⤲眠楥桧㩴┠3",
+        "敗杩瑨椀湯甀扭牥 景琠灹⁥〥琠睯牡獤⠠ㄥ┬⤲眠楥桧㩴┠3"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Control boids > All of type > Chase away from position",
+      "text": "桃獡⁥污⁬潢摩⁳景琠灹⁥〥愠慷⁹牦浯⠠ㄥ┬⤲眠楥桧㩴┠3",
+      "menuId": 25018,
+      "resText": "Chase all boids of type %0 away from (%1,%2) weight: %3",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂摩琠灹⁥畮扭牥昀琠灹⁥〥愠慷⁹牦浯⠠ㄥ┬⤲眠楥桧㩴┠3",
+        "ⵘ潰楳楴湯甀扭牥昀琠灹⁥〥愠慷⁹牦浯⠠ㄥ┬⤲眠楥桧㩴┠3",
+        "ⵙ潐楳楴湯甀扭牥昀琠灹⁥〥愠慷⁹牦浯⠠ㄥ┬⤲眠楥桧㩴┠3",
+        "敗杩瑨椀湯甀扭牥昀琠灹⁥〥愠慷⁹牦浯⠠ㄥ┬⤲眠楥桧㩴┠3"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Control boids > All of type > Apply force (xy-direction)",
+      "text": "潔戠楯⁤祴数┠ⰰ愠灰祬映牯散⠠ㄥ┬⤲",
+      "menuId": 25019,
+      "resText": "To boid type %0, apply force (%1,%2)",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂摩琠灹⁥畮扭牥愀灰祬映牯散⠠ㄥ┬⤲",
+        "ⵘ灓敥d⁥畮扭牥愀灰祬映牯散⠠ㄥ┬⤲",
+        "ⵙ灓敥d⁥畮扭牥愀灰祬映牯散⠠ㄥ┬⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Control boids > Within radius > Attract toward position",
+      "text": "瑁牴捡⁴污⁬潢摩⁳景琠灹⁥〥琠睯牡獤⠠ㄥ┬⤲眠瑩楨⁮慲楤獵┠″敷杩瑨›㐥",
+      "menuId": 25020,
+      "resText": "Attract all boids of type %0 towards (%1,%2) within radius %3 weight: %4",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂摩琠灹⁥畮扭牥 景琠灹⁥〥琠睯牡獤⠠ㄥ┬⤲眠瑩楨⁮慲楤獵┠″敷杩瑨›㐥",
+        "ⵘ潰楳楴湯甀扭牥 景琠灹⁥〥琠睯牡獤⠠ㄥ┬⤲眠瑩楨⁮慲楤獵┠″敷杩瑨›㐥",
+        "ⵙ潐楳楴湯甀扭牥 景琠灹⁥〥琠睯牡獤⠠ㄥ┬⤲眠瑩楨⁮慲楤獵┠″敷杩瑨›㐥",
+        "慒楤獵椀湯甀扭牥 景琠灹⁥〥琠睯牡獤⠠ㄥ┬⤲眠瑩楨⁮慲楤獵┠″敷杩瑨›㐥",
+        "敗杩瑨椀湯甀扭牥 景琠灹⁥〥琠睯牡獤⠠ㄥ┬⤲眠瑩楨⁮慲楤獵┠″敷杩瑨›㐥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Control boids > Within radius > Chase away from position",
+      "text": "桃獡⁥污⁬潢摩⁳景琠灹⁥〥愠慷⁹牦浯⠠ㄥ┬⤲眠瑩楨⁮慲楤獵┠″敷杩瑨›㐥",
+      "menuId": 25021,
+      "resText": "Chase all boids of type %0 away from (%1,%2) within radius %3 weight: %4",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂摩琠灹⁥畮扭牥昀琠灹⁥〥愠慷⁹牦浯⠠ㄥ┬⤲眠瑩楨⁮慲楤獵┠″敷杩瑨›㐥",
+        "ⵘ潰楳楴湯甀扭牥昀琠灹⁥〥愠慷⁹牦浯⠠ㄥ┬⤲眠瑩楨⁮慲楤獵┠″敷杩瑨›㐥",
+        "ⵙ潐楳楴湯甀扭牥昀琠灹⁥〥愠慷⁹牦浯⠠ㄥ┬⤲眠瑩楨⁮慲楤獵┠″敷杩瑨›㐥",
+        "慒楤獵椀湯甀扭牥昀琠灹⁥〥愠慷⁹牦浯⠠ㄥ┬⤲眠瑩楨⁮慲楤獵┠″敷杩瑨›㐥",
+        "敗杩瑨椀湯甀扭牥昀琠灹⁥〥愠慷⁹牦浯⠠ㄥ┬⤲眠瑩楨⁮慲楤獵┠″敷杩瑨›㐥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Control boids > Within radius > Apply force (xy-direction)",
+      "text": "潔戠楯⁤祴数┠ⰰ愠灰祬映牯散⠠㐥┬⤵眠瑩楨⁮慲楤獵┠″牦浯⠠ㄥ┬⤲",
+      "menuId": 25022,
+      "resText": "To boid type %0, apply force (%4,%5) within radius %3 from (%1,%2)",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潂摩琠灹⁥畮扭牥愀灰祬映牯散⠠㐥┬⤵眠瑩楨⁮慲楤獵┠″牦浯⠠ㄥ┬⤲",
+        "ⵘ潰楳楴湯甀扭牥愀灰祬映牯散⠠㐥┬⤵眠瑩楨⁮慲楤獵┠″牦浯⠠ㄥ┬⤲",
+        "ⵙ潐楳楴湯甀扭牥愀灰祬映牯散⠠㐥┬⤵眠瑩楨⁮慲楤獵┠″牦浯⠠ㄥ┬⤲",
+        "慒楤獵椀湯甀扭牥愀灰祬映牯散⠠㐥┬⤵眠瑩楨⁮慲楤獵┠″牦浯⠠ㄥ┬⤲",
+        "ⵘ灓敥d湯甀扭牥愀灰祬映牯散⠠㐥┬⤵眠瑩楨⁮慲楤獵┠″牦浯⠠ㄥ┬⤲",
+        "ⵙ灓敥d湯甀扭牥愀灰祬映牯散⠠㐥┬⤵眠瑩楨⁮慲楤獵┠″牦浯⠠ㄥ┬⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Control boids > Individual boids > Attract towards position",
+      "text": "瑁牴捡⁴〥琠睯牡獤⠠ㄥ┬⤲眠楥桧㩴┠3",
+      "menuId": 25023,
+      "resText": "Attract %0 towards (%1,%2) weight: %3",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣愠⁮扯敪瑣猀⠠ㄥ┬⤲眠楥桧㩴┠3",
+        "ⵘ潰楳楴湯戀敪瑣猀⠠ㄥ┬⤲眠楥桧㩴┠3",
+        "ⵙ潐楳楴湯戀敪瑣猀⠠ㄥ┬⤲眠楥桧㩴┠3",
+        "敗杩瑨椀湯戀敪瑣猀⠠ㄥ┬⤲眠楥桧㩴┠3"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Control boids > Individual boids > Chase away from position",
+      "text": "桃獡⁥〥愠慷⁹牦浯⠠ㄥ┬⤲眠楥桧㩴┠3",
+      "menuId": 25024,
+      "resText": "Chase %0 away from (%1,%2) weight: %3",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣愠⁮扯敪瑣洀⠠ㄥ┬⤲眠楥桧㩴┠3",
+        "ⵘ潰楳楴湯戀敪瑣洀⠠ㄥ┬⤲眠楥桧㩴┠3",
+        "ⵙ潐楳楴湯戀敪瑣洀⠠ㄥ┬⤲眠楥桧㩴┠3",
+        "敗杩瑨椀湯戀敪瑣洀⠠ㄥ┬⤲眠楥桧㩴┠3"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Control boids > Individual boids > Apply force (xy-direction)",
+      "text": "灁汰⁹潦捲⁥┨ⰱ㈥ 潴┠0",
+      "menuId": 25025,
+      "resText": "Apply force (%1,%2) to %0",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓敬瑣愠⁮扯敪瑣㈀ 潴┠0",
+        "ⵘ灓敥d⁮扯敪瑣㈀ 潴┠0",
+        "ⵙ灓敥d⁮扯敪瑣㈀ 潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Loop boids > Loop neighbour boids",
+      "text": "潌灯琠牨畯桧渠楥桧潢牵湩⁧潢摩⁳潴┠‱楷桴湩爠摡畩⁳㈥眠瑩⁨潬灯渠浡⁥〥",
+      "menuId": 25026,
+      "resText": "Loop through neighbouring boids to %1 within radius %2 with loop name %0",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        1,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡慮敭映牯琠敨氠潯p潢摩⁳潴┠‱楷桴湩爠摡畩⁳㈥眠瑩⁨潬灯渠浡⁥〥",
+        "敓敬瑣愠⁮扯敪瑣琀敨氠潯p潢摩⁳潴┠‱楷桴湩爠摡畩⁳㈥眠瑩⁨潬灯渠浡⁥〥",
+        "慒楤獵愀⁮扯敪瑣琀敨氠潯p潢摩⁳潴┠‱楷桴湩爠摡畩⁳㈥眠瑩⁨潬灯渠浡⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Loop boids > Loop boids in radius",
+      "text": "潌灯琠牨畯桧愠汬戠楯獤眠瑩楨⁮慲楤獵┠″牦浯瀠獯瑩潩⁮╛ⰱ┠崲眠瑩⁨潬灯渠浡⁥〥",
+      "menuId": 25027,
+      "resText": "Loop through all boids within radius %3 from position [%1, %2] with loop name %0",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡慮敭映牯琠敨氠潯p楨⁮慲楤獵┠″牦浯瀠獯瑩潩⁮╛ⰱ┠崲眠瑩⁨潬灯渠浡⁥〥",
+        "ⵘ潰楳楴湯攀映牯琠敨氠潯p楨⁮慲楤獵┠″牦浯瀠獯瑩潩⁮╛ⰱ┠崲眠瑩⁨潬灯渠浡⁥〥",
+        "ⵙ潐楳楴湯攀映牯琠敨氠潯p楨⁮慲楤獵┠″牦浯瀠獯瑩潩⁮╛ⰱ┠崲眠瑩⁨潬灯渠浡⁥〥",
+        "慒楤獵椀湯攀映牯琠敨氠潯p楨⁮慲楤獵┠″牦浯瀠獯瑩潩⁮╛ⰱ┠崲眠瑩⁨潬灯渠浡⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Loop boids > Loop boids in rectangle",
+      "text": "潌灯琠牨畯桧愠汬戠楯獤眠瑩楨⁮敲瑣湡汧⁥㩸ㄥ礠┺′㩷㌥栠┺‴楷桴氠潯⁰慮敭┠0",
+      "menuId": 25028,
+      "resText": "Loop through all boids within rectangle x:%1 y:%2 w:%3 h:%4 with loop name %0",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡慮敭映牯琠敨氠潯p楨⁮敲瑣湡汧⁥㩸ㄥ礠┺′㩷㌥栠┺‴楷桴氠潯⁰慮敭┠0",
+        "ⵘ潰楳楴湯攀映牯琠敨氠潯p楨⁮敲瑣湡汧⁥㩸ㄥ礠┺′㩷㌥栠┺‴楷桴氠潯⁰慮敭┠0",
+        "ⵙ潐楳楴湯攀映牯琠敨氠潯p楨⁮敲瑣湡汧⁥㩸ㄥ礠┺′㩷㌥栠┺‴楷桴氠潯⁰慮敭┠0",
+        "楗瑤⁨湩瀠硩汥s琠敨氠潯p楨⁮敲瑣湡汧⁥㩸ㄥ礠┺′㩷㌥栠┺‴楷桴氠潯⁰慮敭┠0",
+        "效杩瑨椠⁮楰數獬琀敨氠潯p楨⁮敲瑣湡汧⁥㩸ㄥ礠┺′㩷㌥栠┺‴楷桴氠潯⁰慮敭┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Loop boids > Loop all boids",
+      "text": "潌灯琠牨畯桧愠汬戠楯獤眠瑩⁨潬灯渠浡⁥〥",
+      "menuId": 25029,
+      "resText": "Loop through all boids with loop name %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲⁡慮敭映牯琠敨氠潯p⁨潬灯渠浡⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Loop boids > Loop all boids of type",
+      "text": "潌灯琠牨畯桧愠汬戠楯獤漠⁦祴数┠‱楷桴氠潯⁰慮敭┠0",
+      "menuId": 25030,
+      "resText": "Loop through all boids of type %1 with loop name %0",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲⁡慮敭映牯琠敨氠潯p祴数┠‱楷桴氠潯⁰慮敭┠0",
+        "潂摩琠灹⁥畮扭牥琀敨氠潯p祴数┠‱楷桴氠潯⁰慮敭┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "From boid type > Get idle speed",
+      "text": "摉敬灓敥⡤",
+      "menuId": 27000,
+      "resText": "IdleSpeed(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潢摩琭灹e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "From boid type > Get min speed",
+      "text": "楍卮数摥(",
+      "menuId": 27001,
+      "resText": "MinSpeed(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潢摩琭灹e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "From boid type > Get max speed",
+      "text": "慍卸数摥(",
+      "menuId": 27002,
+      "resText": "MaxSpeed(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潢摩琭灹e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "From boid type > Get acceleration",
+      "text": "捁散敬慲楴湯(",
+      "menuId": 27003,
+      "resText": "Acceleration(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潢摩琭灹e湯("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "From boid type > Get deceleration",
+      "text": "敄散敬慲楴湯(",
+      "menuId": 27004,
+      "resText": "Deceleration(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潢摩琭灹e湯("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "From boid type > Get turn speed",
+      "text": "畔湲灓敥⡤",
+      "menuId": 27005,
+      "resText": "TurnSpeed(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潢摩琭灹e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "From boid type > Get avoidance radius",
+      "text": "癁楯慤据剥摡畩⡳",
+      "menuId": 27007,
+      "resText": "AvoidanceRadius(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潢摩琭灹e摡畩⡳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "From boid type > Get movement randomization",
+      "text": "潍敶敭瑮慒摮浯穩瑡潩⡮",
+      "menuId": 27008,
+      "resText": "MovementRandomization(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潢摩琭灹e摮浯穩瑡潩⡮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "From boid type > Get view radius",
+      "text": "楖睥慒楤獵(",
+      "menuId": 27009,
+      "resText": "ViewRadius(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潢摩琭灹e("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "From boid type > Get separation weight",
+      "text": "敓慰慲楴湯敗杩瑨(",
+      "menuId": 27010,
+      "resText": "SeparationWeight(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潢摩琭灹e敗杩瑨("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "From boid type > Get alignment weight",
+      "text": "汁杩浮湥坴楥桧⡴",
+      "menuId": 27011,
+      "resText": "AlignmentWeight(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潢摩琭灹e楥桧⡴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "From boid type > Get cohesion weight",
+      "text": "潃敨楳湯敗杩瑨(",
+      "menuId": 27012,
+      "resText": "CohesionWeight(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潢摩琭灹e杩瑨("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "From object > Get angle",
+      "text": "湁汧䙥潲䙭硩摥(",
+      "menuId": 27013,
+      "resText": "AngleFromFixed(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楦數⁤慶畬e摥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "From object > Get speed",
+      "text": "灓敥䙤潲䙭硩摥(",
+      "menuId": 27014,
+      "resText": "SpeedFromFixed(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楦數⁤慶畬e摥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "From object > Get x-speed",
+      "text": "単数摥牆浯楆數⡤",
+      "menuId": 27015,
+      "resText": "XSpeedFromFixed(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楦數⁤慶畬e數⡤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "From object > Get y-speed",
+      "text": "卙数摥牆浯楆數⡤",
+      "menuId": 27016,
+      "resText": "YSpeedFromFixed(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楦數⁤慶畬e數⡤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "From object > Get target X",
+      "text": "慔杲瑥䙘潲䙭硩摥(",
+      "menuId": 27017,
+      "resText": "TargetXFromFixed(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楦數⁤慶畬e硩摥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "From object > Get target Y",
+      "text": "慔杲瑥䙙潲䙭硩摥(",
+      "menuId": 27018,
+      "resText": "TargetYFromFixed(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楦數⁤慶畬e硩摥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "From currently looped boid > Get angle",
+      "text": "湁汧䙥潲䍭牵敲瑮(",
+      "menuId": 27019,
+      "resText": "AngleFromCurrent(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "From currently looped boid > Get speed",
+      "text": "灓敥䙤潲䍭牵敲瑮(",
+      "menuId": 27020,
+      "resText": "SpeedFromCurrent(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "From currently looped boid > Get x-speed",
+      "text": "単数摥牆浯畃牲湥⡴",
+      "menuId": 27021,
+      "resText": "XSpeedFromCurrent(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "From currently looped boid > Get y-speed",
+      "text": "卙数摥牆浯畃牲湥⡴",
+      "menuId": 27022,
+      "resText": "YSpeedFromCurrent(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "From currently looped boid > Get target X",
+      "text": "慔杲瑥䙘潲䍭牵敲瑮(",
+      "menuId": 27023,
+      "resText": "TargetXFromCurrent(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "From currently looped boid > Get target Y",
+      "text": "慔杲瑥䙙潲䍭牵敲瑮(",
+      "menuId": 27024,
+      "resText": "TargetYFromCurrent(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

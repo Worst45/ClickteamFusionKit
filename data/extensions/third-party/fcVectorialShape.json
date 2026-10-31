@@ -1,0 +1,2515 @@
+{
+  "file": "fcVectorialShape.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Import > On Attribute",
+      "text": "漥›湏䤠灭牯⁴瑁牴扩瑵⁥〥",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "噓⁇瑁牴扩瑵e瑁牴扩瑵⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Presets > from points > Line (2 pts)",
+      "text": "牐獥瑥氠湩⁥牦浯⠠〥┬⤱琠⁯┨ⰲ㌥)",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆獲⁴潰湩㩴堠挠潯摲湩瑡⁥昨潬瑡))",
+        "楆獲⁴潰湩㩴夠挠潯摲湩瑡⁥昨潬瑡))",
+        "敓潣摮瀠楯瑮›⁘潣牯楤慮整⠠汦慯⥴",
+        "敓潣摮瀠楯瑮›⁙潣牯楤慮整⠠汦慯⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Outline > Set 1st thickness",
+      "text": "敓⁴猱⁴桴捩湫獥⁳潴┠瀰x",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "桔捩湫獥⁳昨潬瑡)潴┠瀰x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Outline > Set 1st color RGB",
+      "text": "敓⁴猱⁴潣潬⁲潴┠0",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "潃潬⁲唨敳䜠瑥䝒⁂畦据楴湯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Outline > Set 1st alpha",
+      "text": "敓⁴猱⁴污桰⁡潴┠0",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汁桰⁡档湡敮㩬〠㈭㔵⠠㴰湩楶楳汢⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Transforms > Position (from barycenter)",
+      "text": "敓⁴潰楳楴湯映潲⁭慢祲散瑮牥琠⁯┨ⰰㄥ)",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘潰楳楴湯⠠汦慯⥴愀祲散瑮牥琠⁯┨ⰰㄥ)",
+        "⁙潰楳楴湯⠠汦慯⥴愀祲散瑮牥琠⁯┨ⰰㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Points > Set position of a point",
+      "text": "敓⁴潰湩⁴〥琠⁯┨ⰱ㈥)",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潐湩⁴䑉 〥琠⁯┨ⰱ㈥)",
+        "潐湩㩴堠挠潯摲湩瑡⁥昨潬瑡)",
+        "潐湩㩴夠挠潯摲湩瑡⁥昨潬瑡)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Points > Set position of first point",
+      "text": "敓⁴楦獲⁴潰湩⁴潴⠠〥┬⤱",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆獲⁴潰湩㩴堠挠潯摲湩瑡⁥昨潬瑡)",
+        "楆獲⁴潰湩㩴夠挠潯摲湩瑡⁥昨潬瑡)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Points > Set position of last point",
+      "text": "敓⁴慬瑳瀠楯瑮琠⁯┨ⰰㄥ)",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓潣摮瀠楯瑮›⁘潣牯楤慮整⠠汦慯⥴",
+        "敓潣摮瀠楯瑮›⁙潣牯楤慮整⠠汦慯⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Outline > Set start cap",
+      "text": "敓⁴瑳牡⁴慣⁰潴┠0",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慃⁰ 㨰汦瑡ㄬ猺畱牡ⱥ㨲潲湵Ɽ㨳牴慩杮敬ㄬ㨶潮愠据潨Ⱳ㜱猺畱牡ⱥ㠱爺畯摮ㄬ㨹楤浡湯Ɽ〲愺牲睯⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Outline > Set end cap",
+      "text": "敓⁴湥⁤慣⁰潴┠0",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慃⁰ 㨰汦瑡ㄬ猺畱牡ⱥ㨲潲湵Ɽ㨳牴慩杮敬ㄬ㨶潮愠据潨Ⱳ㜱猺畱牡ⱥ㠱爺畯摮ㄬ㨹楤浡湯Ɽ〲愺牲睯⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Outline > Set dash style",
+      "text": "敓⁴慤桳猠祴敬琠⁯〥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慄桳猠祴敬⠠〠猺汯摩ㄬ携獡ⱨ㨲潤ⱴ㨳慤桳搭瑯㐬携獡⵨潤⵴潤⁴)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Outline > Set dash cap",
+      "text": "敓⁴慤桳挠灡琠⁯〥",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慄桳挠灡猠祴敬⠠〠昺慬ⱴ㨱煳慵敲㈬爺畯摮㌬琺楲湡汧⁥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Outline > Set dash offset",
+      "text": "敓⁴慤桳漠晦敳⁴潴┠0",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慄桳漠晦敳⁴昨潬瑡)0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Transforms > Rotation (from origin)",
+      "text": "潒慴楴湯戠⁹〥°",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牔湡晳牯慭楴湯删瑯瑡潩⁮敤牧敥⁳昨潬瑡)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Transforms > Scaling (from origin)",
+      "text": "捓污湩⁧祢⠠〥┬⤱",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牔湡晳牯慭楴湯匠慣敬堠⠠⸱㴰潮浲污猠穩⥥⠠汦慯⥴",
+        "牔湡晳牯慭楴湯匠慣敬夠⠠⸱㴰潮浲污猠穩⥥⠠汦慯⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Transforms > Translation (from origin)",
+      "text": "牔湡汳瑡潩⁮祢⠠〥┬⤱",
+      "menuId": 25015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牔湡晳牯慭楴湯吠慲獮慬楴湯堠⠠汦慯⥴",
+        "牔湡晳牯慭楴湯吠慲獮慬楴湯夠⠠汦慯⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Transforms > Set origin",
+      "text": "敓⁴牴湡晳牯慭楴湯漠楲楧⁮潴⠠〥┬⤱",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "牔湡晳牯慭楴湯传楲楧⁮X⁮潴⠠〥┬⤱",
+        "牔湡晳牯慭楴湯传楲楧⁮Y⁮潴⠠〥┬⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Transforms > Position (from a point)",
+      "text": "敓⁴潰楳楴湯映潲⁭潰湩⁴㈥琠⁯┨ⰰㄥ)",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘潰楳楴湯⠠汦慯⥴漀湩⁴㈥琠⁯┨ⰰㄥ)",
+        "⁙潰楳楴湯⠠汦慯⥴漀湩⁴㈥琠⁯┨ⰰㄥ)",
+        "潐湩⁴䑉渀⠠汦慯⥴漀湩⁴㈥琠⁯┨ⰰㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Transforms > Flipping (from origin)",
+      "text": "汆灩楰杮⠠〥ⱈㄥ⥖",
+      "menuId": 25018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "汆灩栠牯穩湯慴汬⁹〨渽Ɐㄠ礽獥)",
+        "汆灩瘠牥楴慣汬⁹〨渽Ɐㄠ礽獥))"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Shape > Set tension",
+      "text": "敓⁴整獮潩⁮潴┠0",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敔獮潩⁮昨潬瑡)0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Shape > Set closed state",
+      "text": "敓⁴汣獯摥猠慴整琠⁯〥",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汃獯摥猠慴整⠠㴰灯湥摥‬㴱汣獯摥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Presets > from points > Simple curve (3 pts)",
+      "text": "牐獥瑥猠浩汰⁥畣癲⁥㌨瀠楯瑮⥳ⴠ琠湥楳湯┽6",
+      "menuId": 25021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆獲⁴潰湩㩴堠挠潯摲湩瑡⁥昨潬瑡)湥楳湯┽6",
+        "楆獲⁴潰湩㩴夠挠潯摲湩瑡⁥昨潬瑡)湥楳湯┽6",
+        "敓潣摮瀠楯瑮›⁘潣牯楤慮整⠠汦慯⥴渀楳湯┽6",
+        "敓潣摮瀠楯瑮›⁙潣牯楤慮整⠠汦慯⥴渀楳湯┽6",
+        "桔物⁤潰湩㩴堠挠潯摲湩瑡⁥昨潬瑡)渀楳湯┽6",
+        "桔物⁤潰湩㩴夠挠潯摲湩瑡⁥昨潬瑡)渀楳湯┽6",
+        "敔獮潩⁮昨潬瑡)潯摲湩瑡⁥昨潬瑡)渀楳湯┽6"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Presets > from rectangle > Rectangle (4 pts)",
+      "text": "牐獥瑥爠捥慴杮敬映潲⁭┨ⰰㄥ 潴⠠㈥┬⤳",
+      "menuId": 25022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潔⁰敌瑦›⁘潣牯楤慮整⠠汦慯⥴漀⠠㈥┬⤳",
+        "潔⁰敌瑦夠挠潯摲湩瑡⁥昨潬瑡)漀⠠㈥┬⤳",
+        "潂瑴浯删杩瑨›⁘潣牯楤慮整⠠汦慯⥴㈀┬⤳",
+        "潂瑴浯删杩瑨›⁙潣牯楤慮整⠠汦慯⥴㈀┬⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Presets > from points > Simple poly (4 pts)",
+      "text": "牐獥瑥猠浩汰⁥潰祬⠠‴潰湩獴)",
+      "menuId": 25023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆獲⁴潰湩㩴堠挠潯摲湩瑡⁥昨潬瑡)",
+        "楆獲⁴潰湩㩴夠挠潯摲湩瑡⁥昨潬瑡)",
+        "敓潣摮瀠楯瑮›⁘潣牯楤慮整⠠汦慯⥴",
+        "敓潣摮瀠楯瑮›⁙潣牯楤慮整⠠汦慯⥴",
+        "桔物⁤潰湩㩴堠挠潯摲湩瑡⁥昨潬瑡)",
+        "桔物⁤潰湩㩴夠挠潯摲湩瑡⁥昨潬瑡)",
+        "潆牵桴瀠楯瑮›⁘潣牯楤慮整⠠汦慯⥴",
+        "潆牵桴瀠楯瑮›⁙潣牯楤慮整⠠汦慯⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Presets > from rectangle > Triangle iso (3 pts)",
+      "text": "牐獥瑥琠楲湡汧⁥獩⁯牦浯⠠〥┬⤱琠⁯┨ⰲ㌥)",
+      "menuId": 25024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潔⁰敌瑦›⁘潣牯楤慮整⠠汦慯⥴⤀琠⁯┨ⰲ㌥)",
+        "潔⁰敌瑦夠挠潯摲湩瑡⁥昨潬瑡)⤀琠⁯┨ⰲ㌥)",
+        "潂瑴浯删杩瑨›⁘潣牯楤慮整⠠汦慯⥴ ┨ⰲ㌥)",
+        "潂瑴浯删杩瑨›⁙潣牯楤慮整⠠汦慯⥴ ┨ⰲ㌥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Presets > from points > Triangle (3 pts)",
+      "text": "牐獥瑥琠楲湡汧⁥┨ⰰㄥⰩ┨ⰲ㌥Ⱙ┨ⰴ㔥)",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆獲⁴潰湩㩴堠挠潯摲湩瑡⁥昨潬瑡)ⰴ㔥)",
+        "楆獲⁴潰湩㩴夠挠潯摲湩瑡⁥昨潬瑡)ⰴ㔥)",
+        "敓潣摮瀠楯瑮›⁘潣牯楤慮整⠠汦慯⥴Ⰰ㔥)",
+        "敓潣摮瀠楯瑮›⁙潣牯楤慮整⠠汦慯⥴Ⰰ㔥)",
+        "桔物⁤潰湩㩴堠挠潯摲湩瑡⁥昨潬瑡)Ⰰ㔥)",
+        "桔物⁤潰湩㩴夠挠潯摲湩瑡⁥昨潬瑡)Ⰰ㔥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Presets > None (0 pts)",
+      "text": "汃慥⁲污⁬潰湩獴",
+      "menuId": 25026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Presets > from center > Star (X pts)",
+      "text": "牐獥瑥猠慴⁲㐥琠⁯┨ⰰㄥ)",
+      "menuId": 25027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潐湩㩴堠挠潯摲湩瑡⁥昨潬瑡)",
+        "潐湩㩴夠挠潯摲湩瑡⁥昨潬瑡)",
+        "湉敮⁲慒⁹昨潬瑡)⁥昨潬瑡)",
+        "畏整⁲慒⁹昨潬瑡)⁥昨潬瑡)",
+        "畎扭牥漠⁦潰湩獴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Presets > from rectangle > Rectangle round (8 pts)",
+      "text": "牐獥瑥爠畯摮摥爠捥慴杮敬映潲⁭┨ⰰㄥ 潴⠠㈥┬⤳ⴠ爠祡┽4",
+      "menuId": 25028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潔⁰敌瑦›⁘潣牯楤慮整⠠汦慯⥴─ⰰㄥ 潴⠠㈥┬⤳ⴠ爠祡┽4",
+        "潔⁰敌瑦夠挠潯摲湩瑡⁥昨潬瑡)─ⰰㄥ 潴⠠㈥┬⤳ⴠ爠祡┽4",
+        "潂瑴浯删杩瑨›⁘潣牯楤慮整⠠汦慯⥴㄀ 潴⠠㈥┬⤳ⴠ爠祡┽4",
+        "潂瑴浯删杩瑨›⁙潣牯楤慮整⠠汦慯⥴㄀ 潴⠠㈥┬⤳ⴠ爠祡┽4",
+        "慒⁹昨潬瑡)›⁙潣牯楤慮整⠠汦慯⥴㄀ 潴⠠㈥┬⤳ⴠ爠祡┽4"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Presets > from rectangle > House (5 pts)",
+      "text": "牐獥瑥栠畯敳映潲⁭┨ⰰㄥ 潴⠠㈥┬⤳",
+      "menuId": 25029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潔⁰敌瑦›⁘潣牯楤慮整⠠汦慯⥴㈀┬⤳",
+        "潔⁰敌瑦夠挠潯摲湩瑡⁥昨潬瑡)㈀┬⤳",
+        "潂瑴浯删杩瑨›⁘潣牯楤慮整⠠汦慯⥴⤀",
+        "潂瑴浯删杩瑨›⁙潣牯楤慮整⠠汦慯⥴⤀"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Presets > from rectangle > Link auto (4 pts)",
+      "text": "牐獥瑥氠湩⁫畡潴映潲⁭┨ⰰㄥ 潴⠠㈥┬⤳",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆獲⁴潰湩㩴堠挠潯摲湩瑡⁥昨潬瑡)㈥┬⤳",
+        "楆獲⁴潰湩㩴夠挠潯摲湩瑡⁥昨潬瑡)㈥┬⤳",
+        "敓潣摮瀠楯瑮›⁘潣牯楤慮整⠠汦慯⥴㈀┬⤳",
+        "敓潣摮瀠楯瑮›⁙潣牯楤慮整⠠汦慯⥴㈀┬⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Outline > Set 2nd color RGB",
+      "text": "敓⁴渲⁤潣潬⁲潴┠0",
+      "menuId": 25031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "潃潬⁲唨敳䜠瑥䝒⁂畦据楴湯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Outline > Set 2nd alpha",
+      "text": "敓⁴渲⁤污桰⁡潴┠0",
+      "menuId": 25032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汁桰⁡档湡敮㩬〠㈭㔵⠠㴰湩楶楳汢⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Transforms > Orientation (from origin)",
+      "text": "牏敩瑮瑡潩⁮潴┠뀰",
+      "menuId": 25033,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "牔湡晳牯慭楴湯传楲湥慴楴湯搠来敲獥⠠汦慯⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Presets > from rectangle > Diamond (4 pts)",
+      "text": "牐獥瑥搠慩潭摮映潲⁭┨ⰰㄥ 潴⠠㈥┬⤳",
+      "menuId": 25034,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潔⁰敌瑦›⁘潣牯楤慮整⠠汦慯⥴⠀㈥┬⤳",
+        "潔⁰敌瑦夠挠潯摲湩瑡⁥昨潬瑡)⠀㈥┬⤳",
+        "潂瑴浯删杩瑨›⁘潣牯楤慮整⠠汦慯⥴─⤳",
+        "潂瑴浯删杩瑨›⁙潣牯楤慮整⠠汦慯⥴─⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Presets > from center > Circle (4 pts)",
+      "text": "牐獥瑥挠物汣⁥潴⠠〥┬⤱ⴠ爠祡┽2",
+      "menuId": 25035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘潰楳楴湯⠠汦慯⥴　┬⤱ⴠ爠祡┽2",
+        "⁙潰楳楴湯⠠汦慯⥴　┬⤱ⴠ爠祡┽2",
+        "慒⁹昨潬瑡)汦慯⥴　┬⤱ⴠ爠祡┽2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Presets > from center > Ellipse (4 pts)",
+      "text": "牐獥瑥攠汬灩敳琠⁯┨ⰰㄥ ‭慲塹┽′‭慲她┽3",
+      "menuId": 25036,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘潰楳楴湯⠠汦慯⥴─ⰰㄥ ‭慲塹┽′‭慲她┽3",
+        "⁙潰楳楴湯⠠汦慯⥴─ⰰㄥ ‭慲塹┽′‭慲她┽3",
+        "慒⁹⁘昨潬瑡)慯⥴─ⰰㄥ ‭慲塹┽′‭慲她┽3",
+        "慒⁹⁙昨潬瑡)慯⥴─ⰰㄥ ‭慲塹┽′‭慲她┽3"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Presets > from rectangle > Ellipse (4 pts)",
+      "text": "牐獥瑥攠汬灩敳映潲⁭┨ⰰㄥ 潴⠠㈥┬⤳",
+      "menuId": 25037,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潔⁰敌瑦›⁘潣牯楤慮整⠠汦慯⥴⠀㈥┬⤳",
+        "潔⁰敌瑦夠挠潯摲湩瑡⁥昨潬瑡)⠀㈥┬⤳",
+        "潂瑴浯删杩瑨›⁘潣牯楤慮整⠠汦慯⥴─⤳",
+        "潂瑴浯删杩瑨›⁙潣牯楤慮整⠠汦慯⥴─⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Presets > from rectangle > Regular polygon (X pts)",
+      "text": "牐獥瑥爠来汵牡瀠汯⁹牦浯⠠〥┬⤱琠⁯┨ⰲ㌥)",
+      "menuId": 25038,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆獲⁴潰湩㩴堠挠潯摲湩瑡⁥昨潬瑡)⁯┨ⰲ㌥)",
+        "楆獲⁴潰湩㩴夠挠潯摲湩瑡⁥昨潬瑡)⁯┨ⰲ㌥)",
+        "敓潣摮瀠楯瑮›⁘潣牯楤慮整⠠汦慯⥴ ┨ⰲ㌥)",
+        "敓潣摮瀠楯瑮›⁙潣牯楤慮整⠠汦慯⥴ ┨ⰲ㌥)",
+        "畎扭牥漠⁦潰湩獴漀牯楤慮整⠠汦慯⥴ ┨ⰲ㌥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Presets > from rectangle > Link vertical (4 pts)",
+      "text": "牐獥瑥氠湩⁫敶瑲捩污映潲⁭┨ⰰㄥ 潴⠠㈥┬⤳",
+      "menuId": 25039,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆獲⁴潰湩㩴堠挠潯摲湩瑡⁥昨潬瑡)潴⠠㈥┬⤳",
+        "楆獲⁴潰湩㩴夠挠潯摲湩瑡⁥昨潬瑡)潴⠠㈥┬⤳",
+        "敓潣摮瀠楯瑮›⁘潣牯楤慮整⠠汦慯⥴漀⠠㈥┬⤳",
+        "敓潣摮瀠楯瑮›⁙潣牯楤慮整⠠汦慯⥴漀⠠㈥┬⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Presets > from rectangle > Link horizontal (4 pts)",
+      "text": "牐獥瑥氠湩⁫潨楲潺瑮污映潲⁭┨ⰰㄥ 潴⠠㈥┬⤳",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆獲⁴潰湩㩴堠挠潯摲湩瑡⁥昨潬瑡) 潴⠠㈥┬⤳",
+        "楆獲⁴潰湩㩴夠挠潯摲湩瑡⁥昨潬瑡) 潴⠠㈥┬⤳",
+        "敓潣摮瀠楯瑮›⁘潣牯楤慮整⠠汦慯⥴ 潴⠠㈥┬⤳",
+        "敓潣摮瀠楯瑮›⁙潣牯楤慮整⠠汦慯⥴ 潴⠠㈥┬⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Points > Set number of points",
+      "text": "敓⁴桴⁥畮扭牥漠⁦潰湩獴琠⁯〥",
+      "menuId": 25041,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畎扭牥漠⁦潰湩獴 潰湩獴琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Points > Delete X last points",
+      "text": "敄敬整┠‰慬瑳瀠楯瑮猨)",
+      "menuId": 25042,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畎扭牥漠⁦潰湩獴椀瑮猨)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Points > Delete X first points",
+      "text": "敄敬整┠‰楦獲⁴潰湩⡴⥳",
+      "menuId": 25043,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畎扭牥漠⁦潰湩獴漀湩⡴⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Points > Insert a point before another",
+      "text": "湉敳瑲瀠楯瑮⠠ㄥ┬⤲戠晥牯⁥潰湩⁴〥",
+      "menuId": 25044,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湉敳瑲瀠楯瑮戠晥牯⁥潐湩⁴䑉漀湩⁴〥",
+        "潐湩㩴堠挠潯摲湩瑡⁥昨潬瑡)漀湩⁴〥",
+        "潐湩㩴夠挠潯摲湩瑡⁥昨潬瑡)漀湩⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Transforms > Position (from origin)",
+      "text": "敓⁴潰楳楴湯映潲⁭牯杩湩琠⁯┨ⰰㄥ)",
+      "menuId": 25045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘潰楳楴湯⠠汦慯⥴爀杩湩琠⁯┨ⰰㄥ)",
+        "⁙潰楳楴湯⠠汦慯⥴爀杩湩琠⁯┨ⰰㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Fill (beta) > Mode > Set fill mode",
+      "text": "敓⁴楦汬洠摯⁥潴┠0",
+      "menuId": 25046,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楆汬洠摯⁥〨渽湯ⱥㄠ猽汯摩‬㴲潭楴ⱦ㌠琽硥畴敲‬㴴楬敮牡朠慲楤湥㭴㔠猽慨数朠慲楤湥⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Fill (beta) > Set fill color RGB",
+      "text": "敓⁴楦汬挠汯牯┠‰潴┠1",
+      "menuId": 25047,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        24
+      ],
+      "paramTitles": [
+        "潃潬⁲畮扭牥⠠ⴱ慢敳⥤",
+        "潃潬⁲唨敳䜠瑥䝒⁂畦据楴湯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Fill (beta) > Set fill alpha",
+      "text": "敓⁴楦汬愠灬慨┠‰潴┠1",
+      "menuId": 25048,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潃潬⁲畮扭牥⠠ⴱ慢敳⥤",
+        "汁桰⁡档湡敮㩬〠㈭㔵⠠㴰湩楶楳汢⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "Fill (beta) > Set fill collision",
+      "text": "敓⁴楦汬洠獡⁫瑳瑡⁥潴┠0",
+      "menuId": 25051,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楆汬洠獡⁫〨渽⁯潣汬獩潩⁮楷桴映汩ⱬㄠ挽汯楬楳湯眠瑩⁨楦汬)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 52,
+      "menu": "Fill (beta) > Mode > 2: Set fill pattern type",
+      "text": "敓⁴慰瑴牥⁮祴数琠⁯〥",
+      "menuId": 25052,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楆汬瀠瑡整湲琠灹⁥〨㔭⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 53,
+      "menu": "Fill (beta) > Mode > 4: Set fill linear start",
+      "text": "敓⁴楬敮牡映汩⁬瑳牡⁴潴⠠〥┬⤱",
+      "menuId": 25053,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆獲⁴潰湩㩴堠挠潯摲湩瑡⁥昨潬瑡)",
+        "楆獲⁴潰湩㩴夠挠潯摲湩瑡⁥昨潬瑡)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 54,
+      "menu": "Fill (beta) > Mode > 4: Set fill linear end",
+      "text": "敓⁴楬敮牡映汩⁬湥⁤潴⠠〥┬⤱",
+      "menuId": 25054,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敓潣摮瀠楯瑮›⁘潣牯楤慮整⠠汦慯⥴",
+        "敓潣摮瀠楯瑮›⁙潣牯楤慮整⠠汦慯⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 55,
+      "menu": "Fill (beta) > Mode > 4: Set fill linear start+end",
+      "text": "敓⁴楬敮牡映汩⁬牦浯⠠〥┬⤱琠⁯┨ⰲ㌥)",
+      "menuId": 25055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆獲⁴潰湩㩴堠挠潯摲湩瑡⁥昨潬瑡)ⰲ㌥)",
+        "楆獲⁴潰湩㩴夠挠潯摲湩瑡⁥昨潬瑡)ⰲ㌥)",
+        "敓潣摮瀠楯瑮›⁘潣牯楤慮整⠠汦慯⥴Ⰰ㌥)",
+        "敓潣摮瀠楯瑮›⁙潣牯楤慮整⠠汦慯⥴Ⰰ㌥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 56,
+      "menu": "Transforms > Set mode",
+      "text": "敓⁴牴湡晳牯慭楴湯洠摯⁥潴┠0",
+      "menuId": 25056,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慔獮潦浲瑡潩⁮潭敤⠠㴰潮敮‬㴱潰湩獴‬㴲楦汬‬㴳潰湩獴昫汩⥬"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 57,
+      "menu": "Shape > Set fine collision on/off",
+      "text": "敓⁴楦敮挠汯楬楳湯琠獥⁴潴┠0",
+      "menuId": 25057,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潃汬獩潩⁮整瑳⁳〨漽晦‬㴱湯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 58,
+      "menu": "Fill (beta) > Mode > 3: Set fill texture image",
+      "text": "敓⁴楦汬琠硥畴敲椠慭敧琠⁯〥",
+      "menuId": 25058,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "敔瑸牵⁥浩条e敲椠慭敧琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 59,
+      "menu": "Fill (beta) > Mode > 3: Set fill texture tile",
+      "text": "敓⁴楦汬琠硥畴敲琠汩⁥潴⠠〥┬⤱猠穩摥琠⁯┨ⰲ㌥)",
+      "menuId": 25059,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楔敬堠瀠獯瑩潩⁮椨⁮桴⁥整瑸牵⁥浩条⥥琀⁯┨ⰲ㌥)",
+        "楔敬夠瀠獯瑩潩⁮椨⁮桴⁥整瑸牵⁥浩条⥥琀⁯┨ⰲ㌥)",
+        "楔敬眠摩桴琀潩⁮椨⁮桴⁥整瑸牵⁥浩条⥥琀⁯┨ⰲ㌥)",
+        "楔敬栠楥桧t潩⁮椨⁮桴⁥整瑸牵⁥浩条⥥琀⁯┨ⰲ㌥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 60,
+      "menu": "Fill (beta) > Mode > 3: Set fill texture wrap mode",
+      "text": "敓⁴楦汬琠硥畴敲琠汩⁥牷灡洠摯⁥潴┠0",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楔敬眠慲⁰潭敤⠠㴰潮浲污‬㴱汦灩ⱘ㈠昽楬奰‬㴳汦灩奘‬㴴汣浡⥰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 61,
+      "menu": "Outline > Set start/end caps",
+      "text": "敓⁴瑳牡⁴慣⁰潴┠‰湡⁤湥⁤慣⁰潴┠1",
+      "menuId": 25061,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慃⁰ 㨰汦瑡ㄬ猺畱牡ⱥ㨲潲湵Ɽ㨳牴慩杮敬ㄬ㨶潮愠据潨Ⱳ㜱猺畱牡ⱥ㠱爺畯摮ㄬ㨹楤浡湯Ɽ〲愺牲睯⤠",
+        "慃⁰ 㨰汦瑡ㄬ猺畱牡ⱥ㨲潲湵Ɽ㨳牴慩杮敬ㄬ㨶潮愠据潨Ⱳ㜱猺畱牡ⱥ㠱爺畯摮ㄬ㨹楤浡湯Ɽ〲愺牲睯⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 62,
+      "menu": "Export > Collision Mask to BMP",
+      "text": "慓敶䌠汯楬楳湯䴠獡⁫獡䈠偍琠⁯楦敬┠0",
+      "menuId": 25062,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "䵂⁐楦敬瀠瑡h䴠獡⁫獡䈠偍琠⁯楦敬┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 63,
+      "menu": "Export > String to File",
+      "text": "慓敶猠牴湩⁧〥琠⁯楦敬┠1",
+      "menuId": 25063,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45
+      ],
+      "paramTitles": [
+        "瑓楲杮爀湩⁧〥琠⁯楦敬┠1",
+        "楆敬瀠瑡h⁧〥琠⁯楦敬┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 64,
+      "menu": "Export > Shape to SVG",
+      "text": "慓敶匠慨数愠⁳噓⁇潴映汩⁥〥",
+      "menuId": 25064,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "噓⁇楦敬瀠瑡h噓⁇潴映汩⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 65,
+      "menu": "Import > Points from SVG points List String",
+      "text": "浉潰瑲匠䝖瀠楯瑮⁳楬瑳┠0",
+      "menuId": 25065,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "噓⁇潐湩獴䰠獩⁴攨慸灭敬›ㄢ㈮㐬‬⸵ㄵ㘬㈮‬⸮∮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 66,
+      "menu": "Import > SVG Element from SVG source String",
+      "text": "浉潰瑲匠䝖䔠敬敭瑮⌠ㄥ映潲⁭噓⁇潳牵散┠0",
+      "menuId": 25066,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "噓⁇潳牵散䔀敬敭瑮⌠ㄥ映潲⁭噓⁇潳牵散┠0",
+        "噓⁇汅浥湥⁴湉敤⁸〨渽湯ⱥㄠ昽物瑳漠敮‬㴲敳潣摮‬⸮⤮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 67,
+      "menu": "Import > SVG Element from SVG File",
+      "text": "浉潰瑲匠䝖䔠敬敭瑮⌠ㄥ映潲⁭噓⁇楆敬┠0",
+      "menuId": 25067,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "噓⁇楦敬瀠瑡h敭瑮⌠ㄥ映潲⁭噓⁇楆敬┠0",
+        "噓⁇汅浥湥⁴湉敤⁸〨渽湯ⱥㄠ昽物瑳漠敮‬㴲敳潣摮‬⸮⤮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 68,
+      "menu": "Shape > Set styles to default",
+      "text": "敓⁴瑳汹獥琠⁯敤慦汵t",
+      "menuId": 25068,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 69,
+      "menu": "Export > Set SVG Optional Attributes",
+      "text": "敓⁴噓⁇灏楴湯污䄠瑴楲畢整⁳潴┠0",
+      "menuId": 25069,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "噓⁇灏楴湯污䄠瑴楲畢整⁳愨瑴楲畢整∽慶畬≥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 70,
+      "menu": "Points > Set position of a new point",
+      "text": "敓⁴⁡敮⁷潰湩⁴潴⠠〥┬⤱",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘潰楳楴湯⠠汦慯⥴⠀〥┬⤱",
+        "⁙潰楳楴湯⠠汦慯⥴⠀〥┬⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 71,
+      "menu": "Points > Set number of points to display",
+      "text": "敓⁴桴⁥畮扭牥漠⁦潰湩獴琠⁯楤灳慬⁹潴┠0",
+      "menuId": 25071,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畎扭牥漠⁦潰湩獴琠⁯楤灳慬⁹⴨㴱畡潴)┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 72,
+      "menu": "Shape > Refine the shape",
+      "text": "敒楦敮琠敨猠慨数┠‰楴敭⁳潦⁲業楮畭⁭楳敺⁤敳浧湥獴┠瀱x",
+      "menuId": 25072,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "畎扭牥漠⁦潬灯⁳瀨楯瑮⁳潤扵敬⁤数⁲潬灯)⁤敳浧湥獴┠瀱x",
+        "楍楮畭⁭楤瑳湡散戠瑥敷湥猠来敭瑮攀⁲潬灯)⁤敳浧湥獴┠瀱x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 73,
+      "menu": "Shape > Constrain into a rectangle",
+      "text": "潃獮牴楡⁮桴⁥桳灡⁥湩潴爠捥慴杮敬⠠〥┬⤱⠭㈥┬⤳",
+      "menuId": 25073,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆獲⁴潰湩㩴堠挠潯摲湩瑡⁥昨潬瑡)⠠〥┬⤱⠭㈥┬⤳",
+        "楆獲⁴潰湩㩴夠挠潯摲湩瑡⁥昨潬瑡)⠠〥┬⤱⠭㈥┬⤳",
+        "敓潣摮瀠楯瑮›⁘潣牯楤慮整⠠汦慯⥴⠀〥┬⤱⠭㈥┬⤳",
+        "敓潣摮瀠楯瑮›⁙潣牯楤慮整⠠汦慯⥴⠀〥┬⤱⠭㈥┬⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 74,
+      "menu": "Text > Set font name",
+      "text": "敓⁴整瑸映湯⁴慮敭琠⁯〥",
+      "menuId": 25074,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥慮敭漠⁦桴⁥潦瑮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 75,
+      "menu": "Text > Set font size",
+      "text": "敓⁴整瑸映湯⁴楳敺琠⁯〥",
+      "menuId": 25075,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湅整⁲桴⁥敮⁷楳敺漠⁦桴⁥潦瑮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 76,
+      "menu": "Text > Set font color",
+      "text": "敓⁴整瑸映湯⁴潣潬⁲潴┠0",
+      "menuId": 25076,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "潃潬⁲唨敳䜠瑥䝒⁂畦据楴湯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 77,
+      "menu": "Text > Set font alpha",
+      "text": "敓⁴整瑸映湯⁴污桰⁡潴┠0",
+      "menuId": 25077,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汁桰⁡档湡敮㩬〠㈭㔵⠠㴰湩楶楳汢⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 78,
+      "menu": "Text > Set bounding box",
+      "text": "敓⁴整瑸戠畯摮湩⁧潢⁸牦浯瀠楯瑮䤠⁄〥琠⁯潰湩⁴䑉┠1",
+      "menuId": 25078,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆獲⁴潐湩⁴䑉渀⁧潢⁸牦浯瀠楯瑮䤠⁄〥琠⁯潰湩⁴䑉┠1",
+        "敓潣摮倠楯瑮䤠D⁧潢⁸牦浯瀠楯瑮䤠⁄〥琠⁯潰湩⁴䑉┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 79,
+      "menu": "Text > Set text",
+      "text": "敓⁴整瑸琠⁯〥",
+      "menuId": 25079,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "湅整⁲敮⁷整瑸"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 80,
+      "menu": "Text > Set margin",
+      "text": "敓⁴整瑸戠畯摮湩⁧潢⁸慭杲湩琠⁯〥硰",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潂湵楤杮䈠硯䴠牡敧⠠汦慯⥴渀琠⁯〥硰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 81,
+      "menu": "Text > Set antialias method",
+      "text": "敓⁴整瑸愠瑮慩楬獡洠瑥潨⁤潴┠0",
+      "menuId": 25081,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湁楴污慩⁳敭桴摯〠㔭⠠㴰祓瑳浥‬㴱潎敮䠠ⱑ㈠丽湯ⱥ㌠䄽⁁先‬㴴䅁‬㴵汃慥呲灹⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 82,
+      "menu": "Text > Set alignement",
+      "text": "敓⁴整瑸戠畯摮湩⁧潢⁸污杩浮湥⁴潴⠠〥┬⤱",
+      "menuId": 25082,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敔瑸戠畯摮湩⁧潢⁸潨楲潺瑮污愠楬湧浥湥⁴〨䰽晥ⱴㄠ䌽湥整Ⱳ㈠刽杩瑨)",
+        "敔瑸戠畯摮湩⁧潢⁸敶瑲捩污愠楬湧浥湥⁴〨吽灯‬㴱敃瑮牥‬㴲潂瑴浯))"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 83,
+      "menu": "Text > Set wrap mode",
+      "text": "敓⁴整瑸戠畯摮湩⁧潢⁸牷灡洠摯⁥潴┠0",
+      "menuId": 25083,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潂湵楤杮戠硯琠硥⁴牷灡洠摯⁥〨圽慲Ɒㄠ丽⁯牷灡)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 84,
+      "menu": "Presets > from misc > Bubble box (7 pts)",
+      "text": "牐獥瑥戠扵汢⁥潢⁸牦浯⠠〥┬⤱琠⁯┨ⰲ㌥ 楷桴愠牲睯琠⁯┨ⰴ㔥 湯猠摩⁥㜥",
+      "menuId": 25084,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潔⁰敌瑦›⁘潣牯楤慮整⠠汦慯⥴琀⁯┨ⰲ㌥ 楷桴愠牲睯琠⁯┨ⰴ㔥 湯猠摩⁥㜥",
+        "潔⁰敌瑦夠挠潯摲湩瑡⁥昨潬瑡)琀⁯┨ⰲ㌥ 楷桴愠牲睯琠⁯┨ⰴ㔥 湯猠摩⁥㜥",
+        "潂瑴浯删杩瑨›⁘潣牯楤慮整⠠汦慯⥴─ⰲ㌥ 楷桴愠牲睯琠⁯┨ⰴ㔥 湯猠摩⁥㜥",
+        "潂瑴浯删杩瑨›⁙潣牯楤慮整⠠汦慯⥴─ⰲ㌥ 楷桴愠牲睯琠⁯┨ⰴ㔥 湯猠摩⁥㜥",
+        "潐湩㩴堠挠潯摲湩瑡⁥昨潬瑡)汦慯⥴─ⰲ㌥ 楷桴愠牲睯琠⁯┨ⰴ㔥 湯猠摩⁥㜥",
+        "潐湩㩴夠挠潯摲湩瑡⁥昨潬瑡)汦慯⥴─ⰲ㌥ 楷桴愠牲睯琠⁯┨ⰴ㔥 湯猠摩⁥㜥",
+        "牁潲⁷慢敳圠摩桴⠠汦慯⥴琀)汦慯⥴─ⰲ㌥ 楷桴愠牲睯琠⁯┨ⰴ㔥 湯猠摩⁥㜥",
+        "楓敤⠠ㄭ愽瑵Ɐ〠琽灯‬㴱楲桧ⱴ㈠戽瑯潴Ɑ㌠氽晥⥴爀睯琠⁯┨ⰴ㔥 湯猠摩⁥㜥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 85,
+      "menu": "Outline > Set 2nd relative thickness",
+      "text": "敓⁴渲⁤敲慬楴敶琠楨正敮獳琠⁯〥硰",
+      "menuId": 25085,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敒慬楴敶琠楨正敮獳⠠汦慯⥴琀⁯〥硰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 86,
+      "menu": "Shape > [HWA] Set transparent color",
+      "text": "䡛䅗⁝敓⁴牴湡灳牡湥⁴潣潬⁲潴┠0",
+      "menuId": 25086,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "潃潬⁲唨敳䜠瑥䝒⁂畦据楴湯)潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 87,
+      "menu": "Points > Delete a point",
+      "text": "敄敬整倠楯瑮䤠╄0",
+      "menuId": 25087,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潐湩⁴䑉椀瑮䤠╄0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Points > Get X coordinate of a point",
+      "text": "敧塴晏潐湩䙴(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潐湩⁴䑉渀䙴("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Points > Get Y coordinate of a point",
+      "text": "敧奴晏潐湩䙴(",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潐湩⁴䑉渀䙴("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Calculations > Size and Angle > Get total size",
+      "text": "敧却穩呥瑯污⡆",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Calculations > Bounding box > Get bounding box width",
+      "text": "敧䉴硯楗瑤䙨(",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Calculations > Bounding box > Get bounding box height",
+      "text": "敧䉴硯效杩瑨⡆",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Calculations > Size and Angle > Get angle between 2 points",
+      "text": "敧䅴杮敬倲楯瑮䙳(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楆獲⁴潐湩⁴䑉䘀(",
+        "敓潣摮倠楯瑮䤠D("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Calculations > Size and Angle > Get angle between coordinates",
+      "text": "敧䅴杮敬潃牯獤⡆",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "ㅘ䄀杮敬潃牯獤⡆",
+        "ㅙ䄀杮敬潃牯獤⡆",
+        "㉘䄀杮敬潃牯獤⡆",
+        "㉙䄀杮敬潃牯獤⡆"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Outline > Get 1st color RGB",
+      "text": "敧ㅴ瑳潃潬割䉇(",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Outline > Get 1st alpha",
+      "text": "敧ㅴ瑳汁桰⡡",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Outline > Get thickness",
+      "text": "敧呴楨正敮獳⡆",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Outline > Get dash style",
+      "text": "敧䑴獡卨祴敬(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Outline > Get dash offset",
+      "text": "敧䑴獡佨晦敳䙴(",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Points > Get number of points",
+      "text": "敧乴偢楯瑮⡳",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Shape > Get tension",
+      "text": "敧呴湥楳湯(",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Shape > Get closed state",
+      "text": "敧䥴䍳潬敳⡤",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Calculations > Size and Angle > Get size between 2 points",
+      "text": "敧却穩㉥潐湩獴⡆",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楆獲⁴潐湩⁴䑉⠀",
+        "敓潣摮倠楯瑮䤠D"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Calculations > Bounding box > Get bounding box center X",
+      "text": "敧塴晏敃瑮牥⡆",
+      "menuId": 27016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Calculations > Bounding box > Get bounding box center Y",
+      "text": "敧奴晏敃瑮牥⡆",
+      "menuId": 27017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Calculations > Barycenter > Get X of barycenter",
+      "text": "敧塴晏慂祲散瑮牥⡆",
+      "menuId": 27018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Calculations > Barycenter > Get Y of barycenter",
+      "text": "敧奴晏慂祲散瑮牥⡆",
+      "menuId": 27019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Calculations > Size and Angle > Get size between coordinates",
+      "text": "敧却穩䍥潯摲䙳(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "ㅘ匀穩䍥潯摲䙳(",
+        "ㅙ匀穩䍥潯摲䙳(",
+        "㉘匀穩䍥潯摲䙳(",
+        "㉙匀穩䍥潯摲䙳("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Calculations > Bounding box > Get minimum X coordinate",
+      "text": "敧䵴湩䙘(",
+      "menuId": 27021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Calculations > Bounding box > Get minimum Y coordinate",
+      "text": "敧䵴湩䙙(",
+      "menuId": 27022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Calculations > Bounding box > Get maximum X coordinate",
+      "text": "敧䵴硡䙘(",
+      "menuId": 27023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Calculations > Bounding box > Get maximum Y coordinate",
+      "text": "敧䵴硡䙙(",
+      "menuId": 27024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Outline > Get 2nd color RGB",
+      "text": "敧㉴摮潃潬割䉇(",
+      "menuId": 27025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Outline > Get 2nd alpha",
+      "text": "敧㉴摮汁桰⡡",
+      "menuId": 27026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Calculations > Points > Get nearest point ID from coordinates",
+      "text": "敧乴慥敲瑳潐湩䥴⡄",
+      "menuId": 27027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "⁘潰楳楴湯⠠汦慯⥴",
+        "⁙潰楳楴湯⠠汦慯⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Fill (beta) > Mode > Get fill mode",
+      "text": "敧䙴汩䵬摯⡥",
+      "menuId": 27028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Fill (beta) > Get fill color RGB",
+      "text": "敧䙴汩䍬汯牯䝒⡂",
+      "menuId": 27029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潃潬⁲畮扭牥⠠ⴱ慢敳⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Fill (beta) > Get fill alpha",
+      "text": "敧䙴汩䅬灬慨(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潃潬⁲畮扭牥⠠ⴱ慢敳⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Calculations > Area > Get area (from first point)",
+      "text": "敧䅴敲䙡潲䙭物瑳潐湩䙴(",
+      "menuId": 27031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Calculations > Area > Get area (from barycenter)",
+      "text": "敧䅴敲䙡潲䉭牡捹湥整䙲(",
+      "menuId": 27032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Export > Get SVG points list",
+      "text": "敧䕴灸牯却䝖潐湩獴楌瑳⠤",
+      "menuId": 27033,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Export > Get SVG polyline element",
+      "text": "敧䕴灸牯却䝖潐祬楬敮汅浥湥⑴(",
+      "menuId": 27034,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Export > Get SVG polygon element",
+      "text": "敧䕴灸牯却䝖潐祬潧䕮敬敭瑮⠤",
+      "menuId": 27035,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Export > Get SVG automatic element",
+      "text": "敧䕴灸牯却䝖畁潴汅浥湥⑴(",
+      "menuId": 27036,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Export > Get SVG header",
+      "text": "敧䕴灸牯却䝖效摡牥⠤",
+      "menuId": 27037,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "噓⁇楗瑤h䝖效摡牥⠤",
+        "噓⁇效杩瑨䜀效摡牥⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Export > Get SVG footer",
+      "text": "敧䕴灸牯却䝖潆瑯牥⠤",
+      "menuId": 27038,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Export > Get SVG graphic start",
+      "text": "敧䕴灸牯却䝖片灡楨卣慴瑲⠤",
+      "menuId": 27039,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "牔湡晳牯慭楴湯吠慲獮慬楴湯堠⠠汦慯⥴",
+        "牔湡晳牯慭楴湯吠慲獮慬楴湯夠⠠汦慯⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Export > Get SVG graphic end",
+      "text": "敧䕴灸牯却䝖片灡楨䕣摮⠤",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Import > Get Number of elements in SVG String",
+      "text": "敧乴浵汅浥湥獴牆浯噓⡇",
+      "menuId": 27041,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "噓⁇潳牵散渀獴牆浯噓⡇"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Import > Get Number of elements in SVG File",
+      "text": "敧乴浵汅浥湥獴牆浯噓䙇汩⡥",
+      "menuId": 27042,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "噓⁇楦敬瀠瑡h牆浯噓䙇汩⡥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Import > String from File",
+      "text": "敧却牴湩䙧潲䙭汩⑥(",
+      "menuId": 27043,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "楆敬瀠瑡h潲䙭汩⑥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Import > On Import Attribute > Get Value",
+      "text": "敧䥴灭牯䅴瑴楲畢整慖畬⑥(",
+      "menuId": 27044,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Import > On Import Attribute > Get Index",
+      "text": "敧䥴灭牯䥴摮硥(",
+      "menuId": 27045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Import > On Import Attribute > Get Attribute",
+      "text": "敧䥴灭牯䅴瑴楲畢整⠤",
+      "menuId": 27046,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Calculations > Points > Get most far point ID from coordinates",
+      "text": "敧䵴獯䙴牡潐湩䥴⡄",
+      "menuId": 27047,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "⁘潰楳楴湯⠠汦慯⥴",
+        "⁙潰楳楴湯⠠汦慯⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Calculations > Points > Get nearest point ID from angle",
+      "text": "敧乴慥敲瑳潐湩䥴䅄杮敬(",
+      "menuId": 27048,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "⁘潰楳楴湯⠠汦慯⥴最敬(",
+        "⁙潰楳楴湯⠠汦慯⥴最敬(",
+        "湁汧⁥昨潬瑡)慯⥴最敬("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Calculations > Area > Get area (from bounding box)",
+      "text": "敧䅴敲䙡潲䉭畯摮湩䉧硯⡆",
+      "menuId": 27049,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 50,
+      "menu": "Text > Get font name",
+      "text": "敧呴硥䙴湯乴浡⑥(",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "Text > Get font size",
+      "text": "敧呴硥䙴湯却穩䙥(",
+      "menuId": 27051,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 52,
+      "menu": "Text > Get font color",
+      "text": "敧呴硥䙴湯䍴汯牯(",
+      "menuId": 27052,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 53,
+      "menu": "Text > Get font alpha",
+      "text": "敧呴硥䙴湯䅴灬慨(",
+      "menuId": 27053,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 54,
+      "menu": "Text > Get Top Left Point ID",
+      "text": "敧呴硥䉴呂偌楯瑮䑉(",
+      "menuId": 27054,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 55,
+      "menu": "Text > Get Bottom Right Point ID",
+      "text": "敧呴硥䉴䉂偒楯瑮䑉(",
+      "menuId": 27055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 56,
+      "menu": "Text > Get text",
+      "text": "敧呴硥⑴(",
+      "menuId": 27056,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 57,
+      "menu": "Text > Get marge",
+      "text": "敧呴硥䉴䵂牡楧䙮(",
+      "menuId": 27057,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 58,
+      "menu": "Text > Get antialias method",
+      "text": "敧呴硥䅴瑮䅩楬獡敍桴摯(",
+      "menuId": 27058,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 59,
+      "menu": "Text > Get horizontal alignment",
+      "text": "敧呴硥䉴䅂楬湧⡈",
+      "menuId": 27059,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 60,
+      "menu": "Text > Get vertical alignment",
+      "text": "敧呴硥䉴䅂楬湧⡖",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 61,
+      "menu": "Text > Get wrap mode",
+      "text": "敧呴硥䉴坂慲䵰摯⡥",
+      "menuId": 27061,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 62,
+      "menu": "Calculations > Sides > Get Side from coordinates",
+      "text": "敧却摩䙥潲䍭潯摲⡳",
+      "menuId": 27062,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潐湩㩴堠挠潯摲湩瑡⁥昨潬瑡)",
+        "潐湩㩴夠挠潯摲湩瑡⁥昨潬瑡)",
+        "⁘潰楳楴湯⠠汦慯⥴ 昨潬瑡)",
+        "⁙潰楳楴湯⠠汦慯⥴ 昨潬瑡)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 63,
+      "menu": "Calculations > Sides > Get Side from points",
+      "text": "敧却摩䙥潲偭楯瑮(",
+      "menuId": 27063,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潐湩⁴䑉漀偭楯瑮(",
+        "⁘潰楳楴湯⠠汦慯⥴",
+        "⁙潰楳楴湯⠠汦慯⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 64,
+      "menu": "Calculations > Points > Get X middle of 2 points",
+      "text": "敧塴楍摤敬晏倲楯瑮䙳(",
+      "menuId": 27064,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楆獲⁴潐湩⁴䑉椀瑮䙳(",
+        "敓潣摮倠楯瑮䤠D瑮䙳("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 65,
+      "menu": "Calculations > Points > Get Y middle of 2 points",
+      "text": "敧奴楍摤敬晏倲楯瑮䙳(",
+      "menuId": 27065,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楆獲⁴潐湩⁴䑉椀瑮䙳(",
+        "敓潣摮倠楯瑮䤠D瑮䙳("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

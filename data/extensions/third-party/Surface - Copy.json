@@ -1,0 +1,3985 @@
+{
+  "file": "Surface - Copy.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Image > Has alpha channel?",
+      "text": "漥›浉条⁥慨⁳污桰⁡档湡敮l",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Input / Output > Image in clipboard?",
+      "text": "浉条⁥癡楡慬汢⁥湩挠楬扰慯摲",
+      "menuId": 26001,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Input / Output > Loading failed?",
+      "text": "漥›湏氠慯楤杮映楡敬d",
+      "menuId": 26002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Input / Output > Saving failed?",
+      "text": "漥›湏猠癡湩⁧慦汩摥",
+      "menuId": 26003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Input / Output > Loading succeeded?",
+      "text": "漥›湏氠慯楤杮猠捵散摥摥",
+      "menuId": 26004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Input / Output > Saving succeeded?",
+      "text": "漥›湏猠癡湩⁧畳捣敥敤d",
+      "menuId": 26005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Image > Pixel is equal to color?",
+      "text": "漥›䝒⁂瑡⠠〥┬⤱㴠┠2",
+      "menuId": 26006,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "X›䝒⁂瑡⠠〥┬⤱㴠┠2",
+        "Y›䝒⁂瑡⠠〥┬⤱㴠┠2",
+        "潃潬r⁂瑡⠠〥┬⤱㴠┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Image > Set editing image (inline)",
+      "text": "漥›敓敬瑣椠慭敧┠0",
+      "menuId": 26007,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "浉条e敬瑣椠慭敧┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "On callback",
+      "text": "漥›湏挠污扬捡⁫〥",
+      "menuId": 26008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "慃汬慢正氀扬捡⁫〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Image > Compare to current image",
+      "text": "漥›畃牲湥⁴浩条⁥〥",
+      "menuId": 26009,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        23
+      ],
+      "paramTitles": [
+        "浉条e牲湥⁴浩条⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Image > Compare to editing image",
+      "text": "漥›摅瑩湩⁧浩条⁥〥",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 32,
+      "paramTypes": [
+        23
+      ],
+      "paramTitles": [
+        "浉条e瑩湩⁧浩条⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Fill data > Fill data exists?",
+      "text": "漥›楆汬搠瑡⁡〥攠楸瑳s",
+      "menuId": 26014,
+      "resText": null,
+      "flags": 34,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆汬搠瑡⁡慮敭　攠楸瑳s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Input / Output > Buffer is locked?",
+      "text": "漥›畂晦牥椠⁳潬正摥",
+      "menuId": 26015,
+      "resText": null,
+      "flags": 34,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Image > Point is inside image?",
+      "text": "漥›┨ⰰㄥ 獩椠獮摩⁥浩条e",
+      "menuId": 26016,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "X›┨ⰰㄥ 獩椠獮摩⁥浩条e",
+        "Y›┨ⰰㄥ 獩椠獮摩⁥浩条e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Input / Output > File I/O in progress?",
+      "text": "漥›楆敬䤠伯椠⁳湩瀠潲牧獥s",
+      "menuId": 26017,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Blit > From the surface > Image",
+      "text": "求瑩漠瑮⁯浩条⁥〥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慔杲瑥琀⁯浩条⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Images > Set current image",
+      "text": "敓⁴畣牲湥⁴浩条⁥潴┠0",
+      "menuId": 25001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "浉条e牲湥⁴浩条⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "With color > Set pixel",
+      "text": "敓⁴楰數⁬瑡⠠〥┬⤱琠⁯㈥",
+      "menuId": 25002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "X⁴楰數⁬瑡⠠〥┬⤱琠⁯㈥",
+        "Y⁴楰數⁬瑡⠠〥┬⤱琠⁯㈥",
+        "潃潬r數⁬瑡⠠〥┬⤱琠⁯㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "With color > Clear",
+      "text": "汃慥⁲楷桴挠汯牯┠0",
+      "menuId": 25003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "潃潬r楷桴挠汯牯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Alpha channel > Create",
+      "text": "牃慥整愠灬慨挠慨湮汥‬敫灥琠慲獮慰敲据⁹‽〥",
+      "menuId": 25004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敋灥琠慲獮慰敲据㽹⠠㨰丠Ɐㄠ›教⥳攀据⁹‽〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Alpha channel > Set pixel",
+      "text": "敓⁴污桰⁡瑡⠠〥┬⤱琠⁯㈥",
+      "menuId": 25005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "X⁴污桰⁡瑡⠠〥┬⤱琠⁯㈥",
+        "Y⁴污桰⁡瑡⠠〥┬⤱琠⁯㈥",
+        "汁桰⁡〨㈭㔵)〥┬⤱琠⁯㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Alpha channel > Clear",
+      "text": "汃慥⁲污桰⁡楷桴┠0",
+      "menuId": 25006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汁桰⁡〨㈭㔵)桴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Alpha channel > Draw rectangle",
+      "text": "牄睡爠捥慴杮敬⠠〥┬ⰱ㈥┬⤳眠瑩⁨慶畬⁥㐥漠⁮桴⁥污桰⁡档湡敮l",
+      "menuId": 25007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "ㅘ眀爠捥慴杮敬⠠〥┬ⰱ㈥┬⤳眠瑩⁨慶畬⁥㐥漠⁮桴⁥污桰⁡档湡敮l",
+        "ㅙ眀爠捥慴杮敬⠠〥┬ⰱ㈥┬⤳眠瑩⁨慶畬⁥㐥漠⁮桴⁥污桰⁡档湡敮l",
+        "㉘眀爠捥慴杮敬⠠〥┬ⰱ㈥┬⤳眠瑩⁨慶畬⁥㐥漠⁮桴⁥污桰⁡档湡敮l",
+        "㉙眀爠捥慴杮敬⠠〥┬ⰱ㈥┬⤳眠瑩⁨慶畬⁥㐥漠⁮桴⁥污桰⁡档湡敮l",
+        "汁桰⁡〨㈭㔵)⠠〥┬ⰱ㈥┬⤳眠瑩⁨慶畬⁥㐥漠⁮桴⁥污桰⁡档湡敮l"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "With color > Draw ellipse > Via bounding box",
+      "text": "牄睡攠汬灩敳⠠〥┬ⰱ㈥┬⤳眠瑩⁨潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+      "menuId": 25008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        24,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "ㅘ眀攠汬灩敳⠠〥┬ⰱ㈥┬⤳眠瑩⁨潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+        "ㅙ眀攠汬灩敳⠠〥┬ⰱ㈥┬⤳眠瑩⁨潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+        "㉘眀攠汬灩敳⠠〥┬ⰱ㈥┬⤳眠瑩⁨潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+        "㉙眀攠汬灩敳⠠〥┬ⰱ㈥┬⤳眠瑩⁨潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+        "楆汬挠汯牯⠠ㄭ›潎敮)┬⤳眠瑩⁨潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+        "畏汴湩⁥桴捩湫獥s敮)┬⤳眠瑩⁨潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+        "畏汴湩⁥潣潬r獥s敮)┬⤳眠瑩⁨潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "With color > Draw rectangle > Via bounding box",
+      "text": "牄睡爠捥慴杮敬⠠〥┬ⰱ㈥┬⤳眠瑩⁨潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+      "menuId": 25009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        24,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "ㅘ眀爠捥慴杮敬⠠〥┬ⰱ㈥┬⤳眠瑩⁨潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+        "ㅙ眀爠捥慴杮敬⠠〥┬ⰱ㈥┬⤳眠瑩⁨潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+        "㉘眀爠捥慴杮敬⠠〥┬ⰱ㈥┬⤳眠瑩⁨潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+        "㉙眀爠捥慴杮敬⠠〥┬ⰱ㈥┬⤳眠瑩⁨潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+        "楆汬挠汯牯⠠ㄭ›潎敮)㈥┬⤳眠瑩⁨潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+        "畏汴湩⁥桴捩湫獥s敮)㈥┬⤳眠瑩⁨潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+        "畏汴湩⁥潣潬r獥s敮)㈥┬⤳眠瑩⁨潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "With color > Draw line",
+      "text": "牄睡氠湩⁥┨ⰰㄥ┬ⰲ㌥ 楷桴挠汯牯┠‴湡⁤桴捩湫獥⁳㔥",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        24,
+        22
+      ],
+      "paramTitles": [
+        "ㅘ眀氠湩⁥┨ⰰㄥ┬ⰲ㌥ 楷桴挠汯牯┠‴湡⁤桴捩湫獥⁳㔥",
+        "ㅙ眀氠湩⁥┨ⰰㄥ┬ⰲ㌥ 楷桴挠汯牯┠‴湡⁤桴捩湫獥⁳㔥",
+        "㉘眀氠湩⁥┨ⰰㄥ┬ⰲ㌥ 楷桴挠汯牯┠‴湡⁤桴捩湫獥⁳㔥",
+        "㉙眀氠湩⁥┨ⰰㄥ┬ⰲ㌥ 楷桴挠汯牯┠‴湡⁤桴捩湫獥⁳㔥",
+        "潃潬r湩⁥┨ⰰㄥ┬ⰲ㌥ 楷桴挠汯牯┠‴湡⁤桴捩湫獥⁳㔥",
+        "桔捩湫獥s┨ⰰㄥ┬ⰲ㌥ 楷桴挠汯牯┠‴湡⁤桴捩湫獥⁳㔥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Images > Delete image",
+      "text": "敄敬整椠慭敧┠0",
+      "menuId": 25011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "浉条e椠慭敧┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Images > Insert image",
+      "text": "湉敳瑲椠慭敧愠⁴〥眠瑩⁨楤敭獮潩獮⠠ㄥ┬⤲",
+      "menuId": 25012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "浉条e椠慭敧愠⁴〥眠瑩⁨楤敭獮潩獮⠠ㄥ┬⤲",
+        "楗瑤h椠慭敧愠⁴〥眠瑩⁨楤敭獮潩獮⠠ㄥ┬⤲",
+        "效杩瑨椀慭敧愠⁴〥眠瑩⁨楤敭獮潩獮⠠ㄥ┬⤲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Transform > Resize",
+      "text": "敒楳敺椠慭敧琠⁯┨ⰰㄥ)",
+      "menuId": 25013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗瑤h椠慭敧琠⁯┨ⰰㄥ)",
+        "效杩瑨椀慭敧琠⁯┨ⰰㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Input / Output > Save to file",
+      "text": "慓敶椠慭敧琠⁯楦敬┠ⰰ漠敶牲摩⁥硥整獮潩⁮‽ㄥ",
+      "menuId": 25014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        63,
+        45
+      ],
+      "paramTitles": [
+        "楆敬椀慭敧琠⁯楦敬┠ⰰ漠敶牲摩⁥硥整獮潩⁮‽ㄥ",
+        "癏牥楲敤攠瑸湥楳湯⠠灓捥晩⁹晩瀠瑡⁨潤獥渠瑯椠据畬敤愠⁮硥整獮潩⁮楬敫∠湰≧)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "With color > Flood fill",
+      "text": "汆潯⁤楦汬愠⁴┨ⰰㄥ 楷桴挠汯牯┠′湡⁤潴敬慲据⁥㌥",
+      "menuId": 25016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        24,
+        22
+      ],
+      "paramTitles": [
+        "X潯⁤楦汬愠⁴┨ⰰㄥ 楷桴挠汯牯┠′湡⁤潴敬慲据⁥㌥",
+        "Y潯⁤楦汬愠⁴┨ⰰㄥ 楷桴挠汯牯┠′湡⁤潴敬慲据⁥㌥",
+        "潃潬r楦汬愠⁴┨ⰰㄥ 楷桴挠汯牯┠′湡⁤潴敬慲据⁥㌥",
+        "潔敬慲据⁥〨㈭㔵)ㄥ 楷桴挠汯牯┠′湡⁤潴敬慲据⁥㌥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Images > Add image",
+      "text": "摁⁤浩条⁥楷桴搠浩湥楳湯⁳┨ⰰㄥ)",
+      "menuId": 25017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗瑤h条⁥楷桴搠浩湥楳湯⁳┨ⰰㄥ)",
+        "效杩瑨最⁥楷桴搠浩湥楳湯⁳┨ⰰㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Images > Delete all images",
+      "text": "敄敬整愠汬椠慭敧s",
+      "menuId": 25018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Blit > From the surface > Alpha channel",
+      "text": "求瑩漠瑮⁯浩条⁥〥猧愠灬慨挠慨湮汥",
+      "menuId": 25019,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慔杲瑥椠慭敧最⁥〥猧愠灬慨挠慨湮汥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "With color > Replace color",
+      "text": "敒汰捡⁥〥眠瑩⁨ㄥ",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24,
+        24
+      ],
+      "paramTitles": [
+        "汏⁤潣潬r眠瑩⁨ㄥ",
+        "敎⁷潣潬r眠瑩⁨ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Transform > Reverse X",
+      "text": "敒敶獲⁥X",
+      "menuId": 25021,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Transform > Reverse Y",
+      "text": "敒敶獲⁥Y",
+      "menuId": 25022,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Transform > Minimize",
+      "text": "楍楮業敺",
+      "menuId": 25023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Settings > Set transparent color",
+      "text": "敓⁴牴湡灳牡湥⁴潣潬⁲潴┠ⰰ爠灥慬散漠摬挠汯牯㴠┠1",
+      "menuId": 25024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24,
+        22
+      ],
+      "paramTitles": [
+        "牔湡灳牡湥⁴潣潬r潬⁲潴┠ⰰ爠灥慬散漠摬挠汯牯㴠┠1",
+        "敒汰捡⁥汯⁤潣潬㽲⠠㨰丠Ɐㄠ›教⥳攀漠摬挠汯牯㴠┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Alpha channel > Draw line",
+      "text": "牄睡氠湩⁥┨ⰰㄥ┬ⰲ㌥ 楷桴瘠污敵┠‴湯琠敨愠灬慨挠慨湮汥",
+      "menuId": 25025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "ㅘ眀氠湩⁥┨ⰰㄥ┬ⰲ㌥ 楷桴瘠污敵┠‴湯琠敨愠灬慨挠慨湮汥",
+        "ㅙ眀氠湩⁥┨ⰰㄥ┬ⰲ㌥ 楷桴瘠污敵┠‴湯琠敨愠灬慨挠慨湮汥",
+        "㉘眀氠湩⁥┨ⰰㄥ┬ⰲ㌥ 楷桴瘠污敵┠‴湯琠敨愠灬慨挠慨湮汥",
+        "㉙眀氠湩⁥┨ⰰㄥ┬ⰲ㌥ 楷桴瘠污敵┠‴湯琠敨愠灬慨挠慨湮汥",
+        "汁桰⁡〨㈭㔵)ㄥ┬ⰲ㌥ 楷桴瘠污敵┠‴湯琠敨愠灬慨挠慨湮汥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Adjust > Perform operation > With color for RGB",
+      "text": "敐晲牯⁭〥眠瑩⁨潣潬⁲ㄥ",
+      "menuId": 25026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        24
+      ],
+      "paramTitles": [
+        "灏牥瑡牯⠠‫ⴠ†‪⼠†⨪†┥†‼㸠†…簠†⁞㰠‼㸠‾㴠)",
+        "潃潬r牯⠠‫ⴠ†‪⼠†⨪†┥†‼㸠†…簠†⁞㰠‼㸠‾㴠)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Display settings > Force redraw",
+      "text": "潆捲⁥敲牤睡",
+      "menuId": 25027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Images > Copy image > From another image",
+      "text": "潃祰椠慭敧┠‰牦浯┠1",
+      "menuId": 25028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄瑳湩瑡潩⁮浩条e┠1",
+        "潓牵散椠慭敧洀条e┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Images > Set editing image",
+      "text": "敓⁴摥瑩湩⁧浩条⁥潴┠0",
+      "menuId": 25029,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "浉条e瑩湩⁧浩条⁥潴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "With color > Draw polygon",
+      "text": "牄睡瀠汯杹湯愠⁴┨ⰰㄥ 楷桴挠汯牯┠ⰲ漠瑵楬敮┠″潣潬⁲㐥",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        24,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "X睡瀠汯杹湯愠⁴┨ⰰㄥ 楷桴挠汯牯┠ⰲ漠瑵楬敮┠″潣潬⁲㐥",
+        "Y睡瀠汯杹湯愠⁴┨ⰰㄥ 楷桴挠汯牯┠ⰲ漠瑵楬敮┠″潣潬⁲㐥",
+        "楆汬挠汯牯⠠ㄭ›潎敮) 楷桴挠汯牯┠ⰲ漠瑵楬敮┠″潣潬⁲㐥",
+        "畏汴湩⁥桴捩湫獥s敮) 楷桴挠汯牯┠ⰲ漠瑵楬敮┠″潣潬⁲㐥",
+        "畏汴湩⁥潣潬r獥s敮) 楷桴挠汯牯┠ⰲ漠瑵楬敮┠″潣潬⁲㐥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Polygons > Insert point",
+      "text": "湉敳瑲瀠楯瑮⠠ㄥ┬⤲愠⁴〥",
+      "menuId": 25031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湉敤⁸⴨㨱䄠灰湥⥤⤀愠⁴〥",
+        "X敤⁸⴨㨱䄠灰湥⥤⤀愠⁴〥",
+        "Y敤⁸⴨㨱䄠灰湥⥤⤀愠⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Polygons > Remove all points",
+      "text": "敒潭敶愠汬瀠楯瑮s",
+      "menuId": 25032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Polygons > Add points from string",
+      "text": "摁⁤潰湩獴映潲⁭瑳楲杮┠0",
+      "menuId": 25033,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楌瑳漠⁦潰湩獴堠ⰱㅙ堬ⰲ㉙⸮."
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Polygons > Move points",
+      "text": "潍敶愠汬瀠楯瑮⁳祢⠠〥┬⤱瀠硩汥s",
+      "menuId": 25034,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘晏獦瑥瀀楯瑮⁳祢⠠〥┬⤱瀠硩汥s",
+        "⁙晏獦瑥瀀楯瑮⁳祢⠠〥┬⤱瀠硩汥s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Polygons > Rotate points",
+      "text": "潒慴整愠汬瀠楯瑮⁳牡畯摮⠠〥┬⤱戠⁹㈥搠来敲獥",
+      "menuId": 25035,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楐潶⁴潰湩⁴X瑮⁳牡畯摮⠠〥┬⤱戠⁹㈥搠来敲獥",
+        "楐潶⁴潰湩⁴Y瑮⁳牡畯摮⠠〥┬⤱戠⁹㈥搠来敲獥",
+        "湁汧⁥䐨来敲獥)⁳牡畯摮⠠〥┬⤱戠⁹㈥搠来敲獥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Polygons > Remove point",
+      "text": "敒潭敶瀠楯瑮┠0",
+      "menuId": 25036,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潐湩⁴湩敤x┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Blit > Transparency > Set transparency",
+      "text": "敓⁴汢瑩琠慲獮慰敲据⁹潴┠0",
+      "menuId": 25037,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "求瑩琠慲獮慰敲据⁹〨›灏煡敵‬㨱吠慲獮慰敲瑮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Blit > Transparency > Set alpha mode",
+      "text": "敓⁴汢瑩愠灬慨洠摯⁥潴┠0",
+      "menuId": 25038,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汁桰⁡潭敤⠠㨰丠湯ⱥㄠ›潃祰愠灬慨‬㨲䌠浯潰敳愠灬慨)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Blit > Effect > Semi-transparency... > Set semi-transparency",
+      "text": "敓⁴汢瑩猠浥⵩牴湡灳牡湥祣琠⁯〥",
+      "menuId": 25039,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓業琭慲獮慰敲据⁹〨ㄭ㠲‬慍敫猠牵⁥潴攠慮汢⁥桴⁥匧浥⵩牴湡灳牡湥祣‧汢瑩攠晦捥ⅴ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Blit > Effect > Set by index",
+      "text": "敓⁴汢瑩攠晦捥⁴潴┠0",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "求瑩攠晦捥⁴〨›潎敮‬㨱匠浥⵩牴湡灳牡湥祣‬㨲䤠癮牥ⱴ㌠›佘ⱒ㐠›乁ⱄ㔠›剏‬㨹䄠摤‬〱›潍潮‬ㄱ›畓Ɫㄠ㨲䠠䅗吠湩⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Blit > Destination > Set position",
+      "text": "敓⁴汢瑩搠獥楴慮楴湯瀠獯瑩潩⁮潴⠠〥┬⤱",
+      "menuId": 25041,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄瑳湩瑡潩⁮X慮楴湯瀠獯瑩潩⁮潴⠠〥┬⤱",
+        "敄瑳湩瑡潩⁮Y慮楴湯瀠獯瑩潩⁮潴⠠〥┬⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "General settings > Set use absolute coords",
+      "text": "敓⁴獵⁥扡潳畬整挠潯摲⁳潴┠0",
+      "menuId": 25042,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "獕⁥扡潳畬整挠潯摲湩瑡獥‿〨›潎‬㨱夠獥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Fill data > Color > Create",
+      "text": "牃慥整挠汯牯映汩⁬慤慴┠‰楷桴挠汯牯┠1",
+      "menuId": 25043,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        24
+      ],
+      "paramTitles": [
+        "楆汬搠瑡⁡慮敭氀⁬慤慴┠‰楷桴挠汯牯┠1",
+        "潃潬r瑡⁡慮敭氀⁬慤慴┠‰楷桴挠汯牯┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "With fill data > Draw rectangle > Via bounding box",
+      "text": "牄睡爠捥慴杮敬⠠〥┬ⰱ㈥┬⤳眠瑩⁨楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+      "menuId": 25044,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        45,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "ㅘ眀爠捥慴杮敬⠠〥┬ⰱ㈥┬⤳眠瑩⁨楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+        "ㅙ眀爠捥慴杮敬⠠〥┬ⰱ㈥┬⤳眠瑩⁨楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+        "㉘眀爠捥慴杮敬⠠〥┬ⰱ㈥┬⤳眠瑩⁨楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+        "㉙眀爠捥慴杮敬⠠〥┬ⰱ㈥┬⤳眠瑩⁨楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+        "楆汬搠瑡⁡䔨灭祴›潎敮)┬⤳眠瑩⁨楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+        "畏汴湩⁥桴捩湫獥s潎敮)┬⤳眠瑩⁨楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+        "畏汴湩⁥慤慴⠠浅瑰㩹丠湯⥥⤀眠瑩⁨楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Fill data > Tiled image > Create",
+      "text": "牃慥整琠汩摥椠慭敧映汩⁬慤慴┠‰楷桴椠慭敧┠‱湡⁤景獦瑥⠠㈥┬⤳",
+      "menuId": 25045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆汬搠瑡⁡慮敭愀敧映汩⁬慤慴┠‰楷桴椠慭敧┠‱湡⁤景獦瑥⠠㈥┬⤳",
+        "浉条e瑡⁡慮敭愀敧映汩⁬慤慴┠‰楷桴椠慭敧┠‱湡⁤景獦瑥⠠㈥┬⤳",
+        "⁘晏獦瑥 慮敭愀敧映汩⁬慤慴┠‰楷桴椠慭敧┠‱湡⁤景獦瑥⠠㈥┬⤳",
+        "⁙晏獦瑥 慮敭愀敧映汩⁬慤慴┠‰楷桴椠慭敧┠‱湡⁤景獦瑥⠠㈥┬⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Fill data > Linear gradient > Create",
+      "text": "牃慥整氠湩慥⁲牧摡敩瑮映汩⁬慤慴┠‰楷桴挠汯牯⁳┨ⰱ㈥Ⱙ瘠牥楴慣⁬‽㌥",
+      "menuId": 25046,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        24,
+        24,
+        22
+      ],
+      "paramTitles": [
+        "楆汬搠瑡⁡慮敭爀摡敩瑮映汩⁬慤慴┠‰楷桴挠汯牯⁳┨ⰱ㈥Ⱙ瘠牥楴慣⁬‽㌥",
+        "潃潬⁲A⁡慮敭爀摡敩瑮映汩⁬慤慴┠‰楷桴挠汯牯⁳┨ⰱ㈥Ⱙ瘠牥楴慣⁬‽㌥",
+        "潃潬⁲B⁡慮敭爀摡敩瑮映汩⁬慤慴┠‰楷桴挠汯牯⁳┨ⰱ㈥Ⱙ瘠牥楴慣⁬‽㌥",
+        "敖瑲捩污‿〨›潎‬㨱夠獥)⁬慤慴┠‰楷桴挠汯牯⁳┨ⰱ㈥Ⱙ瘠牥楴慣⁬‽㌥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Input / Output > Load from clipboard",
+      "text": "潌摡椠慭敧映潲⁭桴⁥汣灩潢牡d",
+      "menuId": 25047,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Input / Output > Save to clipboard",
+      "text": "慓敶椠慭敧琠⁯桴⁥汣灩潢牡d",
+      "menuId": 25048,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Blit > Onto the surface > External > Active object > At destination",
+      "text": "求瑩䄠瑣癩⁥扯敪瑣┠0",
+      "menuId": 25049,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "扏敪瑣琀癩⁥扯敪瑣┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 50,
+      "menu": "With fill data > Draw ellipse > Via bounding box",
+      "text": "牄睡攠汬灩敳⠠〥┬ⰱ㈥┬⤳眠瑩⁨楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        45,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "ㅘ眀攠汬灩敳⠠〥┬ⰱ㈥┬⤳眠瑩⁨楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+        "ㅙ眀攠汬灩敳⠠〥┬ⰱ㈥┬⤳眠瑩⁨楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+        "㉘眀攠汬灩敳⠠〥┬ⰱ㈥┬⤳眠瑩⁨楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+        "㉙眀攠汬灩敳⠠〥┬ⰱ㈥┬⤳眠瑩⁨楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+        "楆汬搠瑡⁡䔨灭祴›潎敮)⤳眠瑩⁨楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+        "畏汴湩⁥桴捩湫獥s潎敮)⤳眠瑩⁨楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+        "畏汴湩⁥慤慴⠠浅瑰㩹丠湯⥥眀瑩⁨楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "With fill data > Draw polygon",
+      "text": "牄睡瀠汯杹湯愠⁴┨ⰰㄥ 楷桴映汩⁬慤慴┠ⰲ漠瑵楬敮┠″慤慴┠4",
+      "menuId": 25051,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        45,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "X睡瀠汯杹湯愠⁴┨ⰰㄥ 楷桴映汩⁬慤慴┠ⰲ漠瑵楬敮┠″慤慴┠4",
+        "Y睡瀠汯杹湯愠⁴┨ⰰㄥ 楷桴映汩⁬慤慴┠ⰲ漠瑵楬敮┠″慤慴┠4",
+        "楆汬搠瑡⁡䔨灭祴›潎敮)楷桴映汩⁬慤慴┠ⰲ漠瑵楬敮┠″慤慴┠4",
+        "畏汴湩⁥桴捩湫獥s潎敮)楷桴映汩⁬慤慴┠ⰲ漠瑵楬敮┠″慤慴┠4",
+        "畏汴湩⁥慤慴⠠浅瑰㩹丠湯⥥栀映汩⁬慤慴┠ⰲ漠瑵楬敮┠″慤慴┠4"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 52,
+      "menu": "With color > Draw text",
+      "text": "牄睡琠硥⁴㐥愠⁴┨ⰰㄥ┬ⰲ㌥ 楷桴挠汯牯┠5",
+      "menuId": 25052,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        45,
+        24
+      ],
+      "paramTitles": [
+        "ㅘ眀琠硥⁴㐥愠⁴┨ⰰㄥ┬ⰲ㌥ 楷桴挠汯牯┠5",
+        "ㅙ眀琠硥⁴㐥愠⁴┨ⰰㄥ┬ⰲ㌥ 楷桴挠汯牯┠5",
+        "㉘⠠敌癡⁥敺潲琠⁯獵⁥ㅘ)㌥ 楷桴挠汯牯┠5",
+        "㉙⠠敌癡⁥敺潲琠⁯獵⁥ㅙ)㌥ 楷桴挠汯牯┠5",
+        "敔瑸攀癡⁥敺潲琠⁯獵⁥ㅙ)㌥ 楷桴挠汯牯┠5",
+        "潃潬r癡⁥敺潲琠⁯獵⁥ㅙ)㌥ 楷桴挠汯牯┠5"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 53,
+      "menu": "Text > Set horizontal align",
+      "text": "敓⁴潨楲潺瑮污琠硥⁴污杩⁮潴┠0",
+      "menuId": 25053,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敔瑸愠楬湧敭瑮⠠敌瑦›ⰰ䌠湥整㩲ㄠ‬楒桧㩴㈠)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 54,
+      "menu": "Text > Set vertical align",
+      "text": "敓⁴敶瑲捩污琠硥⁴污杩⁮潴┠0",
+      "menuId": 25054,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敔瑸愠楬湧敭瑮⠠潔㩰〠‬敃瑮牥›ⰱ䈠瑯潴㩭㈠)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 55,
+      "menu": "Text > Set multi-line",
+      "text": "敓⁴整瑸洠汵楴氭湩⁥潴┠0",
+      "menuId": 25055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畍瑬⵩楬敮⠠㨰丠Ɐㄠ›教⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 56,
+      "menu": "Text > Set font face",
+      "text": "敓⁴整瑸映湯⁴慦散琠⁯〥",
+      "menuId": 25056,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "潆瑮攀瑸映湯⁴慦散琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 57,
+      "menu": "Text > Set font size",
+      "text": "敓⁴整瑸映湯⁴楳敺琠⁯〥瀠t",
+      "menuId": 25057,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潆瑮猠穩⁥瀨楯瑮⥳琀⁯〥瀠t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 58,
+      "menu": "Text > Set font quality",
+      "text": "敓⁴整瑸映湯⁴畱污瑩⁹潴┠0",
+      "menuId": 25058,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潆瑮焠慵楬祴⠠㨰䐠湯琧挠牡ⱥㄠ›牄晡ⱴ㈠›牐潯ⱦ㌠›汁慩敳Ɽ㐠›湁楴愭楬獡摥‬㨵䌠敬牡祔数)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 59,
+      "menu": "Text > Set font weight",
+      "text": "敓⁴整瑸映湯⁴敷杩瑨琠⁯〥",
+      "menuId": 25059,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潆瑮眠楥桧⁴〨㤭‬㨱吠楨Ɱ㔠›敍楤浵‬㨷䈠汯⥤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 60,
+      "menu": "Text > Set font decoration",
+      "text": "敓⁴整瑸映湯⁴敤潣慲楴湯琠⁯〥",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潆瑮搠捥牯瑡潩Ɱ愠摤琠杯瑥敨⁲ㄨ›瑉污捩‬㨲唠摮牥楬敮‬㨴匠牴歩ⵥ畯⥴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 61,
+      "menu": "Adjust > Apply matrix",
+      "text": "灁汰⁹潣癮汯瑵潩⁮慭牴硩⠠㌥┬ⰴ㔥╼ⰶ㜥┬簸㤥┬ⱁ䈥Ⱙ搠癩獩牯㴠┠ⰰ漠晦敳⁴‽ㄥ‬瑩牥瑡⁥㈥琠浩獥",
+      "menuId": 25061,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楄楶潳r癮汯瑵潩⁮慭牴硩⠠㌥┬ⰴ㔥╼ⰶ㜥┬簸㤥┬ⱁ䈥Ⱙ搠癩獩牯㴠┠ⰰ漠晦敳⁴‽ㄥ‬瑩牥瑡⁥㈥琠浩獥",
+        "晏獦瑥",
+        "瑉牥瑡潩獮氀瑵潩⁮慭牴硩⠠㌥┬ⰴ㔥╼ⰶ㜥┬簸㤥┬ⱁ䈥Ⱙ搠癩獩牯㴠┠ⰰ漠晦敳⁴‽ㄥ‬瑩牥瑡⁥㈥琠浩獥",
+        "ㅘㅙ⠠彘籟彟籟彟⥟愀牴硩⠠㌥┬ⰴ㔥╼ⰶ㜥┬簸㤥┬ⱁ䈥Ⱙ搠癩獩牯㴠┠ⰰ漠晦敳⁴‽ㄥ‬瑩牥瑡⁥㈥琠浩獥",
+        "ㅘ㉙⠠塟籟彟籟彟⥟愀牴硩⠠㌥┬ⰴ㔥╼ⰶ㜥┬簸㤥┬ⱁ䈥Ⱙ搠癩獩牯㴠┠ⰰ漠晦敳⁴‽ㄥ‬瑩牥瑡⁥㈥琠浩獥",
+        "ㅘ㍙⠠彟籘彟籟彟⥟愀牴硩⠠㌥┬ⰴ㔥╼ⰶ㜥┬簸㤥┬ⱁ䈥Ⱙ搠癩獩牯㴠┠ⰰ漠晦敳⁴‽ㄥ‬瑩牥瑡⁥㈥琠浩獥",
+        "㉘ㅙ⠠彟籟彘籟彟⥟愀牴硩⠠㌥┬ⰴ㔥╼ⰶ㜥┬簸㤥┬ⱁ䈥Ⱙ搠癩獩牯㴠┠ⰰ漠晦敳⁴‽ㄥ‬瑩牥瑡⁥㈥琠浩獥",
+        "㉘㉙⠠彟籟塟籟彟⥟愀牴硩⠠㌥┬ⰴ㔥╼ⰶ㜥┬簸㤥┬ⱁ䈥Ⱙ搠癩獩牯㴠┠ⰰ漠晦敳⁴‽ㄥ‬瑩牥瑡⁥㈥琠浩獥",
+        "㉘㍙⠠彟籟彟籘彟⥟愀牴硩⠠㌥┬ⰴ㔥╼ⰶ㜥┬簸㤥┬ⱁ䈥Ⱙ搠癩獩牯㴠┠ⰰ漠晦敳⁴‽ㄥ‬瑩牥瑡⁥㈥琠浩獥",
+        "㍘ㅙ⠠彟籟彟籟彘⥟愀牴硩⠠㌥┬ⰴ㔥╼ⰶ㜥┬簸㤥┬ⱁ䈥Ⱙ搠癩獩牯㴠┠ⰰ漠晦敳⁴‽ㄥ‬瑩牥瑡⁥㈥琠浩獥",
+        "㍘㉙⠠彟籟彟籟塟⥟愀牴硩⠠㌥┬ⰴ㔥╼ⰶ㜥┬簸㤥┬ⱁ䈥Ⱙ搠癩獩牯㴠┠ⰰ漠晦敳⁴‽ㄥ‬瑩牥瑡⁥㈥琠浩獥",
+        "㍘㍙⠠彟籟彟籟彟⥘愀牴硩⠠㌥┬ⰴ㔥╼ⰶ㜥┬簸㤥┬ⱁ䈥Ⱙ搠癩獩牯㴠┠ⰰ漠晦敳⁴‽ㄥ‬瑩牥瑡⁥㈥琠浩獥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 62,
+      "menu": "Blit > Onto the surface > External > Background",
+      "text": "求瑩琠敨戠捡杫潲湵d",
+      "menuId": 25062,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 63,
+      "menu": "Blit > Onto the surface > Image",
+      "text": "求瑩椠慭敧┠0",
+      "menuId": 25063,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潓牵散愀敧┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 64,
+      "menu": "Blit > From the surface > External > Add backdrop",
+      "text": "摁⁤慢正牤灯┠0",
+      "menuId": 25064,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        43
+      ],
+      "paramTitles": [
+        "灏楴湯s牤灯┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 65,
+      "menu": "Blit > From the surface > External > Background",
+      "text": "求瑩漠瑮⁯桴⁥慢正牧畯摮",
+      "menuId": 25065,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 66,
+      "menu": "Blit > Destination > Set dimensions",
+      "text": "敓⁴汢瑩搠獥楴慮楴湯搠浩湥楳湯⁳潴⠠〥┬⤱",
+      "menuId": 25066,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄瑳湩瑡潩⁮楷瑤h湯搠浩湥楳湯⁳潴⠠〥┬⤱",
+        "敄瑳湩瑡潩⁮敨杩瑨渀搠浩湥楳湯⁳潴⠠〥┬⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 67,
+      "menu": "Blit > Onto the surface > Alpha channel",
+      "text": "求瑩椠慭敧┠✰⁳污桰⁡档湡敮l",
+      "menuId": 25067,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潓牵散愀敧┠✰⁳污桰⁡档湡敮l"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 68,
+      "menu": "Input / Output > Export as Overlay",
+      "text": "硅潰瑲椠慭敧愠⁳癏牥慬y",
+      "menuId": 25068,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 69,
+      "menu": "With fill data > Draw line",
+      "text": "牄睡氠湩⁥┨ⰰㄥ┬ⰲ㌥ 楷桴映汩⁬慤慴┠‴湡⁤桴捩湫獥⁳㔥",
+      "menuId": 25069,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        45,
+        22
+      ],
+      "paramTitles": [
+        "ㅘ眀氠湩⁥┨ⰰㄥ┬ⰲ㌥ 楷桴映汩⁬慤慴┠‴湡⁤桴捩湫獥⁳㔥",
+        "ㅙ眀氠湩⁥┨ⰰㄥ┬ⰲ㌥ 楷桴映汩⁬慤慴┠‴湡⁤桴捩湫獥⁳㔥",
+        "㉘眀氠湩⁥┨ⰰㄥ┬ⰲ㌥ 楷桴映汩⁬慤慴┠‴湡⁤桴捩湫獥⁳㔥",
+        "㉙眀氠湩⁥┨ⰰㄥ┬ⰲ㌥ 楷桴映汩⁬慤慴┠‴湡⁤桴捩湫獥⁳㔥",
+        "楆汬搠瑡a┨ⰰㄥ┬ⰲ㌥ 楷桴映汩⁬慤慴┠‴湡⁤桴捩湫獥⁳㔥",
+        "桔捩湫獥s┨ⰰㄥ┬ⰲ㌥ 楷桴映汩⁬慤慴┠‴湡⁤桴捩湫獥⁳㔥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 70,
+      "menu": "Blit > Onto the surface > External > Overlay",
+      "text": "求瑩传敶汲祡愠⁴〥",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "癏牥慬⁹摡牤獥s〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 71,
+      "menu": "Blit > From the surface > External > Overlay",
+      "text": "求瑩漠瑮⁯癏牥慬⁹瑡┠0",
+      "menuId": 25071,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "癏牥慬⁹摡牤獥s⁹瑡┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 72,
+      "menu": "Fill data > Color > Set color",
+      "text": "敓⁴潣潬⁲景映汩⁬慤慴┠‰潴┠1",
+      "menuId": 25072,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        24
+      ],
+      "paramTitles": [
+        "楆汬搠瑡⁡慮敭氀⁬慤慴┠‰潴┠1",
+        "潃潬r瑡⁡慮敭氀⁬慤慴┠‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 73,
+      "menu": "Fill data > Linear gradient > Set colors",
+      "text": "敓⁴潣潬獲漠⁦楦汬搠瑡⁡〥琠⁯┨ⰱ㈥)",
+      "menuId": 25073,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        24,
+        24
+      ],
+      "paramTitles": [
+        "楆汬搠瑡⁡慮敭椀汬搠瑡⁡〥琠⁯┨ⰱ㈥)",
+        "潃潬⁲A⁡慮敭椀汬搠瑡⁡〥琠⁯┨ⰱ㈥)",
+        "潃潬⁲B⁡慮敭椀汬搠瑡⁡〥琠⁯┨ⰱ㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 74,
+      "menu": "Fill data > Linear gradient > Set vertical",
+      "text": "敓⁴敶瑲捩污映慬⁧景映汩⁬慤慴┠‰潴┠1",
+      "menuId": 25074,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "楆汬搠瑡⁡慮敭愀⁧景映汩⁬慤慴┠‰潴┠1",
+        "敖瑲捩污‿〨›潎‬㨱夠獥)慤慴┠‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 75,
+      "menu": "Fill data > Tiled image > Set origin",
+      "text": "敓⁴牯杩湩漠⁦楦汬搠瑡⁡〥琠⁯┨ⰱ㈥)",
+      "menuId": 25075,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆汬搠瑡⁡慮敭椀汬搠瑡⁡〥琠⁯┨ⰱ㈥)",
+        "⁘牏杩湩 慮敭椀汬搠瑡⁡〥琠⁯┨ⰱ㈥)",
+        "⁙牏杩湩 慮敭椀汬搠瑡⁡〥琠⁯┨ⰱ㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 76,
+      "menu": "Fill data > Tiled image > Set tiled image",
+      "text": "敓⁴浩条⁥景映汩⁬慤慴┠‰潴┠1",
+      "menuId": 25076,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "楆汬搠瑡⁡慮敭氀⁬慤慴┠‰潴┠1",
+        "浉条e瑡⁡慮敭氀⁬慤慴┠‰潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 77,
+      "menu": "Fill data > Delete",
+      "text": "敄敬整映汩⁬慤慴┠0",
+      "menuId": 25077,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆汬搠瑡⁡慮敭愀┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 78,
+      "menu": "Transform > Resize canvas",
+      "text": "敒楳敺挠湡慶⁳潴⠠〥┬ⰱ㈥┬⤳",
+      "menuId": 25078,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "ㅘ椀敺挠湡慶⁳潴⠠〥┬ⰱ㈥┬⤳",
+        "ㅙ椀敺挠湡慶⁳潴⠠〥┬ⰱ㈥┬⤳",
+        "㉘椀敺挠湡慶⁳潴⠠〥┬ⰱ㈥┬⤳",
+        "㉙椀敺挠湡慶⁳潴⠠〥┬ⰱ㈥┬⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 79,
+      "menu": "With fill data > Clear",
+      "text": "汃慥⁲楷桴映汩⁬慤慴┠0",
+      "menuId": 25079,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆汬搠瑡a映汩⁬慤慴┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 80,
+      "menu": "Transform > Rotate",
+      "text": "潒慴整椠慭敧戠⁹〥搠来敲獥",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湁汧⁥䐨来敲獥)〥搠来敲獥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 81,
+      "menu": "General settings > Set linear resampling",
+      "text": "敓⁴楬敮牡爠獥浡汰湩⁧潴┠0",
+      "menuId": 25081,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "獕⁥楬敮牡爠獥浡汰湩⁧湩愠瑣潩獮椠⁦癡楡慬汢㽥⠠㨰丠Ɐㄠ›教⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 82,
+      "menu": "Blit > Onto the surface > Advanced > Binary surface",
+      "text": "求瑩戠湩牡⁹畳晲捡⁥瑡┠0",
+      "menuId": 25082,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓晲捡⁥摡牤獥s捡⁥瑡┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 83,
+      "menu": "Blit > From the surface > Advanced > Binary surface",
+      "text": "求瑩漠瑮⁯楢慮祲猠牵慦散愠⁴〥",
+      "menuId": 25083,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "畓晲捡⁥摡牤獥s猠牵慦散愠⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 84,
+      "menu": "Text > Set clipping",
+      "text": "敓⁴整瑸挠楬灰湩⁧潴┠0",
+      "menuId": 25084,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汃灩楰杮⠠㨰丠Ɐㄠ›教⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 85,
+      "menu": "Text > Set add ellipsis",
+      "text": "敓⁴整瑸愠摤攠汬灩楳⁳潴┠0",
+      "menuId": 25085,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "摁⁤汥楬獰獩⠠㨰丠Ɐㄠ›教⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 86,
+      "menu": "Text > Set word break",
+      "text": "敓⁴整瑸眠牯⁤牢慥⁫潴┠0",
+      "menuId": 25086,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潗摲戠敲歡⠠㨰丠Ɐㄠ›教⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 87,
+      "menu": "Blit > Onto the surface > Advanced > Window handle",
+      "text": "求瑩眠湩潤⁷瑡┠0",
+      "menuId": 25087,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗摮睯栠湡汤⁥〨›桗汯⁥敤歳潴⥰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 88,
+      "menu": "Blit > From the surface > Advanced > Window handle",
+      "text": "求瑩漠瑮⁯楷摮睯愠⁴〥",
+      "menuId": 25088,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楗摮睯栠湡汤⁥〨›桗汯⁥敤歳潴⥰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 89,
+      "menu": "Blit > From the surface > External > Surface",
+      "text": "求瑩漠瑮⁯浩条⁥ㄥ漠⁦畓晲捡⁥〥",
+      "menuId": 25089,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "畓晲捡⁥扯敪瑣 ㄥ漠⁦畓晲捡⁥〥",
+        "浉条e⁥扯敪瑣 ㄥ漠⁦畓晲捡⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 90,
+      "menu": "Blit > Onto the surface > External > Surface",
+      "text": "求瑩椠慭敧┠‱景匠牵慦散┠0",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22
+      ],
+      "paramTitles": [
+        "畓晲捡⁥扯敪瑣昀匠牵慦散┠0",
+        "浉条e⁥扯敪瑣昀匠牵慦散┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 91,
+      "menu": "Images > Swap two images",
+      "text": "睓灡椠慭敧⁳〥愠摮┠1",
+      "menuId": 25091,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "浉条⁥A敧⁳〥愠摮┠1",
+        "浉条⁥B敧⁳〥愠摮┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 92,
+      "menu": "Adjust > Move color channels",
+      "text": "潍敶挠慨湮汥⁳爨本戬愬 潴⠠〥┬ⰱ㈥┬⤳",
+      "menuId": 25092,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        45,
+        45,
+        45
+      ],
+      "paramTitles": [
+        "敎⁷档湡敮⁬潦⁲敲⁤爨‬Ⱨ戠‬⥡Ⰰ㈥┬⤳",
+        "敎⁷档湡敮⁬潦⁲牧敥⁮爨‬Ⱨ戠‬⥡㈀┬⤳",
+        "敎⁷档湡敮⁬潦⁲汢敵⠠Ⱳ朠‬Ɫ愠)㈀┬⤳",
+        "敎⁷档湡敮⁬潦⁲污桰ⱡ椠⁦湡⁹爨‬Ⱨ戠‬⥡"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 93,
+      "menu": "Transform > Scroll",
+      "text": "捓潲汬⠠〥┬⤱‬牷灡㴠┠2",
+      "menuId": 25093,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘晏獦瑥　┬⤱‬牷灡㴠┠2",
+        "⁙晏獦瑥　┬⤱‬牷灡㴠┠2",
+        "牗灡瀠硩汥㽳⠠㨰丠Ɐㄠ›教⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 94,
+      "menu": "Callback > Return color",
+      "text": "敒畴湲┠‰潴挠污扬捡k",
+      "menuId": 25094,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24
+      ],
+      "paramTitles": [
+        "潃潬r┠‰潴挠污扬捡k"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 95,
+      "menu": "Callback > Loop through image",
+      "text": "潌灯琠牨畯桧椠慭敧眠瑩⁨慣汬慢正┠‱湡⁤汦条⁳〥",
+      "menuId": 25095,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        45
+      ],
+      "paramTitles": [
+        "汆条ⱳ愠摤琠杯瑥敨⁲ㄨ›敇⁴潣潬Ⱳ㈠›敓⁴潣潬Ⱳ㐠›瑓牯⁥潰楳楴湯‬㨸䜠瑥愠灬慨‬㘱›敓⁴污桰⥡",
+        "慃汬慢正搀琠杯瑥敨⁲ㄨ›敇⁴潣潬Ⱳ㈠›敓⁴潣潬Ⱳ㐠›瑓牯⁥潰楳楴湯‬㨸䜠瑥愠灬慨‬㘱›敓⁴污桰⥡"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 96,
+      "menu": "Settings > Set clipping rectangle",
+      "text": "敓⁴汣灩楰杮爠捥慴杮敬琠⁯┨ⰰㄥ┬ⰲ㌥)",
+      "menuId": 25096,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "ㅘ 汣灩楰杮爠捥慴杮敬琠⁯┨ⰰㄥ┬ⰲ㌥)",
+        "ㅙ 汣灩楰杮爠捥慴杮敬琠⁯┨ⰰㄥ┬ⰲ㌥)",
+        "㉘ 汣灩楰杮爠捥慴杮敬琠⁯┨ⰰㄥ┬ⰲ㌥)",
+        "㉙ 汣灩楰杮爠捥慴杮敬琠⁯┨ⰰㄥ┬ⰲ㌥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 97,
+      "menu": "Settings > Clear clipping rectangle",
+      "text": "汃慥⁲汣灩楰杮爠捥慴杮敬",
+      "menuId": 25097,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 98,
+      "menu": "Adjust > Invert image",
+      "text": "湉敶瑲椠慭敧",
+      "menuId": 25098,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 99,
+      "menu": "Polygons > Create star",
+      "text": "牃慥整猠慴Ⱳ椠湮牥爠摡畩⁳‽〥‬畯整⁲慲楤獵㴠┠ⰱ猠楰敫⁳‽㈥",
+      "menuId": 25099,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湉敮⁲慲楤獵椀湮牥爠摡畩⁳‽〥‬畯整⁲慲楤獵㴠┠ⰱ猠楰敫⁳‽㈥",
+        "畏整⁲慲楤獵椀湮牥爠摡畩⁳‽〥‬畯整⁲慲楤獵㴠┠ⰱ猠楰敫⁳‽㈥",
+        "畎扭牥漠⁦灳歩獥爀爠摡畩⁳‽〥‬畯整⁲慲楤獵㴠┠ⰱ猠楰敫⁳‽㈥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 100,
+      "menu": "Polygons > Scale points",
+      "text": "捓污⁥污⁬潰湩獴戠⁹┨ⰲ㌥ 牦浯⠠〥┬⤱",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "捓污⁥散瑮牥堠猀戠⁹┨ⰲ㌥ 牦浯⠠〥┬⤱",
+        "捓污⁥散瑮牥夠猀戠⁹┨ⰲ㌥ 牦浯⠠〥┬⤱",
+        "⁘捳污⁥慦瑣牯⠠⸱㨰丠湯⥥ 牦浯⠠〥┬⤱",
+        "⁙捳污⁥慦瑣牯⠠⸱㨰丠湯⥥ 牦浯⠠〥┬⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 101,
+      "menu": "With color > Draw ellipse > Via center and size",
+      "text": "牄睡攠汬灩敳愠⁴┨ⰰㄥ 楷桴猠穩⁥┨ⰲ㌥ 湡⁤潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+      "menuId": 25101,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        24,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "敃瑮牥堠瀀敳愠⁴┨ⰰㄥ 楷桴猠穩⁥┨ⰲ㌥ 湡⁤潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+        "敃瑮牥夠瀀敳愠⁴┨ⰰㄥ 楷桴猠穩⁥┨ⰲ㌥ 湡⁤潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+        "楗瑤h夠瀀敳愠⁴┨ⰰㄥ 楷桴猠穩⁥┨ⰲ㌥ 湡⁤潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+        "效杩瑨夀瀀敳愠⁴┨ⰰㄥ 楷桴猠穩⁥┨ⰲ㌥ 湡⁤潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+        "楆汬挠汯牯⠠ㄭ›潎敮) 楷桴猠穩⁥┨ⰲ㌥ 湡⁤潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+        "畏汴湩⁥桴捩湫獥s敮) 楷桴猠穩⁥┨ⰲ㌥ 湡⁤潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+        "畏汴湩⁥潣潬r獥s敮) 楷桴猠穩⁥┨ⰲ㌥ 湡⁤潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 102,
+      "menu": "With fill data > Draw ellipse > Via center and size",
+      "text": "牄睡攠汬灩敳愠⁴┨ⰰㄥ 楷桴猠穩⁥┨ⰲ㌥ 湡⁤楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+      "menuId": 25102,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        45,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "敃瑮牥堠瀀敳愠⁴┨ⰰㄥ 楷桴猠穩⁥┨ⰲ㌥ 湡⁤楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+        "敃瑮牥夠瀀敳愠⁴┨ⰰㄥ 楷桴猠穩⁥┨ⰲ㌥ 湡⁤楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+        "楗瑤h夠瀀敳愠⁴┨ⰰㄥ 楷桴猠穩⁥┨ⰲ㌥ 湡⁤楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+        "效杩瑨夀瀀敳愠⁴┨ⰰㄥ 楷桴猠穩⁥┨ⰲ㌥ 湡⁤楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+        "楆汬搠瑡⁡䔨灭祴›潎敮)楷桴猠穩⁥┨ⰲ㌥ 湡⁤楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+        "畏汴湩⁥桴捩湫獥s潎敮)楷桴猠穩⁥┨ⰲ㌥ 湡⁤楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+        "畏汴湩⁥慤慴⠠浅瑰㩹丠湯⥥栀猠穩⁥┨ⰲ㌥ 湡⁤楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 103,
+      "menu": "Polygons > Create regular polygon",
+      "text": "牃慥整爠来汵牡瀠汯杹湯‬慲楤獵㴠┠ⰰ攠杤獥㴠┠1",
+      "menuId": 25103,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慒楤獵爀来汵牡瀠汯杹湯‬慲楤獵㴠┠ⰰ攠杤獥㴠┠1",
+        "畎扭牥漠⁦摥敧s汯杹湯‬慲楤獵㴠┠ⰰ攠杤獥㴠┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 104,
+      "menu": "Display settings > Skip redraw",
+      "text": "歓灩爠摥慲w",
+      "menuId": 25104,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 105,
+      "menu": "Blit > Destination > Set all",
+      "text": "敓⁴汢瑩搠獥楴慮楴湯‬潰楳楴湯㴠⠠〥┬⤱‬楤敭獮潩獮㴠⠠㈥┬⤳‬瑳敲捴⁨潭敤㴠┠4",
+      "menuId": 25105,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄瑳湩瑡潩⁮X慮楴湯‬潰楳楴湯㴠⠠〥┬⤱‬楤敭獮潩獮㴠⠠㈥┬⤳‬瑳敲捴⁨潭敤㴠┠4",
+        "敄瑳湩瑡潩⁮Y慮楴湯‬潰楳楴湯㴠⠠〥┬⤱‬楤敭獮潩獮㴠⠠㈥┬⤳‬瑳敲捴⁨潭敤㴠┠4",
+        "敄瑳湩瑡潩⁮楷瑤h湯‬潰楳楴湯㴠⠠〥┬⤱‬楤敭獮潩獮㴠⠠㈥┬⤳‬瑳敲捴⁨潭敤㴠┠4",
+        "敄瑳湩瑡潩⁮敨杩瑨渀‬潰楳楴湯㴠⠠〥┬⤱‬楤敭獮潩獮㴠⠠㈥┬⤳‬瑳敲捴⁨潭敤㴠┠4",
+        "瑓敲捴⁨潭敤⠠㨰丠⁯瑳敲捴楨杮‬㨱丠⁯敲慳灭楬杮‬㨲删獥浡汰湩Ⱨ㌠›灏煡敵爠獥浡汰湩⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 106,
+      "menu": "Adjust > Convert to grayscale",
+      "text": "潃癮牥⁴潴朠慲獹慣敬",
+      "menuId": 25106,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 107,
+      "menu": "Fill data > Radial gradient > Create",
+      "text": "牃慥整爠摡慩⁬牧摡敩瑮映汩⁬慤慴┠‰楷桴挠汯牯⁳┨ⰱ㈥)",
+      "menuId": 25107,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        24,
+        24
+      ],
+      "paramTitles": [
+        "楆汬搠瑡⁡慮敭爀摡敩瑮映汩⁬慤慴┠‰楷桴挠汯牯⁳┨ⰱ㈥)",
+        "潃潬⁲A⁡慮敭爀摡敩瑮映汩⁬慤慴┠‰楷桴挠汯牯⁳┨ⰱ㈥)",
+        "潃潬⁲B⁡慮敭爀摡敩瑮映汩⁬慤慴┠‰楷桴挠汯牯⁳┨ⰱ㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 109,
+      "menu": "General settings > Set display editing image",
+      "text": "敓⁴楤灳慬⁹摥瑩湩⁧浩条⁥潴┠0",
+      "menuId": 25109,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楄灳慬⁹摥瑩湩⁧浩条㽥⠠㨰丠Ɐㄠ›教⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 110,
+      "menu": "General settings > Set select new images",
+      "text": "敓⁴敳敬瑣渠睥椠慭敧⁳潴┠0",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楄灳慬⁹摥瑩湩⁧浩条㽥⠠㨰丠Ɐㄠ›教⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 111,
+      "menu": "Display settings > Set transparent",
+      "text": "敓⁴牴湡灳牡湥⁴潴┠0",
+      "menuId": 25111,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楄灳慬⁹牴湡灳牡湥㽴⠠㨰丠Ɐㄠ›教⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 112,
+      "menu": "Input / Output > Lock buffer",
+      "text": "潌正戠晵敦r",
+      "menuId": 25112,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 113,
+      "menu": "Input / Output > Unlock buffer",
+      "text": "湕潬正戠晵敦r",
+      "menuId": 25113,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 114,
+      "menu": "Blit > Source > Set position",
+      "text": "敓⁴汢瑩猠畯捲⁥潰楳楴湯琠⁯┨ⰰㄥ)",
+      "menuId": 25114,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潓牵散堠猀畯捲⁥潰楳楴湯琠⁯┨ⰰㄥ)",
+        "潓牵散夠猀畯捲⁥潰楳楴湯琠⁯┨ⰰㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 115,
+      "menu": "Blit > Source > Set dimensions",
+      "text": "敓⁴汢瑩猠畯捲⁥楤敭獮潩獮琠⁯┨ⰰㄥ)",
+      "menuId": 25115,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潓牵散眠摩桴挀⁥楤敭獮潩獮琠⁯┨ⰰㄥ)",
+        "潓牵散栠楥桧t⁥楤敭獮潩獮琠⁯┨ⰰㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 116,
+      "menu": "Blit > Destination > Set stretch mode",
+      "text": "敓⁴汢瑩猠牴瑥档洠摯⁥潴┠0",
+      "menuId": 25116,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "瑓敲捴⁨潭敤⠠㨰丠⁯瑳敲捴楨杮‬㨱丠⁯敲慳灭楬杮‬㨲删獥浡汰湩Ⱨ㌠›灏煡敵爠獥浡汰湩⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 117,
+      "menu": "Blit > Source > Set region flag",
+      "text": "敓⁴汢瑩爠来潩⁮汦条琠⁯〥",
+      "menuId": 25117,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "獕⁥灳捥晩敩⁤潳牵散爠来潩㽮⠠㨰丠Ɐㄠ›教⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 118,
+      "menu": "Text > Set angle",
+      "text": "敓⁴整瑸愠杮敬琠⁯〥",
+      "menuId": 25118,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湁汧⁥䐨来敲獥)⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 119,
+      "menu": "With color > Draw rectangle > Via position and size",
+      "text": "牄睡爠捥慴杮敬愠⁴┨ⰰㄥ 楷桴猠穩⁥┨ⰲ㌥ 湡⁤潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+      "menuId": 25119,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        24,
+        22,
+        24
+      ],
+      "paramTitles": [
+        "X睡爠捥慴杮敬愠⁴┨ⰰㄥ 楷桴猠穩⁥┨ⰲ㌥ 湡⁤潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+        "Y睡爠捥慴杮敬愠⁴┨ⰰㄥ 楷桴猠穩⁥┨ⰲ㌥ 湡⁤潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+        "楗瑤h捥慴杮敬愠⁴┨ⰰㄥ 楷桴猠穩⁥┨ⰲ㌥ 湡⁤潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+        "效杩瑨挀慴杮敬愠⁴┨ⰰㄥ 楷桴猠穩⁥┨ⰲ㌥ 湡⁤潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+        "楆汬挠汯牯⠠ㄭ›潎敮)ㄥ 楷桴猠穩⁥┨ⰲ㌥ 湡⁤潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+        "畏汴湩⁥桴捩湫獥s敮)ㄥ 楷桴猠穩⁥┨ⰲ㌥ 湡⁤潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6",
+        "畏汴湩⁥潣潬r獥s敮)ㄥ 楷桴猠穩⁥┨ⰲ㌥ 湡⁤潣潬⁲㐥‬畯汴湩⁥㔥挠汯牯┠6"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 120,
+      "menu": "With fill data > Draw rectangle > Via position and size",
+      "text": "牄睡爠捥慴杮敬愠⁴┨ⰰㄥ 楷桴猠穩⁥┨ⰲ㌥ 湡⁤楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        45,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "X睡爠捥慴杮敬愠⁴┨ⰰㄥ 楷桴猠穩⁥┨ⰲ㌥ 湡⁤楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+        "Y睡爠捥慴杮敬愠⁴┨ⰰㄥ 楷桴猠穩⁥┨ⰲ㌥ 湡⁤楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+        "楗瑤h捥慴杮敬愠⁴┨ⰰㄥ 楷桴猠穩⁥┨ⰲ㌥ 湡⁤楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+        "效杩瑨挀慴杮敬愠⁴┨ⰰㄥ 楷桴猠穩⁥┨ⰲ㌥ 湡⁤楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+        "楆汬搠瑡⁡䔨灭祴›潎敮) 楷桴猠穩⁥┨ⰲ㌥ 湡⁤楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+        "畏汴湩⁥桴捩湫獥s潎敮) 楷桴猠穩⁥┨ⰲ㌥ 湡⁤楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥",
+        "畏汴湩⁥慤慴⠠浅瑰㩹丠湯⥥椀桴猠穩⁥┨ⰲ㌥ 湡⁤楦汬搠瑡⁡㐥‬畯汴湩⁥㔥搠瑡⁡㘥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 121,
+      "menu": "Images > Copy image > From Surface object",
+      "text": "潃祰椠慭敧┠‰牦浯椠慭敧┠′景匠牵慦散┠1",
+      "menuId": 25121,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        1,
+        22
+      ],
+      "paramTitles": [
+        "敄瑳湩瑡潩⁮浩条e椠慭敧┠′景匠牵慦散┠1",
+        "畓晲捡⁥扯敪瑣最e椠慭敧┠′景匠牵慦散┠1",
+        "潓牵散椠慭敧琀最e椠慭敧┠′景匠牵慦散┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 122,
+      "menu": "Blit > Onto the surface > External > Active object > At its position",
+      "text": "求瑩䄠瑣癩⁥扯敪瑣┠‰瑡椠獴瀠獯瑩潩n",
+      "menuId": 25122,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "扏敪瑣琀癩⁥扯敪瑣┠‰瑡椠獴瀠獯瑩潩n"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 123,
+      "menu": "Adjust > Perform operation > With value for...",
+      "text": "敐晲牯⁭〥眠瑩⁨ㄥ映牯挠慨湮汥⁳㈥",
+      "menuId": 25123,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "灏牥瑡牯⠠‫ⴠ†‪⼠†⨪†┥†‼㸠†…簠†⁞㰠‼㸠‾㴠)",
+        "灏牥湡d⠠‫ⴠ†‪⼠†⨪†┥†‼㸠†…簠†⁞㰠‼㸠‾㴠)",
+        "桃湡敮獬‬摡⁤潴敧桴牥⠠Ⱳ朠‬Ɫ愠)…簠†⁞㰠‼㸠‾㴠)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 124,
+      "menu": "Blit > From the surface > From the alpha channel > Alpha channel",
+      "text": "求瑩愠灬慨挠慨湮汥漠瑮⁯浩条⁥〥猧愠灬慨挠慨湮汥",
+      "menuId": 25124,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慔杲瑥椠慭敧愀湮汥漠瑮⁯浩条⁥〥猧愠灬慨挠慨湮汥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 125,
+      "menu": "Blit > Onto the surface > Onto the alpha channel > Alpha channel",
+      "text": "求瑩椠慭敧┠✰⁳污桰⁡档湡敮⁬湯潴琠敨愠灬慨挠慨湮汥",
+      "menuId": 25125,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潓牵散椠慭敧✀⁳污桰⁡档湡敮⁬湯潴琠敨愠灬慨挠慨湮汥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 126,
+      "menu": "Blit > Effect > Set by name",
+      "text": "敓⁴汢瑩攠晦捥⁴潴┠0",
+      "menuId": 25126,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "求瑩攠晦捥⁴匨浥⵩牴湡灳牡湥祣‬湉敶瑲‬佘ⱒ䄠䑎‬剏‬摁Ɽ䴠湯Ɐ匠扵‬楔瑮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 127,
+      "menu": "Alpha channel > Remove",
+      "text": "敒潭敶愠灬慨挠慨湮汥",
+      "menuId": 25127,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 128,
+      "menu": "Input / Output > Write bytes",
+      "text": "牗瑩⁥祢整⁳瑡┠‰楷桴猠穩⁥㈥椠瑮⁯桴⁥畢晦牥愠⁴ㄥ",
+      "menuId": 25128,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潓牵散愠摤敲獳─‰楷桴猠穩⁥㈥椠瑮⁯桴⁥畢晦牥愠⁴ㄥ",
+        "畂晦牥漠晦敳t─‰楷桴猠穩⁥㈥椠瑮⁯桴⁥畢晦牥愠⁴ㄥ",
+        "楓敺椠⁮祢整s─‰楷桴猠穩⁥㈥椠瑮⁯桴⁥畢晦牥愠⁴ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 129,
+      "menu": "Images > References > Add reference",
+      "text": "摁⁤浩条⁥敲敦敲据⁥潦⁲〥",
+      "menuId": 25129,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楂慮祲猠牵慦散愠摤敲獳 〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 130,
+      "menu": "Images > References > Insert reference",
+      "text": "湉敳瑲椠慭敧爠晥牥湥散映牯┠‱瑡┠0",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "浉条e椠慭敧爠晥牥湥散映牯┠‱瑡┠0",
+        "楂慮祲猠牵慦散愠摤敲獳昀牯┠‱瑡┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 131,
+      "menu": "Images > Copy image > From binary surface",
+      "text": "潃祰椠慭敧┠‰牦浯戠湩牡⁹畳晲捡⁥ㄥ",
+      "menuId": 25131,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "敄瑳湩瑡潩⁮浩条e戠湩牡⁹畳晲捡⁥ㄥ",
+        "楂慮祲猠牵慦散愠摤敲獳爀⁹畳晲捡⁥ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 132,
+      "menu": "Images > References > Set binary address",
+      "text": "敓⁴楢慮祲愠摤敲獳漠⁦浩条⁥〥琠⁯ㄥ",
+      "menuId": 25132,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "浉条e慮祲愠摤敲獳漠⁦浩条⁥〥琠⁯ㄥ",
+        "楂慮祲猠牵慦散愠摤敲獳洀条⁥〥琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 133,
+      "menu": "Images > References > Set reference state",
+      "text": "敓⁴敲敦敲据⁥瑳瑡⁥景椠慭敧┠‰潴┠1",
+      "menuId": 25133,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "浉条e敦敲据⁥瑳瑡⁥景椠慭敧┠‰潴┠1",
+        "瑓瑡⁥〨›潌慣⁬浩条ⱥㄠ›敒敦敲据⥥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 134,
+      "menu": "General settings > Set keep points after drawing",
+      "text": "敓⁴敫灥瀠楯瑮⁳晡整⁲牤睡湩⁧潴┠0",
+      "menuId": 25134,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敋灥瀠楯瑮⁳晡整⁲牤睡湩㽧⠠㨰丠Ɐㄠ›教⥳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 135,
+      "menu": "General settings > Set threaded file input/output",
+      "text": "敓⁴桴敲摡摥映汩⁥湩異⽴畯灴瑵琠⁯〥",
+      "menuId": 25135,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "桔敲摡摥映汩⁥湩異⽴畯灴瑵‿〨›潎‬㨱夠獥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 136,
+      "menu": "Blit > Effect > Set callback (overrides effect)",
+      "text": "敓⁴汢瑩挠污扬捡⁫潴┠0",
+      "menuId": 25136,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "求瑩挠污扬捡⁫伨敶牲摩獥椠歮攠晦捥ⱴ攠灭祴›潎敮)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 137,
+      "menu": "Callback > Loop through area",
+      "text": "潌灯琠牨畯桧⠠〥┬ⰱ㈥┬⤳眠瑩⁨慣汬慢正┠‵湡⁤汦条⁳㐥",
+      "menuId": 25137,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        45
+      ],
+      "paramTitles": [
+        "ㅘ瀀琠牨畯桧⠠〥┬ⰱ㈥┬⤳眠瑩⁨慣汬慢正┠‵湡⁤汦条⁳㐥",
+        "ㅙ瀀琠牨畯桧⠠〥┬ⰱ㈥┬⤳眠瑩⁨慣汬慢正┠‵湡⁤汦条⁳㐥",
+        "㉘瀀琠牨畯桧⠠〥┬ⰱ㈥┬⤳眠瑩⁨慣汬慢正┠‵湡⁤汦条⁳㐥",
+        "㉙瀀琠牨畯桧⠠〥┬ⰱ㈥┬⤳眠瑩⁨慣汬慢正┠‵湡⁤汦条⁳㐥",
+        "汆条ⱳ愠摤琠杯瑥敨⁲ㄨ›敇⁴潣潬Ⱳ㈠›敓⁴潣潬Ⱳ㐠›瑓牯⁥潰楳楴湯‬㨸䜠瑥愠灬慨‬㘱›敓⁴污桰⥡",
+        "慃汬慢正搀琠杯瑥敨⁲ㄨ›敇⁴潣潬Ⱳ㈠›敓⁴潣潬Ⱳ㐠›瑓牯⁥潰楳楴湯‬㨸䜠瑥愠灬慨‬㘱›敓⁴污桰⥡"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 138,
+      "menu": "Callback > Return alpha",
+      "text": "敒畴湲愠灬慨┠‰潴挠污扬捡k",
+      "menuId": 25138,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "汁桰⁡〨㈭㔵)‰潴挠污扬捡k"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 139,
+      "menu": "Display settings > Set scale",
+      "text": "敓⁴捳污⁥潴┠ⰰ焠慵楬祴㴠┠1",
+      "menuId": 25139,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "捓污⁥慶畬⁥ㄨ〮›潎浲污搠浩湥楳湯)",
+        "畑污瑩⁹〨›灓敥Ɽㄠ›畑污瑩⥹椀湯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 140,
+      "menu": "Display settings > Set X scale",
+      "text": "敓⁴⁘捳污⁥潴┠ⰰ焠慵楬祴㴠┠1",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "捓污⁥慶畬⁥ㄨ〮›潎浲污搠浩湥楳湯)",
+        "畑污瑩⁹〨›灓敥Ɽㄠ›畑污瑩⥹椀湯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 141,
+      "menu": "Display settings > Set Y scale",
+      "text": "敓⁴⁙捳污⁥潴┠ⰰ焠慵楬祴㴠┠1",
+      "menuId": 25141,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "捓污⁥慶畬⁥ㄨ〮›潎浲污搠浩湥楳湯)",
+        "畑污瑩⁹〨›灓敥Ɽㄠ›畑污瑩⥹椀湯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 142,
+      "menu": "Polygons > Add point",
+      "text": "摁⁤潰湩⁴┨ⰰㄥ)",
+      "menuId": 25142,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "X⁤潰湩⁴┨ⰰㄥ)",
+        "Y⁤潰湩⁴┨ⰰㄥ)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 143,
+      "menu": "Settings > Set hot spot",
+      "text": "敓⁴潨⁴灳瑯琠⁯┨ⰰㄥ 硰",
+      "menuId": 25143,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潈⁴灳瑯堠琀琠⁯┨ⰰㄥ 硰",
+        "潈⁴灳瑯夠琀琠⁯┨ⰰㄥ 硰"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 144,
+      "menu": "Settings > Set hot spot (percent)",
+      "text": "敓⁴潨⁴灳瑯琠⁯┨ⰰㄥ 数捲湥t",
+      "menuId": 25144,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潈⁴灳瑯堠⠠敐捲湥⥴㄀ 数捲湥t",
+        "潈⁴灳瑯夠⠠敐捲湥⥴㄀ 数捲湥t"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 145,
+      "menu": "Fill data > Callback > Create",
+      "text": "牃慥整挠污扬捡⁫楦汬搠瑡⁡〥",
+      "menuId": 25145,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "楆汬搠瑡⁡慮敭 楦汬搠瑡⁡〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 146,
+      "menu": "Blit > Source > Set all",
+      "text": "敓⁴汢瑩猠畯捲ⱥ瀠獯瑩潩⁮‽┨ⰰㄥⰩ搠浩湥楳湯⁳‽┨ⰲ㌥Ⱙ爠来潩⁮汦条㴠┠4",
+      "menuId": 25146,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潓牵散堠猀畯捲ⱥ瀠獯瑩潩⁮‽┨ⰰㄥⰩ搠浩湥楳湯⁳‽┨ⰲ㌥Ⱙ爠来潩⁮汦条㴠┠4",
+        "潓牵散夠猀畯捲ⱥ瀠獯瑩潩⁮‽┨ⰰㄥⰩ搠浩湥楳湯⁳‽┨ⰲ㌥Ⱙ爠来潩⁮汦条㴠┠4",
+        "潓牵散眠摩桴挀ⱥ瀠獯瑩潩⁮‽┨ⰰㄥⰩ搠浩湥楳湯⁳‽┨ⰲ㌥Ⱙ爠来潩⁮汦条㴠┠4",
+        "潓牵散栠楥桧tⱥ瀠獯瑩潩⁮‽┨ⰰㄥⰩ搠浩湥楳湯⁳‽┨ⰲ㌥Ⱙ爠来潩⁮汦条㴠┠4",
+        "獕⁥灳捥晩敩⁤潳牵散爠来潩㽮⠠㨰丠Ɐㄠ›教⥳渀⁳‽┨ⰲ㌥Ⱙ爠来潩⁮汦条㴠┠4"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 147,
+      "menu": "Blit > Angle > Set angle",
+      "text": "敓⁴汢瑩愠杮敬琠⁯〥",
+      "menuId": 25147,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湁汧⁥䐨来敲獥)⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 148,
+      "menu": "Blit > Hot spot > Set pixels",
+      "text": "敓⁴汢瑩栠瑯猠潰⁴潴⠠〥┬⤱瀠x",
+      "menuId": 25148,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潈⁴灳瑯堠琀猠潰⁴潴⠠〥┬⤱瀠x",
+        "潈⁴灳瑯夠琀猠潰⁴潴⠠〥┬⤱瀠x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 150,
+      "menu": "Blit > Hot spot > Set percent",
+      "text": "敓⁴汢瑩栠瑯猠潰⁴潴⠠〥┬⤱瀠牥散瑮",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潈⁴灳瑯堠⠠敐捲湥⥴⠀〥┬⤱瀠牥散瑮",
+        "潈⁴灳瑯夠⠠敐捲湥⥴⠀〥┬⤱瀠牥散瑮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 151,
+      "menu": "Blit > Angle > Set rotation quality",
+      "text": "敓⁴汢瑩爠瑯瑡潩⁮畱污瑩⁹潴┠0",
+      "menuId": 25151,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潒慴楴湯焠慵楬祴⠠㨰丠湯ⱥㄠ›楌敮牡爠獥浡汰湩⥧"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 152,
+      "menu": "Display settings > Set angle",
+      "text": "敓⁴湡汧⁥潴┠ⰰ焠慵楬祴㴠┠1",
+      "menuId": 25152,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湁汧⁥䐨来敲獥)焠慵楬祴㴠┠1",
+        "畑污瑩⁹〨›灓敥Ɽㄠ›畑污瑩⥹"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 153,
+      "menu": "Input / Output > Load from file",
+      "text": "潌摡椠慭敧映潲⁭楦敬┠0",
+      "menuId": 25153,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        63
+      ],
+      "paramTitles": [
+        "楆敬椀慭敧映潲⁭楦敬┠0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 154,
+      "menu": "Settings > Convert to HWA texture",
+      "text": "潃癮牥⁴潴䠠䅗琠硥畴敲",
+      "menuId": 25154,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 155,
+      "menu": "Settings > Convert to HWA target",
+      "text": "潃癮牥⁴潴䠠䅗琠牡敧t",
+      "menuId": 25155,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 156,
+      "menu": "Settings > Convert to bitmap",
+      "text": "潃癮牥⁴潴戠瑩慭p",
+      "menuId": 25156,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 157,
+      "menu": "Blit > Effect > Tint... > Set tint (HWA only)",
+      "text": "敓⁴汢瑩琠湩⁴潴⠠〥‬ㄥ)",
+      "menuId": 25157,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        24,
+        22
+      ],
+      "paramTitles": [
+        "潃潬⁲畭瑬灩楬牥⠀〥‬ㄥ)",
+        "汁桰⁡畭瑬灩楬牥⠠ⴰ㔲⤵"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Image count",
+      "text": "浉条䍥畯瑮(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Editing image > Index",
+      "text": "摅瑩浉条⡥",
+      "menuId": 27001,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Current image > Index",
+      "text": "畃牲湥䥴慭敧(",
+      "menuId": 27002,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Editing image > RGB at",
+      "text": "䝒䅂⡴",
+      "menuId": 27003,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "X䅂⡴",
+        "Y䅂⡴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Editing image > Width",
+      "text": "楗瑤⡨",
+      "menuId": 27004,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Editing image > Height",
+      "text": "效杩瑨(",
+      "menuId": 27005,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Last added image",
+      "text": "慌瑳浉条⡥",
+      "menuId": 27006,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Input / Output > Overlay address",
+      "text": "硅潰瑲摥癏䅬摤⡲",
+      "menuId": 27007,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Current image > Width",
+      "text": "畃牲湥坴摩桴(",
+      "menuId": 27008,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Current image > Height",
+      "text": "畃牲湥䡴楥桧⡴",
+      "menuId": 27009,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Editing image > Red at",
+      "text": "敒䅤⡴",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "X䅤⡴",
+        "Y䅤⡴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Editing image > Green at",
+      "text": "片敥䅮⡴",
+      "menuId": 27011,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "X敥䅮⡴",
+        "Y敥䅮⡴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Editing image > Blue at",
+      "text": "求敵瑁(",
+      "menuId": 27012,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "X敵瑁(",
+        "Y敵瑁("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Editing image > Alpha at",
+      "text": "汁桰䅡⡴",
+      "menuId": 27013,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "X桰䅡⡴",
+        "Y桰䅡⡴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Any image > RGB at",
+      "text": "浉剧䉇瑁(",
+      "menuId": 27014,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "浉条e瑁(",
+        "X条e瑁(",
+        "Y条e瑁("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Any image > Width",
+      "text": "浉坧摩桴(",
+      "menuId": 27015,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "浉条e桴("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Any image > Height",
+      "text": "浉䡧楥桧⡴",
+      "menuId": 27016,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "浉条e桧⡴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Callback > X position",
+      "text": "慃汬慢正⡘",
+      "menuId": 27017,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Callback > Y position",
+      "text": "慃汬慢正⡙",
+      "menuId": 27018,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Tools > Color from RGB",
+      "text": "䝒⡂",
+      "menuId": 27023,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "R⡂",
+        "G⡂",
+        "B⡂"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Tools > Blend two colors",
+      "text": "求湥⡤",
+      "menuId": 27024,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潃潬⁲A",
+        "潃潬⁲B",
+        "求湥⁤〨㈭㔵)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Tools > Invert color",
+      "text": "湉敶瑲(",
+      "menuId": 27025,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "潃潬r("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Tools > Multiply two colors",
+      "text": "畍瑬灩祬(",
+      "menuId": 27026,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潃潬⁲A(",
+        "潃潬⁲B("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Editing image > Transparent color",
+      "text": "牔湡灳潃潬⡲",
+      "menuId": 27027,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Input / Output > Files > Filter count",
+      "text": "楆瑬牥潃湵⡴",
+      "menuId": 27028,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Input / Output > Files > Filter name",
+      "text": "楆瑬牥⠤",
+      "menuId": 27029,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Input / Output > Files > Filter extension name",
+      "text": "楆瑬牥硅⑴(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楆瑬牥椠摮硥",
+        "硅整獮潩⁮湩敤x"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Input / Output > Files > Filter extension count",
+      "text": "楆瑬牥硅䍴畯瑮(",
+      "menuId": 27031,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x硅䍴畯瑮("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "Input / Output > Files > Filter can save",
+      "text": "楆瑬牥慃卮癡⡥",
+      "menuId": 27032,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x慃卮癡⡥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "Input / Output > Buffer address",
+      "text": "畂晦牥摁牤(",
+      "menuId": 27033,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "Input / Output > Buffer pitch",
+      "text": "畂晦牥楐捴⡨",
+      "menuId": 27034,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "Input / Output > Files > Filter extension list",
+      "text": "楆瑬牥汁䕬瑸⑳(",
+      "menuId": 27035,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楆瑬牥椠摮硥␀("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "Flood fill > Area X1",
+      "text": "汆潯塤⠱",
+      "menuId": 27036,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "Flood fill > Area Y1",
+      "text": "汆潯奤⠱",
+      "menuId": 27037,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "Flood fill > Area X2",
+      "text": "汆潯塤⠲",
+      "menuId": 27038,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "Flood fill > Area Y2",
+      "text": "汆潯奤⠲",
+      "menuId": 27039,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "Fill data > Fill data from index",
+      "text": "楆汬慄慴⠤",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "湉敤x慴⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "Fill data > Fill data count",
+      "text": "楆汬慄慴潃湵⡴",
+      "menuId": 27041,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "Fill data > Color",
+      "text": "楆汬慄慴潃潬⡲",
+      "menuId": 27042,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "楆汬搠瑡a潬⡲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "Fill data > Linear gradient > Color A",
+      "text": "楆汬慄慴潃潬䅲(",
+      "menuId": 27043,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "楆汬搠瑡a潬䅲("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "Fill data > Linear gradient > Color B",
+      "text": "楆汬慄慴潃潬䉲(",
+      "menuId": 27044,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "楆汬搠瑡a潬䉲("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "Fill data > Tiled image",
+      "text": "楆汬慄慴浉条⡥",
+      "menuId": 27045,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "楆汬搠瑡a条⡥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "Any image > Red at",
+      "text": "浉剧摥瑁(",
+      "menuId": 27046,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "浉条e瑁(",
+        "X条e瑁(",
+        "Y条e瑁("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "Any image > Green at",
+      "text": "浉䝧敲湥瑁(",
+      "menuId": 27047,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "浉条e湥瑁(",
+        "X条e湥瑁(",
+        "Y条e湥瑁("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "Any image > Blue at",
+      "text": "浉䉧畬䅥⡴",
+      "menuId": 27048,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "浉条e䅥⡴",
+        "X条e䅥⡴",
+        "Y条e䅥⡴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "Any image > Alpha at",
+      "text": "浉䅧灬慨瑁(",
+      "menuId": 27049,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1,
+        1
+      ],
+      "paramTitles": [
+        "浉条e慨瑁(",
+        "X条e慨瑁(",
+        "Y条e慨瑁("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 50,
+      "menu": "Tools > Color from HEX",
+      "text": "䕈㉘䝒⡂",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [
+        "䕈⁘瑳楲杮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "Tools > Random color",
+      "text": "慒摮浯潃潬⡲",
+      "menuId": 27051,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 52,
+      "menu": "Editing image > Binary address",
+      "text": "楂慮祲摁牤(",
+      "menuId": 27052,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 53,
+      "menu": "Any image > Binary address",
+      "text": "浉䉧湩牡䅹摤⡲",
+      "menuId": 27053,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "浉条e牡䅹摤⡲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 54,
+      "menu": "Callback > Source color",
+      "text": "慃汬慢正牓䍣汯(",
+      "menuId": 27054,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 55,
+      "menu": "Callback > Destination color",
+      "text": "慃汬慢正敄瑳潃⡬",
+      "menuId": 27055,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 56,
+      "menu": "Binary surfaces > Object",
+      "text": "扏䉪湩牡䅹摤⡲",
+      "menuId": 27056,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "楆數⁤慶畬e⡲",
+        "慐慲敭整re⡲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 57,
+      "menu": "Binary surfaces > Background",
+      "text": "慂正牧畯摮楂慮祲摁牤(",
+      "menuId": 27057,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 58,
+      "menu": "Callback > Source alpha",
+      "text": "慃汬慢正牓䅣灬慨(",
+      "menuId": 27058,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 59,
+      "menu": "Window handles > Frame window",
+      "text": "牆浡坥湩潤䡷湡汤⡥",
+      "menuId": 27059,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 60,
+      "menu": "Any image > Hot spot X",
+      "text": "浉䡧瑯⡘",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "浉条e⡘"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 61,
+      "menu": "Any image > Hot spot Y",
+      "text": "浉䡧瑯⡙",
+      "menuId": 27061,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "浉条e⡙"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 62,
+      "menu": "Editing image > Hot spot X",
+      "text": "潈塴(",
+      "menuId": 27062,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 63,
+      "menu": "Editing image > Hot spot Y",
+      "text": "潈奴(",
+      "menuId": 27063,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 64,
+      "menu": "Any image > Transparent color",
+      "text": "牔湡灳潃潬⡲",
+      "menuId": 27064,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 65,
+      "menu": "Callback > Destination alpha",
+      "text": "慃汬慢正敄瑳汁桰⡡",
+      "menuId": 27065,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 66,
+      "menu": "Tools > Add two colors",
+      "text": "摁⡤",
+      "menuId": 27066,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潃潬⁲A",
+        "潃潬⁲B"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 67,
+      "menu": "Tools > Subtract two colors",
+      "text": "畓瑢慲瑣(",
+      "menuId": 27067,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [
+        "潃潬⁲A(",
+        "潃潬⁲B("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 68,
+      "menu": "Binary surfaces > Transformed Surface",
+      "text": "牔湡晳牯敭卤牵慦散摁牤(",
+      "menuId": 27068,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 69,
+      "menu": "Scale / Angle > X scale",
+      "text": "単慣敬(",
+      "menuId": 27069,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 70,
+      "menu": "Scale / Angle > Y scale",
+      "text": "卙慣敬(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 71,
+      "menu": "Scale / Angle > Angle",
+      "text": "湁汧⡥",
+      "menuId": 27071,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

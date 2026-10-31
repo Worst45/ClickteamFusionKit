@@ -1,0 +1,1078 @@
+{
+  "file": "ParticleSpray.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Is a Sprayer active?",
+      "text": "漥匠牰祡牥 〥⤠椠⁳捡楴敶",
+      "menuId": 26000,
+      "resText": "%o Sprayer( %0 ) is active",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉 〥⤠椠⁳捡楴敶"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Is a Magnet active?",
+      "text": "漥䴠条敮⁴〥椠⁳捡楴敶",
+      "menuId": 26010,
+      "resText": "%o Magnet %0 is active",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "慍湧瑥䤠D〥椠⁳捡楴敶"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "On Particle Creation",
+      "text": "漥传⁮慐瑲捩敬挠敲瑡潩⁮景匠牰祡牥 〥⤠",
+      "menuId": 26020,
+      "resText": "%o On Particle creation of Sprayer( %0 )",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉挀敬挠敲瑡潩⁮景匠牰祡牥 〥⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Sprayer Actions > Start Sprayer",
+      "text": "漥匠慴瑲倠牡楴汣⁥灓慲⁹湩猠潬⁴〥",
+      "menuId": 25000,
+      "resText": "%o Start Particle Spray in slot %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉爀楴汣⁥灓慲⁹湩猠潬⁴〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Sprayer Settings > Set Spray Amount",
+      "text": "漥匠瑥瀠牡楴汣⁥灳慲⁹浡畯瑮琠⁯ㄥ映牯匠牰祡牥 〥⤠",
+      "menuId": 25010,
+      "resText": "%o Set particle spray amount to %1 for Sprayer( %0 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉椀汣⁥灳慲⁹浡畯瑮琠⁯ㄥ映牯匠牰祡牥 〥⤠",
+        "流畯瑮⠠慰瑲捩敬⽳牦浡⥥甀瑮琠⁯ㄥ映牯匠牰祡牥 〥⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Sprayer Settings > Particle Values > Set Particle Lifetime",
+      "text": "漥匠瑥瀠牡楴汣⁥楬敦楴敭映潲⁭ㄥ琠⁯㈥映牯匠牰祡牥 〥⤠",
+      "menuId": 25020,
+      "resText": "%o Set particle lifetime from %1 to %2 for Sprayer( %0 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉椀汣⁥楬敦楴敭映潲⁭ㄥ琠⁯㈥映牯匠牰祡牥 〥⤠",
+        "楍⁮楌敦楴敭⠠湩映慲敭⥳昀潲⁭ㄥ琠⁯㈥映牯匠牰祡牥 〥⤠",
+        "慍⁸楌敦楴敭⠠湩映慲敭⥳昀潲⁭ㄥ琠⁯㈥映牯匠牰祡牥 〥⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Sprayer Settings > Set Gravity",
+      "text": "漥匠瑥朠慲楶祴琠⁯ㄥ映牯匠牰祡牥 〥⤠",
+      "menuId": 25030,
+      "resText": "%o Set gravity to %1 for Sprayer( %0 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉椀祴琠⁯ㄥ映牯匠牰祡牥 〥⤠",
+        "片癡瑩y䑉椀祴琠⁯ㄥ映牯匠牰祡牥 〥⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Sprayer Settings > Particle Values > Set Particle Deceleration",
+      "text": "漥匠瑥瀠牡楴汣⁥敤散敬慲楴湯映潲⁭ㄥⴠ┠′潦⁲灓慲敹⡲┠‰)",
+      "menuId": 25040,
+      "resText": "%o Set particle deceleration from %1 - %2 for Sprayer( %0 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉椀汣⁥敤散敬慲楴湯映潲⁭ㄥⴠ┠′潦⁲灓慲敹⡲┠‰)",
+        "楍楮畭⁭敄散敬慲楴湯攀慲楴湯映潲⁭ㄥⴠ┠′潦⁲灓慲敹⡲┠‰)",
+        "慍楸畭⁭敄散敬慲楴湯攀慲楴湯映潲⁭ㄥⴠ┠′潦⁲灓慲敹⡲┠‰)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Sprayer Settings > Particle Values > Set Particle start Speed",
+      "text": "漥匠瑥瀠牡楴汣⁥瑳牡⁴灳敥⁤潴┠‱‭㈥映牯匠牰祡牥 〥⤠",
+      "menuId": 25050,
+      "resText": "%o Set particle start speed to %1 - %2 for Sprayer( %0 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉椀汣⁥瑳牡⁴灳敥⁤潴┠‱‭㈥映牯匠牰祡牥 〥⤠",
+        "楍楮畭⁭瑳牡⁴灳敥d⁴灳敥⁤潴┠‱‭㈥映牯匠牰祡牥 〥⤠",
+        "慍楸畭⁭瑳牡⁴灳敥d⁴灳敥⁤潴┠‱‭㈥映牯匠牰祡牥 〥⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Sprayer Settings > Set Spray Angle (0-360)",
+      "text": "漥匠瑥匠牰祡愠杮敬琠⁯ㄥⴠ┠′潦⁲灓慲敹⡲┠‰)",
+      "menuId": 25060,
+      "resText": "%o Set Spray angle to %1 - %2 for Sprayer( %0 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉礀愠杮敬琠⁯ㄥⴠ┠′潦⁲灓慲敹⡲┠‰)",
+        "瑓牡⁴湁汧⁥椨⁮敤牧敥⥳ⴀ┠′潦⁲灓慲敹⡲┠‰)",
+        "湅⁤湁汧⁥椨⁮敤牧敥⥳⤀ⴀ┠′潦⁲灓慲敹⡲┠‰)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Sprayer Actions > Stop Sprayer",
+      "text": "漥匠潴⁰灓慲敹⡲┠‰)",
+      "menuId": 25070,
+      "resText": "%o Stop Sprayer( %0 )",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉愀敹⡲┠‰)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Magnet Settings > Set Magnet X-position",
+      "text": "漥匠瑥堠瀭獯瑩潩⁮景䴠条敮⡴┠‰ 潴┠1",
+      "menuId": 25080,
+      "resText": "%o Set X-position of Magnet( %0 ) to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慍湧瑥䤠D獯瑩潩⁮景䴠条敮⡴┠‰ 潴┠1",
+        "ⵘ潰楳楴湯猀瑩潩⁮景䴠条敮⡴┠‰ 潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Magnet Settings > Set Magnet Y-position",
+      "text": "漥匠瑥夠瀭獯瑩潩⁮景䴠条敮⡴┠‰ 潴┠1",
+      "menuId": 25090,
+      "resText": "%o Set Y-position of Magnet( %0 ) to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慍湧瑥䤠D獯瑩潩⁮景䴠条敮⡴┠‰ 潴┠1",
+        "ⵙ潰楳楴湯猀瑩潩⁮景䴠条敮⡴┠‰ 潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Magnet Settings > Set Magnet Force",
+      "text": "漥匠瑥映牯散漠⁦慍湧瑥 〥⤠琠⁯ㄥ",
+      "menuId": 25100,
+      "resText": "%o Set force of Magnet( %0 ) to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慍湧瑥䤠D散漠⁦慍湧瑥 〥⤠琠⁯ㄥ",
+        "潆捲e䤠D散漠⁦慍湧瑥 〥⤠琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Magnet Settings > Enable/Disable Magnet",
+      "text": "漥匠瑥愠瑣癩瑩⁹景䴠条敮⡴┠‰ 潴┠1",
+      "menuId": 25110,
+      "resText": "%o Set activity of Magnet( %0 ) to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慍湧瑥䤠D癩瑩⁹景䴠条敮⡴┠‰ 潴┠1",
+        "㴱湏〠伽晦瘀瑩⁹景䴠条敮⡴┠‰ 潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Sprayer Settings > Set Wind Force",
+      "text": "漥匠瑥圠湩⁤潆捲⁥潴┠‱潦⁲灓慲敹⡲┠‰)",
+      "menuId": 25120,
+      "resText": "%o Set Wind Force to %1 for Sprayer( %0 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉 潆捲⁥潴┠‱潦⁲灓慲敹⡲┠‰)",
+        "楗摮䘠牯散 潆捲⁥潴┠‱潦⁲灓慲敹⡲┠‰)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Add object as particle",
+      "text": "漥䄠摤┠‱獡愠瀠牡楴汣⁥潦⁲灓慲敹⡲┠‰)",
+      "menuId": 25130,
+      "resText": "%o Add %1 as a particle for Sprayer( %0 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        1
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉猀愠瀠牡楴汣⁥潦⁲灓慲敹⡲┠‰)",
+        "楐正瀠牡楴汣⁥扯敪瑣氀⁥潦⁲灓慲敹⡲┠‰)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Sprayer Settings > Set Sprayer X position",
+      "text": "漥匠瑥堠瀭獯瑩潩⁮景匠牰祡牥 〥⤠琠⁯ㄥ",
+      "menuId": 25140,
+      "resText": "%o Set X-position of Sprayer( %0 ) to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉猀瑩潩⁮景匠牰祡牥 〥⤠琠⁯ㄥ",
+        "ⵘ潰楳楴湯猀瑩潩⁮景匠牰祡牥 〥⤠琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Sprayer Settings > Set Sprayer Y position",
+      "text": "漥匠瑥夠瀭獯瑩潩⁮景匠牰祡牥 〥⤠琠⁯ㄥ",
+      "menuId": 25150,
+      "resText": "%o Set Y-position of Sprayer( %0 ) to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉猀瑩潩⁮景匠牰祡牥 〥⤠琠⁯ㄥ",
+        "ⵙ潰楳楴湯猀瑩潩⁮景匠牰祡牥 〥⤠琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Sprayer Settings > Set Spray Time",
+      "text": "漥匠瑥匠牰祡楴敭琠⁯ㄥ映牯匠牰祡牥 〥⤠",
+      "menuId": 25160,
+      "resText": "%o Set Spraytime to %1 for Sprayer( %0 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉礀楴敭琠⁯ㄥ映牯匠牰祡牥 〥⤠",
+        "灓慲瑹浩⁥椨⁮牦浡獥)映牯匠牰祡牥 〥⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Sprayer Settings > Set Transparency Coefficient",
+      "text": "漥匠瑥吠慲獮慰敲据⁹潃晥楦楣湥⁴潴┠‱潦⁲灓慲敹⡲┠‰)",
+      "menuId": 25170,
+      "resText": "%o Set Transparency Coefficient to %1 for Sprayer( %0 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉猀慰敲据⁹潃晥楦楣湥⁴潴┠‱潦⁲灓慲敹⡲┠‰)",
+        "牔湡灳牡湥祣䌠敯晦捩敩瑮⠠㴱楬敮牡)‱潦⁲灓慲敹⡲┠‰)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Magnet Settings > Set Magnet Force Coefficient",
+      "text": "漥匠瑥䘠牯散䌠敯晦捩敩瑮漠⁦慍湧瑥 〥⤠琠⁯ㄥ",
+      "menuId": 25190,
+      "resText": "%o Set Force Coefficient of Magnet( %0 ) to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慍湧瑥䤠D散䌠敯晦捩敩瑮漠⁦慍湧瑥 〥⤠琠⁯ㄥ",
+        "潆捲⁥潃晥楦楣湥⁴ㄨ氽湩慥⥲愀湧瑥 〥⤠琠⁯ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Sprayer Settings > Creation Area > Rectangle Creation Area",
+      "text": "漥匠瑥删捥慴杮敬挠敲瑡潩⁮牡慥漠⁦慍湧瑥 〥⤠琠⁯ ㄥⰠ┠′)",
+      "menuId": 25200,
+      "resText": "%o Set Rectangle creation area of Magnet( %0 ) to ( %1 , %2 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉愀杮敬挠敲瑡潩⁮牡慥漠⁦慍湧瑥 〥⤠琠⁯ ㄥⰠ┠′)",
+        "楗瑤h⁲䑉愀杮敬挠敲瑡潩⁮牡慥漠⁦慍湧瑥 〥⤠琠⁯ ㄥⰠ┠′)",
+        "效杩瑨 䑉愀杮敬挠敲瑡潩⁮牡慥漠⁦慍湧瑥 〥⤠琠⁯ ㄥⰠ┠′)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Sprayer Settings > Creation Area > Circle Creation Area",
+      "text": "漥匠瑥䌠物汣⁥牣慥楴湯愠敲⁡景䴠条敮⡴┠‰ 楷桴爠摡畩⁳ㄥ",
+      "menuId": 25210,
+      "resText": "%o Set Circle creation area of Magnet( %0 ) with radius %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉氀⁥牣慥楴湯愠敲⁡景䴠条敮⡴┠‰ 楷桴爠摡畩⁳ㄥ",
+        "慒楤獵 䑉氀⁥牣慥楴湯愠敲⁡景䴠条敮⡴┠‰ 楷桴爠摡畩⁳ㄥ"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Sprayer Actions > Affect Particles > Movement > Affect all Particles with exact force",
+      "text": "漥䄠晦捥⁴慐瑲捩敬⁳景匠牰祡牥 〥⤠眠瑩⁨硥捡⁴潦捲⁥ ㄥⰠ┠′)",
+      "menuId": 25220,
+      "resText": "%o Affect Particles of Sprayer( %0 ) with exact force ( %1 , %2 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉愀瑲捩敬⁳景匠牰祡牥 〥⤠眠瑩⁨硥捡⁴潦捲⁥ ㄥⰠ┠′)",
+        "⁘潆捲e䑉愀瑲捩敬⁳景匠牰祡牥 〥⤠眠瑩⁨硥捡⁴潦捲⁥ ㄥⰠ┠′)",
+        "⁙潆捲e䑉愀瑲捩敬⁳景匠牰祡牥 〥⤠眠瑩⁨硥捡⁴潦捲⁥ ㄥⰠ┠′)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Sprayer Actions > Affect Particles > Movement > Affect all Particles with random force",
+      "text": "漥䄠晦捥⁴慐瑲捩敬⁳景匠牰祡牥 〥⤠眠瑩⁨慲摮浯映牯散⠠┠‱‭㈥Ⱐ┠″‭㐥⤠",
+      "menuId": 25230,
+      "resText": "%o Affect Particles of Sprayer( %0 ) with random force ( %1 - %2 , %3 - %4 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉愀瑲捩敬⁳景匠牰祡牥 〥⤠眠瑩⁨慲摮浯映牯散⠠┠‱‭㈥Ⱐ┠″‭㐥⤠",
+        "楍⹮堠䘠牯散琀捩敬⁳景匠牰祡牥 〥⤠眠瑩⁨慲摮浯映牯散⠠┠‱‭㈥Ⱐ┠″‭㐥⤠",
+        "慍⹸堠䘠牯散琀捩敬⁳景匠牰祡牥 〥⤠眠瑩⁨慲摮浯映牯散⠠┠‱‭㈥Ⱐ┠″‭㐥⤠",
+        "楍⹮夠䘠牯散琀捩敬⁳景匠牰祡牥 〥⤠眠瑩⁨慲摮浯映牯散⠠┠‱‭㈥Ⱐ┠″‭㐥⤠",
+        "慍⹸夠䘠牯散琀捩敬⁳景匠牰祡牥 〥⤠眠瑩⁨慲摮浯映牯散⠠┠‱‭㈥Ⱐ┠″‭㐥⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Sprayer Actions > Affect Particles > Movement > Affect specific Particle with force",
+      "text": "漥䄠晦捥⁴慐瑲捩敬┠‱景匠牰祡牥 〥⤠眠瑩⁨潦捲⁥ ㈥Ⱐ┠″)",
+      "menuId": 25240,
+      "resText": "%o Affect Particle %1 of Sprayer( %0 ) with force ( %2 , %3 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉愀瑲捩敬┠‱景匠牰祡牥 〥⤠眠瑩⁨潦捲⁥ ㈥Ⱐ┠″)",
+        "慐瑲捩敬䤠摮硥挀敬┠‱景匠牰祡牥 〥⤠眠瑩⁨潦捲⁥ ㈥Ⱐ┠″)",
+        "⁘潆捲e䤠摮硥挀敬┠‱景匠牰祡牥 〥⤠眠瑩⁨潦捲⁥ ㈥Ⱐ┠″)",
+        "⁙潆捲e䤠摮硥挀敬┠‱景匠牰祡牥 〥⤠眠瑩⁨潦捲⁥ ㈥Ⱐ┠″)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Sprayer Settings > Set Spray Direction (0-32)",
+      "text": "漥匠瑥匠牰祡搠物捥楴湯琠⁯ㄥⴠ┠′潦⁲灓慲敹⡲┠‰)",
+      "menuId": 25250,
+      "resText": "%o Set Spray direction to %1 - %2 for Sprayer( %0 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉礀搠物捥楴湯琠⁯ㄥⴠ┠′潦⁲灓慲敹⡲┠‰)",
+        "瑓牡⁴楄敲瑣潩⁮〨㌭⤲琀⁯ㄥⴠ┠′潦⁲灓慲敹⡲┠‰)",
+        "湅⁤楄敲瑣潩⁮〨㌭⤲⤀琀⁯ㄥⴠ┠′潦⁲灓慲敹⡲┠‰)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Sprayer Actions > Affect Particles > Angle > Change angle of Specific particle",
+      "text": "漥䌠慨杮⁥湁汧⁥景倠牡楴汣⁥ㄥ椠⁮灓慲敹⡲┠‰ 潴┠2",
+      "menuId": 25260,
+      "resText": "%o Change Angle of Particle %1 in Sprayer( %0 ) to %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉渀汧⁥景倠牡楴汣⁥ㄥ椠⁮灓慲敹⡲┠‰ 潴┠2",
+        "慐瑲捩敬䤠摮硥 景倠牡楴汣⁥ㄥ椠⁮灓慲敹⡲┠‰ 潴┠2",
+        "湁汧⁥椨⁮敤牧敥⥳倀牡楴汣⁥ㄥ椠⁮灓慲敹⡲┠‰ 潴┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Sprayer Actions > Affect Particles > Angle > Change angle of all particles",
+      "text": "漥䌠慨杮⁥湁汧⁥景愠汬瀠牡楴汣獥椠⁮灓慲敹⡲┠‰ 潴┠1",
+      "menuId": 25270,
+      "resText": "%o Change Angle of all particles in Sprayer( %0 ) to %1",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉渀汧⁥景愠汬瀠牡楴汣獥椠⁮灓慲敹⡲┠‰ 潴┠1",
+        "湁汧⁥椨⁮敤牧敥⥳愀汬瀠牡楴汣獥椠⁮灓慲敹⡲┠‰ 潴┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Sprayer Actions > Affect Particles > Angle > Randomize angle of all particles",
+      "text": "漥删湡潤業敺䄠杮敬漠⁦污⁬慰瑲捩敬⁳湩匠牰祡牥 〥⤠琠⁯敢睴敥⁮ ㄥⰠ┠′)",
+      "menuId": 25280,
+      "resText": "%o Randomize Angle of all particles in Sprayer( %0 ) to between ( %1 , %2 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉攀䄠杮敬漠⁦污⁬慰瑲捩敬⁳湩匠牰祡牥 〥⤠琠⁯敢睴敥⁮ ㄥⰠ┠′)",
+        "楍⹮䄠杮敬⠠湩搠来敲獥)⁬慰瑲捩敬⁳湩匠牰祡牥 〥⤠琠⁯敢睴敥⁮ ㄥⰠ┠′)",
+        "慍⹸䄠杮敬⠠湩搠来敲獥)⁬慰瑲捩敬⁳湩匠牰祡牥 〥⤠琠⁯敢睴敥⁮ ㄥⰠ┠′)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Sprayer Actions > Affect Particles > Destroy all particles",
+      "text": "漥䐠獥牴祯愠汬瀠牡楴汣獥椠⁮灓慲敹⡲┠‰)",
+      "menuId": 25290,
+      "resText": "%o Destroy all particles in Sprayer( %0 )",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉愀汬瀠牡楴汣獥椠⁮灓慲敹⡲┠‰)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Sprayer Actions > Affect Particles > Destroy specific particle",
+      "text": "漥䐠獥牴祯瀠牡楴汣⁥ㄥ椠⁮灓慲敹⡲┠‰)",
+      "menuId": 25300,
+      "resText": "%o Destroy particle %1 in Sprayer( %0 )",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "灓慲敹⁲䑉瀀牡楴汣⁥ㄥ椠⁮灓慲敹⡲┠‰)",
+        "慐瑲捩敬䤠摮硥椀汣⁥ㄥ椠⁮灓慲敹⡲┠‰)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Particle specific Values > Get X position of Particle",
+      "text": "慐瑲捩敬⡘",
+      "menuId": 27000,
+      "resText": "ParticleX(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Particle specific Values > Get Y position of Particle",
+      "text": "慐瑲捩敬⡙",
+      "menuId": 27010,
+      "resText": "ParticleY(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Particle specific Values > Get Opacity value of Particle",
+      "text": "慐瑲捩敬灏捡瑩⡹",
+      "menuId": 27020,
+      "resText": "ParticleOpacity(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Particle specific Values > Get Direction of Particle",
+      "text": "慐瑲捩敬楄⡲",
+      "menuId": 27040,
+      "resText": "ParticleDir(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Sprayer specific values > Get Spray amount",
+      "text": "慐瑲捩敬潃湵⡴",
+      "menuId": 27030,
+      "resText": "ParticleCount(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Particle specific Values > Get Horizontal speed of Particle (in pixels/frame)",
+      "text": "慐瑲捩敬単数摥(",
+      "menuId": 27050,
+      "resText": "ParticleXSpeed(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Particle specific Values > Get Vertical speed of Particle (in pixels/frame)",
+      "text": "慐瑲捩敬卙数摥(",
+      "menuId": 27060,
+      "resText": "ParticleYSpeed(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Sprayer specific values > Get Sprayer Age (in frames)",
+      "text": "灓慲敹䅲敧(",
+      "menuId": 27070,
+      "resText": "SprayerAge(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Sprayer specific values > Get Particle minimum lifetime",
+      "text": "慐瑲捩敬楍䱮晩瑥浩⡥",
+      "menuId": 27080,
+      "resText": "ParticleMinLifetime(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Sprayer specific values > Get Gravity",
+      "text": "灓慲敹䝲慲楶祴(",
+      "menuId": 27090,
+      "resText": "SprayerGravity(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Sprayer specific values > Get Particle Minimum Deceleration",
+      "text": "慐瑲捩敬楍䑮捥(",
+      "menuId": 27100,
+      "resText": "ParticleMinDec(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Sprayer specific values > Get Particle Maximum Deceleration",
+      "text": "慐瑲捩敬慍䑸捥(",
+      "menuId": 27110,
+      "resText": "ParticleMaxDec(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Sprayer specific values > Get Spray Start Angle",
+      "text": "灓慲敹卲慴瑲湁汧⡥",
+      "menuId": 27120,
+      "resText": "SprayerStartAngle(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Sprayer specific values > Get Spray End angle",
+      "text": "灓慲敹䕲摮湁汧⡥",
+      "menuId": 27130,
+      "resText": "SprayerEndAngle(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Sprayer specific values > Get Particle Minimum Start speed",
+      "text": "慐瑲捩敬瑓牡䵴湩灓敥⡤",
+      "menuId": 27140,
+      "resText": "ParticleStartMinSpeed(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Sprayer specific values > Get Particle Maximum Start speed",
+      "text": "慐瑲捩敬瑓牡䵴硡灓敥⡤",
+      "menuId": 27150,
+      "resText": "ParticleStartMaxSpeed(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Magnet specific values > Get X position of Magnet",
+      "text": "慍湧瑥⡘",
+      "menuId": 27160,
+      "resText": "MagnetX(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Magnet specific values > Get Y position of Magnet",
+      "text": "慍湧瑥⡙",
+      "menuId": 27170,
+      "resText": "MagnetY(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Magnet specific values > Get Force of Magnet",
+      "text": "慍湧瑥潆捲⡥",
+      "menuId": 27180,
+      "resText": "MagnetForce(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "Magnet specific values > Get Magnet Enabled-flag",
+      "text": "慍湧瑥捁楴楶祴(",
+      "menuId": 27190,
+      "resText": "MagnetActivity(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "Sprayer specific values > Get Wind Force",
+      "text": "灓慲敹坲湩䙤牯散(",
+      "menuId": 27200,
+      "resText": "SprayerWindForce(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "Sprayer specific values > Get Particle maximum lifetime",
+      "text": "慐瑲捩敬慍䱸晩瑥浩⡥",
+      "menuId": 27210,
+      "resText": "ParticleMaxLifetime(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "Sprayer specific values > Get Sprayer X position",
+      "text": "灓慲敹塲(",
+      "menuId": 27220,
+      "resText": "SprayerX(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "Sprayer specific values > Get Sprayer Y position",
+      "text": "灓慲敹奲(",
+      "menuId": 27230,
+      "resText": "SprayerY(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "Particle specific Values > Get Current life of Particle (in frames)",
+      "text": "慐瑲捩敬畃䱲晩⡥",
+      "menuId": 27240,
+      "resText": "ParticleCurLife(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "Particle specific Values > Get Lifetime of Particle (in frames)",
+      "text": "慐瑲捩敬楌敦楴敭(",
+      "menuId": 27250,
+      "resText": "ParticleLifetime(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "Sprayer specific values > Get Spray time",
+      "text": "灓慲敹卲牰祡楴敭(",
+      "menuId": 27260,
+      "resText": "SprayerSpraytime(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "Particle specific Values > Get Fixed Value of particle object",
+      "text": "慐瑲捩敬楆數⡤",
+      "menuId": 27270,
+      "resText": "ParticleFixed(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "Particle specific Values > Get Angle of Particle",
+      "text": "慐瑲捩敬湁汧⡥",
+      "menuId": 27280,
+      "resText": "ParticleAngle(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "Particle specific Values > Get Speed of Particle (in pixels/frame)",
+      "text": "慐瑲捩敬灓敥⡤",
+      "menuId": 27290,
+      "resText": "ParticleSpeed(",
+      "flags": 0,
+      "paramTypes": [
+        1,
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Sprayer specific values > Get Transparency Coefficient",
+      "text": "灓慲敹呲慲獮潃晥(",
+      "menuId": 27300,
+      "resText": "SprayerTransCoef(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "Magnet specific values > Get Force Coefficient of Magnet",
+      "text": "慍湧瑥潆捲䍥敯⡦",
+      "menuId": 27320,
+      "resText": "MagnetForceCoef(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

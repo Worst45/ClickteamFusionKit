@@ -1,0 +1,341 @@
+{
+  "file": "360Movement.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Is movement paused?",
+      "text": "漥›潍敶敭瑮椠⁳慰獵摥",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "On collision test",
+      "text": "漥›湏挠汯楬楳湯琠獥t",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Set object...",
+      "text": "敓⁴扯敪瑣›〥",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敓敬瑣漠橢捥⹴⸮"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Pause movement",
+      "text": "慐獵⁥潭敶敭瑮",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Resume movement",
+      "text": "敒畳敭洠癯浥湥t",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Variables > Set max speed...",
+      "text": "敓⁴慭⁸灳敥⁤潴┠0",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴慭⁸灳敥⹤⸮⠠椠⁮⼱㔲‶湵瑩⁳)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Variables > Set acceleration...",
+      "text": "敓⁴捡散敬慲楴湯琠⁯〥",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴捡散敬慲楴湯⸮‮ 湩ㄠ㈯㘵甠楮獴⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Variables > Set deceleration...",
+      "text": "敓⁴敤散敬慲楴湯琠⁯〥",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "敓⁴敤散敬慲楴湯⸮‮ 湩ㄠ㈯㘵甠楮獴⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Variables > Set X velocity...",
+      "text": "敓⁴⁘敶潬楣祴琠⁯〥",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁘敶潬楣祴⸮‮ 湩ㄠ㈯㘵甠楮獴⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Variables > Set Y velocity...",
+      "text": "敓⁴⁙敶潬楣祴琠⁯〥",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁘敶潬楣祴⸮‮ 湩ㄠ㈯㘵甠楮獴⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Variables > Set additional X velocity...",
+      "text": "敓⁴摡楤楴湯污堠瘠汥捯瑩⁹潴┠0",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "摁楤楴湯污堠瘠汥捯瑩⹹⸮⠠椠⁮⼱㔲‶湵瑩⁳)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Variables > Set additional Y velocity...",
+      "text": "敓⁴摡楤楴湯污夠瘠汥捯瑩⁹潴┠0",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "摁楤楴湯污夠瘠汥捯瑩⹹⸮⠠椠⁮⼱㔲‶湵瑩⁳)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Input > User input...",
+      "text": "獕牥椠灮瑵⠠愠杮敬㴠┠ⰰ眠楥桧⁴‽ㄥ⤠",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湁汧⹥⸮⠠椠⁮敤牧敥⁳)眠楥桧⁴‽ㄥ⤠",
+        "敗杩瑨⸮‮ ‰‭㔲‶))眠楥桧⁴‽ㄥ⤠"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Input > Directly set angle and speed...",
+      "text": "楄敲瑣祬猠瑥愠杮敬愠摮猠数摥⠠愠杮敬㴠┠ⰰ猠数摥㴠┠‱)",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湁汧⹥⸮⠠椠⁮敤牧敥⁳)数摥⠠愠杮敬㴠┠ⰰ猠数摥㴠┠‱)",
+        "灓敥⹤⸮⠠椠⁮⼱㔲‶湵瑩⁳)⠠愠杮敬㴠┠ⰰ猠数摥㴠┠‱)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Collision > Report collision",
+      "text": "敒潰瑲挠汯楬楳湯",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get max speed",
+      "text": "慍卸数摥(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get acceleration",
+      "text": "捁散敬慲楴湯(",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get deceleration",
+      "text": "敄散敬慲楴湯(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get movement angle",
+      "text": "潍敶敭瑮湁汧⡥",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get movement speed",
+      "text": "潍敶敭瑮灓敥⡤",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get X velocity",
+      "text": "噘汥捯瑩⡹",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Get Y velocity",
+      "text": "噙汥捯瑩⡹",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Get additional X velocity",
+      "text": "摁塤敖潬楣祴(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Get additional Y velocity",
+      "text": "摁奤敖潬楣祴(",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

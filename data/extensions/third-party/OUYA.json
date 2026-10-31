@@ -1,0 +1,1482 @@
+{
+  "file": "OUYA.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Is button pressed for player? > O",
+      "text": "%o : Is button O pressed for player %0?",
+      "menuId": 26000,
+      "resText": "%o : Is button O pressed for player %0?",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Player Number (0-3)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Is button pressed for player? > U",
+      "text": "%o : Is button U pressed for player %0?",
+      "menuId": 26010,
+      "resText": "%o : Is button U pressed for player %0?",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Player Number (0-3)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Is button pressed for player? > Y",
+      "text": "%o : Is button Y pressed for player %0?",
+      "menuId": 26020,
+      "resText": "%o : Is button Y pressed for player %0?",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Player Number (0-3)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Is button pressed for player? > A",
+      "text": "%o : Is button A pressed for player %0?",
+      "menuId": 26030,
+      "resText": "%o : Is button A pressed for player %0?",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Player Number (0-3)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Is button pressed for player? > L1",
+      "text": "%o : Is button L1 pressed for player %0?",
+      "menuId": 26040,
+      "resText": "%o : Is button L1 pressed for player %0?",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Player Number (0-3)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Is button pressed for player? > L2",
+      "text": "%o : Is button L2 pressed for player %0?",
+      "menuId": 26050,
+      "resText": "%o : Is button L2 pressed for player %0?",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Player Number (0-3)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Is button pressed for player? > R1",
+      "text": "%o : Is button R1 pressed for player %0?",
+      "menuId": 26060,
+      "resText": "%o : Is button R1 pressed for player %0?",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Player Number (0-3)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Is button pressed for player? > R2",
+      "text": "%o : Is button R2 pressed for player %0?",
+      "menuId": 26070,
+      "resText": "%o : Is button R2 pressed for player %0?",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Player Number (0-3)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Is button pressed for player? > Menu",
+      "text": "%o : Is Menu button pressed for player %0?",
+      "menuId": 26080,
+      "resText": "%o : Is Menu button pressed for player %0?",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Player Number (0-3)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Is button pressed for player? > D-Pad Up",
+      "text": "%o : Is D-Pad Up button pressed for player %0?",
+      "menuId": 26090,
+      "resText": "%o : Is D-Pad Up button pressed for player %0?",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Player Number (0-3)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Is button pressed for player? > D-Pad Down",
+      "text": "%o : Is D-Pad Down button pressed for player %0?",
+      "menuId": 26100,
+      "resText": "%o : Is D-Pad Down button pressed for player %0?",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Player Number (0-3)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Is button pressed for player? > D-Pad Left",
+      "text": "%o : Is D-Pad Left button pressed for player %0?",
+      "menuId": 26110,
+      "resText": "%o : Is D-Pad Left button pressed for player %0?",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Player Number (0-3)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Is button pressed for player? > D-Pad Right",
+      "text": "%o : Is D-Pad Right button pressed for player %0?",
+      "menuId": 26120,
+      "resText": "%o : Is D-Pad Right button pressed for player %0?",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Player Number (0-3)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Is button pressed for player? > Deprecated ... > R3",
+      "text": "%o : Is button R3 pressed for player %0?",
+      "menuId": 26130,
+      "resText": "%o : Is button R3 pressed for player %0?",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Player Number (0-3)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Is button pressed for player? > Deprecated ... > L3",
+      "text": "%o : Is button L3 pressed for player %0?",
+      "menuId": 26140,
+      "resText": "%o : Is button L3 pressed for player %0?",
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Player Number (0-3)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "On button press > O",
+      "text": "%o : On button O pressed",
+      "menuId": 26150,
+      "resText": "%o : On button O pressed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "On button press > U",
+      "text": "%o : On button U pressed",
+      "menuId": 26160,
+      "resText": "%o : On button U pressed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "On button press > Y",
+      "text": "%o : On button Y pressed",
+      "menuId": 26170,
+      "resText": "%o : On button Y pressed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "On button press > A",
+      "text": "%o : On button A pressed",
+      "menuId": 26180,
+      "resText": "%o : On button A pressed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "On button press > L1",
+      "text": "%o : On button L1 pressed",
+      "menuId": 26190,
+      "resText": "%o : On button L1 pressed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "On button press > L2",
+      "text": "%o : On button L2 pressed",
+      "menuId": 26200,
+      "resText": "%o : On button L2 pressed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "On button press > R1",
+      "text": "%o : On button R1 pressed",
+      "menuId": 26210,
+      "resText": "%o : On button R1 pressed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "On button press > R2",
+      "text": "%o : On button R2 pressed",
+      "menuId": 26220,
+      "resText": "%o : On button R2 pressed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "On button press > Menu",
+      "text": "%o : On Menu button pressed",
+      "menuId": 26230,
+      "resText": "%o : On Menu button pressed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "On button press > D-Pad Up",
+      "text": "%o : On D-Pad Up pressed",
+      "menuId": 26240,
+      "resText": "%o : On D-Pad Up pressed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "On button press > D-Pad Down",
+      "text": "%o : On D-Pad Down pressed",
+      "menuId": 26250,
+      "resText": "%o : On D-Pad Down pressed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "On button press > D-Pad Left",
+      "text": "%o : On D-Pad Left pressed",
+      "menuId": 26260,
+      "resText": "%o : On D-Pad Left pressed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "On button press > D-Pad Right",
+      "text": "%o : On D-Pad Right pressed",
+      "menuId": 26270,
+      "resText": "%o : On D-Pad Right pressed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "On button press > Deprecated ... > R3",
+      "text": "%o : On button R3 pressed",
+      "menuId": 26280,
+      "resText": "%o : On button R3 pressed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "On button press > Deprecated ... > L3",
+      "text": "%o : On button L3 pressed",
+      "menuId": 26290,
+      "resText": "%o : On button L3 pressed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "Is device an OUYA?",
+      "text": "%o : Device is an OUYA?",
+      "menuId": 26300,
+      "resText": "%o : Device is an OUYA?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "On button release. > O",
+      "text": "%o : On button O released",
+      "menuId": 26310,
+      "resText": "%o : On button O released",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "On button release. > U",
+      "text": "%o : On button U released",
+      "menuId": 26320,
+      "resText": "%o : On button U released",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "On button release. > Y",
+      "text": "%o : On button Y released",
+      "menuId": 26330,
+      "resText": "%o : On button Y released",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "On button release. > A",
+      "text": "%o : On button A released",
+      "menuId": 26340,
+      "resText": "%o : On button A released",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "On button release. > L1",
+      "text": "%o : On button L1 released",
+      "menuId": 26350,
+      "resText": "%o : On button L1 released",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "On button release. > L2",
+      "text": "%o : On button L2 released",
+      "menuId": 26360,
+      "resText": "%o : On button L2 released",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "On button release. > R1",
+      "text": "%o : On button R1 released",
+      "menuId": 26370,
+      "resText": "%o : On button R1 released",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "On button release. > R2",
+      "text": "%o : On button R2 released",
+      "menuId": 26380,
+      "resText": "%o : On button R2 released",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "On button release. > Menu",
+      "text": "%o : On Menu button released",
+      "menuId": 26390,
+      "resText": "%o : On Menu button released",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "On button release. > D-Pad Up",
+      "text": "%o : On D-Pad Up released",
+      "menuId": 26400,
+      "resText": "%o : On D-Pad Up released",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "On button release. > D-Pad Down",
+      "text": "%o : On D-Pad Down released",
+      "menuId": 26410,
+      "resText": "%o : On D-Pad Down released",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 42,
+      "menu": "On button release. > D-Pad Left",
+      "text": "%o : On D-Pad Left released",
+      "menuId": 26420,
+      "resText": "%o : On D-Pad Left released",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 43,
+      "menu": "On button release. > D-Pad Right",
+      "text": "%o : On D-Pad Right released",
+      "menuId": 26430,
+      "resText": "%o : On D-Pad Right released",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 44,
+      "menu": "On button release. > Deprecated ... > R3",
+      "text": "%o : On button R3 released",
+      "menuId": 26440,
+      "resText": "%o : On button R3 released",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 45,
+      "menu": "On button release. > Deprecated ... > L3",
+      "text": "%o : On button L3 released",
+      "menuId": 26450,
+      "resText": "%o : On button L3 released",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 46,
+      "menu": "IAP > On product selected",
+      "text": "%o : On product selected",
+      "menuId": 26460,
+      "resText": "%o : On product selected",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 47,
+      "menu": "User info available?",
+      "text": "%o : User info available?",
+      "menuId": 26470,
+      "resText": "%o : User info available?",
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 48,
+      "menu": "IAP > On IAP initialized",
+      "text": "%o : On IAP initialized",
+      "menuId": 26480,
+      "resText": "%o : On IAP initialized",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 49,
+      "menu": "IAP > On IAP initialized failed",
+      "text": "%o : On IAP initialized failed",
+      "menuId": 26490,
+      "resText": "%o : On IAP initialized failed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 50,
+      "menu": "IAP > Does player have product?",
+      "text": "%o : Does player have product %0?",
+      "menuId": 26500,
+      "resText": "%o : Does player have product %0?",
+      "flags": 544,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Product ID"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 51,
+      "menu": "IAP > On purchase successful",
+      "text": "%o : On purchase successful",
+      "menuId": 26510,
+      "resText": "%o : On purchase successful",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 52,
+      "menu": "IAP > On purchase failed",
+      "text": "%o : On purchase failed",
+      "menuId": 26520,
+      "resText": "%o : On purchase failed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 53,
+      "menu": "IAP > On product select failed",
+      "text": "%o : On product select failed",
+      "menuId": 26530,
+      "resText": "%o : On product select failed",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 54,
+      "menu": "On system button double tapped",
+      "text": "%o : On System button double tapped",
+      "menuId": 26540,
+      "resText": "%o : On System button double tapped",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 55,
+      "menu": "IAP > On read receipts",
+      "text": "%o : On Read receipts",
+      "menuId": 26550,
+      "resText": "%o : On Read receipts",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 56,
+      "menu": "IAP > On read products",
+      "text": "%o : On Read products",
+      "menuId": 26560,
+      "resText": "%o : On Read products",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "conditions_status": "menu ressources",
+  "actions": [
+    {
+      "code": 0,
+      "menu": "IAP > Deprecated ... > Initialize IAP",
+      "text": "Initialize IAP with developer ID %0, keyfile %1",
+      "menuId": 25000,
+      "resText": "Initialize IAP with developer ID %0, keyfile %1",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        40
+      ],
+      "paramTitles": [
+        "Developer ID",
+        "Key file"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "IAP > Set Current product",
+      "text": "Select product %0",
+      "menuId": 25010,
+      "resText": "Select product %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Product ID"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "IAP > Purchase current product",
+      "text": "Purchase current product",
+      "menuId": 25020,
+      "resText": "Purchase current product",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Define Touchpad as main pad",
+      "text": "Set Touchpad from controller %0 as default",
+      "menuId": 25030,
+      "resText": "Set Touchpad from controller %0 as default",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "Controller Number (0 to 3)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "IAP > Start IAP feature",
+      "text": "Start IAP feature with keyfile %0",
+      "menuId": 25040,
+      "resText": "Start IAP feature with keyfile %0",
+      "flags": 0,
+      "paramTypes": [
+        40
+      ],
+      "paramTitles": [
+        "Key file"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "IAP > Set products list",
+      "text": "Set products list to %0",
+      "menuId": 25050,
+      "resText": "Set products list to %0",
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "Products list (separated by |)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "IAP > Read purchased receipts",
+      "text": "Read purchased receipts",
+      "menuId": 25060,
+      "resText": "Read purchased receipts",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "IAP > Read products information",
+      "text": "Read products information",
+      "menuId": 25070,
+      "resText": "Read products information",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions_status": "menu ressources",
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get current player number",
+      "text": "CurrentPlayer(",
+      "menuId": 27000,
+      "resText": "CurrentPlayer(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Get axis value (current player) > Left stick X",
+      "text": "LeftStickX(",
+      "menuId": 27010,
+      "resText": "LeftStickX(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Get axis value (current player) > Left stick Y",
+      "text": "LeftStickY(",
+      "menuId": 27020,
+      "resText": "LeftStickY(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Get axis value (current player) > Right stick X",
+      "text": "RightStickX(",
+      "menuId": 27030,
+      "resText": "RightStickX(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Get axis value (current player) > Right stick Y",
+      "text": "RightStickY(",
+      "menuId": 27040,
+      "resText": "RightStickY(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Get axis value (player number) > Left stick X",
+      "text": "LeftStickXForPlayer(",
+      "menuId": 27050,
+      "resText": "LeftStickXForPlayer(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player Number (0-3)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Get axis value (player number) > Left stick Y",
+      "text": "LeftStickYForPlayer(",
+      "menuId": 27060,
+      "resText": "LeftStickYForPlayer(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player Number (0-3)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Get axis value (player number) > Right stick X",
+      "text": "RightStickXForPlayer(",
+      "menuId": 27070,
+      "resText": "RightStickXForPlayer(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player Number (0-3)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Get axis value (player number) > Right stick Y",
+      "text": "RightStickYForPlayer(",
+      "menuId": 27080,
+      "resText": "RightStickYForPlayer(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player Number (0-3)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "IAP > Current product > Name",
+      "text": "Productname$(",
+      "menuId": 27090,
+      "resText": "Productname$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "IAP > Current product > Price in US cents",
+      "text": "ProductPriceinUSCents(",
+      "menuId": 27100,
+      "resText": "ProductPriceinUSCents(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Extras ... > Gamer UUID",
+      "text": "GamerUUID$(",
+      "menuId": 27110,
+      "resText": "GamerUUID$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Get axis value (current player) > L2 Stick",
+      "text": "L2Stick(",
+      "menuId": 27120,
+      "resText": "L2Stick(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Get axis value (current player) > R2 Stick",
+      "text": "R2Stick(",
+      "menuId": 27130,
+      "resText": "R2Stick(",
+      "flags": 2,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Get axis value (player number) > L2 Stick",
+      "text": "L2StickForPlayer(",
+      "menuId": 27140,
+      "resText": "L2StickForPlayer(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player Number (0-3)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Get axis value (player number) > R2 Stick",
+      "text": "R2StickForPlayer(",
+      "menuId": 27150,
+      "resText": "R2StickForPlayer(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Player Number (0-3)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "Extras ... > Gamer Name",
+      "text": "UserName$(",
+      "menuId": 27160,
+      "resText": "UserName$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Extras ... > Console name",
+      "text": "ConsoleName$(",
+      "menuId": 27170,
+      "resText": "ConsoleName$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 18,
+      "menu": "Extras ... > Supported device",
+      "text": "SupportedDevice$(",
+      "menuId": 27180,
+      "resText": "SupportedDevice$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 19,
+      "menu": "IAP > Current product > Purchase Currency",
+      "text": "ProductPurchaseCurrencyCode$(",
+      "menuId": 27190,
+      "resText": "ProductPurchaseCurrencyCode$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 20,
+      "menu": "IAP > Current product > Formatted Price",
+      "text": "ProductPurchasePrice$(",
+      "menuId": 27200,
+      "resText": "ProductPurchasePrice$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 21,
+      "menu": "IAP > Purchased Products ... > Purchased Quantity",
+      "text": "PurchasedQty(",
+      "menuId": 27210,
+      "resText": "PurchasedQty(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 22,
+      "menu": "IAP > Purchased Products ... > Gamer UUID",
+      "text": "PurchaseGamerUUID$(",
+      "menuId": 27220,
+      "resText": "PurchaseGamerUUID$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Zero-based index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 23,
+      "menu": "IAP > Purchased Products ... > Gamer/Order ID",
+      "text": "PurchaseGamerID$(",
+      "menuId": 27230,
+      "resText": "PurchaseGamerID$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Zero-based index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 24,
+      "menu": "IAP > Purchased Products ... > Product Id",
+      "text": "PurchaseId$(",
+      "menuId": 27240,
+      "resText": "PurchaseId$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Zero-based index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 25,
+      "menu": "IAP > Purchased Products ... > Receipt Date",
+      "text": "PurchaseReceiptDate$(",
+      "menuId": 27250,
+      "resText": "PurchaseReceiptDate$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Zero-based index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 26,
+      "menu": "IAP > Purchased Products ... > Purchase Date",
+      "text": "PurchaseDate$(",
+      "menuId": 27260,
+      "resText": "PurchaseDate$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Zero-based index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 27,
+      "menu": "IAP > Purchased Products ... > Purchase Currency",
+      "text": "PurchaseCurrency$(",
+      "menuId": 27270,
+      "resText": "PurchaseCurrency$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Zero-based index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 28,
+      "menu": "IAP > Purchased Products ... > Local Price",
+      "text": "PurchaseLocalPrice(",
+      "menuId": 27280,
+      "resText": "PurchaseLocalPrice(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Zero-based index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 29,
+      "menu": "IAP > Purchased Products ... > Price in US cents",
+      "text": "PurchasePriceinUScents(",
+      "menuId": 27290,
+      "resText": "PurchasePriceinUScents(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Zero-based index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 30,
+      "menu": "IAP > Purchased Products ... > Formatted Price",
+      "text": "PurchaseFormattedPrice$(",
+      "menuId": 27300,
+      "resText": "PurchaseFormattedPrice$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Zero-based index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 31,
+      "menu": "IAP > Products Info ... > Products Quantity",
+      "text": "ProductsQty(",
+      "menuId": 27310,
+      "resText": "ProductsQty(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 32,
+      "menu": "IAP > Products Info ... > Identifier",
+      "text": "ProdId$(",
+      "menuId": 27320,
+      "resText": "ProdId$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Zero-based index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 33,
+      "menu": "IAP > Products Info ... > Name",
+      "text": "ProdName$(",
+      "menuId": 27330,
+      "resText": "ProdName$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Zero-based index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 34,
+      "menu": "IAP > Products Info ... > Description",
+      "text": "ProdDesc$(",
+      "menuId": 27340,
+      "resText": "ProdDesc$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Zero-based index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 35,
+      "menu": "IAP > Products Info ... > Type",
+      "text": "ProdType$(",
+      "menuId": 27350,
+      "resText": "ProdType$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Zero-based index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 36,
+      "menu": "IAP > Products Info ... > Original Price",
+      "text": "ProdOriginalPrice(",
+      "menuId": 27360,
+      "resText": "ProdOriginalPrice(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Zero-based index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 37,
+      "menu": "IAP > Products Info ... > Local Price",
+      "text": "ProdLocalPrice(",
+      "menuId": 27370,
+      "resText": "ProdLocalPrice(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Zero-based index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 38,
+      "menu": "IAP > Products Info ... > Formatted Price",
+      "text": "ProdFormattedPrice$(",
+      "menuId": 27380,
+      "resText": "ProdFormattedPrice$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Zero-based index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 39,
+      "menu": "IAP > Products Info ... > Price in US cents",
+      "text": "ProdPriceinUScents(",
+      "menuId": 27390,
+      "resText": "ProdPriceinUScents(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Zero-based index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 40,
+      "menu": "IAP > Products Info ... > Percent Off",
+      "text": "ProdPercentOff(",
+      "menuId": 27400,
+      "resText": "ProdPercentOff(",
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Zero-based index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 41,
+      "menu": "IAP > Products Info ... > Currency Code",
+      "text": "ProdCurrencyCode$(",
+      "menuId": 27410,
+      "resText": "ProdCurrencyCode$(",
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "Zero-based index"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions_status": "menu ressources"
+}

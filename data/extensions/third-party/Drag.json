@@ -1,0 +1,391 @@
+{
+  "file": "Drag.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Is Any Object Selected",
+      "text": "漥›獉愠⁮扏敪瑣匠汥捥整㽤",
+      "menuId": 26000,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Is Specific Object Selected",
+      "text": "漥›獉传橢捥⁴〥匠汥捥整㽤",
+      "menuId": 26010,
+      "resText": null,
+      "flags": 544,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楆數⁤慖畬⁥潴吠獥t捥整㽤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Selection > Select Object",
+      "text": "敓敬瑣┠0",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣琠⁯敓敬瑣",
+        "潍獵⁥⁘唨敳堠潍獵⁥硅牰獥楳湯)",
+        "潍獵⁥⁙唨敳夠潍獵⁥硅牰獥楳湯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Selection > Select None",
+      "text": "敓敬瑣丠湯e",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Selection > Toggle Selection",
+      "text": "敐晲牯⁭潔杯敬匠汥捥⁴獕湩⁧〥",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "扏敪瑣琠⁯敓敬瑣氀捥⁴獕湩⁧〥",
+        "潍獵⁥⁘唨敳堠潍獵⁥硅牰獥楳湯)",
+        "潍獵⁥⁙唨敳夠潍獵⁥硅牰獥楳湯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Offset > Set Offset",
+      "text": "敓⁴晏獦瑥琠⁯┨ⰰ┠⤱",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "⁘晏獦瑥琀琠⁯┨ⰰ┠⤱",
+        "⁙晏獦瑥琀琠⁯┨ⰰ┠⤱"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Offset > Set X Offset",
+      "text": "敓⁴⁘晏獦瑥琠⁯〥",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁘晏獦瑥猀瑥琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Offset > Set Y Offset",
+      "text": "敓⁴⁙晏獦瑥琠⁯〥",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "⁙晏獦瑥猀瑥琠⁯〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Updating > Normal Update",
+      "text": "灕慤整",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潍獵⁥⁘唨敳堠潍獵⁥硅牰獥楳湯)",
+        "潍獵⁥⁙唨敳夠潍獵⁥硅牰獥楳湯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Updating > Simple Update",
+      "text": "灕慤整⠠楓灭敬)",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潍獵⁥⁘唨敳堠潍獵⁥硅牰獥楳湯)",
+        "潍獵⁥⁙唨敳夠潍獵⁥硅牰獥楳湯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Updating > Snap to Grid",
+      "text": "灕慤整愠摮匠慮⁰潴䜠楲⁤䌨汥⁬楗瑤⁨‽〥‬敃汬䠠楥桧⁴‽ㄥ 䠨瑯灳瑯堠㴠┠ⰲ䠠瑯灳瑯夠㴠┠⤳",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楗瑤⁨景䜠楲⁤敃汬s楲⁤䌨汥⁬楗瑤⁨‽〥‬敃汬䠠楥桧⁴‽ㄥ 䠨瑯灳瑯堠㴠┠ⰲ䠠瑯灳瑯夠㴠┠⤳",
+        "效杩瑨漠⁦片摩䌠汥獬椀⁤䌨汥⁬楗瑤⁨‽〥‬敃汬䠠楥桧⁴‽ㄥ 䠨瑯灳瑯堠㴠┠ⰲ䠠瑯灳瑯夠㴠┠⤳",
+        "⁘潐楳楴湯漠⁦潈獴潰t⁤䌨汥⁬楗瑤⁨‽〥‬敃汬䠠楥桧⁴‽ㄥ 䠨瑯灳瑯堠㴠┠ⰲ䠠瑯灳瑯夠㴠┠⤳",
+        "⁙潐楳楴湯漠⁦潈獴潰t⁤䌨汥⁬楗瑤⁨‽〥‬敃汬䠠楥桧⁴‽ㄥ 䠨瑯灳瑯堠㴠┠ⰲ䠠瑯灳瑯夠㴠┠⤳",
+        "潍獵⁥⁘唨敳堠潍獵⁥硅牰獥楳湯)瑤⁨‽〥‬敃汬䠠楥桧⁴‽ㄥ 䠨瑯灳瑯堠㴠┠ⰲ䠠瑯灳瑯夠㴠┠⤳",
+        "潍獵⁥⁙唨敳夠潍獵⁥硅牰獥楳湯)瑤⁨‽〥‬敃汬䠠楥桧⁴‽ㄥ 䠨瑯灳瑯堠㴠┠ⰲ䠠瑯灳瑯夠㴠┠⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Updating > Single Axis > X-Axis Only",
+      "text": "灕慤整⠠ⵘ硁獩传汮⥹",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潍獵⁥⁘唨敳堠潍獵⁥硅牰獥楳湯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Updating > Single Axis > Y-Axis Only",
+      "text": "灕慤整⠠ⵙ硁獩传汮⥹",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "潍獵⁥⁙唨敳夠潍獵⁥硅牰獥楳湯)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Updating > Limitation > Use Boundries",
+      "text": "灕慤整愠摮甠敳䈠畯摮楲獥⠠〥‬ㄥ ‭┨ⰲ┠⤳",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楍楮畭⁭X甠敳䈠畯摮楲獥⠠〥‬ㄥ ‭┨ⰲ┠⤳",
+        "楍楮畭⁭Y甠敳䈠畯摮楲獥⠠〥‬ㄥ ‭┨ⰲ┠⤳",
+        "慍楸畭⁭X甠敳䈠畯摮楲獥⠠〥‬ㄥ ‭┨ⰲ┠⤳",
+        "慍楸畭⁭Y甠敳䈠畯摮楲獥⠠〥‬ㄥ ‭┨ⰲ┠⤳",
+        "潍獵⁥⁘唨敳堠潍獵⁥硅牰獥楳湯) ‭┨ⰲ┠⤳",
+        "潍獵⁥⁙唨敳夠潍獵⁥硅牰獥楳湯) ‭┨ⰲ┠⤳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Updating > Limitation > Limit X Only",
+      "text": "灕慤整愠摮䰠浩瑩堠倠獯瑩潩⁮┨ⰰ┠⤱⠠灕慤整夠倠獯瑩潩⁮‽㈥)",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楍楮畭⁭X䰠浩瑩堠倠獯瑩潩⁮┨ⰰ┠⤱⠠灕慤整夠倠獯瑩潩⁮‽㈥)",
+        "慍楸畭⁭X䰠浩瑩堠倠獯瑩潩⁮┨ⰰ┠⤱⠠灕慤整夠倠獯瑩潩⁮‽㈥)",
+        "灕慤整夠倠獯瑩潩㽮⠠‰‽潎‬湁瑹楨杮䔠獬⁥‽教⥳猀瑩潩⁮‽㈥)",
+        "潍獵⁥⁘唨敳堠潍獵⁥硅牰獥楳湯)楨杮䔠獬⁥‽教⥳猀瑩潩⁮‽㈥)",
+        "潍獵⁥⁙唨敳夠潍獵⁥硅牰獥楳湯)楨杮䔠獬⁥‽教⥳猀瑩潩⁮‽㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Updating > Limitation > Limit Y Only",
+      "text": "灕慤整愠摮䰠浩瑩夠倠獯瑩潩⁮┨ⰰ┠⤱⠠灕慤整堠倠獯瑩潩⁮‽㈥)",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楍楮畭⁭Y䰠浩瑩夠倠獯瑩潩⁮┨ⰰ┠⤱⠠灕慤整堠倠獯瑩潩⁮‽㈥)",
+        "慍楸畭⁭Y䰠浩瑩夠倠獯瑩潩⁮┨ⰰ┠⤱⠠灕慤整堠倠獯瑩潩⁮‽㈥)",
+        "灕慤整堠倠獯瑩潩㽮⠠‰‽潎‬湁瑹楨杮䔠獬⁥‽教⥳猀瑩潩⁮‽㈥)",
+        "潍獵⁥⁘唨敳堠潍獵⁥硅牰獥楳湯)楨杮䔠獬⁥‽教⥳猀瑩潩⁮‽㈥)",
+        "潍獵⁥⁙唨敳夠潍獵⁥硅牰獥楳湯)楨杮䔠獬⁥‽教⥳猀瑩潩⁮‽㈥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Offset > Get X Offset",
+      "text": "佘晦敳⡴",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Offset > Get Y Offset",
+      "text": "余晦敳⡴",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Selection > X Position",
+      "text": "敓塬(",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Selection > Y Position",
+      "text": "敓奬(",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Selection > X Hotspot",
+      "text": "敓塬潈獴潰⡴",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Selection > Y Hotspot",
+      "text": "敓奬潈獴潰⡴",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Selection > Fixed Value",
+      "text": "敓䙬硩摥(",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

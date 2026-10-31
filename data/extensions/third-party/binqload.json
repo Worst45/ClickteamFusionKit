@@ -1,0 +1,69 @@
+{
+  "file": "binqload.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "On Error",
+      "text": "湏䔠牲牯",
+      "menuId": 26000,
+      "resText": "On Error",
+      "flags": 32,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Load File",
+      "text": "潌摡䘠汩⁥ 〥Ⱐ┠‱‬㈥Ⱐ┠″)",
+      "menuId": 25000,
+      "resText": "Load File ( %0 , %1 , %2 , %3 )",
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "楆敬䘀汩⁥ 〥Ⱐ┠‱‬㈥Ⱐ┠″)",
+        "敍潭祲䄠摤敲獳Ⰰ┠‱‬㈥Ⱐ┠″)",
+        "瑓牡楴杮䈠瑹eⰀ┠‱‬㈥Ⱐ┠″)",
+        "畎扭牥漠⁦祂整⁳潴删慥⁤⴨‱潴爠慥⁤潴攠摮漠⁦楦敬)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get File Size",
+      "text": "敇䙴汩卥穩⡥",
+      "menuId": 27000,
+      "resText": "GetFileSize(",
+      "flags": 0,
+      "paramTypes": [
+        3
+      ],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "GetError",
+      "text": "敇䕴牲牯⠤",
+      "menuId": 27010,
+      "resText": "GetError$(",
+      "flags": 1,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

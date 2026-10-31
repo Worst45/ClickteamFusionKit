@@ -1,0 +1,520 @@
+{
+  "file": "Memory.mfx",
+  "conditions": [],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "This process > Write byte",
+      "text": "牗瑩⁥祢整┠‰潴┠‱湩琠楨⁳牰捯獥s",
+      "menuId": 25000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "祂整琠⁯牷瑩e潴┠‱湩琠楨⁳牰捯獥s",
+        "摁牤獥s牷瑩e潴┠‱湩琠楨⁳牰捯獥s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "This process > Write short",
+      "text": "牗瑩⁥桳牯⁴〥琠⁯ㄥ椠⁮桴獩瀠潲散獳",
+      "menuId": 25010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "桓牯⁴潴眠楲整琀⁯ㄥ椠⁮桴獩瀠潲散獳",
+        "摁牤獥s眠楲整琀⁯ㄥ椠⁮桴獩瀠潲散獳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "This process > Write integer",
+      "text": "牗瑩⁥湩整敧⁲〥琠⁯ㄥ椠⁮桴獩瀠潲散獳",
+      "menuId": 25020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湉整敧⁲潴眠楲整琀⁯ㄥ椠⁮桴獩瀠潲散獳",
+        "摁牤獥s潴眠楲整琀⁯ㄥ椠⁮桴獩瀠潲散獳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "This process > Write float",
+      "text": "牗瑩⁥汦慯⁴〥琠⁯ㄥ椠⁮桴獩瀠潲散獳",
+      "menuId": 25030,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "汆慯⁴潴眠楲整琀⁯ㄥ椠⁮桴獩瀠潲散獳",
+        "摁牤獥s眠楲整琀⁯ㄥ椠⁮桴獩瀠潲散獳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "This process > Write string",
+      "text": "牗瑩⁥瑳楲杮┠‰潴┠‱湩琠楨⁳牰捯獥s",
+      "menuId": 25040,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "瑓楲杮琠⁯牷瑩e潴┠‱湩琠楨⁳牰捯獥s",
+        "摁牤獥s⁯牷瑩e潴┠‱湩琠楨⁳牰捯獥s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "This process > Write entity",
+      "text": "牗瑩⁥湥楴祴愠⁴〥眠瑩⁨楳敺┠‱潴┠′湩琠楨⁳牰捯獥s",
+      "menuId": 25050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潓牵散愠摤敲獳 〥眠瑩⁨楳敺┠‱潴┠′湩琠楨⁳牰捯獥s",
+        "楓敺攀愠摤敲獳 〥眠瑩⁨楳敺┠‱潴┠′湩琠楨⁳牰捯獥s",
+        "敄瑳湩瑡潩⁮摡牤獥s瑩⁨楳敺┠‱潴┠′湩琠楨⁳牰捯獥s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "This process > Create thread",
+      "text": "牃慥整琠牨慥⁤瑡┠‰楷桴瀠牡浡瑥牥┠1",
+      "menuId": 25060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "摁牤獥s牨慥⁤瑡┠‰楷桴瀠牡浡瑥牥┠1",
+        "慐慲敭整r慥⁤瑡┠‰楷桴瀠牡浡瑥牥┠1"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Other processes > Open by name",
+      "text": "灏湥瀠潲散獳┠0",
+      "menuId": 25070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45
+      ],
+      "paramTitles": [
+        "牐捯獥⁳慮敭─0"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Other processes > Close",
+      "text": "汃獯⁥牰捯獥s",
+      "menuId": 25080,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Other processes > Write byte",
+      "text": "牗瑩⁥祢整┠‰潴┠‱湩愠潮桴牥瀠潲散獳",
+      "menuId": 25090,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "祂整琠⁯牷瑩e潴┠‱湩愠潮桴牥瀠潲散獳",
+        "摁牤獥s牷瑩e潴┠‱湩愠潮桴牥瀠潲散獳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "Other processes > Write short",
+      "text": "牗瑩⁥桳牯⁴〥琠⁯ㄥ椠⁮湡瑯敨⁲牰捯獥s",
+      "menuId": 25100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "桓牯⁴潴眠楲整琀⁯ㄥ椠⁮湡瑯敨⁲牰捯獥s",
+        "摁牤獥s眠楲整琀⁯ㄥ椠⁮湡瑯敨⁲牰捯獥s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Other processes > Write integer",
+      "text": "牗瑩⁥湩整敧⁲〥琠⁯ㄥ椠⁮湡瑯敨⁲牰捯獥s",
+      "menuId": 25110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "湉整敧⁲潴眠楲整琀⁯ㄥ椠⁮湡瑯敨⁲牰捯獥s",
+        "摁牤獥s潴眠楲整琀⁯ㄥ椠⁮湡瑯敨⁲牰捯獥s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 12,
+      "menu": "Other processes > Write float",
+      "text": "牗瑩⁥汦慯⁴〥琠⁯ㄥ椠⁮湡瑯敨⁲牰捯獥s",
+      "menuId": 25120,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "汆慯⁴潴眠楲整琀⁯ㄥ椠⁮湡瑯敨⁲牰捯獥s",
+        "摁牤獥s眠楲整琀⁯ㄥ椠⁮湡瑯敨⁲牰捯獥s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 13,
+      "menu": "Other processes > Write string",
+      "text": "牗瑩⁥瑳楲杮┠‰潴┠‱湩愠潮桴牥瀠潲散獳",
+      "menuId": 25130,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        45,
+        22
+      ],
+      "paramTitles": [
+        "瑓楲杮琠⁯牷瑩e潴┠‱湩愠潮桴牥瀠潲散獳",
+        "摁牤獥s⁯牷瑩e潴┠‱湩愠潮桴牥瀠潲散獳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 14,
+      "menu": "Other processes > Write entity",
+      "text": "牗瑩⁥湥楴祴愠⁴〥眠瑩⁨楳敺┠‱潴┠′湩愠潮桴牥瀠潲散獳",
+      "menuId": 25140,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "潓牵散愠摤敲獳 〥眠瑩⁨楳敺┠‱潴┠′湩愠潮桴牥瀠潲散獳",
+        "楓敺攀愠摤敲獳 〥眠瑩⁨楳敺┠‱潴┠′湩愠潮桴牥瀠潲散獳",
+        "敄瑳湩瑡潩⁮摡牤獥s瑩⁨楳敺┠‱潴┠′湩愠潮桴牥瀠潲散獳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 15,
+      "menu": "Other processes > Create thread",
+      "text": "牃慥整琠牨慥⁤瑡┠‰楷桴瀠牡浡瑥牥┠‱湩愠潮桴牥瀠潲散獳",
+      "menuId": 25150,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "摁牤獥s牨慥⁤瑡┠‰楷桴瀠牡浡瑥牥┠‱湩愠潮桴牥瀠潲散獳",
+        "慐慲敭整r慥⁤瑡┠‰楷桴瀠牡浡瑥牥┠‱湩愠潮桴牥瀠潲散獳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 16,
+      "menu": "This process > Make memory executable",
+      "text": "慍敫洠浥牯⁹瑡┠‰猨穩⁥ㄥ 硥捥瑵扡敬椠⁮桴獩瀠潲散獳",
+      "menuId": 25160,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "摁牤獥s牯⁹瑡┠‰猨穩⁥ㄥ 硥捥瑵扡敬椠⁮桴獩瀠潲散獳",
+        "楓敺猀s牯⁹瑡┠‰猨穩⁥ㄥ 硥捥瑵扡敬椠⁮桴獩瀠潲散獳"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 17,
+      "menu": "Other processes > Make memory executable",
+      "text": "慍敫洠浥牯⁹瑡┠‰猨穩⁥ㄥ 硥捥瑵扡敬椠⁮湡瑯敨⁲牰捯獥s",
+      "menuId": 25170,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22
+      ],
+      "paramTitles": [
+        "摁牤獥s牯⁹瑡┠‰猨穩⁥ㄥ 硥捥瑵扡敬椠⁮湡瑯敨⁲牰捯獥s",
+        "楓敺猀s牯⁹瑡┠‰猨穩⁥ㄥ 硥捥瑵扡敬椠⁮湡瑯敨⁲牰捯獥s"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "This process > Read byte",
+      "text": "敒摡祂整(",
+      "menuId": 27000,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "摁牤獥s("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "This process > Read short",
+      "text": "敒摡桓牯⡴",
+      "menuId": 27010,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "摁牤獥s⡴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "This process > Read integer",
+      "text": "敒摡湉整敧⡲",
+      "menuId": 27020,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "摁牤獥s敧⡲"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "This process > Read float",
+      "text": "敒摡汆慯⡴",
+      "menuId": 27030,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "摁牤獥s⡴"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "This process > Read string",
+      "text": "敒摡瑓楲杮⠤",
+      "menuId": 27040,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "摁牤獥s杮⠤"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Other processes > Read byte",
+      "text": "敒摡牐捯獥䉳瑹⡥",
+      "menuId": 27050,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "摁牤獥s獥䉳瑹⡥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Other processes > Read short",
+      "text": "敒摡牐捯獥即潨瑲(",
+      "menuId": 27060,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "摁牤獥s獥即潨瑲("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Other processes > Read integer",
+      "text": "敒摡牐捯獥䥳瑮来牥(",
+      "menuId": 27070,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "摁牤獥s獥䥳瑮来牥("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Other processes > Read float",
+      "text": "敒摡牐捯獥䙳潬瑡(",
+      "menuId": 27080,
+      "resText": null,
+      "flags": 2,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "摁牤獥s獥䙳潬瑡("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "Other processes > Read string",
+      "text": "敒摡牐捯獥即牴湩⑧(",
+      "menuId": 27090,
+      "resText": null,
+      "flags": 1,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "摁牤獥s獥即牴湩⑧("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "This process > Allocate memory",
+      "text": "汁潬慣整(",
+      "menuId": 27100,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楓敺愀整("
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "Other processes > Allocate memory",
+      "text": "牐捯獥䅳汬捯瑡⡥",
+      "menuId": 27110,
+      "resText": null,
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "楓敺猀䅳汬捯瑡⡥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}

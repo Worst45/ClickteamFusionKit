@@ -1,0 +1,345 @@
+{
+  "file": "MoveIt.mfx",
+  "conditions": [
+    {
+      "code": 0,
+      "menu": "Object finished moving",
+      "text": "漥›扏敪瑣映湩獩敨⁤潭楶杮",
+      "menuId": 26000,
+      "resText": "%o: Object finished moving",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "actions": [
+    {
+      "code": 0,
+      "menu": "Move objects > Move objects in queue with speed",
+      "text": "潍敶漠橢捥獴琠⁯慴杲瑥┠ⰰ┠‱楷桴猠数摥┠2",
+      "menuId": 25000,
+      "resText": "Move objects to target %0, %1 with speed %2",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慔杲瑥堠挀獴琠⁯慴杲瑥┠ⰰ┠‱楷桴猠数摥┠2",
+        "慔杲瑥夠挀獴琠⁯慴杲瑥┠ⰰ┠‱楷桴猠数摥┠2",
+        "灓敥d夠挀獴琠⁯慴杲瑥┠ⰰ┠‱楷桴猠数摥┠2"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "Move objects > Move objects in queue with time",
+      "text": "潍敶漠橢捥獴琠⁯慴杲瑥┠ⰰ┠‱†湩┠′攠敶瑮挠捹敬s",
+      "menuId": 25010,
+      "resText": "Move objects to target %0, %1   in %2  event cycles",
+      "flags": 0,
+      "paramTypes": [
+        22,
+        22,
+        22
+      ],
+      "paramTitles": [
+        "慔杲瑥堠挀獴琠⁯慴杲瑥┠ⰰ┠‱†湩┠′攠敶瑮挠捹敬s",
+        "慔杲瑥夠挀獴琠⁯慴杲瑥┠ⰰ┠‱†湩┠′攠敶瑮挠捹敬s",
+        "楔敭ⴠ†癥湥⁴祣汣獥⠠㔠‰癥湥⁴祣汣獥㴠ㄠ猠捥搠灥湥楤杮漠⁮牦浡牥瑡⁥)"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "Stop movement of objects > Stop movement by using fixed value",
+      "text": "瑓灯洠癯浥湥⁴潦⁲扯敪瑣眠瑩⁨楦數⁤慶畬⁥〥",
+      "menuId": 25020,
+      "resText": "Stop movement for object with fixed value %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "楆數⁤慶畬e⁴潦⁲扯敪瑣眠瑩⁨楦數⁤慶畬⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "Stop movement of objects > Stop movement by using index value",
+      "text": "瑓灯洠癯浥湥⁴潦⁲扯敪瑣眠瑩⁨湩敤⁸慶畬⁥〥",
+      "menuId": 25030,
+      "resText": "Stop movement for object with index value %0",
+      "flags": 0,
+      "paramTypes": [
+        22
+      ],
+      "paramTitles": [
+        "湉敤⁸慶畬e⁴潦⁲扯敪瑣眠瑩⁨湩敤⁸慶畬⁥〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "Stop movement of objects > Stop movement by using selector",
+      "text": "瑓灯洠癯浥湥⁴潦⁲扯敪瑣⁳〥",
+      "menuId": 25040,
+      "resText": "Stop movement for objects %0",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "扏敪瑣瘀浥湥⁴潦⁲扯敪瑣⁳〥"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "Move objects > Add objects to queue",
+      "text": "摁⁤扯敪瑣⁳〥琠⁯畱略e",
+      "menuId": 25050,
+      "resText": "Add objects %0 to queue",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        "敓敬瑣愠⁮扯敪瑣 畱略e"
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "Move objects > Clear queue",
+      "text": "汃慥⁲畱略e",
+      "menuId": 25060,
+      "resText": "Clear queue",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "Stop movement of objects > Stop all",
+      "text": "瑓灯愠汬",
+      "menuId": 25070,
+      "resText": "Stop all",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "Force movement update",
+      "text": "潆捲⁥潭敶敭瑮甠摰瑡e",
+      "menuId": 25080,
+      "resText": "Force movement update",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ],
+  "expressions": [
+    {
+      "code": 0,
+      "menu": "Get number of objects moving",
+      "text": "敇乴浵潍楶杮(",
+      "menuId": 27000,
+      "resText": "GetNumMoving(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 1,
+      "menu": "From fixed value > Get index value",
+      "text": "敇䙴硩摥(",
+      "menuId": 27010,
+      "resText": "GetFixed(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 2,
+      "menu": "From fixed value > Get total distance for object",
+      "text": "敇䑴獩慴据⡥",
+      "menuId": 27020,
+      "resText": "GetDistance(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 3,
+      "menu": "From fixed value > Get remaining distance for object",
+      "text": "敇剴浥楡楮杮(",
+      "menuId": 27030,
+      "resText": "GetRemaining(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 4,
+      "menu": "From fixed value > Get angle of object",
+      "text": "敇䅴杮敬(",
+      "menuId": 27040,
+      "resText": "GetAngle(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 5,
+      "menu": "From fixed value > Get direction of object",
+      "text": "敇䑴物捥楴湯(",
+      "menuId": 27050,
+      "resText": "GetDirection(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 6,
+      "menu": "From index > Get fixed value",
+      "text": "湉敤䙸硩摥(",
+      "menuId": 27060,
+      "resText": "IndexFixed(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 7,
+      "menu": "From index > Get total distance",
+      "text": "湉敤呸瑯污楄瑳湡散(",
+      "menuId": 27070,
+      "resText": "IndexTotalDistance(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 8,
+      "menu": "From index > Get remaining distance",
+      "text": "湉敤剸浥楡楮杮楄瑳湡散(",
+      "menuId": 27080,
+      "resText": "IndexRemainingDistance(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 9,
+      "menu": "From index > Get angle",
+      "text": "湉敤䅸杮敬(",
+      "menuId": 27090,
+      "resText": "IndexAngle(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 10,
+      "menu": "From index > Get direction",
+      "text": "湉敤䑸物(",
+      "menuId": 27100,
+      "resText": "IndexDir(",
+      "flags": 0,
+      "paramTypes": [
+        1
+      ],
+      "paramTitles": [
+        ""
+      ],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    },
+    {
+      "code": 11,
+      "menu": "On object stopped moving > Get fixed value",
+      "text": "湏瑓灯数䙤硩摥(",
+      "menuId": 27110,
+      "resText": "OnStoppedFixed(",
+      "flags": 0,
+      "paramTypes": [],
+      "paramTitles": [],
+      "paramsUnreliable": false,
+      "codeGuessed": false
+    }
+  ]
+}
