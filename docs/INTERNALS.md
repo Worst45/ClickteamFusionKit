@@ -49,6 +49,11 @@ French labels, `data\lang\`, MfaDump's French output, and the "FR" column of the
 `mfa-dump-enhanced`, retest with `NebulaTest`, push to the fork, then commit the new submodule pointer
 in the kit.
 
+**The fork's `README.md`**: "What this fork brings" stays a list of quick bullet points on the main
+features, for a human who only wants to know what the fork adds to the original project. Never replace
+it with a block of text. Each change is described in "Detailed changes" below it; touch the bullet
+points only for a new main feature.
+
 | Commit | Content |
 |---|---|
 | `eadb1c4` | MFA object references (EventObject handles, resolved centrally in `FrameEvents.GetMFAObject` / `GetMFAQualifierName` / `GetMFAObjectName`); rendering of groups (`-1/-10`, `-1/-11`) and `Skip` (`-1/0`); `GroupLookupTable` for MFAs; `ParameterComment` (code 37: font, colors, `TextID` → `FrameEvents.Comments`, byte-exact rewrite); zones from expressions (code 72 + 4 expressions, `ACEventBase.GetZone`); flag names (`MFAAltFlags`); `GetCommitHash` in single-file publish |
