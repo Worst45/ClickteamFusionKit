@@ -124,6 +124,9 @@ iterations × the number of `On loop` events; a few hundred iterations remain ne
   `- 1` often seen in zones).
 - `Mid$(string, start, length)`: `start` begins at **0** (verified in game). Handy for a table of values
   in a string: `Val(Mid$("484338…", n * 2, 2))`.
+- `paragraph$("obj", n)` on a String object: `n` seems to begin at **0**, and an index past the end seems
+  to return the last paragraph **(to verify)**. Symptom seen: with 2 paragraphs, indexes 1 and 2 both
+  returned the second one, without any error.
 
 ## 7b. Pitfalls met in practice
 
