@@ -235,6 +235,9 @@ verify)** otherwise.
   tick later. A fast loop defined in the global events can be started from any frame (verified).
 - **Location of the INI file** (verified): the Ini object without a path writes into
   `%APPDATA%\MMFApplications\<file>.ini`, not into the game folder.
+- **Duplicating a frame copies "Don't include at build time"** (verified): frames made from a template
+  frame with this option keep it. They still start with Run Frame but are missing from Run Application.
+  The export shows it as `DontInclude` in the frame's `flags:` line.
 
 ---
 
@@ -290,10 +293,10 @@ In French (`--lang fr`) the same structure reads `Fenêtre`, `Valeurs globales`,
   `== Objects ==` list; look for them in the included frame. An object can also be in both frames
   (e.g. the player, to place it in each frame): this frame then has its own instance.
 - **Global events** (application properties > Global events): the `GLOBAL EVENTS` block, before the
-  frames, numbered from `#1` like the global events editor. They are added at the end of every frame's
-  events (see §1) but printed only once, not repeated in each frame. A frame whose `flags:` show
-  `DontIncludeGlobalEvents` (frame property "Include global events" unchecked) does not run them
-  **(to verify)**.
+  frames, numbered from `#1` like the global events editor (verified). They are added at the end of
+  every frame's events (see §1) but printed only once, not repeated in each frame. A frame whose
+  `flags:` show `DontIncludeGlobalEvents` (frame property "Include global events" unchecked) does not
+  run them (flag verified).
 - **Objects**: details are shown only when they say something (named or non-default values, animations
   with frames, non-static movements). `movements:` gives the type, the player and the starting
   direction (`24 (down)`). `extension:` gives the extension's name, file, version and the readable text
