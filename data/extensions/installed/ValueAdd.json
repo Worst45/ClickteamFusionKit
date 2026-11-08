@@ -1,0 +1,147 @@
+{
+    "file":  "ValueAdd.mfx",
+    "conditions":  [
+                       {
+                           "code":  0,
+                           "menu":  "Compare to Value",
+                           "text":  "漥›硅⹴䄠瑬‮慖畬⁥ㄥ漠⁦〥┠2",
+                           "menuId":  26000,
+                           "resText":  null,
+                           "flags":  32,
+                           "paramTypes":  [
+                                              1,
+                                              45,
+                                              23
+                                          ],
+                           "paramTitles":  [
+                                               "扏敪瑣⸀䄠瑬‮慖畬⁥ㄥ漠⁦〥┠2",
+                                               "硅整摮摥䄠瑬‮慖畬⁥慎敭 〥┠2",
+                                               "潔䌠浯慰敲䄠慧湩瑳 慎敭 〥┠2"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  1,
+                           "menu":  "Compare to String",
+                           "text":  "漥›硅⹴䄠瑬‮瑓楲杮┠‱景┠‰㈥",
+                           "menuId":  26010,
+                           "resText":  null,
+                           "flags":  32,
+                           "paramTypes":  [
+                                              1,
+                                              45,
+                                              46
+                                          ],
+                           "paramTitles":  [
+                                               "扏敪瑣⸀䄠瑬‮瑓楲杮┠‱景┠‰㈥",
+                                               "硅整摮摥䄠瑬‮牓湩⁧慎敭昀┠‰㈥",
+                                               "潔䌠浯慰敲䄠慧湩瑳 慎敭昀┠‰㈥"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       }
+                   ],
+    "actions":  [
+                    {
+                        "code":  0,
+                        "menu":  "Set Value",
+                        "text":  "漥›敓⁴硅⹴䄠瑬‮慖畬⁥ㄥ漠⁦〥琠⁯㈥",
+                        "menuId":  25000,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+                                           1,
+                                           45,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "扏敪瑣 硅⹴䄠瑬‮慖畬⁥ㄥ漠⁦〥琠⁯㈥",
+                                            "硅整摮摥䄠瑬‮慖畬❥⁳慎敭漀⁦〥琠⁯㈥",
+                                            "敎⁷慖畬e瑬‮慖畬❥⁳慎敭漀⁦〥琠⁯㈥"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  1,
+                        "menu":  "Spread Value",
+                        "text":  "漥›灓敲摡嘠污敵┠′⬨㌥\u2029湩䔠瑸‮汁⹴嘠污敵┠‱景┠0",
+                        "menuId":  25010,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+                                           1,
+                                           45,
+                                           22,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "扏敪瑣攀摡嘠污敵┠′⬨㌥\u2029湩䔠瑸‮汁⹴嘠污敵┠‱景┠0",
+                                            "硅整摮摥䄠瑬‮慖畬❥⁳慎敭渀䔠瑸‮汁⹴嘠污敵┠‱景┠0",
+                                            "瑓牡⁴慖畬e‮慖畬❥⁳慎敭渀䔠瑸‮汁⹴嘠污敵┠‱景┠0",
+                                            "瑓灥嘠污敵"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  2,
+                        "menu":  "Set String",
+                        "text":  "漥›敓⁴硅⹴䄠瑬‮瑓楲杮┠‱景┠‰潴┠2",
+                        "menuId":  25020,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+                                           1,
+                                           45,
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "扏敪瑣 硅⹴䄠瑬‮瑓楲杮┠‱景┠‰潴┠2",
+                                            "硅整摮摥䄠瑬‮瑓楲杮猧丠浡e景┠‰潴┠2",
+                                            "敎⁷慖畬e瑬‮瑓楲杮猧丠浡e景┠‰潴┠2"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    }
+                ],
+    "expressions":  [
+                        {
+                            "code":  0,
+                            "menu":  "Get Value",
+                            "text":  "污⡴",
+                            "menuId":  27000,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1,
+                                               3
+                                           ],
+                            "paramTitles":  [
+                                                "楆數⁤慖畬⁥景传橢捥t",
+                                                "硅整摮摥䄠瑬‮慖畬❥⁳慎敭"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  1,
+                            "menu":  "Get String",
+                            "text":  "污⑴(",
+                            "menuId":  27010,
+                            "resText":  null,
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1,
+                                               3
+                                           ],
+                            "paramTitles":  [
+                                                "楆數⁤慖畬⁥景传橢捥t",
+                                                "硅整摮摥䄠瑬‮瑓楲杮猧丠浡e"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        }
+                    ]
+}

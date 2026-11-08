@@ -4263,6 +4263,52 @@
   "ext|activeshape|A|112": "Set vertical text alignment to Top",
   "ext|activeshape|A|113": "Set vertical text alignment to Center",
   "ext|activeshape|A|114": "Set vertical text alignment to Bottom",
+  "ext|admob|C|-81": "<object>: On Received Ad",
+  "ext|admob|C|-82": "<object>: On Failed Ad",
+  "ext|admob|C|-83": "<object>: On Presented Screen",
+  "ext|admob|C|-84": "<object>: On Dismissed Screen",
+  "ext|admob|C|-85": "<object>: On Leave Application",
+  "ext|admob|C|-86": "<object>: is Interstitial Ready?",
+  "ext|admob|C|-87": "<object>: On Return from Ad",
+  "ext|admob|C|-88": "<object>: On Error",
+  "ext|admob|C|-89": "<object>: On Video Received",
+  "ext|admob|C|-90": "<object>: On Video Failed",
+  "ext|admob|C|-91": "<object>: On Video Shown",
+  "ext|admob|C|-92": "<object>: On Video Dismissed",
+  "ext|admob|C|-93": "<object>: On Video Leave App",
+  "ext|admob|C|-94": "<object>: Is Video loaded?",
+  "ext|admob|C|-95": "<object>: On Video Started",
+  "ext|admob|C|-96": "<object>: On Rewarded Video",
+  "ext|admob|C|-97": "<object>: On Rewarded Interstitial",
+  "ext|admob|C|-98": "Is <object> Mobile initialized?",
+  "ext|admob|A|80": "Set AdMob size to <p0>",
+  "ext|admob|A|81": "Set AdMob position to <p0>",
+  "ext|admob|A|82": "Set AdMob zorder to <p0>",
+  "ext|admob|A|84": "Show Ad Banner",
+  "ext|admob|A|85": "Destroy Ad Banner",
+  "ext|admob|A|86": "Make Interstitial Request",
+  "ext|admob|A|87": "Show Interstitial",
+  "ext|admob|A|88": "Destroy Interstitial",
+  "ext|admob|A|89": "Set Gender to <p0>",
+  "ext|admob|A|90": "Set Location to Latitude <p0> and Longitude <p1>",
+  "ext|admob|A|91": "Set Birthday to <p0>",
+  "ext|admob|A|92": "Set AdMob child-directed treatment to <p0>",
+  "ext|admob|A|93": "Set AdMob test devices to <p0>",
+  "ext|admob|A|94": "Set AdMob background color to <p0>",
+  "ext|admob|A|95": "Set AdMob border color to <p0>",
+  "ext|admob|A|96": "Set AdMob link color to <p0>",
+  "ext|admob|A|97": "Set AdMob text color to <p0>",
+  "ext|admob|A|98": "Set AdMob url color to <p0>",
+  "ext|admob|A|99": "Make Video Request",
+  "ext|admob|A|100": "Show Video",
+  "ext|admob|A|101": "Destroy Video",
+  "ext|admob|A|102": "Set GDPR consent status to <p0>",
+  "ext|admob|A|103": "Set AdMob bottom margin to <p0>",
+  "ext|admob|A|104": "Make Rewarded Interstitial Request",
+  "ext|admob|A|105": "Show Rewarded Interstitial",
+  "ext|admob|A|106": "Destroy Rewarded Interstitial",
+  "ext|admob|A|107": "Set temporal AdUnit ID to <p0>",
+  "ext|admob|A|108": "Destroy all ads",
   "ext|adshow|C|-81": "<object>: Is Playing ?",
   "ext|adshow|C|-82": "<object>: Compare Time Position (<p0>)",
   "ext|adshow|A|80": "<object>: Load Video (<p0>)",
@@ -4739,6 +4785,85 @@
   "ext|androiddialog|A|159": "Dismiss Dialog with Id <p0>",
   "ext|androiddialog|A|160": "Set Font Control to <p0>",
   "ext|androiddialog|A|161": "Set File filter to <p0>",
+  "ext|androidplus|C|-81": "<object>: Is Display set to Center?",
+  "ext|androidplus|C|-82": "<object>: Is Display set to Adjust window?",
+  "ext|androidplus|C|-83": "<object>: Is Display set to Fit inside Bars?",
+  "ext|androidplus|C|-84": "<object>: Is Display set to Fit inside Bars and Adjust Windows?",
+  "ext|androidplus|C|-85": "<object>: Is Display set to Fit outside?",
+  "ext|androidplus|C|-86": "<object>: Is Display set to Stretch to fill?",
+  "ext|androidplus|C|-87": "<object>: Is Touch mode enable?",
+  "ext|androidplus|C|-88": "<object>: Is Device a tablet?",
+  "ext|androidplus|C|-89": "<object>: Is Device natural landscape?",
+  "ext|androidplus|C|-90": "<object>: On return from share OK",
+  "ext|androidplus|C|-91": "<object>: On read locale list",
+  "ext|androidplus|C|-92": "<object>: On read TimeZone list",
+  "ext|androidplus|C|-93": "<object>: Is Expansion available?",
+  "ext|androidplus|C|-94": "<object>: On App return from pause?",
+  "ext|androidplus|C|-95": "<object>: On return from share w/result: <p0>",
+  "ext|androidplus|C|-96": "<object>: On Account dialog OK/Read",
+  "ext|androidplus|C|-97": "<object>: On Account dialog Cancel",
+  "ext|androidplus|C|-98": "<object>: Is Battery opt. ignored?",
+  "ext|androidplus|C|-99": "<object>: Is Assets Expansion available?",
+  "ext|androidplus|A|80": "Save Display Mode",
+  "ext|androidplus|A|81": "Set Display Mode to <p0>",
+  "ext|androidplus|A|82": "Restore Display Mode",
+  "ext|androidplus|A|83": "Refresh Display",
+  "ext|androidplus|A|84": "Disable All Views",
+  "ext|androidplus|A|85": "Enable All Views",
+  "ext|androidplus|A|86": "Start/Stop Joysticks with <p0> and mode <p1>",
+  "ext|androidplus|A|87": "Emulate joystick <p0> with value <p1>",
+  "ext|androidplus|A|88": "Release joystick <p0>",
+  "ext|androidplus|A|89": "Set Preference name to <p0>",
+  "ext|androidplus|A|90": "Save String with Name <p0> and value <p1>",
+  "ext|androidplus|A|91": "Save Integer with Name <p0> and value <p1>",
+  "ext|androidplus|A|92": "Save Float with Name <p0> and value <p1>",
+  "ext|androidplus|A|93": "Save Boolean with Name <p0> and value <p1>",
+  "ext|androidplus|A|94": "Share Image with name <p0> and text <p1>",
+  "ext|androidplus|A|95": "Share text <p0>",
+  "ext|androidplus|A|96": "Set Process Brightness to <p0>",
+  "ext|androidplus|A|97": "Set System Brightness to <p0>",
+  "ext|androidplus|A|98": "Read Locale List",
+  "ext|androidplus|A|99": "Set Language to <p0>",
+  "ext|androidplus|A|100": "Read Timezone List",
+  "ext|androidplus|A|101": "Open Date/Time Settings",
+  "ext|androidplus|A|102": "Start sleep process in <p0>",
+  "ext|androidplus|A|103": "Inject key <p0>",
+  "ext|androidplus|A|104": "Start APK with package name: <p0>",
+  "ext|androidplus|A|105": "Set flashlight to <p0>",
+  "ext|androidplus|A|107": "Set layout to Portrait (sensor: <p0>)",
+  "ext|androidplus|A|108": "Set layout to Landscape (sensor: <p0>)",
+  "ext|androidplus|A|109": "Set layout to Any",
+  "ext|androidplus|A|110": "Set device volume to <p0>",
+  "ext|androidplus|A|111": "Set Immersive mode to <p0>",
+  "ext|androidplus|A|112": "Set action bar color to <p0>",
+  "ext|androidplus|A|113": "Set action bar text color to <p0>",
+  "ext|androidplus|A|114": "Set status bar color to <p0>",
+  "ext|androidplus|A|115": "Set display title mode to <p0>",
+  "ext|androidplus|A|116": "Set display logo mode to <p0>",
+  "ext|androidplus|A|117": "Set display HomeUp mode to <p0>",
+  "ext|androidplus|A|118": "Set action bar title to <p0>",
+  "ext|androidplus|A|119": "Set menu text color to <p0>",
+  "ext|androidplus|A|120": "Set menu display mode to <p0>",
+  "ext|androidplus|A|121": "Set Icon to <p0>",
+  "ext|androidplus|A|122": "Set Logo to <p0>",
+  "ext|androidplus|A|123": "Set Home Logo to <p0>",
+  "ext|androidplus|A|124": "Set Menu Logo to <p0>",
+  "ext|androidplus|A|125": "Create shortcut with name <p0>",
+  "ext|androidplus|A|126": "Set toast message alignment to <p0>",
+  "ext|androidplus|A|127": "Set toast message duration mode to <p0>",
+  "ext|androidplus|A|128": "Set toast message horizontal offset to <p0>",
+  "ext|androidplus|A|129": "Set toast message vertical offset to <p0>",
+  "ext|androidplus|A|130": "Show toast message with text <p0>",
+  "ext|androidplus|A|131": "Open/Ask google email account",
+  "ext|androidplus|A|132": "Request to ignore battery optimizations",
+  "ext|androidplus|A|133": "Free unused memory",
+  "ext|androidplus|A|134": "Refresh JVM memory info every <p0> ms",
+  "ext|androidplus|A|135": "Stop refreshing JVM memory info",
+  "ext|androidplus|A|136": "Set status bar color to <p0> and alpha <p1>",
+  "ext|androidplus|A|137": "Set UI limit mode to <p0>",
+  "ext|androidplus|A|138": "Set OS Game frequency to <p0>",
+  "ext|androidplus|A|139": "Set edge to edge mode to <p0>",
+  "ext|androidplus|A|140": "Set display cutouts mode to <p0>",
   "ext|animpicture|C|-81": "<object>: <p0> Exists in Cache",
   "ext|animpicture|C|-82": "<object>: <p0> Animation is Playing?",
   "ext|animpicture|A|80": "Cache Tileset (<p0>) as (<p1>), Tile size (<p2>, <p3>)",
@@ -5872,6 +5997,56 @@
   "ext|charimage|A|144": "Set Vertical Alignment of Current RC/LF Line to: <p0>",
   "ext|charimage|A|145": "Set Leading of Current Line to: <p0>",
   "ext|charimage|A|146": "Load Text from File: <p0>",
+  "ext|chartboost|C|-81": "<object>: On Interstitial located at <p0> Success",
+  "ext|chartboost|C|-82": "<object>: On Interstitial located at <p0> Failed",
+  "ext|chartboost|C|-83": "<object>: On Interstitial located at <p0> Cached",
+  "ext|chartboost|C|-84": "<object>: On Interstitial located at <p0> Dismissed",
+  "ext|chartboost|C|-85": "<object>: On Interstitial located at <p0> Closed",
+  "ext|chartboost|C|-86": "<object>: On Interstitial located at <p0> Clicked",
+  "ext|chartboost|C|-87": "<object>: On More Apps located at <p0> Success",
+  "ext|chartboost|C|-88": "<object>: On More Apps located at <p0> Failed",
+  "ext|chartboost|C|-89": "<object>: On More Apps located at <p0> Cached",
+  "ext|chartboost|C|-90": "<object>: On More Apps located at <p0> Dismissed",
+  "ext|chartboost|C|-91": "<object>: On More Apps located at <p0> Closed",
+  "ext|chartboost|C|-92": "<object>: On More Apps located at <p0> Clicked",
+  "ext|chartboost|C|-93": "<object>: On Activity Resumed",
+  "ext|chartboost|C|-94": "<object>: On Rewarded Video located at <p0> Success",
+  "ext|chartboost|C|-95": "<object>: On Rewarded Video located at <p0> Failed",
+  "ext|chartboost|C|-96": "<object>: On Rewarded Video located at <p0> Cached",
+  "ext|chartboost|C|-97": "<object>: On Rewarded Video located at <p0> Dismissed",
+  "ext|chartboost|C|-98": "<object>: On Rewarded Video located at <p0> Complete",
+  "ext|chartboost|C|-99": "<object>: On Rewarded Video located at <p0> Closed",
+  "ext|chartboost|C|-100": "<object>: On Rewarded Video located at <p0> Clicked",
+  "ext|chartboost|C|-101": "<object>: On Rewarded Video located at <p0> will Play",
+  "ext|chartboost|C|-102": "<object>: On In Play located at <p0> Failed",
+  "ext|chartboost|C|-103": "<object>: On In Play located at <p0> Cached",
+  "ext|chartboost|C|-104": "<object>: On Pause Click Confirmation",
+  "ext|chartboost|A|80": "Show Interstitial with location <p0>",
+  "ext|chartboost|A|81": "Cache Interstitial with location <p0>",
+  "ext|chartboost|A|82": "Show More Apps with location <p0>",
+  "ext|chartboost|A|83": "Cache More Apps with location <p0>",
+  "ext|chartboost|A|84": "Clear Preload data",
+  "ext|chartboost|A|85": "<object>: Reset Track data",
+  "ext|chartboost|A|86": "<object>: Add Integer <p0> with name <p1>",
+  "ext|chartboost|A|87": "<object>: Add String <p0> with name <p1>",
+  "ext|chartboost|A|88": "<object>: Track Event name <p0> and Id:<p1>",
+  "ext|chartboost|A|89": "<object>: Reset Purchase data",
+  "ext|chartboost|A|90": "<object>: Add Integer <p0> with name <p1>",
+  "ext|chartboost|A|91": "<object>: Add String <p0> with name <p1>",
+  "ext|chartboost|A|92": "<object>: Record Purchase to sku: <p0>, title: <p1>, price: <p2>, currency: <p3> and quantity: <p4>",
+  "ext|chartboost|A|93": "Show No Intertistial until second session to <p0>",
+  "ext|chartboost|A|94": "Display Intertistial to <p0>",
+  "ext|chartboost|A|95": "Request Intertistial to <p0>",
+  "ext|chartboost|A|96": "Display More Apps to <p0>",
+  "ext|chartboost|A|97": "Request More Apps to <p0>",
+  "ext|chartboost|A|98": "Show rewarded video with location <p0>",
+  "ext|chartboost|A|99": "Cache rewarded video with location <p0>",
+  "ext|chartboost|A|100": "Call InPlay with location <p0>",
+  "ext|chartboost|A|101": "Cache InPlay with location <p0>",
+  "ext|chartboost|A|102": "Display Rewarded Video to <p0>",
+  "ext|chartboost|A|103": "Pause Click Confirmation to <p0>",
+  "ext|chartboost|A|104": "Dismiss Ads",
+  "ext|chartboost|A|105": "Set GDPR collection mode to <p0>",
   "ext|chipx|C|-81": "<object> Body <p0> is in Layer <p1>",
   "ext|chipx|C|-82": "<object> On Collision",
   "ext|chipx|C|-83": "<object> On Collision (<p0>)",
@@ -7381,6 +7556,13 @@
   "ext|flocking|A|108": "Loop through all boids within rectangle x:<p1> y:<p2> w:<p3> h:<p4> with loop name <p0>",
   "ext|flocking|A|109": "Loop through all boids with loop name <p0>",
   "ext|flocking|A|110": "Loop through all boids of type <p1> with loop name <p0>",
+  "ext|fontpacker|C|-81": "<object>: On Internal Fonts Read",
+  "ext|fontpacker|C|-82": "<object>: On Packed Fonts Read",
+  "ext|fontpacker|C|-83": "<object>: Is Internal font <p0> available?",
+  "ext|fontpacker|C|-84": "<object>: Is Packed font <p0> available?",
+  "ext|fontpacker|C|-85": "<object>: On Error Ocurred",
+  "ext|fontpacker|A|80": "<object>: Read Internal Fonts",
+  "ext|fontpacker|A|81": "<object>: Read Packed Fonts",
   "ext|foreach|C|-81": "<object> : On ForEach loop: <p0>",
   "ext|foreach|C|-82": "<object> : ForEach loop: <p0> is paused",
   "ext|foreach|C|-83": "<object> : Object <p0> is part of ForEach loop: <p1>",
@@ -7425,6 +7607,24 @@
   "ext|functioneggtimer|A|85": "Cancel current function",
   "ext|functioneggtimer|A|86": "Call <p0> immedeatly with optional repeat delay of <p1>",
   "ext|functioneggtimer|A|87": "Clear function queue",
+  "ext|gdprconsent|C|-81": "<object>: On form loaded",
+  "ext|gdprconsent|C|-82": "<object>: On form failed",
+  "ext|gdprconsent|C|-83": "<object>: On form opened",
+  "ext|gdprconsent|C|-84": "<object>: On form closed",
+  "ext|gdprconsent|C|-85": "Is <object>: Ads free?",
+  "ext|gdprconsent|C|-86": "Is <object>: consent status <p0> ?",
+  "ext|gdprconsent|C|-87": "<object>: On Error",
+  "ext|gdprconsent|C|-88": "Is <object>: Ads enabled?",
+  "ext|gdprconsent|C|-89": "Is <object>: consent form available?",
+  "ext|gdprconsent|C|-90": "Is <object>: privacy required?",
+  "ext|gdprconsent|C|-91": "Is <object>: GDPR area?",
+  "ext|gdprconsent|A|80": "Set user under age of 13 to <p0>",
+  "ext|gdprconsent|A|81": "Load consent form",
+  "ext|gdprconsent|A|82": "Show consent form",
+  "ext|gdprconsent|A|83": "Set Debug Geography mode to <p0> and devices list <p1>",
+  "ext|gdprconsent|A|84": "Reset consent",
+  "ext|gdprconsent|A|85": "Ask consent form if needed",
+  "ext|gdprconsent|A|86": "Ask privacy form if needed",
   "ext|get|C|-81": "<object>: On get complete",
   "ext|get|C|-82": "<object>: Get is pending",
   "ext|get|C|-83": "<object>: On get timeout",
@@ -7799,6 +7999,59 @@
   "ext|inandoutcontroller|A|83": "Position object at end",
   "ext|inandoutcontroller|A|84": "Move object in",
   "ext|inandoutcontroller|A|85": "Move object out",
+  "ext|inappandroid|C|-81": "<object>: On Query Inventory Ready",
+  "ext|inappandroid|C|-82": "<object>: Purchase Id:<p0> was Ok",
+  "ext|inappandroid|C|-83": "<object>: Purchase Id:<p0> failed",
+  "ext|inappandroid|C|-84": "<object>: Subscription Id:<p0> was Ok",
+  "ext|inappandroid|C|-85": "<object>: Subscription Id:<p0> failed",
+  "ext|inappandroid|C|-86": "<object>: Purchased Id:<p0> was consumed",
+  "ext|inappandroid|C|-87": "<object>: Subscription Id:<p0> was consumed",
+  "ext|inappandroid|C|-88": "<object>: Is Sku <p0> purchased",
+  "ext|inappandroid|C|-89": "<object>: Is Sku=<p0> in Subscription",
+  "ext|inappandroid|C|-90": "<object>: Is Billing Available",
+  "ext|inappandroid|C|-91": "<object>: Is Billing Busy",
+  "ext|inappandroid|C|-92": "<object>: On Error",
+  "ext|inappandroid|C|-93": "<object>: On Store Notification",
+  "ext|inappandroid|C|-94": "<object>: Is Sku <p0> refunded",
+  "ext|inappandroid|C|-95": "<object>: Is Sku <p0> canceled",
+  "ext|inappandroid|C|-96": "<object>: On Inventory update",
+  "ext|inappandroid|C|-97": "<object>: On Purchases update",
+  "ext|inappandroid|C|-98": "<object>: Purchase Id:<p0> was acknowledged",
+  "ext|inappandroid|C|-99": "<object>: Subscription Id:<p0> was acknowledged",
+  "ext|inappandroid|C|-100": "<object>: Is Sku <p0> acknowledged",
+  "ext|inappandroid|C|-101": "<object>: On Puchases history update",
+  "ext|inappandroid|C|-102": "<object>: Subscription Id:<p0> price change accepted",
+  "ext|inappandroid|C|-103": "<object>: Subscription Id:<p0> price change failed",
+  "ext|inappandroid|C|-104": "<object>: On Restore activity - back from store",
+  "ext|inappandroid|C|-105": "<object>: On Purchases empty",
+  "ext|inappandroid|C|-106": "<object>: Is Subscription <p0> in grace period?",
+  "ext|inappandroid|C|-107": "<object>: Is Subscription <p0> ending before <p1> days",
+  "ext|inappandroid|C|-108": "<object>: Is Sku <p0> pending?",
+  "ext|inappandroid|C|-109": "<object>: Purchase Id:<p0> is pending",
+  "ext|inappandroid|C|-110": "<object>: Subscription Id:<p0> is pending",
+  "ext|inappandroid|A|80": "Query Inventory for theses SKUs <p0>",
+  "ext|inappandroid|A|81": "Set Developer Payload to <p0>",
+  "ext|inappandroid|A|82": "Purchase SKU:<p0> with Id:<p1>",
+  "ext|inappandroid|A|83": "Subscription SKU:<p0> with Id:<p1>",
+  "ext|inappandroid|A|84": "Consume SKU:<p0> with Id:<p1>",
+  "ext|inappandroid|A|85": "Save string <p0> and name <p1>",
+  "ext|inappandroid|A|86": "Save int <p0> and name <p1>",
+  "ext|inappandroid|A|87": "Query purchases",
+  "ext|inappandroid|A|88": "Subscription upgrade from sku:<p0> to sku:<p1> with mode:<p2> and Id:<p3>",
+  "ext|inappandroid|A|89": "Subscription downgrade from sku=<p0> to sku=<p1> with mode:<p2> and Id:<p3>",
+  "ext|inappandroid|A|90": "Subscription change price of sku:<p0> with Id:<p1>",
+  "ext|inappandroid|A|91": "Acknowledge SKU:<p0> with Id:<p1>",
+  "ext|inappandroid|A|92": "Query purchases history",
+  "ext|inappandroid|A|93": "Query Sku details",
+  "ext|inappandroid|A|94": "Set Obfuscate Account Id to <p0>",
+  "ext|inappandroid|A|95": "Set Obfuscate Profile Id to <p0>",
+  "ext|inappandroid|A|96": "Set InApps skus list to <p0>",
+  "ext|inappandroid|A|97": "Set Subscriptions skus list to <p0>",
+  "ext|inappandroid|A|98": "Restore subscription for SKU:<p0>",
+  "ext|inappandroid|A|99": "Check validity of subscriptions",
+  "ext|inappandroid|A|100": "Subscription SKU:<p0> and Offer:<p1> with Id:<p2>",
+  "ext|inappandroid|A|101": "Subscription change of sku:<p0> to offer:<p1> and mode:<p2> with Id:<p3>",
+  "ext|inappandroid|A|102": "Set Pending Message to <p0>",
   "ext|ini++|C|-81": "<object>: Current group exists",
   "ext|ini++|C|-82": "<object>: Current group has item <p0>",
   "ext|ini++|C|-83": "<object>: <p0> in current group is equal to <p2> with default value <p1> (hashed)",
@@ -9875,6 +10128,50 @@
   "ext|layer|A|131": "Set RGB coefficient of layer <p0> to <p1>",
   "ext|layer|A|132": "Set effect image parameter <p1> of layer <p0> to <p2>",
   "ext|layer|A|133": "Set effect image parameter <p1> of layer <p0> to <p2>",
+  "ext|leadbolt|C|-81": "<object>: Display Ad On Progress",
+  "ext|leadbolt|C|-82": "<object>: Display Ad Loaded",
+  "ext|leadbolt|C|-83": "<object>: Display Ad Failed",
+  "ext|leadbolt|C|-84": "<object>: Display Ad Clicked",
+  "ext|leadbolt|C|-85": "<object>: Display Ad Closed",
+  "ext|leadbolt|C|-86": "<object>: Display Ad Completed",
+  "ext|leadbolt|C|-87": "<object>: Display Ad Already Completed",
+  "ext|leadbolt|C|-88": "<object>: Display Ad Paused",
+  "ext|leadbolt|C|-89": "<object>: Display Ad Resumed",
+  "ext|leadbolt|C|-90": "<object>: Audio Ad On Progress",
+  "ext|leadbolt|C|-91": "<object>: Audio Ad Loaded",
+  "ext|leadbolt|C|-92": "<object>: Audio Ad Finished",
+  "ext|leadbolt|C|-93": "<object>: Audio Ad Failed",
+  "ext|leadbolt|C|-94": "<object>: Audio Ad Closed",
+  "ext|leadbolt|C|-95": "<object>: Audio Ad Clicked",
+  "ext|leadbolt|C|-98": "<object>: On Activity Resumed",
+  "ext|leadbolt|C|-99": "<object>: On Any Ad Error",
+  "ext|leadbolt|C|-100": "<object>: Display Ad Cached",
+  "ext|leadbolt|C|-101": "<object>: Audio Ad Cached",
+  "ext|leadbolt|C|-102": "<object>: On Regular Ad Loaded with location <p0>",
+  "ext|leadbolt|C|-103": "<object>: On Regualr Ad Failed with location <p0>",
+  "ext|leadbolt|C|-104": "<object>: On Regular Ad Clicked with location <p0>",
+  "ext|leadbolt|C|-105": "<object>: On Regular Ad Closed with location <p0>",
+  "ext|leadbolt|C|-106": "<object>: On Regular Ad Cached with location <p0>",
+  "ext|leadbolt|C|-107": "<object>: On Video Ad Loaded",
+  "ext|leadbolt|C|-108": "<object>: On Video Ad Failed",
+  "ext|leadbolt|C|-109": "<object>: On Video Ad Clicked",
+  "ext|leadbolt|C|-110": "<object>: On Video Ad Closed",
+  "ext|leadbolt|C|-111": "<object>: On Video Ad Cached",
+  "ext|leadbolt|C|-112": "<object>: On Video Ad Complete",
+  "ext|leadbolt|A|80": "Set Banner size to <p0>",
+  "ext|leadbolt|A|81": "Set Additional Docking Margin to <p0>",
+  "ext|leadbolt|A|82": "Set Display Interval Progress to <p0>",
+  "ext|leadbolt|A|83": "Load a Display Ad",
+  "ext|leadbolt|A|84": "Pause Display Ad",
+  "ext|leadbolt|A|85": "Resume Display Ad",
+  "ext|leadbolt|A|86": "Destroy Display Ad",
+  "ext|leadbolt|A|87": "Set Audio Interval Progress to <p0>",
+  "ext|leadbolt|A|88": "Load an Audio Ad",
+  "ext|leadbolt|A|93": "Load a Display Ad to cache",
+  "ext|leadbolt|A|94": "Load Ad with location <p0>",
+  "ext|leadbolt|A|95": "Cache Ad with location <p0>",
+  "ext|leadbolt|A|96": "Load Video Ad",
+  "ext|leadbolt|A|97": "Cache Video Ad",
   "ext|lens|A|80": "Update",
   "ext|lens|A|81": "Load image: <p0>",
   "ext|lens|A|82": "Stretch to <p0>, <p1>",
@@ -14134,6 +14431,26 @@
    "Text$(",
    0
   ],
+  "ext|admob|80": [
+   "LastError$(",
+   0
+  ],
+  "ext|admob|81": [
+   "GetDeviceIdAdMob$(",
+   0
+  ],
+  "ext|admob|82": [
+   "RewardType$(",
+   0
+  ],
+  "ext|admob|83": [
+   "RewardAmount(",
+   0
+  ],
+  "ext|admob|84": [
+   "GDPRStatusValue(",
+   0
+  ],
   "ext|adshow|80": [
    "GetWidth(",
    0
@@ -15220,6 +15537,194 @@
   ],
   "ext|androiddialog|112": [
    "MenuStringRet$(",
+   0
+  ],
+  "ext|androidplus|80": [
+   "GetDisplayMode(",
+   0
+  ],
+  "ext|androidplus|81": [
+   "GetSaveDisplayMode(",
+   0
+  ],
+  "ext|androidplus|82": [
+   "GetOriginalDisplayMode(",
+   0
+  ],
+  "ext|androidplus|83": [
+   "GetScreenSizeInches(",
+   0
+  ],
+  "ext|androidplus|84": [
+   "GetScreenSizeWidth(",
+   0
+  ],
+  "ext|androidplus|85": [
+   "GetScreenSizeHeight(",
+   0
+  ],
+  "ext|androidplus|86": [
+   "GetScreenDPIHorizontal(",
+   0
+  ],
+  "ext|androidplus|87": [
+   "GetScreenDPIVertical(",
+   0
+  ],
+  "ext|androidplus|88": [
+   "GetScreenDensityDPI(",
+   0
+  ],
+  "ext|androidplus|89": [
+   "GetScreenDensityRatio(",
+   0
+  ],
+  "ext|androidplus|90": [
+   "GetPrefString$(",
+   1
+  ],
+  "ext|androidplus|91": [
+   "GetPrefInteger(",
+   1
+  ],
+  "ext|androidplus|92": [
+   "GetPrefFloat(",
+   1
+  ],
+  "ext|androidplus|93": [
+   "GetPrefBoolean(",
+   1
+  ],
+  "ext|androidplus|94": [
+   "GetProcessBright(",
+   0
+  ],
+  "ext|androidplus|95": [
+   "GetSystemBright(",
+   0
+  ],
+  "ext|androidplus|96": [
+   "GetLocaleQty(",
+   0
+  ],
+  "ext|androidplus|97": [
+   "GetLocale$(",
+   1
+  ],
+  "ext|androidplus|98": [
+   "GetLocaleCountry$(",
+   1
+  ],
+  "ext|androidplus|99": [
+   "GetDefaultLocale$(",
+   0
+  ],
+  "ext|androidplus|100": [
+   "GetTimezoneQty(",
+   0
+  ],
+  "ext|androidplus|101": [
+   "GetTimezoneID$(",
+   1
+  ],
+  "ext|androidplus|102": [
+   "GetTimezoneGMT$(",
+   1
+  ],
+  "ext|androidplus|103": [
+   "GetDefaultTimezoneID$(",
+   0
+  ],
+  "ext|androidplus|104": [
+   "GetDefaultTimezoneGMT$(",
+   0
+  ],
+  "ext|androidplus|105": [
+   "GetUniqueHardwareID$(",
+   0
+  ],
+  "ext|androidplus|106": [
+   "GetDeviceVolume(",
+   0
+  ],
+  "ext|androidplus|107": [
+   "DarkerColor(",
+   1
+  ],
+  "ext|androidplus|108": [
+   "LighterColor(",
+   1
+  ],
+  "ext|androidplus|109": [
+   "ActionbarHeight(",
+   0
+  ],
+  "ext|androidplus|110": [
+   "ActionbarColor(",
+   0
+  ],
+  "ext|androidplus|111": [
+   "GetGoogleAccountemail$(",
+   0
+  ],
+  "ext|androidplus|112": [
+   "TotalJVMMemoryMB(",
+   0
+  ],
+  "ext|androidplus|113": [
+   "FreeJVMMemoryMB(",
+   0
+  ],
+  "ext|androidplus|114": [
+   "UsedJVMMemoryMB(",
+   0
+  ],
+  "ext|androidplus|115": [
+   "MaxJVMMemoryMB(",
+   0
+  ],
+  "ext|androidplus|116": [
+   "NativeMemoryMB(",
+   0
+  ],
+  "ext|androidplus|117": [
+   "GetScreenViewWidth(",
+   0
+  ],
+  "ext|androidplus|118": [
+   "GetScreenViewHeight(",
+   0
+  ],
+  "ext|androidplus|119": [
+   "GetVirtualKeyboardHeight(",
+   0
+  ],
+  "ext|androidplus|120": [
+   "GetDefaultCountry$(",
+   0
+  ],
+  "ext|androidplus|121": [
+   "SafeAreaLeft(",
+   0
+  ],
+  "ext|androidplus|122": [
+   "SafeAreaTop(",
+   0
+  ],
+  "ext|androidplus|123": [
+   "SafeAreaRight(",
+   0
+  ],
+  "ext|androidplus|124": [
+   "SafeAreaBottom(",
+   0
+  ],
+  "ext|androidplus|125": [
+   "GetOSGameMode(",
+   0
+  ],
+  "ext|androidplus|126": [
+   "GetOSGameFreq(",
    0
   ],
   "ext|animinfo|80": [
@@ -17517,6 +18022,42 @@
   "ext|charimage|119": [
    "CharHeightChar(",
    2
+  ],
+  "ext|chartboost|80": [
+   "Error(",
+   0
+  ],
+  "ext|chartboost|81": [
+   "LastCacheLocation$(",
+   0
+  ],
+  "ext|chartboost|82": [
+   "DisplayIntersFlag(",
+   0
+  ],
+  "ext|chartboost|83": [
+   "RequestIntersFlag(",
+   0
+  ],
+  "ext|chartboost|84": [
+   "DisplayMoreAppsFlag(",
+   0
+  ],
+  "ext|chartboost|85": [
+   "RequestMoreAppsFlag(",
+   0
+  ],
+  "ext|chartboost|86": [
+   "GetRewardedCoins(",
+   0
+  ],
+  "ext|chartboost|87": [
+   "DisplayRewVideoFlag(",
+   0
+  ],
+  "ext|chartboost|88": [
+   "Error$(",
+   0
   ],
   "ext|chipx|80": [
    "WorldGravityX(",
@@ -21282,6 +21823,34 @@
    "FMod(",
    2
   ],
+  "ext|fontpacker|80": [
+   "IntenalFontsQty(",
+   0
+  ],
+  "ext|fontpacker|81": [
+   "IntenalFontName$(",
+   1
+  ],
+  "ext|fontpacker|82": [
+   "PackedFontsQty(",
+   0
+  ],
+  "ext|fontpacker|83": [
+   "PackedFontName$(",
+   1
+  ],
+  "ext|fontpacker|84": [
+   "FontDefaultSize(",
+   0
+  ],
+  "ext|fontpacker|85": [
+   "FontDefaultStyle(",
+   0
+  ],
+  "ext|fontpacker|86": [
+   "LastError(",
+   0
+  ],
   "ext|foreach|80": [
    "LoopFV(",
    1
@@ -21360,6 +21929,34 @@
   ],
   "ext|functioneggtimer|83": [
    "RemainingRepeats(",
+   0
+  ],
+  "ext|gdprconsent|80": [
+   "ConsentGDPRStatus(",
+   0
+  ],
+  "ext|gdprconsent|81": [
+   "DebugGDPRMode(",
+   0
+  ],
+  "ext|gdprconsent|82": [
+   "GDPRAdaptersList$(",
+   0
+  ],
+  "ext|gdprconsent|83": [
+   "Error$(",
+   0
+  ],
+  "ext|gdprconsent|84": [
+   "CanShowCommonAds(",
+   0
+  ],
+  "ext|gdprconsent|85": [
+   "CanShowPersonalizedAds(",
+   0
+  ],
+  "ext|gdprconsent|86": [
+   "GDPR_Value(",
    0
   ],
   "ext|get|80": [
@@ -22017,6 +22614,238 @@
   "ext|imageconv|85": [
    "get BPP(",
    0
+  ],
+  "ext|inappandroid|80": [
+   "ErrorValue(",
+   0
+  ],
+  "ext|inappandroid|81": [
+   "ErrorString$(",
+   0
+  ],
+  "ext|inappandroid|82": [
+   "Response(",
+   0
+  ],
+  "ext|inappandroid|83": [
+   "ResponseString$(",
+   0
+  ],
+  "ext|inappandroid|84": [
+   "InventoryQty(",
+   0
+  ],
+  "ext|inappandroid|85": [
+   "PurchasedQty(",
+   0
+  ],
+  "ext|inappandroid|86": [
+   "LoadData$(",
+   1
+  ],
+  "ext|inappandroid|87": [
+   "LoadDataInt(",
+   1
+  ],
+  "ext|inappandroid|88": [
+   "ProductId$(",
+   1
+  ],
+  "ext|inappandroid|89": [
+   "ProductType$(",
+   1
+  ],
+  "ext|inappandroid|90": [
+   "ProductPrice$(",
+   1
+  ],
+  "ext|inappandroid|91": [
+   "ProductTitle$(",
+   1
+  ],
+  "ext|inappandroid|92": [
+   "ProductDescription$(",
+   1
+  ],
+  "ext|inappandroid|93": [
+   "POrderId$(",
+   1
+  ],
+  "ext|inappandroid|94": [
+   "PPackageName$(",
+   1
+  ],
+  "ext|inappandroid|95": [
+   "PProductId$(",
+   1
+  ],
+  "ext|inappandroid|96": [
+   "PurchaseTime$(",
+   1
+  ],
+  "ext|inappandroid|97": [
+   "PurchaseState(",
+   1
+  ],
+  "ext|inappandroid|98": [
+   "DevPayLoad$(",
+   1
+  ],
+  "ext|inappandroid|99": [
+   "PurchaseToken$(",
+   1
+  ],
+  "ext|inappandroid|100": [
+   "ProductAmount(",
+   1
+  ],
+  "ext|inappandroid|101": [
+   "ProductCurrency$(",
+   1
+  ],
+  "ext|inappandroid|102": [
+   "GetUniqueToken$(",
+   1
+  ],
+  "ext|inappandroid|103": [
+   "GetSubsPeriod$(",
+   1
+  ],
+  "ext|inappandroid|104": [
+   "GetSubsFreeTrialPeriod$(",
+   1
+  ],
+  "ext|inappandroid|105": [
+   "GetSubsIntroductoryPrice$(",
+   1
+  ],
+  "ext|inappandroid|106": [
+   "GetSubsPriceAmount(",
+   1
+  ],
+  "ext|inappandroid|107": [
+   "GetSubsPricePeriod$(",
+   1
+  ],
+  "ext|inappandroid|108": [
+   "GetSubsPriceCycles(",
+   1
+  ],
+  "ext|inappandroid|109": [
+   "ProductJSON$(",
+   1
+  ],
+  "ext|inappandroid|110": [
+   "ProductIsAutoRenewing(",
+   1
+  ],
+  "ext|inappandroid|111": [
+   "RecordQty(",
+   0
+  ],
+  "ext|inappandroid|112": [
+   "PurchaseRecordSku$(",
+   1
+  ],
+  "ext|inappandroid|113": [
+   "PurchaseRecordToken$(",
+   1
+  ],
+  "ext|inappandroid|114": [
+   "PurchaseRecordTime$(",
+   1
+  ],
+  "ext|inappandroid|115": [
+   "PurchaseRecordSignature$(",
+   1
+  ],
+  "ext|inappandroid|116": [
+   "PurchaseRecordDevPayload$(",
+   1
+  ],
+  "ext|inappandroid|117": [
+   "PurchaseRecordJSON$(",
+   1
+  ],
+  "ext|inappandroid|118": [
+   "PurchaseObfuscateAccountId$(",
+   1
+  ],
+  "ext|inappandroid|119": [
+   "PurchaseObfuscateProfileId$(",
+   1
+  ],
+  "ext|inappandroid|120": [
+   "PurchaseAcknowledged(",
+   1
+  ],
+  "ext|inappandroid|121": [
+   "GetIndexfromSKU(",
+   1
+  ],
+  "ext|inappandroid|122": [
+   "FormatStringTime$(",
+   1
+  ],
+  "ext|inappandroid|123": [
+   "SubExpireTimePeriod$(",
+   1
+  ],
+  "ext|inappandroid|124": [
+   "SubExpireTimeFreeTrialPeriod$(",
+   1
+  ],
+  "ext|inappandroid|125": [
+   "BasePlanQty(",
+   1
+  ],
+  "ext|inappandroid|126": [
+   "BasePlanOfferToken$(",
+   2
+  ],
+  "ext|inappandroid|127": [
+   "BasePlanID$(",
+   2
+  ],
+  "ext|inappandroid|128": [
+   "BaseOfferID$(",
+   2
+  ],
+  "ext|inappandroid|129": [
+   "BasePlanPricingQty(",
+   2
+  ],
+  "ext|inappandroid|130": [
+   "PricingAmountMicros$(",
+   3
+  ],
+  "ext|inappandroid|131": [
+   "PricingCurrencyCode$(",
+   3
+  ],
+  "ext|inappandroid|132": [
+   "PricingFormattedPrice$(",
+   3
+  ],
+  "ext|inappandroid|133": [
+   "PricingBillingPeriod$(",
+   3
+  ],
+  "ext|inappandroid|134": [
+   "PricingRecurrenceMode$(",
+   3
+  ],
+  "ext|inappandroid|135": [
+   "PricingBillingCycles(",
+   3
+  ],
+  "ext|inappandroid|136": [
+   "BasePlanOfferTagsQty(",
+   2
+  ],
+  "ext|inappandroid|137": [
+   "BasePlanOfferTags$(",
+   3
   ],
   "ext|ini++|80": [
    "GetItemValueG(",
@@ -25825,6 +26654,18 @@
   "ext|layer|105": [
    "lyrGetLayerBnRGB(",
    1
+  ],
+  "ext|leadbolt|80": [
+   "Error(",
+   0
+  ],
+  "ext|leadbolt|81": [
+   "LastBannerSize(",
+   0
+  ],
+  "ext|leadbolt|83": [
+   "LastLocation$(",
+   0
   ],
   "ext|lens|80": [
    "SizeX(",

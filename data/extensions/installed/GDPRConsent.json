@@ -1,0 +1,414 @@
+{
+    "file":  "GDPRConsent.mfx",
+    "conditions":  [
+                       {
+                           "code":  0,
+                           "menu":  "On Form Loaded",
+                           "text":  "",
+                           "menuId":  26000,
+                           "resText":  "%o: On form loaded",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  1,
+                           "menu":  "On Form Failed ",
+                           "text":  "",
+                           "menuId":  26010,
+                           "resText":  "%o: On form failed",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  2,
+                           "menu":  "On Form Opened",
+                           "text":  "",
+                           "menuId":  26020,
+                           "resText":  "%o: On form opened",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  3,
+                           "menu":  "On Form Closed",
+                           "text":  "",
+                           "menuId":  26030,
+                           "resText":  "%o: On form closed",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  4,
+                           "menu":  "Is Ads free preferred?",
+                           "text":  "",
+                           "menuId":  26040,
+                           "resText":  "Is %o: Ads free?",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  5,
+                           "menu":  "Is Consent Status?",
+                           "text":  "",
+                           "menuId":  26050,
+                           "resText":  "Is %o: consent status %0 ?",
+                           "flags":  544,
+                           "paramTypes":  [
+                                              22
+                                          ],
+                           "paramTitles":  [
+                                               "Consent Status (-1:Unknown, 0:Not Required, 1:Required, 2:Obtained)"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  6,
+                           "menu":  "On Error",
+                           "text":  "",
+                           "menuId":  26060,
+                           "resText":  "%o: On Error",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  7,
+                           "menu":  "Is Ads show enabled?",
+                           "text":  "",
+                           "menuId":  26070,
+                           "resText":  "Is %o: Ads enabled?",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  8,
+                           "menu":  "Is Consent Form available?",
+                           "text":  "",
+                           "menuId":  26080,
+                           "resText":  "Is %o: consent form available?",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  9,
+                           "menu":  "Is Privacy Form required?",
+                           "text":  "",
+                           "menuId":  26090,
+                           "resText":  "Is %o: privacy required?",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  10,
+                           "menu":  "Is GDPR Area?",
+                           "text":  "",
+                           "menuId":  26100,
+                           "resText":  "Is %o: GDPR area?",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       }
+                   ],
+    "conditions_status":  "resource menu",
+    "actions":  [
+                    {
+                        "code":  0,
+                        "menu":  "Set User Under Age",
+                        "text":  "",
+                        "menuId":  25000,
+                        "resText":  "Set user under age of 13 to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Under Age (0: No default, 1: Yes)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  1,
+                        "menu":  "Load consent form",
+                        "text":  "",
+                        "menuId":  25010,
+                        "resText":  "Load consent form",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  2,
+                        "menu":  "Show consent form",
+                        "text":  "",
+                        "menuId":  25020,
+                        "resText":  "Show consent form",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  3,
+                        "menu":  "Set Debug Geography ",
+                        "text":  "",
+                        "menuId":  25030,
+                        "resText":  "Set Debug Geography mode to %0 and devices list %1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22,
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "EU Geography Mode (0:Disabled, 1:EEA, 2:Non EEA)",
+                                            "Test Device Ids list (separated by commas)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  4,
+                        "menu":  "Reset Consent",
+                        "text":  "",
+                        "menuId":  25040,
+                        "resText":  "Reset consent",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  5,
+                        "menu":  "Ask Consent if Needed",
+                        "text":  "",
+                        "menuId":  25050,
+                        "resText":  "Ask consent form if needed",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  6,
+                        "menu":  "Ask Privacy if Needed",
+                        "text":  "",
+                        "menuId":  25060,
+                        "resText":  "Ask privacy form if needed",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    }
+                ],
+    "actions_status":  "resource menu",
+    "expressions":  [
+                        {
+                            "code":  0,
+                            "menu":  "Consent GDPR Status",
+                            "text":  "",
+                            "menuId":  27010,
+                            "resText":  "ConsentGDPRStatus(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  1,
+                            "menu":  "Debug Geography Mode",
+                            "text":  "",
+                            "menuId":  27020,
+                            "resText":  "DebugGDPRMode(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  2,
+                            "menu":  "Adapters List as String",
+                            "text":  "",
+                            "menuId":  27030,
+                            "resText":  "GDPRAdaptersList$(",
+                            "flags":  1,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  3,
+                            "menu":  "Get Last Error",
+                            "text":  "",
+                            "menuId":  27040,
+                            "resText":  "Error$(",
+                            "flags":  1,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  4,
+                            "menu":  "Can Show Non-Person. Ads",
+                            "text":  "",
+                            "menuId":  27050,
+                            "resText":  "CanShowCommonAds(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  5,
+                            "menu":  "Can Show Personalized Ads",
+                            "text":  "",
+                            "menuId":  27060,
+                            "resText":  "CanShowPersonalizedAds(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  6,
+                            "menu":  "GDPR applies value",
+                            "text":  "",
+                            "menuId":  27070,
+                            "resText":  "GDPR_Value(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        }
+                    ],
+    "expressions_status":  "resource menu"
+}

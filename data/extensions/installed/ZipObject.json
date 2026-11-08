@@ -1,0 +1,655 @@
+{
+    "file":  "ZipObject.mfx",
+    "conditions":  [
+                       {
+                           "code":  0,
+                           "menu":  "Zip Open?",
+                           "text":  "漥䤠⁳楚⁰灏湥",
+                           "menuId":  26000,
+                           "resText":  "%o Is Zip Open",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  1,
+                           "menu":  "Is Slot A File?",
+                           "text":  "漥䤠⁳汓瑯›〥愠映汩㽥",
+                           "menuId":  26050,
+                           "resText":  "%o Is Slot: %0 a file?",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              22
+                                          ],
+                           "paramTitles":  [
+                                               "汓瑯丠浵敢r〥愠映汩㽥"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  2,
+                           "menu":  "Threads Enabled?",
+                           "text":  "漥䄠敲吠牨慥獤䔠慮汢摥?",
+                           "menuId":  26010,
+                           "resText":  "%o Are Threads Enabled?",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  3,
+                           "menu":  "ZIP \u003e File Added",
+                           "text":  "漥䘠汩⁥摁敤⁤畓散獳畦汬y",
+                           "menuId":  26020,
+                           "resText":  "%o File Added Sucessfully",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  4,
+                           "menu":  "ZIP \u003e Folder Added",
+                           "text":  "漥䘠汯敤⁲摁敤⁤畓散獳畦汬y",
+                           "menuId":  26030,
+                           "resText":  "%o Folder Added Sucessfully",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  6,
+                           "menu":  "UnZIP \u003e File Unzipped",
+                           "text":  "漥䘠汩⁥湕楺灰摥匠捵獥晳汵祬",
+                           "menuId":  26090,
+                           "resText":  "%o File Unzipped Sucessfully",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  7,
+                           "menu":  "Errors \u003e Error: Password Needed",
+                           "text":  "漥䔠牲牯›敎摥⁳慐獳潷摲",
+                           "menuId":  26060,
+                           "resText":  "%o Error: Needs Password",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  8,
+                           "menu":  "Errors \u003e Error: Corrupt Archive",
+                           "text":  "漥䔠牲牯›潃牲灵⁴牁档癩e",
+                           "menuId":  26070,
+                           "resText":  "%o Error: Corrupt Archive",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  9,
+                           "menu":  "Errors \u003e Error: File Doesn\u0027t Exist",
+                           "text":  "漥䔠牲牯›楆敬䐠敯湳琧䔠楸瑳",
+                           "menuId":  26080,
+                           "resText":  "%o Error: File Doesn\u0027t Exist",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  11,
+                           "menu":  "UnZIP \u003e On Archive Progress",
+                           "text":  "漥传⁮湕楺⁰牐杯敲獳",
+                           "menuId":  26110,
+                           "resText":  "%o On Unzip Progress",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       }
+                   ],
+    "actions":  [
+                    {
+                        "code":  0,
+                        "menu":  "Open Zip",
+                        "text":  "灏湥娠灩›〥",
+                        "menuId":  25000,
+                        "resText":  "Open Zip: %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "楚⁰慐桴 〥"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  1,
+                        "menu":  "Set Password",
+                        "text":  "敓⁴慐獳潷摲›〥",
+                        "menuId":  25010,
+                        "resText":  "Set Password: %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "慐獳潷摲漀摲›〥"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  2,
+                        "menu":  "ZIP \u003e Add File",
+                        "text":  "摁⁤楆敬›〥",
+                        "menuId":  25020,
+                        "resText":  "Add File: %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "楆敬倠瑡h〥"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  3,
+                        "menu":  "ZIP \u003e Add File As",
+                        "text":  "摁⁤楆敬›〥䄠㩳┠0",
+                        "menuId":  25030,
+                        "resText":  "Add File: %0 As: %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45,
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "楆敬倠瑡h〥䄠㩳┠0",
+                                            "敄瑳湩瑡潩⁮慎敭倯瑡h"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  4,
+                        "menu":  "ZIP \u003e Add File From String",
+                        "text":  "摁⁤楆敬䘠潲⁭瑓楲杮›〥䄠㩳┠0",
+                        "menuId":  25040,
+                        "resText":  "Add File From String: %0 As: %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45,
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "瑓楲杮攀䘠潲⁭瑓楲杮›〥䄠㩳┠0",
+                                            "敄瑳湩瑡潩⁮慎敭倯瑡h〥䄠㩳┠0"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  5,
+                        "menu":  "ZIP \u003e Add Folder",
+                        "text":  "摁⁤潆摬牥›〥",
+                        "menuId":  25050,
+                        "resText":  "Add Folder: %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "潆摬牥倠瑡h〥"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  7,
+                        "menu":  "UnZIP \u003e Unzip File",
+                        "text":  "湕楺⁰楆敬›〥吠㩯┠1",
+                        "menuId":  25070,
+                        "resText":  "Unzip File: %0 To: %1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22,
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "楆敬匠潬t›〥吠㩯┠1",
+                                            "敄瑳湩瑡潩⁮慐桴㨀┠1"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  8,
+                        "menu":  "UnZIP \u003e Unzip Archive",
+                        "text":  "湕楺⁰潔›〥",
+                        "menuId":  25080,
+                        "resText":  "Unzip To: %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "敄瑳湩瑡潩⁮慐桴"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  9,
+                        "menu":  "Close Zip",
+                        "text":  "汃獯⁥楚p",
+                        "menuId":  25090,
+                        "resText":  "Close Zip",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  10,
+                        "menu":  "Threading \u003e Disable Threads",
+                        "text":  "楄慳汢⁥桔敲摡s",
+                        "menuId":  25100,
+                        "resText":  "Disable Threads",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  11,
+                        "menu":  "Threading \u003e Enable Threads",
+                        "text":  "湅扡敬吠牨慥獤",
+                        "menuId":  25110,
+                        "resText":  "Enable Threads",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  12,
+                        "menu":  "Show Error",
+                        "text":  "桓睯吠敨䌠牵敲瑮䔠牲牯",
+                        "menuId":  25120,
+                        "resText":  "Show The Current Error",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  13,
+                        "menu":  "CRC32 \u003e Calculate File",
+                        "text":  "敇敮慲整䌠䍒㈳䌠敨正畳⁭潆㩲┠0",
+                        "menuId":  25130,
+                        "resText":  "Generate CRC32 Checksum For: %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "楆敬吠⁯敇敮慲整䌠䍒㈳䘠牯㨀┠0"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    }
+                ],
+    "expressions":  [
+                        {
+                            "code":  0,
+                            "menu":  "Get Open Zip Filename",
+                            "text":  "敧⁴楚⁰楆敬慮敭⠤",
+                            "menuId":  27000,
+                            "resText":  "get Zip Filename$(",
+                            "flags":  1,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  1,
+                            "menu":  "Get Open Zip Size",
+                            "text":  "敧⁴楚⁰楓敺(",
+                            "menuId":  27010,
+                            "resText":  "get Zip Size(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  2,
+                            "menu":  "Get Password",
+                            "text":  "敧⁴慐獳潷摲⠤",
+                            "menuId":  27020,
+                            "resText":  "get Password$(",
+                            "flags":  1,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  3,
+                            "menu":  "Get Number Of Files",
+                            "text":  "敧⁴畎扭牥传⁦楆敬⡳",
+                            "menuId":  27030,
+                            "resText":  "get Number Of Files(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  4,
+                            "menu":  "Files \u003e Get Name At",
+                            "text":  "敧⁴慎敭䄠⑴(",
+                            "menuId":  27040,
+                            "resText":  "get Name At$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  5,
+                            "menu":  "Files \u003e Get Compressed Size At",
+                            "text":  "敧⁴潃灭敲獳摥匠穩⁥瑁(",
+                            "menuId":  27050,
+                            "resText":  "get Compressed Size At(",
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  6,
+                            "menu":  "Files \u003e Get Uncompressed Size At",
+                            "text":  "敧⁴湕潣灭敲獳摥匠穩⁥瑁(",
+                            "menuId":  27060,
+                            "resText":  "get Uncompressed Size At(",
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  7,
+                            "menu":  "Files \u003e Get Access Time At",
+                            "text":  "敧⁴捁散獳吠浩⁥瑁⠤",
+                            "menuId":  27070,
+                            "resText":  "get Access Time At$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  8,
+                            "menu":  "Files \u003e Get Modified Time At",
+                            "text":  "敧⁴潍楤楦摥吠浩⁥瑁⠤",
+                            "menuId":  27080,
+                            "resText":  "get Modified Time At$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  9,
+                            "menu":  "Files \u003e Get Created Time At",
+                            "text":  "敧⁴牃慥整⁤楔敭䄠⑴(",
+                            "menuId":  27090,
+                            "resText":  "get Created Time At$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  10,
+                            "menu":  "Get File As String",
+                            "text":  "敧⁴楆敬䄠⑴(",
+                            "menuId":  27100,
+                            "resText":  "get File At$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  11,
+                            "menu":  "Get Error",
+                            "text":  "敧⁴牅潲⑲(",
+                            "menuId":  27110,
+                            "resText":  "get Error$(",
+                            "flags":  1,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  12,
+                            "menu":  "CRC32 \u003e Calculate String",
+                            "text":  "敧⁴剃⁃瑓楲杮⠤",
+                            "menuId":  27120,
+                            "resText":  "get CRC String$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               3
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  13,
+                            "menu":  "Files \u003e Get CRC32 Value",
+                            "text":  "敧⁴剃⁃瑁⠤",
+                            "menuId":  27130,
+                            "resText":  "get CRC At$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  14,
+                            "menu":  "CRC32 \u003e Get File CRC32",
+                            "text":  "敧⁴畏灴瑵䌠䍒⠤",
+                            "menuId":  27140,
+                            "resText":  "get Output CRC$(",
+                            "flags":  1,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  15,
+                            "menu":  "Find File By Name",
+                            "text":  "楦摮䘠汩⡥",
+                            "menuId":  27150,
+                            "resText":  "find File(",
+                            "flags":  0,
+                            "paramTypes":  [
+                                               3
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  16,
+                            "menu":  "Progress \u003e Get Unzip Position",
+                            "text":  "敧⁴湕楺⁰牐杯敲獳(",
+                            "menuId":  27151,
+                            "resText":  "get Unzip Progress(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        }
+                    ]
+}

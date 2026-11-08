@@ -1,6 +1,6 @@
 # Extension ultimatefullscreen
 
-- File: `ultimatefullscreen.mfx` — third-party extension (shipped with a downloaded project)
+- File: `ultimatefullscreen.mfx` — installed with Fusion
 - Name(s) shown in projects: “Ultimate Fullscreen”
 - Usage in the corpus: 20 times
 - Numbers in events: condition = −(81 + code), action / expression = 80 + code

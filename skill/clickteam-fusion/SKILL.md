@@ -17,7 +17,7 @@ The files below are in the same folder as this `SKILL.md`: the `skill/clickteam-
 | `FUSION_CONTEXT.md` | Fusion's execution model (ticks, fast loops, object selection, groups, timers) and the export format | before analyzing logic or a bug |
 | `bible/README.md` | how to read the reference: numbering, placeholders, parameter types | before looking up a condition/action |
 | `bible/built-in-objects.md` | every condition / action / expression of the built-in objects, with English and French editor labels, real usage and examples | to know what exists natively |
-| `bible/extensions/README.md` + one page per extension | conditions / actions / expressions of 410 extensions | when the project uses an extension |
+| `bible/extensions/README.md` + one page per extension | conditions / actions / expressions of 417 extensions | when the project uses an extension |
 | `../../docs/INTERNALS.md` | how the kit is built and maintained (MfaDump, Nebula, catalogs, bible) | only to change the tooling |
 
 ## 0. Language

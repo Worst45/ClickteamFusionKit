@@ -1,6 +1,6 @@
 # Extension parser
 
-- File: `parser.mfx` — third-party extension (shipped with a downloaded project)
+- File: `parser.mfx` — installed with Fusion
 - Name(s) shown in projects: “String Parser”
 - Usage in the corpus: 192 times
 - Numbers in events: condition = −(81 + code), action / expression = 80 + code

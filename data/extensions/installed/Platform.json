@@ -1,0 +1,681 @@
+{
+    "file":  "Platform.mfx",
+    "conditions":  [
+                       {
+                           "code":  0,
+                           "menu":  "Collision testing (top of the event) \u003e Test for obstacle overlap",
+                           "text":  "漥›敔瑳映牯漠獢慴汣⁥癯牥慬p",
+                           "menuId":  26000,
+                           "resText":  "%o: Test for obstacle overlap",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  1,
+                           "menu":  "Collision testing (top of the event) \u003e Test for jump through platform overlap",
+                           "text":  "漥›敔瑳映牯樠浵⁰桴潲杵⁨汰瑡潦浲漠敶汲灡",
+                           "menuId":  26010,
+                           "resText":  "%o: Test for jump through platform overlap",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  2,
+                           "menu":  "Object states \u003e Object is standing on ground",
+                           "text":  "漥›扏敪瑣椠⁳瑳湡楤杮漠⁮牧畯摮",
+                           "menuId":  26020,
+                           "resText":  "%o: Object is standing on ground",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  3,
+                           "menu":  "Object states \u003e Object is jumping",
+                           "text":  "漥›扏敪瑣椠⁳番灭湩g",
+                           "menuId":  26030,
+                           "resText":  "%o: Object is jumping",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  4,
+                           "menu":  "Object states \u003e Object is falling",
+                           "text":  "漥›扏敪瑣椠⁳慦汬湩g",
+                           "menuId":  26040,
+                           "resText":  "%o: Object is falling",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  5,
+                           "menu":  "Movement is paused",
+                           "text":  "漥›潍敶敭瑮椠⁳慰獵摥",
+                           "menuId":  26050,
+                           "resText":  "%o: Movement is paused",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  6,
+                           "menu":  "Object states \u003e Object is moving",
+                           "text":  "漥›扏敪瑣椠⁳潭楶杮",
+                           "menuId":  26060,
+                           "resText":  "%o: Object is moving",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       }
+                   ],
+    "actions":  [
+                    {
+                        "code":  0,
+                        "menu":  "Collisions \u003e Object does overlap with an obstacle",
+                        "text":  "敓敬瑣摥漠橢捥⁴癯牥慬獰愠⁮扯瑳捡敬",
+                        "menuId":  25000,
+                        "resText":  "Selected object overlaps an obstacle",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  1,
+                        "menu":  "Collisions \u003e Object does overlap with a jump through platform",
+                        "text":  "敓敬瑣摥漠橢捥⁴癯牥慬獰愠樠浵⁰桴潲杵⁨汰瑡潦浲",
+                        "menuId":  25010,
+                        "resText":  "Selected object overlaps a jump through platform",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  2,
+                        "menu":  "Set object",
+                        "text":  "敓⁴扯敪瑣琠⁯〥",
+                        "menuId":  25020,
+                        "resText":  "Set object to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           1
+                                       ],
+                        "paramTitles":  [
+                                            "扏敪瑣攀瑣琠⁯〥"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  3,
+                        "menu":  "On user input \u003e User is holding right input key",
+                        "text":  "獕牥椠⁳潨摬湩⁧楲桧⁴湩異⁴敫y",
+                        "menuId":  25030,
+                        "resText":  "User is holding right input key",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  4,
+                        "menu":  "On user input \u003e User is holding left input key",
+                        "text":  "獕牥椠⁳潨摬湩⁧敬瑦椠灮瑵欠祥",
+                        "menuId":  25040,
+                        "resText":  "User is holding left input key",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  5,
+                        "menu":  "On user input \u003e Jump",
+                        "text":  "畊灭",
+                        "menuId":  25050,
+                        "resText":  "Jump",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  6,
+                        "menu":  "Variables \u003e Set X velocity",
+                        "text":  "敓⁴⁘敶潬楣祴琠⁯〥",
+                        "menuId":  25060,
+                        "resText":  "Set X velocity to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "⁘敶潬楣祴椀祴琠⁯〥"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  7,
+                        "menu":  "Variables \u003e Set Y velocity",
+                        "text":  "敓⁴⁙敶潬楣祴琠⁯〥",
+                        "menuId":  25070,
+                        "resText":  "Set Y velocity to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "⁙敶潬楣祴椀祴琠⁯〥"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  8,
+                        "menu":  "Variables \u003e Set maximum X velocity",
+                        "text":  "敓⁴慭楸畭⁭⁘敶潬楣祴琠⁯〥",
+                        "menuId":  25080,
+                        "resText":  "Set maximum X velocity to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "慍楸畭⁭⁘敶潬楣祴椀祴琠⁯〥"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  9,
+                        "menu":  "Variables \u003e Set maximum Y velocity",
+                        "text":  "敓⁴慭楸畭⁭⁙敶潬楣祴琠⁯〥",
+                        "menuId":  25090,
+                        "resText":  "Set maximum Y velocity to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "慍楸畭⁭⁙敶潬楣祴椀祴琠⁯〥"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  10,
+                        "menu":  "Variables \u003e Set X acceleration",
+                        "text":  "敓⁴⁘捡散敬慲楴湯琠⁯〥",
+                        "menuId":  25100,
+                        "resText":  "Set X acceleration to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "⁘捡散敬慲楴湯椀湯琠⁯〥"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  11,
+                        "menu":  "Variables \u003e Set X deceleration",
+                        "text":  "敓⁴⁘敤散敬慲楴湯琠⁯〥",
+                        "menuId":  25110,
+                        "resText":  "Set X deceleration to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "⁘敤散敬慲楴湯椀湯琠⁯〥"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  12,
+                        "menu":  "Variables \u003e Set gravity",
+                        "text":  "敓⁴牧癡瑩⁹潴┠0",
+                        "menuId":  25120,
+                        "resText":  "Set gravity to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "片癡瑩y瑩⁹潴┠0"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  13,
+                        "menu":  "Variables \u003e Set jump strength",
+                        "text":  "敓⁴番灭猠牴湥瑧⁨潴┠0",
+                        "menuId":  25130,
+                        "resText":  "Set jump strength to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "畊灭猠牴湥瑧h瑧⁨潴┠0"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  14,
+                        "menu":  "Variables \u003e Set jump hold height",
+                        "text":  "敓⁴番灭栠汯⁤敨杩瑨琠⁯〥",
+                        "menuId":  25140,
+                        "resText":  "Set jump hold height to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "畊灭猠牴湥瑧h敨杩瑨琠⁯〥"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  15,
+                        "menu":  "Variables \u003e Set maximum step up (in whole pixels)",
+                        "text":  "敓⁴慭楸畭⁭瑳灥甠⁰潴┠0",
+                        "menuId":  25150,
+                        "resText":  "Set maximum step up to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "慍楸畭⁭瑳灥甠⁰椨⁮楰數獬)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  16,
+                        "menu":  "On user input \u003e User is holding jump in the air",
+                        "text":  "獕牥椠⁳潨摬湩⁧番灭椠⁮桴⁥楡r",
+                        "menuId":  25160,
+                        "resText":  "User is holding jump in the air",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  17,
+                        "menu":  "Pause movement",
+                        "text":  "慐獵⁥潭敶敭瑮",
+                        "menuId":  25170,
+                        "resText":  "Pause movement",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  18,
+                        "menu":  "Unpause movement",
+                        "text":  "湕慰獵⁥潭敶敭瑮",
+                        "menuId":  25180,
+                        "resText":  "Unpause movement",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  19,
+                        "menu":  "Variables \u003e Set downhill slope correction (in whole pixels)",
+                        "text":  "敓⁴潤湷楨汬猠潬数挠牯敲瑣潩⁮潴┠0",
+                        "menuId":  25190,
+                        "resText":  "Set downhill slope correction to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "潄湷楨汬猠潬数挠牯敲瑣潩⁮椨⁮楰數獬)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  20,
+                        "menu":  "Variables \u003e Set additional X velocity",
+                        "text":  "敓⁴摡楤楴湯污堠瘠汥捯瑩⁹潴┠0",
+                        "menuId":  25200,
+                        "resText":  "Set additional X velocity to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "摁楤楴湯污堠瘠汥捯瑩y瑩⁹潴┠0"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  21,
+                        "menu":  "Variables \u003e Set additional Y velocity",
+                        "text":  "敓⁴摡楤楴湯污夠瘠汥捯瑩⁹潴┠0",
+                        "menuId":  25210,
+                        "resText":  "Set additional Y velocity to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "摁楤楴湯污夠瘠汥捯瑩y瑩⁹潴┠0"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    }
+                ],
+    "expressions":  [
+                        {
+                            "code":  0,
+                            "menu":  "Get X velocity",
+                            "text":  "敇塴敖潬楣祴(",
+                            "menuId":  27000,
+                            "resText":  "GetXVelocity(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  1,
+                            "menu":  "Get Y velocity",
+                            "text":  "敇奴敖潬楣祴(",
+                            "menuId":  27010,
+                            "resText":  "GetYVelocity(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  2,
+                            "menu":  "Get maximum X velocity",
+                            "text":  "敇䵴硡噘汥捯瑩⡹",
+                            "menuId":  27020,
+                            "resText":  "GetMaxXVelocity(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  3,
+                            "menu":  "Get maximum Y velocity",
+                            "text":  "敇䵴硡噙汥捯瑩⡹",
+                            "menuId":  27030,
+                            "resText":  "GetMaxYVelocity(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  4,
+                            "menu":  "Get X acceleration",
+                            "text":  "敇塴捁散⡬",
+                            "menuId":  27040,
+                            "resText":  "GetXAccel(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  5,
+                            "menu":  "Get X deceleration",
+                            "text":  "敇塴敄散⡬",
+                            "menuId":  27050,
+                            "resText":  "GetXDecel(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  6,
+                            "menu":  "Get gravity",
+                            "text":  "敇䝴慲楶祴(",
+                            "menuId":  27060,
+                            "resText":  "GetGravity(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  7,
+                            "menu":  "Get jump strength",
+                            "text":  "敇䩴浵印牴湥瑧⡨",
+                            "menuId":  27070,
+                            "resText":  "GetJumpStrength(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  8,
+                            "menu":  "Get jump hold height",
+                            "text":  "敇䩴浵䡰汯䡤楥桧⡴",
+                            "menuId":  27080,
+                            "resText":  "GetJumpHoldHeight(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  9,
+                            "menu":  "Get maximum step up (in whole pixels)",
+                            "text":  "敇䵴硡瑓灥灕(",
+                            "menuId":  27090,
+                            "resText":  "GetMaxStepUp(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  10,
+                            "menu":  "Get downhill slope correction (in whole pixels)",
+                            "text":  "敇却潬数潃牲捥楴湯(",
+                            "menuId":  27100,
+                            "resText":  "GetSlopeCorrection(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  11,
+                            "menu":  "Get additional X velocity",
+                            "text":  "敇䅴摤噘汥捯瑩⡹",
+                            "menuId":  27110,
+                            "resText":  "GetAddXVelocity(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  12,
+                            "menu":  "Get additional Y velocity",
+                            "text":  "敇䅴摤噙汥捯瑩⡹",
+                            "menuId":  27120,
+                            "resText":  "GetAddYVelocity(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        }
+                    ]
+}

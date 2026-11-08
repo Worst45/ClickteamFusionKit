@@ -1,6 +1,6 @@
 # Extension fcButton
 
-- File: `fcButton.mfx` — third-party extension (shipped with a downloaded project)
+- File: `fcButton.mfx` — installed with Fusion
 - Name(s) shown in projects: “Bouton CS”
 - Usage in the corpus: 233 times
 - Numbers in events: condition = −(81 + code), action / expression = 80 + code

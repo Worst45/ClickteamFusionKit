@@ -1,6 +1,6 @@
 # Extension Platform
 
-- File: `Platform.mfx` — third-party extension (shipped with a downloaded project)
+- File: `Platform.mfx` — installed with Fusion
 - Name(s) shown in projects: “Platform Movement object”
 - Usage in the corpus: 171 times
 - Numbers in events: condition = −(81 + code), action / expression = 80 + code

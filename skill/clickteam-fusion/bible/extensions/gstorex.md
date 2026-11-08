@@ -1,6 +1,6 @@
 # Extension gstorex
 
-- File: `gstorex.mfx` — third-party extension (shipped with a downloaded project)
+- File: `gstorex.mfx` — installed with Fusion
 - Name(s) shown in projects: “Global Store X”
 - Usage in the corpus: 8 times
 - Numbers in events: condition = −(81 + code), action / expression = 80 + code

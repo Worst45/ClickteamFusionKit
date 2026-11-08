@@ -1,0 +1,344 @@
+{
+    "file":  "AdvDir.mfx",
+    "conditions":  [
+                       {
+                           "code":  0,
+                           "menu":  "Compare distance between two points",
+                           "text":  "桔⁥楤瑳湡散戠瑥敷湥┠‰湡⁤ㄥ椠⁳潬敷⁲牯攠畱污琠⁯㈥",
+                           "menuId":  26005,
+                           "resText":  null,
+                           "flags":  544,
+                           "paramTypes":  [
+                                              16,
+                                              16,
+                                              22
+                                          ],
+                           "paramTitles":  [
+                                               "楆獲⁴潰楳楴湯琀敷湥┠‰湡⁤ㄥ椠⁳潬敷⁲牯攠畱污琠⁯㈥",
+                                               "敓潣摮瀠獯瑩潩n敷湥┠‰湡⁤ㄥ椠⁳潬敷⁲牯攠畱污琠⁯㈥",
+                                               "慖畬⁥潴挠浯慰敲眠瑩h‰湡⁤ㄥ椠⁳潬敷⁲牯攠畱污琠⁯㈥"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  1,
+                           "menu":  "Compare direction between two points",
+                           "text":  "桔⁥楤敲瑣潩⁮敢睴敥⁮〥愠摮┠‱獩挠潬敳⁲桴湡┠″潴┠2",
+                           "menuId":  26010,
+                           "resText":  null,
+                           "flags":  544,
+                           "paramTypes":  [
+                                              16,
+                                              16,
+                                              22,
+                                              22
+                                          ],
+                           "paramTitles":  [
+                                               "楆獲⁴潰楳楴湯攀睴敥⁮〥愠摮┠‱獩挠潬敳⁲桴湡┠″潴┠2",
+                                               "敓潣摮瀠獯瑩潩n睴敥⁮〥愠摮┠‱獩挠潬敳⁲桴湡┠″潴┠2",
+                                               "楄敲瑣潩n瑩潩n睴敥⁮〥愠摮┠‱獩挠潬敳⁲桴湡┠″潴┠2",
+                                               "晏獦瑥瘠污敵漀n睴敥⁮〥愠摮┠‱獩挠潬敳⁲桴湡┠″潴┠2"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       }
+                   ],
+    "actions":  [
+                    {
+                        "code":  0,
+                        "menu":  "Set number of directions",
+                        "text":  "漥㨠匠瑥渠浵敢⁲景搠物捥楴湯⁳潴┠0",
+                        "menuId":  25000,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "湅整⁲⁡楤敲瑣潩⁮慶畬e楴湯⁳潴┠0"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  1,
+                        "menu":  "Get object distances and fixed values",
+                        "text":  "楆摮搠獩慴据⁥湡⁤楦數⁤景┠‰潴┠1",
+                        "menuId":  25005,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+                                           1,
+                                           16
+                                       ],
+                        "paramTitles":  [
+                                            "扏敪瑣猀慴据⁥湡⁤楦數⁤景┠‰潴┠1",
+                                            "潐楳楴湯愀据⁥湡⁤楦數⁤景┠‰潴┠1"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  2,
+                        "menu":  "Add object to existing data",
+                        "text":  "摁⁤楤瑳湡散愠摮映硩摥漠⁦〥琠⁯ㄥ琠⁯硥獩楴杮搠瑡a",
+                        "menuId":  25010,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+                                           1
+                                       ],
+                        "paramTitles":  [
+                                            "扏敪瑣琀湡散愠摮映硩摥漠⁦〥琠⁯ㄥ琠⁯硥獩楴杮搠瑡a"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  3,
+                        "menu":  "Reset object data",
+                        "text":  "敒敳⁴扯敪瑣搠瑡a",
+                        "menuId":  25015,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    }
+                ],
+    "expressions":  [
+                        {
+                            "code":  0,
+                            "menu":  "Get number of directions",
+                            "text":  "敇乴浵楄⡲",
+                            "menuId":  27000,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  1,
+                            "menu":  "Distance and direction between two points \u003e Float values (decimals) \u003e Direction between two points ( x1, y1, x2, y2 )",
+                            "text":  "摁䑶物捥楴湯(",
+                            "menuId":  27010,
+                            "resText":  null,
+                            "flags":  2,
+                            "paramTypes":  [
+                                               1,
+                                               1,
+                                               1,
+                                               1
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  2,
+                            "menu":  "Distance and direction between two points \u003e Float values (decimals) \u003e Distance between two points ( x1, y1, x2, y2 )",
+                            "text":  "摁䑶獩慴据⡥",
+                            "menuId":  27020,
+                            "resText":  null,
+                            "flags":  2,
+                            "paramTypes":  [
+                                               1,
+                                               1,
+                                               1,
+                                               1
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  3,
+                            "menu":  "Distance and direction between two points \u003e Long values (no decimals) \u003e Direction between two points ( x1, y1, x2, y2 )",
+                            "text":  "潌杮楄⡲",
+                            "menuId":  27015,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1,
+                                               1,
+                                               1,
+                                               1
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  4,
+                            "menu":  "Distance and direction between two points \u003e Long values (no decimals) \u003e Distance between two points ( x1, y1, x2, y2 )",
+                            "text":  "潌杮楄瑳(",
+                            "menuId":  27025,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1,
+                                               1,
+                                               1,
+                                               1
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  5,
+                            "menu":  "Rotate ( dir, dirtrt, speed )",
+                            "text":  "潒慴整(",
+                            "menuId":  27030,
+                            "resText":  null,
+                            "flags":  2,
+                            "paramTypes":  [
+                                               1,
+                                               1,
+                                               1
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  6,
+                            "menu":  "Difference between two directions \u003e Absolute (positive only) ( dir1, dir2 )",
+                            "text":  "楄䑲晩䅦獢(",
+                            "menuId":  27040,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1,
+                                               1
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  7,
+                            "menu":  "Difference between two directions \u003e Not absolute ( dir 1, dir2 )",
+                            "text":  "楄䑲晩⡦",
+                            "menuId":  27050,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1,
+                                               1
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  8,
+                            "menu":  "Stored objects \u003e Get fixed (0 = Closest object, 1 = Second closest, etc)",
+                            "text":  "敇䙴硩摥扏⡪",
+                            "menuId":  27060,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  9,
+                            "menu":  "Stored objects \u003e Get distance",
+                            "text":  "敇䑴獩佴橢(",
+                            "menuId":  27070,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  10,
+                            "menu":  "Get movement \u003e Get X movement from a speed and a direction ( dir, speed )",
+                            "text":  "䵘癯浥湥⡴",
+                            "menuId":  27080,
+                            "resText":  null,
+                            "flags":  2,
+                            "paramTypes":  [
+                                               1,
+                                               1
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  11,
+                            "menu":  "Get movement \u003e Get Y movement from a speed and a direction ( dir, speed )",
+                            "text":  "䵙癯浥湥⡴",
+                            "menuId":  27090,
+                            "resText":  null,
+                            "flags":  2,
+                            "paramTypes":  [
+                                               1,
+                                               1
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  12,
+                            "menu":  "Convert direction to a different base ( dir, newbase )",
+                            "text":  "楄䉲獡⡥",
+                            "menuId":  27100,
+                            "resText":  null,
+                            "flags":  2,
+                            "paramTypes":  [
+                                               1,
+                                               1
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        }
+                    ]
+}

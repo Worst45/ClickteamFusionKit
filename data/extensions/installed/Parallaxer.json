@@ -1,0 +1,524 @@
+{
+    "file":  "Parallaxer.mfx",
+    "conditions":  [
+
+                   ],
+    "actions":  [
+                    {
+                        "code":  0,
+                        "menu":  "Set offset",
+                        "text":  "敓⁴景獦瑥㴠┠0",
+                        "menuId":  25000,
+                        "resText":  "Set offset = %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "敓⁴景獦瑥瘠污敵"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  1,
+                        "menu":  "Set width",
+                        "text":  "敓⁴楷瑤⁨潴›〥",
+                        "menuId":  25010,
+                        "resText":  "Set width to: %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "湅整⁲⁡敮⁷楷瑤⁨湩瀠硩汥㩳"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  2,
+                        "menu":  "Set height",
+                        "text":  "敓⁴敨杩瑨琠㩯┠0",
+                        "menuId":  25020,
+                        "resText":  "Set height to: %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "湅整⁲⁡敮⁷敨杩瑨椠⁮楰數獬:"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  3,
+                        "menu":  "Resampling \u003e On",
+                        "text":  "敓⁴敲慳灭楬杮›湯",
+                        "menuId":  25030,
+                        "resText":  "Set resampling: on",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  4,
+                        "menu":  "Resampling \u003e Off",
+                        "text":  "敓⁴敲慳灭楬杮›景f",
+                        "menuId":  25040,
+                        "resText":  "Set resampling: off",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  5,
+                        "menu":  "Set Z-Length",
+                        "text":  "敓⁴ⵚ敌杮桴琠㩯┠0",
+                        "menuId":  25050,
+                        "resText":  "Set Z-Length to: %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "湅整⁲桴⁥敬杮桴漠⁦桴⁥楬敮愠⁴桴⁥扯敳癲牥⁳潰楳楴湯‮⌨瀠硩汥⥳"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  6,
+                        "menu":  "Load image",
+                        "text":  "潌摡椠慭敧›〥愠灰湥⁤‽ㄥ",
+                        "menuId":  25060,
+                        "resText":  "Load image: %0 append = %1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           63,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "湅整⁲⁡楦敬慮敭映牯愠⁮浩条⁥楦敬",
+                                            "‰‽敒汰捡⁥污⁬浩条獥‬‱‽摁⁤牦浡⁥潴攠摮漠⁦湡浩瑡潩n"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  7,
+                        "menu":  "Set animation frame",
+                        "text":  "敓⁴湡浩瑡潩⁮牦浡⁥‽〥",
+                        "menuId":  25070,
+                        "resText":  "Set animation frame = %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "湁浩瑡潩⁮牦浡e浡⁥‽〥"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  8,
+                        "menu":  "Attach object",
+                        "text":  "瑁慴档┠‰湯琠敨瀠牡污慬⁸晥敦瑣",
+                        "menuId":  25080,
+                        "resText":  "Attach %0 on the parallax effect",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           1
+                                       ],
+                        "paramTitles":  [
+                                            "敓敬瑣琠敨漠橢捥⁴潴戠⁥瑡慴档摥琠⁯桴⁥慰慲汬硡攠晦捥t"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  9,
+                        "menu":  "Detach object",
+                        "text":  "敄慴档┠0",
+                        "menuId":  25090,
+                        "resText":  "Detach %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           1
+                                       ],
+                        "paramTitles":  [
+                                            "敓敬瑣琠敨漠橢捥⁴桴瑡猠潨汵⁤敢搠瑥捡敨d"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  10,
+                        "menu":  "Autoscroll \u003e On",
+                        "text":  "敓⁴畡潴捳潲汬›湏",
+                        "menuId":  25100,
+                        "resText":  "Set autoscroll: On",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  11,
+                        "menu":  "Autoscroll \u003e Off",
+                        "text":  "敓⁴畡潴捳潲汬›晏f",
+                        "menuId":  25110,
+                        "resText":  "Set autoscroll: Off",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  12,
+                        "menu":  "Lower repetition limit \u003e Set value",
+                        "text":  "敓⁴潬敷⁲敲数楴楴湯戠畯摮牡㩹┠0",
+                        "menuId":  25120,
+                        "resText":  "Set lower repetition boundary: %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "湅整⁲⁡慶畬⁥‭洨獵⁴敢氠睯牥琠慨⁮桴⁥灵数⁲潢湵慤祲瘠污敵)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  13,
+                        "menu":  "Upper repetition limit \u003e Set value",
+                        "text":  "敓⁴灵数⁲敲数楴楴湯戠畯摮牡㩹┠0",
+                        "menuId":  25130,
+                        "resText":  "Set upper repetition boundary: %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "湅整⁲⁡慶畬⁥‭洨獵⁴敢栠杩敨⁲桴湡琠敨氠睯牥戠畯摮牡⁹慶畬⥥"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  14,
+                        "menu":  "Lower repetition limit \u003e On",
+                        "text":  "湅扡敬氠睯牥爠灥瑥瑩潩⁮潢湵慤祲",
+                        "menuId":  25140,
+                        "resText":  "Enable lower repetition boundary",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  15,
+                        "menu":  "Lower repetition limit \u003e Off",
+                        "text":  "楄慳汢⁥潬敷⁲敲数楴楴湯戠畯摮牡y",
+                        "menuId":  25150,
+                        "resText":  "Disable lower repetition boundary",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  16,
+                        "menu":  "Upper repetition limit \u003e On",
+                        "text":  "湅扡敬甠灰牥爠灥瑥瑩潩⁮潢湵慤祲",
+                        "menuId":  25160,
+                        "resText":  "Enable upper repetition boundary",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  17,
+                        "menu":  "Upper repetition limit \u003e Off",
+                        "text":  "楄慳汢⁥灵数⁲敲数楴楴湯戠畯摮牡y",
+                        "menuId":  25170,
+                        "resText":  "Disable upper repetition boundary",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  18,
+                        "menu":  "Stationary \u003e On",
+                        "text":  "敓⁴瑳瑡潩慮祲洠摯㩥传n",
+                        "menuId":  25180,
+                        "resText":  "Set stationary mode: On",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  19,
+                        "menu":  "Stationary \u003e Off",
+                        "text":  "敓⁴瑳瑡潩慮祲洠摯㩥传晦",
+                        "menuId":  25190,
+                        "resText":  "Set stationary mode: Off",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  20,
+                        "menu":  "Set center offset",
+                        "text":  "敓⁴散瑮牥漠晦敳⁴‽〥",
+                        "menuId":  25200,
+                        "resText":  "Set center offset = %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "敓⁴桴⁥景獦瑥爠汥瑡癩⁥潴琠敨漠橢捥⁴散瑮牥愠⁴楷档琠敨攠晦捥⁴桳畯摬戠⁥散瑮牥摥愠潲湵⹤"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  21,
+                        "menu":  "Set angle",
+                        "text":  "敓⁴湡汧⁥潴┠0",
+                        "menuId":  25210,
+                        "resText":  "Set angle to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "湅整⁲湡愠杮敬嬠⸰㌮〶]"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    }
+                ],
+    "expressions":  [
+                        {
+                            "code":  0,
+                            "menu":  "Get offset",
+                            "text":  "晏獦瑥(",
+                            "menuId":  27000,
+                            "resText":  "Offset(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  1,
+                            "menu":  "Get width",
+                            "text":  "楗瑤⡨",
+                            "menuId":  27010,
+                            "resText":  "Width(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  2,
+                            "menu":  "Get height",
+                            "text":  "效杩瑨(",
+                            "menuId":  27020,
+                            "resText":  "Height(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  4,
+                            "menu":  "Get animation frame",
+                            "text":  "湁浩瑡潩䙮慲敭(",
+                            "menuId":  27040,
+                            "resText":  "AnimationFrame(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  5,
+                            "menu":  "Get line length at position",
+                            "text":  "楌敮敌杮桴瑁(",
+                            "menuId":  27050,
+                            "resText":  "LineLengthAt(",
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "潰楳楴湯漠⁦楬敮"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  6,
+                            "menu":  "Get scroll coefficient at position",
+                            "text":  "捓潲汬潃晥䅦⡴",
+                            "menuId":  27060,
+                            "resText":  "ScrollCoeffAt(",
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "潰楳楴湯漠⁦楬敮"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  7,
+                            "menu":  "Get lower repetition boundary",
+                            "text":  "潌敷䉲畯摮牡⡹",
+                            "menuId":  27070,
+                            "resText":  "LowerBoundary(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  8,
+                            "menu":  "Get upper repetition boundary",
+                            "text":  "灕数䉲畯摮牡⡹",
+                            "menuId":  27080,
+                            "resText":  "UpperBoundary(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  9,
+                            "menu":  "Get center offset",
+                            "text":  "敃瑮牥晏獦瑥(",
+                            "menuId":  27083,
+                            "resText":  "CenterOffset(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  10,
+                            "menu":  "Get angle",
+                            "text":  "湁汧⡥",
+                            "menuId":  27090,
+                            "resText":  "Angle(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        }
+                    ]
+}

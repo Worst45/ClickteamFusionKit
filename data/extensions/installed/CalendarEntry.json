@@ -1,0 +1,1046 @@
+{
+    "file":  "CalendarEntry.mfx",
+    "conditions":  [
+                       {
+                           "code":  0,
+                           "menu":  "Is Entry Written?",
+                           "text":  "%o: On Entry written?",
+                           "menuId":  26000,
+                           "resText":  "%o: On Entry written?",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  1,
+                           "menu":  "Is Entry Fail?",
+                           "text":  "%o: On Entry failed?",
+                           "menuId":  26010,
+                           "resText":  "%o: On Entry failed?",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  2,
+                           "menu":  "On Read Calendars?",
+                           "text":  "%o: On Reads Calendars?",
+                           "menuId":  26020,
+                           "resText":  "%o: On Reads Calendars?",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  3,
+                           "menu":  "On Read Events?",
+                           "text":  "%o: On Reads Events?",
+                           "menuId":  26030,
+                           "resText":  "%o: On Reads Events?",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  4,
+                           "menu":  "Error ocurred?",
+                           "text":  "%o: On Error Ocurred?",
+                           "menuId":  26040,
+                           "resText":  "%o: On Error Ocurred?",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       }
+                   ],
+    "conditions_status":  "resource menu",
+    "actions":  [
+                    {
+                        "code":  0,
+                        "menu":  "Use Calendar",
+                        "text":  "Use Calendar_id = %0",
+                        "menuId":  25000,
+                        "resText":  "Use Calendar_id = %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Calendar Number"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  1,
+                        "menu":  "Event Data \u003e Set Event Title",
+                        "text":  "Set Event Title to %0",
+                        "menuId":  25010,
+                        "resText":  "Set Event Title to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Title String"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  2,
+                        "menu":  "Event Data \u003e Set Event Location",
+                        "text":  "Set Event Location to %0",
+                        "menuId":  25020,
+                        "resText":  "Set Event Location to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Location String"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  3,
+                        "menu":  "Event Data \u003e Set Event Notes",
+                        "text":  "Set Event Notes to %0",
+                        "menuId":  25030,
+                        "resText":  "Set Event Notes to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Notes Text"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  4,
+                        "menu":  "Event Data \u003e Set Event Start Date",
+                        "text":  "Set Event Start Date, D:%0 M:%1 Y:%2",
+                        "menuId":  25040,
+                        "resText":  "Set Event Start Date, D:%0 M:%1 Y:%2",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22,
+                                           22,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Day Number",
+                                            "Month Number",
+                                            "Year Number"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  5,
+                        "menu":  "Event Data \u003e Set Event Start Time",
+                        "text":  "Set Event Start Time, H:%0 M:%1",
+                        "menuId":  25050,
+                        "resText":  "Set Event Start Time, H:%0 M:%1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Hours Number",
+                                            "Minutes Number"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  6,
+                        "menu":  "Event Data \u003e Set Event End Date",
+                        "text":  "Set Event End Date, D:%0 M:%1 Y:%2",
+                        "menuId":  25060,
+                        "resText":  "Set Event End Date, D:%0 M:%1 Y:%2",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22,
+                                           22,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Day Number",
+                                            "Month Number",
+                                            "Year Number"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  7,
+                        "menu":  "Event Data \u003e Set Event End Time",
+                        "text":  "Set Event End Time, H:%0 M:%1",
+                        "menuId":  25070,
+                        "resText":  "Set Event End Time, H:%0 M:%1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Hours Number",
+                                            "Minutes Number"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  8,
+                        "menu":  "Event Data \u003e Set Event Duration",
+                        "text":  "Set Event Duration to %0",
+                        "menuId":  25080,
+                        "resText":  "Set Event Duration to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Duration time in sec."
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  9,
+                        "menu":  "Event Data \u003e Set Event All day",
+                        "text":  "Set Event All day to %0",
+                        "menuId":  25090,
+                        "resText":  "Set Event All day to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "All day (0: no 1: yes)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  10,
+                        "menu":  "Event Data \u003e Set Event Timezone",
+                        "text":  "Set Event Timezone to %0",
+                        "menuId":  25100,
+                        "resText":  "Set Event Timezone to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Set Timezone string"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  11,
+                        "menu":  "Event Configuration \u003e Set Event Access",
+                        "text":  "Set Event Access to %0",
+                        "menuId":  25110,
+                        "resText":  "Set Event Access to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Access only android ( 0:default 1:confidential 2:private 3:public )"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  12,
+                        "menu":  "Event Configuration \u003e Set Event Availability",
+                        "text":  "Set Event Availability to %0",
+                        "menuId":  25120,
+                        "resText":  "Set Event Availability to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Availability  (0: no 1: yes)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  13,
+                        "menu":  "Event Reminder Rules \u003e Set Reminder Frequency",
+                        "text":  "Set Reminder Frequency to %0",
+                        "menuId":  25130,
+                        "resText":  "Set Reminder Frequency to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Frequency ( 0:NO USED 1:MINUTELY 2:HOURLY 3:DAILY 4:WEEKLY 5:MONTHLY 6:YEARLY )"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  14,
+                        "menu":  "Event Reminder Rules \u003e Set Reminder Interval",
+                        "text":  "Set Reminder Interval to %0",
+                        "menuId":  25140,
+                        "resText":  "Set Reminder Interval to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Interval time according frequency"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  15,
+                        "menu":  "Event Reminder Rules \u003e Set Reminder Count",
+                        "text":  "Set Reminder Count to %0",
+                        "menuId":  25150,
+                        "resText":  "Set Reminder Count to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Number of time to repeat event"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  16,
+                        "menu":  "Event Reminder Rules \u003e Set Reminder By Minutes",
+                        "text":  "Set Reminder By Minute to %0",
+                        "menuId":  25160,
+                        "resText":  "Set Reminder By Minute to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "String setting minutes value to reminder (exam. 0,20,40)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  17,
+                        "menu":  "Event Reminder Rules \u003e Set Reminder By Hours",
+                        "text":  "Set Reminder By Hour to %0",
+                        "menuId":  25170,
+                        "resText":  "Set Reminder By Hour to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "String setting hours value to reminder (exam. 9,10,14)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  18,
+                        "menu":  "Event Reminder Rules \u003e Set Reminder By Days",
+                        "text":  "Set Reminder By Days to %0",
+                        "menuId":  25180,
+                        "resText":  "Set Reminder By Days to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "String setting days value to reminder (exam. TU,TH,SU)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  19,
+                        "menu":  "Event Reminder Rules \u003e Set Reminder By Months",
+                        "text":  "Set Reminder By Months to %0",
+                        "menuId":  25190,
+                        "resText":  "Set Reminder By Months to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "String setting months value to reminder (exam. 1,4,7,12)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  20,
+                        "menu":  "Event Reminder Rules \u003e Set Reminder By MonthDay",
+                        "text":  "Set Reminder By MonthDay to %0",
+                        "menuId":  25200,
+                        "resText":  "Set Reminder By MonthDay to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "String setting month days value to reminder (exam. 1,15,17,22)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  21,
+                        "menu":  "Do Event Entry",
+                        "text":  "Write Event Entry with alarm to %0",
+                        "menuId":  25210,
+                        "resText":  "Write Event Entry with alarm to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Alarm (0: no 1: yes)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  22,
+                        "menu":  "Read ... \u003e All Calendars",
+                        "text":  "Read Calendars",
+                        "menuId":  25220,
+                        "resText":  "Read Calendars",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  23,
+                        "menu":  "Read ... \u003e All Events Saved",
+                        "text":  "Read Events",
+                        "menuId":  25230,
+                        "resText":  "Read Events",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  24,
+                        "menu":  "Delete ... \u003e An Event Id",
+                        "text":  "Delete Event with Id: %0 and Calendar Id: %1",
+                        "menuId":  25240,
+                        "resText":  "Delete Event with Id: %0 and Calendar Id: %1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Event Id Number",
+                                            "Calendar Id Number"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  25,
+                        "menu":  "Delete ... \u003e All Events of a Calendar",
+                        "text":  "Delete All Events of Calendar Id: %0",
+                        "menuId":  25250,
+                        "resText":  "Delete All Events of Calendar Id: %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Calendar Id Number"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  26,
+                        "menu":  "Specials ... \u003e Create a Local Calendar",
+                        "text":  "Create Local Calendar with Name: %0, Display Name: %1 and Owner Account: %2",
+                        "menuId":  25260,
+                        "resText":  "Create Local Calendar with Name: %0, Display Name: %1 and Owner Account: %2",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45,
+                                           45,
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Calendar Name String",
+                                            "Display Calendar name",
+                                            "Owner account (used in the device)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  27,
+                        "menu":  "Event Reminder Rules \u003e Set Reminder Minutes",
+                        "text":  "Set Minutes for reminders to %0",
+                        "menuId":  25270,
+                        "resText":  "Set Minutes for reminders to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Minutes for reminder (default: 10 min)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    }
+                ],
+    "actions_status":  "resource menu",
+    "expressions":  [
+                        {
+                            "code":  0,
+                            "menu":  "Last Error",
+                            "text":  "GetError(",
+                            "menuId":  27000,
+                            "resText":  "GetError(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  1,
+                            "menu":  "Get Calendar Numbers",
+                            "text":  "GetCalendarsQty(",
+                            "menuId":  27010,
+                            "resText":  "GetCalendarsQty(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  2,
+                            "menu":  "Get Calendar Name",
+                            "text":  "GetCalendarName$(",
+                            "menuId":  27020,
+                            "resText":  "GetCalendarName$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Index (one-based)"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  3,
+                            "menu":  "Get Events Numbers",
+                            "text":  "GetEventsQty(",
+                            "menuId":  27030,
+                            "resText":  "GetEventsQty(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  4,
+                            "menu":  "Get Event Id",
+                            "text":  "GetEventId(",
+                            "menuId":  27040,
+                            "resText":  "GetEventId(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Index (one-based)"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  5,
+                            "menu":  "Get Event Title",
+                            "text":  "GetEventTitle$(",
+                            "menuId":  27050,
+                            "resText":  "GetEventTitle$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Index (one-based)"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  6,
+                            "menu":  "Get Event Location",
+                            "text":  "GetEventLocation$(",
+                            "menuId":  27060,
+                            "resText":  "GetEventLocation$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Index (one-based)"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  7,
+                            "menu":  "Get Event Notes",
+                            "text":  "GetEventNotes$(",
+                            "menuId":  27070,
+                            "resText":  "GetEventNotes$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Index (one-based)"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  8,
+                            "menu":  "Get Event Start Date",
+                            "text":  "GetEventStartDate$(",
+                            "menuId":  27080,
+                            "resText":  "GetEventStartDate$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Index (one-based)"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  9,
+                            "menu":  "Get Event Start Time",
+                            "text":  "GetEventStartTime$(",
+                            "menuId":  27090,
+                            "resText":  "GetEventStartTime$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Index (one-based)"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  10,
+                            "menu":  "Get Event End Date",
+                            "text":  "GetEventEndDate$(",
+                            "menuId":  27100,
+                            "resText":  "GetEventEndDate$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Index (one-based)"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  11,
+                            "menu":  "Get Event End Time",
+                            "text":  "GetEventEndTime$(",
+                            "menuId":  27110,
+                            "resText":  "GetEventEndTime$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Index (one-based)"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  12,
+                            "menu":  "Get Event Duration",
+                            "text":  "GetEventDuration$(",
+                            "menuId":  27120,
+                            "resText":  "GetEventDuration$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Index (one-based)"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  13,
+                            "menu":  "Get Event AllDay",
+                            "text":  "GetEventAllDay(",
+                            "menuId":  27130,
+                            "resText":  "GetEventAllDay(",
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Index (one-based)"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  14,
+                            "menu":  "Get Event Timezone",
+                            "text":  "GetEventTimezone$(",
+                            "menuId":  27140,
+                            "resText":  "GetEventTimezone$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Index (one-based)"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  15,
+                            "menu":  "Get Event Alarm",
+                            "text":  "GetEventAlarm(",
+                            "menuId":  27150,
+                            "resText":  "GetEventAlarm(",
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Index (one-based)"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  16,
+                            "menu":  "Get Reminder Frequency",
+                            "text":  "GetRemFrequency$(",
+                            "menuId":  27160,
+                            "resText":  "GetRemFrequency$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Index (one-based)"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  17,
+                            "menu":  "Get Reminder Interval",
+                            "text":  "GetRemInterval(",
+                            "menuId":  27170,
+                            "resText":  "GetRemInterval(",
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Index (one-based)"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  18,
+                            "menu":  "Get Reminder Count",
+                            "text":  "GetRemCount(",
+                            "menuId":  27180,
+                            "resText":  "GetRemCount(",
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Index (one-based)"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  19,
+                            "menu":  "Get Reminder ByMinutes",
+                            "text":  "GetRemByMinute$(",
+                            "menuId":  27190,
+                            "resText":  "GetRemByMinute$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Index (one-based)"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  20,
+                            "menu":  "Get Reminder ByHours",
+                            "text":  "GetRemByHour$(",
+                            "menuId":  27200,
+                            "resText":  "GetRemByHour$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Index (one-based)"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  21,
+                            "menu":  "Get Reminder ByDays",
+                            "text":  "GetRemByDay$(",
+                            "menuId":  27210,
+                            "resText":  "GetRemByDay$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Index (one-based)"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  22,
+                            "menu":  "Get Reminder ByMonths",
+                            "text":  "GetRemByMonth$(",
+                            "menuId":  27220,
+                            "resText":  "GetRemByMonth$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Index (one-based)"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  23,
+                            "menu":  "Get Reminder ByMonthDay",
+                            "text":  "GetRemByMonthDay$(",
+                            "menuId":  27230,
+                            "resText":  "GetRemByMonthDay$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Index (one-based)"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  24,
+                            "menu":  "Get Sec from TimeString",
+                            "text":  "GetSecFromTimeStr(",
+                            "menuId":  27240,
+                            "resText":  "GetSecFromTimeStr(",
+                            "flags":  0,
+                            "paramTypes":  [
+                                               3
+                                           ],
+                            "paramTitles":  [
+                                                "TimeStr as MM/DD/YYY HH:MM:SS"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  25,
+                            "menu":  "Get TimeString from Sec",
+                            "text":  "GetTimeStrFromSec$(",
+                            "menuId":  27250,
+                            "resText":  "GetTimeStrFromSec$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Seconds"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  26,
+                            "menu":  "Get Default Timezone",
+                            "text":  "GetDefaultTimeZone$(",
+                            "menuId":  27260,
+                            "resText":  "GetDefaultTimeZone$(",
+                            "flags":  1,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  27,
+                            "menu":  "Get Timezone from ID",
+                            "text":  "GetTimeZoneFromID$(",
+                            "menuId":  27270,
+                            "resText":  "GetTimeZoneFromID$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               3
+                                           ],
+                            "paramTitles":  [
+                                                "TimeZone difference"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  28,
+                            "menu":  "Make a Date String",
+                            "text":  "MakeDateStr$(",
+                            "menuId":  27280,
+                            "resText":  "MakeDateStr$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1,
+                                               1,
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Month",
+                                                "Day",
+                                                "Year"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  29,
+                            "menu":  "Make an Hour String",
+                            "text":  "MakeHourStr$(",
+                            "menuId":  27290,
+                            "resText":  "MakeHourStr$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1,
+                                               1,
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Hour",
+                                                "Minute",
+                                                "Seconds"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        }
+                    ],
+    "expressions_status":  "resource menu"
+}

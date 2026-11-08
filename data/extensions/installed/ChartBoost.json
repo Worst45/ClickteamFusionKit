@@ -1,0 +1,974 @@
+{
+    "file":  "ChartBoost.mfx",
+    "conditions":  [
+                       {
+                           "code":  0,
+                           "menu":  "Interstitial \u003e Interstitial Success",
+                           "text":  "",
+                           "menuId":  26000,
+                           "resText":  "%o: On Interstitial located at %0 Success",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Location Name String"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  1,
+                           "menu":  "Interstitial \u003e Interstitial Failed",
+                           "text":  "",
+                           "menuId":  26010,
+                           "resText":  "%o: On Interstitial located at %0 Failed",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Location Name String"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  2,
+                           "menu":  "Interstitial \u003e Interstitial Cached",
+                           "text":  "",
+                           "menuId":  26020,
+                           "resText":  "%o: On Interstitial located at %0 Cached",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Location Name String"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  3,
+                           "menu":  "Interstitial \u003e Interstitial Dismissed",
+                           "text":  "",
+                           "menuId":  26030,
+                           "resText":  "%o: On Interstitial located at %0 Dismissed",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Location Name String"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  4,
+                           "menu":  "Interstitial \u003e Interstitial Closed",
+                           "text":  "",
+                           "menuId":  26040,
+                           "resText":  "%o: On Interstitial located at %0 Closed",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Location Name String"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  5,
+                           "menu":  "Interstitial \u003e Interstitial Clicked",
+                           "text":  "",
+                           "menuId":  26050,
+                           "resText":  "%o: On Interstitial located at %0 Clicked",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Location Name String"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  6,
+                           "menu":  "Deprecated ... \u003e More Apps \u003e More Apps Success",
+                           "text":  "",
+                           "menuId":  26060,
+                           "resText":  "%o: On More Apps located at %0 Success",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Location Name String"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  7,
+                           "menu":  "Deprecated ... \u003e More Apps \u003e More Apps Failed",
+                           "text":  "",
+                           "menuId":  26070,
+                           "resText":  "%o: On More Apps located at %0 Failed",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Location Name String"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  8,
+                           "menu":  "Deprecated ... \u003e More Apps \u003e More Apps Cached",
+                           "text":  "",
+                           "menuId":  26080,
+                           "resText":  "%o: On More Apps located at %0 Cached",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Location Name String"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  9,
+                           "menu":  "Deprecated ... \u003e More Apps \u003e More Apps Dismissed",
+                           "text":  "",
+                           "menuId":  26090,
+                           "resText":  "%o: On More Apps located at %0 Dismissed",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Location Name String"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  10,
+                           "menu":  "Deprecated ... \u003e More Apps \u003e More Apps Closed",
+                           "text":  "",
+                           "menuId":  26100,
+                           "resText":  "%o: On More Apps located at %0 Closed",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Location Name String"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  11,
+                           "menu":  "Deprecated ... \u003e More Apps \u003e More Apps Clicked",
+                           "text":  "",
+                           "menuId":  26110,
+                           "resText":  "%o: On More Apps located at %0 Clicked",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Location Name String"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  12,
+                           "menu":  "On Activity Resumed",
+                           "text":  "",
+                           "menuId":  26120,
+                           "resText":  "%o: On Activity Resumed",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  13,
+                           "menu":  "Rewarded Video \u003e Rewarded Video Success",
+                           "text":  "",
+                           "menuId":  26130,
+                           "resText":  "%o: On Rewarded Video located at %0 Success",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Location Name String"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  14,
+                           "menu":  "Rewarded Video \u003e Rewarded Video Failed",
+                           "text":  "",
+                           "menuId":  26140,
+                           "resText":  "%o: On Rewarded Video located at %0 Failed",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Location Name String"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  15,
+                           "menu":  "Rewarded Video \u003e Rewarded Video Cached",
+                           "text":  "",
+                           "menuId":  26150,
+                           "resText":  "%o: On Rewarded Video located at %0 Cached",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Location Name String"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  16,
+                           "menu":  "Rewarded Video \u003e Rewarded Video Dismissed",
+                           "text":  "",
+                           "menuId":  26160,
+                           "resText":  "%o: On Rewarded Video located at %0 Dismissed",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Location Name String"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  17,
+                           "menu":  "Rewarded Video \u003e Rewarded Video Completed",
+                           "text":  "",
+                           "menuId":  26170,
+                           "resText":  "%o: On Rewarded Video located at %0 Complete",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Location Name String"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  18,
+                           "menu":  "Rewarded Video \u003e Rewarded Video Closed",
+                           "text":  "",
+                           "menuId":  26180,
+                           "resText":  "%o: On Rewarded Video located at %0 Closed",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Location Name String"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  19,
+                           "menu":  "Rewarded Video \u003e Rewarded Video Clicked",
+                           "text":  "",
+                           "menuId":  26190,
+                           "resText":  "%o: On Rewarded Video located at %0 Clicked",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Location Name String"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  20,
+                           "menu":  "Rewarded Video \u003e Rewarded Video Will Play",
+                           "text":  "",
+                           "menuId":  26200,
+                           "resText":  "%o: On Rewarded Video located at %0 will Play",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Location Name String"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  21,
+                           "menu":  "Deprecated ... \u003e InPlay \u003e InPlay Failed",
+                           "text":  "",
+                           "menuId":  26210,
+                           "resText":  "%o: On In Play located at %0 Failed",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Location Name String"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  22,
+                           "menu":  "Deprecated ... \u003e InPlay \u003e InPlay Cached",
+                           "text":  "",
+                           "menuId":  26220,
+                           "resText":  "%o: On In Play located at %0 Cached",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Location Name String"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  23,
+                           "menu":  "Deprecated ... \u003e On Pause Click Confirmation",
+                           "text":  "",
+                           "menuId":  26230,
+                           "resText":  "%o: On Pause Click Confirmation",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       }
+                   ],
+    "conditions_status":  "resource menu",
+    "actions":  [
+                    {
+                        "code":  0,
+                        "menu":  "Interstitial \u003e Show Interstitial",
+                        "text":  "",
+                        "menuId":  25000,
+                        "resText":  "Show Interstitial with location %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Location Name String"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  1,
+                        "menu":  "Interstitial \u003e Cache Interstitial",
+                        "text":  "",
+                        "menuId":  25010,
+                        "resText":  "Cache Interstitial with location %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Location Name String"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  2,
+                        "menu":  "More Apps \u003e Show More Apps",
+                        "text":  "",
+                        "menuId":  25020,
+                        "resText":  "Show More Apps with location %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Location Name String"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  3,
+                        "menu":  "More Apps \u003e Cache More Apps",
+                        "text":  "",
+                        "menuId":  25030,
+                        "resText":  "Cache More Apps with location %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Location Name String"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  4,
+                        "menu":  "Deprecated ... \u003e Clear Preload data",
+                        "text":  "",
+                        "menuId":  25040,
+                        "resText":  "Clear Preload data",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  5,
+                        "menu":  "Deprecated ... \u003e Track events \u003e Reset Track data",
+                        "text":  "",
+                        "menuId":  25050,
+                        "resText":  "%o: Reset Track data",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  6,
+                        "menu":  "Deprecated ... \u003e Track events \u003e Add an Integer data",
+                        "text":  "",
+                        "menuId":  25060,
+                        "resText":  "%o: Add Integer %0 with name %1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22,
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Integer Value",
+                                            "String Name"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  7,
+                        "menu":  "Deprecated ... \u003e Track events \u003e Add a String data",
+                        "text":  "",
+                        "menuId":  25070,
+                        "resText":  "%o: Add String %0 with name %1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45,
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "String Value",
+                                            "String Name"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  8,
+                        "menu":  "Deprecated ... \u003e Track events \u003e Track an Event",
+                        "text":  "",
+                        "menuId":  25080,
+                        "resText":  "%o: Track Event name %0 and Id:%1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Event  Name",
+                                            "Id number"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  9,
+                        "menu":  "Deprecated ... \u003e Record Purchase \u003e Reset Purchase data",
+                        "text":  "",
+                        "menuId":  25090,
+                        "resText":  "%o: Reset Purchase data",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  10,
+                        "menu":  "Deprecated ... \u003e Record Purchase \u003e Add an Integer data",
+                        "text":  "",
+                        "menuId":  25100,
+                        "resText":  "%o: Add Integer %0 with name %1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22,
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Integer Value",
+                                            "String Name"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  11,
+                        "menu":  "Deprecated ... \u003e Record Purchase \u003e Add a String data",
+                        "text":  "",
+                        "menuId":  25110,
+                        "resText":  "%o: Add String %0 with name %1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45,
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "String Value",
+                                            "String Name"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  12,
+                        "menu":  "Deprecated ... \u003e Record Purchase \u003e Record a Purchase",
+                        "text":  "",
+                        "menuId":  25120,
+                        "resText":  "%o: Record Purchase to sku: %0, title: %1, price: %2, currency: %3 and quantity: %4",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45,
+                                           45,
+                                           22,
+                                           45,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Sku Id String",
+                                            "Sku Title String",
+                                            "Price value",
+                                            "Currency symbol",
+                                            "Quantities of sku to purchase"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  13,
+                        "menu":  "Flags \u003e Show No Interstitial until second session",
+                        "text":  "",
+                        "menuId":  25130,
+                        "resText":  "Show No Intertistial until second session to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Value (0: No , 1: Yes, default is no)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  14,
+                        "menu":  "Flags \u003e Display Interstitial",
+                        "text":  "",
+                        "menuId":  25140,
+                        "resText":  "Display Intertistial to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Value (0: No , 1: Yes, default is yes)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  15,
+                        "menu":  "Flags \u003e Stop Request Interstitial",
+                        "text":  "",
+                        "menuId":  25150,
+                        "resText":  "Request Intertistial to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Value (0: No , 1: Yes, default is yes)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  16,
+                        "menu":  "Flags \u003e Display More Apps",
+                        "text":  "",
+                        "menuId":  25160,
+                        "resText":  "Display More Apps to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Value (0: No , 1: Yes, default is yes)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  17,
+                        "menu":  "Flags \u003e Stop Requesting More Apps",
+                        "text":  "",
+                        "menuId":  25170,
+                        "resText":  "Request More Apps to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Value (0: No , 1: Yes, default is yes)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  18,
+                        "menu":  "Rewarded Video \u003e Show Rewarded video",
+                        "text":  "",
+                        "menuId":  25180,
+                        "resText":  "Show rewarded video with location %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Location Name String"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  19,
+                        "menu":  "Rewarded Video \u003e Cache Rewarded Video",
+                        "text":  "",
+                        "menuId":  25190,
+                        "resText":  "Cache rewarded video with location %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Location Name String"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  20,
+                        "menu":  "InPlay \u003e Call InPlay",
+                        "text":  "",
+                        "menuId":  25200,
+                        "resText":  "Call InPlay with location %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Location Name String"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  21,
+                        "menu":  "InPlay \u003e Cache InPlay",
+                        "text":  "",
+                        "menuId":  25210,
+                        "resText":  "Cache InPlay with location %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Location Name String"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  22,
+                        "menu":  "Flags \u003e Display Rewarded video",
+                        "text":  "",
+                        "menuId":  25220,
+                        "resText":  "Display Rewarded Video to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Value (0: No , 1: Yes, default is yes)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  23,
+                        "menu":  "Deprecated ... \u003e Pause Click Confirmation",
+                        "text":  "",
+                        "menuId":  25230,
+                        "resText":  "Pause Click Confirmation to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Value (0: No , 1: Yes, default is no)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  24,
+                        "menu":  "Dismiss Ads",
+                        "text":  "",
+                        "menuId":  25240,
+                        "resText":  "Dismiss Ads",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  25,
+                        "menu":  "Set GDPR Collection Mode",
+                        "text":  "",
+                        "menuId":  25250,
+                        "resText":  "Set GDPR collection mode to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "GDPR Mode (0:Restrict, 1:Allowed)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    }
+                ],
+    "actions_status":  "resource menu",
+    "expressions":  [
+                        {
+                            "code":  0,
+                            "menu":  "Error Value",
+                            "text":  "",
+                            "menuId":  27000,
+                            "resText":  "Error(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  1,
+                            "menu":  "Last Cache Location",
+                            "text":  "",
+                            "menuId":  27010,
+                            "resText":  "LastCacheLocation$(",
+                            "flags":  1,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  2,
+                            "menu":  "Display Interstitial Flag",
+                            "text":  "",
+                            "menuId":  27020,
+                            "resText":  "DisplayIntersFlag(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  3,
+                            "menu":  "Request Interstitial Flag",
+                            "text":  "",
+                            "menuId":  27030,
+                            "resText":  "RequestIntersFlag(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  4,
+                            "menu":  "Display More Apps Flag",
+                            "text":  "",
+                            "menuId":  27040,
+                            "resText":  "DisplayMoreAppsFlag(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  5,
+                            "menu":  "Request More Apps Flag",
+                            "text":  "",
+                            "menuId":  27050,
+                            "resText":  "RequestMoreAppsFlag(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  6,
+                            "menu":  "Get Rewarded Coins",
+                            "text":  "",
+                            "menuId":  27060,
+                            "resText":  "GetRewardedCoins(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  7,
+                            "menu":  "Display Rewarded Video Flag",
+                            "text":  "",
+                            "menuId":  27070,
+                            "resText":  "DisplayRewVideoFlag(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  8,
+                            "menu":  "Error String",
+                            "text":  "",
+                            "menuId":  27080,
+                            "resText":  "Error$(",
+                            "flags":  1,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        }
+                    ],
+    "expressions_status":  "resource menu"
+}

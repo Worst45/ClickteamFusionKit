@@ -1,6 +1,6 @@
 # Extension ValueAdd
 
-- File: `ValueAdd.mfx` — third-party extension (shipped with a downloaded project)
+- File: `ValueAdd.mfx` — installed with Fusion
 - Name(s) shown in projects: “Value-Add Object”
 - Usage in the corpus: 30 times
 - Numbers in events: condition = −(81 + code), action / expression = 80 + code

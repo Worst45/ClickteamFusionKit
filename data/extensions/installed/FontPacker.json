@@ -1,0 +1,236 @@
+{
+    "file":  "FontPacker.mfx",
+    "conditions":  [
+                       {
+                           "code":  0,
+                           "menu":  "On Internal Fonts Read",
+                           "text":  "",
+                           "menuId":  26000,
+                           "resText":  "%o: On Internal Fonts Read",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  1,
+                           "menu":  "On Packed Fonts Read",
+                           "text":  "",
+                           "menuId":  26010,
+                           "resText":  "%o: On Packed Fonts Read",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  2,
+                           "menu":  "Is Internal Font Available",
+                           "text":  "",
+                           "menuId":  26020,
+                           "resText":  "%o: Is Internal font %0 available?",
+                           "flags":  544,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Font Name"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  3,
+                           "menu":  "Is Packed Font Available",
+                           "text":  "",
+                           "menuId":  26030,
+                           "resText":  "%o: Is Packed font %0 available?",
+                           "flags":  544,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Font Name"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  4,
+                           "menu":  "On Error",
+                           "text":  "",
+                           "menuId":  26040,
+                           "resText":  "%o: On Error Ocurred",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       }
+                   ],
+    "conditions_status":  "resource menu",
+    "actions":  [
+                    {
+                        "code":  0,
+                        "menu":  "Read Internal fonts",
+                        "text":  "",
+                        "menuId":  25000,
+                        "resText":  "%o: Read Internal Fonts",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  1,
+                        "menu":  "Read Packed Fonts",
+                        "text":  "",
+                        "menuId":  25010,
+                        "resText":  "%o: Read Packed Fonts",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    }
+                ],
+    "actions_status":  "resource menu",
+    "expressions":  [
+                        {
+                            "code":  0,
+                            "menu":  "Internal Fonts Quantity",
+                            "text":  "",
+                            "menuId":  27000,
+                            "resText":  "IntenalFontsQty(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  1,
+                            "menu":  "Internal Font Name",
+                            "text":  "",
+                            "menuId":  27010,
+                            "resText":  "IntenalFontName$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  2,
+                            "menu":  "Packed Fonts Quantity",
+                            "text":  "",
+                            "menuId":  27020,
+                            "resText":  "PackedFontsQty(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  3,
+                            "menu":  "Packed Font Name",
+                            "text":  "",
+                            "menuId":  27030,
+                            "resText":  "PackedFontName$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  4,
+                            "menu":  "Read Default Font Size",
+                            "text":  "",
+                            "menuId":  27040,
+                            "resText":  "FontDefaultSize(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  5,
+                            "menu":  "Read Default Font Style",
+                            "text":  "",
+                            "menuId":  27050,
+                            "resText":  "FontDefaultStyle(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  6,
+                            "menu":  "Last error Ocurred",
+                            "text":  "",
+                            "menuId":  27060,
+                            "resText":  "LastError(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        }
+                    ],
+    "expressions_status":  "resource menu"
+}

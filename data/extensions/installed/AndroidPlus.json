@@ -1,0 +1,2044 @@
+{
+    "file":  "AndroidPlus.mfx",
+    "conditions":  [
+                       {
+                           "code":  0,
+                           "menu":  "Is Display set to Center",
+                           "text":  "",
+                           "menuId":  26000,
+                           "resText":  "%o: Is Display set to Center?",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  1,
+                           "menu":  "Is Display set to Adjust window",
+                           "text":  "",
+                           "menuId":  26010,
+                           "resText":  "%o: Is Display set to Adjust window?",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  2,
+                           "menu":  "Is Display set to Fit inside Bars",
+                           "text":  "",
+                           "menuId":  26020,
+                           "resText":  "%o: Is Display set to Fit inside Bars?",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  3,
+                           "menu":  "Is Display set to Fit inside and Adjust window",
+                           "text":  "",
+                           "menuId":  26030,
+                           "resText":  "%o: Is Display set to Fit inside Bars and Adjust Windows?",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  4,
+                           "menu":  "Is Display set to Fit Outside",
+                           "text":  "",
+                           "menuId":  26040,
+                           "resText":  "%o: Is Display set to Fit outside?",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  5,
+                           "menu":  "Is Display set to Stretch to fill",
+                           "text":  "",
+                           "menuId":  26050,
+                           "resText":  "%o: Is Display set to Stretch to fill?",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  6,
+                           "menu":  "Is Touch mode enabled",
+                           "text":  "",
+                           "menuId":  26060,
+                           "resText":  "%o: Is Touch mode enable?",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  7,
+                           "menu":  "Is Device a Tablet",
+                           "text":  "",
+                           "menuId":  26070,
+                           "resText":  "%o: Is Device a tablet?",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  8,
+                           "menu":  "Is Device Natural Landscape",
+                           "text":  "",
+                           "menuId":  26080,
+                           "resText":  "%o: Is Device natural landscape?",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  9,
+                           "menu":  "On Return from Share",
+                           "text":  "",
+                           "menuId":  26090,
+                           "resText":  "%o: On return from share OK",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  10,
+                           "menu":  "On Locale List Read",
+                           "text":  "",
+                           "menuId":  26100,
+                           "resText":  "%o: On read locale list",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  11,
+                           "menu":  "On Timezone List Read",
+                           "text":  "",
+                           "menuId":  26110,
+                           "resText":  "%o: On read TimeZone list",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  12,
+                           "menu":  "Is Expansion Available",
+                           "text":  "",
+                           "menuId":  26120,
+                           "resText":  "%o: Is Expansion available?",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  13,
+                           "menu":  "App Returning from Pause",
+                           "text":  "",
+                           "menuId":  26130,
+                           "resText":  "%o: On App return from pause?",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  14,
+                           "menu":  "On Return from Share w/Result",
+                           "text":  "",
+                           "menuId":  26140,
+                           "resText":  "%o: On return from share w/result: %0",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              22
+                                          ],
+                           "paramTitles":  [
+                                               "Share with Result (0:OK, 1:Canceled, 2:First_User)"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  15,
+                           "menu":  "On Account dialog OK",
+                           "text":  "",
+                           "menuId":  26150,
+                           "resText":  "%o: On Account dialog OK/Read",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  16,
+                           "menu":  "On Account dialog Cancel",
+                           "text":  "",
+                           "menuId":  26160,
+                           "resText":  "%o: On Account dialog Cancel",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  17,
+                           "menu":  "Is Battery Opt. Ignored?",
+                           "text":  "",
+                           "menuId":  26170,
+                           "resText":  "%o: Is Battery opt. ignored?",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  18,
+                           "menu":  "Is Assets Expansion Available",
+                           "text":  "",
+                           "menuId":  26180,
+                           "resText":  "%o: Is Assets Expansion available?",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       }
+                   ],
+    "conditions_status":  "resource menu",
+    "actions":  [
+                    {
+                        "code":  0,
+                        "menu":  "Save Display Mode",
+                        "text":  "",
+                        "menuId":  25000,
+                        "resText":  "Save Display Mode",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  1,
+                        "menu":  "Set Display Mode",
+                        "text":  "",
+                        "menuId":  25010,
+                        "resText":  "Set Display Mode to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Display Mode (0:Center, 1:Adjust window, 2:Fit Inside bars, 3:Fit inside bars and adjust, 4:Fit outside, 5:Stretch to fill, 6: Square, 7:Square and Adjust)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  2,
+                        "menu":  "Restore Display Mode",
+                        "text":  "",
+                        "menuId":  25020,
+                        "resText":  "Restore Display Mode",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  3,
+                        "menu":  "Refresh Display",
+                        "text":  "",
+                        "menuId":  25030,
+                        "resText":  "Refresh Display",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  4,
+                        "menu":  "Disable All Views",
+                        "text":  "",
+                        "menuId":  25040,
+                        "resText":  "Disable All Views",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  5,
+                        "menu":  "Enable All Views",
+                        "text":  "",
+                        "menuId":  25050,
+                        "resText":  "Enable All Views",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  6,
+                        "menu":  "Joysticks ... \u003e Start/Stop Joysticks",
+                        "text":  "",
+                        "menuId":  25060,
+                        "resText":  "Start/Stop Joysticks with %0 and mode %1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Start/Stop value (0:Off, 1:On)",
+                                            "Auto-release (0:No-Default, 1:Yes)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  7,
+                        "menu":  "Joysticks ... \u003e Emulate Joystick",
+                        "text":  "",
+                        "menuId":  25070,
+                        "resText":  "Emulate joystick %0 with value %1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Joystick Number (from 1 to 4)",
+                                            "Joystick Value (1:top, 2:bottom, 4:left, 8:right, 16:fire-1, 32:fire-2 )"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  8,
+                        "menu":  "Joysticks ... \u003e Release Joystick",
+                        "text":  "",
+                        "menuId":  25080,
+                        "resText":  "Release joystick %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Joystick Number (from 1 to 4)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  9,
+                        "menu":  "Preferences \u003e Set Preferences Name",
+                        "text":  "",
+                        "menuId":  25090,
+                        "resText":  "Set Preference name to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Filename for preferences (only name no path)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  10,
+                        "menu":  "Preferences \u003e Save String",
+                        "text":  "",
+                        "menuId":  25100,
+                        "resText":  "Save String with Name %0 and value %1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45,
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Name for value",
+                                            "String to save"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  11,
+                        "menu":  "Preferences \u003e Save Integer",
+                        "text":  "",
+                        "menuId":  25110,
+                        "resText":  "Save Integer with Name %0 and value %1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Name for value",
+                                            "Integer to save"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  12,
+                        "menu":  "Preferences \u003e Save Float",
+                        "text":  "",
+                        "menuId":  25120,
+                        "resText":  "Save Float with Name %0 and value %1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Name for value",
+                                            "Float to save"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  13,
+                        "menu":  "Preferences \u003e Save Boolean",
+                        "text":  "",
+                        "menuId":  25130,
+                        "resText":  "Save Boolean with Name %0 and value %1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Name for value",
+                                            "Boolean value (0:False, 1:True)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  14,
+                        "menu":  "Share ... \u003e Share an Image with Text",
+                        "text":  "",
+                        "menuId":  25140,
+                        "resText":  "Share Image with name %0 and text %1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45,
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Image name or URL",
+                                            "Text to share ..."
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  15,
+                        "menu":  "Share ... \u003e Share only a Text",
+                        "text":  "",
+                        "menuId":  25150,
+                        "resText":  "Share text %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Text to share ..."
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  16,
+                        "menu":  "Settings ... \u003e Set Process Brightness",
+                        "text":  "",
+                        "menuId":  25160,
+                        "resText":  "Set Process Brightness to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Process Brightness value (0:Dark, 100:Bright)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  17,
+                        "menu":  "Settings ... \u003e Set System Brightness",
+                        "text":  "",
+                        "menuId":  25170,
+                        "resText":  "Set System Brightness to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "System Brightness value (0:Dark, 100:Bright)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  18,
+                        "menu":  "Settings ... \u003e Read Locale List",
+                        "text":  "",
+                        "menuId":  25180,
+                        "resText":  "Read Locale List",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  19,
+                        "menu":  "Settings ... \u003e Set Language",
+                        "text":  "",
+                        "menuId":  25190,
+                        "resText":  "Set Language to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Set Locale (locale_lang, e.g. en_US)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  20,
+                        "menu":  "Settings ... \u003e Read Timezone List",
+                        "text":  "",
+                        "menuId":  25200,
+                        "resText":  "Read Timezone List",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  21,
+                        "menu":  "Settings ... \u003e Change Date and Time",
+                        "text":  "",
+                        "menuId":  25210,
+                        "resText":  "Open Date/Time Settings",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  22,
+                        "menu":  "Device ... \u003e Start Sleep Process",
+                        "text":  "",
+                        "menuId":  25220,
+                        "resText":  "Start sleep process in %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Delay in seconds before sleep process"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  23,
+                        "menu":  "Device ... \u003e Inject Key",
+                        "text":  "",
+                        "menuId":  25230,
+                        "resText":  "Inject key %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Android key value"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  24,
+                        "menu":  "Start an APK",
+                        "text":  "",
+                        "menuId":  25240,
+                        "resText":  "Start APK with package name: %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Package name"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  25,
+                        "menu":  "Device ... \u003e Flashlight On/Off",
+                        "text":  "",
+                        "menuId":  25250,
+                        "resText":  "Set flashlight to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Flashlight (0:OFF, 1:ON)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  27,
+                        "menu":  "Device ... \u003e Set layout to Portrait",
+                        "text":  "",
+                        "menuId":  25270,
+                        "resText":  "Set layout to Portrait (sensor: %0)",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Layout (0:No-Sensor, 1:Sensor)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  28,
+                        "menu":  "Device ... \u003e Set layout to Landscape",
+                        "text":  "",
+                        "menuId":  25280,
+                        "resText":  "Set layout to Landscape (sensor: %0)",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Layout (0:No-Sensor, 1:Sensor)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  29,
+                        "menu":  "Device ... \u003e Set layout to Any",
+                        "text":  "",
+                        "menuId":  25290,
+                        "resText":  "Set layout to Any",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  30,
+                        "menu":  "Device ... \u003e Set Volume",
+                        "text":  "",
+                        "menuId":  25300,
+                        "resText":  "Set device volume to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Device volume (0:mute, 100:full)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  31,
+                        "menu":  "Device ... \u003e Set Immersive Mode",
+                        "text":  "",
+                        "menuId":  25310,
+                        "resText":  "Set Immersive mode to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Immersive mode (0:Off, 1:On-Sticky, 2: On-Reg. Immersive)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  32,
+                        "menu":  "Action bar ... \u003e Set Bar Color",
+                        "text":  "",
+                        "menuId":  25320,
+                        "resText":  "Set action bar color to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           24
+                                       ],
+                        "paramTitles":  [
+                                            "Action bar color (int: color value)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  33,
+                        "menu":  "Action bar ... \u003e Set Text Color",
+                        "text":  "",
+                        "menuId":  25330,
+                        "resText":  "Set action bar text color to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           24
+                                       ],
+                        "paramTitles":  [
+                                            "Text Action bar color (int:color value)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  34,
+                        "menu":  "Status bar ... \u003e Set Status Bar Color",
+                        "text":  "",
+                        "menuId":  25340,
+                        "resText":  "Set status bar color to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           24
+                                       ],
+                        "paramTitles":  [
+                                            "Status bar color (int:color value)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  35,
+                        "menu":  "Action bar ... \u003e Display Title",
+                        "text":  "",
+                        "menuId":  25350,
+                        "resText":  "Set display title mode to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Mode (0:Show - default, 1:Off)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  36,
+                        "menu":  "Action bar ... \u003e Display Logo",
+                        "text":  "",
+                        "menuId":  25360,
+                        "resText":  "Set display logo mode to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Mode (0:Show - default, 1:Off)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  37,
+                        "menu":  "Action bar ... \u003e Display HomeUp",
+                        "text":  "",
+                        "menuId":  25370,
+                        "resText":  "Set display HomeUp mode to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Mode (0:Off - default, 1:On)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  38,
+                        "menu":  "Action bar ... \u003e Set Title Text",
+                        "text":  "",
+                        "menuId":  25380,
+                        "resText":  "Set action bar title to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "String Title"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  39,
+                        "menu":  "Menu ... \u003e Set Text Color",
+                        "text":  "",
+                        "menuId":  25390,
+                        "resText":  "Set menu text color to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           24
+                                       ],
+                        "paramTitles":  [
+                                            "Menu Text Color"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  40,
+                        "menu":  "Menu ... \u003e Display in Action Bar",
+                        "text":  "",
+                        "menuId":  25400,
+                        "resText":  " Set menu display mode to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Mode (0:As Submenu-default, 1:As Actionbar)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  41,
+                        "menu":  "Action bar ... \u003e Set Icon image",
+                        "text":  "",
+                        "menuId":  25410,
+                        "resText":  "Set Icon to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Icon String (check help for tips)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  42,
+                        "menu":  "Action bar ... \u003e Set Logo image",
+                        "text":  "",
+                        "menuId":  25420,
+                        "resText":  "Set Logo to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Logo String (check help for tips)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  43,
+                        "menu":  "Action bar ... \u003e Set Home Image",
+                        "text":  "",
+                        "menuId":  25430,
+                        "resText":  "Set Home Logo to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Home Logo String (check help for tips)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  44,
+                        "menu":  "Action bar ... \u003e Set Menu Image",
+                        "text":  "",
+                        "menuId":  25440,
+                        "resText":  "Set Menu Logo to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Menu Logo String (check help for tips)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  45,
+                        "menu":  "Set Shortcut Install",
+                        "text":  "",
+                        "menuId":  25450,
+                        "resText":  "Create shortcut with name %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "String text for title shortcut"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  46,
+                        "menu":  "Toast Message ... \u003e Set Aligment",
+                        "text":  "",
+                        "menuId":  25460,
+                        "resText":  "Set toast message alignment to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Aligment mode (0: DEFAULT, 1: HORZ CENTER, 2:VERT CENTER, 4:LEFT, 8:TOP, 16:RIGHT, 32:BOTTOM"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  47,
+                        "menu":  "Toast Message ... \u003e Set Duration",
+                        "text":  "",
+                        "menuId":  25470,
+                        "resText":  "Set toast message duration mode to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Duration Mode (0:short 1:long)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  48,
+                        "menu":  "Toast Message ... \u003e Set Horizontal Offset",
+                        "text":  "",
+                        "menuId":  25480,
+                        "resText":  "Set toast message horizontal offset to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Horizontal offset value"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  49,
+                        "menu":  "Toast Message ... \u003e Set Vertical Offset",
+                        "text":  "",
+                        "menuId":  25490,
+                        "resText":  "Set toast message vertical offset to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Vertical offset value"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  50,
+                        "menu":  "Toast Message ... \u003e Show Message",
+                        "text":  "",
+                        "menuId":  25500,
+                        "resText":  "Show toast message with text %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Message text"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  51,
+                        "menu":  "Open Google Account Dialog",
+                        "text":  "",
+                        "menuId":  25510,
+                        "resText":  "Open/Ask google email account",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  52,
+                        "menu":  "Device ... \u003e Request to Ignore Battery Optimizations",
+                        "text":  "",
+                        "menuId":  25520,
+                        "resText":  "Request to ignore battery optimizations",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  53,
+                        "menu":  "JVM Memory Info ... \u003e Free Unused Memory",
+                        "text":  "",
+                        "menuId":  25530,
+                        "resText":  "Free unused memory",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  54,
+                        "menu":  "JVM Memory Info ... \u003e Refresh JVM Memory Info Every ...",
+                        "text":  "",
+                        "menuId":  25540,
+                        "resText":  "Refresh JVM memory info every %0 ms",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Refresh JVM Memory Info Every ... (ms)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  55,
+                        "menu":  "JVM Memory Info ... \u003e Stop Refreshing JVM Memory Info",
+                        "text":  "",
+                        "menuId":  25550,
+                        "resText":  "Stop refreshing JVM memory info",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  56,
+                        "menu":  "Status bar ... \u003e Set Status Bar Color and Alpha",
+                        "text":  "",
+                        "menuId":  25560,
+                        "resText":  "Set status bar color to %0 and alpha %1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           24,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Status bar color (int:color value)",
+                                            "Status bar alpha coefficient (0 - 255:Opaque)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  57,
+                        "menu":  "Device ... \u003e Set UI limits Mode",
+                        "text":  "",
+                        "menuId":  25570,
+                        "resText":  "Set UI limit mode to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "UI Limit mode (0:With limits - default, 1:No limits)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  58,
+                        "menu":  "Set OS Display Freq.",
+                        "text":  "",
+                        "menuId":  25580,
+                        "resText":  "Set OS Game frequency to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Frequency (normally 90 or 120)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  59,
+                        "menu":  "Device ... \u003e Set Edge to Edge",
+                        "text":  "",
+                        "menuId":  25590,
+                        "resText":  "Set edge to edge mode to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Edge to Edge (1:ON, 0:As SET 2:OFF)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  60,
+                        "menu":  "Device ... \u003e Set DisplayCutouts",
+                        "text":  "",
+                        "menuId":  25600,
+                        "resText":  "Set display cutouts mode to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "DisplayCutouts (0:Use device default, 1:Short Edges, 2:Never, 3:Force On(Devices 30+)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    }
+                ],
+    "actions_status":  "resource menu",
+    "expressions":  [
+                        {
+                            "code":  0,
+                            "menu":  "Get Display Mode",
+                            "text":  "",
+                            "menuId":  27000,
+                            "resText":  "GetDisplayMode(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  1,
+                            "menu":  "Get Saved Display Mode",
+                            "text":  "",
+                            "menuId":  27010,
+                            "resText":  "GetSaveDisplayMode(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  2,
+                            "menu":  "Get Original Display Mode",
+                            "text":  "",
+                            "menuId":  27020,
+                            "resText":  "GetOriginalDisplayMode(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  3,
+                            "menu":  "Get Device Screen size in inches",
+                            "text":  "",
+                            "menuId":  27030,
+                            "resText":  "GetScreenSizeInches(",
+                            "flags":  2,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  4,
+                            "menu":  "Get Device Screen width  in inches",
+                            "text":  "",
+                            "menuId":  27040,
+                            "resText":  "GetScreenSizeWidth(",
+                            "flags":  2,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  5,
+                            "menu":  "Get Device Screen height  in inches",
+                            "text":  "",
+                            "menuId":  27050,
+                            "resText":  "GetScreenSizeHeight(",
+                            "flags":  2,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  6,
+                            "menu":  "Get Device Screen Horizontal DPI",
+                            "text":  "",
+                            "menuId":  27060,
+                            "resText":  "GetScreenDPIHorizontal(",
+                            "flags":  2,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  7,
+                            "menu":  "Get Device Screen Vertical DPI",
+                            "text":  "",
+                            "menuId":  27070,
+                            "resText":  "GetScreenDPIVertical(",
+                            "flags":  2,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  8,
+                            "menu":  "Get Device Screen DPI Density",
+                            "text":  "",
+                            "menuId":  27080,
+                            "resText":  "GetScreenDensityDPI(",
+                            "flags":  2,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  9,
+                            "menu":  "Get Device Screen Density Ratio",
+                            "text":  "",
+                            "menuId":  27090,
+                            "resText":  "GetScreenDensityRatio(",
+                            "flags":  2,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  10,
+                            "menu":  "Preferences \u003e Get Preference String",
+                            "text":  "",
+                            "menuId":  27100,
+                            "resText":  "GetPrefString$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               3
+                                           ],
+                            "paramTitles":  [
+                                                "field value"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  11,
+                            "menu":  "Preferences \u003e Get Preference Integer",
+                            "text":  "",
+                            "menuId":  27110,
+                            "resText":  "GetPrefInteger(",
+                            "flags":  0,
+                            "paramTypes":  [
+                                               3
+                                           ],
+                            "paramTitles":  [
+                                                "field value"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  12,
+                            "menu":  "Preferences \u003e Get Preference Float",
+                            "text":  "",
+                            "menuId":  27120,
+                            "resText":  "GetPrefFloat(",
+                            "flags":  2,
+                            "paramTypes":  [
+                                               3
+                                           ],
+                            "paramTitles":  [
+                                                "field value"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  13,
+                            "menu":  "Preferences \u003e Get Preference Boolean",
+                            "text":  "",
+                            "menuId":  27130,
+                            "resText":  "GetPrefBoolean(",
+                            "flags":  0,
+                            "paramTypes":  [
+                                               3
+                                           ],
+                            "paramTitles":  [
+                                                "field value"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  14,
+                            "menu":  "Settings \u003e Get Process Brightness",
+                            "text":  "",
+                            "menuId":  27140,
+                            "resText":  "GetProcessBright(",
+                            "flags":  2,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  15,
+                            "menu":  "Settings \u003e Get System Brightness",
+                            "text":  "",
+                            "menuId":  27150,
+                            "resText":  "GetSystemBright(",
+                            "flags":  2,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  16,
+                            "menu":  "Settings \u003e Get Locale Qty",
+                            "text":  "",
+                            "menuId":  27160,
+                            "resText":  "GetLocaleQty(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  17,
+                            "menu":  "Settings \u003e Get Locale Language",
+                            "text":  "",
+                            "menuId":  27170,
+                            "resText":  "GetLocale$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "index value"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  18,
+                            "menu":  "Settings \u003e Get Locale Country",
+                            "text":  "",
+                            "menuId":  27180,
+                            "resText":  "GetLocaleCountry$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "index value"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  19,
+                            "menu":  "Settings \u003e Get Default Language",
+                            "text":  "",
+                            "menuId":  27190,
+                            "resText":  "GetDefaultLocale$(",
+                            "flags":  1,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  20,
+                            "menu":  "Settings \u003e Get Timezone Qty",
+                            "text":  "",
+                            "menuId":  27200,
+                            "resText":  "GetTimezoneQty(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  21,
+                            "menu":  "Settings \u003e Get Timezone ID",
+                            "text":  "",
+                            "menuId":  27210,
+                            "resText":  "GetTimezoneID$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "index value"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  22,
+                            "menu":  "Settings \u003e Get Timezone GMT",
+                            "text":  "",
+                            "menuId":  27220,
+                            "resText":  "GetTimezoneGMT$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "index value"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  23,
+                            "menu":  "Settings \u003e Get Default Timezone ID",
+                            "text":  "",
+                            "menuId":  27230,
+                            "resText":  "GetDefaultTimezoneID$(",
+                            "flags":  1,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  24,
+                            "menu":  "Settings \u003e Get Default Timezone GMT",
+                            "text":  "",
+                            "menuId":  27240,
+                            "resText":  "GetDefaultTimezoneGMT$(",
+                            "flags":  1,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  25,
+                            "menu":  "Get Unique Hardware ID",
+                            "text":  "",
+                            "menuId":  27250,
+                            "resText":  "GetUniqueHardwareID$(",
+                            "flags":  1,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  26,
+                            "menu":  "Device ... \u003e Get Volume",
+                            "text":  "",
+                            "menuId":  27260,
+                            "resText":  "GetDeviceVolume(",
+                            "flags":  2,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  27,
+                            "menu":  "Colors ... \u003e Make Darker",
+                            "text":  "",
+                            "menuId":  27270,
+                            "resText":  "DarkerColor(",
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Color to convert"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  28,
+                            "menu":  "Colors ... \u003e Make Lighter",
+                            "text":  "",
+                            "menuId":  27280,
+                            "resText":  "LighterColor(",
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Color to convert"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  29,
+                            "menu":  "Action Bar ... \u003e Height",
+                            "text":  "",
+                            "menuId":  27290,
+                            "resText":  "ActionbarHeight(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  30,
+                            "menu":  "Action Bar ... \u003e Color",
+                            "text":  "",
+                            "menuId":  27300,
+                            "resText":  "ActionbarColor(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  31,
+                            "menu":  "Google Email Account",
+                            "text":  "",
+                            "menuId":  27310,
+                            "resText":  "GetGoogleAccountemail$(",
+                            "flags":  1,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  32,
+                            "menu":  "JVM Memory Info ... \u003e Total (MB)",
+                            "text":  "",
+                            "menuId":  27320,
+                            "resText":  "TotalJVMMemoryMB(",
+                            "flags":  2,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  33,
+                            "menu":  "JVM Memory Info ... \u003e Free (MB)",
+                            "text":  "",
+                            "menuId":  27330,
+                            "resText":  "FreeJVMMemoryMB(",
+                            "flags":  2,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  34,
+                            "menu":  "JVM Memory Info ... \u003e Used (MB)",
+                            "text":  "",
+                            "menuId":  27340,
+                            "resText":  "UsedJVMMemoryMB(",
+                            "flags":  2,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  35,
+                            "menu":  "JVM Memory Info ... \u003e Max (MB)",
+                            "text":  "",
+                            "menuId":  27350,
+                            "resText":  "MaxJVMMemoryMB(",
+                            "flags":  2,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  36,
+                            "menu":  "JVM Memory Info ... \u003e Native (MB)",
+                            "text":  "",
+                            "menuId":  27360,
+                            "resText":  "NativeMemoryMB(",
+                            "flags":  2,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  37,
+                            "menu":  "Get Screen View width in pixels",
+                            "text":  "",
+                            "menuId":  27370,
+                            "resText":  "GetScreenViewWidth(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  38,
+                            "menu":  "Get Screen View height in pixels",
+                            "text":  "",
+                            "menuId":  27380,
+                            "resText":  "GetScreenViewHeight(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  39,
+                            "menu":  "Get Keyboard height in pixels",
+                            "text":  "",
+                            "menuId":  27390,
+                            "resText":  "GetVirtualKeyboardHeight(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  40,
+                            "menu":  "Settings \u003e Get Default Country",
+                            "text":  "",
+                            "menuId":  27400,
+                            "resText":  "GetDefaultCountry$(",
+                            "flags":  1,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  41,
+                            "menu":  "Window Insets ... \u003e Get Safe Area Left",
+                            "text":  "",
+                            "menuId":  27410,
+                            "resText":  "SafeAreaLeft(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  42,
+                            "menu":  "Window Insets ... \u003e Get Safe Area Top",
+                            "text":  "",
+                            "menuId":  27420,
+                            "resText":  "SafeAreaTop(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  43,
+                            "menu":  "Window Insets ... \u003e Get Safe Area Right",
+                            "text":  "",
+                            "menuId":  27430,
+                            "resText":  "SafeAreaRight(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  44,
+                            "menu":  "Window Insets ... \u003e Get Safe Area Bottom",
+                            "text":  "",
+                            "menuId":  27440,
+                            "resText":  "SafeAreaBottom(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  45,
+                            "menu":  "Settings \u003e Get OS Display Mode",
+                            "text":  "",
+                            "menuId":  27450,
+                            "resText":  "GetOSGameMode(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  46,
+                            "menu":  "Settings \u003e Get OS Display Freq.",
+                            "text":  "",
+                            "menuId":  27460,
+                            "resText":  "GetOSGameFreq(",
+                            "flags":  2,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        }
+                    ],
+    "expressions_status":  "resource menu"
+}

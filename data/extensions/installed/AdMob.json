@@ -1,0 +1,830 @@
+{
+    "file":  "AdMob.mfx",
+    "conditions":  [
+                       {
+                           "code":  0,
+                           "menu":  "Banners / Interstitials \u003e On Received Ad",
+                           "text":  "",
+                           "menuId":  26000,
+                           "resText":  "%o: On Received Ad",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  1,
+                           "menu":  "Banners / Interstitials \u003e On Failed Ad",
+                           "text":  "",
+                           "menuId":  26010,
+                           "resText":  "%o: On Failed Ad",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  2,
+                           "menu":  "Banners / Interstitials \u003e On Presented Screen",
+                           "text":  "",
+                           "menuId":  26020,
+                           "resText":  "%o: On Presented Screen",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  3,
+                           "menu":  "Banners / Interstitials \u003e On Dismissed Screen",
+                           "text":  "",
+                           "menuId":  26030,
+                           "resText":  "%o: On Dismissed Screen",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  4,
+                           "menu":  "Banners / Interstitials \u003e On Leave Application",
+                           "text":  "",
+                           "menuId":  26040,
+                           "resText":  "%o: On Leave Application",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  5,
+                           "menu":  "Banners / Interstitials \u003e Interstitial is Ready",
+                           "text":  "",
+                           "menuId":  26050,
+                           "resText":  "%o: is Interstitial Ready?",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  6,
+                           "menu":  "On Return from Ad",
+                           "text":  "",
+                           "menuId":  26060,
+                           "resText":  "%o: On Return from Ad",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  7,
+                           "menu":  "On Error",
+                           "text":  "",
+                           "menuId":  26070,
+                           "resText":  "%o: On Error",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  8,
+                           "menu":  "Rewarded Video \u003e On Video Received",
+                           "text":  "",
+                           "menuId":  26080,
+                           "resText":  "%o: On Video Received",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  9,
+                           "menu":  "Rewarded Video \u003e On Video Failed ",
+                           "text":  "",
+                           "menuId":  26090,
+                           "resText":  "%o: On Video Failed",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  10,
+                           "menu":  "Rewarded Video \u003e On Video Opened",
+                           "text":  "",
+                           "menuId":  26100,
+                           "resText":  "%o: On Video Shown",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  11,
+                           "menu":  "Rewarded Video \u003e On Video Dismissed",
+                           "text":  "",
+                           "menuId":  26110,
+                           "resText":  "%o: On Video Dismissed",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  12,
+                           "menu":  "Rewarded Video \u003e On Video Leave Application",
+                           "text":  "",
+                           "menuId":  26120,
+                           "resText":  "%o: On Video Leave App",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  13,
+                           "menu":  "Rewarded Video \u003e Is Video Loaded?",
+                           "text":  "",
+                           "menuId":  26130,
+                           "resText":  "%o: Is Video loaded?",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  14,
+                           "menu":  "Rewarded Video \u003e On Start Playing Video",
+                           "text":  "",
+                           "menuId":  26140,
+                           "resText":  "%o: On Video Started",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  15,
+                           "menu":  "Rewarded Video \u003e On Reward available",
+                           "text":  "",
+                           "menuId":  26150,
+                           "resText":  "%o: On Rewarded Video",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  16,
+                           "menu":  "Banners / Interstitials \u003e On Reward available",
+                           "text":  "",
+                           "menuId":  26160,
+                           "resText":  "%o: On Rewarded Interstitial",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  17,
+                           "menu":  "Mobile Ads Initialised?",
+                           "text":  "",
+                           "menuId":  26170,
+                           "resText":  "Is %o Mobile initialized?",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       }
+                   ],
+    "conditions_status":  "resource menu",
+    "actions":  [
+                    {
+                        "code":  0,
+                        "menu":  "Regular Banner \u003e Set AdMob Size",
+                        "text":  "",
+                        "menuId":  25000,
+                        "resText":  "Set AdMob size to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "AdMob Size (0:Standard, 1:Medium, 2:Full, 3:Leaderboard, 4:Smart, 5:Adaptive)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  1,
+                        "menu":  "Regular Banner \u003e Set AdMob Position",
+                        "text":  "",
+                        "menuId":  25010,
+                        "resText":  "Set AdMob position to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "AdMob Position (0:Bottom, 1:Top, 2:Center)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  2,
+                        "menu":  "Regular Banner \u003e Set AdMob ZOrder",
+                        "text":  "",
+                        "menuId":  25020,
+                        "resText":  "Set AdMob zorder to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "AdMob zOrder (0:Above, 1:Behind)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  4,
+                        "menu":  "Regular Banner \u003e Show Ad Banner",
+                        "text":  "",
+                        "menuId":  25040,
+                        "resText":  "Show Ad Banner",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  5,
+                        "menu":  "Regular Banner \u003e Destroy Ad Banner",
+                        "text":  "",
+                        "menuId":  25050,
+                        "resText":  "Destroy Ad Banner",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  6,
+                        "menu":  "Interstitial \u003e Make Interstitial Request",
+                        "text":  "",
+                        "menuId":  25060,
+                        "resText":  "Make Interstitial Request",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  7,
+                        "menu":  "Interstitial \u003e Show Interstitial",
+                        "text":  "",
+                        "menuId":  25070,
+                        "resText":  "Show Interstitial",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  8,
+                        "menu":  "Interstitial \u003e Destroy Interstitial",
+                        "text":  "",
+                        "menuId":  25080,
+                        "resText":  "Destroy Interstitial",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  9,
+                        "menu":  "Targeting \u003e Set Gender",
+                        "text":  "",
+                        "menuId":  25090,
+                        "resText":  "Set Gender to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Gender (0: Unknown, 1: Male, 1: Female)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  10,
+                        "menu":  "Targeting \u003e Set Location",
+                        "text":  "",
+                        "menuId":  25100,
+                        "resText":  "Set Location to Latitude %0 and Longitude %1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Latitude",
+                                            "Longitude"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  11,
+                        "menu":  "Targeting \u003e Set Birthday",
+                        "text":  "",
+                        "menuId":  25110,
+                        "resText":  "Set Birthday to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Birthday String (e.g.: 20100122)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  12,
+                        "menu":  "Config adMob \u003e Set AdMob Child-directed treatment",
+                        "text":  "",
+                        "menuId":  25120,
+                        "resText":  "Set AdMob child-directed treatment to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Tag Child-directed Treatment (-1:Unspecified, 0:No, 1:Yes)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  13,
+                        "menu":  "Config adMob \u003e Set AdMob Test Devices",
+                        "text":  "",
+                        "menuId":  25130,
+                        "resText":  "Set AdMob test devices to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Test devices (separated by commas)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  14,
+                        "menu":  "Config adMob \u003e Set AdMob Background Color",
+                        "text":  "",
+                        "menuId":  25140,
+                        "resText":  "Set AdMob background color to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           24
+                                       ],
+                        "paramTitles":  [
+                                            "Background Color"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  15,
+                        "menu":  "Config adMob \u003e Set AdMob Border Color",
+                        "text":  "",
+                        "menuId":  25150,
+                        "resText":  "Set AdMob border color to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           24
+                                       ],
+                        "paramTitles":  [
+                                            "Border Color"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  16,
+                        "menu":  "Config adMob \u003e Set AdMob Link Color",
+                        "text":  "",
+                        "menuId":  25160,
+                        "resText":  "Set AdMob link color to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           24
+                                       ],
+                        "paramTitles":  [
+                                            "Link Color"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  17,
+                        "menu":  "Config adMob \u003e Set AdMob Text Color",
+                        "text":  "",
+                        "menuId":  25170,
+                        "resText":  "Set AdMob text color to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           24
+                                       ],
+                        "paramTitles":  [
+                                            "Text Color"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  18,
+                        "menu":  "Config adMob \u003e Set AdMob Url Color",
+                        "text":  "",
+                        "menuId":  25180,
+                        "resText":  "Set AdMob url color to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           24
+                                       ],
+                        "paramTitles":  [
+                                            "URL Color"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  19,
+                        "menu":  "Rewarded Video \u003e Make Video Request",
+                        "text":  "",
+                        "menuId":  25190,
+                        "resText":  "Make Video Request",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  20,
+                        "menu":  "Rewarded Video \u003e Show Video",
+                        "text":  "",
+                        "menuId":  25200,
+                        "resText":  "Show Video",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  21,
+                        "menu":  "Rewarded Video \u003e Destroy Video",
+                        "text":  "",
+                        "menuId":  25210,
+                        "resText":  "Destroy Video",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  22,
+                        "menu":  "GDPR Consent \u003e Set GDPR Consent Status",
+                        "text":  "",
+                        "menuId":  25220,
+                        "resText":  "Set GDPR consent status to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "GDPR Consent Status (-1:Unknown, 0:Non Personalized, 1:Personalized)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  23,
+                        "menu":  "Regular Banner \u003e Set AdMob Bottom Margin",
+                        "text":  "",
+                        "menuId":  25230,
+                        "resText":  "Set AdMob bottom margin to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "AdMob Bottom Margin (pixels from bottom)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  24,
+                        "menu":  "Rewarded Interstitial \u003e Make Rewarded Interstitial Request",
+                        "text":  "",
+                        "menuId":  25240,
+                        "resText":  "Make Rewarded Interstitial Request",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  25,
+                        "menu":  "Rewarded Interstitial \u003e Show Rewarded Interstitial",
+                        "text":  "",
+                        "menuId":  25250,
+                        "resText":  "Show Rewarded Interstitial",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  26,
+                        "menu":  "Rewarded Interstitial \u003e Destroy Rewarded Interstitial",
+                        "text":  "",
+                        "menuId":  25260,
+                        "resText":  "Destroy Rewarded Interstitial",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  27,
+                        "menu":  "Set Temporal Ad Unit",
+                        "text":  "",
+                        "menuId":  25270,
+                        "resText":  "Set temporal AdUnit ID to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "AdUnit String (e.g.: ca-app-pub-XXXXXXXXXXXXXXXX/XXXXXXXXXX)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  28,
+                        "menu":  "Destroy All Ads",
+                        "text":  "",
+                        "menuId":  25280,
+                        "resText":  "Destroy all ads",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    }
+                ],
+    "actions_status":  "resource menu",
+    "expressions":  [
+                        {
+                            "code":  0,
+                            "menu":  "Last Error",
+                            "text":  "",
+                            "menuId":  27000,
+                            "resText":  "LastError$(",
+                            "flags":  1,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  1,
+                            "menu":  "Device Id for AdMob",
+                            "text":  "",
+                            "menuId":  27010,
+                            "resText":  "GetDeviceIdAdMob$(",
+                            "flags":  1,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  2,
+                            "menu":  "Rewarded Ads \u003e Reward Type",
+                            "text":  "",
+                            "menuId":  27020,
+                            "resText":  "RewardType$(",
+                            "flags":  1,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  3,
+                            "menu":  "Rewarded Ads \u003e Reward Amount",
+                            "text":  "",
+                            "menuId":  27030,
+                            "resText":  "RewardAmount(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  4,
+                            "menu":  "GDPR Consent \u003e Data Consent Status",
+                            "text":  "",
+                            "menuId":  27040,
+                            "resText":  "GDPRStatusValue(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        }
+                    ],
+    "expressions_status":  "resource menu"
+}

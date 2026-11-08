@@ -1,6 +1,6 @@
 # Extension joystick
 
-- File: `joystick.mfx` — third-party extension (shipped with a downloaded project)
+- File: `joystick.mfx` — installed with Fusion
 - Name(s) shown in projects: “Joypad object”
 - Usage in the corpus: 161 times
 - Numbers in events: condition = −(81 + code), action / expression = 80 + code

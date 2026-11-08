@@ -1,0 +1,1864 @@
+{
+    "file":  "InAppAndroid.mfx",
+    "conditions":  [
+                       {
+                           "code":  0,
+                           "menu":  "On Query Inventory",
+                           "text":  "",
+                           "menuId":  26000,
+                           "resText":  "%o: On Query Inventory Ready",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  1,
+                           "menu":  "On Purchase Ok",
+                           "text":  "",
+                           "menuId":  26010,
+                           "resText":  "%o: Purchase Id:%0 was Ok",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              22
+                                          ],
+                           "paramTitles":  [
+                                               "Operation ID"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  2,
+                           "menu":  "On Purchase Failed",
+                           "text":  "",
+                           "menuId":  26020,
+                           "resText":  "%o: Purchase Id:%0 failed",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              22
+                                          ],
+                           "paramTitles":  [
+                                               "Operation ID"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  3,
+                           "menu":  "On Subscription Ok",
+                           "text":  "",
+                           "menuId":  26030,
+                           "resText":  "%o: Subscription Id:%0 was Ok",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              22
+                                          ],
+                           "paramTitles":  [
+                                               "Operation ID"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  4,
+                           "menu":  "On Subscription Failed",
+                           "text":  "",
+                           "menuId":  26040,
+                           "resText":  "%o: Subscription Id:%0 failed",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              22
+                                          ],
+                           "paramTitles":  [
+                                               "Operation ID"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  5,
+                           "menu":  "On Purchase Consumed",
+                           "text":  "",
+                           "menuId":  26050,
+                           "resText":  "%o: Purchased Id:%0 was consumed",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              22
+                                          ],
+                           "paramTitles":  [
+                                               "Operation ID"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  6,
+                           "menu":  "On Subscription Consumed",
+                           "text":  "",
+                           "menuId":  26060,
+                           "resText":  "%o: Subscription Id:%0 was consumed",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              22
+                                          ],
+                           "paramTitles":  [
+                                               "Operation ID"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  7,
+                           "menu":  "Is Item Purchased?",
+                           "text":  "",
+                           "menuId":  26070,
+                           "resText":  "%o: Is Sku %0 purchased",
+                           "flags":  544,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Purchase SKU string"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  8,
+                           "menu":  "Is Item a Subscription?",
+                           "text":  "",
+                           "menuId":  26080,
+                           "resText":  "%o: Is Sku=%0 in Subscription",
+                           "flags":  544,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Purchase SKU string"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  9,
+                           "menu":  "Is Billing Available?",
+                           "text":  "",
+                           "menuId":  26090,
+                           "resText":  "%o: Is Billing Available",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  10,
+                           "menu":  "Is Billing Busy?",
+                           "text":  "",
+                           "menuId":  26100,
+                           "resText":  "%o: Is Billing Busy",
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  11,
+                           "menu":  "On Error",
+                           "text":  "",
+                           "menuId":  26110,
+                           "resText":  "%o: On Error",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  12,
+                           "menu":  "On Store Notification",
+                           "text":  "",
+                           "menuId":  26120,
+                           "resText":  "%o: On Store Notification",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  13,
+                           "menu":  "Is Item Refunded?",
+                           "text":  "",
+                           "menuId":  26130,
+                           "resText":  "%o: Is Sku %0 refunded",
+                           "flags":  544,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Refunded SKU string"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  14,
+                           "menu":  "Is Item Canceled?",
+                           "text":  "",
+                           "menuId":  26140,
+                           "resText":  "%o: Is Sku %0 canceled",
+                           "flags":  544,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Canceled SKU string"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  15,
+                           "menu":  "On Inventory Update",
+                           "text":  "",
+                           "menuId":  26150,
+                           "resText":  "%o: On Inventory update",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  16,
+                           "menu":  "On Purchases Update",
+                           "text":  "",
+                           "menuId":  26160,
+                           "resText":  "%o: On Purchases update",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  17,
+                           "menu":  "On Purchase Acknowledged",
+                           "text":  "",
+                           "menuId":  26170,
+                           "resText":  "%o: Purchase Id:%0 was acknowledged",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              22
+                                          ],
+                           "paramTitles":  [
+                                               "Operation ID"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  18,
+                           "menu":  "On Subscription Acknowledged",
+                           "text":  "",
+                           "menuId":  26180,
+                           "resText":  "%o: Subscription Id:%0 was acknowledged",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              22
+                                          ],
+                           "paramTitles":  [
+                                               "Operation ID"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  19,
+                           "menu":  "Is Item Acknowledged?",
+                           "text":  "",
+                           "menuId":  26190,
+                           "resText":  "%o: Is Sku %0 acknowledged",
+                           "flags":  544,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Acknowledged SKU string"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  20,
+                           "menu":  "On Purchases History Update",
+                           "text":  "",
+                           "menuId":  26200,
+                           "resText":  "%o: On Puchases history update",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  21,
+                           "menu":  "Old Subscription Mode \u003e On Subscription Price Change Accepted",
+                           "text":  "",
+                           "menuId":  26210,
+                           "resText":  "%o: Subscription Id:%0 price change accepted",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              22
+                                          ],
+                           "paramTitles":  [
+                                               "Operation ID"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  22,
+                           "menu":  "Old Subscription Mode \u003e On Subscription Price Change Failed",
+                           "text":  "",
+                           "menuId":  26220,
+                           "resText":  "%o: Subscription Id:%0 price change failed",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              22
+                                          ],
+                           "paramTitles":  [
+                                               "Operation ID"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  23,
+                           "menu":  "On Restore Activity - Back from Store",
+                           "text":  "",
+                           "menuId":  26230,
+                           "resText":  "%o: On Restore activity - back from store",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  24,
+                           "menu":  "On Purchases Empty",
+                           "text":  "",
+                           "menuId":  26240,
+                           "resText":  "%o: On Purchases empty",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  25,
+                           "menu":  "Is Subscription in Grace?",
+                           "text":  "",
+                           "menuId":  26250,
+                           "resText":  "%o: Is Subscription %0 in grace period?",
+                           "flags":  544,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Subscription SKU string"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  26,
+                           "menu":  "Is Subscription Ending?",
+                           "text":  "",
+                           "menuId":  26260,
+                           "resText":  "%o: Is Subscription %0 ending before %1 days",
+                           "flags":  544,
+                           "paramTypes":  [
+                                              45,
+                                              22
+                                          ],
+                           "paramTitles":  [
+                                               "Subscription SKU string",
+                                               "Days to End"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  27,
+                           "menu":  "Is Item Pending?",
+                           "text":  "",
+                           "menuId":  26270,
+                           "resText":  "%o: Is Sku %0 pending?",
+                           "flags":  544,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               "Pending SKU string"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  28,
+                           "menu":  "On Purchase Pending",
+                           "text":  "",
+                           "menuId":  26280,
+                           "resText":  "%o: Purchase Id:%0 is pending",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              22
+                                          ],
+                           "paramTitles":  [
+                                               "Operation ID"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  29,
+                           "menu":  "On Subscription Pending",
+                           "text":  "",
+                           "menuId":  26290,
+                           "resText":  "%o: Subscription Id:%0 is pending",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              22
+                                          ],
+                           "paramTitles":  [
+                                               "Operation ID"
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       }
+                   ],
+    "conditions_status":  "resource menu",
+    "actions":  [
+                    {
+                        "code":  0,
+                        "menu":  "Query SKU \u003e Query Inventory",
+                        "text":  "",
+                        "menuId":  25000,
+                        "resText":  "Query Inventory for theses SKUs %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "SKUs List (exam: sku1/sku2/sk3)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  1,
+                        "menu":  "Set Developer Payload",
+                        "text":  "",
+                        "menuId":  25010,
+                        "resText":  "Set Developer Payload to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Developer Payload string"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  2,
+                        "menu":  "Purchase Operations \u003e Purchase a SKU",
+                        "text":  "",
+                        "menuId":  25020,
+                        "resText":  "Purchase SKU:%0 with Id:%1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "SKU string to purchase",
+                                            "Operation ID"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  3,
+                        "menu":  "Purchase Operations \u003e Old Subscriptions \u003e Subscription to SKU",
+                        "text":  "",
+                        "menuId":  25030,
+                        "resText":  "Subscription SKU:%0 with Id:%1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "SKU string to subscribe",
+                                            "Operation ID"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  4,
+                        "menu":  "Purchase Operations \u003e Consume a SKU",
+                        "text":  "",
+                        "menuId":  25040,
+                        "resText":  "Consume SKU:%0 with Id:%1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "SKU string to consume",
+                                            "ID operation"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  5,
+                        "menu":  "Save Data .... \u003e Save String",
+                        "text":  "",
+                        "menuId":  25050,
+                        "resText":  "Save string %0 and name %1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45,
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "String value",
+                                            "Name string value"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  6,
+                        "menu":  "Save Data .... \u003e Save Int",
+                        "text":  "",
+                        "menuId":  25060,
+                        "resText":  "Save int %0 and name %1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22,
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Integer value",
+                                            "Name string value"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  7,
+                        "menu":  "Purchase Operations \u003e Query Purchases",
+                        "text":  "",
+                        "menuId":  25070,
+                        "resText":  "Query purchases",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  8,
+                        "menu":  "Purchase Operations \u003e Old Subscriptions \u003e Subscription Upgrade",
+                        "text":  "",
+                        "menuId":  25080,
+                        "resText":  "Subscription upgrade from sku:%0 to sku:%1 with mode:%2 and Id:%3",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45,
+                                           45,
+                                           22,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Old sku String",
+                                            "New sku String",
+                                            "Upgrade Mode (0:Now with time proration 1:Now and charge prorated price 2:Now without proration 3:Deferred 4:Now and full price)",
+                                            "Operation ID"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  9,
+                        "menu":  "Purchase Operations \u003e Old Subscriptions \u003e Subscription Downgrade",
+                        "text":  "",
+                        "menuId":  25090,
+                        "resText":  "Subscription downgrade from sku=%0 to sku=%1 with mode:%2 and Id:%3",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45,
+                                           45,
+                                           22,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Old sku String",
+                                            "New sku String",
+                                            "Downgrade Mode (0:Now with time proration 1:Now without proration 2:Deferred)",
+                                            "Operation ID"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  10,
+                        "menu":  "Purchase Operations \u003e Old Subscriptions \u003e Subscription Change Price",
+                        "text":  "",
+                        "menuId":  25100,
+                        "resText":  "Subscription change price of sku:%0 with Id:%1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Sku String",
+                                            "Operation ID"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  11,
+                        "menu":  "Purchase Operations \u003e Acknowledge a SKU",
+                        "text":  "",
+                        "menuId":  25110,
+                        "resText":  "Acknowledge SKU:%0 with Id:%1",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "SKU string to acknowledge",
+                                            "Operation ID"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  12,
+                        "menu":  "Query Purchases History",
+                        "text":  "",
+                        "menuId":  25120,
+                        "resText":  "Query purchases history",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  13,
+                        "menu":  "Query SKU \u003e Query Sku Details",
+                        "text":  "",
+                        "menuId":  25130,
+                        "resText":  "Query Sku details",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  14,
+                        "menu":  "Set Obfuscate Account Id",
+                        "text":  "",
+                        "menuId":  25140,
+                        "resText":  "Set Obfuscate Account Id to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Obfuscate Account Id String (max. 64)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  15,
+                        "menu":  "Set Obfuscate Profile Id",
+                        "text":  "",
+                        "menuId":  25150,
+                        "resText":  "Set Obfuscate Profile Id to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Obfuscate Profile Id String (max. 64)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  16,
+                        "menu":  "Query SKU \u003e Set Sku list for InApps",
+                        "text":  "",
+                        "menuId":  25160,
+                        "resText":  "Set InApps skus list to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "InApp SKUs List (exam: sku1/sku2/sk3)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  17,
+                        "menu":  "Query SKU \u003e Set Sku list for Subss",
+                        "text":  "",
+                        "menuId":  25170,
+                        "resText":  "Set Subscriptions skus list to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Subscriptions SKUs List (exam: sku1/sku2/sk3)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  18,
+                        "menu":  "Purchase Operations \u003e Restore Subscription",
+                        "text":  "",
+                        "menuId":  25180,
+                        "resText":  "Restore subscription for SKU:%0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Subscription Sku String"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  19,
+                        "menu":  "Purchase Operations \u003e Check validity of Subscriptions",
+                        "text":  "",
+                        "menuId":  25190,
+                        "resText":  "Check validity of subscriptions",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  20,
+                        "menu":  "Purchase Operations \u003e New Subscriptions \u003e Subscription from Offer",
+                        "text":  "",
+                        "menuId":  25200,
+                        "resText":  "Subscription SKU:%0 and Offer:%1 with Id:%2",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45,
+                                           45,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "SKU string to subscribe",
+                                            "Offer Token String",
+                                            "Operation ID"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  21,
+                        "menu":  "Purchase Operations \u003e New Subscriptions \u003e Subscription Change to Offer",
+                        "text":  "",
+                        "menuId":  25210,
+                        "resText":  "Subscription change of sku:%0 to offer:%1 and mode:%2 with Id:%3",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45,
+                                           45,
+                                           22,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Sku String",
+                                            "Offer Token String",
+                                            "Replacement Mode (0:Unknown Mode, 1:Time Proration, 2:Charge Prorated Price Proration, 3:Without Proration, 5:Charge Full Price, 6:Deferred)",
+                                            "Operation ID"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  22,
+                        "menu":  "Set Pending Message",
+                        "text":  "",
+                        "menuId":  25220,
+                        "resText":  "Set Pending Message to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Message String"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    }
+                ],
+    "actions_status":  "resource menu",
+    "expressions":  [
+                        {
+                            "code":  0,
+                            "menu":  "Last Error Value",
+                            "text":  "",
+                            "menuId":  27000,
+                            "resText":  "ErrorValue(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  1,
+                            "menu":  "Last Error String",
+                            "text":  "",
+                            "menuId":  27010,
+                            "resText":  "ErrorString$(",
+                            "flags":  1,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  2,
+                            "menu":  "Last Response Value",
+                            "text":  "",
+                            "menuId":  27020,
+                            "resText":  "Response(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  3,
+                            "menu":  "Last Response String",
+                            "text":  "",
+                            "menuId":  27030,
+                            "resText":  "ResponseString$(",
+                            "flags":  1,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  4,
+                            "menu":  "Inventory Qty",
+                            "text":  "",
+                            "menuId":  27040,
+                            "resText":  "InventoryQty(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  5,
+                            "menu":  "Purchased Qty",
+                            "text":  "",
+                            "menuId":  27050,
+                            "resText":  "PurchasedQty(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  6,
+                            "menu":  "Load Data .... \u003e Load Data String",
+                            "text":  "",
+                            "menuId":  27060,
+                            "resText":  "LoadData$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               3
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  7,
+                            "menu":  "Load Data .... \u003e Load Data Integer",
+                            "text":  "",
+                            "menuId":  27070,
+                            "resText":  "LoadDataInt(",
+                            "flags":  0,
+                            "paramTypes":  [
+                                               3
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  8,
+                            "menu":  "Inventory Info .... \u003e Product Id",
+                            "text":  "",
+                            "menuId":  27080,
+                            "resText":  "ProductId$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  9,
+                            "menu":  "Inventory Info .... \u003e Product Type",
+                            "text":  "",
+                            "menuId":  27090,
+                            "resText":  "ProductType$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  10,
+                            "menu":  "Inventory Info .... \u003e Product Formatted Price",
+                            "text":  "",
+                            "menuId":  27100,
+                            "resText":  "ProductPrice$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  11,
+                            "menu":  "Inventory Info .... \u003e Product Title",
+                            "text":  "",
+                            "menuId":  27110,
+                            "resText":  "ProductTitle$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  12,
+                            "menu":  "Inventory Info .... \u003e Product Description",
+                            "text":  "",
+                            "menuId":  27120,
+                            "resText":  "ProductDescription$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  13,
+                            "menu":  "Purchases Info \u003e Order Id",
+                            "text":  "",
+                            "menuId":  27130,
+                            "resText":  "POrderId$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Product Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  14,
+                            "menu":  "Purchases Info \u003e Package name",
+                            "text":  "",
+                            "menuId":  27140,
+                            "resText":  "PPackageName$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Product Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  15,
+                            "menu":  "Purchases Info \u003e Product Id",
+                            "text":  "",
+                            "menuId":  27150,
+                            "resText":  "PProductId$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Product Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  16,
+                            "menu":  "Purchases Info \u003e PurchaseTime",
+                            "text":  "",
+                            "menuId":  27160,
+                            "resText":  "PurchaseTime$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Product Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  17,
+                            "menu":  "Purchases Info \u003e PurchaseState",
+                            "text":  "",
+                            "menuId":  27170,
+                            "resText":  "PurchaseState(",
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Product Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  18,
+                            "menu":  "Purchases Info \u003e Developer Payload",
+                            "text":  "",
+                            "menuId":  27180,
+                            "resText":  "DevPayLoad$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Product Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  19,
+                            "menu":  "Purchases Info \u003e Purchase Token",
+                            "text":  "",
+                            "menuId":  27190,
+                            "resText":  "PurchaseToken$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Product Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  20,
+                            "menu":  "Inventory Info .... \u003e One Time product .... \u003e Product Amount",
+                            "text":  "",
+                            "menuId":  27200,
+                            "resText":  "ProductAmount(",
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  21,
+                            "menu":  "Inventory Info .... \u003e One Time product .... \u003e Product Currency",
+                            "text":  "",
+                            "menuId":  27210,
+                            "resText":  "ProductCurrency$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  22,
+                            "menu":  "Generate Unique Token",
+                            "text":  "",
+                            "menuId":  27220,
+                            "resText":  "GetUniqueToken$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "64 chars max."
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  23,
+                            "menu":  "Inventory Info .... \u003e Subscription .... \u003e Old V4 .... \u003e Subscription Period",
+                            "text":  "",
+                            "menuId":  27230,
+                            "resText":  "GetSubsPeriod$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  24,
+                            "menu":  "Inventory Info .... \u003e Subscription .... \u003e Old V4 .... \u003e Free Trial Period",
+                            "text":  "",
+                            "menuId":  27240,
+                            "resText":  "GetSubsFreeTrialPeriod$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  25,
+                            "menu":  "Inventory Info .... \u003e Subscription .... \u003e Old V4 .... \u003e Introductory Price",
+                            "text":  "",
+                            "menuId":  27250,
+                            "resText":  "GetSubsIntroductoryPrice$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  26,
+                            "menu":  "Inventory Info .... \u003e Subscription .... \u003e Old V4 .... \u003e Price Amount",
+                            "text":  "",
+                            "menuId":  27260,
+                            "resText":  "GetSubsPriceAmount(",
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  27,
+                            "menu":  "Inventory Info .... \u003e Subscription .... \u003e Old V4 .... \u003e Price Period",
+                            "text":  "",
+                            "menuId":  27270,
+                            "resText":  "GetSubsPricePeriod$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  28,
+                            "menu":  "Inventory Info .... \u003e Subscription .... \u003e Old V4 .... \u003e Price Cycles",
+                            "text":  "",
+                            "menuId":  27280,
+                            "resText":  "GetSubsPriceCycles(",
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  29,
+                            "menu":  "Inventory Info .... \u003e Product JSON",
+                            "text":  "",
+                            "menuId":  27290,
+                            "resText":  "ProductJSON$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                ""
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  30,
+                            "menu":  "Purchases Info \u003e IsAutoRenewing",
+                            "text":  "",
+                            "menuId":  27300,
+                            "resText":  "ProductIsAutoRenewing(",
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Product Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  31,
+                            "menu":  "Purchases History \u003e Records Qty",
+                            "text":  "",
+                            "menuId":  27310,
+                            "resText":  "RecordQty(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  32,
+                            "menu":  "Purchases History \u003e Product Id",
+                            "text":  "",
+                            "menuId":  27320,
+                            "resText":  "PurchaseRecordSku$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Record-Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  33,
+                            "menu":  "Purchases History \u003e Purchase Token",
+                            "text":  "",
+                            "menuId":  27330,
+                            "resText":  "PurchaseRecordToken$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Record-Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  34,
+                            "menu":  "Purchases History \u003e Purchase Time",
+                            "text":  "",
+                            "menuId":  27340,
+                            "resText":  "PurchaseRecordTime$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Record-Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  35,
+                            "menu":  "Purchases History \u003e Returned Signature",
+                            "text":  "",
+                            "menuId":  27350,
+                            "resText":  "PurchaseRecordSignature$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Record-Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  36,
+                            "menu":  "Purchases History \u003e Developer Payload",
+                            "text":  "",
+                            "menuId":  27360,
+                            "resText":  "PurchaseRecordDevPayload$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Record-Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  37,
+                            "menu":  "Purchases History \u003e Purchase JSON",
+                            "text":  "",
+                            "menuId":  27370,
+                            "resText":  "PurchaseRecordJSON$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Record-Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  38,
+                            "menu":  "Purchases Info \u003e Obfuscate Account Id",
+                            "text":  "",
+                            "menuId":  27380,
+                            "resText":  "PurchaseObfuscateAccountId$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Product Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  39,
+                            "menu":  "Purchases Info \u003e Obfuscate Profile Id",
+                            "text":  "",
+                            "menuId":  27390,
+                            "resText":  "PurchaseObfuscateProfileId$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Product Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  40,
+                            "menu":  "Purchases Info \u003e PurchaseAcknowledged",
+                            "text":  "",
+                            "menuId":  27400,
+                            "resText":  "PurchaseAcknowledged(",
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Product Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  41,
+                            "menu":  "Purchased-Index from Sku",
+                            "text":  "",
+                            "menuId":  27410,
+                            "resText":  "GetIndexfromSKU(",
+                            "flags":  0,
+                            "paramTypes":  [
+                                               3
+                                           ],
+                            "paramTitles":  [
+                                                "SKU to search"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  42,
+                            "menu":  "Convert time to string",
+                            "text":  "",
+                            "menuId":  27420,
+                            "resText":  "FormatStringTime$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               3
+                                           ],
+                            "paramTitles":  [
+                                                "time in long format"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  43,
+                            "menu":  "Purchases Info \u003e Subscription Expire Time .... \u003e For Regular Period",
+                            "text":  "",
+                            "menuId":  27430,
+                            "resText":  "SubExpireTimePeriod$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               3
+                                           ],
+                            "paramTitles":  [
+                                                "Subs SKU"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  44,
+                            "menu":  "Purchases Info \u003e Subscription Expire Time .... \u003e For Free Trial Period",
+                            "text":  "",
+                            "menuId":  27440,
+                            "resText":  "SubExpireTimeFreeTrialPeriod$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               3
+                                           ],
+                            "paramTitles":  [
+                                                "Subs SKU"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  45,
+                            "menu":  "Inventory Info .... \u003e Subscription .... \u003e New V5 .... \u003e Base Plan Qty",
+                            "text":  "",
+                            "menuId":  27450,
+                            "resText":  "BasePlanQty(",
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Product Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  46,
+                            "menu":  "Inventory Info .... \u003e Subscription .... \u003e New V5 .... \u003e Offer ID Token",
+                            "text":  "",
+                            "menuId":  27460,
+                            "resText":  "BasePlanOfferToken$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1,
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Product Index",
+                                                "Plan Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  47,
+                            "menu":  "Inventory Info .... \u003e Subscription .... \u003e New V5 .... \u003e Plan ID",
+                            "text":  "",
+                            "menuId":  27470,
+                            "resText":  "BasePlanID$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1,
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Product Index",
+                                                "Plan Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  48,
+                            "menu":  "Inventory Info .... \u003e Subscription .... \u003e New V5 .... \u003e Offer ID",
+                            "text":  "",
+                            "menuId":  27480,
+                            "resText":  "BaseOfferID$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1,
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Product Index",
+                                                "Plan Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  49,
+                            "menu":  "Inventory Info .... \u003e Subscription .... \u003e New V5 .... \u003e Pricing .... \u003e Pricing Qty",
+                            "text":  "",
+                            "menuId":  27490,
+                            "resText":  "BasePlanPricingQty(",
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1,
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Product Index",
+                                                "Plan Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  50,
+                            "menu":  "Inventory Info .... \u003e Subscription .... \u003e New V5 .... \u003e Pricing .... \u003e Amount in Micros",
+                            "text":  "",
+                            "menuId":  27500,
+                            "resText":  "PricingAmountMicros$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1,
+                                               1,
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Product Index",
+                                                "Plan Index",
+                                                "Pricing Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  51,
+                            "menu":  "Inventory Info .... \u003e Subscription .... \u003e New V5 .... \u003e Pricing .... \u003e Currency Code",
+                            "text":  "",
+                            "menuId":  27510,
+                            "resText":  "PricingCurrencyCode$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1,
+                                               1,
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Product Index",
+                                                "Plan Index",
+                                                "Pricing Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  52,
+                            "menu":  "Inventory Info .... \u003e Subscription .... \u003e New V5 .... \u003e Pricing .... \u003e Formatted Price",
+                            "text":  "",
+                            "menuId":  27520,
+                            "resText":  "PricingFormattedPrice$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1,
+                                               1,
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Product Index",
+                                                "Plan Index",
+                                                "Pricing Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  53,
+                            "menu":  "Inventory Info .... \u003e Subscription .... \u003e New V5 .... \u003e Pricing .... \u003e Billing Period",
+                            "text":  "",
+                            "menuId":  27530,
+                            "resText":  "PricingBillingPeriod$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1,
+                                               1,
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Product Index",
+                                                "Plan Index",
+                                                "Pricing Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  54,
+                            "menu":  "Inventory Info .... \u003e Subscription .... \u003e New V5 .... \u003e Pricing .... \u003e Recurrence Mode",
+                            "text":  "",
+                            "menuId":  27540,
+                            "resText":  "PricingRecurrenceMode$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1,
+                                               1,
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Product Index",
+                                                "Plan Index",
+                                                "Pricing Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  55,
+                            "menu":  "Inventory Info .... \u003e Subscription .... \u003e New V5 .... \u003e Pricing .... \u003e Billing Cycles",
+                            "text":  "",
+                            "menuId":  27550,
+                            "resText":  "PricingBillingCycles(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1,
+                                               1,
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Product Index",
+                                                "Plan Index",
+                                                "Pricing Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  56,
+                            "menu":  "Inventory Info .... \u003e Subscription .... \u003e New V5 .... \u003e Offers Tags .... \u003e Tags Qty",
+                            "text":  "",
+                            "menuId":  27560,
+                            "resText":  "BasePlanOfferTagsQty",
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1,
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Product Index",
+                                                "Plan Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  57,
+                            "menu":  "Inventory Info .... \u003e Subscription .... \u003e New V5 .... \u003e Offers Tags .... \u003e Tag String",
+                            "text":  "",
+                            "menuId":  27570,
+                            "resText":  "BasePlanOfferTags$(",
+                            "flags":  1,
+                            "paramTypes":  [
+                                               1,
+                                               1,
+                                               1
+                                           ],
+                            "paramTitles":  [
+                                                "Product Index",
+                                                "Plan Index",
+                                                "Tags Index"
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        }
+                    ],
+    "expressions_status":  "resource menu"
+}

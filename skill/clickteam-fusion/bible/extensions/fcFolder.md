@@ -1,6 +1,6 @@
 # Extension fcFolder
 
-- File: `fcFolder.mfx` — third-party extension (shipped with a downloaded project)
+- File: `fcFolder.mfx` — installed with Fusion
 - Name(s) shown in projects: “File-Folder object”
 - Usage in the corpus: 4 times
 - Numbers in events: condition = −(81 + code), action / expression = 80 + code

@@ -1,0 +1,1081 @@
+{
+    "file":  "parser.mfx",
+    "conditions":  [
+                       {
+                           "code":  0,
+                           "menu":  "Is URL safe?",
+                           "text":  "ㄱ猥›獉唠䱒猠晡e",
+                           "menuId":  26000,
+                           "resText":  null,
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       }
+                   ],
+    "actions":  [
+                    {
+                        "code":  0,
+                        "menu":  "Set source string",
+                        "text":  "ㄱ猥›敓⁴潳牵散猠牴湩⁧潴┠s",
+                        "menuId":  25000,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  true,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  1,
+                        "menu":  "File \u003e Save to file",
+                        "text":  "ㄱ猥›慓敶琠⁯楦敬┠s",
+                        "menuId":  25001,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  true,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  2,
+                        "menu":  "File \u003e Load from file",
+                        "text":  "ㄱ猥›潌摡映潲⁭楦敬┠s",
+                        "menuId":  25002,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  true,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  3,
+                        "menu":  "File \u003e Append to file",
+                        "text":  "ㄱ猥›灁数摮琠⁯楦敬┠s",
+                        "menuId":  25003,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  true,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  4,
+                        "menu":  "File \u003e Append from file",
+                        "text":  "ㄱ猥›灁数摮映潲⁭楦敬┠s",
+                        "menuId":  25004,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  true,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  5,
+                        "menu":  "List Tokenizing \u003e Delimiters \u003e Reset delimiters",
+                        "text":  "〱猥›敒敳⁴敤楬業整獲",
+                        "menuId":  25005,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  6,
+                        "menu":  "List Tokenizing \u003e Delimiters \u003e Add delimiter",
+                        "text":  "ㄱ猥›摁⁤敤楬業整⁲猥",
+                        "menuId":  25006,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  true,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  7,
+                        "menu":  "List Tokenizing \u003e Delimiters \u003e Set delimiter",
+                        "text":  "ㄱ猥›敓⁴敤楬業整⁲潴┠⁳瑡┠s",
+                        "menuId":  25007,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  true,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  8,
+                        "menu":  "List Tokenizing \u003e Delimiters \u003e Delete delimiter index",
+                        "text":  "ㄱ猥›敄敬整搠汥浩瑩牥愠⁴湩敤⁸猥",
+                        "menuId":  25008,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  true,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  9,
+                        "menu":  "List Tokenizing \u003e Delimiters \u003e Delete delimiter",
+                        "text":  "ㄱ猥›敄敬整搠汥浩瑩牥┠s",
+                        "menuId":  25009,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  true,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  10,
+                        "menu":  "List Tokenizing \u003e Delimiters \u003e Set default delimiter index",
+                        "text":  "ㄱ猥›敓⁴敤慦汵⁴敤楬業整⁲潴椠摮硥┠s",
+                        "menuId":  25010,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  true,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  11,
+                        "menu":  "List Tokenizing \u003e Delimiters \u003e Set default delimiter",
+                        "text":  "ㄱ猥›敓⁴敤慦汵⁴敤楬業整⁲潴┠s",
+                        "menuId":  25011,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  true,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  12,
+                        "menu":  "List Tokenizing \u003e File \u003e Save as CSV",
+                        "text":  "ㄱ猥›慓敶愠⁳千⁖猥",
+                        "menuId":  25012,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  true,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  13,
+                        "menu":  "List Tokenizing \u003e File \u003e Load from CSV",
+                        "text":  "ㄱ猥›潌摡映潲⁭千⁖猥",
+                        "menuId":  25013,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  true,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  14,
+                        "menu":  "List Tokenizing \u003e File \u003e Save as MMF Array",
+                        "text":  "ㄱ猥›慓敶愠⁳䵍⁆牁慲⁹猥",
+                        "menuId":  25014,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  true,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  15,
+                        "menu":  "List Tokenizing \u003e File \u003e Load from MMF Array",
+                        "text":  "ㄱ猥›潌摡映潲⁭䵍⁆牁慲⁹猥",
+                        "menuId":  25015,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  true,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  16,
+                        "menu":  "List Tokenizing \u003e File \u003e Save as Dynamic Array",
+                        "text":  "ㄱ猥›慓敶愠⁳祄慮業⁣牁慲⁹猥",
+                        "menuId":  25016,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  true,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  17,
+                        "menu":  "List Tokenizing \u003e File \u003e Load from Dynamic Array",
+                        "text":  "ㄱ猥›潌摡映潲⁭祄慮業⁣牁慲⁹猥",
+                        "menuId":  25017,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  true,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  18,
+                        "menu":  "Settings \u003e String Comparisons \u003e Case Insensitive (A == a)",
+                        "text":  "〱猥›潃灭牡獩湯⁳牡⁥慣敳椠獮湥楳楴敶",
+                        "menuId":  25018,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  19,
+                        "menu":  "Settings \u003e String Comparisons \u003e Case Sensitive (A \u003c a)",
+                        "text":  "〱猥›潃灭牡獩湯⁳牡⁥慣敳猠湥楳楴敶",
+                        "menuId":  25019,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  20,
+                        "menu":  "Settings \u003e Search Mode \u003e Literal",
+                        "text":  "〱猥›楄慳汢⁥楷摬慣摲s",
+                        "menuId":  25020,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  21,
+                        "menu":  "Settings \u003e Search Mode \u003e Wildcards",
+                        "text":  "〱猥›湅扡敬眠汩捤牡獤",
+                        "menuId":  25021,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  22,
+                        "menu":  "List Tokenizing \u003e File \u003e Save as INI",
+                        "text":  "ㄱ猥›慓敶愠⁳义⁉猥",
+                        "menuId":  25022,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  true,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  23,
+                        "menu":  "List Tokenizing \u003e File \u003e Load from INI",
+                        "text":  "ㄱ猥›潌摡映潲⁭义⁉猥",
+                        "menuId":  25023,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  true,
+                        "codeGuessed":  false
+                    }
+                ],
+    "expressions":  [
+                        {
+                            "code":  0,
+                            "menu":  "Get string",
+                            "text":  "瑳楲杮⠤",
+                            "menuId":  27000,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  1,
+                            "menu":  "Get length of string",
+                            "text":  "敬杮桴(",
+                            "menuId":  27001,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  2,
+                            "menu":  "Substrings \u003e Left substring",
+                            "text":  "敬瑦瑳⑲(",
+                            "menuId":  27002,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  true,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  3,
+                            "menu":  "Substrings \u003e Right substring",
+                            "text":  "楲桧獴牴⠤",
+                            "menuId":  27003,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  true,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  4,
+                            "menu":  "Substrings \u003e Middle substring",
+                            "text":  "業獤牴⠤",
+                            "menuId":  27004,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  5,
+                            "menu":  "Substrings \u003e Get number of substrings",
+                            "text":  "畮扭牥晏畓⡢",
+                            "menuId":  27005,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  true,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  6,
+                            "menu":  "Substrings \u003e Get index of substring",
+                            "text":  "湩敤佸卦扵(",
+                            "menuId":  27006,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  true,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  7,
+                            "menu":  "Substrings \u003e Get index of first substring",
+                            "text":  "楦獲却扵(",
+                            "menuId":  27007,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  true,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  8,
+                            "menu":  "Substrings \u003e Get index of last substring",
+                            "text":  "慬瑳畓⡢",
+                            "menuId":  27008,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  true,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  9,
+                            "menu":  "Substrings \u003e Remove substrings",
+                            "text":  "敲潭敶⠤",
+                            "menuId":  27009,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  true,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  10,
+                            "menu":  "Substrings \u003e Replace substrings",
+                            "text":  "敲汰捡⑥(",
+                            "menuId":  27010,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+                                               3
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  true,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  11,
+                            "menu":  "Substrings \u003e Insert substring",
+                            "text":  "湩敳瑲⠤",
+                            "menuId":  27011,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  true,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  12,
+                            "menu":  "Transform \u003e Reverse string",
+                            "text":  "敲敶獲⑥(",
+                            "menuId":  27012,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  13,
+                            "menu":  "Transform \u003e Uppercase string",
+                            "text":  "灵数捲獡⑥(",
+                            "menuId":  27013,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  14,
+                            "menu":  "Transform \u003e Lowercase string",
+                            "text":  "潬敷捲獡⑥(",
+                            "menuId":  27014,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  15,
+                            "menu":  "Transform \u003e URL Encoded string",
+                            "text":  "牵䕬据摯⑥(",
+                            "menuId":  27015,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  16,
+                            "menu":  "ASCII \u003e Get ASCII character",
+                            "text":  "档⑲(",
+                            "menuId":  27016,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  true,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  17,
+                            "menu":  "ASCII \u003e Get ASCII value",
+                            "text":  "獡⡣",
+                            "menuId":  27017,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  true,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  18,
+                            "menu":  "ASCII \u003e Get ASCII value list",
+                            "text":  "獡䱣獩⑴(",
+                            "menuId":  27018,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  true,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  19,
+                            "menu":  "List Tokenizing \u003e Delimiters \u003e Get number of delimiters",
+                            "text":  "畮扭牥晏敄楬獭(",
+                            "menuId":  27019,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  20,
+                            "menu":  "List Tokenizing \u003e Delimiters \u003e Get delimiter",
+                            "text":  "敧䑴汥浩⠤",
+                            "menuId":  27020,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  true,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  21,
+                            "menu":  "List Tokenizing \u003e Delimiters \u003e Get delimiter index",
+                            "text":  "敧䑴汥浩湉敤⡸",
+                            "menuId":  27021,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  true,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  22,
+                            "menu":  "List Tokenizing \u003e Delimiters \u003e Get default delimiter",
+                            "text":  "敧䑴晥敄楬⑭(",
+                            "menuId":  27022,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  23,
+                            "menu":  "List Tokenizing \u003e Delimiters \u003e Get default delimiter index",
+                            "text":  "敧䑴晥敄楬䥭摮硥(",
+                            "menuId":  27023,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  24,
+                            "menu":  "List Tokenizing \u003e Get number of elements",
+                            "text":  "楬瑳潃湵⡴",
+                            "menuId":  27024,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  25,
+                            "menu":  "List Tokenizing \u003e Set element",
+                            "text":  "楬瑳敓䅴⑴(",
+                            "menuId":  27025,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  true,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  26,
+                            "menu":  "List Tokenizing \u003e Insert element",
+                            "text":  "楬瑳湉敳瑲瑁⠤",
+                            "menuId":  27026,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  true,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  27,
+                            "menu":  "List Tokenizing \u003e Append element",
+                            "text":  "楬瑳灁数摮⠤",
+                            "menuId":  27027,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  true,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  28,
+                            "menu":  "List Tokenizing \u003e Prepend element",
+                            "text":  "楬瑳牐灥湥⑤(",
+                            "menuId":  27028,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  true,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  29,
+                            "menu":  "List Tokenizing \u003e Get element",
+                            "text":  "楬瑳敇䅴⑴(",
+                            "menuId":  27029,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  true,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  30,
+                            "menu":  "List Tokenizing \u003e Get first element",
+                            "text":  "楬瑳楆獲⑴(",
+                            "menuId":  27030,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  31,
+                            "menu":  "List Tokenizing \u003e Get last element",
+                            "text":  "楬瑳慌瑳⠤",
+                            "menuId":  27031,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  32,
+                            "menu":  "List Tokenizing \u003e Find element matching",
+                            "text":  "楬瑳楆摮(",
+                            "menuId":  27032,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  true,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  33,
+                            "menu":  "List Tokenizing \u003e Find element containing",
+                            "text":  "楬瑳潃瑮楡獮(",
+                            "menuId":  27033,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  true,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  34,
+                            "menu":  "List Tokenizing \u003e Delete element",
+                            "text":  "楬瑳敄敬整瑁⠤",
+                            "menuId":  27034,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  true,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  35,
+                            "menu":  "List Tokenizing \u003e Swap elements",
+                            "text":  "楬瑳睓灡⠤",
+                            "menuId":  27035,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+                                               1
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  36,
+                            "menu":  "List Tokenizing \u003e Sort elements ascending",
+                            "text":  "楬瑳潓瑲獁④(",
+                            "menuId":  27036,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  37,
+                            "menu":  "List Tokenizing \u003e Sort elements descending",
+                            "text":  "楬瑳潓瑲敄捳⠤",
+                            "menuId":  27037,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  38,
+                            "menu":  "List Tokenizing \u003e Change delimiters",
+                            "text":  "楬瑳桃湡敧敄楬獭⠤",
+                            "menuId":  27038,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  true,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  39,
+                            "menu":  "Set string, return \"\"",
+                            "text":  "敳⑴(",
+                            "menuId":  27039,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  true,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  40,
+                            "menu":  "Set string, return 0",
+                            "text":  "敳⡴",
+                            "menuId":  27040,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  true,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  41,
+                            "menu":  "Filters \u003e Get MD5 Signature",
+                            "text":  "摭楆敶⠤",
+                            "menuId":  27041,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        }
+                    ]
+}

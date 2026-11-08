@@ -23,7 +23,7 @@ Tools that let an LLM analyze a **Clickteam Fusion 2.5** project (`.mfa`):
   comments) as readable text, in English or in French (`--lang en|fr`). It only reads: the `.mfa` file
   is never modified.
 - **The bible** is a reference of every known condition, action and expression (built-in objects and
-  410 extensions), with the labels of the English and French editors.
+  417 extensions, Android ones included), with the labels of the English and French editors.
 - **The `clickteam-fusion` skill** is the LLM's entry point. It explains how to read a project,
   understand the Fusion engine and suggest changes. It answers in the user's language, using the
   labels of their editor.

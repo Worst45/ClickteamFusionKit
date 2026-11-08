@@ -1,20 +1,20 @@
 # Extensions
 
-410 cataloged extensions, 7 seen in projects but not cataloged.
+417 cataloged extensions, 7 seen in projects but not cataloged.
 Sorted by usage in the corpus. FR column: label of the French editor when Clickteam translated the extension.
 
 | Extension | Names shown | Source | C / A / E | Usage |
 |---|---|---|---|---|
 | [KcArray](KcArray.md) | Tableau, Array | Fusion | 3 / 19 / 14 | 1214 |
-| [Joystick2](Joystick2.md) | Joystick 2 object | third-party | 35 / 33 / 39 | 382 |
+| [Joystick2](Joystick2.md) | Joystick 2 object | Fusion | 35 / 33 / 39 | 382 |
 | [KcButton](KcButton.md) | Button, Bouton | Fusion | 5 / 15 / 5 | 363 |
-| [fcButton](fcButton.md) | Bouton CS | third-party | 5 / 17 / 5 | 233 |
+| [fcButton](fcButton.md) | Bouton CS | Fusion | 5 / 17 / 5 | 233 |
 | [kcini](kcini.md) | Ini | Fusion | 0 / 14 / 6 | 219 |
 | [kclist](kclist.md) | List, Liste | Fusion | 5 / 27 / 16 | 219 |
-| [parser](parser.md) | String Parser | third-party | 1 / 24 / 42 | 192 |
+| [parser](parser.md) | String Parser | Fusion | 1 / 24 / 42 | 192 |
 | [kcedit](kcedit.md) | Edit Box | Fusion | 7 / 34 / 10 | 181 |
-| [Platform](Platform.md) | Platform Movement object | third-party | 7 / 22 / 13 | 171 |
-| [joystick](joystick.md) | Joypad object | third-party | 28 / 4 / 25 | 161 |
+| [Platform](Platform.md) | Platform Movement object | Fusion | 7 / 22 / 13 | 171 |
+| [joystick](joystick.md) | Joypad object | Fusion | 28 / 4 / 25 | 161 |
 | [clickteam-movement-controller](clickteam-movement-controller.md) | Clickteam Movement Controller | Fusion | 0 / 108 / 74 | 158 |
 | [kcfile](kcfile.md) | File, Fichier | Fusion | 8 / 22 / 32 | 158 |
 | [KcBoxA](KcBoxA.md) | Active System Box, Boîte Système Active | Fusion | 8 / 78 / 35 | 157 |
@@ -27,27 +27,27 @@ Sorted by usage in the corpus. FR column: label of the French editor when Clickt
 | [datagrid](datagrid.md) | Objet Tableur | Fusion | 6 / 51 / 19 | 69 |
 | [KcBoxB](KcBoxB.md) | Background System Box, Boîte Système Décor | Fusion | 3 / 57 / 36 | 52 |
 | [ListView](ListView.md) | List View | Fusion | 1 / 1 / 1 | 51 |
-| [ZipObject](ZipObject.md) | Zip Object | third-party | 10 / 13 / 17 | 44 |
+| [ZipObject](ZipObject.md) | Zip Object | Fusion | 10 / 13 / 17 | 44 |
 | [PopupMenu](PopupMenu.md) | Popup Menu | Fusion | 2 / 10 / 3 | 39 |
 | [DlgBox](DlgBox.md) | DialogBox, Boîte de Dialogue | Fusion | 1 / 1 / 1 | 36 |
 | [Kcftp](Kcftp.md) | Ftp | Fusion | 7 / 15 / 14 | 35 |
-| [Parallaxer](Parallaxer.md) | Parallaxer | third-party | 0 / 22 / 10 | 32 |
-| [ValueAdd](ValueAdd.md) | Value-Add Object | third-party | 2 / 3 / 2 | 30 |
+| [Parallaxer](Parallaxer.md) | Parallaxer | Fusion | 0 / 22 / 10 | 32 |
+| [ValueAdd](ValueAdd.md) | Value-Add Object | Fusion | 2 / 3 / 2 | 30 |
 | [kcanim](kcanim.md) | Animation | Fusion | 4 / 10 / 5 | 25 |
 | [kcpica](kcpica.md) | Active Picture | Fusion | 4 / 33 / 15 | 25 |
 | [Get](Get.md) | Get Object | Fusion | 3 / 7 / 3 | 21 |
 | [Explorer](Explorer.md) | Explorer | Fusion | 1 / 1 / 1 | 20 |
 | [kcmslot](kcmslot.md) | Network | Fusion | 2 / 5 / 5 | 20 |
-| [ultimatefullscreen](ultimatefullscreen.md) | Ultimate Fullscreen | third-party | 5 / 11 / 12 | 20 |
+| [ultimatefullscreen](ultimatefullscreen.md) | Ultimate Fullscreen | Fusion | 5 / 11 / 12 | 20 |
 | [DirectShow](DirectShow.md) | Direct Show | Fusion | 3 / 25 / 14 | 18 |
-| [fcMsgBox](fcMsgBox.md) | MessageBox object | third-party | 9 / 30 / 6 | 18 |
+| [fcMsgBox](fcMsgBox.md) | MessageBox object | Fusion | 9 / 30 / 6 | 18 |
 | [kcsearch](kcsearch.md) | Search | Fusion | 7 / 20 / 7 | 18 |
 | [KcCursor](KcCursor.md) | Cursor | Fusion | 0 / 25 / 3 | 17 |
-| [ctrlx](ctrlx.md) | Control X | third-party | 19 / 42 / 20 | 14 |
+| [ctrlx](ctrlx.md) | Control X | Fusion | 19 / 42 / 20 | 14 |
 | [kcprint](kcprint.md) | Print | Fusion | 0 / 13 / 0 | 14 |
 | [kcodbc](kcodbc.md) | ODBC | Fusion | 1 / 6 / 5 | 12 |
 | [kcshare](kcshare.md) | Shared Data | Fusion | 1 / 5 / 4 | 12 |
-| [gstorex](gstorex.md) | Global Store X | third-party | 3 / 45 / 12 | 8 |
+| [gstorex](gstorex.md) | Global Store X | Fusion | 3 / 45 / 12 | 8 |
 | [KcActiveX](KcActiveX.md) | ActiveX | **none** | ? | 8 |
 | [kchisc](kchisc.md) | Hi-Score, Hi-Scores | Fusion | 2 / 11 / 4 | 7 |
 | [Capture](Capture.md) | Screen Capture object | Fusion | 0 / 11 / 1 | 6 |
@@ -57,7 +57,7 @@ Sorted by usage in the corpus. FR column: label of the French editor when Clickt
 | [KcClkBlk](KcClkBlk.md) | Click Blocker | Fusion | 0 / 6 / 0 | 6 |
 | [KcDbl](KcDbl.md) | Double-Precision Calculator | Fusion | 0 / 3 / 6 | 5 |
 | [adshow](adshow.md) | Active Direct Show | Fusion | 2 / 13 / 8 | 4 |
-| [fcFolder](fcFolder.md) | File-Folder object | third-party | 16 / 16 / 7 | 4 |
+| [fcFolder](fcFolder.md) | File-Folder object | Fusion | 16 / 16 / 7 | 4 |
 | [KcSyso](KcSyso.md) | OS | Fusion | 0 / 0 / 9 | 4 |
 | [GPGLeaderboard](GPGLeaderboard.md) | GPG Leadboard | **none** | ? | 3 |
 | [GameCenterLeaderboard](GameCenterLeaderboard.md) | Game Center Leaderboard | **none** | ? | 2 |
@@ -74,8 +74,9 @@ Sorted by usage in the corpus. FR column: label of the French editor when Clickt
 | [ActiveBackdrop](ActiveBackdrop.md) |  | Fusion | 1 / 5 / 3 | — |
 | [ActiveOverlay](ActiveOverlay.md) |  | third-party | 0 / 2 / 0 | — |
 | [activeshape](activeshape.md) |  | third-party | 3 / 35 / 7 | — |
+| [AdMob](AdMob.md) |  | Fusion | 18 / 28 / 5 | — |
 | [AdvComment](AdvComment.md) |  | third-party | 11 / 11 / 0 | — |
-| [AdvDir](AdvDir.md) |  | third-party | 2 / 4 / 13 | — |
+| [AdvDir](AdvDir.md) |  | Fusion | 2 / 4 / 13 | — |
 | [AdvFuncObject](AdvFuncObject.md) |  | third-party | 2 / 7 / 19 | — |
 | [AdvGameBoard](AdvGameBoard.md) |  | third-party | 11 / 45 / 45 | — |
 | [AdvInt64](AdvInt64.md) |  | third-party | 14 / 21 / 18 | — |
@@ -86,7 +87,8 @@ Sorted by usage in the corpus. FR column: label of the French editor when Clickt
 | [AESFusion](AESFusion.md) |  | third-party | 1 / 1 / 3 | — |
 | [AgingPairMap](AgingPairMap.md) |  | third-party | 1 / 1 / 0 | — |
 | [AlphaChannel](AlphaChannel.md) |  | third-party | 7 / 45 / 16 | — |
-| [AndroidDialog](AndroidDialog.md) |  | third-party | 17 / 82 / 33 | — |
+| [AndroidDialog](AndroidDialog.md) |  | Fusion | 17 / 82 / 33 | — |
+| [AndroidPlus](AndroidPlus.md) |  | Fusion | 19 / 60 / 47 | — |
 | [AnimInfo](AnimInfo.md) |  | third-party | 0 / 0 / 17 | — |
 | [animPicture](animPicture.md) |  | third-party | 2 / 23 / 10 | — |
 | [appdir](appdir.md) |  | third-party | 0 / 2 / 0 | — |
@@ -120,10 +122,11 @@ Sorted by usage in the corpus. FR column: label of the French editor when Clickt
 | [ByteArray](ByteArray.md) |  | third-party | 0 / 6 / 4 | — |
 | [CalcRect](CalcRect.md) |  | third-party | 0 / 4 / 2 | — |
 | [Calendar](Calendar.md) |  | third-party | 29 / 36 / 72 | — |
-| [CalendarEntry](CalendarEntry.md) |  | third-party | 5 / 28 / 30 | — |
+| [CalendarEntry](CalendarEntry.md) |  | Fusion | 5 / 28 / 30 | — |
 | [CDFinder](CDFinder.md) |  | third-party | 3 / 6 / 2 | — |
 | [ChangeAnim](ChangeAnim.md) |  | third-party | 3 / 6 / 2 | — |
 | [CharImage](CharImage.md) |  | third-party | 17 / 67 / 40 | — |
+| [ChartBoost](ChartBoost.md) |  | Fusion | 24 / 26 / 9 | — |
 | [ChipX](ChipX.md) |  | third-party | 4 / 51 / 37 | — |
 | [CircleCalc](CircleCalc.md) |  | third-party | 0 / 5 / 5 | — |
 | [Client](Client.md) |  | third-party | 5 / 21 / 8 | — |
@@ -153,7 +156,7 @@ Sorted by usage in the corpus. FR column: label of the French editor when Clickt
 | [DSRobj](DSRobj.md) |  | third-party | 1 / 0 / 3 | — |
 | [dungeon](dungeon.md) |  | third-party | 19 / 30 / 31 | — |
 | [dynamicgrid](dynamicgrid.md) |  | third-party | 0 / 8 / 7 | — |
-| [Easing](Easing.md) |  | third-party | 3 / 11 / 16 | — |
+| [Easing](Easing.md) |  | Fusion | 3 / 11 / 16 | — |
 | [EasyGrid](EasyGrid.md) |  | third-party | 3 / 8 / 13 | — |
 | [EasyScrollbar](EasyScrollbar.md) |  | third-party | 4 / 13 / 7 | — |
 | [EasyXML](EasyXML.md) |  | third-party | 8 / 33 / 28 | — |
@@ -188,10 +191,12 @@ Sorted by usage in the corpus. FR column: label of the French editor when Clickt
 | [FlashTTS](FlashTTS.md) |  | third-party | 2 / 1 / 2 | — |
 | [Flocking](Flocking.md) |  | third-party | 1 / 31 / 24 | — |
 | [fmod](fmod.md) |  | third-party | 0 / 0 / 1 | — |
+| [FontPacker](FontPacker.md) |  | Fusion | 5 / 2 / 7 | — |
 | [ForEach](ForEach.md) |  | third-party | 5 / 9 / 4 | — |
 | [fts](fts.md) |  | third-party | 0 / 2 / 2 | — |
 | [funcloop](funcloop.md) |  | third-party | 2 / 16 / 10 | — |
 | [FunctionEggtimer](FunctionEggtimer.md) |  | third-party | 2 / 8 / 4 | — |
+| [GDPRConsent](GDPRConsent.md) |  | Fusion | 11 / 7 / 7 | — |
 | [GetLine](GetLine.md) |  | third-party | 1 / 15 / 9 | — |
 | [GETMOV](GETMOV.md) |  | third-party | 1 / 1 / 5 | — |
 | [globalfunction](globalfunction.md) |  | third-party | 6 / 16 / 5 | — |
@@ -208,11 +213,12 @@ Sorted by usage in the corpus. FR column: label of the French editor when Clickt
 | [IIF](IIF.md) |  | third-party | 0 / 0 / 16 | — |
 | [imageconv](imageconv.md) |  | third-party | 11 / 34 / 6 | — |
 | [InAndOutController](InAndOutController.md) |  | Fusion | 0 / 6 / 0 | — |
+| [InAppAndroid](InAppAndroid.md) |  | Fusion | 30 / 23 / 58 | — |
 | [INI++](INI++.md) |  | third-party | 20 / 82 / 40 | — |
 | [INI++15](INI++15.md) |  | third-party | 20 / 82 / 40 | — |
 | [INIPLUS](INIPLUS.md) |  | third-party | 3 / 6 / 2 | — |
 | [InlineLoop](InlineLoop.md) |  | third-party | 1 / 1 / 1 | — |
-| [InputType](InputType.md) |  | third-party | 1 / 18 / 3 | — |
+| [InputType](InputType.md) |  | Fusion | 1 / 18 / 3 | — |
 | [Instance Communicator](Instance%20Communicator.md) |  | third-party | 8 / 15 / 8 | — |
 | [Int16384](Int16384.md) |  | third-party | 15 / 26 / 31 | — |
 | [Int64](Int64.md) |  | third-party | 12 / 7 / 8 | — |
@@ -227,7 +233,7 @@ Sorted by usage in the corpus. FR column: label of the French editor when Clickt
 | [kcclip](kcclip.md) |  | third-party | 1 / 1 / 1 | — |
 | [kcclock](kcclock.md) |  | Fusion | 9 / 21 / 22 | — |
 | [KcDialog](KcDialog.md) |  | third-party | 23 / 81 / 7 | — |
-| [kcdirect](kcdirect.md) |  | third-party | 0 / 5 / 5 | — |
+| [kcdirect](kcdirect.md) |  | Fusion | 0 / 5 / 5 | — |
 | [kcdraw](kcdraw.md) |  | Fusion | 2 / 47 / 15 | — |
 | [kcffunct](kcffunct.md) |  | third-party | 4 / 5 / 11 | — |
 | [kcfloop](kcfloop.md) |  | third-party | 3 / 6 / 2 | — |
@@ -260,6 +266,7 @@ Sorted by usage in the corpus. FR column: label of the French editor when Clickt
 | [kiosk](kiosk.md) |  | third-party | 0 / 32 / 0 | — |
 | [LacewingServer](LacewingServer.md) |  | third-party | 51 / 56 / 43 | — |
 | [LacewingWebserver](LacewingWebserver.md) |  | third-party | 9 / 21 / 14 | — |
+| [LeadBolt](LeadBolt.md) |  | Fusion | 30 / 14 / 3 | — |
 | [Lens](Lens.md) |  | third-party | 0 / 36 / 12 | — |
 | [LevelSave](LevelSave.md) |  | third-party | 5 / 29 / 30 | — |
 | [LineSurface](LineSurface.md) |  | third-party | 0 / 3 / 0 | — |
@@ -300,7 +307,7 @@ Sorted by usage in the corpus. FR column: label of the French editor when Clickt
 | [niffzip](niffzip.md) |  | third-party | 6 / 3 / 3 | — |
 | [NodeTraversal](NodeTraversal.md) |  | third-party | 0 / 0 / 1 | — |
 | [NumUpDown](NumUpDown.md) |  | third-party | 9 / 16 / 7 | — |
-| [nvar](nvar.md) |  | third-party | 15 / 39 / 30 | — |
+| [nvar](nvar.md) |  | Fusion | 15 / 39 / 30 | — |
 | [ObjectMover](ObjectMover.md) |  | Fusion | 1 / 4 / 2 | — |
 | [ObjFlag](ObjFlag.md) |  | third-party | 0 / 2 / 1 | — |
 | [ObjResize](ObjResize.md) |  | third-party | 2 / 7 / 7 | — |
@@ -322,7 +329,7 @@ Sorted by usage in the corpus. FR column: label of the French editor when Clickt
 | [OpenGL-TextureBank](OpenGL-TextureBank.md) |  | third-party | 3 / 18 / 15 | — |
 | [OpenGL-TextureExternal](OpenGL-TextureExternal.md) |  | third-party | 2 / 5 / 7 | — |
 | [OpenURLs](OpenURLs.md) |  | third-party | 0 / 1 / 0 | — |
-| [OUYA](OUYA.md) |  | third-party | 57 / 8 / 42 | — |
+| [OUYA](OUYA.md) |  | Fusion | 57 / 8 / 42 | — |
 | [Overlay](Overlay.md) |  | third-party | 7 / 64 / 16 | — |
 | [packx](packx.md) |  | third-party | 1 / 1 / 4 | — |
 | [Palette](Palette.md) |  | third-party | 3 / 19 / 14 | — |
@@ -396,12 +403,12 @@ Sorted by usage in the corpus. FR column: label of the French editor when Clickt
 | [TranspOb](TranspOb.md) |  | third-party | 3 / 6 / 2 | — |
 | [TreeControl](TreeControl.md) |  | Fusion | 10 / 27 / 21 | — |
 | [tts](tts.md) |  | third-party | 8 / 9 / 16 | — |
-| [txtblt](txtblt.md) |  | third-party | 9 / 69 / 69 | — |
+| [txtblt](txtblt.md) |  | Fusion | 9 / 69 / 69 | — |
 | [UHSD](UHSD.md) |  | third-party | 1 / 5 / 4 | — |
 | [Unzipit](Unzipit.md) |  | third-party | 3 / 6 / 2 | — |
 | [urlencoder](urlencoder.md) |  | third-party | 0 / 4 / 2 | — |
 | [ValuePacker](ValuePacker.md) |  | third-party | 1 / 5 / 3 | — |
-| [VideoAndroid](VideoAndroid.md) |  | third-party | 7 / 19 / 10 | — |
+| [VideoAndroid](VideoAndroid.md) |  | Fusion | 7 / 19 / 10 | — |
 | [VideoPlayer](VideoPlayer.md) |  | third-party | 0 / 40 / 0 | — |
 | [VOLINFO](VOLINFO.md) |  | third-party | 0 / 0 / 1 | — |
 | [volume](volume.md) |  | third-party | 31 / 39 / 23 | — |

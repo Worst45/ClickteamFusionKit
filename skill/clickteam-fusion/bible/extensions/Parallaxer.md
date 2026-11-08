@@ -1,6 +1,6 @@
 # Extension Parallaxer
 
-- File: `Parallaxer.mfx` — third-party extension (shipped with a downloaded project)
+- File: `Parallaxer.mfx` — installed with Fusion
 - Name(s) shown in projects: “Parallaxer”
 - Usage in the corpus: 32 times
 - Numbers in events: condition = −(81 + code), action / expression = 80 + code

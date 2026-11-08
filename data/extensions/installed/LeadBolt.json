@@ -1,0 +1,764 @@
+{
+    "file":  "LeadBolt.mfx",
+    "conditions":  [
+                       {
+                           "code":  0,
+                           "menu":  "Deprecated ... \u003e Display Ads \u003e On Ad Progress",
+                           "text":  "",
+                           "menuId":  26000,
+                           "resText":  "%o: Display Ad On Progress",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  1,
+                           "menu":  "Deprecated ... \u003e Display Ads \u003e On Ad Loaded",
+                           "text":  "",
+                           "menuId":  26010,
+                           "resText":  "%o: Display Ad Loaded",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  2,
+                           "menu":  "Deprecated ... \u003e Display Ads \u003e On Ad Failed",
+                           "text":  "",
+                           "menuId":  26020,
+                           "resText":  "%o: Display Ad Failed",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  3,
+                           "menu":  "Deprecated ... \u003e Display Ads \u003e On Ad Clicked",
+                           "text":  "",
+                           "menuId":  26030,
+                           "resText":  "%o: Display Ad Clicked",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  4,
+                           "menu":  "Deprecated ... \u003e Display Ads \u003e On Ad Closed",
+                           "text":  "",
+                           "menuId":  26040,
+                           "resText":  "%o: Display Ad Closed",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  5,
+                           "menu":  "Deprecated ... \u003e Display Ads \u003e On Ad Completed",
+                           "text":  "",
+                           "menuId":  26050,
+                           "resText":  "%o: Display Ad Completed",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  6,
+                           "menu":  "Deprecated ... \u003e Display Ads \u003e On Ad Already Completed",
+                           "text":  "",
+                           "menuId":  26060,
+                           "resText":  "%o: Display Ad Already Completed",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  7,
+                           "menu":  "Deprecated ... \u003e Display Ads \u003e Display Ad Paused",
+                           "text":  "",
+                           "menuId":  26070,
+                           "resText":  "%o: Display Ad Paused",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  8,
+                           "menu":  "Deprecated ... \u003e Display Ads \u003e Display Ad Resumed",
+                           "text":  "",
+                           "menuId":  26080,
+                           "resText":  "%o: Display Ad Resumed",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  9,
+                           "menu":  "Deprecated ... \u003e Audio Ad \u003e On Ad Progress",
+                           "text":  "",
+                           "menuId":  26090,
+                           "resText":  "%o: Audio Ad On Progress",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  10,
+                           "menu":  "Deprecated ... \u003e Audio Ad \u003e On Ad Loaded",
+                           "text":  "",
+                           "menuId":  26100,
+                           "resText":  "%o: Audio Ad Loaded",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  11,
+                           "menu":  "Deprecated ... \u003e Audio Ad \u003e On Ad Finished",
+                           "text":  "",
+                           "menuId":  26110,
+                           "resText":  "%o: Audio Ad Finished",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  12,
+                           "menu":  "Deprecated ... \u003e Audio Ad \u003e On Ad Failed",
+                           "text":  "",
+                           "menuId":  26120,
+                           "resText":  "%o: Audio Ad Failed",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  13,
+                           "menu":  "Deprecated ... \u003e Audio Ad \u003e On Ad Closed",
+                           "text":  "",
+                           "menuId":  26130,
+                           "resText":  "%o: Audio Ad Closed",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  14,
+                           "menu":  "Deprecated ... \u003e Audio Ad \u003e On Ad Clicked",
+                           "text":  "",
+                           "menuId":  26140,
+                           "resText":  "%o: Audio Ad Clicked",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  17,
+                           "menu":  "On Activity Resumed",
+                           "text":  "",
+                           "menuId":  26170,
+                           "resText":  "%o: On Activity Resumed",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  18,
+                           "menu":  "On Ads Error",
+                           "text":  "",
+                           "menuId":  26180,
+                           "resText":  "%o: On Any Ad Error",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  19,
+                           "menu":  "Deprecated ... \u003e Display Ads \u003e On Ad Cached",
+                           "text":  "",
+                           "menuId":  26190,
+                           "resText":  "%o: Display Ad Cached",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  20,
+                           "menu":  "Deprecated ... \u003e Audio Ad \u003e On Ad Cached",
+                           "text":  "",
+                           "menuId":  26200,
+                           "resText":  "%o: Audio Ad Cached",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  21,
+                           "menu":  "Regular Ads \u003e On Ad Loaded",
+                           "text":  "",
+                           "menuId":  26210,
+                           "resText":  "%o: On Regular Ad Loaded with location %0",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               ""
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  22,
+                           "menu":  "Regular Ads \u003e On Ad Failed",
+                           "text":  "",
+                           "menuId":  26220,
+                           "resText":  "%o: On Regualr Ad Failed with location %0",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               ""
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  23,
+                           "menu":  "Regular Ads \u003e On Ad Clicked",
+                           "text":  "",
+                           "menuId":  26230,
+                           "resText":  "%o: On Regular Ad Clicked with location %0",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               ""
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  24,
+                           "menu":  "Regular Ads \u003e On Ad Closed",
+                           "text":  "",
+                           "menuId":  26240,
+                           "resText":  "%o: On Regular Ad Closed with location %0",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               ""
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  25,
+                           "menu":  "Regular Ads \u003e On Ad Cached",
+                           "text":  "",
+                           "menuId":  26250,
+                           "resText":  "%o: On Regular Ad Cached with location %0",
+                           "flags":  0,
+                           "paramTypes":  [
+                                              45
+                                          ],
+                           "paramTitles":  [
+                                               ""
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  26,
+                           "menu":  "Video Ads \u003e On Video Ad Loaded",
+                           "text":  "",
+                           "menuId":  26260,
+                           "resText":  "%o: On Video Ad Loaded",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  27,
+                           "menu":  "Video Ads \u003e On Video Ad Failed",
+                           "text":  "",
+                           "menuId":  26270,
+                           "resText":  "%o: On Video Ad Failed",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  28,
+                           "menu":  "Video Ads \u003e On Video Ad Clicked",
+                           "text":  "",
+                           "menuId":  26280,
+                           "resText":  "%o: On Video Ad Clicked",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  29,
+                           "menu":  "Video Ads \u003e On Video Ad Closed",
+                           "text":  "",
+                           "menuId":  26290,
+                           "resText":  "%o: On Video Ad Closed",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  30,
+                           "menu":  "Video Ads \u003e On Video Ad Cached",
+                           "text":  "",
+                           "menuId":  26300,
+                           "resText":  "%o: On Video Ad Cached",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  31,
+                           "menu":  "Video Ads \u003e On Video Ad Watched",
+                           "text":  "",
+                           "menuId":  26310,
+                           "resText":  "%o: On Video Ad Complete",
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       }
+                   ],
+    "conditions_status":  "resource menu",
+    "actions":  [
+                    {
+                        "code":  0,
+                        "menu":  "Deprecated ... \u003e Display Ad \u003e Set Banner Size to use",
+                        "text":  "",
+                        "menuId":  25000,
+                        "resText":  "Set Banner size to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Size Index (-1:Auto, 0:Standard, 1:Medium, 2:Large, 3:XLarge)"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  1,
+                        "menu":  "Deprecated ... \u003e Display Ad \u003e Set Additional Docking Margin",
+                        "text":  "",
+                        "menuId":  25010,
+                        "resText":  "Set Additional Docking Margin to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Pixels value from it designated position"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  2,
+                        "menu":  "Deprecated ... \u003e Display Ad \u003e Set Progress Interval",
+                        "text":  "",
+                        "menuId":  25020,
+                        "resText":  "Set Display Interval Progress to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Seconds Interval until loaded"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  3,
+                        "menu":  "Deprecated ... \u003e Display Ad \u003e Load Ad",
+                        "text":  "",
+                        "menuId":  25030,
+                        "resText":  "Load a Display Ad",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  4,
+                        "menu":  "Deprecated ... \u003e Display Ad \u003e Pause Ad",
+                        "text":  "",
+                        "menuId":  25040,
+                        "resText":  "Pause Display Ad",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  5,
+                        "menu":  "Deprecated ... \u003e Display Ad \u003e Resume Ad",
+                        "text":  "",
+                        "menuId":  25050,
+                        "resText":  "Resume Display Ad",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  6,
+                        "menu":  "Deprecated ... \u003e Display Ad \u003e Destroy Ad",
+                        "text":  "",
+                        "menuId":  25060,
+                        "resText":  "Destroy Display Ad",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  7,
+                        "menu":  "Deprecated ... \u003e Audio Ad \u003e Set Progress Interval",
+                        "text":  "",
+                        "menuId":  25070,
+                        "resText":  "Set Audio Interval Progress to %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "Seconds Interval until loaded"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  8,
+                        "menu":  "Deprecated ... \u003e Audio Ad \u003e Load Audio Ad",
+                        "text":  "",
+                        "menuId":  25080,
+                        "resText":  "Load an Audio Ad",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  13,
+                        "menu":  "Deprecated ... \u003e Display Ad \u003e Load Ad to Cache",
+                        "text":  "",
+                        "menuId":  25130,
+                        "resText":  "Load a Display Ad to cache",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  14,
+                        "menu":  "Load Ad",
+                        "text":  "",
+                        "menuId":  25140,
+                        "resText":  "Load Ad with location %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Location string"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  15,
+                        "menu":  "Cache Ad",
+                        "text":  "",
+                        "menuId":  25150,
+                        "resText":  "Cache Ad with location %0",
+                        "flags":  0,
+                        "paramTypes":  [
+                                           45
+                                       ],
+                        "paramTitles":  [
+                                            "Location string"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  16,
+                        "menu":  "Load Video Ad",
+                        "text":  "",
+                        "menuId":  25160,
+                        "resText":  "Load Video Ad",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  17,
+                        "menu":  "Cache Video Ad",
+                        "text":  "",
+                        "menuId":  25170,
+                        "resText":  "Cache Video Ad",
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    }
+                ],
+    "actions_status":  "resource menu",
+    "expressions":  [
+                        {
+                            "code":  0,
+                            "menu":  "Last Error",
+                            "text":  "",
+                            "menuId":  27000,
+                            "resText":  "Error(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  1,
+                            "menu":  "Deprecated ... \u003e Last Banner Size",
+                            "text":  "",
+                            "menuId":  27010,
+                            "resText":  "LastBannerSize(",
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  3,
+                            "menu":  "Last Location",
+                            "text":  "",
+                            "menuId":  27030,
+                            "resText":  "LastLocation$(",
+                            "flags":  1,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        }
+                    ],
+    "expressions_status":  "resource menu"
+}

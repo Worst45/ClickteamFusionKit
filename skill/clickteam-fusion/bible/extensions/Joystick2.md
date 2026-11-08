@@ -1,6 +1,6 @@
 # Extension Joystick2
 
-- File: `Joystick2.mfx` — third-party extension (shipped with a downloaded project)
+- File: `Joystick2.mfx` — installed with Fusion
 - Name(s) shown in projects: “Joystick 2 object”
 - Usage in the corpus: 382 times
 - Numbers in events: condition = −(81 + code), action / expression = 80 + code

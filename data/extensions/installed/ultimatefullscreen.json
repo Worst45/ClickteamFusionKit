@@ -1,0 +1,461 @@
+{
+    "file":  "ultimatefullscreen.mfx",
+    "conditions":  [
+                       {
+                           "code":  0,
+                           "menu":  "Is fullscreen",
+                           "text":  "漥›獉映汵獬牣敥n",
+                           "menuId":  26000,
+                           "resText":  null,
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  1,
+                           "menu":  "Is windowed",
+                           "text":  "漥›獉眠湩潤敷d",
+                           "menuId":  26010,
+                           "resText":  null,
+                           "flags":  544,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  2,
+                           "menu":  "On fullscreen",
+                           "text":  "漥›湏映汵獬牣敥n",
+                           "menuId":  26020,
+                           "resText":  null,
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  3,
+                           "menu":  "On windowed",
+                           "text":  "漥›湏眠湩潤敷d",
+                           "menuId":  26030,
+                           "resText":  null,
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       },
+                       {
+                           "code":  4,
+                           "menu":  "On change window mode",
+                           "text":  "漥›湏挠慨杮⁥楷摮睯洠摯e",
+                           "menuId":  26040,
+                           "resText":  null,
+                           "flags":  0,
+                           "paramTypes":  [
+
+                                          ],
+                           "paramTitles":  [
+
+                                           ],
+                           "paramsUnreliable":  false,
+                           "codeGuessed":  false
+                       }
+                   ],
+    "actions":  [
+                    {
+                        "code":  0,
+                        "menu":  "Go fullscreen",
+                        "text":  "潇映汵獬牣敥n",
+                        "menuId":  25000,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  1,
+                        "menu":  "Go windowed",
+                        "text":  "潇眠湩潤敷d",
+                        "menuId":  25010,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  2,
+                        "menu":  "Misc. \u003e Apply fullscreen settings to windowed size",
+                        "text":  "灁汰⁹畦汬捳敲湥猠瑥楴杮⁳潴眠湩潤敷⁤楳敺",
+                        "menuId":  25020,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  3,
+                        "menu":  "Misc. \u003e Don\u0027t apply fullscreen settings to windowed size (default)",
+                        "text":  "潄❮⁴灡汰⁹畦汬捳敲湥猠瑥楴杮⁳潴眠湩潤敷⁤楳敺",
+                        "menuId":  25030,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  4,
+                        "menu":  "Automatic adjustments \u003e Set fullscreen type",
+                        "text":  "敓⁴畦汬捳敲湥琠灹⁥潴┠0",
+                        "menuId":  25040,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "畆汬捳敲湥琠灹㩥〠䈽獥⁴楦ⱴㄠ䈽獥⁴楰數⁬数晲捥⁴楦⁴椨瑮来牥漭汮⁹捳污⥥‬㴲湏ⵥ潴漭敮‬㴳慍捴⁨楷瑤⡨敶瑲⤭‬㴴慍捴⁨敨杩瑨栨牯⤫‬㴵慍畮污猠瑥楴杮s"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  5,
+                        "menu":  "Automatic adjustments \u003e Set game scale",
+                        "text":  "敓⁴慧敭猠慣敬琠⁯〥",
+                        "menuId":  25050,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "慇敭猠慣敬⠠⸱㴰敤慦汵⥴"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  6,
+                        "menu":  "Manual adjustments \u003e Set manual fullscreen position",
+                        "text":  "敓⁴慭畮污映汵獬牣敥⁮潰楳楴湯琠⁯┨ⰰ┠⤱",
+                        "menuId":  25060,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "慍畮污映汵獬牣敥⁮⁘潣牯楤慮整琀⁯┨ⰰ┠⤱",
+                                            "慍畮污映汵獬牣敥⁮⁙潣牯楤慮整琀⁯┨ⰰ┠⤱"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  7,
+                        "menu":  "Manual adjustments \u003e Set manual fullscreen size",
+                        "text":  "敓⁴慭畮污映汵獬牣敥⁮楳敺琠⁯┨ⰰ┠⤱",
+                        "menuId":  25070,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+                                           22,
+                                           22
+                                       ],
+                        "paramTitles":  [
+                                            "慍畮污映汵獬牣敥⁮楷瑤h敺琠⁯┨ⰰ┠⤱",
+                                            "慍畮污映汵獬牣敥⁮敨杩瑨攀琠⁯┨ⰰ┠⤱"
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  8,
+                        "menu":  "Manual adjustments \u003e Reset manual fullscreen settings to default",
+                        "text":  "敒敳⁴慭畮污映汵獬牣敥⁮敳瑴湩獧琠⁯敤慦汵t",
+                        "menuId":  25080,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  9,
+                        "menu":  "Misc. \u003e Listen for screen maximize (default)",
+                        "text":  "楌瑳湥映牯猠牣敥⁮慭楸業敺",
+                        "menuId":  25090,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    },
+                    {
+                        "code":  10,
+                        "menu":  "Misc. \u003e Don\u0027t listen for screen maximize",
+                        "text":  "潄❮⁴楬瑳湥映牯猠牣敥⁮慭楸業敺",
+                        "menuId":  25100,
+                        "resText":  null,
+                        "flags":  0,
+                        "paramTypes":  [
+
+                                       ],
+                        "paramTitles":  [
+
+                                        ],
+                        "paramsUnreliable":  false,
+                        "codeGuessed":  false
+                    }
+                ],
+    "expressions":  [
+                        {
+                            "code":  0,
+                            "menu":  "Game rectangle \u003e Game rectangle X (after scaling)",
+                            "text":  "慇敭敒瑣⡘",
+                            "menuId":  27000,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  1,
+                            "menu":  "Game rectangle \u003e Game rectangle Y (after scaling)",
+                            "text":  "慇敭敒瑣⡙",
+                            "menuId":  27010,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  2,
+                            "menu":  "Game rectangle \u003e Game rectangle width  (after scaling)",
+                            "text":  "慇敭敒瑣楗瑤⡨",
+                            "menuId":  27020,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  3,
+                            "menu":  "Game rectangle \u003e Game rectangle height (after scaling)",
+                            "text":  "慇敭敒瑣效杩瑨(",
+                            "menuId":  27030,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  4,
+                            "menu":  "Manual settings \u003e Manual Game rectangle X",
+                            "text":  "慍畮污慇敭敒瑣⡘",
+                            "menuId":  27040,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  5,
+                            "menu":  "Manual settings \u003e Manual Game rectangle Y",
+                            "text":  "慍畮污慇敭敒瑣⡙",
+                            "menuId":  27050,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  6,
+                            "menu":  "Manual settings \u003e Manual Game rectangle width ",
+                            "text":  "慍畮污慇敭敒瑣楗瑤⡨",
+                            "menuId":  27060,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  7,
+                            "menu":  "Manual settings \u003e Manual Game rectangle height",
+                            "text":  "慍畮污慇敭敒瑣效杩瑨(",
+                            "menuId":  27070,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  8,
+                            "menu":  "Cropping \u003e Cropped game width  (before scaling)",
+                            "text":  "牃灯数䝤浡坥摩桴(",
+                            "menuId":  27080,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  9,
+                            "menu":  "Cropping \u003e Cropped game height (before scaling)",
+                            "text":  "牃灯数䝤浡䡥楥桧⡴",
+                            "menuId":  27090,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  10,
+                            "menu":  "Fullscreen type",
+                            "text":  "畆汬捳敲湥祔数(",
+                            "menuId":  27100,
+                            "resText":  null,
+                            "flags":  0,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        },
+                        {
+                            "code":  11,
+                            "menu":  "Game scale",
+                            "text":  "慇敭捓污⡥",
+                            "menuId":  27110,
+                            "resText":  null,
+                            "flags":  2,
+                            "paramTypes":  [
+
+                                           ],
+                            "paramTitles":  [
+
+                                            ],
+                            "paramsUnreliable":  false,
+                            "codeGuessed":  false
+                        }
+                    ]
+}
