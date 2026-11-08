@@ -27,6 +27,13 @@ Tools that let an LLM analyze a **Clickteam Fusion 2.5** project (`.mfa`):
 - **The `clickteam-fusion` skill** is the LLM's entry point. It explains how to read a project,
   understand the Fusion engine and suggest changes. It answers in the user's language, using the
   labels of their editor.
+- **Behaviours and child events**: the events of object behaviours, and child events indented under
+  their parent as in the editor.
+- **The project around the events**: frame layers, objects placed in each frame, alterable values,
+  strings and flags, animations, movements, text and counter settings, readable extension settings.
+- **Editor line numbers**: every event, comment and group carries the line number of the Fusion editor.
+
+The last three come from the contribution of [csando](https://github.com/csando).
 
 MfaDump is built on [Nebula](https://github.com/AITYunivers/NebulaFD), Yunivers' Fusion decompiler,
 through the fork [Worst45/NebulaFD](https://github.com/Worst45/NebulaFD), branch

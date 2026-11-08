@@ -237,35 +237,51 @@ Application: <name>  (Fusion build <n>)
 Window: <width>x<height>, <fps> FPS
 == Global values ==               (if named)
 ################ FRAME: <name> ################
+== Frame ==                       size, background, flags; one line per layer (parallax, visibility)
 == Objects ==                     name (type)  values: name=initial value, ...
-      strings: A name="initial text", ...      (alterable strings; only named or non-empty ones)
-      flags: 0 name=on, 3 name2=off, ...       (alterable flags; only named or set ones)
-      behaviours:                              (behaviours attached to the object)
-        <behaviour name> (<n> bytes)  text: readable fragments of its settings
+      strings: 0 name="initial text", ...    (alterable strings, numbered from 0; named or non-empty)
+      flags: 0 name=on, 3 name2=off, ...     (alterable flags; named or on)
+      extension: / animations: / movements: / text object / counter:   (when present)
+      behaviours:
+        <behaviour name> (<n> bytes)
+          events:                            (the behaviour's own events)
+== Placed objects (<n>) ==        name  layer <i> "<name>": (x,y) ...   (more than 8: count and x/y range)
 == Object groups (qualifiers) ==  name: members
 == Events ==
-  === GROUP “Name” ===  (disabled at start)
-      // author's comment
+  === GROUP “Name” ===  (disabled at start)  #12
+      // author's comment  #13
       #24  [DISABLED]
         IF    condition
-        IF    condition
         DO    action
+          #25                                (child event, indented under its parent)
+            IF    condition
   === end of group ===
 ```
 
-Child events (an event nested under another event, shown indented in the editor) are indented under their parent in the export. Fusion stores the end of each list of child events as an extra event whose only condition is `(-1, -42)`; MfaDump uses it to close the indentation and does not print it. Because of it, the event numbers can skip.
+In French (`--lang fr`) the same structure reads `Fenêtre`, `Valeurs globales`, `Scène`, `Objets`,
+`valeurs`, `chaînes`, `drapeaux`, `comportements`, `Objets placés`, `Groupes d'objets (qualifiers)`,
+`Événements`, `=== GROUPE “Nom” ===`, `(désactivé au démarrage)`, `[DÉSACTIVÉ]`, `SI` / `FAIRE`,
+`=== fin de groupe ===`, and conditions/actions use the French editor's labels (e.g.
+`Params : Mettre le drapeau 1 «tombe» sur ON`).
 
-A behaviour's settings are stored as a block of bytes whose layout depends on the behaviour. MfaDump shows the name, the size and any readable text found in the block. `MFADUMP_BEHAVIOUR_HEX=1` also prints the whole block as hex, which is how a behaviour's layout can be worked out.
-
-In French (`--lang fr`) the same structure reads `Fenêtre`, `Valeurs globales`, `Objets`, `valeurs`, `chaînes`, `drapeaux`, `comportements`,
-`Groupes d'objets (qualifiers)`, `Événements`, `=== GROUPE “Nom” ===`, `(désactivé au démarrage)`,
-`[DÉSACTIVÉ]`, `SI` / `FAIRE`, `=== fin de groupe ===`, and conditions/actions use the French editor's
-labels (e.g. `Params : Mettre le drapeau 1 «tombe» sur ON`).
-
-- **`#n` = line number shown in the Fusion editor** (verified on a real project), so `#69` can be
-  quoted to the user. **These take a number**: each event, each `//` comment, each
-  `=== GROUP … ===` header **and each `=== end of group ===` line**. Blank lines of the export do not
-  count. To know the number of a header or comment (not shown), count from the nearest `#n`.
+- **`#n` = line number shown in the Fusion editor** (verified), so `#69` can be quoted to the user.
+  **These take a number**: each event, each `//` comment (`#n` on its first line), each
+  `=== GROUP … ===` header (`#n` at the end of the line), each `=== end of group ===` line (no `#n`
+  shown: count from the line above), and, after a list of child events, the editor's
+  **"New condition" line** that closes the list (verified; not printed: Fusion stores it as an event
+  whose only condition is `-1/-42`). Blank lines of the export do not count.
+- **Child events** (sub-events, a paid DLC of Fusion) are indented under their parent event.
+- **Objects**: details are shown only when they say something (named or non-default values, animations
+  with frames, non-static movements). `movements:` gives the type, the player and the starting
+  direction (`24 (down)`). `extension:` gives the extension's name, file, version and the readable text
+  found in its settings (the settings themselves are not decoded). `text object` lists the paragraphs
+  of a String object, in order.
+- **Behaviours**: their events are read like a frame's, with the behaviour's own table of objects, and
+  printed under the behaviour. A behaviour that is not made of events shows the readable text of its
+  settings instead.
+- **Placed objects**: position (top-left corner) and layer of each object in the frame editor; more than
+  8 instances of the same object on a layer are summarised as a count and an x/y range. Layers are
+  numbered from 0 here **(to verify against the editor's numbering and the Layer object's actions)**.
 - English labels of conditions/actions are Nebula's, close to but not always identical to the editor's.
   In French, a line without a safe translation stays in English (about 5%).
 - Empty actions that Fusion inserts automatically are hidden.
@@ -298,30 +314,14 @@ labels (e.g. `Params : Mettre le drapeau 1 «tombe» sur ON`).
   pointing to a deleted menu item (verified). The editor shows the action without any option name
   (`Disable menu option`). It does nothing: suggest removing it.
 - When in doubt about a line, **ask for a screenshot of the event** rather than guessing.
-- **Resolved 2026-11-05** (export from a build with the Nebula fixes): `ReplaceString$(` (MFA expression
-  number 68) is now named; alterable value/string indexes of 26 and above print as two letters (`BA`,
-  `BU`; before they printed `[`); alterable value/string names are used inside expressions
-  (`Label("MyText")` instead of `Alterable String C("MyText")`) and inside behaviour events.
-  Any `Alterable Value A` / `Alterable String B` left are objects whose values really have no name.
-- Behaviour events (under each object's `behaviours:`) are decoded with the behaviour's own object
-  table; the host object is unknown there, so names are resolved from the object named in the line.
-- Child events (sub-conditions) are indented under their parent; the `-42` end markers are hidden.
-- Resolved: Sub-Application actions 88 (Show) and 89 (Hide) were missing from Nebula (they crashed
-  with `IndexOutOfRangeException`). A behaviour's data can end right after the `SPRG` (event groups) marker:
-  the events are complete, only group names are missing there (printed as "Unknown Group"). The export says
-  "events (group names are not stored in this behaviour)" instead of an error. If a read still fails, the
-  message names the block, the byte position and the number of events read.
-- **Event numbers** (`#n`, also on `=== GROUP ===` lines and on the first line of a `//` comment) are the
-  **same as the line numbers in the Fusion event editor** (verified 2026-11-05 against a screenshot
-  of the editor). Groups, comments and child events all count. Use them
-  to point the user to an event ("line 120").
-- **Per frame**, before `== Objects ==`: `== Frame ==` (size, background colour, flags, layers with
-  parallax / visibility; `fixed (no scroll)` = coefficient 0). After the objects: `== Placed objects ==`
-  (starting x,y and layer; more than 8 identical ones are summarised as a count and an x/y range;
-  `created later by an action` = not on screen at start).
-- **Per object**, extra lines when present: `extension:` (extension name, file, version, data size and the
-  readable text found in its binary settings; the settings themselves cannot be decoded), `animations:`
-  (only those with frames), `movements:` (only non-static or player-controlled), `text object`, `counter:`.
+- Alterable values and strings are named everywhere, including inside expressions
+  (`Label("MyText")` rather than `Alterable String C("MyText")`) and behaviour events. An
+  `Alterable Value A` / `Alterable String B` left has really no name. From index 26, Nebula writes two
+  letters (`BA`, `BB`…).
+- **Behaviour events**: the host object is not known there, so value names come from the object named
+  in the line. A behaviour can store its events without the names of their groups: the export then
+  says "events (group names are not stored in this behaviour)" and groups show as "Unknown Group".
+  If reading fails, the message names the block, the byte position and the number of events read.
 - Validated on 162 projects (MFU2 builds 280 to 296, old MMF2 builds 241 to 258, multi-frame projects
   and projects with extensions).
 
