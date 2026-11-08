@@ -229,9 +229,11 @@ verify)** otherwise.
   the second block never triggers, even if B is true. Make two separate events, each with its own
   "On group activation".
 - **Frame made taller without changing its virtual size** (verified): the display cannot scroll past
-  the virtual size (the frame is there, but there is no native scrolling into it). With a frame of 1024 × 9908 and a virtual rectangle still at 1024 × 768, the view
-  stays at the top while the events are correct. MfaDump does not export this property (`FrameRect`,
-  chunk 0x21, in the `.mfa`). Check it first when a scroll does nothing.
+  the virtual size (the frame is there, but there is no native scrolling into it). With a frame of
+  1024 × 9908 and a virtual rectangle still at 1024 × 768, the view stays at the top while the events
+  are correct. The export shows it in `== Frame ==` as `size: 1024x9908  virtual: 1024x768` (the
+  `virtual:` part appears only when it differs from the size). Check it first when a scroll does
+  nothing.
 - **Global events run after the frame's events** (verified): on the first tick, a frame's
   `Start of Frame` event runs **before** a global `Start of Frame` event. Symptom seen: a global event
   read a value from the INI file into a global value at Start of Frame, and the title frame tested that
@@ -265,7 +267,8 @@ Window: <width>x<height>, <fps> FPS
 == Global values ==               (if named)
 ################ GLOBAL EVENTS ################   (if any; run after each frame's events)
 ################ FRAME: <name> ################
-== Frame ==                       size, background, flags; one line per layer (parallax, visibility)
+== Frame ==                       size (virtual: WxH if the scroll area differs), background, flags;
+                                  one line per layer (parallax, visibility)
 == Objects ==                     name (type)  values: name=initial value, ...
       strings: 0 name="initial text", ...    (alterable strings, numbered from 0; named or non-empty)
       flags: 0 name=on, 3 name2=off, ...     (alterable flags; named or on)

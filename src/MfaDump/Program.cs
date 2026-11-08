@@ -704,7 +704,14 @@ static void DumpFrameInfo(StringBuilder sb, Frame frame)
         {
             try { if (h.MFAFrameFlags[name]) flagNames.Add(name); } catch { }
         }
-        sb.AppendLine($"  {L.T("size")}: {h.Width}x{h.Height}  {L.T("background")}: #{bg.R:X2}{bg.G:X2}{bg.B:X2}" + (flagNames.Count > 0 ? $"  {L.T("flags")}: " + string.Join(", ", flagNames) : ""));
+        // Virtual rectangle (MFA frame chunk 0x21): the area the view may scroll in. Shown only when it
+        // differs from the frame size: a frame made larger without it cannot scroll.
+        var vr = frame.FrameRect;
+        int vw = vr.Right - vr.Left, vh = vr.Bottom - vr.Top;
+        string virt = (vw > 0 && vh > 0 && (vw != h.Width || vh != h.Height))
+            ? $"  {L.T("virtual")}: {vw}x{vh}" + (vr.Left != 0 || vr.Top != 0 ? $" ({vr.Left},{vr.Top})" : "")
+            : "";
+        sb.AppendLine($"  {L.T("size")}: {h.Width}x{h.Height}{virt}  {L.T("background")}: #{bg.R:X2}{bg.G:X2}{bg.B:X2}" + (flagNames.Count > 0 ? $"  {L.T("flags")}: " + string.Join(", ", flagNames) : ""));
         // Frame included in this one (MFA frame chunk 0x31): found by its handle, shown as in the
         // storyboard ("name" (number))
         int included = frame.FrameInclude?.IncludedFrameHandle ?? -1;
@@ -795,7 +802,7 @@ static class L
         ["GROUP"] = "GROUPE", ["end of group"] = "fin de groupe", ["DISABLED"] = "DÉSACTIVÉ",
         ["IF"] = "SI", ["DO"] = "FAIRE",
         // Frame and object details
-        ["Frame"] = "Scène", ["includes frame"] = "inclut la scène", ["size"] = "taille", ["background"] = "fond", ["layer"] = "calque",
+        ["Frame"] = "Scène", ["includes frame"] = "inclut la scène", ["size"] = "taille", ["virtual"] = "virtuelle", ["background"] = "fond", ["layer"] = "calque",
         ["fixed (no scroll)"] = "fixe (sans défilement)", ["Placed objects"] = "Objets placés", ["object"] = "objet",
         ["locked"] = "verrouillé", ["bytes"] = "octets", ["text"] = "texte", ["data"] = "données",
         ["extension"] = "extension", ["animations"] = "animations", ["frames"] = "images",
