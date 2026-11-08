@@ -130,6 +130,7 @@ C# program with top-level statements.
 7. **Writing** in UTF-8 with BOM. An isolated error → `[?? type T, num N : Exception]`, without stopping.
 
 Options (environment variables):
+- `MFADUMP_LOG=1`: shows Nebula's reading log (one line per chunk) on the console.
 - `MFADUMP_JSONL=1`: also writes `<output>.jsonl`, one line per condition (`C`), action (`A`) and
   expression item (`E`): frame, event number, type, number, extension (name and `.mfx` file), object,
   parameters, text. Used by the corpus.
@@ -160,7 +161,8 @@ before/after. `-p:DefineConstants=RAW` + `NEBULATEST_RAW=<code>` shows the raw b
      <old MfaDump.exe> <new MfaDump.exe> <folder of .mfa> <out folder>` runs both builds on every
      distinct `.mfa`, in parallel (`-j N`), and compares failures, timeouts, lines, IF/DO lines,
      `[??]` / `[ERROR]` lines and size. No file may get worse; changed exports are then reviewed by hand.
-     About 4 minutes for 585 projects on 8 logical CPUs (17 one at a time).
+     About 1.5 minutes for 585 projects on 8 logical CPUs. `--keep-all` keeps every export, to compare
+     them byte for byte.
 2. **Built-in objects** (`NebulaCatalog`): Roslyn analyzes `Condition.GetString`, `Action.ToString` and
    `ParameterExpression.ToString`. For each `return`, the chain of enclosing `switch`/`if` gives the
    object type, the number and the special cases → `data\catalog-nebula.json`. Code interpolations
@@ -212,9 +214,13 @@ system .NET 8+ SDK or installs one into `tools\dotnet\`, and publishes a standal
   decompressed at every launch. Rejected: trimming (breaks `MFADUMP_JSONL` unless JSON reflection is
   re-enabled, and Nebula uses reflection), `InvariantGlobalization` (changes sort orders in the
   export), framework-dependent + ReadyToRun (crashes at load).
-- Nebula writes a `config.json` next to the exe at every start (ignored by git). Several processes of
-  the **same** exe file race on it (random "type initializer for Parameters" failures): parallel runs
-  use one copy of the exe per worker.
+- MfaDump sets up Nebula for reading only (`Program.cs`, start of `Run`): no console log
+  (`Logger.DoLog`; `MFADUMP_LOG=1` turns it back on, e.g. to see "Couldn't convert object"),
+  `Parameters` without `config.json` (Nebula used to rewrite it next to the exe at every start, and
+  several processes of the same exe raced on it), and images not decompressed (`ignore_images`: image
+  headers read, pixel data skipped). Measured: 2-3.6x faster per file on top of ReadyToRun, exports
+  byte-identical on 582 projects. The parallel scripts still give each worker its own copy of the exe
+  (harmless, and safe with older builds).
 - `NebulaCore.Init()` calls `ZLibInit.GlobalInit("zlibwapi.dll")` although only `zlib1.dll` ships.
   Reading the events works anyway. If a project fails on decompression, start there.
 

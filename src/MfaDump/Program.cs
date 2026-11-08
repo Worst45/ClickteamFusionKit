@@ -99,6 +99,11 @@ static void Run(string input, string output)
     // Nebula loads zlibwapi.dll and writes its logs relative to the current folder
     Directory.SetCurrentDirectory(AppContext.BaseDirectory);
     NebulaCore.Init();
+    // Nebula options for a read-only text export: no console log (MFADUMP_LOG=1 keeps it), defaults
+    // instead of a config.json read and rewritten next to the exe, and image pixels not decompressed
+    // (images are never exported; their headers are still read)
+    Nebula.Core.Utilities.Logger.DoLog = Environment.GetEnvironmentVariable("MFADUMP_LOG") == "1";
+    Nebula.Core.Utilities.Parameters.Inst = new Nebula.Core.Utilities.Parameters(loadConfig: false) { ignore_images = true };
 
     var reader = new MFAFileReader();
     NebulaCore.CurrentReader = reader;
@@ -109,6 +114,7 @@ static void Run(string input, string output)
 
     MFAPackageData pkg = reader.Package;
     Out.Extensions = pkg.Extensions.Exts.ToDictionary(e => e.Key, e => (e.Value.Name, Path.GetFileNameWithoutExtension(e.Value.FileName)));
+    Tr.Load(Out.Extensions.Values.Select(e => e.file));
     // Extension expressions written as in the editor (GroupItemValue("Ini", ...)), from the catalog
     ParameterExpression.ExtensionExpressionInfo = Tr.ExtensionExpression;
     var sb = new StringBuilder();
@@ -601,41 +607,45 @@ static bool IsSys(Condition c, int num) => c != null && c.ObjectType == -1 && c.
 // the condition/action) -> rotation; Flag N / drapeau N -> with «name»
 static string WithNames(ACEventBase x, string text)
 {
-    text = Regex.Replace(text, @"Alterable Value ([A-Z]{1,2})\(""([^""]+)""\)", m =>
+    // All these patterns need "Alterable " (most lines have none)
+    if (text.Contains("Alterable "))
     {
-        int i = StrIndex(m.Groups[1].Value);
-        return Names.ValuesByObjectName.TryGetValue(m.Groups[2].Value, out var vn) && i < vn.Length && !string.IsNullOrEmpty(vn[i])
-            ? $"{vn[i]}(\"{m.Groups[2].Value}\")" : m.Value;
-    });
+        text = Rx.ValueOfObject.Replace(text, m =>
+        {
+            int i = StrIndex(m.Groups[1].Value);
+            return Names.ValuesByObjectName.TryGetValue(m.Groups[2].Value, out var vn) && i < vn.Length && !string.IsNullOrEmpty(vn[i])
+                ? $"{vn[i]}(\"{m.Groups[2].Value}\")" : m.Value;
+        });
 
-    text = Regex.Replace(text, @"Alterable String ([A-Z]{1,2})\(""([^""]+)""\)", m =>
-    {
-        int i = StrIndex(m.Groups[1].Value);
-        return Names.StringsByObjectName.TryGetValue(m.Groups[2].Value, out var sn) && i < sn.Length && !string.IsNullOrEmpty(sn[i])
-            ? $"{sn[i]}(\"{m.Groups[2].Value}\")" : m.Value;
-    });
+        text = Rx.StringOfObject.Replace(text, m =>
+        {
+            int i = StrIndex(m.Groups[1].Value);
+            return Names.StringsByObjectName.TryGetValue(m.Groups[2].Value, out var sn) && i < sn.Length && !string.IsNullOrEmpty(sn[i])
+                ? $"{sn[i]}(\"{m.Groups[2].Value}\")" : m.Value;
+        });
 
-    text = ByHostName(text);
+        text = ByHostName(text);
+    }
 
     if (x.ObjectType < 0)
         return text;
 
-    if (Names.StringsByEventObject.TryGetValue(x.ObjectInfo, out var strs))
-        text = Regex.Replace(text, @"Alterable String ([A-Z]{1,2})(?![A-Z(])", m =>
+    if (text.Contains("Alterable String ") && Names.StringsByEventObject.TryGetValue(x.ObjectInfo, out var strs))
+        text = Rx.OwnString.Replace(text, m =>
         {
             int i = StrIndex(m.Groups[1].Value);
             return i < strs.Length && !string.IsNullOrEmpty(strs[i]) ? strs[i] : m.Value;
         });
 
-    if (Names.ValuesByEventObject.TryGetValue(x.ObjectInfo, out var values))
-        text = Regex.Replace(text, @"Alterable Value ([A-Z])(?![A-Z(])", m =>
+    if (text.Contains("Alterable Value ") && Names.ValuesByEventObject.TryGetValue(x.ObjectInfo, out var values))
+        text = Rx.OwnValue.Replace(text, m =>
         {
             int i = m.Groups[1].Value[0] - 'A';
             return i < values.Length && !string.IsNullOrEmpty(values[i]) ? values[i] : m.Value;
         });
 
-    if (Names.FlagsByEventObject.TryGetValue(x.ObjectInfo, out var flags))
-        text = Regex.Replace(text, @"(Flag|drapeau) (\d+)(?! «)", m =>
+    if ((text.Contains("Flag ") || text.Contains("drapeau ")) && Names.FlagsByEventObject.TryGetValue(x.ObjectInfo, out var flags))
+        text = Rx.Flag.Replace(text, m =>
         {
             int i = int.Parse(m.Groups[2].Value);
             return i < flags.Length && !string.IsNullOrEmpty(flags[i]) ? $"{m.Groups[1].Value} {i} «{flags[i]}»" : m.Value;
@@ -647,7 +657,7 @@ static string WithNames(ACEventBase x, string text)
 // whose object table is not the frame's): "Name : ... Alterable String B ..." and "Alterable Value X of Name <op>".
 static string ByHostName(string text)
 {
-    text = Regex.Replace(text, @"Alterable (Value|String) ([A-Z]{1,2}) of (.+?)(?= (?:<>|=|<|>|!=|<=|>=)|[,)]|$)", m =>
+    text = Rx.OfHost.Replace(text, m =>
     {
         var tbl = m.Groups[1].Value == "Value" ? Names.ValuesByObjectName : Names.StringsByObjectName;
         int i = StrIndex(m.Groups[2].Value);
@@ -658,7 +668,7 @@ static string ByHostName(string text)
     if (sep > 0 && sep < 60)
     {
         string host = text.Substring(0, sep);
-        text = text.Substring(0, sep) + Regex.Replace(text.Substring(sep), @"Alterable (Value|String) ([A-Z]{1,2})(?![A-Z(\w])", m =>
+        text = text.Substring(0, sep) + Rx.HostValue.Replace(text.Substring(sep), m =>
         {
             var tbl = m.Groups[1].Value == "Value" ? Names.ValuesByObjectName : Names.StringsByObjectName;
             int i = StrIndex(m.Groups[2].Value);
@@ -816,19 +826,36 @@ static class Tr
         ["The mouse pointer and keyboard : "] = "Souris et clavier : ",
     };
 
-    static Tr()
+    // Loads the table. Only the entries that can be looked up are kept: French ones in French, and the
+    // extensions of this project (keys "ext|<.mfx file in lower case>|..."; see Out.ExtFile)
+    public static void Load(IEnumerable<string> extFiles)
     {
         using var s = Assembly.GetExecutingAssembly().GetManifestResourceStream("lang.fr.json");
         if (s == null)
             return;
+        var files = new HashSet<string>(extFiles.Where(f => f != null).Select(f => f.ToLowerInvariant()));
+        bool Used(string key)
+        {
+            int a = key.IndexOf('|'), b = a < 0 ? -1 : key.IndexOf('|', a + 1);
+            return b > a && files.Contains(key.Substring(a + 1, b - a - 1));
+        }
+        bool fr = L.Lang == "fr";
         using var doc = JsonDocument.Parse(s);
-        foreach (var p in doc.RootElement.GetProperty("builtin").EnumerateObject())
-            Builtin[p.Name] = p.Value.EnumerateArray().Select(pair => (pair[0].GetString(), pair[1].GetString())).ToList();
-        foreach (var p in doc.RootElement.GetProperty("ext").EnumerateObject()) Ext[p.Name] = p.Value.GetString();
+        if (fr)
+        {
+            foreach (var p in doc.RootElement.GetProperty("builtin").EnumerateObject())
+                Builtin[p.Name] = p.Value.EnumerateArray().Select(pair => (pair[0].GetString(), pair[1].GetString())).ToList();
+            foreach (var p in doc.RootElement.GetProperty("ext").EnumerateObject())
+                if (Used(p.Name)) Ext[p.Name] = p.Value.GetString();
+        }
+        if (files.Count == 0)
+            return;
         if (doc.RootElement.TryGetProperty("extEn", out var extEn))
-            foreach (var p in extEn.EnumerateObject()) ExtEn[p.Name] = p.Value.GetString();
+            foreach (var p in extEn.EnumerateObject())
+                if (Used(p.Name)) ExtEn[p.Name] = p.Value.GetString();
         if (doc.RootElement.TryGetProperty("extExpr", out var extExpr))
-            foreach (var p in extExpr.EnumerateObject()) ExtExpr[p.Name] = (p.Value[0].GetString(), p.Value[1].GetInt32());
+            foreach (var p in extExpr.EnumerateObject())
+                if (Used(p.Name)) ExtExpr[p.Name] = (p.Value[0].GetString(), p.Value[1].GetInt32());
     }
 
     // Editor name and parameter count of an extension expression (resolver given to Nebula)
@@ -853,7 +880,7 @@ static class Tr
         else if (sep >= 0)
         {
             head = en[..(sep + 3)];
-            var player = Regex.Match(head, @"^Player (\d+) : $");
+            var player = Rx.Player.Match(head);
             prefix = player.Success ? $"Joueur {player.Groups[1].Value} : "
                    : Headers.TryGetValue(head, out var frHead) ? frHead : head;
         }
@@ -884,7 +911,7 @@ static class Tr
                 try { objName = x.GetObjectName(); } catch { }
                 // Actions: the object is already in the header ("Ini : "), drop it from the template.
                 // Conditions: "<object>: text", as Nebula writes them.
-                t = kind == "A" ? Regex.Replace(t, @"^<object>\s*:?\s*", "")
+                t = kind == "A" ? Rx.LeadingObject.Replace(t, "")
                     : t.Contains("<object>") || objName == null ? t : "<object>: " + t;
                 candidates.Add((null, t));
             }
@@ -921,15 +948,14 @@ static class Tr
         ["left"] = "gauche", ["down-left"] = "bas-gauche", ["down"] = "bas", ["down-right"] = "bas-droite",
     };
     public static string FrenchDirections(string text) =>
-        Regex.Replace(text, @"\b(\d+) \((right|up-right|up|up-left|left|down-left|down|down-right)\)",
-                      m => $"{m.Groups[1].Value} ({DirectionNames[m.Groups[2].Value]})")
+        (text.Contains(" (") ? Rx.Direction.Replace(text, m => $"{m.Groups[1].Value} ({DirectionNames[m.Groups[2].Value]})") : text)
              .Replace("all directions", "toutes les directions").Replace("no direction", "aucune direction");
 
     // Placeholder values of an EN template matched against Nebula's text, or null if it does not match
     static Dictionary<string, string> Capture(ACEventBase x, string enTemplate, string text)
     {
         var names = new List<string>();
-        var parts = Regex.Split(enTemplate, @"(<[^<>]+>)");
+        var parts = Rx.PlaceholderSplit.Split(enTemplate);
         var sb = new StringBuilder("^");
         string objName = null;
         foreach (string part in parts)
@@ -963,7 +989,7 @@ static class Tr
     static string Fill(ACEventBase x, string enTemplate, string frTemplate, Dictionary<string, string> captured)
     {
         bool hasOp = frTemplate.Contains("<op>");
-        return Regex.Replace(frTemplate, @"<([^<>]+)>", m =>
+        return Rx.Placeholder.Replace(frTemplate, m =>
         {
             string name = m.Groups[1].Value;
             if (captured != null && !FrenchRendered.Contains(name) && captured.TryGetValue(name, out var v))
@@ -981,7 +1007,7 @@ static class Tr
     static string Placeholder(ACEventBase x, string name, string template, int at, bool hasOp)
     {
         Parameter P(int i) => i < x.Parameters.Length ? x.Parameters[i] : throw new IndexOutOfRangeException();
-        var m = Regex.Match(name, @"^(?:(alterable value|alterable string|global value|global string|zone) )?p(\d+)$");
+        var m = Rx.ParamPlaceholder.Match(name);
         if (m.Success)
         {
             int i = int.Parse(m.Groups[2].Value);
@@ -1001,7 +1027,7 @@ static class Tr
                 return x.GetObjectName();
             case "op":
                 // Operator of the next compared parameter in the template
-                var next = Regex.Match(template[at..], @"p(\d+)>");
+                var next = Rx.NextParam.Match(template[at..]);
                 return next.Success && P(int.Parse(next.Groups[1].Value)).Data is ParameterExpressions pe
                     ? x.GetComparison(pe.Comparison) : null;
             case "player no.":
@@ -1107,6 +1133,26 @@ static class Out
         type >= 32 && Extensions.TryGetValue(type - 32, out var e) ? e : (null, null);
 
     static void Write(object o) => Jsonl.WriteLine(JsonSerializer.Serialize(o, JsonOpts));
+}
+
+// Fixed regular expressions, built once (the static Regex methods keep only 15 patterns in their cache,
+// shared with the per-template patterns of Tr.Capture)
+static class Rx
+{
+    public static readonly Regex ValueOfObject = new(@"Alterable Value ([A-Z]{1,2})\(""([^""]+)""\)");
+    public static readonly Regex StringOfObject = new(@"Alterable String ([A-Z]{1,2})\(""([^""]+)""\)");
+    public static readonly Regex OwnString = new(@"Alterable String ([A-Z]{1,2})(?![A-Z(])");
+    public static readonly Regex OwnValue = new(@"Alterable Value ([A-Z])(?![A-Z(])");
+    public static readonly Regex Flag = new(@"(Flag|drapeau) (\d+)(?! «)");
+    public static readonly Regex OfHost = new(@"Alterable (Value|String) ([A-Z]{1,2}) of (.+?)(?= (?:<>|=|<|>|!=|<=|>=)|[,)]|$)");
+    public static readonly Regex HostValue = new(@"Alterable (Value|String) ([A-Z]{1,2})(?![A-Z(\w])");
+    public static readonly Regex Player = new(@"^Player (\d+) : $");
+    public static readonly Regex LeadingObject = new(@"^<object>\s*:?\s*");
+    public static readonly Regex Direction = new(@"\b(\d+) \((right|up-right|up|up-left|left|down-left|down|down-right)\)");
+    public static readonly Regex PlaceholderSplit = new(@"(<[^<>]+>)");
+    public static readonly Regex Placeholder = new(@"<([^<>]+)>");
+    public static readonly Regex ParamPlaceholder = new(@"^(?:(alterable value|alterable string|global value|global string|zone) )?p(\d+)$");
+    public static readonly Regex NextParam = new(@"p(\d+)>");
 }
 
 static class HexSeen
