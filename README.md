@@ -23,7 +23,8 @@ Tools that let an LLM analyze a **Clickteam Fusion 2.5** project (`.mfa`):
   comments) as readable text, in English or in French (`--lang en|fr`). It only reads: the `.mfa` file
   is never modified.
 - **The bible** is a reference of every known condition, action and expression (built-in objects and
-  417 extensions, Android ones included), with the labels of the English and French editors.
+  417 extensions, Android ones included), with the labels of the English and French editors and the
+  exporters (HTML5, Android) that support each one.
 - **The `clickteam-fusion` skill** is the LLM's entry point. It explains how to read a project,
   understand the Fusion engine and suggest changes. It answers in the user's language, using the
   labels of their editor.
@@ -74,10 +75,10 @@ There is nothing else to install:
 | `skill\clickteam-fusion\` | everything needed to **use** the kit: `SKILL.md`, `MfaDump.exe` (built), `FUSION_CONTEXT.md`, `bible\` |
 | `src\` | sources: `MfaDump`, `NebulaCatalog` (built-in objects catalog), `ExtCatalog` (extensions catalog, 32-bit), `NebulaTest` (test bench), `bible\generate.js` |
 | `external\NebulaFD\` | submodule: the Nebula fork |
-| `data\` | extracted catalogs, French labels and **public** usage statistics (no personal project names) |
+| `data\` | extracted catalogs, exporters of each extension and built-in entry, French labels |
 | `scripts\` | `build.ps1`, `install-skill.ps1`, `regen-bible.ps1`, `update-catalogs.ps1`, `corpus\` |
 | `docs\INTERNALS.md` | how it works inside, and maintenance |
-| `work\` | **local, not committed**: project exports, full statistics, provenance of the rules |
+| `work\` | **local, not committed**: project exports, usage statistics, provenance of the rules |
 | `tools\` | **local, not committed**: .NET SDK, portable Node, built maintenance tools |
 
 ## Updating

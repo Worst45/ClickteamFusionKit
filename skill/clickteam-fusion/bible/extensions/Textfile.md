@@ -1,25 +1,25 @@
 # Extension Textfile
 
 - File: `Textfile.mfx` — third-party extension (shipped with a downloaded project)
-- Usage in the corpus: none
+- Exporters: not checked (extension not installed where the runtimes were read)
 - Numbers in events: condition = −(81 + code), action / expression = 80 + code
 - Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. `GroupItemValue( "Ini", "Game", "sound" )` (the MfaDump export writes it this way; an extension missing from the catalog shows `Expression ID 83("Ini")` instead)
 
 ## Conditions
 
-| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
-|---|---|---|---|---|---|---|---|
-| 0 | -81 | On Error | `<object>: On Error` |  |  | — |  |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters |
+|---|---|---|---|---|---|
+| 0 | -81 | On Error | `<object>: On Error` |  |  |
 
 ## Actions
 
-| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
-|---|---|---|---|---|---|---|---|
-| 0 | 80 | Set Text | `Set Text of <p0> to <p1>` |  | string expression “Text File”; string expression “Text to Set” | — |  |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters |
+|---|---|---|---|---|---|
+| 0 | 80 | Set Text | `Set Text of <p0> to <p1>` |  | string expression “Text File”; string expression “Text to Set” |
 
 ## Expressions
 
-| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
-|---|---|---|---|---|---|---|---|
-| 0 | 80 | Get Text | `GetText$(` |  | string “Text File” → string | — |  |
-| 1 | 81 | Error String | `ErrorString$(` |  | → string | — |  |
+| Code | Event no. | Menu | Display text (EN) | FR | Parameters |
+|---|---|---|---|---|---|
+| 0 | 80 | Get Text | `GetText$(` |  | string “Text File” → string |
+| 1 | 81 | Error String | `ErrorString$(` |  | → string |

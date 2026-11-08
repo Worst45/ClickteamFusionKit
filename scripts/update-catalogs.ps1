@@ -42,4 +42,27 @@ if ($ThirdParty) {
     & (Join-Path $bin 'ExtCatalog\ExtCatalog.exe') --all $out @dirs
     Clean $out
 }
+# Exporters: extensions and built-in entries in the HTML5 / Android runtimes -> data\platforms.json
+$androidZip = Join-Path $FusionDir 'Data\Runtime\Android\RuntimeAndroid.zip'
+$androidSrc = Join-Path $env:TEMP "ClickteamFusionKit-android-$PID"
+if (Test-Path $androidZip) {
+    Add-Type -AssemblyName System.IO.Compression.FileSystem
+    $zip = [IO.Compression.ZipFile]::OpenRead($androidZip)
+    try {
+        foreach ($name in 'Actions/CAct.java', 'Conditions/CCnd.java', 'Expressions/CExp.java') {
+            $entry = $zip.Entries | Where-Object { $_.FullName -eq "app/src/main/java/$name" } | Select-Object -First 1
+            if ($entry) {
+                $dest = Join-Path $androidSrc $name
+                New-Item -ItemType Directory -Force (Split-Path $dest) | Out-Null
+                [IO.Compression.ZipFileExtensions]::ExtractToFile($entry, $dest, $true)
+            }
+        }
+    } finally { $zip.Dispose() }
+}
+$node = Get-Command node -ErrorAction SilentlyContinue
+$nodeExe = if (Test-Path (Join-Path $kit 'tools\node\node.exe')) { Join-Path $kit 'tools\node\node.exe' } elseif ($node) { $node.Source } else { $null }
+if ($nodeExe) { & $nodeExe (Join-Path $kit 'src\bible\platforms.js') $FusionDir $androidSrc }
+else { Write-Host 'Node.js missing: data\platforms.json not updated' }
+if (Test-Path $androidSrc) { Remove-Item -Recurse -Force $androidSrc }
+
 Write-Host 'Catalogs updated. Then regenerate the bible (.\regen-bible.ps1) and rebuild (.\build.ps1).'

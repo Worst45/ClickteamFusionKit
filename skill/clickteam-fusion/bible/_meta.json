@@ -1,13 +1,14 @@
 {
- "files": 163,
- "rows": 178678,
  "rowsBuiltin": 620,
  "frOfficial": 318,
  "frUnofficial": 110,
- "extensions": 424,
- "installed": 417,
+ "builtinNotIn": 101,
+ "extensions": 417,
  "extRows": 15826,
  "extRowsWithText": 15429,
  "extFr": 2382,
- "unknownBuiltin": 17
+ "runtimes": [
+  "HTML5",
+  "Android"
+ ]
 }

@@ -20,7 +20,8 @@ ClickteamFusionKit\
 │   ├── catalog-nebula.json   built-in objects
 │   ├── extensions\installed\ catalogs of the extensions installed with Fusion
 │   ├── extensions\third-party\ catalogs of third-party extensions
-│   ├── usage.json            public usage statistics (counters + Fusion's official examples)
+│   ├── extensions\overrides.json hand-checked labels of extensions badly extracted
+│   ├── platforms.json        exporters (HTML5, Android) of the extensions and built-in entries
 │   ├── fr-cache.json         French labels of Fusion that are used (to regenerate without Fusion)
 │   └── lang\                 fr-unofficial.json (hand-written labels), fr.json (generated, embedded in MfaDump)
 ├── scripts\                  build.ps1, install-skill.ps1, regen-bible.ps1, update-catalogs.ps1, corpus\
@@ -31,10 +32,10 @@ ClickteamFusionKit\
 License: Nebula's original repository has no license. The kit contains only its own code and fetches
 Nebula from GitHub (submodule). Do not publish binaries that include Nebula.
 
-Privacy: anything that contains personal project names stays in `work\` (ignored by git).
-`data\usage.json` and the bible contain only counters and examples taken from Fusion's official
-examples. The docs say "(verified)" without naming a project; the provenance goes into
-`work\provenance.md`.
+Privacy: anything that comes from the projects of a workspace stays in `work\` (ignored by git),
+**usage statistics included**: they describe a workspace, not Fusion, so the bible has no usage column
+and nothing is computed from projects in `data\`. The docs say "(verified)" without naming a project;
+the provenance goes into `work\provenance.md`.
 
 Language: code, comments, docs and the bible are in English. French appears only as data: Fusion's
 French labels, `data\lang\`, MfaDump's French output, and the "FR" column of the bible.
@@ -152,8 +153,7 @@ before/after. `-p:DefineConstants=RAW` + `NEBULATEST_RAW=<code>` shows the raw b
    examples and tutorials under the labels `fusion_examples` / `fusion_tutorials`. Files are
    deduplicated by SHA1 (`index.csv`), one process per file. `analyse.js` sorts the failures by format
    version (header `MFU2` / `MMF2` and build) and by crash site. `stats.js` writes
-   `work\corpus\_stats.json` (full, local) and `data\usage.json` (public: only the examples of the
-   `fusion_*` sources).
+   `work\corpus\_stats.json` (local only): it shows whether a change decodes more than before.
 2. **Built-in objects** (`NebulaCatalog`): Roslyn analyzes `Condition.GetString`, `Action.ToString` and
    `ParameterExpression.ToString`. For each `return`, the chain of enclosing `switch`/`if` gives the
    object type, the number and the special cases → `data\catalog-nebula.json`. Code interpolations
@@ -172,8 +172,17 @@ before/after. `-p:DefineConstants=RAW` + `NEBULATEST_RAW=<code>` shows the raw b
    - Mapping to events (verified): condition = −(81 + code), action / expression = 80 + code.
    - **Security**: ExtCatalog runs the code of the `.mfx` files. Use it only on trusted extensions
      (`update-catalogs.ps1 -ThirdParty <folder>`).
-4. **Bible** (`src\bible\generate.js`, through `scripts\regen-bible.ps1`) combines the catalogs,
-   `data\usage.json` and the French labels → `skill\clickteam-fusion\bible\` and `data\lang\fr.json`.
+4. **Exporters** (`src\bible\platforms.js`, run by `update-catalogs.ps1`) → `data\platforms.json`:
+   - extensions: present in `Data\Runtime\Html5\<file>.js` / `Data\Runtime\Android\<file>.zip` of the
+     Fusion install = available in that exporter. Only extensions installed in that editor are judged;
+     Windows is not judged (the editor DLL doubles as the Windows runtime, and mobile-only extensions
+     ship a Windows file that may do nothing); iOS / Mac only when their exporter is installed.
+   - built-in entries: the HTML5 runtime (`Conditions.js`, `Actions.js`, `Expressions.js`) and the
+     Android one (`CCnd.java`, `CAct.java`, `CExp.java` in `RuntimeAndroid.zip`) create them in a
+     `switch` on `(num << 16) | (type & 0xFFFF)`; the entries common to all objects are in a second
+     `switch (c & 0xFFFF0000)`. The bible's **Not in** column lists the runtimes that lack an entry.
+5. **Bible** (`src\bible\generate.js`, through `scripts\regen-bible.ps1`) combines the catalogs,
+   `data\platforms.json` and the French labels → `skill\clickteam-fusion\bible\` and `data\lang\fr.json`.
    French labels come from:
    - Fusion's translations (`Languages\fr-fr\Modules\*.txt`, non-strict JSON English → French), or
      `data\fr-cache.json` when Fusion is not installed (only the labels actually used);

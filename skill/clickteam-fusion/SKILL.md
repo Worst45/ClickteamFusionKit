@@ -88,10 +88,8 @@ Read `FUSION_CONTEXT.md` (sections 1 to 7 for the engine, 8 for the export). The
   condition = −(81 + code) (−82 → code 1).
 - In French, an extension that Clickteam did not translate shows **its English text**, in the export
   as in the editor.
-- A `[ERROR]` or `[??]` line: see the end of `bible/built-in-objects.md`; otherwise ask for a
-  **screenshot of the event** rather than guessing.
-- The **Usage** column says how many times the entry was seen in 162 real projects: an entry never seen
-  exists but is less proven.
+- A `[ERROR]` or `[??]` line: a combination Nebula does not know; ask for a **screenshot of the event**
+  rather than guessing.
 
 ## 4. Suggesting changes
 
@@ -127,6 +125,18 @@ one can **block building** the game for another target, and the user has to inst
 - If the project **already** uses an extension, you can use it (it is installed and accepted).
 - If an extension is really needed: say so explicitly, explain why native features are not enough, and
   **ask the user** about their target platforms before adopting it.
+
+### Target platforms (Windows, HTML5, Android…)
+
+A game is built for one or more targets, and many conditions, actions and extensions exist only on some
+of them. **Before suggesting one, check that it exists for the user's targets** (ask them once if
+unknown):
+
+- built-in entries: column **Not in** of `bible/built-in-objects.md` (e.g. music, menu bar and clipboard
+  are missing from HTML5; mouse wheel and full screen from Android);
+- extensions: columns HTML5 / Android of `bible/extensions/README.md`, and the **Exporters** line of
+  each page. An extension in no other exporter usually works only on Windows.
+- If something the user wants does not exist for a target, say so and give an alternative that does.
 
 ### Features of the paid "Fusion 2.5+" DLC
 

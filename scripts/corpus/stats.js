@@ -1,8 +1,7 @@
 // Usage statistics over every .events.jsonl of the corpus (work\corpus\).
 // node stats.js [corpus folder]
-//   -> work\corpus\_stats.json : full version, LOCAL (projects, examples from every project)
-//   -> data\usage.json         : public, committed version: counters + examples taken only from
-//                                Fusion's official examples (fusion_* sources)
+//   -> work\corpus\_stats.json : LOCAL only (projects, examples from every project). These statistics
+//      describe a workspace: they are not published (the bible has no usage column).
 // Keys: built-in "kind|type|num", extensions "mfx file|kind|num" (C condition, A action, E expression)
 const fs = require("fs"), path = require("path");
 
@@ -54,17 +53,11 @@ for (const file of walk(CORPUS)) {
 const full = m => Object.values(m).map(s => ({ ...s, extNames: [...s.extNames], projects: s.projects.size,
                                               projectList: [...s.projects].slice(0, 5) }))
                                  .sort((a, b) => b.count - a.count);
-// Public version: no project name and no example from personal projects
-const pub = list => list.map(s => ({ kind: s.kind, type: s.type, num: s.num, extFile: s.extFile, extNames: s.extNames,
-                                     count: s.count, projects: s.projects, errors: s.errors,
-                                     examples: s.publicExamples, errorExamples: s.publicErrorExamples }));
 const result = { files, rows, builtin: full(builtin), extensions: full(ext) };
 fs.writeFileSync(path.join(CORPUS, "_stats.json"), JSON.stringify(result, null, 1));
-fs.writeFileSync(path.join(KIT, "data/usage.json"), JSON.stringify(
-  { files, rows, builtin: pub(result.builtin), extensions: pub(result.extensions) }, null, 1));
 
 const sum = (l, f) => l.reduce((a, s) => a + f(s), 0);
-console.log(`${files} files, ${rows} rows (C/A/E) -> ${path.join(CORPUS, "_stats.json")} + data/usage.json`);
+console.log(`${files} files, ${rows} rows (C/A/E) -> ${path.join(CORPUS, "_stats.json")}`);
 for (const k of ["C", "A", "E"]) {
   const b = result.builtin.filter(s => s.kind == k), e = result.extensions.filter(s => s.kind == k);
   console.log(`  ${k}: built-in ${b.length} distinct / ${sum(b, s => s.count)} uses (${sum(b, s => s.errors)} with errors); extensions ${e.length} distinct / ${sum(e, s => s.count)} uses`);

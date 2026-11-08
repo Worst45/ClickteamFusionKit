@@ -1,9 +1,11 @@
 // Generates the reference "bible" of Clickteam Fusion conditions / actions / expressions.
 // node src/bible/generate.js   (or scripts\regen-bible.ps1)
 // Inputs (data\): catalog-nebula.json (built-in objects), extensions\installed\ and
-//   extensions\third-party\ (ExtCatalog catalogs), usage.json (public corpus statistics),
+//   extensions\third-party\ (ExtCatalog catalogs), extensions\overrides.json (hand-checked labels),
+//   platforms.json (runtimes of the HTML5 / Android exporters, src/bible/platforms.js),
 //   lang\fr-unofficial.json (hand-written French labels), Fusion's fr-fr translations (install
 //   folder, otherwise data\fr-cache.json).
+// No usage statistics: they come from the projects of a workspace and stay local (work\corpus\).
 // Outputs: skill\clickteam-fusion\bible\ (bilingual EN/FR) and data\lang\fr.json (translation
 //   table embedded into MfaDump for its French output).
 const fs = require("fs"), path = require("path");
@@ -16,7 +18,8 @@ fs.mkdirSync(path.join(DATA, "lang"), { recursive: true });
 const FUSION = process.env.FUSION_DIR || "C:/Program Files (x86)/Clickteam Fusion Developer 2.5";
 const readJson = f => JSON.parse(fs.readFileSync(f, "utf8").replace(/^\uFEFF/, ""));
 const nebula = readJson(path.join(DATA, "catalog-nebula.json"));
-const stats = readJson(path.join(DATA, "usage.json"));
+const PLATFORMS_FILE = path.join(DATA, "platforms.json");
+const platforms = fs.existsSync(PLATFORMS_FILE) ? readJson(PLATFORMS_FILE) : null;
 const UNOFFICIAL_FILE = path.join(DATA, "lang/fr-unofficial.json");
 const unofficial = fs.existsSync(UNOFFICIAL_FILE) ? readJson(UNOFFICIAL_FILE) : {};
 const write = (f, s) => fs.writeFileSync(f, s.replace(/\r\n/g, "\n"));
@@ -106,20 +109,32 @@ function normText(raw) {
   return t.replace(/%o/g, "<object>").replace(/%(\d)/g, "<p$1>").trim();
 }
 
-// ---------------------------------------------------------------- statistics
-const statsBuiltin = {};
-for (const s of stats.builtin) (statsBuiltin[`${s.kind}|${s.num}`] ??= []).push(s);
-const statsExt = {};
-for (const s of stats.extensions) (statsExt[(s.extFile || "?").toLowerCase()] ??= []).push(s);
-
-function usage(list) {
-  if (!list || !list.length) return { count: 0, projects: 0, example: "", errors: 0 };
-  const count = list.reduce((a, s) => a + s.count, 0);
-  const best = list.reduce((a, s) => (s.examples.length && s.count > (a?.count ?? -1) ? s : a), null);
-  return { count, projects: Math.max(...list.map(s => s.projects)), example: best?.examples[0] ?? "",
-           errors: list.reduce((a, s) => a + s.errors, 0), errorExample: list.find(s => s.errorExamples.length)?.errorExamples[0] };
+// ---------------------------------------------------------------- platforms
+// Exporters whose runtime was read (HTML5, Android); Windows runs every built-in entry
+const RUNTIMES = platforms ? Object.keys(platforms.builtin || {}) : [];
+const builtinSets = Object.fromEntries(RUNTIMES.map(r =>
+  [r, Object.fromEntries(["C", "A", "E"].map(k => [k, new Set(platforms.builtin[r][k] || [])]))]));
+// Runtimes whose table lacks a built-in entry. typeKey: object type, or "*" (Nebula gives no type:
+// found if the runtime has the number for any object type)
+function builtinMissing(k, typeKey, nums) {
+  if (typeKey === "0") return []; // expression operators: not in these tables
+  return RUNTIMES.filter(r => {
+    const set = builtinSets[r][k];
+    return !nums.some(num => typeKey === "*"
+      ? set.has(`*|${num}`) || [...set].some(x => x.endsWith(`|${num}`) && +x.split("|")[0] >= 2)
+      : set.has(`${typeKey}|${num}`) || (+typeKey >= 2 && set.has(`*|${num}`)));
+  });
 }
-const usageCell = u => u.count ? `${u.count} (${u.projects} proj.)` : "—";
+// Extension names compared like platforms.js does
+const extPlatformKey = f => f.toLowerCase().replace(/-/g, "_");
+// "HTML5, Android" / "not in the HTML5 and Android exporters" / null when not checked
+function extExporters(key) {
+  if (!platforms || !RUNTIMES.length) return null;
+  const list = platforms.extensions?.[extPlatformKey(key)];
+  if (!list) return null;
+  const checked = Object.entries(platforms.runtimes || {}).filter(([, v]) => v).map(([r]) => r);
+  return { yes: list.filter(r => checked.includes(r)), no: checked.filter(r => !list.includes(r)) };
+}
 
 // ---------------------------------------------------------------- built-in objects
 const TYPE_NAME = { "-7": "Players", "-6": "Keyboard and mouse", "-5": "Create / pick objects",
@@ -167,13 +182,6 @@ for (const e of nebula) {
   const when = (e.when || "").split(" && ").filter(w => w && !/ObjectType/.test(w) && w !== "Num = default").join(" and ");
   (sections[section] ??= { C: [], A: [], E: [] })[k].push({ num: e.num, template, when, types, typeKey });
 }
-const known = new Set();
-function builtinUsage(k, entry) {
-  const list = (statsBuiltin[`${k}|${entry.num}`] || []).filter(s =>
-    entry.types ? entry.types.includes(s.type) : s.type >= 0 && s.type < 32 && !(claimed[`${k}|${entry.num}`]?.has(s.type)));
-  list.forEach(s => known.add(`${s.kind}|${s.type}|${s.num}`));
-  return usage(list);
-}
 
 // Editor labels (mmf2u): English keys in the old format ("11%s is overlapping %s") or with
 // %o/%0; compared with Nebula's templates after the same normalization, case-insensitively
@@ -197,7 +205,7 @@ function frBuiltin(t, kind) {
 //            number of parameters or -1 when unreliable]
 const frTable = { builtin: {}, ext: {}, extEn: {}, extExpr: {} };
 
-let frOfficial = 0, frUnofficial = 0, rowsBuiltin = 0;
+let frOfficial = 0, frUnofficial = 0, rowsBuiltin = 0, builtinNotIn = 0;
 const frMissing = new Set(); // conditions/actions without French label (to add to fr-unofficial.json)
 const order = ["Special (system)", "Sound", "Storyboard (frame)", "Timer", "Create / pick objects",
   "Keyboard and mouse", "Players", "Objects (common to all objects)"];
@@ -206,8 +214,9 @@ const sectionNames = Object.keys(sections).sort((a, b) =>
 let b = `# Built-in objects: conditions, actions, expressions
 
 > Generated by \`src/bible/generate.js\` from Nebula's catalog (**English labels from Nebula**, close to
-> but not always identical to the editor's) and the actual usage in ${stats.files} projects. French:
-> label of the French editor, or *(unofficial)* translation. See \`README.md\` to read the tables.
+> but not always identical to the editor's). French: label of the French editor, or *(unofficial)*
+> translation. **Not in**: exporters whose runtime does not have the entry (${RUNTIMES.join(", ") || "not checked"}):
+> do not use it in a game built for them. See \`README.md\` to read the tables.
 
 `;
 for (const name of sectionNames) b += `- [${name}](#${anchor(name)})\n`;
@@ -216,17 +225,18 @@ for (const name of sectionNames) {
   for (const k of ["C", "A", "E"]) {
     const list = sections[name][k];
     if (!list.length) continue;
-    b += `\n### ${KIND[k]}\n\n| No. | Label (EN, Nebula) | Label (FR) | Case | Usage | Real example |\n|---|---|---|---|---|---|\n`;
+    b += `\n### ${KIND[k]}\n\n| No. | Label (EN, Nebula) | Label (FR) | Case | Not in |\n|---|---|---|---|---|\n`;
     const sorted = list.sort((x, y) => Math.abs(+x.num) - Math.abs(+y.num) || String(x.num).localeCompare(String(y.num)));
     for (const e of sorted) {
-      const u = builtinUsage(k, e);
+      const missing = builtinMissing(k, e.typeKey, String(e.num).split(" | ").filter(n => /^-?\d+$/.test(n)));
+      if (missing.length) builtinNotIn++;
       // Expressions are function names: identical in every editor language
       const fr = k === "E" ? null : frBuiltin(e.template, k);
       if (fr?.official) frOfficial++; else if (fr) frUnofficial++;
       else if (k !== "E") frMissing.add(e.template);
       rowsBuiltin++;
       const frCell = k === "E" ? "*(same)*" : fr ? md(fr.text) + (fr.official ? "" : " *(unofficial)*") : "";
-      b += `| ${e.num} | ${code(e.template)} | ${frCell} | ${md(e.when)} | ${usageCell(u)} | ${code(cut(u.example))} |\n`;
+      b += `| ${e.num} | ${code(e.template)} | ${frCell} | ${md(e.when)} | ${missing.join(", ")} |\n`;
       // MfaDump: [EN template, FR template] pairs per condition/action; it matches the EN template
       // against Nebula's text to fill the FR one (variants with a `when` are separate pairs)
       if (fr)
@@ -235,13 +245,8 @@ for (const name of sectionNames) {
     }
   }
 }
-// Seen in the corpus but missing from the catalog, or badly rendered
-const unknown = stats.builtin.filter(s => !known.has(`${s.kind}|${s.type}|${s.num}`) || s.errors);
-b += `\n## Seen in projects but badly or not decoded\n\nThese combinations appear in the corpus with an error rendering (\`[ERROR]\`, \`[??]\`) at least once.
-Their meaning is not known for sure: ask for a screenshot of the editor.\n
-| Type | Kind | No. | Occurrences (errors / total) | Error example | Correct example |\n|---|---|---|---|---|---|\n`;
-for (const s of unknown.filter(s => s.errors).sort((a, b) => b.errors - a.errors))
-  b += `| ${s.type} | ${s.kind} | ${s.num} | ${s.errors} / ${s.count} | ${code(cut(s.errorExamples[0]))} | ${code(cut(s.examples[0]))} |\n`;
+b += `\n## Not decoded\n\nA line \`[ERROR] Could not find ObjectType …\` or \`[?? type …]\` in an export is a combination Nebula
+does not know: ask for a screenshot of the event in the editor rather than guessing.\n`;
 write(path.join(OUT, "built-in-objects.md"), b);
 
 // ---------------------------------------------------------------- extensions
@@ -260,7 +265,7 @@ for (const [dir, origin] of [[path.join(DATA, "extensions/installed"), "installe
     catalogs[key] = j;
   }
 }
-const extKeys = [...new Set([...Object.keys(catalogs), ...Object.keys(statsExt).filter(k => k !== "?")])].sort();
+const extKeys = Object.keys(catalogs).sort();
 // Hand-checked labels replacing unusable catalog texts (data\extensions\overrides.json)
 const OVERRIDES_FILE = path.join(DATA, "extensions/overrides.json");
 const overrides = fs.existsSync(OVERRIDES_FILE) ? readJson(OVERRIDES_FILE) : {};
@@ -274,28 +279,27 @@ const index = [];
 let extRowsWithText = 0, extRows = 0, extFr = 0;
 for (const key of extKeys) {
   const cat = catalogs[key];
-  const used = statsExt[key] || [];
-  const names = [...new Set(used.flatMap(s => s.extNames))];
-  const title = cat ? cat.file.replace(/\.mfx$/i, "") : (used[0]?.extFile || key);
-  const total = used.reduce((a, s) => a + s.count, 0);
+  const title = cat.file.replace(/\.(mfx|mvx)$/i, "");
+  const exp = extExporters(key);
   let p = `# Extension ${title}\n\n`;
-  p += `- File: \`${cat ? cat.file : title + ".mfx"}\` — ${cat ? cat.origin : "**not cataloged (extension missing during extraction): labels unknown**"}\n`;
-  if (names.length) p += `- Name(s) shown in projects: ${names.map(n => `“${n}”`).join(", ")}\n`;
-  p += `- Usage in the corpus: ${total ? `${total} times` : "none"}\n`;
+  p += `- File: \`${cat.file}\` — ${cat.origin}\n`;
+  p += `- Exporters: ${!exp ? "not checked (extension not installed where the runtimes were read)"
+    : (exp.yes.length ? `available in ${exp.yes.join(", ")}` : "") + (exp.yes.length && exp.no.length ? "; " : "")
+      + (exp.no.length ? `**not in ${exp.no.join(" / ")}**` : "")
+      + " (Windows: not checked; an extension in no other exporter is usually Windows only)"}\n`;
   p += `- Numbers in events: condition = −(81 + code), action / expression = 80 + code\n`;
   p += `- Writing an expression in the editor: expression name, then **the object name as 1st parameter**, then the parameters of the table — e.g. \`GroupItemValue( "Ini", "Game", "sound" )\` (the MfaDump export writes it this way; an extension missing from the catalog shows \`Expression ID 83("Ini")\` instead)\n`;
-  if (cat) for (const k of ["conditions", "actions", "expressions"])
+  for (const k of ["conditions", "actions", "expressions"])
     if (cat[k + "_status"]) p += `- ${k}: extracted in “${cat[k + "_status"]}” mode${/ressources|resource/.test(cat[k + "_status"]) ? " (numbers possibly guessed, see the Code column)" : ""}\n`;
   const seenCodes = new Set();
   for (const k of ["C", "A", "E"]) {
-    const list = cat ? (cat[{ C: "conditions", A: "actions", E: "expressions" }[k]] || []) : [];
-    const usedK = used.filter(s => s.kind === k);
-    if (!list.length && !usedK.length) continue;
-    p += `\n## ${KIND[k]}\n\n| Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |\n|---|---|---|---|---|---|---|---|\n`;
+    const list = cat[{ C: "conditions", A: "actions", E: "expressions" }[k]] || [];
+    const ovK = Object.keys(overrides[key] || {}).filter(o => o.startsWith(k + "|"));
+    if (!list.length && !ovK.length) continue;
+    p += `\n## ${KIND[k]}\n\n| Code | Event no. | Menu | Display text (EN) | FR | Parameters |\n|---|---|---|---|---|---|\n`;
     for (const a of list) {
       const num = eventNum(k, a.code);
       seenCodes.add(`${k}|${num}`);
-      const u = usage(usedK.filter(s => s.num === num));
       const ov = overrides[key]?.[`${k}|${num}`];
       const text = ov?.en ?? normText(a.text || a.resText);
       if (text) extRowsWithText++;
@@ -316,34 +320,34 @@ for (const key of extKeys) {
       const params = (a.paramTypes || []).map((t, i) =>
         `${(k === "E" ? EXP_PARAM : PARAM)[t] || "type " + t}${a.paramTitles?.[i] ? ` “${fixAnsi(a.paramTitles[i])}”` : ""}`).join("; ")
         + (k === "E" && a.flags & 1 ? " → string" : "") + (a.paramsUnreliable ? " (unreliable parameters)" : "");
-      p += `| ${a.code}${a.codeGuessed ? " (guessed)" : ""} | ${num} | ${md(a.menu)} | ${code(text)} | ${md(frText)} | ${md(params)} | ${usageCell(u)} | ${code(cut(u.example))} |\n`;
+      p += `| ${a.code}${a.codeGuessed ? " (guessed)" : ""} | ${num} | ${md(a.menu)} | ${code(text)} | ${md(frText)} | ${md(params)} |\n`;
     }
     // Hand-checked entries missing from the catalog
     for (const [ok, ov] of Object.entries(overrides[key] || {})) {
       const [ovKind, ovNum] = ok.split("|");
       if (ovKind !== k || seenCodes.has(ok)) continue;
-      const num = +ovNum, u = usage(usedK.filter(s => s.num === num));
+      const num = +ovNum;
       seenCodes.add(ok);
       if (ov.en) frTable.extEn[`ext|${key}|${k}|${num}`] = ov.en;
       if (ov.fr) frTable.ext[`ext|${key}|${k}|${num}`] = ov.fr;
-      p += `| ${codeOf(k, num)} | ${num} | ${md(ov.menu)} | ${code(ov.en)} | ${md(ov.fr)} | (checked by hand) | ${usageCell(u)} | ${code(cut(u.example))} |\n`;
+      p += `| ${codeOf(k, num)} | ${num} | ${md(ov.menu)} | ${code(ov.en)} | ${md(ov.fr)} | (checked by hand) |\n`;
     }
-    for (const s of usedK.filter(s => !seenCodes.has(`${k}|${s.num}`)).sort((x, y) => Math.abs(x.num) - Math.abs(y.num)))
-      p += `| ${codeOf(k, s.num)} | ${s.num} | ? | ? |  |  | ${usageCell(usage([s]))} | ${code(cut(s.examples[0] || s.errorExamples[0]))} |\n`;
   }
   write(path.join(OUT, "extensions", `${title}.md`), p);
-  index.push({ title, file: cat ? cat.file : title + ".mfx", installed: !!cat, origin: cat?.origin, names, total,
-               counts: cat ? ["conditions", "actions", "expressions"].map(k => (cat[k] || []).length).join(" / ") : "?" });
+  index.push({ title, origin: cat.origin, exp,
+               counts: ["conditions", "actions", "expressions"].map(k => (cat[k] || []).length).join(" / ") });
 }
 
-let ix = `# Extensions\n\n${index.filter(e => e.installed).length} cataloged extensions, ${index.filter(e => !e.installed).length} seen in projects but not cataloged.
-Sorted by usage in the corpus. FR column: label of the French editor when Clickteam translated the extension.\n\n| Extension | Names shown | Source | C / A / E | Usage |\n|---|---|---|---|---|\n`;
-for (const e of index.sort((a, b) => b.total - a.total || a.title.localeCompare(b.title)))
-  ix += `| [${e.title}](${encodeURI(e.title)}.md) | ${md(e.names.join(", "))} | ${e.installed ? (/third-party/.test(e.origin) ? "third-party" : "Fusion") : "**none**"} | ${e.counts} | ${e.total || "—"} |\n`;
+const yesNo = (exp, r) => !exp ? "?" : exp.yes.includes(r) ? "yes" : exp.no.includes(r) ? "**no**" : "?";
+let ix = `# Extensions\n\n${index.length} cataloged extensions. FR column of each page: label of the French editor when
+Clickteam translated the extension. **${RUNTIMES.join(" / ") || "Exporters"}**: whether the extension exists in that exporter's
+runtime (“?” = not checked: extension not installed where the runtimes were read). An extension in no other
+exporter usually works only on Windows: do not suggest it for a game built for another target.\n\n| Extension | Source | ${RUNTIMES.join(" | ")} | C / A / E |\n|---|---|${RUNTIMES.map(() => "---|").join("")}---|\n`;
+for (const e of index.sort((a, b) => a.title.localeCompare(b.title, "en", { sensitivity: "base" })))
+  ix += `| [${e.title}](${encodeURI(e.title)}.md) | ${/third-party/.test(e.origin) ? "third-party" : "Fusion"} | ${RUNTIMES.map(r => yesNo(e.exp, r)).join(" | ")} | ${e.counts} |\n`;
 write(path.join(OUT, "extensions", "README.md"), ix);
 
 // ---------------------------------------------------------------- README
-const top = index.filter(e => e.total).slice(0, 12).map(e => `[${e.title}](extensions/${encodeURI(e.title)}.md) (${e.total})`).join(", ");
 const paramTable = Object.entries(PARAM).map(([k, v]) => `| ${k} | ${v} |`).join("\n");
 write(path.join(OUT, "README.md"), `# Clickteam Fusion 2.5 bible: conditions, actions, expressions
 
@@ -355,9 +359,22 @@ export format). Generated by \`src/bible/generate.js\`: do not edit by hand.
 
 - [built-in-objects.md](built-in-objects.md): objects built into Fusion (Special, Sound, Storyboard, Timer,
   Keyboard/mouse, Players, Active / String / Counter objects…), ${rowsBuiltin} entries.
-- [extensions/README.md](extensions/README.md): one page per extension (${index.filter(e => e.installed).length} cataloged: installed with
-  Fusion or third-party; ${index.filter(e => !e.installed).length} seen in projects but not cataloged).
-  Most used in the corpus: ${top}.
+- [extensions/README.md](extensions/README.md): one page per extension (${index.length} cataloged: installed with
+  Fusion or third-party), with the exporters that have it.
+
+## Exporters (Windows, HTML5, Android…)
+
+A game is built for one or more targets. Before suggesting a condition, action, expression or extension,
+**check that it exists for the user's targets** (ask them if unknown):
+
+- built-in entries: column **Not in** of [built-in-objects.md](built-in-objects.md) (${builtinNotIn} entries are missing from
+  at least one runtime among ${RUNTIMES.join(", ") || "none read"});
+- extensions: columns ${RUNTIMES.join(" / ") || "of the exporters"} of [extensions/README.md](extensions/README.md), and the
+  **Exporters** line of each page.
+
+Read from the runtimes of a Fusion install (\`data/platforms.json\`, \`src/bible/platforms.js\`): an entry
+or extension missing from an exporter's runtime is probably not supported there. Windows runs every
+built-in entry; iOS and Mac were not checked (exporters not installed).
 
 ## Languages
 
@@ -376,7 +393,7 @@ export format). Generated by \`src/bible/generate.js\`: do not edit by hand.
 | **Nebula**'s catalog (built-in objects), extracted from its source code | Nebula's English labels, close to Fusion's; some numbers/objects not covered |
 | Edit-time functions of the **extensions** (\`.mfx\` installed with Fusion, and third-party extensions shipped with downloaded projects), called like the editor does | official labels, menus and parameters of the extension; numbers “(guessed)” when the extension does not provide the mapping |
 | Fusion's **French translations** (\`Languages\\fr-fr\\Modules\`) | official labels of the French editor, when an exact match exists |
-| **Actual usage**: ${stats.files} projects (personal projects + Fusion's official examples), ${stats.rows} conditions/actions/expression items | Usage column = occurrences (number of projects); Real example = MfaDump rendering of one occurrence, taken **only from Fusion's official examples** |
+| **Runtimes** of the HTML5 and Android exporters (\`Data\\Runtime\`) | tables of the built-in entries they implement, and the extensions they hold |
 
 ## Reading the tables
 
@@ -394,7 +411,7 @@ export format). Generated by \`src/bible/generate.js\`: do not edit by hand.
 - **Placeholders**: \`<object>\` = object of the condition/action, \`<p0>\`, \`<p1>\`… = parameters in order,
   \`<op>\` = comparison operator (=, <>, <, <=, >, >=).
 - **Case**: extra condition of Nebula for this label (e.g. depending on a parameter value).
-- A row with **Usage** “—” was never seen in the corpus: it exists but is less proven.
+- **Not in**: exporters whose runtime does not implement the entry.
 
 ## Parameter types
 
@@ -408,10 +425,10 @@ ${paramTable}
 ## Known limits
 
 - Built-in labels are Nebula's (English), not always word for word the editor's.
-- ${unknown.filter(s => s.errors).length} built-in combinations were seen with an error rendering at least once: they are listed at
-  the end of [built-in-objects.md](built-in-objects.md).
-- Extensions not cataloged (missing during extraction: ActiveX, Game Center, Google Play Games): only
-  their numbers and raw examples are known. A few extensions gave nothing (load failure or empty menu).
+- Extensions not cataloged (missing during extraction: ActiveX, Game Center, Google Play Games…) have no
+  page: the export shows their raw numbers. A few extensions gave nothing (load failure or empty menu).
+- Exporters are read from the files of their runtimes: an entry handled outside these tables could be
+  reported missing by mistake. When in doubt, ask the user to check in the editor for their target.
 - Some extensions open a help window when asked for a parameter title: their extraction may be
   incomplete (fallback on resource menus).
 - Extensions whose menu depends on a real object were read from their resource menus: numbers possibly
@@ -425,8 +442,7 @@ write(path.join(KIT, "work/fr-missing.json"), JSON.stringify([...frMissing].sort
 if (haveFusion) write(FR_CACHE, JSON.stringify(frUsed, null, 1) + "\n");
 
 console.log(`built-in-objects.md: ${rowsBuiltin} rows, FR ${frOfficial} official + ${frUnofficial} unofficial`);
-console.log(`extensions: ${index.length} pages (${index.filter(e => e.installed).length} cataloged), ${extRows} entries, ${extRowsWithText} with display text, ${extFr} with FR`);
+console.log(`extensions: ${index.length} pages, ${extRows} entries, ${extRowsWithText} with display text, ${extFr} with FR; built-in entries missing from an exporter: ${builtinNotIn}`);
 console.log(`data/lang/fr.json: ${Object.keys(frTable.builtin).length} built-in + ${Object.keys(frTable.ext).length} extension labels (FR), ${Object.keys(frTable.extEn).length} (EN), ${Object.keys(frTable.extExpr).length} extension expression names`);
-write(path.join(OUT, "_meta.json"), JSON.stringify({ files: stats.files, rows: stats.rows, rowsBuiltin, frOfficial, frUnofficial,
-  extensions: index.length, installed: index.filter(e => e.installed).length, extRows, extRowsWithText, extFr,
-  unknownBuiltin: unknown.filter(s => s.errors).length }, null, 1) + "\n");
+write(path.join(OUT, "_meta.json"), JSON.stringify({ rowsBuiltin, frOfficial, frUnofficial, builtinNotIn,
+  extensions: index.length, extRows, extRowsWithText, extFr, runtimes: RUNTIMES }, null, 1) + "\n");

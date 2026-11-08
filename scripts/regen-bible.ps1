@@ -1,8 +1,8 @@
 ﻿# Regenerates the bible (skill\clickteam-fusion\bible\) and data\lang\fr.json from data\.
-#   .\regen-bible.ps1                         -> bible only (existing catalogs and statistics)
+#   .\regen-bible.ps1                         -> bible only (existing catalogs)
 #   .\regen-bible.ps1 -Corpus -Sources 'mine=C:\Games\my-games'
 #                                             -> first re-exports the projects (+ Fusion's examples)
-#                                                and recomputes the statistics (work\corpus\, data\usage.json)
+#                                                and recomputes the LOCAL statistics (work\corpus\, not published)
 # Node.js: the system one if present, otherwise an official portable version is downloaded once
 # into tools\node\ (SHA-256 checked). -PortableNode forces the portable version.
 # Then run .\build.ps1 so that MfaDump embeds the new data\lang\fr.json.
