@@ -31,6 +31,9 @@ Important consequences for debugging:
 
 - **Event order matters.** A value changed by event #10 is already visible to event #20 in the same
   tick, but not to event #5 (which only sees it on the next tick).
+- **Global events run after the frame's events** (verified): the application's global events (block
+  `GLOBAL EVENTS` of the export) are appended at the end of every frame's event list. A frame event
+  cannot see, in the same tick, a value that a global event sets (see §7b).
 - **Nothing is drawn between two events**: everything that happens during a tick appears at once on
   screen.
 - A long computation in a tick **freezes the game** (the next image waits for the end of the tick).
@@ -223,6 +226,13 @@ verify)** otherwise.
   `IF On group activation + A  OR  On group activation + B`, the first block consumes it; if A is false,
   the second block never triggers, even if B is true. Make two separate events, each with its own
   "On group activation".
+- **Global events run after the frame's events** (verified): on the first tick, a frame's
+  `Start of Frame` event runs **before** a global `Start of Frame` event. Symptom seen: a global event
+  read a value from the INI file into a global value at Start of Frame, and the title frame tested that
+  global value at Start of Frame to destroy a "Continue" button: it still saw 0, so the button was
+  always destroyed. Fixes: read the data directly in the frame event (and give the Ini object the right
+  file name in its properties, since a global "Set current file" also comes too late), or test it one
+  tick later. A fast loop defined in the global events can be started from any frame (verified).
 - **Location of the INI file** (verified): the Ini object without a path writes into
   `%APPDATA%\MMFApplications\<file>.ini`, not into the game folder.
 
@@ -236,6 +246,7 @@ In English (`--lang en`):
 Application: <name>  (Fusion build <n>)
 Window: <width>x<height>, <fps> FPS
 == Global values ==               (if named)
+################ GLOBAL EVENTS ################   (if any; run after each frame's events)
 ################ FRAME: <name> ################
 == Frame ==                       size, background, flags; one line per layer (parallax, visibility)
 == Objects ==                     name (type)  values: name=initial value, ...
