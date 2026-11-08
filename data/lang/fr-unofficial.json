@@ -105,5 +105,7 @@
  "User clicks with <mouse button> button within zone <zone p1>": "L'utilisateur clique avec le bouton <mouse button> dans la zone <zone p1>",
  "[COMMENT] <text>": "[COMMENTAIRE] <text>",
  "[END GROUP]": "[FIN DU GROUPE]",
- "[GROUP] <group name>": "[GROUPE] <group name>"
+ "[GROUP] <group name>": "[GROUPE] <group name>",
+ "Show": "Montrer",
+ "Hide": "Cacher"
 }

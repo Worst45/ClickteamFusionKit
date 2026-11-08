@@ -237,27 +237,51 @@ Application: <name>  (Fusion build <n>)
 Window: <width>x<height>, <fps> FPS
 == Global values ==               (if named)
 ################ FRAME: <name> ################
+== Frame ==                       size, background, flags; one line per layer (parallax, visibility)
 == Objects ==                     name (type)  values: name=initial value, ...
+      strings: 0 name="initial text", ...    (alterable strings, numbered from 0; named or non-empty)
+      flags: 0 name=on, 3 name2=off, ...     (alterable flags; named or on)
+      extension: / animations: / movements: / text object / counter:   (when present)
+      behaviours:
+        <behaviour name> (<n> bytes)
+          events:                            (the behaviour's own events)
+== Placed objects (<n>) ==        name  layer <i> "<name>": (x,y) ...   (more than 8: count and x/y range)
 == Object groups (qualifiers) ==  name: members
 == Events ==
-  === GROUP “Name” ===  (disabled at start)
-      // author's comment
+  === GROUP “Name” ===  (disabled at start)  #12
+      // author's comment  #13
       #24  [DISABLED]
         IF    condition
-        IF    condition
         DO    action
+          #25                                (child event, indented under its parent)
+            IF    condition
   === end of group ===
 ```
 
-In French (`--lang fr`) the same structure reads `Fenêtre`, `Valeurs globales`, `Objets`, `valeurs`,
-`Groupes d'objets (qualifiers)`, `Événements`, `=== GROUPE “Nom” ===`, `(désactivé au démarrage)`,
-`[DÉSACTIVÉ]`, `SI` / `FAIRE`, `=== fin de groupe ===`, and conditions/actions use the French editor's
-labels (e.g. `Params : Mettre le drapeau 1 «tombe» sur ON`).
+In French (`--lang fr`) the same structure reads `Fenêtre`, `Valeurs globales`, `Scène`, `Objets`,
+`valeurs`, `chaînes`, `drapeaux`, `comportements`, `Objets placés`, `Groupes d'objets (qualifiers)`,
+`Événements`, `=== GROUPE “Nom” ===`, `(désactivé au démarrage)`, `[DÉSACTIVÉ]`, `SI` / `FAIRE`,
+`=== fin de groupe ===`, and conditions/actions use the French editor's labels (e.g.
+`Params : Mettre le drapeau 1 «tombe» sur ON`).
 
-- **`#n` = line number shown in the Fusion editor** (verified on a real project), so `#69` can be
-  quoted to the user. **These take a number**: each event, each `//` comment, each
-  `=== GROUP … ===` header **and each `=== end of group ===` line**. Blank lines of the export do not
-  count. To know the number of a header or comment (not shown), count from the nearest `#n`.
+- **`#n` = line number shown in the Fusion editor** (verified), so `#69` can be quoted to the user.
+  **These take a number**: each event, each `//` comment (`#n` on its first line), each
+  `=== GROUP … ===` header (`#n` at the end of the line), each `=== end of group ===` line (no `#n`
+  shown: count from the line above), and, after a list of child events, the editor's
+  **"New condition" line** that closes the list (verified; not printed: Fusion stores it as an event
+  whose only condition is `-1/-42`). Blank lines of the export do not count.
+- **Child events** (sub-events, a paid DLC of Fusion) are indented under their parent event.
+- **Objects**: details are shown only when they say something (named or non-default values, animations
+  with frames, non-static movements). `movements:` gives the type, the player and the starting
+  direction (`24 (down)`). `extension:` gives the extension's name, file, version and the readable text
+  found in its settings (the settings themselves are not decoded). `text object` lists the paragraphs
+  of a String object, in order.
+- **Behaviours**: their events are read like a frame's, with the behaviour's own table of objects, and
+  printed under the behaviour. A behaviour that is not made of events shows the readable text of its
+  settings instead.
+- **Placed objects**: position (top-left corner) and layer of each object in the frame editor; more than
+  8 instances of the same object on a layer are summarised as a count and an x/y range. Layers are
+  numbered from 0 here **(to verify against the editor's numbering and the Layer object's actions)**.
 - English labels of conditions/actions are Nebula's, close to but not always identical to the editor's.
   In French, a line without a safe translation stays in English (about 5%).
 - Empty actions that Fusion inserts automatically are hidden.
@@ -290,6 +314,14 @@ labels (e.g. `Params : Mettre le drapeau 1 «tombe» sur ON`).
   pointing to a deleted menu item (verified). The editor shows the action without any option name
   (`Disable menu option`). It does nothing: suggest removing it.
 - When in doubt about a line, **ask for a screenshot of the event** rather than guessing.
+- Alterable values and strings are named everywhere, including inside expressions
+  (`Label("MyText")` rather than `Alterable String C("MyText")`) and behaviour events. An
+  `Alterable Value A` / `Alterable String B` left has really no name. From index 26, Nebula writes two
+  letters (`BA`, `BB`…).
+- **Behaviour events**: the host object is not known there, so value names come from the object named
+  in the line. A behaviour can store its events without the names of their groups: the export then
+  says "events (group names are not stored in this behaviour)" and groups show as "Unknown Group".
+  If reading fails, the message names the block, the byte position and the number of events read.
 - Validated on 162 projects (MFU2 builds 280 to 296, old MMF2 builds 241 to 258, multi-frame projects
   and projects with extensions).
 

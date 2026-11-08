@@ -168,8 +168,11 @@
 | 63 | `VAngle(` | *(same)* |  | — |  |
 | 64 | `Range(` | *(same)* |  | — |  |
 | 65 | `RRandom(` | *(same)* |  | 62 (18 proj.) |  |
-| 66 | `RuntimeName$` | *(same)* |  | — |  |
-| 67 | `ReplaceString$(` | *(same)* |  | — |  |
+| 67 | `RuntimeName$` | *(same)* |  | — |  |
+| 68 | `ReplaceString$(` | *(same)* |  | — |  |
+| 69 | `Sign(` | *(same)* |  | — |  |
+| 70 | `Lerp(` | *(same)* |  | — |  |
+| 71 | `InvLerp(` | *(same)* |  | — |  |
 
 ## Sound
 
@@ -620,9 +623,9 @@
 | 85 | `Set scale to <p0> (Quality = <p1>)` | Fixer l'échelle à <p0> (qualité = <p1>) |  | 169 (15 proj.) | `Earth : Set scale to 0.8 - 0.2 * Sin(Expression ID 111("Clickteam Movement Controller")Fixed("Earth"))) (Quality = 1)` |
 | 86 | `Set X scale to <p0> (Quality = <p1>)` | Fixer l'échelle en X à <p0> (qualité = <p1>) |  | 7 (1 proj.) |  |
 | 87 | `Set Y scale to <p0> (Quality = <p1>)` | Fixer l'échelle en Y à <p0> (qualité = <p1>) |  | 8 (2 proj.) |  |
-| 88 | `Set angle to <p0> (Quality = <p1>)` | Fixer l'angle à <p0> (qualité = <p1>) |  | 65 (5 proj.) | `Big Meteor : Set angle to Alterable Value C("Big Meteor") (Quality = 0)` |
-| 89 | `Load <p0> into Animation <animation>, Direction <direction>, Frame #<p3>, HotSpot(<p4>,<p5>, Action Point(<p6>,<p7>), Transparent Color <p8>` | Charger <p0> dans l'animation <animation>, direction <direction>, image n°<p3>, point chaud (<p4>,<p5>), point d'action (<p6>,<p7>), couleur transparente <p8> *(unofficial)* | Parameters[1].Data is ParameterShort | 2 (1 proj.) |  |
-| 89 | `Load <p0> into Animation <p1>, Direction <direction>, Frame #<p3>, HotSpot(<p4>,<p5>, Action Point(<p6>,<p7>), Transparent Color <p8>` | Charger <p0> dans l'animation <p1>, direction <direction>, image n°<p3>, point chaud (<p4>,<p5>), point d'action (<p6>,<p7>), couleur transparente <p8> *(unofficial)* | !(Parameters[1].Data is ParameterShort) | 2 (1 proj.) |  |
+| 88 | `Set angle to <p0> (Quality = <p1>)` | Fixer l'angle à <p0> (qualité = <p1>) |  | 61 (5 proj.) | `Big Meteor : Set angle to Alterable Value C("Big Meteor") (Quality = 0)` |
+| 89 | `Load <p0> into Animation <animation>, Direction <direction>, Frame #<p3>, HotSpot(<p4>,<p5>, Action Point(<p6>,<p7>), Transparent Color <p8>` | Charger <p0> dans l'animation <animation>, direction <direction>, image n°<p3>, point chaud (<p4>,<p5>), point d'action (<p6>,<p7>), couleur transparente <p8> *(unofficial)* | Parameters[1].Data is ParameterShort | — |  |
+| 89 | `Load <p0> into Animation <p1>, Direction <direction>, Frame #<p3>, HotSpot(<p4>,<p5>, Action Point(<p6>,<p7>), Transparent Color <p8>` | Charger <p0> dans l'animation <p1>, direction <direction>, image n°<p3>, point chaud (<p4>,<p5>), point d'action (<p6>,<p7>), couleur transparente <p8> *(unofficial)* | !(Parameters[1].Data is ParameterShort) | — |  |
 | 90 | `Load <p0> as image, HotSpot(<p1>,<p2>, Action Point(<p3>,<p4>), Transparent Color <p5>` | Charger <p0> comme image, point chaud (<p1>,<p2>), point d'action (<p3>,<p4>), couleur transparente <p5> *(unofficial)* |  | — |  |
 | 91 | `Load animations from file <p0>` | Charger animations depuis fichier <p0> |  | — |  |
 | 92 | `Select from Word num <p0> to <p1>` | Sélectionner à partir du mot <p0> jusqu'à <p1> |  | — |  |
@@ -820,6 +823,8 @@
 | 85 | `Set application <p0>` | Fixer l'application <p0> |  | 1 (1 proj.) | `Sub-Application 2 : Set application Apppath$ + "scrolling.ccn"` |
 | 86 | `Jump to Frame <p0>` | Aller à la scène <p0> |  | — |  |
 | 87 | `Set global value <p0> to <p1>` | Fixer la valeur globale <p0> à <p1> |  | 5 (1 proj.) | `Sub-Application 2 : Set global value 1 to 5` |
+| 88 | `Show` | Montrer *(unofficial)* |  | 4 (1 proj.) |  |
+| 89 | `Hide` | Cacher *(unofficial)* |  | 2 (1 proj.) |  |
 | 90 | `Set global string <p0> to <p1>` | Fixer la chaîne globale <p0> à <p1> |  | 3 (1 proj.) | `StatusBar : Set global string 1 to ""` |
 | 91 | `Pause application` | Pause |  | — |  |
 | 92 | `Resume application` | Continuer |  | — |  |

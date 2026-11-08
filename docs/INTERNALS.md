@@ -64,6 +64,7 @@ points only for a new main feature.
 | `4b55799` | A round decimal is shown with `.0` (`1.0`) to tell it apart from an integer |
 | `8ea6657` | `Parameter.Raw`: raw bytes of each parameter (debugging) |
 | `d97ca8c` | Menu options: `ACEventBase.GetMenuItem` searches every sub-menu (it stopped after the first one, so `Options > Display > item` was lost when `Options > Sounds` came first); an unknown id renders as `[menu id N]` |
+| `9203ead`, `c0b7ad1` | Contribution of csando (Nebula PR #1) and its review: alterable value/string letters from index 26 (`BA`… instead of `[`); `FrameEvents.IsBehaviour` (behaviour events name objects from their own table) and `LastIdentifier`; Sub-Application actions 88 Show / 89 Hide; special expressions 67-71 = `RuntimeName$`, `ReplaceString$(`, `Sign(`, `Lerp(`, `InvLerp(` (numbers from Fusion's HTML5 runtime `Data\Runtime\Html5\Expressions.js`, names from the editor; there is no 66) |
 | `8c454da` | `FrameEvents.ReadMFA`: end of the `Evts` / `STVE` block computed before reading the size (4 bytes too early), and nothing realigned the reader after the block. `STVE` blocks end with 2 zero bytes that are not an event (meaning unknown; `Evts` blocks have none): out of step, the identifier loop ran to the end of the file, then looped forever (`ReadAscii` returns `""`) or read past the end. Now: stop when fewer than 14 bytes (event header) remain, seek to the end of the block, error at the end of the data. `WriteMFA` does not write these 2 bytes back (MfaDump never writes). Public regression reference: Fusion's `Examples\Sub App\scrolling.mfa` (its global events' comments were empty) |
 | `24f3b52` | Directions: `ACEventBase.GetDirectionMask` lists the 32-bit mask (bit n = direction n, counter-clockwise wheel, 0 = right, 8 = up, 16 = left, 24 = down) as `16 (left)` / `{0 (right), 16 (left)}` instead of dots; also used by `ParameterShoot`. MfaDump translates the names in French (`Tr.FrenchDirections`) |
 | `84056db` | Extension expressions: resolver `ParameterExpression.ExtensionExpressionInfo` (name + parameter count, set by MfaDump from the catalog); `ParameterExpressions.ToString` writes `Name("object", p1, p2)` when the next tokens are parameters (any token but an operator, `,` or `)`; a leading ` - ` counts as a parameter only if the catalog says the expression has some) |
@@ -79,9 +80,23 @@ C# program with top-level statements.
    read into memory and never opened for writing.
 3. **Rendering** (`DumpEvents`): Nebula's text (`Condition.ToString()` / `Action.ToString()`). MfaDump
    only formats it: groups (`=== GROUP “name” ===`, indentation), comments (`// text`), hidden `Skip`
-   actions, `[DISABLED]`.
-4. **Readable names** (`CollectNames` + `WithNames`): `Flag N «name»`, names of the alterable values. A
-   qualifier takes the names of its first member. Object tables are **per frame** (`frame.MFAItems`).
+   actions, `[DISABLED]`, `#n` on groups and comments. Child events: an event with the `HasChildren`
+   flag opens a level of indentation, closed by the next event whose only condition is `-1/-42` (the
+   editor's "New condition" line: counted in `#n`, not printed); a group end closes the levels opened
+   inside it.
+   - Per frame (`DumpFrameInfo`, `DumpPlaced`): size, background, flags, layers; instances of the
+     frame editor with position and layer.
+   - Per object (`DumpObjectExtras`, `DumpObjectKind`): alterable strings and flags, extension data
+     (readable text only, `ReadableRuns`), animations, movements (`MovementType`), String paragraphs,
+     counter settings.
+   - Behaviours (`DumpBehaviourEvents`): data starting with `KLBEDAEH` holds the same blocks as a
+     frame's events after 12 bytes; read with Nebula's `FrameEvents` (`IsBehaviour = true`: object names
+     come from the behaviour's own `EventObjects`). The name tables of the frame are saved and restored
+     around it. Identical blocks are printed once.
+4. **Readable names** (`CollectNames` + `WithNames`): `Flag N «name»`, names of the alterable values and
+   strings (also inside expressions, and from the object named in the line: `ByHostName`, for
+   behaviour events). A qualifier takes the names of its first member. Object tables are **per frame**
+   (`frame.MFAItems`).
 5. **Extensions, in both languages**: from the embedded `data\lang\fr.json` (despite its name, it also
    holds English data):
    - `extEn` (EN templates of extension conditions/actions) replaces Nebula's raw
@@ -117,6 +132,10 @@ Options (environment variables):
 - `MFADUMP_RAW=<code>`: under each condition / action that has a parameter with this code, shows all
   its parameters with their raw bytes. This is how comments (37), zones (72), globals and decimals were
   decoded.
+- `MFADUMP_EVENTFLAGS=1`: shows each event's flags (`HasChildren`, `HasParent`…) and the raw fields of
+  conditions that Nebula cannot name.
+- `MFADUMP_BEHAVIOUR_HEX=1` (or a byte limit, 2000 by default): dumps each behaviour's data as hex,
+  identical blocks once. `MFADUMP_BEHAVIOUR_EVENTS=0`: does not read the behaviours' events.
 
 Test bench `src\NebulaTest`: raw Nebula rendering of a `.mfa` **or a built `.exe`** of the same
 project. Build it against another version of Nebula with `-p:NebulaDir=<folder>` to compare

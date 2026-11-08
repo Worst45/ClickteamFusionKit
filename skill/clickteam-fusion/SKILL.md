@@ -49,10 +49,15 @@ MfaDump.exe a.mfa b.mfa ...                    -> one .events.txt per project (o
 - Language: `--lang en|fr`, else the `MFADUMP_LANG` variable, else the Windows display language.
 - If you cannot run programs, ask the user to drop their `.mfa` on `MfaDump.exe` and send you the
   resulting `.events.txt`.
-- The export contains: window size and FPS, global values, then per frame the objects (with their named
-  alterable values), the object groups (qualifiers) and the events: `=== GROUP “…” ===`, the author's
-  comments `// …`, `#n` (= line number shown in the editor), `IF` (conditions) and `DO` (actions) lines,
-  `[DISABLED]`. In French: `GROUPE`, `SI`, `FAIRE`, `[DÉSACTIVÉ]`.
+- The export contains: window size and FPS, global values, then per frame: a `== Frame ==` block (size,
+  background, flags, layers with parallax / visibility), the objects (named alterable values, strings
+  and flags; animations, movements, text/counter settings; for extension objects the name, version and
+  readable text of their settings; behaviours with their events), `== Placed objects ==` (where each
+  object starts, and on which layer), the object groups (qualifiers) and the events:
+  `=== GROUP “…” ===`, the author's comments `// …`, `#n`, `IF` (conditions) and `DO` (actions) lines,
+  `[DISABLED]`. `#n` is the **line number shown in the editor**; it also appears on group headers
+  and on the first line of each comment, so "line 120" can be found directly. Child events are
+  indented under their parent. In French: `GROUPE`, `SI`, `FAIRE`, `[DÉSACTIVÉ]`.
 - In French, a line that has no safe translation stays in English (about 5% of the lines: mostly
   comparisons, positions, and extensions without a catalog).
 - After each change made by the user in Fusion: ask them to **save**, run MfaDump again and check.
