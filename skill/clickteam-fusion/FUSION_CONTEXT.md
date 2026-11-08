@@ -127,9 +127,11 @@ iterations × the number of `On loop` events; a few hundred iterations remain ne
   `- 1` often seen in zones).
 - `Mid$(string, start, length)`: `start` begins at **0** (verified in game). Handy for a table of values
   in a string: `Val(Mid$("484338…", n * 2, 2))`.
-- `paragraph$("obj", n)` on a String object: `n` seems to begin at **0**, and an index past the end seems
-  to return the last paragraph **(to verify)**. Symptom seen: with 2 paragraphs, indexes 1 and 2 both
-  returned the second one, without any error.
+- `paragraph$("obj", n)` on a String object: `n` begins at **0** (verified), and an index past the end
+  returns the last paragraph, without any error (verified). Symptom seen: with 2 paragraphs, indexes 1
+  and 2 both returned the second one. **Careful**: the action `Display paragraph <n>` counts from **1**
+  instead (verified: its dialog reads "paragraph number (starting at 1)"), so the same paragraph is
+  `paragraph$("obj", n)` and `Display paragraph n + 1`.
 
 ## 7b. Pitfalls met in practice
 
@@ -226,6 +228,10 @@ verify)** otherwise.
   `IF On group activation + A  OR  On group activation + B`, the first block consumes it; if A is false,
   the second block never triggers, even if B is true. Make two separate events, each with its own
   "On group activation".
+- **Frame made taller without changing its virtual size** (verified): the display cannot scroll past
+  the virtual size (the frame is there, but there is no native scrolling into it). With a frame of 1024 × 9908 and a virtual rectangle still at 1024 × 768, the view
+  stays at the top while the events are correct. MfaDump does not export this property (`FrameRect`,
+  chunk 0x21, in the `.mfa`). Check it first when a scroll does nothing.
 - **Global events run after the frame's events** (verified): on the first tick, a frame's
   `Start of Frame` event runs **before** a global `Start of Frame` event. Symptom seen: a global event
   read a value from the INI file into a global value at Start of Frame, and the title frame tested that
@@ -238,6 +244,9 @@ verify)** otherwise.
 - **Duplicating a frame copies "Don't include at build time"** (verified): frames made from a template
   frame with this option keep it. They still start with Run Frame but are missing from Run Application.
   The export shows it as `DontInclude` in the frame's `flags:` line.
+- **Run Frame quits on any frame change** (verified in the editor, and in the HTML5 runtime:
+  `GANF_RUNFRAME` → `SL_QUIT`): any action that changes frame or ends the game closes the test.
+  Transitions between frames can only be tested with Run Application.
 
 ---
 
