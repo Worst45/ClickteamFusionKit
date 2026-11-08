@@ -289,6 +289,11 @@ In French (`--lang fr`) the same structure reads `Fenêtre`, `Valeurs globales`,
   export names them normally (`Enemy : Set flag 0 on`), although they are not in this frame's
   `== Objects ==` list; look for them in the included frame. An object can also be in both frames
   (e.g. the player, to place it in each frame): this frame then has its own instance.
+- **Global events** (application properties > Global events): the `GLOBAL EVENTS` block, before the
+  frames, numbered from `#1` like the global events editor. They are added at the end of every frame's
+  events (see §1) but printed only once, not repeated in each frame. A frame whose `flags:` show
+  `DontIncludeGlobalEvents` (frame property "Include global events" unchecked) does not run them
+  **(to verify)**.
 - **Objects**: details are shown only when they say something (named or non-default values, animations
   with frames, non-static movements). `movements:` gives the type, the player and the starting
   direction (`24 (down)`). `extension:` gives the extension's name, file, version and the readable text

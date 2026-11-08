@@ -50,7 +50,8 @@ MfaDump.exe --assets "path\project.mfa"        -> also path\project.assets\ (ima
 - Language: `--lang en|fr`, else the `MFADUMP_LANG` variable, else the Windows display language.
 - If you cannot run programs, ask the user to drop their `.mfa` on `MfaDump.exe` and send you the
   resulting `.events.txt`.
-- The export contains: window size and FPS, global values, then per frame: a `== Frame ==` block (size,
+- The export contains: window size and FPS, global values, the global events (`GLOBAL EVENTS` block,
+  run after each frame's own events), then per frame: a `== Frame ==` block (size,
   background, flags, layers with parallax / visibility), the objects (named alterable values, strings
   and flags; animations, movements, text/counter settings; for extension objects the name, version and
   readable text of their settings; behaviours with their events), `== Placed objects ==` (where each
