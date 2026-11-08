@@ -820,8 +820,8 @@
 | 85 | `Set application <p0>` | Fixer l'application <p0> |  | 1 (1 proj.) | `Sub-Application 2 : Set application Apppath$ + "scrolling.ccn"` |
 | 86 | `Jump to Frame <p0>` | Aller à la scène <p0> |  | — |  |
 | 87 | `Set global value <p0> to <p1>` | Fixer la valeur globale <p0> à <p1> |  | 5 (1 proj.) | `Sub-Application 2 : Set global value 1 to 5` |
-| 88 | `Show` | *(not in FR table)* |  | 1 | `MainGame Subapp : Show` (confirmed in the editor) |
-| 89 | `Hide` | *(not in FR table)* |  | — | `MainGame Subapp : Hide` (confirmed by a test export) |
+| 88 | `Show` | *(not in FR table)* |  | 1 | `MySubapp : Show` (confirmed in the editor) |
+| 89 | `Hide` | *(not in FR table)* |  | — | `MySubapp : Hide` (confirmed by a test export) |
 | 90 | `Set global string <p0> to <p1>` | Fixer la chaîne globale <p0> à <p1> |  | 3 (1 proj.) | `StatusBar : Set global string 1 to ""` |
 | 91 | `Pause application` | Pause |  | — |  |
 | 92 | `Resume application` | Continuer |  | — |  |

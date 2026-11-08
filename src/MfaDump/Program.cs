@@ -358,7 +358,7 @@ static void DumpBehaviourEvents(StringBuilder sb, ObjectBehaviour b)
     var savedStrings = new Dictionary<int, string[]>(Names.StringsByEventObject);
     var savedStringsByName = new Dictionary<string, string[]>(Names.StringsByObjectName);
     Names.StringsByEventObject.Clear();
-    // By-name tables stay: behaviour events refer to frame objects explicitly, e.g. Alterable String C("Text Blitter")
+    // By-name tables stay: behaviour events refer to frame objects explicitly, e.g. Alterable String C("MyText")
     Names.FlagsByEventObject.Clear();
     Names.ValuesByEventObject.Clear();
 

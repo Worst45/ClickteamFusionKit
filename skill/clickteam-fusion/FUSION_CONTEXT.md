@@ -301,8 +301,8 @@ labels (e.g. `Params : Mettre le drapeau 1 «tombe» sur ON`).
 - **Resolved 2026-11-05** (export from a build with the Nebula fixes): `ReplaceString$(` (MFA expression
   number 68) is now named; alterable value/string indexes of 26 and above print as two letters (`BA`,
   `BU`; before they printed `[`); alterable value/string names are used inside expressions
-  (`Blit("Text Blitter")` instead of `Alterable String C("Text Blitter")`) and inside behaviour events.
-  The ~46 `Alterable Value A` / `Alterable String B` left are objects whose values really have no name.
+  (`Label("MyText")` instead of `Alterable String C("MyText")`) and inside behaviour events.
+  Any `Alterable Value A` / `Alterable String B` left are objects whose values really have no name.
 - Behaviour events (under each object's `behaviours:`) are decoded with the behaviour's own object
   table; the host object is unknown there, so names are resolved from the object named in the line.
 - Child events (sub-conditions) are indented under their parent; the `-42` end markers are hidden.
@@ -312,9 +312,9 @@ labels (e.g. `Params : Mettre le drapeau 1 «tombe» sur ON`).
   "events (group names are not stored in this behaviour)" instead of an error. If a read still fails, the
   message names the block, the byte position and the number of events read.
 - **Event numbers** (`#n`, also on `=== GROUP ===` lines and on the first line of a `//` comment) are the
-  **same as the line numbers in the Fusion event editor** (verified 2026-11-05 against a screenshot:
-  groups 1319, 1348, 1372, 1378, 1636, 1837). Groups, comments and child events all count. Use them
-  to point the user to an event ("line 1378").
+  **same as the line numbers in the Fusion event editor** (verified 2026-11-05 against a screenshot
+  of the editor). Groups, comments and child events all count. Use them
+  to point the user to an event ("line 120").
 - **Per frame**, before `== Objects ==`: `== Frame ==` (size, background colour, flags, layers with
   parallax / visibility; `fixed (no scroll)` = coefficient 0). After the objects: `== Placed objects ==`
   (starting x,y and layer; more than 8 identical ones are summarised as a count and an x/y range;

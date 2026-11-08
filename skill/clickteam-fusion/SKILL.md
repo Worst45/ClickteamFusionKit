@@ -56,7 +56,7 @@ MfaDump.exe a.mfa b.mfa ...                    -> one .events.txt per project (o
   object starts, and on which layer), the object groups (qualifiers) and the events:
   `=== GROUP “…” ===`, the author's comments `// …`, `#n`, `IF` (conditions) and `DO` (actions) lines,
   `[DISABLED]`. `#n` is the **line number shown in the editor**; it also appears on group headers
-  and on the first line of each comment, so "line 1378" can be found directly. Child events are
+  and on the first line of each comment, so "line 120" can be found directly. Child events are
   indented under their parent. In French: `GROUPE`, `SI`, `FAIRE`, `[DÉSACTIVÉ]`.
 - In French, a line that has no safe translation stays in English (about 5% of the lines: mostly
   comparisons, positions, and extensions without a catalog).
