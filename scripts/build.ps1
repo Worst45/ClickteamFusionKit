@@ -62,9 +62,13 @@ function Publish($project, $outDir, [string[]]$extra) {
 }
 
 # --- 3. MfaDump -> skill folder
+# ReadyToRun (precompiled code) and no compression: about 2.5x faster on small projects, where
+# startup and JIT dominate (a compressed bundle is decompressed in memory at each launch).
+# Cost: a bigger exe (about 94 MB instead of 37 MB). Output identical.
 $pub = Join-Path $kit 'work\publish\MfaDump'
 Publish 'src\MfaDump\MfaDump.csproj' $pub @('-r', 'win-x64', '--self-contained', 'true', '-p:PublishSingleFile=true',
-    '-p:IncludeNativeLibrariesForSelfExtract=true', '-p:EnableCompressionInSingleFile=true', '-p:DebugType=none')
+    '-p:IncludeNativeLibrariesForSelfExtract=true', '-p:EnableCompressionInSingleFile=false', '-p:PublishReadyToRun=true',
+    '-p:DebugType=none')
 Copy-Item (Join-Path $pub 'MfaDump.exe') (Join-Path $kit 'skill\clickteam-fusion\MfaDump.exe') -Force
 Write-Host 'OK -> skill\clickteam-fusion\MfaDump.exe'
 

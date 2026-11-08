@@ -151,9 +151,16 @@ before/after. `-p:DefineConstants=RAW` + `NEBULATEST_RAW=<code>` shows the raw b
 1. **Corpus** (`scripts\corpus\run-corpus.ps1`) exports, with `MFADUMP_JSONL=1` and `--lang en`, every
    `.mfa` of the sources into `work\corpus\`. Sources are `-Sources 'label=folder'`, plus Fusion's
    examples and tutorials under the labels `fusion_examples` / `fusion_tutorials`. Files are
-   deduplicated by SHA1 (`index.csv`), one process per file. `analyse.js` sorts the failures by format
-   version (header `MFU2` / `MMF2` and build) and by crash site. `stats.js` writes
-   `work\corpus\_stats.json` (local only): it shows whether a change decodes more than before.
+   deduplicated by SHA1 (`index.csv`), one process per file, `-Jobs N` at a time (default: number of
+   logical CPUs, about 3.6x faster than one at a time; each slot runs its own copy of the exe, see
+   `config.json` in §5). `analyse.js` sorts the failures by format version (header `MFU2` / `MMF2` and
+   build) and by crash site. `stats.js` writes `work\corpus\_stats.json` (local only): it shows whether
+   a change decodes more than before.
+   - **Before committing a change of MfaDump or Nebula**: `python -I scripts\corpus\compare-builds.py
+     <old MfaDump.exe> <new MfaDump.exe> <folder of .mfa> <out folder>` runs both builds on every
+     distinct `.mfa`, in parallel (`-j N`), and compares failures, timeouts, lines, IF/DO lines,
+     `[??]` / `[ERROR]` lines and size. No file may get worse; changed exports are then reviewed by hand.
+     About 4 minutes for 585 projects on 8 logical CPUs (17 one at a time).
 2. **Built-in objects** (`NebulaCatalog`): Roslyn analyzes `Condition.GetString`, `Action.ToString` and
    `ParameterExpression.ToString`. For each `return`, the chain of enclosing `switch`/`if` gives the
    object type, the number and the special cases → `data\catalog-nebula.json`. Code interpolations
@@ -199,7 +206,15 @@ system .NET 8+ SDK or installs one into `tools\dotnet\`, and publishes a standal
 `skill\clickteam-fusion\`. `-All` also publishes `NebulaCatalog`, `ExtCatalog` and `NebulaTest` into
 `tools\bin\`.
 
-- Nebula writes a `config.json` next to the exe. It does no harm (ignored by git).
+- MfaDump is published self-contained, as a single file, with **ReadyToRun and without compression**
+  (about 90 MB). Measured against the former compressed build (37 MB): 2.5x faster on small projects,
+  where startup and JIT dominate, and 35-39% on large ones; output identical. A compressed bundle is
+  decompressed at every launch. Rejected: trimming (breaks `MFADUMP_JSONL` unless JSON reflection is
+  re-enabled, and Nebula uses reflection), `InvariantGlobalization` (changes sort orders in the
+  export), framework-dependent + ReadyToRun (crashes at load).
+- Nebula writes a `config.json` next to the exe at every start (ignored by git). Several processes of
+  the **same** exe file race on it (random "type initializer for Parameters" failures): parallel runs
+  use one copy of the exe per worker.
 - `NebulaCore.Init()` calls `ZLibInit.GlobalInit("zlibwapi.dll")` although only `zlib1.dll` ships.
   Reading the events works anyway. If a project fails on decompression, start there.
 
