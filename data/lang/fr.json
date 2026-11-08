@@ -2512,6 +2512,18 @@
     "Fixer la valeur globale <p0> à <p1>"
    ]
   ],
+  "A|9|88": [
+   [
+    "Show",
+    "Montrer"
+   ]
+  ],
+  "A|9|89": [
+   [
+    "Hide",
+    "Cacher"
+   ]
+  ],
   "A|9|90": [
    [
     "Set global string <p0> to <p1>",
