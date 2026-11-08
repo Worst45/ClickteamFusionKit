@@ -266,10 +266,18 @@
   {
     "kind": "condition",
     "objectType": "-4",
+    "num": "-3",
+    "when": null,
+    "template": "Timer equals <p0>",
+    "source": "Condition.cs:534"
+  },
+  {
+    "kind": "condition",
+    "objectType": "-4",
     "num": "-2",
     "when": null,
     "template": "Timer is less than <p0>",
-    "source": "Condition.cs:534"
+    "source": "Condition.cs:536"
   },
   {
     "kind": "condition",
@@ -277,7 +285,7 @@
     "num": "-1",
     "when": null,
     "template": "Timer is greater than <p0>",
-    "source": "Condition.cs:536"
+    "source": "Condition.cs:538"
   },
   {
     "kind": "condition",
@@ -285,7 +293,7 @@
     "num": "-10",
     "when": null,
     "template": "Frame position has just been saved",
-    "source": "Condition.cs:543"
+    "source": "Condition.cs:545"
   },
   {
     "kind": "condition",
@@ -293,7 +301,7 @@
     "num": "-9",
     "when": null,
     "template": "Frame position has just been loaded",
-    "source": "Condition.cs:545"
+    "source": "Condition.cs:547"
   },
   {
     "kind": "condition",
@@ -301,7 +309,7 @@
     "num": "-8",
     "when": null,
     "template": "End of pause",
-    "source": "Condition.cs:547"
+    "source": "Condition.cs:549"
   },
   {
     "kind": "condition",
@@ -309,7 +317,7 @@
     "num": "-7",
     "when": null,
     "template": "V-Sync is enabled",
-    "source": "Condition.cs:549"
+    "source": "Condition.cs:551"
   },
   {
     "kind": "condition",
@@ -317,7 +325,7 @@
     "num": "-6",
     "when": null,
     "template": "<p0>,<p1> is a ladder",
-    "source": "Condition.cs:551"
+    "source": "Condition.cs:553"
   },
   {
     "kind": "condition",
@@ -325,7 +333,7 @@
     "num": "-5",
     "when": null,
     "template": "<p0>,<p1> is an obstacle",
-    "source": "Condition.cs:553"
+    "source": "Condition.cs:555"
   },
   {
     "kind": "condition",
@@ -333,7 +341,7 @@
     "num": "-4",
     "when": null,
     "template": "End of Application",
-    "source": "Condition.cs:555"
+    "source": "Condition.cs:557"
   },
   {
     "kind": "condition",
@@ -341,7 +349,7 @@
     "num": "-2",
     "when": null,
     "template": "End of Frame",
-    "source": "Condition.cs:557"
+    "source": "Condition.cs:559"
   },
   {
     "kind": "condition",
@@ -349,7 +357,7 @@
     "num": "-1",
     "when": null,
     "template": "Start of Frame",
-    "source": "Condition.cs:559"
+    "source": "Condition.cs:561"
   },
   {
     "kind": "condition",
@@ -357,7 +365,7 @@
     "num": "-9",
     "when": null,
     "template": "Is channel <p0> paused?",
-    "source": "Condition.cs:566"
+    "source": "Condition.cs:568"
   },
   {
     "kind": "condition",
@@ -365,7 +373,7 @@
     "num": "-8",
     "when": null,
     "template": "Is channel <p0> not playing?",
-    "source": "Condition.cs:568"
+    "source": "Condition.cs:570"
   },
   {
     "kind": "condition",
@@ -373,7 +381,7 @@
     "num": "-7",
     "when": null,
     "template": "Is music paused?",
-    "source": "Condition.cs:570"
+    "source": "Condition.cs:572"
   },
   {
     "kind": "condition",
@@ -381,7 +389,7 @@
     "num": "-6",
     "when": null,
     "template": "Is sample <p0> paused?",
-    "source": "Condition.cs:572"
+    "source": "Condition.cs:574"
   },
   {
     "kind": "condition",
@@ -389,7 +397,7 @@
     "num": "-5",
     "when": null,
     "template": "<p0> has just finished",
-    "source": "Condition.cs:574"
+    "source": "Condition.cs:576"
   },
   {
     "kind": "condition",
@@ -397,7 +405,7 @@
     "num": "-4",
     "when": null,
     "template": "No music is playing",
-    "source": "Condition.cs:576"
+    "source": "Condition.cs:578"
   },
   {
     "kind": "condition",
@@ -405,7 +413,7 @@
     "num": "-3",
     "when": null,
     "template": "No sample is playing",
-    "source": "Condition.cs:578"
+    "source": "Condition.cs:580"
   },
   {
     "kind": "condition",
@@ -413,7 +421,7 @@
     "num": "-2 | -1",
     "when": null,
     "template": "<p0> is not playing",
-    "source": "Condition.cs:581"
+    "source": "Condition.cs:583"
   },
   {
     "kind": "condition",
@@ -421,7 +429,7 @@
     "num": "-41",
     "when": null,
     "template": "Is profiling in progress",
-    "source": "Condition.cs:588"
+    "source": "Condition.cs:590"
   },
   {
     "kind": "condition",
@@ -429,7 +437,7 @@
     "num": "-40",
     "when": "Parameters[0].Data is ParameterInt && ((ParameterInt)Parameters[0].Data).Value = 0",
     "template": "Is running as Windows application",
-    "source": "Condition.cs:595"
+    "source": "Condition.cs:597"
   },
   {
     "kind": "condition",
@@ -437,7 +445,7 @@
     "num": "-40",
     "when": "Parameters[0].Data is ParameterInt && ((ParameterInt)Parameters[0].Data).Value = 1",
     "template": "Is running as Mac application",
-    "source": "Condition.cs:597"
+    "source": "Condition.cs:599"
   },
   {
     "kind": "condition",
@@ -445,7 +453,7 @@
     "num": "-40",
     "when": "Parameters[0].Data is ParameterInt && ((ParameterInt)Parameters[0].Data).Value = 2",
     "template": "Is running as SWF / Flash Player application",
-    "source": "Condition.cs:599"
+    "source": "Condition.cs:601"
   },
   {
     "kind": "condition",
@@ -453,7 +461,7 @@
     "num": "-40",
     "when": "Parameters[0].Data is ParameterInt && ((ParameterInt)Parameters[0].Data).Value = 3",
     "template": "Is running as Android application",
-    "source": "Condition.cs:601"
+    "source": "Condition.cs:603"
   },
   {
     "kind": "condition",
@@ -461,7 +469,7 @@
     "num": "-40",
     "when": "Parameters[0].Data is ParameterInt && ((ParameterInt)Parameters[0].Data).Value = 4",
     "template": "Is running as iOS application",
-    "source": "Condition.cs:603"
+    "source": "Condition.cs:605"
   },
   {
     "kind": "condition",
@@ -469,7 +477,7 @@
     "num": "-40",
     "when": "Parameters[0].Data is ParameterInt && ((ParameterInt)Parameters[0].Data).Value = 5",
     "template": "Is running as Html5 application",
-    "source": "Condition.cs:605"
+    "source": "Condition.cs:607"
   },
   {
     "kind": "condition",
@@ -477,7 +485,7 @@
     "num": "-40",
     "when": "Parameters[0].Data is ParameterInt && ((ParameterInt)Parameters[0].Data).Value = 6",
     "template": "Is running as XNA application",
-    "source": "Condition.cs:607"
+    "source": "Condition.cs:609"
   },
   {
     "kind": "condition",
@@ -485,7 +493,7 @@
     "num": "-40",
     "when": "Parameters[0].Data is ParameterInt && ((ParameterInt)Parameters[0].Data).Value = 7",
     "template": "Is running as UWP application",
-    "source": "Condition.cs:609"
+    "source": "Condition.cs:611"
   },
   {
     "kind": "condition",
@@ -493,7 +501,7 @@
     "num": "-40",
     "when": null,
     "template": "Is running as <p0>",
-    "source": "Condition.cs:612"
+    "source": "Condition.cs:614"
   },
   {
     "kind": "condition",
@@ -501,7 +509,7 @@
     "num": "-26",
     "when": null,
     "template": "<p0> chances out of <p1> at random",
-    "source": "Condition.cs:614"
+    "source": "Condition.cs:616"
   },
   {
     "kind": "condition",
@@ -509,7 +517,7 @@
     "num": "-25",
     "when": null,
     "template": "OR (logical)",
-    "source": "Condition.cs:616"
+    "source": "Condition.cs:618"
   },
   {
     "kind": "condition",
@@ -517,7 +525,7 @@
     "num": "-24",
     "when": null,
     "template": "OR",
-    "source": "Condition.cs:618"
+    "source": "Condition.cs:620"
   },
   {
     "kind": "condition",
@@ -525,7 +533,7 @@
     "num": "-23",
     "when": null,
     "template": "On group activation",
-    "source": "Condition.cs:620"
+    "source": "Condition.cs:622"
   },
   {
     "kind": "condition",
@@ -533,7 +541,7 @@
     "num": "-22",
     "when": null,
     "template": "Text is available in clipboard",
-    "source": "Condition.cs:622"
+    "source": "Condition.cs:624"
   },
   {
     "kind": "condition",
@@ -541,7 +549,7 @@
     "num": "-21",
     "when": null,
     "template": "Close window has been selected",
-    "source": "Condition.cs:624"
+    "source": "Condition.cs:626"
   },
   {
     "kind": "condition",
@@ -549,7 +557,7 @@
     "num": "-20",
     "when": null,
     "template": "<global string p0> <op> <p1>",
-    "source": "Condition.cs:626"
+    "source": "Condition.cs:628"
   },
   {
     "kind": "condition",
@@ -557,7 +565,7 @@
     "num": "-19",
     "when": null,
     "template": "Menu bar is visible",
-    "source": "Condition.cs:628"
+    "source": "Condition.cs:630"
   },
   {
     "kind": "condition",
@@ -565,7 +573,7 @@
     "num": "-18",
     "when": null,
     "template": "Menu option <menu option> is enabled",
-    "source": "Condition.cs:630"
+    "source": "Condition.cs:632"
   },
   {
     "kind": "condition",
@@ -573,7 +581,7 @@
     "num": "-17",
     "when": null,
     "template": "Menu option <menu option> is checked",
-    "source": "Condition.cs:632"
+    "source": "Condition.cs:634"
   },
   {
     "kind": "condition",
@@ -581,7 +589,7 @@
     "num": "-16",
     "when": null,
     "template": "On loop <p0>",
-    "source": "Condition.cs:634"
+    "source": "Condition.cs:636"
   },
   {
     "kind": "condition",
@@ -589,7 +597,7 @@
     "num": "-15",
     "when": null,
     "template": "Files have been dropped",
-    "source": "Condition.cs:636"
+    "source": "Condition.cs:638"
   },
   {
     "kind": "condition",
@@ -597,7 +605,7 @@
     "num": "-14",
     "when": null,
     "template": "Menu option \"<menu option>\" selected",
-    "source": "Condition.cs:638"
+    "source": "Condition.cs:640"
   },
   {
     "kind": "condition",
@@ -605,7 +613,7 @@
     "num": "-12",
     "when": null,
     "template": "Group \"<p0>\" is activated",
-    "source": "Condition.cs:640"
+    "source": "Condition.cs:642"
   },
   {
     "kind": "condition",
@@ -613,7 +621,7 @@
     "num": "-11",
     "when": null,
     "template": "[END GROUP]",
-    "source": "Condition.cs:642"
+    "source": "Condition.cs:644"
   },
   {
     "kind": "condition",
@@ -621,7 +629,7 @@
     "num": "-10",
     "when": null,
     "template": "Parameters[0].ToString()",
-    "source": "Condition.cs:644"
+    "source": "Condition.cs:646"
   },
   {
     "kind": "condition",
@@ -629,7 +637,7 @@
     "num": "-9",
     "when": null,
     "template": "\"[COMMENT] \" + Parameters[0]",
-    "source": "Condition.cs:646"
+    "source": "Condition.cs:648"
   },
   {
     "kind": "condition",
@@ -637,7 +645,7 @@
     "num": "-8",
     "when": null,
     "template": "<global value p0> <op> <p1>",
-    "source": "Condition.cs:648"
+    "source": "Condition.cs:650"
   },
   {
     "kind": "condition",
@@ -645,7 +653,7 @@
     "num": "-7",
     "when": null,
     "template": "Only one action when event loops",
-    "source": "Condition.cs:650"
+    "source": "Condition.cs:652"
   },
   {
     "kind": "condition",
@@ -653,7 +661,7 @@
     "num": "-6",
     "when": null,
     "template": "Run this event once",
-    "source": "Condition.cs:652"
+    "source": "Condition.cs:654"
   },
   {
     "kind": "condition",
@@ -661,7 +669,7 @@
     "num": "-5",
     "when": null,
     "template": "Repeat <p0> times",
-    "source": "Condition.cs:654"
+    "source": "Condition.cs:656"
   },
   {
     "kind": "condition",
@@ -669,7 +677,7 @@
     "num": "-4",
     "when": null,
     "template": "Restrict actions for <p0>",
-    "source": "Condition.cs:656"
+    "source": "Condition.cs:658"
   },
   {
     "kind": "condition",
@@ -677,7 +685,7 @@
     "num": "-3",
     "when": null,
     "template": "<p0> <op> <p1>",
-    "source": "Condition.cs:658"
+    "source": "Condition.cs:660"
   },
   {
     "kind": "condition",
@@ -685,7 +693,7 @@
     "num": "-2",
     "when": null,
     "template": "Never",
-    "source": "Condition.cs:660"
+    "source": "Condition.cs:662"
   },
   {
     "kind": "condition",
@@ -693,7 +701,7 @@
     "num": "-1",
     "when": null,
     "template": "Always",
-    "source": "Condition.cs:662"
+    "source": "Condition.cs:664"
   },
   {
     "kind": "condition",
@@ -701,7 +709,7 @@
     "num": "-84",
     "when": "Num = default && ObjectType < 32 && ObjectType == 9",
     "template": "Application <object> is paused",
-    "source": "Condition.cs:674"
+    "source": "Condition.cs:676"
   },
   {
     "kind": "condition",
@@ -709,7 +717,7 @@
     "num": "-84",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 9)",
     "template": "Y scale of <object> <op> <p0>",
-    "source": "Condition.cs:675"
+    "source": "Condition.cs:677"
   },
   {
     "kind": "condition",
@@ -717,7 +725,7 @@
     "num": "-83",
     "when": "Num = default && ObjectType < 32 && ObjectType == 4",
     "template": "<object> : answer number <p0> chosen",
-    "source": "Condition.cs:678"
+    "source": "Condition.cs:680"
   },
   {
     "kind": "condition",
@@ -725,7 +733,7 @@
     "num": "-83",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 4) && ObjectType == 9",
     "template": "Application <object> is visible",
-    "source": "Condition.cs:680"
+    "source": "Condition.cs:682"
   },
   {
     "kind": "condition",
@@ -733,7 +741,7 @@
     "num": "-83",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 9) && !(ObjectType == 4)",
     "template": "X scale of <object> <op> <p0>",
-    "source": "Condition.cs:681"
+    "source": "Condition.cs:683"
   },
   {
     "kind": "condition",
@@ -741,7 +749,7 @@
     "num": "-82",
     "when": "Num = default && ObjectType < 32 && ObjectType == 4",
     "template": "<object> : bad answer",
-    "source": "Condition.cs:684"
+    "source": "Condition.cs:686"
   },
   {
     "kind": "condition",
@@ -749,7 +757,7 @@
     "num": "-82",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 4) && ObjectType == 9",
     "template": "Application <object> is finished",
-    "source": "Condition.cs:686"
+    "source": "Condition.cs:688"
   },
   {
     "kind": "condition",
@@ -757,7 +765,7 @@
     "num": "-82",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 9) && !(ObjectType == 4)",
     "template": "Angle of <object> <op> <p0>",
-    "source": "Condition.cs:687"
+    "source": "Condition.cs:689"
   },
   {
     "kind": "condition",
@@ -765,7 +773,7 @@
     "num": "-81",
     "when": "Num = default && ObjectType < 32 && ObjectType == 4",
     "template": "<object> : correct answer",
-    "source": "Condition.cs:690"
+    "source": "Condition.cs:692"
   },
   {
     "kind": "condition",
@@ -773,7 +781,7 @@
     "num": "-81",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 4) && ObjectType == 9",
     "template": "<object>: Frame has changed",
-    "source": "Condition.cs:692"
+    "source": "Condition.cs:694"
   },
   {
     "kind": "condition",
@@ -781,7 +789,7 @@
     "num": "-81",
     "when": "Num = default && ObjectType < 32 && !(ObjectType == 9) && !(ObjectType == 4)",
     "template": "<object> <op> <p0>",
-    "source": "Condition.cs:693"
+    "source": "Condition.cs:695"
   },
   {
     "kind": "condition",
@@ -789,7 +797,7 @@
     "num": "default",
     "when": "ObjectType = >= 0",
     "template": "output",
-    "source": "Condition.cs:702"
+    "source": "Condition.cs:704"
   },
   {
     "kind": "condition",
@@ -797,7 +805,7 @@
     "num": "-51",
     "when": null,
     "template": "Would <object> at X=<p0>, Y=<p1> overlap a backdrop?",
-    "source": "Condition.cs:705"
+    "source": "Condition.cs:707"
   },
   {
     "kind": "condition",
@@ -805,7 +813,7 @@
     "num": "-50",
     "when": null,
     "template": "Would <object> at X=<p1>, Y=<p2> overlap <p0>?",
-    "source": "Condition.cs:707"
+    "source": "Condition.cs:709"
   },
   {
     "kind": "condition",
@@ -813,7 +821,7 @@
     "num": "-49",
     "when": null,
     "template": "Instance value of <object> <op> <p0>",
-    "source": "Condition.cs:709"
+    "source": "Condition.cs:711"
   },
   {
     "kind": "condition",
@@ -821,7 +829,7 @@
     "num": "-48",
     "when": null,
     "template": "Pick \"<object>\" objects with a maximum value of <p0>",
-    "source": "Condition.cs:711"
+    "source": "Condition.cs:713"
   },
   {
     "kind": "condition",
@@ -829,7 +837,7 @@
     "num": "-47",
     "when": null,
     "template": "Pick \"<object>\" objects with a minimum value of <p0>",
-    "source": "Condition.cs:713"
+    "source": "Condition.cs:715"
   },
   {
     "kind": "condition",
@@ -837,7 +845,7 @@
     "num": "-46",
     "when": null,
     "template": "Layer of <object> <op> <p0>",
-    "source": "Condition.cs:715"
+    "source": "Condition.cs:717"
   },
   {
     "kind": "condition",
@@ -845,7 +853,7 @@
     "num": "-45",
     "when": null,
     "template": "<object>: <p0> <op> <p1>",
-    "source": "Condition.cs:717"
+    "source": "Condition.cs:719"
   },
   {
     "kind": "condition",
@@ -853,7 +861,7 @@
     "num": "-44",
     "when": null,
     "template": "Pick closest \"<object>\" objects from \"<p0>\"",
-    "source": "Condition.cs:719"
+    "source": "Condition.cs:721"
   },
   {
     "kind": "condition",
@@ -861,7 +869,7 @@
     "num": "-41",
     "when": null,
     "template": "On each of <object>, loop name <p0>",
-    "source": "Condition.cs:721"
+    "source": "Condition.cs:723"
   },
   {
     "kind": "condition",
@@ -869,7 +877,7 @@
     "num": "-40",
     "when": null,
     "template": "<object>: font is strikeout",
-    "source": "Condition.cs:723"
+    "source": "Condition.cs:725"
   },
   {
     "kind": "condition",
@@ -877,7 +885,7 @@
     "num": "-39",
     "when": null,
     "template": "<object>: font is underlined",
-    "source": "Condition.cs:725"
+    "source": "Condition.cs:727"
   },
   {
     "kind": "condition",
@@ -885,7 +893,7 @@
     "num": "-38",
     "when": null,
     "template": "<object>: font is italic",
-    "source": "Condition.cs:727"
+    "source": "Condition.cs:729"
   },
   {
     "kind": "condition",
@@ -893,7 +901,7 @@
     "num": "-37",
     "when": null,
     "template": "<object>: font is bold",
-    "source": "Condition.cs:729"
+    "source": "Condition.cs:731"
   },
   {
     "kind": "condition",
@@ -901,7 +909,7 @@
     "num": "-36",
     "when": null,
     "template": "<alterable string p0> of <object> <op> <p1>",
-    "source": "Condition.cs:731"
+    "source": "Condition.cs:733"
   },
   {
     "kind": "condition",
@@ -909,7 +917,7 @@
     "num": "-35",
     "when": null,
     "template": "Path movement of <object> has reached node <p1>",
-    "source": "Condition.cs:733"
+    "source": "Condition.cs:735"
   },
   {
     "kind": "condition",
@@ -917,7 +925,7 @@
     "num": "-34",
     "when": null,
     "template": "Pick one of <object>",
-    "source": "Condition.cs:735"
+    "source": "Condition.cs:737"
   },
   {
     "kind": "condition",
@@ -925,7 +933,7 @@
     "num": "-33",
     "when": null,
     "template": "Last <object> has been destroyed",
-    "source": "Condition.cs:737"
+    "source": "Condition.cs:739"
   },
   {
     "kind": "condition",
@@ -933,7 +941,7 @@
     "num": "-32",
     "when": null,
     "template": "Number of <object> <op> <p0>",
-    "source": "Condition.cs:739"
+    "source": "Condition.cs:741"
   },
   {
     "kind": "condition",
@@ -941,7 +949,7 @@
     "num": "-31",
     "when": null,
     "template": "No more <object> in zone <zone p0>",
-    "source": "Condition.cs:741"
+    "source": "Condition.cs:743"
   },
   {
     "kind": "condition",
@@ -949,7 +957,7 @@
     "num": "-30",
     "when": null,
     "template": "Number of <object> in zone <value> <op> <value>",
-    "source": "Condition.cs:744"
+    "source": "Condition.cs:746"
   },
   {
     "kind": "condition",
@@ -957,7 +965,7 @@
     "num": "-29",
     "when": null,
     "template": "<object> is visible",
-    "source": "Condition.cs:746"
+    "source": "Condition.cs:748"
   },
   {
     "kind": "condition",
@@ -965,7 +973,7 @@
     "num": "-28",
     "when": null,
     "template": "<object> is invisible",
-    "source": "Condition.cs:748"
+    "source": "Condition.cs:750"
   },
   {
     "kind": "condition",
@@ -973,7 +981,7 @@
     "num": "-27",
     "when": null,
     "template": "<alterable value p0> of <object> <op> <p1>",
-    "source": "Condition.cs:750"
+    "source": "Condition.cs:752"
   },
   {
     "kind": "condition",
@@ -981,7 +989,7 @@
     "num": "-26",
     "when": null,
     "template": "Fixed value of <object> <op> <p0>",
-    "source": "Condition.cs:752"
+    "source": "Condition.cs:754"
   },
   {
     "kind": "condition",
@@ -989,7 +997,7 @@
     "num": "-25",
     "when": null,
     "template": "<object>: Flag <p0> is on",
-    "source": "Condition.cs:754"
+    "source": "Condition.cs:756"
   },
   {
     "kind": "condition",
@@ -997,7 +1005,7 @@
     "num": "-24",
     "when": null,
     "template": "<object>: Flag <p0> is off",
-    "source": "Condition.cs:756"
+    "source": "Condition.cs:758"
   },
   {
     "kind": "condition",
@@ -1005,7 +1013,7 @@
     "num": "-23",
     "when": null,
     "template": "<object> is overlapping a backdrop",
-    "source": "Condition.cs:758"
+    "source": "Condition.cs:760"
   },
   {
     "kind": "condition",
@@ -1013,7 +1021,7 @@
     "num": "-22",
     "when": null,
     "template": "<object> is getting closer than <p0> pixels from window's edge",
-    "source": "Condition.cs:760"
+    "source": "Condition.cs:762"
   },
   {
     "kind": "condition",
@@ -1021,7 +1029,7 @@
     "num": "-21",
     "when": null,
     "template": "<object> has reached the end in its path",
-    "source": "Condition.cs:762"
+    "source": "Condition.cs:764"
   },
   {
     "kind": "condition",
@@ -1029,7 +1037,7 @@
     "num": "-20",
     "when": null,
     "template": "<object> has reached a node in the path",
-    "source": "Condition.cs:764"
+    "source": "Condition.cs:766"
   },
   {
     "kind": "condition",
@@ -1037,7 +1045,7 @@
     "num": "-19",
     "when": null,
     "template": "Acceleration of <object> <op> <p0>",
-    "source": "Condition.cs:766"
+    "source": "Condition.cs:768"
   },
   {
     "kind": "condition",
@@ -1045,7 +1053,7 @@
     "num": "-18",
     "when": null,
     "template": "Deceleration of <object> <op> <p0>",
-    "source": "Condition.cs:768"
+    "source": "Condition.cs:770"
   },
   {
     "kind": "condition",
@@ -1053,7 +1061,7 @@
     "num": "-17",
     "when": null,
     "template": "X position of <object> <op> <p0>",
-    "source": "Condition.cs:770"
+    "source": "Condition.cs:772"
   },
   {
     "kind": "condition",
@@ -1061,7 +1069,7 @@
     "num": "-16",
     "when": null,
     "template": "Y position of <object> <op> <p0>",
-    "source": "Condition.cs:772"
+    "source": "Condition.cs:774"
   },
   {
     "kind": "condition",
@@ -1069,7 +1077,7 @@
     "num": "-15",
     "when": null,
     "template": "Speed of <object> <op> <p0>",
-    "source": "Condition.cs:774"
+    "source": "Condition.cs:776"
   },
   {
     "kind": "condition",
@@ -1077,7 +1085,7 @@
     "num": "-14",
     "when": null,
     "template": "Collision between <object> and <p0>",
-    "source": "Condition.cs:776"
+    "source": "Condition.cs:778"
   },
   {
     "kind": "condition",
@@ -1085,7 +1093,7 @@
     "num": "-13",
     "when": null,
     "template": "<object> collides with the background",
-    "source": "Condition.cs:778"
+    "source": "Condition.cs:780"
   },
   {
     "kind": "condition",
@@ -1093,7 +1101,7 @@
     "num": "-12",
     "when": null,
     "template": "<object> leaves the play area<value>",
-    "source": "Condition.cs:780"
+    "source": "Condition.cs:782"
   },
   {
     "kind": "condition",
@@ -1101,7 +1109,7 @@
     "num": "-11",
     "when": null,
     "template": "<object> enters the play area<value>",
-    "source": "Condition.cs:782"
+    "source": "Condition.cs:784"
   },
   {
     "kind": "condition",
@@ -1109,7 +1117,7 @@
     "num": "-10",
     "when": null,
     "template": "<object> is out of the play area",
-    "source": "Condition.cs:784"
+    "source": "Condition.cs:786"
   },
   {
     "kind": "condition",
@@ -1117,7 +1125,7 @@
     "num": "-9",
     "when": null,
     "template": "<object> is in the play area",
-    "source": "Condition.cs:786"
+    "source": "Condition.cs:788"
   },
   {
     "kind": "condition",
@@ -1125,7 +1133,7 @@
     "num": "-8",
     "when": null,
     "template": "<object> is facing a direction <direction>",
-    "source": "Condition.cs:788"
+    "source": "Condition.cs:790"
   },
   {
     "kind": "condition",
@@ -1133,7 +1141,7 @@
     "num": "-7",
     "when": null,
     "template": "<object> is stopped",
-    "source": "Condition.cs:790"
+    "source": "Condition.cs:792"
   },
   {
     "kind": "condition",
@@ -1141,7 +1149,7 @@
     "num": "-6",
     "when": null,
     "template": "<object> is bouncing",
-    "source": "Condition.cs:792"
+    "source": "Condition.cs:794"
   },
   {
     "kind": "condition",
@@ -1149,7 +1157,7 @@
     "num": "-4",
     "when": null,
     "template": "<object> is overlapping <p0>",
-    "source": "Condition.cs:794"
+    "source": "Condition.cs:796"
   },
   {
     "kind": "condition",
@@ -1157,7 +1165,7 @@
     "num": "-3",
     "when": "Parameters[0].Data is ParameterShort",
     "template": "<object> animation <animation> is playing",
-    "source": "Condition.cs:797"
+    "source": "Condition.cs:799"
   },
   {
     "kind": "condition",
@@ -1165,7 +1173,7 @@
     "num": "-3",
     "when": "!(Parameters[0].Data is ParameterShort)",
     "template": "<object> animation <p0> is playing",
-    "source": "Condition.cs:798"
+    "source": "Condition.cs:800"
   },
   {
     "kind": "condition",
@@ -1173,7 +1181,7 @@
     "num": "-2",
     "when": "Parameters[0].Data is ParameterShort",
     "template": "<object> animation <animation> is over",
-    "source": "Condition.cs:801"
+    "source": "Condition.cs:803"
   },
   {
     "kind": "condition",
@@ -1181,7 +1189,7 @@
     "num": "-2",
     "when": "!(Parameters[0].Data is ParameterShort)",
     "template": "<object> animation <p0> is over",
-    "source": "Condition.cs:802"
+    "source": "Condition.cs:804"
   },
   {
     "kind": "condition",
@@ -1189,7 +1197,7 @@
     "num": "-1",
     "when": null,
     "template": "Current frame of <object> <op> <p0>",
-    "source": "Condition.cs:804"
+    "source": "Condition.cs:806"
   },
   {
     "kind": "action",

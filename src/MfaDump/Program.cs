@@ -670,6 +670,15 @@ static void DumpFrameInfo(StringBuilder sb, Frame frame)
             try { if (h.MFAFrameFlags[name]) flagNames.Add(name); } catch { }
         }
         sb.AppendLine($"  {L.T("size")}: {h.Width}x{h.Height}  {L.T("background")}: #{bg.R:X2}{bg.G:X2}{bg.B:X2}" + (flagNames.Count > 0 ? $"  {L.T("flags")}: " + string.Join(", ", flagNames) : ""));
+        // Frame included in this one (MFA frame chunk 0x31): found by its handle, shown as in the
+        // storyboard ("name" (number))
+        int included = frame.FrameInclude?.IncludedFrameHandle ?? -1;
+        if (included >= 0)
+        {
+            var frames = NebulaCore.PackageData.Frames;
+            int index = frames.FindIndex(f => f.Handle == included);
+            sb.AppendLine($"  {L.T("includes frame")}: " + (index >= 0 ? $"\"{frames[index].FrameName}\" ({index + 1})" : $"[frame handle {included}]"));
+        }
         var layers = frame.FrameLayers.Layers;
         for (int i = 0; i < layers.Length; i++)
         {
@@ -751,7 +760,7 @@ static class L
         ["GROUP"] = "GROUPE", ["end of group"] = "fin de groupe", ["DISABLED"] = "DÉSACTIVÉ",
         ["IF"] = "SI", ["DO"] = "FAIRE",
         // Frame and object details
-        ["Frame"] = "Scène", ["size"] = "taille", ["background"] = "fond", ["layer"] = "calque",
+        ["Frame"] = "Scène", ["includes frame"] = "inclut la scène", ["size"] = "taille", ["background"] = "fond", ["layer"] = "calque",
         ["fixed (no scroll)"] = "fixe (sans défilement)", ["Placed objects"] = "Objets placés", ["object"] = "objet",
         ["locked"] = "verrouillé", ["bytes"] = "octets", ["text"] = "texte", ["data"] = "données",
         ["extension"] = "extension", ["animations"] = "animations", ["frames"] = "images",

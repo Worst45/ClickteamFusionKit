@@ -338,6 +338,7 @@
 |---|---|---|---|---|---|
 | -1 | `Timer is greater than <p0>` | Le timer est plus grand que <p0> |  | 61 (20 proj.) | `Timer is greater than 10''-00` |
 | -2 | `Timer is less than <p0>` | Le timer est moins grand que <p0> |  | 2 (1 proj.) | `Timer is less than 10''-00` |
+| -3 | `Timer equals <p0>` | Le timer est egal à <p0> |  | 63 (12 proj.) |  |
 | -4 | `Every <p0>` | Tous les <p0> |  | 773 (31 proj.) | `Every Every 50, 1000` |
 | -5 | `User has left the computer for <p0>` | L'utilisateur a laissé l'ordinateur depuis <p0> |  | 1 (1 proj.) |  |
 | -6 | `On timer event <p0>` | Lors de l'événement timer <p0> |  | — |  |

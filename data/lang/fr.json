@@ -932,6 +932,12 @@
     "Le timer est moins grand que <p0>"
    ]
   ],
+  "C|-4|-3": [
+   [
+    "Timer equals <p0>",
+    "Le timer est egal à <p0>"
+   ]
+  ],
   "C|-4|-4": [
    [
     "Every <p0>",
