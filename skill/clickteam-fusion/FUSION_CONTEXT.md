@@ -270,8 +270,8 @@ In French (`--lang fr`) the same structure reads `Fenêtre`, `Valeurs globales`,
   shown: count from the line above), and, after a list of child events, the editor's
   **"New condition" line** that closes the list (verified; not printed: Fusion stores it as an event
   whose only condition is `-1/-42`). Blank lines of the export do not count.
-- **Child events** (sub-events, a paid DLC of Fusion) are indented under their parent event.
-- **Included frame** (frame property "Include another frame > Frame", recent builds; verified):
+- **Child events** (sub-events; **paid Fusion 2.5+ DLC only**) are indented under their parent event.
+- **Included frame** (frame property "Include another frame > Frame"; **paid Fusion 2.5+ DLC only**; verified):
   `includes frame: "Model" (12)` in `== Frame ==`. The events of the included frame run in this frame
   too, without being copied: a group kept only in the model frame works in every frame that includes
   it. Its objects can be used in this frame's events (they appear as shortcuts in the editor): the

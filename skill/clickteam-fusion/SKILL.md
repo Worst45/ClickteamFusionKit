@@ -128,6 +128,17 @@ one can **block building** the game for another target, and the user has to inst
 - If an extension is really needed: say so explicitly, explain why native features are not enough, and
   **ask the user** about their target platforms before adopting it.
 
+### Features of the paid "Fusion 2.5+" DLC
+
+**Child events** (events nested under another event) and **including another frame** (frame property
+"Include another frame") need the paid Fusion 2.5+ DLC. Do not suggest them to a user who has not
+bought it: the editor would not offer them.
+
+- If the export already contains child events (events indented under another one) or an
+  `includes frame:` line, the user has the DLC: you can use these features.
+- Otherwise, ask whether they have Fusion 2.5+ before suggesting one, and give a solution without it
+  (a group, a flag, conditions repeated in each event; the shared events copied in each frame).
+
 ### The user's good practices
 
 Conventions to follow in every suggestion (object names, structure). This section grows with the
