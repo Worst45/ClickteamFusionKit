@@ -67,6 +67,8 @@ There is nothing else to install:
 - **By hand**: drop a `.mfa` file on `skill\clickteam-fusion\MfaDump.exe`. You get
   `<project>.events.txt` next to the `.mfa`, in the language of Windows. From a command line:
   `MfaDump --lang fr project.mfa`.
+- **Images and sounds too**: `MfaDump --assets project.mfa` also extracts the images (PNG), icons, sounds,
+  music and embedded files into `<project>.assets\`, with an index of which object uses which image.
 
 ## Layout
 

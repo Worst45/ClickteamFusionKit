@@ -77,9 +77,15 @@ points only for a new main feature.
 
 C# program with top-level statements.
 
-1. **Arguments**: `MfaDump [--lang en|fr] <file.mfa> [output.txt]`, or several `.mfa` files (drag and
-   drop). With several files, the exe **relaunches itself once per file**, because Nebula keeps static
-   state. Language: `--lang`, else `MFADUMP_LANG`, else the Windows display language (`fr` or `en`).
+1. **Arguments**: `MfaDump [--lang en|fr] [--assets] <file.mfa> [output.txt]`, or several `.mfa` files
+   (drag and drop). With several files, the exe **relaunches itself once per file**, because Nebula
+   keeps static state. Language: `--lang`, else `MFADUMP_LANG`, else the Windows display language
+   (`fr` or `en`). `--assets` (class `Assets`): images are then decompressed (`ignore_images` off) and,
+   after the export, the image bank (`Images\<handle>.png`, converted in parallel as in Nebula's
+   `GameDumper`), the icon bank, sounds and music (extension from the first bytes, names fixed like
+   `fixAnsi` for non-Unicode projects) and binary files are written into `<output>.assets\`, with
+   `index.txt` (object / animation / direction → image handles; backdrops; sounds). The text export is
+   identical with or without it.
 2. **Loading**: `NebulaCore.Init()`, then `MFAFileReader.LoadGame(new ByteReader(bytes))`. The file is
    read into memory and never opened for writing.
 3. **Rendering** (`DumpEvents`): Nebula's text (`Condition.ToString()` / `Action.ToString()`). MfaDump

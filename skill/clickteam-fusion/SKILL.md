@@ -43,6 +43,7 @@ A `.mfa` file is binary and undocumented: do not try to read it directly.
 MfaDump.exe "path\project.mfa"                 -> path\project.events.txt
 MfaDump.exe --lang fr "project.mfa" "out.txt"  -> chosen output, in French
 MfaDump.exe a.mfa b.mfa ...                    -> one .events.txt per project (or drag and drop on the exe)
+MfaDump.exe --assets "path\project.mfa"        -> also path\project.assets\ (images, sounds...)
 ```
 
 - MfaDump **never modifies** the `.mfa` (it reads it into memory). It runs without installing .NET.
@@ -63,6 +64,12 @@ MfaDump.exe a.mfa b.mfa ...                    -> one .events.txt per project (o
 - After each change made by the user in Fusion: ask them to **save**, run MfaDump again and check.
 - Statistics option: environment variable `MFADUMP_JSONL=1` → `<project>.events.jsonl`, one line per
   condition (`C`), action (`A`) and expression item (`E`), always in English.
+- **Assets** (`--assets`): also extracts the project's images (PNG, named by image number), icons,
+  sounds, music and embedded binary files into `<project>.assets\`, with `index.txt`: which object /
+  animation / direction uses which images, and the list of sounds. Not needed to understand the logic
+  (slower: every image is decompressed); use it when the question is about the graphics or sounds
+  (which image an object shows, a sound file to check), or to look at an image yourself. The text
+  export is the same with or without it.
 
 ## 2. Understanding what you read
 
