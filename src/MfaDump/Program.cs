@@ -246,9 +246,9 @@ static void DumpObjectExtras(StringBuilder sb, MFAObjectInfo oi, MFAObjectLoader
         string text = strs.AlterableStrings[i] ?? "";
         if (string.IsNullOrEmpty(name) && text.Length == 0)
             continue;
-        string label = i < 26 ? ((char)('A' + i)).ToString() : i.ToString();
+        // Numbered from 0, like flags (recent editors number alterable values and strings)
         string shown = text.Replace("\r", "\\r").Replace("\n", "\\n");
-        shownStrings.Add(string.IsNullOrEmpty(name) ? $"{label}=\"{shown}\"" : $"{label} {name}=\"{shown}\"");
+        shownStrings.Add(string.IsNullOrEmpty(name) ? $"{i}=\"{shown}\"" : $"{i} {name}=\"{shown}\"");
     }
     if (shownStrings.Count > 0)
         sb.AppendLine($"      {L.T("strings")}: " + string.Join(", ", shownStrings));
@@ -284,8 +284,11 @@ static void DumpObjectExtras(StringBuilder sb, MFAObjectInfo oi, MFAObjectLoader
         sb.AppendLine($"      {L.T("behaviours")}:");
         foreach (ObjectBehaviour b in behaviours)
         {
-            string texts = string.Join(" | ", ReadableRuns(b.Data).Take(8));
-            sb.AppendLine($"        {b.Name} ({b.Data.Length} bytes)" + (texts.Length > 0 ? $"  text: {texts}" : ""));
+            // A behaviour made of events ("KLBEDAEH" header) is shown by its events below: its readable
+            // text would only repeat block markers and object names
+            bool hasEvents = b.Data.Length >= 8 && Encoding.ASCII.GetString(b.Data, 0, 8) == "KLBEDAEH";
+            string texts = hasEvents ? "" : string.Join(" | ", ReadableRuns(b.Data).Take(8));
+            sb.AppendLine($"        {b.Name} ({b.Data.Length} {L.T("bytes")})" + (texts.Length > 0 ? $"  {L.T("text")}: {texts}" : ""));
             if (Environment.GetEnvironmentVariable("MFADUMP_BEHAVIOUR_EVENTS") != "0")
                 DumpBehaviourEvents(sb, b);
             if (hexMax > 0 && b.Data.Length <= hexMax)
@@ -312,7 +315,7 @@ static void DumpObjectKind(StringBuilder sb, MFAObjectLoader loader)
         if (loader is MFAExtensionObject ext)
         {
             string texts = string.Join(" | ", ReadableRuns(ext.Data).Take(12));
-            sb.AppendLine($"      extension: {ext.Name} ({ext.FileName}) v{ext.Version}, data {ext.Data.Length} bytes" + (texts.Length > 0 ? $"  text: {texts}" : ""));
+            sb.AppendLine($"      {L.T("extension")}: {ext.Name} ({ext.FileName}) v{ext.Version}, {L.T("data")} {ext.Data.Length} {L.T("bytes")}" + (texts.Length > 0 ? $"  {L.T("text")}: {texts}" : ""));
         }
         if (loader is MFAActive act && act.Animations.Any(x => x.Value.Directions.Any(d => d.Frames.Length > 0)))
         {
@@ -320,20 +323,37 @@ static void DumpObjectKind(StringBuilder sb, MFAObjectLoader loader)
             {
                 int frames = a.Value.Directions.Sum(d => d.Frames.Length);
                 string nm = string.IsNullOrEmpty(a.Value.Name) ? $"#{a.Key}" : a.Value.Name;
-                return $"{nm}({a.Value.Directions.Count} dir, {frames} frames)";
+                return $"{nm}({a.Value.Directions.Count} dir, {frames} {L.T("frames")})";
             });
-            sb.AppendLine($"      animations: {string.Join(", ", parts)}");
+            sb.AppendLine($"      {L.T("animations")}: {string.Join(", ", parts)}");
         }
         var mv = loader.Movements.Movements;
         if (mv.Any(m => m.Type != 0 || m.Player != 0))
-            sb.AppendLine("      movements: " + string.Join(", ", mv.Select(m => (string.IsNullOrEmpty(m.Name) ? "" : m.Name + " ") + $"[type {m.Type}, player {m.Player}, start dir {m.StartingDirection}]")));
+            sb.AppendLine($"      {L.T("movements")}: " + string.Join(", ", mv.Select(m =>
+                (string.IsNullOrEmpty(m.Name) ? "" : m.Name + " ")
+                + $"[{MovementType(m.Type)}, {L.T("player")} {m.Player}, {L.T("start direction")} "
+                + L.Directions(ACEventBase.GetDirectionMask((uint)m.StartingDirection)) + "]")));
         if (loader is MFAString str && str.Paragraphs.Length > 0)
-            sb.AppendLine($"      text object {str.Width}x{str.Height}: " + string.Join(" / ", str.Paragraphs.Select(p => "\"" + p.Value.Replace("\r", "").Replace("\n", "\\n") + "\"")));
+            sb.AppendLine($"      {L.T("text object")} {str.Width}x{str.Height}: " + string.Join(" / ", str.Paragraphs.Select(p => "\"" + p.Value.Replace("\r", "").Replace("\n", "\\n") + "\"")));
         if (loader is MFACounter ctr)
-            sb.AppendLine($"      counter: value {ctr.Value}, min {ctr.Minimum}, max {ctr.Maximum}");
+            sb.AppendLine($"      {L.T("counter")}: {L.T("value")} {ctr.Value}, min {ctr.Minimum}, max {ctr.Maximum}");
     }
     catch (Exception ex) { sb.AppendLine($"      [?? object details: {ex.Message}]"); }
 }
+
+// Movement types, as numbered in Nebula's ObjectMovement
+static string MovementType(short type) => type switch
+{
+    0 => L.T("static"),
+    1 => L.T("mouse"),
+    2 => L.T("race car"),
+    3 => L.T("eight directions"),
+    4 => L.T("bouncing ball"),
+    5 => L.T("path"),
+    9 => L.T("platform"),
+    14 => L.T("extension"),
+    _ => $"{L.T("type")} {type}"
+};
 
 // A behaviour's data holds the same blocks as a frame's events (header "KLBEDAEH" + 4 bytes, then
 // STVE events, SMER comments, SJBO objects, ... !DNE): its events use a table of objects of their own.
@@ -383,9 +403,9 @@ static void DumpBehaviourEvents(StringBuilder sb, ObjectBehaviour b)
             else
                 problem = $"{ex.Message} (while reading block '{fe.LastIdentifier}' at byte {br.Tell()} of {d.Length}; events read: {fe.Events.Count})";
         }
-        DumpEvents(inner, fe);
-        if (fe.Events.Count == 0 && problem.Length == 0)
-            problem = "no events found";
+        // A behaviour without any event is normal (e.g. one that only stores objects): nothing to show
+        if (fe.Events.Count > 0)
+            DumpEvents(inner, fe);
     }
     catch (Exception ex)
     {
@@ -405,7 +425,9 @@ static void DumpBehaviourEvents(StringBuilder sb, ObjectBehaviour b)
         foreach (var kv in savedStringsByName) Names.StringsByObjectName[kv.Key] = kv.Value;
     }
 
-    sb.AppendLine(noGroupNames ? "          events (group names are not stored in this behaviour):" : "          events:");
+    if (inner.Length == 0 && problem.Length == 0)
+        return;
+    sb.AppendLine(noGroupNames ? $"          {L.T("events (group names are not stored in this behaviour)")}:" : $"          {L.T("events")}:");
     foreach (string line in inner.ToString().Split('\n'))
         if (line.Trim().Length > 0)
             sb.AppendLine("            " + line.TrimEnd('\r'));
@@ -657,7 +679,7 @@ static void DumpFrameInfo(StringBuilder sb, Frame frame)
             {
                 try { if (l.MFALayerFlags[name]) lf.Add(name); } catch { }
             }
-            string para = (l.XCoefficient != 1f || l.YCoefficient != 1f) ? (l.XCoefficient == 0f && l.YCoefficient == 0f ? "  fixed (no scroll)" : $"  parallax {l.XCoefficient:0.##},{l.YCoefficient:0.##}") : "";
+            string para = (l.XCoefficient != 1f || l.YCoefficient != 1f) ? (l.XCoefficient == 0f && l.YCoefficient == 0f ? $"  {L.T("fixed (no scroll)")}" : $"  parallax {l.XCoefficient:0.##},{l.YCoefficient:0.##}") : "";
             sb.AppendLine($"  {L.T("layer")} {i} \"{l.Name}\"{para}" + (lf.Count > 0 ? "  " + string.Join(", ", lf) : ""));
         }
         sb.AppendLine();
@@ -680,11 +702,10 @@ static void DumpPlaced(StringBuilder sb, Frame frame)
         sb.AppendLine($"== {L.T("Placed objects")} ({inst.Length}) ==");
         foreach (var g in inst.GroupBy(x => (x.ObjectInfo, x.Layer)).OrderBy(g => g.Key.Layer).ThenBy(g => names.GetValueOrDefault(g.Key.ObjectInfo, "")))
         {
-            string nm = names.GetValueOrDefault(g.Key.ObjectInfo, $"object {g.Key.ObjectInfo}");
+            string nm = names.GetValueOrDefault(g.Key.ObjectInfo, $"{L.T("object")} {g.Key.ObjectInfo}");
             var list = g.ToList();
             string extra = "";
-            if (list.Any(x => x.ParentType != 0)) extra += $"  (created later by an action, not on screen at start)";
-            if (list.Any(x => x.InstanceFlags["Locked"])) extra += "  locked";
+            if (list.Any(x => x.InstanceFlags["Locked"])) extra += $"  {L.T("locked")}";
             if (list.Count <= 8)
                 sb.AppendLine($"  {nm}  {L.T("layer")} {layerName(g.Key.Layer)}: " + string.Join(" ", list.Select(x => $"({x.PositionX},{x.PositionY})")) + extra);
             else
@@ -729,8 +750,23 @@ static class L
         ["Events"] = "Événements", ["(none)"] = "(aucun)", ["disabled at start"] = "désactivé au démarrage",
         ["GROUP"] = "GROUPE", ["end of group"] = "fin de groupe", ["DISABLED"] = "DÉSACTIVÉ",
         ["IF"] = "SI", ["DO"] = "FAIRE",
+        // Frame and object details
+        ["Frame"] = "Scène", ["size"] = "taille", ["background"] = "fond", ["layer"] = "calque",
+        ["fixed (no scroll)"] = "fixe (sans défilement)", ["Placed objects"] = "Objets placés", ["object"] = "objet",
+        ["locked"] = "verrouillé", ["bytes"] = "octets", ["text"] = "texte", ["data"] = "données",
+        ["extension"] = "extension", ["animations"] = "animations", ["frames"] = "images",
+        ["movements"] = "mouvements", ["player"] = "joueur", ["start direction"] = "direction de départ",
+        ["text object"] = "objet texte", ["counter"] = "compteur", ["value"] = "valeur", ["type"] = "type",
+        ["events"] = "événements",
+        ["events (group names are not stored in this behaviour)"] = "événements (noms des groupes non stockés dans ce comportement)",
+        // Movement types (labels of the French editor)
+        ["static"] = "statique", ["mouse"] = "souris", ["race car"] = "course de voiture",
+        ["eight directions"] = "huit directions", ["bouncing ball"] = "balle rebondissante",
+        ["path"] = "trajectoire", ["platform"] = "plate-forme",
     };
     public static string T(string en) => Lang == "fr" && Fr.TryGetValue(en, out var fr) ? fr : en;
+    // Direction masks rendered by Nebula ("16 (left)"), in French when needed
+    public static string Directions(string text) => Lang == "fr" ? Tr.FrenchDirections(text) : text;
 }
 
 // Rendering of conditions and actions from the embedded table (see src/bible/generate.js):
@@ -860,7 +896,7 @@ static class Tr
         ["right"] = "droite", ["up-right"] = "haut-droite", ["up"] = "haut", ["up-left"] = "haut-gauche",
         ["left"] = "gauche", ["down-left"] = "bas-gauche", ["down"] = "bas", ["down-right"] = "bas-droite",
     };
-    static string FrenchDirections(string text) =>
+    public static string FrenchDirections(string text) =>
         Regex.Replace(text, @"\b(\d+) \((right|up-right|up|up-left|left|down-left|down|down-right)\)",
                       m => $"{m.Groups[1].Value} ({DirectionNames[m.Groups[2].Value]})")
              .Replace("all directions", "toutes les directions").Replace("no direction", "aucune direction");
