@@ -239,6 +239,11 @@ verify)** otherwise.
   always destroyed. Fixes: read the data directly in the frame event (and give the Ini object the right
   file name in its properties, since a global "Set current file" also comes too late), or test it one
   tick later. A fast loop defined in the global events can be started from any frame (verified).
+- **Ignore Control also blocks the fire buttons** (verified): after `Player 1: Ignore Control`, the
+  conditions of that player (`Player 1 presses fire 1..4`, joystick directions) stop triggering, not
+  only the movement. A dialogue that ignores control and waits for `presses fire 4` is stuck. Freeze the
+  actor another way instead: a flag on the actor tested by the input events, and its position put back
+  on its last valid position each tick (or a second, static movement selected during the dialogue).
 - **Location of the INI file** (verified): the Ini object without a path writes into
   `%APPDATA%\MMFApplications\<file>.ini`, not into the game folder.
 - **Duplicating a frame copies "Don't include at build time"** (verified): frames made from a template
