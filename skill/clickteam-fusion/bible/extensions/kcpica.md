@@ -24,7 +24,7 @@
 
 | Code | Event no. | Menu | Display text (EN) | FR | Parameters | Usage | Real example (Nebula rendering) |
 |---|---|---|---|---|---|---|---|
-| 0 (guessed) | 80 | New picture |  |  |  | 7 (2 proj.) | `Active Picture : Event ID 80, 1 Parameters { Apppath$ + "GingerDude.png" }` |
+| 0 (guessed) | 80 | New picture | `New picture: <p0>` | Nouvelle image: <p0> |  | 7 (2 proj.) | `Active Picture : Event ID 80, 1 Parameters { Apppath$ + "GingerDude.png" }` |
 | 1 (guessed) | 81 | New picture from selector |  | Nouvelle image à partir d'un sélecteur |  | — |  |
 | 2 (guessed) | 82 | Hot Spot > Custom... |  |  |  | — |  |
 | 3 (guessed) | 83 | Size > Set Size... |  |  |  | — |  |

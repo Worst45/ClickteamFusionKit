@@ -1,7 +1,10 @@
 {
- "_comment": "Hand-checked labels for extensions whose catalog extraction gives no usable text. Key: <mfx file, lowercase> -> '<C|A>|<event no.>' -> { menu, en, fr }. 'en' / 'fr' are display templates (<object>, <p0>...). Source: screenshots of the French editor (verified). Read by src/bible/generate.js.",
+ "_comment": "Hand-checked labels for extensions whose catalog extraction gives no usable text. Key: <mfx file, lowercase> -> '<C|A>|<event no.>' -> { menu, en, fr }. 'en' / 'fr' are display templates (<object>, <p0>...). Source: screenshots of the French editor (verified); an 'en' built from the menu when only the French label was seen. Read by src/bible/generate.js.",
  "dlgbox": {
   "A|80": { "menu": "Dialog Box > Open Modal", "en": "Open modal", "fr": "Ouvrir modal" },
   "C|-84": { "menu": "Dialog > Closed by OK", "en": "<object>: closed by OK", "fr": "<object>: fermé par OK" }
+ },
+ "kcpica": {
+  "A|80": { "menu": "New picture", "en": "New picture: <p0>", "fr": "Nouvelle image: <p0>" }
  }
 }

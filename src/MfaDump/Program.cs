@@ -176,7 +176,22 @@ static void Run(string input, string output)
         sb.AppendLine();
         DumpPlaced(sb, frame);
 
-        var qualifiers = CollectNames(frame.FrameEvents, frame.MFAItems);
+        // Objects of included frames can be used in this frame's events: their names of flags,
+        // values and strings are needed too (this frame's own objects come first)
+        var items = new Dictionary<int, ObjectInfo>(frame.MFAItems);
+        foreach (Frame included in frame.GetIncludedFrames())
+        {
+            foreach (var kv in included.MFAItems)
+                items.TryAdd(kv.Key, kv.Value);
+            foreach (MFAObjectInfo oi in included.MFAFrameInfo.Objects)
+            {
+                if (oi.AltFlags != null)
+                    Names.FlagsByItem.TryAdd(oi.Handle, oi.AltFlags.AlterableFlags.Select(f => f.Name).ToArray());
+                if (oi.ObjectLoader is MFAObjectLoader il && il.AlterableStrings.Names.Any(n => !string.IsNullOrEmpty(n)))
+                    Names.StringsByItem.TryAdd(oi.Handle, il.AlterableStrings.Names);
+            }
+        }
+        var qualifiers = CollectNames(frame.FrameEvents, items);
         if (qualifiers.Count > 0)
         {
             sb.AppendLine($"== {L.T("Object groups (qualifiers)")} ==");

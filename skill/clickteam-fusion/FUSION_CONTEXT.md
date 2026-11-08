@@ -271,6 +271,13 @@ In French (`--lang fr`) the same structure reads `Fenêtre`, `Valeurs globales`,
   **"New condition" line** that closes the list (verified; not printed: Fusion stores it as an event
   whose only condition is `-1/-42`). Blank lines of the export do not count.
 - **Child events** (sub-events, a paid DLC of Fusion) are indented under their parent event.
+- **Included frame** (frame property "Include another frame > Frame", recent builds; verified):
+  `includes frame: "Model" (12)` in `== Frame ==`. The events of the included frame run in this frame
+  too, without being copied: a group kept only in the model frame works in every frame that includes
+  it. Its objects can be used in this frame's events (they appear as shortcuts in the editor): the
+  export names them normally (`Enemy : Set flag 0 on`), although they are not in this frame's
+  `== Objects ==` list; look for them in the included frame. An object can also be in both frames
+  (e.g. the player, to place it in each frame): this frame then has its own instance.
 - **Objects**: details are shown only when they say something (named or non-default values, animations
   with frames, non-static movements). `movements:` gives the type, the player and the starting
   direction (`24 (down)`). `extension:` gives the extension's name, file, version and the readable text
