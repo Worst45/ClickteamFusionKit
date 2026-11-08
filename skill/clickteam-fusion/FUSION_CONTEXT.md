@@ -238,6 +238,10 @@ Window: <width>x<height>, <fps> FPS
 == Global values ==               (if named)
 ################ FRAME: <name> ################
 == Objects ==                     name (type)  values: name=initial value, ...
+      strings: A name="initial text", ...      (alterable strings; only named or non-empty ones)
+      flags: 0 name=on, 3 name2=off, ...       (alterable flags; only named or set ones)
+      behaviours:                              (behaviours attached to the object)
+        <behaviour name> (<n> bytes)  text: readable fragments of its settings
 == Object groups (qualifiers) ==  name: members
 == Events ==
   === GROUP “Name” ===  (disabled at start)
@@ -249,7 +253,11 @@ Window: <width>x<height>, <fps> FPS
   === end of group ===
 ```
 
-In French (`--lang fr`) the same structure reads `Fenêtre`, `Valeurs globales`, `Objets`, `valeurs`,
+Child events (an event nested under another event, shown indented in the editor) are indented under their parent in the export. Fusion stores the end of each list of child events as an extra event whose only condition is `(-1, -42)`; MfaDump uses it to close the indentation and does not print it. Because of it, the event numbers can skip.
+
+A behaviour's settings are stored as a block of bytes whose layout depends on the behaviour. MfaDump shows the name, the size and any readable text found in the block. `MFADUMP_BEHAVIOUR_HEX=1` also prints the whole block as hex, which is how a behaviour's layout can be worked out.
+
+In French (`--lang fr`) the same structure reads `Fenêtre`, `Valeurs globales`, `Objets`, `valeurs`, `chaînes`, `drapeaux`, `comportements`,
 `Groupes d'objets (qualifiers)`, `Événements`, `=== GROUPE “Nom” ===`, `(désactivé au démarrage)`,
 `[DÉSACTIVÉ]`, `SI` / `FAIRE`, `=== fin de groupe ===`, and conditions/actions use the French editor's
 labels (e.g. `Params : Mettre le drapeau 1 «tombe» sur ON`).
@@ -290,6 +298,30 @@ labels (e.g. `Params : Mettre le drapeau 1 «tombe» sur ON`).
   pointing to a deleted menu item (verified). The editor shows the action without any option name
   (`Disable menu option`). It does nothing: suggest removing it.
 - When in doubt about a line, **ask for a screenshot of the event** rather than guessing.
+- **Resolved 2026-11-05** (export from a build with the Nebula fixes): `ReplaceString$(` (MFA expression
+  number 68) is now named; alterable value/string indexes of 26 and above print as two letters (`BA`,
+  `BU`; before they printed `[`); alterable value/string names are used inside expressions
+  (`Blit("Text Blitter")` instead of `Alterable String C("Text Blitter")`) and inside behaviour events.
+  The ~46 `Alterable Value A` / `Alterable String B` left are objects whose values really have no name.
+- Behaviour events (under each object's `behaviours:`) are decoded with the behaviour's own object
+  table; the host object is unknown there, so names are resolved from the object named in the line.
+- Child events (sub-conditions) are indented under their parent; the `-42` end markers are hidden.
+- Resolved: Sub-Application actions 88 (Show) and 89 (Hide) were missing from Nebula (they crashed
+  with `IndexOutOfRangeException`). A behaviour's data can end right after the `SPRG` (event groups) marker:
+  the events are complete, only group names are missing there (printed as "Unknown Group"). The export says
+  "events (group names are not stored in this behaviour)" instead of an error. If a read still fails, the
+  message names the block, the byte position and the number of events read.
+- **Event numbers** (`#n`, also on `=== GROUP ===` lines and on the first line of a `//` comment) are the
+  **same as the line numbers in the Fusion event editor** (verified 2026-11-05 against a screenshot:
+  groups 1319, 1348, 1372, 1378, 1636, 1837). Groups, comments and child events all count. Use them
+  to point the user to an event ("line 1378").
+- **Per frame**, before `== Objects ==`: `== Frame ==` (size, background colour, flags, layers with
+  parallax / visibility; `fixed (no scroll)` = coefficient 0). After the objects: `== Placed objects ==`
+  (starting x,y and layer; more than 8 identical ones are summarised as a count and an x/y range;
+  `created later by an action` = not on screen at start).
+- **Per object**, extra lines when present: `extension:` (extension name, file, version, data size and the
+  readable text found in its binary settings; the settings themselves cannot be decoded), `animations:`
+  (only those with frames), `movements:` (only non-static or player-controlled), `text object`, `counter:`.
 - Validated on 162 projects (MFU2 builds 280 to 296, old MMF2 builds 241 to 258, multi-frame projects
   and projects with extensions).
 

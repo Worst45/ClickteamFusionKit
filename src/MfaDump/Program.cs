@@ -137,7 +137,21 @@ static void Run(string input, string output)
         sb.AppendLine($"################ FRAME: {frame.FrameName} ################");
         sb.AppendLine();
         Out.Frame = frame.FrameName;
+        Names.StringsByItem.Clear();
         Names.FlagsByItem.Clear(); // object numbers are specific to each frame
+        DumpFrameInfo(sb, frame);
+        // Pre-fill by-name tables so behaviour events (dumped with the objects) can resolve
+        // Alterable Value/String names of frame objects.
+        Names.ValuesByObjectName.Clear();
+        Names.StringsByObjectName.Clear();
+        foreach (MFAObjectInfo pre in frame.MFAFrameInfo.Objects)
+            if (pre.ObjectLoader is MFAObjectLoader pl)
+            {
+                if (pl.AlterableValues.Names.Any(n => !string.IsNullOrEmpty(n)))
+                    Names.ValuesByObjectName[pre.Name] = pl.AlterableValues.Names;
+                if (pl.AlterableStrings.Names.Any(n => !string.IsNullOrEmpty(n)))
+                    Names.StringsByObjectName[pre.Name] = pl.AlterableStrings.Names;
+            }
         sb.AppendLine($"== {L.T("Objects")} ==");
         foreach (MFAObjectInfo oi in frame.MFAFrameInfo.Objects)
         {
@@ -152,10 +166,15 @@ static void Run(string input, string output)
                     sb.Append($"  {L.T("values")}: " + string.Join(", ", named));
             }
             sb.AppendLine();
+            if (oi.ObjectLoader is MFAObjectLoader loader2)
+                DumpObjectExtras(sb, oi, loader2);
+            if (oi.ObjectLoader is MFAObjectLoader loader3 && loader3.AlterableStrings.Names.Any(n => !string.IsNullOrEmpty(n)))
+                Names.StringsByItem[oi.Handle] = loader3.AlterableStrings.Names;
             if (oi.AltFlags != null)
                 Names.FlagsByItem[oi.Handle] = oi.AltFlags.AlterableFlags.Select(f => f.Name).ToArray();
         }
         sb.AppendLine();
+        DumpPlaced(sb, frame);
 
         var qualifiers = CollectNames(frame.FrameEvents, frame.MFAItems);
         if (qualifiers.Count > 0)
@@ -200,6 +219,11 @@ static Dictionary<string, List<string>> CollectNames(FrameEvents evts, Dictionar
         }
         if (real != null && Names.FlagsByItem.TryGetValue(real.Header.Handle, out var flags))
             Names.FlagsByEventObject[eo.Handle] = flags;
+        if (real != null && Names.StringsByItem.TryGetValue(real.Header.Handle, out var strNames))
+        {
+            Names.StringsByEventObject[eo.Handle] = strNames;
+            Names.StringsByObjectName[eo.Name] = strNames;
+        }
         if (real?.Properties is ObjectCommon common)
         {
             Names.ValuesByEventObject[eo.Handle] = common.ObjectAlterableValues.Names;
@@ -207,6 +231,224 @@ static Dictionary<string, List<string>> CollectNames(FrameEvents evts, Dictionar
         }
     }
     return qualifiers;
+}
+
+// Per-object details under the objects list: alterable strings, alterable flags and behaviours.
+// Only named or non-default entries are shown. MFADUMP_BEHAVIOUR_HEX=1 also dumps each behaviour's
+// raw data (up to 2000 bytes, identical blocks once) as hex (used to work out a behaviour's data layout).
+static void DumpObjectExtras(StringBuilder sb, MFAObjectInfo oi, MFAObjectLoader loader)
+{
+    var strs = loader.AlterableStrings;
+    var shownStrings = new List<string>();
+    for (int i = 0; i < strs.AlterableStrings.Length; i++)
+    {
+        string name = i < strs.Names.Length ? strs.Names[i] : "";
+        string text = strs.AlterableStrings[i] ?? "";
+        if (string.IsNullOrEmpty(name) && text.Length == 0)
+            continue;
+        string label = i < 26 ? ((char)('A' + i)).ToString() : i.ToString();
+        string shown = text.Replace("\r", "\\r").Replace("\n", "\\n");
+        shownStrings.Add(string.IsNullOrEmpty(name) ? $"{label}=\"{shown}\"" : $"{label} {name}=\"{shown}\"");
+    }
+    if (shownStrings.Count > 0)
+        sb.AppendLine($"      {L.T("strings")}: " + string.Join(", ", shownStrings));
+
+    if (oi.AltFlags != null)
+    {
+        var shownFlags = new List<string>();
+        for (int i = 0; i < oi.AltFlags.AlterableFlags.Length; i++)
+        {
+            MFAAltFlag f = oi.AltFlags.AlterableFlags[i];
+            if (string.IsNullOrEmpty(f.Name) && !f.Value)
+                continue;
+            string state = f.Value ? "on" : "off";
+            shownFlags.Add(string.IsNullOrEmpty(f.Name) ? $"{i}={state}" : $"{i} {f.Name}={state}");
+        }
+        if (shownFlags.Count > 0)
+            sb.AppendLine($"      {L.T("flags")}: " + string.Join(", ", shownFlags));
+    }
+
+    DumpObjectKind(sb, loader);
+
+    var behaviours = loader.Behaviours.Behaviours;
+    if (behaviours.Length > 0)
+    {
+        // MFADUMP_BEHAVIOUR_HEX=1 dumps blocks up to 2000 bytes; a larger number raises the limit.
+        // Identical blocks are dumped once.
+        int hexMax = 0;
+        string hexVar = Environment.GetEnvironmentVariable("MFADUMP_BEHAVIOUR_HEX");
+        if (hexVar == "1")
+            hexMax = 2000;
+        else if (!int.TryParse(hexVar, out hexMax))
+            hexMax = 0;
+        sb.AppendLine($"      {L.T("behaviours")}:");
+        foreach (ObjectBehaviour b in behaviours)
+        {
+            string texts = string.Join(" | ", ReadableRuns(b.Data).Take(8));
+            sb.AppendLine($"        {b.Name} ({b.Data.Length} bytes)" + (texts.Length > 0 ? $"  text: {texts}" : ""));
+            if (Environment.GetEnvironmentVariable("MFADUMP_BEHAVIOUR_EVENTS") != "0")
+                DumpBehaviourEvents(sb, b);
+            if (hexMax > 0 && b.Data.Length <= hexMax)
+            {
+                string key = b.Name + ":" + Convert.ToHexString(System.Security.Cryptography.SHA1.HashData(b.Data));
+                if (HexSeen.Seen.Add(key))
+                {
+                    for (int off = 0; off < b.Data.Length; off += 32)
+                        sb.AppendLine($"          {off:X4}: " + Convert.ToHexString(b.Data, off, Math.Min(32, b.Data.Length - off)));
+                }
+                else
+                    sb.AppendLine("          (same data as an earlier dump)");
+            }
+        }
+    }
+}
+
+// Type-specific settings: extension objects (raw data, readable text only), animations, movements,
+// string/counter objects.
+static void DumpObjectKind(StringBuilder sb, MFAObjectLoader loader)
+{
+    try
+    {
+        if (loader is MFAExtensionObject ext)
+        {
+            string texts = string.Join(" | ", ReadableRuns(ext.Data).Take(12));
+            sb.AppendLine($"      extension: {ext.Name} ({ext.FileName}) v{ext.Version}, data {ext.Data.Length} bytes" + (texts.Length > 0 ? $"  text: {texts}" : ""));
+        }
+        if (loader is MFAActive act && act.Animations.Any(x => x.Value.Directions.Any(d => d.Frames.Length > 0)))
+        {
+            var parts = act.Animations.Where(x => x.Value.Directions.Any(d => d.Frames.Length > 0)).OrderBy(a => a.Key).Select(a =>
+            {
+                int frames = a.Value.Directions.Sum(d => d.Frames.Length);
+                string nm = string.IsNullOrEmpty(a.Value.Name) ? $"#{a.Key}" : a.Value.Name;
+                return $"{nm}({a.Value.Directions.Count} dir, {frames} frames)";
+            });
+            sb.AppendLine($"      animations: {string.Join(", ", parts)}");
+        }
+        var mv = loader.Movements.Movements;
+        if (mv.Any(m => m.Type != 0 || m.Player != 0))
+            sb.AppendLine("      movements: " + string.Join(", ", mv.Select(m => (string.IsNullOrEmpty(m.Name) ? "" : m.Name + " ") + $"[type {m.Type}, player {m.Player}, start dir {m.StartingDirection}]")));
+        if (loader is MFAString str && str.Paragraphs.Length > 0)
+            sb.AppendLine($"      text object {str.Width}x{str.Height}: " + string.Join(" / ", str.Paragraphs.Select(p => "\"" + p.Value.Replace("\r", "").Replace("\n", "\\n") + "\"")));
+        if (loader is MFACounter ctr)
+            sb.AppendLine($"      counter: value {ctr.Value}, min {ctr.Minimum}, max {ctr.Maximum}");
+    }
+    catch (Exception ex) { sb.AppendLine($"      [?? object details: {ex.Message}]"); }
+}
+
+// A behaviour's data holds the same blocks as a frame's events (header "KLBEDAEH" + 4 bytes, then
+// STVE events, SMER comments, SJBO objects, ... !DNE): its events use a table of objects of their own.
+// They are read with Nebula's FrameEvents and printed under the behaviour. A block that is identical
+// to an earlier one is printed once. MFADUMP_BEHAVIOUR_EVENTS=0 turns this off.
+static void DumpBehaviourEvents(StringBuilder sb, ObjectBehaviour b)
+{
+    byte[] d = b.Data;
+    if (d.Length < 20 || Encoding.ASCII.GetString(d, 0, 8) != "KLBEDAEH")
+        return;
+    string key = "events:" + b.Name + ":" + Convert.ToHexString(System.Security.Cryptography.SHA1.HashData(d));
+    if (!HexSeen.Seen.Add(key))
+    {
+        sb.AppendLine("          (events: same as an earlier behaviour with the same data)");
+        return;
+    }
+
+    // Names of values and flags are collected per frame object: do not let them leak into this table.
+    var savedFlags = new Dictionary<int, string[]>(Names.FlagsByEventObject);
+    var savedValues = new Dictionary<int, string[]>(Names.ValuesByEventObject);
+    var savedByName = new Dictionary<string, string[]>(Names.ValuesByObjectName);
+    var savedStrings = new Dictionary<int, string[]>(Names.StringsByEventObject);
+    var savedStringsByName = new Dictionary<string, string[]>(Names.StringsByObjectName);
+    Names.StringsByEventObject.Clear();
+    // By-name tables stay: behaviour events refer to frame objects explicitly, e.g. Alterable String C("Text Blitter")
+    Names.FlagsByEventObject.Clear();
+    Names.ValuesByEventObject.Clear();
+
+    var inner = new StringBuilder();
+    string problem = "";
+    bool noGroupNames = false;
+    try
+    {
+        using var br = new ByteReader(d);
+        br.Seek(12);
+        var fe = new FrameEvents { IsBehaviour = true };
+        try
+        {
+            fe.ReadMFA(br, new object());
+        }
+        catch (Exception ex)
+        {
+            // A behaviour's data can end right after the "SPRG" (event groups) marker: no group list is stored,
+            // the events themselves are complete. Group names are not available there, so they print as "Unknown Group".
+            if (fe.LastIdentifier == "SPRG" && br.Tell() >= d.Length && fe.Events.Count > 0)
+                noGroupNames = true;
+            else
+                problem = $"{ex.Message} (while reading block '{fe.LastIdentifier}' at byte {br.Tell()} of {d.Length}; events read: {fe.Events.Count})";
+        }
+        DumpEvents(inner, fe);
+        if (fe.Events.Count == 0 && problem.Length == 0)
+            problem = "no events found";
+    }
+    catch (Exception ex)
+    {
+        problem = ex.Message;
+    }
+    finally
+    {
+        Names.FlagsByEventObject.Clear();
+        foreach (var kv in savedFlags) Names.FlagsByEventObject[kv.Key] = kv.Value;
+        Names.ValuesByEventObject.Clear();
+        foreach (var kv in savedValues) Names.ValuesByEventObject[kv.Key] = kv.Value;
+        Names.ValuesByObjectName.Clear();
+        foreach (var kv in savedByName) Names.ValuesByObjectName[kv.Key] = kv.Value;
+        Names.StringsByEventObject.Clear();
+        foreach (var kv in savedStrings) Names.StringsByEventObject[kv.Key] = kv.Value;
+        Names.StringsByObjectName.Clear();
+        foreach (var kv in savedStringsByName) Names.StringsByObjectName[kv.Key] = kv.Value;
+    }
+
+    sb.AppendLine(noGroupNames ? "          events (group names are not stored in this behaviour):" : "          events:");
+    foreach (string line in inner.ToString().Split('\n'))
+        if (line.Trim().Length > 0)
+            sb.AppendLine("            " + line.TrimEnd('\r'));
+    if (problem.Length > 0)
+        sb.AppendLine($"            [?? {problem}]");
+}
+
+// Readable text found in a behaviour's raw data: runs of at least 4 printable characters, either
+// 8-bit or UTF-16LE. The data layout is specific to each behaviour, so this is only a hint.
+static IEnumerable<string> ReadableRuns(byte[] data)
+{
+    var found = new List<string>();
+    var cur = new StringBuilder();
+    for (int i = 0; i < data.Length; i++)
+    {
+        byte c = data[i];
+        if (c >= 32 && c < 127)
+            cur.Append((char)c);
+        else
+        {
+            if (cur.Length >= 4)
+                found.Add(cur.ToString());
+            cur.Clear();
+        }
+    }
+    if (cur.Length >= 4)
+        found.Add(cur.ToString());
+    // UTF-16LE: printable byte followed by a zero byte
+    cur.Clear();
+    for (int i = 0; i + 1 < data.Length; i += 2)
+    {
+        if (data[i] >= 32 && data[i] < 127 && data[i + 1] == 0)
+            cur.Append((char)data[i]);
+        else
+        {
+            if (cur.Length >= 4)
+                found.Add("\"" + cur + "\"");
+            cur.Clear();
+        }
+    }
+    if (cur.Length >= 4)
+        found.Add("\"" + cur + "\"");
+    return found.Select(x => x.Length > 60 ? x.Substring(0, 60) + "..." : x).Distinct();
 }
 
 static void DumpNames(StringBuilder sb, string title, string[] names)
@@ -231,24 +473,38 @@ static void DumpEvents(StringBuilder sb, FrameEvents evts)
 
     string rawCode = Environment.GetEnvironmentVariable("MFADUMP_RAW");
     int indent = 0;
+    int childDepth = 0; // child events (events nested under an event that has children)
+    var depthAtGroup = new Stack<int>();
     int n = 0;
     foreach (Event evt in evts.Events)
     {
         n++;
         Condition first = evt.Conditions.FirstOrDefault();
-        string pad() => new string(' ', 2 + indent * 4);
+        string pad() => new string(' ', 2 + (indent + childDepth) * 4);
+
+        // Fusion ends every list of child events with an event whose only condition is (-1, -42), and
+        // which has an empty action. It is not shown in the editor: it only closes the list.
+        if (IsSys(first, -42) && evt.Conditions.Count == 1)
+        {
+            if (childDepth > 0)
+                childDepth--;
+            continue;
+        }
 
         // Group start
         if (IsSys(first, -10) && first.Parameters.FirstOrDefault()?.Data is ParameterGroup group)
         {
             string state = group.GroupFlags["InactiveOnStart"] ? $"  ({L.T("disabled at start")})" : "";
-            sb.AppendLine($"{pad()}=== {L.T("GROUP")} “{group.Name}” ==={state}");
+            sb.AppendLine($"{pad()}=== {L.T("GROUP")} “{group.Name}” ==={state}  #{n}");
+            depthAtGroup.Push(childDepth);
             indent++;
             continue;
         }
         // Group end
         if (IsSys(first, -11))
         {
+            if (depthAtGroup.Count > 0)
+                childDepth = depthAtGroup.Pop(); // a group closes whatever child lists were open inside it
             indent = Math.Max(0, indent - 1);
             sb.AppendLine($"{pad()}=== {L.T("end of group")} ===");
             sb.AppendLine();
@@ -257,18 +513,29 @@ static void DumpEvents(StringBuilder sb, FrameEvents evts)
         // Comment
         if (IsSys(first, -9) && first.Parameters.FirstOrDefault()?.Data is ParameterComment comment)
         {
+            bool firstLine = true;
             foreach (string line in comment.ToString().Replace("\r", "").Split('\n'))
-                sb.AppendLine($"{pad()}// {line}");
+            {
+                sb.AppendLine($"{pad()}// {line}" + (firstLine ? $"  #{n}" : ""));
+                firstLine = false;
+            }
             continue;
         }
 
         string flags = evt.EventFlags["Inactive"] ? $"  [{L.T("DISABLED")}]" : "";
+        // Debug: MFADUMP_EVENTFLAGS=1 shows each event's flags (children / parent) and the raw fields of
+        // conditions that Nebula cannot name (used to work out what such a condition is)
+        bool showFlags = Environment.GetEnvironmentVariable("MFADUMP_EVENTFLAGS") == "1";
+        if (showFlags)
+            flags += $"  <flags={evt.EventFlags.Value}{(evt.EventFlags["HasChildren"] ? " HasChildren" : "")}{(evt.EventFlags["HasParent"] ? " HasParent" : "")}{(evt.EventFlags["Grouped"] ? " Grouped" : "")} conds={evt.Conditions.Count} acts={evt.Actions.Count} restricted={evt.Restricted} id={evt.Identifier} undo={evt.Undo}>";
         sb.AppendLine($"{pad()}#{n}{flags}");
         foreach (Condition c in evt.Conditions)
         {
             string en = WithNames(c, Safe(() => c.ToString(), c.ObjectType, c.Num));
             sb.AppendLine($"{pad()}  {L.T("IF"),-5} {WithNames(c, Tr.Condition(c, en))}");
             Out.Record("C", n, c, en);
+            if (showFlags && en.StartsWith("[ERROR]"))
+                sb.AppendLine($"{pad()}        RAWCOND type={c.ObjectType} num={c.Num} obj={c.ObjectInfo} list={c.ObjectInfoList} eflags={c.EventFlags.Value} oflags={c.OtherFlags.Value} params={c.Parameters.Length} def={c.DefType} id={c.Identifier}");
             // Debug: MFADUMP_RAW=<code> shows the parameters (and their raw bytes) of conditions and actions having this code
             if (rawCode != null && c.Parameters.Any(p => p.Code.ToString() == rawCode))
                 foreach (var p in c.Parameters)
@@ -285,6 +552,8 @@ static void DumpEvents(StringBuilder sb, FrameEvents evts)
                 foreach (var p in a.Parameters)
                     sb.AppendLine($"{pad()}        RAW[{p.Code}] {p.Data?.GetType().Name} = {Safe(() => p.ToString(), 0, 0)} | {Convert.ToHexString(p.Raw)}");
         }
+        if (evt.EventFlags["HasChildren"])
+            childDepth++;
     }
     sb.AppendLine();
 }
@@ -295,15 +564,31 @@ static bool IsSys(Condition c, int num) => c != null && c.ObjectType == -1 && c.
 // the condition/action) -> rotation; Flag N / drapeau N -> with «name»
 static string WithNames(ACEventBase x, string text)
 {
-    text = Regex.Replace(text, @"Alterable Value ([A-Z])\(""([^""]+)""\)", m =>
+    text = Regex.Replace(text, @"Alterable Value ([A-Z]{1,2})\(""([^""]+)""\)", m =>
     {
-        int i = m.Groups[1].Value[0] - 'A';
+        int i = StrIndex(m.Groups[1].Value);
         return Names.ValuesByObjectName.TryGetValue(m.Groups[2].Value, out var vn) && i < vn.Length && !string.IsNullOrEmpty(vn[i])
             ? $"{vn[i]}(\"{m.Groups[2].Value}\")" : m.Value;
     });
 
+    text = Regex.Replace(text, @"Alterable String ([A-Z]{1,2})\(""([^""]+)""\)", m =>
+    {
+        int i = StrIndex(m.Groups[1].Value);
+        return Names.StringsByObjectName.TryGetValue(m.Groups[2].Value, out var sn) && i < sn.Length && !string.IsNullOrEmpty(sn[i])
+            ? $"{sn[i]}(\"{m.Groups[2].Value}\")" : m.Value;
+    });
+
+    text = ByHostName(text);
+
     if (x.ObjectType < 0)
         return text;
+
+    if (Names.StringsByEventObject.TryGetValue(x.ObjectInfo, out var strs))
+        text = Regex.Replace(text, @"Alterable String ([A-Z]{1,2})(?![A-Z(])", m =>
+        {
+            int i = StrIndex(m.Groups[1].Value);
+            return i < strs.Length && !string.IsNullOrEmpty(strs[i]) ? strs[i] : m.Value;
+        });
 
     if (Names.ValuesByEventObject.TryGetValue(x.ObjectInfo, out var values))
         text = Regex.Replace(text, @"Alterable Value ([A-Z])(?![A-Z(])", m =>
@@ -319,6 +604,95 @@ static string WithNames(ACEventBase x, string text)
             return i < flags.Length && !string.IsNullOrEmpty(flags[i]) ? $"{m.Groups[1].Value} {i} «{flags[i]}»" : m.Value;
         });
     return text;
+}
+
+// Fallback when the object is only known by the name printed in the line (e.g. inside behaviour events,
+// whose object table is not the frame's): "Name : ... Alterable String B ..." and "Alterable Value X of Name <op>".
+static string ByHostName(string text)
+{
+    text = Regex.Replace(text, @"Alterable (Value|String) ([A-Z]{1,2}) of (.+?)(?= (?:<>|=|<|>|!=|<=|>=)|[,)]|$)", m =>
+    {
+        var tbl = m.Groups[1].Value == "Value" ? Names.ValuesByObjectName : Names.StringsByObjectName;
+        int i = StrIndex(m.Groups[2].Value);
+        return tbl.TryGetValue(m.Groups[3].Value, out var n) && i < n.Length && !string.IsNullOrEmpty(n[i])
+            ? $"{n[i]} of {m.Groups[3].Value}" : m.Value;
+    });
+    int sep = text.IndexOf(" : ", StringComparison.Ordinal);
+    if (sep > 0 && sep < 60)
+    {
+        string host = text.Substring(0, sep);
+        text = text.Substring(0, sep) + Regex.Replace(text.Substring(sep), @"Alterable (Value|String) ([A-Z]{1,2})(?![A-Z(\w])", m =>
+        {
+            var tbl = m.Groups[1].Value == "Value" ? Names.ValuesByObjectName : Names.StringsByObjectName;
+            int i = StrIndex(m.Groups[2].Value);
+            return tbl.TryGetValue(host, out var n) && i < n.Length && !string.IsNullOrEmpty(n[i]) ? n[i] : m.Value;
+        });
+    }
+    return text;
+}
+
+// "A" = 0 ... "Z" = 25; two letters (Nebula prints floor(i/26) then i%26): "BU" = 1*26+20 = 46 (see notes)
+static int StrIndex(string l) => l.Length == 1 ? l[0] - 'A' : (l[0] - 'A') * 26 + (l[1] - 'A');
+
+// Frame properties: size, background, flags, layers (parallax, visibility), transitions.
+static void DumpFrameInfo(StringBuilder sb, Frame frame)
+{
+    try
+    {
+        var h = frame.FrameHeader;
+        sb.AppendLine($"== {L.T("Frame")} ==");
+        var bg = h.Background;
+        var flagNames = new List<string>();
+        foreach (var name in new[] { "DisplayTitle", "GrabDesktop", "KeepDisplay", "HandleBgCollisions", "ResizeToScreen", "TimerBasedMovements", "DontInclude", "DontIncludeGlobalEvents" })
+        {
+            try { if (h.MFAFrameFlags[name]) flagNames.Add(name); } catch { }
+        }
+        sb.AppendLine($"  {L.T("size")}: {h.Width}x{h.Height}  {L.T("background")}: #{bg.R:X2}{bg.G:X2}{bg.B:X2}" + (flagNames.Count > 0 ? $"  {L.T("flags")}: " + string.Join(", ", flagNames) : ""));
+        var layers = frame.FrameLayers.Layers;
+        for (int i = 0; i < layers.Length; i++)
+        {
+            var l = layers[i];
+            var lf = new List<string>();
+            foreach (var name in new[] { "Visible", "Locked", "HiddenAtStart", "WrapHorizontally", "WrapVertically" })
+            {
+                try { if (l.MFALayerFlags[name]) lf.Add(name); } catch { }
+            }
+            string para = (l.XCoefficient != 1f || l.YCoefficient != 1f) ? (l.XCoefficient == 0f && l.YCoefficient == 0f ? "  fixed (no scroll)" : $"  parallax {l.XCoefficient:0.##},{l.YCoefficient:0.##}") : "";
+            sb.AppendLine($"  {L.T("layer")} {i} \"{l.Name}\"{para}" + (lf.Count > 0 ? "  " + string.Join(", ", lf) : ""));
+        }
+        sb.AppendLine();
+    }
+    catch (Exception ex) { sb.AppendLine($"  [?? frame info: {ex.Message}]"); sb.AppendLine(); }
+}
+
+// Where the objects start in the frame (x,y of the top-left, layer). Many identical objects are summarised.
+static void DumpPlaced(StringBuilder sb, Frame frame)
+{
+    try
+    {
+        var inst = frame.FrameInstances.Instances;
+        if (inst.Length == 0) return;
+        var names = new Dictionary<uint, string>();
+        foreach (MFAObjectInfo oi in frame.MFAFrameInfo.Objects)
+            names[(uint)oi.Handle] = oi.Name;
+        var layers = frame.FrameLayers.Layers;
+        string layerName(uint i) => i < layers.Length ? $"{i} \"{layers[i].Name}\"" : i.ToString();
+        sb.AppendLine($"== {L.T("Placed objects")} ({inst.Length}) ==");
+        foreach (var g in inst.GroupBy(x => (x.ObjectInfo, x.Layer)).OrderBy(g => g.Key.Layer).ThenBy(g => names.GetValueOrDefault(g.Key.ObjectInfo, "")))
+        {
+            string nm = names.GetValueOrDefault(g.Key.ObjectInfo, $"object {g.Key.ObjectInfo}");
+            var list = g.ToList();
+            string extra = "";
+            if (list.Any(x => x.ParentType != 0)) extra += $"  (created later by an action, not on screen at start)";
+            if (list.Any(x => x.InstanceFlags["Locked"])) extra += "  locked";
+            if (list.Count <= 8)
+                sb.AppendLine($"  {nm}  {L.T("layer")} {layerName(g.Key.Layer)}: " + string.Join(" ", list.Select(x => $"({x.PositionX},{x.PositionY})")) + extra);
+            else
+                sb.AppendLine($"  {nm} x{list.Count}  {L.T("layer")} {layerName(g.Key.Layer)}: x {list.Min(x => x.PositionX)}..{list.Max(x => x.PositionX)}, y {list.Min(x => x.PositionY)}..{list.Max(x => x.PositionY)}" + extra);
+        }
+        sb.AppendLine();
+    }
+    catch (Exception ex) { sb.AppendLine($"  [?? placed objects: {ex.Message}]"); sb.AppendLine(); }
 }
 
 static string Safe(Func<string> f, short type, short num)
@@ -351,7 +725,7 @@ static class L
     {
         ["Application"] = "Application", ["Window"] = "Fenêtre", ["Global values"] = "Valeurs globales",
         ["Global strings"] = "Chaînes globales", ["GLOBAL EVENTS"] = "ÉVÉNEMENTS GLOBAUX", ["Objects"] = "Objets",
-        ["values"] = "valeurs", ["Object groups (qualifiers)"] = "Groupes d'objets (qualifiers)",
+        ["values"] = "valeurs", ["strings"] = "chaînes", ["flags"] = "drapeaux", ["behaviours"] = "comportements", ["Object groups (qualifiers)"] = "Groupes d'objets (qualifiers)",
         ["Events"] = "Événements", ["(none)"] = "(aucun)", ["disabled at start"] = "désactivé au démarrage",
         ["GROUP"] = "GROUPE", ["end of group"] = "fin de groupe", ["DISABLED"] = "DÉSACTIVÉ",
         ["IF"] = "SI", ["DO"] = "FAIRE",
@@ -675,8 +1049,16 @@ static class Out
     static void Write(object o) => Jsonl.WriteLine(JsonSerializer.Serialize(o, JsonOpts));
 }
 
+static class HexSeen
+{
+    public static readonly HashSet<string> Seen = new();
+}
+
 static class Names
 {
+    public static readonly Dictionary<int, string[]> StringsByItem = new();
+    public static readonly Dictionary<int, string[]> StringsByEventObject = new();
+    public static readonly Dictionary<string, string[]> StringsByObjectName = new();
     public static readonly Dictionary<int, string[]> FlagsByItem = new();
     public static readonly Dictionary<int, string[]> FlagsByEventObject = new();
     public static readonly Dictionary<int, string[]> ValuesByEventObject = new();
